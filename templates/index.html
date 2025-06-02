@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Machina Daily</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Machina Daily!</h1>
+    <p style="text-align: center; color: #555; font-style: italic;">
+  The Future, Rewritten by AI
+</p>
+<p style="text-align: center; color: #666;">
+  Machina Daily delivers cutting-edge tech news—scraped, rewritten, and published autonomously by AI.
+</p>
+    <p>Check out the latest articles below:</p>
+  </header>
+  <main>
+    {% if articles %}
+      <ul class="article-list">
+      {% for art in articles %}
+        <li>
+          <a href="{{ url_for('article', article_id=art['id']) }}">{{ art['title'] }}</a><br/>
+          <small>Category: {{ art['category'] }} | Published: {{ art['published']|format_date }} | Authors: {{ art['authors']|join(', ') }}</small>
+        </li>
+      {% endfor %}
+      </ul>
+    {% else %}
+      <p>No articles found.</p>
+    {% endif %}
+  </main>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Archive – Machina Daily</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root{
+      --bg:#f5f5f5;
+      --card-bg:#fff;
+      --text:#222;
+      --accent:#0066cc;
+      --banner:#e0e0e0;
+    }
+    body{
+      font-family:Arial,Helvetica,sans-serif;
+      max-width:900px;
+      margin:2rem auto;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    img.logo{display:block;margin:0 auto 1rem;max-width:160px}
+    h1{text-align:center;margin:.5rem 0;font-size:2rem}
+    input[type=search]{
+      display:block;
+      width:80%;
+      margin:1rem auto 2rem;
+      padding:.6rem;
+      font-size:1rem;
+      border:1px solid #ccc;
+      border-radius:6px;
+    }
+
+    .article{
+      background:var(--card-bg);
+      padding:1.5rem;
+      margin-bottom:1.5rem;
+      border-radius:10px;
+      box-shadow:0 2px 6px rgba(0,0,0,.08);
+      cursor:pointer;
+    }
+    .article h3{margin:0;font-size:1.1rem}
+    .article a{color:var(--accent);text-decoration:none}
+    .article a:hover{text-decoration:underline}
+
+    .article-detail{
+      background:var(--card-bg);
+      padding:1.5rem;
+      border-radius:10px;
+      box-shadow:0 2px 6px rgba(0,0,0,.1);
+    }
+    .article-header{
+      background:var(--banner);
+      padding:1rem;
+      margin:-1.5rem -1.5rem 1rem -1.5rem;
+      border-radius:8px 8px 0 0;
+    }
+    .article-header h2{margin:0;font-size:1.5rem}
+    .meta{color:#555;font-size:.9rem;margin-top:.4rem}
+    .article-body{font-size:1.05rem}
+    .article-body p{margin-bottom:1rem}
+    button#back{
+      margin-bottom:1rem;
+      padding:.4rem .9rem;
+      border:0;
+      background:var(--accent);
+      color:#fff;
+      border-radius:6px;
+      cursor:pointer;
+    }
+    button#back:hover{opacity:.9}
+
+    .article-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+  </style>
+</head>
+<body>
+
+  <a href="/"><img src="/frontend/logo.png" alt="Machina Daily Logo" class="logo"></a>
+  <h1>Article Archive</h1>
+
+  <input id="search" type="search" placeholder="Search articles…">
+
+  <div id="root">Loading archive…</div>
+
+<script>
+const root   = document.getElementById("root");
+const search = document.getElementById("search");
+let   all    = [];
+
+/* ---------- render list ---------- */
+function renderList(list){
+  root.innerHTML="";
+  if(!list.length){root.textContent="No articles found.";return;}
+
+  list.forEach(a=>{
+    const div=document.createElement("div");
+    div.className="article";
+    div.dataset.id=a.id;
+    div.innerHTML=`<h3>${a.title}</h3><p><small>${a.category} • ${a.published}</small></p>`;
+    root.appendChild(div);
+  });
+}
+
+/* ---------- render detail with magazine format ---------- */
+function renderDetail(obj){
+  let html = obj.text || "No content.";
+  if (html.startsWith("Rewritten: ")) html = html.replace("Rewritten: ", "");
+
+  // Break raw text into 3 clean paragraphs
+  const tmp = document.createElement("div");
+  tmp.innerHTML = html;
+  const rawText = tmp.textContent || "";
+
+  let sentences = rawText.match(/[^.!?]+[.!?]+/g) || [rawText];
+  const chunkSize = Math.ceil(sentences.length / 3);
+  const paras = [];
+
+  for (let i = 0; i < 3; i++) {
+    const chunk = sentences.slice(i * chunkSize, (i + 1) * chunkSize).join(" ").trim();
+    if (chunk) paras.push(`<p>${chunk}</p>`);
+  }
+  const formatted = paras.join("");
+
+  root.innerHTML = `
+    <div class="article-detail">
+      <button id="back">← Back</button>
+      <div class="article-header">
+        <h2>${obj.title}</h2>
+        <div class="meta">${(obj.authors||[]).join(", ")} — ${obj.published}</div>
+      </div>
+      ${obj.image ? `<img src="${obj.image}" alt="Article image" class="article-image">` : ""}
+      <div class="article-body">${formatted}</div>
+      <hr>
+      <p><a href="${obj.url}" target="_blank">Original Link ↗</a></p>
+    </div>`;
+}
+
+/* ---------- fetch full article ---------- */
+async function showArticle(id){
+  root.textContent="Loading…";
+  try{
+    const res=await fetch(`/article/${id}`);
+    if(!res.ok)throw Error("404");
+    const data=await res.json();
+    renderDetail(data);
+  }catch(e){
+    root.textContent="Failed to load article.";
+  }
+}
+
+/* ---------- load archive ---------- */
+async function loadArchive(){
+  try{
+    const res=await fetch("/archive.json");
+    all = await res.json();
+    renderList(all);
+  }catch(e){
+    root.textContent="Failed to load archive.";
+  }
+}
+
+/* ---------- live search ---------- */
+search.addEventListener("input",()=>{
+  const q = search.value.toLowerCase();
+  const filt = all.filter(a=>
+    a.title.toLowerCase().includes(q) ||
+    (a.category||"").toLowerCase().includes(q) ||
+    (a.authors||[]).join(" ").toLowerCase().includes(q)
+  );
+  renderList(filt);
+});
+
+/* ---------- click handler ---------- */
+document.addEventListener("click",e=>{
+  if(e.target.closest(".article") && e.target.closest(".article").dataset.id){
+    showArticle(e.target.closest(".article").dataset.id);
+  }
+  if(e.target.id==="back"){
+    renderList(all);
+  }
+});
+
+loadArchive();
+</script>
+</body>
+</html>

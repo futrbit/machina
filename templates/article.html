@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ article.title }} - Machina Daily</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>{{ article.title }}</h1>
+    <nav>
+      <a href="{{ url_for('index') }}">Home</a> |
+      <a href="{{ url_for('category', cat=article.category) }}">{{ article.category|capitalize }}</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    {% if article.thumbnail %}
+      <img src="{{ article.thumbnail }}" alt="Article thumbnail" class="article-thumbnail">
+    {% endif %}
+    
+    <p><i>Category: {{ article.category }}</i></p>
+    <p><i>Published: {{ article.published|format_date }}</i></p>
+    <p><b>Authors:</b> {{ article.authors|join(', ') }}</p>
+    <hr>
+    <div>{{ article.text|replace('\n', '<br>')|safe }}</div>
+  </main>
+
+  <footer>
+    <p><a href="{{ url_for('category', cat=article.category) }}">Back to {{ article.category }} articles</a></p>
+  </footer>
+</body>
+</html>

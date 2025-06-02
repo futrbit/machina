@@ -1,0 +1,290 @@
+<!-- Replace your current index.html with this -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Machina Daily</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <style>
+    :root {
+      --bg: #f5f5f5;
+      --card-bg: #fff;
+      --text: #222;
+      --accent: #0066cc;
+      --banner: #e9ecef;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    img.logo {
+      display: block;
+      margin: 0 auto 1rem;
+      max-width: 160px;
+    }
+
+    h1 {
+      margin: .3rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    p.tagline {
+      margin: .2rem 0;
+      text-align: center;
+      color: #555;
+      font-style: italic;
+    }
+
+    p.subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 0.8rem;
+    }
+
+    .card {
+      display: flex;
+      gap: 1rem;
+      background: var(--card-bg);
+      padding: 1rem;
+      margin-bottom: 1.2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, .08);
+    }
+
+    .card-thumb {
+      flex: 0 0 120px;
+      height: 80px;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: .1rem 0 .4rem 0;
+      font-size: 1.05rem;
+    }
+
+    .card a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    .article {
+      background: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    }
+
+    .article-header {
+      background: var(--banner);
+      padding: 1rem;
+      border-radius: 6px;
+      margin: -1.5rem -1.5rem 1rem -1.5rem;
+    }
+
+    .article-header h2 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+
+    .meta {
+      color: #555;
+      font-size: .9rem;
+      margin-top: .4rem;
+    }
+
+    .article-content {
+      font-size: 1.05rem;
+    }
+
+    .article-content img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin: 1rem 0;
+    }
+
+    button.back {
+      margin-bottom: 1rem;
+      padding: .4rem .9rem;
+      border: 0;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button.back:hover {
+      opacity: .9;
+    }
+
+    .more-link {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .more-link a {
+      font-weight: bold;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .more-link a:hover {
+      text-decoration: underline;
+    }
+
+    /* --- Trending widget --- */
+    #trending-box {
+      background: var(--card-bg);
+      padding: 0.8rem 1rem;
+      margin: 1rem 0 1.5rem;
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+    }
+
+    #trending-box h4 {
+      margin: 0 0 0.5rem;
+      font-size: 1rem;
+      color: var(--accent);
+    }
+
+    #trending-box ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    #trending-box li {
+      margin-bottom: 0.3rem;
+    }
+
+    #trending-box a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    #trending-box a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="/frontend/logo.png" alt="Machina Daily Logo" class="logo" />
+  <h1>Machina Daily</h1>
+  <p class="tagline">Next-Gen News for Next-Gen Minds</p>
+  <p class="subtitle">Daily cutting-edge tech headlines — Tech • Drones • Autonomous • Robotics</p>
+
+  <!-- Trending widget -->
+  <div id="trending-box">
+    <h4>📈 Trending</h4>
+    <ul id="trending-list">
+      <li>Loading…</li>
+    </ul>
+  </div>
+
+  <div id="root">Loading…</div>
+  <div class="more-link" id="archive-link" style="display:none">
+    <a href="/frontend/archive.html">More Articles →</a>
+  </div>
+
+<script>
+const root = document.getElementById("root");
+const archiveLink = document.getElementById("archive-link");
+const trendingList = document.getElementById("trending-list");
+
+function cardHTML(a) {
+  const thumb = a.thumbnail ?? "/frontend/thumb-tech.jpg";
+  return `
+    <div class="card">
+      <img src="${thumb}" class="card-thumb" alt="thumb">
+      <div>
+        <h3>${a.title}</h3>
+        <p><strong>${a.category}</strong> · ${a.published}</p>
+        <a href="#" data-id="${a.id}">Read More →</a>
+      </div>
+    </div>`;
+}
+
+function articleHTML(a) {
+  let html = a.text || "No content.";
+  if (html.startsWith("Rewritten: ")) html = html.replace("Rewritten: ", "");
+
+  const tmp = document.createElement("div");
+  tmp.innerHTML = html;
+  const rawText = tmp.textContent || "";
+
+  let sentences = rawText.match(/[^.!?]+[.!?]+/g) || [rawText];
+  const chunkSize = Math.ceil(sentences.length / 3);
+  const paras = [];
+
+  for (let i = 0; i < 3; i++) {
+    const chunk = sentences.slice(i * chunkSize, (i + 1) * chunkSize).join(" ").trim();
+    if (chunk) paras.push(`<p>${chunk}</p>`);
+  }
+  return `
+    <div class="article">
+      <button class="back" onclick="loadList()">← Back</button>
+      <div class="article-header">
+        <h2>${a.title}</h2>
+        <div class="meta">${(a.authors || []).join(", ")} — ${a.published}</div>
+      </div>
+      <div class="article-content">${paras.join("")}</div>
+      <hr>
+      <p><a href="${a.url}" target="_blank">Original Link ↗</a></p>
+    </div>`;
+}
+
+async function loadList() {
+  root.textContent = "Loading…";
+  archiveLink.style.display = "none";
+  try {
+    const list = await (await fetch("/articles")).json();
+    root.innerHTML = list.map(cardHTML).join("");
+    archiveLink.style.display = "block";
+
+    // Fill trending widget
+    trendingList.innerHTML = list.slice(0, 3).map(a =>
+      `<li><a href="#" data-id="${a.id}">${a.title}</a></li>`
+    ).join("");
+  } catch (e) {
+    root.textContent = "Failed to load.";
+    trendingList.innerHTML = "<li>Failed to load trending.</li>";
+    console.error(e);
+  }
+}
+
+async function showArticle(id) {
+  root.textContent = "Loading…";
+  archiveLink.style.display = "none";
+  try {
+    const art = await (await fetch(`/article/${id}`)).json();
+    root.innerHTML = articleHTML(art);
+  } catch (e) {
+    root.textContent = "Failed to load.";
+    console.error(e);
+  }
+}
+
+document.addEventListener("click", e => {
+  if (e.target.matches("[data-id]")) {
+    e.preventDefault();
+    showArticle(e.target.dataset.id);
+  }
+});
+
+loadList();
+</script>
+</body>
+</html>
