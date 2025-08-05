@@ -190,6 +190,36 @@
 </head>
 <body>
 
+  <script>
+async function updateLivePrices() {
+  const priceBar = document.getElementById("price-bar");
+  try {
+    const res = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=gold,oil,silver,bitcoin,ethereum&vs_currencies=usd");
+    const data = await res.json();
+
+    const gold = data.gold?.usd ?? "N/A";
+    const silver = data.silver?.usd ?? "N/A";
+    const oil = data.oil?.usd ?? "N/A";
+    const btc = data.bitcoin?.usd ?? "N/A";
+    const eth = data.ethereum?.usd ?? "N/A";
+
+    priceBar.innerHTML = `
+      🪙 Gold: $${gold} &nbsp;|&nbsp;
+      🥈 Silver: $${silver} &nbsp;|&nbsp;
+      🛢️ Oil: $${oil} &nbsp;|&nbsp;
+      ₿ BTC: $${btc} &nbsp;|&nbsp;
+      Ξ ETH: $${eth}
+    `;
+  } catch (err) {
+    priceBar.textContent = "Failed to load live prices.";
+  }
+}
+
+updateLivePrices();
+setInterval(updateLivePrices, 5 * 60 * 1000); // Refresh every 5 minutes
+</script>
+
+
   <img src="/frontend/logo.png" alt="Machina Daily Logo" class="logo" />
   <h1>Machina Daily</h1>
   <p class="tagline">Next-Gen News for Next-Gen Minds</p>
