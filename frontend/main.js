@@ -5,7 +5,6 @@ const dTitle = document.getElementById("d-title");
 const dMeta  = document.getElementById("d-meta");
 const dBody  = document.getElementById("d-body");
 const catsDiv = document.getElementById("cats");
-const priceBar = document.getElementById("price-bar");
 
 let allArticles = [];
 
@@ -79,35 +78,8 @@ window.onpopstate = () => {
   }
 };
 
-async function loadLivePrices() {
-  if (!priceBar) return;
-  try {
-    const metalRes = await fetch("https://api.metals.live/v1/spot");
-    const metalData = await metalRes.json();
-    const prices = {};
-    metalData.forEach(item => {
-      prices[item[0]] = item[1];
-    });
-
-    const gold = prices.gold ? `$${prices.gold.toFixed(2)}` : "N/A";
-    const silver = prices.silver ? `$${prices.silver.toFixed(2)}` : "N/A";
-
-    const stockRes = await fetch("https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1d");
-    const stockJson = await stockRes.json();
-    const applePrice = stockJson.chart.result[0].meta.regularMarketPrice;
-    const apple = applePrice ? `$${applePrice.toFixed(2)}` : "N/A";
-
-    priceBar.innerHTML = `📈 Apple: <b>${apple}</b> | 🪙 Gold: <b>${gold}</b> | 🥈 Silver: <b>${silver}</b>`;
-  } catch (e) {
-    priceBar.textContent = "Live prices unavailable";
-    console.error("Error loading live prices", e);
-  }
-}
-
+// ✅ Live prices now handled in index.html, no need to call loadLivePrices here
 document.addEventListener("DOMContentLoaded", () => {
-  loadLivePrices();
-  setInterval(loadLivePrices, 300000); // Refresh every 5 minutes
-
   if (window.location.pathname.startsWith("/article/")) {
     const id = window.location.pathname.split("/article/")[1];
     showDetail(id);
