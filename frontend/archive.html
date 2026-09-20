@@ -1,203 +1,1005 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZS9SDTXF6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  gtag('config', 'G-7ZS9SDTXF6');
-</script>
-  <meta charset="UTF-8" />
-  <title>Archive – Machina Daily</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Archive — MACHINA DAILY</title>
+  <meta name="description" content="The Machina Daily archive — technology, autonomous systems, robotics and emerging intelligence.">
+
+  <link rel="stylesheet" href="/frontend/style.css">
+
   <style>
-    :root{
-      --bg:#f5f5f5;
-      --card-bg:#fff;
-      --text:#222;
-      --accent:#0066cc;
-      --banner:#e0e0e0;
-    }
-    body{
-      font-family:Arial,Helvetica,sans-serif;
-      max-width:900px;
-      margin:2rem auto;
-      background:var(--bg);
-      color:var(--text);
-      line-height:1.6;
-    }
-    img.logo{display:block;margin:0 auto 1rem;max-width:160px}
-    h1{text-align:center;margin:.5rem 0;font-size:2rem}
-    input[type=search]{
-      display:block;
-      width:80%;
-      margin:1rem auto 2rem;
-      padding:.6rem;
-      font-size:1rem;
-      border:1px solid #ccc;
-      border-radius:6px;
+    /* =========================================================
+       MACHINA ARCHIVE
+       ========================================================= */
+
+    .archive-page {
+      min-height: 100vh;
+      background: #050505;
+      color: #f5f5f5;
     }
 
-    .article{
-      background:var(--card-bg);
-      padding:1.5rem;
-      margin-bottom:1.5rem;
-      border-radius:10px;
-      box-shadow:0 2px 6px rgba(0,0,0,.08);
-      cursor:pointer;
+    .archive-top {
+      border-bottom: 1px solid rgba(255,255,255,.14);
+      padding: 18px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
     }
-    .article h3{margin:0;font-size:1.1rem}
-    .article a{color:var(--accent);text-decoration:none}
-    .article a:hover{text-decoration:underline}
 
-    .article-detail{
-      background:var(--card-bg);
-      padding:1.5rem;
-      border-radius:10px;
-      box-shadow:0 2px 6px rgba(0,0,0,.1);
+    .archive-brand {
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
     }
-    .article-header{
-      background:var(--banner);
-      padding:1rem;
-      margin:-1.5rem -1.5rem 1rem -1.5rem;
-      border-radius:8px 8px 0 0;
-    }
-    .article-header h2{margin:0;font-size:1.5rem}
-    .meta{color:#555;font-size:.9rem;margin-top:.4rem}
-    .article-body{font-size:1.05rem}
-    .article-body p{margin-bottom:1rem}
-    button#back{
-      margin-bottom:1rem;
-      padding:.4rem .9rem;
-      border:0;
-      background:var(--accent);
-      color:#fff;
-      border-radius:6px;
-      cursor:pointer;
-    }
-    button#back:hover{opacity:.9}
 
-    .article-image {
-      max-width: 100%;
-      height: auto;
+    .archive-back {
+      color: rgba(255,255,255,.65);
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .archive-back:hover {
+      color: #d7ff3f;
+    }
+
+    .archive-intro {
+      padding: 90px 5vw 55px;
+      border-bottom: 1px solid rgba(255,255,255,.14);
+    }
+
+    .archive-kicker {
+      color: #d7ff3f;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    .archive-title {
+      margin: 0;
+      max-width: 1100px;
+      font-size: clamp(4rem, 10vw, 9rem);
+      line-height: .82;
+      letter-spacing: -.075em;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .archive-description {
+      max-width: 650px;
+      margin: 38px 0 0;
+      color: rgba(255,255,255,.62);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .archive-controls {
+      padding: 22px 5vw;
+      border-bottom: 1px solid rgba(255,255,255,.14);
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(5,5,5,.94);
+      backdrop-filter: blur(12px);
+    }
+
+    .archive-search {
+      flex: 1 1 320px;
+      min-width: 220px;
+      background: transparent;
+      border: 1px solid rgba(255,255,255,.2);
+      color: #fff;
+      padding: 14px 16px;
+      font-family: inherit;
+      font-size: 13px;
+      outline: none;
+    }
+
+    .archive-search:focus {
+      border-color: #d7ff3f;
+    }
+
+    .archive-filter {
+      background: #111;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,.2);
+      padding: 14px 16px;
+      font-family: inherit;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+
+    .archive-count {
+      margin-left: auto;
+      color: rgba(255,255,255,.45);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .archive-content {
+      padding: 0 5vw 100px;
+    }
+
+    .archive-day {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      border-bottom: 1px solid rgba(255,255,255,.14);
+    }
+
+    .archive-date {
+      padding: 34px 25px 34px 0;
+      border-right: 1px solid rgba(255,255,255,.14);
+    }
+
+    .archive-date-day {
+      font-size: 42px;
+      font-weight: 900;
+      line-height: .9;
+      letter-spacing: -.06em;
+    }
+
+    .archive-date-month {
+      margin-top: 8px;
+      color: #d7ff3f;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+
+    .archive-items {
+      padding: 0 0 0 35px;
+    }
+
+    .archive-item {
+      display: grid;
+      grid-template-columns: 180px 1fr 70px;
+      gap: 25px;
+      align-items: center;
+      min-height: 150px;
+      padding: 24px 0;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      cursor: pointer;
+      transition: padding .25s ease, background .25s ease;
+    }
+
+    .archive-item:last-child {
+      border-bottom: 0;
+    }
+
+    .archive-item:hover {
+      padding-left: 10px;
+    }
+
+    .archive-thumb {
+      width: 180px;
+      height: 105px;
+      object-fit: cover;
+      background: #111;
+      filter: saturate(.75);
+      transition: filter .25s ease, transform .25s ease;
+    }
+
+    .archive-item:hover .archive-thumb {
+      filter: saturate(1);
+      transform: scale(1.025);
+    }
+
+    .archive-category {
+      color: #d7ff3f;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: 9px;
+    }
+
+    .archive-item-title {
+      margin: 0;
+      font-size: clamp(18px, 2vw, 27px);
+      line-height: 1.05;
+      letter-spacing: -.025em;
+      font-weight: 750;
+    }
+
+    .archive-meta {
+      margin-top: 9px;
+      color: rgba(255,255,255,.4);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .archive-arrow {
+      text-align: right;
+      color: rgba(255,255,255,.35);
+      font-size: 24px;
+      transition: color .2s ease, transform .2s ease;
+    }
+
+    .archive-item:hover .archive-arrow {
+      color: #d7ff3f;
+      transform: translateX(5px);
+    }
+
+    .archive-empty,
+    .archive-loading {
+      padding: 80px 0;
+      color: rgba(255,255,255,.5);
+      font-size: 14px;
+    }
+
+    /* Reader */
+
+    .archive-reader {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      overflow-y: auto;
+      background: #050505;
+    }
+
+    .archive-reader.open {
       display: block;
-      margin: 1rem auto;
-      border-radius: 6px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .reader-top {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      padding: 18px 28px;
+      border-bottom: 1px solid rgba(255,255,255,.14);
+      background: rgba(5,5,5,.94);
+      backdrop-filter: blur(12px);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .reader-close {
+      border: 0;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 11px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .reader-close:hover {
+      color: #d7ff3f;
+    }
+
+    .reader-body {
+      max-width: 900px;
+      margin: auto;
+      padding: 80px 25px 120px;
+    }
+
+    .reader-category {
+      color: #d7ff3f;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .reader-title {
+      font-size: clamp(42px, 7vw, 82px);
+      line-height: .92;
+      letter-spacing: -.055em;
+      margin: 20px 0;
+    }
+
+    .reader-meta {
+      color: rgba(255,255,255,.45);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      padding-bottom: 35px;
+      border-bottom: 1px solid rgba(255,255,255,.14);
+    }
+
+    .reader-image {
+      width: 100%;
+      max-height: 600px;
+      object-fit: cover;
+      margin: 40px 0;
+    }
+
+    .reader-text {
+      max-width: 700px;
+      font-size: 19px;
+      line-height: 1.85;
+      color: rgba(255,255,255,.82);
+    }
+
+    .reader-text p {
+      margin: 0 0 25px;
+    }
+
+    .reader-source {
+      margin-top: 50px;
+      padding-top: 25px;
+      border-top: 1px solid rgba(255,255,255,.14);
+    }
+
+    .reader-source a {
+      color: #d7ff3f;
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 800px) {
+      .archive-day {
+        display: block;
+      }
+
+      .archive-date {
+        border-right: 0;
+        padding: 25px 0 10px;
+      }
+
+      .archive-items {
+        padding-left: 0;
+      }
+
+      .archive-item {
+        grid-template-columns: 110px 1fr 25px;
+        gap: 15px;
+      }
+
+      .archive-thumb {
+        width: 110px;
+        height: 80px;
+      }
+
+      .archive-title {
+        font-size: 17vw;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .archive-top {
+        padding: 15px;
+      }
+
+      .archive-intro,
+      .archive-content {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .archive-controls {
+        padding: 15px 20px;
+      }
+
+      .archive-item {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .archive-thumb {
+        width: 100%;
+        height: 170px;
+      }
+
+      .archive-arrow {
+        display: none;
+      }
     }
   </style>
 </head>
+
 <body>
 
-  <a href="/"><img src="/frontend/logo.png" alt="Machina Daily Logo" class="logo"></a>
-  <h1>Article Archive</h1>
+<div class="archive-page">
 
-  <input id="search" type="search" placeholder="Search articles…">
+  <header class="archive-top">
+    <a href="/frontend/index.html" class="archive-brand">MACHINA DAILY</a>
+    <a href="/frontend/index.html" class="archive-back">← Current Edition</a>
+  </header>
 
-  <div id="root">Loading archive…</div>
+  <section class="archive-intro">
+    <div class="archive-kicker">Machina / Archive</div>
+
+    <h1 class="archive-title">The<br>Machine<br>Memory.</h1>
+
+    <p class="archive-description">
+      Every story collected by Machina, preserved as a record of the technological
+      world as it changes. Search the archive by story, category, author or date.
+    </p>
+  </section>
+
+  <section class="archive-controls">
+
+    <input
+      id="search"
+      class="archive-search"
+      type="search"
+      placeholder="SEARCH THE ARCHIVE..."
+      autocomplete="off"
+    >
+
+    <select id="category" class="archive-filter">
+      <option value="all">All signals</option>
+    </select>
+
+    <div id="count" class="archive-count">Loading</div>
+
+  </section>
+
+  <main id="root" class="archive-content">
+    <div class="archive-loading">Loading archive…</div>
+  </main>
+
+</div>
+
+<!-- ARTICLE READER -->
+
+<div id="reader" class="archive-reader">
+
+  <div class="reader-top">
+    <span class="archive-brand">MACHINA / READER</span>
+
+    <button id="closeReader" class="reader-close">
+      Close ×
+    </button>
+  </div>
+
+  <article id="readerBody" class="reader-body">
+  </article>
+
+</div>
 
 <script>
-const root   = document.getElementById("root");
+
+const root = document.getElementById("root");
 const search = document.getElementById("search");
-let   all    = [];
+const category = document.getElementById("category");
+const count = document.getElementById("count");
 
-/* ---------- render list ---------- */
-function renderList(list){
-  root.innerHTML="";
-  if(!list.length){root.textContent="No articles found.";return;}
+const reader = document.getElementById("reader");
+const readerBody = document.getElementById("readerBody");
+const closeReader = document.getElementById("closeReader");
 
-  list.forEach(a=>{
-    const div=document.createElement("div");
-    div.className="article";
-    div.dataset.id=a.id;
-    div.innerHTML=`<h3>${a.title}</h3><p><small>${a.category} • ${a.published}</small></p>`;
-    root.appendChild(div);
+let all = [];
+
+
+/* ---------------------------------------------------------
+   SECURITY
+--------------------------------------------------------- */
+
+function escapeHTML(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+
+/* ---------------------------------------------------------
+   DATE
+--------------------------------------------------------- */
+
+function dateParts(dateString) {
+
+  const date = new Date(dateString);
+
+  if (Number.isNaN(date.getTime())) {
+    return {
+      day: "--",
+      month: "UNKNOWN",
+      year: ""
+    };
+  }
+
+  return {
+    day: String(date.getUTCDate()).padStart(2, "0"),
+    month: date.toLocaleDateString("en-GB", {
+      month: "short",
+      timeZone: "UTC"
+    }).toUpperCase(),
+    year: date.getUTCFullYear()
+  };
+}
+
+
+/* ---------------------------------------------------------
+   THUMBNAIL
+--------------------------------------------------------- */
+
+function thumbnail(article) {
+
+  return article.thumbnail ||
+         article.image ||
+         "/frontend/thumb-tech.jpg";
+
+}
+
+
+/* ---------------------------------------------------------
+   GROUP BY DAY
+--------------------------------------------------------- */
+
+function groupByDay(list) {
+
+  const groups = {};
+
+  list.forEach(article => {
+
+    const raw = article.sort_dt ||
+                article.published ||
+                "";
+
+    const date = new Date(raw);
+
+    let key;
+
+    if (Number.isNaN(date.getTime())) {
+      key = "unknown";
+    } else {
+      key = date.toISOString().slice(0, 10);
+    }
+
+    if (!groups[key]) {
+      groups[key] = [];
+    }
+
+    groups[key].push(article);
+
   });
+
+  return groups;
+
 }
 
-/* ---------- render detail with magazine format ---------- */
-function renderDetail(obj){
-  let html = obj.text || "No content.";
-  if (html.startsWith("Rewritten: ")) html = html.replace("Rewritten: ", "");
 
-  // Break raw text into 3 clean paragraphs
-  const tmp = document.createElement("div");
-  tmp.innerHTML = html;
-  const rawText = tmp.textContent || "";
+/* ---------------------------------------------------------
+   RENDER ARCHIVE
+--------------------------------------------------------- */
 
-  let sentences = rawText.match(/[^.!?]+[.!?]+/g) || [rawText];
-  const chunkSize = Math.ceil(sentences.length / 3);
-  const paras = [];
+function renderList(list) {
 
-  for (let i = 0; i < 3; i++) {
-    const chunk = sentences.slice(i * chunkSize, (i + 1) * chunkSize).join(" ").trim();
-    if (chunk) paras.push(`<p>${chunk}</p>`);
-  }
-  const formatted = paras.join("");
+  root.innerHTML = "";
 
-  root.innerHTML = `
-    <div class="article-detail">
-      <button id="back">← Back</button>
-      <div class="article-header">
-        <h2>${obj.title}</h2>
-        <div class="meta">${(obj.authors||[]).join(", ")} — ${obj.published}</div>
+  count.textContent =
+    `${list.length} ${list.length === 1 ? "story" : "stories"}`;
+
+
+  if (!list.length) {
+
+    root.innerHTML = `
+      <div class="archive-empty">
+        No stories found.
       </div>
-      ${obj.image ? `<img src="${obj.image}" alt="Article image" class="article-image">` : ""}
-      <div class="article-body">${formatted}</div>
-      <hr>
-      <p><a href="${obj.url}" target="_blank">Original Link ↗</a></p>
-    </div>`;
-}
+    `;
 
-/* ---------- fetch full article ---------- */
-async function showArticle(id){
-  root.textContent="Loading…";
-  try{
-    const res=await fetch(`/article/${id}`);
-    if(!res.ok)throw Error("404");
-    const data=await res.json();
-    renderDetail(data);
-  }catch(e){
-    root.textContent="Failed to load article.";
+    return;
+
   }
+
+
+  const groups = groupByDay(list);
+
+  Object.keys(groups)
+    .sort()
+    .reverse()
+    .forEach(day => {
+
+      const articles = groups[day];
+
+      const section = document.createElement("section");
+      section.className = "archive-day";
+
+
+      let date;
+
+      if (day === "unknown") {
+
+        date = {
+          day: "--",
+          month: "UNKNOWN",
+          year: ""
+        };
+
+      } else {
+
+        date = dateParts(day);
+
+      }
+
+
+      section.innerHTML = `
+
+        <div class="archive-date">
+
+          <div class="archive-date-day">
+            ${escapeHTML(date.day)}
+          </div>
+
+          <div class="archive-date-month">
+            ${escapeHTML(date.month)}
+            ${escapeHTML(String(date.year))}
+          </div>
+
+        </div>
+
+        <div class="archive-items"></div>
+
+      `;
+
+
+      const items =
+        section.querySelector(".archive-items");
+
+
+      articles.forEach(article => {
+
+        const item =
+          document.createElement("article");
+
+        item.className = "archive-item";
+
+        item.dataset.id = article.id;
+
+
+        item.innerHTML = `
+
+          <img
+            class="archive-thumb"
+            src="${escapeHTML(thumbnail(article))}"
+            alt=""
+            loading="lazy"
+            onerror="this.src='/frontend/thumb-tech.jpg'"
+          >
+
+          <div>
+
+            <div class="archive-category">
+              ${escapeHTML(article.category || "technology")}
+            </div>
+
+            <h2 class="archive-item-title">
+              ${escapeHTML(article.title)}
+            </h2>
+
+            <div class="archive-meta">
+              ${(article.authors || []).map(escapeHTML).join(", ")}
+              ${article.published ? " · " + escapeHTML(article.published) : ""}
+            </div>
+
+          </div>
+
+          <div class="archive-arrow">
+            →
+          </div>
+
+        `;
+
+
+        item.addEventListener("click", () => {
+
+          showArticle(article.id);
+
+        });
+
+
+        items.appendChild(item);
+
+      });
+
+
+      root.appendChild(section);
+
+    });
+
 }
 
-/* ---------- load archive ---------- */
-async function loadArchive(){
-  try{
-    const res=await fetch("/archive.json");
-    all = await res.json();
-    renderList(all);
-  }catch(e){
-    root.textContent="Failed to load archive.";
+
+/* ---------------------------------------------------------
+   ARTICLE READER
+--------------------------------------------------------- */
+
+async function showArticle(id) {
+
+  reader.classList.add("open");
+
+  document.body.style.overflow = "hidden";
+
+  readerBody.innerHTML = `
+    <div class="archive-loading">
+      Loading story…
+    </div>
+  `;
+
+
+  try {
+
+    const response =
+      await fetch(`/article/${encodeURIComponent(id)}`);
+
+    if (!response.ok) {
+      throw new Error("Article not found");
+    }
+
+
+    const article =
+      await response.json();
+
+
+    let text =
+      article.text ||
+      article.content ||
+      "No content available.";
+
+
+    text =
+      text.replace(/^Rewritten:\s*/i, "");
+
+
+    const paragraphs =
+      text
+        .split(/\n\s*\n/)
+        .map(p => p.trim())
+        .filter(Boolean);
+
+
+    readerBody.innerHTML = `
+
+      <div class="reader-category">
+        ${escapeHTML(article.category || "technology")}
+      </div>
+
+      <h1 class="reader-title">
+        ${escapeHTML(article.title)}
+      </h1>
+
+      <div class="reader-meta">
+        ${(article.authors || []).map(escapeHTML).join(", ")}
+        ${article.published ? " · " + escapeHTML(article.published) : ""}
+      </div>
+
+      ${
+        article.thumbnail || article.image
+        ? `
+          <img
+            class="reader-image"
+            src="${escapeHTML(article.thumbnail || article.image)}"
+            alt=""
+          >
+        `
+        : ""
+      }
+
+      <div class="reader-text">
+
+        ${
+          paragraphs.length
+          ? paragraphs.map(p =>
+              `<p>${escapeHTML(p)}</p>`
+            ).join("")
+          : `<p>${escapeHTML(text)}</p>`
+        }
+
+      </div>
+
+      ${
+        article.url
+        ? `
+          <div class="reader-source">
+            <a
+              href="${escapeHTML(article.url)}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read original source ↗
+            </a>
+          </div>
+        `
+        : ""
+      }
+
+    `;
+
+    reader.scrollTop = 0;
+
+  } catch (error) {
+
+    readerBody.innerHTML = `
+      <div class="archive-loading">
+        Unable to load this story.
+      </div>
+    `;
+
   }
+
 }
 
-/* ---------- live search ---------- */
-search.addEventListener("input",()=>{
-  const q = search.value.toLowerCase();
-  const filt = all.filter(a=>
-    a.title.toLowerCase().includes(q) ||
-    (a.category||"").toLowerCase().includes(q) ||
-    (a.authors||[]).join(" ").toLowerCase().includes(q)
-  );
-  renderList(filt);
+
+/* ---------------------------------------------------------
+   CLOSE READER
+--------------------------------------------------------- */
+
+function closeArticle() {
+
+  reader.classList.remove("open");
+
+  document.body.style.overflow = "";
+
+}
+
+
+closeReader.addEventListener("click", closeArticle);
+
+
+document.addEventListener("keydown", event => {
+
+  if (event.key === "Escape") {
+    closeArticle();
+  }
+
 });
 
-/* ---------- click handler ---------- */
-document.addEventListener("click",e=>{
-  if(e.target.closest(".article") && e.target.closest(".article").dataset.id){
-    showArticle(e.target.closest(".article").dataset.id);
-  }
-  if(e.target.id==="back"){
+
+/* ---------------------------------------------------------
+   SEARCH + FILTER
+--------------------------------------------------------- */
+
+function applyFilters() {
+
+  const query =
+    search.value.trim().toLowerCase();
+
+  const selected =
+    category.value;
+
+
+  const filtered =
+    all.filter(article => {
+
+      const text = [
+
+        article.title,
+        article.category,
+        ...(article.authors || [])
+
+      ]
+        .join(" ")
+        .toLowerCase();
+
+
+      const matchesSearch =
+        !query ||
+        text.includes(query);
+
+
+      const matchesCategory =
+        selected === "all" ||
+        article.category === selected;
+
+
+      return matchesSearch &&
+             matchesCategory;
+
+    });
+
+
+  renderList(filtered);
+
+}
+
+
+search.addEventListener(
+  "input",
+  applyFilters
+);
+
+
+category.addEventListener(
+  "change",
+  applyFilters
+);
+
+
+/* ---------------------------------------------------------
+   LOAD ARCHIVE
+--------------------------------------------------------- */
+
+async function loadArchive() {
+
+  try {
+
+    const response =
+      await fetch("/archive.json");
+
+    if (!response.ok) {
+      throw new Error("Archive unavailable");
+    }
+
+
+    all =
+      await response.json();
+
+
+    all.sort((a, b) => {
+
+      const da =
+        new Date(a.sort_dt || a.published || 0);
+
+      const db =
+        new Date(b.sort_dt || b.published || 0);
+
+      return db - da;
+
+    });
+
+
+    const categories =
+      [...new Set(
+        all
+          .map(a => a.category)
+          .filter(Boolean)
+      )]
+      .sort();
+
+
+    categories.forEach(cat => {
+
+      const option =
+        document.createElement("option");
+
+      option.value = cat;
+      option.textContent =
+        cat.toUpperCase();
+
+      category.appendChild(option);
+
+    });
+
+
     renderList(all);
+
+  } catch (error) {
+
+    console.error(error);
+
+    root.innerHTML = `
+      <div class="archive-empty">
+        Archive unavailable.
+      </div>
+    `;
+
+    count.textContent = "ERROR";
+
   }
-});
+
+}
+
 
 loadArchive();
+
 </script>
+
 </body>
 </html>
