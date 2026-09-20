@@ -1,11 +1,21 @@
-from flask import Flask, abort, jsonify, send_from_directory
+from flask import Flask, abort, jsonify, send_from_directory, request
 from pathlib import Path
 from datetime import datetime, timezone
 import json, re, email.utils as eutils
 
 app = Flask(__name__)
 REWRITTEN_DIR = Path(__file__).parent / "data" / "rewritten"
+RAW_DIR       = Path(__file__).parent / "data" / "raw"
+INTELLIGENCE_FILE = Path(__file__).parent / "data" / "intelligence" / "article_analysis_v2.json"
 
+def load_article_intelligence(article_id: str) -> dict | None:
+    if not INTELLIGENCE_FILE.exists():
+        return None
+    try:
+        data = json.loads(INTELLIGENCE_FILE.read_text(encoding="utf-8"))
+        return data.get("articles", {}).get(article_id)
+    except Exception:
+        return None
 # ---------- config ------------------------------------------
 CAT_ORDER   = ["tech", "drones", "autonomous"]
 MAX_PER_CAT = 5
@@ -22,7 +32,7 @@ def format_date(dt: datetime | str | None) -> str:
         dt = parse_dt(dt)
     if not isinstance(dt, datetime):
         return str(dt)
-    return dt.astimezone(timezone.utc).strftime("%b %d, %Y • %I:%M %p UTC")
+    return dt.astimezone(timezone.utc).strftime("%b %d, %Y â€¢ %I:%M %p UTC")
 
 def parse_dt(raw: str | None) -> datetime | None:
     if not raw:
@@ -66,38 +76,48 @@ def get_thumbnail(data: dict) -> str:
             first_img(data.get("text", "")) or
             fallback_thumb(data.get("category")))
 
-# ---------- loader -------------------------------------------
-def load_all_articles() -> list[dict]:
+# ---------- loaders -------------------------------------------
+def load_all_articles_from(*dirs) -> list[dict]:
     items = []
-    for jf in REWRITTEN_DIR.glob("*.json"):
-        try:
-            data  = json.loads(jf.read_text(encoding="utf-8"))
-            title = data.get("title", "")
-            text  = data.get("text", "")
-            if looks_like_ad(title, text):
+    seen_ids = set()
+    for directory in dirs:
+        for jf in directory.glob("*.json"):
+            try:
+                data  = json.loads(jf.read_text(encoding="utf-8"))
+                id_   = data.get("id")
+                if not id_ or id_ in seen_ids:
+                    continue
+                seen_ids.add(id_)
+
+                title = data.get("title", "")
+                text  = data.get("text", "")
+                if looks_like_ad(title, text):
+                    continue
+
+                pub_dt = parse_dt(data.get("published")) or datetime.min
+
+                items.append({
+                    "id"        : id_,
+                    "title"     : title,
+                    "category"  : data.get("category"),
+                    "published" : format_date(pub_dt),
+                    "sort_dt"   : pub_dt,
+                    "authors"   : data.get("authors", []),
+                    "text"      : text,
+                    "url"       : data.get("url", "#"),
+                    "thumbnail" : get_thumbnail(data)
+                })
+            except Exception:
                 continue
-
-            pub_dt = parse_dt(data.get("published")) or datetime.min
-
-            items.append({
-                "id"        : data.get("id"),
-                "title"     : title,
-                "category"  : data.get("category"),
-                "published" : format_date(pub_dt),
-                "sort_dt"   : pub_dt,
-                "authors"   : data.get("authors", []),
-                "text"      : text,
-                "url"       : data.get("url", "#"),
-                "thumbnail" : get_thumbnail(data)
-            })
-        except Exception:
-            continue
 
     items.sort(key=lambda x: x["sort_dt"], reverse=True)
     return items
 
+def load_rewritten_articles() -> list[dict]:
+    return load_all_articles_from(REWRITTEN_DIR)
+
 def newest_balanced() -> list[dict]:
-    items   = load_all_articles()
+    items   = load_rewritten_articles()
     buckets = {c: [] for c in CAT_ORDER}
     for art in items:
         c = (art["category"] or "").lower()
@@ -111,6 +131,58 @@ def newest_balanced() -> list[dict]:
     return ordered
 
 # ---------- routes -------------------------------------------
+@app.route("/sitemap.xml")
+def sitemap():
+    articles = load_rewritten_articles()
+
+    urls = [
+        "  <url><loc>https://machinadaily.xyz/</loc></url>",
+        "  <url><loc>https://machinadaily.xyz/archive</loc></url>"
+    ]
+
+    for article in articles:
+        article_id = article.get("id")
+        if article_id:
+            urls.append(
+                f'  <url><loc>https://machinadaily.xyz/article/{article_id}</loc></url>'
+            )
+
+    xml = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+%s
+</urlset>
+""" % "\n".join(urls)
+
+    return xml, 200, {"Content-Type": "application/xml; charset=utf-8"}
+
+
+@app.route("/subscribe", methods=["POST"])
+def subscribe():
+    data = request.get_json(silent=True) or {}
+    email = str(data.get("email", "")).strip().lower()
+
+    if not email or "@" not in email:
+        return jsonify({"ok": False, "message": "Invalid email."}), 400
+
+    contacts_file = Path(__file__).parent / "data" / "contacts.json"
+
+    try:
+        contacts = json.loads(contacts_file.read_text(encoding="utf-8"))
+    except Exception:
+        contacts = []
+
+    if email not in [c.get("email") for c in contacts]:
+        contacts.append({
+            "email": email,
+            "joined": datetime.now(timezone.utc).isoformat()
+        })
+        contacts_file.write_text(
+            json.dumps(contacts, indent=2),
+            encoding="utf-8"
+        )
+
+    return jsonify({"ok": True, "message": "You're in."})
+
 @app.route("/")
 def home():           return send_from_directory("frontend", "index.html")
 
@@ -124,24 +196,45 @@ def frontend_files(f): return send_from_directory("frontend", f)
 def newest():         return jsonify(newest_balanced())
 
 @app.route("/archive.json")
-def archive_json():   return jsonify(load_all_articles())
+def archive_json():
+    # Combine rewritten + raw (but exclude duplicates)
+    return jsonify(load_all_articles_from(REWRITTEN_DIR, RAW_DIR))
+
+@app.route("/intelligence/signals")
+def intelligence_signals():
+    signals_file = Path(__file__).parent / "data" / "intelligence" / "signals_v2.json"
+
+    if not signals_file.exists():
+        return jsonify({"signals": []})
+
+    try:
+        data = json.loads(
+            signals_file.read_text(encoding="utf-8")
+        )
+
+        return jsonify(data)
+
+    except Exception:
+        return jsonify({"signals": []}), 500
 
 @app.route("/article/<article_id>")
 def article(article_id):
-    fp = REWRITTEN_DIR / f"{article_id}.json"
-    if not fp.exists():
-        abort(404)
-    try:
-        data = json.loads(fp.read_text(encoding="utf-8"))
-        data["published"] = format_date(parse_dt(data.get("published")))
-        data["thumbnail"] = get_thumbnail(data)
-    except Exception:
-        abort(500)
-    return jsonify(data)
+    # Prefer rewritten version
+    for folder in [REWRITTEN_DIR, RAW_DIR]:
+        fp = folder / f"{article_id}.json"
+        if fp.exists():
+            try:
+                data = json.loads(fp.read_text(encoding="utf-8"))
+                data["published"] = format_date(parse_dt(data.get("published")))
+                data["thumbnail"] = get_thumbnail(data)
+                data["machina_analysis"] = load_article_intelligence(article_id)
+                return jsonify(data)
+            except Exception:
+                abort(500)
+    abort(404)
 
 # ---------- main ---------------------------------------------
-import os
-
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(debug=True, host="0.0.0.0", port=port)
+    app.run(debug=True)
+
+
