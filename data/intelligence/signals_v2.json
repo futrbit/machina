@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-20T22:01:54.655401+00:00",
+  "generated": "2026-09-21T13:44:50.555399+00:00",
   "corpus": {
-    "articles": 802,
-    "newest": "2026-05-26T00:00:00+00:00",
+    "articles": 877,
+    "newest": "2026-09-26T00:00:00+00:00",
     "sources": 24,
     "categories": 3
   },
@@ -11,7 +11,7 @@
       "id": "artificial_intelligence",
       "name": "Artificial Intelligence",
       "state": "accelerating",
-      "article_count": 401,
+      "article_count": 434,
       "source_count": 18,
       "category_count": 3,
       "sources": [
@@ -42,11 +42,11 @@
       "aliases_detected": [
         {
           "alias": "ai",
-          "matches": 388
+          "matches": 418
         },
         {
           "alias": "artificial intelligence",
-          "matches": 99
+          "matches": 103
         },
         {
           "alias": "ai systems",
@@ -54,11 +54,11 @@
         },
         {
           "alias": "ai tools",
-          "matches": 40
+          "matches": 43
         },
         {
           "alias": "ai system",
-          "matches": 12
+          "matches": 13
         },
         {
           "alias": "ai technology",
@@ -66,7 +66,7 @@
         },
         {
           "alias": "ai software",
-          "matches": 7
+          "matches": 8
         },
         {
           "alias": "ai tool",
@@ -75,24 +75,24 @@
       ],
       "activity": {
         "7_day": {
-          "recent": 1,
-          "previous": 0,
-          "growth_percent": null
+          "recent": 18,
+          "previous": 9,
+          "growth_percent": 100.0
         },
         "14_day": {
-          "recent": 1,
-          "previous": 43,
-          "growth_percent": -97.67441860465115
+          "recent": 27,
+          "previous": 4,
+          "growth_percent": 575.0
         },
         "30_day": {
-          "recent": 45,
-          "previous": 2,
-          "growth_percent": 2150.0
+          "recent": 31,
+          "previous": 1,
+          "growth_percent": 3000.0
         },
         "90_day": {
-          "recent": 47,
-          "previous": 0,
-          "growth_percent": null
+          "recent": 32,
+          "previous": 48,
+          "growth_percent": -33.33333333333333
         },
         "source_count": 18,
         "category_count": 3
@@ -100,74 +100,74 @@
       "momentum": 99.32,
       "evidence": [
         {
-          "id": "9840da095393fa7bb4716b04d5486b8d",
-          "title": "AI lets chemists design molecules by simply describing them",
-          "date": "2026-05-26T00:00:00+00:00",
+          "id": "3c3287b042a477f538c36ba72d64679a",
+          "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
+          "date": "2026-09-26T00:00:00+00:00",
           "source": "sciencedaily.com",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260504023844.htm"
+          "url": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm"
         },
         {
-          "id": "d0803e6915aec0ce676a2e74895ccf4d",
-          "title": "Google speeds up Gemma 4 threefold with multi-token prediction",
-          "date": "2026-05-06T16:05:28+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/"
+          "id": "26e351e0ce9a3c32c478b48d3f04346f",
+          "title": "Scientists just made quantum computer operations 1,000 times faster",
+          "date": "2026-09-26T00:00:00+00:00",
+          "source": "sciencedaily.com",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260911003845.htm"
         },
         {
-          "id": "7c161775310f16974db51f26b9f5b214",
-          "title": "Chrome downloads a 4GB AI file without user consent, researcher alleges",
-          "date": "2026-05-06T15:20:22+00:00",
+          "id": "dc4460dab5b675ab8bf04a013fae6b66",
+          "title": "Planetary prediction engine: Automating global models via Earth AI",
+          "date": "2026-09-21T00:50:37.971852+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/"
+        },
+        {
+          "id": "a43bd7d48bce83efee13a3116dfe8c8a",
+          "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+          "date": "2026-09-21T00:50:36.609576+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/"
+        },
+        {
+          "id": "dc3cc760eb44739a171964c5531e7928",
+          "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+          "date": "2026-09-21T00:50:35.576305+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/"
+        },
+        {
+          "id": "b96c769c06152f4b526b7876fd64ff11",
+          "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+          "date": "2026-09-21T00:50:35.148847+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/"
+        },
+        {
+          "id": "e28a17d560d9dcc82ecaa8133f5fd152",
+          "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+          "date": "2026-09-21T00:50:34.638226+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/"
+        },
+        {
+          "id": "54ff9c20e2d11e917e88316fa4ef4338",
+          "title": "Which major chatbot apps work with CarPlay?",
+          "date": "2026-09-20T23:30:00+00:00",
           "source": "engadget.com",
-          "url": "https://www.engadget.com/2166113/chrome-downloads-a-4gb-ai-file-without-user-consent-researcher-alleges/"
+          "url": "https://www.engadget.com/2260401/major-chatbot-apps-work-with-carplay/"
         },
         {
-          "id": "dc06d36a905082fadd32dfe567ddd912",
-          "title": "1X begins production of NEO humanoids in California facility",
-          "date": "2026-05-06T14:23:13+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/"
+          "id": "0cc67fa121cd1ce92ca35ca7ef986ad0",
+          "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+          "date": "2026-09-20T16:10:52+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
         },
         {
-          "id": "9a78225027bba0671e6098768175aaec",
-          "title": "New chassis and powertrain event to launch at Vehicle Tech Week North America 2026",
-          "date": "2026-05-06T08:17:49+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/new-chassis-and-powertrain-event-to-launch-at-vehicle-tech-week-north-america-2026.html"
-        },
-        {
-          "id": "55d75c33b966520faca91049f8b6cece",
-          "title": "Google Search updates hope to turn AI answers into a starting point for you, not a dead end",
-          "date": "2026-05-06T08:01:52-07:00",
-          "source": "digitaltrends.com",
-          "url": "https://www.digitaltrends.com/computing/google-searchs-latest-updates-aim-to-turn-ai-responses-into-a-starting-point-not-a-dead-end/"
-        },
-        {
-          "id": "fe5486bc8381ffa973cc3a4fd83db0ff",
-          "title": "Ubiqconn & Subsidiary RuggON to Showcase Next-Gen C5ISR & Edge AI Solutions",
-          "date": "2026-05-06T06:28:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/ubiqconn-subsidiary-ruggon-to-showcase-next-gen-c5isr-edge-ai-solutions/"
-        },
-        {
-          "id": "20343f4b79e139b9035eee9528d2f4d3",
-          "title": "Defense Portfolio Bolstered Through AI & Target Recognition Specialist Acquisition",
-          "date": "2026-05-06T06:06:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/defense-portfolio-bolstered-through-ai-target-recognition-specialist-acquisition/"
-        },
-        {
-          "id": "55c12cf8162cb11b42823161e7bb7e60",
-          "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
-          "date": "2026-05-03T10:34:50.527913+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/"
-        },
-        {
-          "id": "217f9a8d08c9f97e3be05c82791df58d",
-          "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
-          "date": "2026-05-03T10:34:49.957789+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/"
+          "id": "76ec10148516d60cd710c9f927e69371",
+          "title": "Tencent's Gander aims to keep talking while it works in the background",
+          "date": "2026-09-20T15:41:30+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/"
         }
       ],
       "rank": 1
@@ -176,14 +176,15 @@
       "id": "drones",
       "name": "Drones",
       "state": "emerging",
-      "article_count": 222,
-      "source_count": 8,
+      "article_count": 245,
+      "source_count": 9,
       "category_count": 3,
       "sources": [
         "autonomousvehicleinternational.com",
         "dronedj.com",
         "sciencedaily.com",
         "suasnews.com",
+        "the-decoder.com",
         "thedronegirl.com",
         "therobotreport.com",
         "unite.ai",
@@ -197,27 +198,27 @@
       "aliases_detected": [
         {
           "alias": "drone",
-          "matches": 207
+          "matches": 229
         },
         {
           "alias": "drones",
-          "matches": 175
+          "matches": 193
         },
         {
           "alias": "drone technology",
-          "matches": 24
+          "matches": 26
         },
         {
           "alias": "uav",
-          "matches": 13
+          "matches": 17
+        },
+        {
+          "alias": "drone technologies",
+          "matches": 8
         },
         {
           "alias": "uavs",
           "matches": 8
-        },
-        {
-          "alias": "drone technologies",
-          "matches": 7
         },
         {
           "alias": "unmanned aerial vehicles",
@@ -230,14 +231,14 @@
       ],
       "activity": {
         "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
+          "recent": 2,
+          "previous": 12,
+          "growth_percent": -83.33333333333334
         },
         "14_day": {
-          "recent": 0,
-          "previous": 19,
-          "growth_percent": -100.0
+          "recent": 14,
+          "previous": 5,
+          "growth_percent": 180.0
         },
         "30_day": {
           "recent": 19,
@@ -246,413 +247,92 @@
         },
         "90_day": {
           "recent": 19,
-          "previous": 0,
-          "growth_percent": null
+          "previous": 23,
+          "growth_percent": -17.391304347826086
         },
-        "source_count": 8,
+        "source_count": 9,
         "category_count": 3
       },
-      "momentum": 93.7,
+      "momentum": 94.62,
       "evidence": [
         {
-          "id": "1d092c53675792d058a70ad6f45d6a9d",
-          "title": "Battery Manufacturing Technology for Unmanned Systems",
-          "date": "2026-05-06T16:17:28.669245+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/expo/uav-battery-manufacturing-technology/"
+          "id": "e7f57700ebe2a81b24f3ea5300dfdc50",
+          "title": "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark",
+          "date": "2026-09-19T13:28:55+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/"
         },
         {
-          "id": "6c50d7686fb4f0a18095823533f7d278",
-          "title": "Elistair’s Khronos Tethered DroneBox Supports Multi-Domain Operations & ORION 2026",
-          "date": "2026-05-06T05:51:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/elistairs-khronos-tethered-dronebox-supports-multi-domain-operations-orion-2026/"
-        },
-        {
-          "id": "60cc73111ca8a7ce42b0761818c9a3ec",
-          "title": "ABRIS DG Highlights ISR & Tactical UAV Capabilities at FIDAE 2026",
-          "date": "2026-05-06T05:49:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/abris-dg-showcases-advanced-uav-solutions-isr-capabilities-at-fidae-2026/"
-        },
-        {
-          "id": "0c9ad034d06db0018190b0ad847eb777",
-          "title": "Hypercraft Unveils Software-Defined & Autonomous UGV for Tactical Operations",
-          "date": "2026-05-01T05:56:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/hypercraft-unveils-software-defined-autonomous-ugv-for-tactical-operations/"
-        },
-        {
-          "id": "6c05ab205725ddf03620304535031b81",
-          "title": "EAVISION Unveils Autonomous Drone Capabilities & Agricultural Solutions at Agrishow 2026",
-          "date": "2026-05-01T05:51:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/eavision-unveils-autonomous-drone-capabilities-agricultural-solutions-at-agrishow-2026/"
-        },
-        {
-          "id": "105fef14ea156d207c905465191fbb10",
-          "title": "Most Read Articles on Unmanned Systems Technology in April 2026",
-          "date": "2026-05-01T05:43:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/most-read-articles-on-unmanned-systems-technology-in-april-2026/"
-        },
-        {
-          "id": "9884d0cbbabd331418c3a52a620b0039",
-          "title": "Meteksan Defence to Highlight Combat‑Proven Systems & Global Partnerships at SAHA 2026",
-          "date": "2026-05-01T05:41:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/meteksan-defence-to-highlight-combat-proven-systems-global-partnerships-at-saha-2026/"
-        },
-        {
-          "id": "85a98e87bb0120217ffa3f6563198051",
-          "title": "Antigravity A1 drone gets major upgrade with AI editing, Voice Control",
-          "date": "2026-05-01T00:00:00+00:00",
+          "id": "b1c668d6634804e9e624eb446d17edd3",
+          "title": "US Marine Corps share videos of what training with drones looks like",
+          "date": "2026-09-19T00:00:00+00:00",
           "source": "dronedj.com",
-          "url": "https://dronedj.com/2026/05/01/firmware-update-antigravity-a1-drone/"
+          "url": "https://dronedj.com/2026/09/19/us-marine-corps-share-videos-of-what-training-with-drones-looks-like/"
         },
         {
-          "id": "de08b6c0c88949c16898080925016a42",
-          "title": "NHS London launches medical drone deliveries with Matternet",
-          "date": "2026-05-01T00:00:00+00:00",
+          "id": "a64eb525cdc5c7a102164ecdbabdffad",
+          "title": "Turn raw drone video into 3D scenes in minutes: SkyeBrowse rolls out major platform overhaul",
+          "date": "2026-09-18T00:00:00+00:00",
           "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2026/05/01/matternet-nhs-london/"
+          "url": "https://www.thedronegirl.com/2026/09/18/skyebrowse/"
         },
         {
-          "id": "0f19debf1df35d88e88f3b6bcda64c4c",
-          "title": "SkyfireAI raises $11M for autonomous drone coordination",
-          "date": "2026-05-01T00:00:00+00:00",
+          "id": "f1eac64c0370d62b6941b35e8e747ce2",
+          "title": "DJI SDR Transmission 2 brings 4K HDR to crowded film sets",
+          "date": "2026-09-18T00:00:00+00:00",
           "source": "dronedj.com",
-          "url": "https://dronedj.com/2026/05/01/skyfireai-autonomous-drone-seed-funding/"
+          "url": "https://dronedj.com/2026/09/18/dji-sdr-transmission-2-buy/"
+        },
+        {
+          "id": "cc2fb7cced9a0ea5320c16cf1d416532",
+          "title": "ABZ Innovation opens massive new drone production hub in Europe",
+          "date": "2026-09-18T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/18/abz-innovation-drone-manufacturing-europe/"
+        },
+        {
+          "id": "52007fd99750ec1d009b785a266370ef",
+          "title": "LEGOLAND Florida announces new holiday drone show",
+          "date": "2026-09-17T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/17/legoland-florida-christmas-bricktacular-drone-show-2026/"
+        },
+        {
+          "id": "ffb5a39bb2a6d903752eeddc0440dff2",
+          "title": "Drone Assistant wants to make international drone rules less painful",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/16/flyby-guys-drone-assistant-rules/"
+        },
+        {
+          "id": "0fd9e776787f6da269035946baae0d69",
+          "title": "Emesent scanners can now send point clouds straight into Trimble",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/16/emesent-trimble-lidar-drone-data/"
+        },
+        {
+          "id": "417e263294a18b7a34378bd232141bcd",
+          "title": "Flytrex launches unconventional plan to cut drone delivery costs by 60%",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/16/flytrex-rooftop-docks-predictive-ai-drone-delivery/"
+        },
+        {
+          "id": "9c63bb6be3f5fd14d3f40ddd4720d634",
+          "title": "Airwise adds another Remote ID partner to its airspace platform",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/16/airwise-remote-id-uas-sentry/"
         }
       ],
       "rank": 2
     },
     {
-      "id": "language_models",
-      "name": "Language Models",
-      "state": "accelerating",
-      "article_count": 110,
-      "source_count": 12,
-      "category_count": 3,
-      "sources": [
-        "autonomousvehicleinternational.com",
-        "bair.berkeley.edu",
-        "digitaltrends.com",
-        "engadget.com",
-        "futurefive.co.nz",
-        "futurism.com",
-        "research.google",
-        "sciencedaily.com",
-        "the-decoder.com",
-        "thedronegirl.com",
-        "therobotreport.com",
-        "unite.ai"
-      ],
-      "categories": [
-        "autonomous",
-        "drones",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "language models",
-          "matches": 70
-        },
-        {
-          "alias": "large language models",
-          "matches": 50
-        },
-        {
-          "alias": "llms",
-          "matches": 49
-        },
-        {
-          "alias": "llm",
-          "matches": 38
-        },
-        {
-          "alias": "language model",
-          "matches": 35
-        },
-        {
-          "alias": "large language model",
-          "matches": 11
-        },
-        {
-          "alias": "vision-language model",
-          "matches": 1
-        },
-        {
-          "alias": "vision language model",
-          "matches": 1
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 1,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "14_day": {
-          "recent": 1,
-          "previous": 12,
-          "growth_percent": -91.66666666666666
-        },
-        "30_day": {
-          "recent": 13,
-          "previous": 1,
-          "growth_percent": 1200.0
-        },
-        "90_day": {
-          "recent": 14,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "source_count": 12,
-        "category_count": 3
-      },
-      "momentum": 88.98,
-      "evidence": [
-        {
-          "id": "9840da095393fa7bb4716b04d5486b8d",
-          "title": "AI lets chemists design molecules by simply describing them",
-          "date": "2026-05-26T00:00:00+00:00",
-          "source": "sciencedaily.com",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260504023844.htm"
-        },
-        {
-          "id": "d0803e6915aec0ce676a2e74895ccf4d",
-          "title": "Google speeds up Gemma 4 threefold with multi-token prediction",
-          "date": "2026-05-06T16:05:28+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/"
-        },
-        {
-          "id": "7c161775310f16974db51f26b9f5b214",
-          "title": "Chrome downloads a 4GB AI file without user consent, researcher alleges",
-          "date": "2026-05-06T15:20:22+00:00",
-          "source": "engadget.com",
-          "url": "https://www.engadget.com/2166113/chrome-downloads-a-4gb-ai-file-without-user-consent-researcher-alleges/"
-        },
-        {
-          "id": "44de458fa6787fa1fdf19f22cc9891c6",
-          "title": "Evaluating alignment of behavioral dispositions in LLMs",
-          "date": "2026-05-03T10:34:51.080029+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/"
-        },
-        {
-          "id": "55c12cf8162cb11b42823161e7bb7e60",
-          "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
-          "date": "2026-05-03T10:34:50.527913+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/"
-        },
-        {
-          "id": "217f9a8d08c9f97e3be05c82791df58d",
-          "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
-          "date": "2026-05-03T10:34:49.957789+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/"
-        },
-        {
-          "id": "826b09e96bd3705a4ee77aa7d1bdd31e",
-          "title": "MIT study explains why scaling language models works so reliably",
-          "date": "2026-05-03T08:42:45+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/"
-        },
-        {
-          "id": "970a103a260fb85053b0a9eccc1e515c",
-          "title": "Same prompt, different morals: how frontier AI models diverge on ethical dilemmas",
-          "date": "2026-05-03T07:00:50+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/"
-        },
-        {
-          "id": "c69238517d20db2b781d101c51ce70a6",
-          "title": "Yes, you should probably be nicer to your AI — here’s why that’s not as ridiculous as it sounds",
-          "date": "2026-05-03T01:28:09-07:00",
-          "source": "digitaltrends.com",
-          "url": "https://www.digitaltrends.com/cool-tech/be-nice-to-artificial-intelligence/"
-        },
-        {
-          "id": "f6dfac97d44083c15807fd2cc1b8da29",
-          "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
-          "date": "2026-05-02T13:31:52+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/"
-        }
-      ],
-      "rank": 3
-    },
-    {
-      "id": "generative_ai",
-      "name": "Generative AI",
-      "state": "accelerating",
-      "article_count": 136,
-      "source_count": 15,
-      "category_count": 3,
-      "sources": [
-        "arstechnica.com",
-        "autonomousvehicleinternational.com",
-        "bair.berkeley.edu",
-        "digitaltrends.com",
-        "dronedj.com",
-        "futurefive.co.nz",
-        "futurism.com",
-        "research.google",
-        "sciencedaily.com",
-        "suasnews.com",
-        "the-decoder.com",
-        "thedronegirl.com",
-        "theguardian.com",
-        "therobotreport.com",
-        "unite.ai"
-      ],
-      "categories": [
-        "autonomous",
-        "drones",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "ai models",
-          "matches": 77
-        },
-        {
-          "alias": "generative ai",
-          "matches": 55
-        },
-        {
-          "alias": "ai model",
-          "matches": 42
-        },
-        {
-          "alias": "foundation models",
-          "matches": 12
-        },
-        {
-          "alias": "foundation model",
-          "matches": 9
-        },
-        {
-          "alias": "generative models",
-          "matches": 8
-        },
-        {
-          "alias": "generative model",
-          "matches": 3
-        },
-        {
-          "alias": "generative artificial intelligence",
-          "matches": 2
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 10,
-          "growth_percent": -100.0
-        },
-        "30_day": {
-          "recent": 10,
-          "previous": 2,
-          "growth_percent": 400.0
-        },
-        "90_day": {
-          "recent": 12,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "source_count": 15,
-        "category_count": 3
-      },
-      "momentum": 86.25,
-      "evidence": [
-        {
-          "id": "d0803e6915aec0ce676a2e74895ccf4d",
-          "title": "Google speeds up Gemma 4 threefold with multi-token prediction",
-          "date": "2026-05-06T16:05:28+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/"
-        },
-        {
-          "id": "1a17798f27ea7ac44cc3ec5a69295f0d",
-          "title": "Towards developing future-ready skills with generative AI",
-          "date": "2026-05-03T10:34:49.405313+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/towards-developing-future-ready-skills-with-generative-ai/"
-        },
-        {
-          "id": "c120c96467a83a6008df79beb1e94670",
-          "title": "Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles",
-          "date": "2026-05-03T10:34:48.036923+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/"
-        },
-        {
-          "id": "711ceed073edb09a3642476c8eebd1f8",
-          "title": "It's all about the angle: Your photos, re-composed",
-          "date": "2026-05-03T10:34:46.833681+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/its-all-about-the-angle-your-photos-re-composed/"
-        },
-        {
-          "id": "826b09e96bd3705a4ee77aa7d1bdd31e",
-          "title": "MIT study explains why scaling language models works so reliably",
-          "date": "2026-05-03T08:42:45+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/"
-        },
-        {
-          "id": "e402be5b8f13b89c339f3d9899a8a994",
-          "title": "China is falling behind in the AI race, according to a US government benchmark",
-          "date": "2026-05-03T08:12:00+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/"
-        },
-        {
-          "id": "970a103a260fb85053b0a9eccc1e515c",
-          "title": "Same prompt, different morals: how frontier AI models diverge on ethical dilemmas",
-          "date": "2026-05-03T07:00:50+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/"
-        },
-        {
-          "id": "c80d4df2c90b61c4b8b335fbb4a63026",
-          "title": "Academy just said it out loud: AI can’t win an Oscar for acting and writing",
-          "date": "2026-05-02T15:48:17-07:00",
-          "source": "digitaltrends.com",
-          "url": "https://www.digitaltrends.com/movies/academy-just-said-it-out-loud-ai-cant-win-an-oscar-for-acting-and-writing/"
-        },
-        {
-          "id": "f6dfac97d44083c15807fd2cc1b8da29",
-          "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
-          "date": "2026-05-02T13:31:52+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/"
-        },
-        {
-          "id": "e4672c500d4a1f3575fec25f671edd98",
-          "title": "EXPO NEWS: Beamr explains what ML-safe compression requires across the AV pipeline",
-          "date": "2026-05-01T12:28:58+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/expo-news-beamr-explains-what-ml-safe-compression-requires-across-the-av-pipeline.html"
-        }
-      ],
-      "rank": 4
-    },
-    {
       "id": "robotics",
       "name": "Robotics",
-      "state": "accelerating",
-      "article_count": 125,
+      "state": "emerging",
+      "article_count": 133,
       "source_count": 17,
       "category_count": 3,
       "sources": [
@@ -682,27 +362,27 @@
       "aliases_detected": [
         {
           "alias": "robotics",
-          "matches": 93
+          "matches": 100
         },
         {
           "alias": "robot",
-          "matches": 68
+          "matches": 71
         },
         {
           "alias": "robots",
-          "matches": 58
+          "matches": 64
         },
         {
           "alias": "humanoid robots",
-          "matches": 13
+          "matches": 15
         },
         {
           "alias": "humanoid robot",
-          "matches": 9
+          "matches": 10
         },
         {
           "alias": "humanoid robotics",
-          "matches": 8
+          "matches": 9
         },
         {
           "alias": "industrial robots",
@@ -710,7 +390,7 @@
         },
         {
           "alias": "robotic systems",
-          "matches": 5
+          "matches": 6
         },
         {
           "alias": "industrial robot",
@@ -723,30 +403,79 @@
       ],
       "activity": {
         "7_day": {
-          "recent": 0,
-          "previous": 0,
+          "recent": 3,
+          "previous": 3,
           "growth_percent": 0.0
         },
         "14_day": {
-          "recent": 0,
-          "previous": 8,
-          "growth_percent": -100.0
+          "recent": 6,
+          "previous": 1,
+          "growth_percent": 500.0
         },
         "30_day": {
-          "recent": 8,
-          "previous": 1,
-          "growth_percent": 700.0
-        },
-        "90_day": {
-          "recent": 9,
+          "recent": 7,
           "previous": 0,
           "growth_percent": null
+        },
+        "90_day": {
+          "recent": 7,
+          "previous": 10,
+          "growth_percent": -30.0
         },
         "source_count": 17,
         "category_count": 3
       },
-      "momentum": 84.16,
+      "momentum": 82.91,
       "evidence": [
+        {
+          "id": "c1daa2c31b819199793144baabb80b78",
+          "title": "What do you do with a humanoid robot when it breaks down?",
+          "date": "2026-09-20T12:45:45+00:00",
+          "source": "therobotreport.com",
+          "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/"
+        },
+        {
+          "id": "d1713785a61239344a1bdc017c3e70de",
+          "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+          "date": "2026-09-20T11:56:59+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/"
+        },
+        {
+          "id": "e7f57700ebe2a81b24f3ea5300dfdc50",
+          "title": "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark",
+          "date": "2026-09-19T13:28:55+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/"
+        },
+        {
+          "id": "d82d2e533df29769f85eec23cb2a9ad9",
+          "title": "Stellantis Pro One and UQI Robotics develop autonomous logistics vehicle",
+          "date": "2026-09-17T08:00:02+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/concept-vehicles/stellantis-pro-one-and-uqi-robotics-develop-autonomous-logistics-vehicle.html"
+        },
+        {
+          "id": "0fd9e776787f6da269035946baae0d69",
+          "title": "Emesent scanners can now send point clouds straight into Trimble",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/16/emesent-trimble-lidar-drone-data/"
+        },
+        {
+          "id": "a2c8c4ad508f95d702f39fd65f9dc918",
+          "title": "GENIUS NY Round 10: Meet the 5 drone startups competing for $3 million",
+          "date": "2026-09-14T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/14/genius-ny-round-10-finalists-announcement/"
+        },
+        {
+          "id": "158d7f5a29fd94143dba912917fafac3",
+          "title": "From gaming origins to high-stakes defense: Why XTEND is the drone company to watch",
+          "date": "2026-09-09T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/09/xtend-drone-company-gaming-eric-trump-jfb-merger-analysis/"
+        },
         {
           "id": "dc06d36a905082fadd32dfe567ddd912",
           "title": "1X begins production of NEO humanoids in California facility",
@@ -755,83 +484,668 @@
           "url": "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/"
         },
         {
+          "id": "825f24054f5466996b77eee7241dd701",
+          "title": "Boxfish Luna ROV Supports Earth Day Livestream",
+          "date": "2026-05-06T05:12:00+00:00",
+          "source": "unmannedsystemstechnology.com",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/boxfish-luna-rov-supports-earth-day-livestream/"
+        },
+        {
           "id": "e1d084b064cad6ec86238000164ff5ba",
           "title": "Phase stability regulator based on two dynamic parameters for autonomous mobile robots",
           "date": "2026-05-02T15:18:33+00:00",
           "source": "therobotreport.com",
           "url": "https://www.therobotreport.com/phase-stability-regulator-based-two-dynamic-parameters-autonomous-mobile-robots/"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "id": "language_models",
+      "name": "Language Models",
+      "state": "emerging",
+      "article_count": 118,
+      "source_count": 12,
+      "category_count": 3,
+      "sources": [
+        "autonomousvehicleinternational.com",
+        "bair.berkeley.edu",
+        "digitaltrends.com",
+        "engadget.com",
+        "futurefive.co.nz",
+        "futurism.com",
+        "research.google",
+        "sciencedaily.com",
+        "the-decoder.com",
+        "thedronegirl.com",
+        "therobotreport.com",
+        "unite.ai"
+      ],
+      "categories": [
+        "autonomous",
+        "drones",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "language models",
+          "matches": 74
         },
         {
-          "id": "906920253c3906557637dfe1c3f2d92f",
-          "title": "Meta acquires robotics AI startup as it makes the push into humanoid machines",
-          "date": "2026-05-02T14:00:00+00:00",
-          "source": "engadget.com",
-          "url": "https://www.engadget.com/2162606/meta-acquires-assured-robot-intelligence-humanoid-ai/"
+          "alias": "large language models",
+          "matches": 52
         },
         {
-          "id": "a36777b57915bcc5811280b94a25d189",
-          "title": "Teledyne FLIR & Emesent Expand Integration of LiDAR Payloads for Unmanned Systems",
-          "date": "2026-05-01T05:25:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/teledyne-flir-emesent-expand-integration-of-lidar-payloads-for-unmanned-systems/"
+          "alias": "llms",
+          "matches": 51
         },
         {
-          "id": "beab74c433d3def0c71edd6c9224a287",
-          "title": "Allient Releases Humanoid Robotics Motor Selection Whitepaper",
-          "date": "2026-05-01T05:15:00+00:00",
-          "source": "unmannedsystemstechnology.com",
-          "url": "https://www.unmannedsystemstechnology.com/2026/05/allient-releases-humanoid-robotics-motor-selection-whitepaper/"
+          "alias": "llm",
+          "matches": 42
         },
         {
-          "id": "de08b6c0c88949c16898080925016a42",
-          "title": "NHS London launches medical drone deliveries with Matternet",
-          "date": "2026-05-01T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2026/05/01/matternet-nhs-london/"
+          "alias": "language model",
+          "matches": 38
         },
         {
-          "id": "157f50f726c1daf3375b63a483701cde",
-          "title": "Skydio’s $3.5 billion US drone expansion begins",
-          "date": "2026-04-30T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2026/04/30/skydio-drone-funding-skyforge-us/"
+          "alias": "large language model",
+          "matches": 11
         },
         {
-          "id": "acee6859ec990621d095f721ea9e1185",
-          "title": "EDITOR’S PICKS: Presentation highlights ahead of this year’s Autonomous Vehicle Tech Expo",
-          "date": "2026-04-29T17:02:03+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/editors-picks-presentation-highlights-ahead-of-this-years-autonomous-vehicle-tech-expo.html"
+          "alias": "vision-language model",
+          "matches": 1
         },
         {
-          "id": "434526b1fd7108272130a00beeba5735",
-          "title": "Gradient-based Planning for World Models at Longer Horizons",
-          "date": "2026-04-20T00:00:00+00:00",
-          "source": "bair.berkeley.edu",
-          "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/"
+          "alias": "vision language model",
+          "matches": 1
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 8,
+          "previous": 0,
+          "growth_percent": null
         },
+        "14_day": {
+          "recent": 8,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "30_day": {
+          "recent": 8,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 8,
+          "previous": 14,
+          "growth_percent": -42.857142857142854
+        },
+        "source_count": 12,
+        "category_count": 3
+      },
+      "momentum": 82.73,
+      "evidence": [
         {
-          "id": "8b28f7bba4246836ef7b3a83c504fa42",
-          "title": "Tiny “talking” robots form shape-shifting swarms that heal themselves",
-          "date": "2025-08-25T00:00:00+00:00",
+          "id": "3c3287b042a477f538c36ba72d64679a",
+          "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
+          "date": "2026-09-26T00:00:00+00:00",
           "source": "sciencedaily.com",
-          "url": "https://www.sciencedaily.com/releases/2025/08/250812234535.htm"
+          "url": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm"
+        },
+        {
+          "id": "dc4460dab5b675ab8bf04a013fae6b66",
+          "title": "Planetary prediction engine: Automating global models via Earth AI",
+          "date": "2026-09-21T00:50:37.971852+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/"
+        },
+        {
+          "id": "dc3cc760eb44739a171964c5531e7928",
+          "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+          "date": "2026-09-21T00:50:35.576305+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/"
+        },
+        {
+          "id": "b96c769c06152f4b526b7876fd64ff11",
+          "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+          "date": "2026-09-21T00:50:35.148847+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/"
+        },
+        {
+          "id": "76ec10148516d60cd710c9f927e69371",
+          "title": "Tencent's Gander aims to keep talking while it works in the background",
+          "date": "2026-09-20T15:41:30+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/"
+        },
+        {
+          "id": "d1713785a61239344a1bdc017c3e70de",
+          "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+          "date": "2026-09-20T11:56:59+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/"
+        },
+        {
+          "id": "7e6932b93d614d6fda4276032d38d450",
+          "title": "Simulated students that make realistic mistakes help AI tutors learn faster",
+          "date": "2026-09-20T09:50:32+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/"
+        },
+        {
+          "id": "4a42d19797aa3bc56482bbe5de698b28",
+          "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+          "date": "2026-09-19T13:31:46+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/"
+        },
+        {
+          "id": "9840da095393fa7bb4716b04d5486b8d",
+          "title": "AI lets chemists design molecules by simply describing them",
+          "date": "2026-05-26T00:00:00+00:00",
+          "source": "sciencedaily.com",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260504023844.htm"
+        },
+        {
+          "id": "d0803e6915aec0ce676a2e74895ccf4d",
+          "title": "Google speeds up Gemma 4 threefold with multi-token prediction",
+          "date": "2026-05-06T16:05:28+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "id": "generative_ai",
+      "name": "Generative AI",
+      "state": "emerging",
+      "article_count": 143,
+      "source_count": 15,
+      "category_count": 3,
+      "sources": [
+        "arstechnica.com",
+        "autonomousvehicleinternational.com",
+        "bair.berkeley.edu",
+        "digitaltrends.com",
+        "dronedj.com",
+        "futurefive.co.nz",
+        "futurism.com",
+        "research.google",
+        "sciencedaily.com",
+        "suasnews.com",
+        "the-decoder.com",
+        "thedronegirl.com",
+        "theguardian.com",
+        "therobotreport.com",
+        "unite.ai"
+      ],
+      "categories": [
+        "autonomous",
+        "drones",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "ai models",
+          "matches": 80
+        },
+        {
+          "alias": "generative ai",
+          "matches": 55
+        },
+        {
+          "alias": "ai model",
+          "matches": 45
+        },
+        {
+          "alias": "foundation models",
+          "matches": 14
+        },
+        {
+          "alias": "foundation model",
+          "matches": 11
+        },
+        {
+          "alias": "generative models",
+          "matches": 8
+        },
+        {
+          "alias": "generative model",
+          "matches": 3
+        },
+        {
+          "alias": "generative artificial intelligence",
+          "matches": 2
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 6,
+          "previous": 1,
+          "growth_percent": 500.0
+        },
+        "14_day": {
+          "recent": 7,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "30_day": {
+          "recent": 7,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 7,
+          "previous": 12,
+          "growth_percent": -41.66666666666667
+        },
+        "source_count": 15,
+        "category_count": 3
+      },
+      "momentum": 82.5,
+      "evidence": [
+        {
+          "id": "66ede606957706bffb97448f89af858f",
+          "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+          "date": "2026-09-21T00:50:38.386999+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/"
+        },
+        {
+          "id": "3d9a5c1ce14415a4559fd7fcd04ea57b",
+          "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+          "date": "2026-09-21T00:50:37.559840+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/"
+        },
+        {
+          "id": "76ec10148516d60cd710c9f927e69371",
+          "title": "Tencent's Gander aims to keep talking while it works in the background",
+          "date": "2026-09-20T15:41:30+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/"
+        },
+        {
+          "id": "7e6932b93d614d6fda4276032d38d450",
+          "title": "Simulated students that make realistic mistakes help AI tutors learn faster",
+          "date": "2026-09-20T09:50:32+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/"
+        },
+        {
+          "id": "2aacbb35e58b743ebc88246907cddaf2",
+          "title": "Following OpenAI, Anthropic is also reportedly postponing its IPO",
+          "date": "2026-09-20T08:35:25+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/"
+        },
+        {
+          "id": "e7f57700ebe2a81b24f3ea5300dfdc50",
+          "title": "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark",
+          "date": "2026-09-19T13:28:55+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/"
+        },
+        {
+          "id": "417e263294a18b7a34378bd232141bcd",
+          "title": "Flytrex launches unconventional plan to cut drone delivery costs by 60%",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/16/flytrex-rooftop-docks-predictive-ai-drone-delivery/"
+        },
+        {
+          "id": "d0803e6915aec0ce676a2e74895ccf4d",
+          "title": "Google speeds up Gemma 4 threefold with multi-token prediction",
+          "date": "2026-05-06T16:05:28+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/"
+        },
+        {
+          "id": "1a17798f27ea7ac44cc3ec5a69295f0d",
+          "title": "Towards developing future-ready skills with generative AI",
+          "date": "2026-05-03T10:34:49.405313+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/towards-developing-future-ready-skills-with-generative-ai/"
+        },
+        {
+          "id": "c120c96467a83a6008df79beb1e94670",
+          "title": "Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles",
+          "date": "2026-05-03T10:34:48.036923+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/"
         }
       ],
       "rank": 5
     },
     {
+      "id": "autonomous_vehicles",
+      "name": "Autonomous Vehicles",
+      "state": "accelerating",
+      "article_count": 109,
+      "source_count": 9,
+      "category_count": 2,
+      "sources": [
+        "autonomousvehicleinternational.com",
+        "driverless.global",
+        "futurefive.co.nz",
+        "futurism.com",
+        "sciencedaily.com",
+        "the-decoder.com",
+        "theguardian.com",
+        "therobotreport.com",
+        "unite.ai"
+      ],
+      "categories": [
+        "autonomous",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "autonomous vehicles",
+          "matches": 53
+        },
+        {
+          "alias": "autonomous driving",
+          "matches": 50
+        },
+        {
+          "alias": "autonomous vehicle",
+          "matches": 49
+        },
+        {
+          "alias": "self-driving",
+          "matches": 47
+        },
+        {
+          "alias": "self driving",
+          "matches": 5
+        },
+        {
+          "alias": "self-driving vehicle",
+          "matches": 4
+        },
+        {
+          "alias": "driverless vehicles",
+          "matches": 4
+        },
+        {
+          "alias": "driverless vehicle",
+          "matches": 3
+        },
+        {
+          "alias": "vehicle autonomy",
+          "matches": 1
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 1,
+          "previous": 3,
+          "growth_percent": -66.66666666666666
+        },
+        "14_day": {
+          "recent": 4,
+          "previous": 5,
+          "growth_percent": -20.0
+        },
+        "30_day": {
+          "recent": 9,
+          "previous": 1,
+          "growth_percent": 800.0
+        },
+        "90_day": {
+          "recent": 10,
+          "previous": 9,
+          "growth_percent": 11.11111111111111
+        },
+        "source_count": 9,
+        "category_count": 2
+      },
+      "momentum": 82.12,
+      "evidence": [
+        {
+          "id": "d1713785a61239344a1bdc017c3e70de",
+          "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+          "date": "2026-09-20T11:56:59+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/"
+        },
+        {
+          "id": "1f06c30aa68efccb259c839049066a78",
+          "title": "Waymo prepares for autonomous ride-hailing launch in Singapore",
+          "date": "2026-09-18T14:23:57+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/waymo-prepares-for-autonomous-ride-hailing-launch-in-singapore.html"
+        },
+        {
+          "id": "d82d2e533df29769f85eec23cb2a9ad9",
+          "title": "Stellantis Pro One and UQI Robotics develop autonomous logistics vehicle",
+          "date": "2026-09-17T08:00:02+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/concept-vehicles/stellantis-pro-one-and-uqi-robotics-develop-autonomous-logistics-vehicle.html"
+        },
+        {
+          "id": "d4c24ebe515ac2ae5e3dc0ccfecbd442",
+          "title": "Pony AI unveils Level 4 autonomous heavy-duty truck with GAC",
+          "date": "2026-09-15T11:29:09+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/trucks/pony-ai-unveils-level-4-autonomous-heavy-duty-truck-with-gac.html"
+        },
+        {
+          "id": "88ce84a57365c9e1ccdf2a9b029f26e5",
+          "title": "Pony AI and Verne begin fully driverless robotaxi trials in Zagreb",
+          "date": "2026-09-11T15:51:11+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/pony-ai-and-verne-begin-fully-driverless-robotaxi-trials-in-zagreb.html"
+        },
+        {
+          "id": "c60029723b162d6b984766af6ff1038a",
+          "title": "TECH INSIDER: How Precise+ brings reliable high-precision GNSS into cities, helping OEMs extend their ODD",
+          "date": "2026-09-11T12:41:35+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/localization-gnss/tech-insider-how-precise-brings-reliable-high-precision-gnss-into-cities-helping-oems-extend-their-odd.html"
+        },
+        {
+          "id": "7c25eeb33e07a98884b688eba863d485",
+          "title": "Self-driving cars should be taxed to offset job losses, thinktank urges",
+          "date": "2026-09-11T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/sep/11/self-driving-cars-should-be-taxed-to-offset-job-losses-thinktank-urges"
+        },
+        {
+          "id": "5b5a274c14ec56aaca1de234ba7c90b5",
+          "title": "Spain grants first national Level 4 autonomous passenger vehicle permit to WeRide, Uber and AVOMO",
+          "date": "2026-09-10T15:25:04+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/spain-grants-first-national-level-4-autonomous-passenger-vehicle-permit-to-weride-uber-and-avomo.html"
+        },
+        {
+          "id": "27b1f27b64cc68982077989130e5e588",
+          "title": "London’s first self-driving taxis for hire hit the streets",
+          "date": "2026-09-03T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/sep/03/london-first-self-driving-taxis-for-hire-wayve-uber"
+        },
+        {
+          "id": "956580092a1c8653aa3cf51a8483fde4",
+          "title": "London rollout of robotaxis delayed amid lack of guidance for firms to follow",
+          "date": "2026-08-26T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/aug/26/london-rollout-robotaxis-delayed-uber-wayve"
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "id": "training_data",
+      "name": "AI Training & Data",
+      "state": "emerging",
+      "article_count": 69,
+      "source_count": 10,
+      "category_count": 3,
+      "sources": [
+        "autonomousvehicleinternational.com",
+        "digitaltrends.com",
+        "dronedj.com",
+        "futurefive.co.nz",
+        "futurism.com",
+        "research.google",
+        "sciencedaily.com",
+        "the-decoder.com",
+        "therobotreport.com",
+        "unite.ai"
+      ],
+      "categories": [
+        "autonomous",
+        "drones",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "training data",
+          "matches": 41
+        },
+        {
+          "alias": "inference",
+          "matches": 22
+        },
+        {
+          "alias": "model training",
+          "matches": 15
+        },
+        {
+          "alias": "training datasets",
+          "matches": 6
+        },
+        {
+          "alias": "training dataset",
+          "matches": 4
+        },
+        {
+          "alias": "training models",
+          "matches": 2
+        },
+        {
+          "alias": "ai training data",
+          "matches": 2
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 8,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "14_day": {
+          "recent": 8,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "30_day": {
+          "recent": 8,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 8,
+          "previous": 6,
+          "growth_percent": 33.33333333333333
+        },
+        "source_count": 10,
+        "category_count": 3
+      },
+      "momentum": 81.62,
+      "evidence": [
+        {
+          "id": "bad8d849fe2109a57b9ccb2f708c9895",
+          "title": "Mapping global methane emissions from space with deep learning",
+          "date": "2026-09-21T00:50:37.119696+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/"
+        },
+        {
+          "id": "a43bd7d48bce83efee13a3116dfe8c8a",
+          "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+          "date": "2026-09-21T00:50:36.609576+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/"
+        },
+        {
+          "id": "4c8c80109210724823f9a10c9eab2f35",
+          "title": "Transfer learning for genomic prediction in underrepresented populations",
+          "date": "2026-09-21T00:50:36.082655+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/"
+        },
+        {
+          "id": "b96c769c06152f4b526b7876fd64ff11",
+          "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+          "date": "2026-09-21T00:50:35.148847+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/"
+        },
+        {
+          "id": "0cc67fa121cd1ce92ca35ca7ef986ad0",
+          "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+          "date": "2026-09-20T16:10:52+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
+        },
+        {
+          "id": "76ec10148516d60cd710c9f927e69371",
+          "title": "Tencent's Gander aims to keep talking while it works in the background",
+          "date": "2026-09-20T15:41:30+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/"
+        },
+        {
+          "id": "d1713785a61239344a1bdc017c3e70de",
+          "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+          "date": "2026-09-20T11:56:59+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/"
+        },
+        {
+          "id": "2aacbb35e58b743ebc88246907cddaf2",
+          "title": "Following OpenAI, Anthropic is also reportedly postponing its IPO",
+          "date": "2026-09-20T08:35:25+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/"
+        },
+        {
+          "id": "dc06d36a905082fadd32dfe567ddd912",
+          "title": "1X begins production of NEO humanoids in California facility",
+          "date": "2026-05-06T14:23:13+00:00",
+          "source": "therobotreport.com",
+          "url": "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/"
+        },
+        {
+          "id": "0a7e6d7be9320fc89eddd47e8e5cdba5",
+          "title": "AI-generated synthetic neurons speed up brain mapping",
+          "date": "2026-05-03T10:34:48.736973+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/ai-generated-synthetic-neurons-speed-up-brain-mapping/"
+        }
+      ],
+      "rank": 7
+    },
+    {
       "id": "semiconductors",
       "name": "Semiconductors",
       "state": "emerging",
-      "article_count": 79,
-      "source_count": 15,
+      "article_count": 84,
+      "source_count": 16,
       "category_count": 3,
       "sources": [
         "arstechnica.com",
         "autonomousvehicleinternational.com",
         "digitaltrends.com",
         "dronedj.com",
+        "engadget.com",
         "futurefive.co.nz",
         "futurism.com",
         "gizmodo.com",
@@ -852,31 +1166,31 @@
       "aliases_detected": [
         {
           "alias": "chip",
-          "matches": 24
+          "matches": 25
+        },
+        {
+          "alias": "chips",
+          "matches": 21
         },
         {
           "alias": "processor",
           "matches": 19
         },
         {
-          "alias": "chips",
+          "alias": "gpu",
           "matches": 19
         },
         {
-          "alias": "gpu",
-          "matches": 18
-        },
-        {
           "alias": "processors",
-          "matches": 11
+          "matches": 12
         },
         {
           "alias": "gpus",
-          "matches": 10
+          "matches": 11
         },
         {
           "alias": "semiconductor",
-          "matches": 8
+          "matches": 9
         },
         {
           "alias": "semiconductors",
@@ -893,30 +1207,65 @@
       ],
       "activity": {
         "7_day": {
-          "recent": 0,
+          "recent": 5,
           "previous": 0,
-          "growth_percent": 0.0
+          "growth_percent": null
         },
         "14_day": {
-          "recent": 0,
-          "previous": 5,
-          "growth_percent": -100.0
+          "recent": 5,
+          "previous": 0,
+          "growth_percent": null
         },
         "30_day": {
-          "recent": 6,
+          "recent": 5,
           "previous": 0,
           "growth_percent": null
         },
         "90_day": {
-          "recent": 6,
-          "previous": 0,
-          "growth_percent": null
+          "recent": 5,
+          "previous": 6,
+          "growth_percent": -16.666666666666664
         },
-        "source_count": 15,
+        "source_count": 16,
         "category_count": 3
       },
-      "momentum": 81.25,
+      "momentum": 80.23,
       "evidence": [
+        {
+          "id": "c5b6860a1d7aee5e9cb76d9611c94dd9",
+          "title": "Tiny nanolaser could cut computer energy use in half",
+          "date": "2026-09-26T00:00:00+00:00",
+          "source": "sciencedaily.com",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260911003858.htm"
+        },
+        {
+          "id": "76528c377e3f7fcccbdd3ac0a54d586a",
+          "title": "Is there any benefit to keeping your smart TV in standby mode?",
+          "date": "2026-09-20T20:00:00+00:00",
+          "source": "engadget.com",
+          "url": "https://www.engadget.com/2259917/benefits-standby-mode-smart-tv/"
+        },
+        {
+          "id": "0cc67fa121cd1ce92ca35ca7ef986ad0",
+          "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+          "date": "2026-09-20T16:10:52+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
+        },
+        {
+          "id": "c1daa2c31b819199793144baabb80b78",
+          "title": "What do you do with a humanoid robot when it breaks down?",
+          "date": "2026-09-20T12:45:45+00:00",
+          "source": "therobotreport.com",
+          "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/"
+        },
+        {
+          "id": "d1713785a61239344a1bdc017c3e70de",
+          "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+          "date": "2026-09-20T11:56:59+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/"
+        },
         {
           "id": "d0803e6915aec0ce676a2e74895ccf4d",
           "title": "Google speeds up Gemma 4 threefold with multi-token prediction",
@@ -951,503 +1300,15 @@
           "date": "2026-04-28T09:54:15+00:00",
           "source": "autonomousvehicleinternational.com",
           "url": "https://www.autonomousvehicleinternational.com/online-magazines/in-this-issue-april-2026.html"
-        },
-        {
-          "id": "281bd7bceee9cc2108bde4ec674aa498",
-          "title": "WeRide and Lenovo announce ambition to deploy 200,000 autonomous vehicles by 2031",
-          "date": "2026-04-27T12:52:11+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/weride-and-lenovo-announce-ambition-to-deploy-200000-autonomous-vehicles-by-2031.html"
-        },
-        {
-          "id": "ca7217390c2b2fe3bc763a434bc13cce",
-          "title": "Securing private data at scale with differentially private partition selection",
-          "date": "2025-08-21T10:42:16.867499+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/securing-private-data-at-scale-with-differentially-private-partition-selection/"
-        },
-        {
-          "id": "07bdb700437e0b2730d24d0b9c3a655c",
-          "title": "Kodiak Robotics to use NXP processors in autonomous trucks",
-          "date": "2025-08-20T19:31:05+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/kodiak-robotics-to-use-nxp-processors-in-autonomous-trucks/"
-        },
-        {
-          "id": "42f342b196745da3c902bce7bb0a627e",
-          "title": "Google adds new AI features to the Pixel 10",
-          "date": "2025-08-20T17:06:12+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/google-adds-new-ai-features-to-the-pixel-10/"
-        },
-        {
-          "id": "b365342eb8521bddb5d1112e07b66932",
-          "title": "ADAS & Autonomous Vehicle Technology Summit North America – opens next week!",
-          "date": "2025-08-18T14:25:53+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/adas-autonomous-vehicle-technology-summit-north-america-opens-next-week.html"
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "id": "training_data",
-      "name": "AI Training & Data",
-      "state": "emerging",
-      "article_count": 61,
-      "source_count": 10,
-      "category_count": 3,
-      "sources": [
-        "autonomousvehicleinternational.com",
-        "digitaltrends.com",
-        "dronedj.com",
-        "futurefive.co.nz",
-        "futurism.com",
-        "research.google",
-        "sciencedaily.com",
-        "the-decoder.com",
-        "therobotreport.com",
-        "unite.ai"
-      ],
-      "categories": [
-        "autonomous",
-        "drones",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "training data",
-          "matches": 38
-        },
-        {
-          "alias": "inference",
-          "matches": 19
-        },
-        {
-          "alias": "model training",
-          "matches": 13
-        },
-        {
-          "alias": "training datasets",
-          "matches": 6
-        },
-        {
-          "alias": "training dataset",
-          "matches": 4
-        },
-        {
-          "alias": "training models",
-          "matches": 2
-        },
-        {
-          "alias": "ai training data",
-          "matches": 2
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 6,
-          "growth_percent": -100.0
-        },
-        "30_day": {
-          "recent": 6,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "90_day": {
-          "recent": 6,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "source_count": 10,
-        "category_count": 3
-      },
-      "momentum": 79.12,
-      "evidence": [
-        {
-          "id": "dc06d36a905082fadd32dfe567ddd912",
-          "title": "1X begins production of NEO humanoids in California facility",
-          "date": "2026-05-06T14:23:13+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/1x-begins-production-neo-humanoid-robots-at-hayward-california-facility/"
-        },
-        {
-          "id": "0a7e6d7be9320fc89eddd47e8e5cdba5",
-          "title": "AI-generated synthetic neurons speed up brain mapping",
-          "date": "2026-05-03T10:34:48.736973+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/ai-generated-synthetic-neurons-speed-up-brain-mapping/"
-        },
-        {
-          "id": "826b09e96bd3705a4ee77aa7d1bdd31e",
-          "title": "MIT study explains why scaling language models works so reliably",
-          "date": "2026-05-03T08:42:45+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/"
-        },
-        {
-          "id": "c69238517d20db2b781d101c51ce70a6",
-          "title": "Yes, you should probably be nicer to your AI — here’s why that’s not as ridiculous as it sounds",
-          "date": "2026-05-03T01:28:09-07:00",
-          "source": "digitaltrends.com",
-          "url": "https://www.digitaltrends.com/cool-tech/be-nice-to-artificial-intelligence/"
-        },
-        {
-          "id": "f6dfac97d44083c15807fd2cc1b8da29",
-          "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
-          "date": "2026-05-02T13:31:52+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/"
-        },
-        {
-          "id": "e4672c500d4a1f3575fec25f671edd98",
-          "title": "EXPO NEWS: Beamr explains what ML-safe compression requires across the AV pipeline",
-          "date": "2026-05-01T12:28:58+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/expo-news-beamr-explains-what-ml-safe-compression-requires-across-the-av-pipeline.html"
-        },
-        {
-          "id": "b365342eb8521bddb5d1112e07b66932",
-          "title": "ADAS & Autonomous Vehicle Technology Summit North America – opens next week!",
-          "date": "2025-08-18T14:25:53+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/adas-autonomous-vehicle-technology-summit-north-america-opens-next-week.html"
-        },
-        {
-          "id": "195765832209ae798568f06a58c8adce",
-          "title": "Achieving 10,000x training data reduction with high-fidelity labels",
-          "date": "2025-08-13T23:25:26.386183+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/"
-        },
-        {
-          "id": "33c2b0b6c196a436ba9ac96e50dba499",
-          "title": "Ai2 says new MolmoAct 7B model brings AI into the physical world",
-          "date": "2025-08-13T18:40:17+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/ai2-says-new-molmoact-7b-model-brings-ai-into-the-physical-world/"
-        },
-        {
-          "id": "2ac08ecb591a3ef4b79bce34503064e3",
-          "title": "How to train generalist robots with NVIDIA’s research workflows and foundation models",
-          "date": "2025-08-13T15:48:01+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/how-to-train-generalist-robots-with-nvidias-research-workflows-and-foundation-models/"
-        }
-      ],
-      "rank": 7
-    },
-    {
-      "id": "autonomous_vehicles",
-      "name": "Autonomous Vehicles",
-      "state": "accelerating",
-      "article_count": 99,
-      "source_count": 8,
-      "category_count": 2,
-      "sources": [
-        "autonomousvehicleinternational.com",
-        "driverless.global",
-        "futurefive.co.nz",
-        "futurism.com",
-        "sciencedaily.com",
-        "theguardian.com",
-        "therobotreport.com",
-        "unite.ai"
-      ],
-      "categories": [
-        "autonomous",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "autonomous vehicles",
-          "matches": 48
-        },
-        {
-          "alias": "autonomous driving",
-          "matches": 46
-        },
-        {
-          "alias": "autonomous vehicle",
-          "matches": 44
-        },
-        {
-          "alias": "self-driving",
-          "matches": 44
-        },
-        {
-          "alias": "self driving",
-          "matches": 5
-        },
-        {
-          "alias": "self-driving vehicle",
-          "matches": 4
-        },
-        {
-          "alias": "driverless vehicles",
-          "matches": 4
-        },
-        {
-          "alias": "driverless vehicle",
-          "matches": 3
-        },
-        {
-          "alias": "vehicle autonomy",
-          "matches": 1
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 5,
-          "growth_percent": -100.0
-        },
-        "30_day": {
-          "recent": 6,
-          "previous": 3,
-          "growth_percent": 100.0
-        },
-        "90_day": {
-          "recent": 9,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "source_count": 8,
-        "category_count": 2
-      },
-      "momentum": 77.45,
-      "evidence": [
-        {
-          "id": "9a78225027bba0671e6098768175aaec",
-          "title": "New chassis and powertrain event to launch at Vehicle Tech Week North America 2026",
-          "date": "2026-05-06T08:17:49+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/new-chassis-and-powertrain-event-to-launch-at-vehicle-tech-week-north-america-2026.html"
-        },
-        {
-          "id": "e4672c500d4a1f3575fec25f671edd98",
-          "title": "EXPO NEWS: Beamr explains what ML-safe compression requires across the AV pipeline",
-          "date": "2026-05-01T12:28:58+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/expo-news-beamr-explains-what-ml-safe-compression-requires-across-the-av-pipeline.html"
-        },
-        {
-          "id": "acee6859ec990621d095f721ea9e1185",
-          "title": "EDITOR’S PICKS: Presentation highlights ahead of this year’s Autonomous Vehicle Tech Expo",
-          "date": "2026-04-29T17:02:03+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/editors-picks-presentation-highlights-ahead-of-this-years-autonomous-vehicle-tech-expo.html"
-        },
-        {
-          "id": "c622fdb4ba1f80e5eed79b9f61742574",
-          "title": "Super Cruise use hits one billion miles across GM vehicles",
-          "date": "2026-04-29T11:44:23+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/adas/super-cruise-use-hits-one-billion-miles-across-gm-vehicles.html"
-        },
-        {
-          "id": "78f9ba4af010c49e9c128a77eaf1deaa",
-          "title": "In this Issue – April 2026",
-          "date": "2026-04-28T09:54:15+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/online-magazines/in-this-issue-april-2026.html"
-        },
-        {
-          "id": "281bd7bceee9cc2108bde4ec674aa498",
-          "title": "WeRide and Lenovo announce ambition to deploy 200,000 autonomous vehicles by 2031",
-          "date": "2026-04-27T12:52:11+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/weride-and-lenovo-announce-ambition-to-deploy-200000-autonomous-vehicles-by-2031.html"
-        },
-        {
-          "id": "9e58e0b720b7b047cd398b4f50b2742c",
-          "title": "‘Look, no hands’: China chases the driverless dream at Beijing car show",
-          "date": "2026-04-24T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/technology/2026/apr/24/china-chases-driverless-dream-beijing-car-show-ai"
-        },
-        {
-          "id": "037be73c7760c3e0b304959b037735d8",
-          "title": "Nissan turnaround plan pins hopes on ‘AI-defined vehicles’",
-          "date": "2026-04-14T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/business/2026/apr/14/nissan-turnaround-plan-pins-hopes-on-ai-defined-vehicles"
-        },
-        {
-          "id": "705843c11d4c20ad0e37b9ef5a0b4985",
-          "title": "‘System malfunction’ causes robotaxis to stall in the middle of the road in China",
-          "date": "2026-04-01T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/technology/2026/apr/01/system-malfunction-causes-robotaxis-to-stall-in-the-middle-of-the-road-in-china"
-        },
-        {
-          "id": "fbbfe0e12b66726807fdf1d966a64d19",
-          "title": "Autonomous Holon Urban minibus launches in Hamburg",
-          "date": "2025-08-21T09:30:33+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/adas/hamburg-launches-the-first-autonomous-holon-urban-vehicle-in-the-hanseatic-city.html"
         }
       ],
       "rank": 8
     },
     {
-      "id": "ai_agents",
-      "name": "AI Agents",
-      "state": "emerging",
-      "article_count": 46,
-      "source_count": 8,
-      "category_count": 2,
-      "sources": [
-        "arstechnica.com",
-        "autonomousvehicleinternational.com",
-        "futurefive.co.nz",
-        "futurism.com",
-        "research.google",
-        "the-decoder.com",
-        "therobotreport.com",
-        "unite.ai"
-      ],
-      "categories": [
-        "autonomous",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "ai agents",
-          "matches": 30
-        },
-        {
-          "alias": "ai agent",
-          "matches": 14
-        },
-        {
-          "alias": "ai assistant",
-          "matches": 10
-        },
-        {
-          "alias": "ai assistants",
-          "matches": 5
-        },
-        {
-          "alias": "autonomous agents",
-          "matches": 4
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 6,
-          "growth_percent": -100.0
-        },
-        "30_day": {
-          "recent": 6,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "90_day": {
-          "recent": 6,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "source_count": 8,
-        "category_count": 2
-      },
-      "momentum": 77.45,
-      "evidence": [
-        {
-          "id": "55c12cf8162cb11b42823161e7bb7e60",
-          "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
-          "date": "2026-05-03T10:34:50.527913+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/"
-        },
-        {
-          "id": "217f9a8d08c9f97e3be05c82791df58d",
-          "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
-          "date": "2026-05-03T10:34:49.957789+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/"
-        },
-        {
-          "id": "29b7bb4e5457dee70cbbb8abd9222be8",
-          "title": "Xiaomi's open-weight MiMo-V2.5-Pro takes aim at Claude Opus with hours-long autonomous coding",
-          "date": "2026-05-03T07:24:01+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/"
-        },
-        {
-          "id": "970a103a260fb85053b0a9eccc1e515c",
-          "title": "Same prompt, different morals: how frontier AI models diverge on ethical dilemmas",
-          "date": "2026-05-03T07:00:50+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/"
-        },
-        {
-          "id": "f6dfac97d44083c15807fd2cc1b8da29",
-          "title": "Even the latest AI models make three systematic reasoning errors, ARC-AGI-3 analysis shows",
-          "date": "2026-05-02T13:31:52+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/"
-        },
-        {
-          "id": "770acb10b98e6af24ae987d06c3573ac",
-          "title": "Neusoft and AISpeech partner on AI-powered in-vehicle mobility companion using LLM technology",
-          "date": "2026-04-29T16:58:18+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/connectivity/neusoft-and-aispeech-partner-on-ai-powered-in-vehicle-mobility-companion-using-llm-technology.html"
-        },
-        {
-          "id": "4fde66c6c294ec567c0f6609eeb3761d",
-          "title": "Agentic AI is Australia’s unrealised productivity lever",
-          "date": "2025-08-21T10:43:44.098145+00:00",
-          "source": "futurefive.co.nz",
-          "url": "https://futurefive.co.nz/story/agentic-ai-is-australia-s-unrealised-productivity-lever"
-        },
-        {
-          "id": "16dcde9066c356080efd379c6416c101",
-          "title": "Norton launches AI deepfake detection for mobile in early rollout",
-          "date": "2025-08-07T18:16:26.054943+00:00",
-          "source": "futurefive.co.nz",
-          "url": "https://futurefive.co.nz/story/norton-launches-ai-deepfake-detection-for-mobile-in-early-rollout"
-        },
-        {
-          "id": "8a81a48fdef4138b1f5aecd987078caf",
-          "title": "OPPO unveils Watch X2 Mini in New Zealand from NZD $499",
-          "date": "2025-08-07T18:16:24.645441+00:00",
-          "source": "futurefive.co.nz",
-          "url": "https://futurefive.co.nz/story/oppo-unveils-watch-x2-mini-in-new-zealand-from-nzd-499"
-        },
-        {
-          "id": "dc05fbf70502663c735cde0d6f45c567",
-          "title": "MLE-STAR is designed to automate machine learning pipelines with minimal human input",
-          "date": "2025-08-04T15:15:10+00:00",
-          "source": "the-decoder.com",
-          "url": "https://the-decoder.com/googles-mle-star-is-designed-to-automate-complex-machine-learning-pipelines-with-minimal-human-input/"
-        }
-      ],
-      "rank": 9
-    },
-    {
       "id": "machine_learning",
       "name": "Machine Learning",
-      "state": "accelerating",
-      "article_count": 59,
+      "state": "emerging",
+      "article_count": 63,
       "source_count": 13,
       "category_count": 3,
       "sources": [
@@ -1473,15 +1334,15 @@
       "aliases_detected": [
         {
           "alias": "machine learning",
-          "matches": 46
+          "matches": 47
         },
         {
           "alias": "neural networks",
-          "matches": 13
+          "matches": 14
         },
         {
           "alias": "deep learning",
-          "matches": 7
+          "matches": 8
         },
         {
           "alias": "neural network",
@@ -1497,35 +1358,67 @@
         },
         {
           "alias": "machine-learning",
+          "matches": 2
+        },
+        {
+          "alias": "deep-learning",
           "matches": 1
         }
       ],
       "activity": {
         "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
+          "recent": 3,
+          "previous": 1,
+          "growth_percent": 200.0
         },
         "14_day": {
-          "recent": 0,
-          "previous": 2,
-          "growth_percent": -100.0
-        },
-        "30_day": {
-          "recent": 2,
-          "previous": 1,
-          "growth_percent": 100.0
-        },
-        "90_day": {
-          "recent": 3,
+          "recent": 4,
           "previous": 0,
           "growth_percent": null
+        },
+        "30_day": {
+          "recent": 4,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 4,
+          "previous": 3,
+          "growth_percent": 33.33333333333333
         },
         "source_count": 13,
         "category_count": 3
       },
-      "momentum": 75.64,
+      "momentum": 78.14,
       "evidence": [
+        {
+          "id": "dc4460dab5b675ab8bf04a013fae6b66",
+          "title": "Planetary prediction engine: Automating global models via Earth AI",
+          "date": "2026-09-21T00:50:37.971852+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/"
+        },
+        {
+          "id": "bad8d849fe2109a57b9ccb2f708c9895",
+          "title": "Mapping global methane emissions from space with deep learning",
+          "date": "2026-09-21T00:50:37.119696+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/"
+        },
+        {
+          "id": "a43bd7d48bce83efee13a3116dfe8c8a",
+          "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+          "date": "2026-09-21T00:50:36.609576+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/"
+        },
+        {
+          "id": "417e263294a18b7a34378bd232141bcd",
+          "title": "Flytrex launches unconventional plan to cut drone delivery costs by 60%",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/16/flytrex-rooftop-docks-predictive-ai-drone-delivery/"
+        },
         {
           "id": "711ceed073edb09a3642476c8eebd1f8",
           "title": "It's all about the angle: Your photos, re-composed",
@@ -1567,43 +1460,441 @@
           "date": "2025-08-13T23:25:26.386183+00:00",
           "source": "research.google",
           "url": "https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/"
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "id": "ai_agents",
+      "name": "AI Agents",
+      "state": "emerging",
+      "article_count": 52,
+      "source_count": 8,
+      "category_count": 2,
+      "sources": [
+        "arstechnica.com",
+        "autonomousvehicleinternational.com",
+        "futurefive.co.nz",
+        "futurism.com",
+        "research.google",
+        "the-decoder.com",
+        "therobotreport.com",
+        "unite.ai"
+      ],
+      "categories": [
+        "autonomous",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "ai agents",
+          "matches": 34
         },
         {
-          "id": "70062ee63e3ee7622496d9ddff530a7b",
-          "title": "ADAS & Autonomous Vehicle Technology Summit North America: Two weeks to go!",
-          "date": "2025-08-11T15:59:54+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/adas-autonomous-vehicle-technology-summit-north-america-two-weeks-to-go.html"
+          "alias": "ai agent",
+          "matches": 15
         },
         {
-          "id": "20846441fdbfc1d2dcf8788a69ce06b9",
-          "title": "Gatik unveils next-gen simulation platform built on Nvidia Cosmos",
-          "date": "2025-08-08T13:25:18+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/simulation/gatik-unveils-next-gen-simulation-platform-built-on-nvidia-cosmos.html"
+          "alias": "ai assistant",
+          "matches": 11
         },
         {
-          "id": "a912508e2663bcb3e54a33bf955fc948",
-          "title": "Insulin resistance prediction from wearables and routine blood biomarkers",
-          "date": "2025-08-07T18:15:02.474948+00:00",
+          "alias": "ai assistants",
+          "matches": 5
+        },
+        {
+          "alias": "autonomous agents",
+          "matches": 4
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 5,
+          "previous": 1,
+          "growth_percent": 400.0
+        },
+        "14_day": {
+          "recent": 6,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "30_day": {
+          "recent": 6,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 6,
+          "previous": 6,
+          "growth_percent": 0.0
+        },
+        "source_count": 8,
+        "category_count": 2
+      },
+      "momentum": 77.45,
+      "evidence": [
+        {
+          "id": "dc3cc760eb44739a171964c5531e7928",
+          "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+          "date": "2026-09-21T00:50:35.576305+00:00",
           "source": "research.google",
-          "url": "https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/"
+          "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/"
         },
         {
-          "id": "b4ee47305b11888b59bae0f3ec8a481c",
-          "title": "MLE-STAR: A state-of-the-art machine learning engineering agent",
-          "date": "2025-08-04T23:06:57.575527+00:00",
+          "id": "76ec10148516d60cd710c9f927e69371",
+          "title": "Tencent's Gander aims to keep talking while it works in the background",
+          "date": "2026-09-20T15:41:30+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/"
+        },
+        {
+          "id": "7e6932b93d614d6fda4276032d38d450",
+          "title": "Simulated students that make realistic mistakes help AI tutors learn faster",
+          "date": "2026-09-20T09:50:32+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/"
+        },
+        {
+          "id": "5162e39b4010295844efbe923f6587c7",
+          "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
+          "date": "2026-09-19T14:30:57+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/"
+        },
+        {
+          "id": "4a42d19797aa3bc56482bbe5de698b28",
+          "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+          "date": "2026-09-19T13:31:46+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/"
+        },
+        {
+          "id": "ed6215c4318d05df836e23d7717ed655",
+          "title": "Volvo updates XC40, EX40 and EC40 with new interior and driver assist safety features",
+          "date": "2026-09-14T15:52:41+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/adas/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html"
+        },
+        {
+          "id": "55c12cf8162cb11b42823161e7bb7e60",
+          "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
+          "date": "2026-05-03T10:34:50.527913+00:00",
           "source": "research.google",
-          "url": "https://research.google/blog/mle-star-a-state-of-the-art-machine-learning-engineering-agents/"
+          "url": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/"
+        },
+        {
+          "id": "217f9a8d08c9f97e3be05c82791df58d",
+          "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
+          "date": "2026-05-03T10:34:49.957789+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/"
+        },
+        {
+          "id": "29b7bb4e5457dee70cbbb8abd9222be8",
+          "title": "Xiaomi's open-weight MiMo-V2.5-Pro takes aim at Claude Opus with hours-long autonomous coding",
+          "date": "2026-05-03T07:24:01+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/"
+        },
+        {
+          "id": "970a103a260fb85053b0a9eccc1e515c",
+          "title": "Same prompt, different morals: how frontier AI models diverge on ethical dilemmas",
+          "date": "2026-05-03T07:00:50+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/"
         }
       ],
       "rank": 10
     },
     {
+      "id": "space_technology",
+      "name": "Space Technology",
+      "state": "emerging",
+      "article_count": 20,
+      "source_count": 10,
+      "category_count": 3,
+      "sources": [
+        "autonomousvehicleinternational.com",
+        "dronedj.com",
+        "futurefive.co.nz",
+        "gizmodo.com",
+        "research.google",
+        "sciencedaily.com",
+        "suasnews.com",
+        "thedronegirl.com",
+        "therobotreport.com",
+        "unite.ai"
+      ],
+      "categories": [
+        "autonomous",
+        "drones",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "satellite",
+          "matches": 15
+        },
+        {
+          "alias": "spacecraft",
+          "matches": 4
+        },
+        {
+          "alias": "satellites",
+          "matches": 3
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 1,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "14_day": {
+          "recent": 1,
+          "previous": 3,
+          "growth_percent": -66.66666666666666
+        },
+        "30_day": {
+          "recent": 4,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 4,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "source_count": 10,
+        "category_count": 3
+      },
+      "momentum": 76.62,
+      "evidence": [
+        {
+          "id": "bad8d849fe2109a57b9ccb2f708c9895",
+          "title": "Mapping global methane emissions from space with deep learning",
+          "date": "2026-09-21T00:50:37.119696+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/"
+        },
+        {
+          "id": "c60029723b162d6b984766af6ff1038a",
+          "title": "TECH INSIDER: How Precise+ brings reliable high-precision GNSS into cities, helping OEMs extend their ODD",
+          "date": "2026-09-11T12:41:35+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/localization-gnss/tech-insider-how-precise-brings-reliable-high-precision-gnss-into-cities-helping-oems-extend-their-odd.html"
+        },
+        {
+          "id": "9a6479b16490e0442b343a614a1a56b5",
+          "title": "Girls in Aviation Day 2026 set for Sept. 19: How to get involved",
+          "date": "2026-09-10T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/10/girls-in-aviation-day-2026-women-in-aviation-international/"
+        },
+        {
+          "id": "2182e174d64f4f363048e32e0096f8fc",
+          "title": "Ask Drone Girl: Why is my DJI drone stuck at a 15-foot ceiling indoors?",
+          "date": "2026-09-04T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/04/max-indoor-altitude-dji-drone-mini-3-mini-4-pro-avata/"
+        },
+        {
+          "id": "88206d37cc976cd36f6ae4e6ff347d02",
+          "title": "Geely launches 11 more satellites to support intelligent connected vehicles",
+          "date": "2025-08-15T11:00:28+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/connectivity/geely-launches-11-more-satellites-to-support-intelligent-connected-vehicles.html"
+        },
+        {
+          "id": "2c3bb052792d979f5fc950c8c4ea4e46",
+          "title": "Motorola & One NZ launch 5G phones with satellite TXT support",
+          "date": "2025-08-13T23:26:10.749358+00:00",
+          "source": "futurefive.co.nz",
+          "url": "https://futurefive.co.nz/story/motorola-one-nz-launch-5g-phones-with-satellite-txt-support"
+        },
+        {
+          "id": "4a549bd6defaba13c04b22697527384d",
+          "title": "Drone swarms: How they actually work and what industries should care",
+          "date": "2025-08-03T12:30:43+00:00",
+          "source": "therobotreport.com",
+          "url": "https://www.therobotreport.com/drone-swarms-how-they-actually-work-and-what-industries-should-care/"
+        },
+        {
+          "id": "43f5c9d05b2d66e648a2a1c4289be1d2",
+          "title": "Swarm robotics could spell the end of the assembly line",
+          "date": "2025-07-31T14:47:13+00:00",
+          "source": "therobotreport.com",
+          "url": "https://www.therobotreport.com/swarm-robotics-could-spell-end-aerospace-assembly-line/"
+        },
+        {
+          "id": "df021cbae2c7f15013c802acdde004c2",
+          "title": "Pony.ai L4 domain controller surpasses two million kilometers of on-road testing",
+          "date": "2025-07-23T12:59:04+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/testing/pony-ai-l4-domain-controller-surpasses-two-million-kilometers-of-road-testing.html"
+        },
+        {
+          "id": "40b8b4ea538e181922bf4e287b68e6ae",
+          "title": "DJI Mavic 3 Pro used in Cape Canaveral drone spying case",
+          "date": "2025-07-10T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2025/07/10/canada-tourist-drone-spy-dji/"
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "id": "robotaxis",
+      "name": "Robotaxis",
+      "state": "accelerating",
+      "article_count": 48,
+      "source_count": 5,
+      "category_count": 2,
+      "sources": [
+        "autonomousvehicleinternational.com",
+        "futurism.com",
+        "the-decoder.com",
+        "theguardian.com",
+        "therobotreport.com"
+      ],
+      "categories": [
+        "autonomous",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "robotaxi",
+          "matches": 37
+        },
+        {
+          "alias": "robotaxis",
+          "matches": 35
+        },
+        {
+          "alias": "robotaxi service",
+          "matches": 8
+        },
+        {
+          "alias": "driverless taxis",
+          "matches": 5
+        },
+        {
+          "alias": "driverless taxi",
+          "matches": 5
+        },
+        {
+          "alias": "autonomous taxis",
+          "matches": 2
+        },
+        {
+          "alias": "autonomous taxi",
+          "matches": 1
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 1,
+          "previous": 1,
+          "growth_percent": 0.0
+        },
+        "14_day": {
+          "recent": 2,
+          "previous": 4,
+          "growth_percent": -50.0
+        },
+        "30_day": {
+          "recent": 6,
+          "previous": 1,
+          "growth_percent": 500.0
+        },
+        "90_day": {
+          "recent": 7,
+          "previous": 8,
+          "growth_percent": -12.5
+        },
+        "source_count": 5,
+        "category_count": 2
+      },
+      "momentum": 73.3,
+      "evidence": [
+        {
+          "id": "d1713785a61239344a1bdc017c3e70de",
+          "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+          "date": "2026-09-20T11:56:59+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/"
+        },
+        {
+          "id": "d4c24ebe515ac2ae5e3dc0ccfecbd442",
+          "title": "Pony AI unveils Level 4 autonomous heavy-duty truck with GAC",
+          "date": "2026-09-15T11:29:09+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/trucks/pony-ai-unveils-level-4-autonomous-heavy-duty-truck-with-gac.html"
+        },
+        {
+          "id": "88ce84a57365c9e1ccdf2a9b029f26e5",
+          "title": "Pony AI and Verne begin fully driverless robotaxi trials in Zagreb",
+          "date": "2026-09-11T15:51:11+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/pony-ai-and-verne-begin-fully-driverless-robotaxi-trials-in-zagreb.html"
+        },
+        {
+          "id": "7c25eeb33e07a98884b688eba863d485",
+          "title": "Self-driving cars should be taxed to offset job losses, thinktank urges",
+          "date": "2026-09-11T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/sep/11/self-driving-cars-should-be-taxed-to-offset-job-losses-thinktank-urges"
+        },
+        {
+          "id": "5b5a274c14ec56aaca1de234ba7c90b5",
+          "title": "Spain grants first national Level 4 autonomous passenger vehicle permit to WeRide, Uber and AVOMO",
+          "date": "2026-09-10T15:25:04+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/spain-grants-first-national-level-4-autonomous-passenger-vehicle-permit-to-weride-uber-and-avomo.html"
+        },
+        {
+          "id": "27b1f27b64cc68982077989130e5e588",
+          "title": "London’s first self-driving taxis for hire hit the streets",
+          "date": "2026-09-03T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/sep/03/london-first-self-driving-taxis-for-hire-wayve-uber"
+        },
+        {
+          "id": "956580092a1c8653aa3cf51a8483fde4",
+          "title": "London rollout of robotaxis delayed amid lack of guidance for firms to follow",
+          "date": "2026-08-26T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/aug/26/london-rollout-robotaxis-delayed-uber-wayve"
+        },
+        {
+          "id": "ab2d71991f86c134610b0a4eb3aa3147",
+          "title": "Avride AV fleet scales to 200 cars",
+          "date": "2026-04-30T10:17:46+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/avride-av-fleet-scales-to-200-cars.html"
+        },
+        {
+          "id": "acee6859ec990621d095f721ea9e1185",
+          "title": "EDITOR’S PICKS: Presentation highlights ahead of this year’s Autonomous Vehicle Tech Expo",
+          "date": "2026-04-29T17:02:03+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/expo/editors-picks-presentation-highlights-ahead-of-this-years-autonomous-vehicle-tech-expo.html"
+        },
+        {
+          "id": "c622fdb4ba1f80e5eed79b9f61742574",
+          "title": "Super Cruise use hits one billion miles across GM vehicles",
+          "date": "2026-04-29T11:44:23+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/adas/super-cruise-use-hits-one-billion-miles-across-gm-vehicles.html"
+        }
+      ],
+      "rank": 12
+    },
+    {
       "id": "cybersecurity",
       "name": "Cybersecurity",
-      "state": "emerging",
-      "article_count": 28,
+      "state": "persistent",
+      "article_count": 30,
       "source_count": 10,
       "category_count": 3,
       "sources": [
@@ -1626,7 +1917,7 @@
       "aliases_detected": [
         {
           "alias": "cybersecurity",
-          "matches": 27
+          "matches": 29
         },
         {
           "alias": "cyber threats",
@@ -1639,30 +1930,44 @@
       ],
       "activity": {
         "7_day": {
-          "recent": 0,
+          "recent": 1,
           "previous": 0,
-          "growth_percent": 0.0
+          "growth_percent": null
         },
         "14_day": {
-          "recent": 0,
-          "previous": 3,
-          "growth_percent": -100.0
+          "recent": 1,
+          "previous": 0,
+          "growth_percent": null
         },
         "30_day": {
-          "recent": 3,
+          "recent": 1,
           "previous": 0,
           "growth_percent": null
         },
         "90_day": {
-          "recent": 3,
-          "previous": 0,
-          "growth_percent": null
+          "recent": 1,
+          "previous": 4,
+          "growth_percent": -75.0
         },
         "source_count": 10,
         "category_count": 3
       },
-      "momentum": 75.37,
+      "momentum": 72.87,
       "evidence": [
+        {
+          "id": "2aacbb35e58b743ebc88246907cddaf2",
+          "title": "Following OpenAI, Anthropic is also reportedly postponing its IPO",
+          "date": "2026-09-20T08:35:25+00:00",
+          "source": "the-decoder.com",
+          "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/"
+        },
+        {
+          "id": "7944074122833ab96e180de8e0ff6ae5",
+          "title": "You have until May 11 to tell the FCC how its drone ban impacts you — here’s how (move fast!)",
+          "date": "2026-05-06T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/05/06/fcc-drone-ban-public-comment/"
+        },
         {
           "id": "e402be5b8f13b89c339f3d9899a8a994",
           "title": "China is falling behind in the AI race, according to a US government benchmark",
@@ -1718,34 +2023,24 @@
           "date": "2025-07-31T16:44:42.011472+00:00",
           "source": "futurefive.co.nz",
           "url": "https://futurefive.co.nz/story/cyber-scams-soar-in-new-zealand-as-ai-crypto-drive-threats"
-        },
-        {
-          "id": "a7a96279f2e4707cc6abb9a335694b59",
-          "title": "Avast study finds older Kiwis at high risk of online scams",
-          "date": "2025-07-09T14:01:43.680358+00:00",
-          "source": "futurefive.co.nz",
-          "url": "https://futurefive.co.nz/story/avast-study-finds-older-kiwis-at-high-risk-of-online-scams"
-        },
-        {
-          "id": "ba23eef4b441a2ebc88a1f9486667be8",
-          "title": "‘The vehicle suddenly accelerated with our baby in it’: the terrifying truth about why Tesla’s cars keep crashing",
-          "date": "2025-07-05T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/technology/2025/jul/05/the-vehicle-suddenly-accelerated-with-our-baby-in-it-the-terrifying-truth-about-why-teslas-cars-keep-crashing"
         }
       ],
-      "rank": 11
+      "rank": 13
     },
     {
-      "id": "robotaxis",
-      "name": "Robotaxis",
-      "state": "accelerating",
-      "article_count": 41,
-      "source_count": 4,
+      "id": "electric_vehicles",
+      "name": "Electric Vehicles",
+      "state": "persistent",
+      "article_count": 23,
+      "source_count": 8,
       "category_count": 2,
       "sources": [
         "autonomousvehicleinternational.com",
+        "driverless.global",
+        "engadget.com",
+        "futurefive.co.nz",
         "futurism.com",
+        "research.google",
         "theguardian.com",
         "therobotreport.com"
       ],
@@ -1755,32 +2050,176 @@
       ],
       "aliases_detected": [
         {
-          "alias": "robotaxi",
-          "matches": 32
+          "alias": "electric vehicle",
+          "matches": 11
         },
         {
-          "alias": "robotaxis",
-          "matches": 29
+          "alias": "ev",
+          "matches": 9
         },
         {
-          "alias": "robotaxi service",
-          "matches": 6
+          "alias": "electric vehicles",
+          "matches": 8
         },
         {
-          "alias": "driverless taxis",
-          "matches": 4
+          "alias": "evs",
+          "matches": 8
         },
         {
-          "alias": "driverless taxi",
-          "matches": 3
-        },
-        {
-          "alias": "autonomous taxis",
+          "alias": "electric cars",
           "matches": 2
         },
         {
-          "alias": "autonomous taxi",
+          "alias": "electric car",
           "matches": 1
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 1,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "14_day": {
+          "recent": 1,
+          "previous": 1,
+          "growth_percent": 0.0
+        },
+        "30_day": {
+          "recent": 2,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 2,
+          "previous": 3,
+          "growth_percent": -33.33333333333333
+        },
+        "source_count": 8,
+        "category_count": 2
+      },
+      "momentum": 72.45,
+      "evidence": [
+        {
+          "id": "c1daa2c31b819199793144baabb80b78",
+          "title": "What do you do with a humanoid robot when it breaks down?",
+          "date": "2026-09-20T12:45:45+00:00",
+          "source": "therobotreport.com",
+          "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/"
+        },
+        {
+          "id": "7c25eeb33e07a98884b688eba863d485",
+          "title": "Self-driving cars should be taxed to offset job losses, thinktank urges",
+          "date": "2026-09-11T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/sep/11/self-driving-cars-should-be-taxed-to-offset-job-losses-thinktank-urges"
+        },
+        {
+          "id": "cf7fd617d7d4335739540d47c866723c",
+          "title": "Tesla starts selling Chinese-made Model 3s in Canada at the EV's lowest price ever",
+          "date": "2026-05-02T17:19:05+00:00",
+          "source": "engadget.com",
+          "url": "https://www.engadget.com/2162731/tesla-starts-selling-chinese-made-model-3s-in-canada-at-lowest-price-ever/"
+        },
+        {
+          "id": "9e58e0b720b7b047cd398b4f50b2742c",
+          "title": "‘Look, no hands’: China chases the driverless dream at Beijing car show",
+          "date": "2026-04-24T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/apr/24/china-chases-driverless-dream-beijing-car-show-ai"
+        },
+        {
+          "id": "037be73c7760c3e0b304959b037735d8",
+          "title": "Nissan turnaround plan pins hopes on ‘AI-defined vehicles’",
+          "date": "2026-04-14T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/business/2026/apr/14/nissan-turnaround-plan-pins-hopes-on-ai-defined-vehicles"
+        },
+        {
+          "id": "ffc4b610af459fc177c90f13da8c83dd",
+          "title": "Genesis & Cogo launch tool to cut costs & carbon at home",
+          "date": "2025-08-21T10:43:30.642969+00:00",
+          "source": "futurefive.co.nz",
+          "url": "https://futurefive.co.nz/story/genesis-cogo-launch-tool-to-cut-costs-carbon-at-home"
+        },
+        {
+          "id": "c1cdeec7a8501083c79f79b8eac47c2e",
+          "title": "Toyota chooses Hesai ATX lidar for future China EV models",
+          "date": "2025-08-18T14:22:59+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/sensors/toyota-chooses-hesai-atx-lidar-for-future-china-ev-models.html"
+        },
+        {
+          "id": "3bf7b617558896685454a1e39adf47d8",
+          "title": "Continental rolls out tires for autonomous vehicles",
+          "date": "2025-08-15T15:28:47+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/safety/continental-launches-tires-for-autonomous-vehicles.html"
+        },
+        {
+          "id": "477c824dfebe13cb1f04a2ed17f662f8",
+          "title": "Tesla shareholders sue Elon Musk for allegedly hyping up faltering Robotaxi",
+          "date": "2025-08-05T00:00:00+00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2025/aug/05/elon-musk-lawsuit-robotaxi-tesla"
+        },
+        {
+          "id": "61d106dd68be309ff43786457c74adc3",
+          "title": "Uber and WeRide expand robotaxi network in Abu Dhabi",
+          "date": "2025-08-01T14:05:59+00:00",
+          "source": "autonomousvehicleinternational.com",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/uber-and-weride-expand-robotaxi-network-in-abu-dhabi.html"
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "id": "computer_vision",
+      "name": "Computer Vision",
+      "state": "persistent",
+      "article_count": 29,
+      "source_count": 9,
+      "category_count": 3,
+      "sources": [
+        "autonomousvehicleinternational.com",
+        "bair.berkeley.edu",
+        "dronedj.com",
+        "sciencedaily.com",
+        "suasnews.com",
+        "the-decoder.com",
+        "thedronegirl.com",
+        "therobotreport.com",
+        "unite.ai"
+      ],
+      "categories": [
+        "autonomous",
+        "drones",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "computer vision",
+          "matches": 17
+        },
+        {
+          "alias": "machine vision",
+          "matches": 6
+        },
+        {
+          "alias": "vision systems",
+          "matches": 5
+        },
+        {
+          "alias": "vision system",
+          "matches": 5
+        },
+        {
+          "alias": "visual recognition",
+          "matches": 3
+        },
+        {
+          "alias": "image recognition",
+          "matches": 3
         }
       ],
       "activity": {
@@ -1791,101 +2230,345 @@
         },
         "14_day": {
           "recent": 0,
-          "previous": 5,
+          "previous": 1,
           "growth_percent": -100.0
         },
         "30_day": {
-          "recent": 6,
-          "previous": 2,
-          "growth_percent": 200.0
-        },
-        "90_day": {
-          "recent": 8,
+          "recent": 1,
           "previous": 0,
           "growth_percent": null
         },
-        "source_count": 4,
-        "category_count": 2
+        "90_day": {
+          "recent": 1,
+          "previous": 2,
+          "growth_percent": -50.0
+        },
+        "source_count": 9,
+        "category_count": 3
       },
-      "momentum": 71.27,
+      "momentum": 72.12,
       "evidence": [
         {
-          "id": "ab2d71991f86c134610b0a4eb3aa3147",
-          "title": "Avride AV fleet scales to 200 cars",
-          "date": "2026-04-30T10:17:46+00:00",
+          "id": "2182e174d64f4f363048e32e0096f8fc",
+          "title": "Ask Drone Girl: Why is my DJI drone stuck at a 15-foot ceiling indoors?",
+          "date": "2026-09-04T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/04/max-indoor-altitude-dji-drone-mini-3-mini-4-pro-avata/"
+        },
+        {
+          "id": "0f19debf1df35d88e88f3b6bcda64c4c",
+          "title": "SkyfireAI raises $11M for autonomous drone coordination",
+          "date": "2026-05-01T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/05/01/skyfireai-autonomous-drone-seed-funding/"
+        },
+        {
+          "id": "434526b1fd7108272130a00beeba5735",
+          "title": "Gradient-based Planning for World Models at Longer Horizons",
+          "date": "2026-04-20T00:00:00+00:00",
+          "source": "bair.berkeley.edu",
+          "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/"
+        },
+        {
+          "id": "7b11b1b87c3ae89a6d6306c5b122aa88",
+          "title": "This DJI drone can take off, land from moving ships",
+          "date": "2025-08-21T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2025/08/21/dji-matrice-400-ship-takeoff/"
+        },
+        {
+          "id": "35ce6031a37b7cf45074c07ad03f4fdc",
+          "title": "Intuitive Surgical GM Iman Jeddi to share at RoboBusiness how the company keeps innovating",
+          "date": "2025-08-20T16:00:52+00:00",
+          "source": "therobotreport.com",
+          "url": "https://www.therobotreport.com/intuitive-surgical-gm-iman-jeddi-share-how-company-keeps-innovating-robobusiness/"
+        },
+        {
+          "id": "062b0884a9497c933882fd41451019f2",
+          "title": "GoPro is paying for drone videos: Here’s how to join",
+          "date": "2025-08-14T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2025/08/14/gopro-ai-training-video-monetization/"
+        },
+        {
+          "id": "7542cd5d7c4195e04af21af69ca68932",
+          "title": "First global ISO/PAS 8800:2024 AI safety certification awarded to Geely",
+          "date": "2025-08-07T14:45:55+00:00",
           "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/avride-av-fleet-scales-to-200-cars.html"
+          "url": "https://www.autonomousvehicleinternational.com/news/safety/first-global-iso-pas-88002024-ai-safety-certification-awarded-to-geely.html"
         },
         {
-          "id": "acee6859ec990621d095f721ea9e1185",
-          "title": "EDITOR’S PICKS: Presentation highlights ahead of this year’s Autonomous Vehicle Tech Expo",
-          "date": "2026-04-29T17:02:03+00:00",
+          "id": "b44917bab5b553de40bd557fa3deb975",
+          "title": "Drone tech meets dust bunnies in DJI’s Romo vacuum cleaner",
+          "date": "2025-08-06T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2025/08/06/dji-romo-vacuum-cleaner-price/"
+        },
+        {
+          "id": "cb2324420ff729e619823fcb97813b34",
+          "title": "Subaru selects HPE to accelerate AI development for next-gen EyeSight driver assist system",
+          "date": "2025-08-01T15:00:28+00:00",
           "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/expo/editors-picks-presentation-highlights-ahead-of-this-years-autonomous-vehicle-tech-expo.html"
+          "url": "https://www.autonomousvehicleinternational.com/news/ai-sensor-fusion/subaru-selects-hpe-to-accelerate-ai-development-for-next-gen-eyesight-driver-assist-system.html"
         },
         {
-          "id": "c622fdb4ba1f80e5eed79b9f61742574",
-          "title": "Super Cruise use hits one billion miles across GM vehicles",
-          "date": "2026-04-29T11:44:23+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/adas/super-cruise-use-hits-one-billion-miles-across-gm-vehicles.html"
-        },
-        {
-          "id": "d357ecee0d272178ccf27c40cac6a0b3",
-          "title": "Zoox expands autonomous robotaxi testing to Miami",
-          "date": "2026-04-28T12:29:54+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/zoox-expands-autonomous-robotaxi-testing-to-miami.html"
-        },
-        {
-          "id": "78f9ba4af010c49e9c128a77eaf1deaa",
-          "title": "In this Issue – April 2026",
-          "date": "2026-04-28T09:54:15+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/online-magazines/in-this-issue-april-2026.html"
-        },
-        {
-          "id": "281bd7bceee9cc2108bde4ec674aa498",
-          "title": "WeRide and Lenovo announce ambition to deploy 200,000 autonomous vehicles by 2031",
-          "date": "2026-04-27T12:52:11+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/weride-and-lenovo-announce-ambition-to-deploy-200000-autonomous-vehicles-by-2031.html"
-        },
-        {
-          "id": "9e58e0b720b7b047cd398b4f50b2742c",
-          "title": "‘Look, no hands’: China chases the driverless dream at Beijing car show",
-          "date": "2026-04-24T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/technology/2026/apr/24/china-chases-driverless-dream-beijing-car-show-ai"
-        },
-        {
-          "id": "705843c11d4c20ad0e37b9ef5a0b4985",
-          "title": "‘System malfunction’ causes robotaxis to stall in the middle of the road in China",
-          "date": "2026-04-01T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/technology/2026/apr/01/system-malfunction-causes-robotaxis-to-stall-in-the-middle-of-the-road-in-china"
-        },
-        {
-          "id": "d4e2fa2708bf30bdc502cd47fe67279f",
-          "title": "Grab invests in WeRide to advance robotaxi and shuttle deployment in Southeast Asia",
-          "date": "2025-08-18T13:38:16+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/grab-invests-in-weride-to-advance-robotaxi-and-shuttle-deployment-in-southeast-asia.html"
-        },
-        {
-          "id": "3bf7b617558896685454a1e39adf47d8",
-          "title": "Continental rolls out tires for autonomous vehicles",
-          "date": "2025-08-15T15:28:47+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/safety/continental-launches-tires-for-autonomous-vehicles.html"
+          "id": "aca6ca4c0e26f719ec6f4e738d3d5bdc",
+          "title": "DroneDeploy’s Progress AI could mark a big moment for drone data",
+          "date": "2025-07-22T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2025/07/22/dronedeploy-progress-ai/"
         }
       ],
-      "rank": 12
+      "rank": 15
+    },
+    {
+      "id": "drone_delivery",
+      "name": "Drone Delivery",
+      "state": "emerging",
+      "article_count": 28,
+      "source_count": 3,
+      "category_count": 1,
+      "sources": [
+        "dronedj.com",
+        "suasnews.com",
+        "thedronegirl.com"
+      ],
+      "categories": [
+        "drones"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "drone delivery",
+          "matches": 25
+        },
+        {
+          "alias": "drone deliveries",
+          "matches": 9
+        },
+        {
+          "alias": "delivery drones",
+          "matches": 5
+        },
+        {
+          "alias": "delivery drone",
+          "matches": 3
+        },
+        {
+          "alias": "autonomous drone delivery",
+          "matches": 1
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 1,
+          "previous": 3,
+          "growth_percent": -66.66666666666666
+        },
+        "14_day": {
+          "recent": 4,
+          "previous": 1,
+          "growth_percent": 300.0
+        },
+        "30_day": {
+          "recent": 5,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 5,
+          "previous": 2,
+          "growth_percent": 150.0
+        },
+        "source_count": 3,
+        "category_count": 1
+      },
+      "momentum": 67.53,
+      "evidence": [
+        {
+          "id": "b1c668d6634804e9e624eb446d17edd3",
+          "title": "US Marine Corps share videos of what training with drones looks like",
+          "date": "2026-09-19T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/19/us-marine-corps-share-videos-of-what-training-with-drones-looks-like/"
+        },
+        {
+          "id": "ffb5a39bb2a6d903752eeddc0440dff2",
+          "title": "Drone Assistant wants to make international drone rules less painful",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/16/flyby-guys-drone-assistant-rules/"
+        },
+        {
+          "id": "417e263294a18b7a34378bd232141bcd",
+          "title": "Flytrex launches unconventional plan to cut drone delivery costs by 60%",
+          "date": "2026-09-16T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/16/flytrex-rooftop-docks-predictive-ai-drone-delivery/"
+        },
+        {
+          "id": "3068108ffa11db95c9d26add29993155",
+          "title": "From medical delivery to battlefield recon: Wingcopter launches the W262 (and joins the defense pivot)",
+          "date": "2026-09-15T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/15/wingcopter-262-defense-reconnaissance-drone-pivot/"
+        },
+        {
+          "id": "9a6479b16490e0442b343a614a1a56b5",
+          "title": "Girls in Aviation Day 2026 set for Sept. 19: How to get involved",
+          "date": "2026-09-10T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/09/10/girls-in-aviation-day-2026-women-in-aviation-international/"
+        },
+        {
+          "id": "de08b6c0c88949c16898080925016a42",
+          "title": "NHS London launches medical drone deliveries with Matternet",
+          "date": "2026-05-01T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/05/01/matternet-nhs-london/"
+        },
+        {
+          "id": "aea099a37b8314e4bae95a16cc6fd418",
+          "title": "Here’s the largest pizza delivery drone I’ve seen yet",
+          "date": "2026-04-30T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2026/04/30/flytrex-little-caesars/"
+        },
+        {
+          "id": "412b65bd64d0a0d5a8ca33690e0a97ae",
+          "title": "Flytrex gets FAA nod for BVLOS drone delivery",
+          "date": "2025-08-13T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2025/08/13/flytrex-drone-delivery-faa-bvlos/"
+        },
+        {
+          "id": "c4a735e7ac48a89b03ba8de4dccdccdb",
+          "title": "Experts react to FAA’s proposed BVLOS drone rule — game-changer or growing pains?",
+          "date": "2025-08-07T00:00:00+00:00",
+          "source": "thedronegirl.com",
+          "url": "https://www.thedronegirl.com/2025/08/07/proposed-bvlos-drone-rule/"
+        },
+        {
+          "id": "891bc757925dbb9c7a8fc2ee6ac9aa67",
+          "title": "America is clearing the path for drones to fly beyond sight",
+          "date": "2025-08-06T00:00:00+00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2025/08/06/faa-bvlos-drone-new-rule/"
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "id": "quantum_computing",
+      "name": "Quantum Computing",
+      "state": "persistent",
+      "article_count": 6,
+      "source_count": 2,
+      "category_count": 2,
+      "sources": [
+        "research.google",
+        "sciencedaily.com"
+      ],
+      "categories": [
+        "autonomous",
+        "tech"
+      ],
+      "aliases_detected": [
+        {
+          "alias": "quantum computers",
+          "matches": 6
+        },
+        {
+          "alias": "quantum computer",
+          "matches": 6
+        },
+        {
+          "alias": "quantum computing",
+          "matches": 4
+        },
+        {
+          "alias": "quantum processor",
+          "matches": 2
+        },
+        {
+          "alias": "quantum processors",
+          "matches": 1
+        }
+      ],
+      "activity": {
+        "7_day": {
+          "recent": 1,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "14_day": {
+          "recent": 1,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "30_day": {
+          "recent": 1,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "90_day": {
+          "recent": 1,
+          "previous": 0,
+          "growth_percent": null
+        },
+        "source_count": 2,
+        "category_count": 2
+      },
+      "momentum": 59.49,
+      "evidence": [
+        {
+          "id": "26e351e0ce9a3c32c478b48d3f04346f",
+          "title": "Scientists just made quantum computer operations 1,000 times faster",
+          "date": "2026-09-26T00:00:00+00:00",
+          "source": "sciencedaily.com",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260911003845.htm"
+        },
+        {
+          "id": "7122ade52b3f31586e566f27783f5c79",
+          "title": "This simple magnetic trick could change quantum computing forever",
+          "date": "2025-08-25T00:00:00+00:00",
+          "source": "sciencedaily.com",
+          "url": "https://www.sciencedaily.com/releases/2025/08/250816113508.htm"
+        },
+        {
+          "id": "e776099c083fa22388da7b74d691810e",
+          "title": "Scientists just simulated the “impossible” — fault-tolerant quantum code cracked at last",
+          "date": "2025-07-25T00:00:00+00:00",
+          "source": "sciencedaily.com",
+          "url": "https://www.sciencedaily.com/releases/2025/07/250702214157.htm"
+        },
+        {
+          "id": "b79ec1d721fb90c8750e998c029e8ac5",
+          "title": "Photonic quantum chips are making AI smarter and greener",
+          "date": "2025-06-25T00:00:00+00:00",
+          "source": "sciencedaily.com",
+          "url": "https://www.sciencedaily.com/releases/2025/06/250608222002.htm"
+        },
+        {
+          "id": "2c0e4616b6cf1fae6cb8dd28d21df4d3",
+          "title": "Quantum breakthrough: ‘Magic states’ now easier, faster, and way less noisy",
+          "date": "2025-06-25T00:00:00+00:00",
+          "source": "sciencedaily.com",
+          "url": "https://www.sciencedaily.com/releases/2025/06/250621233816.htm"
+        },
+        {
+          "id": "cf276a7cee05729e7f0663dd114bd864",
+          "title": "A colorful quantum future",
+          "date": "2025-06-24T21:59:14.925044+00:00",
+          "source": "research.google",
+          "url": "https://research.google/blog/a-colorful-quantum-future/"
+        }
+      ],
+      "rank": 17
     },
     {
       "id": "drone_autonomy",
       "name": "Autonomous Drones",
-      "state": "emerging",
+      "state": "quiet",
       "article_count": 21,
       "source_count": 5,
       "category_count": 2,
@@ -1926,23 +2609,23 @@
         },
         "14_day": {
           "recent": 0,
-          "previous": 3,
-          "growth_percent": -100.0
+          "previous": 0,
+          "growth_percent": 0.0
         },
         "30_day": {
-          "recent": 3,
+          "recent": 0,
           "previous": 0,
-          "growth_percent": null
+          "growth_percent": 0.0
         },
         "90_day": {
-          "recent": 3,
-          "previous": 0,
-          "growth_percent": null
+          "recent": 0,
+          "previous": 3,
+          "growth_percent": -100.0
         },
         "source_count": 5,
         "category_count": 2
       },
-      "momentum": 69.55,
+      "momentum": 40.8,
       "evidence": [
         {
           "id": "6c05ab205725ddf03620304535031b81",
@@ -2013,671 +2696,6 @@
           "date": "2025-06-25T00:00:00+00:00",
           "source": "thedronegirl.com",
           "url": "https://www.thedronegirl.com/2025/06/25/arrow-patent/"
-        }
-      ],
-      "rank": 13
-    },
-    {
-      "id": "drone_delivery",
-      "name": "Drone Delivery",
-      "state": "persistent",
-      "article_count": 23,
-      "source_count": 3,
-      "category_count": 1,
-      "sources": [
-        "dronedj.com",
-        "suasnews.com",
-        "thedronegirl.com"
-      ],
-      "categories": [
-        "drones"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "drone delivery",
-          "matches": 20
-        },
-        {
-          "alias": "drone deliveries",
-          "matches": 9
-        },
-        {
-          "alias": "delivery drone",
-          "matches": 3
-        },
-        {
-          "alias": "delivery drones",
-          "matches": 3
-        },
-        {
-          "alias": "autonomous drone delivery",
-          "matches": 1
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 2,
-          "growth_percent": -100.0
-        },
-        "30_day": {
-          "recent": 2,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "90_day": {
-          "recent": 2,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "source_count": 3,
-        "category_count": 1
-      },
-      "momentum": 63.78,
-      "evidence": [
-        {
-          "id": "de08b6c0c88949c16898080925016a42",
-          "title": "NHS London launches medical drone deliveries with Matternet",
-          "date": "2026-05-01T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2026/05/01/matternet-nhs-london/"
-        },
-        {
-          "id": "aea099a37b8314e4bae95a16cc6fd418",
-          "title": "Here’s the largest pizza delivery drone I’ve seen yet",
-          "date": "2026-04-30T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2026/04/30/flytrex-little-caesars/"
-        },
-        {
-          "id": "412b65bd64d0a0d5a8ca33690e0a97ae",
-          "title": "Flytrex gets FAA nod for BVLOS drone delivery",
-          "date": "2025-08-13T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2025/08/13/flytrex-drone-delivery-faa-bvlos/"
-        },
-        {
-          "id": "c4a735e7ac48a89b03ba8de4dccdccdb",
-          "title": "Experts react to FAA’s proposed BVLOS drone rule — game-changer or growing pains?",
-          "date": "2025-08-07T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2025/08/07/proposed-bvlos-drone-rule/"
-        },
-        {
-          "id": "c71d458c8a545c8defcfeda8139e31eb",
-          "title": "U.S. finally releases long-awaited BVLOS drone rule. Here’s what it means for the industry",
-          "date": "2025-08-06T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2025/08/06/bvlos-drone-rule/"
-        },
-        {
-          "id": "891bc757925dbb9c7a8fc2ee6ac9aa67",
-          "title": "America is clearing the path for drones to fly beyond sight",
-          "date": "2025-08-06T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2025/08/06/faa-bvlos-drone-new-rule/"
-        },
-        {
-          "id": "d94fc9d9959e625162185b32988b9b3d",
-          "title": "51 miles in 55 minutes: Intercity cargo drone route skips rush hour",
-          "date": "2025-08-01T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2025/08/01/intercity-cargo-drone-ehang-evtol/"
-        },
-        {
-          "id": "9fad088dc225c19058379f63c5385f41",
-          "title": "How to program a drone using Python: A beginner’s guide",
-          "date": "2025-07-28T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2025/07/28/program-drone-python/"
-        },
-        {
-          "id": "83ff9b3ed3880f566e4d0d9b9474c9f5",
-          "title": "Konza Technopolis: Kenya is building a national drone corridor within a “smart city”",
-          "date": "2025-07-25T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2025/07/25/konza-kenya/"
-        },
-        {
-          "id": "45a908e6d35f6c5b6ba42d308649cd47",
-          "title": "How do they get trash off Mount Everest? This drone has the answer",
-          "date": "2025-07-21T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2025/07/21/mount-everest-trash-drone/"
-        }
-      ],
-      "rank": 14
-    },
-    {
-      "id": "computer_vision",
-      "name": "Computer Vision",
-      "state": "persistent",
-      "article_count": 28,
-      "source_count": 9,
-      "category_count": 3,
-      "sources": [
-        "autonomousvehicleinternational.com",
-        "bair.berkeley.edu",
-        "dronedj.com",
-        "sciencedaily.com",
-        "suasnews.com",
-        "the-decoder.com",
-        "thedronegirl.com",
-        "therobotreport.com",
-        "unite.ai"
-      ],
-      "categories": [
-        "autonomous",
-        "drones",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "computer vision",
-          "matches": 17
-        },
-        {
-          "alias": "machine vision",
-          "matches": 6
-        },
-        {
-          "alias": "vision systems",
-          "matches": 5
-        },
-        {
-          "alias": "vision system",
-          "matches": 4
-        },
-        {
-          "alias": "visual recognition",
-          "matches": 3
-        },
-        {
-          "alias": "image recognition",
-          "matches": 3
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 1,
-          "growth_percent": -100.0
-        },
-        "30_day": {
-          "recent": 1,
-          "previous": 1,
-          "growth_percent": 0.0
-        },
-        "90_day": {
-          "recent": 2,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "source_count": 9,
-        "category_count": 3
-      },
-      "momentum": 47.12,
-      "evidence": [
-        {
-          "id": "0f19debf1df35d88e88f3b6bcda64c4c",
-          "title": "SkyfireAI raises $11M for autonomous drone coordination",
-          "date": "2026-05-01T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2026/05/01/skyfireai-autonomous-drone-seed-funding/"
-        },
-        {
-          "id": "434526b1fd7108272130a00beeba5735",
-          "title": "Gradient-based Planning for World Models at Longer Horizons",
-          "date": "2026-04-20T00:00:00+00:00",
-          "source": "bair.berkeley.edu",
-          "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/"
-        },
-        {
-          "id": "7b11b1b87c3ae89a6d6306c5b122aa88",
-          "title": "This DJI drone can take off, land from moving ships",
-          "date": "2025-08-21T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2025/08/21/dji-matrice-400-ship-takeoff/"
-        },
-        {
-          "id": "35ce6031a37b7cf45074c07ad03f4fdc",
-          "title": "Intuitive Surgical GM Iman Jeddi to share at RoboBusiness how the company keeps innovating",
-          "date": "2025-08-20T16:00:52+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/intuitive-surgical-gm-iman-jeddi-share-how-company-keeps-innovating-robobusiness/"
-        },
-        {
-          "id": "062b0884a9497c933882fd41451019f2",
-          "title": "GoPro is paying for drone videos: Here’s how to join",
-          "date": "2025-08-14T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2025/08/14/gopro-ai-training-video-monetization/"
-        },
-        {
-          "id": "7542cd5d7c4195e04af21af69ca68932",
-          "title": "First global ISO/PAS 8800:2024 AI safety certification awarded to Geely",
-          "date": "2025-08-07T14:45:55+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/safety/first-global-iso-pas-88002024-ai-safety-certification-awarded-to-geely.html"
-        },
-        {
-          "id": "b44917bab5b553de40bd557fa3deb975",
-          "title": "Drone tech meets dust bunnies in DJI’s Romo vacuum cleaner",
-          "date": "2025-08-06T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2025/08/06/dji-romo-vacuum-cleaner-price/"
-        },
-        {
-          "id": "cb2324420ff729e619823fcb97813b34",
-          "title": "Subaru selects HPE to accelerate AI development for next-gen EyeSight driver assist system",
-          "date": "2025-08-01T15:00:28+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/ai-sensor-fusion/subaru-selects-hpe-to-accelerate-ai-development-for-next-gen-eyesight-driver-assist-system.html"
-        },
-        {
-          "id": "aca6ca4c0e26f719ec6f4e738d3d5bdc",
-          "title": "DroneDeploy’s Progress AI could mark a big moment for drone data",
-          "date": "2025-07-22T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2025/07/22/dronedeploy-progress-ai/"
-        },
-        {
-          "id": "3e822e4f4998d5fe9e986a3a0a750869",
-          "title": "DJI Air 3S vs. Autel Evo Lite+: Which mid-range drone is right for you?",
-          "date": "2025-07-15T00:00:00+00:00",
-          "source": "thedronegirl.com",
-          "url": "https://www.thedronegirl.com/2025/07/15/dji-air-3s-vs-autel-evo-lite/"
-        }
-      ],
-      "rank": 15
-    },
-    {
-      "id": "space_technology",
-      "name": "Space Technology",
-      "state": "quiet",
-      "article_count": 16,
-      "source_count": 8,
-      "category_count": 3,
-      "sources": [
-        "autonomousvehicleinternational.com",
-        "dronedj.com",
-        "futurefive.co.nz",
-        "gizmodo.com",
-        "sciencedaily.com",
-        "suasnews.com",
-        "therobotreport.com",
-        "unite.ai"
-      ],
-      "categories": [
-        "autonomous",
-        "drones",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "satellite",
-          "matches": 12
-        },
-        {
-          "alias": "spacecraft",
-          "matches": 3
-        },
-        {
-          "alias": "satellites",
-          "matches": 2
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "30_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "90_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "source_count": 8,
-        "category_count": 3
-      },
-      "momentum": 44.95,
-      "evidence": [
-        {
-          "id": "88206d37cc976cd36f6ae4e6ff347d02",
-          "title": "Geely launches 11 more satellites to support intelligent connected vehicles",
-          "date": "2025-08-15T11:00:28+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/connectivity/geely-launches-11-more-satellites-to-support-intelligent-connected-vehicles.html"
-        },
-        {
-          "id": "2c3bb052792d979f5fc950c8c4ea4e46",
-          "title": "Motorola & One NZ launch 5G phones with satellite TXT support",
-          "date": "2025-08-13T23:26:10.749358+00:00",
-          "source": "futurefive.co.nz",
-          "url": "https://futurefive.co.nz/story/motorola-one-nz-launch-5g-phones-with-satellite-txt-support"
-        },
-        {
-          "id": "4a549bd6defaba13c04b22697527384d",
-          "title": "Drone swarms: How they actually work and what industries should care",
-          "date": "2025-08-03T12:30:43+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/drone-swarms-how-they-actually-work-and-what-industries-should-care/"
-        },
-        {
-          "id": "43f5c9d05b2d66e648a2a1c4289be1d2",
-          "title": "Swarm robotics could spell the end of the assembly line",
-          "date": "2025-07-31T14:47:13+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/swarm-robotics-could-spell-end-aerospace-assembly-line/"
-        },
-        {
-          "id": "df021cbae2c7f15013c802acdde004c2",
-          "title": "Pony.ai L4 domain controller surpasses two million kilometers of on-road testing",
-          "date": "2025-07-23T12:59:04+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/testing/pony-ai-l4-domain-controller-surpasses-two-million-kilometers-of-road-testing.html"
-        },
-        {
-          "id": "40b8b4ea538e181922bf4e287b68e6ae",
-          "title": "DJI Mavic 3 Pro used in Cape Canaveral drone spying case",
-          "date": "2025-07-10T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2025/07/10/canada-tourist-drone-spy-dji/"
-        },
-        {
-          "id": "3c621b673a8da491831ea8612883c381",
-          "title": "This quantum sensor tracks 3D movement without GPS",
-          "date": "2025-06-25T00:00:00+00:00",
-          "source": "sciencedaily.com",
-          "url": "https://www.sciencedaily.com/releases/2025/06/250614034235.htm"
-        },
-        {
-          "id": "2503110c65ab117c5d9ee0fbcf53a4fa",
-          "title": "Celebrating 200 podcast episodes; robotics evolve in space exploration",
-          "date": "2025-06-18T18:28:36+00:00",
-          "source": "therobotreport.com",
-          "url": "https://www.therobotreport.com/celebrating-200-episodes-evolution-robotics-nasa-space-exploration/"
-        },
-        {
-          "id": "9b95d28bc01701eab22fb7049a92ca14",
-          "title": "Parrot: ANAFI UKR: The smart, rugged, ISR micro-UAV range for Defense, Public Safety and Government operations",
-          "date": "2025-06-17T04:19:13+00:00",
-          "source": "suasnews.com",
-          "url": "https://www.suasnews.com/2025/06/parrot-anafi-ukr-the-smart-rugged-isr-micro-uav-range-for-defense-public-safety-and-government-operations/"
-        },
-        {
-          "id": "65a2053548ba34906c178db8d44ff500",
-          "title": "DJI updates D-RTK 3 with Matrice 400 support, GNSS upgrades",
-          "date": "2025-06-16T00:00:00+00:00",
-          "source": "dronedj.com",
-          "url": "https://dronedj.com/2025/06/16/dji-d-rtk-3-firmware-update/"
-        }
-      ],
-      "rank": 16
-    },
-    {
-      "id": "quantum_computing",
-      "name": "Quantum Computing",
-      "state": "quiet",
-      "article_count": 5,
-      "source_count": 2,
-      "category_count": 2,
-      "sources": [
-        "research.google",
-        "sciencedaily.com"
-      ],
-      "categories": [
-        "autonomous",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "quantum computers",
-          "matches": 5
-        },
-        {
-          "alias": "quantum computer",
-          "matches": 5
-        },
-        {
-          "alias": "quantum computing",
-          "matches": 3
-        },
-        {
-          "alias": "quantum processor",
-          "matches": 2
-        },
-        {
-          "alias": "quantum processors",
-          "matches": 1
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "30_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "90_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "source_count": 2,
-        "category_count": 2
-      },
-      "momentum": 33.24,
-      "evidence": [
-        {
-          "id": "7122ade52b3f31586e566f27783f5c79",
-          "title": "This simple magnetic trick could change quantum computing forever",
-          "date": "2025-08-25T00:00:00+00:00",
-          "source": "sciencedaily.com",
-          "url": "https://www.sciencedaily.com/releases/2025/08/250816113508.htm"
-        },
-        {
-          "id": "e776099c083fa22388da7b74d691810e",
-          "title": "Scientists just simulated the “impossible” — fault-tolerant quantum code cracked at last",
-          "date": "2025-07-25T00:00:00+00:00",
-          "source": "sciencedaily.com",
-          "url": "https://www.sciencedaily.com/releases/2025/07/250702214157.htm"
-        },
-        {
-          "id": "2c0e4616b6cf1fae6cb8dd28d21df4d3",
-          "title": "Quantum breakthrough: ‘Magic states’ now easier, faster, and way less noisy",
-          "date": "2025-06-25T00:00:00+00:00",
-          "source": "sciencedaily.com",
-          "url": "https://www.sciencedaily.com/releases/2025/06/250621233816.htm"
-        },
-        {
-          "id": "b79ec1d721fb90c8750e998c029e8ac5",
-          "title": "Photonic quantum chips are making AI smarter and greener",
-          "date": "2025-06-25T00:00:00+00:00",
-          "source": "sciencedaily.com",
-          "url": "https://www.sciencedaily.com/releases/2025/06/250608222002.htm"
-        },
-        {
-          "id": "cf276a7cee05729e7f0663dd114bd864",
-          "title": "A colorful quantum future",
-          "date": "2025-06-24T21:59:14.925044+00:00",
-          "source": "research.google",
-          "url": "https://research.google/blog/a-colorful-quantum-future/"
-        }
-      ],
-      "rank": 17
-    },
-    {
-      "id": "electric_vehicles",
-      "name": "Electric Vehicles",
-      "state": "falling",
-      "article_count": 21,
-      "source_count": 7,
-      "category_count": 2,
-      "sources": [
-        "autonomousvehicleinternational.com",
-        "driverless.global",
-        "engadget.com",
-        "futurefive.co.nz",
-        "futurism.com",
-        "research.google",
-        "theguardian.com"
-      ],
-      "categories": [
-        "autonomous",
-        "tech"
-      ],
-      "aliases_detected": [
-        {
-          "alias": "electric vehicle",
-          "matches": 10
-        },
-        {
-          "alias": "ev",
-          "matches": 9
-        },
-        {
-          "alias": "evs",
-          "matches": 8
-        },
-        {
-          "alias": "electric vehicles",
-          "matches": 7
-        },
-        {
-          "alias": "electric cars",
-          "matches": 2
-        },
-        {
-          "alias": "electric car",
-          "matches": 1
-        }
-      ],
-      "activity": {
-        "7_day": {
-          "recent": 0,
-          "previous": 0,
-          "growth_percent": 0.0
-        },
-        "14_day": {
-          "recent": 0,
-          "previous": 1,
-          "growth_percent": -100.0
-        },
-        "30_day": {
-          "recent": 1,
-          "previous": 2,
-          "growth_percent": -50.0
-        },
-        "90_day": {
-          "recent": 3,
-          "previous": 0,
-          "growth_percent": null
-        },
-        "source_count": 7,
-        "category_count": 2
-      },
-      "momentum": 32.59,
-      "evidence": [
-        {
-          "id": "cf7fd617d7d4335739540d47c866723c",
-          "title": "Tesla starts selling Chinese-made Model 3s in Canada at the EV's lowest price ever",
-          "date": "2026-05-02T17:19:05+00:00",
-          "source": "engadget.com",
-          "url": "https://www.engadget.com/2162731/tesla-starts-selling-chinese-made-model-3s-in-canada-at-lowest-price-ever/"
-        },
-        {
-          "id": "9e58e0b720b7b047cd398b4f50b2742c",
-          "title": "‘Look, no hands’: China chases the driverless dream at Beijing car show",
-          "date": "2026-04-24T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/technology/2026/apr/24/china-chases-driverless-dream-beijing-car-show-ai"
-        },
-        {
-          "id": "037be73c7760c3e0b304959b037735d8",
-          "title": "Nissan turnaround plan pins hopes on ‘AI-defined vehicles’",
-          "date": "2026-04-14T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/business/2026/apr/14/nissan-turnaround-plan-pins-hopes-on-ai-defined-vehicles"
-        },
-        {
-          "id": "ffc4b610af459fc177c90f13da8c83dd",
-          "title": "Genesis & Cogo launch tool to cut costs & carbon at home",
-          "date": "2025-08-21T10:43:30.642969+00:00",
-          "source": "futurefive.co.nz",
-          "url": "https://futurefive.co.nz/story/genesis-cogo-launch-tool-to-cut-costs-carbon-at-home"
-        },
-        {
-          "id": "c1cdeec7a8501083c79f79b8eac47c2e",
-          "title": "Toyota chooses Hesai ATX lidar for future China EV models",
-          "date": "2025-08-18T14:22:59+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/sensors/toyota-chooses-hesai-atx-lidar-for-future-china-ev-models.html"
-        },
-        {
-          "id": "3bf7b617558896685454a1e39adf47d8",
-          "title": "Continental rolls out tires for autonomous vehicles",
-          "date": "2025-08-15T15:28:47+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/safety/continental-launches-tires-for-autonomous-vehicles.html"
-        },
-        {
-          "id": "477c824dfebe13cb1f04a2ed17f662f8",
-          "title": "Tesla shareholders sue Elon Musk for allegedly hyping up faltering Robotaxi",
-          "date": "2025-08-05T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/technology/2025/aug/05/elon-musk-lawsuit-robotaxi-tesla"
-        },
-        {
-          "id": "61d106dd68be309ff43786457c74adc3",
-          "title": "Uber and WeRide expand robotaxi network in Abu Dhabi",
-          "date": "2025-08-01T14:05:59+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/uber-and-weride-expand-robotaxi-network-in-abu-dhabi.html"
-        },
-        {
-          "id": "f1cd2816ef4b5ef4af87abcac21e8ac0",
-          "title": "Tesla’s European sales slump as Musk warns of ‘rough quarters’ ahead",
-          "date": "2025-07-24T00:00:00+00:00",
-          "source": "theguardian.com",
-          "url": "https://www.theguardian.com/technology/2025/jul/24/tesla-european-sales-elon-musk-electric-carmaker"
-        },
-        {
-          "id": "c376402e53e8654c986212dcc46dfa15",
-          "title": "CAM Pathfinder FS competition to provide funding for UK’s CAM sector",
-          "date": "2025-07-22T06:25:20+00:00",
-          "source": "autonomousvehicleinternational.com",
-          "url": "https://www.autonomousvehicleinternational.com/news/business/cam-pathfinder-fs-competition-to-provide-funding-for-uks-cam-sector.html"
         }
       ],
       "rank": 18

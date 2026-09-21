@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "article_count": 802,
-  "relationship_count": 130,
+  "article_count": 877,
+  "relationship_count": 132,
   "relationships": [
     {
       "from": "artificial_intelligence",
       "to": "generative_ai",
-      "shared_article_count": 139,
-      "from_article_count": 457,
-      "to_article_count": 143,
-      "overlap_percent": 30.15,
-      "strength": 97.2,
+      "shared_article_count": 145,
+      "from_article_count": 498,
+      "to_article_count": 151,
+      "overlap_percent": 28.77,
+      "strength": 96.03,
       "article_ids": [
         "0480b4eeb5a0d282d8d8e6fdf06f7aca",
         "062b0884a9497c933882fd41451019f2",
@@ -30,23 +30,59 @@
         "217106391383d2393eedf8d5fb95b541",
         "2543a43c1d6cd2917a09552145c60861",
         "2a856895404715bf9ab768713b099121",
+        "2aacbb35e58b743ebc88246907cddaf2",
         "2ac08ecb591a3ef4b79bce34503064e3",
         "2b384d0133249b978b9b7a338452b0e9",
         "2c5c5a3b6f5c5a8256c451f3fe2c5e8c",
         "2c65aa1d90f7a4821c83e413ab270dde",
         "2fc04e85a3aecfa06db66407ae511690",
-        "2fe3b27bd4f6532e12006256e8d1be99",
-        "33c2b0b6c196a436ba9ac96e50dba499"
+        "2fe3b27bd4f6532e12006256e8d1be99"
+      ]
+    },
+    {
+      "from": "artificial_intelligence",
+      "to": "autonomous_vehicles",
+      "shared_article_count": 113,
+      "from_article_count": 498,
+      "to_article_count": 153,
+      "overlap_percent": 21.0,
+      "strength": 73.86,
+      "article_ids": [
+        "037be73c7760c3e0b304959b037735d8",
+        "05388b721e0a95c70a5af3d08a6d97ce",
+        "07bdb700437e0b2730d24d0b9c3a655c",
+        "0c378a2c821948fc310804b4fdd88552",
+        "0e6f0f92e4a15d3e4c4375d0b1fd4f27",
+        "1213ae85891bd69307c566d0488fd62d",
+        "139bab2cbd920cff21da94196bfcb0e7",
+        "13d0e14f8387e0316d5abca47804128c",
+        "14ab457cf874cebd841d9c4cd69fdbc3",
+        "1552ac5e6f7e31f6fcc26e65ad4bb549",
+        "19c53dd10b2ed5ba77cbc0fca2d5cabe",
+        "1df020a87bb12b1caa0e263d92f4be94",
+        "1e91cb9a98a1b50eb09cfd80e4efa18e",
+        "1f06c30aa68efccb259c839049066a78",
+        "1fef744d07dbbc5a6fc9660a62a3f1fd",
+        "20846441fdbfc1d2dcf8788a69ce06b9",
+        "2543a43c1d6cd2917a09552145c60861",
+        "2682e41aeed5e0e58ae8ee3aa08b2e00",
+        "276e4dda6140369e2f065706ece2e274",
+        "27b1f27b64cc68982077989130e5e588",
+        "281bd7bceee9cc2108bde4ec674aa498",
+        "2ac08ecb591a3ef4b79bce34503064e3",
+        "2b384d0133249b978b9b7a338452b0e9",
+        "3bf7b617558896685454a1e39adf47d8",
+        "3ced37d6a86a3cebfab3ad5f3849cadf"
       ]
     },
     {
       "from": "artificial_intelligence",
       "to": "language_models",
-      "shared_article_count": 103,
-      "from_article_count": 457,
-      "to_article_count": 113,
-      "overlap_percent": 22.06,
-      "strength": 91.15,
+      "shared_article_count": 111,
+      "from_article_count": 498,
+      "to_article_count": 121,
+      "overlap_percent": 21.85,
+      "strength": 91.74,
       "article_ids": [
         "060a8a62b7000dea84fa7a2f06d6d0cc",
         "0a408e77b947d0e51453fe8e130f6aa9",
@@ -77,48 +113,12 @@
     },
     {
       "from": "artificial_intelligence",
-      "to": "autonomous_vehicles",
-      "shared_article_count": 100,
-      "from_article_count": 457,
-      "to_article_count": 137,
-      "overlap_percent": 20.24,
-      "strength": 72.99,
-      "article_ids": [
-        "037be73c7760c3e0b304959b037735d8",
-        "05388b721e0a95c70a5af3d08a6d97ce",
-        "07bdb700437e0b2730d24d0b9c3a655c",
-        "0c378a2c821948fc310804b4fdd88552",
-        "0e6f0f92e4a15d3e4c4375d0b1fd4f27",
-        "1213ae85891bd69307c566d0488fd62d",
-        "139bab2cbd920cff21da94196bfcb0e7",
-        "13d0e14f8387e0316d5abca47804128c",
-        "14ab457cf874cebd841d9c4cd69fdbc3",
-        "1552ac5e6f7e31f6fcc26e65ad4bb549",
-        "19c53dd10b2ed5ba77cbc0fca2d5cabe",
-        "1df020a87bb12b1caa0e263d92f4be94",
-        "1e91cb9a98a1b50eb09cfd80e4efa18e",
-        "1fef744d07dbbc5a6fc9660a62a3f1fd",
-        "20846441fdbfc1d2dcf8788a69ce06b9",
-        "2543a43c1d6cd2917a09552145c60861",
-        "2682e41aeed5e0e58ae8ee3aa08b2e00",
-        "276e4dda6140369e2f065706ece2e274",
-        "281bd7bceee9cc2108bde4ec674aa498",
-        "2ac08ecb591a3ef4b79bce34503064e3",
-        "2b384d0133249b978b9b7a338452b0e9",
-        "3bf7b617558896685454a1e39adf47d8",
-        "3ced37d6a86a3cebfab3ad5f3849cadf",
-        "439cd2392582b6ebb8a9b495059dfb73",
-        "44bb5697babd50158afe72985b6d92db"
-      ]
-    },
-    {
-      "from": "artificial_intelligence",
       "to": "robotics",
-      "shared_article_count": 96,
-      "from_article_count": 457,
-      "to_article_count": 144,
-      "overlap_percent": 19.01,
-      "strength": 66.67,
+      "shared_article_count": 110,
+      "from_article_count": 498,
+      "to_article_count": 162,
+      "overlap_percent": 20.0,
+      "strength": 67.9,
       "article_ids": [
         "060df42f5e312505d7efec92d4f139ed",
         "062b0884a9497c933882fd41451019f2",
@@ -131,7 +131,9 @@
         "139bab2cbd920cff21da94196bfcb0e7",
         "14ab457cf874cebd841d9c4cd69fdbc3",
         "157f50f726c1daf3375b63a483701cde",
+        "158d7f5a29fd94143dba912917fafac3",
         "1df020a87bb12b1caa0e263d92f4be94",
+        "1f06c30aa68efccb259c839049066a78",
         "233521059d8034656a1adbab40f7e231",
         "233c959b1bac6e7fa49e5cb9d1d3829d",
         "2503110c65ab117c5d9ee0fbcf53a4fa",
@@ -142,24 +144,59 @@
         "3b8b3a1e393c896d965fb8fd393073d0",
         "439cd2392582b6ebb8a9b495059dfb73",
         "43f5c9d05b2d66e648a2a1c4289be1d2",
-        "4563d2b8d38333c900f39cf5a7ddbc17",
-        "4600ef17ebb1f5a8c2813b6aef5f8fd2",
-        "46de19bd1d55535cf83b6ae31400e3d4"
+        "4563d2b8d38333c900f39cf5a7ddbc17"
+      ]
+    },
+    {
+      "from": "artificial_intelligence",
+      "to": "drones",
+      "shared_article_count": 87,
+      "from_article_count": 498,
+      "to_article_count": 270,
+      "overlap_percent": 12.78,
+      "strength": 32.22,
+      "article_ids": [
+        "0475ae0f3493e9680da290a8d5b2226b",
+        "04abc7e40f2f9585ff94e8483a3fe7e7",
+        "062b0884a9497c933882fd41451019f2",
+        "0c9ad034d06db0018190b0ad847eb777",
+        "0f19debf1df35d88e88f3b6bcda64c4c",
+        "0f22861ddbdca5f0a24079f43920aa8f",
+        "105fef14ea156d207c905465191fbb10",
+        "118fd4b931b181c7c8a9c12e52fbd29e",
+        "157f50f726c1daf3375b63a483701cde",
+        "158d7f5a29fd94143dba912917fafac3",
+        "17d05cd1f6cd9ca447069bf9d45bdd50",
+        "1f212febe03479831cb8903fa9bc6455",
+        "20343f4b79e139b9035eee9528d2f4d3",
+        "22d4e7c0c85ec331dbbe81243b3e70bd",
+        "233c959b1bac6e7fa49e5cb9d1d3829d",
+        "2543a43c1d6cd2917a09552145c60861",
+        "276e4dda6140369e2f065706ece2e274",
+        "2b35e947428437544a2d895684319830",
+        "2b8fca34c43933778417b9cfe2a09729",
+        "2d73a94ac839991c5ff5ad7759cd1429",
+        "3068108ffa11db95c9d26add29993155",
+        "34f4326ac6d2ae20a93cb69146cead9f",
+        "362a6a9272e186e3be6c4bc7c8a266a4",
+        "36e5d97c2787c9d0b264879b95bfd655",
+        "3b8b3a1e393c896d965fb8fd393073d0"
       ]
     },
     {
       "from": "artificial_intelligence",
       "to": "semiconductors",
-      "shared_article_count": 80,
-      "from_article_count": 457,
-      "to_article_count": 101,
-      "overlap_percent": 16.74,
-      "strength": 79.21,
+      "shared_article_count": 85,
+      "from_article_count": 498,
+      "to_article_count": 109,
+      "overlap_percent": 16.28,
+      "strength": 77.98,
       "article_ids": [
         "04424d397c1f851f0e86d929f1468680",
         "07bdb700437e0b2730d24d0b9c3a655c",
         "087191b609b8173c5872e61a8cf576fd",
         "0c9ad034d06db0018190b0ad847eb777",
+        "0cc67fa121cd1ce92ca35ca7ef986ad0",
         "0e6f0f92e4a15d3e4c4375d0b1fd4f27",
         "105fef14ea156d207c905465191fbb10",
         "12ad42c29894f2ebd87c5b7d006a0ae1",
@@ -179,54 +216,17 @@
         "3b0775ed4720e158ebb113ee08257c9b",
         "3b8b3a1e393c896d965fb8fd393073d0",
         "42f342b196745da3c902bce7bb0a627e",
-        "4726925cda09a20cd49122817ddb6666",
-        "4a549bd6defaba13c04b22697527384d"
-      ]
-    },
-    {
-      "from": "artificial_intelligence",
-      "to": "drones",
-      "shared_article_count": 77,
-      "from_article_count": 457,
-      "to_article_count": 244,
-      "overlap_percent": 12.34,
-      "strength": 31.56,
-      "article_ids": [
-        "04abc7e40f2f9585ff94e8483a3fe7e7",
-        "062b0884a9497c933882fd41451019f2",
-        "0c9ad034d06db0018190b0ad847eb777",
-        "0f19debf1df35d88e88f3b6bcda64c4c",
-        "0f22861ddbdca5f0a24079f43920aa8f",
-        "105fef14ea156d207c905465191fbb10",
-        "118fd4b931b181c7c8a9c12e52fbd29e",
-        "157f50f726c1daf3375b63a483701cde",
-        "17d05cd1f6cd9ca447069bf9d45bdd50",
-        "1f212febe03479831cb8903fa9bc6455",
-        "20343f4b79e139b9035eee9528d2f4d3",
-        "233c959b1bac6e7fa49e5cb9d1d3829d",
-        "2543a43c1d6cd2917a09552145c60861",
-        "276e4dda6140369e2f065706ece2e274",
-        "2b35e947428437544a2d895684319830",
-        "2b8fca34c43933778417b9cfe2a09729",
-        "2d73a94ac839991c5ff5ad7759cd1429",
-        "34f4326ac6d2ae20a93cb69146cead9f",
-        "362a6a9272e186e3be6c4bc7c8a266a4",
-        "36e5d97c2787c9d0b264879b95bfd655",
-        "3b8b3a1e393c896d965fb8fd393073d0",
-        "43f5c9d05b2d66e648a2a1c4289be1d2",
-        "4600ef17ebb1f5a8c2813b6aef5f8fd2",
-        "48540d5d7fcc2687883cc83a21f8646b",
-        "497c97eb4d981c113ce8bfd06e744ea5"
+        "4726925cda09a20cd49122817ddb6666"
       ]
     },
     {
       "from": "artificial_intelligence",
       "to": "machine_learning",
-      "shared_article_count": 64,
-      "from_article_count": 457,
-      "to_article_count": 79,
-      "overlap_percent": 13.56,
-      "strength": 81.01,
+      "shared_article_count": 69,
+      "from_article_count": 498,
+      "to_article_count": 84,
+      "overlap_percent": 13.45,
+      "strength": 82.14,
       "article_ids": [
         "0480b4eeb5a0d282d8d8e6fdf06f7aca",
         "04abc7e40f2f9585ff94e8483a3fe7e7",
@@ -244,6 +244,7 @@
         "3b0775ed4720e158ebb113ee08257c9b",
         "3c621b673a8da491831ea8612883c381",
         "3d2e832d722c057262ac7489692940e7",
+        "417e263294a18b7a34378bd232141bcd",
         "439cd2392582b6ebb8a9b495059dfb73",
         "43d78404574cc79239ce9992bf712b17",
         "4726925cda09a20cd49122817ddb6666",
@@ -251,29 +252,30 @@
         "4d739f4fdfb535af3b714075dabc72f4",
         "51a7c77064e221cfc8732b687c31e627",
         "521c5f37fd9962164193f0160efcf69b",
-        "5a8f7c7e79ea2ccc8d6baeebbfd6d794",
-        "5bc332f09fc8a0d3b651fa00d5c352a2"
+        "5a8f7c7e79ea2ccc8d6baeebbfd6d794"
       ]
     },
     {
       "from": "artificial_intelligence",
       "to": "training_data",
-      "shared_article_count": 60,
-      "from_article_count": 457,
-      "to_article_count": 65,
-      "overlap_percent": 12.99,
-      "strength": 92.31,
+      "shared_article_count": 67,
+      "from_article_count": 498,
+      "to_article_count": 73,
+      "overlap_percent": 13.29,
+      "strength": 91.78,
       "article_ids": [
         "060a8a62b7000dea84fa7a2f06d6d0cc",
         "0a408e77b947d0e51453fe8e130f6aa9",
         "0a7e6d7be9320fc89eddd47e8e5cdba5",
         "0b183e862dc7973659a1907fd0e9143c",
+        "0cc67fa121cd1ce92ca35ca7ef986ad0",
         "1213ae85891bd69307c566d0488fd62d",
         "18f74c4bc5ce5462834944912823bf21",
         "19b6549e129a54015bdc187e1663ba7f",
         "1df020a87bb12b1caa0e263d92f4be94",
         "1ee0028f406b1ff2f25f9ba1a9b1e07b",
         "20846441fdbfc1d2dcf8788a69ce06b9",
+        "2aacbb35e58b743ebc88246907cddaf2",
         "2ac08ecb591a3ef4b79bce34503064e3",
         "2c5c5a3b6f5c5a8256c451f3fe2c5e8c",
         "2ea8daedb81b284346731a39be493edd",
@@ -286,19 +288,89 @@
         "4726925cda09a20cd49122817ddb6666",
         "4f68c22017986092f04693c8abfdd9c1",
         "51a7c77064e221cfc8732b687c31e627",
-        "521c5f37fd9962164193f0160efcf69b",
-        "57c5d5bfefeb44fa7ee2c819770b9bd7",
-        "591186019f0b6dfbf4a29d9caaf60b79"
+        "521c5f37fd9962164193f0160efcf69b"
+      ]
+    },
+    {
+      "from": "autonomous_vehicles",
+      "to": "robotaxis",
+      "shared_article_count": 64,
+      "from_article_count": 153,
+      "to_article_count": 66,
+      "overlap_percent": 41.29,
+      "strength": 96.97,
+      "article_ids": [
+        "013330091d3068aaeeedfde3179c4078",
+        "05388b721e0a95c70a5af3d08a6d97ce",
+        "19c53dd10b2ed5ba77cbc0fca2d5cabe",
+        "1f06c30aa68efccb259c839049066a78",
+        "1fef744d07dbbc5a6fc9660a62a3f1fd",
+        "24397d32364637134400ef873abd8a6d",
+        "2543a43c1d6cd2917a09552145c60861",
+        "2682e41aeed5e0e58ae8ee3aa08b2e00",
+        "27b1f27b64cc68982077989130e5e588",
+        "281bd7bceee9cc2108bde4ec674aa498",
+        "2b384d0133249b978b9b7a338452b0e9",
+        "3bf7b617558896685454a1e39adf47d8",
+        "4726925cda09a20cd49122817ddb6666",
+        "477c824dfebe13cb1f04a2ed17f662f8",
+        "48cb36a550db71f571911aec64c7df40",
+        "49633c31460b3ad9d8aaff2fb514f4a2",
+        "501aad4fae63eff90e3e6c72d447841b",
+        "566dbebe4558a560cb2f43b31524272f",
+        "5b5a274c14ec56aaca1de234ba7c90b5",
+        "61d106dd68be309ff43786457c74adc3",
+        "68eaa0e0b4e1a2649fe1b0b2270cf304",
+        "6b8d1da7c76203349bc31c990dba7008",
+        "6e28c2038d7db483a8d5064582c854fd",
+        "6e509070baf06e81b1da47d9b31c9804",
+        "705843c11d4c20ad0e37b9ef5a0b4985"
+      ]
+    },
+    {
+      "from": "drones",
+      "to": "robotics",
+      "shared_article_count": 61,
+      "from_article_count": 270,
+      "to_article_count": 162,
+      "overlap_percent": 16.44,
+      "strength": 37.65,
+      "article_ids": [
+        "062b0884a9497c933882fd41451019f2",
+        "0920e1facad08ccc02ce356ae221ab24",
+        "0c9ad034d06db0018190b0ad847eb777",
+        "0f525cf7ce475234f6e404b52667a814",
+        "0fd9e776787f6da269035946baae0d69",
+        "105fef14ea156d207c905465191fbb10",
+        "157f50f726c1daf3375b63a483701cde",
+        "158d7f5a29fd94143dba912917fafac3",
+        "1d092c53675792d058a70ad6f45d6a9d",
+        "233c959b1bac6e7fa49e5cb9d1d3829d",
+        "28bcd093eee3cbd7927d44f29202b5d1",
+        "3b8b3a1e393c896d965fb8fd393073d0",
+        "3e822e4f4998d5fe9e986a3a0a750869",
+        "43826ec1c6a1d491508b76266befad14",
+        "43f5c9d05b2d66e648a2a1c4289be1d2",
+        "4600ef17ebb1f5a8c2813b6aef5f8fd2",
+        "4a549bd6defaba13c04b22697527384d",
+        "4cf89bc9425dcf9bc6c23950d8197baa",
+        "5494cb273f8f295a79c703c8238347f3",
+        "55326260456f5077c531747c253fd100",
+        "5949e6002075d48ca2b94b7e89ac512c",
+        "5d51fe9cc0319fc2b837badc3d2f257a",
+        "60cc73111ca8a7ce42b0761818c9a3ec",
+        "635c31e8d28e6fb24e65fd67db2fea08",
+        "63e64c4fa0d11a1ca39adf4c5216434e"
       ]
     },
     {
       "from": "generative_ai",
       "to": "language_models",
-      "shared_article_count": 57,
-      "from_article_count": 143,
-      "to_article_count": 113,
-      "overlap_percent": 28.64,
-      "strength": 50.44,
+      "shared_article_count": 60,
+      "from_article_count": 151,
+      "to_article_count": 121,
+      "overlap_percent": 28.3,
+      "strength": 49.59,
       "article_ids": [
         "0a408e77b947d0e51453fe8e130f6aa9",
         "0d27dbf915918ea887156958419ac065",
@@ -328,84 +400,12 @@
       ]
     },
     {
-      "from": "drones",
-      "to": "robotics",
-      "shared_article_count": 55,
-      "from_article_count": 244,
-      "to_article_count": 144,
-      "overlap_percent": 16.52,
-      "strength": 38.19,
-      "article_ids": [
-        "062b0884a9497c933882fd41451019f2",
-        "0920e1facad08ccc02ce356ae221ab24",
-        "0c9ad034d06db0018190b0ad847eb777",
-        "0f525cf7ce475234f6e404b52667a814",
-        "105fef14ea156d207c905465191fbb10",
-        "157f50f726c1daf3375b63a483701cde",
-        "1d092c53675792d058a70ad6f45d6a9d",
-        "233c959b1bac6e7fa49e5cb9d1d3829d",
-        "28bcd093eee3cbd7927d44f29202b5d1",
-        "3b8b3a1e393c896d965fb8fd393073d0",
-        "3e822e4f4998d5fe9e986a3a0a750869",
-        "43826ec1c6a1d491508b76266befad14",
-        "43f5c9d05b2d66e648a2a1c4289be1d2",
-        "4600ef17ebb1f5a8c2813b6aef5f8fd2",
-        "4a549bd6defaba13c04b22697527384d",
-        "4cf89bc9425dcf9bc6c23950d8197baa",
-        "5494cb273f8f295a79c703c8238347f3",
-        "55326260456f5077c531747c253fd100",
-        "5949e6002075d48ca2b94b7e89ac512c",
-        "5d51fe9cc0319fc2b837badc3d2f257a",
-        "60cc73111ca8a7ce42b0761818c9a3ec",
-        "63e64c4fa0d11a1ca39adf4c5216434e",
-        "65e38a72afaa9f1fcfdaf9837a338a53",
-        "6c50d7686fb4f0a18095823533f7d278",
-        "70062ee63e3ee7622496d9ddff530a7b"
-      ]
-    },
-    {
-      "from": "autonomous_vehicles",
-      "to": "robotaxis",
-      "shared_article_count": 52,
-      "from_article_count": 137,
-      "to_article_count": 54,
-      "overlap_percent": 37.41,
-      "strength": 96.3,
-      "article_ids": [
-        "013330091d3068aaeeedfde3179c4078",
-        "05388b721e0a95c70a5af3d08a6d97ce",
-        "19c53dd10b2ed5ba77cbc0fca2d5cabe",
-        "1fef744d07dbbc5a6fc9660a62a3f1fd",
-        "24397d32364637134400ef873abd8a6d",
-        "2543a43c1d6cd2917a09552145c60861",
-        "2682e41aeed5e0e58ae8ee3aa08b2e00",
-        "281bd7bceee9cc2108bde4ec674aa498",
-        "2b384d0133249b978b9b7a338452b0e9",
-        "3bf7b617558896685454a1e39adf47d8",
-        "4726925cda09a20cd49122817ddb6666",
-        "477c824dfebe13cb1f04a2ed17f662f8",
-        "48cb36a550db71f571911aec64c7df40",
-        "49633c31460b3ad9d8aaff2fb514f4a2",
-        "501aad4fae63eff90e3e6c72d447841b",
-        "566dbebe4558a560cb2f43b31524272f",
-        "61d106dd68be309ff43786457c74adc3",
-        "68eaa0e0b4e1a2649fe1b0b2270cf304",
-        "6b8d1da7c76203349bc31c990dba7008",
-        "6e28c2038d7db483a8d5064582c854fd",
-        "6e509070baf06e81b1da47d9b31c9804",
-        "705843c11d4c20ad0e37b9ef5a0b4985",
-        "70778ab7bfc7454eab05a712f2d18d98",
-        "7542cd5d7c4195e04af21af69ca68932",
-        "76b7f634d5da82bbfe425fef1a7c59f7"
-      ]
-    },
-    {
       "from": "ai_agents",
       "to": "artificial_intelligence",
-      "shared_article_count": 48,
-      "from_article_count": 48,
-      "to_article_count": 457,
-      "overlap_percent": 10.5,
+      "shared_article_count": 54,
+      "from_article_count": 54,
+      "to_article_count": 498,
+      "overlap_percent": 10.84,
       "strength": 100.0,
       "article_ids": [
         "060a8a62b7000dea84fa7a2f06d6d0cc",
@@ -424,24 +424,24 @@
         "439cd2392582b6ebb8a9b495059dfb73",
         "457c792f33dec912c7c0591e5dd92b20",
         "463a0bf9b825ab61abe0ce75cfe763f6",
+        "4a42d19797aa3bc56482bbe5de698b28",
         "4ce8edb7dd3622db235dda59dd2519f7",
         "4e3a68ee56a57a6e0a6b00fb5bc86c56",
         "4fd2d2c5eac926db2caafe5d71e41ed7",
         "4fde66c6c294ec567c0f6609eeb3761d",
+        "5162e39b4010295844efbe923f6587c7",
         "51a7c77064e221cfc8732b687c31e627",
         "55c12cf8162cb11b42823161e7bb7e60",
-        "591186019f0b6dfbf4a29d9caaf60b79",
-        "5a881eaf49567c97056e689e555e43cd",
-        "5eaf0a071126b24cf2a0046ecdccb708"
+        "591186019f0b6dfbf4a29d9caaf60b79"
       ]
     },
     {
       "from": "drone_delivery",
       "to": "drones",
-      "shared_article_count": 45,
-      "from_article_count": 45,
-      "to_article_count": 244,
-      "overlap_percent": 18.44,
+      "shared_article_count": 50,
+      "from_article_count": 50,
+      "to_article_count": 270,
+      "overlap_percent": 18.52,
       "strength": 100.0,
       "article_ids": [
         "00cbaa9c31a0f6a6d06baa217995f2ab",
@@ -450,9 +450,11 @@
         "289fd92165bc97df2c67b4193870d9bd",
         "28bcd093eee3cbd7927d44f29202b5d1",
         "29e2949cab2a9f9d6a6cd527b07a7d0b",
+        "3068108ffa11db95c9d26add29993155",
         "3b8b3a1e393c896d965fb8fd393073d0",
         "4037a3ffa1ccff124a1e626c129273bc",
         "412b65bd64d0a0d5a8ca33690e0a97ae",
+        "417e263294a18b7a34378bd232141bcd",
         "45a908e6d35f6c5b6ba42d308649cd47",
         "4a49759d32e8c194ec5884cb887fcf37",
         "4cbbd63b85b58074f2e18fc391561ae8",
@@ -466,25 +468,96 @@
         "83ff9b3ed3880f566e4d0d9b9474c9f5",
         "891bc757925dbb9c7a8fc2ee6ac9aa67",
         "8a097cdb7757be9e4c7596fede950fa6",
-        "8b111cc4ff9debf4dd4b50a122017830",
-        "9794c71c11c8bcfef14ddd75c0354fd4",
-        "97d9fe85f26f3b1b98631b10a7459586"
+        "8b111cc4ff9debf4dd4b50a122017830"
+      ]
+    },
+    {
+      "from": "autonomous_vehicles",
+      "to": "robotics",
+      "shared_article_count": 48,
+      "from_article_count": 153,
+      "to_article_count": 162,
+      "overlap_percent": 17.98,
+      "strength": 31.37,
+      "article_ids": [
+        "07bdb700437e0b2730d24d0b9c3a655c",
+        "0a089a3d833b9a909f268d829ede364b",
+        "0e6f0f92e4a15d3e4c4375d0b1fd4f27",
+        "139bab2cbd920cff21da94196bfcb0e7",
+        "14ab457cf874cebd841d9c4cd69fdbc3",
+        "1df020a87bb12b1caa0e263d92f4be94",
+        "1f06c30aa68efccb259c839049066a78",
+        "2ac08ecb591a3ef4b79bce34503064e3",
+        "439cd2392582b6ebb8a9b495059dfb73",
+        "48cb36a550db71f571911aec64c7df40",
+        "5b5a274c14ec56aaca1de234ba7c90b5",
+        "60cc73111ca8a7ce42b0761818c9a3ec",
+        "61d106dd68be309ff43786457c74adc3",
+        "70062ee63e3ee7622496d9ddff530a7b",
+        "70778ab7bfc7454eab05a712f2d18d98",
+        "7695b469297d84e3f87b32654813aeda",
+        "769e17b4898bdaa66ad276cefc718436",
+        "76b7f634d5da82bbfe425fef1a7c59f7",
+        "7c7b2936d18fe22212d9df60de77302c",
+        "88ce84a57365c9e1ccdf2a9b029f26e5",
+        "8b9c2cdab7034d1370a22b8865bbc088",
+        "8cd0dffbed048f3b9cb6182d7e213a4f",
+        "9cf71a8acf707b58b2fcbfa472e039de",
+        "9d1bd70e58ec48aad16eb41cb7372607",
+        "9dd47689341d5ef9699e345265ab542c"
+      ]
+    },
+    {
+      "from": "artificial_intelligence",
+      "to": "robotaxis",
+      "shared_article_count": 47,
+      "from_article_count": 498,
+      "to_article_count": 66,
+      "overlap_percent": 9.09,
+      "strength": 71.21,
+      "article_ids": [
+        "05388b721e0a95c70a5af3d08a6d97ce",
+        "19c53dd10b2ed5ba77cbc0fca2d5cabe",
+        "1f06c30aa68efccb259c839049066a78",
+        "1fef744d07dbbc5a6fc9660a62a3f1fd",
+        "2543a43c1d6cd2917a09552145c60861",
+        "2682e41aeed5e0e58ae8ee3aa08b2e00",
+        "27b1f27b64cc68982077989130e5e588",
+        "281bd7bceee9cc2108bde4ec674aa498",
+        "2b384d0133249b978b9b7a338452b0e9",
+        "3bf7b617558896685454a1e39adf47d8",
+        "4726925cda09a20cd49122817ddb6666",
+        "48cb36a550db71f571911aec64c7df40",
+        "501aad4fae63eff90e3e6c72d447841b",
+        "566dbebe4558a560cb2f43b31524272f",
+        "5b5a274c14ec56aaca1de234ba7c90b5",
+        "61d106dd68be309ff43786457c74adc3",
+        "68eaa0e0b4e1a2649fe1b0b2270cf304",
+        "6b8d1da7c76203349bc31c990dba7008",
+        "6e28c2038d7db483a8d5064582c854fd",
+        "7542cd5d7c4195e04af21af69ca68932",
+        "76b7f634d5da82bbfe425fef1a7c59f7",
+        "78f9ba4af010c49e9c128a77eaf1deaa",
+        "88206d37cc976cd36f6ae4e6ff347d02",
+        "88ce84a57365c9e1ccdf2a9b029f26e5",
+        "891820fdcaffcd0ecea917848c359bf9"
       ]
     },
     {
       "from": "generative_ai",
       "to": "training_data",
-      "shared_article_count": 41,
-      "from_article_count": 143,
-      "to_article_count": 65,
-      "overlap_percent": 24.55,
-      "strength": 63.08,
+      "shared_article_count": 43,
+      "from_article_count": 151,
+      "to_article_count": 73,
+      "overlap_percent": 23.76,
+      "strength": 58.9,
       "article_ids": [
         "0a408e77b947d0e51453fe8e130f6aa9",
         "19b6549e129a54015bdc187e1663ba7f",
         "1df020a87bb12b1caa0e263d92f4be94",
         "1ee0028f406b1ff2f25f9ba1a9b1e07b",
         "20846441fdbfc1d2dcf8788a69ce06b9",
+        "2aacbb35e58b743ebc88246907cddaf2",
         "2ac08ecb591a3ef4b79bce34503064e3",
         "2c5c5a3b6f5c5a8256c451f3fe2c5e8c",
         "33c2b0b6c196a436ba9ac96e50dba499",
@@ -503,18 +576,17 @@
         "70062ee63e3ee7622496d9ddff530a7b",
         "711ceed073edb09a3642476c8eebd1f8",
         "7363f1537b4641cfe445881ac4eb70b3",
-        "7f76525658f4eaf7ae0e59bf3325d024",
-        "812a6efd2e528fd0855d653871e0012a"
+        "76ec10148516d60cd710c9f927e69371"
       ]
     },
     {
       "from": "language_models",
       "to": "training_data",
-      "shared_article_count": 39,
-      "from_article_count": 113,
-      "to_article_count": 65,
-      "overlap_percent": 28.06,
-      "strength": 60.0,
+      "shared_article_count": 42,
+      "from_article_count": 121,
+      "to_article_count": 73,
+      "overlap_percent": 27.63,
+      "strength": 57.53,
       "article_ids": [
         "060a8a62b7000dea84fa7a2f06d6d0cc",
         "0a408e77b947d0e51453fe8e130f6aa9",
@@ -537,92 +609,20 @@
         "6adfa14310c22c17251ad696cded5674",
         "6cc86efa74260a9b165e1a3b8d3d6880",
         "736954e8c696aaa96960a49662fd623d",
+        "76ec10148516d60cd710c9f927e69371",
         "7868776dc85886ec472c993cd13a8114",
         "826b09e96bd3705a4ee77aa7d1bdd31e",
-        "8e18dff38edd80e7d28a37dd280eef1a",
-        "8e495a9c0463aad06b5a2ff184002476"
-      ]
-    },
-    {
-      "from": "autonomous_vehicles",
-      "to": "robotics",
-      "shared_article_count": 37,
-      "from_article_count": 137,
-      "to_article_count": 144,
-      "overlap_percent": 15.16,
-      "strength": 27.01,
-      "article_ids": [
-        "07bdb700437e0b2730d24d0b9c3a655c",
-        "0a089a3d833b9a909f268d829ede364b",
-        "0e6f0f92e4a15d3e4c4375d0b1fd4f27",
-        "139bab2cbd920cff21da94196bfcb0e7",
-        "14ab457cf874cebd841d9c4cd69fdbc3",
-        "1df020a87bb12b1caa0e263d92f4be94",
-        "2ac08ecb591a3ef4b79bce34503064e3",
-        "439cd2392582b6ebb8a9b495059dfb73",
-        "48cb36a550db71f571911aec64c7df40",
-        "60cc73111ca8a7ce42b0761818c9a3ec",
-        "61d106dd68be309ff43786457c74adc3",
-        "70062ee63e3ee7622496d9ddff530a7b",
-        "70778ab7bfc7454eab05a712f2d18d98",
-        "7695b469297d84e3f87b32654813aeda",
-        "769e17b4898bdaa66ad276cefc718436",
-        "76b7f634d5da82bbfe425fef1a7c59f7",
-        "7c7b2936d18fe22212d9df60de77302c",
-        "8b9c2cdab7034d1370a22b8865bbc088",
-        "8cd0dffbed048f3b9cb6182d7e213a4f",
-        "9cf71a8acf707b58b2fcbfa472e039de",
-        "9d1bd70e58ec48aad16eb41cb7372607",
-        "9dd47689341d5ef9699e345265ab542c",
-        "a855a5da0bb225a891cabc7ce9c8fe3a",
-        "aa88f8110122e8caa2662e7beb4dff36",
-        "ac816fcbbe7ebe70fc531912a182a9cc"
-      ]
-    },
-    {
-      "from": "artificial_intelligence",
-      "to": "robotaxis",
-      "shared_article_count": 37,
-      "from_article_count": 457,
-      "to_article_count": 54,
-      "overlap_percent": 7.81,
-      "strength": 68.52,
-      "article_ids": [
-        "05388b721e0a95c70a5af3d08a6d97ce",
-        "19c53dd10b2ed5ba77cbc0fca2d5cabe",
-        "1fef744d07dbbc5a6fc9660a62a3f1fd",
-        "2543a43c1d6cd2917a09552145c60861",
-        "2682e41aeed5e0e58ae8ee3aa08b2e00",
-        "281bd7bceee9cc2108bde4ec674aa498",
-        "2b384d0133249b978b9b7a338452b0e9",
-        "3bf7b617558896685454a1e39adf47d8",
-        "4726925cda09a20cd49122817ddb6666",
-        "48cb36a550db71f571911aec64c7df40",
-        "501aad4fae63eff90e3e6c72d447841b",
-        "566dbebe4558a560cb2f43b31524272f",
-        "61d106dd68be309ff43786457c74adc3",
-        "68eaa0e0b4e1a2649fe1b0b2270cf304",
-        "6b8d1da7c76203349bc31c990dba7008",
-        "6e28c2038d7db483a8d5064582c854fd",
-        "7542cd5d7c4195e04af21af69ca68932",
-        "76b7f634d5da82bbfe425fef1a7c59f7",
-        "78f9ba4af010c49e9c128a77eaf1deaa",
-        "88206d37cc976cd36f6ae4e6ff347d02",
-        "891820fdcaffcd0ecea917848c359bf9",
-        "959887d8b1da722b1e96de72c55d6612",
-        "9e58e0b720b7b047cd398b4f50b2742c",
-        "aa88f8110122e8caa2662e7beb4dff36",
-        "ab2d71991f86c134610b0a4eb3aa3147"
+        "8e18dff38edd80e7d28a37dd280eef1a"
       ]
     },
     {
       "from": "autonomous_vehicles",
       "to": "semiconductors",
-      "shared_article_count": 36,
-      "from_article_count": 137,
-      "to_article_count": 101,
-      "overlap_percent": 17.82,
-      "strength": 35.64,
+      "shared_article_count": 37,
+      "from_article_count": 153,
+      "to_article_count": 109,
+      "overlap_percent": 16.44,
+      "strength": 33.94,
       "article_ids": [
         "07bdb700437e0b2730d24d0b9c3a655c",
         "0a089a3d833b9a909f268d829ede364b",
@@ -654,11 +654,11 @@
     {
       "from": "artificial_intelligence",
       "to": "computer_vision",
-      "shared_article_count": 32,
-      "from_article_count": 457,
-      "to_article_count": 36,
-      "overlap_percent": 6.94,
-      "strength": 88.89,
+      "shared_article_count": 33,
+      "from_article_count": 498,
+      "to_article_count": 39,
+      "overlap_percent": 6.55,
+      "strength": 84.62,
       "article_ids": [
         "062b0884a9497c933882fd41451019f2",
         "0f19debf1df35d88e88f3b6bcda64c4c",
@@ -682,25 +682,62 @@
         "aca6ca4c0e26f719ec6f4e738d3d5bdc",
         "b44917bab5b553de40bd557fa3deb975",
         "b9b3345fc95915e832067040c5a7c13e",
+        "bad8d849fe2109a57b9ccb2f708c9895",
         "bf253a75f03c93c2c368d2ef299e6421",
-        "c1983100039d3f0e370bebab6438d093",
-        "caa2740e62e775781ea1a7344c7b71a4"
+        "c1983100039d3f0e370bebab6438d093"
+      ]
+    },
+    {
+      "from": "ai_agents",
+      "to": "language_models",
+      "shared_article_count": 32,
+      "from_article_count": 54,
+      "to_article_count": 121,
+      "overlap_percent": 22.38,
+      "strength": 59.26,
+      "article_ids": [
+        "060a8a62b7000dea84fa7a2f06d6d0cc",
+        "0a408e77b947d0e51453fe8e130f6aa9",
+        "1c0526eafe994de0d006db42dda0d147",
+        "203cde72c87b5331a6198f7ceb9adf44",
+        "217f9a8d08c9f97e3be05c82791df58d",
+        "39e52e46490b86e4e7b05ddf32f8ea56",
+        "457c792f33dec912c7c0591e5dd92b20",
+        "463a0bf9b825ab61abe0ce75cfe763f6",
+        "4a42d19797aa3bc56482bbe5de698b28",
+        "4e3a68ee56a57a6e0a6b00fb5bc86c56",
+        "4fd2d2c5eac926db2caafe5d71e41ed7",
+        "55c12cf8162cb11b42823161e7bb7e60",
+        "5a881eaf49567c97056e689e555e43cd",
+        "5eaf0a071126b24cf2a0046ecdccb708",
+        "62918e78fed5f056e67f6a0f9540cbe9",
+        "6c06d05a65f8406335f8b6a2f99b9484",
+        "6ca3d507fcd1937829420bb81d6b952d",
+        "76ec10148516d60cd710c9f927e69371",
+        "770acb10b98e6af24ae987d06c3573ac",
+        "7ddd100f5a995c32ec7b1861de0adcbd",
+        "7e6932b93d614d6fda4276032d38d450",
+        "970a103a260fb85053b0a9eccc1e515c",
+        "971009550288a8d8fe1f3de6e86ade82",
+        "972156718c47b0aed350b21e746262a6",
+        "a620ef2fb8c869881260e1af48289e89"
       ]
     },
     {
       "from": "generative_ai",
       "to": "machine_learning",
-      "shared_article_count": 30,
-      "from_article_count": 143,
-      "to_article_count": 79,
-      "overlap_percent": 15.62,
-      "strength": 37.97,
+      "shared_article_count": 32,
+      "from_article_count": 151,
+      "to_article_count": 84,
+      "overlap_percent": 15.76,
+      "strength": 38.1,
       "article_ids": [
         "0480b4eeb5a0d282d8d8e6fdf06f7aca",
         "0c378a2c821948fc310804b4fdd88552",
         "1f2cefb70fb3d7e90f78c5eccaa51f4f",
         "20846441fdbfc1d2dcf8788a69ce06b9",
         "3b0775ed4720e158ebb113ee08257c9b",
+        "417e263294a18b7a34378bd232141bcd",
         "434526b1fd7108272130a00beeba5735",
         "4726925cda09a20cd49122817ddb6666",
         "48cb36a550db71f571911aec64c7df40",
@@ -719,18 +756,17 @@
         "9dd47689341d5ef9699e345265ab542c",
         "b365342eb8521bddb5d1112e07b66932",
         "b90714578483f8733d78013806d7ad66",
-        "c6b7d9ef21d933369761e8ae7c4ef8c9",
-        "d3b168aa5d1fc97977fae9ad509064f7"
+        "c6b7d9ef21d933369761e8ae7c4ef8c9"
       ]
     },
     {
       "from": "generative_ai",
       "to": "robotics",
-      "shared_article_count": 30,
-      "from_article_count": 143,
-      "to_article_count": 144,
-      "overlap_percent": 11.67,
-      "strength": 20.98,
+      "shared_article_count": 31,
+      "from_article_count": 151,
+      "to_article_count": 162,
+      "overlap_percent": 10.99,
+      "strength": 20.53,
       "article_ids": [
         "062b0884a9497c933882fd41451019f2",
         "0a408e77b947d0e51453fe8e130f6aa9",
@@ -760,49 +796,13 @@
       ]
     },
     {
-      "from": "ai_agents",
-      "to": "language_models",
-      "shared_article_count": 28,
-      "from_article_count": 48,
-      "to_article_count": 113,
-      "overlap_percent": 21.05,
-      "strength": 58.33,
-      "article_ids": [
-        "060a8a62b7000dea84fa7a2f06d6d0cc",
-        "0a408e77b947d0e51453fe8e130f6aa9",
-        "1c0526eafe994de0d006db42dda0d147",
-        "203cde72c87b5331a6198f7ceb9adf44",
-        "217f9a8d08c9f97e3be05c82791df58d",
-        "39e52e46490b86e4e7b05ddf32f8ea56",
-        "457c792f33dec912c7c0591e5dd92b20",
-        "463a0bf9b825ab61abe0ce75cfe763f6",
-        "4e3a68ee56a57a6e0a6b00fb5bc86c56",
-        "4fd2d2c5eac926db2caafe5d71e41ed7",
-        "55c12cf8162cb11b42823161e7bb7e60",
-        "5a881eaf49567c97056e689e555e43cd",
-        "5eaf0a071126b24cf2a0046ecdccb708",
-        "62918e78fed5f056e67f6a0f9540cbe9",
-        "6c06d05a65f8406335f8b6a2f99b9484",
-        "6ca3d507fcd1937829420bb81d6b952d",
-        "770acb10b98e6af24ae987d06c3573ac",
-        "7ddd100f5a995c32ec7b1861de0adcbd",
-        "970a103a260fb85053b0a9eccc1e515c",
-        "971009550288a8d8fe1f3de6e86ade82",
-        "972156718c47b0aed350b21e746262a6",
-        "a620ef2fb8c869881260e1af48289e89",
-        "aec246f182ba691c2e50366fba103ca5",
-        "bd80d489b377b6e26155458b7e8f22fa",
-        "dc05fbf70502663c735cde0d6f45c567"
-      ]
-    },
-    {
       "from": "language_models",
       "to": "machine_learning",
-      "shared_article_count": 28,
-      "from_article_count": 113,
-      "to_article_count": 79,
-      "overlap_percent": 17.07,
-      "strength": 35.44,
+      "shared_article_count": 30,
+      "from_article_count": 121,
+      "to_article_count": 84,
+      "overlap_percent": 17.14,
+      "strength": 35.71,
       "article_ids": [
         "10edeeb8c858630ef98a2983532b1bb2",
         "18f74c4bc5ce5462834944912823bf21",
@@ -834,11 +834,11 @@
     {
       "from": "generative_ai",
       "to": "semiconductors",
-      "shared_article_count": 27,
-      "from_article_count": 143,
-      "to_article_count": 101,
-      "overlap_percent": 12.44,
-      "strength": 26.73,
+      "shared_article_count": 28,
+      "from_article_count": 151,
+      "to_article_count": 109,
+      "overlap_percent": 12.07,
+      "strength": 25.69,
       "article_ids": [
         "160fd6cd7152f440f829a2b7fc282134",
         "1df020a87bb12b1caa0e263d92f4be94",
@@ -855,6 +855,7 @@
         "6c06d05a65f8406335f8b6a2f99b9484",
         "70062ee63e3ee7622496d9ddff530a7b",
         "769e17b4898bdaa66ad276cefc718436",
+        "76ec10148516d60cd710c9f927e69371",
         "7f76525658f4eaf7ae0e59bf3325d024",
         "8014e40c595f15523196967f925f234d",
         "8e495a9c0463aad06b5a2ff184002476",
@@ -863,19 +864,19 @@
         "c6b7d9ef21d933369761e8ae7c4ef8c9",
         "cb2324420ff729e619823fcb97813b34",
         "d0803e6915aec0ce676a2e74895ccf4d",
-        "d3b168aa5d1fc97977fae9ad509064f7",
-        "d4d01d4784d8c2e5adb53e7a6cb9181e"
+        "d3b168aa5d1fc97977fae9ad509064f7"
       ]
     },
     {
       "from": "drone_autonomy",
       "to": "drones",
-      "shared_article_count": 27,
-      "from_article_count": 27,
-      "to_article_count": 244,
-      "overlap_percent": 11.07,
+      "shared_article_count": 28,
+      "from_article_count": 28,
+      "to_article_count": 270,
+      "overlap_percent": 10.37,
       "strength": 100.0,
       "article_ids": [
+        "0475ae0f3493e9680da290a8d5b2226b",
         "062b0884a9497c933882fd41451019f2",
         "0f19debf1df35d88e88f3b6bcda64c4c",
         "118fd4b931b181c7c8a9c12e52fbd29e",
@@ -899,18 +900,53 @@
         "901a9b1c5752bba5a14bf4cfc2cf1409",
         "915d4b6ca00ce9481364628646887c2a",
         "92e29e161a6aa23a28ffccf9dd83ac74",
-        "c8bbaa84fe9bc7b024a40c192e0366bc",
-        "cfcca64144c45c941906f10756fbe43d"
+        "c8bbaa84fe9bc7b024a40c192e0366bc"
+      ]
+    },
+    {
+      "from": "robotics",
+      "to": "semiconductors",
+      "shared_article_count": 27,
+      "from_article_count": 162,
+      "to_article_count": 109,
+      "overlap_percent": 11.07,
+      "strength": 24.77,
+      "article_ids": [
+        "07bdb700437e0b2730d24d0b9c3a655c",
+        "0a089a3d833b9a909f268d829ede364b",
+        "0c9ad034d06db0018190b0ad847eb777",
+        "0e6f0f92e4a15d3e4c4375d0b1fd4f27",
+        "105fef14ea156d207c905465191fbb10",
+        "1d092c53675792d058a70ad6f45d6a9d",
+        "1df020a87bb12b1caa0e263d92f4be94",
+        "33c2b0b6c196a436ba9ac96e50dba499",
+        "3b8b3a1e393c896d965fb8fd393073d0",
+        "43826ec1c6a1d491508b76266befad14",
+        "4a549bd6defaba13c04b22697527384d",
+        "63e64c4fa0d11a1ca39adf4c5216434e",
+        "6c50d7686fb4f0a18095823533f7d278",
+        "70062ee63e3ee7622496d9ddff530a7b",
+        "769e17b4898bdaa66ad276cefc718436",
+        "a36777b57915bcc5811280b94a25d189",
+        "ac816fcbbe7ebe70fc531912a182a9cc",
+        "b365342eb8521bddb5d1112e07b66932",
+        "beab74c433d3def0c71edd6c9224a287",
+        "c1983100039d3f0e370bebab6438d093",
+        "c1daa2c31b819199793144baabb80b78",
+        "c6b7d9ef21d933369761e8ae7c4ef8c9",
+        "cc577c3de76da891efd7e3cf221cc776",
+        "d1713785a61239344a1bdc017c3e70de",
+        "d8b2ad3a6f3ed2ea85d504e047853e30"
       ]
     },
     {
       "from": "autonomous_vehicles",
       "to": "generative_ai",
       "shared_article_count": 26,
-      "from_article_count": 137,
-      "to_article_count": 143,
-      "overlap_percent": 10.24,
-      "strength": 18.98,
+      "from_article_count": 153,
+      "to_article_count": 151,
+      "overlap_percent": 9.35,
+      "strength": 17.22,
       "article_ids": [
         "0c378a2c821948fc310804b4fdd88552",
         "1df020a87bb12b1caa0e263d92f4be94",
@@ -940,13 +976,85 @@
       ]
     },
     {
+      "from": "artificial_intelligence",
+      "to": "space_technology",
+      "shared_article_count": 26,
+      "from_article_count": 498,
+      "to_article_count": 38,
+      "overlap_percent": 5.1,
+      "strength": 68.42,
+      "article_ids": [
+        "20343f4b79e139b9035eee9528d2f4d3",
+        "233c959b1bac6e7fa49e5cb9d1d3829d",
+        "2503110c65ab117c5d9ee0fbcf53a4fa",
+        "2c3bb052792d979f5fc950c8c4ea4e46",
+        "3c621b673a8da491831ea8612883c381",
+        "43f5c9d05b2d66e648a2a1c4289be1d2",
+        "4a549bd6defaba13c04b22697527384d",
+        "536578a2236cb63da95aece3f8e9a278",
+        "566dbebe4558a560cb2f43b31524272f",
+        "5880e93b9a3640c007dd9bce00730895",
+        "5d51fe9cc0319fc2b837badc3d2f257a",
+        "65a2053548ba34906c178db8d44ff500",
+        "6c06d05a65f8406335f8b6a2f99b9484",
+        "6f072209e7c44b506db3a1b0fb3c98bf",
+        "86644867ac7a42e7650b5678149f3638",
+        "88206d37cc976cd36f6ae4e6ff347d02",
+        "89b229b024ce77676b8b55989c7791d4",
+        "8b2c25424d067551598da0cccae74b48",
+        "8ebabdcc131cc138bc9d9f8da8acc6b9",
+        "9b95d28bc01701eab22fb7049a92ca14",
+        "bad8d849fe2109a57b9ccb2f708c9895",
+        "c46186de1f6f68a4f6a65a1bc9a9e774",
+        "cd9899111f438df5c5bd66f9e96c36b2",
+        "df021cbae2c7f15013c802acdde004c2",
+        "ebd4b8acd5d0d556a36c1d21fb2fbe2b"
+      ]
+    },
+    {
+      "from": "ai_agents",
+      "to": "generative_ai",
+      "shared_article_count": 25,
+      "from_article_count": 54,
+      "to_article_count": 151,
+      "overlap_percent": 13.89,
+      "strength": 46.3,
+      "article_ids": [
+        "0a408e77b947d0e51453fe8e130f6aa9",
+        "203cde72c87b5331a6198f7ceb9adf44",
+        "2543a43c1d6cd2917a09552145c60861",
+        "3503cd9704e5918f9a0b2747a458081c",
+        "35d4ccbc84604dfea3295291e04f2a9e",
+        "3cbe024453b55ea8b0566ffc6e0ce70d",
+        "4e3a68ee56a57a6e0a6b00fb5bc86c56",
+        "4fd2d2c5eac926db2caafe5d71e41ed7",
+        "4fde66c6c294ec567c0f6609eeb3761d",
+        "51a7c77064e221cfc8732b687c31e627",
+        "591186019f0b6dfbf4a29d9caaf60b79",
+        "62918e78fed5f056e67f6a0f9540cbe9",
+        "6c06d05a65f8406335f8b6a2f99b9484",
+        "6ca3d507fcd1937829420bb81d6b952d",
+        "76ec10148516d60cd710c9f927e69371",
+        "7e6932b93d614d6fda4276032d38d450",
+        "970a103a260fb85053b0a9eccc1e515c",
+        "971009550288a8d8fe1f3de6e86ade82",
+        "972156718c47b0aed350b21e746262a6",
+        "bd80d489b377b6e26155458b7e8f22fa",
+        "c1983100039d3f0e370bebab6438d093",
+        "d69efee94f4fef3b8676e10d1db3af9e",
+        "e0c4a434067458db6b6597feaa8fcef3",
+        "e9fa0e9e6679013ff97b2d4bc440d8f3",
+        "f6dfac97d44083c15807fd2cc1b8da29"
+      ]
+    },
+    {
       "from": "autonomous_vehicles",
       "to": "machine_learning",
       "shared_article_count": 25,
-      "from_article_count": 137,
-      "to_article_count": 79,
-      "overlap_percent": 13.09,
-      "strength": 31.65,
+      "from_article_count": 153,
+      "to_article_count": 84,
+      "overlap_percent": 11.79,
+      "strength": 29.76,
       "article_ids": [
         "0c2b4328f26f9aaf7ebe57356d5f0399",
         "0c378a2c821948fc310804b4fdd88552",
@@ -976,85 +1084,13 @@
       ]
     },
     {
-      "from": "robotics",
-      "to": "semiconductors",
-      "shared_article_count": 25,
-      "from_article_count": 144,
-      "to_article_count": 101,
-      "overlap_percent": 11.36,
-      "strength": 24.75,
-      "article_ids": [
-        "07bdb700437e0b2730d24d0b9c3a655c",
-        "0a089a3d833b9a909f268d829ede364b",
-        "0c9ad034d06db0018190b0ad847eb777",
-        "0e6f0f92e4a15d3e4c4375d0b1fd4f27",
-        "105fef14ea156d207c905465191fbb10",
-        "1d092c53675792d058a70ad6f45d6a9d",
-        "1df020a87bb12b1caa0e263d92f4be94",
-        "33c2b0b6c196a436ba9ac96e50dba499",
-        "3b8b3a1e393c896d965fb8fd393073d0",
-        "43826ec1c6a1d491508b76266befad14",
-        "4a549bd6defaba13c04b22697527384d",
-        "63e64c4fa0d11a1ca39adf4c5216434e",
-        "6c50d7686fb4f0a18095823533f7d278",
-        "70062ee63e3ee7622496d9ddff530a7b",
-        "769e17b4898bdaa66ad276cefc718436",
-        "a36777b57915bcc5811280b94a25d189",
-        "ac816fcbbe7ebe70fc531912a182a9cc",
-        "b365342eb8521bddb5d1112e07b66932",
-        "beab74c433d3def0c71edd6c9224a287",
-        "c1983100039d3f0e370bebab6438d093",
-        "c6b7d9ef21d933369761e8ae7c4ef8c9",
-        "cc577c3de76da891efd7e3cf221cc776",
-        "d8b2ad3a6f3ed2ea85d504e047853e30",
-        "e1d084b064cad6ec86238000164ff5ba",
-        "fe5486bc8381ffa973cc3a4fd83db0ff"
-      ]
-    },
-    {
-      "from": "artificial_intelligence",
-      "to": "space_technology",
-      "shared_article_count": 25,
-      "from_article_count": 457,
-      "to_article_count": 32,
-      "overlap_percent": 5.39,
-      "strength": 78.12,
-      "article_ids": [
-        "20343f4b79e139b9035eee9528d2f4d3",
-        "233c959b1bac6e7fa49e5cb9d1d3829d",
-        "2503110c65ab117c5d9ee0fbcf53a4fa",
-        "2c3bb052792d979f5fc950c8c4ea4e46",
-        "3c621b673a8da491831ea8612883c381",
-        "43f5c9d05b2d66e648a2a1c4289be1d2",
-        "4a549bd6defaba13c04b22697527384d",
-        "536578a2236cb63da95aece3f8e9a278",
-        "566dbebe4558a560cb2f43b31524272f",
-        "5880e93b9a3640c007dd9bce00730895",
-        "5d51fe9cc0319fc2b837badc3d2f257a",
-        "65a2053548ba34906c178db8d44ff500",
-        "6c06d05a65f8406335f8b6a2f99b9484",
-        "6f072209e7c44b506db3a1b0fb3c98bf",
-        "86644867ac7a42e7650b5678149f3638",
-        "88206d37cc976cd36f6ae4e6ff347d02",
-        "89b229b024ce77676b8b55989c7791d4",
-        "8b2c25424d067551598da0cccae74b48",
-        "8ebabdcc131cc138bc9d9f8da8acc6b9",
-        "9b95d28bc01701eab22fb7049a92ca14",
-        "c46186de1f6f68a4f6a65a1bc9a9e774",
-        "cd9899111f438df5c5bd66f9e96c36b2",
-        "df021cbae2c7f15013c802acdde004c2",
-        "ebd4b8acd5d0d556a36c1d21fb2fbe2b",
-        "fe5486bc8381ffa973cc3a4fd83db0ff"
-      ]
-    },
-    {
       "from": "drones",
       "to": "semiconductors",
-      "shared_article_count": 24,
-      "from_article_count": 244,
-      "to_article_count": 101,
-      "overlap_percent": 7.48,
-      "strength": 23.76,
+      "shared_article_count": 25,
+      "from_article_count": 270,
+      "to_article_count": 109,
+      "overlap_percent": 7.06,
+      "strength": 22.94,
       "article_ids": [
         "0c9ad034d06db0018190b0ad847eb777",
         "105fef14ea156d207c905465191fbb10",
@@ -1072,6 +1108,7 @@
         "659426a8802363234fbfdf765028dddd",
         "6c50d7686fb4f0a18095823533f7d278",
         "70062ee63e3ee7622496d9ddff530a7b",
+        "7d4b27c5213d4571fc621bfe4aa57fa4",
         "7e3e09c817754d17bff2e02322f8011c",
         "89b229b024ce77676b8b55989c7791d4",
         "a36777b57915bcc5811280b94a25d189",
@@ -1085,14 +1122,15 @@
     {
       "from": "artificial_intelligence",
       "to": "cybersecurity",
-      "shared_article_count": 24,
-      "from_article_count": 457,
-      "to_article_count": 33,
-      "overlap_percent": 5.15,
-      "strength": 72.73,
+      "shared_article_count": 25,
+      "from_article_count": 498,
+      "to_article_count": 35,
+      "overlap_percent": 4.92,
+      "strength": 71.43,
       "article_ids": [
         "060a8a62b7000dea84fa7a2f06d6d0cc",
         "203cde72c87b5331a6198f7ceb9adf44",
+        "2aacbb35e58b743ebc88246907cddaf2",
         "2c65aa1d90f7a4821c83e413ab270dde",
         "2f5c7008b3208cfb8bec8a0ea8c8da5b",
         "35a4e2fe059c702b68bb0bc912b92ad9",
@@ -1118,47 +1156,13 @@
       ]
     },
     {
-      "from": "ai_agents",
-      "to": "generative_ai",
-      "shared_article_count": 23,
-      "from_article_count": 48,
-      "to_article_count": 143,
-      "overlap_percent": 13.69,
-      "strength": 47.92,
-      "article_ids": [
-        "0a408e77b947d0e51453fe8e130f6aa9",
-        "203cde72c87b5331a6198f7ceb9adf44",
-        "2543a43c1d6cd2917a09552145c60861",
-        "3503cd9704e5918f9a0b2747a458081c",
-        "35d4ccbc84604dfea3295291e04f2a9e",
-        "3cbe024453b55ea8b0566ffc6e0ce70d",
-        "4e3a68ee56a57a6e0a6b00fb5bc86c56",
-        "4fd2d2c5eac926db2caafe5d71e41ed7",
-        "4fde66c6c294ec567c0f6609eeb3761d",
-        "51a7c77064e221cfc8732b687c31e627",
-        "591186019f0b6dfbf4a29d9caaf60b79",
-        "62918e78fed5f056e67f6a0f9540cbe9",
-        "6c06d05a65f8406335f8b6a2f99b9484",
-        "6ca3d507fcd1937829420bb81d6b952d",
-        "970a103a260fb85053b0a9eccc1e515c",
-        "971009550288a8d8fe1f3de6e86ade82",
-        "972156718c47b0aed350b21e746262a6",
-        "bd80d489b377b6e26155458b7e8f22fa",
-        "c1983100039d3f0e370bebab6438d093",
-        "d69efee94f4fef3b8676e10d1db3af9e",
-        "e0c4a434067458db6b6597feaa8fcef3",
-        "e9fa0e9e6679013ff97b2d4bc440d8f3",
-        "f6dfac97d44083c15807fd2cc1b8da29"
-      ]
-    },
-    {
       "from": "machine_learning",
       "to": "training_data",
-      "shared_article_count": 21,
-      "from_article_count": 79,
-      "to_article_count": 65,
-      "overlap_percent": 17.07,
-      "strength": 32.31,
+      "shared_article_count": 23,
+      "from_article_count": 84,
+      "to_article_count": 73,
+      "overlap_percent": 17.16,
+      "strength": 31.51,
       "article_ids": [
         "1213ae85891bd69307c566d0488fd62d",
         "18f74c4bc5ce5462834944912823bf21",
@@ -1175,8 +1179,10 @@
         "711ceed073edb09a3642476c8eebd1f8",
         "736954e8c696aaa96960a49662fd623d",
         "8e495a9c0463aad06b5a2ff184002476",
+        "a43bd7d48bce83efee13a3116dfe8c8a",
         "b365342eb8521bddb5d1112e07b66932",
         "b3817844f02f4509d63f8330de4251b9",
+        "bad8d849fe2109a57b9ccb2f708c9895",
         "d3b168aa5d1fc97977fae9ad509064f7",
         "dc425d3928ca3e093a99e35753dc1364",
         "e4672c500d4a1f3575fec25f671edd98",
@@ -1186,11 +1192,11 @@
     {
       "from": "autonomous_vehicles",
       "to": "electric_vehicles",
-      "shared_article_count": 21,
-      "from_article_count": 137,
-      "to_article_count": 31,
-      "overlap_percent": 14.29,
-      "strength": 67.74,
+      "shared_article_count": 22,
+      "from_article_count": 153,
+      "to_article_count": 33,
+      "overlap_percent": 13.41,
+      "strength": 66.67,
       "article_ids": [
         "037be73c7760c3e0b304959b037735d8",
         "2682e41aeed5e0e58ae8ee3aa08b2e00",
@@ -1203,6 +1209,7 @@
         "61d106dd68be309ff43786457c74adc3",
         "6e28c2038d7db483a8d5064582c854fd",
         "7695b469297d84e3f87b32654813aeda",
+        "7c25eeb33e07a98884b688eba863d485",
         "9e58e0b720b7b047cd398b4f50b2742c",
         "9e5c4430d3dc8cb4024a5edbb69fdab4",
         "aa88f8110122e8caa2662e7beb4dff36",
@@ -1216,43 +1223,16 @@
       ]
     },
     {
-      "from": "semiconductors",
-      "to": "training_data",
-      "shared_article_count": 17,
-      "from_article_count": 101,
-      "to_article_count": 65,
-      "overlap_percent": 11.41,
-      "strength": 26.15,
-      "article_ids": [
-        "1df020a87bb12b1caa0e263d92f4be94",
-        "33c2b0b6c196a436ba9ac96e50dba499",
-        "39e52e46490b86e4e7b05ddf32f8ea56",
-        "4726925cda09a20cd49122817ddb6666",
-        "6308f75082c92699592d3a2f22fc87c8",
-        "66da75ac5d78ee2a15269ec2a7e2d57f",
-        "70062ee63e3ee7622496d9ddff530a7b",
-        "7868776dc85886ec472c993cd13a8114",
-        "7f76525658f4eaf7ae0e59bf3325d024",
-        "8e495a9c0463aad06b5a2ff184002476",
-        "a718e1f4bc2ae92979e05047a3d2452d",
-        "b365342eb8521bddb5d1112e07b66932",
-        "b9b3345fc95915e832067040c5a7c13e",
-        "cb2324420ff729e619823fcb97813b34",
-        "d3b168aa5d1fc97977fae9ad509064f7",
-        "dc425d3928ca3e093a99e35753dc1364",
-        "e4672c500d4a1f3575fec25f671edd98"
-      ]
-    },
-    {
       "from": "drones",
       "to": "space_technology",
-      "shared_article_count": 17,
-      "from_article_count": 244,
-      "to_article_count": 32,
-      "overlap_percent": 6.56,
-      "strength": 53.12,
+      "shared_article_count": 21,
+      "from_article_count": 270,
+      "to_article_count": 38,
+      "overlap_percent": 7.32,
+      "strength": 55.26,
       "article_ids": [
         "20343f4b79e139b9035eee9528d2f4d3",
+        "2182e174d64f4f363048e32e0096f8fc",
         "233c959b1bac6e7fa49e5cb9d1d3829d",
         "4037a3ffa1ccff124a1e626c129273bc",
         "40b8b4ea538e181922bf4e287b68e6ae",
@@ -1261,10 +1241,13 @@
         "5880e93b9a3640c007dd9bce00730895",
         "5d51fe9cc0319fc2b837badc3d2f257a",
         "600db4c7075fc93d350a89804b916118",
+        "635c31e8d28e6fb24e65fd67db2fea08",
         "65a2053548ba34906c178db8d44ff500",
         "6c05ab205725ddf03620304535031b81",
+        "825f24054f5466996b77eee7241dd701",
         "86644867ac7a42e7650b5678149f3638",
         "89b229b024ce77676b8b55989c7791d4",
+        "9a6479b16490e0442b343a614a1a56b5",
         "9b95d28bc01701eab22fb7049a92ca14",
         "a39697e8fef59da2bbe0f2f055f5910a",
         "beab74c433d3def0c71edd6c9224a287",
@@ -1272,14 +1255,76 @@
       ]
     },
     {
+      "from": "semiconductors",
+      "to": "training_data",
+      "shared_article_count": 20,
+      "from_article_count": 109,
+      "to_article_count": 73,
+      "overlap_percent": 12.35,
+      "strength": 27.4,
+      "article_ids": [
+        "0cc67fa121cd1ce92ca35ca7ef986ad0",
+        "1df020a87bb12b1caa0e263d92f4be94",
+        "33c2b0b6c196a436ba9ac96e50dba499",
+        "39e52e46490b86e4e7b05ddf32f8ea56",
+        "4726925cda09a20cd49122817ddb6666",
+        "6308f75082c92699592d3a2f22fc87c8",
+        "66da75ac5d78ee2a15269ec2a7e2d57f",
+        "70062ee63e3ee7622496d9ddff530a7b",
+        "76ec10148516d60cd710c9f927e69371",
+        "7868776dc85886ec472c993cd13a8114",
+        "7f76525658f4eaf7ae0e59bf3325d024",
+        "8e495a9c0463aad06b5a2ff184002476",
+        "a718e1f4bc2ae92979e05047a3d2452d",
+        "b365342eb8521bddb5d1112e07b66932",
+        "b9b3345fc95915e832067040c5a7c13e",
+        "cb2324420ff729e619823fcb97813b34",
+        "d1713785a61239344a1bdc017c3e70de",
+        "d3b168aa5d1fc97977fae9ad509064f7",
+        "dc425d3928ca3e093a99e35753dc1364",
+        "e4672c500d4a1f3575fec25f671edd98"
+      ]
+    },
+    {
+      "from": "robotaxis",
+      "to": "robotics",
+      "shared_article_count": 19,
+      "from_article_count": 66,
+      "to_article_count": 162,
+      "overlap_percent": 9.09,
+      "strength": 28.79,
+      "article_ids": [
+        "1f06c30aa68efccb259c839049066a78",
+        "48cb36a550db71f571911aec64c7df40",
+        "5b5a274c14ec56aaca1de234ba7c90b5",
+        "61d106dd68be309ff43786457c74adc3",
+        "70778ab7bfc7454eab05a712f2d18d98",
+        "76b7f634d5da82bbfe425fef1a7c59f7",
+        "88ce84a57365c9e1ccdf2a9b029f26e5",
+        "8b9c2cdab7034d1370a22b8865bbc088",
+        "9d1bd70e58ec48aad16eb41cb7372607",
+        "a0e6f568ee81efa73cde9c1250d4d769",
+        "aa88f8110122e8caa2662e7beb4dff36",
+        "acee6859ec990621d095f721ea9e1185",
+        "c8bbaa84fe9bc7b024a40c192e0366bc",
+        "d1713785a61239344a1bdc017c3e70de",
+        "d4c24ebe515ac2ae5e3dc0ccfecbd442",
+        "d82d2e533df29769f85eec23cb2a9ad9",
+        "d8b2ad3a6f3ed2ea85d504e047853e30",
+        "decf521faf71faa12d67d16cea68ec83",
+        "ed6215c4318d05df836e23d7717ed655"
+      ]
+    },
+    {
       "from": "artificial_intelligence",
       "to": "drone_autonomy",
-      "shared_article_count": 17,
-      "from_article_count": 457,
-      "to_article_count": 27,
-      "overlap_percent": 3.64,
-      "strength": 62.96,
+      "shared_article_count": 18,
+      "from_article_count": 498,
+      "to_article_count": 28,
+      "overlap_percent": 3.54,
+      "strength": 64.29,
       "article_ids": [
+        "0475ae0f3493e9680da290a8d5b2226b",
         "062b0884a9497c933882fd41451019f2",
         "0f19debf1df35d88e88f3b6bcda64c4c",
         "118fd4b931b181c7c8a9c12e52fbd29e",
@@ -1300,13 +1345,41 @@
       ]
     },
     {
+      "from": "language_models",
+      "to": "semiconductors",
+      "shared_article_count": 17,
+      "from_article_count": 121,
+      "to_article_count": 109,
+      "overlap_percent": 7.98,
+      "strength": 15.6,
+      "article_ids": [
+        "1fef744d07dbbc5a6fc9660a62a3f1fd",
+        "39e52e46490b86e4e7b05ddf32f8ea56",
+        "3b0775ed4720e158ebb113ee08257c9b",
+        "3b8b3a1e393c896d965fb8fd393073d0",
+        "42f342b196745da3c902bce7bb0a627e",
+        "5eaf0a071126b24cf2a0046ecdccb708",
+        "6308f75082c92699592d3a2f22fc87c8",
+        "6c06d05a65f8406335f8b6a2f99b9484",
+        "76ec10148516d60cd710c9f927e69371",
+        "7868776dc85886ec472c993cd13a8114",
+        "8e495a9c0463aad06b5a2ff184002476",
+        "8efbb29c7eedf430712021803c93d96c",
+        "a718e1f4bc2ae92979e05047a3d2452d",
+        "b9b3345fc95915e832067040c5a7c13e",
+        "cb2324420ff729e619823fcb97813b34",
+        "d0803e6915aec0ce676a2e74895ccf4d",
+        "d1713785a61239344a1bdc017c3e70de"
+      ]
+    },
+    {
       "from": "artificial_intelligence",
       "to": "electric_vehicles",
-      "shared_article_count": 16,
-      "from_article_count": 457,
-      "to_article_count": 31,
-      "overlap_percent": 3.39,
-      "strength": 51.61,
+      "shared_article_count": 17,
+      "from_article_count": 498,
+      "to_article_count": 33,
+      "overlap_percent": 3.31,
+      "strength": 51.52,
       "article_ids": [
         "037be73c7760c3e0b304959b037735d8",
         "2682e41aeed5e0e58ae8ee3aa08b2e00",
@@ -1321,6 +1394,7 @@
         "9e5c4430d3dc8cb4024a5edbb69fdab4",
         "aa88f8110122e8caa2662e7beb4dff36",
         "c1cdeec7a8501083c79f79b8eac47c2e",
+        "c1daa2c31b819199793144baabb80b78",
         "c376402e53e8654c986212dcc46dfa15",
         "f1cd2816ef4b5ef4af87abcac21e8ac0",
         "ff762d3b3c099cec65e612d70afd6221"
@@ -1329,11 +1403,11 @@
     {
       "from": "robotaxis",
       "to": "semiconductors",
-      "shared_article_count": 15,
-      "from_article_count": 54,
-      "to_article_count": 101,
-      "overlap_percent": 10.71,
-      "strength": 27.78,
+      "shared_article_count": 16,
+      "from_article_count": 66,
+      "to_article_count": 109,
+      "overlap_percent": 10.06,
+      "strength": 24.24,
       "article_ids": [
         "1fef744d07dbbc5a6fc9660a62a3f1fd",
         "24397d32364637134400ef873abd8a6d",
@@ -1346,6 +1420,7 @@
         "88206d37cc976cd36f6ae4e6ff347d02",
         "bef6435a861e13fa31e56623375aeda3",
         "ce233c96fb5f7d0d87c4ad7ce1e2209c",
+        "d1713785a61239344a1bdc017c3e70de",
         "d8b2ad3a6f3ed2ea85d504e047853e30",
         "dc425d3928ca3e093a99e35753dc1364",
         "df021cbae2c7f15013c802acdde004c2",
@@ -1355,11 +1430,11 @@
     {
       "from": "computer_vision",
       "to": "robotics",
-      "shared_article_count": 15,
-      "from_article_count": 36,
-      "to_article_count": 144,
-      "overlap_percent": 9.09,
-      "strength": 41.67,
+      "shared_article_count": 16,
+      "from_article_count": 39,
+      "to_article_count": 162,
+      "overlap_percent": 8.65,
+      "strength": 41.03,
       "article_ids": [
         "062b0884a9497c933882fd41451019f2",
         "1df020a87bb12b1caa0e263d92f4be94",
@@ -1368,6 +1443,7 @@
         "434526b1fd7108272130a00beeba5735",
         "4cf89bc9425dcf9bc6c23950d8197baa",
         "4d739f4fdfb535af3b714075dabc72f4",
+        "825f24054f5466996b77eee7241dd701",
         "8cd0dffbed048f3b9cb6182d7e213a4f",
         "aca6ca4c0e26f719ec6f4e738d3d5bdc",
         "b44917bab5b553de40bd557fa3deb975",
@@ -1379,39 +1455,64 @@
       ]
     },
     {
-      "from": "language_models",
-      "to": "semiconductors",
+      "from": "computer_vision",
+      "to": "drones",
       "shared_article_count": 15,
-      "from_article_count": 113,
-      "to_article_count": 101,
-      "overlap_percent": 7.54,
-      "strength": 14.85,
+      "from_article_count": 39,
+      "to_article_count": 270,
+      "overlap_percent": 5.1,
+      "strength": 38.46,
       "article_ids": [
-        "1fef744d07dbbc5a6fc9660a62a3f1fd",
-        "39e52e46490b86e4e7b05ddf32f8ea56",
-        "3b0775ed4720e158ebb113ee08257c9b",
-        "3b8b3a1e393c896d965fb8fd393073d0",
-        "42f342b196745da3c902bce7bb0a627e",
-        "5eaf0a071126b24cf2a0046ecdccb708",
-        "6308f75082c92699592d3a2f22fc87c8",
-        "6c06d05a65f8406335f8b6a2f99b9484",
-        "7868776dc85886ec472c993cd13a8114",
-        "8e495a9c0463aad06b5a2ff184002476",
-        "8efbb29c7eedf430712021803c93d96c",
-        "a718e1f4bc2ae92979e05047a3d2452d",
-        "b9b3345fc95915e832067040c5a7c13e",
-        "cb2324420ff729e619823fcb97813b34",
-        "d0803e6915aec0ce676a2e74895ccf4d"
+        "062b0884a9497c933882fd41451019f2",
+        "0f19debf1df35d88e88f3b6bcda64c4c",
+        "2182e174d64f4f363048e32e0096f8fc",
+        "2543a43c1d6cd2917a09552145c60861",
+        "276e4dda6140369e2f065706ece2e274",
+        "3e822e4f4998d5fe9e986a3a0a750869",
+        "4cf89bc9425dcf9bc6c23950d8197baa",
+        "5880e93b9a3640c007dd9bce00730895",
+        "700c115e3b51ef6477d2f502fd17c3d4",
+        "7b11b1b87c3ae89a6d6306c5b122aa88",
+        "7f9f13f9e21c9868e3303f5633747ee8",
+        "825f24054f5466996b77eee7241dd701",
+        "aca6ca4c0e26f719ec6f4e738d3d5bdc",
+        "b44917bab5b553de40bd557fa3deb975",
+        "fe5486bc8381ffa973cc3a4fd83db0ff"
+      ]
+    },
+    {
+      "from": "cybersecurity",
+      "to": "generative_ai",
+      "shared_article_count": 14,
+      "from_article_count": 35,
+      "to_article_count": 151,
+      "overlap_percent": 8.14,
+      "strength": 40.0,
+      "article_ids": [
+        "203cde72c87b5331a6198f7ceb9adf44",
+        "2aacbb35e58b743ebc88246907cddaf2",
+        "2c65aa1d90f7a4821c83e413ab270dde",
+        "4f68c22017986092f04693c8abfdd9c1",
+        "521c5f37fd9962164193f0160efcf69b",
+        "6ca3d507fcd1937829420bb81d6b952d",
+        "86644867ac7a42e7650b5678149f3638",
+        "972156718c47b0aed350b21e746262a6",
+        "9b95d28bc01701eab22fb7049a92ca14",
+        "c120c96467a83a6008df79beb1e94670",
+        "c1969a4f80bead6c4120d1252b776d1d",
+        "c1983100039d3f0e370bebab6438d093",
+        "e402be5b8f13b89c339f3d9899a8a994",
+        "fe7d836723e9aa718d229ea42e7a3510"
       ]
     },
     {
       "from": "machine_learning",
       "to": "semiconductors",
       "shared_article_count": 14,
-      "from_article_count": 79,
-      "to_article_count": 101,
-      "overlap_percent": 8.43,
-      "strength": 17.72,
+      "from_article_count": 84,
+      "to_article_count": 109,
+      "overlap_percent": 7.82,
+      "strength": 16.67,
       "article_ids": [
         "281bd7bceee9cc2108bde4ec674aa498",
         "39e52e46490b86e4e7b05ddf32f8ea56",
@@ -1430,13 +1531,38 @@
       ]
     },
     {
+      "from": "drones",
+      "to": "generative_ai",
+      "shared_article_count": 14,
+      "from_article_count": 270,
+      "to_article_count": 151,
+      "overlap_percent": 3.44,
+      "strength": 9.27,
+      "article_ids": [
+        "062b0884a9497c933882fd41451019f2",
+        "2543a43c1d6cd2917a09552145c60861",
+        "3b8b3a1e393c896d965fb8fd393073d0",
+        "417e263294a18b7a34378bd232141bcd",
+        "43f5c9d05b2d66e648a2a1c4289be1d2",
+        "48540d5d7fcc2687883cc83a21f8646b",
+        "4a549bd6defaba13c04b22697527384d",
+        "5b2e10b9390d961fd449b61589348a79",
+        "63e64c4fa0d11a1ca39adf4c5216434e",
+        "70062ee63e3ee7622496d9ddff530a7b",
+        "86644867ac7a42e7650b5678149f3638",
+        "9b95d28bc01701eab22fb7049a92ca14",
+        "b365342eb8521bddb5d1112e07b66932",
+        "e7f57700ebe2a81b24f3ea5300dfdc50"
+      ]
+    },
+    {
       "from": "semiconductors",
       "to": "space_technology",
       "shared_article_count": 13,
-      "from_article_count": 101,
-      "to_article_count": 32,
-      "overlap_percent": 10.83,
-      "strength": 40.62,
+      "from_article_count": 109,
+      "to_article_count": 38,
+      "overlap_percent": 9.7,
+      "strength": 34.21,
       "article_ids": [
         "4037a3ffa1ccff124a1e626c129273bc",
         "4a549bd6defaba13c04b22697527384d",
@@ -1457,10 +1583,10 @@
       "from": "computer_vision",
       "to": "semiconductors",
       "shared_article_count": 13,
-      "from_article_count": 36,
-      "to_article_count": 101,
-      "overlap_percent": 10.48,
-      "strength": 36.11,
+      "from_article_count": 39,
+      "to_article_count": 109,
+      "overlap_percent": 9.63,
+      "strength": 33.33,
       "article_ids": [
         "1df020a87bb12b1caa0e263d92f4be94",
         "2543a43c1d6cd2917a09552145c60861",
@@ -1481,10 +1607,10 @@
       "from": "autonomous_vehicles",
       "to": "computer_vision",
       "shared_article_count": 13,
-      "from_article_count": 137,
-      "to_article_count": 36,
-      "overlap_percent": 8.12,
-      "strength": 36.11,
+      "from_article_count": 153,
+      "to_article_count": 39,
+      "overlap_percent": 7.26,
+      "strength": 33.33,
       "article_ids": [
         "1df020a87bb12b1caa0e263d92f4be94",
         "2543a43c1d6cd2917a09552145c60861",
@@ -1502,26 +1628,26 @@
       ]
     },
     {
-      "from": "cybersecurity",
-      "to": "generative_ai",
+      "from": "autonomous_vehicles",
+      "to": "training_data",
       "shared_article_count": 13,
-      "from_article_count": 33,
-      "to_article_count": 143,
-      "overlap_percent": 7.98,
-      "strength": 39.39,
+      "from_article_count": 153,
+      "to_article_count": 73,
+      "overlap_percent": 6.1,
+      "strength": 17.81,
       "article_ids": [
-        "203cde72c87b5331a6198f7ceb9adf44",
-        "2c65aa1d90f7a4821c83e413ab270dde",
-        "4f68c22017986092f04693c8abfdd9c1",
-        "521c5f37fd9962164193f0160efcf69b",
-        "6ca3d507fcd1937829420bb81d6b952d",
-        "86644867ac7a42e7650b5678149f3638",
-        "972156718c47b0aed350b21e746262a6",
-        "9b95d28bc01701eab22fb7049a92ca14",
-        "c120c96467a83a6008df79beb1e94670",
-        "c1969a4f80bead6c4120d1252b776d1d",
-        "c1983100039d3f0e370bebab6438d093",
-        "e402be5b8f13b89c339f3d9899a8a994",
+        "1213ae85891bd69307c566d0488fd62d",
+        "1df020a87bb12b1caa0e263d92f4be94",
+        "20846441fdbfc1d2dcf8788a69ce06b9",
+        "2ac08ecb591a3ef4b79bce34503064e3",
+        "4726925cda09a20cd49122817ddb6666",
+        "66da75ac5d78ee2a15269ec2a7e2d57f",
+        "70062ee63e3ee7622496d9ddff530a7b",
+        "8e495a9c0463aad06b5a2ff184002476",
+        "b365342eb8521bddb5d1112e07b66932",
+        "d1713785a61239344a1bdc017c3e70de",
+        "dc425d3928ca3e093a99e35753dc1364",
+        "e4672c500d4a1f3575fec25f671edd98",
         "fe7d836723e9aa718d229ea42e7a3510"
       ]
     },
@@ -1529,10 +1655,10 @@
       "from": "machine_learning",
       "to": "robotics",
       "shared_article_count": 13,
-      "from_article_count": 79,
-      "to_article_count": 144,
-      "overlap_percent": 6.19,
-      "strength": 16.46,
+      "from_article_count": 84,
+      "to_article_count": 162,
+      "overlap_percent": 5.58,
+      "strength": 15.48,
       "article_ids": [
         "434526b1fd7108272130a00beeba5735",
         "439cd2392582b6ebb8a9b495059dfb73",
@@ -1550,37 +1676,60 @@
       ]
     },
     {
-      "from": "computer_vision",
-      "to": "drones",
+      "from": "language_models",
+      "to": "robotics",
       "shared_article_count": 13,
-      "from_article_count": 36,
-      "to_article_count": 244,
-      "overlap_percent": 4.87,
-      "strength": 36.11,
+      "from_article_count": 121,
+      "to_article_count": 162,
+      "overlap_percent": 4.81,
+      "strength": 10.74,
       "article_ids": [
-        "062b0884a9497c933882fd41451019f2",
-        "0f19debf1df35d88e88f3b6bcda64c4c",
-        "2543a43c1d6cd2917a09552145c60861",
-        "276e4dda6140369e2f065706ece2e274",
-        "3e822e4f4998d5fe9e986a3a0a750869",
-        "4cf89bc9425dcf9bc6c23950d8197baa",
-        "5880e93b9a3640c007dd9bce00730895",
-        "700c115e3b51ef6477d2f502fd17c3d4",
-        "7b11b1b87c3ae89a6d6306c5b122aa88",
-        "7f9f13f9e21c9868e3303f5633747ee8",
+        "0a408e77b947d0e51453fe8e130f6aa9",
+        "2ac08ecb591a3ef4b79bce34503064e3",
+        "3b8b3a1e393c896d965fb8fd393073d0",
+        "434526b1fd7108272130a00beeba5735",
+        "48cb36a550db71f571911aec64c7df40",
+        "4d739f4fdfb535af3b714075dabc72f4",
+        "62918e78fed5f056e67f6a0f9540cbe9",
         "aca6ca4c0e26f719ec6f4e738d3d5bdc",
-        "b44917bab5b553de40bd557fa3deb975",
-        "fe5486bc8381ffa973cc3a4fd83db0ff"
+        "acee6859ec990621d095f721ea9e1185",
+        "b9d29c71bbea56966c6fba730ae1ef84",
+        "d1713785a61239344a1bdc017c3e70de",
+        "e338f534721ec4a6fcbee18f2877fb52",
+        "f94ce8bbabd837f407292fed5f4d126d"
+      ]
+    },
+    {
+      "from": "electric_vehicles",
+      "to": "robotaxis",
+      "shared_article_count": 12,
+      "from_article_count": 33,
+      "to_article_count": 66,
+      "overlap_percent": 13.79,
+      "strength": 36.36,
+      "article_ids": [
+        "2682e41aeed5e0e58ae8ee3aa08b2e00",
+        "3bf7b617558896685454a1e39adf47d8",
+        "477c824dfebe13cb1f04a2ed17f662f8",
+        "48cb36a550db71f571911aec64c7df40",
+        "61d106dd68be309ff43786457c74adc3",
+        "6e28c2038d7db483a8d5064582c854fd",
+        "7c25eeb33e07a98884b688eba863d485",
+        "9e58e0b720b7b047cd398b4f50b2742c",
+        "aa88f8110122e8caa2662e7beb4dff36",
+        "c712007fd99d99ebd5c18e1538ca00ea",
+        "f1cd2816ef4b5ef4af87abcac21e8ac0",
+        "f723c426dc0fb6369ad80f59b9f2dad1"
       ]
     },
     {
       "from": "computer_vision",
       "to": "generative_ai",
       "shared_article_count": 12,
-      "from_article_count": 36,
-      "to_article_count": 143,
-      "overlap_percent": 7.19,
-      "strength": 33.33,
+      "from_article_count": 39,
+      "to_article_count": 151,
+      "overlap_percent": 6.74,
+      "strength": 30.77,
       "article_ids": [
         "062b0884a9497c933882fd41451019f2",
         "1df020a87bb12b1caa0e263d92f4be94",
@@ -1597,126 +1746,56 @@
       ]
     },
     {
-      "from": "autonomous_vehicles",
-      "to": "training_data",
-      "shared_article_count": 12,
-      "from_article_count": 137,
-      "to_article_count": 65,
-      "overlap_percent": 6.32,
-      "strength": 18.46,
+      "from": "robotics",
+      "to": "space_technology",
+      "shared_article_count": 11,
+      "from_article_count": 162,
+      "to_article_count": 38,
+      "overlap_percent": 5.82,
+      "strength": 28.95,
       "article_ids": [
-        "1213ae85891bd69307c566d0488fd62d",
-        "1df020a87bb12b1caa0e263d92f4be94",
-        "20846441fdbfc1d2dcf8788a69ce06b9",
-        "2ac08ecb591a3ef4b79bce34503064e3",
-        "4726925cda09a20cd49122817ddb6666",
-        "66da75ac5d78ee2a15269ec2a7e2d57f",
-        "70062ee63e3ee7622496d9ddff530a7b",
-        "8e495a9c0463aad06b5a2ff184002476",
-        "b365342eb8521bddb5d1112e07b66932",
-        "dc425d3928ca3e093a99e35753dc1364",
-        "e4672c500d4a1f3575fec25f671edd98",
-        "fe7d836723e9aa718d229ea42e7a3510"
-      ]
-    },
-    {
-      "from": "language_models",
-      "to": "robotics",
-      "shared_article_count": 12,
-      "from_article_count": 113,
-      "to_article_count": 144,
-      "overlap_percent": 4.9,
-      "strength": 10.62,
-      "article_ids": [
-        "0a408e77b947d0e51453fe8e130f6aa9",
-        "2ac08ecb591a3ef4b79bce34503064e3",
-        "3b8b3a1e393c896d965fb8fd393073d0",
-        "434526b1fd7108272130a00beeba5735",
-        "48cb36a550db71f571911aec64c7df40",
-        "4d739f4fdfb535af3b714075dabc72f4",
-        "62918e78fed5f056e67f6a0f9540cbe9",
-        "aca6ca4c0e26f719ec6f4e738d3d5bdc",
-        "acee6859ec990621d095f721ea9e1185",
-        "b9d29c71bbea56966c6fba730ae1ef84",
-        "e338f534721ec4a6fcbee18f2877fb52",
-        "f94ce8bbabd837f407292fed5f4d126d"
-      ]
-    },
-    {
-      "from": "drones",
-      "to": "generative_ai",
-      "shared_article_count": 12,
-      "from_article_count": 244,
-      "to_article_count": 143,
-      "overlap_percent": 3.2,
-      "strength": 8.39,
-      "article_ids": [
-        "062b0884a9497c933882fd41451019f2",
-        "2543a43c1d6cd2917a09552145c60861",
-        "3b8b3a1e393c896d965fb8fd393073d0",
+        "233c959b1bac6e7fa49e5cb9d1d3829d",
+        "2503110c65ab117c5d9ee0fbcf53a4fa",
         "43f5c9d05b2d66e648a2a1c4289be1d2",
-        "48540d5d7fcc2687883cc83a21f8646b",
         "4a549bd6defaba13c04b22697527384d",
-        "5b2e10b9390d961fd449b61589348a79",
-        "63e64c4fa0d11a1ca39adf4c5216434e",
-        "70062ee63e3ee7622496d9ddff530a7b",
-        "86644867ac7a42e7650b5678149f3638",
+        "5d51fe9cc0319fc2b837badc3d2f257a",
+        "635c31e8d28e6fb24e65fd67db2fea08",
+        "825f24054f5466996b77eee7241dd701",
         "9b95d28bc01701eab22fb7049a92ca14",
-        "b365342eb8521bddb5d1112e07b66932"
+        "beab74c433d3def0c71edd6c9224a287",
+        "c60029723b162d6b984766af6ff1038a",
+        "fe5486bc8381ffa973cc3a4fd83db0ff"
       ]
     },
     {
-      "from": "electric_vehicles",
-      "to": "robotaxis",
-      "shared_article_count": 11,
-      "from_article_count": 31,
-      "to_article_count": 54,
-      "overlap_percent": 14.86,
-      "strength": 35.48,
-      "article_ids": [
-        "2682e41aeed5e0e58ae8ee3aa08b2e00",
-        "3bf7b617558896685454a1e39adf47d8",
-        "477c824dfebe13cb1f04a2ed17f662f8",
-        "48cb36a550db71f571911aec64c7df40",
-        "61d106dd68be309ff43786457c74adc3",
-        "6e28c2038d7db483a8d5064582c854fd",
-        "9e58e0b720b7b047cd398b4f50b2742c",
-        "aa88f8110122e8caa2662e7beb4dff36",
-        "c712007fd99d99ebd5c18e1538ca00ea",
-        "f1cd2816ef4b5ef4af87abcac21e8ac0",
-        "f723c426dc0fb6369ad80f59b9f2dad1"
-      ]
-    },
-    {
-      "from": "robotaxis",
-      "to": "robotics",
-      "shared_article_count": 11,
+      "from": "ai_agents",
+      "to": "training_data",
+      "shared_article_count": 10,
       "from_article_count": 54,
-      "to_article_count": 144,
-      "overlap_percent": 5.88,
-      "strength": 20.37,
+      "to_article_count": 73,
+      "overlap_percent": 8.55,
+      "strength": 18.52,
       "article_ids": [
-        "48cb36a550db71f571911aec64c7df40",
-        "61d106dd68be309ff43786457c74adc3",
-        "70778ab7bfc7454eab05a712f2d18d98",
-        "76b7f634d5da82bbfe425fef1a7c59f7",
-        "8b9c2cdab7034d1370a22b8865bbc088",
-        "9d1bd70e58ec48aad16eb41cb7372607",
-        "aa88f8110122e8caa2662e7beb4dff36",
-        "acee6859ec990621d095f721ea9e1185",
-        "c8bbaa84fe9bc7b024a40c192e0366bc",
-        "d8b2ad3a6f3ed2ea85d504e047853e30",
-        "decf521faf71faa12d67d16cea68ec83"
+        "060a8a62b7000dea84fa7a2f06d6d0cc",
+        "0a408e77b947d0e51453fe8e130f6aa9",
+        "3503cd9704e5918f9a0b2747a458081c",
+        "39e52e46490b86e4e7b05ddf32f8ea56",
+        "51a7c77064e221cfc8732b687c31e627",
+        "591186019f0b6dfbf4a29d9caaf60b79",
+        "76ec10148516d60cd710c9f927e69371",
+        "971009550288a8d8fe1f3de6e86ade82",
+        "f4927904a2414beacef8ead6a99ca224",
+        "f6dfac97d44083c15807fd2cc1b8da29"
       ]
     },
     {
       "from": "machine_learning",
       "to": "robotaxis",
       "shared_article_count": 10,
-      "from_article_count": 79,
-      "to_article_count": 54,
-      "overlap_percent": 8.13,
-      "strength": 18.52,
+      "from_article_count": 84,
+      "to_article_count": 66,
+      "overlap_percent": 7.14,
+      "strength": 15.15,
       "article_ids": [
         "281bd7bceee9cc2108bde4ec674aa498",
         "4726925cda09a20cd49122817ddb6666",
@@ -1734,10 +1813,10 @@
       "from": "drone_delivery",
       "to": "robotics",
       "shared_article_count": 10,
-      "from_article_count": 45,
-      "to_article_count": 144,
-      "overlap_percent": 5.59,
-      "strength": 22.22,
+      "from_article_count": 50,
+      "to_article_count": 162,
+      "overlap_percent": 4.95,
+      "strength": 20.0,
       "article_ids": [
         "28bcd093eee3cbd7927d44f29202b5d1",
         "3b8b3a1e393c896d965fb8fd393073d0",
@@ -1752,33 +1831,76 @@
       ]
     },
     {
-      "from": "ai_agents",
+      "from": "robotics",
       "to": "training_data",
-      "shared_article_count": 9,
-      "from_article_count": 48,
-      "to_article_count": 65,
-      "overlap_percent": 8.65,
-      "strength": 18.75,
+      "shared_article_count": 10,
+      "from_article_count": 162,
+      "to_article_count": 73,
+      "overlap_percent": 4.44,
+      "strength": 13.7,
       "article_ids": [
-        "060a8a62b7000dea84fa7a2f06d6d0cc",
         "0a408e77b947d0e51453fe8e130f6aa9",
-        "3503cd9704e5918f9a0b2747a458081c",
-        "39e52e46490b86e4e7b05ddf32f8ea56",
-        "51a7c77064e221cfc8732b687c31e627",
-        "591186019f0b6dfbf4a29d9caaf60b79",
-        "971009550288a8d8fe1f3de6e86ade82",
-        "f4927904a2414beacef8ead6a99ca224",
-        "f6dfac97d44083c15807fd2cc1b8da29"
+        "1df020a87bb12b1caa0e263d92f4be94",
+        "2ac08ecb591a3ef4b79bce34503064e3",
+        "33c2b0b6c196a436ba9ac96e50dba499",
+        "70062ee63e3ee7622496d9ddff530a7b",
+        "7363f1537b4641cfe445881ac4eb70b3",
+        "b365342eb8521bddb5d1112e07b66932",
+        "d1713785a61239344a1bdc017c3e70de",
+        "dc06d36a905082fadd32dfe567ddd912",
+        "fd31c8da8d3c49ecdec73b745a13d806"
+      ]
+    },
+    {
+      "from": "autonomous_vehicles",
+      "to": "language_models",
+      "shared_article_count": 10,
+      "from_article_count": 153,
+      "to_article_count": 121,
+      "overlap_percent": 3.79,
+      "strength": 8.26,
+      "article_ids": [
+        "1fef744d07dbbc5a6fc9660a62a3f1fd",
+        "2ac08ecb591a3ef4b79bce34503064e3",
+        "48cb36a550db71f571911aec64c7df40",
+        "770acb10b98e6af24ae987d06c3573ac",
+        "8e495a9c0463aad06b5a2ff184002476",
+        "ab2d71991f86c134610b0a4eb3aa3147",
+        "acee6859ec990621d095f721ea9e1185",
+        "d1713785a61239344a1bdc017c3e70de",
+        "f6890a6c82b5eeb59ab46b79c4800e35",
+        "fe7d836723e9aa718d229ea42e7a3510"
+      ]
+    },
+    {
+      "from": "artificial_intelligence",
+      "to": "drone_delivery",
+      "shared_article_count": 10,
+      "from_article_count": 498,
+      "to_article_count": 50,
+      "overlap_percent": 1.86,
+      "strength": 20.0,
+      "article_ids": [
+        "3068108ffa11db95c9d26add29993155",
+        "3b8b3a1e393c896d965fb8fd393073d0",
+        "417e263294a18b7a34378bd232141bcd",
+        "4cbbd63b85b58074f2e18fc391561ae8",
+        "828c43f458ac20bdd4d0a4ac6640d12d",
+        "9794c71c11c8bcfef14ddd75c0354fd4",
+        "aea099a37b8314e4bae95a16cc6fd418",
+        "af9804b991bb988de2abbb9fa0debc9f",
+        "b9b183919fde1460276ee17ab7f138f2",
+        "ffb5a39bb2a6d903752eeddc0440dff2"
       ]
     },
     {
       "from": "cybersecurity",
       "to": "language_models",
       "shared_article_count": 9,
-      "from_article_count": 33,
-      "to_article_count": 113,
-      "overlap_percent": 6.57,
-      "strength": 27.27,
+      "from_article_count": 35,
+      "to_article_count": 121,
+      "overlap_percent": 6.12,
+      "strength": 25.71,
       "article_ids": [
         "060a8a62b7000dea84fa7a2f06d6d0cc",
         "203cde72c87b5331a6198f7ceb9adf44",
@@ -1795,10 +1917,10 @@
       "from": "autonomous_vehicles",
       "to": "cybersecurity",
       "shared_article_count": 9,
-      "from_article_count": 137,
-      "to_article_count": 33,
-      "overlap_percent": 5.59,
-      "strength": 27.27,
+      "from_article_count": 153,
+      "to_article_count": 35,
+      "overlap_percent": 5.03,
+      "strength": 25.71,
       "article_ids": [
         "464e412838b79fb21005fab9659429c5",
         "6f8a82c6e28fe037aa8b05f6337d5c44",
@@ -1812,91 +1934,52 @@
       ]
     },
     {
-      "from": "robotics",
-      "to": "training_data",
-      "shared_article_count": 9,
-      "from_article_count": 144,
-      "to_article_count": 65,
-      "overlap_percent": 4.5,
-      "strength": 13.85,
-      "article_ids": [
-        "0a408e77b947d0e51453fe8e130f6aa9",
-        "1df020a87bb12b1caa0e263d92f4be94",
-        "2ac08ecb591a3ef4b79bce34503064e3",
-        "33c2b0b6c196a436ba9ac96e50dba499",
-        "70062ee63e3ee7622496d9ddff530a7b",
-        "7363f1537b4641cfe445881ac4eb70b3",
-        "b365342eb8521bddb5d1112e07b66932",
-        "dc06d36a905082fadd32dfe567ddd912",
-        "fd31c8da8d3c49ecdec73b745a13d806"
-      ]
-    },
-    {
-      "from": "autonomous_vehicles",
-      "to": "language_models",
-      "shared_article_count": 9,
-      "from_article_count": 137,
-      "to_article_count": 113,
-      "overlap_percent": 3.73,
-      "strength": 7.96,
-      "article_ids": [
-        "1fef744d07dbbc5a6fc9660a62a3f1fd",
-        "2ac08ecb591a3ef4b79bce34503064e3",
-        "48cb36a550db71f571911aec64c7df40",
-        "770acb10b98e6af24ae987d06c3573ac",
-        "8e495a9c0463aad06b5a2ff184002476",
-        "ab2d71991f86c134610b0a4eb3aa3147",
-        "acee6859ec990621d095f721ea9e1185",
-        "f6890a6c82b5eeb59ab46b79c4800e35",
-        "fe7d836723e9aa718d229ea42e7a3510"
-      ]
-    },
-    {
       "from": "autonomous_vehicles",
       "to": "space_technology",
-      "shared_article_count": 8,
-      "from_article_count": 137,
-      "to_article_count": 32,
-      "overlap_percent": 4.97,
-      "strength": 25.0,
+      "shared_article_count": 9,
+      "from_article_count": 153,
+      "to_article_count": 38,
+      "overlap_percent": 4.95,
+      "strength": 23.68,
       "article_ids": [
         "536578a2236cb63da95aece3f8e9a278",
         "566dbebe4558a560cb2f43b31524272f",
         "88206d37cc976cd36f6ae4e6ff347d02",
         "8ebabdcc131cc138bc9d9f8da8acc6b9",
         "c46186de1f6f68a4f6a65a1bc9a9e774",
+        "c60029723b162d6b984766af6ff1038a",
         "cd9899111f438df5c5bd66f9e96c36b2",
         "df021cbae2c7f15013c802acdde004c2",
         "ebd4b8acd5d0d556a36c1d21fb2fbe2b"
       ]
     },
     {
-      "from": "robotics",
-      "to": "space_technology",
+      "from": "ai_agents",
+      "to": "machine_learning",
       "shared_article_count": 8,
-      "from_article_count": 144,
-      "to_article_count": 32,
-      "overlap_percent": 4.76,
-      "strength": 25.0,
+      "from_article_count": 54,
+      "to_article_count": 84,
+      "overlap_percent": 6.15,
+      "strength": 14.81,
       "article_ids": [
-        "233c959b1bac6e7fa49e5cb9d1d3829d",
-        "2503110c65ab117c5d9ee0fbcf53a4fa",
-        "43f5c9d05b2d66e648a2a1c4289be1d2",
-        "4a549bd6defaba13c04b22697527384d",
-        "5d51fe9cc0319fc2b837badc3d2f257a",
-        "9b95d28bc01701eab22fb7049a92ca14",
-        "beab74c433d3def0c71edd6c9224a287",
-        "fe5486bc8381ffa973cc3a4fd83db0ff"
+        "39e52e46490b86e4e7b05ddf32f8ea56",
+        "439cd2392582b6ebb8a9b495059dfb73",
+        "51a7c77064e221cfc8732b687c31e627",
+        "62918e78fed5f056e67f6a0f9540cbe9",
+        "716ea9205807cb49ed370e55c8f2b7a8",
+        "770acb10b98e6af24ae987d06c3573ac",
+        "dc05fbf70502663c735cde0d6f45c567",
+        "dc3cc760eb44739a171964c5531e7928"
       ]
     },
     {
       "from": "generative_ai",
       "to": "robotaxis",
       "shared_article_count": 8,
-      "from_article_count": 143,
-      "to_article_count": 54,
-      "overlap_percent": 4.23,
-      "strength": 14.81,
+      "from_article_count": 151,
+      "to_article_count": 66,
+      "overlap_percent": 3.83,
+      "strength": 12.12,
       "article_ids": [
         "1fef744d07dbbc5a6fc9660a62a3f1fd",
         "2543a43c1d6cd2917a09552145c60861",
@@ -1909,13 +1992,32 @@
       ]
     },
     {
+      "from": "cybersecurity",
+      "to": "drones",
+      "shared_article_count": 8,
+      "from_article_count": 35,
+      "to_article_count": 270,
+      "overlap_percent": 2.69,
+      "strength": 22.86,
+      "article_ids": [
+        "5434a4694cd4141c975b434cb5f93ec8",
+        "6c030cbf1046bf33ff79e01893092405",
+        "7944074122833ab96e180de8e0ff6ae5",
+        "86644867ac7a42e7650b5678149f3638",
+        "8bb9b84a3013380c4d61ea021925ceb6",
+        "9b95d28bc01701eab22fb7049a92ca14",
+        "c350329f6289e5dfd31ffab365479a48",
+        "c71d458c8a545c8defcfeda8139e31eb"
+      ]
+    },
+    {
       "from": "autonomous_vehicles",
       "to": "drones",
       "shared_article_count": 8,
-      "from_article_count": 137,
-      "to_article_count": 244,
-      "overlap_percent": 2.14,
-      "strength": 5.84,
+      "from_article_count": 153,
+      "to_article_count": 270,
+      "overlap_percent": 1.93,
+      "strength": 5.23,
       "article_ids": [
         "2543a43c1d6cd2917a09552145c60861",
         "276e4dda6140369e2f065706ece2e274",
@@ -1931,10 +2033,10 @@
       "from": "cybersecurity",
       "to": "machine_learning",
       "shared_article_count": 7,
-      "from_article_count": 33,
-      "to_article_count": 79,
-      "overlap_percent": 6.67,
-      "strength": 21.21,
+      "from_article_count": 35,
+      "to_article_count": 84,
+      "overlap_percent": 6.25,
+      "strength": 20.0,
       "article_ids": [
         "35a4e2fe059c702b68bb0bc912b92ad9",
         "521c5f37fd9962164193f0160efcf69b",
@@ -1947,30 +2049,30 @@
     },
     {
       "from": "ai_agents",
-      "to": "machine_learning",
+      "to": "semiconductors",
       "shared_article_count": 7,
-      "from_article_count": 48,
-      "to_article_count": 79,
-      "overlap_percent": 5.83,
-      "strength": 14.58,
+      "from_article_count": 54,
+      "to_article_count": 109,
+      "overlap_percent": 4.49,
+      "strength": 12.96,
       "article_ids": [
+        "2543a43c1d6cd2917a09552145c60861",
         "39e52e46490b86e4e7b05ddf32f8ea56",
-        "439cd2392582b6ebb8a9b495059dfb73",
-        "51a7c77064e221cfc8732b687c31e627",
-        "62918e78fed5f056e67f6a0f9540cbe9",
-        "716ea9205807cb49ed370e55c8f2b7a8",
-        "770acb10b98e6af24ae987d06c3573ac",
-        "dc05fbf70502663c735cde0d6f45c567"
+        "5eaf0a071126b24cf2a0046ecdccb708",
+        "6c06d05a65f8406335f8b6a2f99b9484",
+        "76ec10148516d60cd710c9f927e69371",
+        "8a81a48fdef4138b1f5aecd987078caf",
+        "c1983100039d3f0e370bebab6438d093"
       ]
     },
     {
       "from": "drone_autonomy",
       "to": "robotics",
       "shared_article_count": 7,
-      "from_article_count": 27,
-      "to_article_count": 144,
-      "overlap_percent": 4.27,
-      "strength": 25.93,
+      "from_article_count": 28,
+      "to_article_count": 162,
+      "overlap_percent": 3.83,
+      "strength": 25.0,
       "article_ids": [
         "062b0884a9497c933882fd41451019f2",
         "157f50f726c1daf3375b63a483701cde",
@@ -1982,49 +2084,82 @@
       ]
     },
     {
-      "from": "cybersecurity",
-      "to": "drones",
+      "from": "drones",
+      "to": "machine_learning",
       "shared_article_count": 7,
-      "from_article_count": 33,
-      "to_article_count": 244,
-      "overlap_percent": 2.59,
-      "strength": 21.21,
+      "from_article_count": 270,
+      "to_article_count": 84,
+      "overlap_percent": 2.02,
+      "strength": 8.33,
       "article_ids": [
-        "5434a4694cd4141c975b434cb5f93ec8",
-        "6c030cbf1046bf33ff79e01893092405",
-        "86644867ac7a42e7650b5678149f3638",
-        "8bb9b84a3013380c4d61ea021925ceb6",
+        "04abc7e40f2f9585ff94e8483a3fe7e7",
+        "2b8fca34c43933778417b9cfe2a09729",
+        "417e263294a18b7a34378bd232141bcd",
+        "70062ee63e3ee7622496d9ddff530a7b",
         "9b95d28bc01701eab22fb7049a92ca14",
-        "c350329f6289e5dfd31ffab365479a48",
-        "c71d458c8a545c8defcfeda8139e31eb"
+        "b365342eb8521bddb5d1112e07b66932",
+        "c8bbaa84fe9bc7b024a40c192e0366bc"
       ]
     },
     {
-      "from": "artificial_intelligence",
-      "to": "drone_delivery",
-      "shared_article_count": 7,
-      "from_article_count": 457,
-      "to_article_count": 45,
-      "overlap_percent": 1.41,
-      "strength": 15.56,
+      "from": "computer_vision",
+      "to": "space_technology",
+      "shared_article_count": 6,
+      "from_article_count": 39,
+      "to_article_count": 38,
+      "overlap_percent": 8.45,
+      "strength": 15.79,
       "article_ids": [
-        "3b8b3a1e393c896d965fb8fd393073d0",
-        "4cbbd63b85b58074f2e18fc391561ae8",
-        "828c43f458ac20bdd4d0a4ac6640d12d",
-        "9794c71c11c8bcfef14ddd75c0354fd4",
-        "aea099a37b8314e4bae95a16cc6fd418",
-        "af9804b991bb988de2abbb9fa0debc9f",
-        "b9b183919fde1460276ee17ab7f138f2"
+        "2182e174d64f4f363048e32e0096f8fc",
+        "5880e93b9a3640c007dd9bce00730895",
+        "825f24054f5466996b77eee7241dd701",
+        "8ebabdcc131cc138bc9d9f8da8acc6b9",
+        "bad8d849fe2109a57b9ccb2f708c9895",
+        "fe5486bc8381ffa973cc3a4fd83db0ff"
+      ]
+    },
+    {
+      "from": "computer_vision",
+      "to": "training_data",
+      "shared_article_count": 6,
+      "from_article_count": 39,
+      "to_article_count": 73,
+      "overlap_percent": 5.66,
+      "strength": 15.38,
+      "article_ids": [
+        "1df020a87bb12b1caa0e263d92f4be94",
+        "812a6efd2e528fd0855d653871e0012a",
+        "b9b3345fc95915e832067040c5a7c13e",
+        "bad8d849fe2109a57b9ccb2f708c9895",
+        "cb2324420ff729e619823fcb97813b34",
+        "d3b168aa5d1fc97977fae9ad509064f7"
+      ]
+    },
+    {
+      "from": "computer_vision",
+      "to": "machine_learning",
+      "shared_article_count": 6,
+      "from_article_count": 39,
+      "to_article_count": 84,
+      "overlap_percent": 5.13,
+      "strength": 15.38,
+      "article_ids": [
+        "434526b1fd7108272130a00beeba5735",
+        "4d739f4fdfb535af3b714075dabc72f4",
+        "738ce9121ff4d43be6a7e90d6d9cdcab",
+        "bad8d849fe2109a57b9ccb2f708c9895",
+        "d3b168aa5d1fc97977fae9ad509064f7",
+        "e94789832c0f687ce1bd2ed0064f09b9"
       ]
     },
     {
       "from": "computer_vision",
       "to": "language_models",
       "shared_article_count": 6,
-      "from_article_count": 36,
-      "to_article_count": 113,
-      "overlap_percent": 4.2,
-      "strength": 16.67,
+      "from_article_count": 39,
+      "to_article_count": 121,
+      "overlap_percent": 3.9,
+      "strength": 15.38,
       "article_ids": [
         "434526b1fd7108272130a00beeba5735",
         "4d739f4fdfb535af3b714075dabc72f4",
@@ -2035,30 +2170,13 @@
       ]
     },
     {
-      "from": "ai_agents",
-      "to": "semiconductors",
-      "shared_article_count": 6,
-      "from_article_count": 48,
-      "to_article_count": 101,
-      "overlap_percent": 4.2,
-      "strength": 12.5,
-      "article_ids": [
-        "2543a43c1d6cd2917a09552145c60861",
-        "39e52e46490b86e4e7b05ddf32f8ea56",
-        "5eaf0a071126b24cf2a0046ecdccb708",
-        "6c06d05a65f8406335f8b6a2f99b9484",
-        "8a81a48fdef4138b1f5aecd987078caf",
-        "c1983100039d3f0e370bebab6438d093"
-      ]
-    },
-    {
       "from": "generative_ai",
       "to": "space_technology",
       "shared_article_count": 6,
-      "from_article_count": 143,
-      "to_article_count": 32,
-      "overlap_percent": 3.55,
-      "strength": 18.75,
+      "from_article_count": 151,
+      "to_article_count": 38,
+      "overlap_percent": 3.28,
+      "strength": 15.79,
       "article_ids": [
         "43f5c9d05b2d66e648a2a1c4289be1d2",
         "4a549bd6defaba13c04b22697527384d",
@@ -2069,13 +2187,30 @@
       ]
     },
     {
-      "from": "cybersecurity",
+      "from": "electric_vehicles",
       "to": "robotics",
       "shared_article_count": 6,
       "from_article_count": 33,
-      "to_article_count": 144,
-      "overlap_percent": 3.51,
+      "to_article_count": 162,
+      "overlap_percent": 3.17,
       "strength": 18.18,
+      "article_ids": [
+        "48cb36a550db71f571911aec64c7df40",
+        "61d106dd68be309ff43786457c74adc3",
+        "7695b469297d84e3f87b32654813aeda",
+        "a37548001a7c8efb5576eff2f1b9a9c9",
+        "aa88f8110122e8caa2662e7beb4dff36",
+        "c1daa2c31b819199793144baabb80b78"
+      ]
+    },
+    {
+      "from": "cybersecurity",
+      "to": "robotics",
+      "shared_article_count": 6,
+      "from_article_count": 35,
+      "to_article_count": 162,
+      "overlap_percent": 3.14,
+      "strength": 17.14,
       "article_ids": [
         "6ed18767c25283f07053095b05b52f8d",
         "868f4472c750ce615ba9c23043c7cc6f",
@@ -2086,30 +2221,30 @@
       ]
     },
     {
-      "from": "drones",
-      "to": "machine_learning",
+      "from": "ai_agents",
+      "to": "robotics",
       "shared_article_count": 6,
-      "from_article_count": 244,
-      "to_article_count": 79,
-      "overlap_percent": 1.89,
-      "strength": 7.59,
+      "from_article_count": 54,
+      "to_article_count": 162,
+      "overlap_percent": 2.86,
+      "strength": 11.11,
       "article_ids": [
-        "04abc7e40f2f9585ff94e8483a3fe7e7",
-        "2b8fca34c43933778417b9cfe2a09729",
-        "70062ee63e3ee7622496d9ddff530a7b",
-        "9b95d28bc01701eab22fb7049a92ca14",
-        "b365342eb8521bddb5d1112e07b66932",
-        "c8bbaa84fe9bc7b024a40c192e0366bc"
+        "0a408e77b947d0e51453fe8e130f6aa9",
+        "233521059d8034656a1adbab40f7e231",
+        "439cd2392582b6ebb8a9b495059dfb73",
+        "62918e78fed5f056e67f6a0f9540cbe9",
+        "c1983100039d3f0e370bebab6438d093",
+        "ed6215c4318d05df836e23d7717ed655"
       ]
     },
     {
       "from": "ai_agents",
       "to": "cybersecurity",
       "shared_article_count": 5,
-      "from_article_count": 48,
-      "to_article_count": 33,
-      "overlap_percent": 6.58,
-      "strength": 15.15,
+      "from_article_count": 54,
+      "to_article_count": 35,
+      "overlap_percent": 5.95,
+      "strength": 14.29,
       "article_ids": [
         "060a8a62b7000dea84fa7a2f06d6d0cc",
         "203cde72c87b5331a6198f7ceb9adf44",
@@ -2119,45 +2254,29 @@
       ]
     },
     {
-      "from": "computer_vision",
+      "from": "cybersecurity",
       "to": "training_data",
       "shared_article_count": 5,
-      "from_article_count": 36,
-      "to_article_count": 65,
-      "overlap_percent": 5.21,
-      "strength": 13.89,
+      "from_article_count": 35,
+      "to_article_count": 73,
+      "overlap_percent": 4.85,
+      "strength": 14.29,
       "article_ids": [
-        "1df020a87bb12b1caa0e263d92f4be94",
-        "812a6efd2e528fd0855d653871e0012a",
-        "b9b3345fc95915e832067040c5a7c13e",
-        "cb2324420ff729e619823fcb97813b34",
-        "d3b168aa5d1fc97977fae9ad509064f7"
-      ]
-    },
-    {
-      "from": "computer_vision",
-      "to": "machine_learning",
-      "shared_article_count": 5,
-      "from_article_count": 36,
-      "to_article_count": 79,
-      "overlap_percent": 4.55,
-      "strength": 13.89,
-      "article_ids": [
-        "434526b1fd7108272130a00beeba5735",
-        "4d739f4fdfb535af3b714075dabc72f4",
-        "738ce9121ff4d43be6a7e90d6d9cdcab",
-        "d3b168aa5d1fc97977fae9ad509064f7",
-        "e94789832c0f687ce1bd2ed0064f09b9"
+        "060a8a62b7000dea84fa7a2f06d6d0cc",
+        "2aacbb35e58b743ebc88246907cddaf2",
+        "4f68c22017986092f04693c8abfdd9c1",
+        "521c5f37fd9962164193f0160efcf69b",
+        "fe7d836723e9aa718d229ea42e7a3510"
       ]
     },
     {
       "from": "cybersecurity",
       "to": "semiconductors",
       "shared_article_count": 5,
-      "from_article_count": 33,
-      "to_article_count": 101,
-      "overlap_percent": 3.88,
-      "strength": 15.15,
+      "from_article_count": 35,
+      "to_article_count": 109,
+      "overlap_percent": 3.6,
+      "strength": 14.29,
       "article_ids": [
         "2f5c7008b3208cfb8bec8a0ea8c8da5b",
         "bf253a75f03c93c2c368d2ef299e6421",
@@ -2167,45 +2286,61 @@
       ]
     },
     {
-      "from": "electric_vehicles",
-      "to": "robotics",
+      "from": "language_models",
+      "to": "robotaxis",
       "shared_article_count": 5,
-      "from_article_count": 31,
-      "to_article_count": 144,
-      "overlap_percent": 2.94,
-      "strength": 16.13,
+      "from_article_count": 121,
+      "to_article_count": 66,
+      "overlap_percent": 2.75,
+      "strength": 7.58,
       "article_ids": [
+        "1fef744d07dbbc5a6fc9660a62a3f1fd",
         "48cb36a550db71f571911aec64c7df40",
-        "61d106dd68be309ff43786457c74adc3",
-        "7695b469297d84e3f87b32654813aeda",
-        "a37548001a7c8efb5576eff2f1b9a9c9",
-        "aa88f8110122e8caa2662e7beb4dff36"
+        "ab2d71991f86c134610b0a4eb3aa3147",
+        "acee6859ec990621d095f721ea9e1185",
+        "d1713785a61239344a1bdc017c3e70de"
       ]
     },
     {
       "from": "ai_agents",
-      "to": "robotics",
+      "to": "autonomous_vehicles",
       "shared_article_count": 5,
-      "from_article_count": 48,
-      "to_article_count": 144,
-      "overlap_percent": 2.67,
-      "strength": 10.42,
+      "from_article_count": 54,
+      "to_article_count": 153,
+      "overlap_percent": 2.48,
+      "strength": 9.26,
       "article_ids": [
-        "0a408e77b947d0e51453fe8e130f6aa9",
-        "233521059d8034656a1adbab40f7e231",
+        "2543a43c1d6cd2917a09552145c60861",
         "439cd2392582b6ebb8a9b495059dfb73",
-        "62918e78fed5f056e67f6a0f9540cbe9",
-        "c1983100039d3f0e370bebab6438d093"
+        "770acb10b98e6af24ae987d06c3573ac",
+        "c1983100039d3f0e370bebab6438d093",
+        "ed6215c4318d05df836e23d7717ed655"
+      ]
+    },
+    {
+      "from": "artificial_intelligence",
+      "to": "quantum_computing",
+      "shared_article_count": 5,
+      "from_article_count": 498,
+      "to_article_count": 8,
+      "overlap_percent": 1.0,
+      "strength": 62.5,
+      "article_ids": [
+        "26e351e0ce9a3c32c478b48d3f04346f",
+        "6c06d05a65f8406335f8b6a2f99b9484",
+        "b79ec1d721fb90c8750e998c029e8ac5",
+        "cf276a7cee05729e7f0663dd114bd864",
+        "e776099c083fa22388da7b74d691810e"
       ]
     },
     {
       "from": "drone_autonomy",
       "to": "space_technology",
       "shared_article_count": 4,
-      "from_article_count": 27,
-      "to_article_count": 32,
-      "overlap_percent": 7.27,
-      "strength": 14.81,
+      "from_article_count": 28,
+      "to_article_count": 38,
+      "overlap_percent": 6.45,
+      "strength": 14.29,
       "article_ids": [
         "4a549bd6defaba13c04b22697527384d",
         "600db4c7075fc93d350a89804b916118",
@@ -2217,10 +2352,10 @@
       "from": "computer_vision",
       "to": "robotaxis",
       "shared_article_count": 4,
-      "from_article_count": 36,
-      "to_article_count": 54,
-      "overlap_percent": 4.65,
-      "strength": 11.11,
+      "from_article_count": 39,
+      "to_article_count": 66,
+      "overlap_percent": 3.96,
+      "strength": 10.26,
       "article_ids": [
         "2543a43c1d6cd2917a09552145c60861",
         "501aad4fae63eff90e3e6c72d447841b",
@@ -2229,58 +2364,13 @@
       ]
     },
     {
-      "from": "cybersecurity",
-      "to": "training_data",
-      "shared_article_count": 4,
-      "from_article_count": 33,
-      "to_article_count": 65,
-      "overlap_percent": 4.26,
-      "strength": 12.12,
-      "article_ids": [
-        "060a8a62b7000dea84fa7a2f06d6d0cc",
-        "4f68c22017986092f04693c8abfdd9c1",
-        "521c5f37fd9962164193f0160efcf69b",
-        "fe7d836723e9aa718d229ea42e7a3510"
-      ]
-    },
-    {
-      "from": "language_models",
-      "to": "robotaxis",
-      "shared_article_count": 4,
-      "from_article_count": 113,
-      "to_article_count": 54,
-      "overlap_percent": 2.45,
-      "strength": 7.41,
-      "article_ids": [
-        "1fef744d07dbbc5a6fc9660a62a3f1fd",
-        "48cb36a550db71f571911aec64c7df40",
-        "ab2d71991f86c134610b0a4eb3aa3147",
-        "acee6859ec990621d095f721ea9e1185"
-      ]
-    },
-    {
-      "from": "ai_agents",
-      "to": "autonomous_vehicles",
-      "shared_article_count": 4,
-      "from_article_count": 48,
-      "to_article_count": 137,
-      "overlap_percent": 2.21,
-      "strength": 8.33,
-      "article_ids": [
-        "2543a43c1d6cd2917a09552145c60861",
-        "439cd2392582b6ebb8a9b495059dfb73",
-        "770acb10b98e6af24ae987d06c3573ac",
-        "c1983100039d3f0e370bebab6438d093"
-      ]
-    },
-    {
       "from": "drones",
       "to": "training_data",
       "shared_article_count": 4,
-      "from_article_count": 244,
-      "to_article_count": 65,
-      "overlap_percent": 1.31,
-      "strength": 6.15,
+      "from_article_count": 270,
+      "to_article_count": 73,
+      "overlap_percent": 1.18,
+      "strength": 5.48,
       "article_ids": [
         "70062ee63e3ee7622496d9ddff530a7b",
         "7160e19f32774d53201f1159f7ab5d97",
@@ -2289,28 +2379,13 @@
       ]
     },
     {
-      "from": "artificial_intelligence",
-      "to": "quantum_computing",
-      "shared_article_count": 4,
-      "from_article_count": 457,
-      "to_article_count": 7,
-      "overlap_percent": 0.87,
-      "strength": 57.14,
-      "article_ids": [
-        "6c06d05a65f8406335f8b6a2f99b9484",
-        "b79ec1d721fb90c8750e998c029e8ac5",
-        "cf276a7cee05729e7f0663dd114bd864",
-        "e776099c083fa22388da7b74d691810e"
-      ]
-    },
-    {
       "from": "computer_vision",
       "to": "drone_autonomy",
       "shared_article_count": 3,
-      "from_article_count": 36,
-      "to_article_count": 27,
-      "overlap_percent": 5.0,
-      "strength": 11.11,
+      "from_article_count": 39,
+      "to_article_count": 28,
+      "overlap_percent": 4.69,
+      "strength": 10.71,
       "article_ids": [
         "062b0884a9497c933882fd41451019f2",
         "0f19debf1df35d88e88f3b6bcda64c4c",
@@ -2321,10 +2396,10 @@
       "from": "cybersecurity",
       "to": "space_technology",
       "shared_article_count": 3,
-      "from_article_count": 33,
-      "to_article_count": 32,
-      "overlap_percent": 4.84,
-      "strength": 9.38,
+      "from_article_count": 35,
+      "to_article_count": 38,
+      "overlap_percent": 4.29,
+      "strength": 8.57,
       "article_ids": [
         "86644867ac7a42e7650b5678149f3638",
         "9b95d28bc01701eab22fb7049a92ca14",
@@ -2332,27 +2407,13 @@
       ]
     },
     {
-      "from": "computer_vision",
-      "to": "space_technology",
-      "shared_article_count": 3,
-      "from_article_count": 36,
-      "to_article_count": 32,
-      "overlap_percent": 4.62,
-      "strength": 9.38,
-      "article_ids": [
-        "5880e93b9a3640c007dd9bce00730895",
-        "8ebabdcc131cc138bc9d9f8da8acc6b9",
-        "fe5486bc8381ffa973cc3a4fd83db0ff"
-      ]
-    },
-    {
       "from": "drone_autonomy",
       "to": "drone_delivery",
       "shared_article_count": 3,
-      "from_article_count": 27,
-      "to_article_count": 45,
-      "overlap_percent": 4.35,
-      "strength": 11.11,
+      "from_article_count": 28,
+      "to_article_count": 50,
+      "overlap_percent": 4.0,
+      "strength": 10.71,
       "article_ids": [
         "21b2b8def85eaa089a2d8125ce98bb01",
         "55326260456f5077c531747c253fd100",
@@ -2363,10 +2424,10 @@
       "from": "robotaxis",
       "to": "space_technology",
       "shared_article_count": 3,
-      "from_article_count": 54,
-      "to_article_count": 32,
-      "overlap_percent": 3.61,
-      "strength": 9.38,
+      "from_article_count": 66,
+      "to_article_count": 38,
+      "overlap_percent": 2.97,
+      "strength": 7.89,
       "article_ids": [
         "566dbebe4558a560cb2f43b31524272f",
         "88206d37cc976cd36f6ae4e6ff347d02",
@@ -2377,10 +2438,10 @@
       "from": "quantum_computing",
       "to": "semiconductors",
       "shared_article_count": 3,
-      "from_article_count": 7,
-      "to_article_count": 101,
-      "overlap_percent": 2.86,
-      "strength": 42.86,
+      "from_article_count": 8,
+      "to_article_count": 109,
+      "overlap_percent": 2.63,
+      "strength": 37.5,
       "article_ids": [
         "6c06d05a65f8406335f8b6a2f99b9484",
         "b79ec1d721fb90c8750e998c029e8ac5",
@@ -2388,13 +2449,41 @@
       ]
     },
     {
+      "from": "machine_learning",
+      "to": "space_technology",
+      "shared_article_count": 3,
+      "from_article_count": 84,
+      "to_article_count": 38,
+      "overlap_percent": 2.52,
+      "strength": 7.89,
+      "article_ids": [
+        "3c621b673a8da491831ea8612883c381",
+        "9b95d28bc01701eab22fb7049a92ca14",
+        "bad8d849fe2109a57b9ccb2f708c9895"
+      ]
+    },
+    {
+      "from": "robotaxis",
+      "to": "training_data",
+      "shared_article_count": 3,
+      "from_article_count": 66,
+      "to_article_count": 73,
+      "overlap_percent": 2.21,
+      "strength": 4.55,
+      "article_ids": [
+        "4726925cda09a20cd49122817ddb6666",
+        "d1713785a61239344a1bdc017c3e70de",
+        "dc425d3928ca3e093a99e35753dc1364"
+      ]
+    },
+    {
       "from": "electric_vehicles",
       "to": "generative_ai",
       "shared_article_count": 3,
-      "from_article_count": 31,
-      "to_article_count": 143,
-      "overlap_percent": 1.75,
-      "strength": 9.68,
+      "from_article_count": 33,
+      "to_article_count": 151,
+      "overlap_percent": 1.66,
+      "strength": 9.09,
       "article_ids": [
         "48cb36a550db71f571911aec64c7df40",
         "596d08403a6aafbb1e0aef0fa77b45f7",
@@ -2405,10 +2494,10 @@
       "from": "drones",
       "to": "language_models",
       "shared_article_count": 3,
-      "from_article_count": 244,
-      "to_article_count": 113,
-      "overlap_percent": 0.85,
-      "strength": 2.65,
+      "from_article_count": 270,
+      "to_article_count": 121,
+      "overlap_percent": 0.77,
+      "strength": 2.48,
       "article_ids": [
         "3b8b3a1e393c896d965fb8fd393073d0",
         "86644867ac7a42e7650b5678149f3638",
@@ -2419,10 +2508,10 @@
       "from": "computer_vision",
       "to": "electric_vehicles",
       "shared_article_count": 2,
-      "from_article_count": 36,
-      "to_article_count": 31,
-      "overlap_percent": 3.08,
-      "strength": 6.45,
+      "from_article_count": 39,
+      "to_article_count": 33,
+      "overlap_percent": 2.86,
+      "strength": 6.06,
       "article_ids": [
         "596d08403a6aafbb1e0aef0fa77b45f7",
         "80fd6f4ce33673016877181c973a5bdc"
@@ -2432,49 +2521,62 @@
       "from": "computer_vision",
       "to": "cybersecurity",
       "shared_article_count": 2,
-      "from_article_count": 36,
-      "to_article_count": 33,
-      "overlap_percent": 2.99,
-      "strength": 6.06,
+      "from_article_count": 39,
+      "to_article_count": 35,
+      "overlap_percent": 2.78,
+      "strength": 5.71,
       "article_ids": [
         "bf253a75f03c93c2c368d2ef299e6421",
         "c1983100039d3f0e370bebab6438d093"
       ]
     },
     {
-      "from": "ai_agents",
-      "to": "computer_vision",
+      "from": "drone_delivery",
+      "to": "space_technology",
       "shared_article_count": 2,
-      "from_article_count": 48,
-      "to_article_count": 36,
-      "overlap_percent": 2.44,
-      "strength": 5.56,
+      "from_article_count": 50,
+      "to_article_count": 38,
+      "overlap_percent": 2.33,
+      "strength": 5.26,
       "article_ids": [
-        "2543a43c1d6cd2917a09552145c60861",
-        "c1983100039d3f0e370bebab6438d093"
+        "4037a3ffa1ccff124a1e626c129273bc",
+        "9a6479b16490e0442b343a614a1a56b5"
       ]
     },
     {
       "from": "machine_learning",
       "to": "quantum_computing",
       "shared_article_count": 2,
-      "from_article_count": 79,
-      "to_article_count": 7,
-      "overlap_percent": 2.38,
-      "strength": 28.57,
+      "from_article_count": 84,
+      "to_article_count": 8,
+      "overlap_percent": 2.22,
+      "strength": 25.0,
       "article_ids": [
         "b79ec1d721fb90c8750e998c029e8ac5",
         "b8a5f436e85e776eccf51f3aabbbfdf3"
       ]
     },
     {
+      "from": "ai_agents",
+      "to": "computer_vision",
+      "shared_article_count": 2,
+      "from_article_count": 54,
+      "to_article_count": 39,
+      "overlap_percent": 2.2,
+      "strength": 5.13,
+      "article_ids": [
+        "2543a43c1d6cd2917a09552145c60861",
+        "c1983100039d3f0e370bebab6438d093"
+      ]
+    },
+    {
       "from": "cybersecurity",
       "to": "robotaxis",
       "shared_article_count": 2,
-      "from_article_count": 33,
-      "to_article_count": 54,
-      "overlap_percent": 2.35,
-      "strength": 6.06,
+      "from_article_count": 35,
+      "to_article_count": 66,
+      "overlap_percent": 2.02,
+      "strength": 5.71,
       "article_ids": [
         "acee6859ec990621d095f721ea9e1185",
         "decf521faf71faa12d67d16cea68ec83"
@@ -2484,49 +2586,36 @@
       "from": "electric_vehicles",
       "to": "machine_learning",
       "shared_article_count": 2,
-      "from_article_count": 31,
-      "to_article_count": 79,
-      "overlap_percent": 1.85,
-      "strength": 6.45,
+      "from_article_count": 33,
+      "to_article_count": 84,
+      "overlap_percent": 1.74,
+      "strength": 6.06,
       "article_ids": [
         "48cb36a550db71f571911aec64c7df40",
         "ba23eef4b441a2ebc88a1f9486667be8"
       ]
     },
     {
-      "from": "machine_learning",
-      "to": "space_technology",
-      "shared_article_count": 2,
-      "from_article_count": 79,
-      "to_article_count": 32,
-      "overlap_percent": 1.83,
-      "strength": 6.25,
-      "article_ids": [
-        "3c621b673a8da491831ea8612883c381",
-        "9b95d28bc01701eab22fb7049a92ca14"
-      ]
-    },
-    {
-      "from": "robotaxis",
-      "to": "training_data",
+      "from": "ai_agents",
+      "to": "robotaxis",
       "shared_article_count": 2,
       "from_article_count": 54,
-      "to_article_count": 65,
-      "overlap_percent": 1.71,
+      "to_article_count": 66,
+      "overlap_percent": 1.69,
       "strength": 3.7,
       "article_ids": [
-        "4726925cda09a20cd49122817ddb6666",
-        "dc425d3928ca3e093a99e35753dc1364"
+        "2543a43c1d6cd2917a09552145c60861",
+        "ed6215c4318d05df836e23d7717ed655"
       ]
     },
     {
       "from": "language_models",
       "to": "quantum_computing",
       "shared_article_count": 2,
-      "from_article_count": 113,
-      "to_article_count": 7,
-      "overlap_percent": 1.69,
-      "strength": 28.57,
+      "from_article_count": 121,
+      "to_article_count": 8,
+      "overlap_percent": 1.57,
+      "strength": 25.0,
       "article_ids": [
         "6c06d05a65f8406335f8b6a2f99b9484",
         "b8a5f436e85e776eccf51f3aabbbfdf3"
@@ -2536,23 +2625,36 @@
       "from": "drone_autonomy",
       "to": "semiconductors",
       "shared_article_count": 2,
-      "from_article_count": 27,
-      "to_article_count": 101,
-      "overlap_percent": 1.59,
-      "strength": 7.41,
+      "from_article_count": 28,
+      "to_article_count": 109,
+      "overlap_percent": 1.48,
+      "strength": 7.14,
       "article_ids": [
         "4a549bd6defaba13c04b22697527384d",
         "89b229b024ce77676b8b55989c7791d4"
       ]
     },
     {
+      "from": "electric_vehicles",
+      "to": "semiconductors",
+      "shared_article_count": 2,
+      "from_article_count": 33,
+      "to_article_count": 109,
+      "overlap_percent": 1.43,
+      "strength": 6.06,
+      "article_ids": [
+        "596d08403a6aafbb1e0aef0fa77b45f7",
+        "c1daa2c31b819199793144baabb80b78"
+      ]
+    },
+    {
       "from": "language_models",
       "to": "space_technology",
       "shared_article_count": 2,
-      "from_article_count": 113,
-      "to_article_count": 32,
-      "overlap_percent": 1.4,
-      "strength": 6.25,
+      "from_article_count": 121,
+      "to_article_count": 38,
+      "overlap_percent": 1.27,
+      "strength": 5.26,
       "article_ids": [
         "6c06d05a65f8406335f8b6a2f99b9484",
         "86644867ac7a42e7650b5678149f3638"
@@ -2562,10 +2664,10 @@
       "from": "drone_delivery",
       "to": "semiconductors",
       "shared_article_count": 2,
-      "from_article_count": 45,
-      "to_article_count": 101,
-      "overlap_percent": 1.39,
-      "strength": 4.44,
+      "from_article_count": 50,
+      "to_article_count": 109,
+      "overlap_percent": 1.27,
+      "strength": 4.0,
       "article_ids": [
         "3b8b3a1e393c896d965fb8fd393073d0",
         "4037a3ffa1ccff124a1e626c129273bc"
@@ -2575,23 +2677,36 @@
       "from": "drone_autonomy",
       "to": "generative_ai",
       "shared_article_count": 2,
-      "from_article_count": 27,
-      "to_article_count": 143,
-      "overlap_percent": 1.19,
-      "strength": 7.41,
+      "from_article_count": 28,
+      "to_article_count": 151,
+      "overlap_percent": 1.13,
+      "strength": 7.14,
       "article_ids": [
         "062b0884a9497c933882fd41451019f2",
         "4a549bd6defaba13c04b22697527384d"
       ]
     },
     {
+      "from": "drone_delivery",
+      "to": "generative_ai",
+      "shared_article_count": 2,
+      "from_article_count": 50,
+      "to_article_count": 151,
+      "overlap_percent": 1.01,
+      "strength": 4.0,
+      "article_ids": [
+        "3b8b3a1e393c896d965fb8fd393073d0",
+        "417e263294a18b7a34378bd232141bcd"
+      ]
+    },
+    {
       "from": "drones",
       "to": "robotaxis",
       "shared_article_count": 2,
-      "from_article_count": 244,
-      "to_article_count": 54,
-      "overlap_percent": 0.68,
-      "strength": 3.7,
+      "from_article_count": 270,
+      "to_article_count": 66,
+      "overlap_percent": 0.6,
+      "strength": 3.03,
       "article_ids": [
         "2543a43c1d6cd2917a09552145c60861",
         "c8bbaa84fe9bc7b024a40c192e0366bc"
@@ -2601,10 +2716,10 @@
       "from": "quantum_computing",
       "to": "space_technology",
       "shared_article_count": 1,
-      "from_article_count": 7,
-      "to_article_count": 32,
-      "overlap_percent": 2.63,
-      "strength": 14.29,
+      "from_article_count": 8,
+      "to_article_count": 38,
+      "overlap_percent": 2.22,
+      "strength": 12.5,
       "article_ids": [
         "6c06d05a65f8406335f8b6a2f99b9484"
       ]
@@ -2613,154 +2728,142 @@
       "from": "ai_agents",
       "to": "quantum_computing",
       "shared_article_count": 1,
-      "from_article_count": 48,
-      "to_article_count": 7,
-      "overlap_percent": 1.85,
-      "strength": 14.29,
+      "from_article_count": 54,
+      "to_article_count": 8,
+      "overlap_percent": 1.64,
+      "strength": 12.5,
       "article_ids": [
         "6c06d05a65f8406335f8b6a2f99b9484"
+      ]
+    },
+    {
+      "from": "cybersecurity",
+      "to": "electric_vehicles",
+      "shared_article_count": 1,
+      "from_article_count": 35,
+      "to_article_count": 33,
+      "overlap_percent": 1.49,
+      "strength": 3.03,
+      "article_ids": [
+        "ba23eef4b441a2ebc88a1f9486667be8"
       ]
     },
     {
       "from": "electric_vehicles",
       "to": "space_technology",
       "shared_article_count": 1,
-      "from_article_count": 31,
-      "to_article_count": 32,
-      "overlap_percent": 1.61,
-      "strength": 3.23,
+      "from_article_count": 33,
+      "to_article_count": 38,
+      "overlap_percent": 1.43,
+      "strength": 3.03,
       "article_ids": [
         "536578a2236cb63da95aece3f8e9a278"
       ]
     },
     {
-      "from": "cybersecurity",
-      "to": "electric_vehicles",
-      "shared_article_count": 1,
-      "from_article_count": 33,
-      "to_article_count": 31,
-      "overlap_percent": 1.59,
-      "strength": 3.23,
-      "article_ids": [
-        "ba23eef4b441a2ebc88a1f9486667be8"
-      ]
-    },
-    {
       "from": "drone_delivery",
       "to": "electric_vehicles",
       "shared_article_count": 1,
-      "from_article_count": 45,
-      "to_article_count": 31,
-      "overlap_percent": 1.33,
-      "strength": 3.23,
+      "from_article_count": 50,
+      "to_article_count": 33,
+      "overlap_percent": 1.22,
+      "strength": 3.03,
       "article_ids": [
         "ea2562d5210db921ce34d2fff902f304"
-      ]
-    },
-    {
-      "from": "drone_delivery",
-      "to": "space_technology",
-      "shared_article_count": 1,
-      "from_article_count": 45,
-      "to_article_count": 32,
-      "overlap_percent": 1.32,
-      "strength": 3.12,
-      "article_ids": [
-        "4037a3ffa1ccff124a1e626c129273bc"
       ]
     },
     {
       "from": "cybersecurity",
       "to": "drone_delivery",
       "shared_article_count": 1,
-      "from_article_count": 33,
-      "to_article_count": 45,
-      "overlap_percent": 1.3,
-      "strength": 3.03,
+      "from_article_count": 35,
+      "to_article_count": 50,
+      "overlap_percent": 1.19,
+      "strength": 2.86,
       "article_ids": [
         "c71d458c8a545c8defcfeda8139e31eb"
-      ]
-    },
-    {
-      "from": "ai_agents",
-      "to": "space_technology",
-      "shared_article_count": 1,
-      "from_article_count": 48,
-      "to_article_count": 32,
-      "overlap_percent": 1.27,
-      "strength": 3.12,
-      "article_ids": [
-        "6c06d05a65f8406335f8b6a2f99b9484"
-      ]
-    },
-    {
-      "from": "drone_autonomy",
-      "to": "robotaxis",
-      "shared_article_count": 1,
-      "from_article_count": 27,
-      "to_article_count": 54,
-      "overlap_percent": 1.25,
-      "strength": 3.7,
-      "article_ids": [
-        "c8bbaa84fe9bc7b024a40c192e0366bc"
       ]
     },
     {
       "from": "computer_vision",
       "to": "drone_delivery",
       "shared_article_count": 1,
-      "from_article_count": 36,
-      "to_article_count": 45,
-      "overlap_percent": 1.25,
-      "strength": 2.78,
+      "from_article_count": 39,
+      "to_article_count": 50,
+      "overlap_percent": 1.14,
+      "strength": 2.56,
       "article_ids": [
         "7b11b1b87c3ae89a6d6306c5b122aa88"
       ]
     },
     {
       "from": "ai_agents",
+      "to": "space_technology",
+      "shared_article_count": 1,
+      "from_article_count": 54,
+      "to_article_count": 38,
+      "overlap_percent": 1.1,
+      "strength": 2.63,
+      "article_ids": [
+        "6c06d05a65f8406335f8b6a2f99b9484"
+      ]
+    },
+    {
+      "from": "drone_autonomy",
       "to": "robotaxis",
       "shared_article_count": 1,
-      "from_article_count": 48,
-      "to_article_count": 54,
-      "overlap_percent": 0.99,
-      "strength": 2.08,
+      "from_article_count": 28,
+      "to_article_count": 66,
+      "overlap_percent": 1.08,
+      "strength": 3.57,
       "article_ids": [
-        "2543a43c1d6cd2917a09552145c60861"
+        "c8bbaa84fe9bc7b024a40c192e0366bc"
+      ]
+    },
+    {
+      "from": "space_technology",
+      "to": "training_data",
+      "shared_article_count": 1,
+      "from_article_count": 38,
+      "to_article_count": 73,
+      "overlap_percent": 0.91,
+      "strength": 2.63,
+      "article_ids": [
+        "bad8d849fe2109a57b9ccb2f708c9895"
       ]
     },
     {
       "from": "drone_autonomy",
       "to": "machine_learning",
       "shared_article_count": 1,
-      "from_article_count": 27,
-      "to_article_count": 79,
-      "overlap_percent": 0.95,
-      "strength": 3.7,
+      "from_article_count": 28,
+      "to_article_count": 84,
+      "overlap_percent": 0.9,
+      "strength": 3.57,
       "article_ids": [
         "c8bbaa84fe9bc7b024a40c192e0366bc"
       ]
     },
     {
-      "from": "electric_vehicles",
-      "to": "semiconductors",
+      "from": "drone_delivery",
+      "to": "machine_learning",
       "shared_article_count": 1,
-      "from_article_count": 31,
-      "to_article_count": 101,
-      "overlap_percent": 0.76,
-      "strength": 3.23,
+      "from_article_count": 50,
+      "to_article_count": 84,
+      "overlap_percent": 0.75,
+      "strength": 2.0,
       "article_ids": [
-        "596d08403a6aafbb1e0aef0fa77b45f7"
+        "417e263294a18b7a34378bd232141bcd"
       ]
     },
     {
       "from": "electric_vehicles",
       "to": "language_models",
       "shared_article_count": 1,
-      "from_article_count": 31,
-      "to_article_count": 113,
-      "overlap_percent": 0.7,
-      "strength": 3.23,
+      "from_article_count": 33,
+      "to_article_count": 121,
+      "overlap_percent": 0.65,
+      "strength": 3.03,
       "article_ids": [
         "48cb36a550db71f571911aec64c7df40"
       ]
@@ -2769,10 +2872,10 @@
       "from": "generative_ai",
       "to": "quantum_computing",
       "shared_article_count": 1,
-      "from_article_count": 143,
-      "to_article_count": 7,
-      "overlap_percent": 0.67,
-      "strength": 14.29,
+      "from_article_count": 151,
+      "to_article_count": 8,
+      "overlap_percent": 0.63,
+      "strength": 12.5,
       "article_ids": [
         "6c06d05a65f8406335f8b6a2f99b9484"
       ]
@@ -2781,10 +2884,10 @@
       "from": "drone_delivery",
       "to": "language_models",
       "shared_article_count": 1,
-      "from_article_count": 45,
-      "to_article_count": 113,
-      "overlap_percent": 0.64,
-      "strength": 2.22,
+      "from_article_count": 50,
+      "to_article_count": 121,
+      "overlap_percent": 0.59,
+      "strength": 2.0,
       "article_ids": [
         "3b8b3a1e393c896d965fb8fd393073d0"
       ]
@@ -2793,34 +2896,22 @@
       "from": "autonomous_vehicles",
       "to": "drone_autonomy",
       "shared_article_count": 1,
-      "from_article_count": 137,
-      "to_article_count": 27,
-      "overlap_percent": 0.61,
-      "strength": 3.7,
+      "from_article_count": 153,
+      "to_article_count": 28,
+      "overlap_percent": 0.56,
+      "strength": 3.57,
       "article_ids": [
         "c8bbaa84fe9bc7b024a40c192e0366bc"
-      ]
-    },
-    {
-      "from": "drone_delivery",
-      "to": "generative_ai",
-      "shared_article_count": 1,
-      "from_article_count": 45,
-      "to_article_count": 143,
-      "overlap_percent": 0.53,
-      "strength": 2.22,
-      "article_ids": [
-        "3b8b3a1e393c896d965fb8fd393073d0"
       ]
     },
     {
       "from": "drones",
       "to": "electric_vehicles",
       "shared_article_count": 1,
-      "from_article_count": 244,
-      "to_article_count": 31,
-      "overlap_percent": 0.36,
-      "strength": 3.23,
+      "from_article_count": 270,
+      "to_article_count": 33,
+      "overlap_percent": 0.33,
+      "strength": 3.03,
       "article_ids": [
         "ea2562d5210db921ce34d2fff902f304"
       ]
@@ -2829,10 +2920,10 @@
       "from": "ai_agents",
       "to": "drones",
       "shared_article_count": 1,
-      "from_article_count": 48,
-      "to_article_count": 244,
-      "overlap_percent": 0.34,
-      "strength": 2.08,
+      "from_article_count": 54,
+      "to_article_count": 270,
+      "overlap_percent": 0.31,
+      "strength": 1.85,
       "article_ids": [
         "2543a43c1d6cd2917a09552145c60861"
       ]
@@ -2842,1099 +2933,1099 @@
     "artificial_intelligence": [
       {
         "concept": "generative_ai",
-        "shared_article_count": 139,
-        "overlap_percent": 30.15,
-        "strength": 97.2
-      },
-      {
-        "concept": "language_models",
-        "shared_article_count": 103,
-        "overlap_percent": 22.06,
-        "strength": 91.15
+        "shared_article_count": 145,
+        "overlap_percent": 28.77,
+        "strength": 96.03
       },
       {
         "concept": "autonomous_vehicles",
-        "shared_article_count": 100,
-        "overlap_percent": 20.24,
-        "strength": 72.99
+        "shared_article_count": 113,
+        "overlap_percent": 21.0,
+        "strength": 73.86
+      },
+      {
+        "concept": "language_models",
+        "shared_article_count": 111,
+        "overlap_percent": 21.85,
+        "strength": 91.74
       },
       {
         "concept": "robotics",
-        "shared_article_count": 96,
-        "overlap_percent": 19.01,
-        "strength": 66.67
-      },
-      {
-        "concept": "semiconductors",
-        "shared_article_count": 80,
-        "overlap_percent": 16.74,
-        "strength": 79.21
+        "shared_article_count": 110,
+        "overlap_percent": 20.0,
+        "strength": 67.9
       },
       {
         "concept": "drones",
-        "shared_article_count": 77,
-        "overlap_percent": 12.34,
-        "strength": 31.56
+        "shared_article_count": 87,
+        "overlap_percent": 12.78,
+        "strength": 32.22
+      },
+      {
+        "concept": "semiconductors",
+        "shared_article_count": 85,
+        "overlap_percent": 16.28,
+        "strength": 77.98
       },
       {
         "concept": "machine_learning",
-        "shared_article_count": 64,
-        "overlap_percent": 13.56,
-        "strength": 81.01
+        "shared_article_count": 69,
+        "overlap_percent": 13.45,
+        "strength": 82.14
       },
       {
         "concept": "training_data",
-        "shared_article_count": 60,
-        "overlap_percent": 12.99,
-        "strength": 92.31
+        "shared_article_count": 67,
+        "overlap_percent": 13.29,
+        "strength": 91.78
       },
       {
         "concept": "ai_agents",
-        "shared_article_count": 48,
-        "overlap_percent": 10.5,
+        "shared_article_count": 54,
+        "overlap_percent": 10.84,
         "strength": 100.0
       },
       {
         "concept": "robotaxis",
-        "shared_article_count": 37,
-        "overlap_percent": 7.81,
-        "strength": 68.52
+        "shared_article_count": 47,
+        "overlap_percent": 9.09,
+        "strength": 71.21
       }
     ],
     "generative_ai": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 139,
-        "overlap_percent": 30.15,
-        "strength": 97.2
+        "shared_article_count": 145,
+        "overlap_percent": 28.77,
+        "strength": 96.03
       },
       {
         "concept": "language_models",
-        "shared_article_count": 57,
-        "overlap_percent": 28.64,
-        "strength": 50.44
+        "shared_article_count": 60,
+        "overlap_percent": 28.3,
+        "strength": 49.59
       },
       {
         "concept": "training_data",
-        "shared_article_count": 41,
-        "overlap_percent": 24.55,
-        "strength": 63.08
+        "shared_article_count": 43,
+        "overlap_percent": 23.76,
+        "strength": 58.9
       },
       {
         "concept": "machine_learning",
-        "shared_article_count": 30,
-        "overlap_percent": 15.62,
-        "strength": 37.97
+        "shared_article_count": 32,
+        "overlap_percent": 15.76,
+        "strength": 38.1
       },
       {
         "concept": "robotics",
-        "shared_article_count": 30,
-        "overlap_percent": 11.67,
-        "strength": 20.98
+        "shared_article_count": 31,
+        "overlap_percent": 10.99,
+        "strength": 20.53
       },
       {
         "concept": "semiconductors",
-        "shared_article_count": 27,
-        "overlap_percent": 12.44,
-        "strength": 26.73
+        "shared_article_count": 28,
+        "overlap_percent": 12.07,
+        "strength": 25.69
       },
       {
         "concept": "autonomous_vehicles",
         "shared_article_count": 26,
-        "overlap_percent": 10.24,
-        "strength": 18.98
+        "overlap_percent": 9.35,
+        "strength": 17.22
       },
       {
         "concept": "ai_agents",
-        "shared_article_count": 23,
-        "overlap_percent": 13.69,
-        "strength": 47.92
+        "shared_article_count": 25,
+        "overlap_percent": 13.89,
+        "strength": 46.3
       },
       {
         "concept": "cybersecurity",
-        "shared_article_count": 13,
-        "overlap_percent": 7.98,
-        "strength": 39.39
+        "shared_article_count": 14,
+        "overlap_percent": 8.14,
+        "strength": 40.0
       },
       {
-        "concept": "computer_vision",
-        "shared_article_count": 12,
-        "overlap_percent": 7.19,
-        "strength": 33.33
+        "concept": "drones",
+        "shared_article_count": 14,
+        "overlap_percent": 3.44,
+        "strength": 9.27
       }
     ],
     "language_models": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 103,
-        "overlap_percent": 22.06,
-        "strength": 91.15
+        "shared_article_count": 111,
+        "overlap_percent": 21.85,
+        "strength": 91.74
       },
       {
         "concept": "generative_ai",
-        "shared_article_count": 57,
-        "overlap_percent": 28.64,
-        "strength": 50.44
+        "shared_article_count": 60,
+        "overlap_percent": 28.3,
+        "strength": 49.59
       },
       {
         "concept": "training_data",
-        "shared_article_count": 39,
-        "overlap_percent": 28.06,
-        "strength": 60.0
+        "shared_article_count": 42,
+        "overlap_percent": 27.63,
+        "strength": 57.53
       },
       {
         "concept": "ai_agents",
-        "shared_article_count": 28,
-        "overlap_percent": 21.05,
-        "strength": 58.33
+        "shared_article_count": 32,
+        "overlap_percent": 22.38,
+        "strength": 59.26
       },
       {
         "concept": "machine_learning",
-        "shared_article_count": 28,
-        "overlap_percent": 17.07,
-        "strength": 35.44
+        "shared_article_count": 30,
+        "overlap_percent": 17.14,
+        "strength": 35.71
       },
       {
         "concept": "semiconductors",
-        "shared_article_count": 15,
-        "overlap_percent": 7.54,
-        "strength": 14.85
+        "shared_article_count": 17,
+        "overlap_percent": 7.98,
+        "strength": 15.6
       },
       {
         "concept": "robotics",
-        "shared_article_count": 12,
-        "overlap_percent": 4.9,
-        "strength": 10.62
+        "shared_article_count": 13,
+        "overlap_percent": 4.81,
+        "strength": 10.74
+      },
+      {
+        "concept": "autonomous_vehicles",
+        "shared_article_count": 10,
+        "overlap_percent": 3.79,
+        "strength": 8.26
       },
       {
         "concept": "cybersecurity",
         "shared_article_count": 9,
-        "overlap_percent": 6.57,
-        "strength": 27.27
-      },
-      {
-        "concept": "autonomous_vehicles",
-        "shared_article_count": 9,
-        "overlap_percent": 3.73,
-        "strength": 7.96
+        "overlap_percent": 6.12,
+        "strength": 25.71
       },
       {
         "concept": "computer_vision",
         "shared_article_count": 6,
-        "overlap_percent": 4.2,
-        "strength": 16.67
+        "overlap_percent": 3.9,
+        "strength": 15.38
       }
     ],
     "ai_agents": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 48,
-        "overlap_percent": 10.5,
+        "shared_article_count": 54,
+        "overlap_percent": 10.84,
         "strength": 100.0
       },
       {
         "concept": "language_models",
-        "shared_article_count": 28,
-        "overlap_percent": 21.05,
-        "strength": 58.33
+        "shared_article_count": 32,
+        "overlap_percent": 22.38,
+        "strength": 59.26
       },
       {
         "concept": "generative_ai",
-        "shared_article_count": 23,
-        "overlap_percent": 13.69,
-        "strength": 47.92
+        "shared_article_count": 25,
+        "overlap_percent": 13.89,
+        "strength": 46.3
       },
       {
         "concept": "training_data",
-        "shared_article_count": 9,
-        "overlap_percent": 8.65,
-        "strength": 18.75
+        "shared_article_count": 10,
+        "overlap_percent": 8.55,
+        "strength": 18.52
       },
       {
         "concept": "machine_learning",
-        "shared_article_count": 7,
-        "overlap_percent": 5.83,
-        "strength": 14.58
+        "shared_article_count": 8,
+        "overlap_percent": 6.15,
+        "strength": 14.81
       },
       {
         "concept": "semiconductors",
+        "shared_article_count": 7,
+        "overlap_percent": 4.49,
+        "strength": 12.96
+      },
+      {
+        "concept": "robotics",
         "shared_article_count": 6,
-        "overlap_percent": 4.2,
-        "strength": 12.5
+        "overlap_percent": 2.86,
+        "strength": 11.11
       },
       {
         "concept": "cybersecurity",
         "shared_article_count": 5,
-        "overlap_percent": 6.58,
-        "strength": 15.15
-      },
-      {
-        "concept": "robotics",
-        "shared_article_count": 5,
-        "overlap_percent": 2.67,
-        "strength": 10.42
+        "overlap_percent": 5.95,
+        "strength": 14.29
       },
       {
         "concept": "autonomous_vehicles",
-        "shared_article_count": 4,
-        "overlap_percent": 2.21,
-        "strength": 8.33
+        "shared_article_count": 5,
+        "overlap_percent": 2.48,
+        "strength": 9.26
       },
       {
         "concept": "computer_vision",
         "shared_article_count": 2,
-        "overlap_percent": 2.44,
-        "strength": 5.56
+        "overlap_percent": 2.2,
+        "strength": 5.13
       }
     ],
     "machine_learning": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 64,
-        "overlap_percent": 13.56,
-        "strength": 81.01
+        "shared_article_count": 69,
+        "overlap_percent": 13.45,
+        "strength": 82.14
       },
       {
         "concept": "generative_ai",
-        "shared_article_count": 30,
-        "overlap_percent": 15.62,
-        "strength": 37.97
+        "shared_article_count": 32,
+        "overlap_percent": 15.76,
+        "strength": 38.1
       },
       {
         "concept": "language_models",
-        "shared_article_count": 28,
-        "overlap_percent": 17.07,
-        "strength": 35.44
+        "shared_article_count": 30,
+        "overlap_percent": 17.14,
+        "strength": 35.71
       },
       {
         "concept": "autonomous_vehicles",
         "shared_article_count": 25,
-        "overlap_percent": 13.09,
-        "strength": 31.65
+        "overlap_percent": 11.79,
+        "strength": 29.76
       },
       {
         "concept": "training_data",
-        "shared_article_count": 21,
-        "overlap_percent": 17.07,
-        "strength": 32.31
+        "shared_article_count": 23,
+        "overlap_percent": 17.16,
+        "strength": 31.51
       },
       {
         "concept": "semiconductors",
         "shared_article_count": 14,
-        "overlap_percent": 8.43,
-        "strength": 17.72
+        "overlap_percent": 7.82,
+        "strength": 16.67
       },
       {
         "concept": "robotics",
         "shared_article_count": 13,
-        "overlap_percent": 6.19,
-        "strength": 16.46
+        "overlap_percent": 5.58,
+        "strength": 15.48
       },
       {
         "concept": "robotaxis",
         "shared_article_count": 10,
-        "overlap_percent": 8.13,
-        "strength": 18.52
+        "overlap_percent": 7.14,
+        "strength": 15.15
+      },
+      {
+        "concept": "ai_agents",
+        "shared_article_count": 8,
+        "overlap_percent": 6.15,
+        "strength": 14.81
       },
       {
         "concept": "cybersecurity",
         "shared_article_count": 7,
-        "overlap_percent": 6.67,
-        "strength": 21.21
-      },
-      {
-        "concept": "ai_agents",
-        "shared_article_count": 7,
-        "overlap_percent": 5.83,
-        "strength": 14.58
+        "overlap_percent": 6.25,
+        "strength": 20.0
       }
     ],
     "computer_vision": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 32,
-        "overlap_percent": 6.94,
-        "strength": 88.89
+        "shared_article_count": 33,
+        "overlap_percent": 6.55,
+        "strength": 84.62
       },
       {
         "concept": "robotics",
+        "shared_article_count": 16,
+        "overlap_percent": 8.65,
+        "strength": 41.03
+      },
+      {
+        "concept": "drones",
         "shared_article_count": 15,
-        "overlap_percent": 9.09,
-        "strength": 41.67
+        "overlap_percent": 5.1,
+        "strength": 38.46
       },
       {
         "concept": "semiconductors",
         "shared_article_count": 13,
-        "overlap_percent": 10.48,
-        "strength": 36.11
+        "overlap_percent": 9.63,
+        "strength": 33.33
       },
       {
         "concept": "autonomous_vehicles",
         "shared_article_count": 13,
-        "overlap_percent": 8.12,
-        "strength": 36.11
-      },
-      {
-        "concept": "drones",
-        "shared_article_count": 13,
-        "overlap_percent": 4.87,
-        "strength": 36.11
+        "overlap_percent": 7.26,
+        "strength": 33.33
       },
       {
         "concept": "generative_ai",
         "shared_article_count": 12,
-        "overlap_percent": 7.19,
-        "strength": 33.33
+        "overlap_percent": 6.74,
+        "strength": 30.77
+      },
+      {
+        "concept": "space_technology",
+        "shared_article_count": 6,
+        "overlap_percent": 8.45,
+        "strength": 15.79
+      },
+      {
+        "concept": "training_data",
+        "shared_article_count": 6,
+        "overlap_percent": 5.66,
+        "strength": 15.38
+      },
+      {
+        "concept": "machine_learning",
+        "shared_article_count": 6,
+        "overlap_percent": 5.13,
+        "strength": 15.38
       },
       {
         "concept": "language_models",
         "shared_article_count": 6,
-        "overlap_percent": 4.2,
-        "strength": 16.67
-      },
-      {
-        "concept": "training_data",
-        "shared_article_count": 5,
-        "overlap_percent": 5.21,
-        "strength": 13.89
-      },
-      {
-        "concept": "machine_learning",
-        "shared_article_count": 5,
-        "overlap_percent": 4.55,
-        "strength": 13.89
-      },
-      {
-        "concept": "robotaxis",
-        "shared_article_count": 4,
-        "overlap_percent": 4.65,
-        "strength": 11.11
+        "overlap_percent": 3.9,
+        "strength": 15.38
       }
     ],
     "training_data": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 60,
-        "overlap_percent": 12.99,
-        "strength": 92.31
+        "shared_article_count": 67,
+        "overlap_percent": 13.29,
+        "strength": 91.78
       },
       {
         "concept": "generative_ai",
-        "shared_article_count": 41,
-        "overlap_percent": 24.55,
-        "strength": 63.08
+        "shared_article_count": 43,
+        "overlap_percent": 23.76,
+        "strength": 58.9
       },
       {
         "concept": "language_models",
-        "shared_article_count": 39,
-        "overlap_percent": 28.06,
-        "strength": 60.0
+        "shared_article_count": 42,
+        "overlap_percent": 27.63,
+        "strength": 57.53
       },
       {
         "concept": "machine_learning",
-        "shared_article_count": 21,
-        "overlap_percent": 17.07,
-        "strength": 32.31
+        "shared_article_count": 23,
+        "overlap_percent": 17.16,
+        "strength": 31.51
       },
       {
         "concept": "semiconductors",
-        "shared_article_count": 17,
-        "overlap_percent": 11.41,
-        "strength": 26.15
+        "shared_article_count": 20,
+        "overlap_percent": 12.35,
+        "strength": 27.4
       },
       {
         "concept": "autonomous_vehicles",
-        "shared_article_count": 12,
-        "overlap_percent": 6.32,
-        "strength": 18.46
+        "shared_article_count": 13,
+        "overlap_percent": 6.1,
+        "strength": 17.81
       },
       {
         "concept": "ai_agents",
-        "shared_article_count": 9,
-        "overlap_percent": 8.65,
-        "strength": 18.75
+        "shared_article_count": 10,
+        "overlap_percent": 8.55,
+        "strength": 18.52
       },
       {
         "concept": "robotics",
-        "shared_article_count": 9,
-        "overlap_percent": 4.5,
-        "strength": 13.85
+        "shared_article_count": 10,
+        "overlap_percent": 4.44,
+        "strength": 13.7
       },
       {
         "concept": "computer_vision",
-        "shared_article_count": 5,
-        "overlap_percent": 5.21,
-        "strength": 13.89
+        "shared_article_count": 6,
+        "overlap_percent": 5.66,
+        "strength": 15.38
       },
       {
         "concept": "cybersecurity",
-        "shared_article_count": 4,
-        "overlap_percent": 4.26,
-        "strength": 12.12
+        "shared_article_count": 5,
+        "overlap_percent": 4.85,
+        "strength": 14.29
       }
     ],
     "autonomous_vehicles": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 100,
-        "overlap_percent": 20.24,
-        "strength": 72.99
+        "shared_article_count": 113,
+        "overlap_percent": 21.0,
+        "strength": 73.86
       },
       {
         "concept": "robotaxis",
-        "shared_article_count": 52,
-        "overlap_percent": 37.41,
-        "strength": 96.3
+        "shared_article_count": 64,
+        "overlap_percent": 41.29,
+        "strength": 96.97
       },
       {
         "concept": "robotics",
-        "shared_article_count": 37,
-        "overlap_percent": 15.16,
-        "strength": 27.01
+        "shared_article_count": 48,
+        "overlap_percent": 17.98,
+        "strength": 31.37
       },
       {
         "concept": "semiconductors",
-        "shared_article_count": 36,
-        "overlap_percent": 17.82,
-        "strength": 35.64
+        "shared_article_count": 37,
+        "overlap_percent": 16.44,
+        "strength": 33.94
       },
       {
         "concept": "generative_ai",
         "shared_article_count": 26,
-        "overlap_percent": 10.24,
-        "strength": 18.98
+        "overlap_percent": 9.35,
+        "strength": 17.22
       },
       {
         "concept": "machine_learning",
         "shared_article_count": 25,
-        "overlap_percent": 13.09,
-        "strength": 31.65
+        "overlap_percent": 11.79,
+        "strength": 29.76
       },
       {
         "concept": "electric_vehicles",
-        "shared_article_count": 21,
-        "overlap_percent": 14.29,
-        "strength": 67.74
+        "shared_article_count": 22,
+        "overlap_percent": 13.41,
+        "strength": 66.67
       },
       {
         "concept": "computer_vision",
         "shared_article_count": 13,
-        "overlap_percent": 8.12,
-        "strength": 36.11
+        "overlap_percent": 7.26,
+        "strength": 33.33
       },
       {
         "concept": "training_data",
-        "shared_article_count": 12,
-        "overlap_percent": 6.32,
-        "strength": 18.46
+        "shared_article_count": 13,
+        "overlap_percent": 6.1,
+        "strength": 17.81
       },
       {
-        "concept": "cybersecurity",
-        "shared_article_count": 9,
-        "overlap_percent": 5.59,
-        "strength": 27.27
+        "concept": "language_models",
+        "shared_article_count": 10,
+        "overlap_percent": 3.79,
+        "strength": 8.26
       }
     ],
     "robotaxis": [
       {
         "concept": "autonomous_vehicles",
-        "shared_article_count": 52,
-        "overlap_percent": 37.41,
-        "strength": 96.3
+        "shared_article_count": 64,
+        "overlap_percent": 41.29,
+        "strength": 96.97
       },
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 37,
-        "overlap_percent": 7.81,
-        "strength": 68.52
-      },
-      {
-        "concept": "semiconductors",
-        "shared_article_count": 15,
-        "overlap_percent": 10.71,
-        "strength": 27.78
-      },
-      {
-        "concept": "electric_vehicles",
-        "shared_article_count": 11,
-        "overlap_percent": 14.86,
-        "strength": 35.48
+        "shared_article_count": 47,
+        "overlap_percent": 9.09,
+        "strength": 71.21
       },
       {
         "concept": "robotics",
-        "shared_article_count": 11,
-        "overlap_percent": 5.88,
-        "strength": 20.37
+        "shared_article_count": 19,
+        "overlap_percent": 9.09,
+        "strength": 28.79
+      },
+      {
+        "concept": "semiconductors",
+        "shared_article_count": 16,
+        "overlap_percent": 10.06,
+        "strength": 24.24
+      },
+      {
+        "concept": "electric_vehicles",
+        "shared_article_count": 12,
+        "overlap_percent": 13.79,
+        "strength": 36.36
       },
       {
         "concept": "machine_learning",
         "shared_article_count": 10,
-        "overlap_percent": 8.13,
-        "strength": 18.52
+        "overlap_percent": 7.14,
+        "strength": 15.15
       },
       {
         "concept": "generative_ai",
         "shared_article_count": 8,
-        "overlap_percent": 4.23,
-        "strength": 14.81
+        "overlap_percent": 3.83,
+        "strength": 12.12
+      },
+      {
+        "concept": "language_models",
+        "shared_article_count": 5,
+        "overlap_percent": 2.75,
+        "strength": 7.58
       },
       {
         "concept": "computer_vision",
         "shared_article_count": 4,
-        "overlap_percent": 4.65,
-        "strength": 11.11
-      },
-      {
-        "concept": "language_models",
-        "shared_article_count": 4,
-        "overlap_percent": 2.45,
-        "strength": 7.41
+        "overlap_percent": 3.96,
+        "strength": 10.26
       },
       {
         "concept": "space_technology",
         "shared_article_count": 3,
-        "overlap_percent": 3.61,
-        "strength": 9.38
+        "overlap_percent": 2.97,
+        "strength": 7.89
       }
     ],
     "robotics": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 96,
-        "overlap_percent": 19.01,
-        "strength": 66.67
+        "shared_article_count": 110,
+        "overlap_percent": 20.0,
+        "strength": 67.9
       },
       {
         "concept": "drones",
-        "shared_article_count": 55,
-        "overlap_percent": 16.52,
-        "strength": 38.19
+        "shared_article_count": 61,
+        "overlap_percent": 16.44,
+        "strength": 37.65
       },
       {
         "concept": "autonomous_vehicles",
-        "shared_article_count": 37,
-        "overlap_percent": 15.16,
-        "strength": 27.01
+        "shared_article_count": 48,
+        "overlap_percent": 17.98,
+        "strength": 31.37
       },
       {
         "concept": "generative_ai",
-        "shared_article_count": 30,
-        "overlap_percent": 11.67,
-        "strength": 20.98
+        "shared_article_count": 31,
+        "overlap_percent": 10.99,
+        "strength": 20.53
       },
       {
         "concept": "semiconductors",
-        "shared_article_count": 25,
-        "overlap_percent": 11.36,
-        "strength": 24.75
+        "shared_article_count": 27,
+        "overlap_percent": 11.07,
+        "strength": 24.77
+      },
+      {
+        "concept": "robotaxis",
+        "shared_article_count": 19,
+        "overlap_percent": 9.09,
+        "strength": 28.79
       },
       {
         "concept": "computer_vision",
-        "shared_article_count": 15,
-        "overlap_percent": 9.09,
-        "strength": 41.67
+        "shared_article_count": 16,
+        "overlap_percent": 8.65,
+        "strength": 41.03
       },
       {
         "concept": "machine_learning",
         "shared_article_count": 13,
-        "overlap_percent": 6.19,
-        "strength": 16.46
+        "overlap_percent": 5.58,
+        "strength": 15.48
       },
       {
         "concept": "language_models",
-        "shared_article_count": 12,
-        "overlap_percent": 4.9,
-        "strength": 10.62
+        "shared_article_count": 13,
+        "overlap_percent": 4.81,
+        "strength": 10.74
       },
       {
-        "concept": "robotaxis",
+        "concept": "space_technology",
         "shared_article_count": 11,
-        "overlap_percent": 5.88,
-        "strength": 20.37
-      },
-      {
-        "concept": "drone_delivery",
-        "shared_article_count": 10,
-        "overlap_percent": 5.59,
-        "strength": 22.22
+        "overlap_percent": 5.82,
+        "strength": 28.95
       }
     ],
     "drones": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 77,
-        "overlap_percent": 12.34,
-        "strength": 31.56
+        "shared_article_count": 87,
+        "overlap_percent": 12.78,
+        "strength": 32.22
       },
       {
         "concept": "robotics",
-        "shared_article_count": 55,
-        "overlap_percent": 16.52,
-        "strength": 38.19
+        "shared_article_count": 61,
+        "overlap_percent": 16.44,
+        "strength": 37.65
       },
       {
         "concept": "drone_delivery",
-        "shared_article_count": 45,
-        "overlap_percent": 18.44,
+        "shared_article_count": 50,
+        "overlap_percent": 18.52,
         "strength": 100.0
       },
       {
         "concept": "drone_autonomy",
-        "shared_article_count": 27,
-        "overlap_percent": 11.07,
+        "shared_article_count": 28,
+        "overlap_percent": 10.37,
         "strength": 100.0
       },
       {
         "concept": "semiconductors",
-        "shared_article_count": 24,
-        "overlap_percent": 7.48,
-        "strength": 23.76
+        "shared_article_count": 25,
+        "overlap_percent": 7.06,
+        "strength": 22.94
       },
       {
         "concept": "space_technology",
-        "shared_article_count": 17,
-        "overlap_percent": 6.56,
-        "strength": 53.12
+        "shared_article_count": 21,
+        "overlap_percent": 7.32,
+        "strength": 55.26
       },
       {
         "concept": "computer_vision",
-        "shared_article_count": 13,
-        "overlap_percent": 4.87,
-        "strength": 36.11
+        "shared_article_count": 15,
+        "overlap_percent": 5.1,
+        "strength": 38.46
       },
       {
         "concept": "generative_ai",
-        "shared_article_count": 12,
-        "overlap_percent": 3.2,
-        "strength": 8.39
+        "shared_article_count": 14,
+        "overlap_percent": 3.44,
+        "strength": 9.27
+      },
+      {
+        "concept": "cybersecurity",
+        "shared_article_count": 8,
+        "overlap_percent": 2.69,
+        "strength": 22.86
       },
       {
         "concept": "autonomous_vehicles",
         "shared_article_count": 8,
-        "overlap_percent": 2.14,
-        "strength": 5.84
-      },
-      {
-        "concept": "cybersecurity",
-        "shared_article_count": 7,
-        "overlap_percent": 2.59,
-        "strength": 21.21
+        "overlap_percent": 1.93,
+        "strength": 5.23
       }
     ],
     "drone_delivery": [
       {
         "concept": "drones",
-        "shared_article_count": 45,
-        "overlap_percent": 18.44,
+        "shared_article_count": 50,
+        "overlap_percent": 18.52,
         "strength": 100.0
       },
       {
         "concept": "robotics",
         "shared_article_count": 10,
-        "overlap_percent": 5.59,
-        "strength": 22.22
+        "overlap_percent": 4.95,
+        "strength": 20.0
       },
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 7,
-        "overlap_percent": 1.41,
-        "strength": 15.56
+        "shared_article_count": 10,
+        "overlap_percent": 1.86,
+        "strength": 20.0
       },
       {
         "concept": "drone_autonomy",
         "shared_article_count": 3,
-        "overlap_percent": 4.35,
-        "strength": 11.11
+        "overlap_percent": 4.0,
+        "strength": 10.71
+      },
+      {
+        "concept": "space_technology",
+        "shared_article_count": 2,
+        "overlap_percent": 2.33,
+        "strength": 5.26
       },
       {
         "concept": "semiconductors",
         "shared_article_count": 2,
-        "overlap_percent": 1.39,
-        "strength": 4.44
+        "overlap_percent": 1.27,
+        "strength": 4.0
+      },
+      {
+        "concept": "generative_ai",
+        "shared_article_count": 2,
+        "overlap_percent": 1.01,
+        "strength": 4.0
       },
       {
         "concept": "electric_vehicles",
         "shared_article_count": 1,
-        "overlap_percent": 1.33,
-        "strength": 3.23
-      },
-      {
-        "concept": "space_technology",
-        "shared_article_count": 1,
-        "overlap_percent": 1.32,
-        "strength": 3.12
+        "overlap_percent": 1.22,
+        "strength": 3.03
       },
       {
         "concept": "cybersecurity",
         "shared_article_count": 1,
-        "overlap_percent": 1.3,
-        "strength": 3.03
+        "overlap_percent": 1.19,
+        "strength": 2.86
       },
       {
         "concept": "computer_vision",
         "shared_article_count": 1,
-        "overlap_percent": 1.25,
-        "strength": 2.78
-      },
-      {
-        "concept": "language_models",
-        "shared_article_count": 1,
-        "overlap_percent": 0.64,
-        "strength": 2.22
+        "overlap_percent": 1.14,
+        "strength": 2.56
       }
     ],
     "drone_autonomy": [
       {
         "concept": "drones",
-        "shared_article_count": 27,
-        "overlap_percent": 11.07,
+        "shared_article_count": 28,
+        "overlap_percent": 10.37,
         "strength": 100.0
       },
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 17,
-        "overlap_percent": 3.64,
-        "strength": 62.96
+        "shared_article_count": 18,
+        "overlap_percent": 3.54,
+        "strength": 64.29
       },
       {
         "concept": "robotics",
         "shared_article_count": 7,
-        "overlap_percent": 4.27,
-        "strength": 25.93
+        "overlap_percent": 3.83,
+        "strength": 25.0
       },
       {
         "concept": "space_technology",
         "shared_article_count": 4,
-        "overlap_percent": 7.27,
-        "strength": 14.81
+        "overlap_percent": 6.45,
+        "strength": 14.29
       },
       {
         "concept": "computer_vision",
         "shared_article_count": 3,
-        "overlap_percent": 5.0,
-        "strength": 11.11
+        "overlap_percent": 4.69,
+        "strength": 10.71
       },
       {
         "concept": "drone_delivery",
         "shared_article_count": 3,
-        "overlap_percent": 4.35,
-        "strength": 11.11
+        "overlap_percent": 4.0,
+        "strength": 10.71
       },
       {
         "concept": "semiconductors",
         "shared_article_count": 2,
-        "overlap_percent": 1.59,
-        "strength": 7.41
+        "overlap_percent": 1.48,
+        "strength": 7.14
       },
       {
         "concept": "generative_ai",
         "shared_article_count": 2,
-        "overlap_percent": 1.19,
-        "strength": 7.41
+        "overlap_percent": 1.13,
+        "strength": 7.14
       },
       {
         "concept": "robotaxis",
         "shared_article_count": 1,
-        "overlap_percent": 1.25,
-        "strength": 3.7
+        "overlap_percent": 1.08,
+        "strength": 3.57
       },
       {
         "concept": "machine_learning",
         "shared_article_count": 1,
-        "overlap_percent": 0.95,
-        "strength": 3.7
+        "overlap_percent": 0.9,
+        "strength": 3.57
       }
     ],
     "semiconductors": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 80,
-        "overlap_percent": 16.74,
-        "strength": 79.21
+        "shared_article_count": 85,
+        "overlap_percent": 16.28,
+        "strength": 77.98
       },
       {
         "concept": "autonomous_vehicles",
-        "shared_article_count": 36,
-        "overlap_percent": 17.82,
-        "strength": 35.64
+        "shared_article_count": 37,
+        "overlap_percent": 16.44,
+        "strength": 33.94
       },
       {
         "concept": "generative_ai",
-        "shared_article_count": 27,
-        "overlap_percent": 12.44,
-        "strength": 26.73
+        "shared_article_count": 28,
+        "overlap_percent": 12.07,
+        "strength": 25.69
       },
       {
         "concept": "robotics",
-        "shared_article_count": 25,
-        "overlap_percent": 11.36,
-        "strength": 24.75
+        "shared_article_count": 27,
+        "overlap_percent": 11.07,
+        "strength": 24.77
       },
       {
         "concept": "drones",
-        "shared_article_count": 24,
-        "overlap_percent": 7.48,
-        "strength": 23.76
+        "shared_article_count": 25,
+        "overlap_percent": 7.06,
+        "strength": 22.94
       },
       {
         "concept": "training_data",
-        "shared_article_count": 17,
-        "overlap_percent": 11.41,
-        "strength": 26.15
-      },
-      {
-        "concept": "robotaxis",
-        "shared_article_count": 15,
-        "overlap_percent": 10.71,
-        "strength": 27.78
+        "shared_article_count": 20,
+        "overlap_percent": 12.35,
+        "strength": 27.4
       },
       {
         "concept": "language_models",
-        "shared_article_count": 15,
-        "overlap_percent": 7.54,
-        "strength": 14.85
+        "shared_article_count": 17,
+        "overlap_percent": 7.98,
+        "strength": 15.6
+      },
+      {
+        "concept": "robotaxis",
+        "shared_article_count": 16,
+        "overlap_percent": 10.06,
+        "strength": 24.24
       },
       {
         "concept": "machine_learning",
         "shared_article_count": 14,
-        "overlap_percent": 8.43,
-        "strength": 17.72
+        "overlap_percent": 7.82,
+        "strength": 16.67
       },
       {
         "concept": "space_technology",
         "shared_article_count": 13,
-        "overlap_percent": 10.83,
-        "strength": 40.62
+        "overlap_percent": 9.7,
+        "strength": 34.21
       }
     ],
     "quantum_computing": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 4,
-        "overlap_percent": 0.87,
-        "strength": 57.14
+        "shared_article_count": 5,
+        "overlap_percent": 1.0,
+        "strength": 62.5
       },
       {
         "concept": "semiconductors",
         "shared_article_count": 3,
-        "overlap_percent": 2.86,
-        "strength": 42.86
+        "overlap_percent": 2.63,
+        "strength": 37.5
       },
       {
         "concept": "machine_learning",
         "shared_article_count": 2,
-        "overlap_percent": 2.38,
-        "strength": 28.57
+        "overlap_percent": 2.22,
+        "strength": 25.0
       },
       {
         "concept": "language_models",
         "shared_article_count": 2,
-        "overlap_percent": 1.69,
-        "strength": 28.57
+        "overlap_percent": 1.57,
+        "strength": 25.0
       },
       {
         "concept": "space_technology",
         "shared_article_count": 1,
-        "overlap_percent": 2.63,
-        "strength": 14.29
+        "overlap_percent": 2.22,
+        "strength": 12.5
       },
       {
         "concept": "ai_agents",
         "shared_article_count": 1,
-        "overlap_percent": 1.85,
-        "strength": 14.29
+        "overlap_percent": 1.64,
+        "strength": 12.5
       },
       {
         "concept": "generative_ai",
         "shared_article_count": 1,
-        "overlap_percent": 0.67,
-        "strength": 14.29
+        "overlap_percent": 0.63,
+        "strength": 12.5
       }
     ],
     "cybersecurity": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 24,
-        "overlap_percent": 5.15,
-        "strength": 72.73
+        "shared_article_count": 25,
+        "overlap_percent": 4.92,
+        "strength": 71.43
       },
       {
         "concept": "generative_ai",
-        "shared_article_count": 13,
-        "overlap_percent": 7.98,
-        "strength": 39.39
+        "shared_article_count": 14,
+        "overlap_percent": 8.14,
+        "strength": 40.0
       },
       {
         "concept": "language_models",
         "shared_article_count": 9,
-        "overlap_percent": 6.57,
-        "strength": 27.27
+        "overlap_percent": 6.12,
+        "strength": 25.71
       },
       {
         "concept": "autonomous_vehicles",
         "shared_article_count": 9,
-        "overlap_percent": 5.59,
-        "strength": 27.27
+        "overlap_percent": 5.03,
+        "strength": 25.71
+      },
+      {
+        "concept": "drones",
+        "shared_article_count": 8,
+        "overlap_percent": 2.69,
+        "strength": 22.86
       },
       {
         "concept": "machine_learning",
         "shared_article_count": 7,
-        "overlap_percent": 6.67,
-        "strength": 21.21
-      },
-      {
-        "concept": "drones",
-        "shared_article_count": 7,
-        "overlap_percent": 2.59,
-        "strength": 21.21
+        "overlap_percent": 6.25,
+        "strength": 20.0
       },
       {
         "concept": "robotics",
         "shared_article_count": 6,
-        "overlap_percent": 3.51,
-        "strength": 18.18
+        "overlap_percent": 3.14,
+        "strength": 17.14
       },
       {
         "concept": "ai_agents",
         "shared_article_count": 5,
-        "overlap_percent": 6.58,
-        "strength": 15.15
+        "overlap_percent": 5.95,
+        "strength": 14.29
+      },
+      {
+        "concept": "training_data",
+        "shared_article_count": 5,
+        "overlap_percent": 4.85,
+        "strength": 14.29
       },
       {
         "concept": "semiconductors",
         "shared_article_count": 5,
-        "overlap_percent": 3.88,
-        "strength": 15.15
-      },
-      {
-        "concept": "training_data",
-        "shared_article_count": 4,
-        "overlap_percent": 4.26,
-        "strength": 12.12
+        "overlap_percent": 3.6,
+        "strength": 14.29
       }
     ],
     "electric_vehicles": [
       {
         "concept": "autonomous_vehicles",
-        "shared_article_count": 21,
-        "overlap_percent": 14.29,
-        "strength": 67.74
+        "shared_article_count": 22,
+        "overlap_percent": 13.41,
+        "strength": 66.67
       },
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 16,
-        "overlap_percent": 3.39,
-        "strength": 51.61
+        "shared_article_count": 17,
+        "overlap_percent": 3.31,
+        "strength": 51.52
       },
       {
         "concept": "robotaxis",
-        "shared_article_count": 11,
-        "overlap_percent": 14.86,
-        "strength": 35.48
+        "shared_article_count": 12,
+        "overlap_percent": 13.79,
+        "strength": 36.36
       },
       {
         "concept": "robotics",
-        "shared_article_count": 5,
-        "overlap_percent": 2.94,
-        "strength": 16.13
+        "shared_article_count": 6,
+        "overlap_percent": 3.17,
+        "strength": 18.18
       },
       {
         "concept": "generative_ai",
         "shared_article_count": 3,
-        "overlap_percent": 1.75,
-        "strength": 9.68
+        "overlap_percent": 1.66,
+        "strength": 9.09
       },
       {
         "concept": "computer_vision",
         "shared_article_count": 2,
-        "overlap_percent": 3.08,
-        "strength": 6.45
+        "overlap_percent": 2.86,
+        "strength": 6.06
       },
       {
         "concept": "machine_learning",
         "shared_article_count": 2,
-        "overlap_percent": 1.85,
-        "strength": 6.45
+        "overlap_percent": 1.74,
+        "strength": 6.06
       },
       {
-        "concept": "space_technology",
-        "shared_article_count": 1,
-        "overlap_percent": 1.61,
-        "strength": 3.23
+        "concept": "semiconductors",
+        "shared_article_count": 2,
+        "overlap_percent": 1.43,
+        "strength": 6.06
       },
       {
         "concept": "cybersecurity",
         "shared_article_count": 1,
-        "overlap_percent": 1.59,
-        "strength": 3.23
+        "overlap_percent": 1.49,
+        "strength": 3.03
       },
       {
-        "concept": "drone_delivery",
+        "concept": "space_technology",
         "shared_article_count": 1,
-        "overlap_percent": 1.33,
-        "strength": 3.23
+        "overlap_percent": 1.43,
+        "strength": 3.03
       }
     ],
     "space_technology": [
       {
         "concept": "artificial_intelligence",
-        "shared_article_count": 25,
-        "overlap_percent": 5.39,
-        "strength": 78.12
+        "shared_article_count": 26,
+        "overlap_percent": 5.1,
+        "strength": 68.42
       },
       {
         "concept": "drones",
-        "shared_article_count": 17,
-        "overlap_percent": 6.56,
-        "strength": 53.12
+        "shared_article_count": 21,
+        "overlap_percent": 7.32,
+        "strength": 55.26
       },
       {
         "concept": "semiconductors",
         "shared_article_count": 13,
-        "overlap_percent": 10.83,
-        "strength": 40.62
-      },
-      {
-        "concept": "autonomous_vehicles",
-        "shared_article_count": 8,
-        "overlap_percent": 4.97,
-        "strength": 25.0
+        "overlap_percent": 9.7,
+        "strength": 34.21
       },
       {
         "concept": "robotics",
-        "shared_article_count": 8,
-        "overlap_percent": 4.76,
-        "strength": 25.0
+        "shared_article_count": 11,
+        "overlap_percent": 5.82,
+        "strength": 28.95
+      },
+      {
+        "concept": "autonomous_vehicles",
+        "shared_article_count": 9,
+        "overlap_percent": 4.95,
+        "strength": 23.68
+      },
+      {
+        "concept": "computer_vision",
+        "shared_article_count": 6,
+        "overlap_percent": 8.45,
+        "strength": 15.79
       },
       {
         "concept": "generative_ai",
         "shared_article_count": 6,
-        "overlap_percent": 3.55,
-        "strength": 18.75
+        "overlap_percent": 3.28,
+        "strength": 15.79
       },
       {
         "concept": "drone_autonomy",
         "shared_article_count": 4,
-        "overlap_percent": 7.27,
-        "strength": 14.81
+        "overlap_percent": 6.45,
+        "strength": 14.29
       },
       {
         "concept": "cybersecurity",
         "shared_article_count": 3,
-        "overlap_percent": 4.84,
-        "strength": 9.38
-      },
-      {
-        "concept": "computer_vision",
-        "shared_article_count": 3,
-        "overlap_percent": 4.62,
-        "strength": 9.38
+        "overlap_percent": 4.29,
+        "strength": 8.57
       },
       {
         "concept": "robotaxis",
         "shared_article_count": 3,
-        "overlap_percent": 3.61,
-        "strength": 9.38
+        "overlap_percent": 2.97,
+        "strength": 7.89
       }
     ]
   }

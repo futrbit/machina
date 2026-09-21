@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T23:17:01.428222",
-  "development_count": 42,
+  "generated_at": "2026-09-21T14:51:36.313935",
+  "development_count": 44,
   "developments": [
     {
       "title": "Tesla set to unveil self-driving car service in Austin",
@@ -733,7 +733,7 @@
     },
     {
       "title": "Rugged UAVs & Unmanned Systems for Challenging Government, Defence & Commercial Applications",
-      "article_count": 10,
+      "article_count": 11,
       "source_count": 1,
       "sources": [
         "unmannedsystemstechnology.com"
@@ -741,7 +741,7 @@
       "first_seen": "2026-04-30T00:00:00",
       "last_seen": "2026-05-06T00:00:00",
       "date_span_days": 6,
-      "coherence": 0.7779,
+      "coherence": 0.7722,
       "articles": [
         {
           "id": "105fef14ea156d207c905465191fbb10",
@@ -777,6 +777,13 @@
           "published": "2026-05-06T05:49:00+00:00",
           "source": "unmannedsystemstechnology.com",
           "url": "https://www.unmannedsystemstechnology.com/2026/05/abris-dg-showcases-advanced-uav-solutions-isr-capabilities-at-fidae-2026/"
+        },
+        {
+          "id": "635c31e8d28e6fb24e65fd67db2fea08",
+          "title": "Skyeton Integrates Anti-Interceptor & Threat Detection Into Raybird UAV",
+          "published": "2026-05-06T05:29:00+00:00",
+          "source": "unmannedsystemstechnology.com",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/skyeton-integrates-anti-interceptor-threat-detection-into-raybird-uav/"
         },
         {
           "id": "6c05ab205725ddf03620304535031b81",
@@ -818,26 +825,128 @@
       "rank": 18,
       "evidence_type": "single-source",
       "state": "active",
+      "confidence": 80,
+      "intelligence": {
+        "articles": 11,
+        "sources": 1,
+        "date_span_days": 6,
+        "semantic_coherence": 0.7722
+      }
+    },
+    {
+      "title": "FCC drone ban could put America’s aerial light shows at risk",
+      "article_count": 10,
+      "source_count": 1,
+      "sources": [
+        "dronedj.com"
+      ],
+      "first_seen": "2026-09-14T00:00:00",
+      "last_seen": "2026-09-19T00:00:00",
+      "date_span_days": 5,
+      "coherence": 0.8089,
+      "articles": [
+        {
+          "id": "03043d076206a4878feef4a107b43123",
+          "title": "Alabama photographer’s $5,000 DJI drone shot out of the sky",
+          "published": "2026-09-15T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/15/dji-drone-shot-down-alabama/"
+        },
+        {
+          "id": "03b17e6b83ad551f31be03616e91ebd2",
+          "title": "Your DJI Osmo Pocket 4 just learned some impressive new tricks",
+          "published": "2026-09-17T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/17/dji-pocket-4-firmware-update/"
+        },
+        {
+          "id": "0fd9e776787f6da269035946baae0d69",
+          "title": "Emesent scanners can now send point clouds straight into Trimble",
+          "published": "2026-09-16T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/16/emesent-trimble-lidar-drone-data/"
+        },
+        {
+          "id": "43bf04540f7a190f00f07f15bcbd64ee",
+          "title": "FCC drone ban could put America’s aerial light shows at risk",
+          "published": "2026-09-14T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/14/skyworx-swarming-drone-fcc-ban/"
+        },
+        {
+          "id": "9c63bb6be3f5fd14d3f40ddd4720d634",
+          "title": "Airwise adds another Remote ID partner to its airspace platform",
+          "published": "2026-09-16T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/16/airwise-remote-id-uas-sentry/"
+        },
+        {
+          "id": "b1c668d6634804e9e624eb446d17edd3",
+          "title": "US Marine Corps share videos of what training with drones looks like",
+          "published": "2026-09-19T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/19/us-marine-corps-share-videos-of-what-training-with-drones-looks-like/"
+        },
+        {
+          "id": "cc2fb7cced9a0ea5320c16cf1d416532",
+          "title": "ABZ Innovation opens massive new drone production hub in Europe",
+          "published": "2026-09-18T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/18/abz-innovation-drone-manufacturing-europe/"
+        },
+        {
+          "id": "e1acb5b19ef369ff424bed42ed7b566e",
+          "title": "FrameTap just got better, and DJI Pocket 4P owners will notice",
+          "published": "2026-09-17T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/17/dji-pocket-4p-new-firmware/"
+        },
+        {
+          "id": "f1eac64c0370d62b6941b35e8e747ce2",
+          "title": "DJI SDR Transmission 2 brings 4K HDR to crowded film sets",
+          "published": "2026-09-18T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/18/dji-sdr-transmission-2-buy/"
+        },
+        {
+          "id": "ffb5a39bb2a6d903752eeddc0440dff2",
+          "title": "Drone Assistant wants to make international drone rules less painful",
+          "published": "2026-09-16T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/09/16/flyby-guys-drone-assistant-rules/"
+        }
+      ],
+      "id": "development_0019",
+      "rank": 19,
+      "evidence_type": "single-source",
+      "state": "active",
       "confidence": 81,
       "intelligence": {
         "articles": 10,
         "sources": 1,
-        "date_span_days": 6,
-        "semantic_coherence": 0.7779
+        "date_span_days": 5,
+        "semantic_coherence": 0.8089
       }
     },
     {
       "title": "This DJI Neo 2 update makes selfie drone even better for travel",
-      "article_count": 7,
+      "article_count": 8,
       "source_count": 1,
       "sources": [
         "dronedj.com"
       ],
       "first_seen": "2026-04-28T00:00:00",
-      "last_seen": "2026-05-01T00:00:00",
-      "date_span_days": 3,
-      "coherence": 0.8942,
+      "last_seen": "2026-05-06T00:00:00",
+      "date_span_days": 8,
+      "coherence": 0.8901,
       "articles": [
+        {
+          "id": "0475ae0f3493e9680da290a8d5b2226b",
+          "title": "FCC’s DJI drone ban review now depends on public feedback",
+          "published": "2026-05-06T00:00:00",
+          "source": "dronedj.com",
+          "url": "https://dronedj.com/2026/05/06/dji-drone-ban-fcc-comments/"
+        },
         {
           "id": "0f19debf1df35d88e88f3b6bcda64c4c",
           "title": "SkyfireAI raises $11M for autonomous drone coordination",
@@ -888,16 +997,16 @@
           "url": "https://dronedj.com/2026/04/30/antigravity-drone-3d-project-eternal/"
         }
       ],
-      "id": "development_0019",
-      "rank": 19,
+      "id": "development_0020",
+      "rank": 20,
       "evidence_type": "single-source",
-      "state": "active",
+      "state": "persistent",
       "confidence": 83,
       "intelligence": {
-        "articles": 7,
+        "articles": 8,
         "sources": 1,
-        "date_span_days": 3,
-        "semantic_coherence": 0.8942
+        "date_span_days": 8,
+        "semantic_coherence": 0.8901
       }
     },
     {
@@ -934,8 +1043,8 @@
           "url": "https://www.thedronegirl.com/2025/08/06/bvlos-drone-rule/"
         }
       ],
-      "id": "development_0020",
-      "rank": 20,
+      "id": "development_0021",
+      "rank": 21,
       "evidence_type": "single-source",
       "state": "active",
       "confidence": 64,
@@ -980,8 +1089,8 @@
           "url": "https://futurefive.co.nz/story/hands-on-review-jbl-tour-one-m3-headphones"
         }
       ],
-      "id": "development_0021",
-      "rank": 21,
+      "id": "development_0022",
+      "rank": 22,
       "evidence_type": "single-source",
       "state": "emerging",
       "confidence": 54,
@@ -1026,8 +1135,8 @@
           "url": "https://futurefive.co.nz/story/avast-study-finds-older-kiwis-at-high-risk-of-online-scams"
         }
       ],
-      "id": "development_0022",
-      "rank": 22,
+      "id": "development_0023",
+      "rank": 23,
       "evidence_type": "single-source",
       "state": "emerging",
       "confidence": 53,
@@ -1065,8 +1174,8 @@
           "url": "https://www.autonomousvehicleinternational.com/news/ai-sensor-fusion/lg-innotek-invests-up-to-us50m-in-aeva-to-bring-next-gen-perception-platform-to-market.html"
         }
       ],
-      "id": "development_0023",
-      "rank": 23,
+      "id": "development_0024",
+      "rank": 24,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 50,
@@ -1104,8 +1213,8 @@
           "url": "https://www.autonomousvehicleinternational.com/news/expo/adas-autonomous-vehicle-technology-summit-north-america-opens-next-week.html"
         }
       ],
-      "id": "development_0024",
-      "rank": 24,
+      "id": "development_0025",
+      "rank": 25,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 59,
@@ -1143,8 +1252,8 @@
           "url": "https://www.digitaltrends.com/computing/windows-pc-ready-for-secure-boot/"
         }
       ],
-      "id": "development_0025",
-      "rank": 25,
+      "id": "development_0026",
+      "rank": 26,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 58,
@@ -1153,6 +1262,45 @@
         "sources": 1,
         "date_span_days": 1,
         "semantic_coherence": 0.8581
+      }
+    },
+    {
+      "title": "London rollout of robotaxis delayed amid lack of guidance for firms to follow",
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "theguardian.com"
+      ],
+      "first_seen": "2026-08-26T00:00:00",
+      "last_seen": "2026-09-03T00:00:00",
+      "date_span_days": 8,
+      "coherence": 0.8399,
+      "articles": [
+        {
+          "id": "27b1f27b64cc68982077989130e5e588",
+          "title": "London’s first self-driving taxis for hire hit the streets",
+          "published": "2026-09-03T00:00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/sep/03/london-first-self-driving-taxis-for-hire-wayve-uber"
+        },
+        {
+          "id": "956580092a1c8653aa3cf51a8483fde4",
+          "title": "London rollout of robotaxis delayed amid lack of guidance for firms to follow",
+          "published": "2026-08-26T00:00:00",
+          "source": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/aug/26/london-rollout-robotaxis-delayed-uber-wayve"
+        }
+      ],
+      "id": "development_0027",
+      "rank": 27,
+      "evidence_type": "single-source",
+      "state": "persistent",
+      "confidence": 58,
+      "intelligence": {
+        "articles": 2,
+        "sources": 1,
+        "date_span_days": 8,
+        "semantic_coherence": 0.8399
       }
     },
     {
@@ -1182,8 +1330,8 @@
           "url": "https://the-decoder.com/googles-gemini-app-surpassed-chatgpt-in-monthly-downloads/"
         }
       ],
-      "id": "development_0026",
-      "rank": 26,
+      "id": "development_0028",
+      "rank": 28,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 58,
@@ -1221,8 +1369,8 @@
           "url": "https://electrek.co/2025/06/16/wisk-aero-signs-agreements-autonomous-air-taxi-operations-miami-japan/"
         }
       ],
-      "id": "development_0027",
-      "rank": 27,
+      "id": "development_0029",
+      "rank": 29,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 47,
@@ -1260,8 +1408,8 @@
           "url": "https://the-decoder.com/a-new-study-by-nyu-researchers-supports-apples-doubts-about-ai-reasoning-but-sees-no-dead-end/"
         }
       ],
-      "id": "development_0028",
-      "rank": 28,
+      "id": "development_0030",
+      "rank": 30,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 57,
@@ -1299,8 +1447,8 @@
           "url": "https://electrek.co/2025/06/03/beta-technologies-electric-aircraft-fly-nyc-passengers-onboard-video/"
         }
       ],
-      "id": "development_0029",
-      "rank": 29,
+      "id": "development_0031",
+      "rank": 31,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 57,
@@ -1338,8 +1486,8 @@
           "url": "https://www.unite.ai/stopping-ai-from-spinning-stories-a-guide-to-preventing-hallucinations/"
         }
       ],
-      "id": "development_0030",
-      "rank": 30,
+      "id": "development_0032",
+      "rank": 32,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 57,
@@ -1377,8 +1525,8 @@
           "url": "https://www.theguardian.com/technology/2025/aug/01/tesla-fatal-autopilot-crash-verdict"
         }
       ],
-      "id": "development_0031",
-      "rank": 31,
+      "id": "development_0033",
+      "rank": 33,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 57,
@@ -1416,8 +1564,8 @@
           "url": "https://the-decoder.com/meta-poaches-three-top-ai-researchers-from-openai-who-had-poached-them-from-deepmind/"
         }
       ],
-      "id": "development_0032",
-      "rank": 32,
+      "id": "development_0034",
+      "rank": 34,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 57,
@@ -1455,8 +1603,8 @@
           "url": "https://futurefive.co.nz/story/oppo-unveils-watch-x2-mini-in-new-zealand-from-nzd-499"
         }
       ],
-      "id": "development_0033",
-      "rank": 33,
+      "id": "development_0035",
+      "rank": 35,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 47,
@@ -1494,8 +1642,8 @@
           "url": "https://futurefive.co.nz/story/samsung-strengthens-2025-tv-range-with-qled-advancements"
         }
       ],
-      "id": "development_0034",
-      "rank": 34,
+      "id": "development_0036",
+      "rank": 36,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 46,
@@ -1533,8 +1681,8 @@
           "url": "https://futurefive.co.nz/story/google-launches-flow-ai-tool-for-filmmakers-and-video-creators"
         }
       ],
-      "id": "development_0035",
-      "rank": 35,
+      "id": "development_0037",
+      "rank": 37,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 46,
@@ -1572,8 +1720,8 @@
           "url": "https://the-decoder.com/report-zuckerberg-considered-external-ai-systems-as-meta-faces-setbacks-in-ai-race/"
         }
       ],
-      "id": "development_0036",
-      "rank": 36,
+      "id": "development_0038",
+      "rank": 38,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 56,
@@ -1611,8 +1759,8 @@
           "url": "https://www.thedronegirl.com/2025/06/20/drone-show-courses-for-schools/"
         }
       ],
-      "id": "development_0037",
-      "rank": 37,
+      "id": "development_0039",
+      "rank": 39,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 56,
@@ -1650,8 +1798,8 @@
           "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/mufg-bank-invests-in-and-partners-with-may-mobility-to-develop-fleet-ownership-models.html"
         }
       ],
-      "id": "development_0038",
-      "rank": 38,
+      "id": "development_0040",
+      "rank": 40,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 56,
@@ -1689,8 +1837,8 @@
           "url": "https://the-decoder.com/google-expands-search-with-audio-overviews-and-ai-powered-voice-search/"
         }
       ],
-      "id": "development_0039",
-      "rank": 39,
+      "id": "development_0041",
+      "rank": 41,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 56,
@@ -1728,8 +1876,8 @@
           "url": "https://research.google/blog/google-research-at-google-io-2025/"
         }
       ],
-      "id": "development_0040",
-      "rank": 40,
+      "id": "development_0042",
+      "rank": 42,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 46,
@@ -1767,8 +1915,8 @@
           "url": "https://www.digitaltrends.com/movies/this-indie-movie-with-99-rt-score-is-one-of-the-3-underrated-hulu-movies-to-watch-this-weekend-may-2-3/"
         }
       ],
-      "id": "development_0041",
-      "rank": 41,
+      "id": "development_0043",
+      "rank": 43,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 46,
@@ -1806,8 +1954,8 @@
           "url": "https://futurefive.co.nz/story/a-wake-up-call-for-sleep-health-the-role-of-smartwatches-in-diagnosing-sleep-disorders"
         }
       ],
-      "id": "development_0042",
-      "rank": 42,
+      "id": "development_0044",
+      "rank": 44,
       "evidence_type": "single-source",
       "state": "persistent",
       "confidence": 45,
