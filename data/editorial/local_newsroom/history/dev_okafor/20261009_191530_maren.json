@@ -1,0 +1,122 @@
+{
+  "journalist": "Dev Okafor",
+  "role": "Product Correspondent",
+  "journalist_id": "dev_okafor",
+  "generated_at": "2026-10-09T18:48:16.150027+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems\" product technology",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+      "url": "https://arxiv.org/pdf/2610.12449v1",
+      "snippet": "Abstract Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems\" product technology",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+      "url": "https://arxiv.org/html/2610.12449v1",
+      "snippet": "Abstract Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for ...",
+      "page_text": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems Title: Content selection saved. Describe the issue below: Description: arXiv is now an independent nonprofit! Learn more &times; License: CC BY 4.0 arXiv:2610.12449v1 [cs.LG] 08 Oct 2026 Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems Anna Zimmel Fleur Hendriks Markus Holzleitner Florian Sestak Affiliation: ELLIS Unit, LIT AI Lab, Institute for Machine Learning, JKU Linz Affiliation: Department of Mathematics and Computer Science, Eindhoven University of Technology Email: zimmel@ml.jku.at Martin Weichselbaumer Vlado Menkovski Johannes Brandstetter * Equal contribution as first authors, † Equal contribution as last authors Affiliation: ELLIS Unit, LIT AI Lab, Institute for Machine Learning, JKU Linz Affiliation: Department of Mathematics and Computer Science, Eindhoven University of Technology Affiliation: Mistral, Paris Email: f.hendriks@differ.nl Affiliation: Department of Mechanical Engineering, Eindhoven University of Technology Affiliation: DIFFER – Dutch Institute for Fundamental Energy Research Abstract Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these one-to-many solution maps in high-dimensional systems. Bi-FORK generates complete trajectories through latent flow matching, preserving space and time coherence, and uses repulsion-guided sampling to recover distinct solution branches in a single amortized pass. We evaluate Bi-FORK on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation, spanning continuous, discrete, and field-valued bifurcations with discretizations up to 260,000 points. Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches, opening generative modeling to high-dimensional bifurcating physical systems. 1 Introduction Bifurcations are fundamental to nonlinear physical systems and occur across structural mechanics, fluid dynamics, climate dynamics, and phase-transition phenomena [ 49 , 54 , 47 ] . A bifurcation is a qualitative change in the number or stability of solutions as a control parameter varies. When a bifurcation breaks a symmetry, it produces a one-to-many mapping from control parameter to system response: multiple, equally valid solutions rather than one. For example, a compressed column is stable up to a critical load, then bifurcates into symmetric buckled branches [ 7 ] . Classical numerical methods, including finite-element and finite-volume methods, can compute these solutions accurately. However, for high-dimensional systems, recovering the full bifurcation structure requires stability and mode analyses together with repeated continuation or deflation solves [ 10 , 18 ] , which is computationally expensive. Therefore, machine learning (ML) methods are an attractive alternative as they amortize the cost of building the training set over the many fast evaluations of unseen system conditions [ 1 , 4 , 3 , 20 , 55 ] . However, because the system is one-to-many, training discriminative ML models averages over the solution space and, as a consequence, produces nonphysical predictions [ 50 , 36 , 46 ] . This has motivated the development of probabilistic methods based on GANs, diffusion models, and more recently flow matching, typically framed around uncertainty or the loss of fine-scale structure [ 19 , 60 , 12 ] . Most probabilistic physical surrogates model epistemic or unresolved uncertainty; symmetry-breaking bifurcations instead produce genuinely multiple, equally valid solutions structured by the system’s symmetry. Only a few recent approaches treat the bifurcation structure directly as the cause of solution multiplicity [ 17 , 44 , 61 , 30 , 25 , 48 ] . Nevertheless, these approaches recover systems of at most a few hundred degrees of freedom with small, known, discrete symmetry groups. Figure 1 : Learning bifurcating solution distributions. Left: Symmetry breaking results in multiple valid trajectories for the same control parameter and initial state. Center: Latent flow matching jointly samples trajectories and resolves distinct branches in one forward pass. Right: Unlike mode-averaging baselines, Bi-FORK recovers the target distribution. The main challenge Scaling to larger systems is challenging because recovering a bifurcating distribution requires every part of the system to agree on which branch it is realizing in both space and time. A beam buckling to the left at one end and right at the other is an invalid solution, as is a beam that first buckles to the left and then suddenly switches to buckling to the right halfway through a trajectory. Moreover, bifurcations are typically rare events in trajectories. Training a frame-by-frame autoregressive model to produce trajectories would face significant challenge of capturing this key aspect of the system’s behavior while being underrepresented in the training data. Predicting the full trajectory allows the model to instead represent the branch choice globally in latent space, for all steps and elements at the same time. Mesh-based GNN surrogates communicate through local message passing, making such global coordination increasingly difficult as systems grow due to oversmoothing and oversquashing [ 43 , 13 , 11 , 5 ] . Evaluation is similarly nontrivial. Pointwise metrics such as rank histograms and CRPS [ 23 , 19 , 28 , 42 , 39 ] assess pointwise calibration but cannot determine whether samples are coherent trajectories, while best-of- K K scores ignore most of the predicted distribution. Generic two-sample distances can detect mode collapse but become difficult to estimate in high dimensions and do not exploit the symmetry structure of bifurcating solutions [ 26 , 9 ] . We address these challenges with Bi-FORK: Bifurcation Flow-matching Over Repulsion-guided Kinematics, a latent flow-matching framework for symmetry-breaking bifurcations (see Figure 1 ). Bi-FORK generates full trajectories jointly, keeping branch choices consistent across space and time rather than learning them through local transitions. Because full-resolution execution is intractable, flow matching operates in a compact latent space, decoupling global coordination from discretization. Although compression can average modes, branch identity dominates trajectory variance and is therefore preserved by the reconstruction objective without supervision. At inference, particle guidance [ 58 , 14 ] repels concurrent samples, acting as a parallelized analog of classical deflation [ 10 , 18 ] to recover distinct solutions. We assess the resulting distribution by matching predictions to their nearest ground truth and, per input, measuring orbit coverage under the relevant symmetry group via the Jensen-Shannon divergence, thereby detecting regime collapse and quantifying coverage of the underlying distribution. We evaluate the approach on three symmetry-breaking bifurcation problems: buckling beams, buckling mechanical metamaterials, and phase separation described by Allen-Cahn. These systems cover two- and three-dimensional grid- and mesh-based problems, various symmetry groups (both discrete and continuous), trajectories of 32 to 200 timesteps, and discretizations from a handful of points to 260,000. To our knowledge, this is the first demonstration of solution distribution recovery for one-to-many problems at that scale, and we show that our method outperforms existing approaches in both accuracy and efficiency. Our contributions are: 1. A latent flow-matching framework that models whole trajectories, making branch coherence structural, and scales several orders of magnitude beyond prior work. 2. A particle-guidance sampling mechanism recovering multiple distinct solutions in one amortized pass, as a parallel analog of deflation. 3. Diagnostics based on symmetry-orbit matching and per-input Jensen-Shannon divergence that detect regime collapse and extend distributional verification to continuous and infinite symmetry groups. 2 A Blueprint for Bifurcating Regimes 2.1 Bifurcation Systems Figure 2 : Exemplary pitchfork bifurcation for the buckling metamaterials use case with increasing control protocol ℓ \\bm{\\ell} Recall that a bifurcation is the loss of uniqueness of a stable equilibrium as a control parameter crosses a critical value, with buckling as the canonical mechanical example [ 37 , 6 , 30 ] . Setting We represent trajectories as either point clouds or scalar fields on a regular grid. In both cases, 𝐌 t ∈ ℝ N × C \\mathbf{M}^{t}\\in\\mathbb{R}^{N\\times C} denotes the modeled response at N N spatial locations and timestep t ∈ { 1 , … , T } t\\in\\{1,\\dots,T\\} , and 𝐌 1 : T ∈ ℝ T × N × C \\mathbf{M}^{1:T}\\in\\mathbb{R}^{T\\times N\\times C} forms the complete response trajectory. For point clouds, the N N locations are material points with reference coordinates 𝐗 1 ∈ ℝ N × D \\mathbf{X}^{1}\\in\\mathbb{R}^{N\\times D} , where D ∈ { 2 , 3 } D\\in\\{2,3\\} . The response 𝐌 t \\mathbf{M}^{t} is their displacement or microfluctuation field, so C = D C=D ; deformed coordinates 𝐗 t \\mathbf{X}^{t} are recovered from 𝐗 1 \\mathbf{X}^{1} and 𝐌 t \\mathbf{M}^{t} using the prescribed loading and dataset-specific kinematics. For regular-grid data, the N N locations are fixed grid sites and 𝐌 t \\mathbf{M}^{t} is the scalar field itself, so C = 1 C=1 . Datasets We consider three physical systems: (i) Beam3D models a slender beam that is compressed from one end until it buckles in arbitrary directions. (ii) Mechanical Metamaterials captures the buckling behavior of 2D porous materials with different periodic patterns, leading to distinct stable shapes. (iii) Allen-Cahn describes how a mixture separates into different phases over time, with a shared homogeneous initial state that evolves into several possible stable configurations. Modes as a symmetry orbit A problem instance is a condition 𝐜 = ( 𝐗 1 , ℓ ) \\mathbf{c}=(\\mathbf{X}^{1},\\bm{\\ell}) : a reference geometry together with a control protocol ℓ = ( ℓ 1 , … , ℓ T ) \\bm{\\ell}=(\\bm{\\ell}^{1},\\dots,\\bm{\\ell}^{T}) that is fixed in advance and not influenced by the system’s response. The set of all feasible conditions we denote by 𝒞 \\mathcal{C} . For the mechanical metamaterials datasets, for example, ℓ \\bm{\\ell} is a quasi-static loading schedule generated by a single terminal load ( 𝐅 t \\mathbf{F}^{t} interpolating toward 𝐅 T \\mathbf{F}^{T} ), and the index t t enumerates states and load increments simultaneously: 𝐌 t \\mathbf{M}^{t} is the equilibrium microfluctuation response to the input ℓ t \\bm{\\ell}^{t} (see Figure 2 ). For Allen-Cahn, the protocol is constant, ℓ t ≡ ( ϵ , μ ) \\bm{\\ell}^{t}\\equiv(\\epsilon,\\mu) , where ϵ \\epsilon is a length scale and μ \\mu determines local phase structure. The systems are multistable : under a fixed condition, several physically distinct outcomes— modes —are admissible. We denote their mode set by ℳ 𝐜 \\mathcal{M}_{\\mathbf{c}} 1 1 1 Here ‘Mode’ means a distinct admissible outcome, not an eigenmode: two symmetry-related metamaterial solutions stem from one buckling eigenmode but count as two modes. The usage agrees with statistics—outcomes follow p ( ⋅ ∣ 𝐜 ) p(\\cdot\\mid\\mathbf{c}) , and for finite mode sets each branch is an isolated local maximum of this distribution; for the beam the distribution is uniform along the orbit, which is then its maximizer set. , and write ℳ 𝐜 t \\mathcal{M}_{\\mathbf{c}}^{t} for the set of their responses at timestep t t . Symmetry organizes this set: with G 𝐜 = { g ∣ g ⋅ 𝐜 = 𝐜 } \\displaystyle G_{\\mathbf{c}}=\\{\\,g\\mid g\\cdot\\mathbf{c}=\\mathbf{c}\\ \\,\\} (1) the symmetry group of the condition, any response 𝐌 \\mathbf{M} yie",
+      "page_text_length": 12000
+    },
+    {
+      "query": "\"Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems\" product technology",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems ...",
+      "url": "https://openreview.net/forum?id=ZJsdzprrDB",
+      "snippet": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these ...",
+      "page_text": "Verifying your browser | OpenReview Verifying your browser Complete the check below to continue to OpenReview Please complete the verification above. Have an OpenReview account? Sign in to skip this check.",
+      "page_text_length": 205
+    },
+    {
+      "query": "\"Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems\" product technology",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+      "url": "https://www.one9founders.com/research/2610.12449",
+      "snippet": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learnin",
+      "page_text": "Back to papers October 8, 2026 cs.LG cs.AI cs.CE physics.comp-ph Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems Anna Zimmel , Fleur Hendriks , Markus Holzleitner , Florian Sestak , Martin Weichselbaumer , Vlado Menkovski , Johannes Brandstetter Original Abstract Read on arXiv Download PDF Categories cs.LG, cs.AI, cs.CE, physics.comp-ph Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems - AI Research | One9Founders",
+      "page_text_length": 457
+    },
+    {
+      "query": "\"Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems\" product technology",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems ...",
+      "url": "https://arxiv.deeppaper.ai/papers/2610.12449v1",
+      "snippet": "Key Contributions Introduces a novel generative framework (Bi-FORK) for high-dimensional bifurcating systems, utilizes latent flow matching for coherent trajectory generation, and employs repulsion-guided sampling to efficiently recover multimodal solution branches at scale.",
+      "page_text": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems | Arxiv - DeepPaper Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems PDF DeepRead Key Contributions Introduces a novel generative framework (Bi-FORK) for high-dimensional bifurcating systems, utilizes latent flow matching for coherent trajectory generation, and employs repulsion-guided sampling to efficiently recover multimodal solution branches at scale. Abstract Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these one-to-many solution maps in high-dimensional systems. Bi-FORK generates complete trajectories through latent flow matching, preserving space and time coherence, and uses repulsion-guided sampling to recover distinct solution branches in a single amortized pass. We evaluate Bi-FORK on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation, spanning continuous, discrete, and field-valued bifurcations with discretizations up to 260,000 points. Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches, opening generative modeling to high-dimensional bifurcating physical systems. Summary Bi-FORK is a generative framework that uses latent flow matching and repulsion-guided sampling to model one-to-many solution branches in high-dimensional bifurcating physical systems. Subjects cs.LG cs.AI cs.CE physics.comp-ph arXiv 2610.12449v1 Paper Type breakthrough framework Method Domain Generative Modeling AI for Science physical simulation Authors Anna Zimmel, Fleur Hendriks, Markus Holzleitner, Florian Sestak, Martin Weichselbaumer, Vlado Menkovski, Johannes Brandstetter Submitted Oct 08, 2026 Similar Papers 0 papers View More",
+      "page_text_length": 2060
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "5ab1636c45cadd18716a5aab3cda06d9aa92b3126d81a5fa0e403be85b026d2b",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2610.12449",
+      "date": "2026-10-08T17:58:36Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems\n\nA new generative framework, Bi-FORK, has been introduced for high-dimensional bifurcating systems. This framework utilizes latent flow matching for coherent trajectory generation and employs repulsion-guided sampling to efficiently recover multimodal solution branches. The framework has been evaluated on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation, spanning continuous, discrete, and field-valued bifurcations with discretizations up to 260,000 points. Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches, opening generative modeling to high-dimensional bifurcating physical systems.\n\nAvailability: The paper is available on arXiv, but no shipping date has been announced.",
+    "source_record_ids": [
+      "5ab1636c45cadd18716a5aab3cda06d9aa92b3126d81a5fa0e403be85b026d2b"
+    ],
+    "format": "product_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems\n\nA new generative framework, Bi-FORK, has been introduced for high-dimensional bifurcating systems. This framework utilizes latent flow matching for coherent trajectory generation and employs repulsion-guided sampling to efficiently recover multimodal solution branches. The framework has been evaluated on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation, spanning continuous, discrete, and field-valued bifurcations with discretizations up to 260,000 points. Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches, opening generative modeling to high-dimensional bifurcating physical systems.\n\nAvailability: The paper is available on arXiv, but no shipping date has been announced.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "A new generative framework, Bi-FORK, has been introduced for high-dimensional bifurcating systems.",
+        "This framework utilizes latent flow matching for coherent trajectory generation.",
+        "It employs repulsion-guided sampling to efficiently recover multimodal solution branches.",
+        "The framework has been evaluated on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation.",
+        "Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches."
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "A new generative framework, Bi-FORK, has been introduced for high-dimensional bifurcating systems.",
+        "This framework utilizes latent flow matching for coherent trajectory generation.",
+        "It employs repulsion-guided sampling to efficiently recover multimodal solution branches.",
+        "The framework has been evaluated on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation.",
+        "Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches."
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "A new generative framework, Bi-FORK, has been introduced for high-dimensional bifurcating systems.",
+      "This framework utilizes latent flow matching for coherent trajectory generation.",
+      "It employs repulsion-guided sampling to efficiently recover multimodal solution branches.",
+      "The framework has been evaluated on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation.",
+      "Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches."
+    ]
+  }
+}

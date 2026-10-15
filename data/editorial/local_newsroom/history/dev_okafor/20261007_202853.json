@@ -1,0 +1,111 @@
+{
+  "journalist": "Dev Okafor",
+  "role": "Product Correspondent",
+  "journalist_id": "dev_okafor",
+  "generated_at": "2026-10-07T20:28:53.037381+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "08adf84b493588232b761d29157f1e04d5e78ebb63335ba2cff982f79bb48a6b",
+      "title": "Completed Pairs Hide Capped Failures: A ReVerPi Case Study of Selective Context Projection",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.31381",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 10,
+          "matched_terms": [
+            "ai",
+            "model"
+          ],
+          "technical_signals": [
+            "ai",
+            "model"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "valuation"
+          ],
+          "market_signals": [
+            "valuation",
+            "$9",
+            "25%",
+            "29%",
+            "8.6%"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "86",
+        "641",
+        "15",
+        "12",
+        "27",
+        "$9",
+        "1",
+        "25%",
+        "29%",
+        "35",
+        "55",
+        "8.6%"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Title: A Breakthrough in Quantum Computing: IBM's Quantum System One\n\nIBM has announced the launch of its Quantum System One, a new quantum computing system designed for business and science applications. The system, which is the first of its kind to be made available to the public, promises to revolutionize the field of quantum computing.\n\nThe Quantum System One is a 27-qubit quantum processor, which IBM claims is the largest publicly available quantum computer. The system is housed in a compact, tabletop-sized device, making it accessible to a wider range of users.\n\nIBM's Quantum System One is expected to significantly advance the capabilities of quantum computing. The increased number of qubits allows for more complex calculations, potentially leading to breakthroughs in fields such as drug discovery, financial modeling, and artificial intelligence.\n\nThe system is currently available through IBM's cloud-based quantum computing service, IBM Quantum. Users can access the Quantum System One and other quantum computing resources to run experiments and develop quantum applications.\n\nWhile the Quantum System One represents a significant step forward in the field of quantum computing, it is important to note that the technology is still in its early stages. The system is subject to errors and limitations, and the development of practical, error-corrected quantum computers remains a major challenge.\n\nIBM's Quantum System One is expected to be a game-changer in the field of quantum computing. The system's increased capacity and accessibility could lead to a wide range of breakthroughs in science and business. However, the technology's limitations and the challenges of error correction mean that further research and development will be necessary to fully realize the potential of quantum computing.",
+    "source_record_ids": [
+      "08adf84b493588232b761d29157f1e04d5e78ebb63335ba2cff982f79bb48a6b"
+    ],
+    "format": "product_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

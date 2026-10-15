@@ -1,0 +1,135 @@
+{
+  "journalist": "Elena Vasquez",
+  "role": "Drones & Uncrewed Systems Correspondent",
+  "journalist_id": "elena_vasquez",
+  "generated_at": "2026-10-07T17:02:02.650023+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery\" latest",
+      "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language ...",
+      "url": "https://huggingface.co/papers/2609.31507",
+      "snippet": "Join the discussion on this paper page SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery"
+    },
+    {
+      "query": "\"SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery\" latest",
+      "title": "[论文解读] SatNav: A Scalable Benchmark for Long-Horizon UAV Vision ...",
+      "url": "https://papernotes.org/NeurIPS2026/remote_sensing/satnav_a_scalable_benchmark_for_long-horizon_uav_vision-language_navigation_from/",
+      "snippet": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery ¶"
+    },
+    {
+      "query": "\"SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery\" latest",
+      "title": "港科大NeurIPS 2026打造无人机长程导航基准：11.8万航迹覆盖18城，卫星视角直通实机｜arXivDaily行业趋势",
+      "url": "https://www.arxivdaily.com/industry-trends/2026-09-28/2609.31507",
+      "snippet": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery SatNav：基于卫星影像的长时程无人机视觉-语言导航可扩展基准 作者 Jiajun Jiang, Chunliang Hua, Zichun Chen, Yanxing Wu, Zeyuan Yang, Jie Song, Xiao Hu 发表机构 香港科技大学（广州）; 香港科技大学 展开完整论文资料"
+    },
+    {
+      "query": "\"SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery\" official",
+      "title": "[2609.31507] SatNav: A Scalable Benchmark for Long-Horizon ...",
+      "url": "https://arxiv.org/abs/2609.31507",
+      "snippet": "Sep 25, 2026 · To address this, we introduce SatNav, a scalable, long-horizon UAV VLN benchmark built from high-resolution satellite imagery. SatNav targets city-level navigation missions and uses satellite crops as approximations of UAV nadir views for visual observations."
+    },
+    {
+      "query": "\"SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery\" official",
+      "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision ...",
+      "url": "https://eku127.github.io/SatNav/",
+      "snippet": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery. Accepted at NeurIPS 2026, Evaluations & Datasets Track (Poster)."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "93c7021295bf2dd5d9a26bea590352fec4f81cf9521434df9e1ce35350746c3e",
+      "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.31507",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 15,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models",
+            "language model",
+            "benchmark",
+            "navigation",
+            "satellite"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models",
+            "language model",
+            "benchmark",
+            "navigation",
+            "satellite"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "59",
+        "18",
+        "379 m"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Researchers at Hong Kong University of Science and Technology have introduced SatNav, a scalable, long-horizon UAV Vision-Language Navigation benchmark built from high-resolution satellite imagery. The benchmark targets city-level navigation missions and uses satellite crops as approximations of UAV nadir views for visual observations. The development was accepted at NeurIPS 2026, Evaluations & Datasets Track (Poster).",
+    "source_record_ids": [
+      "93c7021295bf2dd5d9a26bea590352fec4f81cf9521434df9e1ce35350746c3e"
+    ],
+    "format": "drone_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

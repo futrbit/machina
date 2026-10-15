@@ -1,0 +1,75 @@
+{
+  "journalist": "Dev Okafor",
+  "role": "Product Correspondent",
+  "journalist_id": "dev_okafor",
+  "generated_at": "2026-10-11T19:47:26.812108+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Refinement as a Service: Algorithmic Predictor Refinement\" product technology",
+      "title": "Refinement as a Service: Algorithmic Predictor Refinement",
+      "url": "https://arxiv.org/abs/2610.11415",
+      "snippet": "Prediction aggregation aims to combine information from multiple predictors into a more informative one. We study this question in the setting of calibrated predictors, where each prediction must equal the conditional expectation of the quantity being predicted given the predictor's signal. Given several calibrated input predictors and the feature distribution, but not the underlying Bayes ...",
+      "page_text": "[2610.11415] Refinement as a Service: Algorithmic Predictor Refinement Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Computer Science and Game Theory arXiv:2610.11415 (cs) [Submitted on 8 Oct 2026] Title: Refinement as a Service: Algorithmic Predictor Refinement Authors: Wei Tang , Hanrui Zhang View a PDF of the paper titled Refinement as a Service: Algorithmic Predictor Refinement, by Wei Tang and 1 other authors View PDF HTML (experimental) Abstract: Prediction aggregation aims to combine information from multiple predictors into a more informative one. We study this question in the setting of calibrated predictors, where each prediction must equal the conditional expectation of the quantity being predicted given the predictor's signal. Given several calibrated input predictors and the feature distribution, but not the underlying Bayes probabilities, we ask when one can construct refined calibrated predictors that preserve the information in the original predictors and cannot be further refined using the available information. We formulate calibrated predictors as signaling schemes and define refinement through feature-independent garblings: a predictor refines another if its signal can simulate the other's signal. Constructibility is characterized through observable linear information: each signal corresponds to a vector over the feature space, and a new signal is constructible exactly when its vector lies in the linear span of the input signal vectors. Under this formulation, we establish a sharp algorithmic picture. For deterministic output predictors, bilateral refinement admits a polynomial-time algorithm based on a bipartite graph between the two input signal partitions, while refinement with an arbitrary number of input predictors is $\\mathsf{NP}$-hard. In contrast, when randomized output predictors are allowed, we give a polynomial-time algorithm for any number of input predictors by decomposing constructible signal vectors into extreme rays of the associated polyhedral cone. Comments: A more compact version of the paper has been accepted by NeurIPS 2026 Subjects: Computer Science and Game Theory (cs.GT) ; Machine Learning (cs.LG) Cite as: arXiv:2610.11415 [cs.GT] (or arXiv:2610.11415v1 [cs.GT] for this version) https://doi.org/10.48550/arXiv.2610.11415 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Hanrui Zhang [ view email ] [v1] Thu, 8 Oct 2026 07:45:27 UTC (56 KB) Full-text links: Access Paper: View a PDF of the paper titled Refinement as a Service: Algorithmic Predictor Refinement, by Wei Tang and 1 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.GT < prev | next > new | recent | 2026-10 Change to browse by: cs cs.LG References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4735
+    },
+    {
+      "query": "\"Refinement as a Service: Algorithmic Predictor Refinement\" product technology",
+      "title": "Refinement as a Service: Algorithmic Predictor Refinement",
+      "url": "https://arxiv.org/pdf/2610.11415",
+      "snippet": "We formulate calibrated predictors as signaling schemes and define refinement through feature-independent garblings: a predictor refines another if its signal can simulate the other's signal. Constructibility is characterized through observable linear information: each signal cor-responds to a vector over the feature space, and a new signal is constructible exactly when its vector lies in ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Refinement as a Service: Algorithmic Predictor Refinement\" product technology",
+      "title": "Refinement as a Service: Algorithmic Predictor Refinement",
+      "url": "https://www.catalyzex.com/paper/refinement-as-a-service-algorithmic-predictor",
+      "snippet": "Refinement as a Service: Algorithmic Predictor Refinement: Paper and Code. Prediction aggregation aims to combine information from multiple predictors into a more informative one. We study this question in the setting of calibrated predictors, where each prediction must equal the conditional expectation of the quantity being predicted given the predictor's signal. Given several calibrated ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Refinement as a Service: Algorithmic Predictor Refinement\" product technology",
+      "title": "Refinement as a Service: Algorithmic Predictor Refinement",
+      "url": "https://www.aimodels.fyi/papers/arxiv/refinement-as-service-algorithmic-predictor-refinement",
+      "snippet": "What predictor refinement computes The paper's central technical result is a polynomial-time algorithm for refining any number of calibrated predictors when randomized output predictors are allowed. It treats each predictor as a signal scheme and asks whether the signals can be made more informative using only the feature distribution and the input predictors, without access to the unknown ...",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "8cfb5c645076d35aca76ccdd503bdbc277d1119442b3e2fccaea5fb05aba33d9",
+      "title": "Refinement as a Service: Algorithmic Predictor Refinement",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2610.11415",
+      "date": "2026-10-08T07:45:27Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "‘Refinement as a Service’ proposes algorithms for combining calibrated predictors—not a documented software service\n\nThe paper studies how to construct a more informative calibrated predictor from existing predictors and a feature distribution, without access to the underlying Bayes probabilities. For randomized output predictors, it gives a polynomial-time algorithm for any number of inputs. With deterministic outputs, bilateral refinement has a polynomial-time algorithm, while refinement using an arbitrary number of inputs is NP-hard.\n\nThe paper specifies no customer group, software interface or product access. Its contribution is a theoretical algorithmic result, not evidence of a shipped capability; “as a Service” is part of the title, not a service launch. The paper is on arXiv and is listed as accepted by NeurIPS 2026; product availability not specified.",
+    "source_record_ids": [
+      "8cfb5c645076d35aca76ccdd503bdbc277d1119442b3e2fccaea5fb05aba33d9"
+    ],
+    "format": "product_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

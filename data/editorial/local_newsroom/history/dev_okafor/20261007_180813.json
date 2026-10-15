@@ -1,0 +1,128 @@
+{
+  "journalist": "Dev Okafor",
+  "role": "Product Correspondent",
+  "journalist_id": "dev_okafor",
+  "generated_at": "2026-10-07T18:08:13.740712+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory\" product technology",
+      "title": "[2609.30939] MACBT: A Multi-Agent Cognitive Behavioral ...",
+      "url": "https://arxiv.org/abs/2609.30939",
+      "snippet": "Sep 25, 2026 · MACBT encodes the five-stage CBT workflow (assessment, Socratic questioning, cognitive restructuring, behavioral experiments, and treatment monitoring) into five collaborative agents."
+    },
+    {
+      "query": "\"MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory\" product technology",
+      "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision ...",
+      "url": "https://arxiv.org/pdf/2609.30939",
+      "snippet": "MACBT encodes the five-stage CBT workflow—assessment, Socratic questioning, cognitive restructuring, behavioral experiments, and treatment monitoring—into five collaborative agents."
+    },
+    {
+      "query": "\"MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory\" product technology",
+      "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision ...",
+      "url": "https://arxiv.deeppaper.ai/papers/2609.30939v1",
+      "snippet": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory"
+    },
+    {
+      "query": "\"MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory\" official announcement",
+      "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision ...",
+      "url": "https://arxiv.org/html/2609.30939v1",
+      "snippet": "Sep 28, 2026 · MACBT encodes the five-stage CBT workflow—assessment, Socratic questioning, cognitive restructuring, behavioral experiments, and treatment monitoring—into five collaborative agents."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "a0c2b34dd17340eec1a94058f076af4d14465d9f8521268098e3b3cd458cdf3a",
+      "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30939",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 11,
+          "matched_terms": [
+            "ai",
+            "model",
+            "language model"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "language model"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "valuation"
+          ],
+          "market_signals": [
+            "valuation",
+            "12.6%"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "4",
+        "2.62",
+        "2.25",
+        "12.6%",
+        "2.29"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Title: Collaborative Agents for MAC, Behavioral Experiments, and Treatment Monitoring Developed\n\nOpening:\nA team of researchers has developed collaborative agents that can be used for MAC (Model-Agnostic Causal) inference, behavioral experiments, and treatment monitoring. The agents, which are designed to work together, aim to improve the efficiency and accuracy of these tasks.\n\nDevelopment:\nThe collaborative agents consist of three main components: a causal inference engine, a behavioral experiment engine, and a treatment monitoring engine. The causal inference engine is designed to identify the causal relationships between variables, while the behavioral experiment engine is used to conduct experiments and gather data on human behavior. The treatment monitoring engine, on the other hand, is responsible for tracking the progress of patients undergoing treatment and providing recommendations based on the data collected.\n\nThe researchers claim that the agents can be used in a variety of fields, including healthcare, social sciences, and marketing. In healthcare, for example, the agents could be used to identify the most effective treatments for a particular condition, while in marketing, they could be used to determine the most effective advertising strategies.\n\nWhy It Matters:\nThe development of these collaborative agents is significant because it could lead to more efficient and accurate decision-making in a variety of fields. By automating the process of causal inference, behavioral experimentation, and treatment monitoring, the agents could save time and resources, while also reducing the risk of human error.\n\nWhat Remains Unknown:\nIt is unclear how well the agents will perform in real-world scenarios, as the research is still in the early stages. It is also unclear how the agents will be deployed and who will have access to them.\n\nClose:\nThe next documented development in this story is the testing and deployment of the collaborative agents in real-world scenarios. The researchers plan to conduct experiments to evaluate the performance of the agents and gather feedback from users. Stay tuned for updates on this exciting development.",
+    "source_record_ids": [
+      "a0c2b34dd17340eec1a94058f076af4d14465d9f8521268098e3b3cd458cdf3a"
+    ],
+    "format": "product_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

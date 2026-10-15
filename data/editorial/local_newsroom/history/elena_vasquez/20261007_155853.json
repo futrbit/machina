@@ -1,0 +1,110 @@
+{
+  "journalist": "Elena Vasquez",
+  "role": "Drones & Uncrewed Systems Correspondent",
+  "journalist_id": "elena_vasquez",
+  "generated_at": "2026-10-07T15:58:53.651857+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Threat-Aware Energy-Efficient Deployment for Dynamic UAV Networks: A Multi-Agent RL Approach\" latest",
+      "title": "[论文评述] Threat-Aware Energy-Efficient Deployment for Dynamic UAV ...",
+      "url": "https://www.themoonlight.io/zh/review/threat-aware-energy-efficient-deployment-for-dynamic-uav-networks-a-multi-agent-rl-approach",
+      "snippet": "本页面提供全球最准确、精炼的论文《Threat-Aware Energy-Efficient Deployment for Dynamic UAV Networks: A Multi-Agent RL Approach》摘要。 通过Moonlight这款AI研究助手，您可以轻松快速地理解所阅读的所有论文。"
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "4dee491040e28766ab390004a7081452431816c133c0ac45a9f67d560e9605b3",
+      "title": "Threat-Aware Energy-Efficient Deployment for Dynamic UAV Networks: A Multi-Agent RL Approach",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30690",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 13,
+          "matched_terms": [
+            "ai",
+            "compute",
+            "swarm",
+            "energy",
+            "demo"
+          ],
+          "technical_signals": [
+            "ai",
+            "compute",
+            "swarm",
+            "energy",
+            "demo"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "deployment"
+          ],
+          "market_signals": [
+            "deployment"
+          ]
+        },
+        "gamma": {
+          "score": 2,
+          "matched_terms": [
+            "policy",
+            "eu"
+          ],
+          "strategic_signals": [
+            "policy",
+            "eu",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Researchers propose a multi-agent reinforcement learning approach for energy-efficient deployment of dynamic UAV networks, aiming to enhance threat awareness. The study is titled \"Threat-Aware Energy-Efficient Deployment for Dynamic UAV Networks: A Multi-Agent RL Approach\" and was published on arXiv cs.AI on September 28, 2026. The paper is yet to be independently verified.",
+    "source_record_ids": [
+      "4dee491040e28766ab390004a7081452431816c133c0ac45a9f67d560e9605b3"
+    ],
+    "format": "drone_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

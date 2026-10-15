@@ -1,0 +1,76 @@
+{
+  "journalist": "Elena Vasquez",
+  "role": "Drones & Uncrewed Systems Correspondent",
+  "journalist_id": "elena_vasquez",
+  "generated_at": "2026-10-11T00:15:18.609229+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "23a686768c1ba04d8a39cf5fffe8ff97f61ca28a4b87cfa9f30f5c4c3a216cbd",
+      "title": "Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.10434",
+      "date": "2026-08-11T03:31:59Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "**ArXiv study compares conversational and dashboard AI interfaces for UAV intrusion detection**\n\nAn arXiv record dated 11 August 2026 lists an empirical study titled \"Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance.\" The study compares two types of AI interfaces for UAV intrusion detection, but the record does not provide an abstract or results.\n\nThe study does not specify a UAV platform, autonomy level, sensors, payload, or test environment. No operational capability demonstration, production status, or deployment is established by the available information. The record only identifies the comparison of interface types and operator trust and reliance.",
+    "source_record_ids": [
+      "23a686768c1ba04d8a39cf5fffe8ff97f61ca28a4b87cfa9f30f5c4c3a216cbd"
+    ],
+    "format": "drone_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": true,
+    "original_article": "**ArXiv record lists study of explainable AI interfaces for UAV intrusion detection**\n\nAn arXiv record dated 11 August 2026 lists an empirical study titled “Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance.” Its title identifies a comparison of interface types and operator trust and reliance, but the supplied record contains no abstract or results.\n\nIt does not identify a UAV platform, autonomy level, sensors, payload or test environment. No operational capability demonstration, production status or deployment is established by the available information.",
+    "corrected_article": "**ArXiv study compares conversational and dashboard AI interfaces for UAV intrusion detection**\n\nAn arXiv record dated 11 August 2026 lists an empirical study titled \"Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance.\" The study compares two types of AI interfaces for UAV intrusion detection, but the record does not provide an abstract or results.\n\nThe study does not specify a UAV platform, autonomy level, sensors, payload, or test environment. No operational capability demonstration, production status, or deployment is established by the available information. The record only identifies the comparison of interface types and operator trust and reliance.",
+    "initial_verification": {
+      "status": "FAIL",
+      "issues": [
+        "The article does not provide evidence to support the central factual claim that the study titled ‘Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance’ contains an abstract or results."
+      ],
+      "verified_claims": []
+    },
+    "repair_validation": {
+      "status": "PASS",
+      "issues": []
+    },
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: 'Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance'",
+        "The article's headline and body match that story",
+        "The article's central factual claims are supported by supplied evidence"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article concerns the correct assigned story: 'Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance'",
+      "The article's headline and body match that story",
+      "The article's central factual claims are supported by supplied evidence"
+    ]
+  }
+}

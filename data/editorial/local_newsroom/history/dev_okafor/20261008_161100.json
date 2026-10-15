@@ -1,0 +1,119 @@
+{
+  "journalist": "Dev Okafor",
+  "role": "Product Correspondent",
+  "journalist_id": "dev_okafor",
+  "generated_at": "2026-10-08T16:11:00.943895+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks\" product technology",
+      "title": "[2609.30887] From Tapping to Hopping: Augmenting Mobile GUI Agents with ...",
+      "url": "https://arxiv.org/abs/2609.30887",
+      "snippet": "Abstract page for arXiv paper 2609.30887: From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks",
+      "page_text": "[2609.30887] From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Artificial Intelligence arXiv:2609.30887 (cs) [Submitted on 25 Sep 2026] Title: From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks Authors: Yuchen Sun , Chenglin Cai , Gongjie Zhang , Tianyu Xia , Quyu Kong , Panrong Tong , Zhengwen Zeng , Long Chen , Steven Hoi , Chongyang Zhang , Yue Wang View a PDF of the paper titled From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks, by Yuchen Sun and 10 other authors View PDF HTML (experimental) Abstract: Mobile GUI agents complete tasks using GUI actions like taps and swipes. These actions are broadly applicable across applications, but reaching a navigation interface. A single deeplink call can replace a sequence of screen-by-screen GUI actions. We therefore introduce hybrid interaction, using deeplinks for direct navigation and GUI actions for other on-screen operations and fallback. To enable this, we discover candidate deeplinks through static analysis, validate them on real devices, and describe their observed landing screens. This process creates a verified and grounded deeplink catalog that pairs each working deeplink with a description of its landing screen. Using this catalog, we introduce GUI-Hopper, a improves task success in commercial applications on real devices, further demonstrating the benefits of hybrid interaction. Comments: 23 pages, 7 figures, 8 tables Subjects: Artificial Intelligence (cs.AI) Cite as: arXiv:2609.30887 [cs.AI] (or arXiv:2609.30887v1 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2609.30887 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Yuchen Sun [ view email ] [v1] Fri, 25 Sep 2026 06:50:04 UTC (26,702 KB) Full-text links: Access Paper: View a PDF of the paper titled From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks, by Yuchen Sun and 10 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.AI < prev | next > new | recent | 2026-09 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4118
+    },
+    {
+      "query": "\"From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks\" product technology",
+      "title": "GUI-Agents-Paper-List/README.md at main - GitHub",
+      "url": "https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/blob/main/README.md",
+      "snippet": "This README shows the 500 most recent papers. See papers.yaml for the full structured source — including BibTeX, OpenReview / publisher / homepage / code / dataset links, and the bibtex_confirmed flag. For non-canonical adjacent papers see adjacent.yaml. From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks Yuchen Sun, Chenglin Cai, Gongjie Zhang, Tianyu Xia, Quyu ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks\" product technology",
+      "title": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn ...",
+      "url": "https://pith.science/paper/2509.02544",
+      "snippet": "From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks A hybrid agent that uses verified app deeplinks for direct navigation and GUI actions for everything else completes more mobile tasks in fewer steps than GUI-only agents on two Android benchmarks.",
+      "page_text": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning · Pith Why Pith says this Highlight any text to comment on it. read the letter The paper's core contribution is a training recipe that combines scalable data generation, stabilized multi-turn RL, and a hybrid environment with file systems and terminals. It reports clear numbers: 88.2 on Online-Mind2Web, 47.5 on OSWorld, 50.6 on WindowsAgentArena, and 73.3 on AndroidWorld, plus a 59.8 mean normalized score on a 15-game suite. These beat the prior UI-TARS-1.5 version and some proprietary baselines like Claude and OpenAI agents. The engineering details on keeping large-scale agent RL stable are the most useful part for anyone trying to run similar training loops. Running UI-TARS-2 on a fresh collection of real desktop and mobile tasks that lie outside the provided benchmarks and sandbox and measuring whether the reported score margins over prior models and proprietary agents are preserved. Referee report If the performance gains prove attributable to the multi-turn RL stabilization and data flywheel rather than the expanded hybrid action space, the work would offer a useful empirical advance in scalable GUI agent training, providing benchmark numbers that can serve as reference points for future native agent models. The multi-benchmark evaluation and training dynamics analysis add value, though the hybrid setup's role requires clarification to support claims of GUI-centric generalization. [Hybrid GUI environment and unified sandbox] Hybrid GUI environment description: the central claim of advancing GUI agents rests on the hybrid integration of file systems and terminals, yet no ablation isolates their contribution from pure GUI actions; without this, the reported deltas (e.g., 88.2 on Online-Mind2Web, 47.5 on OSWorld) may reflect richer action spaces rather than improved perception-reasoning loops, weakening the generalization assertion to real-world GUI scenarios. [Empirical evaluation] Empirical evaluation and results: benchmark scores are presented without error bars, standard deviations, number of evaluation runs, or data-exclusion criteria; this absence makes it impossible to assess statistical reliability of outperformance claims over UI-TARS-1.5 and proprietary baselines. [Training methodology] Multi-turn RL framework: the stabilized multi-turn RL is positioned as a core methodological advance, but the manuscript supplies no ablation on its components (e.g., reward shaping or turn-length handling) or concrete hyperparameters, leaving the source of training stability and the 59.8 game-suite score opaque. A consolidated table comparing all reported benchmarks against baselines (including UI-TARS-1.5, Claude, and OpenAI agents) would improve readability of the performance claims. The game-environment normalization procedure and the exact composition of the 15-game suite should be specified to allow direct replication of the 59.8 mean score. read the rebuttal and 3 point-by-point responses We thank the referee for the constructive and detailed comments on our technical report. We address each major point below with honest responses based on the current manuscript. Where the comments identify gaps, we commit to revisions that strengthen the paper without overstating what was originally presented. Referee: Hybrid GUI environment description: the central claim of advancing GUI agents rests on the hybrid integration of file systems and terminals, yet no ablation isolates their contribution from pure GUI actions; without this, the reported deltas (e.g., 88.2 on Online-Mind2Web, 47.5 on OSWorld) may reflect richer action spaces rather than improved perception-reasoning loops, weakening the generalization assertion to real-world GUI scenarios. Authors: We agree that the manuscript does not contain an explicit ablation isolating the hybrid file-system and terminal components from pure GUI actions. The hybrid environment is presented as an integrated part of the unified sandbox to support realistic long-horizon tasks that require non-GUI operations, which aligns with our generalization claims. However, without dedicated ablations, attribution of the performance deltas remains correlational rather than causal. We will revise the manuscript to include a dedicated limitations paragraph and, where feasible, preliminary comparative runs that clarify the incremental value of the hybrid actions. revision: partial Referee: Empirical evaluation and results: benchmark scores are presented without error bars, standard deviations, number of evaluation runs, or data-exclusion criteria; this absence makes it impossible to assess statistical reliability of outperformance claims over UI-TARS-1.5 and proprietary baselines. Authors: The referee is correct that the initial submission omitted error bars, standard deviations, run counts, and exclusion criteria. These statistics were collected during evaluation but not reported. We will add them to all main benchmark tables in the revision, along with explicit statements on the number of independent runs and any data filtering applied, to allow proper assessment of statistical reliability. revision: yes Referee: Multi-turn RL framework: the stabilized multi-turn RL is positioned as a core methodological advance, but the manuscript supplies no ablation on its components (e.g., reward shaping or turn-length handling) or concrete hyperparameters, leaving the source of training stability and the 59.8 game-suite score opaque. Authors: We acknowledge that the manuscript describes the stabilized multi-turn RL framework at a high level but does not provide component ablations (e.g., on reward shaping or turn-length handling) or a full hyperparameter table. These details exist in our internal training logs but were not included in the submitted version. We will add both the requested ablations and a comprehensive hyperparameter appendix in the revision to make the sources of stability and the 59.8 score transparent. revision: yes This review was written by an AI. No human expert has reviewed this paper yet. A scientist listed on Pith can review it for a fee, and their review is published here whatever it concludes. Request a human review Become a reviewer How Pith checks papers &rarr; &middot; Full audit of this paper &rarr; The paper The paper claims UI-TARS-2 reaches 88.2 on Online-Mind2Web and 59.8 mean game score by training a native GUI agent with multi-turn reinforcement learning and a data flywheel. The reading The paper introduces UI-TARS-2 as a native GUI-centered agent that unifies perception, reasoning, action, and memory through end-to-end learning. It addresses open problems in data scalability, multi-turn RL stability, GUI-only limitations, and environment consistency by introducing a data flywheel for scalable data generation, a stabilized multi-turn RL framework, a hybrid GUI environment that integrates file systems and terminals, and a unified sandbox for large-scale rollouts. If these components work as described, the model produces measurable gains over its predecessor UI-TARS-1.5 and over strong baselines including Claude and OpenAI agents on GUI and game benchmarks while generalizing to long-horizon and software-engineering tasks. What carries the argument The stabilized multi-turn reinforcement learning framework together with a data flywheel for scalable data generation and a hybrid GUI environment that adds file-system and terminal access inside a unified sandbox. Extended reading notes Core claim UI-TARS-2 achieves 88.2 on Online-Mind2Web, 47.5 on OSWorld, 50.6 on WindowsAgentArena, 73.3 on AndroidWorld, and a mean normalized score of 59.8 across a 15-game suite by applying a data flywheel, stabilized multi-turn RL, hybrid GUI environment, and unified sandbox; the same system also shows competitive results with frontier models on LMGame-Bench and extends to information-seeking and software-engineering benchmarks. Load-bearing premise The hybrid GUI environment and unified sandbox produce training and evaluation conditions that are stable and representative enough for the observed gains to transfer to real-world interactive scenarios outside the controlled benchmarks. Editorial extensions If this is right Outperforms Claude and OpenAI agents on multiple GUI benchmarks while remaining competitive with OpenAI o3 on game suites. Generalizes to long-horizon information-seeking tasks and software-engineering benchmarks without task-specific retraining. Yields training-dynamics insights that support stable and efficient large-scale agent reinforcement learning. Maintains roughly 60 percent of human-level performance across the 15-game evaluation suite. Reading between the lines Editorial extensions of the paper, not claims the author makes directly. The hybrid environment may be the main factor that allows training signals from file and terminal actions to improve pure GUI performance. Continued scaling of the data flywheel could close more of the remaining gap to human performance on long-horizon tasks. The same combination of multi-turn RL and sandbox rollouts might transfer to non-GUI agent settings such as web navigation or code execution agents. Original abstract The development of autonomous agents for graphical user interfaces (GUIs) presents major challenges in artificial intelligence. While recent advances in native agent models have shown promise by unifying perception, reasoning, action, and memory through end-to-end learning, open problems remain in data scalability, multi-turn reinforcement learning (RL), the limitations of GUI-only operation, and environment stability. In this technical report, we present UI-TARS-2, a native GUI-centered agent model that addresses these challenges through a systematic training methodology: a data flywheel for scalable data generation, a stabilized multi-turn RL framework, a hybrid GUI environment that integrates file systems and terminals, and a unified sandbox platform for large-scale rollouts. Empirical evaluation demonstrates that UI-TARS-2 achieves significant improvements over its predecessor UI-TARS-1.5. On GUI benchmarks, it reaches 88.2 on Online-Mind2Web, 47.5 on OSWorld, 50.6 on WindowsAgentArena, and 73.3 on AndroidWorld, outperforming strong baselines such as Claude and OpenAI agents. In game environments, it attains a mean normalized score of 59.8 across a 15-game suite-roughly 60% of human-level performance-and remains competitive with frontier proprietary models (e.g., OpenAI o3) on LMGame-Bench. Additionally, the model can generalize to long-horizon information-seeking tasks and software engineering benchmarks, highlighting its robustness across diverse agent tasks. Detailed analyses of training dynamics further provide insights into achieving stability and efficiency in large-scale agent RL. These results underscore UI-TARS-2's potential to advance the state of GUI agents and exhibit strong generalization to real-world interactive scenarios. References [1] Anthropic. Introducing the model context protocol, 2024. URL https://www.anthropic.com/news/ model-context-protocol View on Pith 2024 [2] Anthropic. Developing a computer use model.https://www.anthropic.com/news/developing-computer-use, View on Pith [3] Product announcement View on Pith [4] Anthropic. Claude 3.7 sonnet system card. 2025 View on Pith 2025 [5] anthropic. Claude’s extended thinking, 2025. URL https://www.anthropic.com/news/ visible-extended-thinking View on Pith 2025 [6] anthropic. Introducing claude 4, 2025. URLhttps://www.anthropic.com/news/claude-4 View on Pith 2025 [7] Ibragim Badertdinov, Maria Trofimova, Yury Anapolskiy, Sergey Abramov, Karina Zainullina, Alexander Golubev, Sergey Polezhaev, Daria Litvintseva, Simon Karasik, Filipp Fisin, Sergey Skvortsov, Maxim Nekrashevich, Anton Shevtsov, and Boris Yangel. Scaling data collection for training software engineering agents.Nebius blog, 2024 View on Pith 2024 [8] Ibragim ",
+      "page_text_length": 12000
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "11cc410ca86de9140a805fd7bd6c34c3373af5ce57749cc943c39e7419a1ac7d",
+      "title": "From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30887",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 11,
+          "matched_terms": [
+            "ai",
+            "navigation",
+            "demo"
+          ],
+          "technical_signals": [
+            "ai",
+            "navigation",
+            "demo"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "commercial"
+          ],
+          "market_signals": [
+            "commercial"
+          ]
+        },
+        "gamma": {
+          "score": 0,
+          "matched_terms": [],
+          "strategic_signals": [
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "GUI-Hopper Adds App Deeplinks to Mobile GUI Agents\n\nGUI-Hopper is a mobile task-execution system that combines app-native deeplinks with GUI actions such as taps and swipes. It is described in an arXiv research paper; no released product, user access model, API, or shipping date is specified. Compared with GUI-only agents, it can use a single verified deeplink to jump directly to a navigation interface, then continue with GUI actions for on-screen operations or fallback; the deeplinks are catalogued through static analysis and real-device validation. This is a research extension of existing mobile GUI agents, not a launched product, and the supplied evidence",
+    "source_record_ids": [
+      "11cc410ca86de9140a805fd7bd6c34c3373af5ce57749cc943c39e7419a1ac7d"
+    ],
+    "format": "product_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

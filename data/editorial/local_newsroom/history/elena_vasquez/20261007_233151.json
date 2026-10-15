@@ -1,0 +1,97 @@
+{
+  "journalist": "Elena Vasquez",
+  "role": "Drones & Uncrewed Systems Correspondent",
+  "journalist_id": "elena_vasquez",
+  "generated_at": "2026-10-07T23:31:51.051407+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "f565d0b5e77c9016f31550133a03c776272f707a1c0905ee8c0d10290991d17d",
+      "title": "Navy prepares to add new sea drones and vendors to online marketplace",
+      "source": "CTRL + ALT + DEFENSE",
+      "url": "https://defensescoop.com/2026/09/24/navy-sea-drones-online-marketplace",
+      "date": "2026-09-24T20:44:57+00:00",
+      "source_type": "podcast",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 2,
+          "matched_terms": [
+            "drone",
+            "drones"
+          ],
+          "technical_signals": [
+            "drone",
+            "drones"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "market"
+          ],
+          "market_signals": [
+            "market"
+          ]
+        },
+        "gamma": {
+          "score": 3,
+          "matched_terms": [
+            "defense",
+            "diu",
+            "navy"
+          ],
+          "strategic_signals": [
+            "defense",
+            "diu",
+            "navy",
+            "podcast"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Navy prepares to add new sea drones and vendors to DIU's online marketplace, according to a podcast by CTRL + ALT + DEFENSE on 2026-09-24. The specific capability demonstrated was not shown, as the source does not provide operational evidence. The Defense Innovation Unit (DIU) operates the online marketplace, and the Navy is considering adding new sea drone vendors. The autonomy level of the drones is not specified in the source. The source does not provide information on the operational environment, scale, or sensors and payloads. The company claims are not verified by independent evidence. No fleet deployment or operational handover to a military customer has been announced. The evidence available is false, and independent verification has not been performed.",
+    "source_record_ids": [
+      "f565d0b5e77c9016f31550133a03c776272f707a1c0905ee8c0d10290991d17d"
+    ],
+    "format": "drone_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

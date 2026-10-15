@@ -1,0 +1,93 @@
+{
+  "journalist": "Elena Vasquez",
+  "role": "Drones & Uncrewed Systems Correspondent",
+  "journalist_id": "elena_vasquez",
+  "generated_at": "2026-10-08T19:54:49.415422+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "6c1555ceafab196272d6aca94f814a0f867317731e87a9c288bb18857090d8e7",
+      "title": "Cartel drone ops on the U.S.-Mexico border ‘get more creative every day,’ task force warns",
+      "source": "CTRL + ALT + DEFENSE",
+      "url": "https://defensescoop.com/2026/09/24/cartel-drone-operations-southern-border-getting-more-creative-task-force-warns",
+      "date": "2026-09-24T13:46:33+00:00",
+      "source_type": "podcast",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 1,
+          "matched_terms": [
+            "drone"
+          ],
+          "technical_signals": [
+            "drone"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "order"
+          ],
+          "market_signals": [
+            "order"
+          ]
+        },
+        "gamma": {
+          "score": 2,
+          "matched_terms": [
+            "defense",
+            "security"
+          ],
+          "strategic_signals": [
+            "defense",
+            "security",
+            "podcast"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Cartel drone operations along the U.S.-Mexico border were the subject of a task-force warning about increasingly creative activity on Sept. 24, 2026. The source does not establish whether the drones operated autonomously, under supervision, or by direct human control. It provides no confirmed information on sensors, payloads, weapons or communications systems, nor on how they were used. The report",
+    "source_record_ids": [
+      "6c1555ceafab196272d6aca94f814a0f867317731e87a9c288bb18857090d8e7"
+    ],
+    "format": "drone_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

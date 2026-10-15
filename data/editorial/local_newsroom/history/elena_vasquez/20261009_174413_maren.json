@@ -1,0 +1,116 @@
+{
+  "journalist": "Elena Vasquez",
+  "role": "Drones & Uncrewed Systems Correspondent",
+  "journalist_id": "elena_vasquez",
+  "generated_at": "2026-10-09T17:24:46.996760+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems\" drone uncrewed",
+      "title": "AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic ...",
+      "url": "https://ieeexplore.ieee.org/document/11247654",
+      "snippet": "This paper proposes an environmental inspection system consisting of an autonomous data collection buoy which is designed to be deployed to inaccessible river systems using a drone.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems\" drone uncrewed",
+      "title": "AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic ...",
+      "url": "https://arxiv.org/html/2610.07390v1",
+      "snippet": "4 days ago · This paper presents a novel 3D-printed, autonomous robotic buoy (Fig. 1) for environmental monitoring in inaccessible rivers. Its key novelty lies in the combined functionality of drone-based deployment/retrieval on both water and land along with a robust, self-righting design, enabling operation in debris-ridden waters. The buoy autonomously traverses downstream, driven by the river’s flow ...",
+      "page_text": "AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems Title: Content selection saved. Describe the issue below: Description: arXiv is now an independent nonprofit! Learn more &times; License: arXiv.org perpetual non-exclusive license arXiv:2610.07390v1 [cs.RO] 05 Oct 2026 AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems Reuben O’Brien* Angus Lynch* Minas Liarokapis † † thanks: * These authors have contributed equally to this work. † † thanks: Reuben O’Brien, Angus Lynch, and Minas Liarokapis are with the New Dexterity Research Group, Department of Mechanical and Mechatronics Engineering, The University of Auckland, New Zealand. † † thanks: E-mails: robr763@aucklanduni.ac.nz, alyn649@aucklanduni.ac.nz , minas.liarokapis@auckland.ac.nz, Abstract Monitoring of waterways such as remote and hazardous rivers and streams is important so as to assess the impact of external factors including construction runoff or climate change. Versatile, autonomous robotic boats can offer excellent environmental inspection and monitoring solutions for remote, dangerous, or access protected water bodies but they have several shortcomings in terms of maneuverability. This paper proposes an environmental inspection system consisting of an autonomous data collection buoy which is designed to be deployed to inaccessible river systems using a drone. The system can perform a drop off and pickup of the buoy depending on the requirements of a particular location and monitoring task. Utilising the natural flow of the river the buoy autonomously steers down, using GPS and magnetometers so as to maintain the desired trajectory. The buoy is capable of measuring water temperature but it can also be equipped with a range of sensors such as water oxygen meter, sonar for river bed inspection, or turbidity for water clarity. This paper describes the system design, presents an analysis of the self-righting capabilities of the buoy, and shows a full system demonstration at the Ōrewa River in Auckland, New Zealand. I Introduction Environmental monitoring in remote and dangerous rivers and other aquatic environments is a critical task for which robotic systems can provide a reliable, low-cost solution. Traditional methods, such as deploying boats or canoes for data collection or water sampling, present numerous challenges. These conventional platforms are often oversized relative to the narrow and winding nature of rivers, making them difficult to maneuver, particularly in confined spaces and turbulent waters. Additionally, their directional design can limit their ability to navigate sharp turns or reverse course, and they are highly susceptible to becoming entangled with floating debris and aquatic plants. Figure 1: The proposed autonomous, 3D printed, robotic buoy ‘AeroBuoy’ and the quadrotor drone that has been designed for the AeroBuoy deployment and collection in river systems. To mitigate some of these issues, jetboats have become a common choice for river navigation. Jetboats, with their impeller-based propulsion systems, are capable of operating in shallow waters and executing tighter turns. However, even these specialized vessels are not without their drawbacks. Their size and operational characteristics can still be suboptimal for the complex and dynamic environments often encountered in rivers, where factors such as shallow areas, debris, and rapid currents can pose significant risks. The need for more efficient, adaptable, and resilient platforms for environmental inspections is evident, especially in locations where traditional methods are impractical or unsafe. The development of such systems can offer new possibilities for routine monitoring and rapid deployment in response to emerging environmental concerns. Furthermore, as rivers are often difficult to access, particularly in remote or hazardous regions, the ability to deploy and retrieve monitoring systems remotely would be highly advantageous. This capability would not only enhance the safety and efficiency of environmental monitoring efforts but also provide a consistent stream of valuable data over time. This paper presents a novel 3D-printed, autonomous robotic buoy (Fig. 1 ) for environmental monitoring in inaccessible rivers. Its key novelty lies in the combined functionality of drone-based deployment/retrieval on both water and land along with a robust, self-righting design, enabling operation in debris-ridden waters. The buoy autonomously traverses downstream, driven by the river’s flow, collecting temperature, imagery, and flow data. In this paper the design and experimental validation of the system is detailed. II Related Work Environmental monitoring using autonomous systems has gained traction, particularly in remote and hazardous locations. Unmanned surface vehicles (USVs) and autonomous drones have emerged as viable platforms for gathering data in inaccessible environments. According to [ 1 ] , applications for these technologies span seven categories: rescue, military, patrolling, disaster relief, environmental monitoring, inspection, and water sports rescue. Their primary benefits include reduced human involvement, faster response times, increased flexibility, and the ability to cover vast areas. Several fixed autonomous systems have been developed to monitor environmental conditions. For example, [ 2 ] describes a stationary, moored buoy designed for continuous water quality monitoring. This system includes sensors to ensure safe drinking water standards are maintained in rivers. Despite its effectiveness, stationary solutions like this are constrained by their inability to move, making them less suitable for large or dynamic environments like rivers. Larger mobile systems have also been explored for monitoring aquatic environments, in [ 3 ] , a USV raft capable of traversing oceanic environments while measuring various parameters at different speeds was presented. These larger systems, although effective in open waters, are less suited for narrower or obstacle-laden rivers due to their size and limited manoeuvrability. The propulsion systems, like wave gliders [ 4 ] , which rely on ocean waves for long-distance travel, also fall short in river environments where wave energy is minimal. Smaller, motorized buoy systems have shown promise in autonomous monitoring. For example, in [ 5 ] a motorized buoy with dual thrusters was developed that optimizes path planning and manoeuvrability. However, even with improved efficiency, systems designed for calm lakes may struggle in dynamic and debris-filled river environments. This is where leveraging natural river currents could significantly reduce energy consumption. MIT designed and built the ‘BoB’ system offering a significant innovation in the buoy movement. Designed for omnidirectional travel, this 7.4 kg system uses three points of propulsion to achieve high stability in calm waters [ 6 ] . It was later upgraded to be a 3.3 kg system [ 7 ] . Although it shows promise in lake environments, its application to river systems remains limited by its inability to navigate turbulent waters. Research on autonomous surface vehicles (ASVs) specifically designed for rivers is ongoing. Systems such as [ 8 ] provide a low cost, monitoring system, but it is limited by its size and weight. In [ 9 ] , the authors proposed a method for using ultrasonic sensors to help ASVs monitor oil spills while avoiding obstacles like rocks and branches. This sensor-based navigation is critical for buoys and drones in river environments, where river currents [ 10 ] and debris create unpredictable challenges, within the river boundaries [ 11 ] . Drone integration with buoys has gained attention as an effective deployment strategy in remote or hazardous areas. In [ 12 ] a stationary monitoring buoy that is deployable and retrievable by a drone was demonstrated. It featured floats for safe water landings, showcasing the potential for drone-based buoy deployment in dynamic environments. However, other drone systems, like [ 13 ] , which deployed lifebuoys using a servo mechanism, lacked retrieval capabilities and required manual loading. Simulated dynamic models for a tethered buoy and drone are presented in, [ 14 ] , [ 15 ] , showing potential in both calm and wave conditions. Real-world testing of a similar system has been done in ‘The Bathy Drone’ [ 16 ] , which demonstrates a tethered drone system capable of bathymetry. The sonar is attached to a multi-hull boat that is towed over open water. Unmanned Aerial Vehicles (UAV’s) or ‘drones’ have been developed to have many different ways of implementing aerial grasping and manipulation. In [ 17 ] , the authors review many of these methods, involving all kinds of mechanisms and actuation methods. In [ 18 ] , a grasping mechanism on a drone is implemented using a dynamixel motor, where the drone uses it’s grasper to perch onto a power line. In [ 19 ] a system where multiple drones support a net using tethers mounted to the underside of the drone is shown. [ 20 ] presents a drone which is able to lower a net based mechanism, suspended from a cable below the drone to pickup packages for delivery. The mechanism is actuated by motors mounted onto the net itself, so would be unsuitable to pickup or drop off into water. [ 21 ] presents the design of a three-fingered claw mechanism installed on a drone for picking up objects, particularly debris from power lines. A similar approach could be adapted for aquatic buoy retrieval by integrating a larger tether, ensuring the drone remains at a safe distance from the water. This paper proposes a novel approach to addressing the challenges of river-based environmental monitoring. Section III delves into the design of the proposed system, focusing on its novel aspects. Section IV discusses the experimental validation of the platform in the Ōrewa River and presents the results. Finally, Section V concludes the paper, discussing the potential impact of this solution on future environmental monitoring efforts. Figure 2: Exploded view of AeroBuoy, the proposed drone deployable, autonomous robotic buoy, showing all components used to implement it, as well as the overall design with the drone connected to the buoy via it’s tether and claw. Figure 3: The AeroBuoy is made up of a 200 mm tall and wide hull (400 mm tall including peripherals). From the baseline the waterline is located 105 mm in the Z direction. Center of gravity and buoyancy have been designed to be located at the same position in all axes at 64 mm above the baseline. This provides the highest level of stability and control. III Design & Modelling III-A Buoy Design The environmental inspection AeroBuoy is comprised of one main hull shown in Fig. 2 , that is 3D printed from polyethylene terephthalate glycol (PETG) as discussed in [ 22 ] . A flotation ring is mounted around it and attached via four external mounting points to provide greater stability while ensuring that the buoy will always float regardless of any damage to the main hull. Most importantly it acts as a barrier to rocks, branches, or other obstacles that system might unexpectedly collide with, damping the impact to the electronics and protecting the hull at the waterline. The lid is sealed using a custom sized foam o-ring that seals from the compression of the 10 flange bolts around the rim. To allow for grasping the lid and flange are circular and reinforced with a 10 mm overhang for the claws to hook onto. On top of the lid is an enclosed camera which can either be a piloted first person view (FPV) or a logger connected to the companion computer. A global positioning system (GPS) is mounted alongside the telemetry radio with no physical obstructions. This allows clear communication to an off-board computer and strong satellite communication. Above the cam",
+      "page_text_length": 12000
+    },
+    {
+      "query": "\"AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems\" drone uncrewed",
+      "title": "AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic ...",
+      "url": "https://events.infovaya.com/uploads/documents/pdfviewer/59/65/202139-1120.pdf",
+      "snippet": "Versatile, autonomous robotic boats can offer excellent environmental inspection and monitoring solutions for remote, dangerous, or access protected water bodies but they have several shortcomings in terms of maneuverability.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems\" drone uncrewed",
+      "title": "AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic ...",
+      "url": "https://www.semanticscholar.org/paper/AeroBuoy:-A-Drone-Deployable,-3D-Printed,-Robotic-O'Brien-Lynch/0d6d730e547454d57a3de42d5abdfd1327707bde",
+      "snippet": "Oct 19, 2025 · This thesis presents a comprehensive system for measuring water properties and retrieving buoys using a UAV, consisting of a custom-designed measuring buoy equipped with sensors and localization capabilities, and a specially modified Tarot T650 drone with an aerial manipulator.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems\" drone uncrewed",
+      "title": "AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic ...",
+      "url": "https://www.catalyzex.com/paper/aerobuoy-a-drone-deployable-3d-printed",
+      "snippet": "This paper proposes an environmental inspection system consisting of an autonomous data collection buoy which is designed to be deployed to inaccessible river systems using a drone.",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "5e43fe9ae7e8ac0c17f200cea63f0ec4b31ef1c1f9119af44e901d3e62057b2b",
+      "title": "AeroBuoy: A Drone Deployable, 3D Printed, Autonomous Robotic Buoy for Environmental Inspection in Remote and Hazardous River Systems",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2610.07390",
+      "date": "2026-10-05T21:04:54Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "AeroBuoy: 3D-Printed, Autonomous Robotic Buoy for Environmental Inspection\n\nThe New Dexterity Research Group at the University of Auckland has developed AeroBuoy, a drone-deployable, autonomous robotic buoy for environmental monitoring in remote and hazardous river systems. The buoy, designed to be self-righting and capable of traversing debris-ridden waters, is driven by the river's flow and uses GPS and magnetometers for navigation. The system can measure water temperature and is equipped with sensors for water oxygen, sonar for river bed inspection, and turbidity for water clarity. The buoy is demonstrated at the Ōrewa River in Auckland, New Zealand. The system is currently in development, with no information available on production or deployment status.",
+    "source_record_ids": [
+      "5e43fe9ae7e8ac0c17f200cea63f0ec4b31ef1c1f9119af44e901d3e62057b2b"
+    ],
+    "format": "drone_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "AeroBuoy: 3D-Printed, Autonomous Robotic Buoy for Environmental Inspection\n\nThe New Dexterity Research Group at the University of Auckland has developed AeroBuoy, a drone-deployable, autonomous robotic buoy for environmental monitoring in remote and hazardous river systems. The buoy, designed to be self-righting and capable of traversing debris-ridden waters, is driven by the river's flow and uses GPS and magnetometers for navigation. The system can measure water temperature and is equipped with sensors for water oxygen, sonar for river bed inspection, and turbidity for water clarity. The buoy is demonstrated at the Ōrewa River in Auckland, New Zealand. The system is currently in development, with no information available on production or deployment status.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The New Dexterity Research Group at the University of Auckland has developed AeroBuoy, a drone-deployable, autonomous robotic buoy for environmental monitoring in remote and hazardous river systems.",
+        "The buoy, designed to be self-righting and capable of traversing debris-ridden waters, is driven by the river's flow and uses GPS and magnetometers for navigation.",
+        "The system can measure water temperature and is equipped with sensors for water oxygen, sonar for river bed inspection, and turbidity for water clarity."
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The New Dexterity Research Group at the University of Auckland has developed AeroBuoy, a drone-deployable, autonomous robotic buoy for environmental monitoring in remote and hazardous river systems.",
+        "The buoy, designed to be self-righting and capable of traversing debris-ridden waters, is driven by the river's flow and uses GPS and magnetometers for navigation.",
+        "The system can measure water temperature and is equipped with sensors for water oxygen, sonar for river bed inspection, and turbidity for water clarity."
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The New Dexterity Research Group at the University of Auckland has developed AeroBuoy, a drone-deployable, autonomous robotic buoy for environmental monitoring in remote and hazardous river systems.",
+      "The buoy, designed to be self-righting and capable of traversing debris-ridden waters, is driven by the river's flow and uses GPS and magnetometers for navigation.",
+      "The system can measure water temperature and is equipped with sensors for water oxygen, sonar for river bed inspection, and turbidity for water clarity."
+    ]
+  }
+}
