@@ -1,0 +1,157 @@
+{
+  "journalist": "Ravi Chatterjee",
+  "role": "Explainer",
+  "journalist_id": "ravi_chatterjee",
+  "generated_at": "2026-10-08T19:36:13.660656+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs\" research paper",
+      "title": "[2609.31448] ViSTA: A Simple Bridge Extends Visual Alignment ...",
+      "url": "https://arxiv.org/abs/2609.31448",
+      "snippet": "Sep 25, 2026 · We introduce ViSTA, a compact adapter that incorporates irregular numerical measurements into a pretrained vision-language model's chart representations. It learns corrections to visual tokens while leaving all pretrained parameters unchanged.",
+      "page_text": "[2609.31448] ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Computation and Language arXiv:2609.31448 (cs) [Submitted on 25 Sep 2026] Title: ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs Authors: Junyi Gao , Yu Shi , Pingzhao Hu , Ewen M Harrison View a PDF of the paper titled ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs, by Junyi Gao and 3 other authors View PDF HTML (experimental) Abstract: Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and question answering. Yet their language capabilities do not ensure accurate prediction from structured, high-dimensional clinical time series. Improving this ability would connect risk estimation with flexible questions about a patient's evolving condition. We introduce ViSTA, a compact adapter that incorporates irregular numerical measurements into a pretrained vision-language model's chart representations. It learns corrections to visual tokens while leaving all pretrained parameters unchanged. On MIMIC-IV, ViSTA has the highest mean scores among the compared adaptations on all four metrics for acute kidney injury and mortality prediction across models with 2-9 billion parameters. With 0.516 million trainable parameters, the 2-billion-parameter model reaches an area under the ROC curve of 0.7376 for acute kidney injury, compared with GPT-5.6 Sol's 0.7380 with text input and high reasoning effort. Training for temporal question answering yields 69.27% accuracy at 4 billion parameters with over 90% fewer trainable parameters than low-rank adaptation using charts or numerical text, at a 2.82-4.88 percentage-point accuracy gap. ViSTA extends pretrained language models to numerical prediction and temporal questions. Subjects: Computation and Language (cs.CL) ; Artificial Intelligence (cs.AI) Cite as: arXiv:2609.31448 [cs.CL] (or arXiv:2609.31448v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2609.31448 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Junyi Gao [ view email ] [v1] Fri, 25 Sep 2026 16:06:29 UTC (465 KB) Full-text links: Access Paper: View a PDF of the paper titled ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs, by Junyi Gao and 3 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2026-09 Change to browse by: cs cs.AI References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4632
+    },
+    {
+      "query": "\"ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs\" research paper",
+      "title": "(PDF) ViSTA: A Simple Bridge Extends Visual Alignment to ...",
+      "url": "https://www.researchgate.net/publication/414867791_ViSTA_A_Simple_Bridge_Extends_Visual_Alignment_to_Clinical_Time-Series_Understanding_in_Multimodal_LLMs",
+      "snippet": "Sep 25, 2026 · Our research provides evidence of LLMs outperforming medical experts in clinical text summarization across multiple tasks.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs\" research paper",
+      "title": "ViSTA: A Simple Bridge Extends VisualAlignment to Clinical ...",
+      "url": "https://arxiv.org/html/2609.31448v1",
+      "snippet": "Sep 28, 2026 · We introduce ViSTA, a compact adapter that incorporates irregular numerical measurements into a pretrained vision-language model’s chart representations. It learns corrections to visual tokens while leaving all pretrained parameters unchanged.",
+      "page_text": "ViSTA: A Simple Bridge Extends VisualAlignment to Clinical Time-SeriesUnderstanding in Multimodal LLMs Title: Content selection saved. Describe the issue below: Description: arXiv is now an independent nonprofit! Learn more &times; License: CC BY 4.0 arXiv:2609.31448v1 [cs.CL] 25 Sep 2026 ViSTA : A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs Junyi Gao Affiliation: Centre for Medical Informatics, University of Edinburgh Affiliation: Health Data Research UK Yu Shi Affiliation: Biostatistics Division, Dalla Lana School of Public Health, University of Toronto Pingzhao Hu Affiliation: Department of Biochemistry, Western University * Equal contribution Affiliation: Senior author Ewen M Harrison Affiliation: Centre for Medical Informatics, University of Edinburgh Affiliation: Senior author Abstract Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and question answering. Yet their language capabilities do not ensure accurate prediction from structured, high-dimensional clinical time series. Improving this ability would connect risk estimation with flexible questions about a patient’s evolving condition. We introduce ViSTA , a compact adapter that incorporates irregular numerical measurements into a pretrained vision-language model’s chart representations. It learns corrections to visual tokens while leaving all pretrained parameters unchanged. On MIMIC-IV, ViSTA has the highest mean scores among the compared adaptations on all four metrics for acute kidney injury and mortality prediction across models with 2-9 billion parameters. With 0.516 million trainable parameters, the 2-billion-parameter model reaches an area under the ROC curve of 0.7376 for acute kidney injury, compared with GPT-5.6 Sol’s 0.7380 with text input and high reasoning effort. Training for temporal question answering yields 69.27% accuracy at 4 billion parameters with over 90% fewer trainable parameters than low-rank adaptation using charts or numerical text, at a 2.82-4.88 percentage-point accuracy gap. ViSTA extends pretrained language models to numerical prediction and temporal questions. 1 Introduction Clinical artificial intelligence supports outcome prediction and patient-record interpretation. Statistical and deep learning models use patient measurements to estimate mortality risk, anticipate deterioration, and predict length of stay ( Harutyunyan et al., 2019 ; Gao et al., 2020 ; Ma et al., 2020 ) . Large language models (LLMs) support clinical summarization and medical question answering ( Van Veen et al., 2024 ; Singhal et al., 2023 ) , offering flexible queries that complement predefined prediction targets. Extending this flexibility to numerical records remains difficult. Vital signs, laboratory tests, and interventions form high-dimensional time series with irregular sampling, missing values, and dependencies across variables. Their numerical and temporal relationships differ from information in clinical narratives. Recent work finds that even state-of-the-art closed-source LLMs remain behind conventional models on non-generative clinical prediction from structured records, with larger gaps for smaller open-source LLMs ( Zhu et al., 2026a ) . Improving this capability would let a language-based system use the same measurements to estimate risk and answer questions about threshold crossings or changes across trajectories, which conventional prediction models cannot do ( Zhu et al., 2026b ) . This motivates adaptation that strengthens numerical prediction while retaining a language interface for patient-record questions. Existing approaches differ in how they present numerical records and which components they adapt. Text serialization exposes exact measurements but spreads temporal relationships across long sequences of names, timestamps, and values. Learned numerical encoders provide compact representations, but these must be aligned with the language model. Charts offer an established visual-language pathway, yet access to precise measurements depends on what survives rendering and visual encoding ( Zhao et al., 2025 ; Liu et al., 2025 ) . Fine-tuning and low-rank adaptation (LoRA) require adjustment to language-model weights ( Hu et al., 2021 ; Kalajdzievski, 2024 ) . These approaches leave an opportunity to combine direct numerical access with the visual-language alignment already learned during pretraining. Can a small adapter enrich the model’s existing chart representations with precise measurements while keeping its pretrained components and language output interface unchanged? Our design starts from chart tokens that already pass through the pretrained visual-language interface. We add corrections derived from the underlying measurements at those same positions, learning from an established input pathway. Figure 1 summarizes the three input paradigms. Figure 1: Numerical correction of an established visual interface. Direct numerical interfaces learn how to present a new continuous representation to a language model. Chart inputs use its pretrained visual pathway. ViSTA adds numerical corrections to original visual tokens at their existing positions, preserving token order and positional indices. The language model and its output head remain frozen. We introduce ViSTA ( Vi sually aligned S eries-to-language T emporal A dapter), comprising an irregular-series encoder and a residual bridge. The encoder summarizes values, times, observation gaps, and variable identity; queries at visual positions read these summaries to correct visual tokens. Zero initialization recovers the original chart model. We train separate adapters for outcome prediction and temporal question answering (QA), and also evaluate QA after training only on outcomes. Our contributions are threefold. First, we introduce a numerical adapter with fewer than one million trainable parameters that enriches the visual representations of a fully frozen vision-language model. Second, at 4 billion parameters, ViSTA reaches average precision of 0.4650 for acute kidney injury and 0.2651 for mortality, representing relative AP improvements of 3.15% and 7.59% over the strongest competing adaptation for each outcome, and 66.37% and 77.56% over the unadapted chart model, respectively. The 2-billion-parameter model’s AKI AUROC is 0.7376, compared with GPT-5.6 Sol’s 0.7380. Third, outcome-only training yields 41.73% temporal QA accuracy at 4 billion parameters, 2.33 percentage points above native text (39.40%). QA training yields 69.27%, 29.87 percentage points above the same reference and 2.82-4.88 percentage points below the LoRA baselines, with more than 90% fewer trainable parameters. We further observe consistent improvements in clinical prediction as the pretrained backbone scales from 2 to 9 billion parameters. 2 Related Work Visual and multimodal time-series analysis. Charts expose temporal patterns through pretrained visual features, but recovering individual measurements depends on the rendering and visual representation ( Zhao et al., 2025 ) . CaTS-Bench finds that even strong vision-language models struggle with numerical nuances in time-series descriptions ( Zhou et al., 2025 ) . MLLM4TS aligns temporal patches with plot features for prediction ( Liu et al., 2025 ) , but its task-specific output heads do not directly support a shared language interface for prediction and QA. ViSTA supplies numerical evidence through residuals at the original visual positions, allowing both tasks to use the unchanged language decoder and output head. Connecting time series to language models. Time-LLM reprograms numerical patches using text prototypes and projects language-model representations into forecasts ( Jin et al., 2023 ) . ChatTS learns continuous representations using synthetic descriptions and questions; Time-MQA trains on contextualized numerical sequences for temporal QA ( Xie et al., 2024 ; Kong et al., 2025 ) . ITFormer connects temporal encoders to frozen language models through instruction-aware interaction, while OpenTSLM explores soft prompts and gated cross-attention for medical signals ( Wang et al., 2025a ; Langer et al., 2025 ) . Text requires sequences of values and timestamps; learned representations require alignment with the language model, even when its decoder is frozen. ViSTA starts from the existing chart representation, using a zero-initialized residual to learn how numerical evidence should modify this established input. Parameter-efficient adaptation and clinical evaluation. Representation adaptation has supported knowledge transfer in biomedical prediction ( Shi et al., 2026 ) . LoRA adapts pretrained weights through low-rank updates ( Hu et al., 2021 ) ; BLIP-2 and Flamingo learn interfaces between pretrained components ( Li et al., 2023 ; Alayrac et al., 2022 ) . Parameter reduction alone does not determine access to numerical evidence. We study where to adapt: a small numerical module augments an existing visual interface while all pretrained components remain frozen. Clinical prediction remains challenging for general-purpose language models ( Zhu et al., 2026a ) , and temporal QA requires more than recognizing global trends ( Nie et al., 2026 ) . We assess both tasks on the same backbone, including QA after outcome-only training, to examine task specialization and behavior beyond the training objective. 3 ViSTA : Adding Numerical Information to Visual Tokens Our design idea is simple and intuitive: charts provide an established visual input to a pretrained model, and their underlying measurements supply direct numerical evidence. ViSTA learns how this evidence should modify the existing visual tokens (Figure 2 ). 3.1 Problem formulation and the pretrained visual pathway A patient history is a collection of irregular observations X = { ( t i , c i , x i ) } i = 1 M X=\\{(t_{i},c_{i},x_{i})\\}_{i=1}^{M} , where t i t_{i} is the measurement time, c i ∈ { 1 , … , C } c_{i}\\in\\{1,\\ldots,C\\} identifies a clinical variable, and x i x_{i} is its value. Each question specifies a visible interval and, for prospective tasks, an information-availability cutoff. We denote visible intervention context by a a and the question by q q . The model represents p ⁡ ( y ∣ X , a , q ) p(y\\mid X,a,q) through its original language output head. We render each variable as a separate chart image, with visible timestamps and values, and use the vision encoder and projector of the pretrained multi-modal LLM model, such as Qwen3.5, to obtain V = f vis ​ ( Render ⁡ ( X ) ) ∈ ℝ N × D . V=f_{\\mathrm{vis}}(\\operatorname{Render}(X))\\in\\mathbb{R}^{N\\times D}. (1) Here N N is the visual token count and D D the language model’s hidden dimension. Retaining chart order, image delimiters, and positional indices lets numerical adaptation operate within the decoder’s expected input structure. Figure 2: ViSTA architecture. An event encoder pools irregular numerical observations into latent summaries. Queries derived from visual grid positions and variable identity read these summaries and produce residuals with the same shape as the original visual tokens. The residual output projection starts at zero. Answer supervision propagates through the frozen language model to the event encoder and bridge. 3.2 Encoding irregular numerical observations Encoding individual events exposes both measurements and observation gaps. For observation i i , ψ i ∈ ℝ d in \\psi_{i}\\in\\mathbb{R}^{d_{\\mathrm{in}}} contains its normalized value, relative time within the visible interval, time since the preceding measurement of that variable, and a first-observation indicator. A multilayer perceptron (MLP) and variable embedding produce e i = f θ ​ ( ψ i ) + b c i ∈ ℝ d . e_{i}=f_{\\theta}(\\psi_{i})+b_{c_{i}}\\in\\mathbb{R}^{d}. (2) Unobserved variables receive a learned missing-observation token plus their variable embedding, explicitly representing",
+      "page_text_length": 12000
+    },
+    {
+      "query": "\"ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs\" research paper",
+      "title": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical ...",
+      "url": "https://engineersofai.com/docs/research/paper-breakdowns/2026-09-25-vista-a-simple-bridge-extends-visual-alignment-to-clinical-timeseries-understand",
+      "snippet": "Sep 25, 2026 · ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs",
+      "page_text": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs | EngineersOfAI - Technical Education for AI Engineers Courses Blog Research Lab AI Letters The Lab Code Bank Interactive 3D Kodr Earnest Jobs Sign in Skip to main content On this page :::info Stub — Full Engineering Breakdown Coming This paper was auto-fetched from arXiv on 2026-09-28 . A full breakdown with production viability rating, implementation notes, and honest limitations is being written. Subscribe to AI Letters → ::: Authors Junyi Gao et al. Year 2026 Field NLP arXiv 2609.31448 PDF Download Categories cs.CL, cs.AI Abstract ​ Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and question answering. Yet their language capabilities do not ensure accurate prediction from structured, high-dimensional clinical time series. Improving this ability would connect risk estimation with flexible questions about a patient's evolving condition. We introduce ViSTA, a compact adapter that incorporates irregular numerical measurements into a pretrained vision-language model's chart representations. It learns corrections to visual tokens while leaving all pretrained parameters unchanged. On MIMIC-IV, ViSTA has the highest mean scores among the compared adaptations on all four metrics for acute kidney injury and mortality prediction across models with 2-9 billion parameters. With 0.516 million trainable parameters, the 2-billion-parameter model reaches an area under the ROC curve of 0.7376 for acute kidney injury, compared with GPT-5.6 Sol's 0.7380 with text input and high reasoning effort. Training for temporal question answering yields 69.27% accuracy at 4 billion parameters with over 90% fewer trainable parameters than low-rank adaptation using charts or numerical text, at a 2.82-4.88 percentage-point accuracy gap. ViSTA extends pretrained language models to numerical prediction and temporal questions. Engineering Breakdown ​ The Problem ​ Training for temporal question answering yields 69.27% accuracy at 4 billion parameters with over 90% fewer trainable parameters than low-rank adaptation using charts or numerical text, at a 2.82-4.88 percentage-point accuracy gap. The Approach ​ We introduce ViSTA, a compact adapter that incorporates irregular numerical measurements into a pretrained vision-language model's chart representations. Key Results ​ ViSTA extends pretrained language models to numerical prediction and temporal questions. Research Areas ​ This paper contributes to the following areas of AI/ML engineering: Large language models Transformers Text generation Natural language processing Language understanding Alignment :::tip Subscribe Get weekly breakdowns of papers like this in AI Letters - the newsletter for engineers building production AI systems. ::: Back to Research Lab → · Subscribe to AI Letters → © 2026 EngineersOfAI. All rights reserved. Abstract Engineering Breakdown The Problem The Approach Key Results Research Areas",
+      "page_text_length": 3070
+    },
+    {
+      "query": "\"ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs\" research paper",
+      "title": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical ...",
+      "url": "https://www.catalyzex.com/paper/vista-a-simple-bridge-extends-visual",
+      "snippet": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs: Paper and Code. Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and question answering.",
+      "page_text": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs Get our free extension to see links to code for papers anywhere online! Free add-on: code for papers everywhere! Free add-on: See code for papers anywhere! Add to Chrome - It&#x27;s Free Title: ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs Paper and Code Request Code Code for Similar Papers: Sep 25, 2026 Authors: Junyi Gao , Yu Shi , Pingzhao Hu , Ewen M Harrison Figures and Tables: Share this with someone who&#x27;ll enjoy it: Ask Abstract: Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and question answering. Yet their language capabilities do not ensure accurate prediction from structured, high-dimensional clinical time series. Improving this ability would connect risk estimation with flexible questions about a patient&#x27;s evolving condition. We introduce ViSTA, a compact adapter that incorporates irregular numerical measurements into a pretrained vision-language model&#x27;s chart representations. It learns corrections to visual tokens while leaving all pretrained parameters unchanged. On MIMIC-IV, ViSTA has the highest mean scores among the compared adaptations on all four metrics for acute kidney injury and mortality prediction across models with 2-9 billion parameters. With 0.516 million trainable parameters, the 2-billion-parameter model reaches an area under the ROC curve of 0.7376 for acute kidney injury, compared with GPT-5.6 Sol&#x27;s 0.7380 with text input and high reasoning effort. Training for temporal question answering yields 69.27% accuracy at 4 billion parameters with over 90% fewer trainable parameters than low-rank adaptation using charts or numerical text, at a 2.82-4.88 percentage-point accuracy gap. ViSTA extends pretrained language models to numerical prediction and temporal questions. Full-text Links: View paper on Share this with someone who&#x27;ll enjoy it:",
+      "page_text_length": 2068
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "010f96464ab4f3fc077e3fd69213fe64d09a8f1fd6f63e693d0dff25081d5792",
+      "title": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.31448",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 14,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models",
+            "llm",
+            "language model",
+            "training"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models",
+            "llm",
+            "language model",
+            "training"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": [
+            "9 billion",
+            "0.516 million",
+            "69.27%",
+            "4 billion",
+            "90%"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "2",
+        "9 billion",
+        "0.516 million",
+        "0.7376",
+        "5.6",
+        "0.7380",
+        "69.27%",
+        "4 billion",
+        "90%",
+        "2.82",
+        "4.88"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "ViSTA adapts vision-language models to clinical time series\n\nAn arXiv preprint by Junyi Gao, Yu Shi, Pingzhao Hu and Ewen M Harrison, submitted on 25 September 2026, presents ViSTA for clinical time-series understanding. The compact adapter incorporates irregular numerical measurements into a pretrained model’s chart representations by learning corrections to visual tokens while leaving pretrained parameters unchanged. On MIMIC-IV, the authors report the highest mean scores among compared adaptations across four acute-kidney-injury and mortality-prediction metrics for models with 2–9 billion parameters; temporal question answering reached 69.27% accuracy at 4 billion parameters. The evidence is limited to the reported MIMIC-IV experiments, with no independent replication established.",
+    "source_record_ids": [
+      "010f96464ab4f3fc077e3fd69213fe64d09a8f1fd6f63e693d0dff25081d5792"
+    ],
+    "format": "explainer_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

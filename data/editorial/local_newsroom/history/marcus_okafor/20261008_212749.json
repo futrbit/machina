@@ -1,0 +1,138 @@
+{
+  "journalist": "Marcus Okafor",
+  "role": "Robotics Correspondent",
+  "journalist_id": "marcus_okafor",
+  "generated_at": "2026-10-08T21:27:49.539975+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding\" robotics",
+      "title": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11700396",
+      "snippet": "Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues, such as folds, edges, and grasp points. In this work, we tackle cloth unfolding using a regrasping-in-the-air strategy, where one manipulator holds the cloth while the ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding\" robotics",
+      "title": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding",
+      "url": "https://arxiv.org/abs/2609.31452",
+      "snippet": "Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues such as folds, edges, and grasp points. In this work, we tackle cloth unfolding using a regrasping-in-the-air strategy, where one manipulator holds the cloth while the ...",
+      "page_text": "[2609.31452] Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Robotics arXiv:2609.31452 (cs) [Submitted on 25 Sep 2026] Title: Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding Authors: Domen Tabernik , Peter Nimac , Jan Jerićević , Danijel Skočaj , Andrej Gams View a PDF of the paper titled Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding, by Domen Tabernik and 3 other authors View PDF HTML (experimental) Abstract: Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues such as folds, edges, and grasp points. In this work, we tackle cloth unfolding using a regrasping-in-the-air strategy, where one manipulator holds the cloth while the other grasps it at an optimally selected point to unfold it. To this end, we propose CeDiRNet-6DoF, a deep learning framework that jointly predicts effective grasp points and the complete 6-DoF grasp pose from the observed cloth configuration. By integrating dense 3D grasp regression with segmentation and sine-cosine-encoded Euler angles, the proposed method reliably estimates the grasp configuration that maximizes the unfolded cloth area. We extensively evaluated CeDiRNet-6DoF on a bimanual robotic setup within the ICRA 2024 Cloth Competition framework, achieving state-of-the-art performance. An ablation study further validates the benefits of key design components, including joint segmentation, background randomization, and image cropping. These results establish CeDiRNet-6DoF as a robust and versatile foundation for reliable robotic cloth manipulation in unstructured environments. Comments: Published in IEEE Transactions on Cybernetics Subjects: Robotics (cs.RO) ; Computer Vision and Pattern Recognition (cs.CV) Cite as: arXiv:2609.31452 [cs.RO] (or arXiv:2609.31452v1 [cs.RO] for this version) https://doi.org/10.48550/arXiv.2609.31452 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Related DOI : https://doi.org/10.1109/TCYB.2026.3732543 Focus to learn more DOI(s) linking to related resources Submission history From: Domen Tabernik [ view email ] [v1] Fri, 25 Sep 2026 16:08:16 UTC (5,714 KB) Full-text links: Access Paper: View a PDF of the paper titled Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding, by Domen Tabernik and 3 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.RO < prev | next > new | recent | 2026-09 Change to browse by: cs cs.CV References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4599
+    },
+    {
+      "query": "\"Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding\" robotics",
+      "title": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding",
+      "url": "https://arxiv.org/html/2609.31452v1",
+      "snippet": "Robotic manipulation of deformable objects, such as cloth and textiles, represents a fundamental yet challenging problem in modern robotics. Unlike rigid objects, for which robotic grasping [1] or pushing [2] typically results in a well-predicted object state, cloths exhibit high degrees of freedom, complex non-linear dynamics, and significant ...",
+      "page_text": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding Title: Content selection saved. Describe the issue below: Description: arXiv is now an independent nonprofit! Learn more &times; License: arXiv.org perpetual non-exclusive license arXiv:2609.31452v1 [cs.RO] 25 Sep 2026 Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding Thanks: * Domen Tabernik and Peter Nimac contributed equally to this work as first authors. Domen Tabernik 2 * , Peter Nimac 3 4 * , Jan Jerićević 3 4 , Danijel Skočaj 2 , Andrej Gams 4 Affiliation: Affiliation: 2 Faculty of Computer and Information Science, University of Ljubljana, Večna pot 113, 1000 Ljubljana, Slovenia {domen.tabernik, danijel.skocaj}@fri.uni-lj.si Affiliation: Affiliation: 3 Jožef Stefan International Postgraduate School, Jamova cesta 39, 1000 Ljubljana, Slovenia Affiliation: Affiliation: 4 Jožef Stefan Institute, Jamova cesta 39, 1000 Ljubljana, Slovenia {peter.nimac, jan.jericevic, andrej.gams}@ijs.si Affiliation: Abstract Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues such as folds, edges, and grasp points. In this work, we tackle cloth unfolding using a regrasping-in-the-air strategy, where one manipulator holds the cloth while the other grasps it at an optimally selected point to unfold it. To this end, we propose CeDiRNet-6DoF, a deep learning framework that jointly predicts effective grasp points and the complete 6-DoF grasp pose from the observed cloth configuration. By integrating dense 3D grasp regression with segmentation and sine–cosine-encoded Euler angles, the proposed method reliably estimates the grasp configuration that maximi z es the unfolded cloth area. We extensively evaluated CeDiRNet-6DoF on a bimanual robotic setup within the ICRA 2024 Cloth Competition framework, achieving state-of-the-art performance. An ablation study further validates the benefits of key design components, including joint segmentation, background randomization, and image cropping. These results establish CeDiRNet-6DoF as a robust and versatile foundation for reliable robotic cloth manipulation in unstructured environments. Index Terms: Robotic Manipulation, Cloth Manipulation, Grasp Pose Regression, 6-DoF, Deep Learning. I Introduction Robotic manipulation of deformable objects, such as cloth and textiles, represents a fundamental yet challenging problem in modern robotics. Unlike rigid objects , for which robotic grasping [ 1 ] or pushing [ 2 ] typically results in a well-predicted object state, cloths exhibit high degrees of freedom, complex non-linear dynamics, and significant variability in shape and appearance [ 3 ] . These challenges make tasks like folding, unfolding, and precise grasping particularly difficult to automate, especially in unstructured environments [ 4 ] . Folding and unfolding are fundamental operations in cloth manipulation. Prior work has explored a range of strategies—from bimanual techniques [ 5 ] and flinging [ 6 ] to regrasping-in-the-air [ 7 , 8 , 9 ] . In this paper, we focus on unfolding as a critical precursor to effective folding. Specifically, we adopt a regrasping-in-the-air strategy where one robot arm suspends the cloth while the other selects the optimal grasp point to achieve full unfolding. The ICRA 2024 Cloth Competition [ 9 ] recently introduced a standardized dual-arm benchmark for this task, enabling real-world evaluation. By following this framework, our approach facilitates robust and reproducible comparisons with state-of-the-art methods. Fig. 1 : CeDiRNet-6DoF architecture. CeDiRNet (top) regresses center directions for 2D grasp localization; its 6-DoF extension (bottom) regresses sine/cosine pairs for roll, pitch, and yaw. Orientation and depth yield the 6-DoF pose. In this paper , we propose a novel learning-based approach for estimating the optimal grasp pose to unfold cloth using the regrasping-in-the-air technique. Instead of relying on hand-crafted heuristics, we propose a deep neural network that directly predicts the grasp point from a single RGB image of the cloth suspended in the air. The network is trained in a fully supervised manner to predict the grasp pose that maximizes cloth unfolding when stretched, as defined by the annotator. In this way, deformability is handled through learning-based point supervision and a high-capacity visual backbone that can adapt grasp prediction to the currently observed cloth configuration. Our method not only identifies the grasp location but also fully regresses a 6-DoF gripper pose, enabling precise execution of the unfolding sequence. Furthermore, by leveraging a dense prediction framework, multiple grasp candidate locations are generated, allowing for flexible selection based on kinematic feasibility. Our approach, CeDiRNet-6DoF, builds upon the point detection capabilities of CeDiRNet [ 10 ] and extends it to predict full 6-DoF grasp poses in Euler angles as depicted in Fig. 1 . Unlike cloth methods that typically predict only grasp points or regions and rigid-object methods that often assume stable object geometry, CeDiRNet-6DoF jointly regresses dense grasp locations and full orientation from one RGB image; depth completes the position, and kinematic-feasibility-aware selection integrates the candidates into a real-robot unfolding pipeline. Our contributions are threefold: i) we introduce CeDiRNet-6DoF, a novel deep-learning-based approach for grasp pose estimation for cloth unfolding using a regrasping-in-the-air strategy; ii) we rigorously evaluate our approach following the ICRA 2024 competition rules, evaluating on the same competition items plus additional items, demonstrating its superior performance compared to competition methods; and iii) we provide a detailed ablation study that highlights the impact of our design choices, such as background randomization, image cropping, joint segmentation , and the integration of RGB-D data, on the overall performance. These contributions lay the groundwork for more versatile and reliable robotic systems capable of handling the complex task of cloth manipulation. This has also been demonstrated in the ICRA 2024 cloth competition, where CeDiRNet-6DoF achieved second place and outperformed nine of the ten competing methods. II Related Work The most closely related literature concerns cloth grasp selection [ 11 , 5 ] and in-air grasp prediction [ 12 , 13 ] , while rigid-object 6-DoF pose [ 14 ] and grasp [ 15 , 16 , 17 ] estimation provides related methodological approaches that are not always applicable to cloth manipulation due to rigid-object assumptions. II-A Cloth Grasp Selection and Manipulation Early work on deformable-object grasping relied mainly on hand-crafted visual cues such as corners and edges for grasp-point selection [ 7 , 8 ] . These approaches can work well when data are scarce, but are less robust to severe self-occlusions, folds, and appearance variability common in real-world cloth manipulation. Recent learning-based methods instead infer grasp-relevant structure directly from visual observations, including target grasp-point detection and region-aware garment segmentation for structural-region grasp selection [ 18 , 11 ] . Such approaches show that cloth grasp selection can be learned effectively from image data, but typically focus on grasp points or graspable regions rather than direct 6-DoF gripper-pose prediction. Related recent garment-manipulation systems also address broader bimanual folding or manipulation tasks [ 5 , 19 , 20 ] . However, such systems often predict coordinated grasp pairs, use richer task-level supervision, or target broader manipulation policies rather than direct single-grasp 6-DoF prediction for unfolding. II-B In-air Cloth Grasping and Direct Grasp Prediction Among cloth-specific methods, an important distinction is between tabletop manipulation and in-air manipulation. Prior work on deformable-object grasp-point selection spans both tabletop grasping [ 21 , 22 , 23 ] and in-air manipulation [ 24 , 13 , 12 ] . Tabletop methods often select grasp points for cloth lying on a surface, using task-oriented metrics [ 21 ] , preference- and reward-guided action selection [ 22 ] , or end-to-end policies for dynamic bimanual primitives [ 23 ] . While highly relevant to deformable manipulation, these methods do not address direct 6-DoF in-air grasp prediction and often rely on tabletop-specific heuristics or predefined primitives for executing grasps. On the other hand, the more closely related in-air approaches typically rely on stronger sensing or observation assumptions than our setting. Examples include visuotactile edge tracing [ 24 ] , confidence-aware visuotactile affordance prediction [ 13 ] , and dual-view policies trained extensively in simulation [ 12 ] . These methods therefore require tactile sensing, multiple viewpoints, or broader policy-level assumptions that differ materially from the single-view benchmark considered here. This motivates our positioning of CeDiRNet-6DoF as a single-view method for direct 6-DoF grasp prediction in a full real-robot unfolding pipeline. II-C 6-DoF Pose Estimation and Grasping for Rigid Objects Deep-learning-based 6-DoF pose estimation from a single RGB or RGB-D image is well established for rigid objects, including keypoint-correspondence and voting methods [ 25 ] , dense correspondence or coordinate-map regression [ 26 ] , direct rotation prediction and continuous angular regression [ 27 , 28 ] , and geometry-guided pose estimation [ 14 ] . These methods estimate object pose relative to a reference shape or canonical object frame, which is natural for rigid objects but much less applicable to deformable cloth, where configuration changes continuously and cannot be mapped reliably by a single rigid transformation. This motivates moving from 6-DoF pose estimation to methods that predict executable grasps directly. Direct 6-DoF grasp estimation for rigid objects has likewise progressed from pose-plus-grasp pipelines [ 29 ] to end-to-end grasp prediction from RGB-D or point-cloud observations [ 30 , 29 ] . Recent examples include Generalizing-Grasp [ 31 ] for domain-prior-guided generalization, Language-Driven 6-DoF Grasp Detection [ 32 ] for language-conditioned diffusion-based grasp generation, Region-aware Normalized Grasp Space [ 33 ] for efficient single-view detection, ZeroGrasp [ 17 ] for reconstruction-enabled zero-shot grasping, and GraspCoT [ 16 ] for language- and reasoning-augmented prediction. Among them, EconomicGrasp [ 15 ] is especially relevant in our setting because it remains comparatively practical while still performing direct single-view 6-DoF grasp prediction, learning from point clouds through dense objectness and graspness prediction with sparse supervision. These rigid-object methods are therefore useful comparison points, but transferring them to hanging cloth remains nontrivial because they are often designed around rigid-object assumptions that do not transfer naturally to deformable garments, including grasp definitions tied to stable object geometry or to grasping the object as a whole rather than selecting a small locally suitable grasp region. In addition, several recent methods do not yet provide straightforward public reproducibility for train-and-evaluate use in our benchmark. II-D Benchmarks and Datasets Progress in learning-based cloth grasping has also been driven by larger datasets and more structured evaluation protocols. Lips et al. demonstrated learning garment keypoints from synthetic data with semantic keypoint annotations [ 34 ] . Our prior work introduced the ViCoS Towel Dataset together with CeDiRNet-3DoF [ 35 ] , enabling dense learning-based grasp-point detection under cloth-specific supervision, but still focusing on 3-DoF prediction and image-level eval",
+      "page_text_length": 12000
+    },
+    {
+      "query": "\"Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding\" robotics",
+      "title": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding",
+      "url": "https://visualize.jove.com/42776901-vision-based-6-dof-grasp-pose-estimation-for-robot-cloth-unfolding",
+      "snippet": "CeDiRNet-6DoF: Deep learning for robotic cloth unfolding using optimal grasp prediction. State-of-the-art performance achieved.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding\" robotics",
+      "title": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding",
+      "url": "https://arxiv.deeppaper.ai/papers/2609.31452v1",
+      "snippet": "Key Contributions Proposed CeDiRNet-6DoF for joint 6-DoF grasp pose and point estimation, utilized sine-cosine encoding for orientation, and achieved state-of-the-art performance in robotic cloth unfolding.",
+      "page_text": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding | Arxiv - DeepPaper Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding PDF DeepRead Key Contributions Proposed CeDiRNet-6DoF for joint 6-DoF grasp pose and point estimation, utilized sine-cosine encoding for orientation, and achieved state-of-the-art performance in robotic cloth unfolding. Abstract Cloth manipulation is a challenging task due to the deformable and high-dimensional nature of cloth, which leads to complex interaction dynamics and perceptual ambiguity arising from frequent occlusions of critical visual cues such as folds, edges, and grasp points. In this work, we tackle cloth unfolding using a regrasping-in-the-air strategy, where one manipulator holds the cloth while the other grasps it at an optimally selected point to unfold it. To this end, we propose CeDiRNet-6DoF, a deep learning framework that jointly predicts effective grasp points and the complete 6-DoF grasp pose from the observed cloth configuration. By integrating dense 3D grasp regression with segmentation and sine-cosine-encoded Euler angles, the proposed method reliably estimates the grasp configuration that maximizes the unfolded cloth area. We extensively evaluated CeDiRNet-6DoF on a bimanual robotic setup within the ICRA 2024 Cloth Competition framework, achieving state-of-the-art performance. An ablation study further validates the benefits of key design components, including joint segmentation, background randomization, and image cropping. These results establish CeDiRNet-6DoF as a robust and versatile foundation for reliable robotic cloth manipulation in unstructured environments. Summary CeDiRNet-6DoF is a deep learning framework that enables robust robotic cloth unfolding by jointly predicting optimal 6-DoF grasp poses and points. Subjects cs.RO cs.CV arXiv 2609.31452v1 Paper Type framework Method Domain Robotics Manipulation Computer Vision Authors Domen Tabernik, Peter Nimac, Jan Jerićević, Danijel Skočaj, Andrej Gams Submitted Sep 25, 2026 Similar Papers 0 papers View More",
+      "page_text_length": 2079
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "4e8a01f347f79db7ce34f99d3fdaae7a925f14462e67a7d01ec6ba2b61145f5c",
+      "title": "Vision-Based 6-DoF Grasp Pose Estimation for Robot Cloth Unfolding",
+      "source": "arXiv cs.CV",
+      "url": "https://arxiv.org/abs/2609.31452",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 10,
+          "matched_terms": [
+            "ai",
+            "robot"
+          ],
+          "technical_signals": [
+            "ai",
+            "robot"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "competition"
+          ],
+          "market_signals": [
+            "competition"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "eu"
+          ],
+          "strategic_signals": [
+            "eu",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "6",
+        "2609",
+        "2024"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "## Vision-Based Grasp Pose Estimation for Robot Cloth Unfolding\n\nA new deep learning framework, CeDiRNet-6DoF, promises to revolutionize the way robots handle cloth.  The research, published in arXiv, details a method for predicting the optimal grasp pose and point for cloth unfolding. \n\nCeDiRNet-6DoF, developed by Domen Tabernik, Peter Nimac, Jan Jerićević, Danijel Skočaj, and Andrej Gams, leverages deep learning to predict the precise grasp configuration needed to unfold a piece of cloth. This is a significant departure from traditional robotic grasping methods, which often rely on simple algorithms or pre-programmed strategies. \n\nThe researchers tested CeDiRNet-6DoF in a bimanual robotic setup within the ICRA 2024 Cloth Competition.  The results were impressive, achieving state-of-the-art performance in robotic cloth unfolding.  An ablation study further validated the benefits of key design components, including joint segmentation, background randomization, and image cropping. These findings establish CeDiRNet-6DoF as a robust and versatile foundation for reliable robotic cloth manipulation in unstructured environments.\n\nThe researchers' work addresses the inherent challenges of cloth manipulation.  Unlike rigid objects, cloth exhibits high degrees of freedom, complex non-linear dynamics, and significant variability in shape and appearance.  This makes tasks like folding, unfolding, and precise grasping particularly difficult to automate, especially in unstructured environments.  CeDiRNet-6DoF tackles these challenges by predicting the optimal grasp pose and point for each individual cloth piece.  \n\nThe framework integrates dense 3D grasp regression with segmentation and sine-cosine-encoded Euler angles, enabling the system to estimate the grasp configuration that maximizes the unfolded cloth area.  This approach promises to significantly improve the accuracy and efficiency of robotic cloth manipulation.",
+    "source_record_ids": [
+      "4e8a01f347f79db7ce34f99d3fdaae7a925f14462e67a7d01ec6ba2b61145f5c"
+    ],
+    "format": "robotics_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

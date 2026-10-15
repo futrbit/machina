@@ -1,0 +1,114 @@
+{
+  "journalist": "Ravi Chatterjee",
+  "role": "Explainer",
+  "journalist_id": "ravi_chatterjee",
+  "generated_at": "2026-10-08T22:11:36.415215+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "02e938155cf734ca73290c140cb435de2686b53aa6ca8806b3306e037cc24a54",
+      "title": "PTC-Decoder: Towards Intelligent SLMs on Offline Resource-Constrained Edge Devices",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30836",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 16,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models",
+            "language model",
+            "training",
+            "inference",
+            "tpu",
+            "satellite"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models",
+            "language model",
+            "training",
+            "inference",
+            "tpu",
+            "satellite"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": [
+            "95%"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "1",
+        "2",
+        "200",
+        "7",
+        "1.21",
+        "0.01",
+        "95%",
+        "1.13",
+        "1.29"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "PTC-Decoder paper posted to arXiv without method or results in supplied record\n\nA research paper by authors not identified in the supplied record, titled “PTC-Decoder: Towards Intelligent SLMs on Offline Resource-Constrained Edge Devices,” was posted to arXiv’s cs.AI category on 28 September 2026. The supplied record does not describe the PTC-Decoder method, model architecture, or experimental procedure. It provides no verifiable evidence about models, datasets, hardware configurations, tests, or performance results. The paper’s technical claims and limitations therefore cannot be assessed from the available material.",
+    "source_record_ids": [
+      "02e938155cf734ca73290c140cb435de2686b53aa6ca8806b3306e037cc24a54"
+    ],
+    "format": "explainer_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

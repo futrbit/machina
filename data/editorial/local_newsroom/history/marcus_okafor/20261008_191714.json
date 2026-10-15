@@ -1,0 +1,103 @@
+{
+  "journalist": "Marcus Okafor",
+  "role": "Robotics Correspondent",
+  "journalist_id": "marcus_okafor",
+  "generated_at": "2026-10-08T19:17:14.227799+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "16382fd0304f4fa8e29d40bf41b3222717cd0d170efd5c386a0a7b5f2c730d0c",
+      "title": "Sorry Robot, Happy Human: Vision-Language Models Read Only One of Two Legible Typographic Layers",
+      "source": "arXiv cs.CV",
+      "url": "https://arxiv.org/abs/2609.31403",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 13,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models",
+            "language model",
+            "robot"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models",
+            "language model",
+            "robot"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": [
+            "$512",
+            "$64"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "300",
+        "$512",
+        "$64"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Vision-Language Models Reportedly Read Only One of Two Legible Typographic Layers\n\nAn arXiv paper dated 28 September 2026 describes vision-language models reading one of two legible typographic layers in an unspecified test environment, rather than a robot performing a physical task. The supplied record gives no robot body, joints, gripper, actuator, payload, or manipulation result. It also provides no training-data description and does not establish whether inference was autonomous, teleoperated, or subject to human oversight. No warehouse,",
+    "source_record_ids": [
+      "16382fd0304f4fa8e29d40bf41b3222717cd0d170efd5c386a0a7b5f2c730d0c"
+    ],
+    "format": "robotics_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

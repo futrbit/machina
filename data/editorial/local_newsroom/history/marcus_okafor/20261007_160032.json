@@ -1,0 +1,212 @@
+{
+  "journalist": "Marcus Okafor",
+  "role": "Robotics Correspondent",
+  "journalist_id": "marcus_okafor",
+  "generated_at": "2026-10-07T16:00:32.116146+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations\" latest",
+      "title": "Home - ARMLab Stanford",
+      "url": "https://arm.stanford.edu/",
+      "snippet": "VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations arXiv"
+    },
+    {
+      "query": "\"VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations\" latest",
+      "title": "人类演示补成机器人域，触觉共训才成立_论文_数据_策略",
+      "url": "https://www.sohu.com/a/1084294715_122918692",
+      "snippet": "参考资料 arXiv · VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations · 2026-09-25"
+    },
+    {
+      "query": "\"VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations\" latest",
+      "title": "Awesome-Touch/README.md at main - GitHub",
+      "url": "https://github.com/linchangyi1/Awesome-Touch/blob/main/README.md",
+      "snippet": "VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations, Poffet et al., arxiv 2026 DITTO-X: Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention, He et al., arxiv 2026 (project)"
+    }
+  ],
+  "records_considered": 2,
+  "selected_records": [
+    {
+      "record_id": "2da36a12d5ab08290529e56a384aa6f50c34361a2e430ea10e7912a8205c0ae3",
+      "title": "VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.30959",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 15,
+          "matched_terms": [
+            "ai",
+            "model",
+            "training",
+            "robot",
+            "sensor",
+            "demonstration",
+            "demo"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "training",
+            "robot",
+            "sensor",
+            "demonstration",
+            "demo"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "arr"
+          ],
+          "market_signals": [
+            "arr"
+          ]
+        },
+        "gamma": {
+          "score": 2,
+          "matched_terms": [
+            "mod",
+            "policy"
+          ],
+          "strategic_signals": [
+            "mod",
+            "policy",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "17"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    },
+    {
+      "record_id": "d5f301adcdc54447f33a706bc6b1d8067bbd4016b66ebf0f157ac0d0849044ae",
+      "title": "Cybflight: An Embedded Rust Autopilot for Aerial Robotics Research",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.31232",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 17,
+          "matched_terms": [
+            "model",
+            "compute",
+            "robot",
+            "robotics",
+            "navigation",
+            "perception",
+            "hardware",
+            "demo",
+            "satellite"
+          ],
+          "technical_signals": [
+            "model",
+            "compute",
+            "robot",
+            "robotics",
+            "navigation",
+            "perception",
+            "hardware",
+            "demo",
+            "satellite"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "12.38 m",
+        "31.4 m"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "VisTacAlign: Researchers at Stanford's ARMLab propose a method for co-training dexterous policies on tactile human and robot demonstrations (VisTacAlign). The goal is to improve robotic manipulation through shared learning from human demonstrations. The research, published on arXiv, is currently under review. No commercial deployment or independent verification has been reported.\n\nCybflight: A new embedded Rust autopilot for aerial robotics research is presented in a paper on arXiv. The autopilot, named Cybflight, aims to improve robot navigation and perception. The paper provides no details on commercial deployment or independent verification.",
+    "source_record_ids": [
+      "2da36a12d5ab08290529e56a384aa6f50c34361a2e430ea10e7912a8205c0ae3",
+      "d5f301adcdc54447f33a706bc6b1d8067bbd4016b66ebf0f157ac0d0849044ae"
+    ],
+    "format": "robotics_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

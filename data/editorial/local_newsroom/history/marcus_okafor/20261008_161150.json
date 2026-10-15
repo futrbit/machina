@@ -1,0 +1,104 @@
+{
+  "journalist": "Marcus Okafor",
+  "role": "Robotics Correspondent",
+  "journalist_id": "marcus_okafor",
+  "generated_at": "2026-10-08T16:11:50.314904+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "42cb5b714bd74e495f025ef1faf1558710554e9bdb2fae9d9e2bddc5677c8132",
+      "title": "Kintsugi-VLA: Turning Failed Robot Rollouts into Recovery Data through Interventional Recoverability",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.31048",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 13,
+          "matched_terms": [
+            "ai",
+            "training",
+            "robot",
+            "demonstration",
+            "demo"
+          ],
+          "technical_signals": [
+            "ai",
+            "training",
+            "robot",
+            "demonstration",
+            "demo"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "order"
+          ],
+          "market_signals": [
+            "order"
+          ]
+        },
+        "gamma": {
+          "score": 0,
+          "matched_terms": [],
+          "strategic_signals": [
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "34.6",
+        "38.4",
+        "5.8",
+        "6.7",
+        "76.8",
+        "74.7"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Kintsugi-VLA: Supplied Record Identifies a Recovery-Data Method, Not a Robot Demonstration\n\nKintsugi-VLA is an arXiv research method for turning failed robot rollouts into recovery data through “interventional recoverability,” published on 28 September 2026; the supplied record identifies no specific task or environment. No robot embodiment, joint count, degrees of freedom, gripper, payload, reach or precision is provided. The record gives no training-data volume, learning procedure, autonomy level or information about teleoperation or human oversight. It also reports no",
+    "source_record_ids": [
+      "42cb5b714bd74e495f025ef1faf1558710554e9bdb2fae9d9e2bddc5677c8132"
+    ],
+    "format": "robotics_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

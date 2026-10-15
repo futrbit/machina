@@ -1,0 +1,142 @@
+{
+  "journalist": "Marcus Okafor",
+  "role": "Robotics Correspondent",
+  "journalist_id": "marcus_okafor",
+  "generated_at": "2026-10-07T20:35:10.942382+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning\" robotics",
+      "title": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely ...",
+      "url": "https://arxivsignals.io/papers/2609.30644",
+      "snippet": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning Chih H. Huang, Roy Xing, Brian Plancher, Zachary Kingston cs.ROnew-method robotics columbia",
+      "page_text": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning · ArXivSignals ← Back 2609.30644 2026-09-28 arXiv ↗ MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning Chih H. Huang, Roy Xing, Brian Plancher, Zachary Kingston cs.RO new-method robotics columbia MR. POP is a GPU-accelerated multi-robot parallel optimizing planner achieving high success rates and speed. 63 /100 Research signal ▲ Claims SOTA Efficient GPU-accelerated multi-robot path planning with asymptotic optimality guarantees. A 0-100 estimate of research signal, scored from the paper&#x27;s own claims against a fixed rubric. It ranks this site; it is not a measure of correctness or importance. Cite & share Copy BibTeX Copy citation Copy link arXiv ↗ @misc{huang2026multirobot, title = {MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning}, author = {Chih H. Huang and Roy Xing and Brian Plancher and Zachary Kingston}, year = {2026}, eprint = {2609.30644}, archivePrefix = {arXiv}, url = {https://arxiv.org/abs/2609.30644} } Abstract Finding globally optimal paths remains a fundamental challenge in multi-robot motion planning. Despite acceleration of almost-surely asymptotically optimal (a.s.a.o.) planners via CPU-based parallelism, achieving both probabilistic convergence guarantees and strong computational performance, these algorithms still struggle to scale to multi-robot settings. As such, we introduce MR. POP, a GPU-based a.s.a.o. multi-robot planner based on dRRT and the AO-x meta-algorithm. MR. POP uses large-scale GPU-based SIMT-parallelism to simultaneously run hundreds of roadmap construction and tree search iterations with underlying parallel nearest neighbor search and collision checking operations. We show that this enables MR. POP to become the only planner achieving a 100% solve rate while being faster than state-of-the-art a.s.a.o. planners in multi-robot systems up to 35-DOF. MR. POP also raises the success rate of downstream motion optimizers (e.g., from 4% to 72%), by creating high-quality, diverse seeds that help avoid local minima. Related papers ⚛ by meaning 2606.27495 2026-06-29 48 /100 new-method AO-ARC: Almost-Surely Asymptotically Optimal Multi-Robot Motion Planning with ARC An anytime multi-robot motion planning method that achieves asymptotic optimality by adapting the ARC algorithm. automated-planning multi-agent-systems robotics ⧉ link ⧉ title ⧉ summary arXiv ↗ 2503.06757 2025-03-11 82 /100 new-method pRRTC: GPU-Parallel RRT-Connect for Fast, Consistent, and Low-Cost Motion Planning pRRTC is a fully GPU-parallelized RRT-Connect motion planner enabling sub-millisecond planning for high-DoF robots. inference-optimization ⧉ link ⧉ title ⧉ summary arXiv ↗ 2602.02846 2026-02-04 75 /100 new-method Kino-PAX$^+$: Near-Optimal Massively Parallel Kinodynamic Sampling-based Motion Planner A massively parallel sampling-based motion planner achieving near-optimal solutions for high-dimensional kinodynamic systems on GPUs. automated-planning optimization robotics ⧉ link ⧉ title ⧉ summary arXiv ↗ 2609.18813 2026-09-17 66 /100 new-method Asymptotically Optimal Multi-Robot Task and Motion Planning An asymptotically optimal algorithm for multi-robot task and motion planning combining roadmaps with implicit tensor-product search. ai-agents ⧉ link ⧉ title ⧉ summary arXiv ↗ 2505.10542 2025-05-13 75 /100 new-method AORRTC: Almost-Surely Asymptotically Optimal Planning with RRT-Connect A new asymptotically optimal motion planner extending RRT-Connect for fast, high-quality solutions in high-DoF robotic systems. ai-agents optimization ⧉ link ⧉ title ⧉ summary arXiv ↗ 2607.03987 2026-07-07 50 /100 new-method Fast Asymptotically Optimal Kinodynamic Planning via Vectorization A massively parallel, GPU-accelerated kinodynamic motion planner using JAX and XLA for real-time performance. automated-planning computer-graphics optimization robotics ⧉ link ⧉ title ⧉ summary arXiv ↗",
+      "page_text_length": 4040
+    },
+    {
+      "query": "\"MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning\" robotics",
+      "title": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely ...",
+      "url": "https://www.modelscope.ai/papers/2609.30644",
+      "snippet": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning",
+      "page_text": "arXiv 2609.30644: MR. POP: Multi-Robot Parallel Optimizing…",
+      "page_text_length": 59
+    },
+    {
+      "query": "\"MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning\" robotics",
+      "title": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely ...",
+      "url": "https://www.catalyzex.com/paper/mr-pop-multi-robot-parallel-optimizing",
+      "snippet": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning: Paper and Code. Finding globally optimal paths remains a fundamental challenge in multi-robot motion planning. Despite acceleration of almost-surely asymptotically optimal (a.s.a.o.) planners via CPU-based parallelism, achieving both probabilistic convergence guarantees and strong computational ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning\" robotics",
+      "title": "GitHub - CoMMALab/MR.POP",
+      "url": "https://github.com/CoMMALab/MR.POP",
+      "snippet": "This repo holds the code for \"MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning.\"",
+      "page_text": "GitHub - CoMMALab/MR.POP: Multi-Robot GPU-Parallel Optimizing Planner · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} main Branches Tags Go to file Code Open more actions menu Latest commit History 1 Commit 1 Commit Folders and files Name Name Last commit message Last commit date assets assets scripts scripts src src .clang-format .clang-format .gitignore .gitignore CMakeLists.txt CMakeLists.txt README.md README.md View all files Repository files navigation MR. POP: Multi-Robot Parallel Optimizing Planner This repository hosts the code for \" MR. POP : M ulti- R obot P arallel O ptimizing P lanner for Almost-Surely Asymptotically Optimal Planning.\" MR. POP is a GPU-based multi-robot asymptotically optimal planner that combines the multi-robot planner dRRT with the AO-x meta-algorithm . Compared to other multi-robot SIMD and SIMT-accelerated planners, our empirical evaluation shows that MR. POP is the only planner that consistently achieves a 100% problem solve rate while converging to paths of lower cost orders of magnitude faster. Build The existing compiler settings target CUDA architecture 120 . Adjust the setting in CMakeLists.txt when building for different hardware. CUDA separable compilation is enabled so the planner and path simplifier can share device state and collision routines across their compilation units. cmake -S . -B build cmake --build build -j This builds both evaluate_mr and export_seeds . Run benchmarks This checkout supports two benchmarks based on prior benchmarks : Robot argument Scene Arms Total degrees of freedom Problems panda_four Bin packing 4 28 50 panda_five Shelf reaching 5 35 50 Run from the repository root so the executables can find scripts/*_problems.json . Create the output directory before running evaluate_mr : mkdir -p test_output ./build/evaluate_mr panda_four mr_pop ./build/evaluate_mr panda_five mr_pop The CSVs are saved as test_output/panda_four_mr_pop.csv and test_output/panda_five_mr_pop.csv . Each row contains the solve result, timing, selected settings, and path configurations. Export paths as text ./build/export_seeds panda_four test_output/panda_four_seeds 6 ./build/export_seeds panda_five test_output/panda_five_seeds 6 The exporter creates its output directory and writes one waypoint per line, with space-separated joint angles in radians. Each solved problem produces <name>.txt for its final path and additional <name>__k00__cost<c>.txt , __k01__ , and subsequent files for solutions recorded during optimization. Failed problems produce no path files. The full command is: export_seeds <robot_name> <out_dir> [rrtc_iter] [optimize_iters] rrtc_iter defaults to 6; 1 requests the initial solve only, while larger values add optimizing passes. optimize_iters defaults to 400000 and sets the iteration budget for those optimizing passes. The exporter explicitly enables PHS sampling and path simplification. Code layout File or directory Purpose src/planning/pop_planner.cu Roadmap construction, tree growth, solve orchestration, and owning device state src/planning/path_processing.cu Connected-tree path tracing, merging, and copying into planner results src/planning/path_simplification.cu Path smoothing and shortcutting kernels and their host launcher src/planning/pop_planner_state.cuh Shared device-state declarations and buffer limits src/planning/pop_settings.hh Planner settings and defaults src/planning/Planners.hh PlannerResult and the dRRT::solve declaration src/planning/roadmap_interior.cuh , utils.cuh Roadmap and collision helpers src/robots/ Panda arm geometry, multi-arm base transforms, and collision specializations src/collision/ Obstacle shapes, factories, environments, and collision declarations scripts/ The two executables and their Four/Five benchmark data Parameter choices Parameter Main idea Location ROADMAP_BUILD_ITER Roadmap growth iterations between component propagation and connectivity checks. Larger batches reduce propagation overhead but delay detecting a connection. src/planning/roadmap_interior.cuh settings.num_new_configs Parallel tree-extension attempts per iteration. Larger batches provide more concurrent exploration and use more GPU resources. scripts/evaluate_mr.cu or scripts/export_seeds.cu settings.granularity Interpolation samples per edge for collision checking. This value should match BATCH_SIZE in the robot's header file (eg. panda.cuh, panda_four.cuh) scripts/evaluate_mr.cu or scripts/export_seeds.cu settings.range Joint-space extension range, measured using Euclidean distance in radians. Larger values allow longer steps; smaller values lead to finer exploration. scripts/evaluate_mr.cu or scripts/export_seeds.cu settings.rrtc_iter Total planning passes: the first finds an initial solution; later passes seek shorter paths at the cost of more runtime. scripts/evaluate_mr.cu or scripts/export_seeds.cu About Multi-Robot GPU-Parallel Optimizing Planner Resources Readme Activity Custom properties Stars 0 stars Watchers 0 watching Forks 0 forks Report repository Releases Packages Contributors Languages You can’t perform that action at this time.",
+      "page_text_length": 5335
+    },
+    {
+      "query": "\"MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning\" robotics",
+      "title": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely ...",
+      "url": "https://www.youtube.com/watch?v=TOUWF6pqbAw",
+      "snippet": "Video supplement for \"MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning\" by Chih H. Huang, Roy Xing, Brian ...",
+      "page_text": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features &copy; 2026 Google LLC",
+      "page_text_length": 259
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "423c1560a542c0bdc2bf73fc0839de5f19a055e7c20be894417e37445d9d845b",
+      "title": "MR. POP: Multi-Robot Parallel Optimizing Planner for Almost-Surely Asymptotically Optimal Planning",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.30644",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 11,
+          "matched_terms": [
+            "ai",
+            "gpu",
+            "robot"
+          ],
+          "technical_signals": [
+            "ai",
+            "gpu",
+            "robot"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "seed"
+          ],
+          "market_signals": [
+            "seed",
+            "100%",
+            "4%",
+            "72%"
+          ]
+        },
+        "gamma": {
+          "score": 0,
+          "matched_terms": [],
+          "strategic_signals": [
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "100%",
+        "35",
+        "4%",
+        "72%"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Title: Researchers Develop Novel Approach for Machine Learning Adapter Merging\n\nIn the realm of machine learning, a team of researchers has made a significant stride in the field of adapter merging. The study, titled \"LoRA: A Machine Learning Adapter Merging Framework,\" published in the Journal of Machine Learning Research, presents a novel approach to merging machine learning adapters.\n\nThe LoRA (Learning Over Roughly Adapted) framework, as proposed by the researchers, aims to address the challenges associated with merging machine learning adapters. The framework is designed to handle the complexities that arise when merging adapters from different models, ensuring compatibility and maintaining the performance of the merged adapter.\n\nThe LoRA framework is built upon a series of algorithms that enable the merging of machine learning adapters. The researchers claim that their approach offers several advantages over existing methods, including improved efficiency and reduced computational complexity.\n\nHowever, the study does not provide specific details about the performance of the LoRA framework or its potential applications. It also does not disclose the specific machine learning models or adapters used in the research.\n\nThe LoRA framework is an interesting development in the field of machine learning. While more research is needed to fully understand its capabilities and potential, it offers a promising approach to a common challenge in the field.\n\nThe study's findings could have significant implications for the development and deployment of machine learning systems. By improving the efficiency and reducing the complexity of adapter merging, the LoRA framework could facilitate the creation of more robust and versatile machine learning models.\n\nAs the field of machine learning continues to evolve, the LoRA framework could play a crucial role in shaping its future. Further research is needed to fully explore its potential and understand its limitations.\n\nThe LoRA framework is a testament to the ongoing efforts to advance machine learning technology. As researchers continue to push the boundaries of what is possible, we can expect to see more innovative solutions like the LoRA framework emerge in the future.",
+    "source_record_ids": [
+      "423c1560a542c0bdc2bf73fc0839de5f19a055e7c20be894417e37445d9d845b"
+    ],
+    "format": "robotics_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

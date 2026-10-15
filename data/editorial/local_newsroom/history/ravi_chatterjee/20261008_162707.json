@@ -1,0 +1,118 @@
+{
+  "journalist": "Ravi Chatterjee",
+  "role": "Explainer",
+  "journalist_id": "ravi_chatterjee",
+  "generated_at": "2026-10-08T16:27:07.756636+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals\" arxiv technical",
+      "title": "dsilvavinicius/m-plicits · Hugging Face",
+      "url": "https://huggingface.co/dsilvavinicius/m-plicits",
+      "snippet": "surface-reconstruction signed-distance-functions multiscale siren 3d neurips-2026 arxiv:2609.28684 License:mit Model card FilesFiles and versions xet Community Copy to bucket new M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals Download and reconstruct a surface Real-time rendering Training, evaluation, and limitations ...",
+      "page_text": "dsilvavinicius/m-plicits · Hugging Face M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals NeurIPS 2026 · Official released surface checkpoints Vinícius da Silva, Isabelle Melo, Matheus Bessa, Guilherme Schardong, Luiz Schirmer, André Araújo, Nuno Gonçalves, Hélio Lopes, Alberto Raposo, Luiz Velho, and Tiago Novello. Paper · Hugging Face Papers · Project page · Code · Data and additional assets M-plicits represents a surface with a base SIREN and a sequence of residual SIRENs trained in nested neighborhoods of the preceding surface. Its multiscale algorithms support surface extraction, real-time sphere tracing, analytical normals, and neural normal mapping. The paper evaluates its robustness to noisy oriented point clouds. This repository contains 105 PyTorch checkpoints for 36 independently fitted shapes , together with the original training configurations: 34 shapes have coarse, medium, and fine checkpoints. 58168 has coarse and medium checkpoints. normalized_thai_gt_half has a coarse checkpoint. The weights and their training configurations are copied unchanged from the official GitHub v1.0 data release. SHAPES.md lists the available levels; config.json records their paths, checksums, architectures, parameter counts, and adaptive inference bands. Download and reconstruct a surface Use the implementation and environment from the code repository: git clone https://github.com/dsilvavinicius/m-plicits.git cd m-plicits conda env create -f environment.yml conda activate new_i3d pip install -e . pip install huggingface_hub Download one shape and reconstruct it, from the cloned code directory: import json import subprocess import sys from huggingface_hub import snapshot_download shape = \"normalized_lucy_gt\" snapshot_download( repo_id= \"dsilvavinicius/m-plicits\" , local_dir= \"hf_models\" , allow_patterns=[ \"config.json\" , f\"results/ {shape} /*\" ], ) with open ( \"hf_models/config.json\" , encoding= \"utf-8\" ) as f: metadata = json.load(f) bands = metadata[ \"shapes\" ][shape][ \"adaptive_deltas\" ] base = f\"hf_models/results/ {shape} \" subprocess.run([ sys.executable, \"reconstruct.py\" , f\" {base} /fine/best.pth\" , f\"out/ {shape} .ply\" , \"-r\" , \"256\" , \"--device\" , \"cuda\" , \"--multistage\" , \"--w0\" , \"1\" , \"--coarse_path\" , f\" {base} /coarse/best.pth\" , \"--medium_path\" , f\" {base} /medium/best.pth\" , \"--deltas\" , * map ( str , bands), ], check= True ) Use --device cpu for CPU inference. Resolution 256 is a convenient preview; use 512 for the paper's extraction protocol. Finer levels are residuals and must be used with all preceding levels. The saved adaptive bands were calculated on each shape's exact released training points using Eq. 5: delta_i = 1.3 * max_j |sum_{k=0}^i f_k(x_j)| . For the coarse level, run: python reconstruct.py hf_models/results/normalized_lucy_gt/coarse/best.pth out/lucy_coarse.ply -r 256 --w0 1 --device cuda To load a single level directly: import torch from huggingface_hub import hf_hub_download from i3d.util import from_pth path = hf_hub_download( repo_id= \"dsilvavinicius/m-plicits\" , filename= \"results/normalized_lucy_gt/coarse/best.pth\" , ) model = from_pth(path, w0= 1 ). eval () with torch.no_grad(): sdf = model(torch.tensor([[ 0.0 , 0.0 , 0.0 ]]))[ \"model_out\" ] Load all released checkpoints with w0=1 . The training frequencies are already incorporated into the saved weights. Frequencies in the YAML configurations describe training, not the frequency to apply again at load time. Real-time rendering The CUDA renderer can load these checkpoints after exporting them to its binary format. It currently targets Windows and an NVIDIA CUDA GPU. After building it: python renderer/scripts/export_experiment.py hf_models/results/normalized_lucy_gt --out renderer/cuda/build/Release/data/released --flip-y From renderer/cuda/build/Release : MIP-plicitsRenderer.exe -experiment_file=data/released/normalized_lucy_gt.exp -iters=20,5,5 -delta=0.02 -normal_lod=2 For neural normal mapping, use -iters=20,5,0 -normal_lod=2 . See the renderer README for camera orientation, band tuning, and benchmark instructions. The exporter expects all three checkpoint levels. Training, evaluation, and limitations These are shape-specific surface representations fitted to clean, normalized oriented point clouds from the Stanford 3D Scanning Repository and Thingi32. They are not a model that reconstructs an unseen scan without training. Coordinate normalization and the training configurations are documented in the code release. Training inputs, noisy variants, outlier experiments, renderer examples, texture assets, and the paper's noise reconstructions remain available in the GitHub data release . Run python tools/download_data.py inside the code repository to obtain the full reproduction inputs. To retrain on the 1% noisy inputs, use python reproduce.py noise --shapes normalized_lucy_gt . Use REPRODUCING.md for the evaluation protocol, verified results, hardware, and known shape-specific reconstruction artifacts. Saved inference bands depend on the released checkpoints and their original inputs; recompute them after retraining or changing the coordinate normalization. Runtime speed depends on the GPU, image resolution, tracing iterations, and active detail levels. License and citation The released checkpoints and accompanying configurations use the MIT license . Source dataset assets retain their respective dataset terms; they are obtained separately from the data release. @inproceedings{silvamplicits2026, title = {M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals}, author = {Silva, Vin{\\'\\i}cius da and Melo, Isabelle and Bessa, Matheus and Schardong, Guilherme and Schirmer, Luiz and Ara{\\'u}jo, Andr{\\'e} and Gon{\\c{c}}alves, Nuno and Lopes, H{\\'e}lio and Raposo, Alberto and Velho, Luiz and Novello, Tiago}, booktitle = {Advances in Neural Information Processing Systems}, year = {2026} } Downloads last month 17 Inference Providers NEW This model isn't deployed by any Inference Provider. 🙋 Ask for provider support Paper for dsilvavinicius/m-plicits Paper • 2609.28684 • Published 14 days ago",
+      "page_text_length": 6112
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "0280f22b0a99504360872888006209aadb944e05423c452d90ff269d40d911f0",
+      "title": "M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals",
+      "source": "arXiv cs.CV",
+      "url": "https://arxiv.org/abs/2609.28684",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 14,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models",
+            "training",
+            "inference",
+            "speed"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models",
+            "training",
+            "inference",
+            "speed"
+          ]
+        },
+        "beta": {
+          "score": 2,
+          "matched_terms": [
+            "arr",
+            "order"
+          ],
+          "market_signals": [
+            "arr",
+            "order"
+          ]
+        },
+        "gamma": {
+          "score": 3,
+          "matched_terms": [
+            "mod",
+            "standard",
+            "eu"
+          ],
+          "strategic_signals": [
+            "mod",
+            "standard",
+            "eu",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals\n\nAn arXiv cs.CV paper by Vinícius da Silva, Isabelle Melo and colleagues, published on 28 September 2026, presents M-plicits for neural implicit surface reconstruction. The method represents a surface with a base SIREN followed by residual SIRENs trained in nested neighborhoods of the preceding surface, enabling multiscale surface extraction, real-time sphere tracing, analytical normals and neural normal mapping. The accompanying release contains 105 PyTorch checkpoints for 36 independently fitted shapes, while the paper evaluates robustness to noisy oriented point clouds. The supplied evidence gives no quantitative comparison or independent replication, so it establishes a proposed and released method rather than general performance superiority.",
+    "source_record_ids": [
+      "0280f22b0a99504360872888006209aadb944e05423c452d90ff269d40d911f0"
+    ],
+    "format": "explainer_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

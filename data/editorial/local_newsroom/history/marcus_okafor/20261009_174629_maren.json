@@ -1,0 +1,122 @@
+{
+  "journalist": "Marcus Okafor",
+  "role": "Robotics Correspondent",
+  "journalist_id": "marcus_okafor",
+  "generated_at": "2026-10-09T17:28:10.256839+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation\" robotics",
+      "title": "[2610.12457] SpatialHarness: Test-Time Spatial Scaffolding ...",
+      "url": "https://arxiv.org/abs/2610.12457",
+      "snippet": "23 hours ago · We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup.",
+      "page_text": "[2610.12457] SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Robotics arXiv:2610.12457 (cs) [Submitted on 8 Oct 2026] Title: SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation Authors: Jiayu Wang , Yue Yu , Bin Zhu , Zhiyao Yang , Jingjing Chen View a PDF of the paper titled SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation, by Jiayu Wang and 4 other authors View PDF HTML (experimental) Abstract: Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily insufficient policy capability, but insufficient spatial observability, where task-critical spatial relationships may be poorly revealed by the existing physical camera setup. We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup. SpatialHarness maintains an online simulated scene synchronized with real-world execution, identifies task-critical spatial relationships, and renders complementary virtual views that expose them to a frozen multimodal policy. To keep the simulated scene aligned during interaction, we develop interaction-aware scene synchronization that distinguishes static, held, and transition modes. We evaluate SpatialHarness on four real-robot manipulation tasks spanning precise geometric alignment, object-relative placement, and articulated-object interaction. Using the same frozen GPT-6 Astra policy, SpatialHarness substantially improves task success, including from 26.7% to 66.7% on plug insertion and from 0% to 100% on Tower of Hanoi. These results indicate that improving spatial observability at test time can unlock fine-manipulation capabilities already present in strong multimodal foundation models. Project website: this https URL . Subjects: Robotics (cs.RO) Cite as: arXiv:2610.12457 [cs.RO] (or arXiv:2610.12457v1 [cs.RO] for this version) https://doi.org/10.48550/arXiv.2610.12457 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Yue Yu [ view email ] [v1] Thu, 8 Oct 2026 17:59:20 UTC (5,886 KB) Full-text links: Access Paper: View a PDF of the paper titled SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation, by Jiayu Wang and 4 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.RO < prev | next > new | recent | 2026-10 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4684
+    },
+    {
+      "query": "\"SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation\" robotics",
+      "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine ...",
+      "url": "https://papers.cool/arxiv/2610.12457",
+      "snippet": "We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup.",
+      "page_text": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation | Cool Papers - Immersive Paper Discovery 2610.12457 Total: 1 #1 SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation [PDF 2 ] [Copy] [Kimi ] [REL] Authors : Jiayu Wang , Yue Yu , Bin Zhu , Zhiyao Yang , Jingjing Chen Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily insufficient policy capability, but insufficient spatial observability, where task-critical spatial relationships may be poorly revealed by the existing physical camera setup. We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup. SpatialHarness maintains an online simulated scene synchronized with real-world execution, identifies task-critical spatial relationships, and renders complementary virtual views that expose them to a frozen multimodal policy. To keep the simulated scene aligned during interaction, we develop interaction-aware scene synchronization that distinguishes static, held, and transition modes. We evaluate SpatialHarness on four real-robot manipulation tasks spanning precise geometric alignment, object-relative placement, and articulated-object interaction. Using the same frozen GPT-6 Astra policy, SpatialHarness substantially improves task success, including from 26.7% to 66.7% on plug insertion and from 0% to 100% on Tower of Hanoi. These results indicate that improving spatial observability at test time can unlock fine-manipulation capabilities already present in strong multimodal foundation models. Project website: https://emilia113.github.io/SpatialHarness/. Subject : Robotics Publish : 2026-10-08 17:59:20 UTC Designed by kexue.fm | Powered by kimi.ai Include( OR ): Exclude: Search Filter Highlight Stared Paper(s): #1 SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation Export Magic Token: Kimi Language: 中文 English Desc Language: 中文 English Save Bug report? Issue submit? Please visit: Github: https://github.com/bojone/papers.cool Please read our Disclaimer before proceeding. For more interesting features, please visit kexue.fm and kimi.ai .",
+      "page_text_length": 2424
+    },
+    {
+      "query": "\"SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation\" robotics",
+      "title": "Dexterous Robotic Manipulation | Tangent Robotics",
+      "url": "https://www.tangentrobotics.ai/",
+      "snippet": "We combine touch sensing, hand design, and motor learning, to build the fine motor skill layer for robotic dexterity and automate complex, high-precision manipulation tasks.",
+      "page_text": "Dexterous Robotic Manipulation | Tangent Robotics F ine motor skills for robot hands We combine touch sensing, hand design, and motor learning, to build the fine motor skill layer for robotic dexterity and automate complex, high-precision manipulation tasks. Hands Skilled Hands Our hands designs are optimized for multifingered dexterity. They track human fingertip movements without replicating human articulation, enabling dexterous data collection and autonomous policy training for intricate manipulation. Touch Touch Sensing Touch sensing is the cornerstone of fine motor skills. Our sensors use light for touch transduction, with high sensitivity and polling frequency, low latency, simple manufacturing and integration into hands, and low cost. They provide tunable compliance in series with our actuators, simplifying the design of the hand. Dexterity Autonomous Dexterity Our motor learning approach combines human fingertip tracking and on-robot learning to train autonomous dexterous policies fusing visual and tactile data for delicate tasks with precise contact and force transmission. Hands Touch Dexterity The fine motor skill layer Hardware, sensing and learning combine to form the fine motor skill layer, omnipresent in the real world and needed for most of what we want our economy to build locally, fast and at scale. We design for the delicate, high-value last mile of skilled manipulation, such as unstructured part sequencing and processing, exacting assemblies and manufacturing, installation and maintenance including disassembly, inspection, reassembly and wiring of electrical or mechanical equipment, and many others. Blog Building Dexterity Documenting the technical details, providing insights into our approach, and highlighting the milestones on the way to autonomous dexterity. View all Pre-seed Funding Round led by Fly Ventures and Toyota Ventures Sep 2026 TR01 “Heavy”: an Upgraded Hand with Stronger Fingers and a New Camera Aug 2026 The TR02 Hand Jun 2026 Towards Autonomous Dexterity May 2026 A Light Touch Apr 2026 We Don&#8217;t Copy Human Hands — We Capture What Makes Them Work Mar 2026 Come build with us. View Open Roles",
+      "page_text_length": 2166
+    },
+    {
+      "query": "\"SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation\" robotics",
+      "title": "[2609.33982] Test-Time Spatial Reasoning for Robot ...",
+      "url": "https://arxiv.org/abs/2609.33982",
+      "snippet": "Sep 27, 2026 · Spatial reasoning is fundamental to general robot intelligence, as it enables robots to complete long-horizon tasks involving multi-object interaction. We introduce Simify, a training-free, test-time framework that performs explicit spatial reasoning via massively parallel physics simulation.",
+      "page_text": "[2609.33982] Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Robotics arXiv:2609.33982 (cs) [Submitted on 27 Sep 2026] Title: Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim Authors: Ivan Kapelyukh , Yafei Hu , Ran Gong , Brandon May , Tushar Kusnur , Laura Herlant , Karl Schmeckpeper , Edward Johns , Xiaohan Zhang View a PDF of the paper titled Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim, by Ivan Kapelyukh and 8 other authors View PDF HTML (experimental) Abstract: Spatial reasoning is fundamental to general robot intelligence, as it enables robots to complete long-horizon tasks involving multi-object interaction. We introduce Simify, a training-free, test-time framework that performs explicit spatial reasoning via massively parallel physics simulation. From a single RGB-D image of a scene, Simify reconstructs simulation-ready assets leveraging 3D generative models and vision-language models. Then given a task specified by a reward function (e.g., build the tallest tower), Simify launches thousands of parallel rollouts in simulation and performs an evolutionary search to optimize object arrangements, typically converging within seconds. We conduct quantitative experiments on real-robot hardware to demonstrate the ability of our framework to execute complex object rearrangement tasks end-to-end with previously unseen objects. Results show that our framework outperforms prior work on foundation models for spatial reasoning by effectively exploiting large-scale parallel simulation during inference, and also highlight the importance of complete and accurate geometry for successful sim-to-real transfer. Comments: IROS 2026 Subjects: Robotics (cs.RO) ; Computer Vision and Pattern Recognition (cs.CV) Cite as: arXiv:2609.33982 [cs.RO] (or arXiv:2609.33982v1 [cs.RO] for this version) https://doi.org/10.48550/arXiv.2609.33982 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Ivan Kapelyukh [ view email ] [v1] Sun, 27 Sep 2026 22:28:10 UTC (3,474 KB) Full-text links: Access Paper: View a PDF of the paper titled Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim, by Ivan Kapelyukh and 8 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.RO < prev | next > new | recent | 2026-09 Change to browse by: cs cs.CV References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4425
+    },
+    {
+      "query": "\"SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation\" robotics",
+      "title": "spatialharness.com",
+      "url": "http://spatialharness.com/",
+      "snippet": "spatialharness.com",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "7277b600a5250908915c89c7231060e993f05f8abe843a50781cf6304c4dd901",
+      "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2610.12457",
+      "date": "2026-10-08T17:59:20Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "SpatialHarness: Fine Robot Manipulation Without Policy Fine-Tuning\n\nThe paper \"SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation\" introduces a test-time embodied harness that provides spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup.\n\nThe robot embodiment is not specified in the paper. The task involves four real-robot manipulation tasks spanning precise geometric alignment, object-relative placement, and articulated-object interaction. The training approach is not explicitly stated, but it appears to involve a frozen multimodal policy. The autonomy level is not specified, but the policy is frozen, suggesting some level of human oversight or teleoperation. The environment is not explicitly stated, but the tasks are performed on real-robot hardware. The real-world capability established is the ability to substantially improve task success on fine manipulation tasks using spatial scaffolding at test time. The results indicate that improving spatial observability at test time can unlock fine-manipulation capabilities already present in strong multimodal foundation models.",
+    "source_record_ids": [
+      "7277b600a5250908915c89c7231060e993f05f8abe843a50781cf6304c4dd901"
+    ],
+    "format": "robotics_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "SpatialHarness: Fine Robot Manipulation Without Policy Fine-Tuning\n\nThe paper \"SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation\" introduces a test-time embodied harness that provides spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup.\n\nThe robot embodiment is not specified in the paper. The task involves four real-robot manipulation tasks spanning precise geometric alignment, object-relative placement, and articulated-object interaction. The training approach is not explicitly stated, but it appears to involve a frozen multimodal policy. The autonomy level is not specified, but the policy is frozen, suggesting some level of human oversight or teleoperation. The environment is not explicitly stated, but the tasks are performed on real-robot hardware. The real-world capability established is the ability to substantially improve task success on fine manipulation tasks using spatial scaffolding at test time. The results indicate that improving spatial observability at test time can unlock fine-manipulation capabilities already present in strong multimodal foundation models.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article is about the correct assigned story: SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+        "The article's headline and body match the assigned story",
+        "The central factual claims are supported by the supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article is about the correct assigned story: SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+        "The article's headline and body match the assigned story",
+        "The central factual claims are supported by the supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article is about the correct assigned story: SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+      "The article's headline and body match the assigned story",
+      "The central factual claims are supported by the supplied evidence",
+      "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+      "Analysis is distinguishable from reported fact"
+    ]
+  }
+}

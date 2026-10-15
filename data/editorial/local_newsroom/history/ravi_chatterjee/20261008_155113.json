@@ -1,0 +1,109 @@
+{
+  "journalist": "Ravi Chatterjee",
+  "role": "Explainer",
+  "journalist_id": "ravi_chatterjee",
+  "generated_at": "2026-10-08T15:51:13.117444+00:00",
+  "model": "gpt-5.6-luna",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "0280f22b0a99504360872888006209aadb944e05423c452d90ff269d40d911f0",
+      "title": "M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals",
+      "source": "arXiv cs.CV",
+      "url": "https://arxiv.org/abs/2609.28684",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 14,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models",
+            "training",
+            "inference",
+            "speed"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models",
+            "training",
+            "inference",
+            "speed"
+          ]
+        },
+        "beta": {
+          "score": 2,
+          "matched_terms": [
+            "arr",
+            "order"
+          ],
+          "market_signals": [
+            "arr",
+            "order"
+          ]
+        },
+        "gamma": {
+          "score": 3,
+          "matched_terms": [
+            "mod",
+            "standard",
+            "eu"
+          ],
+          "strategic_signals": [
+            "mod",
+            "standard",
+            "eu",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals\n\nAn arXiv cs.CV research paper titled “M-plicits: Neural Implicit Surfaces via Nested Multiscale Residuals” was posted on 28 September 2026; the supplied record does not identify its authors. The record identifies neural implicit surfaces constructed via nested multiscale residuals, but provides no architecture, training procedure, measurements, or comparison details. No experiments, models, datasets, tests, or quantitative results are available in the supplied evidence. The record therefore establishes a publication title and topic, not a demonstrated method or performance result; independent verification and the paper’s technical contents are unavailable.",
+    "source_record_ids": [
+      "0280f22b0a99504360872888006209aadb944e05423c452d90ff269d40d911f0"
+    ],
+    "format": "explainer_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}
