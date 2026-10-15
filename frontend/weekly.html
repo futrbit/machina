@@ -1,0 +1,514 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fffdf7">
+<title>Weekly Deep Dive — MachinaDaily</title>
+<style>
+:root {
+  --paper:#fffdf7; --ink:#111; --red:#ed3426;
+  --blue:#155dcc; --yellow:#ffd21a; --line:#d8d5cb;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:Arial,Helvetica,sans-serif; line-height:1.65;
+}
+header {
+  padding:18px 5vw; border-bottom:2px solid var(--ink);
+  display:flex; flex-wrap:wrap; gap:14px;
+  align-items:center; justify-content:space-between;
+}
+.brand { font-size:1rem; font-weight:900; letter-spacing:.08em; }
+nav { display:flex; gap:18px; flex-wrap:wrap; }
+a { color:var(--blue); }
+nav a { font-size:.9rem; font-weight:700; }
+main { width:min(900px,90vw); margin:0 auto; padding:42px 0 80px; }
+.eyebrow { font-size:.75rem; font-weight:900; letter-spacing:.16em; text-transform:uppercase; }
+h1 { font-size:clamp(2.4rem,7vw,5.5rem); line-height:.98; letter-spacing:-.06em; margin:14px 0 20px; }
+.intro { max-width:650px; font-size:1.1rem; }
+.status {
+  border:1px solid var(--line); padding:16px 18px; margin:28px 0;
+  background:#fff; overflow-wrap:anywhere;
+}
+.status strong { display:block; margin-bottom:4px; }
+.meta { color:#555; font-size:.85rem; }
+h2 { margin-top:42px; padding-bottom:8px; border-bottom:2px solid var(--ink); }
+#article {
+  white-space:pre-wrap; overflow-wrap:anywhere; font-size:1.04rem;
+  line-height:1.85; font-family:Georgia,"Times New Roman",serif;
+}
+#sources { padding-left:22px; overflow-wrap:anywhere; }
+#sources li { margin:10px 0; }
+.warning { border-left:5px solid var(--yellow); padding:10px 14px; background:#fff8d9; }
+button {
+  background:var(--ink); color:white; border:0; padding:11px 16px;
+  font-weight:700; cursor:pointer;
+}
+footer { border-top:1px solid var(--line); padding-top:20px; margin-top:50px; font-size:.85rem; }
+</style>
+
+<style id="machina-magazine-styles">
+:root {
+  --mag-paper: #f8f6f0;
+  --mag-ink: #191919;
+  --mag-muted: #706b62;
+  --mag-rule: #c9c4b8;
+  --mag-red: #bd3028;
+}
+
+body {
+  background: var(--mag-paper) !important;
+  color: var(--mag-ink);
+}
+
+header {
+  border-bottom: 3px solid var(--mag-ink);
+}
+
+.brand {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  letter-spacing: .04em;
+}
+
+main {
+  width: min(1100px, 90vw);
+  padding-top: 48px;
+}
+
+main > .eyebrow {
+  color: var(--mag-red);
+  letter-spacing: .2em;
+}
+
+main > h1 {
+  max-width: 1050px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.8rem, 7vw, 5.8rem);
+  line-height: .98;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+  margin: 18px 0 24px;
+}
+
+.intro {
+  max-width: 760px;
+  font: 1.25rem/1.65 Georgia, "Times New Roman", serif;
+}
+
+.status {
+  border: 0;
+  border-top: 1px solid var(--mag-rule);
+  border-bottom: 1px solid var(--mag-rule);
+  background: transparent;
+  padding: 16px 0;
+}
+
+main > h2 {
+  margin-top: 48px;
+  padding-top: 14px;
+  border-top: 3px solid var(--mag-ink);
+  border-bottom: 1px solid var(--mag-rule);
+  font: 700 1.8rem/1.2 Georgia, "Times New Roman", serif;
+}
+
+#article,
+#weekly-output-article {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  font: 18px/1.85 Georgia, "Times New Roman", serif;
+}
+
+#article > p,
+#weekly-output-article > p {
+  max-width: 760px;
+  margin: 0 0 22px;
+}
+
+#article > p:first-child,
+#weekly-output-article > p:first-child {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+#article h2,
+#weekly-output-article h2 {
+  max-width: 900px;
+  margin: 46px 0 16px;
+  padding: 13px 0 0;
+  border-top: 2px solid var(--mag-ink);
+  border-bottom: 0;
+  font: 700 clamp(1.8rem, 3.6vw, 2.5rem)/1.12 Georgia, "Times New Roman", serif;
+  letter-spacing: -.025em;
+}
+
+#article h3,
+#weekly-output-article h3 {
+  margin: 30px 0 10px;
+  font: 700 1.35rem/1.3 Georgia, "Times New Roman", serif;
+}
+
+#article ul,
+#article ol,
+#weekly-output-article ul,
+#weekly-output-article ol {
+  max-width: 760px;
+  margin: 8px 0 28px;
+  padding-left: 26px;
+}
+
+#article li,
+#weekly-output-article li {
+  margin-bottom: 12px;
+  padding-left: 5px;
+}
+
+#article a,
+#weekly-output-article a,
+#sources a {
+  color: var(--mag-red);
+  text-underline-offset: 3px;
+}
+
+#machina-weekly-output {
+  max-width: 1100px !important;
+  margin: 55px auto !important;
+  padding: 30px 32px 75px !important;
+  border-top: 3px solid var(--mag-ink);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#machina-weekly-output > p:first-child {
+  color: var(--mag-red);
+  font: 700 .75rem/1.5 Arial, sans-serif;
+  letter-spacing: .2em;
+}
+
+#weekly-output-status {
+  color: var(--mag-muted);
+  font: 12px/1.6 Arial, sans-serif;
+}
+
+#weekly-output-article h1 {
+  font: 700 clamp(2.5rem, 6vw, 4.7rem)/1 Georgia, "Times New Roman", serif;
+  letter-spacing: -.04em;
+}
+
+.warning {
+  border-left-color: var(--mag-red);
+}
+
+footer {
+  border-top: 2px solid var(--mag-ink);
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 90vw;
+    padding-top: 28px;
+  }
+
+  main > h1 {
+    font-size: 2.8rem;
+  }
+
+  #article,
+  #weekly-output-article {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  #machina-weekly-output {
+    padding: 22px 5vw 50px !important;
+  }
+}
+</style>
+
+</head>
+<body>
+<header>
+  <div class="brand">MACHINADAILY / INTELLIGENCE</div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/editorial">Editorial</a>
+    <a href="/newsroom">Newsroom</a>
+  </nav>
+</header>
+<main>
+  <div class="eyebrow">Long-form investigation · Weekly edition</div>
+  <h1>Weekly<br>Deep Dive<span style="color:var(--red)">.</span></h1>
+  <p class="intro">One important development, examined beyond the headline. Evidence, context and competing explanations — with the research trail kept visible.</p>
+
+  <section class="status" aria-live="polite">
+    <strong id="status-title">Loading the latest edition…</strong>
+    <div id="status-message">Checking the saved editorial draft.</div>
+    <p class="meta" id="meta"></p>
+  </section>
+
+  <div id="warnings"></div>
+  <section id="story" hidden>
+    <div class="eyebrow">The investigation</div>
+    <h2 id="headline"></h2>
+    <p class="meta" id="story-meta"></p>
+    <h2>Read the deep dive</h2>
+    <article id="article"></article>
+    <h2>Research trail</h2>
+    <p class="meta">Sources supplied by the saved research brief.</p>
+    <ul id="sources"></ul>
+  </section>
+
+  <footer>
+    <button id="refresh" type="button">Refresh edition</button>
+    <p>MachinaDaily · Research-led technology and strategic intelligence.</p>
+  </footer>
+</main>
+<script>
+const byId = id => document.getElementById(id);
+
+function addText(parent, tag, value) {
+  const el = document.createElement(tag);
+  el.textContent = value == null ? "" : String(value);
+  parent.appendChild(el);
+  return el;
+}
+
+function sourceTitle(source) {
+  if (typeof source === "string") return source;
+  if (!source || typeof source !== "object") return "Research source";
+  return source.title || source.name || source.headline || source.url || "Research source";
+}
+
+function renderSources(sources) {
+  const list = byId("sources");
+  list.replaceChildren();
+
+  if (!Array.isArray(sources) || sources.length === 0) {
+    addText(list, "li", "No source list is available in the saved research brief.");
+    return;
+  }
+
+  sources.forEach(source => {
+    const li = document.createElement("li");
+    const title = sourceTitle(source);
+    const url = source && typeof source === "object"
+      ? (source.url || source.link || source.source_url || "")
+      : "";
+
+    if (typeof url === "string" && /^https?:\/\//i.test(url)) {
+      const link = document.createElement("a");
+      link.href = url;
+      link.textContent = title;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      li.appendChild(link);
+    } else {
+      li.textContent = title;
+    }
+
+    list.appendChild(li);
+  });
+}
+
+async function loadEdition() {
+  byId("status-title").textContent = "Loading the latest edition…";
+  byId("status-message").textContent = "Reading the saved Weekly Deep Dive.";
+  byId("story").hidden = true;
+  byId("warnings").replaceChildren();
+
+  try {
+    const response = await fetch("/weekly/data", {cache:"no-store"});
+    const data = await response.json();
+
+    if (!response.ok || data.status === "error") {
+      throw new Error(data.message || "The saved edition could not be loaded.");
+    }
+
+    if (data.status === "waiting_for_first_run") {
+      byId("status-title").textContent = "Your first deep dive is not ready yet";
+      byId("status-message").textContent = data.message;
+      byId("meta").textContent = "Run the weekly editorial engine to publish a draft here.";
+      return;
+    }
+
+    const selected = data.selected_story || {};
+    const article = data.article || {};
+    const markdown = typeof article.markdown === "string" ? article.markdown : "";
+
+    byId("status-title").textContent =
+      data.status === "draft_ready_for_editorial_review"
+        ? "Draft ready for editorial review"
+        : data.status === "needs_editorial_review"
+          ? "Editorial review required"
+          : "Weekly edition loaded";
+
+    byId("status-message").textContent =
+      selected.headline || "The saved edition has no headline recorded.";
+    byId("meta").textContent =
+      "Generated: " + (data.generated_at || "not recorded") +
+      " · Model: " + (data.model || "not recorded");
+
+    byId("headline").textContent = selected.headline || "Weekly Deep Dive";
+    byId("story-meta").textContent =
+      "Word count: " + (article.word_count ?? "unknown") +
+      " · Candidate date: " + (selected.candidate_date || "unknown");
+
+    // Render Markdown safely, without allowing model-generated HTML.
+    function renderWeeklyMarkdown(source) {
+      const escapeHtml = value => String(value).replace(/[&<>"']/g, ch => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;",
+        '"': "&quot;", "'": "&#39;"
+      }[ch]));
+
+      const inline = value => {
+        let result = escapeHtml(value);
+        result = result.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+          '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+        result = result.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+        result = result.replace(/(^|[^*])\*([^*]+)\*/g, "$1<em>$2</em>");
+        return result;
+      };
+
+      const lines = String(source || "").replace(/\r/g, "").split("\n");
+      const output = [];
+      let paragraph = [];
+      let listType = "";
+
+      const flushParagraph = () => {
+        if (paragraph.length) {
+          output.push("<p>" + inline(paragraph.join(" ")) + "</p>");
+          paragraph = [];
+        }
+      };
+      const closeList = () => {
+        if (listType) {
+          output.push("</" + listType + ">");
+          listType = "";
+        }
+      };
+
+      for (const line of lines) {
+        const trimmed = line.trim();
+        const heading = trimmed.match(/^(#{1,3})\s+(.+)$/);
+        const bullet = trimmed.match(/^[-*]\s+(.+)$/);
+        const numbered = trimmed.match(/^\d+[.)]\s+(.+)$/);
+
+        if (!trimmed) {
+          flushParagraph();
+          closeList();
+        } else if (heading) {
+          flushParagraph();
+          closeList();
+          const level = heading[1].length;
+          output.push("<h" + level + ">" + inline(heading[2]) +
+            "</h" + level + ">");
+        } else if (bullet || numbered) {
+          flushParagraph();
+          const nextType = bullet ? "ul" : "ol";
+          if (listType !== nextType) {
+            closeList();
+            output.push("<" + nextType + ">");
+            listType = nextType;
+          }
+          output.push("<li>" + inline((bullet || numbered)[1]) + "</li>");
+        } else {
+          closeList();
+          paragraph.push(trimmed);
+        }
+      }
+
+      flushParagraph();
+      closeList();
+      return output.join("\n");
+    }
+
+    byId("article").innerHTML = markdown
+      ? renderWeeklyMarkdown(markdown)
+      : "<p>The saved JSON does not contain the article text.</p>";
+
+    const warnings = Array.isArray(data.quality_warnings) ? data.quality_warnings : [];
+    warnings.forEach(warning => {
+      const p = document.createElement("p");
+      p.className = "warning";
+      p.textContent = typeof warning === "string" ? warning : JSON.stringify(warning);
+      byId("warnings").appendChild(p);
+    });
+
+    renderSources(data.research && data.research.sources);
+    byId("story").hidden = false;
+  } catch (error) {
+    byId("status-title").textContent = "Could not load the Weekly Deep Dive";
+    byId("status-message").textContent = error.message;
+    byId("meta").textContent = "Check that the Flask application is running and inspect its terminal for errors.";
+  }
+}
+
+byId("refresh").addEventListener("click", loadEdition);
+loadEdition();
+</script>
+
+<section id="machina-weekly-output" style="max-width:900px;margin:48px auto;padding:24px;color:inherit;">
+  <p style="letter-spacing:.12em;font-size:.8rem;">MACHINADAILY / WEEKLY INVESTIGATION</p>
+  <div id="weekly-output-status">Loading latest deep-dive...</div>
+  <article id="weekly-output-article"></article>
+</section>
+<script>
+(async function () {
+  const status = document.getElementById("weekly-output-status");
+  const article = document.getElementById("weekly-output-article");
+  const esc = value => String(value ?? "").replace(/[&<>"']/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])
+  );
+
+  function findText(obj, keys) {
+    if (!obj || typeof obj !== "object") return "";
+    for (const key of keys) {
+      if (typeof obj[key] === "string" && obj[key].trim()) return obj[key];
+    }
+    return "";
+  }
+
+  function formatBody(text) {
+    return esc(text).split(/\r?\n/).map(line => {
+      if (/^### /.test(line)) return "<h3>" + line.slice(4) + "</h3>";
+      if (/^## /.test(line)) return "<h2>" + line.slice(3) + "</h2>";
+      if (/^# /.test(line)) return "<h2>" + line.slice(2) + "</h2>";
+      if (!line.trim()) return "";
+      return "<p>" + line.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>") + "</p>";
+    }).join("\n");
+  }
+
+  try {
+    const response = await fetch("/weekly/data", {cache: "no-store"});
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    const data = await response.json();
+
+    if (data.status === "waiting_for_first_run") {
+      status.textContent = data.message || "No weekly deep-dive is available yet.";
+      return;
+    }
+
+    const story = data.article && typeof data.article === "object"
+      ? data.article : data;
+    const title = findText(story, ["headline", "title", "article_title"])
+      || findText(data, ["headline", "title"]) || "Weekly Deep-Dive";
+    const body = findText(story, [
+      "markdown", "markdown", "body", "content", "article_text", "text", "article_markdown"
+    ]) || findText(data, ["markdown", "body", "content"]);
+
+    status.textContent = data.generated_at
+      ? "Generated " + data.generated_at : "";
+
+    article.innerHTML = "<h1>" + esc(title) + "</h1>" +
+      (body ? formatBody(body) :
+        "<p>The weekly data endpoint responded, but its article body field needs mapping to the existing JSON schema.</p>");
+  } catch (error) {
+    status.textContent = "Could not load the weekly deep-dive. Check that the MachinaDaily Flask server is running.";
+    console.error("Weekly deep-dive:", error);
+  }
+})();
+</script>
+
+</body>
+</html>

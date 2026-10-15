@@ -1,0 +1,910 @@
+﻿```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fffdf7">
+<title>Editorial // Machina Daily</title>
+
+<style>
+:root {
+    --paper: #fffdf7;
+    --ink: #111;
+    --yellow: #ffd21a;
+    --red: #ed3426;
+    --blue: #155dcc;
+    --line: 3px solid var(--ink);
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: var(--line);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover { text-decoration: underline; }
+
+.hero {
+    padding: 65px 30px 45px;
+    border-bottom: var(--line);
+    background: var(--yellow);
+}
+
+.hero-label {
+    display: inline-block;
+    background: var(--ink);
+    color: white;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    max-width: 1000px;
+    margin: 0;
+    font-size: clamp(46px, 8vw, 105px);
+    line-height: .9;
+    letter-spacing: -5px;
+}
+
+.hero p {
+    max-width: 720px;
+    font-size: 19px;
+    line-height: 1.6;
+    margin-top: 25px;
+}
+
+.status {
+    padding: 15px 30px;
+    background: var(--ink);
+    color: white;
+    font-family: monospace;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.status button {
+    border: 2px solid white;
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 10px 14px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.status button:disabled {
+    opacity: .6;
+    cursor: wait;
+}
+
+main {
+    max-width: 1300px;
+    margin: auto;
+    padding: 45px 30px 100px;
+}
+
+.section {
+    border-top: var(--line);
+    padding: 35px 0;
+}
+
+.section-title {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.headline {
+    font-size: clamp(36px, 5.5vw, 72px);
+    line-height: .98;
+    letter-spacing: -3px;
+    overflow-wrap: anywhere;
+    margin: 0 0 35px;
+}
+
+.dek {
+    font-family: Georgia, serif;
+    font-size: 23px;
+    line-height: 1.5;
+    max-width: 900px;
+}
+
+.question {
+    font-size: 26px;
+    line-height: 1.3;
+    max-width: 950px;
+    overflow-wrap: anywhere;
+}
+
+.card {
+    border: 2px solid var(--ink);
+    padding: 25px;
+    background: white;
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 1.65;
+    margin: 0;
+}
+
+.thesis {
+    background: var(--red);
+    color: white;
+    border: var(--line);
+    padding: 30px;
+    font-size: 23px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.specialists {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.specialist {
+    border: var(--line);
+    padding: 22px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.specialist.alpha { background: var(--yellow); }
+.specialist.beta { background: white; }
+.specialist.gamma { background: var(--blue); color: white; }
+
+.specialist h3 {
+    margin: 0 0 18px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.specialist-title {
+    font-size: 16px;
+    line-height: 1.65;
+    white-space: pre-wrap;
+}
+
+.intelligence-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.intelligence-box {
+    border: var(--line);
+    padding: 23px;
+    background: white;
+    min-width: 0;
+}
+
+.intelligence-box h3 {
+    margin-top: 0;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.intelligence-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.intelligence-box li {
+    margin-bottom: 14px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.records {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+
+.record {
+    border: 2px solid var(--ink);
+    background: white;
+    padding: 14px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.record a {
+    color: var(--blue);
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+.record small {
+    display: block;
+    margin-top: 8px;
+    color: #555;
+}
+
+.machine {
+    border: var(--line);
+    padding: 25px;
+    background: #f1f1f1;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 2;
+    overflow-wrap: anywhere;
+}
+
+.article {
+    max-width: 900px;
+}
+
+.article h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 45px 0 15px;
+}
+
+.article p {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+    margin: 0 0 24px;
+}
+
+.article .article-dek {
+    font-size: 23px;
+    font-style: italic;
+}
+
+.article-meta {
+    color: #555;
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+.empty {
+    color: #555;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.error {
+    background: var(--red);
+    color: white;
+    border: var(--line);
+    padding: 22px;
+    font-weight: bold;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.footer {
+    border-top: var(--line);
+    padding: 25px 30px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+[hidden] { display: none !important; }
+
+@media (max-width: 800px) {
+    header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .hero h1 { letter-spacing: -2px; }
+
+    .specialists,
+    .intelligence-grid {
+        grid-template-columns: 1fr;
+    }
+
+    main { padding: 30px 18px 70px; }
+
+    .hero { padding: 45px 20px 35px; }
+
+    header { padding: 18px 20px; }
+
+    .status { padding: 14px 18px; }
+
+    .article p { font-size: 18px; }
+}
+</style>
+</head>
+
+<body>
+<header>
+    <div class="logo">MACHINA DAILY</div>
+    <nav>
+        <a href="/">HOME</a>
+        <a href="/archive">ARCHIVE</a>
+        <a href="/editorial">EDITORIAL</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-label">LOCAL EDITORIAL ENGINE</div>
+    <h1>THE MACHINE<br>FINDS THE STORY.</h1>
+    <p>
+        Original investigations built from Machina Daily's technical,
+        commercial and strategic intelligence. Each edition is loaded
+        from the latest files saved by the editorial engine.
+    </p>
+</section>
+
+<div class="status">
+    <span id="status-text">● CONNECTING TO EDITORIAL DATA...</span>
+    <button id="refresh-button" type="button">↻ REFRESH LATEST EDITION</button>
+</div>
+
+<main>
+    <div id="loading">Loading the latest saved editorial...</div>
+
+    <div id="error" class="error" hidden></div>
+
+    <div id="content" hidden>
+        <section class="section">
+            <div class="section-title">ORIGINAL INVESTIGATION</div>
+            <h2 id="headline" class="headline">Untitled investigation</h2>
+            <p id="dek" class="dek"></p>
+
+            <div class="question">
+                <strong>THE QUESTION</strong>
+                <p id="question"></p>
+            </div>
+
+            <div id="article-meta" class="article-meta"></div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">WHY NOW</div>
+            <div class="card">
+                <p id="why-now"></p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">ORIGINAL THESIS</div>
+            <div class="thesis" id="thesis"></div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">SPECIALIST INTELLIGENCE</div>
+            <div class="specialists">
+                <div class="specialist alpha">
+                    <h3>ALPHA // TECHNICAL</h3>
+                    <div id="alpha" class="specialist-title"></div>
+                </div>
+
+                <div class="specialist beta">
+                    <h3>BETA // CAPITAL</h3>
+                    <div id="beta" class="specialist-title"></div>
+                </div>
+
+                <div class="specialist gamma">
+                    <h3>GAMMA // STRATEGIC</h3>
+                    <div id="gamma" class="specialist-title"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">INVESTIGATION INTELLIGENCE</div>
+            <div class="intelligence-grid">
+                <div class="intelligence-box">
+                    <h3>EVIDENCE GAPS & UNCERTAINTIES</h3>
+                    <ul id="evidence-gaps"></ul>
+                </div>
+
+                <div class="intelligence-box">
+                    <h3>COUNTERARGUMENTS & EVIDENCE NOTES</h3>
+                    <ul id="counterarguments"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">SOURCE RECORDS</div>
+            <div id="records" class="records"></div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">EDITORIAL MACHINE</div>
+            <div class="machine">
+                INTELLIGENCE BRIEFS<br>
+                ↓<br>
+                SPECIALIST ROUTING<br>
+                ↓<br>
+                ALPHA / BETA / GAMMA<br>
+                ↓<br>
+                ORIGINAL INVESTIGATION<br>
+                ↓<br>
+                EDITORIAL SYNTHESIS<br>
+                ↓<br>
+                MACHINA DAILY
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">FINISHED ARTICLE</div>
+            <article id="article" class="article"></article>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    MACHINA DAILY // ORIGINAL INTELLIGENCE. INDEPENDENT ANALYSIS.
+</footer>
+
+<script>
+"use strict";
+
+const $ = id => document.getElementById(id);
+
+function asText(value) {
+    if (value === null || value === undefined) return "";
+    if (typeof value === "string") return value;
+    if (typeof value === "number" || typeof value === "boolean") {
+        return String(value);
+    }
+    if (Array.isArray(value)) {
+        return value.map(asText).filter(Boolean).join("\n");
+    }
+    if (typeof value === "object") {
+        return asText(
+            value.text ??
+            value.content ??
+            value.description ??
+            value.assessment ??
+            value.claim ??
+            value.title ??
+            value.name ??
+            value.url ??
+            ""
+        );
+    }
+    return "";
+}
+
+function firstText(...values) {
+    for (const value of values) {
+        const result = asText(value).trim();
+        if (result) return result;
+    }
+    return "";
+}
+
+function asArray(value) {
+    if (Array.isArray(value)) return value;
+    if (value === null || value === undefined || value === "") return [];
+    return [value];
+}
+
+function addListItems(elementId, values, fallback) {
+    const list = $(elementId);
+    list.replaceChildren();
+
+    const items = asArray(values)
+        .map(item => {
+            if (typeof item === "string") return item.trim();
+            if (typeof item === "object" && item !== null) {
+                return firstText(
+                    item.text,
+                    item.content,
+                    item.description,
+                    item.claim,
+                    item.reason,
+                    item.title,
+                    item.url
+                );
+            }
+            return asText(item).trim();
+        })
+        .filter(Boolean);
+
+    if (!items.length) {
+        const li = document.createElement("li");
+        li.className = "empty";
+        li.textContent = fallback;
+        list.appendChild(li);
+        return;
+    }
+
+    for (const item of items) {
+        const li = document.createElement("li");
+        li.textContent = item;
+        list.appendChild(li);
+    }
+}
+
+function collectSpecialistLists(specialists, keys) {
+    const output = [];
+
+    for (const key of ["alpha", "beta", "gamma"]) {
+        const report = specialists[key] || {};
+        for (const field of keys) {
+            const value = report[field];
+            for (const item of asArray(value)) {
+                const text = asText(item).trim();
+                if (text) output.push(text);
+            }
+        }
+    }
+
+    return [...new Set(output)];
+}
+
+function showRecords(sourceRecords, investigation, specialists) {
+    const container = $("records");
+    container.replaceChildren();
+
+    let records = asArray(sourceRecords);
+
+    if (!records.length) {
+        const webResearch = investigation.web_research;
+        if (Array.isArray(webResearch)) {
+            records = webResearch;
+        } else if (webResearch && Array.isArray(webResearch.sources)) {
+            records = webResearch.sources;
+        } else if (webResearch && Array.isArray(webResearch.candidates)) {
+            records = webResearch.candidates;
+        }
+    }
+
+    if (!records.length) {
+        records = collectSpecialistLists(specialists, ["source_records"]);
+    }
+
+    if (!records.length) {
+        const div = document.createElement("div");
+        div.className = "empty";
+        div.textContent = "No source records were included in the latest saved article.";
+        container.appendChild(div);
+        return;
+    }
+
+    records.forEach(record => {
+        const card = document.createElement("div");
+        card.className = "record";
+
+        const title = typeof record === "string"
+            ? record
+            : firstText(record.title, record.name, record.headline, record.url, record.source);
+
+        const url = typeof record === "object" && record !== null
+            ? firstText(record.url, record.source_url, record.link)
+            : "";
+
+        if (url && /^https?:\/\//i.test(url)) {
+            const link = document.createElement("a");
+            link.href = url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = title || url;
+            card.appendChild(link);
+        } else {
+            card.textContent = title || "Source record";
+        }
+
+        if (typeof record === "object" && record !== null) {
+            const detail = [
+                record.publisher,
+                record.published_at || record.published_date || record.date,
+                record.status
+            ].map(asText).filter(Boolean).join(" · ");
+
+            if (detail) {
+                const small = document.createElement("small");
+                small.textContent = detail;
+                card.appendChild(small);
+            }
+        }
+
+        container.appendChild(card);
+    });
+}
+
+function renderArticle(article) {
+    const container = $("article");
+    container.replaceChildren();
+
+    const dek = firstText(article.dek, article.standfirst, article.summary);
+
+    if (dek) {
+        const p = document.createElement("p");
+        p.className = "article-dek";
+        p.textContent = dek;
+        container.appendChild(p);
+    }
+
+    const sections = Array.isArray(article.sections) ? article.sections : [];
+    if (sections.length) {
+        sections.forEach(section => {
+            const title = firstText(section.title, section.heading);
+            if (title) {
+                const heading = document.createElement("h2");
+                heading.textContent = title;
+                container.appendChild(heading);
+            }
+
+            const body = firstText(section.text, section.content, section.body);
+            body.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean).forEach(text => {
+                const p = document.createElement("p");
+                p.textContent = text;
+                container.appendChild(p);
+            });
+        });
+    } else {
+        const text = firstText(
+            article.article,
+            article.full_text,
+            article.body,
+            article.text,
+            article.content
+        );
+
+        text.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean).forEach(paragraph => {
+            const p = document.createElement("p");
+            p.textContent = paragraph;
+            container.appendChild(p);
+        });
+    }
+
+    if (!container.children.length) {
+        const p = document.createElement("p");
+        p.className = "empty";
+        p.textContent = "The latest saved JSON does not contain finished article text.";
+        container.appendChild(p);
+    }
+}
+
+function unwrapArticleFile(file) {
+    if (!file || typeof file !== "object") return {};
+    if (file.article && typeof file.article === "object" && !Array.isArray(file.article)) {
+        return { ...file.article, specialists: file.specialists || file.article.specialists };
+    }
+    return file;
+}
+
+function unwrapInvestigationFile(file) {
+    if (!file || typeof file !== "object") return {};
+    if (file.investigation && typeof file.investigation === "object") {
+        return file.investigation;
+    }
+    return file;
+}
+
+function renderEditorial(data) {
+    const articleFile = data.article || {};
+    const investigationFile = data.investigation || {};
+
+    const article = unwrapArticleFile(articleFile);
+    const investigation = unwrapInvestigationFile(investigationFile);
+
+    const specialists =
+        article.specialists ||
+        articleFile.specialists ||
+        investigation.specialists ||
+        investigationFile.specialists ||
+        {};
+
+    $("headline").textContent = firstText(
+        article.headline,
+        investigation.headline,
+        investigation.title,
+        "Untitled investigation"
+    );
+
+    $("dek").textContent = firstText(article.dek, article.standfirst, article.summary);
+    $("dek").hidden = !$("dek").textContent;
+
+    $("question").textContent = firstText(
+        article.central_question,
+        investigation.central_question,
+        investigation.question
+    ) || "No central question was recorded.";
+
+    $("why-now").textContent = firstText(
+        article.why_now,
+        investigation.why_now
+    ) || "No explanation was recorded in the latest saved investigation.";
+
+    $("thesis").textContent = firstText(
+        article.thesis,
+        investigation.thesis,
+        investigation.potential_thesis
+    ) || "No thesis was recorded in the latest saved article.";
+
+    $("alpha").textContent = firstText(
+        specialists.alpha?.assessment,
+        specialists.alpha?.original_insight,
+        specialists.alpha?.summary,
+        specialists.alpha?.conclusion
+    ) || "No ALPHA assessment in the saved JSON.";
+
+    $("beta").textContent = firstText(
+        specialists.beta?.assessment,
+        specialists.beta?.original_insight,
+        specialists.beta?.summary,
+        specialists.beta?.conclusion
+    ) || "No BETA assessment in the saved JSON.";
+
+    $("gamma").textContent = firstText(
+        specialists.gamma?.assessment,
+        specialists.gamma?.original_insight,
+        specialists.gamma?.summary,
+        specialists.gamma?.conclusion
+    ) || "No GAMMA assessment in the saved JSON.";
+
+    const gaps = [
+        ...asArray(article.uncertainties),
+        ...asArray(investigation.evidence_gaps),
+        ...collectSpecialistLists(specialists, ["data_gaps", "uncertainties"])
+    ];
+
+    addListItems(
+        "evidence-gaps",
+        [...new Set(gaps.map(asText).filter(Boolean))],
+        "No evidence gaps or uncertainties were recorded."
+    );
+
+    const counters = [
+        ...asArray(article.evidence_notes),
+        ...asArray(investigation.counterarguments),
+        ...collectSpecialistLists(specialists, ["contradictions", "counterarguments"])
+    ];
+
+    addListItems(
+        "counterarguments",
+        [...new Set(counters.map(asText).filter(Boolean))],
+        "No counterarguments or evidence notes were recorded."
+    );
+
+    showRecords(
+        article.source_records || article.sources || investigation.source_records,
+        investigation,
+        specialists
+    );
+
+    renderArticle(article);
+
+    const generatedAt = firstText(
+        articleFile.generated_at,
+        article.generated_at,
+        investigationFile.generated_at,
+        investigation.generated_at
+    );
+
+    const researchId = firstText(
+        articleFile.research_id,
+        article.research_id,
+        investigationFile.research_id,
+        investigation.research_id
+    );
+
+    const model = firstText(articleFile.model, article.model);
+
+    const meta = [
+        researchId ? "RESEARCH: " + researchId : "",
+        model ? "MODEL: " + model : "",
+        generatedAt ? "GENERATED: " + generatedAt : ""
+    ].filter(Boolean);
+
+    $("article-meta").textContent = meta.join("  //  ");
+
+    $("loading").hidden = true;
+    $("error").hidden = true;
+    $("content").hidden = false;
+
+    const complete = firstText(articleFile.status, article.status);
+
+    if (data.article_matches_investigation === false) {
+        $("status-text").textContent =
+            "? INVESTIGATION / ARTICLE MISMATCH ? PREVIOUS ARTICLE HIDDEN";
+    } else {
+        $("status-text").textContent =
+            "? EDITORIAL DATA LOADED" +
+            (complete ? " // " + complete.toUpperCase() : "") +
+            (generatedAt ? " // " + generatedAt : "");
+    }
+}
+
+async function loadEditorial() {
+    const button = $("refresh-button");
+    button.disabled = true;
+    button.textContent = "LOADING...";
+    $("error").hidden = true;
+
+    if ($("content").hidden) {
+        $("loading").hidden = false;
+        $("loading").textContent = "Loading the latest saved editorial...";
+    }
+
+    $("status-text").textContent = "● FETCHING LATEST SAVED JSON...";
+
+    try {
+        const response = await fetch("/editorial/data", {
+            method: "GET",
+            cache: "no-store",
+            headers: { "Accept": "application/json" }
+        });
+
+        if (!response.ok) {
+            throw new Error("Server returned HTTP " + response.status);
+        }
+
+        const data = await response.json();
+
+        if (!data || typeof data !== "object") {
+            throw new Error("The editorial endpoint did not return a JSON object.");
+        }
+
+        if (!data.article && !data.investigation) {
+            throw new Error("The endpoint returned JSON but no article or investigation file.");
+        }
+
+        renderEditorial(data);
+    } catch (error) {
+        console.error("Machina Daily editorial load failed:", error);
+
+        $("loading").hidden = true;
+        $("error").textContent =
+            "EDITORIAL LOAD FAILED: " + error.message +
+            " — Check that the site server is running and /editorial/data is available.";
+        $("error").hidden = false;
+        $("status-text").textContent = "● EDITORIAL DATA ERROR";
+    } finally {
+        button.disabled = false;
+        button.textContent = "↻ REFRESH LATEST EDITION";
+    }
+}
+
+$("refresh-button").addEventListener("click", loadEditorial);
+loadEditorial();
+</script>
+</body>
+</html>
+```

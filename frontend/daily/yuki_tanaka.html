@@ -1,0 +1,835 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Yuki Tanaka — Machina Daily</title>
+
+<style>
+    :root {
+        --paper: #f4f1e8;
+        --ink: #111111;
+        --muted: #66615a;
+        --line: #1a1a1a;
+        --accent: #e7d600;
+        --white: #ffffff;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .page {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        border-bottom: 2px solid var(--line);
+        padding: 22px 5vw 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 30px;
+    }
+
+    .masthead {
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+    }
+
+    .section-label {
+        font-size: 12px;
+        color: var(--muted);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+    }
+
+    .hero {
+        padding: 7vh 5vw 6vh;
+        border-bottom: 1px solid var(--line);
+    }
+
+    .desk-number {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+
+    h1 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(52px, 9vw, 120px);
+        line-height: 0.88;
+        letter-spacing: -0.055em;
+        max-width: 1000px;
+    }
+
+    .role {
+        margin-top: 26px;
+        font-size: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+    }
+
+    .meta {
+        margin-top: 28px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .badge {
+        border: 1px solid var(--line);
+        padding: 7px 11px;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        background: var(--white);
+    }
+
+    .badge.accent {
+        background: var(--accent);
+    }
+
+    .intro {
+        padding: 5vh 5vw;
+        display: grid;
+        grid-template-columns: minmax(180px, 0.35fr) minmax(0, 1fr);
+        gap: 50px;
+        border-bottom: 1px solid var(--line);
+    }
+
+    .intro-label {
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+    }
+
+    .intro-text {
+        max-width: 760px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(24px, 3vw, 38px);
+        line-height: 1.12;
+        margin: 0;
+    }
+
+    .ranking-section {
+        padding: 6vh 5vw 8vh;
+    }
+
+    .ranking-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 20px;
+        border-bottom: 2px solid var(--line);
+        padding-bottom: 15px;
+        margin-bottom: 0;
+    }
+
+    .ranking-heading h2 {
+        margin: 0;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+    }
+
+    .ranking-count {
+        font-size: 12px;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+    }
+
+    .ranking-list {
+        border-bottom: 2px solid var(--line);
+    }
+
+    .ranking-item {
+        display: grid;
+        grid-template-columns: 100px minmax(0, 1fr) 260px;
+        gap: 30px;
+        align-items: center;
+        min-height: 150px;
+        padding: 25px 0;
+        border-bottom: 1px solid var(--line);
+    }
+
+    .ranking-item:last-child {
+        border-bottom: 0;
+    }
+
+    .ranking-number {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 64px;
+        line-height: 1;
+        letter-spacing: -0.05em;
+    }
+
+    .ranking-name {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(28px, 4vw, 48px);
+        line-height: 0.95;
+        letter-spacing: -0.035em;
+    }
+
+    .ranking-role {
+        margin-top: 10px;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+        color: var(--muted);
+    }
+
+    .ranking-bulletin {
+        margin-top: 22px;
+        max-width: 780px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 21px;
+        line-height: 1.35;
+        color: #25231f;
+    }
+
+    .ranking-title {
+        margin-top: 18px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 25px;
+        line-height: 1.05;
+        font-weight: 700;
+    }
+
+    .ranking-reason {
+        border-left: 1px solid var(--line);
+        padding-left: 25px;
+        font-size: 13px;
+        line-height: 1.45;
+        color: #383530;
+    }
+
+    .ranking-reason::before {
+        content: "EDITORIAL STATUS";
+        display: block;
+        margin-bottom: 8px;
+        font-size: 9px;
+        font-weight: 800;
+        letter-spacing: 0.13em;
+        color: var(--muted);
+    }
+
+    .editor-note {
+        margin-top: 45px;
+        padding: 25px;
+        background: var(--ink);
+        color: var(--paper);
+        max-width: 760px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 20px;
+        line-height: 1.25;
+    }
+
+    .editor-note small {
+        display: block;
+        margin-bottom: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+    }
+
+    footer {
+        margin-top: auto;
+        border-top: 2px solid var(--line);
+        padding: 20px 5vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+    }
+
+    .error {
+        padding: 30px;
+        border: 2px solid #111;
+        background: #fff;
+        font-weight: 700;
+    }
+
+    @media (max-width: 760px) {
+
+        header {
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .hero {
+            padding-top: 50px;
+        }
+
+        h1 {
+            font-size: 58px;
+        }
+
+        .intro {
+            grid-template-columns: 1fr;
+            gap: 18px;
+        }
+
+        .ranking-item {
+            grid-template-columns: 65px minmax(0, 1fr);
+            gap: 18px;
+            min-height: 125px;
+        }
+
+        .ranking-number {
+            font-size: 46px;
+        }
+
+        .ranking-name {
+            font-size: 31px;
+        }
+
+        .ranking-reason {
+            grid-column: 2;
+            border-left: 0;
+            border-top: 1px solid var(--line);
+            padding: 15px 0 0;
+        }
+
+        footer {
+            flex-direction: column;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<div class="page">
+
+```
+<header>
+    <div class="masthead">MACHINA DAILY</div>
+    <div class="section-label">Daily Briefing / Editorial Desk</div>
+</header>
+
+<section class="hero">
+
+    <div class="desk-number">
+        MACHINA DAILY / YUKI TANAKA
+    </div>
+
+    <h1 id="journalistName">
+        Yuki Tanaka
+    </h1>
+
+    <div class="role" id="journalistRole">
+        Desk Editor
+    </div>
+
+    <div class="meta">
+        <div class="badge accent" id="modelBadge">
+            Local Model
+        </div>
+
+        <div class="badge" id="dateBadge">
+            —
+        </div>
+    </div>
+
+</section>
+
+<section class="intro">
+
+    <div class="intro-label">
+        Today's Editorial Ranking
+    </div>
+
+    <p class="intro-text">
+        Yuki ranks the verified bulletins produced by the independent
+        editorial desks and determines the order of today's briefing.
+    </p>
+
+</section>
+
+<section class="ranking-section">
+
+    <div class="ranking-heading">
+        <h2>Top Stories</h2>
+
+        <div class="ranking-count" id="rankingCount">
+            —
+        </div>
+    </div>
+
+    <div class="ranking-list" id="rankingList">
+
+        <div style="padding: 35px 0;">
+            Loading editorial ranking...
+        </div>
+
+    </div>
+
+    <div class="editor-note">
+
+        <small>Yuki's role</small>
+
+        Yuki does not write the individual stories.
+        She evaluates the verified desk bulletins and selects the
+        strongest stories for the day's Machina Daily briefing.
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div id="footerDesk">
+        Yuki Tanaka · Desk Editor
+    </div>
+
+    <div>
+        MACHINA DAILY
+    </div>
+
+</footer>
+```
+
+</div>
+
+<script>
+
+const DESK_ID = "yuki_tanaka";
+
+const DISPLAY_NAMES = {
+    callum_reyes: "Callum Reyes",
+    tomas_vega: "Tomás Vega",
+    ingrid_sorensen: "Ingrid Sørensen",
+    dev_okafor: "Dev Okafor",
+    ravi_chatterjee: "Ravi Chatterjee",
+    sofia_lindqvist: "Sofia Lindqvist",
+    kenji_nakamura: "Kenji Nakamura",
+    marcus_okafor: "Marcus Okafor",
+    elena_vasquez: "Elena Vasquez"
+};
+
+
+function escapeHtml(value) {
+
+    return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+
+function stripHtml(value) {
+
+    const div =
+        document.createElement("div");
+
+    div.innerHTML =
+        String(value || "");
+
+    return div.textContent ||
+        div.innerText ||
+        "";
+}
+
+
+async function loadDesk() {
+
+    try {
+
+        const response =
+            await fetch(
+                "/daily/" +
+                DESK_ID +
+                "/data"
+            );
+
+        if (!response.ok) {
+
+            throw new Error(
+                "HTTP " +
+                response.status
+            );
+        }
+
+        const data =
+            await response.json();
+
+        const result =
+            data.journalist || {};
+
+        const yuki =
+            result.yuki || {};
+
+        const topFive =
+            yuki.top_five || [];
+
+
+        document.title =
+            "Yuki Tanaka — Machina Daily";
+
+
+        document.getElementById(
+            "journalistName"
+        ).textContent =
+            result.journalist ||
+            "Yuki Tanaka";
+
+
+        document.getElementById(
+            "journalistRole"
+        ).textContent =
+            result.role ||
+            "Desk Editor";
+
+
+        document.getElementById(
+            "modelBadge"
+        ).textContent =
+            result.model ||
+            data.model ||
+            "Local Model";
+
+
+        if (result.generated_at) {
+
+            const date =
+                new Date(
+                    result.generated_at
+                );
+
+            document.getElementById(
+                "dateBadge"
+            ).textContent =
+                date.toLocaleDateString(
+                    "en-GB",
+                    {
+                        day: "2-digit",
+                        month: "short",
+                        year: "numeric"
+                    }
+                );
+        }
+
+
+        document.getElementById(
+            "footerDesk"
+        ).textContent =
+            (
+                result.journalist ||
+                "Yuki Tanaka"
+            ) +
+            " · " +
+            (
+                result.role ||
+                "Desk Editor"
+            );
+
+
+        const list =
+            document.getElementById(
+                "rankingList"
+            );
+
+
+        document.getElementById(
+            "rankingCount"
+        ).textContent =
+            topFive.length +
+            " verified bulletins";
+
+
+        if (!topFive.length) {
+
+            list.innerHTML = `
+
+                <div
+                    style="
+                        padding: 40px 0;
+                        font-family: Georgia, serif;
+                        font-size: 24px;
+                    "
+                >
+                    No verified bulletins were available
+                    for ranking today.
+                </div>
+
+            `;
+
+            return;
+        }
+
+
+        /*
+         * Yuki's ranking tells us which record belongs
+         * to which journalist.
+         *
+         * The journalist endpoint exposes the actual
+         * current bulletin as data.latest.
+         *
+         * Do NOT use data.journalist.article here.
+         */
+
+
+        const enrichedStories =
+            await Promise.all(
+
+                topFive.map(
+                    async item => {
+
+                        try {
+
+                            const deskResponse =
+                                await fetch(
+                                    "/daily/" +
+                                    item.journalist_id +
+                                    "/data"
+                                );
+
+
+                            if (!deskResponse.ok) {
+
+                                return {
+                                    ...item,
+                                    title:
+                                        item.assigned_story_title ||
+                                        "",
+                                    body: ""
+                                };
+                            }
+
+
+                            const deskData =
+                                await deskResponse.json();
+
+
+                            const latest =
+                                deskData.latest ||
+                                null;
+
+
+                            return {
+
+                                ...item,
+
+                                title:
+                                    (
+                                        latest &&
+                                        latest.title
+                                    ) ||
+                                    item.assigned_story_title ||
+                                    "",
+
+                                body:
+                                    (
+                                        latest &&
+                                        latest.body
+                                    ) ||
+                                    ""
+
+                            };
+
+
+                        } catch (error) {
+
+                            console.error(
+                                "Could not load bulletin for",
+                                item.journalist_id,
+                                error
+                            );
+
+
+                            return {
+
+                                ...item,
+
+                                title:
+                                    item.assigned_story_title ||
+                                    "",
+
+                                body: ""
+
+                            };
+
+                        }
+
+                    }
+                )
+
+            );
+
+
+        list.innerHTML =
+            enrichedStories.map(
+                item => {
+
+                    const name =
+                        DISPLAY_NAMES[
+                            item.journalist_id
+                        ] ||
+                        item.journalist_id
+                            .replaceAll(
+                                "_",
+                                " "
+                            )
+                            .replace(
+                                /\b\w/g,
+                                c =>
+                                    c.toUpperCase()
+                            );
+
+
+                    const rank =
+                        String(
+                            item.rank || 0
+                        ).padStart(
+                            2,
+                            "0"
+                        );
+
+
+                    const title =
+                        item.title ||
+                        item.assigned_story_title ||
+                        "Machina Daily Bulletin";
+
+
+                    const body =
+                        stripHtml(
+                            item.body
+                        ) ||
+                        "No bulletin text was available for this desk.";
+
+
+                    return `
+
+                        <article
+                            class="ranking-item"
+                        >
+
+                            <div
+                                class="ranking-number"
+                            >
+                                ${escapeHtml(rank)}
+                            </div>
+
+
+                            <div
+                                class="ranking-story"
+                            >
+
+                                <div
+                                    class="ranking-name"
+                                >
+                                    ${escapeHtml(name)}
+                                </div>
+
+
+                                <div
+                                    class="ranking-role"
+                                >
+                                    Verified Editorial Desk
+                                </div>
+
+
+                                <div
+                                    class="ranking-title"
+                                >
+                                    ${escapeHtml(title)}
+                                </div>
+
+
+                                <div
+                                    class="ranking-bulletin"
+                                >
+                                    ${escapeHtml(body)}
+                                </div>
+
+                            </div>
+
+
+                            <div
+                                class="ranking-reason"
+                            >
+                                ${escapeHtml(
+                                    item.reason ||
+                                    "Verified bulletin available"
+                                )}
+                            </div>
+
+                        </article>
+
+                    `;
+
+                }
+            ).join("");
+
+
+    } catch (error) {
+
+        console.error(
+            "Yuki desk failed:",
+            error
+        );
+
+
+        document.getElementById(
+            "rankingList"
+        ).innerHTML = `
+
+            <div class="error">
+
+                THIS DESK COULD NOT LOAD
+
+                <br><br>
+
+                The editorial ranking endpoint
+                could not be reached.
+
+            </div>
+
+        `;
+
+    }
+
+}
+
+
+loadDesk();
+
+</script>
+
+</body>
+</html>

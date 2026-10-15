@@ -1,0 +1,2106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Machina Daily — technology, artificial intelligence, robotics, autonomous systems, drones and the forces shaping tomorrow.">
+
+  <meta name="theme-color" content="#050505">
+  <!-- Search & Social Metadata -->
+  <link rel="canonical" href="https://machinadaily.xyz/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Machina Daily">
+  <meta property="og:title" content="Machina Daily - The Machine World">
+  <meta property="og:description" content="Technology intelligence covering artificial intelligence, robotics, autonomous systems, drones and the forces shaping tomorrow.">
+  <meta property="og:url" content="https://machinadaily.xyz/">
+  <meta property="og:image" content="https://machinadaily.xyz/frontend/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Machina Daily - The Machine World">
+  <meta name="twitter:description" content="Technology intelligence covering artificial intelligence, robotics, autonomous systems, drones and the forces shaping tomorrow.">
+  <meta name="twitter:image" content="https://machinadaily.xyz/frontend/logo.png">
+
+
+  <title>Machina Daily — The Machine World</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZS9SDTXF6"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag(){
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-7ZS9SDTXF6');
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+  <!-- Site CSS -->
+  <link rel="stylesheet"
+        href="/frontend/style.css">
+
+  <!-- Machina Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://machinadaily.xyz/#organization",
+        "name": "Machina Daily",
+        "url": "https://machinadaily.xyz/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://machinadaily.xyz/frontend/logo.png"
+        },
+        "description": "Technology intelligence covering artificial intelligence, robotics, autonomous systems, drones and emerging technology."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://machinadaily.xyz/#website",
+        "url": "https://machinadaily.xyz/",
+        "name": "Machina Daily",
+        "description": "Technology intelligence covering artificial intelligence, robotics, autonomous systems, drones and emerging technology.",
+        "publisher": {
+          "@id": "https://machinadaily.xyz/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://machinadaily.xyz/#webpage",
+        "url": "https://machinadaily.xyz/",
+        "name": "Machina Daily - The Machine World",
+        "description": "Machina Daily tracks technology, artificial intelligence, robotics, autonomous systems, drones and the forces shaping tomorrow.",
+        "isPartOf": {
+          "@id": "https://machinadaily.xyz/#website"
+        }
+      }
+    ]
+  }
+  </script>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     TOP SYSTEM BAR
+========================================================= -->
+
+<div class="system-bar">
+
+  <div class="system-left">
+
+    <span class="system-mark"></span>
+
+    MACHINA//DAILY
+
+  </div>
+
+
+  <div class="system-center">
+
+    TECHNOLOGY INTELLIGENCE / 24H
+
+  </div>
+
+
+  <div class="system-right">
+
+    <span id="system-date">
+      LOADING
+    </span>
+
+    <span class="system-status">
+      ● LIVE
+    </span>
+
+  </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     MAIN HEADER
+========================================================= -->
+
+<header class="site-header">
+
+
+  <a href="/frontend/index.html"
+     class="brand">
+
+    <span class="brand-main">
+      MACHINA
+    </span>
+
+    <span class="brand-sub">
+      DAILY
+    </span>
+
+  </a>
+
+
+
+  <nav class="main-navigation">
+
+    <a href="/frontend/index.html">
+      HOME
+    </a>
+
+    <a href="/frontend/archive.html">
+      ARCHIVE
+    </a>
+
+    <a href="#signals">
+      SIGNALS
+    </a>
+
+    <a href="#analysis">
+      ANALYSIS
+    </a>
+
+    <button
+      class="nav-newsletter newsletter-open">
+      NEWSLETTER
+    </button>
+
+  </nav>
+
+
+  <button
+    class="mobile-menu"
+    aria-label="Open navigation">
+
+    MENU
+
+  </button>
+
+
+</header>
+
+
+
+<!-- =========================================================
+     LIVE DATA STRIP
+========================================================= -->
+
+<section class="market-strip">
+
+
+  <div class="market-label">
+
+    <span class="pulse"></span>
+
+    LIVE DATA
+
+  </div>
+
+
+  <div id="price-bar">
+
+    Loading market data...
+
+  </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     MAIN CONTENT
+========================================================= -->
+
+<main>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero-section">
+
+
+  <div class="section-marker">
+
+    <span>
+      01
+    </span>
+
+    THE MACHINE WORLD
+
+  </div>
+
+
+
+  <div id="hero">
+
+    <div class="loading-state">
+
+      INITIALISING SIGNAL...
+
+    </div>
+
+  </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     TRENDING
+========================================================= -->
+
+<section class="trending-section">
+
+
+  <div class="section-header">
+
+
+    <div>
+
+      <span class="section-number">
+        TRENDING
+      </span>
+
+      <h2>
+        THE SIGNAL
+      </h2>
+
+    </div>
+
+
+    <div class="section-description">
+
+      WHAT THE MACHINE WORLD
+      IS TALKING ABOUT NOW.
+
+    </div>
+
+
+  </div>
+
+
+
+  <div id="trending-box">
+
+
+    <div id="trending-list">
+
+      <div class="loading-state">
+        SCANNING...
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     SIGNALS
+========================================================= -->
+
+<section
+  id="signals"
+  class="signals-section">
+
+
+  <div class="section-header">
+
+
+    <div>
+
+      <span class="section-number">
+        02
+      </span>
+
+      <h2>
+        LATEST SIGNALS
+      </h2>
+
+    </div>
+
+
+    <a
+      href="/frontend/archive.html"
+      class="view-all">
+
+      VIEW ARCHIVE
+      <span>↗</span>
+
+    </a>
+
+
+  </div>
+
+
+
+  <div id="root">
+
+    <div class="loading-state">
+
+      LOADING SIGNALS...
+
+    </div>
+
+  </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     MACHINA ANALYSIS
+========================================================= -->
+
+<!-- =========================================================
+     MACHINA ANALYSIS
+========================================================= -->
+
+<section id="analysis" class="analysis-section">
+
+  <div class="analysis-index">
+    03
+  </div>
+
+  <div class="analysis-content">
+
+    <div class="analysis-label">
+      MACHINA ANALYSIS
+    </div>
+
+    <h2>
+      WHAT IS THE<br>
+      <span>MACHINE SEEING?</span>
+    </h2>
+
+    <p>
+      Machina maps the stories it monitors,
+      looking for signals, movement and
+      connected developments.
+    </p>
+
+    <div id="machinaSignalsHome" class="machina-home-signals">
+
+      <div class="machina-home-loading">
+        SCANNING INTELLIGENCE...
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="analysis-side">
+
+    <div class="analysis-rule"></div>
+
+    <div class="analysis-stat">
+      <span>CURRENT MODE</span>
+      <strong>SIGNAL DETECTION</strong>
+    </div>
+
+    <div class="analysis-stat">
+      <span>COVERAGE</span>
+      <strong>MACHINA MONITORED ARCHIVE</strong>
+    </div>
+
+    <div class="analysis-stat">
+      <span>OUTPUT</span>
+      <strong>LIVE INTELLIGENCE</strong>
+    </div>
+
+    <a href="/archive"
+       class="analysis-button"
+       style="display:inline-block;text-decoration:none;">
+      VIEW FULL INTELLIGENCE
+      <span>â†—</span>
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     NEWSLETTER
+========================================================= -->
+
+<section class="newsletter-section">
+
+
+  <div class="newsletter-index">
+
+    04 / INTELLIGENCE BRIEFING
+
+  </div>
+
+
+  <div class="newsletter-main">
+
+
+    <div class="newsletter-kicker">
+
+      MACHINA INTELLIGENCE BRIEFING
+
+    </div>
+
+
+    <h2>
+
+      THE SIGNAL<br>
+
+      <span>IN YOUR INBOX.</span>
+
+    </h2>
+
+
+    <p>
+
+      The important movements in technology,
+      condensed into one briefing.
+
+    </p>
+
+
+    <button class="newsletter-open newsletter-button">
+
+      JOIN MACHINA
+
+      <span>→</span>
+
+    </button>
+
+
+  </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     ADVERTISEMENT
+========================================================= -->
+
+<section class="advertising-section">
+
+
+  <span class="advertising-label">
+
+    ADVERTISEMENT
+
+  </span>
+
+
+  <div class="advertising-box">
+
+    MACHINA / ADVERTISEMENT
+
+  </div>
+
+
+</section>
+
+
+
+</main>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="site-footer">
+
+
+  <div class="footer-top">
+
+
+    <div class="footer-brand">
+
+      MACHINA
+
+      <span>
+        DAILY
+      </span>
+
+    </div>
+
+
+    <div class="footer-tagline">
+
+      TECHNOLOGY INTELLIGENCE<br>
+
+      FOR THE MACHINE AGE.
+
+    </div>
+
+
+    <div class="footer-navigation">
+
+      <a href="/frontend/index.html">
+        HOME
+      </a>
+
+      <a href="/frontend/archive.html">
+        ARCHIVE
+      </a>
+
+      <button class="newsletter-open">
+        NEWSLETTER
+      </button>
+
+    </div>
+
+
+  </div>
+
+
+
+  <div class="footer-bottom">
+
+
+    <span>
+      © 2026 MACHINA DAILY
+    </span>
+
+
+    <span>
+      MACHINADAILY.XYZ
+    </span>
+
+
+    <span>
+      SYSTEM ONLINE
+    </span>
+
+
+  </div>
+
+
+</footer>
+
+
+
+<!-- =========================================================
+     NEWSLETTER MODAL
+========================================================= -->
+
+<div
+  id="newsletterModal"
+  class="newsletter-modal"
+  aria-hidden="true">
+
+
+  <div class="newsletter-backdrop"></div>
+
+
+  <div class="newsletter-dialog">
+
+
+    <button
+      class="newsletter-close"
+      aria-label="Close newsletter">
+
+      ×
+
+    </button>
+
+
+    <div class="modal-grid">
+
+
+      <div class="modal-left">
+
+
+        <div class="modal-index">
+
+          MACHINA / 001
+
+        </div>
+
+
+        <div class="modal-label">
+
+          INTELLIGENCE BRIEFING
+
+        </div>
+
+
+      </div>
+
+
+
+      <div class="modal-main">
+
+
+        <h2>
+
+          THE MACHINE<br>
+
+          <span>IN YOUR INBOX.</span>
+
+        </h2>
+
+
+        <p>
+
+          A concise briefing on the technology,
+          systems and ideas changing the world.
+
+        </p>
+
+
+        <form id="newsletterForm">
+
+
+          <label for="newsletterEmail">
+
+            EMAIL ADDRESS
+
+          </label>
+
+
+          <div class="email-row">
+
+
+            <input
+              id="newsletterEmail"
+              type="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required>
+
+
+            <button type="submit">
+
+              JOIN →
+
+            </button>
+
+
+          </div>
+
+
+          <small>
+
+            No noise. Just the signal.
+
+          </small>
+
+
+        </form>
+
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+
+<!-- =========================================================
+     ARTICLE READER
+========================================================= -->
+
+<div
+  id="article-reader"
+  class="article-reader"
+  aria-hidden="true">
+
+
+  <div class="reader-topbar">
+
+
+    <button
+      id="reader-back">
+
+      ← BACK
+
+    </button>
+
+
+    <span>
+      MACHINA DAILY
+    </span>
+
+
+    <span id="reader-number">
+      ARTICLE
+    </span>
+
+
+  </div>
+
+
+  <article id="reader-content">
+
+    <div class="loading-state">
+
+      LOADING ARTICLE...
+
+    </div>
+
+  </article>
+
+
+</div>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+
+/* ---------------------------------------------------------
+   ELEMENTS
+--------------------------------------------------------- */
+
+const root =
+  document.getElementById("root");
+
+const hero =
+  document.getElementById("hero");
+
+const trendingList =
+  document.getElementById("trending-list");
+
+const articleReader =
+  document.getElementById("article-reader");
+
+const readerContent =
+  document.getElementById("reader-content");
+
+const newsletterModal =
+  document.getElementById("newsletterModal");
+
+
+
+/* ---------------------------------------------------------
+   DATE
+--------------------------------------------------------- */
+
+function updateDate() {
+
+  const now = new Date();
+
+  const day =
+    String(now.getDate()).padStart(2, "0");
+
+  const month =
+    String(now.getMonth() + 1).padStart(2, "0");
+
+  const year =
+    now.getFullYear();
+
+  document.getElementById("system-date")
+    .textContent =
+    `${day}.${month}.${year}`;
+
+}
+
+
+updateDate();
+
+
+
+/* ---------------------------------------------------------
+   ESCAPE HTML
+--------------------------------------------------------- */
+
+function escapeHTML(value) {
+
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+
+}
+
+
+
+/* ---------------------------------------------------------
+   HERO
+--------------------------------------------------------- */
+
+function heroHTML(article) {
+
+
+  const image =
+    article.thumbnail ||
+    "/frontend/thumb-tech.jpg";
+
+
+  return `
+
+    <article class="hero-story">
+
+
+      <a
+        href="#"
+        data-id="${escapeHTML(article.id)}"
+        class="hero-image">
+
+
+        <img
+          src="${escapeHTML(image)}"
+          alt="${escapeHTML(article.title)}">
+
+
+        <div class="hero-image-overlay"></div>
+
+
+        <div class="hero-image-label">
+
+          SIGNAL / 001
+
+        </div>
+
+
+      </a>
+
+
+
+      <div class="hero-copy">
+
+
+        <div class="story-meta">
+
+          <span>
+            ${escapeHTML(article.category)}
+          </span>
+
+          <span>•</span>
+
+          <span>
+            ${escapeHTML(article.published)}
+          </span>
+
+        </div>
+
+
+        <h1>
+
+          <a
+            href="#"
+            data-id="${escapeHTML(article.id)}">
+
+            ${escapeHTML(article.title)}
+
+          </a>
+
+        </h1>
+
+
+        <div class="hero-bottom">
+
+
+          <span>
+            MACHINA DAILY
+          </span>
+
+
+          <a
+            href="#"
+            data-id="${escapeHTML(article.id)}">
+
+            READ STORY ↗
+
+          </a>
+
+
+        </div>
+
+
+      </div>
+
+
+    </article>
+
+  `;
+
+}
+
+
+
+/* ---------------------------------------------------------
+   STORY CARD
+--------------------------------------------------------- */
+
+function cardHTML(article, index) {
+
+
+  const image =
+    article.thumbnail ||
+    "/frontend/thumb-tech.jpg";
+
+
+  return `
+
+    <article class="signal-card">
+
+
+      <a
+        href="#"
+        data-id="${escapeHTML(article.id)}"
+        class="signal-image">
+
+
+        <img
+          src="${escapeHTML(image)}"
+          alt="${escapeHTML(article.title)}"
+          loading="lazy">
+
+
+        <span class="card-number">
+
+          ${String(index + 1).padStart(2, "0")}
+
+        </span>
+
+
+      </a>
+
+
+
+      <div class="signal-card-content">
+
+
+        <div class="story-meta">
+
+          <span>
+            ${escapeHTML(article.category)}
+          </span>
+
+          <span>
+            ${escapeHTML(article.published)}
+          </span>
+
+        </div>
+
+
+        <h3>
+
+          <a
+            href="#"
+            data-id="${escapeHTML(article.id)}">
+
+            ${escapeHTML(article.title)}
+
+          </a>
+
+        </h3>
+
+
+        <a
+          href="#"
+          data-id="${escapeHTML(article.id)}"
+          class="read-small">
+
+          READ →
+
+        </a>
+
+
+      </div>
+
+
+    </article>
+
+  `;
+
+}
+
+
+
+/* ---------------------------------------------------------
+   ARTICLE
+--------------------------------------------------------- */
+
+function machinaAnalysisHTML(article) {
+
+  const analysis =
+    article.machina_analysis?.machina_analysis ||
+    article.machina_analysis ||
+    null;
+
+  if (!analysis) {
+    return "";
+  }
+
+  const concepts = analysis.concepts || [];
+  const developments = analysis.developments || [];
+  const evidence = analysis.evidence || {};
+
+  if (!concepts.length && !developments.length) {
+    return "";
+  }
+
+  const conceptHTML = concepts.length
+    ? concepts.map(concept => {
+
+        const activity = concept.activity || {};
+        const activity30 = activity["30_day"] || {};
+
+        const signalArticles =
+          activity30.recent ?? 0;
+
+        const signalSources =
+          activity.source_count ?? 0;
+
+        return `
+          <div class="machina-analysis-item">
+
+            <div class="machina-analysis-item-title">
+              ${escapeHTML(
+                concept.name ||
+                concept.label ||
+                "Unknown signal"
+              )}
+            </div>
+
+            <div class="machina-analysis-item-meta">
+              ${escapeHTML(
+                concept.state ||
+                "tracked"
+              )}
+            </div>
+
+            <div class="machina-analysis-signal-stats">
+              <span>${signalArticles} ARTICLES</span>
+              <span>${signalSources} SOURCES</span>
+              <span>30-DAY ACTIVITY</span>
+            </div>
+
+          </div>
+        `;
+      }).join("")
+    : "";
+
+  const developmentHTML = developments.length
+    ? developments.map(dev => `
+
+        <div class="machina-analysis-development">
+
+          <div class="machina-analysis-development-title">
+            ${escapeHTML(
+              dev.title ||
+              "Tracked development"
+            )}
+          </div>
+
+          <div class="machina-analysis-stats">
+
+            <span>
+              ${dev.article_count ?? 0}
+              ${dev.article_count === 1 ? "ARTICLE" : "ARTICLES"}
+            </span>
+
+            <span>
+              ${dev.source_count ?? 0}
+              ${dev.source_count === 1 ? "SOURCE" : "SOURCES"}
+            </span>
+
+            <span>
+              ${dev.date_span_days ?? 0}
+              ${dev.date_span_days === 1 ? "DAY" : "DAYS"}
+            </span>
+
+          </div>
+
+          <div class="machina-analysis-state">
+
+            ${escapeHTML(
+              dev.state ||
+              "tracked"
+            )}
+
+            ·
+
+            ${escapeHTML(
+              dev.evidence_type ||
+              "evidence"
+            )}
+
+          </div>
+
+        </div>
+
+      `).join("")
+    : "";
+
+  return `
+    <section class="machina-analysis">
+
+      <div class="machina-analysis-header">
+
+        <div class="machina-analysis-kicker">
+          MACHINE INTELLIGENCE
+        </div>
+
+        <h2>
+          MACHINA ANALYSIS
+        </h2>
+
+        <p>
+          What Machina's monitored archive detects around this story.
+        </p>
+
+      </div>
+
+      ${
+        conceptHTML
+          ? `
+            <div class="machina-analysis-section">
+
+              <div class="machina-analysis-label">
+                SIGNALS
+              </div>
+
+              <div class="machina-analysis-grid">
+                ${conceptHTML}
+              </div>
+
+            </div>
+          `
+          : ""
+      }
+
+      ${
+        developmentHTML
+          ? `
+            <div class="machina-analysis-section">
+
+              <div class="machina-analysis-label">
+                CONNECTED DEVELOPMENTS
+              </div>
+
+              ${developmentHTML}
+
+            </div>
+          `
+          : ""
+      }
+
+      <div class="machina-analysis-evidence">
+
+        <div class="machina-analysis-label">
+          MACHINA EVIDENCE
+        </div>
+
+        <div class="machina-analysis-evidence-grid">
+
+          <div>
+            <strong>${evidence.article_count ?? 0}</strong>
+            <span>ARTICLES</span>
+          </div>
+
+          <div>
+            <strong>${evidence.source_count ?? 0}</strong>
+            <span>SOURCES</span>
+          </div>
+
+          <div>
+            <strong>${evidence.concept_count ?? 0}</strong>
+            <span>SIGNALS</span>
+          </div>
+
+          <div>
+            <strong>${evidence.development_count ?? 0}</strong>
+            <span>DEVELOPMENTS</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+  `;
+}
+function articleHTML(article) {
+
+
+  let html =
+    article.text ||
+    "No content available.";
+
+
+  if (
+    html.startsWith("Rewritten: ")
+  ) {
+
+    html =
+      html.replace(
+        "Rewritten: ",
+        ""
+      );
+
+  }
+
+
+  const tmp =
+    document.createElement("div");
+
+
+  tmp.innerHTML = html;
+
+
+  const rawText =
+    tmp.textContent ||
+    "";
+
+
+  const sentences =
+    rawText.match(
+      /[^.!?]+[.!?]+/g
+    ) ||
+    [rawText];
+
+
+  const chunkSize =
+    Math.max(
+      1,
+      Math.ceil(
+        sentences.length / 3
+      )
+    );
+
+
+  const paragraphs = [];
+
+
+  for (
+    let i = 0;
+    i < 3;
+    i++
+  ) {
+
+
+    const chunk =
+      sentences
+        .slice(
+          i * chunkSize,
+          (i + 1) * chunkSize
+        )
+        .join(" ")
+        .trim();
+
+
+    if (chunk) {
+
+      paragraphs.push(
+        `<p>${escapeHTML(chunk)}</p>`
+      );
+
+    }
+
+  }
+
+
+  const image =
+    article.thumbnail ||
+    "/frontend/thumb-tech.jpg";
+
+
+  return `
+
+    <div class="reader-inner">
+
+
+      <div class="reader-meta">
+
+        <span>
+          ${escapeHTML(article.category)}
+        </span>
+
+        <span>
+          ${escapeHTML(article.published)}
+        </span>
+
+      </div>
+
+
+      <h1 class="reader-title">
+
+        ${escapeHTML(article.title)}
+
+      </h1>
+
+
+      <div class="reader-author">
+
+        ${escapeHTML(
+          (article.authors || []).join(", ")
+        )}
+
+      </div>
+
+
+      <img
+        class="reader-image"
+        src="${escapeHTML(image)}"
+        alt="${escapeHTML(article.title)}">
+
+
+      <div class="reader-layout">
+
+
+        <div class="reader-label">
+
+          MACHINA<br>
+          DAILY
+
+        </div>
+
+
+        <div class="reader-body">
+
+          ${paragraphs.join("")}
+
+
+          ${machinaAnalysisHTML(article)}
+
+          <div class="reader-source">
+
+
+            <span>
+              ORIGINAL SOURCE
+            </span>
+
+
+            <a
+              href="${escapeHTML(article.url || "#")}"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              READ ORIGINAL ↗
+
+            </a>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  `;
+
+}
+
+
+
+/* ---------------------------------------------------------
+   LOAD ARTICLES
+--------------------------------------------------------- */
+
+async function loadList() {
+
+
+  root.innerHTML = `
+
+    <div class="loading-state">
+
+      SCANNING THE MACHINE WORLD...
+
+    </div>
+
+  `;
+
+
+  try {
+
+
+    const response =
+      await fetch("/articles");
+
+
+    const list =
+      await response.json();
+
+
+    if (!list.length) {
+
+      root.innerHTML =
+        `<div class="empty-state">
+          NO SIGNALS DETECTED.
+        </div>`;
+
+      return;
+
+    }
+
+
+    /* HERO */
+
+    hero.innerHTML =
+      heroHTML(list[0]);
+
+
+    /* SIGNALS */
+
+    root.innerHTML =
+      `<div class="signal-grid">
+        ${
+          list
+            .slice(1)
+            .map(
+              (article, index) =>
+                cardHTML(
+                  article,
+                  index
+                )
+            )
+            .join("")
+        }
+      </div>`;
+
+
+    /* TRENDING */
+
+    trendingList.innerHTML =
+      list
+        .slice(0, 5)
+        .map(
+          (article, index) => `
+
+            <a
+              href="#"
+              data-id="${escapeHTML(article.id)}"
+              class="trend-item">
+
+
+              <span class="trend-number">
+
+                ${String(
+                  index + 1
+                ).padStart(2, "0")}
+
+              </span>
+
+
+              <span class="trend-title">
+
+                ${escapeHTML(
+                  article.title
+                )}
+
+              </span>
+
+
+              <span class="trend-arrow">
+                ↗
+              </span>
+
+
+            </a>
+
+          `
+        )
+        .join("");
+
+
+  } catch (error) {
+
+
+    console.error(error);
+
+
+    hero.innerHTML = `
+      <div class="error-state">
+        SIGNAL LOST.
+      </div>
+    `;
+
+
+    root.innerHTML = `
+      <div class="error-state">
+        Unable to retrieve articles.
+      </div>
+    `;
+
+
+    trendingList.innerHTML = `
+      <div class="error-state">
+        Trending data unavailable.
+      </div>
+    `;
+
+  }
+
+}
+
+
+
+/* ---------------------------------------------------------
+   SHOW ARTICLE
+--------------------------------------------------------- */
+
+async function showArticle(id) {
+
+
+  articleReader
+    .classList
+    .add("active");
+
+
+  articleReader
+    .setAttribute(
+      "aria-hidden",
+      "false"
+    );
+
+
+  document.body
+    .classList
+    .add("reader-open");
+
+
+  readerContent.innerHTML = `
+
+    <div class="loading-state">
+
+      LOADING ARTICLE...
+
+    </div>
+
+  `;
+
+
+  try {
+
+
+    const response =
+      await fetch(
+        `/article/${id}`
+      );
+
+
+    const article =
+      await response.json();
+
+
+    readerContent.innerHTML =
+      articleHTML(article);
+
+
+    window.scrollTo(
+      0,
+      0
+    );
+
+
+  } catch (error) {
+
+
+    console.error(error);
+
+
+    readerContent.innerHTML = `
+
+      <div class="error-state">
+
+        ARTICLE UNAVAILABLE.
+
+      </div>
+
+    `;
+
+  }
+
+}
+
+
+
+/* ---------------------------------------------------------
+   CLOSE ARTICLE
+--------------------------------------------------------- */
+
+function closeArticle() {
+
+
+  articleReader
+    .classList
+    .remove("active");
+
+
+  articleReader
+    .setAttribute(
+      "aria-hidden",
+      "true"
+    );
+
+
+  document.body
+    .classList
+    .remove("reader-open");
+
+}
+
+
+
+/* ---------------------------------------------------------
+   CLICK HANDLER
+--------------------------------------------------------- */
+
+document.addEventListener(
+  "click",
+  event => {
+
+
+    const target =
+      event.target.closest(
+        "[data-id]"
+      );
+
+
+    if (target) {
+
+
+      event.preventDefault();
+
+
+      showArticle(
+        target.dataset.id
+      );
+
+
+      return;
+
+    }
+
+  }
+);
+
+
+
+/* ---------------------------------------------------------
+   READER BACK
+--------------------------------------------------------- */
+
+document
+  .getElementById("reader-back")
+  .addEventListener(
+    "click",
+    closeArticle
+  );
+
+
+
+/* ---------------------------------------------------------
+   ESCAPE KEY
+--------------------------------------------------------- */
+
+document.addEventListener(
+  "keydown",
+  event => {
+
+
+    if (
+      event.key === "Escape"
+    ) {
+
+
+      closeArticle();
+
+
+      closeNewsletter();
+
+    }
+
+  }
+);
+
+
+
+/* ---------------------------------------------------------
+   NEWSLETTER
+--------------------------------------------------------- */
+
+function openNewsletter() {
+
+
+  newsletterModal
+    .classList
+    .add("active");
+
+
+  newsletterModal
+    .setAttribute(
+      "aria-hidden",
+      "false"
+    );
+
+
+  document.body
+    .classList
+    .add("modal-open");
+
+}
+
+
+function closeNewsletter() {
+
+
+  newsletterModal
+    .classList
+    .remove("active");
+
+
+  newsletterModal
+    .setAttribute(
+      "aria-hidden",
+      "true"
+    );
+
+
+  document.body
+    .classList
+    .remove("modal-open");
+
+}
+
+
+
+document
+  .querySelectorAll(
+    ".newsletter-open"
+  )
+  .forEach(
+    button => {
+
+      button.addEventListener(
+        "click",
+        openNewsletter
+      );
+
+    }
+  );
+
+
+
+document
+  .querySelector(
+    ".newsletter-close"
+  )
+  .addEventListener(
+    "click",
+    closeNewsletter
+  );
+
+
+
+document
+  .querySelector(
+    ".newsletter-backdrop"
+  )
+  .addEventListener(
+    "click",
+    closeNewsletter
+  );
+
+
+
+/* ---------------------------------------------------------
+   NEWSLETTER TRIGGER
+--------------------------------------------------------- */
+
+setTimeout(
+  () => {
+
+
+    if (
+      !sessionStorage.getItem(
+        "machinaNewsletterSeen"
+      )
+    ) {
+
+
+      openNewsletter();
+
+
+      sessionStorage.setItem(
+        "machinaNewsletterSeen",
+        "true"
+      );
+
+    }
+
+  },
+  5000
+);
+
+
+
+window.addEventListener(
+  "scroll",
+  () => {
+
+
+    const position =
+      window.scrollY +
+      window.innerHeight;
+
+
+    const height =
+      document.documentElement
+        .scrollHeight;
+
+
+    const percentage =
+      position / height;
+
+
+    if (
+      percentage >= 0.30 &&
+      !sessionStorage.getItem(
+        "machinaNewsletterSeen"
+      )
+    ) {
+
+
+      openNewsletter();
+
+
+      sessionStorage.setItem(
+        "machinaNewsletterSeen",
+        "true"
+      );
+
+    }
+
+  }
+);
+
+
+
+/* ---------------------------------------------------------
+   NEWSLETTER FORM
+--------------------------------------------------------- */
+
+document
+  .getElementById(
+    "newsletterForm"
+  )
+  .addEventListener(
+    "submit",
+    event => {
+
+
+      event.preventDefault();
+
+
+      const email =
+        document.getElementById(
+          "newsletterEmail"
+        ).value.trim();
+
+
+      if (!email) return;
+
+
+      /*
+        TEMPORARY ONLY.
+
+        We will connect this form to the
+        real newsletter provider next.
+      */
+
+
+      fetch("/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ email })
+      })
+      .then(response => response.json())
+      .then(result => {
+        if (!result.ok) {
+          alert(result.message);
+          return;
+        }
+
+        alert("YOU'RE IN — welcome to Machina.");
+        document.getElementById("newsletterEmail").value = "";
+        closeNewsletter();
+      })
+      .catch(() => {
+        alert("Something went wrong. Try again.");
+      });
+
+    }
+  );
+
+
+
+/* ---------------------------------------------------------
+   LOAD
+--------------------------------------------------------- */
+
+async function loadMachinaSignals() {
+
+  const container = document.getElementById("machinaSignalsHome");
+
+  if (!container) return;
+
+  try {
+
+    const response = await fetch("/intelligence/signals");
+
+    if (!response.ok) {
+      throw new Error("Signal endpoint unavailable");
+    }
+
+    const data = await response.json();
+
+    const signals = Array.isArray(data)
+      ? data
+      : (data.signals || []);
+
+    if (!signals.length) {
+
+      container.innerHTML = `
+        <div class="machina-home-loading">
+          NO ACTIVE SIGNALS
+        </div>
+      `;
+
+      return;
+    }
+
+    const visibleSignals = signals
+      .slice()
+      .sort((a, b) =>
+        (b.momentum || 0) - (a.momentum || 0)
+      )
+      .slice(0, 5);
+
+    container.innerHTML = visibleSignals.map((signal, index) => {
+
+      const activity = signal.activity || {};
+      const thirtyDay = activity["30_day"] || {};
+
+      const articles = thirtyDay.recent || 0;
+      const sources = activity.source_count || 0;
+      const state = signal.state || "persistent";
+
+      const articleLabel =
+        articles === 1 ? "ARTICLE" : "ARTICLES";
+
+      const sourceLabel =
+        sources === 1 ? "SOURCE" : "SOURCES";
+
+      return `
+        <div class="machina-home-signal">
+
+          <div class="machina-home-signal-top">
+
+            <span class="machina-home-signal-number">
+              ${String(index + 1).padStart(2, "0")}
+            </span>
+
+            <span class="machina-home-signal-state">
+              ${state}
+            </span>
+
+          </div>
+
+          <div class="machina-home-signal-name">
+            ${signal.name || signal.id || "UNKNOWN SIGNAL"}
+          </div>
+
+          <div class="machina-home-signal-stats">
+
+            <span>
+              ${articles} ${articleLabel}
+            </span>
+
+            <span>
+              ${sources} ${sourceLabel}
+            </span>
+
+            <span>
+              30 DAYS
+            </span>
+
+          </div>
+
+        </div>
+      `;
+
+    }).join("");
+
+  } catch (error) {
+
+    console.error("Machina intelligence:", error);
+
+    container.innerHTML = `
+      <div class="machina-home-loading">
+        INTELLIGENCE OFFLINE
+      </div>
+    `;
+
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   LOAD
+--------------------------------------------------------- */
+
+loadList();
+loadMachinaSignals();
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DESK — MACHINA DAILY</title>
+
+<style>
+:root {
+    --paper: #fffdf7;
+    --ink: #111111;
+    --yellow: #ffd21a;
+    --red: #ed3426;
+    --blue: #155dcc;
+    --line: #111111;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-header {
+    border-bottom: 2px solid var(--line);
+    padding: 18px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 20px;
+}
+
+.back {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 1px solid var(--line);
+    padding: 9px 12px;
+}
+
+.back:hover {
+    background: var(--yellow);
+}
+
+.hero {
+    padding: 70px 28px 55px;
+    border-bottom: 2px solid var(--line);
+    background: var(--yellow);
+}
+
+.kicker {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+h1 {
+    margin: 0;
+    max-width: 1000px;
+    font-size: clamp(52px, 10vw, 125px);
+    line-height: .82;
+    letter-spacing: -7px;
+}
+
+.role {
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 55px 28px 100px;
+}
+
+.meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 45px;
+}
+
+.meta span {
+    border: 1px solid var(--line);
+    padding: 8px 11px;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.article {
+    border-top: 8px solid var(--ink);
+    padding-top: 28px;
+}
+
+.article-label {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.article-body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(22px, 3vw, 31px);
+    line-height: 1.42;
+    white-space: pre-line;
+}
+
+.sources {
+    margin-top: 70px;
+    border-top: 2px solid var(--line);
+    padding-top: 25px;
+}
+
+.sources h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.source {
+    border-bottom: 1px solid #999;
+    padding: 16px 0;
+}
+
+.source-title {
+    font-weight: 800;
+}
+
+.source-meta {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+}
+
+footer {
+    border-top: 2px solid var(--line);
+    padding: 24px 28px;
+    font-size: 11px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    padding: 40px 28px;
+    border: 2px solid var(--red);
+    background: #fff;
+    font-weight: 800;
+}
+
+@media (max-width: 650px) {
+    .site-header {
+        padding: 15px;
+    }
+
+    .hero {
+        padding: 50px 18px 40px;
+    }
+
+    h1 {
+        letter-spacing: -3px;
+    }
+
+    .content {
+        padding: 40px 18px 70px;
+    }
+
+    footer {
+        padding: 20px 18px;
+        display: block;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header">
+    <a class="logo" href="/daily-briefing">MACHINA DAILY</a>
+    <a class="back" href="/daily-briefing">← All desks</a>
+</header>
+
+<section class="hero">
+    <div class="kicker" id="deskNumber">DAILY DESK</div>
+    <h1 id="journalistName">Loading...</h1>
+    <div class="role" id="journalistRole"></div>
+</section>
+
+<main class="content">
+
+    <div class="meta">
+        <span>Local Intelligence</span>
+        <span id="modelBadge">Local Model</span>
+        <span id="dateBadge"></span>
+    </div>
+
+    <article class="article">
+        <div class="article-label">Today's Report</div>
+        <div class="article-body" id="articleBody">
+            Loading...
+        </div>
+    </article>
+
+    <section class="sources">
+        <h2>Source Intelligence</h2>
+        <div id="sources"></div>
+    </section>
+
+</main>
+
+<footer>
+    <span>MACHINA DAILY</span>
+    <span id="footerDesk"></span>
+</footer>
+
+<script>
+
+const DESK_ID = "yuki_tanaka";
+
+async function loadDesk() {
+
+    try {
+
+        const response = await fetch(
+            "/daily/" + DESK_ID + "/data"
+        );
+
+        if (!response.ok) {
+            throw new Error("HTTP " + response.status);
+        }
+
+        const data = await response.json();
+        const result = data.journalist;
+        const article = result.article || {};
+        const records = result.selected_records || [];
+
+        document.title =
+            result.journalist +
+            " — Machina Daily";
+
+        document.getElementById("journalistName").textContent =
+            result.journalist;
+
+        document.getElementById("journalistRole").textContent =
+            result.role;
+
+        document.getElementById("footerDesk").textContent =
+            result.journalist +
+            " · " +
+            result.role;
+
+        document.getElementById("deskNumber").textContent =
+            "MACHINA DAILY / " +
+            String(result.journalist_id || "")
+                .replaceAll("_", " ")
+                .toUpperCase();
+
+        document.getElementById("modelBadge").textContent =
+            result.model || data.model || "Local Model";
+
+        if (result.generated_at) {
+            const date = new Date(result.generated_at);
+
+            document.getElementById("dateBadge").textContent =
+                date.toLocaleDateString(
+                    "en-GB",
+                    {
+                        day: "2-digit",
+                        month: "short",
+                        year: "numeric"
+                    }
+                );
+        }
+
+        document.getElementById("articleBody").textContent =
+            article.body ||
+            "No editorial report was generated.";
+
+        const sourceBox =
+            document.getElementById("sources");
+
+        if (!records.length) {
+            sourceBox.innerHTML =
+                "<div class='source'>No source records available.</div>";
+            return;
+        }
+
+        sourceBox.innerHTML = "";
+
+        records.forEach((record) => {
+
+            const item = document.createElement("div");
+            item.className = "source";
+
+            const title = document.createElement("div");
+            title.className = "source-title";
+            title.textContent =
+                record.title || "Untitled intelligence record";
+
+            const meta = document.createElement("div");
+            meta.className = "source-meta";
+
+            const source =
+                record.source || "Unknown source";
+
+            const date =
+                record.date || "Date unavailable";
+
+            meta.textContent =
+                source + " · " + date;
+
+            item.appendChild(title);
+            item.appendChild(meta);
+
+            sourceBox.appendChild(item);
+        });
+
+    } catch (error) {
+
+        document.getElementById("articleBody").innerHTML =
+            "<div class='error'>" +
+            "THIS DESK COULD NOT LOAD<br><br>" +
+            "The local intelligence endpoint could not be reached." +
+            "</div>";
+
+        console.error(error);
+    }
+}
+
+loadDesk();
+
+</script>
+
+</body>
+</html>

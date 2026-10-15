@@ -180,6 +180,22 @@
       ANALYSIS
     </a>
 
+    <a href="/daily-briefing">
+      DAILY BRIEFING
+    </a>
+
+    <a href="/newsroom">
+      NEWSROOM
+    </a>
+
+    <a href="/editorial">
+      EDITORIAL
+    </a>
+
+    <a href="/weekly">
+      WEEKLY
+    </a>
+
     <button
       class="nav-newsletter newsletter-open">
       NEWSLETTER
@@ -201,30 +217,7 @@
 
 
 
-<!-- =========================================================
-     LIVE DATA STRIP
-========================================================= -->
 
-<section class="market-strip">
-
-
-  <div class="market-label">
-
-    <span class="pulse"></span>
-
-    LIVE DATA
-
-  </div>
-
-
-  <div id="price-bar">
-
-    Loading market data...
-
-  </div>
-
-
-</section>
 
 
 
@@ -2101,6 +2094,63 @@ loadMachinaSignals();
 
 </script>
 
+
+
+<script>
+/* MACHINA_MOBILE_NAV_SCRIPT */
+(() => {
+  const menuButton = document.querySelector(".mobile-menu");
+  const navigation = document.querySelector(".main-navigation");
+
+  if (!menuButton || !navigation) return;
+
+  menuButton.setAttribute("type", "button");
+  menuButton.setAttribute("aria-controls", "machina-mobile-navigation");
+  menuButton.setAttribute("aria-expanded", "false");
+  navigation.id = "machina-mobile-navigation";
+
+  function closeMenu() {
+    navigation.classList.remove("mobile-navigation-open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "Open navigation");
+  }
+
+  menuButton.addEventListener("click", (event) => {
+    event.stopPropagation();
+
+    const isOpen = navigation.classList.toggle("mobile-navigation-open");
+    menuButton.setAttribute("aria-expanded", String(isOpen));
+    menuButton.setAttribute(
+      "aria-label",
+      isOpen ? "Close navigation" : "Open navigation"
+    );
+  });
+
+  navigation.addEventListener("click", (event) => {
+    if (event.target.closest("a, button")) closeMenu();
+  });
+
+  document.addEventListener("click", (event) => {
+    if (
+      !navigation.contains(event.target) &&
+      !menuButton.contains(event.target)
+    ) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeMenu();
+      menuButton.focus();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) closeMenu();
+  });
+})();
+</script>
 
 </body>
 </html>

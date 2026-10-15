@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MachinaDaily — Newsroom Control</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #0b1017;
+  --panel: #111a25;
+  --line: #29394a;
+  --text: #edf4fb;
+  --muted: #91a2b5;
+  --lime: #c6f36a;
+  --blue: #7cc7ff;
+  --red: #ff7777;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at 80% 0%, #1a3540, transparent 45%), var(--bg);
+  color: var(--text);
+  font: 15px/1.5 "Segoe UI", Arial, sans-serif;
+}
+main { max-width: 1400px; margin: auto; padding: 30px 22px 55px; }
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 20px; padding-bottom: 24px; border-bottom: 1px solid var(--line);
+}
+.brand { color: var(--lime); font-size: 12px; font-weight: 800; letter-spacing: .2em; }
+h1 { font-size: clamp(30px, 4vw, 46px); letter-spacing: -.04em; margin: 8px 0; line-height: 1.1; }
+.subtitle { color: var(--muted); max-width: 720px; }
+.local {
+  border: 1px solid var(--line); border-radius: 99px; padding: 9px 13px;
+  color: var(--lime); font-size: 12px; white-space: nowrap;
+}
+.stats {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 22px 0;
+}
+.stat, .group, .logbox {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+}
+.stat { padding: 15px; }
+.stat span { color: var(--muted); font-size: 12px; display: block; }
+.stat strong { font-size: 25px; display: block; margin-top: 3px; }
+.heading { display: flex; justify-content: space-between; align-items: end; gap: 12px; margin: 30px 0 12px; }
+.heading h2 { margin: 0; font-size: 19px; }
+.heading p { color: var(--muted); font-size: 12px; margin: 0; }
+.groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
+.group { padding: 18px; min-width: 0; }
+.group h3 { font-size: 15px; margin: 0 0 12px; }
+.count { color: var(--muted); font-weight: normal; }
+.script {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px; align-items: center; padding: 12px 0; border-top: 1px solid #243241;
+}
+.scriptname { font: 13px/1.4 Consolas, monospace; overflow-wrap: anywhere; }
+.meta { color: var(--muted); font-size: 11px; margin-top: 5px; }
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #64748b; margin-right: 7px; }
+.dot.running { background: var(--lime); box-shadow: 0 0 9px #c6f36a77; }
+.dot.finished { background: var(--blue); }
+.dot.failed { background: var(--red); }
+.actions { display: flex; flex-wrap: wrap; gap: 5px; }
+button {
+  cursor: pointer; padding: 8px 10px; border: 1px solid var(--line);
+  border-radius: 8px; background: #182534; color: var(--text); font-weight: 650; font-size: 12px;
+}
+button:hover { border-color: var(--blue); }
+button.run { background: var(--lime); color: #10170b; border-color: var(--lime); }
+button.stop { color: var(--red); }
+button:disabled { opacity: .35; cursor: not-allowed; }
+.logbox { margin-top: 16px; overflow: hidden; }
+.loghead { padding: 13px 16px; display: flex; justify-content: space-between; gap: 12px; align-items: center; border-bottom: 1px solid var(--line); }
+.loghead strong { font-size: 13px; }
+.loghead small { color: var(--muted); display: block; }
+pre {
+  background: #080d13; color: #c7d6e4; margin: 0; padding: 16px;
+  min-height: 150px; max-height: 360px; overflow: auto;
+  white-space: pre-wrap; overflow-wrap: anywhere; font: 12px/1.55 Consolas, monospace;
+}
+.note { color: var(--muted); font-size: 12px; margin-top: 20px; }
+.note b { color: #f5c66b; }
+#toast {
+  display: none; position: fixed; right: 20px; bottom: 20px; max-width: 400px;
+  padding: 12px 16px; background: #182633; border: 1px solid var(--line);
+  border-radius: 10px; box-shadow: 0 12px 35px #0008;
+}
+@media (max-width: 850px) {
+  .groups { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  header { align-items: flex-start; flex-direction: column; }
+  main { padding: 20px 13px 40px; }
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div>
+    <div class="brand">MACHINADAILY / OPERATIONS</div>
+    <h1>Newsroom Control</h1>
+    <div class="subtitle">Launch and monitor your local intelligence, research, editorial and daily briefing pipelines from one control panel.</div>
+  </div>
+  <div class="local">● LOCAL CONTROL PANEL</div>
+</header>
+
+<section class="stats">
+  <div class="stat"><span>Approved pipelines</span><strong id="total">15</strong></div>
+  <div class="stat"><span>Currently running</span><strong id="running">0</strong></div>
+  <div class="stat"><span>Completed successfully</span><strong id="done">0</strong></div>
+  <div class="stat"><span>Failed runs</span><strong id="failed">0</strong></div>
+</section>
+
+<div class="heading">
+  <h2>Pipeline library</h2>
+  <p>One script per launch · duplicate runs blocked</p>
+</div>
+<div id="groups" class="groups">Loading approved pipelines…</div>
+
+<section class="logbox">
+  <div class="loghead">
+    <div>
+      <strong id="logtitle">Run output</strong>
+      <small id="logmeta">Choose Logs beside a pipeline to inspect its output.</small>
+    </div>
+    <button id="refresh" type="button">Refresh status</button>
+  </div>
+  <pre id="logs">Dashboard ready. Select a pipeline to run or inspect its log.</pre>
+</section>
+
+<div class="note"><b>Safety:</b> intended for local use only. Only approved script filenames can be launched. Run dependent pipelines in their intended order rather than starting everything at once.</div>
+</main>
+<div id="toast"></div>
+
+<script>
+const $ = selector => document.querySelector(selector);
+let groups = [];
+let jobs = {};
+let selected = "";
+
+function esc(value) {
+  return String(value).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  })[c]);
+}
+
+function notify(message) {
+  const box = $("#toast");
+  box.textContent = message;
+  box.style.display = "block";
+  clearTimeout(notify.timer);
+  notify.timer = setTimeout(() => box.style.display = "none", 4500);
+}
+
+function stateOf(name) {
+  return jobs[name]?.status || "not_started";
+}
+
+async function api(url, options = {}) {
+  const response = await fetch(url, {
+    headers: { "Content-Type": "application/json" },
+    ...options
+  });
+  const data = await response.json().catch(() => ({ error: "Invalid server response" }));
+  if (!response.ok) throw Error(data.error || `Request failed (${response.status})`);
+  return data;
+}
+
+function render() {
+  const names = groups.flatMap(group => group.scripts);
+  $("#total").textContent = names.length;
+  $("#running").textContent = names.filter(n => ["running", "stopping"].includes(stateOf(n))).length;
+  $("#done").textContent = names.filter(n => stateOf(n) === "finished").length;
+  $("#failed").textContent = names.filter(n => stateOf(n) === "failed").length;
+
+  $("#groups").innerHTML = groups.map(group => `
+    <section class="group">
+      <h3>${esc(group.name)} <span class="count">(${group.scripts.length})</span></h3>
+      ${group.scripts.map(name => {
+        const status = stateOf(name);
+        const active = ["running", "stopping"].includes(status);
+        const job = jobs[name];
+        const exit = job?.return_code !== null && job?.return_code !== undefined
+          ? ` · exit ${job.return_code}` : "";
+        const started = job?.started_at
+          ? ` · ${new Date(job.started_at).toLocaleTimeString()}` : "";
+        return `
+          <div class="script">
+            <div>
+              <div class="scriptname"><i class="dot ${esc(status)}"></i>${esc(name)}</div>
+              <div class="meta">${esc(status.replace("_", " "))}${exit}${started}</div>
+            </div>
+            <div class="actions">
+              <button class="run" data-run="${esc(name)}" ${active ? "disabled" : ""}>Run</button>
+              <button data-logs="${esc(name)}">Logs</button>
+              ${active ? `<button class="stop" data-stop="${esc(name)}">Stop</button>` : ""}
+            </div>
+          </div>`;
+      }).join("")}
+    </section>`).join("");
+}
+
+async function loadLogs(name, changeTitle = true) {
+  selected = name;
+  if (changeTitle) {
+    $("#logtitle").textContent = name;
+    $("#logmeta").textContent = "Loading log output…";
+  }
+  try {
+    const data = await api("/dashboard/api/logs?script=" + encodeURIComponent(name));
+    $("#logtitle").textContent = `${data.script} — ${data.status}`;
+    $("#logmeta").textContent = "Showing the latest available log lines.";
+    $("#logs").textContent = (data.lines || []).join("") || "No output yet.";
+    const output = $("#logs");
+    output.scrollTop = output.scrollHeight;
+  } catch (error) {
+    notify(error.message);
+  }
+}
+
+async function loadStatus() {
+  try {
+    const data = await api("/dashboard/api/status");
+    jobs = data.jobs || {};
+    render();
+    if (selected) await loadLogs(selected, false);
+  } catch (error) {
+    notify(error.message);
+  }
+}
+
+async function runScript(name) {
+  try {
+    await api("/dashboard/api/run", {
+      method: "POST",
+      body: JSON.stringify({ script: name })
+    });
+    selected = name;
+    notify("Started " + name);
+    await loadStatus();
+    await loadLogs(name);
+  } catch (error) {
+    notify(error.message);
+    await loadStatus();
+  }
+}
+
+async function stopScript(name) {
+  try {
+    await api("/dashboard/api/stop", {
+      method: "POST",
+      body: JSON.stringify({ script: name })
+    });
+    notify("Stop requested for " + name);
+    await loadStatus();
+  } catch (error) {
+    notify(error.message);
+  }
+}
+
+document.addEventListener("click", event => {
+  const button = event.target.closest("button");
+  if (!button) return;
+  if (button.dataset.run) runScript(button.dataset.run);
+  if (button.dataset.logs) loadLogs(button.dataset.logs);
+  if (button.dataset.stop) stopScript(button.dataset.stop);
+  if (button.id === "refresh") loadStatus();
+});
+
+(async function initialise() {
+  try {
+    const data = await api("/dashboard/api/scripts");
+    groups = data.groups || [];
+    render();
+    await loadStatus();
+  } catch (error) {
+    $("#groups").textContent = "Could not connect to the dashboard API. Check Flask and reload.";
+    notify(error.message);
+  }
+})();
+
+setInterval(loadStatus, 4000);
+</script>
+</body>
+</html>

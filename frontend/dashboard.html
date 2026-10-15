@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b12">
+<title>MachinaDaily — Neural Operations</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #080b12;
+  --panel: #101722;
+  --panel2: #0b111b;
+  --line: #243348;
+  --text: #eef5ff;
+  --muted: #8b9bb1;
+  --cyan: #65e1ff;
+  --lime: #c6ff6b;
+  --red: #ff7185;
+  --amber: #ffc66d;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(ellipse at 85% 0%, #10344966, transparent 38%),
+    radial-gradient(ellipse at 0% 55%, #17264a44, transparent 38%),
+    var(--bg);
+  font: 14px/1.55 "Segoe UI", Arial, sans-serif;
+}
+body:before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: .16;
+  z-index: -1;
+  background-image:
+    linear-gradient(#65e1ff0b 1px, transparent 1px),
+    linear-gradient(90deg, #65e1ff0b 1px, transparent 1px);
+  background-size: 38px 38px;
+}
+main { max-width: 1500px; margin: auto; padding: 30px 26px 60px; }
+.topline {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 14px; padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: flex; align-items: center; gap: 12px;
+  font-size: 12px; font-weight: 800; letter-spacing: .2em;
+}
+.brandmark {
+  width: 35px; height: 35px; border: 1px solid var(--cyan);
+  color: var(--cyan); display: grid; place-items: center;
+  border-radius: 10px; font-size: 18px;
+  box-shadow: 0 0 22px #65e1ff20;
+}
+.system {
+  display: inline-flex; align-items: center; gap: 9px;
+  border: 1px solid #294858; background: #0c2028;
+  color: var(--cyan); border-radius: 99px;
+  padding: 8px 13px; font-size: 11px; letter-spacing: .1em;
+}
+.pulse {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--lime); box-shadow: 0 0 12px var(--lime);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  50% { opacity: .35; box-shadow: 0 0 3px var(--lime); }
+}
+.hero {
+  display: grid; grid-template-columns: 1fr auto;
+  gap: 25px; align-items: center; padding: 42px 0 27px;
+}
+.eyebrow {
+  color: var(--cyan); text-transform: uppercase;
+  letter-spacing: .2em; font-size: 10px; font-weight: 800;
+}
+h1 {
+  font-size: clamp(34px, 5.3vw, 64px);
+  line-height: 1; letter-spacing: -.055em; margin: 12px 0 15px;
+}
+h1 span { color: var(--cyan); }
+.subtitle { color: var(--muted); max-width: 690px; font-size: 14px; }
+.orbit {
+  width: 145px; height: 145px; position: relative;
+  display: grid; place-items: center; border-radius: 50%;
+  border: 1px solid #65e1ff40;
+  background: radial-gradient(circle, #65e1ff14, transparent 67%);
+}
+.orbit:before, .orbit:after {
+  content: ""; position: absolute; inset: 15px;
+  border: 1px solid #65e1ff42; border-radius: 50%;
+}
+.orbit:after {
+  inset: 31px; border-style: dashed;
+  animation: spin 25s linear infinite;
+}
+.orbitcore {
+  width: 31px; height: 31px; border-radius: 10px;
+  transform: rotate(45deg); background: var(--cyan);
+  box-shadow: 0 0 32px #65e1ff80;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.stats {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px; margin: 12px 0 35px;
+}
+.stat {
+  position: relative; overflow: hidden;
+  background: linear-gradient(135deg, #121c2a, #0c121d);
+  border: 1px solid var(--line); border-radius: 13px;
+  padding: 18px;
+}
+.stat:after {
+  content: ""; position: absolute; top: 0; left: 18px; right: 18px;
+  height: 1px; background: var(--cyan); opacity: .5;
+}
+.stat span {
+  display: block; color: var(--muted);
+  font-size: 10px; letter-spacing: .12em; text-transform: uppercase;
+}
+.stat strong {
+  display: block; margin-top: 6px; font-size: 32px;
+  line-height: 1.2; letter-spacing: -.04em;
+}
+.stat:nth-child(2) strong { color: var(--cyan); }
+.stat:nth-child(3) strong { color: var(--lime); }
+.stat:nth-child(4) strong { color: var(--red); }
+.sectionhead {
+  display: flex; align-items: end; justify-content: space-between;
+  gap: 14px; margin: 0 0 14px;
+}
+.sectionhead h2 { margin: 0; font-size: 20px; letter-spacing: -.03em; }
+.sectionhead p { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
+.kicker { color: var(--cyan); font: 10px Consolas, monospace; letter-spacing: .1em; }
+.groups {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+.group {
+  background: linear-gradient(145deg, #111a27f5, #0b111bf5);
+  border: 1px solid var(--line); border-radius: 14px;
+  padding: 19px; min-width: 0;
+}
+.grouphead {
+  display: flex; justify-content: space-between; gap: 10px;
+  align-items: center; margin-bottom: 9px;
+}
+.group h3 { margin: 0; font-size: 14px; }
+.count {
+  color: var(--cyan); font: 11px Consolas, monospace;
+  border: 1px solid #294555; padding: 4px 7px; border-radius: 6px;
+}
+.script {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center; gap: 12px;
+  padding: 13px 0; border-top: 1px solid #243348;
+}
+.scriptname {
+  display: flex; align-items: center; gap: 9px;
+  overflow-wrap: anywhere; font: 12px/1.5 Consolas, monospace;
+}
+.dot {
+  flex: 0 0 7px; width: 7px; height: 7px;
+  border-radius: 50%; background: #66758a;
+}
+.dot.running, .dot.stopping {
+  background: var(--lime); box-shadow: 0 0 10px #c6ff6b80;
+}
+.dot.finished { background: var(--cyan); }
+.dot.failed { background: var(--red); }
+.meta { color: var(--muted); font-size: 10px; margin: 5px 0 0 16px; }
+.actions { display: flex; flex-wrap: wrap; gap: 5px; }
+button {
+  cursor: pointer; padding: 8px 10px;
+  border: 1px solid var(--line); border-radius: 7px;
+  background: #172231; color: var(--text);
+  font: 650 11px "Segoe UI", Arial, sans-serif;
+  transition: border-color .2s, background .2s, transform .2s;
+}
+button:hover:not(:disabled) { border-color: var(--cyan); transform: translateY(-1px); }
+button.run { background: var(--cyan); color: #071019; border-color: var(--cyan); }
+button.stop { color: var(--red); border-color: #63313d; }
+button:disabled { opacity: .35; cursor: not-allowed; }
+.logbox {
+  margin-top: 20px; border: 1px solid var(--line);
+  border-radius: 14px; overflow: hidden; background: #090e16;
+}
+.loghead {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 15px; padding: 15px 18px;
+  background: #101925; border-bottom: 1px solid var(--line);
+}
+.logtitle { font-size: 12px; font-weight: 750; overflow-wrap: anywhere; }
+.loghead small { display: block; color: var(--muted); margin-top: 3px; font-size: 10px; }
+pre {
+  margin: 0; padding: 18px; min-height: 155px; max-height: 390px;
+  overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere;
+  color: #b8cce0; font: 12px/1.7 Consolas, monospace;
+}
+.foot {
+  display: flex; justify-content: space-between; gap: 12px;
+  margin-top: 18px; color: var(--muted); font-size: 10px;
+}
+#toast {
+  display: none; position: fixed; right: 20px; bottom: 20px;
+  max-width: min(420px, calc(100vw - 40px)); z-index: 10;
+  padding: 13px 17px; background: #142333;
+  border: 1px solid var(--cyan); border-radius: 10px;
+  box-shadow: 0 12px 40px #0009; overflow-wrap: anywhere;
+}
+@media(max-width: 850px) {
+  main { padding: 20px 14px 40px; }
+  .groups { grid-template-columns: 1fr; }
+  .orbit { width: 100px; height: 100px; }
+  .stats { gap: 8px; }
+  .stat { padding: 13px; }
+  .stat strong { font-size: 26px; }
+}
+@media(max-width: 540px) {
+  .hero { grid-template-columns: 1fr; padding-top: 30px; }
+  .orbit { display: none; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .topline { align-items: flex-start; flex-direction: column; }
+  .sectionhead { align-items: flex-start; flex-direction: column; }
+  .script { grid-template-columns: minmax(0, 1fr); }
+  .actions { padding-left: 16px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <div class="topline">
+    <div class="brand">
+      <div class="brandmark">M</div>
+      <div>MACHINADAILY <span style="color:var(--cyan)">/</span> INTELLIGENCE SYSTEMS</div>
+    </div>
+    <div class="system"><span class="pulse"></span> LOCAL SYSTEM / ONLINE</div>
+  </div>
+
+  <header class="hero">
+    <div>
+      <div class="eyebrow">Operations interface / 01</div>
+      <h1>NEURAL <span>OPERATIONS</span></h1>
+      <div class="subtitle">
+        One control surface for intelligence gathering, specialist research,
+        editorial production and the daily newsroom. Local execution. Live status.
+        Inspectable pipeline logs.
+      </div>
+    </div>
+    <div class="orbit" aria-hidden="true"><div class="orbitcore"></div></div>
+  </header>
+
+  <section class="stats" aria-label="Pipeline status">
+    <div class="stat"><span>Approved pipelines</span><strong id="total">--</strong></div>
+    <div class="stat"><span>Currently running</span><strong id="running">--</strong></div>
+    <div class="stat"><span>Completed successfully</span><strong id="done">--</strong></div>
+    <div class="stat"><span>Failed runs</span><strong id="failed">--</strong></div>
+  </section>
+
+  <div class="sectionhead">
+    <div>
+      <div class="kicker">EXECUTION MATRIX / 02</div>
+      <h2>Pipeline library</h2>
+      <p>Launch an approved script, inspect its output or request a stop.</p>
+    </div>
+    <button id="refresh" type="button">↻ Refresh status</button>
+  </div>
+
+  <div id="groups" class="groups">Connecting to local operations API…</div>
+
+  <section class="logbox">
+    <div class="loghead">
+      <div>
+        <div class="logtitle" id="logtitle">SYSTEM OUTPUT</div>
+        <small id="logmeta">Select Logs beside a pipeline to inspect its latest output.</small>
+      </div>
+      <span class="kicker">LIVE LOG</span>
+    </div>
+    <pre id="logs">MachinaDaily operations interface initialising…</pre>
+  </section>
+
+  <footer class="foot">
+    <span>MACHINADAILY / LOCAL CONTROL</span>
+    <span>Only controller-approved scripts can be launched.</span>
+  </footer>
+</main>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+"use strict";
+
+const $ = selector => document.querySelector(selector);
+let groups = [];
+let jobs = {};
+let selected = "";
+let refreshInProgress = false;
+
+function esc(value) {
+  return String(value).replace(/[&<>"']/g, c => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[c]);
+}
+
+function notify(message) {
+  const box = $("#toast");
+  box.textContent = message;
+  box.style.display = "block";
+  clearTimeout(notify.timer);
+  notify.timer = setTimeout(() => {
+    box.style.display = "none";
+  }, 4500);
+}
+
+function stateOf(name) {
+  return jobs[name]?.status || "not_started";
+}
+
+async function api(url, options = {}) {
+  const response = await fetch(url, {
+    headers: { "Content-Type": "application/json" },
+    ...options
+  });
+  const data = await response.json().catch(() => ({
+    error: "Invalid server response"
+  }));
+  if (!response.ok) {
+    throw Error(data.error || `Request failed (${response.status})`);
+  }
+  return data;
+}
+
+function render() {
+  const names = groups.flatMap(group => group.scripts || []);
+  $("#total").textContent = names.length;
+  $("#running").textContent = names.filter(n =>
+    ["running", "stopping"].includes(stateOf(n))).length;
+  $("#done").textContent = names.filter(n => stateOf(n) === "finished").length;
+  $("#failed").textContent = names.filter(n => stateOf(n) === "failed").length;
+
+  if (!groups.length) {
+    $("#groups").textContent = "No approved pipeline groups were returned by the API.";
+    return;
+  }
+
+  $("#groups").innerHTML = groups.map(group => `
+    <section class="group">
+      <div class="grouphead">
+        <h3>${esc(group.name)}</h3>
+        <span class="count">${(group.scripts || []).length} JOBS</span>
+      </div>
+      ${(group.scripts || []).map(name => {
+        const status = stateOf(name);
+        const active = ["running", "stopping"].includes(status);
+        const job = jobs[name];
+        const exit = job?.return_code !== null &&
+          job?.return_code !== undefined
+          ? ` · exit ${job.return_code}` : "";
+        const started = job?.started_at
+          ? ` · ${new Date(job.started_at).toLocaleTimeString()}`
+          : "";
+        return `
+          <div class="script">
+            <div>
+              <div class="scriptname">
+                <span class="dot ${esc(status)}"></span>
+                <span>${esc(name)}</span>
+              </div>
+              <div class="meta">${esc(status.replaceAll("_", " "))}${exit}${started}</div>
+            </div>
+            <div class="actions">
+              <button class="run" data-run="${esc(name)}"
+                ${active ? "disabled" : ""}>Run</button>
+              <button data-logs="${esc(name)}">Logs</button>
+              ${active ? `<button class="stop" data-stop="${esc(name)}">Stop</button>` : ""}
+            </div>
+          </div>`;
+      }).join("")}
+    </section>`).join("");
+}
+
+async function loadLogs(name, changeTitle = true) {
+  selected = name;
+  if (changeTitle) {
+    $("#logtitle").textContent = name;
+    $("#logmeta").textContent = "Loading log output…";
+  }
+
+  try {
+    const data = await api(
+      "/dashboard/api/logs?script=" + encodeURIComponent(name)
+    );
+    $("#logtitle").textContent = `${data.script || name} — ${data.status || "log"}`;
+    $("#logmeta").textContent = "Showing the latest available log lines.";
+    $("#logs").textContent = (data.lines || []).join("") || "No output yet.";
+    const output = $("#logs");
+    output.scrollTop = output.scrollHeight;
+  } catch (error) {
+    $("#logmeta").textContent = "Could not load this pipeline's logs.";
+    if (changeTitle) notify(error.message);
+  }
+}
+
+async function loadStatus() {
+  if (refreshInProgress) return;
+  refreshInProgress = true;
+  try {
+    const data = await api("/dashboard/api/status");
+    jobs = data.jobs || {};
+    render();
+    if (selected) await loadLogs(selected, false);
+  } catch (error) {
+    notify(error.message);
+  } finally {
+    refreshInProgress = false;
+  }
+}
+
+async function runScript(name) {
+  try {
+    await api("/dashboard/api/run", {
+      method: "POST",
+      body: JSON.stringify({ script: name })
+    });
+    selected = name;
+    notify("Started " + name);
+    await loadStatus();
+    await loadLogs(name);
+  } catch (error) {
+    notify(error.message);
+    await loadStatus();
+  }
+}
+
+async function stopScript(name) {
+  try {
+    await api("/dashboard/api/stop", {
+      method: "POST",
+      body: JSON.stringify({ script: name })
+    });
+    notify("Stop requested for " + name);
+    await loadStatus();
+  } catch (error) {
+    notify(error.message);
+  }
+}
+
+document.addEventListener("click", event => {
+  const button = event.target.closest("button");
+  if (!button) return;
+  if (button.dataset.run) runScript(button.dataset.run);
+  if (button.dataset.logs) loadLogs(button.dataset.logs);
+  if (button.dataset.stop) stopScript(button.dataset.stop);
+  if (button.id === "refresh") loadStatus();
+});
+
+async function initialise() {
+  try {
+    const data = await api("/dashboard/api/scripts");
+    groups = data.groups || [];
+    render();
+    await loadStatus();
+    $("#logs").textContent = "Connected. Select a pipeline to inspect its output.";
+  } catch (error) {
+    $("#groups").textContent =
+      "Could not connect to the dashboard API. Check that Flask is running.";
+    $("#logmeta").textContent = "Connection failed.";
+    $("#logs").textContent = error.message;
+    notify(error.message);
+  }
+}
+
+initialise();
+setInterval(loadStatus, 4000);
+</script>
+</body>
+</html>

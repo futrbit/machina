@@ -231,45 +231,13 @@ a {
    MARKET STRIP
 ========================================================= */
 
-.market-strip {
-  max-width: var(--max);
-  margin: auto;
-
-  min-height: 44px;
-
-  display: grid;
-  grid-template-columns: 160px 1fr;
-
-  border-bottom: 1px solid var(--line);
-
-  font-family: "DM Mono", monospace;
-  font-size: 10px;
-}
 
 
-.market-label {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  padding: 0 28px;
-
-  border-right: 1px solid var(--line);
-
-  letter-spacing: 0.12em;
-}
 
 
-.pulse {
-  width: 6px;
-  height: 6px;
 
-  background: var(--accent);
 
-  border-radius: 50%;
 
-  animation: pulse 1.5s infinite;
-}
 
 
 @keyframes pulse {
@@ -286,16 +254,7 @@ a {
 }
 
 
-#price-bar {
-  display: flex;
-  align-items: center;
 
-  padding: 0 20px;
-
-  color: var(--grey);
-
-  overflow: hidden;
-}
 
 
 /* =========================================================
@@ -1698,14 +1657,10 @@ section {
   }
 
 
-  .market-strip {
-    grid-template-columns: 120px 1fr;
-  }
 
 
-  .market-label {
-    padding: 0 18px;
-  }
+
+
 
 
   .hero-story {
@@ -1868,16 +1823,10 @@ section {
   }
 
 
-  .market-strip {
-    grid-template-columns: 100px 1fr;
-  }
 
 
-  .market-label {
-    padding: 0 12px;
 
-    font-size: 8px;
-  }
+
 
 
   .hero-image img {
@@ -2294,5 +2243,48 @@ section {
 .machina-home-signal-number,
 .machina-home-signal-state {
   font-size: 7px;
+}
+
+
+/* MACHINA_MOBILE_NAV_CSS — mobile dropdown navigation */
+@media (max-width: 900px) {
+  .main-navigation.mobile-navigation-open {
+    display: flex !important;
+    position: fixed;
+    top: 76px;
+    right: 14px;
+    left: 14px;
+    z-index: 10000;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    max-height: calc(100vh - 96px);
+    overflow-y: auto;
+    padding: 12px 18px;
+    background: #101114;
+    border: 1px solid #ffcc00;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
+  }
+
+  .main-navigation.mobile-navigation-open a,
+  .main-navigation.mobile-navigation-open .nav-newsletter {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 4px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    font-size: 12px;
+  }
+
+  .main-navigation.mobile-navigation-open a:last-of-type {
+    border-bottom: none;
+  }
+
+  .mobile-menu {
+    cursor: pointer;
+    position: relative;
+    z-index: 10001;
+  }
 }
 

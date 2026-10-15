@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>THE MACHINA DAILY — NEWSROOM</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    background:#f5f1e8;
+    color:#111;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+header{
+    background:#111;
+    color:#fff;
+    padding:30px 5vw;
+    border-bottom:6px solid #ffcc00;
+}
+
+.masthead{
+    font-size:clamp(42px,8vw,90px);
+    font-weight:900;
+    line-height:.82;
+    letter-spacing:-5px;
+}
+
+.subhead{
+    margin-top:20px;
+    font-size:12px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+main{
+    width:min(1200px,90%);
+    margin:auto;
+}
+
+.intro{
+    padding:55px 0 35px;
+    border-bottom:3px solid #111;
+}
+
+.intro h1{
+    margin:0;
+    font-size:clamp(42px,7vw,80px);
+    line-height:.88;
+    letter-spacing:-4px;
+}
+
+.intro p{
+    max-width:700px;
+    font-size:18px;
+    line-height:1.5;
+}
+
+.stories{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+    padding:40px 0 80px;
+}
+
+.story{
+    background:#fff;
+    border:3px solid #111;
+    padding:28px;
+    transition:.15s ease;
+}
+
+.story:hover{
+    transform:translateY(-4px);
+    box-shadow:8px 8px 0 #111;
+}
+
+.story.original{
+    border-top:12px solid #155dcc;
+}
+
+.story.investigative{
+    border-top:12px solid #e3342f;
+}
+
+.story-label{
+    font-size:11px;
+    font-weight:900;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.story h2{
+    margin:0 0 18px;
+    font-size:clamp(26px,3vw,42px);
+    line-height:1;
+    letter-spacing:-1.5px;
+}
+
+.journalist{
+    font-size:13px;
+    font-weight:bold;
+    line-height:1.45;
+    margin-bottom:25px;
+}
+
+.read{
+    border:0;
+    background:#111;
+    color:#fff;
+    padding:13px 17px;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:1.5px;
+    cursor:pointer;
+}
+
+.read:hover{
+    background:#ffcc00;
+    color:#111;
+}
+
+/* FULL STORY */
+
+.reader{
+    display:none;
+    position:fixed;
+    inset:0;
+    z-index:1000;
+    background:#f5f1e8;
+    overflow-y:auto;
+}
+
+.reader-inner{
+    width:min(850px,90%);
+    margin:auto;
+    padding:40px 0 80px;
+}
+
+.close{
+    border:2px solid #111;
+    background:#fff;
+    padding:10px 15px;
+    font-size:11px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:45px;
+}
+
+.reader-label{
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+
+.reader h1{
+    margin:0 0 20px;
+    font-size:clamp(42px,7vw,76px);
+    line-height:.9;
+    letter-spacing:-4px;
+}
+
+.reader-byline{
+    border-bottom:3px solid #111;
+    padding-bottom:20px;
+    margin-bottom:35px;
+    font-size:13px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.reader-body{
+    font-family:Georgia,serif;
+    font-size:20px;
+    line-height:1.7;
+}
+
+.reader-body p{
+    margin:0 0 25px;
+}
+
+.loading,
+.error{
+    padding:50px 0;
+    font-weight:bold;
+}
+
+footer{
+    background:#111;
+    color:#fff;
+    padding:30px 5vw;
+    font-size:11px;
+    letter-spacing:2px;
+}
+
+@media(max-width:800px){
+    .stories{
+        grid-template-columns:1fr;
+    }
+}
+
+.pagination{
+    width:min(1200px,90%);
+    margin:-45px auto 70px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    border-top:3px solid #111;
+    padding-top:22px;
+}
+
+.pagination button{
+    border:3px solid #111;
+    background:#fff;
+    color:#111;
+    padding:13px 18px;
+    font-size:11px;
+    font-weight:900;
+    letter-spacing:1.5px;
+    cursor:pointer;
+}
+
+.pagination button:hover:not(:disabled){
+    background:#ffcc00;
+}
+
+.pagination button:disabled{
+    opacity:.25;
+    cursor:not-allowed;
+}
+
+.page-info{
+    font-size:11px;
+    font-weight:900;
+    letter-spacing:2px;
+    text-align:center;
+}
+
+@media(max-width:800px){
+    .pagination{
+        margin:-25px auto 55px;
+    }
+
+    .pagination button{
+        padding:11px 12px;
+        font-size:10px;
+    }
+}
+
+
+.newsroom-section {
+    margin: 0 0 56px;
+    scroll-margin-top: 24px;
+}
+.section-heading {
+    margin: 0 0 22px;
+    padding: 22px 0 18px;
+    border-bottom: 1px solid rgba(127,127,127,.3);
+}
+.section-heading small {
+    display: block;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .16em;
+    opacity: .7;
+    margin-bottom: 8px;
+}
+.section-heading h2 { margin: 0 0 8px; }
+.section-heading p { margin: 0; line-height: 1.6; opacity: .75; }
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="masthead">THE MACHINA<br>DAILY</div>
+    <div class="subhead">Autonomous Intelligence Newsroom</div>
+</header>
+
+<main>
+
+<section class="intro">
+    <h1>FIND WHAT<br>CHANGED.</h1>
+    <p>
+        Ten AI journalists. One newsroom.
+        Research first. Stories second.
+    </p>
+</section>
+
+<section class="newsroom-section">
+    <div class="section-heading">
+        <small>DESK 01</small>
+        <h2>Investigative Desk</h2>
+        <p>Five More Journalists — investigations and deeper analysis.</p>
+    </div>
+    <section id="investigativeStories" class="stories">
+        <div class="loading">Loading investigative stories...</div>
+    </section>
+    <div class="pagination" id="investigativePagination" style="display:none;">
+        <button id="investigativePrev" onclick="changePage('investigative', -1)">← PREVIOUS 25</button>
+        <div class="page-info" id="investigativePageInfo">PAGE 1 / 1</div>
+        <button id="investigativeNext" onclick="changePage('investigative', 1)">NEXT 25 →</button>
+    </div>
+</section>
+
+<section class="newsroom-section">
+    <div class="section-heading">
+        <small>DESK 02</small>
+        <h2>Original Desk</h2>
+        <p>MachinaDaily's original newsroom stories.</p>
+    </div>
+    <section id="originalStories" class="stories">
+        <div class="loading">Loading original stories...</div>
+    </section>
+    <div class="pagination" id="originalPagination" style="display:none;">
+        <button id="originalPrev" onclick="changePage('original', -1)">← PREVIOUS 25</button>
+        <div class="page-info" id="originalPageInfo">PAGE 1 / 1</div>
+        <button id="originalNext" onclick="changePage('original', 1)">NEXT 25 →</button>
+    </div>
+</section>
+
+</main>
+
+
+
+
+    <button id="nextPage" onclick="changePage(1)">NEXT 25 →</button>
+</div>
+
+<!-- FULL STORY READER -->
+
+<div id="reader" class="reader">
+
+    <div class="reader-inner">
+
+        <button class="close" onclick="closeReader()">
+            ← BACK TO NEWSROOM
+        </button>
+
+        <div id="readerLabel" class="reader-label"></div>
+
+        <h1 id="readerTitle"></h1>
+
+        <div id="readerByline" class="reader-byline"></div>
+
+        <div id="readerBody" class="reader-body"></div>
+
+    </div>
+
+</div>
+
+
+<footer>
+    MACHINA DAILY — RESEARCH → INTELLIGENCE → EDITORIAL
+</footer>
+
+
+
+<script>
+
+let stories = [];
+let currentPage = { investigative: 1, original: 1 };
+const STORIES_PER_PAGE = 25;
+
+function escapeHtml(value){
+    if(value === null || value === undefined){
+        return "";
+    }
+
+    return String(value)
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;")
+        .replace(/'/g,"&#039;");
+}
+
+function getTitle(story){
+    const title =
+        story.title ||
+        story.source_title ||
+        story.headline ||
+        story.story_title ||
+        story.name ||
+        "";
+
+    return String(title).trim();
+}
+
+function articleHtml(text){
+
+    if(!text){
+        return "<p>No article text available.</p>";
+    }
+
+    return String(text)
+        .split(/\n\s*\n/)
+        .map(p => {
+            const cleaned = p.trim();
+
+            if(!cleaned){
+                return "";
+            }
+
+            return `<p>${escapeHtml(cleaned)}</p>`;
+        })
+        .filter(Boolean)
+        .join("");
+}
+
+function openStory(index){
+
+    const story = stories[index];
+
+    if(!story){
+        return;
+    }
+
+    const journalist =
+        story.journalist?.name ||
+        story.journalist ||
+        "Machina Daily";
+
+    const role =
+        story.journalist?.role ||
+        "";
+
+    const title = getTitle(story);
+
+    const article =
+        story.article ||
+        story.story ||
+        story.content ||
+        "";
+
+    const desk =
+        story.desk === "five_more_journalists"
+            ? "INVESTIGATIVE DESK"
+            : "ORIGINAL DESK";
+
+    document.getElementById("readerLabel").textContent = desk;
+
+    document.getElementById("readerTitle").textContent =
+        title || "Machina Daily Story";
+
+    document.getElementById("readerByline").textContent =
+        journalist + (role ? " — " + role : "");
+
+    document.getElementById("readerBody").innerHTML =
+        articleHtml(article);
+
+    document.getElementById("reader").style.display =
+        "block";
+
+    document.body.style.overflow =
+        "hidden";
+
+    window.scrollTo(0,0);
+}
+
+function closeReader(){
+
+    document.getElementById("reader").style.display =
+        "none";
+
+    document.body.style.overflow =
+        "";
+}
+
+const descriptions = {
+
+    "The Reporter":
+        "A fast, direct and sceptical technology reporter. Finds the clearest concrete news event and explains exactly what happened.",
+
+    "The Investigator":
+        "A rigorous investigative reporter. Follows evidence, contradictions, accountability and what the obvious story leaves out.",
+
+    "The Technologist":
+        "A technology specialist who explains how systems actually work, what is changing and why the technical details matter.",
+
+    "The Business Reporter":
+        "A sharp business reporter focused on money, power, companies, markets and the economic forces behind technology.",
+
+    "The Systems Reporter":
+        "A systems-focused reporter who connects technology, infrastructure, industry and the wider systems they depend on.",
+
+    "Marta Kowalski":
+        "An accountability reporter who asks who certified the system, what safe actually means and who carries responsibility when it fails.",
+
+    "James Okafor":
+        "A data sceptic who tests statistics, definitions, datasets, missing measurements and the evidence behind impressive claims.",
+
+    "Amara Diallo":
+        "A human storyteller who looks beyond the technology to the people living, working and changing around it.",
+
+    "Kenji Tanaka":
+        "A systems thinker who follows dependencies, maintenance, lifecycle problems and the hidden infrastructure behind new technology.",
+
+    "Priya Sharma":
+        "A futurist and trend spotter looking for unexpected uses, emerging behaviours and signals that may point to what comes next."
+};
+
+
+function renderStories() {
+    renderDesk("investigative", "investigativeStories");
+    renderDesk("original", "originalStories");
+}
+
+function renderDesk(deskKey, containerId) {
+    const container = document.getElementById(containerId);
+    const isInvestigative = deskKey === "investigative";
+
+    const items = stories.filter(story =>
+        isInvestigative
+            ? story.desk === "five_more_journalists"
+            : story.desk !== "five_more_journalists"
+    );
+
+    const pages = Math.max(1, Math.ceil(items.length / STORIES_PER_PAGE));
+    currentPage[deskKey] = Math.min(Math.max(1, currentPage[deskKey]), pages);
+
+    const start = (currentPage[deskKey] - 1) * STORIES_PER_PAGE;
+    const pageItems = items.slice(start, start + STORIES_PER_PAGE);
+
+    if (!pageItems.length) {
+        container.innerHTML = "<div class='error'>No stories available in this desk yet.</div>";
+    } else {
+        container.innerHTML = pageItems.map(story => {
+            const index = stories.indexOf(story);
+            const journalist = story.journalist?.name || story.journalist || "Machina Daily";
+            const role = story.journalist?.role || "";
+            const title = getTitle(story) || "Untitled story";
+            const desk = isInvestigative ? "INVESTIGATIVE DESK" : "ORIGINAL DESK";
+            const css = isInvestigative ? "investigative" : "original";
+            const description = descriptions[journalist] || role || "Machina Daily journalist.";
+
+            return `
+                <article class="story ${css}">
+                    <div class="story-label">${desk}</div>
+                    <h2>${escapeHtml(title)}</h2>
+                    <div class="journalist">
+                        <strong>${escapeHtml(journalist)}</strong>
+                        — ${escapeHtml(description)}
+                    </div>
+                    <button class="read" onclick="openStory(${index})">
+                        READ FULL STORY →
+                    </button>
+                </article>`;
+        }).join("");
+    }
+
+    updatePagination(deskKey, items.length);
+}
+
+function updatePagination(deskKey, count) {
+    const pagination = document.getElementById(deskKey + "Pagination");
+    const prev = document.getElementById(deskKey + "Prev");
+    const next = document.getElementById(deskKey + "Next");
+    const info = document.getElementById(deskKey + "PageInfo");
+    const pages = Math.max(1, Math.ceil(count / STORIES_PER_PAGE));
+    const page = currentPage[deskKey];
+
+    pagination.style.display = count > STORIES_PER_PAGE ? "flex" : "none";
+    prev.disabled = page <= 1;
+    next.disabled = page >= pages;
+    info.textContent = `PAGE ${page} / ${pages}`;
+}
+
+function changePage(deskKey, direction) {
+    if (deskKey !== "investigative" && deskKey !== "original") return;
+
+    const items = stories.filter(story =>
+        deskKey === "investigative"
+            ? story.desk === "five_more_journalists"
+            : story.desk !== "five_more_journalists"
+    );
+
+    const pages = Math.max(1, Math.ceil(items.length / STORIES_PER_PAGE));
+    const target = currentPage[deskKey] + direction;
+    if (target < 1 || target > pages) return;
+
+    currentPage[deskKey] = target;
+    renderStories();
+
+    const id = deskKey === "investigative"
+        ? "investigativeStories"
+        : "originalStories";
+    document.getElementById(id).scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+}
+
+async function loadNewsroom(){
+
+    try{
+
+        const response =
+            await fetch("/newsroom/data");
+
+        if(!response.ok){
+
+            throw new Error(
+                "Newsroom API returned " +
+                response.status
+            );
+        }
+
+        const data =
+            await response.json();
+
+        stories =
+            Array.isArray(data.stories)
+                ? data.stories
+                : [];
+
+        currentPage.investigative = 1;
+        currentPage.original = 1;
+
+        renderStories();
+
+    }catch(error){
+
+        console.error(error);
+
+        document.getElementById("stories").innerHTML =
+            "<div class='error'>Could not load newsroom.</div>";
+
+        document.getElementById("pagination").style.display =
+            "none";
+    }
+}
+
+loadNewsroom();
+
+</script>
+
+</body>
+</html>

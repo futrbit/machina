@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Editorial // Machina Daily</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fffdf7;
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 3px solid #111;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+nav a {
+    color: #111;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 70px 30px 45px;
+    border-bottom: 3px solid #111;
+    background: #ffd21a;
+}
+
+.hero-label {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    max-width: 1000px;
+    margin: 0;
+    font-size: clamp(48px, 8vw, 110px);
+    line-height: .88;
+    letter-spacing: -6px;
+}
+
+.hero p {
+    max-width: 700px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.status {
+    padding: 14px 30px;
+    background: #111;
+    color: #fff;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+main {
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 30px 100px;
+}
+
+.section {
+    border-top: 3px solid #111;
+    padding: 35px 0;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.headline {
+    font-size: clamp(36px, 5vw, 70px);
+    line-height: .95;
+    letter-spacing: -3px;
+    margin: 0 0 35px;
+}
+
+.question {
+    font-size: 30px;
+    line-height: 1.15;
+    max-width: 950px;
+}
+
+.card {
+    border: 2px solid #111;
+    padding: 25px;
+    background: white;
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.thesis {
+    background: #ed3426;
+    color: white;
+    border: 3px solid #111;
+    padding: 35px;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.specialists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.specialist {
+    border: 3px solid #111;
+    padding: 25px;
+    min-height: 180px;
+}
+
+.specialist.alpha {
+    background: #ffd21a;
+}
+
+.specialist.beta {
+    background: #fff;
+}
+
+.specialist.gamma {
+    background: #155dcc;
+    color: white;
+}
+
+.specialist h3 {
+    margin: 0 0 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.specialist-title {
+    font-size: 20px;
+    line-height: 1.35;
+    font-weight: bold;
+}
+
+.intelligence-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.intelligence-box {
+    border: 3px solid #111;
+    padding: 25px;
+    background: white;
+}
+
+.intelligence-box h3 {
+    margin-top: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.intelligence-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.intelligence-box li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.records {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.record {
+    border: 2px solid #111;
+    background: #f1f1f1;
+    padding: 10px 12px;
+    font-family: monospace;
+    font-size: 11px;
+    word-break: break-all;
+}
+
+.machine {
+    border: 3px solid #111;
+    padding: 30px;
+    background: #f1f1f1;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.article {
+    max-width: 900px;
+}
+
+.article h2 {
+    font-size: 34px;
+    margin-top: 55px;
+}
+
+.article p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+.article-section {
+    margin-bottom: 45px;
+}
+
+.error {
+    background: #ed3426;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+
+    header {
+        display: block;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 0 15px 0 0;
+    }
+
+    .specialists,
+    .intelligence-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        letter-spacing: -3px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        MACHINA DAILY
+    </div>
+
+    <nav>
+        <a href="/">HOME</a>
+        <a href="/archive">ARCHIVE</a>
+        <a href="/editorial">EDITORIAL</a>
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-label">
+        LOCAL EDITORIAL ENGINE
+    </div>
+
+    <h1>
+        THE MACHINE<br>
+        FINDS THE STORY.
+    </h1>
+
+    <p>
+        Machina Daily's local intelligence system searches across
+        technical, commercial and strategic evidence to discover
+        stories worth investigating.
+    </p>
+
+</section>
+
+
+<div class="status">
+    ● LOCAL AI EDITORIAL SYSTEM // ONLINE
+</div>
+
+
+<main>
+
+    <div id="loading">
+        Loading editorial intelligence...
+    </div>
+
+
+    <div id="content" style="display:none;">
+
+
+        <!-- INVESTIGATION -->
+
+        <section class="section">
+
+            <div class="section-title">
+                ORIGINAL INVESTIGATION
+            </div>
+
+            <h2 id="headline" class="headline"></h2>
+
+            <div class="question">
+
+                <strong>THE QUESTION</strong>
+
+                <br><br>
+
+                <span id="question"></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- WHY NOW -->
+
+        <section class="section">
+
+            <div class="section-title">
+                WHY NOW
+            </div>
+
+            <div class="card">
+
+                <p id="why-now"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- THESIS -->
+
+        <section class="section">
+
+            <div class="section-title">
+                ORIGINAL THESIS
+            </div>
+
+            <div class="thesis" id="thesis"></div>
+
+        </section>
+
+
+        <!-- SPECIALISTS -->
+
+        <section class="section">
+
+            <div class="section-title">
+                SPECIALIST INTELLIGENCE
+            </div>
+
+            <div class="specialists">
+
+                <div class="specialist alpha">
+
+                    <h3>
+                        ALPHA // TECHNICAL
+                    </h3>
+
+                    <div
+                        id="alpha"
+                        class="specialist-title">
+                    </div>
+
+                </div>
+
+
+                <div class="specialist beta">
+
+                    <h3>
+                        BETA // CAPITAL
+                    </h3>
+
+                    <div
+                        id="beta"
+                        class="specialist-title">
+                    </div>
+
+                </div>
+
+
+                <div class="specialist gamma">
+
+                    <h3>
+                        GAMMA // STRATEGIC
+                    </h3>
+
+                    <div
+                        id="gamma"
+                        class="specialist-title">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EVIDENCE -->
+
+        <section class="section">
+
+            <div class="section-title">
+                INVESTIGATION INTELLIGENCE
+            </div>
+
+            <div class="intelligence-grid">
+
+
+                <div class="intelligence-box">
+
+                    <h3>
+                        EVIDENCE GAPS
+                    </h3>
+
+                    <ul id="evidence-gaps"></ul>
+
+                </div>
+
+
+                <div class="intelligence-box">
+
+                    <h3>
+                        COUNTERARGUMENTS
+                    </h3>
+
+                    <ul id="counterarguments"></ul>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- RECORDS -->
+
+        <section class="section">
+
+            <div class="section-title">
+                SOURCE RECORDS
+            </div>
+
+            <div
+                id="records"
+                class="records">
+            </div>
+
+        </section>
+
+
+        <!-- MACHINE -->
+
+        <section class="section">
+
+            <div class="section-title">
+                EDITORIAL MACHINE
+            </div>
+
+            <div class="machine">
+
+                1,658 INTELLIGENCE BRIEFS
+
+                <br>↓
+
+                SPECIALIST ROUTING
+
+                <br>↓
+
+                ALPHA / BETA / GAMMA
+
+                <br>↓
+
+                STORY HUNTERS
+
+                <br>↓
+
+                ORIGINAL INVESTIGATION
+
+                <br>↓
+
+                EDITORIAL SYNTHESIS
+
+                <br>↓
+
+                MACHINA DAILY
+
+            </div>
+
+        </section>
+
+
+        <!-- ARTICLE -->
+
+        <section class="section">
+
+            <div class="section-title">
+                FINISHED ARTICLE
+            </div>
+
+            <article
+                id="article"
+                class="article">
+            </article>
+
+        </section>
+
+
+    </div>
+
+
+    <div
+        id="error"
+        class="error"
+        style="display:none;">
+    </div>
+
+</main>
+
+
+<script>
+
+async function loadEditorial() {
+
+    try {
+
+        const response =
+            await fetch("/editorial/data");
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Editorial data endpoint failed."
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        const investigation =
+            data.investigation || {};
+
+        const article =
+            data.article || {};
+
+
+        /*
+         * INVESTIGATION
+         */
+
+        document.getElementById("headline").textContent =
+            investigation.headline ||
+            "Untitled investigation";
+
+
+        document.getElementById("question").textContent =
+            investigation.central_question ||
+            "";
+
+
+        document.getElementById("why-now").textContent =
+            investigation.why_now ||
+            "";
+
+
+        document.getElementById("thesis").textContent =
+            investigation.thesis ||
+            "";
+
+
+        /*
+         * SPECIALISTS
+         */
+
+        document.getElementById("alpha").textContent =
+            investigation.alpha ||
+            "No ALPHA intelligence";
+
+
+        document.getElementById("beta").textContent =
+            investigation.beta ||
+            "No BETA intelligence";
+
+
+        document.getElementById("gamma").textContent =
+            investigation.gamma ||
+            "No GAMMA intelligence";
+
+
+        /*
+         * EVIDENCE GAPS
+         */
+
+        const evidenceGaps =
+            document.getElementById(
+                "evidence-gaps"
+            );
+
+        evidenceGaps.innerHTML = "";
+
+
+        const gaps =
+            investigation.evidence_gaps || [];
+
+
+        if (gaps.length === 0) {
+
+            const li =
+                document.createElement("li");
+
+            li.textContent =
+                "No evidence gaps recorded.";
+
+            evidenceGaps.appendChild(li);
+
+        } else {
+
+            gaps.forEach(gap => {
+
+                const li =
+                    document.createElement("li");
+
+                li.textContent = gap;
+
+                evidenceGaps.appendChild(li);
+
+            });
+
+        }
+
+
+        /*
+         * COUNTERARGUMENTS
+         */
+
+        const counterarguments =
+            document.getElementById(
+                "counterarguments"
+            );
+
+        counterarguments.innerHTML = "";
+
+
+        const counters =
+            investigation.counterarguments || [];
+
+
+        if (counters.length === 0) {
+
+            const li =
+                document.createElement("li");
+
+            li.textContent =
+                "No counterarguments recorded.";
+
+            counterarguments.appendChild(li);
+
+        } else {
+
+            counters.forEach(counter => {
+
+                const li =
+                    document.createElement("li");
+
+                li.textContent = counter;
+
+                counterarguments.appendChild(li);
+
+            });
+
+        }
+
+
+        /*
+         * RECORD IDS
+         */
+
+        const records =
+            document.getElementById("records");
+
+        records.innerHTML = "";
+
+
+        const recordIds =
+            investigation.record_ids || [];
+
+
+        recordIds.forEach(id => {
+
+            const div =
+                document.createElement("div");
+
+            div.className = "record";
+
+            div.textContent = id;
+
+            records.appendChild(div);
+
+        });
+
+
+        /*
+         * ARTICLE
+         */
+
+        const articleContainer =
+            document.getElementById("article");
+
+
+        articleContainer.innerHTML = "";
+
+
+        if (
+            article.sections &&
+            Array.isArray(article.sections)
+        ) {
+
+            article.sections.forEach(section => {
+
+                const div =
+                    document.createElement("div");
+
+                div.className =
+                    "article-section";
+
+
+                const heading =
+                    document.createElement("h2");
+
+                heading.textContent =
+                    section.title || "";
+
+
+                const paragraph =
+                    document.createElement("p");
+
+                paragraph.textContent =
+                    section.text ||
+                    section.content ||
+                    "";
+
+
+                div.appendChild(heading);
+
+                div.appendChild(paragraph);
+
+                articleContainer.appendChild(div);
+
+            });
+
+        } else {
+
+            const articleText =
+                article.article ||
+                article.text ||
+                article.content ||
+                "";
+
+
+            if (articleText) {
+
+                const paragraphs =
+                    articleText.split(/\n\s*\n/);
+
+
+                paragraphs.forEach(text => {
+
+                    const p =
+                        document.createElement("p");
+
+                    p.textContent =
+                        text.trim();
+
+                    articleContainer.appendChild(p);
+
+                });
+
+            } else {
+
+                const p =
+                    document.createElement("p");
+
+                p.textContent =
+                    "Article not found.";
+
+                articleContainer.appendChild(p);
+
+            }
+
+        }
+
+
+        /*
+         * SHOW
+         */
+
+        document.getElementById(
+            "loading"
+        ).style.display = "none";
+
+
+        document.getElementById(
+            "content"
+        ).style.display = "block";
+
+
+    }
+
+    catch (error) {
+
+        console.error(error);
+
+
+        document.getElementById(
+            "loading"
+        ).style.display = "none";
+
+
+        const errorBox =
+            document.getElementById("error");
+
+
+        errorBox.textContent =
+            "Editorial data could not be loaded: " +
+            error.message;
+
+
+        errorBox.style.display =
+            "block";
+
+    }
+
+}
+
+
+loadEditorial();
+
+</script>
+
+</body>
+</html>

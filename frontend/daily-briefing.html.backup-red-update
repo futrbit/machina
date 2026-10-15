@@ -1,0 +1,1842 @@
+﻿```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Machina Daily — Daily Briefing</title>
+
+<style>
+
+:root {
+    --paper: #f5f2e9;
+    --white: #fffdf8;
+    --ink: #111111;
+    --muted: #66615a;
+    --line: #171717;
+    --yellow: #e7d600;
+    --red: #e33b2f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font: inherit;
+}
+
+
+/* ============================================================
+   HEADER
+============================================================ */
+
+.site-header {
+    border-bottom: 2px solid var(--line);
+    background: var(--paper);
+}
+
+.header-top {
+    padding: 18px 4vw;
+    border-bottom: 1px solid var(--line);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.mini-brand {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.header-date {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.masthead-row {
+    padding: 35px 4vw 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.masthead {
+    margin: 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(64px, 12vw, 170px);
+    line-height: .75;
+    letter-spacing: -.075em;
+}
+
+.masthead-note {
+    max-width: 300px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.15;
+}
+
+.nav {
+    border-top: 1px solid var(--line);
+
+    display: flex;
+    overflow-x: auto;
+}
+
+.nav a {
+    flex: 0 0 auto;
+
+    padding: 14px 22px;
+
+    border-right: 1px solid var(--line);
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    background: var(--yellow);
+}
+
+
+/* ============================================================
+   MAIN
+============================================================ */
+
+main {
+    width: min(1500px, 92vw);
+    margin: 0 auto;
+}
+
+
+/* ============================================================
+   SECTION INTRO
+============================================================ */
+
+.briefing-intro {
+    padding: 55px 0 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+
+    border-bottom: 2px solid var(--line);
+}
+
+.section-kicker {
+    margin-bottom: 15px;
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.briefing-intro h1 {
+    margin: 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(48px, 7vw, 100px);
+    line-height: .85;
+    letter-spacing: -.055em;
+}
+
+.briefing-intro p {
+    max-width: 430px;
+    margin: 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 19px;
+    line-height: 1.25;
+}
+
+
+/* ============================================================
+   TOP STORY
+============================================================ */
+
+.top-story {
+    padding: 45px 0 60px;
+
+    border-bottom: 2px solid var(--line);
+}
+
+.story-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    margin-bottom: 18px;
+}
+
+.rank {
+    display: inline-block;
+
+    padding: 6px 9px;
+
+    background: var(--yellow);
+
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: .1em;
+}
+
+.desk-label {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.top-story h2 {
+    max-width: 1050px;
+    margin: 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(42px, 7vw, 96px);
+    line-height: .91;
+    letter-spacing: -.055em;
+}
+
+.byline {
+    margin-top: 20px;
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+}
+
+.top-story-body {
+    max-width: 900px;
+    margin-top: 30px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(21px, 2.2vw, 29px);
+    line-height: 1.4;
+}
+
+.read-desk {
+    display: inline-block;
+
+    margin-top: 30px;
+    padding: 12px 17px;
+
+    border: 1px solid var(--line);
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.read-desk:hover {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+
+/* ============================================================
+   STORY GRID
+============================================================ */
+
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    border-bottom: 2px solid var(--line);
+}
+
+.story-card {
+    padding: 35px 35px 42px;
+
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+.story-card:nth-child(2n) {
+    border-right: 0;
+}
+
+.story-card:nth-last-child(-n + 2) {
+    border-bottom: 0;
+}
+
+.card-number {
+    margin-bottom: 18px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 1;
+}
+
+.story-card h3 {
+    margin: 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(27px, 3.5vw, 45px);
+    line-height: .96;
+    letter-spacing: -.035em;
+}
+
+.card-role {
+    margin-bottom: 10px;
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.card-byline {
+    margin-top: 15px;
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.card-status {
+    margin-top: 10px;
+
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.card-status.selected {
+    color: var(--ink);
+}
+
+.card-status.previous {
+    color: var(--muted);
+}
+
+.card-link {
+    display: inline-block;
+
+    margin-top: 24px;
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.card-link:hover {
+    background: var(--yellow);
+}
+
+
+/* ============================================================
+   EDITORIAL STRIP
+============================================================ */
+
+.editorial-strip {
+    margin: 55px 0;
+
+    display: grid;
+    grid-template-columns: .7fr 1.3fr;
+
+    border: 2px solid var(--line);
+}
+
+.editorial-label {
+    padding: 30px;
+
+    background: var(--ink);
+    color: var(--paper);
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+}
+
+.editorial-copy {
+    padding: 30px;
+
+    background: var(--white);
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+
+/* ============================================================
+   NEWSROOM PIPELINE
+============================================================ */
+
+.pipeline {
+    margin: 70px 0 55px;
+
+    border-top: 2px solid var(--line);
+    border-bottom: 2px solid var(--line);
+}
+
+.pipeline-heading {
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.pipeline-heading h2 {
+    margin: 0;
+
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+.pipeline-heading span {
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+}
+
+.pipeline-flow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.pipeline-step {
+    min-height: 150px;
+
+    padding: 25px;
+
+    border-right: 1px solid var(--line);
+}
+
+.pipeline-step:last-child {
+    border-right: 0;
+}
+
+.pipeline-number {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 42px;
+    line-height: 1;
+}
+
+.pipeline-title {
+    margin-top: 15px;
+
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.pipeline-description {
+    margin-top: 10px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+
+/* ============================================================
+   DESK DIRECTORY
+============================================================ */
+
+.directory {
+    padding: 15px 0 80px;
+}
+
+.directory-heading {
+    padding-bottom: 15px;
+
+    border-bottom: 2px solid var(--line);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.directory-heading h2 {
+    margin: 0;
+
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+.directory-heading span {
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+}
+
+.desk-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.desk-link {
+    padding: 25px 20px;
+
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+.desk-link:nth-child(3n) {
+    border-right: 0;
+}
+
+.desk-link:hover {
+    background: var(--yellow);
+}
+
+.desk-number {
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: .12em;
+    color: var(--muted);
+}
+
+.desk-name {
+    margin-top: 7px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+}
+
+.desk-role {
+    margin-top: 8px;
+
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+
+/* ============================================================
+   LOADING / ERROR
+============================================================ */
+
+.loading {
+    padding: 70px 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+}
+
+.error {
+    padding: 40px;
+
+    border: 2px solid var(--line);
+    background: white;
+
+    font-weight: 700;
+}
+
+
+/* ============================================================
+   FOOTER
+============================================================ */
+
+footer {
+    border-top: 2px solid var(--line);
+
+    padding: 25px 4vw;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media (max-width: 900px) {
+
+    .pipeline-flow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pipeline-step:nth-child(2) {
+        border-right: 0;
+    }
+
+    .pipeline-step:nth-child(-n + 2) {
+        border-bottom: 1px solid var(--line);
+    }
+
+    .desk-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .desk-link:nth-child(3n) {
+        border-right: 1px solid var(--line);
+    }
+
+    .desk-link:nth-child(2n) {
+        border-right: 0;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .masthead-row {
+        display: block;
+    }
+
+    .masthead-note {
+        margin-top: 30px;
+    }
+
+    .briefing-intro {
+        display: block;
+    }
+
+    .briefing-intro p {
+        margin-top: 25px;
+    }
+
+    .story-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .story-card {
+        border-right: 0;
+        border-bottom: 1px solid var(--line) !important;
+    }
+
+    .editorial-strip {
+        grid-template-columns: 1fr;
+    }
+
+    .pipeline-flow {
+        grid-template-columns: 1fr;
+    }
+
+    .pipeline-step {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+    }
+
+    .pipeline-step:last-child {
+        border-bottom: 0;
+    }
+
+    .desk-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .desk-link,
+    .desk-link:nth-child(2n),
+    .desk-link:nth-child(3n) {
+        border-right: 0;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer div + div {
+        margin-top: 10px;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="header-top">
+
+        <div class="mini-brand">
+            MACHINA DAILY / DAILY BRIEFING
+        </div>
+
+        <div
+            class="header-date"
+            id="headerDate"
+        >
+            Loading date...
+        </div>
+
+    </div>
+
+
+    <div class="masthead-row">
+
+        <div class="masthead">
+            MACHINA<br>DAILY
+        </div>
+
+        <div class="masthead-note">
+            Research becomes intelligence.
+            Intelligence becomes reporting.
+            Nine specialist desks investigate
+            the machine world every day.
+        </div>
+
+    </div>
+
+
+    <nav class="nav">
+
+        <a href="/daily-briefing">
+            TODAY
+        </a>
+
+        <a href="/newsroom">
+            NEWSROOM
+        </a>
+
+        <a href="/daily/yuki_tanaka">
+            YUKI / EDITOR
+        </a>
+
+        <a href="/daily/callum_reyes">
+            CALLUM
+        </a>
+
+        <a href="/daily/tomas_vega">
+            TOMÁS
+        </a>
+
+        <a href="/daily/ingrid_sorensen">
+            INGRID
+        </a>
+
+        <a href="/daily/dev_okafor">
+            DEV
+        </a>
+
+        <a href="/daily/ravi_chatterjee">
+            RAVI
+        </a>
+
+        <a href="/daily/elena_vasquez">
+            ELENA
+        </a>
+
+        <a href="/daily/marcus_okafor">
+            MARCUS
+        </a>
+
+        <a href="/daily/kenji_nakamura">
+            KENJI
+        </a>
+
+        <a href="/daily/sofia_lindqvist">
+            SOFIA
+        </a>
+
+        <a href="/archive">
+            ARCHIVE
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+
+    <!-- ========================================================
+         TODAY'S BRIEFING
+    ========================================================= -->
+
+    <section class="briefing-intro">
+
+        <div>
+
+            <div class="section-kicker">
+                Morning Edition
+            </div>
+
+            <h1>
+                TODAY'S<br>
+                BRIEFING
+            </h1>
+
+        </div>
+
+        <p>
+            The five stories selected by Yuki from
+            today's verified specialist reporting.
+            Nine desks investigate. Maren verifies.
+            Yuki selects the briefing.
+        </p>
+
+    </section>
+
+
+    <section id="topStory">
+
+        <div class="loading">
+            Loading today's briefing...
+        </div>
+
+    </section>
+
+
+    <section
+        id="storyGrid"
+        class="story-grid"
+    >
+    </section>
+
+
+    <!-- ========================================================
+         EDITORIAL EXPLANATION
+    ======================================================== -->
+
+    <section class="editorial-strip">
+
+        <div class="editorial-label">
+            The Editorial Desk
+        </div>
+
+        <div class="editorial-copy">
+            Machina Daily no longer asks one general newsroom
+            to decide what matters. Each story is routed to a
+            specialist correspondent: events, markets, policy,
+            products, AI, drones, robotics, autonomous vehicles
+            or industrial infrastructure. Maren verifies the
+            resulting bulletins. Yuki makes the final editorial
+            selection.
+        </div>
+
+    </section>
+
+
+    <!-- ========================================================
+         NEWSROOM PIPELINE
+    ========================================================= -->
+
+    <section class="pipeline">
+
+        <div class="pipeline-heading">
+
+            <h2>
+                How Machina Daily Works
+            </h2>
+
+            <span>
+                Autonomous editorial pipeline
+            </span>
+
+        </div>
+
+
+        <div class="pipeline-flow">
+
+            <div class="pipeline-step">
+
+                <div class="pipeline-number">
+                    01
+                </div>
+
+                <div class="pipeline-title">
+                    Intelligence
+                </div>
+
+                <div class="pipeline-description">
+                    Machina's research system gathers
+                    evidence and builds the intelligence
+                    record from which stories are selected.
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-step">
+
+                <div class="pipeline-number">
+                    02
+                </div>
+
+                <div class="pipeline-title">
+                    Specialist Reporting
+                </div>
+
+                <div class="pipeline-description">
+                    Nine independent desks receive stories
+                    according to subject: markets, policy,
+                    AI, drones, robotics, autonomy and more.
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-step">
+
+                <div class="pipeline-number">
+                    03
+                </div>
+
+                <div class="pipeline-title">
+                    Maren / Verification
+                </div>
+
+                <div class="pipeline-description">
+                    Reporter output passes through a separate
+                    verification layer before it can enter
+                    the daily editorial pool.
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-step">
+
+                <div class="pipeline-number">
+                    04
+                </div>
+
+                <div class="pipeline-title">
+                    Yuki / Briefing
+                </div>
+
+                <div class="pipeline-description">
+                    Yuki ranks the verified reporting and
+                    selects the five stories that become
+                    today's public briefing.
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================================
+         DESK DIRECTORY
+    ========================================================= -->
+
+    <section class="directory">
+
+        <div class="directory-heading">
+
+            <h2>
+                The Editorial Desks
+            </h2>
+
+            <span>
+                Nine specialist correspondents
+            </span>
+
+        </div>
+
+
+        <div class="desk-grid">
+
+            <a class="desk-link" href="/daily/callum_reyes">
+                <div class="desk-number">DESK 01</div>
+                <div class="desk-name">Callum Reyes</div>
+                <div class="desk-role">Current Events / Wire</div>
+            </a>
+
+            <a class="desk-link" href="/daily/tomas_vega">
+                <div class="desk-number">DESK 02</div>
+                <div class="desk-name">Tomás Vega</div>
+                <div class="desk-role">Business / Markets</div>
+            </a>
+
+            <a class="desk-link" href="/daily/ingrid_sorensen">
+                <div class="desk-number">DESK 03</div>
+                <div class="desk-name">Ingrid Sørensen</div>
+                <div class="desk-role">Policy / Government / Defence</div>
+            </a>
+
+            <a class="desk-link" href="/daily/dev_okafor">
+                <div class="desk-number">DESK 04</div>
+                <div class="desk-name">Dev Okafor</div>
+                <div class="desk-role">Products / Platforms</div>
+            </a>
+
+            <a class="desk-link" href="/daily/ravi_chatterjee">
+                <div class="desk-number">DESK 05</div>
+                <div class="desk-name">Ravi Chatterjee</div>
+                <div class="desk-role">AI / Computing / Research</div>
+            </a>
+
+            <a class="desk-link" href="/daily/elena_vasquez">
+                <div class="desk-number">DESK 06</div>
+                <div class="desk-name">Elena Vasquez</div>
+                <div class="desk-role">Drones / Uncrewed Systems</div>
+            </a>
+
+            <a class="desk-link" href="/daily/marcus_okafor">
+                <div class="desk-number">DESK 07</div>
+                <div class="desk-name">Marcus Okafor</div>
+                <div class="desk-role">Robotics / Humanoids</div>
+            </a>
+
+            <a class="desk-link" href="/daily/kenji_nakamura">
+                <div class="desk-number">DESK 08</div>
+                <div class="desk-name">Kenji Nakamura</div>
+                <div class="desk-role">Autonomous Vehicles</div>
+            </a>
+
+            <a class="desk-link" href="/daily/sofia_lindqvist">
+                <div class="desk-number">DESK 09</div>
+                <div class="desk-name">Sofia Lindqvist</div>
+                <div class="desk-role">Industrial Systems / Infrastructure</div>
+            </a>
+
+            <a class="desk-link" href="/daily/yuki_tanaka">
+                <div class="desk-number">EDITOR</div>
+                <div class="desk-name">Yuki Tanaka</div>
+                <div class="desk-role">Editorial Ranking / Briefing</div>
+            </a>
+
+            <a class="desk-link" href="/archive">
+                <div class="desk-number">ARCHIVE</div>
+                <div class="desk-name">Archive</div>
+                <div class="desk-role">Previous Editions</div>
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div>
+        MACHINA DAILY
+    </div>
+
+    <div>
+        Intelligence → Specialist Reporting → Verification → Editorial Selection
+    </div>
+
+</footer>
+
+
+<script>
+
+
+/* ============================================================
+   DESK DATA
+============================================================ */
+
+const DESKS = [
+    "callum_reyes",
+    "tomas_vega",
+    "ingrid_sorensen",
+    "dev_okafor",
+    "ravi_chatterjee",
+    "elena_vasquez",
+    "marcus_okafor",
+    "kenji_nakamura",
+    "sofia_lindqvist"
+];
+
+
+const DISPLAY_NAMES = {
+
+    callum_reyes: "Callum Reyes",
+    tomas_vega: "Tomás Vega",
+    ingrid_sorensen: "Ingrid Sørensen",
+    dev_okafor: "Dev Okafor",
+    ravi_chatterjee: "Ravi Chatterjee",
+    elena_vasquez: "Elena Vasquez",
+    marcus_okafor: "Marcus Okafor",
+    kenji_nakamura: "Kenji Nakamura",
+    sofia_lindqvist: "Sofia Lindqvist"
+
+};
+
+
+/* ============================================================
+   SAFETY
+============================================================ */
+
+function escapeHtml(value) {
+
+    if (
+        value === null ||
+        value === undefined
+    ) {
+        return "";
+    }
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+
+/* ============================================================
+   GENERIC / EMPTY TITLES
+============================================================ */
+
+function isGenericHeadline(title) {
+
+    if (!title) {
+        return true;
+    }
+
+    const cleaned =
+        String(title)
+            .trim()
+            .toLowerCase();
+
+    return (
+        cleaned === "machina daily bulletin" ||
+        cleaned === "daily bulletin" ||
+        cleaned === "machina bulletin"
+    );
+}
+
+
+/* ============================================================
+   GET A PROPER STORY FROM A DESK
+============================================================ */
+
+function getDeskStory(deskData) {
+
+    if (!deskData) {
+        return null;
+    }
+
+
+    /*
+       First preference:
+       the current latest article.
+    */
+
+    const latest =
+        deskData.latest || null;
+
+    if (
+        latest &&
+        !isGenericHeadline(
+            latest.title
+        ) &&
+        (
+            latest.body ||
+            latest.article ||
+            latest.selected_records
+        )
+    ) {
+
+        return {
+            ...latest,
+            story_source: "latest"
+        };
+
+    }
+
+
+    /*
+       Second preference:
+       current journalist article.
+    */
+
+    const article =
+        deskData.journalist?.article ||
+        deskData.article ||
+        null;
+
+    if (
+        article &&
+        !isGenericHeadline(
+            article.title
+        ) &&
+        (
+            article.body ||
+            article.content
+        )
+    ) {
+
+        return {
+            ...article,
+            story_source: "latest"
+        };
+
+    }
+
+
+    /*
+       Third preference:
+       most recent proper archived story.
+
+       This is the important fallback.
+
+       If a desk did not produce a new usable
+       story today, we show its most recent
+       real article instead.
+    */
+
+    const history =
+        Array.isArray(
+            deskData.history
+        )
+            ? deskData.history
+            : [];
+
+
+    for (
+        const oldStory of history
+    ) {
+
+        if (
+            oldStory &&
+            !isGenericHeadline(
+                oldStory.title
+            ) &&
+            (
+                oldStory.body ||
+                oldStory.content ||
+                oldStory.article
+            )
+        ) {
+
+            return {
+                ...oldStory,
+                story_source: "previous"
+            };
+
+        }
+
+    }
+
+
+    /*
+       Last resort:
+       selected record title.
+    */
+
+    const records =
+        deskData.journalist?.selected_records ||
+        deskData.selected_records ||
+        [];
+
+    if (
+        records.length &&
+        records[0].title
+    ) {
+
+        return {
+            title: records[0].title,
+            body: "",
+            story_source: "record"
+        };
+
+    }
+
+
+    return null;
+}
+
+
+/* ============================================================
+   GET HEADLINE
+============================================================ */
+
+function getHeadline(
+    story,
+    yukiStory = null
+) {
+
+    /*
+       If Yuki supplied an exact assigned story title,
+       preserve it for today's selected stories.
+    */
+
+    if (
+        yukiStory &&
+        yukiStory.assigned_story_title
+    ) {
+
+        return yukiStory.assigned_story_title;
+
+    }
+
+
+    if (
+        story &&
+        story.title &&
+        !isGenericHeadline(
+            story.title
+        )
+    ) {
+
+        return story.title;
+
+    }
+
+
+    return "Machina Daily Bulletin";
+}
+
+
+/* ============================================================
+   LOAD INDIVIDUAL DESK
+============================================================ */
+
+async function loadDesk(id) {
+
+    try {
+
+        const response =
+            await fetch(
+                "/daily/" +
+                id +
+                "/data"
+            );
+
+        if (!response.ok) {
+            return null;
+        }
+
+        return await response.json();
+
+    } catch (error) {
+
+        console.error(
+            "Could not load desk:",
+            id,
+            error
+        );
+
+        return null;
+    }
+}
+
+
+/* ============================================================
+   LOAD DAILY BRIEFING
+============================================================ */
+
+async function loadBriefing() {
+
+    try {
+
+        const response =
+            await fetch(
+                "/daily-briefing/data"
+            );
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Briefing API returned " +
+                response.status
+            );
+        }
+
+        const data =
+            await response.json();
+
+
+        /* ----------------------------------------------------
+           DATE
+        ---------------------------------------------------- */
+
+        const generatedAt =
+            data.generated_at;
+
+        if (generatedAt) {
+
+            const date =
+                new Date(
+                    generatedAt
+                );
+
+            document.getElementById(
+                "headerDate"
+            ).textContent =
+                date.toLocaleDateString(
+                    "en-GB",
+                    {
+                        weekday: "long",
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric"
+                    }
+                );
+        }
+
+
+        /* ----------------------------------------------------
+           LOAD ALL NINE DESKS
+        ---------------------------------------------------- */
+
+        const loaded =
+            await Promise.all(
+                DESKS.map(
+                    async journalist_id => {
+
+                        const desk =
+                            await loadDesk(
+                                journalist_id
+                            );
+
+                        return {
+                            journalist_id,
+                            desk
+                        };
+
+                    }
+                )
+            );
+
+
+        /*
+           Build lookup by journalist ID.
+        */
+
+        const deskMap =
+            {};
+
+        loaded.forEach(
+            item => {
+
+                deskMap[
+                    item.journalist_id
+                ] = item.desk;
+
+            }
+        );
+
+
+        /* ----------------------------------------------------
+           YUKI'S TOP FIVE
+        ---------------------------------------------------- */
+
+        const yukiTopFive =
+            Array.isArray(
+                data.yuki?.top_five
+            )
+                ? data.yuki.top_five
+                : [];
+
+
+        const selectedIds =
+            new Set(
+                yukiTopFive.map(
+                    item =>
+                        item.journalist_id
+                )
+            );
+
+
+        /*
+           Today's selected stories.
+
+           These are deliberately ordered by Yuki's
+           ranking rather than by desk number.
+        */
+
+        const selectedStories =
+            yukiTopFive
+                .map(
+                    yukiStory => {
+
+                        const id =
+                            yukiStory.journalist_id;
+
+                        const deskData =
+                            deskMap[id];
+
+                        const story =
+                            getDeskStory(
+                                deskData
+                            );
+
+                        if (!story) {
+                            return null;
+                        }
+
+                        return {
+                            journalist_id: id,
+                            deskData,
+                            story,
+                            yukiStory,
+                            selected: true
+                        };
+
+                    }
+                )
+                .filter(Boolean);
+
+
+        /*
+           Remaining four desks.
+
+           These do NOT compete with Yuki's ranking.
+
+           They simply provide the latest available
+           story from that desk, falling back to history.
+        */
+
+        const previousDeskStories =
+            DESKS
+                .filter(
+                    id =>
+                        !selectedIds.has(id)
+                )
+                .map(
+                    id => {
+
+                        const deskData =
+                            deskMap[id];
+
+                        const story =
+                            getDeskStory(
+                                deskData
+                            );
+
+                        if (!story) {
+                            return null;
+                        }
+
+                        return {
+                            journalist_id: id,
+                            deskData,
+                            story,
+                            yukiStory: null,
+                            selected: false
+                        };
+
+                    }
+                )
+                .filter(Boolean);
+
+
+        /*
+           Final order:
+
+           1–5 = Yuki's selections
+           6–9 = latest available stories
+                 from the remaining desks
+        */
+
+        const stories =
+            [
+                ...selectedStories,
+                ...previousDeskStories
+            ];
+
+
+        if (!stories.length) {
+
+            document.getElementById(
+                "topStory"
+            ).innerHTML =
+                "<div class='error'>No specialist bulletins were available for today's briefing.</div>";
+
+            document.getElementById(
+                "storyGrid"
+            ).innerHTML = "";
+
+            return;
+        }
+
+
+        renderBriefing(
+            stories
+        );
+
+    } catch (error) {
+
+        console.error(
+            error
+        );
+
+        document.getElementById(
+            "topStory"
+        ).innerHTML = `
+            <div class="error">
+                THE DAILY BRIEFING COULD NOT LOAD.
+                <br><br>
+                The editorial data endpoint could not be reached.
+            </div>
+        `;
+
+    }
+}
+
+
+/* ============================================================
+   RENDER BRIEFING
+============================================================ */
+
+function renderBriefing(
+    stories
+) {
+
+    const first =
+        stories[0];
+
+    const firstDesk =
+        first.deskData || {};
+
+    const firstStory =
+        first.story || {};
+
+
+    const firstName =
+        DISPLAY_NAMES[
+            first.journalist_id
+        ] ||
+        first.journalist_id;
+
+
+    const firstHeadline =
+        getHeadline(
+            firstStory,
+            first.yukiStory
+        );
+
+
+    const firstRole =
+        firstDesk.journalist?.role ||
+        firstDesk.role ||
+        "Editorial Desk";
+
+
+    /*
+       Yuki's #1 story becomes the large lead.
+    */
+
+    document.getElementById(
+        "topStory"
+    ).innerHTML = `
+
+        <article class="top-story">
+
+            <div class="story-meta">
+
+                <span class="rank">
+                    01
+                </span>
+
+                <span class="desk-label">
+                    ${escapeHtml(firstRole)}
+                </span>
+
+            </div>
+
+
+            <h2>
+                ${escapeHtml(firstHeadline)}
+            </h2>
+
+
+            <div class="byline">
+                ${escapeHtml(firstName)}
+            </div>
+
+
+            <a
+                class="read-desk"
+                href="/daily/${first.journalist_id}"
+            >
+                READ STORY →
+            </a>
+
+        </article>
+    `;
+
+
+    /* --------------------------------------------------------
+       REMAINING EIGHT DESKS
+    -------------------------------------------------------- */
+
+    const remaining =
+        stories.slice(1);
+
+
+    const grid =
+        document.getElementById(
+            "storyGrid"
+        );
+
+
+    grid.innerHTML =
+        remaining.map(
+            (item, index) => {
+
+                const deskData =
+                    item.deskData || {};
+
+                const story =
+                    item.story || {};
+
+
+                const name =
+                    DISPLAY_NAMES[
+                        item.journalist_id
+                    ] ||
+                    item.journalist_id;
+
+
+                const headline =
+                    getHeadline(
+                        story,
+                        item.yukiStory
+                    );
+
+
+                const role =
+                    deskData.journalist?.role ||
+                    deskData.role ||
+                    "Editorial Desk";
+
+
+                const rank =
+                    String(
+                        index + 2
+                    ).padStart(
+                        2,
+                        "0"
+                    );
+
+
+                const statusLabel =
+                    item.selected
+                        ? "TODAY'S YUKI SELECTION"
+                        : (
+                            story.story_source === "previous"
+                                ? "LATEST FROM THE DESK"
+                                : "LATEST REPORT"
+                        );
+
+
+                const statusClass =
+                    item.selected
+                        ? "selected"
+                        : "previous";
+
+
+                return `
+
+                    <article
+                        class="story-card"
+                    >
+
+                        <div class="card-number">
+                            ${rank}
+                        </div>
+
+
+                        <div class="card-role">
+                            ${escapeHtml(
+                                role
+                            )}
+                        </div>
+
+
+                        <h3>
+                            ${escapeHtml(
+                                headline
+                            )}
+                        </h3>
+
+
+                        <div class="card-byline">
+                            ${escapeHtml(
+                                name
+                            )}
+                        </div>
+
+
+                        <div
+                            class="card-status ${statusClass}"
+                        >
+                            ${escapeHtml(
+                                statusLabel
+                            )}
+                        </div>
+
+
+                        <a
+                            class="card-link"
+                            href="/daily/${item.journalist_id}"
+                        >
+                            READ STORY →
+                        </a>
+
+                    </article>
+                `;
+            }
+        ).join("");
+}
+
+
+/* ============================================================
+   START
+============================================================ */
+
+loadBriefing();
+
+</script>
+
+</body>
+</html>
+```

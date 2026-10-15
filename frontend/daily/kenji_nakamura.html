@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kenji Nakamura — Machina Daily</title>
+
+<style>
+
+:root {
+    --paper: #f5f2e9;
+    --white: #fffdf8;
+    --ink: #111;
+    --muted: #69645d;
+    --line: #171717;
+    --yellow: #e7d600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    border-bottom: 2px solid var(--line);
+}
+
+.header-top {
+    padding: 18px 4vw;
+    border-bottom: 1px solid var(--line);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+}
+
+.masthead {
+    padding: 35px 4vw;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(60px, 11vw, 145px);
+    line-height: .76;
+    letter-spacing: -.07em;
+}
+
+nav {
+    border-top: 1px solid var(--line);
+
+    display: flex;
+    overflow-x: auto;
+}
+
+nav a {
+    padding: 13px 20px;
+
+    border-right: 1px solid var(--line);
+
+    white-space: nowrap;
+
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background: var(--yellow);
+}
+
+main {
+    width: min(1350px, 92vw);
+    margin: auto;
+}
+
+.hero {
+    padding: 65px 0 45px;
+    border-bottom: 2px solid var(--line);
+}
+
+.kicker {
+    margin-bottom: 18px;
+
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(58px, 9vw, 125px);
+    line-height: .82;
+    letter-spacing: -.06em;
+}
+
+.role {
+    margin-top: 25px;
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+}
+
+.meta {
+    margin-top: 25px;
+
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    padding: 7px 10px;
+
+    border: 1px solid var(--line);
+
+    background: var(--white);
+
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.badge:first-child {
+    background: var(--yellow);
+}
+
+.latest-label,
+.history-label {
+    padding: 30px 0 15px;
+
+    border-bottom: 2px solid var(--line);
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+.latest {
+    padding: 45px 0 65px;
+
+    border-bottom: 2px solid var(--line);
+}
+
+.latest h2 {
+    max-width: 1050px;
+    margin: 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(40px, 6vw, 82px);
+    line-height: .9;
+    letter-spacing: -.055em;
+}
+
+.story-date {
+    margin-top: 18px;
+
+    font-size: 10px;
+    font-weight: 800;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.story-body {
+    max-width: 850px;
+    margin-top: 30px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(21px, 2.1vw, 29px);
+    line-height: 1.4;
+}
+
+.story-body p {
+    margin: 0 0 22px;
+}
+
+.history {
+    padding-bottom: 80px;
+}
+
+.history-story {
+    padding: 35px 0 45px;
+
+    border-bottom: 1px solid var(--line);
+
+    display: grid;
+    grid-template-columns: 190px minmax(0, 1fr);
+    gap: 45px;
+}
+
+.history-date {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.history-story h3 {
+    margin: 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(27px, 3vw, 45px);
+    line-height: .96;
+    letter-spacing: -.04em;
+}
+
+.history-body {
+    max-width: 780px;
+    margin-top: 20px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.45;
+}
+
+.history-body p {
+    margin: 0 0 16px;
+}
+
+.empty {
+    padding: 50px 0;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+}
+
+.error {
+    margin: 40px 0;
+    padding: 30px;
+
+    border: 2px solid var(--line);
+    background: white;
+
+    font-weight: 800;
+}
+
+footer {
+    border-top: 2px solid var(--line);
+
+    padding: 22px 4vw;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+@media(max-width: 760px) {
+
+    .history-story {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .masthead {
+        font-size: 70px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer div + div {
+        margin-top: 10px;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-top">
+
+        <div>
+            MACHINA DAILY / EDITORIAL DESK
+        </div>
+
+        <div id="date">
+            —
+        </div>
+
+    </div>
+
+    <div class="masthead">
+        MACHINA<br>DAILY
+    </div>
+
+    <nav>
+
+        <a href="/daily-briefing">
+            TODAY
+        </a>
+
+        <a href="/newsroom">
+            NEWSROOM
+        </a>
+
+        <a href="/daily/yuki_tanaka">
+            YUKI / EDITOR
+        </a>
+
+        <a href="/daily/kenji_nakamura">
+            CALLUM
+        </a>
+
+        <a href="/daily/tomas_vega">
+            TOMÁS
+        </a>
+
+        <a href="/daily/ingrid_sorensen">
+            INGRID
+        </a>
+
+        <a href="/daily/dev_okafor">
+            DEV
+        </a>
+
+        <a href="/daily/elena_vasquez">
+            ELENA VASQUEZ
+        </a>
+
+        <a href="/daily/marcus_okafor">
+            MARCUS OKAFOR
+        </a>
+
+        <a href="/daily/kenji_nakamura">
+            KENJI NAKAMURA
+        </a>
+
+        <a href="/daily/ravi_chatterjee">
+            RAVI
+        </a>
+
+        <a href="/daily/sofia_lindqvist">
+            SOFIA
+        </a>
+
+        <a href="/archive">
+            ARCHIVE
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="hero">
+
+        <div class="kicker">
+            Machina Daily Editorial Desk
+        </div>
+
+        <h1 id="name">
+            Kenji Nakamura
+        </h1>
+
+        <div
+            class="role"
+            id="role"
+        >
+            Autonomous Vehicles Correspondent
+        </div>
+
+        <div class="meta">
+
+            <div
+                class="badge"
+                id="model"
+            >
+                Local Model
+            </div>
+
+            <div
+                class="badge"
+                id="count"
+            >
+                —
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="latest-label">
+        Latest Bulletin
+    </div>
+
+    <section
+        class="latest"
+        id="latest"
+    >
+        <div class="empty">
+            Loading latest bulletin...
+        </div>
+    </section>
+
+
+    <div class="history-label">
+        Previous Stories
+    </div>
+
+    <section
+        class="history"
+        id="history"
+    >
+        <div class="empty">
+            Loading desk history...
+        </div>
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div>
+        Kenji Nakamura · Autonomous Vehicles Correspondent
+    </div>
+
+    <div>
+        MACHINA DAILY
+    </div>
+
+</footer>
+
+
+<script>
+
+const DESK_ID = "kenji_nakamura";
+
+
+const DISPLAY_NAME = "Kenji Nakamura";
+
+
+function escapeHtml(value) {
+
+    if (
+        value === null ||
+        value === undefined
+    ) {
+        return "";
+    }
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+
+function formatDate(value) {
+
+    if (!value) {
+        return "Date unavailable";
+    }
+
+    const date =
+        new Date(value);
+
+    if (
+        Number.isNaN(
+            date.getTime()
+        )
+    ) {
+        return String(value);
+    }
+
+    return date.toLocaleDateString(
+        "en-GB",
+        {
+            weekday: "long",
+            day: "numeric",
+            month: "long",
+            year: "numeric"
+        }
+    );
+}
+
+
+function articleHtml(text) {
+
+    if (!text) {
+        return "<p>No bulletin text available.</p>";
+    }
+
+    return String(text)
+        .split(/\n\s*\n/)
+        .map(
+            paragraph => {
+
+                const cleaned =
+                    paragraph.trim();
+
+                if (!cleaned) {
+                    return "";
+                }
+
+                return (
+                    "<p>" +
+                    escapeHtml(cleaned) +
+                    "</p>"
+                );
+            }
+        )
+        .filter(Boolean)
+        .join("");
+}
+
+
+function renderLatest(story) {
+
+    const container =
+        document.getElementById(
+            "latest"
+        );
+
+    if (!story) {
+
+        container.innerHTML = `
+            <div class="empty">
+                No bulletin was generated for this desk.
+            </div>
+        `;
+
+        return;
+    }
+
+    container.innerHTML = `
+
+        <article>
+
+            <h2>
+                ${escapeHtml(
+                    story.title ||
+                    "Machina Daily Bulletin"
+                )}
+            </h2>
+
+            <div class="story-date">
+                ${escapeHtml(
+                    formatDate(
+                        story.generated_at
+                    )
+                )}
+            </div>
+
+            <div class="story-body">
+                ${articleHtml(
+                    story.body
+                )}
+            </div>
+
+        </article>
+
+    `;
+}
+
+
+function renderHistory(stories) {
+
+    const container =
+        document.getElementById(
+            "history"
+        );
+
+    /*
+     * The first item is the latest bulletin.
+     * Everything after it belongs underneath
+     * Previous Stories.
+     */
+
+    const previous =
+        Array.isArray(stories)
+            ? stories.slice(1)
+            : [];
+
+    if (!previous.length) {
+
+        container.innerHTML = `
+            <div class="empty">
+                This desk has no previous stories yet.
+            </div>
+        `;
+
+        return;
+    }
+
+    container.innerHTML =
+        previous.map(
+            story => {
+
+                return `
+
+                    <article
+                        class="history-story"
+                    >
+
+                        <div
+                            class="history-date"
+                        >
+                            ${escapeHtml(
+                                formatDate(
+                                    story.generated_at
+                                )
+                            )}
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                ${escapeHtml(
+                                    story.title ||
+                                    "Machina Daily Bulletin"
+                                )}
+                            </h3>
+
+                            <div
+                                class="history-body"
+                            >
+                                ${articleHtml(
+                                    story.body
+                                )}
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                `;
+            }
+        ).join("");
+}
+
+
+async function loadDesk() {
+
+    try {
+
+        const response =
+            await fetch(
+                "/daily/" +
+                DESK_ID +
+                "/data"
+            );
+
+        if (!response.ok) {
+
+            throw new Error(
+                "HTTP " +
+                response.status
+            );
+        }
+
+        const data =
+            await response.json();
+
+        const journalist =
+            data.journalist ||
+            {};
+
+        document.getElementById(
+            "name"
+        ).textContent =
+            journalist.journalist ||
+            DISPLAY_NAME;
+
+        document.getElementById(
+            "role"
+        ).textContent =
+            journalist.role ||
+            "Autonomous Vehicles Correspondent";
+
+        document.getElementById(
+            "model"
+        ).textContent =
+            journalist.model ||
+            data.model ||
+            "Local Model";
+
+        document.getElementById(
+            "count"
+        ).textContent =
+            (
+                data.history_count ||
+                0
+            ) +
+            " stories in desk archive";
+
+        if (data.generated_at) {
+
+            document.getElementById(
+                "date"
+            ).textContent =
+                formatDate(
+                    data.generated_at
+                );
+        }
+
+        document.title =
+            DISPLAY_NAME +
+            " — Machina Daily";
+
+        renderLatest(
+            data.latest
+        );
+
+        renderHistory(
+            data.history || []
+        );
+
+    } catch (error) {
+
+        console.error(
+            error
+        );
+
+        document.getElementById(
+            "latest"
+        ).innerHTML = `
+            <div class="error">
+                THIS DESK COULD NOT LOAD.
+                <br><br>
+                The editorial history endpoint
+                could not be reached.
+            </div>
+        `;
+
+        document.getElementById(
+            "history"
+        ).innerHTML = "";
+
+    }
+
+}
+
+
+loadDesk();
+
+</script>
+
+</body>
+</html>
