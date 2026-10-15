@@ -1,0 +1,149 @@
+{
+  "journalist": "Callum Reyes",
+  "role": "Wire Desk",
+  "journalist_id": "callum_reyes",
+  "generated_at": "2026-10-07T23:16:27.074542+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4\"",
+      "title": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4",
+      "url": "https://arxiv.org/abs/2609.30716",
+      "snippet": "When a language model receives two conflicting documents as input, how does it decide which one to prioritize? Does it rely on how the sources are framed or the presentation order of the documents? We evaluated this behavior on Google's pre-trained Gemma 4-e4b model across a targeted behavioral suite (n = 13 items, 784 forward passes in short, single-turn contexts) using a completely ...",
+      "page_text": "[2609.30716] Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4 Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Computation and Language arXiv:2609.30716 (cs) [Submitted on 25 Sep 2026] Title: Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4 Authors: Amanda Fitch View a PDF of the paper titled Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4, by Amanda Fitch View PDF HTML (experimental) Abstract: When a language model receives two conflicting documents as input, how does it decide which one to prioritize? Does it rely on how the sources are framed or the presentation order of the documents? We evaluated this behavior on Google's pre-trained Gemma 4-e4b model across a targeted behavioral suite (n = 13 items, 784 forward passes in short, single-turn contexts) using a completely counterbalanced experimental design. This setup allowed us to mathematically isolate the specific effects of source framing and reading position, while ensuring the model's natural vocabulary biases were canceled out. Across ten test conditions, we discovered the following: 1. Source framing heavily overpowers reading position. When directly competing, the semantic framing of a source (such as presenting it as an official guideline or a fresh update) had a significantly stronger impact on the model's final answer than the presentation order of the document. 2. The model favors the first document it reads, but this bias is highly variable. While the model consistently demonstrated a primacy effect (preferring the first document presented), the actual strength of this bias fluctuated by at least a factor of 5 based solely on the surface wording. 3. Overall structural repetition, not short copy-cues, drives positional bias. The model's preference for the first document is not a mechanical reaction to short, repetitive trigger phrases, such as &#34;is [Answer]&#34;. However, the primacy effect does increase significantly when the two competing documents are structurally identical, using word-for-word verbatim templates. Introducing variation in the overall wording between the two sources reduces this positional bias. Comments: 36 pages, 1 figure, evaluation dataset and logs released Subjects: Computation and Language (cs.CL) ; Artificial Intelligence (cs.AI) Cite as: arXiv:2609.30716 [cs.CL] (or arXiv:2609.30716v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2609.30716 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Amanda Fitch [ view email ] [v1] Fri, 25 Sep 2026 02:43:40 UTC (94 KB) Full-text links: Access Paper: View a PDF of the paper titled Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4, by Amanda Fitch View PDF HTML (experimental) TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2026-09 Change to browse by: cs cs.AI References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4828
+    },
+    {
+      "query": "\"Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4\"",
+      "title": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4",
+      "url": "https://arxiv.deeppaper.ai/papers/2609.30716v1",
+      "snippet": "Abstract When a language model receives two conflicting documents as input, how does it decide which one to prioritize? Does it rely on how the sources are framed or the presentation order of the documents? We evaluated this behavior on Google's pre-trained Gemma 4-e4b model across a targeted behavioral suite (n = 13 items, 784 forward passes in short, single-turn contexts) using a completely ...",
+      "page_text": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4 | Arxiv - DeepPaper Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4 PDF DeepRead Key Contributions Identified that semantic framing dominates positional bias in LLMs, quantified the variability of the primacy effect, and demonstrated that structural repetition is the primary driver of positional bias. Abstract When a language model receives two conflicting documents as input, how does it decide which one to prioritize? Does it rely on how the sources are framed or the presentation order of the documents? We evaluated this behavior on Google's pre-trained Gemma 4-e4b model across a targeted behavioral suite (n = 13 items, 784 forward passes in short, single-turn contexts) using a completely counterbalanced experimental design. This setup allowed us to mathematically isolate the specific effects of source framing and reading position, while ensuring the model's natural vocabulary biases were canceled out. Across ten test conditions, we discovered the following: 1. Source framing heavily overpowers reading position. When directly competing, the semantic framing of a source (such as presenting it as an official guideline or a fresh update) had a significantly stronger impact on the model's final answer than the presentation order of the document. 2. The model favors the first document it reads, but this bias is highly variable. While the model consistently demonstrated a primacy effect (preferring the first document presented), the actual strength of this bias fluctuated by at least a factor of 5 based solely on the surface wording. 3. Overall structural repetition, not short copy-cues, drives positional bias. The model's preference for the first document is not a mechanical reaction to short, repetitive trigger phrases, such as \"is [Answer]\". However, the primacy effect does increase significantly when the two competing documents are structurally identical, using word-for-word verbatim templates. Introducing variation in the overall wording between the two sources reduces this positional bias. Summary This study evaluates how Gemma 4 handles conflicting information, revealing that semantic framing significantly outweighs positional bias, though structural repetition exacerbates the primacy effect. Subjects cs.CL cs.AI arXiv 2609.30716v1 Paper Type Benchmark Method Domain LLM RAG Behavioral Analysis Authors Amanda Fitch Submitted Sep 25, 2026 Similar Papers 0 papers View More",
+      "page_text_length": 2498
+    },
+    {
+      "query": "\"Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4\"",
+      "title": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4",
+      "url": "https://arxivsignals.io/papers/2609.30716",
+      "snippet": "An evaluation of Gemma 4 showing that source framing heavily overpowers reading position bias in language models.",
+      "page_text": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4 · ArXivSignals ← Back 2609.30716 2026-09-28 arXiv ↗ Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4 Amanda Fitch cs.AI cs.CL analysis large-language-models model-evaluation An evaluation of Gemma 4 showing that source framing heavily overpowers reading position bias in language models. 58 /100 Research signal Empirical study showing source framing dominates position bias in Gemma. A 0-100 estimate of research signal, scored from the paper&#x27;s own claims against a fixed rubric. It ranks this site; it is not a measure of correctness or importance. Cite & share Copy BibTeX Copy citation Copy link arXiv ↗ @misc{fitch2026words, title = {Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4}, author = {Amanda Fitch}, year = {2026}, eprint = {2609.30716}, archivePrefix = {arXiv}, url = {https://arxiv.org/abs/2609.30716} } Abstract When a language model receives two conflicting documents as input, how does it decide which one to prioritize? Does it rely on how the sources are framed or the presentation order of the documents? We evaluated this behavior on Google&#x27;s pre-trained Gemma 4-e4b model across a targeted behavioral suite (n = 13 items, 784 forward passes in short, single-turn contexts) using a completely counterbalanced experimental design. This setup allowed us to mathematically isolate the specific effects of source framing and reading position, while ensuring the model&#x27;s natural vocabulary biases were canceled out. Across ten test conditions, we discovered the following: 1. Source framing heavily overpowers reading position. When directly competing, the semantic framing of a source (such as presenting it as an official guideline or a fresh update) had a significantly stronger impact on the model&#x27;s final answer than the presentation order of the document. 2. The model favors the first document it reads, but this bias is highly variable. While the model consistently demonstrated a primacy effect (preferring the first document presented), the actual strength of this bias fluctuated by at least a factor of 5 based solely on the surface wording. 3. Overall structural repetition, not short copy-cues, drives positional bias. The model&#x27;s preference for the first document is not a mechanical reaction to short, repetitive trigger phrases, such as \"is [Answer]\". However, the primacy effect does increase significantly when the two competing documents are structurally identical, using word-for-word verbatim templates. Introducing variation in the overall wording between the two sources reduces this positional bias. Related papers ⚛ by meaning 2407.01100 2024-07-02 82 /100 new-method Eliminating Position Bias of Language Models: A Mechanistic Approach A training-free method, PINE, that eliminates position bias in language models using bidirectional attention. fairness-and-bias large-language-models mechanistic-interpretability retrieval-augmented-generation ⧉ link ⧉ title ⧉ summary arXiv ↗ 2506.23743 2025-06-30 65 /100 analysis Positional Bias in Binary Question Answering: How Uncertainty Shapes Model Preferences Analyzes how positional bias in LLMs increases exponentially as answer uncertainty rises across multiple benchmarks. fairness-and-bias large-language-models model-evaluation question-answering ⧉ link ⧉ title ⧉ summary arXiv ↗ 2609.37616 2026-09-30 73 /100 analysis Authority Bias in Language Models: Source Deference and User Agreement Are Not Interchangeable Language models show distinct authority bias and source deference mechanisms separate from user agreement sycophancy. ai-safety large-language-models mechanistic-interpretability ⧉ link ⧉ title ⧉ summary arXiv ↗ 2410.22517 2024-10-30 65 /100 new-method Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models Introduces ATLAS, a method to localize and mitigate bias in LLMs by scaling attention in specific layers. fairness-and-bias large-language-models mechanistic-interpretability ⧉ link ⧉ title ⧉ summary arXiv ↗ 2402.18838 2024-02-29 70 /100 analysis When does word order matter and when doesn&#x27;t it? Explains language models&#x27; insensitivity to word order through linguistic redundancy and mutual information. large-language-models model-evaluation natural-language-processing ⧉ link ⧉ title ⧉ summary arXiv ↗ 2507.13949 2025-07-18 55 /100 new-method Exploiting Primacy Effect To Improve Large Language Models Improves MCQA performance by reordering options to exploit the primacy effect in LLMs. fairness-and-bias large-language-models model-evaluation question-answering ⧉ link ⧉ title ⧉ summary arXiv ↗",
+      "page_text_length": 4674
+    },
+    {
+      "query": "\"Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4\"",
+      "title": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4",
+      "url": "https://www.catalyzex.com/paper/words-speak-louder-than-order-a-behavioral",
+      "snippet": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4: Paper and Code. When a language model receives two conflicting documents as input, how does it decide which one to prioritize? Does it rely on how the sources are framed or the presentation order of the documents? We evaluated this behavior on Google's pre-trained Gemma 4-e4b model across a targeted behavioral suite (n = 13 ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4\"",
+      "title": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4",
+      "url": "https://www.aimodels.fyi/papers/arxiv/words-speak-louder-than-order-behavioral-evaluation",
+      "snippet": "Gemma 4's source-framing effect outweighs document order Gemma 4-e4b favored a source's semantic framing over where its document appeared in a controlled test of conflicting recommendations. Across 13 English project-management word pairs and 784 forward passes, the study found that an official or recent label could outweigh the model's consistent tendency to favor the first document it ...",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "65fd845c0b2193585e5693b0e2af8612fddbe036eb3dd13bb056627b0629dd24",
+      "title": "Words Speak Louder Than Order: A Behavioral Evaluation of Gemma 4",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30716",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 12,
+          "matched_terms": [
+            "ai",
+            "model",
+            "language model",
+            "demo"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "language model",
+            "demo"
+          ]
+        },
+        "beta": {
+          "score": 2,
+          "matched_terms": [
+            "valuation",
+            "order"
+          ],
+          "market_signals": [
+            "valuation",
+            "order"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "4",
+        "2609",
+        "13",
+        "784",
+        "1",
+        "2",
+        "5",
+        "3"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "\"Google's Gemma 4 language model prioritizes semantic framing over document order in conflicting scenarios, according to a behavioral evaluation published on ArXiv. The study, conducted by Amanda Fitch, involved 13 English project-management word pairs and 784 forward passes. The research found that an official or recent label could outweigh the model's consistent tendency to favor the first document it encounters.\"\n\n\"Next, Fitch plans to investigate the impact of structural repetition on positional bias in Gemma 4.\"",
+    "source_record_ids": [
+      "65fd845c0b2193585e5693b0e2af8612fddbe036eb3dd13bb056627b0629dd24"
+    ],
+    "format": "wire_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "journalist": "Callum Reyes",
+  "role": "Wire Desk",
+  "journalist_id": "callum_reyes",
+  "generated_at": "2026-10-07T13:14:42.838171+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Sixth powerful attack submarine departs Barrow-in-Furness for sea trials\"",
+      "title": "Sixth powerful attack submarine departs Barrow-in-Furness for sea trials",
+      "url": "https://www.gov.uk/government/news/sixth-powerful-attack-submarine-departs-barrow-in-furness-for-sea-trials",
+      "snippet": "UK and Euro-Atlantic security will soon be boosted, as the Royal Navy's sixth powerful attack submarine departs from Barrow-in-Furness."
+    },
+    {
+      "query": "\"Sixth powerful attack submarine departs Barrow-in-Furness for sea trials\"",
+      "title": "Sixth powerful attack submarine departs Barrow-in-Furness for sea trials",
+      "url": "https://caithness-business.co.uk/article/33353",
+      "snippet": "UK and Euro-Atlantic security will soon be boosted, as the Royal Navy's sixth powerful attack submarine departs from Barrow-in-Furness. Latest Astute Class submarine, HMS Agamemnon has sailed from the BAE Systems shipyard in Barrow-in-Furness."
+    },
+    {
+      "query": "\"Sixth powerful attack submarine departs Barrow-in-Furness for sea trials\"",
+      "title": "Sixth powerful attack submarine departs Barrow-in-Furness for sea trials",
+      "url": "https://www.europesays.com/britain/131872/",
+      "snippet": "Latest Astute Class submarine, HMS Agamemnon has sailed from the BAE Systems shipyard in Barrow-in-Furness. She will now undergo sea trials - a major step towards delivering the highly capable attack submarine to bolster security for the UK and the Euro-Atlantic. The UK's submarine industrial ..."
+    },
+    {
+      "query": "\"Sixth powerful attack submarine departs Barrow-in-Furness for sea trials\" latest",
+      "title": "HMS Agamemnon leaves Barrow for sea trials",
+      "url": "https://www.timeless-secrets.com/2026/09/hms-agamemnon-leaves-barrow-for-sea.html",
+      "snippet": "Sep 29, 2026 · HMS Agamemnon left Barrow on 25 September 2026 to begin sea trials, the stage at which a new submarine's propulsion, weapons, sensors and safety systems are tested at sea after construction and fitting out."
+    },
+    {
+      "query": "\"Sixth powerful attack submarine departs Barrow-in-Furness for sea trials\" latest",
+      "title": "HMS Agamemnon Departing Barrow-in-Furness for Crucial Sea ...",
+      "url": "https://britainsnews.co.uk/article/sixth-powerful-attack-submarine-departs-barrow-in-furness-for-sea-trials",
+      "snippet": "Sep 25, 2026 · The Royal Navy's latest attack submarine, HMS Agamemnon, has departed from the BAE Systems shipyard in Barrow-in-Furness. This marks a significant step in enhancing UK and Euro-Atlantic security as the submarine begins its sea trials."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "399a7d6d0bb6f4fd2a6212a62dc45f9caaebd96471cf403cba89fb7dfe9d6ce6",
+      "title": "Sixth powerful attack submarine departs Barrow-in-Furness for sea trials",
+      "source": "UK Ministry of Defence",
+      "url": "https://www.gov.uk/government/news/sixth-powerful-attack-submarine-departs-barrow-in-furness-for-sea-trials",
+      "date": "2026-09-25T11:23:17+00:00",
+      "source_type": "government",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 0,
+          "matched_terms": [],
+          "technical_signals": []
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "arr"
+          ],
+          "market_signals": [
+            "arr"
+          ]
+        },
+        "gamma": {
+          "score": 11,
+          "matched_terms": [
+            "navy",
+            "security",
+            "eu"
+          ],
+          "strategic_signals": [
+            "navy",
+            "security",
+            "eu",
+            "government"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "The sixth powerful attack submarine, HMS Agamemnon, departed Barrow-in-Furness for sea trials on September 25, 2026. The submarine will undergo testing of its propulsion, weapons, sensors, and safety systems at sea, marking a significant step towards its delivery to enhance UK and Euro-Atlantic security.",
+    "source_record_ids": [
+      "399a7d6d0bb6f4fd2a6212a62dc45f9caaebd96471cf403cba89fb7dfe9d6ce6"
+    ],
+    "format": "wire_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

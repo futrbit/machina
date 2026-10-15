@@ -1,0 +1,111 @@
+{
+  "journalist": "Callum Reyes",
+  "role": "Wire Desk",
+  "journalist_id": "callum_reyes",
+  "generated_at": "2026-10-07T16:56:56.821382+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Anduril Demonstrates Battle Manager at Valiant Shield 2026\"",
+      "title": "Anduril Demonstrates Battle Manager at Valiant Shield 2026",
+      "url": "https://www.anduril.com/news/anduril-demonstrates-battle-manager-at-valiant-shield-2026",
+      "snippet": "Aug 21, 2026 · That battle management technology was on full display at Valiant Shield 2026 (VS26), where the Anduril team demonstrated a prototyped capability in a test environment less than six months after award."
+    },
+    {
+      "query": "\"Anduril Demonstrates Battle Manager at Valiant Shield 2026\"",
+      "title": "Anduril Demonstrates Battle Manager at Valiant Shield 2026",
+      "url": "https://www.linkedin.com/pulse/anduril-demonstrates-battle-manager-valiant-shield-2026-anduril-xf5rc/",
+      "snippet": "Aug 21, 2026 · That battle management technology was on full display at Valiant Shield 2026 (VS26), where the Anduril team demonstrated a prototyped capability in a test environment less than six..."
+    },
+    {
+      "query": "\"Anduril Demonstrates Battle Manager at Valiant Shield 2026\"",
+      "title": "Anduril Demonstrates Battle Manager at Valiant Shield 2026",
+      "url": "https://www.linkedin.com/posts/defence-leaders_anduril-demonstrates-missile-defense-battle-activity-7497559186894151680-GWZ4",
+      "snippet": "Anduril Industries Battle Manager Demonstrated at Valiant Shield 2026 Anduril has demonstrated a prototype battle-management system designed to coordinate U.S. air and missile..."
+    },
+    {
+      "query": "\"Anduril Demonstrates Battle Manager at Valiant Shield 2026\" official announcement",
+      "title": "Newsroom | Anduril",
+      "url": "https://www.anduril.com/news",
+      "snippet": "Sep 9, 2026 · The latest news, announcements, and insights from Anduril Industries."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "da4510cc36f08fa881cd658af19d4d2e507d0f4626e56d1b269a2eb1c22f6f85",
+      "title": "Anduril Demonstrates Battle Manager at Valiant Shield 2026",
+      "source": "Anduril",
+      "url": "https://www.anduril.com/news/anduril-demonstrates-battle-manager-at-valiant-shield-2026",
+      "date": "2026-08-21T00:00:00+00:00",
+      "source_type": "unknown",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 1,
+          "matched_terms": [
+            "demo"
+          ],
+          "technical_signals": [
+            "demo"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 0,
+          "matched_terms": [],
+          "strategic_signals": [
+            "unknown"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2026"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Anduril Industries demonstrated a prototype battle management system at Valiant Shield 2026, a military exercise, on August 21, 2026. Further details on the system's capabilities and deployment are expected in upcoming announcements.",
+    "source_record_ids": [
+      "da4510cc36f08fa881cd658af19d4d2e507d0f4626e56d1b269a2eb1c22f6f85"
+    ],
+    "format": "wire_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

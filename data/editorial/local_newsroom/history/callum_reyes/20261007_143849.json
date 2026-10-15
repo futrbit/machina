@@ -1,0 +1,127 @@
+{
+  "journalist": "Callum Reyes",
+  "role": "Wire Desk",
+  "journalist_id": "callum_reyes",
+  "generated_at": "2026-10-07T14:38:49.929701+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Testing the Utility of Using Large Language Models to Create Personalized Networks From Therapy Session Transcripts: A Proof of Concept Study\"",
+      "title": "Testing the Utility of Using Large Language Models to Create ...",
+      "url": "https://arxiv.org/pdf/2512.05836v2",
+      "snippet": "en treatment personalization is leveraging large language models (LLMs). In this stu. y, we developed an end-to-end pipeline for automatically generatin. client networks to support case co. ipts (N = 6). In the first stage of the . ipeline, we identified clinically relevant processes ("
+    },
+    {
+      "query": "\"Testing the Utility of Using Large Language Models to Create Personalized Networks From Therapy Session Transcripts: A Proof of Concept Study\"",
+      "title": "Testing the Utility of Using Large Language Models to Create ...",
+      "url": "https://sciety.org/articles/activity/10.31234/osf.io/n8a6r_v1",
+      "snippet": "Recent advances in psychotherapy have focused on treatment personalization, such as by selecting treatment modules based on individual networks. However, estimating personalized networks typically requires intensive longitudinal data, which is not always feasible to collect."
+    },
+    {
+      "query": "\"Testing the Utility of Using Large Language Models to Create Personalized Networks From Therapy Session Transcripts: A Proof of Concept Study\" latest",
+      "title": "Testing the Utility of Using Large Language Models to Create ...",
+      "url": "https://aipapers.ai/paper/27029844",
+      "snippet": "Testing the Utility of Using Large Language Models to Create Personalized Networks From Therapy Session Transcripts: A Proof of Concept Study"
+    },
+    {
+      "query": "\"Testing the Utility of Using Large Language Models to Create Personalized Networks From Therapy Session Transcripts: A Proof of Concept Study\" official announcement",
+      "title": "Global Bank Ethiopia S.C. Official Vacancy Announcement",
+      "url": "https://ethiopianjobs.et/global-bank-ethiopia-s-c-official-vacancy-announcement/",
+      "snippet": "2 days ago · Global Bank Ethiopia S.C. Official Vacancy Announcement About Global Bank Ethiopia S.C. & Banking Career Opportunities: At Global Bank Ethiopia, we believe in bringing innovative ways that create accessibility of our service and quality customer service that helps aid our customers towards true success."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "0a2927842a324f78d898fc72d29413ff084d0144a910fdec18941327af7fbc0a",
+      "title": "Testing the Utility of Using Large Language Models to Create Personalized Networks From Therapy Session Transcripts: A Proof of Concept Study",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2512.05836",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 12,
+          "matched_terms": [
+            "model",
+            "models",
+            "llm",
+            "language model"
+          ],
+          "technical_signals": [
+            "model",
+            "models",
+            "llm",
+            "language model"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "valuation"
+          ],
+          "market_signals": [
+            "valuation"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2512",
+        "8,028",
+        "77",
+        "6"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Researchers test utility of large language models for personalized therapy networks (2026-09-28)\n\nA study published on arXiv proposes an end-to-end pipeline for generating client networks from therapy session transcripts using large language models. The research aims to support case collaborations and treatment personalization. Further details on the study's implementation and results are not provided.",
+    "source_record_ids": [
+      "0a2927842a324f78d898fc72d29413ff084d0144a910fdec18941327af7fbc0a"
+    ],
+    "format": "wire_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

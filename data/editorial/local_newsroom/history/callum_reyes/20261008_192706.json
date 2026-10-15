@@ -1,0 +1,97 @@
+{
+  "journalist": "Callum Reyes",
+  "role": "Wire Desk",
+  "journalist_id": "callum_reyes",
+  "generated_at": "2026-10-08T19:27:06.909427+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"YFQ-44A Completes Second Exercise with the Experimental Operations Unit\"",
+      "title": "YFQ-44A Completes Second Exercise with the Experimental Operations Unit",
+      "url": "https://www.anduril.com/news/yfq-44a-completes-second-exercise-with-the-experimental-operations-unit",
+      "snippet": "The U.S. Air Force's Experimental Operations Unit (EOU) is focused on putting operational Air Force personnel in the loop early, enabling the experimentation with concepts of employment, mission planning, logistics, and sustainment required to accelerate operational fielding of Collaborative Combat Aircraft. Four months ago, EOU operators launched, recovered, and sustained YFQ-44A for the ...",
+      "page_text": "YFQ-44A Completes Second Exercise with the Experimental Operations Unit | Anduril",
+      "page_text_length": 81
+    },
+    {
+      "query": "\"YFQ-44A Completes Second Exercise with the Experimental Operations Unit\"",
+      "title": "Newsroom | Anduril",
+      "url": "https://www.anduril.com/news",
+      "snippet": "Hermeus Selects Anduril to Bring Mission Autonomy to High-Mach Flight Anduril to Deliver Hardware and Shelter Integration for Army's TITAN Program Anduril Demonstrates Battle Manager at Valiant Shield 2026 YFQ-44A Completes Second Exercise with the Experimental Operations Unit",
+      "page_text": "Newsroom | Anduril",
+      "page_text_length": 18
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "05855deb8b654e3186d3a8ad79c9ceb931c736a358ef5457aa32f9b08d1fb639",
+      "title": "YFQ-44A Completes Second Exercise with the Experimental Operations Unit",
+      "source": "Anduril",
+      "url": "https://www.anduril.com/news/yfq-44a-completes-second-exercise-with-the-experimental-operations-unit",
+      "date": "2026-08-18T00:00:00+00:00",
+      "source_type": "unknown",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 0,
+          "matched_terms": [],
+          "technical_signals": []
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 0,
+          "matched_terms": [],
+          "strategic_signals": [
+            "unknown"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "YFQ-44A Completes Second Exercise with USAF Experimental Operations Unit\n\nAnduril announced Aug. 18 that the YFQ-44A completed its second exercise with the U.S. Air Force’s Experimental Operations Unit. The unit’s operators previously launched, recovered and sustained the aircraft during an exercise four months earlier. The exercises put operational Air Force personnel into concepts of employment",
+    "source_record_ids": [
+      "05855deb8b654e3186d3a8ad79c9ceb931c736a358ef5457aa32f9b08d1fb639"
+    ],
+    "format": "wire_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}
