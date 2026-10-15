@@ -1,0 +1,114 @@
+{
+  "journalist": "Ingrid Sørensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-07T16:32:54.633848+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Guidance: Unlocking Space One Stop Shop for Information\" legislation policy",
+      "title": "Unlocking Space One Stop Shop for Information - GOV.UK",
+      "url": "https://www.gov.uk/government/publications/unlocking-space-one-stop-shop-for-information/unlocking-space-one-stop-shop-for-information",
+      "snippet": "Sep 28, 2026 · It covers essential topics such as ESA’s industrial policy, current activity and programmes, basics of ESA procurement and how to navigate through ESA STAR."
+    },
+    {
+      "query": "\"Guidance: Unlocking Space One Stop Shop for Information\" legislation policy",
+      "title": "Unlocking Space One Stop Shop for Information - GOV.UK",
+      "url": "https://www.gov.uk/government/publications/unlocking-space-one-stop-shop-for-information",
+      "snippet": "May 12, 2025 · Content designed to support organisations already working, or aiming to work, across civil and defence space with relevant information about a range of topics. This is a collaborative initiative..."
+    },
+    {
+      "query": "\"Guidance: Unlocking Space One Stop Shop for Information\" legislation policy",
+      "title": "Brexit guidance change explorer - govdiff.njk.onl",
+      "url": "https://govdiff.njk.onl/update/2025-05-12T11:00:00+01:00/www.gov.uk/government/publications/unlocking-space-one-stop-shop-for-information",
+      "snippet": "May 12, 2025 · The Unlocking Space One Stop Shop for Information is part of the Unlocking Space for Government – Defence programme, designed to support organisations already working, or aiming to work, across civil and defence space with relevant information about a range of topics, such as security clearance, commercial information, and regulations."
+    },
+    {
+      "query": "\"Guidance: Unlocking Space One Stop Shop for Information\" regulator official",
+      "title": "Brexit guidance change explorer - govukdiff.njk.onl",
+      "url": "https://govukdiff.njk.onl/update/2025-12-11T17:18:00+00:00/www.gov.uk/government/publications/unlocking-space-one-stop-shop-for-information",
+      "snippet": "Dec 11, 2025 · The Unlocking Space One Stop Shop for Information is part of the Unlocking Space for Government – Defence programme, designed to support organisations already working, or aiming to work, across civil and defence space with relevant information about a range of topics, such as security clearance, commercial information, and regulations."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "595a47cdc8ba2c664a882dc462428137ff1266fcc227b2d22be0b96da891b64a",
+      "title": "Guidance: Unlocking Space One Stop Shop for Information",
+      "source": "Dstl",
+      "url": "https://www.gov.uk/government/publications/unlocking-space-one-stop-shop-for-information",
+      "date": "2026-09-28T13:31:50+00:00",
+      "source_type": "government",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 2,
+          "matched_terms": [
+            "ai",
+            "range"
+          ],
+          "technical_signals": [
+            "ai",
+            "range"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 9,
+          "matched_terms": [
+            "defence"
+          ],
+          "strategic_signals": [
+            "defence",
+            "government"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Guidance released by Dstl on September 28, 2026, provides essential information for organizations working or aiming to work across civil and defence space. The guidance covers topics such as ESA’s industrial policy, current activity, and programs, as well as basics of ESA procurement and navigation through ESA STAR. This collaborative initiative is part of the Unlocking Space for Government – Defence programme. No timeline for implementation is announced.",
+    "source_record_ids": [
+      "595a47cdc8ba2c664a882dc462428137ff1266fcc227b2d22be0b96da891b64a"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

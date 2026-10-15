@@ -1,0 +1,120 @@
+{
+  "journalist": "Ingrid Sørensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-07T16:58:51.329432+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Official Statistics: Officer Cadet Survey: financial year 2025/26\" government regulation",
+      "title": "Officer Cadet Survey: financial year 2025/26 - GOV.UK",
+      "url": "https://www.gov.uk/government/statistics/announcements/officer-cadet-survey-financial-year-202526",
+      "snippet": "Aug 28, 2025 · Summary statistics on officer cadets’ experience of training, facilities, food, support, fairness of treatment and hopes for the future."
+    },
+    {
+      "query": "\"Official Statistics: Officer Cadet Survey: financial year 2025/26\" government regulation",
+      "title": "A new approach to ensure regulators and regulation support ...",
+      "url": "https://www.gov.uk/government/publications/a-new-approach-to-ensure-regulators-and-regulation-support-growth",
+      "snippet": "Mar 17, 2025 · A new approach to ensure regulators and regulation support growth An action plan setting out the government's approach to regulation and regulators From: HM Treasury and Department for Business ..."
+    },
+    {
+      "query": "\"Official Statistics: Officer Cadet Survey: financial year 2025/26\" government regulation",
+      "title": "Trump gathers with AI leaders, floats 'self-regulation' as ...",
+      "url": "https://finance.yahoo.com/technology/article/trump-gathers-with-ai-leaders-floats-self-regulation-as-the-way-to-deal-with-the-technologys-dangers-193745293.html?fr=sycsrp_catchall",
+      "snippet": "Sep 29, 2026 · President Trump gathered top AI leaders in Washington on Tuesday and doubled down on his opposition to any government intervention, suggesting that \"self-regulation\" may be the answer amid growing ..."
+    },
+    {
+      "query": "\"Official Statistics: Officer Cadet Survey: financial year 2025/26\" legislation policy",
+      "title": "Governor Newsom signs legislation creating non-UPF label ...",
+      "url": "https://www.gov.ca.gov/2026/09/28/governor-newsom-signs-legislation-creating-non-upf-label-other-health-bills-advancing-californias-nation-leading-healthcare-strategy/",
+      "snippet": "Sep 28, 2026 · What you need to know: Governor Newsom today announced he signed legislation expanding California’s nation-leading holistic healthcare framework, including laws creating a first-in-the-nation label for non-ultraprocessed foods, new requirements to display sugar content on menus, and other bills to ..."
+    },
+    {
+      "query": "\"Official Statistics: Officer Cadet Survey: financial year 2025/26\" legislation policy",
+      "title": "Legislation - DFSA",
+      "url": "https://www.dfsa.ae/laws-rules/legal-resources/legislation",
+      "snippet": "Legislation & Guidance Legislation DFSA Administered Laws Primary Legislation which applies in the DIFC, other than Federal or Dubai Laws, consists of DIFC Laws administered by either the DFSA or the DIFCA (DIFCA administered Laws). Such Laws are enacted by the Ruler of Dubai and apply only in the DIFC."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "1e74808de01f2034ab7e05e811d6969f55407c9d7b771a9cb449a40199786745",
+      "title": "Official Statistics: Officer Cadet Survey: financial year 2025/26",
+      "source": "UK Ministry of Defence",
+      "url": "https://www.gov.uk/government/statistics/announcements/officer-cadet-survey-financial-year-202526",
+      "date": "2026-09-28T12:26:50+00:00",
+      "source_type": "government",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 2,
+          "matched_terms": [
+            "ai",
+            "training"
+          ],
+          "technical_signals": [
+            "ai",
+            "training"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 8,
+          "matched_terms": [],
+          "strategic_signals": [
+            "government"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2025",
+        "26"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "The UK Ministry of Defence has published statistics on officer cadets' training experiences for the financial year 2025/26 (September 28, 2026). No specific group is identified as affected by this data release. No timeline for further action is announced.",
+    "source_record_ids": [
+      "1e74808de01f2034ab7e05e811d6969f55407c9d7b771a9cb449a40199786745"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

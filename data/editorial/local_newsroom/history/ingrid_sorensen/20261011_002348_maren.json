@@ -1,0 +1,98 @@
+{
+  "journalist": "Ingrid SÃ¸rensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-11T00:14:37.806887+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance\" government regulation",
+      "title": "AuraLuxMuse - Project Page",
+      "url": "https://auraluxmuse.github.io/",
+      "snippet": "Anonymous SIGGRAPH ASIA submission AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance",
+      "page_text": "Academic Project Page Template Vue",
+      "page_text_length": 34
+    },
+    {
+      "query": "\"AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance\" government regulation",
+      "title": "Fugu-MT 論文翻訳 (概要): AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic ...",
+      "url": "https://fugumt.com/fugumt/paper_check/2610.11792v1",
+      "snippet": "ステータス: 情報取得中 システム内更新日: 2026-10-09 18:25:20.745537 Title: AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance Title（参考訳）: AuraLuxMuse:音楽とエキスパートによる美的ステージ照明設計のための適応的融合モデリング",
+      "page_text": "Fugu-MT 論文翻訳(概要): AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance 論文の概要: AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance arxiv url: http://arxiv.org/abs/2610.11792v1 Date: Thu, 08 Oct 2026 12:06:03 GMT ステータス: 翻訳完了 システム内更新日: 2026-10-10 02:36:54.001348 Title: AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance Title（参考訳）: AuraLuxMuse:音楽とエキスパートによる美的ステージ照明設計のための適応的融合モデリング Abstract要約: AuraLuxMuseは、自動的な美的ステージ照明設計のためのシステムである。 音楽とプロのキューシーケンスを共有検索空間にエンコードする。 キューイベント密度を推定し、選択したフィクスチャコマンドを目的地ステージに再ターゲットする。 参考スコア（独自算出の注目度）: 20.841384373371465 License: http://creativecommons.org/licenses/by/4.0/ Abstract: We present AuraLuxMuse, a novel system for automated aesthetic stage lighting design that integrates expert knowledge, representation learning, and preference-adaptive modeling. Lighting design in live performance settings requires the seamless translation of musical features into dynamic lighting behaviors. However, traditional workflows remain time-consuming, labor-intensive, and difficult to transfer. AuraLuxMuse encodes music and professional cue sequences into a shared retrieval space, estimates cue-event density, and retargets selected fixture commands to the destination stage. It assists pre-production authoring by returning editable cues rather than replacing the designer with an unconstrained generator. At the heart of AuraLuxMuse are two key modules: Lighting-Aligned Music Pretraining (LAMP), which performs contrastive learning between audio and lighting cues for alignment, and Preference-Adaptive Mixture of Experts (PAMoE), which conditions preference-aware cue retrieval and adaptation on designers&#x27; intent through a gated ensemble of style-specific expert networks. To support training and evaluation, we introduce Musilux, the first dataset of paired musical audio and professional lighting cue sequences under diverse performance scenarios. We evaluate AuraLuxMuse across both virtual simulation environments and professional-grade laboratories. Experimental results, including objective and subjective evaluation, demonstrate that AuraLuxMuse retrieves and adapts stage-lighting cues that are visually cohesive, semantically meaningful, and artistically expressive, showing its potential for AI-assisted aesthetic stage design. Abstract（参考訳）: AuraLuxMuseは、専門家の知識、表現学習、嗜好適応モデリングを統合した、自動麻酔ステージ照明設計のための新しいシステムである。 ライブパフォーマンス環境での照明設計では、音楽的特徴を動的照明動作にシームレスに変換する必要がある。 しかし、従来のワークフローは時間がかかり、労働集約的であり、移行が困難である。 AuraLuxMuseは、音楽とプロのキューシーケンスを共有検索空間にエンコードし、キューイベント密度を推定し、選択したフィクスチャコマンドを目的地ステージに再ターゲットする。 これは、デザイナを制約のないジェネレータに置き換えるのではなく、編集可能なキューを返すことで、プレプロダクションオーサリングを支援する。 AuraLuxMuseの中心となる2つの重要なモジュールは、アライメントのためのオーディオとライティングキューのコントラスト学習を行うLighting-Aligned Music Pretraining (LAMP)と、スタイル固有の専門家ネットワークのゲートアンサンブルを通じて、設計者の意図に対する好みに合ったキュー検索と適応を条件としたPreference-Adaptive Mixture of Experts (PAMoE)である。 トレーニングと評価を支援するため、様々なパフォーマンスシナリオ下で、ペア音楽オーディオとプロの照明キューシーケンスの最初のデータセットであるMusiluxを紹介した。 我々はAuraLuxMuseを仮想シミュレーション環境と専門的な実験室の両方で評価する。 客観的および主観的評価を含む実験結果は、AuraLuxMuseが視覚的に結束し、意味的に意味があり、芸術的に表現的なステージライトの手がかりを回収し、適応していることを示し、AIによる美的ステージデザインの可能性を示している。 関連論文リスト Stage Light is Sequence$^2$: Multi-Light Control via Imitation Learning [6.314493336863715] SeqLightは階層的なディープラーニングフレームワークで、音楽をHue-Saturation-Value (HSV)空間にマッピングする。 提案手法は,まずエンド・ツー・エンドのプライマリ・ライト・モデルであるSkipBARTをカスタマイズし,フレームごとのフル光色分布を予測する。 光分解モジュールは、混合光データのみを使用して、様々な場所固有の照明構成で訓練することができる。 論文 参考訳（メタデータ） (2026-05-05T11:41:53Z) UniLumos: Fast and Unified Image and Video Relighting with Physics-Plausible Feedback [31.03901228901908] 画像とビデオの両方に統一されたリライトフレームワークUniLumosを提案する。 我々は、照明効果をシーン構造と明確に一致させ、物理的妥当性を高める。 実験により、UniLumosは物理的な一貫性を大幅に改善して最先端のリライトを実現している。 論文 参考訳（メタデータ） (2025-11-03T15:41:41Z) Automatic Stage Lighting Control: Is it a Rule-Driven Process or Generative Task? [13.694225020834745] 本稿では、経験豊富な照明技術者であるSkip-BARTから学ぶエンドツーエンドのソリューションを提案する。 提案手法では,BARTモデルを用いて音声を入力とし,光色と値(強度)を出力として生成し,新しいスキップ接続機構を組み込む。 定量的解析と人的評価の両面から,Skip-BARTが従来のルールベース手法より優れていることを示す。 論文 参考訳（メタデータ） (2025-06-02T09:42:36Z) Light as Deception: GPT-driven Natural Relighting Against Vision-Language Pre-training Models [56.84206059390887] textbfLightDは、視覚・言語事前学習モデルのための自然な逆転サンプルを生成する新しいフレームワークである。 LightDは、シーンセマンティクスとの摂動を確実にしながら、最適化空間を拡張します。 論文 参考訳（メタデータ） (2025-05-30T05:30:02Z) Stylus: Repurposing Stable Diffusion for Training-Free Music Style Transfer on Mel-Spectrograms [16.911850542311754] Stylusは、メル・スペクトログラム領域における音楽スタイルの転送のためのトレーニング不要のフレームワークである。 ソースクエリを保存しながらスタイルキー値の機能を注入することで、自己注意を操作する。 コンテンツ保存率は34.1%、知覚品質は25.7%向上している。 論文 参考訳（メタデータ） (2024-11-24T16:53:34Z) Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping [55.98643055756135] 初歩的なスケッチのWebページプロトタイプへの変換を自動化する上で,最先端のビジョン言語モデル(VLM)を評価するベンチマークであるSketch2Codeを紹介した。 我々は、既存のVLMではSketch2Codeが困難であることを示す10の商用およびオープンソースモデルを分析した。 UI/UXの専門家によるユーザ調査では、受動的フィードバックの受信よりも、積極的に質問を行うのがかなり好まれている。 論文 参考訳（メタデータ） (2024-10-21T17:39:49Z) UniVoxel: Fast Inverse Rendering by Unified Voxelization of Scene Representation [66.95976870627064] We design a Unified Voxelization framework for explicit learning of scene representations, called UniVoxel。 そこで本研究では,シーンの形状,材料,照明を軽量ニューラルネットワークで容易に学習できるため,シーンを潜在容積表現に符号化することを提案する。 実験の結果、UniVoxelは他の方法と比較して最適化効率を著しく向上させ、シーンごとのトレーニング時間を数時間から18分に短縮し、良好な再現性を実現した。 論文 参考訳（メタデータ） (2024-07-28T17:24:14Z) Bilevel Fast Scene Adaptation for Low-Light Image Enhancement [50.639332885989255] 低照度シーンにおける画像の強調は、コンピュータビジョンにおいて難しいが、広く懸念されている課題である。 主な障害は、異なるシーンにまたがる分散の相違によるモデリングの混乱にある。 上述の潜在対応をモデル化するための双レベルパラダイムを導入する。 エンコーダのシーン非関連な一般化を多様なシーンにもたらすために、双方向学習フレームワークを構築した。 論文 参考訳（メタデータ） (2023-06-02T08:16:21Z) LightPainter: Interactive Portrait Relighting with Freehand Scribble [79.95574780974103] 我々は、スクリブルベースのライティングシステムであるLightPainterを導入し、ユーザーが簡単にポートレート照明効果を操作できるようにする。 リライトモジュールをトレーニングするために,実際のユーザスクリブルを模倣する新しいスクリブルシミュレーション手法を提案する。 定量的および定性的な実験により,高品質でフレキシブルなポートレート照明編集機能を示す。 論文 参考訳（メタデータ） (2023-03-22T23:17:11Z) Music Gesture for Visual Sound Separation [121.36275456396075] ミュージック・ジェスチャ(Music Gesture)は、音楽演奏時の演奏者の身体と指の動きを明示的にモデル化するキーポイントに基づく構造化表現である。 まず、コンテキスト対応グラフネットワークを用いて、視覚的コンテキストと身体力学を統合し、その後、身体の動きと対応する音声信号とを関連付けるために、音声-視覚融合モデルを適用する。 論文 参考訳（メタデータ） (2020-04-20T17:53:46Z) 関連論文リストは本サイト内にある論文のタイトル・アブストラクトから自動的に作成しています。 指定された論文の情報です。 本サイトの運営者は本サイト（すべての情報・翻訳含む）の品質を保証せず、本サイト（すべての情報・翻訳含む）を使用して発生したあらゆる結果について一切の責任を負いません。",
+      "page_text_length": 6426
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "19a86ae8b53fc8d58aeb8b9b79f64e9f047efd52c0ef91ae408809e901f96cd0",
+      "title": "AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.11792",
+      "date": "2026-10-08T12:06:03Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "AuraLuxMuse paper describes editable AI-generated lighting cues\n\nAn arXiv-listed paper, identified on its project page as an anonymous SIGGRAPH Asia submission, presents AuraLuxMuse, a system for assisting stage-lighting designers with pre-production authoring. It matches music with professional lighting cues, adapts selected fixture commands to a destination stage and returns editable cues. The paper reports evaluation in virtual simulations and professional-grade laboratories; it does not establish operational deployment or adoption by lighting teams. The reported evaluations are not evidence that AuraLuxMuse is in live performance use.",
+    "source_record_ids": [
+      "19a86ae8b53fc8d58aeb8b9b79f64e9f047efd52c0ef91ae408809e901f96cd0"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "AuraLuxMuse paper describes editable AI-generated lighting cues\n\nAn arXiv-listed paper, identified on its project page as an anonymous SIGGRAPH Asia submission, presents AuraLuxMuse, a system for assisting stage-lighting designers with pre-production authoring. It matches music with professional lighting cues, adapts selected fixture commands to a destination stage and returns editable cues. The paper reports evaluation in virtual simulations and professional-grade laboratories; it does not establish operational deployment or adoption by lighting teams. The reported evaluations are not evidence that AuraLuxMuse is in live performance use.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article is about the correct assigned story: AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance",
+        "The article's headline and body match the assigned story",
+        "The central factual claims are supported by supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article is about the correct assigned story: AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance",
+        "The article's headline and body match the assigned story",
+        "The central factual claims are supported by supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article is about the correct assigned story: AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance",
+      "The article's headline and body match the assigned story",
+      "The central factual claims are supported by supplied evidence",
+      "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+      "Analysis is distinguishable from reported fact"
+    ]
+  }
+}

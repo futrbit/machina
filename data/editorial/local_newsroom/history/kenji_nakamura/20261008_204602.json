@@ -1,0 +1,139 @@
+{
+  "journalist": "Kenji Nakamura",
+  "role": "Autonomous Vehicles Correspondent",
+  "journalist_id": "kenji_nakamura",
+  "generated_at": "2026-10-08T20:46:02.052269+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Evaluation Is All You Need for Multi-Modal Autonomous Driving\" autonomous vehicle",
+      "title": "Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+      "url": "https://arxiv.org/html/2609.30818v1",
+      "snippet": "Sep 28, 2026 · Abstract Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios. Existing methods mainly focus on improving trajectory multi-modality, enhancing trajectory representations, or reshaping the candidate distribution.",
+      "page_text": "Evaluation Is All You Need for Multi-Modal Autonomous Driving Title: Content selection saved. Describe the issue below: Description: arXiv is now an independent nonprofit! Learn more &times; License: CC BY 4.0 arXiv:2609.30818v1 [cs.RO] 25 Sep 2026 Evaluation Is All You Need for Multi-Modal Autonomous Driving 1 School of Vehicle and Mobility & College of AI, Tsinghua University 2 Dongfeng Motor Corporation Research & Development Institute † Equal contribution 🖂 Corresponding author Abstract Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios. Existing methods mainly focus on improving trajectory multi-modality, enhancing trajectory representations, or reshaping the candidate distribution. Nevertheless, we identify a pronounced generation–evaluation asymmetry in multi-modal planning: despite strong oracle performance, existing planners often fail to reliably select the best available candidate, leaving substantial planning potential unrealized. To address this challenge, we propose iDriveVLA , a multi-modal planning framework that improves the candidate trajectory space while enabling more reliable and context-aware trajectory evaluation. Specifically, iDriveVLA introduces a unified trajectory evaluator comprising a Safety-aware Scorer for quality and risk estimation, together with a VLM-guided Modulator for scene-adaptive criterion weighting. We further develop an oracle-aligned progressive training strategy consisting of candidate imitation pretraining, candidate space refinement, and semantic ranking alignment. On the public NAVSIM v1 leaderboard, iDriveVLA achieves a new state-of-the-art performance of 94.95 PDMS , surpassing the human-expert reference. 1 Introduction End-to-end autonomous driving ( Hu et al., 2023 ; Guan et al., 2023 ) has rapidly advanced by jointly optimizing perception, prediction, and planning. More recently, vision-language-action (VLA) models ( Jiang et al., 2025 ; Zhou et al., 2026a ) further introduce rich semantic knowledge and reasoning capabilities into driving systems. However, existing planners still struggle with challenging and long-tail scenarios, such as partially occupied lanes, unusual obstacles, temporary road structures, and ambiguous traffic interactions ( Yao et al., 2026 ) . A key difficulty in these scenarios is that the appropriate driving behavior is often inherently ambiguous: multiple motion strategies may be feasible, yet they can differ substantially in safety, efficiency, comfort, and interaction with surrounding agents ( Liao et al., 2025 ) . As illustrated in Figure 1 (a) , this has motivated multi-modal planning ( Guo et al., 2025 ; Li et al., 2025b ; Guan et al., 2026 ) , where multiple plausible trajectories are generated and subsequently evaluated for final execution. Recent studies have substantially strengthened candidate generation through diffusion-based trajectory modeling ( Liao et al., 2025 ) , more expressive trajectory representations ( Xing et al., 2026 ) , and training-distribution design for improved candidate coverage ( Ang et al., 2026 ) . Despite increasingly strong candidate generation, we find that trajectory evaluation has become a major bottleneck in multi-modal planning. As shown in Figure 1 (b) , increasing trajectory diversity improves oracle performance by providing more potential solutions, while also introducing more competing behaviors that the evaluator must distinguish. This reveals a generation–evaluation asymmetry : the ability to generate diverse high-quality trajectories advances faster than the ability to reliably evaluate and select among them. This asymmetry is further quantified in Figure 1 (c) , where the oracle candidate achieves 99.21 PDMS , whereas the learned evaluator reaches only 93.67 PDMS on NAVSIM v1 ( Dauner et al., 2024 ) . The substantial gap indicates that considerable planning potential is already contained in the candidate set but remains unrealized. A key limitation is that existing evaluation mechanisms rely mainly on predefined planning signals and lack sufficient safety awareness and scene-adaptive semantic reasoning when comparing behaviorally distinct trajectories. To address this challenge, we propose iDriveVLA , a multi-modal planning framework that improves both candidate quality and trajectory selection. iDriveVLA introduces a trajectory evaluator that combines explicit safety awareness with VLM-guided semantic adaptation, enabling more reliable selection among behaviorally distinct candidates. We further develop an oracle-aligned progressive training strategy that progressively improves candidate generation and selection reliability through three stages: candidate imitation pretraining, candidate space refinement, and semantic ranking alignment. Our main contributions are summarized as follows: • We identify and characterize a generation–evaluation asymmetry in multi-modal planning: strong candidate generators already provide high oracle potential, yet imperfect trajectory evaluation prevents this potential from being fully realized. • We propose iDriveVLA, featuring a trajectory evaluator that integrates a Safety-aware Scorer for low-quality candidate filtering, along with a VLM-guided Modulator for scene-adaptive semantic evaluation. We further develop a progressive training strategy to improve both candidate performance and ranking alignment. • On the public NAVSIM v1 benchmark ( Dauner et al., 2024 ) , iDriveVLA achieves 94.95 PDMS and ranks 1st , surpassing the human-expert reference. Figure 1: Core idea. (a) Multiple plausible trajectories may coexist in challenging scenes, making reliable trajectory selection critical. (b) Increasing trajectory diversity improves oracle performance but also introduces more competing behaviors for the evaluator, revealing a generation–evaluation asymmetry in multi-modal planning. (c) This asymmetry leaves substantial oracle potential untapped in the strong multi-modal planner DrivoR ( Kirby et al., 2026 ) . In contrast, iDriveVLA improves trajectory evaluation, substantially narrows the oracle gap, and surpasses the human-expert reference on NAVSIM v1 ( Dauner et al., 2024 ) . 2 Related Work Vision-Language-Action Planning. Recent studies ( Jiang et al., 2025 ; Zhou et al., 2026a ) introduce vision-language models (VLMs) into autonomous driving to leverage their rich semantic priors and scene reasoning capabilities. A common line of work first equips VLMs with driving-specific knowledge through visual question answering or instruction tuning ( Chi et al., 2025 ) , and then extends them into VLA models that directly predict driving trajectories via action tokens ( Zhou et al., 2025 ) , textual trajectory representations ( Hwang et al., 2025 ) , or hidden-state-based action decoders ( Li et al., 2026c ) . Despite their stronger semantic reasoning capabilities, existing VLM-based planners often remain behind strong end-to-end driving models in trajectory-level planning performance ( Dauner et al., 2024 ; Jia et al., 2024 ) . Multi-modal Trajectory Generation. Recent end-to-end autonomous driving methods increasingly adopt multi-modal trajectory generation to capture diverse and uncertain driving behaviors. Vocabulary-based approaches, such as VADv2 ( Jiang et al., 2026 ) , discretize the continuous planning space into representative trajectory candidates, providing broad coverage of driving modes. Generative methods, such as GenAD ( Zheng et al., 2024 ) and DiffusionDrive ( Liao et al., 2025 ) , further model continuous trajectory distributions to generate diverse candidates with greater flexibility. More recently, proposal-based methods such as iPad ( Guo et al., 2025 ) and DrivoR ( Kirby et al., 2026 ) employ learnable queries to iteratively generate and refine trajectory hypotheses, enlarging the optimization space beyond fixed vocabularies. These advances have substantially improved trajectory diversity and quality; however, the resulting gains are increasingly constrained by the accuracy of downstream trajectory evaluation, limiting their full contribution to overall driving performance. Scorer-Based Autonomous Driving. Multi-modal planning has become a common paradigm in end-to-end autonomous driving, where diverse trajectory hypotheses are generated and subsequently ranked by a trajectory scorer for final execution ( Guo et al., 2025 ) . Recent works improve this paradigm by learning more robust and generalizable scoring functions across different candidate distributions ( Li et al., 2025b ) , predicting interpretable planning metrics for candidate ranking ( Kirby et al., 2026 ) , or learning structured scoring rules directly from driving demonstrations ( Xiong et al., 2025 ) . However, their scoring criteria are primarily derived from geometric or predefined planning signals, with limited capability to adapt candidate preferences according to high-level scene semantics. 3 Method 3.1 Diagnosing the Trajectory Evaluation Bottleneck Given multi-view visual observations ℐ \\mathcal{I} and the current ego state 𝒆 \\bm{e} , a multi-candidate trajectory generator produces K K future trajectory hypotheses: 𝒯 = { 𝝉 i } i = 1 K = π gen ​ ( ℐ , 𝒆 ) , 𝝉 i ∈ ℝ T × 3 , \\mathcal{T}=\\{\\bm{\\tau}_{i}\\}_{i=1}^{K}=\\pi_{\\mathrm{gen}}(\\mathcal{I},\\bm{e}),\\qquad\\bm{\\tau}_{i}\\in\\mathbb{R}^{T\\times 3}, (1) where T T denotes the planning horizon and each trajectory consists of future positions and headings. Figure 2: PDMS distributions of the selected and oracle candidates from the base planner. The oracle distribution is strongly concentrated near high PDMS, whereas the selected candidates exhibit a substantially heavier low-score tail. Generating multiple candidates increases behavioral diversity and improves the chance that a high-quality trajectory is included in 𝒯 \\mathcal{T} . However, the final planning performance is determined not only by what the generator can produce, but also by whether the trajectory evaluator can identify a good candidate from the resulting set. To diagnose this issue, we analyze the strong multi-modal driving model DrivoR ( Kirby et al., 2026 ) by comparing the downstream PDMS of its selected trajectory with that of the oracle candidate, defined as the highest-PDMS trajectory within the same candidate set. As shown in Figure 2 , oracle candidates are strongly concentrated near high PDMS, whereas selected candidates exhibit a broader distribution with a heavier low-score tail. This reveals a clear generation–evaluation asymmetry : high-quality trajectories are often already available, but imperfect evaluation prevents their potential from being fully realized. As candidate diversity increases, this issue may become more pronounced because the evaluator must distinguish among more competing behaviors. A simple analysis of this candidate-competition effect is provided in Appendix A . These observations motivate us to shift attention from candidate generation alone toward more reliable trajectory evaluation. Appendix D.2 further show that safe, high-quality trajectories may already exist among geometrically similar candidates, yet the evaluator can still select an unsafe alternative. This exposes its insufficient sensitivity to fine-grained safety risks and interaction semantics, directly motivating our safety-aware semantic trajectory evaluator. Figure 3: Overview of the iDriveVLA framework. The candidate generator produces multiple trajectory hypotheses from multi-view observations and the ego state. Our evaluator consists of a safety-aware Scorer and a VLM-guided Modulator. The Scorer predicts criterion-wise planning scores and safety risks, while the Modulator generates scene-adaptive criterion weights. Unsafe candidates are filtered before score aggregation, and the highest-scoring trajectory is selected. The framework is progressively optimized through three training stages. Flame and snowflake icons denote trainab",
+      "page_text_length": 12000
+    },
+    {
+      "query": "\"Evaluation Is All You Need for Multi-Modal Autonomous Driving\" autonomous vehicle",
+      "title": "Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.30818",
+      "snippet": "Sep 25, 2026 · Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios. Existing methods mainly focus on improving trajectory multi-modality, enhancing trajectory representations, or reshaping the candidate distribution. Nevertheless, we identify a pronounced generation-evaluation asymmetry in multi-modal planning: despite ...",
+      "page_text": "[2609.30818] Evaluation Is All You Need for Multi-Modal Autonomous Driving Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Robotics arXiv:2609.30818 (cs) [Submitted on 25 Sep 2026] Title: Evaluation Is All You Need for Multi-Modal Autonomous Driving Authors: Zeyu He , Shiqi Liu , Ke Chen , Yun Yan , Jinzi Wu , Dianqiao Lei , Sirui Wang , ShuRui Peng , Tao Chen , Zhuo Huang , Yu Wu , Yadong Shao , Zhichao Li , Ke Sun , Yang Guan , Keqiang Li , Shengbo Eben Li View a PDF of the paper titled Evaluation Is All You Need for Multi-Modal Autonomous Driving, by Zeyu He and 16 other authors View PDF HTML (experimental) Abstract: Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios. Existing methods mainly focus on improving trajectory multi-modality, enhancing trajectory representations, or reshaping the candidate distribution. Nevertheless, we identify a pronounced generation-evaluation asymmetry in multi-modal planning: despite strong oracle performance, existing planners often fail to reliably select the best available candidate, leaving substantial planning potential unrealized. To address this challenge, we propose iDriveVLA, a multi-modal planning framework that improves the candidate trajectory space while enabling more reliable and context-aware trajectory evaluation. Specifically, iDriveVLA introduces a unified trajectory evaluator comprising a Safety-aware Scorer for quality and risk estimation, together with a VLM-guided Modulator for scene-adaptive criterion weighting. We further develop an oracle-aligned progressive training strategy consisting of candidate imitation pretraining, candidate space refinement, and semantic ranking alignment. On the public NAVSIM v1 leaderboard, iDriveVLA achieves a new state-of-the-art performance of 94.95 PDMS, surpassing the human-expert reference. Subjects: Robotics (cs.RO) ; Artificial Intelligence (cs.AI) Cite as: arXiv:2609.30818 [cs.RO] (or arXiv:2609.30818v1 [cs.RO] for this version) https://doi.org/10.48550/arXiv.2609.30818 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Zeyu He [ view email ] [v1] Fri, 25 Sep 2026 04:56:15 UTC (38,300 KB) Full-text links: Access Paper: View a PDF of the paper titled Evaluation Is All You Need for Multi-Modal Autonomous Driving, by Zeyu He and 16 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.RO < prev | next > new | recent | 2026-09 Change to browse by: cs cs.AI References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4487
+    },
+    {
+      "query": "\"Evaluation Is All You Need for Multi-Modal Autonomous Driving\" autonomous vehicle",
+      "title": "Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+      "url": "https://openreview.net/forum?id=C3148YmmVH",
+      "snippet": "Sep 11, 2026 · Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios. Existing methods mainly focus on improving trajectory multi-modality, enhancing trajectory representations, or reshaping the candidate distribution.",
+      "page_text": "Verifying your browser | OpenReview Verifying your browser Complete the check below to continue to OpenReview Please complete the verification above. Have an OpenReview account? Sign in to skip this check.",
+      "page_text_length": 205
+    },
+    {
+      "query": "\"Evaluation Is All You Need for Multi-Modal Autonomous Driving\" autonomous vehicle",
+      "title": "Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+      "url": "https://www.catalyzex.com/paper/evaluation-is-all-you-need-for-multi-modal",
+      "snippet": "Evaluation Is All You Need for Multi-Modal Autonomous Driving: Paper and Code. Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios.",
+      "page_text": "Evaluation Is All You Need for Multi-Modal Autonomous Driving Get our free extension to see links to code for papers anywhere online! Free add-on: code for papers everywhere! Free add-on: See code for papers anywhere! Add to Chrome - It&#x27;s Free Title: Evaluation Is All You Need for Multi-Modal Autonomous Driving Paper and Code Request Code Code for Similar Papers: Sep 25, 2026 Authors: Zeyu He , Shiqi Liu , Ke Chen , Yun Yan , Jinzi Wu , Dianqiao Lei , Sirui Wang , ShuRui Peng , Tao Chen , Zhuo Huang ( + 7 more ) Figures and Tables: Share this with someone who&#x27;ll enjoy it: Ask Abstract: Multi-modal planning is promising for autonomous driving by representing multiple plausible behaviors in ambiguous and long-tail scenarios. Existing methods mainly focus on improving trajectory multi-modality, enhancing trajectory representations, or reshaping the candidate distribution. Nevertheless, we identify a pronounced generation-evaluation asymmetry in multi-modal planning: despite strong oracle performance, existing planners often fail to reliably select the best available candidate, leaving substantial planning potential unrealized. To address this challenge, we propose iDriveVLA, a multi-modal planning framework that improves the candidate trajectory space while enabling more reliable and context-aware trajectory evaluation. Specifically, iDriveVLA introduces a unified trajectory evaluator comprising a Safety-aware Scorer for quality and risk estimation, together with a VLM-guided Modulator for scene-adaptive criterion weighting. We further develop an oracle-aligned progressive training strategy consisting of candidate imitation pretraining, candidate space refinement, and semantic ranking alignment. On the public NAVSIM v1 leaderboard, iDriveVLA achieves a new state-of-the-art performance of 94.95 PDMS, surpassing the human-expert reference. Full-text Links: View paper on Share this with someone who&#x27;ll enjoy it:",
+      "page_text_length": 1953
+    },
+    {
+      "query": "\"Evaluation Is All You Need for Multi-Modal Autonomous Driving\" autonomous vehicle",
+      "title": "Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+      "url": "https://www.modelscope.cn/papers/2609.30818",
+      "snippet": "100% Overview Translation Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+      "page_text": "arXiv 2609.30818: Evaluation Is All You Need for…",
+      "page_text_length": 49
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "7e8b560556c1c4d7f7c4dfda46c1d63e7d33bac30fe29e8676d211acf50a3319",
+      "title": "Evaluation Is All You Need for Multi-Modal Autonomous Driving",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.30818",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 11,
+          "matched_terms": [
+            "ai",
+            "training",
+            "autonomous"
+          ],
+          "technical_signals": [
+            "ai",
+            "training",
+            "autonomous"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "valuation"
+          ],
+          "market_signals": [
+            "valuation"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "94.95"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "iDriveVLA scored 94.95 PDMS on NAVSIM v1 in a Tsinghua University–Dongfeng Motor Corporation research evaluation reported on 28 September 2026, not a road pilot or commercial service; no operating geography is specified. Its multi-modal planning stack generates candidate trajectories and uses a Safety-aware Scorer plus a VLM-guided Modulator to evaluate them, while the paper does not specify sensors, a geofence, road environment or speed constraints. The reported evidence is benchmark performance surpassing the human-expert reference; no road miles, disengagements, incidents or safety-driver data are provided",
+    "source_record_ids": [
+      "7e8b560556c1c4d7f7c4dfda46c1d63e7d33bac30fe29e8676d211acf50a3319"
+    ],
+    "format": "autonomous_vehicle_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

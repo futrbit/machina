@@ -1,0 +1,146 @@
+{
+  "journalist": "Kenji Nakamura",
+  "role": "Autonomous Vehicles Correspondent",
+  "journalist_id": "kenji_nakamura",
+  "generated_at": "2026-10-08T19:55:43.185381+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Auditing Latent-Space Monitors for Autonomous Driving\" autonomous vehicle",
+      "title": "Auditing Latent-Space Monitors for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.30557",
+      "snippet": "Sep 24, 2026 · We audit this monitoring strategy across two autonomous-driving tasks: online vectorized map generation with LaneSegNet and end-to-end planning with VAD. We find that frame-level errors are predictable at inference in both tasks.",
+      "page_text": "[2609.30557] Auditing Latent-Space Monitors for Autonomous Driving Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Robotics arXiv:2609.30557 (cs) [Submitted on 24 Sep 2026] Title: Auditing Latent-Space Monitors for Autonomous Driving Authors: Nikhil Kamalkumar Advani , Vishwajeet Shivaji Hogale , Saurav Kumar View a PDF of the paper titled Auditing Latent-Space Monitors for Autonomous Driving, by Nikhil Kamalkumar Advani and 2 other authors View PDF HTML (experimental) Abstract: Runtime failure monitors can use a model's internal representations to anticipate failures. We audit this monitoring strategy across two autonomous-driving tasks: online vectorized map generation with LaneSegNet and end-to-end planning with VAD. We find that frame-level errors are predictable at inference in both tasks. For LaneSegNet, a supervised latent probe reaches Area Under the Receiver Operating Characteristic curve (AUROC) 0.780 for high Chamfer error; to our knowledge, this is the first post-hoc frame-level failure monitor for online vectorized map generation. For VAD, a supervised planning-latent probe reaches AUROC 0.868 for mean-ADE failure. Our audit shows that internal access is not necessary for strong failure prediction. A monitor using only LaneSegNet's prediction outputs reaches AUROC 0.825, while for VAD, ego state, driving command, and the planner's predicted trajectory reach 0.924 on the same mean-ADE endpoint. Adding latent features to either baseline yields no statistically resolved improvement. This observation persists across a broad suite of planning failure endpoints, including endpoints whose labels depend on geometry unavailable to the non-latent baseline. Thus, predicting failure from an internal representation does not establish that the representation provides useful information beyond observable inputs and outputs. We propose an evaluation protocol for testing the incremental value of latent access and release our per-frame failure endpoint labels. Subjects: Robotics (cs.RO) ; Artificial Intelligence (cs.AI) Cite as: arXiv:2609.30557 [cs.RO] (or arXiv:2609.30557v1 [cs.RO] for this version) https://doi.org/10.48550/arXiv.2609.30557 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Nikhil Kamalkumar Advani [ view email ] [v1] Thu, 24 Sep 2026 21:09:23 UTC (82 KB) Full-text links: Access Paper: View a PDF of the paper titled Auditing Latent-Space Monitors for Autonomous Driving, by Nikhil Kamalkumar Advani and 2 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.RO < prev | next > new | recent | 2026-09 Change to browse by: cs cs.AI References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4596
+    },
+    {
+      "query": "\"Auditing Latent-Space Monitors for Autonomous Driving\" autonomous vehicle",
+      "title": "Auditing Latent-Space Monitors for Autonomous Driving | Cool ...",
+      "url": "https://papers.cool/arxiv/2609.30557",
+      "snippet": "We audit this monitoring strategy across two autonomous-driving tasks: online vectorized map generation with LaneSegNet and end-to-end planning with VAD. We find that frame-level errors are predictable at inference in both tasks.",
+      "page_text": "Auditing Latent-Space Monitors for Autonomous Driving | Cool Papers - Immersive Paper Discovery 2609.30557 Total: 1 #1 Auditing Latent-Space Monitors for Autonomous Driving [PDF ] [Copy] [Kimi ] [REL] Authors : Nikhil Kamalkumar Advani , Vishwajeet Shivaji Hogale , Saurav Kumar Runtime failure monitors can use a model&#039;s internal representations to anticipate failures. We audit this monitoring strategy across two autonomous-driving tasks: online vectorized map generation with LaneSegNet and end-to-end planning with VAD. We find that frame-level errors are predictable at inference in both tasks. For LaneSegNet, a supervised latent probe reaches Area Under the Receiver Operating Characteristic curve (AUROC) 0.780 for high Chamfer error; to our knowledge, this is the first post-hoc frame-level failure monitor for online vectorized map generation. For VAD, a supervised planning-latent probe reaches AUROC 0.868 for mean-ADE failure. Our audit shows that internal access is not necessary for strong failure prediction. A monitor using only LaneSegNet&#039;s prediction outputs reaches AUROC 0.825, while for VAD, ego state, driving command, and the planner&#039;s predicted trajectory reach 0.924 on the same mean-ADE endpoint. Adding latent features to either baseline yields no statistically resolved improvement. This observation persists across a broad suite of planning failure endpoints, including endpoints whose labels depend on geometry unavailable to the non-latent baseline. Thus, predicting failure from an internal representation does not establish that the representation provides useful information beyond observable inputs and outputs. We propose an evaluation protocol for testing the incremental value of latent access and release our per-frame failure endpoint labels. Subjects : Robotics , Artificial Intelligence Publish : 2026-09-24 21:09:23 UTC Designed by kexue.fm | Powered by kimi.ai Include( OR ): Exclude: Search Filter Highlight Stared Paper(s): #1 Auditing Latent-Space Monitors for Autonomous Driving Export Magic Token: Kimi Language: 中文 English Desc Language: 中文 English Save Bug report? Issue submit? Please visit: Github: https://github.com/bojone/papers.cool Please read our Disclaimer before proceeding. For more interesting features, please visit kexue.fm and kimi.ai .",
+      "page_text_length": 2319
+    },
+    {
+      "query": "\"Auditing Latent-Space Monitors for Autonomous Driving\" autonomous vehicle",
+      "title": "Auditing Latent-Space Monitors for Autonomous Driving",
+      "url": "https://www.alphaxiv.org/abs/2609.30557",
+      "snippet": "Sep 24, 2026 · Runtime failure monitors can use a model's internal representations to anticipate failures. We audit this monitoring strategy across two autonomous-driving tasks: online vectorized map generation...",
+      "page_text": "Auditing Latent-Space Monitors for Autonomous Driving | alphaXiv Abstract Paper Abstract Runtime failure monitors can use a model&#x27;s internal representations to anticipate failures. We audit this monitoring strategy across two autonomous-driving tasks: online vectorized map generation with LaneSegNet and end-to-end planning with VAD. We find that frame-level errors are predictable at inference in both tasks. For LaneSegNet, a supervised latent probe reaches Area Under the Receiver Operating Characteristic curve (AUROC) 0.780 for high Chamfer error; to our knowledge, this is the first post-hoc frame-level failure monitor for online vectorized map generation. For VAD, a supervised planning-latent probe reaches AUROC 0.868 for mean-ADE failure. Our audit shows that internal access is not necessary for strong failure prediction. A monitor using only LaneSegNet&#x27;s prediction outputs reaches AUROC 0.825, while for VAD, ego state, driving command, and the planner&#x27;s predicted trajectory reach 0.924 on the same mean-ADE endpoint. Adding latent features to either baseline yields no statistically resolved improvement. This observation persists across a broad suite of planning failure endpoints, including endpoints whose labels depend on geometry unavailable to the non-latent baseline. Thus, predicting failure from an internal representation does not establish that the representation provides useful information beyond observable inputs and outputs. We propose an evaluation protocol for testing the incremental value of latent access and release our per-frame failure endpoint labels. View more View Paper 2 Save Cite AI Overview No overview yet. Generate one to research the paper and explain its contribution. Generate overview Audio Audio summary Two hosts talking through the paper&#x27;s ideas, methods and results. Generate Similar papers SAFE: Multitask Failure Detection for Vision-Language-Action Models 30 Oct 2025 Driving on Memory 31 Aug 2026 Decoding Task Progress from VLA Representations 13 Aug 2026 Behavioral Monitoring of JEPA World Models with Jacobian Centroids 27 Sep 2026 Task-Relevant Failure Detection for Trajectory Predictors in Autonomous Vehicles 15 Apr 2023 Show more Show less ForeDrive: Foresight-Guided End-to-End Autonomous Driving with a Planning-Relevant Latent World Model 23 Sep 2026 Foresight: Failure Detection for Long-Horizon Robotic Manipulation with Action-Conditioned World Model Latents 22 Jun 2026 Beyond Uncertainty: Generalizable Failure Monitoring for Surgical Segmentation under Acquisition Degradation 17 Aug 2026 Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures 01 Mar 2026 More Than Meets the Eye? Uncovering the Reasoning-Planning Disconnect in Training Vision-Language Driving Models 06 Oct 2025 Discussion Comment Autoresearch 4 views v 1 BibTeX Copy @misc {advani2026auditinglatentspacemonitorsautonomous, title ={ Auditing Latent-Space Monitors for Autonomous Driving }, author ={ Nikhil Kamalkumar Advani and Vishwajeet Shivaji Hogale and Saurav Kumar }, year ={ 2026 }, eprint ={ 2609.30557 }, archivePrefix ={ arXiv }, primaryClass ={ cs.RO }, url ={ https://arxiv.org/abs/2609.30557 }, } AI detection Analyze Related papers SAFE: Multitask Failure Detection for Vision-Language-Action Models 30 Oct 2025 Driving on Memory 31 Aug 2026 Decoding Task Progress from VLA Representations 13 Aug 2026 Show more Show less Behavioral Monitoring of JEPA World Models with Jacobian Centroids 27 Sep 2026 Task-Relevant Failure Detection for Trajectory Predictors in Autonomous Vehicles 15 Apr 2023 ForeDrive: Foresight-Guided End-to-End Autonomous Driving with a Planning-Relevant Latent World Model 23 Sep 2026 Foresight: Failure Detection for Long-Horizon Robotic Manipulation with Action-Conditioned World Model Latents 22 Jun 2026 Beyond Uncertainty: Generalizable Failure Monitoring for Surgical Segmentation under Acquisition Degradation 17 Aug 2026 Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures 01 Mar 2026 More Than Meets the Eye? Uncovering the Reasoning-Planning Disconnect in Training Vision-Language Driving Models 06 Oct 2025 Sign in to save",
+      "page_text_length": 4202
+    },
+    {
+      "query": "\"Auditing Latent-Space Monitors for Autonomous Driving\" autonomous vehicle",
+      "title": "Auditing Latent-Space Monitors for Autonomous Driving",
+      "url": "https://www.aimodels.fyi/papers/arxiv/auditing-latent-space-monitors-autonomous-driving",
+      "snippet": "Sep 28, 2026 · Can a car’s hidden model signals warn of failure before its maps or plans go wrong?",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Auditing Latent-Space Monitors for Autonomous Driving\" autonomous vehicle",
+      "title": "Robotics Papers on X: \"Auditing Latent-Space Monitors for ...",
+      "url": "https://x.com/OWW/status/2105671451428708517",
+      "snippet": "Auditing Latent-Space Monitors for Autonomous Driving Nikhil Kamalkumar Advani, Vishwajeet Shivaji Hogale, Saurav Kumar https://t.co/izq7r3ZBDh [𝚌𝚜.𝚁𝙾 𝚌𝚜.𝙰𝙸] 01 Oct 2026 14:49:30",
+      "page_text": "Robotics Papers on X: \"Auditing Latent-Space Monitors for Autonomous Driving Nikhil Kamalkumar Advani, Vishwajeet Shivaji Hogale, Saurav Kumar https://t.co/izq7r3ZBDh [𝚌𝚜.𝚁𝙾 𝚌𝚜.𝙰𝙸]\" / X Post Log in Sign up Post Log in Sign up Robotics Papers on X: \"Auditing Latent-Space Monitors for Autonomous Driving Nikhil Kamalkumar Advani, Vishwajeet Shivaji Hogale, Saurav Kumar https://t.co/izq7r3ZBDh [𝚌𝚜.𝚁𝙾 𝚌𝚜.𝙰𝙸]\" Robotics Papers @OWW Auditing Latent-Space Monitors for Autonomous Driving Nikhil Kamalkumar Advani, Vishwajeet Shivaji Hogale, Saurav Kumar arxiv.org/abs/2609.30557 [𝚌𝚜.𝚁𝙾 𝚌𝚜.𝙰𝙸] 2:49 PM · Oct 1, 2026 · 97 Views Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Relevant people Robotics Papers @ OWW Follow New Robotics papers from https://t.co/QghHeRjSAH: robotics. Thank you to arXiv for use of its open access interoperability. Trending now Robotics Papers @OWW Auditing Latent-Space Monitors for Autonomous Driving Nikhil Kamalkumar Advani, Vishwajeet Shivaji Hogale, Saurav Kumar arxiv.org/abs/2609.30557 [𝚌𝚜.𝚁𝙾 𝚌𝚜.𝙰𝙸] 2:49 PM · Oct 1, 2026 · 97 Views",
+      "page_text_length": 1180
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "796c5c60ae1827e3f8c7c07a153e98516d994f726cc3eb1ef75bd7cd41a95ac7",
+      "title": "Auditing Latent-Space Monitors for Autonomous Driving",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.30557",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 13,
+          "matched_terms": [
+            "ai",
+            "model",
+            "inference",
+            "tpu",
+            "autonomous"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "inference",
+            "tpu",
+            "autonomous"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "valuation"
+          ],
+          "market_signals": [
+            "valuation"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "0.780",
+        "0.868",
+        "0.825",
+        "0.924"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Research audit tests latent-space failure monitors, not a vehicle deployment\n\nNikhil Kamalkumar Advani, Vishwajeet Shivaji Hogale and Saurav Kumar’s paper, submitted to arXiv on 24 September 2026, is a research audit rather than a pilot, limited service or commercial operation; no operator or geography is specified. It evaluates runtime monitors on online vectorized map generation with LaneSegNet and end-to-end planning with VAD, rather than a vehicle’s road-domain sensor stack or geofence. The reported evidence is model-level: latent probes reached AUROC 0.780 for LaneSegNet high Chamfer error and 0.868 for VAD mean-ADE failure, while output-only baselines reached 0.825 and 0.924 respectively; no road miles, incidents or safety-driver data are reported. The authors propose an evaluation protocol and release per-frame failure labels, with no regulatory approval or commercial next step established.",
+    "source_record_ids": [
+      "796c5c60ae1827e3f8c7c07a153e98516d994f726cc3eb1ef75bd7cd41a95ac7"
+    ],
+    "format": "autonomous_vehicle_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

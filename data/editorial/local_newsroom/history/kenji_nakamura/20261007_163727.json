@@ -1,0 +1,125 @@
+{
+  "journalist": "Kenji Nakamura",
+  "role": "Autonomous Vehicles Correspondent",
+  "journalist_id": "kenji_nakamura",
+  "generated_at": "2026-10-07T16:37:27.021308+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"WALT: Learning World-Model-Aligned Latent Trajectories for Autonomous Driving\" latest",
+      "title": "WALT: Learning World-Model-Aligned Latent Trajectories",
+      "url": "https://arxiv.org/html/2609.30436v1",
+      "snippet": "Sep 28, 2026 · To address this issue, we propose World-Model Alignment for Latent Trajectories (WALT), which learns a compact generative trajectory latent space by transferring information from a frozen pretrained driving world model without modifying the world model itself."
+    },
+    {
+      "query": "\"WALT: Learning World-Model-Aligned Latent Trajectories for Autonomous Driving\" latest",
+      "title": "[2609.30436] WALT: Learning World-Model-Aligned Latent ...",
+      "url": "https://arxiv.org/abs/2609.30436",
+      "snippet": "Sep 24, 2026 · To address this issue, we propose World-Model Alignment for Latent Trajectories (WALT), which learns a compact generative trajectory latent space by transferring information from a frozen pretrained driving world model without modifying the world model itself."
+    },
+    {
+      "query": "\"WALT: Learning World-Model-Aligned Latent Trajectories for Autonomous Driving\" latest",
+      "title": "WALT: Learning World-Model-Aligned Latent Trajectories for ...",
+      "url": "https://papers.cool/arxiv/2609.30436",
+      "snippet": "To address this issue, we propose World-Model Alignment for Latent Trajectories (WALT), which learns a compact generative trajectory latent space by transferring information from a frozen pretrained driving world model without modifying the world model itself."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "3fc534e4eaa1088a9eb8166bd4f4401b63f26c9fb484a077c4a1c1d5c880b660",
+      "title": "WALT: Learning World-Model-Aligned Latent Trajectories for Autonomous Driving",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.30436",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 14,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models",
+            "benchmark",
+            "autonomous",
+            "architecture"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models",
+            "benchmark",
+            "autonomous",
+            "architecture"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": [
+            "30.5%"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "89.4",
+        "89.8",
+        "87.3",
+        "87.9",
+        "30.5%"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Autonomous driving research: Proposal for World-Model Alignment for Latent Trajectories (WALT) published on September 28, 2026. The method aims to learn a compact generative trajectory latent space by transferring information from a frozen pretrained driving world model without modifying the world model itself. The research is currently under review.",
+    "source_record_ids": [
+      "3fc534e4eaa1088a9eb8166bd4f4401b63f26c9fb484a077c4a1c1d5c880b660"
+    ],
+    "format": "autonomous_vehicle_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

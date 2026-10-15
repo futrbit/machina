@@ -1,0 +1,136 @@
+{
+  "journalist": "Kenji Nakamura",
+  "role": "Autonomous Vehicles Correspondent",
+  "journalist_id": "kenji_nakamura",
+  "generated_at": "2026-10-08T19:37:00.312598+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement\" autonomous vehicle",
+      "title": "INTERACT: Interactive Planning for Autonomous Driving via Anchor ...",
+      "url": "https://arxiv.org/abs/2609.31137",
+      "snippet": "We present INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement. Our key insight is that surrounding agents react to the intent a trajectory expresses rather than to its exact realization, so a single reactive prediction stays valid across an entire family of plans.",
+      "page_text": "[2609.31137] INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Robotics arXiv:2609.31137 (cs) [Submitted on 25 Sep 2026] Title: INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement Authors: Aron Distelzweig , Andreas Look , Faris Janjoš , Steffen Hagedorn , Luigi Palmieri , Joschka Boedecker View a PDF of the paper titled INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement, by Aron Distelzweig and 5 other authors View PDF HTML (experimental) Abstract: Driving in dense urban traffic is interactive: whether a merge or an unprotected turn succeeds depends on how surrounding agents respond to the ego vehicle. Conventional planners predict first and plan second and, therefore, cannot account for this dependency. Methods that integrate prediction and planning either train both jointly, which introduces task interference, or keep them separate and are restricted to a predefined set of proposals. We present INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement. Our key insight is that surrounding agents react to the intent a trajectory expresses rather than to its exact realization, so a single reactive prediction stays valid across an entire family of plans. INTERACT therefore decomposes interactive planning into prediction across driving intents and optimization within each intent. We derive a small set of diverse intents, which we call anchors, from map geometry, query a dedicated ego-conditioned prediction model once per anchor, and refine every anchor with the Cross-Entropy Method under a trust-region penalty that keeps the refined plan close enough to its anchor for the conditioned reaction to still apply. Prediction thus remains a separate model, avoiding task interference, while conditioning on anchors preserves the dependency. Because each anchor is refined continuously, the final plan is not restricted to the anchor set, yet INTERACT requires only one predictor query per anchor rather than one per candidate plan, with all anchors processed in parallel. On the nuPlan and interPlan closed-loop benchmarks, INTERACT sets a new state of the art, with the largest gains precisely in the interactive scenarios that motivate the method. The code will be released upon acceptance. Subjects: Robotics (cs.RO) Cite as: arXiv:2609.31137 [cs.RO] (or arXiv:2609.31137v1 [cs.RO] for this version) https://doi.org/10.48550/arXiv.2609.31137 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Aron Distelzweig [ view email ] [v1] Fri, 25 Sep 2026 11:27:27 UTC (394 KB) Full-text links: Access Paper: View a PDF of the paper titled INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement, by Aron Distelzweig and 5 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.RO < prev | next > new | recent | 2026-09 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 5126
+    },
+    {
+      "query": "\"INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement\" autonomous vehicle",
+      "title": "INTERACT: Interactive Planning for Autonomous Driving via Anchor ...",
+      "url": "https://www.catalyzex.com/paper/interact-interactive-planning-for-autonomous",
+      "snippet": "INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement: Paper and Code. Driving in dense urban traffic is interactive: whether a merge or an unprotected turn succeeds depends on how surrounding agents respond to the ego vehicle. Conventional planners predict first and plan second and, therefore, cannot account for this dependency ...",
+      "page_text": "INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement Get our free extension to see links to code for papers anywhere online! Free add-on: code for papers everywhere! Free add-on: See code for papers anywhere! Add to Chrome - It&#x27;s Free Title: INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement Paper and Code Request Code Code for Similar Papers: Sep 25, 2026 Authors: Aron Distelzweig , Andreas Look , Faris Janjoš , Steffen Hagedorn , Luigi Palmieri , Joschka Boedecker Figures and Tables: Share this with someone who&#x27;ll enjoy it: Ask Abstract: Driving in dense urban traffic is interactive: whether a merge or an unprotected turn succeeds depends on how surrounding agents respond to the ego vehicle. Conventional planners predict first and plan second and, therefore, cannot account for this dependency. Methods that integrate prediction and planning either train both jointly, which introduces task interference, or keep them separate and are restricted to a predefined set of proposals. We present INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement. Our key insight is that surrounding agents react to the intent a trajectory expresses rather than to its exact realization, so a single reactive prediction stays valid across an entire family of plans. INTERACT therefore decomposes interactive planning into prediction across driving intents and optimization within each intent. We derive a small set of diverse intents, which we call anchors, from map geometry, query a dedicated ego-conditioned prediction model once per anchor, and refine every anchor with the Cross-Entropy Method under a trust-region penalty that keeps the refined plan close enough to its anchor for the conditioned reaction to still apply. Prediction thus remains a separate model, avoiding task interference, while conditioning on anchors preserves the dependency. Because each anchor is refined continuously, the final plan is not restricted to the anchor set, yet INTERACT requires only one predictor query per anchor rather than one per candidate plan, with all anchors processed in parallel. On the nuPlan and interPlan closed-loop benchmarks, INTERACT sets a new state of the art, with the largest gains precisely in the interactive scenarios that motivate the method. The code will be released upon acceptance. Full-text Links: View paper on Share this with someone who&#x27;ll enjoy it:",
+      "page_text_length": 2576
+    },
+    {
+      "query": "\"INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement\" autonomous vehicle",
+      "title": "[论文评述] INTERACT: Interactive Planning for Autonomous Driving via Anchor ...",
+      "url": "https://www.themoonlight.io/zh/review/interact-interactive-planning-for-autonomous-driving-via-anchor-conditioned-prediction-and-trust-region-refinement",
+      "snippet": "本页面提供全球最准确、精炼的论文《INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement》摘要。 通过Moonlight这款AI研究助手，您可以轻松快速地理解所阅读的所有论文。",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement\" autonomous vehicle",
+      "title": "[論文レビュー] INTERACT: Interactive Planning for Autonomous Driving via ...",
+      "url": "https://www.themoonlight.io/ja/review/interact-interactive-planning-for-autonomous-driving-via-anchor-conditioned-prediction-and-trust-region-refinement",
+      "snippet": "このページでは、論文『INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement』に関する世界で最も正確かつ簡潔な要約を提供します。 AI研究パートナーのMoonlightを使えば、読むすべての論文を簡単かつ迅速に理解できます。",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement\" autonomous vehicle",
+      "title": "[논문 리뷰] INTERACT: Interactive Planning for Autonomous Driving via ...",
+      "url": "https://www.themoonlight.io/ko/review/interact-interactive-planning-for-autonomous-driving-via-anchor-conditioned-prediction-and-trust-region-refinement",
+      "snippet": "현재 페이지는 INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement 논문에 대해 전세계에서 제일 정확하고 핵심만을 요약한 페이지입니다.",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "48a25aa94e9d4625994ef02c942cec15822dcc39403f24d9a1ff2415c6b1f049",
+      "title": "INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.31137",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 12,
+          "matched_terms": [
+            "ai",
+            "model",
+            "benchmark",
+            "autonomous"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "benchmark",
+            "autonomous"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "INTERACT, an autonomous-driving planning method from Aron Distelzweig and five co-authors, was posted to arXiv on 25 September 2026 as research—not a pilot, limited service or commercial operation—and identifies no operator or deployment geography. Its planning stack derives map-based driving-intent “anchors,” queries an ego-conditioned prediction model for each, then refines trajectories with the",
+    "source_record_ids": [
+      "48a25aa94e9d4625994ef02c942cec15822dcc39403f24d9a1ff2415c6b1f049"
+    ],
+    "format": "autonomous_vehicle_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

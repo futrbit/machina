@@ -1,0 +1,102 @@
+{
+  "journalist": "Ingrid Sørensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-07T14:41:53.356498+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Submit a UKDI proposal online: acceptable use\" government regulation",
+      "title": "Submit a UKDI proposal online: acceptable use - GOV.UK",
+      "url": "https://www.gov.uk/guidance/submit-a-defence-and-security-accelerator-proposal-online-acceptable-use",
+      "snippet": "Acceptable use Anyone using the UKDI online submission service must do so in a legal, professional and responsible manner at all times. Your use of this online service is subject to the conditions ..."
+    },
+    {
+      "query": "\"Submit a UKDI proposal online: acceptable use\" government regulation",
+      "title": "Submit a UKDI proposal online: acceptable use",
+      "url": "https://govdiff.njk.onl/update/2026-02-17T09:17:00+00:00/www.gov.uk/guidance/submit-a-defence-and-security-accelerator-proposal-online-acceptable-use",
+      "snippet": "Acceptable use Anyone using the UKDI online submission service must do so in a legal, professional and responsible manner at all times."
+    },
+    {
+      "query": "\"Submit a UKDI proposal online: acceptable use\" government regulation",
+      "title": "UK Defence Innovation (UKDI) Funding (2026) | Granted AI",
+      "url": "https://grantedai.com/grants/uk-defence-innovation-ukdi-funding-uk-defence-innovation-38648b48",
+      "snippet": "Latest from UK Defence Innovation UKDI Standard Terms and Conditions Submit a UKDI proposal online: acceptable use Defence and security advantage through innovation UKDI is part of the Ministry of Defence . The following links open in a new tab Project PANOPTES: Protecting the Force. Enabling Manoeuvre."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "28505b26797f346f2ac4eb514085dab480a42f3476fe9277bf70b80e6cddf6e6",
+      "title": "Submit a UKDI proposal online: acceptable use",
+      "source": "Defence and Security Accelerator",
+      "url": "https://www.gov.uk/guidance/submit-a-defence-and-security-accelerator-proposal-online-acceptable-use",
+      "date": "2026-09-03T15:09:47+00:00",
+      "source_type": "government",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 0,
+          "matched_terms": [],
+          "technical_signals": []
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 9,
+          "matched_terms": [
+            "policy"
+          ],
+          "strategic_signals": [
+            "policy",
+            "government"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "The UK Defence and Security Accelerator has published guidelines for submitting proposals online, effective September 3rd, 2026. These guidelines outline acceptable use of the UK Defence Innovation (UKDI) online submission service, requiring users to adhere to legal, professional, and responsible standards. The specific groups affected are those submitting proposals to the UKDI. No further details, such as the nature of the proposals or the UKDI's objectives, are provided in the supplied intelligence.",
+    "source_record_ids": [
+      "28505b26797f346f2ac4eb514085dab480a42f3476fe9277bf70b80e6cddf6e6"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

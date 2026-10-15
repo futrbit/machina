@@ -1,0 +1,95 @@
+{
+  "journalist": "Kenji Nakamura",
+  "role": "Autonomous Vehicles Correspondent",
+  "journalist_id": "kenji_nakamura",
+  "generated_at": "2026-10-08T19:17:26.093577+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "48a25aa94e9d4625994ef02c942cec15822dcc39403f24d9a1ff2415c6b1f049",
+      "title": "INTERACT: Interactive Planning for Autonomous Driving via Anchor-Conditioned Prediction and Trust-Region Refinement",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2609.31137",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 12,
+          "matched_terms": [
+            "ai",
+            "model",
+            "benchmark",
+            "autonomous"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "benchmark",
+            "autonomous"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "mod"
+          ],
+          "strategic_signals": [
+            "mod",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "INTERACT: Research paper, not vehicle deployment\n\nINTERACT is an autonomous-driving planning method described in an arXiv paper dated 28 September 2026; no operator, geography or deployment status beyond research is identified.  \nThe paper title identifies anchor-conditioned prediction and trust-region refinement, but the supplied record does not establish its sensor suite, geofence, road environment, speed limits or other operational-design-domain constraints.  \nNo safety evidence, including miles, disengagements, incidents or intervention requirements, is provided.  \nThe record identifies no regulatory approval, commercial fleet, customer or deployment plan, so this is research rather than a pilot, limited service or commercial operation.",
+    "source_record_ids": [
+      "48a25aa94e9d4625994ef02c942cec15822dcc39403f24d9a1ff2415c6b1f049"
+    ],
+    "format": "autonomous_vehicle_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

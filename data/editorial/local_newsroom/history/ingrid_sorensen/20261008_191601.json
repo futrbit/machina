@@ -1,0 +1,97 @@
+{
+  "journalist": "Ingrid SÃ¸rensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-08T19:16:01.166760+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "85a7c0994871a2017ed129b3cada134fdfbb1bbc6b2620fde0138902f37dad72",
+      "title": "Policy Regret for Embedding Model Routing: Contextual Bandits with Low-Rank Experts",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.14929",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 11,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models"
+          ]
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 3,
+          "matched_terms": [
+            "mod",
+            "policy",
+            "standard"
+          ],
+          "strategic_signals": [
+            "mod",
+            "policy",
+            "standard",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2606"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Policy Regret for Embedding Model Routing: Contextual Bandits with Low-Rank Experts\n\narXiv published a research paper with this title on 28 September 2026. The publication does not make a model-routing capability operational, create a procurement vehicle, or impose a requirement on contractors or public bodies. Its research objective is to examine policy regret in embedding model routing through contextual bandits",
+    "source_record_ids": [
+      "85a7c0994871a2017ed129b3cada134fdfbb1bbc6b2620fde0138902f37dad72"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

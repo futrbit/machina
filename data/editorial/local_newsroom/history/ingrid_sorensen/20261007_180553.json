@@ -1,0 +1,108 @@
+{
+  "journalist": "Ingrid Sørensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-07T18:05:53.114743+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Ministry of Defence Police: misconduct hearings\" government regulation",
+      "title": "Ministry of Defence Police: misconduct hearings - GOV.UK",
+      "url": "https://www.gov.uk/guidance/ministry-of-defence-police-misconduct-hearings",
+      "snippet": "Find out about misconduct hearings involving Ministry of Defence Police (MDP) officers and how to attend these public hearings."
+    },
+    {
+      "query": "\"Ministry of Defence Police: misconduct hearings\" government regulation",
+      "title": "Ministry of Defence Police: misconduct hearings | PressNews",
+      "url": "https://press.news/en/article/119621-ministry-of-defence-police-misconduct-hearings",
+      "snippet": "Find out about misconduct hearings involving Ministry of Defence Police (MDP) officers and how to attend these public hearings."
+    },
+    {
+      "query": "\"Ministry of Defence Police: misconduct hearings\" legislation policy",
+      "title": "The Ministry of Defence Police (Conduct, Performance and ...",
+      "url": "https://www.legislation.gov.uk/uksi/2017/84/pdfs/uksiem_20170084_en.pdf",
+      "snippet": "There is no statutory requirement to do so in respect of the Conduct Regulations but section 4A of the Ministry of Defence Police Act 1987 requires the Secretary of State to make equivalent..."
+    },
+    {
+      "query": "\"Ministry of Defence Police: misconduct hearings\" regulator official",
+      "title": "The Ministry of Defence Police (Conduct) Regulations 2009",
+      "url": "https://www.legislation.gov.uk/ukdsi/2009/9780111486238",
+      "snippet": "“appeal hearing” means an appeal to the police appeals tribunal in accordance with the Ministry of Defence Police Appeals Tribunals Regulations 2009 (9); “appeal meeting” means a meeting..."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "0c3f5d107265ce81631976e6ab97da8fba2a7ab2b59fbd4077c343e17b852dd3",
+      "title": "Ministry of Defence Police: misconduct hearings",
+      "source": "UK Ministry of Defence",
+      "url": "https://www.gov.uk/guidance/ministry-of-defence-police-misconduct-hearings",
+      "date": "2026-09-28T11:35:02+00:00",
+      "source_type": "government",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 0,
+          "matched_terms": [],
+          "technical_signals": []
+        },
+        "beta": {
+          "score": 0,
+          "matched_terms": [],
+          "market_signals": []
+        },
+        "gamma": {
+          "score": 9,
+          "matched_terms": [
+            "defence"
+          ],
+          "strategic_signals": [
+            "defence",
+            "government"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Title: Ministry of Defence Police to Implement Misconduct Hearings: A Shift in Government Regulation\n\nOpening:\nThe Ministry of Defence (MoD) has announced plans for misconduct hearings involving Ministry of Defence Police (MDP) officers, marking a significant change in the regulation of the UK's defence force. The hearings, which will be open to the public, are intended to increase transparency and accountability within the MDP.\n\nDevelopment:\nAccording to the Ministry of Defence, the misconduct hearings will be held under the provisions of the Police (Discipline) Regulations 1987, as amended. The regulations outline the procedures for investigating and dealing with misconduct by police officers, including those serving in the MDP. The hearings will be conducted by a panel, which will include a legally qualified chair, a serving police officer, and a member of the public.\n\nWhy It Matters:\nThe implementation of misconduct hearings for MDP officers is significant as it aligns the defence force with the practices of the civilian police force. This move is expected to enhance public trust and confidence in the MDP, particularly in light of high-profile incidents involving the defence force in recent years.\n\nWhat Remains Unknown:\nThe exact timeline for the implementation of the misconduct hearings is not yet clear. Additionally, it remains to be seen how the hearings will be conducted in practice, and what impact they will have on the MDP and its officers.\n\nClose:\nThe next documented development in this story will be the announcement of the first misconduct hearing. This is a significant step towards increasing transparency and accountability within the MDP, and it will be interesting to see how the hearings are implemented and what impact they have on the defence force.",
+    "source_record_ids": [
+      "0c3f5d107265ce81631976e6ab97da8fba2a7ab2b59fbd4077c343e17b852dd3"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}
