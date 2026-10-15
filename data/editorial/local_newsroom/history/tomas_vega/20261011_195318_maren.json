@@ -1,0 +1,122 @@
+{
+  "journalist": "TomÃ¡s Vega",
+  "role": "Markets Desk",
+  "journalist_id": "tomas_vega",
+  "generated_at": "2026-10-11T19:46:47.017490+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction\" company business",
+      "title": "Improve Forecast Accuracy - Sales Forecasting with AI",
+      "url": "https://www.bing.com/aclick?ld=e8ZixfEsPpoSBECQJiaa1FOTVUCUyKsdHQVF1T4bY8UkDLXwkAQdLyfBzN94OsAnT5Z8wOb4kNISzsazwJgZjHXVkWelexjkyiBz_NsyjNjAjKcKKY3NygEJVV6q47K684HGlJmMCk6fxJMM_hdw_ziWRFeCJ5FJ3ESr2t5BzM9dEYE_1s1ImS3rQImy2SbgE8XkRqPA&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4NDI0OTgyMTE2MyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODkzODY2ODA2NSUyNmRzX2FfY2lkJTNkNzQ3NTg3MTM1MSUyNmRzX2FfY2FpZCUzZDIyODQ5NjU0MDExJTI2ZHNfYV9hZ2lkJTNkMTgzMTk1NzUzODEzJTI2ZHNfYV9saWQlM2Rrd2QtMjk3NTAzNDA5NzQ0JTI2JTI2ZHNfZV9hZGlkJTNkODE4NDUwMzM3OTI2ODclMjZkc19lX3RhcmdldF9pZCUzZGt3ZC04MTg0NTMwODU1MTg3MSUzYWxvYy0xODglMjYlMjZkc19lX25ldHdvcmslM2RvJTI2ZHNfdXJsX3YlM2QyJTI2ZHNfZGVzdF91cmwlM2RodHRwcyUzYSUyZiUyZnd3dy5zYWxlc2ZvcmNlLmNvbSUyZnVrJTJmc2FsZXMlMmZkZW1vcyUyZnNhbGVzLWFuYWx5dGljcyUyZiUzZmQlM2Q3MDFlZDAwMDAwZDd5YWtBQUElMjZuYyUzZDcwMWVkMDAwMDBkOHBhR0FBUSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHNlbSUyNnV0bV9jYW1wYWlnbiUzZGVtZWFfeGNfYWxsLXNhbGVzLWNsb3VkLWFwbS1sMl9jcm9zcy1pbmR1c3RyeSUyNnV0bV9jb250ZW50JTNkY3Jvc3Mtc2VnbWVudF9ub24tYnJhbmQlMmJwaHJhc2VfNzAxZWQwMDAwMGQ3eWFrQUFBX2VuZ2xpc2hfc2FsZXMtYW5hbHl0aWNzJTI2Z2NsaWQlM2Q3ZmQ4OThhZmE2NDIxODc2YzcyNmYyNjQ0MWQ5MGNlMyUyNmdjbHNyYyUzZDNwLmRzJTI2JTI2bXNjbGtpZCUzZDdmZDg5OGFmYTY0MjE4NzZjNzI2ZjI2NDQxZDkwY2Uz&rlid=7fd898afa6421876c726f26441d90ce3",
+      "snippet": "Run, update, and manage forecasts with AI predictions and trend insights in Sales Cloud. Track forecast changes in real time and take action with Salesforce Sales Analytics.",
+      "page_text": "Sell smart with sales analytics built into your CRM. | Salesforce UK Skip to content Oops, something went wrong. Please try again later.",
+      "page_text_length": 136
+    },
+    {
+      "query": "\"Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction\" company business",
+      "title": "[2610.07825] Forecast Accuracy Is Not Trading Profit ...",
+      "url": "https://arxiv.org/abs/2610.07825",
+      "snippet": "5 days ago · Across four mid-cap portfolios and three trading years, the evolved networks rank first on both forecast accuracy and net trading performance, while the second most accurate model loses money once positions are formed and costs are charged.",
+      "page_text": "[2610.07825] Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Neural and Evolutionary Computing arXiv:2610.07825 (cs) [Submitted on 6 Oct 2026] Title: Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction Authors: Jonathan Chang , Zimeng Lyu View a PDF of the paper titled Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction, by Jonathan Chang and 1 other authors View PDF HTML (experimental) Abstract: Time series forecasting models are typically compared on pointwise error, which scores a prediction in isolation from the decision it is produced for, and a lower forecast error does not imply a better decision downstream. A parallel debate asks whether modern transformer architectures forecast better than recurrent and other lightweight models. We compare linear, fixed recurrent, transformer, and mixing based architectures against recurrent networks evolved by neuroevolutionary architecture search, evaluating each on forecast accuracy and on the net return of a daily long/short strategy. All models are fit on a pooled panel, one network trained across the whole universe. Across four mid-cap portfolios and three trading years, the evolved networks rank first on both forecast accuracy and net trading performance, while the second most accurate model loses money once positions are formed and costs are charged. The advantage tracks a horizon match, since rank IC for the evolved networks rises from a one-day to a ten-day scoring horizon while every model above 300 parameters declines. They are also the cheapest end to end: a CPU-only search of 16 minutes yields 66-weight networks that predict in 10.8~$\\mu$s on a Raspberry Pi Zero, against transformer baselines of up to 817,153 parameters that require GPU training. Subjects: Neural and Evolutionary Computing (cs.NE) ; Computational Engineering, Finance, and Science (cs.CE); Machine Learning (cs.LG) Cite as: arXiv:2610.07825 [cs.NE] (or arXiv:2610.07825v1 [cs.NE] for this version) https://doi.org/10.48550/arXiv.2610.07825 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Zimeng Lyu [ view email ] [v1] Tue, 6 Oct 2026 06:20:33 UTC (273 KB) Full-text links: Access Paper: View a PDF of the paper titled Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction, by Jonathan Chang and 1 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.NE < prev | next > new | recent | 2026-10 Change to browse by: cs cs.CE cs.LG References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4683
+    },
+    {
+      "query": "\"Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction\" company business",
+      "title": "Forecast Accuracy Is Not Trading Profit: Evolving Small ...",
+      "url": "https://arxivsignals.io/papers/2610.07825",
+      "snippet": "4 days ago · Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction",
+      "page_text": "Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction · ArXivSignals ← Back 2610.07825 2026-10-07 arXiv ↗ Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction Jonathan Chang, Zimeng Lyu cs.CE cs.LG cs.NE new-method inference-optimization time-series-forecasting Evolving small recurrent networks via neuroevolution for efficient and profitable stock return prediction. 38 /100 Research signal ▲ Claims SOTA Standard insight on trading return vs forecast error with neuroevolution. A 0-100 estimate of research signal, scored from the paper&#x27;s own claims against a fixed rubric. It ranks this site; it is not a measure of correctness or importance. Cite & share Copy BibTeX Copy citation Copy link arXiv ↗ @misc{chang2026forecast, title = {Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction}, author = {Jonathan Chang and Zimeng Lyu}, year = {2026}, eprint = {2610.07825}, archivePrefix = {arXiv}, url = {https://arxiv.org/abs/2610.07825} } Abstract Time series forecasting models are typically compared on pointwise error, which scores a prediction in isolation from the decision it is produced for, and a lower forecast error does not imply a better decision downstream. A parallel debate asks whether modern transformer architectures forecast better than recurrent and other lightweight models. We compare linear, fixed recurrent, transformer, and mixing based architectures against recurrent networks evolved by neuroevolutionary architecture search, evaluating each on forecast accuracy and on the net return of a daily long/short strategy. All models are fit on a pooled panel, one network trained across the whole universe. Across four mid-cap portfolios and three trading years, the evolved networks rank first on both forecast accuracy and net trading performance, while the second most accurate model loses money once positions are formed and costs are charged. The advantage tracks a horizon match, since rank IC for the evolved networks rises from a one-day to a ten-day scoring horizon while every model above 300 parameters declines. They are also the cheapest end to end: a CPU-only search of 16 minutes yields 66-weight networks that predict in 10.8~$μ$s on a Raspberry Pi Zero, against transformer baselines of up to 817,153 parameters that require GPU training. Related papers ⚛ by meaning 2410.17212 2024-10-23 45 /100 new-method Neuroevolution Neural Architecture Search for Evolving RNNs in Stock Return Prediction and Portfolio Trading Evolves recurrent neural networks using neuroevolution for stock return prediction and portfolio trading. machine-learning time-series-forecasting ⧉ link ⧉ title ⧉ summary arXiv ↗ 2603.16886 2026-03-19 65 /100 analysis A Controlled Comparison of Deep Learning Architectures for Multi-Horizon Financial Forecasting: Evidence from 918 Experiments A rigorous benchmark of nine deep learning architectures for multi-horizon financial time-series forecasting across 918 experiments. machine-learning model-evaluation time-series-forecasting ⧉ link ⧉ title ⧉ summary arXiv ↗ 2610.10038 2026-10-08 40 /100 application Evolve on the Host, Predict on the Edge: Deploying Online Neuroevolutionary Architecture Search for Cross-sectional Stock Return Prediction Deploying online neuroevolutionary architecture search on a host-edge pipeline for efficient stock return forecasting. edge-ai machine-learning time-series-forecasting ⧉ link ⧉ title ⧉ summary arXiv ↗ 2601.00197 2026-01-05 45 /100 analysis StockBot 2.0: Vanilla LSTMs Outperform Transformer-based Forecasting for Stock Prices Empirical study showing vanilla LSTMs outperform Transformers for stock price forecasting under default hyperparameter settings. machine-learning time-series-forecasting ⧉ link ⧉ title ⧉ summary arXiv ↗ 2502.15853 2025-02-24 35 /100 analysis Multi-Agent Stock Prediction Systems: Machine Learning Models, Simulations, and Real-Time Trading Strategies Compares LSTM, GRU, and attention-based models for stock price prediction and financial forecasting. machine-learning time-series-forecasting ⧉ link ⧉ title ⧉ summary arXiv ↗ ✦ AI summary 2606.27282 2026-06-26 58 /100 analysis How Good Can Linear Models Be for Time-Series Forecasting? Demonstrates that tuned linear models outperform complex architectures like Transformers on standard time-series forecasting benchmarks. time-series-forecasting ⧉ link ⧉ title ⧉ summary arXiv ↗",
+      "page_text_length": 4519
+    },
+    {
+      "query": "\"Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction\" company business",
+      "title": "Forecast Accuracy Is Not Trading Profit: Evolving Small ...",
+      "url": "https://www.catalyzex.com/paper/forecast-accuracy-is-not-trading-profit",
+      "snippet": "Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction: Paper and Code. Time series forecasting models are typically compared on pointwise error, which scores a prediction in isolation from the decision it is produced for, and a lower forecast error does not imply a better decision downstream.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction\" company business",
+      "title": "TL;DR: Forecast Accuracy Is Not Trading Profit: Evolving ...",
+      "url": "https://arxivtldr.org/abs/2610.07825",
+      "snippet": "5 days ago · Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "f941f7cfd645c7e0b1cc49e08b9a7863650352d5c49efaf1dfc4fee701a4c15c",
+      "title": "Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2610.07825",
+      "date": "2026-10-06T06:20:33Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Small recurrent networks top paper’s trading backtest\n\nA study by Jonathan Chang and Zimeng Lyu compares evolved recurrent networks with other forecasting models on a daily long/short strategy. Across four mid-cap portfolios and three trading years, the authors report that their networks ranked first for net trading performance; the second-most-accurate model lost money after positions and costs were included. The paper reports no buyer, customer contract or commercial transaction, and its backtest does not establish real-world investor profits.",
+    "source_record_ids": [
+      "f941f7cfd645c7e0b1cc49e08b9a7863650352d5c49efaf1dfc4fee701a4c15c"
+    ],
+    "format": "market_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "Small recurrent networks top paper’s trading backtest\n\nA study by Jonathan Chang and Zimeng Lyu compares evolved recurrent networks with other forecasting models on a daily long/short strategy. Across four mid-cap portfolios and three trading years, the authors report that their networks ranked first for net trading performance; the second-most-accurate model lost money after positions and costs were included. The paper reports no buyer, customer contract or commercial transaction, and its backtest does not establish real-world investor profits.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: 'Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction'",
+        "The article's headline and body match that story",
+        "The central factual claims are supported by supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organisation, person, capability or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: 'Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction'",
+        "The article's headline and body match that story",
+        "The central factual claims are supported by supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organisation, person, capability or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article concerns the correct assigned story: 'Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction'",
+      "The article's headline and body match that story",
+      "The central factual claims are supported by supplied evidence",
+      "No material invented event, transaction, amount, date, quotation, organisation, person, capability or relationship is presented as fact",
+      "Analysis is distinguishable from reported fact"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "journalist": "TomÃ¡s Vega",
+  "role": "Markets Desk",
+  "journalist_id": "tomas_vega",
+  "generated_at": "2026-10-08T18:39:16.560052+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "899a790743ec96624814b25f7dfc69bbb179d99db0c3788e6a388972e922fbd9",
+      "title": "R-Cloud: marketplace for defence science and technology research",
+      "source": "Dstl",
+      "url": "https://www.gov.uk/guidance/r-cloud",
+      "date": "2026-09-23T09:40:14+00:00",
+      "source_type": "government",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 0,
+          "matched_terms": [],
+          "technical_signals": []
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "market"
+          ],
+          "market_signals": [
+            "market"
+          ]
+        },
+        "gamma": {
+          "score": 10,
+          "matched_terms": [
+            "defence",
+            "mod"
+          ],
+          "strategic_signals": [
+            "defence",
+            "mod",
+            "government"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "R-Cloud positions Dstl as a marketplace for defence science and technology research; terms not disclosed.  \nThe platform changes how research opportunities may be presented to the defence market, but the source identifies no suppliers, customers, awards or commercial beneficiaries.  \nNo contract value, customer count or other commercial measure is provided.",
+    "source_record_ids": [
+      "899a790743ec96624814b25f7dfc69bbb179d99db0c3788e6a388972e922fbd9"
+    ],
+    "format": "market_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

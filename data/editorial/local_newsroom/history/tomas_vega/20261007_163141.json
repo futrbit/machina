@@ -1,0 +1,126 @@
+{
+  "journalist": "Tomás Vega",
+  "role": "Markets Desk",
+  "journalist_id": "tomas_vega",
+  "generated_at": "2026-10-07T16:31:41.027825+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn’t formally request\" company business",
+      "title": "DefenseScoop on X: \"BAE Systems delivers two AMPV 30s to Army built ...",
+      "url": "https://x.com/DefenseScoop/status/2103256480442875910",
+      "snippet": "BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn't formally request:"
+    },
+    {
+      "query": "\"BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn’t formally request\" company business",
+      "title": "BAE Systems delivers two AMPV 30s to Army built with ... - LinkedIn",
+      "url": "https://www.linkedin.com/posts/defensescoop_bae-systems-delivers-two-ampv-30s-to-army-activity-7509022173122985984-Xv3W",
+      "snippet": "BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn't formally request: https://hubs.li/Q04yhBgn0"
+    },
+    {
+      "query": "\"BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn’t formally request\" financial market",
+      "title": "BAE Systems delivers two AMPV 30s to Army built with internal ...",
+      "url": "https://www.newsbreak.com/news/4906694970450-bae-systems-delivers-two-ampv-30s-to-army-built-with-internal-funding-in-project-the-service-didn-t-formally-request",
+      "snippet": "BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn’t formally request"
+    },
+    {
+      "query": "\"BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn’t formally request\" financial market",
+      "title": "BAE Systems spent $17 million building a combat vehicle the ...",
+      "url": "https://www.msn.com/en-us/technology/tech-companies/bae-systems-spent-17-million-building-a-combat-vehicle-the-army-never-ordered/ar-AA2cZyao",
+      "snippet": "In June 2023, the Army awarded XM30 detailed-design and prototype contracts to General Dynamics Land Systems and American Rheinmetall Vehicles. BAE Systems did not advance, leaving the..."
+    },
+    {
+      "query": "\"BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn’t formally request\" deal results investment",
+      "title": "BAE Systems spent $17 million building a combat vehicle the ...",
+      "url": "https://www.msn.com/en-us/news/other/bae-systems-spent-17-million-building-a-combat-vehicle-the-army-never-ordered/ar-AA2cZyao",
+      "snippet": "In June 2023, the Army awarded XM30 detailed-design and prototype contracts to General Dynamics Land Systems and American Rheinmetall Vehicles. BAE Systems did not advance, leaving the..."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "c4fd82da7344b0a816a370ea6c6f47abf3c884e8d2d652ad569a3629eeea5af0",
+      "title": "BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn’t formally request",
+      "source": "CTRL + ALT + DEFENSE",
+      "url": "https://defensescoop.com/2026/09/24/bae-systems-ampv-30-prototypes-army",
+      "date": "2026-09-24T22:51:50+00:00",
+      "source_type": "podcast",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 2,
+          "matched_terms": [
+            "ai",
+            "demo"
+          ],
+          "technical_signals": [
+            "ai",
+            "demo"
+          ]
+        },
+        "beta": {
+          "score": 1,
+          "matched_terms": [
+            "funding"
+          ],
+          "market_signals": [
+            "funding"
+          ]
+        },
+        "gamma": {
+          "score": 2,
+          "matched_terms": [
+            "defense",
+            "army"
+          ],
+          "strategic_signals": [
+            "defense",
+            "army",
+            "podcast"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "BAE Systems delivers two AMPV 30 prototypes to the Army, built with internal funding, in a project the service didn't formally request. The Army awarded XM30 detailed-design and prototype contracts to General Dynamics Land Systems and American Rheinmetall Vehicles in June 2023, leaving BAE Systems out of the competition. The cost of building the AMPV 30 prototypes is reported to be $17 million.",
+    "source_record_ids": [
+      "c4fd82da7344b0a816a370ea6c6f47abf3c884e8d2d652ad569a3629eeea5af0"
+    ],
+    "format": "market_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

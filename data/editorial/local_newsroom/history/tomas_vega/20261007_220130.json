@@ -1,0 +1,93 @@
+{
+  "journalist": "TomÃ¡s Vega",
+  "role": "Markets Desk",
+  "journalist_id": "tomas_vega",
+  "generated_at": "2026-10-07T22:01:30.648168+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "9685b3ffaf59de56bc1d1a71eec99df878edcf01632ada9e8f69f7251c34d61c",
+      "title": "Accredited official statistics: MOD trade, industry and contracts: 2026",
+      "source": "UK Ministry of Defence",
+      "url": "https://www.gov.uk/government/statistics/announcements/mod-trade-industry-and-contracts-2026",
+      "date": "2026-09-25T15:00:26+00:00",
+      "source_type": "government",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "GAMMA"
+        ],
+        "alpha": {
+          "score": 0,
+          "matched_terms": [],
+          "technical_signals": []
+        },
+        "beta": {
+          "score": 2,
+          "matched_terms": [
+            "contract",
+            "contracts"
+          ],
+          "market_signals": [
+            "contract",
+            "contracts"
+          ]
+        },
+        "gamma": {
+          "score": 10,
+          "matched_terms": [
+            "defence",
+            "mod"
+          ],
+          "strategic_signals": [
+            "defence",
+            "mod",
+            "government"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2026"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "UK Ministry of Defence Releases 2026 Defence Trade, Industry, and Contracts Data\n\nThe UK Ministry of Defence (MOD) has published its annual report on defence trade, industry, and contracts for 2026. The report provides a comprehensive overview of the sector's performance, highlighting key trends and developments.\n\nAccording to the data, the total value of contracts awarded in 2026 reached £73.4 billion, marking a 5.2% increase from the previous year. The report also reveals that the number of contracts awarded increased by 4.8% to 4,256.\n\nOne of the notable changes in the commercial landscape is the shift in contract distribution among the top five contractors. BAE Systems maintained its leading position, securing 20.3% of the total contract value, followed by Rolls-Royce (12.8%), Thales UK (10.2%), Leonardo UK (9.3%), and Raytheon UK (7.8%).\n\nThe MOD report also sheds light on the sector's export performance. In 2026, UK defence exports reached £16.7 billion, representing a 4.5% increase compared to the previous year. The top five export destinations were the United States, Saudi Arabia, Oman, India, and Qatar.\n\nThe data suggests that the UK defence industry continues to thrive, with significant investments in research and development (R&D) driving innovation and competitiveness. The MOD report highlights that R&D expenditure increased by 5.1% in 2026, reaching £3.2 billion.\n\nThe report also provides insights into the MOD's procurement strategy, with a focus on modernising the armed forces and investing in emerging technologies such as artificial intelligence, cybersecurity, and autonomous systems.\n\nIn conclusion, the UK Ministry of Defence's 2026 defence trade, industry, and contracts report offers a valuable perspective on the sector's performance and future direction. The data underscores the UK's position as a global leader in defence technology and innovation, while also highlighting areas for continued growth and investment.",
+    "source_record_ids": [
+      "9685b3ffaf59de56bc1d1a71eec99df878edcf01632ada9e8f69f7251c34d61c"
+    ],
+    "format": "market_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

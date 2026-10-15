@@ -1,0 +1,125 @@
+{
+  "journalist": "Tomás Vega",
+  "role": "Markets Desk",
+  "journalist_id": "tomas_vega",
+  "generated_at": "2026-10-07T13:15:50.412771+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Mistral raises €3B to make sovereign, open-weight AI the technology frontier\" company business",
+      "title": "Latest news | Mistral",
+      "url": "https://mistral.ai/news/",
+      "snippet": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
+    },
+    {
+      "query": "\"Mistral raises €3B to make sovereign, open-weight AI the technology frontier\" financial market",
+      "title": "Mistral Raises €3B to Make Sovereign, Open-Weight Al the ...",
+      "url": "https://psgequity.com/news/mistral-raises-3b-to-make-sovereign-open-weight-al-the-technology-frontier",
+      "snippet": "Sep 8, 2026 · September 8, 2026 — Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company, three years after the company's launch."
+    },
+    {
+      "query": "\"Mistral raises €3B to make sovereign, open-weight AI the technology frontier\" financial market",
+      "title": "Making sovereign, open-weight AI the technology frontier ...",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+      "snippet": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company, three years after the company's launch."
+    },
+    {
+      "query": "\"Mistral raises €3B to make sovereign, open-weight AI the technology frontier\" financial market",
+      "title": "Mistral raises €3B to make sovereign, open-weight AI the ...",
+      "url": "https://www.new-techeurope.com/2026/09/08/mistral-raises-e3b-to-make-sovereign-open-weight-ai-the-technology-frontier/",
+      "snippet": "Sep 8, 2026 · Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company, three years after the company’s launch."
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "a3d138fcf45cbbb60015488b7d52f775f2fb78502cc83e94f7bccce27aacf07f",
+      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+      "date": "2026-09-08T12:00:22+00:00",
+      "source_type": "unknown",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "BETA"
+        ],
+        "alpha": {
+          "score": 1,
+          "matched_terms": [
+            "ai"
+          ],
+          "technical_signals": [
+            "ai"
+          ]
+        },
+        "beta": {
+          "score": 3,
+          "matched_terms": [
+            "funding",
+            "valuation",
+            "series d"
+          ],
+          "market_signals": [
+            "funding",
+            "valuation",
+            "series d",
+            "€3 billion",
+            "€21 billion"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "sovereign"
+          ],
+          "strategic_signals": [
+            "sovereign",
+            "unknown"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "€3 billion",
+        "€21 billion"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Mistral raises €3B in Series D funding, valuing the company at over €21B. This is the largest equity fundraising round ever completed by a European technology company, three years after its launch. The funds will be used to develop sovereign, open-weight AI as the technology frontier. Further details on the commercial or procurement aspects, technical limitations, and strategic factors affecting the development are not provided.",
+    "source_record_ids": [
+      "a3d138fcf45cbbb60015488b7d52f775f2fb78502cc83e94f7bccce27aacf07f"
+    ],
+    "format": "market_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

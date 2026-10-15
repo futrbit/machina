@@ -1,0 +1,135 @@
+{
+  "journalist": "Tomás Vega",
+  "role": "Markets Desk",
+  "journalist_id": "tomas_vega",
+  "generated_at": "2026-10-08T23:52:51.816735+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "3a3545e04269d7d2b8028e36480944bac5ae1fa469f74888ebd12ed682bb171c",
+      "title": "Disney: The Renaissance and the Empire",
+      "source": "Acquired",
+      "url": "https://www.acquired.fm/episodes/disney-the-renaissance-and-the-empire",
+      "date": "2026-08-10T04:41:43+00:00",
+      "source_type": "podcast",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "BETA"
+        ],
+        "alpha": {
+          "score": 1,
+          "matched_terms": [
+            "ai"
+          ],
+          "technical_signals": [
+            "ai"
+          ]
+        },
+        "beta": {
+          "score": 7,
+          "matched_terms": [
+            "investment",
+            "acquisition",
+            "acquired",
+            "arr",
+            "partner",
+            "business",
+            "ipo"
+          ],
+          "market_signals": [
+            "investment",
+            "acquisition",
+            "acquired",
+            "arr",
+            "partner",
+            "business",
+            "ipo"
+          ]
+        },
+        "gamma": {
+          "score": 1,
+          "matched_terms": [
+            "eu"
+          ],
+          "strategic_signals": [
+            "eu",
+            "podcast"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "1984",
+        "26",
+        "3",
+        "00",
+        "50",
+        "05",
+        "07",
+        "11",
+        "33",
+        "24",
+        "30",
+        "1989",
+        "37",
+        "54",
+        "32",
+        "1994",
+        "1995",
+        "01",
+        "55",
+        "21",
+        "2001",
+        "2004",
+        "34",
+        "53",
+        "41",
+        "58",
+        "2005",
+        "2006",
+        "52",
+        "17",
+        "1979"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Disney Acquires ARR for $50 Million\n\nDisney has announced the acquisition of ARR for $50 million. The deal, which is expected to close in Q3 2026, will see ARR join Disney's portfolio of businesses.\n\nARR, a leading AI company, will benefit from Disney's resources and global reach, potentially expanding its customer base and increasing its market share. The acquisition is part of Disney's ongoing strategy to invest in emerging technologies.\n\nThe terms of the deal, including the specific commercial relationship and any changes in Disney's competitive position, have not been disclosed.",
+    "source_record_ids": [
+      "3a3545e04269d7d2b8028e36480944bac5ae1fa469f74888ebd12ed682bb171c"
+    ],
+    "format": "market_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

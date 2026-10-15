@@ -1,0 +1,158 @@
+{
+  "journalist": "Sofia Lindqvist",
+  "role": "Industrial Systems & Infrastructure Correspondent",
+  "journalist_id": "sofia_lindqvist",
+  "generated_at": "2026-10-08T18:41:28.754138+00:00",
+  "model": "gemma2:2b",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production\" manufacturing production",
+      "title": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+      "url": "https://arxiv.org/abs/2609.30471",
+      "snippet": "We propose CARGO, a framework that (i) treats retrieved references as procedural exemplars and grounds factual judgments in the live instance's observed context, (ii) assigns each claim a three-way status (supported, contradicted, unverifiable) and penalizes only contradictions, and (iii) gates evaluation by retrieval confidence, casting ...",
+      "page_text": "[2609.30471] CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Computation and Language arXiv:2609.30471 (cs) [Submitted on 24 Sep 2026] Title: CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production Authors: Mukul Chhabra , Shail Patel , Luigi Medrano View a PDF of the paper titled CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production, by Mukul Chhabra and 2 other authors View PDF HTML (experimental) Abstract: Reference-based LLM-as-a-judge evaluation assumes the reference answer is the target. In deployed agentic systems that operate over dynamic entities (support cases, assets, accounts), the closest available reference typically applies the correct procedure to a different entity, so a literal judge penalizes different identifiers, dates, and statuses as errors or hallucinations. We name this failure mode reference-instance divergence (RID). We propose CARGO, a framework that (i) treats retrieved references as procedural exemplars and grounds factual judgments in the live instance's observed context, (ii) assigns each claim a three-way status (supported, contradicted, unverifiable) and penalizes only contradictions, and (iii) gates evaluation by retrieval confidence, casting production evaluation as selective prediction. We introduce CARGO-Bench, a perturbation-based diagnostic suite with ground truth by construction that separates leniency from discrimination. On CARGO-Bench (246 items, two judge models, 7,872 judgments), the standard reference-based judge penalizes 100% of correct entity-transplanted answers and is uninformative (discrimination index DI ~ 0); supplying the live facts without reframing changes nothing. CARGO eliminates these false penalties (0/50) while retaining near-complete contradiction recall (50/50 and 49/50), raising DI to 0.58 [0.48, 0.68]; a rubric-swap control attributes most of the effect to context-grounded dimension definitions. CARGO also exposes a limitation of its own design: the leniency that protects entity values suppresses detection of procedural corruptions (20% recall). A post-hoc fix does not close the gap, and an LLM-as-annotator study with written guidelines and adjudication shows the same blind spot. We release a preregistered protocol for extending the evaluation to expert agreement, risk-coverage, and cost on production traffic. Comments: 15 pages, 1 figure, 5 tables, 1 algorithm. Preprint Subjects: Computation and Language (cs.CL) ; Artificial Intelligence (cs.AI); Machine Learning (cs.LG) Cite as: arXiv:2609.30471 [cs.CL] (or arXiv:2609.30471v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2609.30471 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Mukul Chhabra [ view email ] [v1] Thu, 24 Sep 2026 19:10:52 UTC (43 KB) Full-text links: Access Paper: View a PDF of the paper titled CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production, by Mukul Chhabra and 2 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2026-09 Change to browse by: cs cs.AI cs.LG References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 5151
+    },
+    {
+      "query": "\"CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production\" manufacturing production",
+      "title": "Cargo: Context-Aware Retrieval-Gated Evaluationof Agentic AI in Production",
+      "url": "https://arxiv.org/html/2609.30471v1",
+      "snippet": "Cargo: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production Mukul Chhabra Shail Patel Luigi Medrano Dell Technologies",
+      "page_text": "Cargo: Context-Aware Retrieval-Gated Evaluationof Agentic AI in Production Title: Content selection saved. Describe the issue below: Description: arXiv is now an independent nonprofit! Learn more &times; License: arXiv.org perpetual non-exclusive license arXiv:2609.30471v1 [cs.CL] 24 Sep 2026 Cargo : Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production Mukul Chhabra Shail Patel Luigi Medrano Affiliation: Dell Technologies Abstract Reference-based LLM-as-a-judge evaluation assumes that a reference answer is the target for the response under evaluation. In deployed agentic systems that operate over dynamic entities—support cases, assets, accounts—this assumption fails: the closest available reference typically instantiates the correct procedure on a different entity , so a judge that compares literally penalizes legitimately different identifiers, dates, and statuses as errors or hallucinations. We name this failure mode reference–instance divergence (RID) and show that it is structural rather than incidental. We propose Cargo , a framework that (i) treats retrieved references as procedural exemplars and grounds factual judgments in the live instance’s observed context, (ii) assigns each claim a three-way status—supported, contradicted, or unverifiable—penalizing only contradictions with observed facts, and (iii) gates evaluation by retrieval confidence, casting continuous production evaluation as selective prediction with an explicit risk–coverage–cost trade-off. To measure the effect without relying solely on costly expert labels, we introduce Cargo-Bench , a perturbation-based diagnostic suite whose ground truth holds by construction. Cargo-Bench separates leniency from discrimination : a valid judge must stop penalizing entity transplants while still detecting injected contradictions and procedural corruptions. On Cargo-Bench (246 items, two judge models, 7,872 judgments), the standard reference-based judge penalizes 100% of correct entity-transplanted answers as incorrect and hallucinated—it is uninformative (DI ≈ 0 \\approx 0 )—and supplying the live facts without reframing changes nothing. Cargo eliminates these false penalties (0/50 on transplants) while retaining near-complete contradiction recall (50/50 and 49/50), raising DI to .58 [.48, .68]; a rubric-swap control attributes most of the effect to context-grounded dimension definitions rather than prompt framing. Cargo also exposes a limitation of its own design: the same leniency that protects entity values suppresses detection of procedural corruptions (20% recall), a trade-off DI makes visible; an explicit post-hoc fix targeting exactly this failure does not close the gap ( Δ \\Delta DI = − .007 =-.007 [ − .038 , .023 -.038,.023 ]), and an LLM-as-annotator study with written guidelines and adjudication shows the same blind spot (3/10 procedural corruptions recovered). We release a preregistered protocol for extending the evaluation to expert agreement, risk–coverage, and cost on production traffic. 1 Introduction LLM-as-a-judge has become the default instrument for evaluating open-ended model outputs at scale ( Zheng et al., 2023 ; Liu et al., 2023 ; Gu et al., 2024 ) . In the reference-based variant, a judge is shown a candidate response together with a gold reference and asked to score the candidate’s correctness, completeness, or faithfulness relative to that reference. This paradigm rests on an assumption so familiar that it is rarely stated: the reference is the target . For static tasks such as summarization or knowledge QA the assumption is reasonable. It fails for a large and growing class of deployed systems. Agentic assistants in technical support, customer service, IT operations, and finance answer questions about specific entities —a particular support case, service tag, order, or account—by retrieving facts from backend systems and applying a domain procedure to them. Two users may ask the same question about different entities. The correct answers share a procedure and a structure but differ in almost every surface value. A curated golden set can realistically cover the space of questions and procedures ; it cannot cover the space of entities . Consequently, at production time the nearest available reference is almost always an answer to the same question about a different entity. We call this condition reference–instance divergence (RID). Under RID, a literal reference-based judge systematically confuses two orthogonal properties: whether the response follows the correct procedure, and whether its entity-specific values agree with the reference’s. The second comparison is meaningless—the values should differ—yet it dominates a naive judge’s verdict, depressing correctness scores and inflating hallucination flags. Section 2 formalizes this and shows why the effect is structural rather than a matter of prompt wording. We further observe that in production, evaluation itself is a decision under uncertainty. Not every live interaction has an appropriate reference in the golden set, and a judge applied with an irrelevant reference produces a confidently wrong score. Evaluating every interaction is also expensive. Continuous production evaluation is therefore a selective prediction problem ( El-Yaniv and Wiener, 2010 ; Geifman and El-Yaniv, 2017 ) : the evaluator should abstain when it lacks a valid reference, and the appropriate objects of study are the risk–coverage curve and the cost curve, not a single accuracy number. We present Cargo ( C ontext- A ware R etrieval- G ated evaluati O n), which addresses both problems, and Cargo-Bench , a diagnostic suite that makes the improvement measurable with ground truth that holds by construction. Our contributions are: 1. Problem. We identify and formalize reference–instance divergence, decomposing a response into a transferable procedure and instance-specific parameters, and show that literal reference comparison is not identifiable with respect to procedural correctness under RID (§ 2 ). 2. Method. Cargo (§ 3 ) reinterprets the retrieved reference as a procedural exemplar , grounds factual judgment in observed live context with three-way claim status ( sup / con / unv ), and gates evaluation on retrieval confidence with calibrated and margin-aware variants. It evaluates the full agentic trace—routing, replanning, response type, latency—not only the final answer. 3. Benchmark. Cargo-Bench (§ 4 ) uses five controlled perturbation families (entity transplant, contradiction injection, unverifiable augmentation, procedural corruption, retrieval distractors) to produce labeled evaluation instances by construction. It yields a discrimination index that jointly penalizes false penalties and missed errors, so that a judge cannot score well merely by being lenient. 4. Findings. On Cargo-Bench (246 items), literal reference judging is completely uninformative under RID (DI ≈ 0 \\approx 0 on both judge models: every correct transplant is called wrong and hallucinated), and merely adding the live facts does not help. Cargo removes the false penalties without losing contradiction recall ( Δ \\Delta DI = + .58 =+.58 [.48, .68]). A rubric-swap control shows the effect is carried mostly by context-grounded dimension definitions, and per-family analysis reveals that the method’s leniency over-generalizes from entity values to procedure (20% recall on procedural corruptions); an explicit per-claim-type authority fix we test post-hoc does not resolve this ( Δ \\Delta DI = − .007 =-.007 [ − .038 , .023 -.038,.023 ]), so we characterize rather than patch it (§ 6 –§ 7 ). We further specify a preregistered protocol for expert agreement, retrieval gating, and cost on production traffic (§ 5 ). 2 Reference–Instance Divergence 2.1 Setting A live interaction is a tuple x = ( q , a , c , o ) x=(q,a,c,o) : a user question q q , the system’s answer a a , an observed context c c consisting of instance-specific facts available in the trace input (e.g., case number, subject, description, asset identifier), and a trace o o of observations (planner decision, agent calls, tool outputs, timings). A golden set 𝒢 = { ( q i g , a i g , m i g ) } i = 1 N \\mathcal{G}=\\{(q^{g}_{i},a^{g}_{i},m^{g}_{i})\\}_{i=1}^{N} holds reference questions, reference answers, and metadata m i g m^{g}_{i} such as the expected intent or agent. 2.2 Procedure–parameter decomposition We model an answer as the application of a procedure to instance parameters: a = π ⁡ ( θ ) ⊕ ϵ , a=\\pi(\\theta)\\oplus\\epsilon, (1) where π \\pi is a domain procedure (which checks to perform, which policy to apply, which fields to report, in which structure), θ \\theta is the vector of instance-specific values, and ϵ \\epsilon collects everything else (phrasing, formatting). A reference a g = π g ​ ( θ g ) ⊕ ϵ g a^{g}=\\pi^{g}(\\theta^{g})\\oplus\\epsilon^{g} is written for its own instance θ g \\theta^{g} . The live answer should satisfy π = π g \\pi=\\pi^{g} (correct procedure) and θ \\theta consistent with the live instance, not with θ g \\theta^{g} . 2.3 Non-identifiability of literal comparison A literal reference-based judge computes some divergence D ⁡ ( a , a g ) D(a,a^{g}) and maps it to a score. Under the decomposition, D D mixes two terms, D ⁡ ( a , a g ) ≈ D π ​ ( π , π g ) + D θ ​ ( θ , θ g ) , D(a,a^{g})\\;\\approx\\;D_{\\pi}(\\pi,\\pi^{g})\\;+\\;D_{\\theta}(\\theta,\\theta^{g}), (2) and only the first is informative about quality. When RID holds ( θ ≠ θ g \\theta\\neq\\theta^{g} by design), D θ D_{\\theta} is large for every correct answer. The judge therefore cannot distinguish a correct answer for a different instance from an incorrect one: correctness is not identifiable from D D alone. This is why prompt-level exhortations to “focus on reasoning” are insufficient in practice: the judge is given no signal with which to separate the two terms. The fix must supply that signal—the live instance’s observed facts c c —and must change what the reference is for . 2.4 Three-way claim status Let 𝒦 ⁡ ( a ) \\mathcal{K}(a) be the set of atomic factual claims in a a ( Min et al., 2023 ) . Relative to the observed context c c , each claim k k has a status σ ⁡ ( k ∣ c ) ∈ { sup , con , unv } , \\sigma(k\\mid c)\\in\\{\\textsc{sup},\\;\\textsc{con},\\;\\textsc{unv}\\}, (3) supported if entailed by c c , contradicted if inconsistent with a fact in c c , and unverifiable otherwise. Because c c is a partial snapshot of the request input—the agent legitimately retrieves many more fields from backend systems—the unverifiable class is large and expected. We define ContraRate ⁡ ( a , c ) \\displaystyle\\mathrm{ContraRate}(a,c) = | { k : σ = con } | | 𝒦 ⁡ ( a ) | , \\displaystyle=\\tfrac{|\\{k:\\sigma=\\textsc{con}\\}|}{|\\mathcal{K}(a)|}, (4) UnvRate ⁡ ( a , c ) \\displaystyle\\mathrm{UnvRate}(a,c) = | { k : σ = unv } | | 𝒦 ⁡ ( a ) | . \\displaystyle=\\tfrac{|\\{k:\\sigma=\\textsc{unv}\\}|}{|\\mathcal{K}(a)|}. (5) The central normative choice of Cargo is that hallucination is scored from ContraRate \\mathrm{ContraRate} alone; UnvRate \\mathrm{UnvRate} is reported as a coverage diagnostic rather than folded into a penalty. This choice trades recall on fabricated-but-unverifiable claims for precision on the claims that can actually be checked; § 10 discusses the trade-off and Cargo-Bench P3 measures it. 3 The Cargo Framework Cargo has four components (Figure 1 ): a retrieval gate, a procedural-exemplar reinterpretation of the reference, a context-grounded structured judge, and trace-level diagnostics. Algorithm 1 gives the per-interaction procedure. Figure 1: Overview of Cargo . A live question is embedded and matched against the golden set; if the retrieval margin clears τ \\tau , the retrieved reference is reinterpreted as a procedural exemplar and the answer is judged against it plus the live context; below τ \\tau , Cargo abstains. Both paths log to trace diagnostics. Algorithm 1 Cargo per-interaction evaluation 1: interaction x = ( q , a , c , o ) x=(q,a,c,o) ; golden set 𝒢 \\mathcal{G} wit",
+      "page_text_length": 12000
+    },
+    {
+      "query": "\"CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production\" manufacturing production",
+      "title": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+      "url": "https://arxivsignals.io/papers/2609.30471",
+      "snippet": "CARGO evaluates agentic AI in production by handling reference-instance divergence and grounding factual claims in context.",
+      "page_text": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production · ArXivSignals ← Back 2609.30471 2026-09-28 arXiv ↗ CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production Mukul Chhabra, Shail Patel, Luigi Medrano cs.AI cs.CL cs.LG new-method ai-agents llm-as-a-judge model-evaluation CARGO evaluates agentic AI in production by handling reference-instance divergence and grounding factual claims in context. 60 /100 Research signal ⌘ Code released ▲ Claims SOTA Addresses real-world reference divergence in evaluating production agentic systems. A 0-100 estimate of research signal, scored from the paper&#x27;s own claims against a fixed rubric. It ranks this site; it is not a measure of correctness or importance. Cite & share Copy BibTeX Copy citation Copy link arXiv ↗ @misc{chhabra2026cargo, title = {CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production}, author = {Mukul Chhabra and Shail Patel and Luigi Medrano}, year = {2026}, eprint = {2609.30471}, archivePrefix = {arXiv}, url = {https://arxiv.org/abs/2609.30471} } Abstract Reference-based LLM-as-a-judge evaluation assumes the reference answer is the target. In deployed agentic systems that operate over dynamic entities (support cases, assets, accounts), the closest available reference typically applies the correct procedure to a different entity, so a literal judge penalizes different identifiers, dates, and statuses as errors or hallucinations. We name this failure mode reference-instance divergence (RID). We propose CARGO, a framework that (i) treats retrieved references as procedural exemplars and grounds factual judgments in the live instance&#x27;s observed context, (ii) assigns each claim a three-way status (supported, contradicted, unverifiable) and penalizes only contradictions, and (iii) gates evaluation by retrieval confidence, casting production evaluation as selective prediction. We introduce CARGO-Bench, a perturbation-based diagnostic suite with ground truth by construction that separates leniency from discrimination. On CARGO-Bench (246 items, two judge models, 7,872 judgments), the standard reference-based judge penalizes 100% of correct entity-transplanted answers and is uninformative (discrimination index DI ~ 0); supplying the live facts without reframing changes nothing. CARGO eliminates these false penalties (0/50) while retaining near-complete contradiction recall (50/50 and 49/50), raising DI to 0.58 [0.48, 0.68]; a rubric-swap control attributes most of the effect to context-grounded dimension definitions. CARGO also exposes a limitation of its own design: the leniency that protects entity values suppresses detection of procedural corruptions (20% recall). A post-hoc fix does not close the gap, and an LLM-as-annotator study with written guidelines and adjudication shows the same blind spot. We release a preregistered protocol for extending the evaluation to expert agreement, risk-coverage, and cost on production traffic. Related papers ⚛ by meaning 2608.14950 2026-08-18 62 /100 new-method DA-RAC: Distance-Aware Calibration of LLM Judges for Trustworthy AI Auditing DA-RAC calibrates LLM judges using distance-aware reference anchors to improve trustworthy AI evaluation and reduce false-pass risks. large-language-models llm-as-a-judge model-evaluation uncertainty-quantification ⧉ link ⧉ title ⧉ summary arXiv ↗ 2511.04502 2025-11-07 65 /100 new-method RAGalyst: Automated Human-Aligned Agentic Evaluation for Domain-Specific RAG An agentic framework for generating synthetic datasets and evaluating RAG systems in specialized, safety-critical domains. ai-agents llm-as-a-judge model-evaluation prompt-engineering ⧉ link ⧉ title ⧉ summary arXiv ↗ ✦ AI summary 2606.22737 2026-06-23 49 /100 benchmark GroundEval: A Deterministic Replacement for LLM-as-Judge in Stateful Agent Evaluation A deterministic, judge-free framework for evaluating LLM agent trajectories against grounded, time-bounded, and access-controlled evidence. ai-agents factuality-and-hallucination model-evaluation tool-use ⧉ link ⧉ title ⧉ summary arXiv ↗ 2608.26623 2026-08-28 65 /100 benchmark AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling AgentJudgeBench evaluates LLM-as-a-judge reliability on structured, dependency-driven agentic tool-calling workflows. ai-agents llm-as-a-judge model-evaluation tool-use ⧉ link ⧉ title ⧉ summary arXiv ↗ 2610.09554 2026-10-08 55 /100 benchmark Reliability of LLM Judges for Evaluating Entity Alignment Systematic benchmarking study revealing severe anchor bias in LLM judges for entity alignment tasks. knowledge-graphs llm-as-a-judge model-evaluation ⧉ link ⧉ title ⧉ summary arXiv ↗ 2605.08828 2026-05-12 72 /100 benchmark When Agents Overtrust Environmental Evidence: An Extensible Agentic Framework for Benchmarking Evidence-Grounding Defects in LLM Agents Introduces EnvTrustBench to evaluate evidence-grounding defects where LLM agents overtrust potentially stale or malicious environmental observations. ai-agents ai-safety model-evaluation tool-use ⧉ link ⧉ title ⧉ summary arXiv ↗",
+      "page_text_length": 5131
+    },
+    {
+      "query": "\"CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production\" manufacturing production",
+      "title": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+      "url": "https://www.catalyzex.com/paper/cargo-context-aware-retrieval-gated",
+      "snippet": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production: Paper and Code. Reference-based LLM-as-a-judge evaluation assumes the reference answer is the target. In deployed agentic systems that operate over dynamic entities (support cases, assets, accounts), the closest available reference typically applies the correct procedure to a different entity, so a literal judge ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production\" manufacturing production",
+      "title": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+      "url": "https://www.aimodels.fyi/papers/arxiv/cargo-context-aware-retrieval-gated-evaluation-agentic",
+      "snippet": "CARGO targets reference-instance divergence in agent evaluation CARGO-Bench shows that reference-instance divergence can make a standard LLM-as-a-judge useless for production agents: the judge treats correct answers about a different support case, asset, or account as wrong. CARGO reframes the retrieved answer as a procedural exemplar and checks factual claims against the live interaction ...",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "edf195d35fbff7c979be277b7aeeb8a4e9baf4a1e32fea42e6ca904f482d10a5",
+      "title": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30471",
+      "date": "2026-09-28T04:00:00+00:00",
+      "source_type": "research",
+      "development_type": "",
+      "entities": {
+        "companies": [],
+        "technologies": []
+      },
+      "specialist_routing": {
+        "assigned": [
+          "ALPHA"
+        ],
+        "alpha": {
+          "score": 13,
+          "matched_terms": [
+            "ai",
+            "model",
+            "models",
+            "llm",
+            "production"
+          ],
+          "technical_signals": [
+            "ai",
+            "model",
+            "models",
+            "llm",
+            "production"
+          ]
+        },
+        "beta": {
+          "score": 2,
+          "matched_terms": [
+            "valuation",
+            "production"
+          ],
+          "market_signals": [
+            "valuation",
+            "production",
+            "100%",
+            "20%"
+          ]
+        },
+        "gamma": {
+          "score": 2,
+          "matched_terms": [
+            "mod",
+            "standard"
+          ],
+          "strategic_signals": [
+            "mod",
+            "standard",
+            "research"
+          ]
+        }
+      },
+      "claims": [],
+      "quantitative_signals": [
+        "2609",
+        "246",
+        "7,872",
+        "100%",
+        "0",
+        "50",
+        "49",
+        "0.58",
+        "0.48",
+        "0.68",
+        "20%"
+      ],
+      "evidence": {
+        "available": false,
+        "status_counts": {},
+        "assessment_note": "Evidence statuses are included only where an existing adjudication record could be matched. No new verification is performed here."
+      },
+      "intelligence_state": {
+        "facts_from_source": true,
+        "independent_verification_performed": false,
+        "llm_analysis_performed": false,
+        "interpretive_inference_performed": false
+      },
+      "open_questions": [
+        "What independent evidence confirms the source claims?",
+        "What technical limitations are not established by this source?",
+        "What commercial or procurement evidence exists?",
+        "What government, regulatory or strategic factors affect the development?"
+      ],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "CARGO proposes context-gated evaluation for production AI agents\n\nA Dell Technologies research paper submitted to arXiv on 24 September 2026 proposes CARGO, a research framework rather than a production or factory operation, for evaluating agentic AI outputs against changing live entities. Its process is retrieval-gated LLM-as-a-judge evaluation: retrieved answers serve as procedural exemplars, while each claim is classified as",
+    "source_record_ids": [
+      "edf195d35fbff7c979be277b7aeeb8a4e9baf4a1e32fea42e6ca904f482d10a5"
+    ],
+    "format": "industrial_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}
