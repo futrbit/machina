@@ -1,0 +1,353 @@
+﻿
+  pipelines\specialist_editorial.py:11:
+  pipelines\specialist_editorial.py:12:# ============================================================
+> pipelines\specialist_editorial.py:13:# MACHINA DAILY — SPECIALIST EDITORIAL BOARD
+  pipelines\specialist_editorial.py:14:# ============================================================
+  pipelines\specialist_editorial.py:15:#
+  pipelines\specialist_editorial.py:16:# COMPLETE DEEP RESEARCH POOL
+  pipelines\specialist_editorial.py:26:#   SHARED INVESTIGATION
+  pipelines\specialist_editorial.py:27:#          ↓
+> pipelines\specialist_editorial.py:28:#      FINAL EDITOR
+  pipelines\specialist_editorial.py:29:#          ↓
+  pipelines\specialist_editorial.py:30:#   EXISTING EDITORIAL PAGE
+  pipelines\specialist_editorial.py:31:#
+  pipelines\specialist_editorial.py:34:# GAMMA = STRATEGIC
+  pipelines\specialist_editorial.py:35:#
+> pipelines\specialist_editorial.py:36:# The three specialists investigate THE SAME story from
+  pipelines\specialist_editorial.py:37:# different professional perspectives.
+  pipelines\specialist_editorial.py:38:#
+  pipelines\specialist_editorial.py:39:# Output filenames deliberately match the existing app.py:
+  pipelines\specialist_editorial.py:40:#
+  pipelines\specialist_editorial.py:41:#   machina_original_investigation.json
+> pipelines\specialist_editorial.py:42:#   machina_original_article.json
+  pipelines\specialist_editorial.py:43:#
+  pipelines\specialist_editorial.py:44:# ============================================================
+  pipelines\specialist_editorial.py:45:
+  pipelines\specialist_editorial.py:67:ARTICLE_OUTPUT = (
+  pipelines\specialist_editorial.py:68:    OUTPUT_DIR
+> pipelines\specialist_editorial.py:69:    / "machina_original_article.json"
+  pipelines\specialist_editorial.py:70:)
+  pipelines\specialist_editorial.py:71:
+  pipelines\specialist_editorial.py:72:OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
+  pipelines\specialist_editorial.py:78:
+  pipelines\specialist_editorial.py:79:# ============================================================
+> pipelines\specialist_editorial.py:80:# SPECIALIST PROFILES
+  pipelines\specialist_editorial.py:81:# ============================================================
+  pipelines\specialist_editorial.py:82:
+> pipelines\specialist_editorial.py:83:SPECIALISTS = {
+  pipelines\specialist_editorial.py:84:
+  pipelines\specialist_editorial.py:85:    "alpha": {
+  pipelines\specialist_editorial.py:86:        "name": "ALPHA",
+  pipelines\specialist_editorial.py:301:    }
+  pipelines\specialist_editorial.py:302:
+> pipelines\specialist_editorial.py:303:    body = json.dumps(
+  pipelines\specialist_editorial.py:304:        payload,
+  pipelines\specialist_editorial.py:305:        ensure_ascii=False
+  pipelines\specialist_editorial.py:306:    ).encode("utf-8")
+  pipelines\specialist_editorial.py:707:        ]
+  pipelines\specialist_editorial.py:708:
+> pipelines\specialist_editorial.py:709:        return json.dumps(
+  pipelines\specialist_editorial.py:710:            pieces,
+  pipelines\specialist_editorial.py:711:            ensure_ascii=False
+  pipelines\specialist_editorial.py:712:        ).lower()
+  pipelines\specialist_editorial.py:981:        "why_now": (
+  pipelines\specialist_editorial.py:982:            "The timing rationale must be established from the research "
+> pipelines\specialist_editorial.py:983:            "and specialist evidence; it is not invented during selection."
+  pipelines\specialist_editorial.py:984:        ),
+  pipelines\specialist_editorial.py:985:        "potential_thesis": potential_thesis,
+  pipelines\specialist_editorial.py:986:    }
+  pipelines\specialist_editorial.py:988:
+  pipelines\specialist_editorial.py:989:# ============================================================
+> pipelines\specialist_editorial.py:990:# SPECIALIST INVESTIGATION
+  pipelines\specialist_editorial.py:991:# ============================================================
+  pipelines\specialist_editorial.py:992:
+> pipelines\specialist_editorial.py:993:def specialist_investigation(
+> pipelines\specialist_editorial.py:994:    specialist_key,
+  pipelines\specialist_editorial.py:995:    investigation,
+  pipelines\specialist_editorial.py:996:    record
+  pipelines\specialist_editorial.py:997:):
+  pipelines\specialist_editorial.py:998:
+> pipelines\specialist_editorial.py:999:    profile = SPECIALISTS[
+> pipelines\specialist_editorial.py:1000:        specialist_key
+  pipelines\specialist_editorial.py:1001:    ]
+  pipelines\specialist_editorial.py:1002:
+  pipelines\specialist_editorial.py:1003:    markers = "\n".join(
+  pipelines\specialist_editorial.py:1024:    prompt = f"""
+  pipelines\specialist_editorial.py:1025:You are {profile["name"]}, the
+> pipelines\specialist_editorial.py:1026:{profile["label"]} specialist at Machina Daily.
+  pipelines\specialist_editorial.py:1027:
+  pipelines\specialist_editorial.py:1028:You are one member of a three-person editorial intelligence
+  pipelines\specialist_editorial.py:1029:board.
+  pipelines\specialist_editorial.py:1054:------------------------------------------------------------
+  pipelines\specialist_editorial.py:1055:
+> pipelines\specialist_editorial.py:1056:{json.dumps(
+  pipelines\specialist_editorial.py:1057:    investigation,
+  pipelines\specialist_editorial.py:1058:    ensure_ascii=False,
+  pipelines\specialist_editorial.py:1059:    indent=2
+  pipelines\specialist_editorial.py:1064:------------------------------------------------------------
+  pipelines\specialist_editorial.py:1065:
+> pipelines\specialist_editorial.py:1066:{json.dumps(
+  pipelines\specialist_editorial.py:1067:    record,
+  pipelines\specialist_editorial.py:1068:    ensure_ascii=False,
+  pipelines\specialist_editorial.py:1069:    indent=2
+  pipelines\specialist_editorial.py:1074:Your job is NOT to write the final article.
+  pipelines\specialist_editorial.py:1075:
+> pipelines\specialist_editorial.py:1076:Your job is to produce a rigorous specialist intelligence
+> pipelines\specialist_editorial.py:1077:brief for the final editor.
+  pipelines\specialist_editorial.py:1078:
+  pipelines\specialist_editorial.py:1079:Find:
+  pipelines\specialist_editorial.py:1080:
+  pipelines\specialist_editorial.py:1086:6. What the other editors should understand.
+  pipelines\specialist_editorial.py:1087:7. What question the final article should investigate.
+> pipelines\specialist_editorial.py:1088:8. What original insight your specialist perspective adds.
+  pipelines\specialist_editorial.py:1089:
+  pipelines\specialist_editorial.py:1090:Do not invent:
+  pipelines\specialist_editorial.py:1091:
+  pipelines\specialist_editorial.py:1102:
+  pipelines\specialist_editorial.py:1103:{{
+> pipelines\specialist_editorial.py:1104:  "specialist": "{profile['name']}",
+  pipelines\specialist_editorial.py:1105:  "discipline": "{profile['label']}",
+  pipelines\specialist_editorial.py:1106:  "assessment": "",
+  pipelines\specialist_editorial.py:1107:  "established_facts": [],
+  pipelines\specialist_editorial.py:1110:  "data_gaps": [],
+  pipelines\specialist_editorial.py:1111:  "contradictions": [],
+> pipelines\specialist_editorial.py:1112:  "specialist_question": "",
+  pipelines\specialist_editorial.py:1113:  "original_insight": "",
+  pipelines\specialist_editorial.py:1114:  "confidence": 0,
+  pipelines\specialist_editorial.py:1115:  "source_records": []
+  pipelines\specialist_editorial.py:1128:
+  pipelines\specialist_editorial.py:1129:# ============================================================
+> pipelines\specialist_editorial.py:1130:# FINAL EDITOR
+  pipelines\specialist_editorial.py:1131:# ============================================================
+  pipelines\specialist_editorial.py:1132:
+> pipelines\specialist_editorial.py:1133:def final_editor(
+  pipelines\specialist_editorial.py:1134:    investigation,
+  pipelines\specialist_editorial.py:1135:    record,
+  pipelines\specialist_editorial.py:1136:    alpha,
+  pipelines\specialist_editorial.py:1144:You have one deeply researched technology investigation.
+  pipelines\specialist_editorial.py:1145:
+> pipelines\specialist_editorial.py:1146:Three specialist intelligence analysts have examined it:
+  pipelines\specialist_editorial.py:1147:
+  pipelines\specialist_editorial.py:1148:ALPHA — TECHNICAL INTELLIGENCE
+  pipelines\specialist_editorial.py:1149:BETA — CAPITAL INTELLIGENCE
+  pipelines\specialist_editorial.py:1161:------------------------------------------------------------
+  pipelines\specialist_editorial.py:1162:
+> pipelines\specialist_editorial.py:1163:{json.dumps(
+  pipelines\specialist_editorial.py:1164:    investigation,
+  pipelines\specialist_editorial.py:1165:    ensure_ascii=False,
+  pipelines\specialist_editorial.py:1166:    indent=2
+  pipelines\specialist_editorial.py:1171:------------------------------------------------------------
+  pipelines\specialist_editorial.py:1172:
+> pipelines\specialist_editorial.py:1173:{json.dumps(
+  pipelines\specialist_editorial.py:1174:    record,
+  pipelines\specialist_editorial.py:1175:    ensure_ascii=False,
+  pipelines\specialist_editorial.py:1176:    indent=2
+  pipelines\specialist_editorial.py:1181:------------------------------------------------------------
+  pipelines\specialist_editorial.py:1182:
+> pipelines\specialist_editorial.py:1183:{json.dumps(
+  pipelines\specialist_editorial.py:1184:    alpha,
+  pipelines\specialist_editorial.py:1185:    ensure_ascii=False,
+  pipelines\specialist_editorial.py:1186:    indent=2
+  pipelines\specialist_editorial.py:1191:------------------------------------------------------------
+  pipelines\specialist_editorial.py:1192:
+> pipelines\specialist_editorial.py:1193:{json.dumps(
+  pipelines\specialist_editorial.py:1194:    beta,
+  pipelines\specialist_editorial.py:1195:    ensure_ascii=False,
+  pipelines\specialist_editorial.py:1196:    indent=2
+  pipelines\specialist_editorial.py:1201:------------------------------------------------------------
+  pipelines\specialist_editorial.py:1202:
+> pipelines\specialist_editorial.py:1203:{json.dumps(
+  pipelines\specialist_editorial.py:1204:    gamma,
+  pipelines\specialist_editorial.py:1205:    ensure_ascii=False,
+  pipelines\specialist_editorial.py:1206:    indent=2
+  pipelines\specialist_editorial.py:1402:
+  pipelines\specialist_editorial.py:1403:
+> pipelines\specialist_editorial.py:1404:def editorial_web_research(investigation, record):
+  pipelines\specialist_editorial.py:1405:    import email.utils
+  pipelines\specialist_editorial.py:1406:    import html
+  pipelines\specialist_editorial.py:1407:    import urllib.parse
+  pipelines\specialist_editorial.py:1415:    title = str(
+  pipelines\specialist_editorial.py:1416:        record.get("title")
+> pipelines\specialist_editorial.py:1417:        or investigation.get("title")
+> pipelines\specialist_editorial.py:1418:        or investigation.get("central_question")
+  pipelines\specialist_editorial.py:1419:        or "technology industry developments"
+  pipelines\specialist_editorial.py:1420:    ).strip()
+  pipelines\specialist_editorial.py:1421:    central_question = str(
+> pipelines\specialist_editorial.py:1422:        investigation.get("central_question")
+  pipelines\specialist_editorial.py:1423:        or record.get("central_question")
+  pipelines\specialist_editorial.py:1424:        or ""
+  pipelines\specialist_editorial.py:1425:    ).strip()
+  pipelines\specialist_editorial.py:1712:    print("Web research status:", status)
+  pipelines\specialist_editorial.py:1713:    if not ranked:
+> pipelines\specialist_editorial.py:1714:        print("No RSS results retrieved; specialists will use existing research.")
+  pipelines\specialist_editorial.py:1715:    elif not readable_count:
+  pipelines\specialist_editorial.py:1716:        print("RSS metadata is available, but no article text was readable.")
+  pipelines\specialist_editorial.py:1717:    return result
+  pipelines\specialist_editorial.py:1724:    print("=" * 70)
+  pipelines\specialist_editorial.py:1725:    print(
+> pipelines\specialist_editorial.py:1726:        "MACHINA DAILY — SPECIALIST EDITORIAL ENGINE"
+  pipelines\specialist_editorial.py:1727:    )
+  pipelines\specialist_editorial.py:1728:    print("=" * 70)
+  pipelines\specialist_editorial.py:1729:    print()
+  pipelines\specialist_editorial.py:1788:
+  pipelines\specialist_editorial.py:1789:        selected_index = int(
+> pipelines\specialist_editorial.py:1790:            investigation[
+  pipelines\specialist_editorial.py:1791:                "selected_pool_index"
+  pipelines\specialist_editorial.py:1792:            ]
+  pipelines\specialist_editorial.py:1793:        )
+  pipelines\specialist_editorial.py:1801:
+  pipelines\specialist_editorial.py:1802:    selected_research_id = clean(
+> pipelines\specialist_editorial.py:1803:        investigation.get("research_id")
+  pipelines\specialist_editorial.py:1804:    )
+  pipelines\specialist_editorial.py:1805:
+  pipelines\specialist_editorial.py:1806:    index_record = next(
+  pipelines\specialist_editorial.py:1872:    print(
+  pipelines\specialist_editorial.py:1873:        f"Editorial score: "
+> pipelines\specialist_editorial.py:1874:        f"{investigation.get('score', '')}"
+  pipelines\specialist_editorial.py:1875:    )
+  pipelines\specialist_editorial.py:1876:
+  pipelines\specialist_editorial.py:1877:    print(
+  pipelines\specialist_editorial.py:1878:        f"Central question: "
+> pipelines\specialist_editorial.py:1879:        f"{investigation.get('central_question', '')}"
+  pipelines\specialist_editorial.py:1880:    )
+  pipelines\specialist_editorial.py:1881:
+  pipelines\specialist_editorial.py:1882:    print()
+  pipelines\specialist_editorial.py:1886:    # --------------------------------------------------------
+  pipelines\specialist_editorial.py:1887:
+> pipelines\specialist_editorial.py:1888:    web_evidence = editorial_web_research(
+  pipelines\specialist_editorial.py:1889:        investigation,
+  pipelines\specialist_editorial.py:1890:        selected_record
+  pipelines\specialist_editorial.py:1891:    )
+  pipelines\specialist_editorial.py:1892:
+> pipelines\specialist_editorial.py:1893:    investigation["web_research"] = web_evidence
+  pipelines\specialist_editorial.py:1894:
+  pipelines\specialist_editorial.py:1895:    # --------------------------------------------------------
+> pipelines\specialist_editorial.py:1896:    # SPECIALIST BOARD
+  pipelines\specialist_editorial.py:1897:    # --------------------------------------------------------
+  pipelines\specialist_editorial.py:1898:
+  pipelines\specialist_editorial.py:1899:    board = {}
+  pipelines\specialist_editorial.py:1900:
+> pipelines\specialist_editorial.py:1901:    for specialist_key in [
+  pipelines\specialist_editorial.py:1902:        "alpha",
+  pipelines\specialist_editorial.py:1903:        "beta",
+  pipelines\specialist_editorial.py:1904:        "gamma"
+  pipelines\specialist_editorial.py:1905:    ]:
+  pipelines\specialist_editorial.py:1906:
+> pipelines\specialist_editorial.py:1907:        profile = SPECIALISTS[
+> pipelines\specialist_editorial.py:1908:            specialist_key
+  pipelines\specialist_editorial.py:1909:        ]
+  pipelines\specialist_editorial.py:1910:
+  pipelines\specialist_editorial.py:1911:        print("=" * 70)
+  pipelines\specialist_editorial.py:1924:        )
+  pipelines\specialist_editorial.py:1925:
+> pipelines\specialist_editorial.py:1926:        result = specialist_investigation(
+> pipelines\specialist_editorial.py:1927:            specialist_key,
+  pipelines\specialist_editorial.py:1928:            investigation,
+  pipelines\specialist_editorial.py:1929:            selected_record
+  pipelines\specialist_editorial.py:1930:        )
+  pipelines\specialist_editorial.py:1931:
+  pipelines\specialist_editorial.py:1932:        board[
+> pipelines\specialist_editorial.py:1933:            specialist_key
+  pipelines\specialist_editorial.py:1934:        ] = result
+  pipelines\specialist_editorial.py:1935:
+  pipelines\specialist_editorial.py:1936:        print()
+  pipelines\specialist_editorial.py:1937:
+  pipelines\specialist_editorial.py:1938:        print(
+> pipelines\specialist_editorial.py:1939:            "SPECIALIST COMPLETE"
+  pipelines\specialist_editorial.py:1940:        )
+  pipelines\specialist_editorial.py:1941:
+  pipelines\specialist_editorial.py:1942:        print(
+  pipelines\specialist_editorial.py:1947:        print(
+  pipelines\specialist_editorial.py:1948:            f"Question: "
+> pipelines\specialist_editorial.py:1949:            f"{result.get('specialist_question', '')}"
+  pipelines\specialist_editorial.py:1950:        )
+  pipelines\specialist_editorial.py:1951:
+  pipelines\specialist_editorial.py:1952:        print()
+  pipelines\specialist_editorial.py:1953:
+  pipelines\specialist_editorial.py:1954:    # --------------------------------------------------------
+> pipelines\specialist_editorial.py:1955:    # SAVE INVESTIGATION
+  pipelines\specialist_editorial.py:1956:    # --------------------------------------------------------
+  pipelines\specialist_editorial.py:1957:    #
+  pipelines\specialist_editorial.py:1958:    # This filename is already expected by app.py.
+  pipelines\specialist_editorial.py:1999:
+  pipelines\specialist_editorial.py:2000:            "central_question":
+> pipelines\specialist_editorial.py:2001:                investigation.get(
+  pipelines\specialist_editorial.py:2002:                    "central_question",
+  pipelines\specialist_editorial.py:2003:                    ""
+  pipelines\specialist_editorial.py:2004:                ),
+  pipelines\specialist_editorial.py:2005:
+  pipelines\specialist_editorial.py:2006:            "why_now":
+> pipelines\specialist_editorial.py:2007:                investigation.get(
+  pipelines\specialist_editorial.py:2008:                    "why_now",
+  pipelines\specialist_editorial.py:2009:                    ""
+  pipelines\specialist_editorial.py:2010:                ),
+  pipelines\specialist_editorial.py:2011:
+  pipelines\specialist_editorial.py:2012:            "thesis":
+> pipelines\specialist_editorial.py:2013:                investigation.get(
+  pipelines\specialist_editorial.py:2014:                    "potential_thesis",
+  pipelines\specialist_editorial.py:2015:                    ""
+  pipelines\specialist_editorial.py:2016:                ),
+  pipelines\specialist_editorial.py:2035:    }
+  pipelines\specialist_editorial.py:2036:
+> pipelines\specialist_editorial.py:2037:    INVESTIGATION_OUTPUT.write_text(
+> pipelines\specialist_editorial.py:2038:        json.dumps(
+  pipelines\specialist_editorial.py:2039:            investigation_payload,
+  pipelines\specialist_editorial.py:2040:            ensure_ascii=False,
+  pipelines\specialist_editorial.py:2041:            indent=2
+  pipelines\specialist_editorial.py:2047:
+  pipelines\specialist_editorial.py:2048:    print(
+> pipelines\specialist_editorial.py:2049:        "SPECIALIST INVESTIGATION SAVED"
+  pipelines\specialist_editorial.py:2050:    )
+  pipelines\specialist_editorial.py:2051:
+  pipelines\specialist_editorial.py:2052:    print("=" * 70)
+  pipelines\specialist_editorial.py:2059:
+  pipelines\specialist_editorial.py:2060:    # --------------------------------------------------------
+> pipelines\specialist_editorial.py:2061:    # FINAL EDITOR
+  pipelines\specialist_editorial.py:2062:    # --------------------------------------------------------
+  pipelines\specialist_editorial.py:2063:
+  pipelines\specialist_editorial.py:2064:    print("=" * 70)
+  pipelines\specialist_editorial.py:2065:
+  pipelines\specialist_editorial.py:2066:    print(
+> pipelines\specialist_editorial.py:2067:        "FINAL EDITOR"
+  pipelines\specialist_editorial.py:2068:    )
+  pipelines\specialist_editorial.py:2069:
+  pipelines\specialist_editorial.py:2070:    print("=" * 70)
+  pipelines\specialist_editorial.py:2078:    print()
+  pipelines\specialist_editorial.py:2079:
+> pipelines\specialist_editorial.py:2080:    article = final_editor(
+  pipelines\specialist_editorial.py:2081:        investigation,
+  pipelines\specialist_editorial.py:2082:        selected_record,
+  pipelines\specialist_editorial.py:2083:        board["alpha"],
+  pipelines\specialist_editorial.py:2087:
+  pipelines\specialist_editorial.py:2088:    # --------------------------------------------------------
+> pipelines\specialist_editorial.py:2089:    # SAVE FINAL ARTICLE
+  pipelines\specialist_editorial.py:2090:    # --------------------------------------------------------
+  pipelines\specialist_editorial.py:2091:    #
+  pipelines\specialist_editorial.py:2092:    # This filename is already expected by app.py.
+  pipelines\specialist_editorial.py:2108:            investigation,
+  pipelines\specialist_editorial.py:2109:
+> pipelines\specialist_editorial.py:2110:        "specialists": {
+  pipelines\specialist_editorial.py:2111:
+  pipelines\specialist_editorial.py:2112:            "alpha":
+  pipelines\specialist_editorial.py:2113:                board["alpha"],
+  pipelines\specialist_editorial.py:2129:    }
+  pipelines\specialist_editorial.py:2130:
+> pipelines\specialist_editorial.py:2131:    ARTICLE_OUTPUT.write_text(
+> pipelines\specialist_editorial.py:2132:        json.dumps(
+  pipelines\specialist_editorial.py:2133:            article_payload,
+  pipelines\specialist_editorial.py:2134:            ensure_ascii=False,
+  pipelines\specialist_editorial.py:2135:            indent=2
+  pipelines\specialist_editorial.py:2152:
+  pipelines\specialist_editorial.py:2153:    print(
+> pipelines\specialist_editorial.py:2154:        "SPECIALIST EDITORIAL COMPLETE"
+  pipelines\specialist_editorial.py:2155:    )
+  pipelines\specialist_editorial.py:2156:
+  pipelines\specialist_editorial.py:2157:    print("=" * 70)
+  pipelines\specialist_editorial.py:2189:
+  pipelines\specialist_editorial.py:2190:    print(
+> pipelines\specialist_editorial.py:2191:        "SAVED:"
+  pipelines\specialist_editorial.py:2192:    )
+  pipelines\specialist_editorial.py:2193:
+  pipelines\specialist_editorial.py:2194:    print(
+
+

@@ -1,0 +1,2777 @@
+{
+  "generated_at": "2026-10-11T19:36:53.917783Z",
+  "pipeline": "editorial_formatter",
+  "version": "1.0",
+  "purpose": "Clean editorial intelligence layer between the Machina Daily research system and journalist agents.",
+  "stats": {
+    "developments_processed": 44,
+    "editorial_candidates": 36,
+    "filtered": 8,
+    "weak": 0
+  },
+  "story_candidates": [
+    {
+      "story_id": "story_0001",
+      "development_id": "development_0001",
+      "headline": "Tesla set to unveil self-driving car service in Austin",
+      "what_changed": "Tesla set to unveil self-driving car service in Austin",
+      "why_now": "This development was first seen on 2025-06-22T00:00:00 and most recently appears in the intelligence on 2025-06-29T00:00:00. The observed development spans 7 days. It is represented by 2 source domain(s).",
+      "story_type": "autonomous_mobility",
+      "topics": [
+        "autonomous_mobility"
+      ],
+      "evidence_strength": "multi-source",
+      "confidence": 94.0,
+      "editorial_score": 75.5,
+      "article_count": 5,
+      "source_count": 2,
+      "sources": [
+        "futurism.com",
+        "theguardian.com"
+      ],
+      "first_seen": "2025-06-22T00:00:00",
+      "last_seen": "2025-06-29T00:00:00",
+      "date_span_days": 7,
+      "known_facts": [
+        "‘Lidar is lame’: why Elon Musk’s vision for a self-driving Tesla taxi faltered [theguardian.com] (2025-06-29T00:00:00)",
+        "Tesla set to unveil self-driving car service in Austin [theguardian.com] (2025-06-22T00:00:00)",
+        "US investigates Tesla’s Robotaxi launch after videos show erratically driving cars [theguardian.com] (2025-06-24T00:00:00)",
+        "Tesla Executive Admits That Self-Driving Is Going Nowhere Fast [futurism.com]",
+        "Self-Driving Tesla Suddenly Swerves Off the Road and Crashes [futurism.com]"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "013330091d3068aaeeedfde3179c4078",
+          "title": "‘Lidar is lame’: why Elon Musk’s vision for a self-driving Tesla taxi faltered",
+          "source": "theguardian.com",
+          "published": "2025-06-29T00:00:00",
+          "url": "https://www.theguardian.com/technology/2025/jun/29/elon-musk-tesla-robotaxi",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "6e509070baf06e81b1da47d9b31c9804",
+          "title": "Tesla set to unveil self-driving car service in Austin",
+          "source": "theguardian.com",
+          "published": "2025-06-22T00:00:00",
+          "url": "https://www.theguardian.com/technology/2025/jun/22/tesla-robotaxi-austin",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "70778ab7bfc7454eab05a712f2d18d98",
+          "title": "US investigates Tesla’s Robotaxi launch after videos show erratically driving cars",
+          "source": "theguardian.com",
+          "published": "2025-06-24T00:00:00",
+          "url": "https://www.theguardian.com/technology/2025/jun/24/tesla-robotaxi-investigation-us",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "7c1d47d547bc5d97b70f3daaaceb5fc0",
+          "title": "Tesla Executive Admits That Self-Driving Is Going Nowhere Fast",
+          "source": "futurism.com",
+          "published": "",
+          "url": "https://futurism.com/tesla-executive-fsd",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "b2ff9630846d60f20eeec3314aab4054",
+          "title": "Self-Driving Tesla Suddenly Swerves Off the Road and Crashes",
+          "source": "futurism.com",
+          "published": "",
+          "url": "https://futurism.com/self-driving-tesla-swerves-off-road-crashes",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0020",
+      "development_id": "development_0020",
+      "headline": "This DJI Neo 2 update makes selfie drone even better for travel",
+      "what_changed": "This DJI Neo 2 update makes selfie drone even better for travel",
+      "why_now": "This development was first seen on 2026-04-28T00:00:00 and most recently appears in the intelligence on 2026-05-06T00:00:00. The observed development spans 8 days. It is represented by 1 source domain(s).",
+      "story_type": "drones",
+      "topics": [
+        "drones"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 83.0,
+      "editorial_score": 74.0,
+      "article_count": 8,
+      "source_count": 1,
+      "sources": [
+        "dronedj.com"
+      ],
+      "first_seen": "2026-04-28T00:00:00",
+      "last_seen": "2026-05-06T00:00:00",
+      "date_span_days": 8,
+      "known_facts": [
+        "FCC’s DJI drone ban review now depends on public feedback [dronedj.com] (2026-05-06T00:00:00)",
+        "SkyfireAI raises $11M for autonomous drone coordination [dronedj.com] (2026-05-01T00:00:00)",
+        "Skydio’s $3.5 billion US drone expansion begins [dronedj.com] (2026-04-30T00:00:00)",
+        "This DJI Neo 2 update makes selfie drone even better for travel [dronedj.com] (2026-04-28T00:00:00)",
+        "Drone ban is one thing, why can’t America get other DJI gadgets? [dronedj.com] (2026-04-29T00:00:00)",
+        "Antigravity A1 drone gets major upgrade with AI editing, Voice Control [dronedj.com] (2026-05-01T00:00:00)",
+        "DJI users are creating videos you won’t believe [dronedj.com] (2026-04-29T00:00:00)",
+        "Project Eternal turns Antigravity drones into time machines [dronedj.com] (2026-04-30T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "0475ae0f3493e9680da290a8d5b2226b",
+          "title": "FCC’s DJI drone ban review now depends on public feedback",
+          "source": "dronedj.com",
+          "published": "2026-05-06T00:00:00",
+          "url": "https://dronedj.com/2026/05/06/dji-drone-ban-fcc-comments/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "0f19debf1df35d88e88f3b6bcda64c4c",
+          "title": "SkyfireAI raises $11M for autonomous drone coordination",
+          "source": "dronedj.com",
+          "published": "2026-05-01T00:00:00",
+          "url": "https://dronedj.com/2026/05/01/skyfireai-autonomous-drone-seed-funding/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "157f50f726c1daf3375b63a483701cde",
+          "title": "Skydio’s $3.5 billion US drone expansion begins",
+          "source": "dronedj.com",
+          "published": "2026-04-30T00:00:00",
+          "url": "https://dronedj.com/2026/04/30/skydio-drone-funding-skyforge-us/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "5f00ec737d7ae551be3c0636d05ac88e",
+          "title": "This DJI Neo 2 update makes selfie drone even better for travel",
+          "source": "dronedj.com",
+          "published": "2026-04-28T00:00:00",
+          "url": "https://dronedj.com/2026/04/28/firmware-update-dji-neo-2/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "6f3284cad2da889615ff8ca5ae24c1da",
+          "title": "Drone ban is one thing, why can’t America get other DJI gadgets?",
+          "source": "dronedj.com",
+          "published": "2026-04-29T00:00:00",
+          "url": "https://dronedj.com/2026/04/29/drone-ban-dji-new-launch/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "85a98e87bb0120217ffa3f6563198051",
+          "title": "Antigravity A1 drone gets major upgrade with AI editing, Voice Control",
+          "source": "dronedj.com",
+          "published": "2026-05-01T00:00:00",
+          "url": "https://dronedj.com/2026/05/01/firmware-update-antigravity-a1-drone/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "915d4b6ca00ce9481364628646887c2a",
+          "title": "DJI users are creating videos you won’t believe",
+          "source": "dronedj.com",
+          "published": "2026-04-29T00:00:00",
+          "url": "https://dronedj.com/2026/04/29/dji-skypixel-2026-contest-winners/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "e5661b35bc421829420fbf658401c358",
+          "title": "Project Eternal turns Antigravity drones into time machines",
+          "source": "dronedj.com",
+          "published": "2026-04-30T00:00:00",
+          "url": "https://dronedj.com/2026/04/30/antigravity-drone-3d-project-eternal/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0019",
+      "development_id": "development_0019",
+      "headline": "FCC drone ban could put America’s aerial light shows at risk",
+      "what_changed": "FCC drone ban could put America’s aerial light shows at risk",
+      "why_now": "This development was first seen on 2026-09-14T00:00:00 and most recently appears in the intelligence on 2026-09-19T00:00:00. The observed development spans 5 days. It is represented by 1 source domain(s).",
+      "story_type": "drones",
+      "topics": [
+        "drones"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 81.0,
+      "editorial_score": 72.4,
+      "article_count": 10,
+      "source_count": 1,
+      "sources": [
+        "dronedj.com"
+      ],
+      "first_seen": "2026-09-14T00:00:00",
+      "last_seen": "2026-09-19T00:00:00",
+      "date_span_days": 5,
+      "known_facts": [
+        "Alabama photographer’s $5,000 DJI drone shot out of the sky [dronedj.com] (2026-09-15T00:00:00)",
+        "Your DJI Osmo Pocket 4 just learned some impressive new tricks [dronedj.com] (2026-09-17T00:00:00)",
+        "Emesent scanners can now send point clouds straight into Trimble [dronedj.com] (2026-09-16T00:00:00)",
+        "FCC drone ban could put America’s aerial light shows at risk [dronedj.com] (2026-09-14T00:00:00)",
+        "Airwise adds another Remote ID partner to its airspace platform [dronedj.com] (2026-09-16T00:00:00)",
+        "US Marine Corps share videos of what training with drones looks like [dronedj.com] (2026-09-19T00:00:00)",
+        "ABZ Innovation opens massive new drone production hub in Europe [dronedj.com] (2026-09-18T00:00:00)",
+        "FrameTap just got better, and DJI Pocket 4P owners will notice [dronedj.com] (2026-09-17T00:00:00)",
+        "DJI SDR Transmission 2 brings 4K HDR to crowded film sets [dronedj.com] (2026-09-18T00:00:00)",
+        "Drone Assistant wants to make international drone rules less painful [dronedj.com] (2026-09-16T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "03043d076206a4878feef4a107b43123",
+          "title": "Alabama photographer’s $5,000 DJI drone shot out of the sky",
+          "source": "dronedj.com",
+          "published": "2026-09-15T00:00:00",
+          "url": "https://dronedj.com/2026/09/15/dji-drone-shot-down-alabama/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "03b17e6b83ad551f31be03616e91ebd2",
+          "title": "Your DJI Osmo Pocket 4 just learned some impressive new tricks",
+          "source": "dronedj.com",
+          "published": "2026-09-17T00:00:00",
+          "url": "https://dronedj.com/2026/09/17/dji-pocket-4-firmware-update/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "0fd9e776787f6da269035946baae0d69",
+          "title": "Emesent scanners can now send point clouds straight into Trimble",
+          "source": "dronedj.com",
+          "published": "2026-09-16T00:00:00",
+          "url": "https://dronedj.com/2026/09/16/emesent-trimble-lidar-drone-data/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "43bf04540f7a190f00f07f15bcbd64ee",
+          "title": "FCC drone ban could put America’s aerial light shows at risk",
+          "source": "dronedj.com",
+          "published": "2026-09-14T00:00:00",
+          "url": "https://dronedj.com/2026/09/14/skyworx-swarming-drone-fcc-ban/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "9c63bb6be3f5fd14d3f40ddd4720d634",
+          "title": "Airwise adds another Remote ID partner to its airspace platform",
+          "source": "dronedj.com",
+          "published": "2026-09-16T00:00:00",
+          "url": "https://dronedj.com/2026/09/16/airwise-remote-id-uas-sentry/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "b1c668d6634804e9e624eb446d17edd3",
+          "title": "US Marine Corps share videos of what training with drones looks like",
+          "source": "dronedj.com",
+          "published": "2026-09-19T00:00:00",
+          "url": "https://dronedj.com/2026/09/19/us-marine-corps-share-videos-of-what-training-with-drones-looks-like/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "cc2fb7cced9a0ea5320c16cf1d416532",
+          "title": "ABZ Innovation opens massive new drone production hub in Europe",
+          "source": "dronedj.com",
+          "published": "2026-09-18T00:00:00",
+          "url": "https://dronedj.com/2026/09/18/abz-innovation-drone-manufacturing-europe/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "e1acb5b19ef369ff424bed42ed7b566e",
+          "title": "FrameTap just got better, and DJI Pocket 4P owners will notice",
+          "source": "dronedj.com",
+          "published": "2026-09-17T00:00:00",
+          "url": "https://dronedj.com/2026/09/17/dji-pocket-4p-new-firmware/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "f1eac64c0370d62b6941b35e8e747ce2",
+          "title": "DJI SDR Transmission 2 brings 4K HDR to crowded film sets",
+          "source": "dronedj.com",
+          "published": "2026-09-18T00:00:00",
+          "url": "https://dronedj.com/2026/09/18/dji-sdr-transmission-2-buy/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "ffb5a39bb2a6d903752eeddc0440dff2",
+          "title": "Drone Assistant wants to make international drone rules less painful",
+          "source": "dronedj.com",
+          "published": "2026-09-16T00:00:00",
+          "url": "https://dronedj.com/2026/09/16/flyby-guys-drone-assistant-rules/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0002",
+      "development_id": "development_0002",
+      "headline": "Trump’s Executive Order on drones unleashes BVLOS drone flights",
+      "what_changed": "Trump’s Executive Order on drones unleashes BVLOS drone flights",
+      "why_now": "This development was first seen on 2025-06-06T00:00:00 and most recently appears in the intelligence on 2025-06-19T00:00:00. The observed development spans 13 days. It is represented by 2 source domain(s).",
+      "story_type": "drones",
+      "topics": [
+        "drones",
+        "Drones"
+      ],
+      "evidence_strength": "multi-source",
+      "confidence": 87.0,
+      "editorial_score": 71.9,
+      "article_count": 4,
+      "source_count": 2,
+      "sources": [
+        "suasnews.com",
+        "thedronegirl.com"
+      ],
+      "first_seen": "2025-06-06T00:00:00",
+      "last_seen": "2025-06-19T00:00:00",
+      "date_span_days": 13,
+      "known_facts": [
+        "Trump’s Executive Order on drones unleashes BVLOS drone flights [thedronegirl.com] (2025-06-06T00:00:00)",
+        "Trump’s drone security Executive Order seeks to usher in era of “American Airspace Sovereignty” [thedronegirl.com] (2025-06-09T00:00:00)",
+        "Trump’s stance on drones: how we should think about a drone reboot in 2025 [thedronegirl.com] (2025-06-19T00:00:00)",
+        "Unleashing American Drone Dominance [suasnews.com] (2025-06-07T05:25:51+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "6445ad75e9513d4f56390ccd8f0127ff",
+          "title": "Trump’s Executive Order on drones unleashes BVLOS drone flights",
+          "source": "thedronegirl.com",
+          "published": "2025-06-06T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/06/06/executive-order-bvlos/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "947b1e14a5b9617046e67e05736d9aa4",
+          "title": "Trump’s drone security Executive Order seeks to usher in era of “American Airspace Sovereignty”",
+          "source": "thedronegirl.com",
+          "published": "2025-06-09T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/06/09/trumps-drone-security-executive-order/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "a82853932faf05c14d6616ba30d68ec7",
+          "title": "Trump’s stance on drones: how we should think about a drone reboot in 2025",
+          "source": "thedronegirl.com",
+          "published": "2025-06-19T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/06/19/trumps-stance-on-drones-2025/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "a9732b190dd1e0208bebbfaf5582fd1e",
+          "title": "Unleashing American Drone Dominance",
+          "source": "suasnews.com",
+          "published": "2025-06-07T05:25:51+00:00",
+          "url": "https://www.suasnews.com/2025/06/unleashing-american-drone-dominance/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0018",
+      "development_id": "development_0018",
+      "headline": "Rugged UAVs & Unmanned Systems for Challenging Government, Defence & Commercial Applications",
+      "what_changed": "Rugged UAVs & Unmanned Systems for Challenging Government, Defence & Commercial Applications",
+      "why_now": "This development was first seen on 2026-04-30T00:00:00 and most recently appears in the intelligence on 2026-05-06T00:00:00. The observed development spans 6 days. It is represented by 1 source domain(s).",
+      "story_type": "drones",
+      "topics": [
+        "drones"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 80.0,
+      "editorial_score": 71.7,
+      "article_count": 11,
+      "source_count": 1,
+      "sources": [
+        "unmannedsystemstechnology.com"
+      ],
+      "first_seen": "2026-04-30T00:00:00",
+      "last_seen": "2026-05-06T00:00:00",
+      "date_span_days": 6,
+      "known_facts": [
+        "Most Read Articles on Unmanned Systems Technology in April 2026 [unmannedsystemstechnology.com] (2026-05-01T05:43:00+00:00)",
+        "Battery Manufacturing Technology for Unmanned Systems [unmannedsystemstechnology.com]",
+        "Rugged UAVs & Unmanned Systems for Challenging Government, Defence & Commercial Applications [unmannedsystemstechnology.com] (2026-04-30T15:01:46+00:00)",
+        "Defense Portfolio Bolstered Through AI & Target Recognition Specialist Acquisition [unmannedsystemstechnology.com] (2026-05-06T06:06:00+00:00)",
+        "ABRIS DG Highlights ISR & Tactical UAV Capabilities at FIDAE 2026 [unmannedsystemstechnology.com] (2026-05-06T05:49:00+00:00)",
+        "Skyeton Integrates Anti-Interceptor & Threat Detection Into Raybird UAV [unmannedsystemstechnology.com] (2026-05-06T05:29:00+00:00)",
+        "EAVISION Unveils Autonomous Drone Capabilities & Agricultural Solutions at Agrishow 2026 [unmannedsystemstechnology.com] (2026-05-01T05:51:00+00:00)",
+        "Elistair’s Khronos Tethered DroneBox Supports Multi-Domain Operations & ORION 2026 [unmannedsystemstechnology.com] (2026-05-06T05:51:00+00:00)",
+        "Meteksan Defence to Highlight Combat‑Proven Systems & Global Partnerships at SAHA 2026 [unmannedsystemstechnology.com] (2026-05-01T05:41:00+00:00)",
+        "Teledyne FLIR & Emesent Expand Integration of LiDAR Payloads for Unmanned Systems [unmannedsystemstechnology.com] (2026-05-01T05:25:00+00:00)",
+        "Ubiqconn & Subsidiary RuggON to Showcase Next-Gen C5ISR & Edge AI Solutions [unmannedsystemstechnology.com] (2026-05-06T06:28:00+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "105fef14ea156d207c905465191fbb10",
+          "title": "Most Read Articles on Unmanned Systems Technology in April 2026",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-01T05:43:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/most-read-articles-on-unmanned-systems-technology-in-april-2026/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "1d092c53675792d058a70ad6f45d6a9d",
+          "title": "Battery Manufacturing Technology for Unmanned Systems",
+          "source": "unmannedsystemstechnology.com",
+          "published": "",
+          "url": "https://www.unmannedsystemstechnology.com/expo/uav-battery-manufacturing-technology/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "1f212febe03479831cb8903fa9bc6455",
+          "title": "Rugged UAVs & Unmanned Systems for Challenging Government, Defence & Commercial Applications",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-04-30T15:01:46+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/04/rugged-uavs-unmanned-systems-for-challenging-government-defence-commercial-applications/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "20343f4b79e139b9035eee9528d2f4d3",
+          "title": "Defense Portfolio Bolstered Through AI & Target Recognition Specialist Acquisition",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-06T06:06:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/defense-portfolio-bolstered-through-ai-target-recognition-specialist-acquisition/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "60cc73111ca8a7ce42b0761818c9a3ec",
+          "title": "ABRIS DG Highlights ISR & Tactical UAV Capabilities at FIDAE 2026",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-06T05:49:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/abris-dg-showcases-advanced-uav-solutions-isr-capabilities-at-fidae-2026/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "635c31e8d28e6fb24e65fd67db2fea08",
+          "title": "Skyeton Integrates Anti-Interceptor & Threat Detection Into Raybird UAV",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-06T05:29:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/skyeton-integrates-anti-interceptor-threat-detection-into-raybird-uav/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "6c05ab205725ddf03620304535031b81",
+          "title": "EAVISION Unveils Autonomous Drone Capabilities & Agricultural Solutions at Agrishow 2026",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-01T05:51:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/eavision-unveils-autonomous-drone-capabilities-agricultural-solutions-at-agrishow-2026/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "6c50d7686fb4f0a18095823533f7d278",
+          "title": "Elistair’s Khronos Tethered DroneBox Supports Multi-Domain Operations & ORION 2026",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-06T05:51:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/elistairs-khronos-tethered-dronebox-supports-multi-domain-operations-orion-2026/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "9884d0cbbabd331418c3a52a620b0039",
+          "title": "Meteksan Defence to Highlight Combat‑Proven Systems & Global Partnerships at SAHA 2026",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-01T05:41:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/meteksan-defence-to-highlight-combat-proven-systems-global-partnerships-at-saha-2026/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "a36777b57915bcc5811280b94a25d189",
+          "title": "Teledyne FLIR & Emesent Expand Integration of LiDAR Payloads for Unmanned Systems",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-01T05:25:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/teledyne-flir-emesent-expand-integration-of-lidar-payloads-for-unmanned-systems/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "fe5486bc8381ffa973cc3a4fd83db0ff",
+          "title": "Ubiqconn & Subsidiary RuggON to Showcase Next-Gen C5ISR & Edge AI Solutions",
+          "source": "unmannedsystemstechnology.com",
+          "published": "2026-05-06T06:28:00+00:00",
+          "url": "https://www.unmannedsystemstechnology.com/2026/05/ubiqconn-subsidiary-ruggon-to-showcase-next-gen-c5isr-edge-ai-solutions/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0003",
+      "development_id": "development_0003",
+      "headline": "Meta reportedly plans $10 billion investment in Scale AI",
+      "what_changed": "Meta reportedly plans $10 billion investment in Scale AI",
+      "why_now": "This development was first seen on 2025-06-08T00:00:00 and most recently appears in the intelligence on 2025-06-11T00:00:00. The observed development spans 3 days. It is represented by 2 source domain(s).",
+      "story_type": "ai_infrastructure",
+      "topics": [
+        "ai_infrastructure"
+      ],
+      "evidence_strength": "multi-source",
+      "confidence": 80.0,
+      "editorial_score": 68.6,
+      "article_count": 3,
+      "source_count": 2,
+      "sources": [
+        "the-decoder.com",
+        "unite.ai"
+      ],
+      "first_seen": "2025-06-08T00:00:00",
+      "last_seen": "2025-06-11T00:00:00",
+      "date_span_days": 3,
+      "known_facts": [
+        "Meta invests $14B in Scale AI, acquires 49% stake and superintelligence lab leader [the-decoder.com] (2025-06-11T09:49:29+00:00)",
+        "Why Meta’s Biggest AI Bet Isn’t on Models—It’s on Data [unite.ai] (2025-06-09T03:17:59+00:00)",
+        "Meta reportedly plans $10 billion investment in Scale AI [the-decoder.com] (2025-06-08T08:51:29+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "3503cd9704e5918f9a0b2747a458081c",
+          "title": "Meta invests $14B in Scale AI, acquires 49% stake and superintelligence lab leader",
+          "source": "the-decoder.com",
+          "published": "2025-06-11T09:49:29+00:00",
+          "url": "https://the-decoder.com/meta-invests-14b-in-scale-ai-acquires-49-stake-and-superintelligence-lab-leader/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "51a7c77064e221cfc8732b687c31e627",
+          "title": "Why Meta’s Biggest AI Bet Isn’t on Models—It’s on Data",
+          "source": "unite.ai",
+          "published": "2025-06-09T03:17:59+00:00",
+          "url": "https://www.unite.ai/why-metas-biggest-ai-bet-isnt-on-models-its-on-data/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "591186019f0b6dfbf4a29d9caaf60b79",
+          "title": "Meta reportedly plans $10 billion investment in Scale AI",
+          "source": "the-decoder.com",
+          "published": "2025-06-08T08:51:29+00:00",
+          "url": "https://the-decoder.com/meta-reportedly-plans-10-billion-investment-in-scale-ai/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0004",
+      "development_id": "development_0004",
+      "headline": "UK government brings forward self-driving pilots to spring 2026",
+      "what_changed": "UK government brings forward self-driving pilots to spring 2026",
+      "why_now": "This development was first seen on 2025-06-10T00:00:00 and most recently appears in the intelligence on 2025-06-11T00:00:00. The observed development spans 1 days. It is represented by 2 source domain(s).",
+      "story_type": "autonomous_mobility",
+      "topics": [
+        "autonomous_mobility"
+      ],
+      "evidence_strength": "multi-source",
+      "confidence": 80.0,
+      "editorial_score": 68.4,
+      "article_count": 3,
+      "source_count": 2,
+      "sources": [
+        "autonomousvehicleinternational.com",
+        "theguardian.com"
+      ],
+      "first_seen": "2025-06-10T00:00:00",
+      "last_seen": "2025-06-11T00:00:00",
+      "date_span_days": 1,
+      "known_facts": [
+        "UK government brings forward self-driving pilots to spring 2026 [autonomousvehicleinternational.com] (2025-06-10T09:49:56+00:00)",
+        "‘They’re living in fantasy land’: Uber to trial self-driving taxis in London next spring [theguardian.com] (2025-06-10T00:00:00)",
+        "Wayve and Uber partner to launch L4 autonomy trials in the UK [autonomousvehicleinternational.com] (2025-06-11T09:23:29+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "76b7f634d5da82bbfe425fef1a7c59f7",
+          "title": "UK government brings forward self-driving pilots to spring 2026",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-06-10T09:49:56+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/legislation/self-driving-vehicle-pilots-set-to-start-in-england-from-spring-2026.html",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "8b9c2cdab7034d1370a22b8865bbc088",
+          "title": "‘They’re living in fantasy land’: Uber to trial self-driving taxis in London next spring",
+          "source": "theguardian.com",
+          "published": "2025-06-10T00:00:00",
+          "url": "https://www.theguardian.com/technology/2025/jun/10/uber-uk-trial-of-self-driving-taxis-brought-forward-to-spring-2026",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "e63fa9697db7b6f04eb085f50622b1ee",
+          "title": "Wayve and Uber partner to launch L4 autonomy trials in the UK",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-06-11T09:23:29+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/wayve-and-uber-partner-to-launch-l4-autonomy-trials-in-the-uk.html",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0006",
+      "development_id": "development_0006",
+      "headline": "Drone show leaders unite to develop drone show safety standards",
+      "what_changed": "Drone show leaders unite to develop drone show safety standards",
+      "why_now": "This development was first seen on 2025-06-16T00:00:00 and most recently appears in the intelligence on 2025-06-17T00:00:00. The observed development spans 1 days. It is represented by 2 source domain(s).",
+      "story_type": "drones",
+      "topics": [
+        "drones"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 73.0,
+      "editorial_score": 65.1,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "suasnews.com",
+        "thedronegirl.com"
+      ],
+      "first_seen": "2025-06-16T00:00:00",
+      "last_seen": "2025-06-17T00:00:00",
+      "date_span_days": 1,
+      "known_facts": [
+        "Drone Technology Experts Form Task Group to Establish Drone Show Safety Standards [suasnews.com] (2025-06-17T04:10:06+00:00)",
+        "Drone show leaders unite to develop drone show safety standards [thedronegirl.com] (2025-06-16T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "0a4d623c4044a93f8f301d2bcb79baf5",
+          "title": "Drone Technology Experts Form Task Group to Establish Drone Show Safety Standards",
+          "source": "suasnews.com",
+          "published": "2025-06-17T04:10:06+00:00",
+          "url": "https://www.suasnews.com/2025/06/drone-technology-experts-form-task-group-to-establish-drone-show-safety-standards/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "a7f6640e5ef8c6f9c9759562c19c417b",
+          "title": "Drone show leaders unite to develop drone show safety standards",
+          "source": "thedronegirl.com",
+          "published": "2025-06-16T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/06/16/drone-show-safety-standards/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0007",
+      "development_id": "development_0007",
+      "headline": "Nintendo Switch 2 launch day build-up live: all the latest news, updates, and our thoughts ahead of the console's release",
+      "what_changed": "Nintendo Switch 2 launch day build-up live: all the latest news, updates, and our thoughts ahead of the console's release",
+      "why_now": "This development was first seen on 2025-06-04T00:00:00 and most recently appears in the intelligence on 2025-06-11T00:00:00. The observed development spans 7 days. It is represented by 2 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 73.0,
+      "editorial_score": 65.0,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "arstechnica.com",
+        "techradar.com"
+      ],
+      "first_seen": "2025-06-04T00:00:00",
+      "last_seen": "2025-06-11T00:00:00",
+      "date_span_days": 7,
+      "known_facts": [
+        "Nintendo Switch 2 launch day build-up live: all the latest news, updates, and our thoughts ahead of the console's release [techradar.com] (2025-06-04T12:00:34+00:00)",
+        "11 things you probably didn’t know the Switch 2 can do [arstechnica.com] (2025-06-11T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "0aac9eb3cc370dc0acf115375a664310",
+          "title": "Nintendo Switch 2 launch day build-up live: all the latest news, updates, and our thoughts ahead of the console's release",
+          "source": "techradar.com",
+          "published": "2025-06-04T12:00:34+00:00",
+          "url": "https://www.techradar.com/news/live/nintendo-switch-2-launch-day-build-up-review-in-progress-live",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "f887220105641559405da3e4f4bd642b",
+          "title": "11 things you probably didn’t know the Switch 2 can do",
+          "source": "arstechnica.com",
+          "published": "2025-06-11T00:00:00",
+          "url": "https://arstechnica.com/gaming/2025/06/11-things-you-probably-didnt-know-the-switch-2-can-do/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0008",
+      "development_id": "development_0008",
+      "headline": "Altitude Angel awarded U.S. Patent for groundbreaking ARROW technology",
+      "what_changed": "Altitude Angel awarded U.S. Patent for groundbreaking ARROW technology",
+      "why_now": "This development was first seen on 2025-06-10T00:00:00 and most recently appears in the intelligence on 2025-06-25T00:00:00. The observed development spans 15 days. It is represented by 2 source domain(s).",
+      "story_type": "policy_regulation",
+      "topics": [
+        "policy_regulation"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 73.0,
+      "editorial_score": 64.9,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "suasnews.com",
+        "thedronegirl.com"
+      ],
+      "first_seen": "2025-06-10T00:00:00",
+      "last_seen": "2025-06-25T00:00:00",
+      "date_span_days": 15,
+      "known_facts": [
+        "Could ARROW patent offer insights into future of U.S. BVLOS drone operations? [thedronegirl.com] (2025-06-25T00:00:00)",
+        "Altitude Angel awarded U.S. Patent for groundbreaking ARROW technology [suasnews.com] (2025-06-10T14:37:16+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "3537b2ee5e04c0a7826352241fcdaec1",
+          "title": "Could ARROW patent offer insights into future of U.S. BVLOS drone operations?",
+          "source": "thedronegirl.com",
+          "published": "2025-06-25T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/06/25/arrow-patent/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "35ad279869502a5de246c0d7e4e02c09",
+          "title": "Altitude Angel awarded U.S. Patent for groundbreaking ARROW technology",
+          "source": "suasnews.com",
+          "published": "2025-06-10T14:37:16+00:00",
+          "url": "https://www.suasnews.com/2025/06/altitude-angel-awarded-u-s-patent-for-groundbreaking-arrow-technology/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0015",
+      "development_id": "development_0015",
+      "headline": "AI Acts Differently When It Knows It’s Being Tested, Research Finds",
+      "what_changed": "AI Acts Differently When It Knows It’s Being Tested, Research Finds",
+      "why_now": "This development was first seen on 2025-06-04T00:00:00 and most recently appears in the intelligence on 2025-06-06T00:00:00. The observed development spans 2 days. It is represented by 2 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 72.0,
+      "editorial_score": 64.0,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "the-decoder.com",
+        "unite.ai"
+      ],
+      "first_seen": "2025-06-04T00:00:00",
+      "last_seen": "2025-06-06T00:00:00",
+      "date_span_days": 2,
+      "known_facts": [
+        "AI Acts Differently When It Knows It’s Being Tested, Research Finds [unite.ai] (2025-06-04T13:39:45+00:00)",
+        "AI models can spot when they're being tested and act differently [the-decoder.com] (2025-06-06T12:36:33+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "060a8a62b7000dea84fa7a2f06d6d0cc",
+          "title": "AI Acts Differently When It Knows It’s Being Tested, Research Finds",
+          "source": "unite.ai",
+          "published": "2025-06-04T13:39:45+00:00",
+          "url": "https://www.unite.ai/ai-acts-differently-when-it-knows-its-being-tested-research-finds/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "e907693267222d7643a059d4ad556bc2",
+          "title": "AI models can spot when they're being tested and act differently",
+          "source": "the-decoder.com",
+          "published": "2025-06-06T12:36:33+00:00",
+          "url": "https://the-decoder.com/ai-models-can-spot-when-theyre-being-tested-and-act-differently/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0005",
+      "development_id": "development_0005",
+      "headline": "SwissDrones Expands in the US With New Customer Southern Company",
+      "what_changed": "SwissDrones Expands in the US With New Customer Southern Company",
+      "why_now": "This development was first seen on 2025-06-17T00:00:00 and most recently appears in the intelligence on 2025-06-17T00:00:00. It is represented by 2 source domain(s).",
+      "story_type": "drones",
+      "topics": [
+        "drones",
+        "Drones"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 64.0,
+      "editorial_score": 62.2,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "suasnews.com",
+        "thedronegirl.com"
+      ],
+      "first_seen": "2025-06-17T00:00:00",
+      "last_seen": "2025-06-17T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "SwissDrones Expands in the US With New Customer Southern Company [suasnews.com] (2025-06-17T19:55:04+00:00)",
+        "Southern Company becomes first U.S. energy utility to deploy heavy unmanned helicopters for long-range inspections [thedronegirl.com] (2025-06-17T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "85e5675a952314b6eeff8c7a3d13efb1",
+          "title": "SwissDrones Expands in the US With New Customer Southern Company",
+          "source": "suasnews.com",
+          "published": "2025-06-17T19:55:04+00:00",
+          "url": "https://www.suasnews.com/2025/06/swissdrones-expands-in-the-us-with-new-customer-southern-company/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "92e29e161a6aa23a28ffccf9dd83ac74",
+          "title": "Southern Company becomes first U.S. energy utility to deploy heavy unmanned helicopters for long-range inspections",
+          "source": "thedronegirl.com",
+          "published": "2025-06-17T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/06/17/southern-company-swissdrones/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0009",
+      "development_id": "development_0009",
+      "headline": "Google's Veo 3 Fast now generates 720p AI videos at more than double the previous speed",
+      "what_changed": "Google's Veo 3 Fast now generates 720p AI videos at more than double the previous speed",
+      "why_now": "This development was first seen on 2025-06-10T00:00:00 and most recently appears in the intelligence on 2025-06-10T00:00:00. It is represented by 2 source domain(s).",
+      "story_type": "artificial_intelligence",
+      "topics": [
+        "artificial_intelligence"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 62.0,
+      "editorial_score": 60.8,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "futurefive.co.nz",
+        "the-decoder.com"
+      ],
+      "first_seen": "2025-06-10T00:00:00",
+      "last_seen": "2025-06-10T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "Google adds photo-to-video tool to Gemini as Veo 3 rollout expands [futurefive.co.nz]",
+        "Google's Veo 3 Fast now generates 720p AI videos at more than double the previous speed [the-decoder.com] (2025-06-10T19:42:00+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "4a13f559a961fb4de2e1b499c0f9ef21",
+          "title": "Google adds photo-to-video tool to Gemini as Veo 3 rollout expands",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/google-adds-photo-to-video-tool-to-gemini-as-veo-3-rollout-expands",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "51b300b8729ebab9955bb5c6d453598e",
+          "title": "Google's Veo 3 Fast now generates 720p AI videos at more than double the previous speed",
+          "source": "the-decoder.com",
+          "published": "2025-06-10T19:42:00+00:00",
+          "url": "https://the-decoder.com/googles-veo-3-fast-now-generates-720p-ai-videos-at-more-than-double-the-previous-speed/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0010",
+      "development_id": "development_0010",
+      "headline": "Jeff Bezos’s Washinton Post Plans to Add Random Opinion Writers Edited by AI",
+      "what_changed": "Jeff Bezos’s Washinton Post Plans to Add Random Opinion Writers Edited by AI",
+      "why_now": "This development was first seen on 2025-06-05T00:00:00 and most recently appears in the intelligence on 2025-06-05T00:00:00. It is represented by 2 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 62.0,
+      "editorial_score": 60.8,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "futurism.com",
+        "gizmodo.com"
+      ],
+      "first_seen": "2025-06-05T00:00:00",
+      "last_seen": "2025-06-05T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "The Washington Post Is Secretly Planning to Start Publishing Articles Created Using AI [futurism.com]",
+        "Jeff Bezos’s Washinton Post Plans to Add Random Opinion Writers Edited by AI [gizmodo.com] (2025-06-05T17:40:04+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "0480b4eeb5a0d282d8d8e6fdf06f7aca",
+          "title": "The Washington Post Is Secretly Planning to Start Publishing Articles Created Using AI",
+          "source": "futurism.com",
+          "published": "",
+          "url": "https://futurism.com/washington-post-ai-articles",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "86f82a502d16264f6853b1608ed5a6e3",
+          "title": "Jeff Bezos’s Washinton Post Plans to Add Random Opinion Writers Edited by AI",
+          "source": "gizmodo.com",
+          "published": "2025-06-05T17:40:04+00:00",
+          "url": "https://gizmodo.com/jeff-bezoss-wapo-plans-to-add-random-opinion-writers-edited-by-ai-2000611689",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0011",
+      "development_id": "development_0011",
+      "headline": "Autonomous trucking developer Plus goes public via SPAC",
+      "what_changed": "Autonomous trucking developer Plus goes public via SPAC",
+      "why_now": "This development was first seen on 2025-06-06T00:00:00 and most recently appears in the intelligence on 2025-06-06T00:00:00. It is represented by 2 source domain(s).",
+      "story_type": "autonomous_mobility",
+      "topics": [
+        "autonomous_mobility"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 62.0,
+      "editorial_score": 60.8,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "autonomousvehicleinternational.com",
+        "therobotreport.com"
+      ],
+      "first_seen": "2025-06-06T00:00:00",
+      "last_seen": "2025-06-06T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "Autonomous trucking developer Plus goes public via SPAC [therobotreport.com] (2025-06-06T20:18:43+00:00)",
+        "Plus and Churchill IX announce SPAC merger to form PlusAI ahead of IPO [autonomousvehicleinternational.com] (2025-06-06T14:33:57+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "891820fdcaffcd0ecea917848c359bf9",
+          "title": "Autonomous trucking developer Plus goes public via SPAC",
+          "source": "therobotreport.com",
+          "published": "2025-06-06T20:18:43+00:00",
+          "url": "https://www.therobotreport.com/autonomous-trucking-developer-plus-goes-public-via-spac/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "9dd47689341d5ef9699e345265ab542c",
+          "title": "Plus and Churchill IX announce SPAC merger to form PlusAI ahead of IPO",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-06-06T14:33:57+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/trucks/plus-and-churchill-ix-announce-merger-agreement-to-form-plusai.html",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0013",
+      "development_id": "development_0013",
+      "headline": "OpenAI improves \"Projects\" in ChatGPT",
+      "what_changed": "OpenAI improves \"Projects\" in ChatGPT",
+      "why_now": "This development was first seen on 2025-06-13T00:00:00 and most recently appears in the intelligence on 2025-06-13T00:00:00. It is represented by 2 source domain(s).",
+      "story_type": "artificial_intelligence",
+      "topics": [
+        "artificial_intelligence"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 62.0,
+      "editorial_score": 60.6,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "the-decoder.com",
+        "unite.ai"
+      ],
+      "first_seen": "2025-06-13T00:00:00",
+      "last_seen": "2025-06-13T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "OpenAI improves \"Projects\" in ChatGPT [the-decoder.com] (2025-06-13T14:14:59+00:00)",
+        "6 New ChatGPT Projects Features You Need to Know [unite.ai] (2025-06-13T20:27:33+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "0b747542c61f8051b7595c53cf59b7f9",
+          "title": "OpenAI improves \"Projects\" in ChatGPT",
+          "source": "the-decoder.com",
+          "published": "2025-06-13T14:14:59+00:00",
+          "url": "https://the-decoder.com/openai-improves-projects-in-chatgpt/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "457c792f33dec912c7c0591e5dd92b20",
+          "title": "6 New ChatGPT Projects Features You Need to Know",
+          "source": "unite.ai",
+          "published": "2025-06-13T20:27:33+00:00",
+          "url": "https://www.unite.ai/6-new-chatgpt-projects-features-you-need-to-know/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0014",
+      "development_id": "development_0014",
+      "headline": "Google Deepmind launches Weather Lab to test AI models for tropical cyclone forecasting",
+      "what_changed": "Google Deepmind launches Weather Lab to test AI models for tropical cyclone forecasting",
+      "why_now": "This development was first seen on 2025-06-14T00:00:00 and most recently appears in the intelligence on 2025-06-14T00:00:00. It is represented by 2 source domain(s).",
+      "story_type": "artificial_intelligence",
+      "topics": [
+        "artificial_intelligence"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 62.0,
+      "editorial_score": 60.6,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "research.google",
+        "the-decoder.com"
+      ],
+      "first_seen": "2025-06-14T00:00:00",
+      "last_seen": "2025-06-14T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "From research to climate resilience [research.google]",
+        "Google Deepmind launches Weather Lab to test AI models for tropical cyclone forecasting [the-decoder.com] (2025-06-14T11:47:42+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "6f072209e7c44b506db3a1b0fb3c98bf",
+          "title": "From research to climate resilience",
+          "source": "research.google",
+          "published": "",
+          "url": "https://research.google/blog/how-ai-is-helping-us-build-a-more-resilient-planet/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "7096a5fd5cd904eea59c37c89bf17294",
+          "title": "Google Deepmind launches Weather Lab to test AI models for tropical cyclone forecasting",
+          "source": "the-decoder.com",
+          "published": "2025-06-14T11:47:42+00:00",
+          "url": "https://the-decoder.com/google-deepmind-launches-weather-lab-to-test-ai-models-for-tropical-cyclone-forecasting/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0017",
+      "development_id": "development_0017",
+      "headline": "MLE-STAR is designed to automate machine learning pipelines with minimal human input",
+      "what_changed": "MLE-STAR is designed to automate machine learning pipelines with minimal human input",
+      "why_now": "This development was first seen on 2025-08-04T00:00:00 and most recently appears in the intelligence on 2025-08-04T00:00:00. It is represented by 2 source domain(s).",
+      "story_type": "artificial_intelligence",
+      "topics": [
+        "artificial_intelligence",
+        "Machine Learning"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 61.0,
+      "editorial_score": 59.7,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "research.google",
+        "the-decoder.com"
+      ],
+      "first_seen": "2025-08-04T00:00:00",
+      "last_seen": "2025-08-04T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "MLE-STAR: A state-of-the-art machine learning engineering agent [research.google]",
+        "MLE-STAR is designed to automate machine learning pipelines with minimal human input [the-decoder.com] (2025-08-04T15:15:10+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "b4ee47305b11888b59bae0f3ec8a481c",
+          "title": "MLE-STAR: A state-of-the-art machine learning engineering agent",
+          "source": "research.google",
+          "published": "",
+          "url": "https://research.google/blog/mle-star-a-state-of-the-art-machine-learning-engineering-agents/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "dc05fbf70502663c735cde0d6f45c567",
+          "title": "MLE-STAR is designed to automate machine learning pipelines with minimal human input",
+          "source": "the-decoder.com",
+          "published": "2025-08-04T15:15:10+00:00",
+          "url": "https://the-decoder.com/googles-mle-star-is-designed-to-automate-complex-machine-learning-pipelines-with-minimal-human-input/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0021",
+      "development_id": "development_0021",
+      "headline": "U.S. finally releases long-awaited BVLOS drone rule. Here’s what it means for the industry",
+      "what_changed": "U.S. finally releases long-awaited BVLOS drone rule. Here’s what it means for the industry",
+      "why_now": "This development was first seen on 2025-08-06T00:00:00 and most recently appears in the intelligence on 2025-08-08T00:00:00. The observed development spans 2 days. It is represented by 1 source domain(s).",
+      "story_type": "drones",
+      "topics": [
+        "drones"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 64.0,
+      "editorial_score": 58.5,
+      "article_count": 3,
+      "source_count": 1,
+      "sources": [
+        "thedronegirl.com"
+      ],
+      "first_seen": "2025-08-06T00:00:00",
+      "last_seen": "2025-08-08T00:00:00",
+      "date_span_days": 2,
+      "known_facts": [
+        "What is Part 146? The digital backbone of FAA’s new BVLOS drone rule [thedronegirl.com] (2025-08-08T00:00:00)",
+        "Experts react to FAA’s proposed BVLOS drone rule — game-changer or growing pains? [thedronegirl.com] (2025-08-07T00:00:00)",
+        "U.S. finally releases long-awaited BVLOS drone rule. Here’s what it means for the industry [thedronegirl.com] (2025-08-06T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "6c030cbf1046bf33ff79e01893092405",
+          "title": "What is Part 146? The digital backbone of FAA’s new BVLOS drone rule",
+          "source": "thedronegirl.com",
+          "published": "2025-08-08T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/08/08/part-146/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "c4a735e7ac48a89b03ba8de4dccdccdb",
+          "title": "Experts react to FAA’s proposed BVLOS drone rule — game-changer or growing pains?",
+          "source": "thedronegirl.com",
+          "published": "2025-08-07T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/08/07/proposed-bvlos-drone-rule/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "c71d458c8a545c8defcfeda8139e31eb",
+          "title": "U.S. finally releases long-awaited BVLOS drone rule. Here’s what it means for the industry",
+          "source": "thedronegirl.com",
+          "published": "2025-08-06T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/08/06/bvlos-drone-rule/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0025",
+      "development_id": "development_0025",
+      "headline": "ADAS & Autonomous Vehicle Technology Summit North America: Two weeks to go!",
+      "what_changed": "ADAS & Autonomous Vehicle Technology Summit North America: Two weeks to go!",
+      "why_now": "This development was first seen on 2025-08-11T00:00:00 and most recently appears in the intelligence on 2025-08-18T00:00:00. The observed development spans 7 days. It is represented by 1 source domain(s).",
+      "story_type": "autonomous_mobility",
+      "topics": [
+        "autonomous_mobility"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 59.0,
+      "editorial_score": 56.4,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "autonomousvehicleinternational.com"
+      ],
+      "first_seen": "2025-08-11T00:00:00",
+      "last_seen": "2025-08-18T00:00:00",
+      "date_span_days": 7,
+      "known_facts": [
+        "ADAS & Autonomous Vehicle Technology Summit North America: Two weeks to go! [autonomousvehicleinternational.com] (2025-08-11T15:59:54+00:00)",
+        "ADAS & Autonomous Vehicle Technology Summit North America – opens next week! [autonomousvehicleinternational.com] (2025-08-18T14:25:53+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "70062ee63e3ee7622496d9ddff530a7b",
+          "title": "ADAS & Autonomous Vehicle Technology Summit North America: Two weeks to go!",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-08-11T15:59:54+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/expo/adas-autonomous-vehicle-technology-summit-north-america-two-weeks-to-go.html",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "b365342eb8521bddb5d1112e07b66932",
+          "title": "ADAS & Autonomous Vehicle Technology Summit North America – opens next week!",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-08-18T14:25:53+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/expo/adas-autonomous-vehicle-technology-summit-north-america-opens-next-week.html",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0026",
+      "development_id": "development_0026",
+      "headline": "Window’s Secure Boot certificates are expiring in June — here’s what you need to do",
+      "what_changed": "Window’s Secure Boot certificates are expiring in June — here’s what you need to do",
+      "why_now": "This development was first seen on 2026-05-02T00:00:00 and most recently appears in the intelligence on 2026-05-03T00:00:00. The observed development spans 1 days. It is represented by 1 source domain(s).",
+      "story_type": "cybersecurity",
+      "topics": [
+        "cybersecurity"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 58.0,
+      "editorial_score": 55.9,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "digitaltrends.com"
+      ],
+      "first_seen": "2026-05-02T00:00:00",
+      "last_seen": "2026-05-03T00:00:00",
+      "date_span_days": 1,
+      "known_facts": [
+        "Window’s Secure Boot certificates are expiring in June — here’s what you need to do [digitaltrends.com] (2026-05-02T23:13:55-07:00)",
+        "How to check if your Windows PC is ready for the secure boot certificate expiry in June 2026 [digitaltrends.com] (2026-05-03T00:51:34-07:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "38d4ed3bb2be096fd3e46003b69568c9",
+          "title": "Window’s Secure Boot certificates are expiring in June — here’s what you need to do",
+          "source": "digitaltrends.com",
+          "published": "2026-05-02T23:13:55-07:00",
+          "url": "https://www.digitaltrends.com/computing/windows-secure-boot-certificates-are-expiring-in-june-heres-what-you-need-to-do/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "a5b355ed4a3524e1b82af739799e929e",
+          "title": "How to check if your Windows PC is ready for the secure boot certificate expiry in June 2026",
+          "source": "digitaltrends.com",
+          "published": "2026-05-03T00:51:34-07:00",
+          "url": "https://www.digitaltrends.com/computing/windows-pc-ready-for-secure-boot/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0027",
+      "development_id": "development_0027",
+      "headline": "London rollout of robotaxis delayed amid lack of guidance for firms to follow",
+      "what_changed": "London rollout of robotaxis delayed amid lack of guidance for firms to follow",
+      "why_now": "This development was first seen on 2026-08-26T00:00:00 and most recently appears in the intelligence on 2026-09-03T00:00:00. The observed development spans 8 days. It is represented by 1 source domain(s).",
+      "story_type": "autonomous_mobility",
+      "topics": [
+        "autonomous_mobility",
+        "Robotaxis"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 58.0,
+      "editorial_score": 55.7,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "theguardian.com"
+      ],
+      "first_seen": "2026-08-26T00:00:00",
+      "last_seen": "2026-09-03T00:00:00",
+      "date_span_days": 8,
+      "known_facts": [
+        "London’s first self-driving taxis for hire hit the streets [theguardian.com] (2026-09-03T00:00:00)",
+        "London rollout of robotaxis delayed amid lack of guidance for firms to follow [theguardian.com] (2026-08-26T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "27b1f27b64cc68982077989130e5e588",
+          "title": "London’s first self-driving taxis for hire hit the streets",
+          "source": "theguardian.com",
+          "published": "2026-09-03T00:00:00",
+          "url": "https://www.theguardian.com/technology/2026/sep/03/london-first-self-driving-taxis-for-hire-wayve-uber",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "956580092a1c8653aa3cf51a8483fde4",
+          "title": "London rollout of robotaxis delayed amid lack of guidance for firms to follow",
+          "source": "theguardian.com",
+          "published": "2026-08-26T00:00:00",
+          "url": "https://www.theguardian.com/technology/2026/aug/26/london-rollout-robotaxis-delayed-uber-wayve",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0028",
+      "development_id": "development_0028",
+      "headline": "Google's Gemini app surpassed ChatGPT in monthly downloads",
+      "what_changed": "Google's Gemini app surpassed ChatGPT in monthly downloads",
+      "why_now": "This development was first seen on 2025-06-07T00:00:00 and most recently appears in the intelligence on 2025-06-11T00:00:00. The observed development spans 4 days. It is represented by 1 source domain(s).",
+      "story_type": "artificial_intelligence",
+      "topics": [
+        "artificial_intelligence"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 58.0,
+      "editorial_score": 55.6,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "the-decoder.com"
+      ],
+      "first_seen": "2025-06-07T00:00:00",
+      "last_seen": "2025-06-11T00:00:00",
+      "date_span_days": 4,
+      "known_facts": [
+        "ChatGPT continues to dominate the chatbot market with 5.49 billion visits in May [the-decoder.com] (2025-06-11T15:24:04+00:00)",
+        "Google's Gemini app surpassed ChatGPT in monthly downloads [the-decoder.com] (2025-06-07T14:21:32+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "73468a9ec21ff2b6c545c2a3fcece7d5",
+          "title": "ChatGPT continues to dominate the chatbot market with 5.49 billion visits in May",
+          "source": "the-decoder.com",
+          "published": "2025-06-11T15:24:04+00:00",
+          "url": "https://the-decoder.com/chatgpt-continues-to-dominate-the-chatbot-market-with-5-49-billion-visits-in-may/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "fe0c33861572838b2a4f0a84591cdcc4",
+          "title": "Google's Gemini app surpassed ChatGPT in monthly downloads",
+          "source": "the-decoder.com",
+          "published": "2025-06-07T14:21:32+00:00",
+          "url": "https://the-decoder.com/googles-gemini-app-surpassed-chatgpt-in-monthly-downloads/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0030",
+      "development_id": "development_0030",
+      "headline": "Apple study finds \"a fundamental scaling limitation\" in reasoning models' thinking abilities",
+      "what_changed": "Apple study finds \"a fundamental scaling limitation\" in reasoning models' thinking abilities",
+      "why_now": "This development was first seen on 2025-06-07T00:00:00 and most recently appears in the intelligence on 2025-06-16T00:00:00. The observed development spans 9 days. It is represented by 1 source domain(s).",
+      "story_type": "artificial_intelligence",
+      "topics": [
+        "artificial_intelligence"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 57.0,
+      "editorial_score": 54.9,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "the-decoder.com"
+      ],
+      "first_seen": "2025-06-07T00:00:00",
+      "last_seen": "2025-06-16T00:00:00",
+      "date_span_days": 9,
+      "known_facts": [
+        "Apple study finds \"a fundamental scaling limitation\" in reasoning models' thinking abilities [the-decoder.com] (2025-06-07T14:00:01+00:00)",
+        "New study supports Apple's doubts about AI reasoning, but sees no dead end [the-decoder.com] (2025-06-16T15:41:21+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "ebdb1bdd5175f12ddcf773a9301804ae",
+          "title": "Apple study finds \"a fundamental scaling limitation\" in reasoning models' thinking abilities",
+          "source": "the-decoder.com",
+          "published": "2025-06-07T14:00:01+00:00",
+          "url": "https://the-decoder.com/apple-study-finds-a-fundamental-scaling-limitation-in-reasoning-models-thinking-abilities/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "eec3cc4cbf3ce3209b1358b0fbddc1d5",
+          "title": "New study supports Apple's doubts about AI reasoning, but sees no dead end",
+          "source": "the-decoder.com",
+          "published": "2025-06-16T15:41:21+00:00",
+          "url": "https://the-decoder.com/a-new-study-by-nyu-researchers-supports-apples-doubts-about-ai-reasoning-but-sees-no-dead-end/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0031",
+      "development_id": "development_0031",
+      "headline": "Archer begins piloted operations of its flagship Midnight electric aircraft [Video]",
+      "what_changed": "Archer begins piloted operations of its flagship Midnight electric aircraft [Video]",
+      "why_now": "This development was first seen on 2025-06-02T00:00:00 and most recently appears in the intelligence on 2025-06-03T00:00:00. The observed development spans 1 days. It is represented by 1 source domain(s).",
+      "story_type": "autonomous_mobility",
+      "topics": [
+        "autonomous_mobility"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 57.0,
+      "editorial_score": 54.9,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "electrek.co"
+      ],
+      "first_seen": "2025-06-02T00:00:00",
+      "last_seen": "2025-06-03T00:00:00",
+      "date_span_days": 1,
+      "known_facts": [
+        "Archer begins piloted operations of its flagship Midnight electric aircraft [Video] [electrek.co] (2025-06-02T00:00:00)",
+        "Watch BETA Technologies’ electric aircraft fly into NYC with passengers onboard [Video] [electrek.co] (2025-06-03T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "4f148eb47b4cf3a680ad22508b764bb8",
+          "title": "Archer begins piloted operations of its flagship Midnight electric aircraft [Video]",
+          "source": "electrek.co",
+          "published": "2025-06-02T00:00:00",
+          "url": "https://electrek.co/2025/06/02/archer-begins-piloted-operations-midnight-electric-aircraft-video/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "cca83df9d70617861a49107d495947b3",
+          "title": "Watch BETA Technologies’ electric aircraft fly into NYC with passengers onboard [Video]",
+          "source": "electrek.co",
+          "published": "2025-06-03T00:00:00",
+          "url": "https://electrek.co/2025/06/03/beta-technologies-electric-aircraft-fly-nyc-passengers-onboard-video/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0032",
+      "development_id": "development_0032",
+      "headline": "If Your AI Is Hallucinating, Don’t Blame the AI",
+      "what_changed": "If Your AI Is Hallucinating, Don’t Blame the AI",
+      "why_now": "This development was first seen on 2025-06-03T00:00:00 and most recently appears in the intelligence on 2025-06-09T00:00:00. The observed development spans 6 days. It is represented by 1 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 57.0,
+      "editorial_score": 54.9,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "unite.ai"
+      ],
+      "first_seen": "2025-06-03T00:00:00",
+      "last_seen": "2025-06-09T00:00:00",
+      "date_span_days": 6,
+      "known_facts": [
+        "If Your AI Is Hallucinating, Don’t Blame the AI [unite.ai] (2025-06-03T17:26:41+00:00)",
+        "Stopping AI from Spinning Stories: A Guide to Preventing Hallucinations [unite.ai] (2025-06-09T16:52:13+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "0a408e77b947d0e51453fe8e130f6aa9",
+          "title": "If Your AI Is Hallucinating, Don’t Blame the AI",
+          "source": "unite.ai",
+          "published": "2025-06-03T17:26:41+00:00",
+          "url": "https://www.unite.ai/if-your-ai-is-hallucinating-dont-blame-the-ai/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "55560c4a70219a2981e5aa3f5b766691",
+          "title": "Stopping AI from Spinning Stories: A Guide to Preventing Hallucinations",
+          "source": "unite.ai",
+          "published": "2025-06-09T16:52:13+00:00",
+          "url": "https://www.unite.ai/stopping-ai-from-spinning-stories-a-guide-to-preventing-hallucinations/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0033",
+      "development_id": "development_0033",
+      "headline": "Jury orders Tesla to pay more than $200m to plaintiffs in deadly 2019 Autopilot crash",
+      "what_changed": "Jury orders Tesla to pay more than $200m to plaintiffs in deadly 2019 Autopilot crash",
+      "why_now": "This development was first seen on 2025-08-01T00:00:00 and most recently appears in the intelligence on 2025-08-05T00:00:00. The observed development spans 4 days. It is represented by 1 source domain(s).",
+      "story_type": "autonomous_mobility",
+      "topics": [
+        "autonomous_mobility"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 57.0,
+      "editorial_score": 54.8,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "theguardian.com"
+      ],
+      "first_seen": "2025-08-01T00:00:00",
+      "last_seen": "2025-08-05T00:00:00",
+      "date_span_days": 4,
+      "known_facts": [
+        "Tesla shareholders sue Elon Musk for allegedly hyping up faltering Robotaxi [theguardian.com] (2025-08-05T00:00:00)",
+        "Jury orders Tesla to pay more than $200m to plaintiffs in deadly 2019 Autopilot crash [theguardian.com] (2025-08-01T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "477c824dfebe13cb1f04a2ed17f662f8",
+          "title": "Tesla shareholders sue Elon Musk for allegedly hyping up faltering Robotaxi",
+          "source": "theguardian.com",
+          "published": "2025-08-05T00:00:00",
+          "url": "https://www.theguardian.com/technology/2025/aug/05/elon-musk-lawsuit-robotaxi-tesla",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "b4f4d14bac03ef2698a597213fdc5c05",
+          "title": "Jury orders Tesla to pay more than $200m to plaintiffs in deadly 2019 Autopilot crash",
+          "source": "theguardian.com",
+          "published": "2025-08-01T00:00:00",
+          "url": "https://www.theguardian.com/technology/2025/aug/01/tesla-fatal-autopilot-crash-verdict",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0038",
+      "development_id": "development_0038",
+      "headline": "Meta CEO Mark Zuckerberg bets billions not to fall behind in the AI race",
+      "what_changed": "Meta CEO Mark Zuckerberg bets billions not to fall behind in the AI race",
+      "why_now": "This development was first seen on 2025-06-20T00:00:00 and most recently appears in the intelligence on 2025-06-27T00:00:00. The observed development spans 7 days. It is represented by 1 source domain(s).",
+      "story_type": "business_technology",
+      "topics": [
+        "business_technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 56.0,
+      "editorial_score": 54.2,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "the-decoder.com"
+      ],
+      "first_seen": "2025-06-20T00:00:00",
+      "last_seen": "2025-06-27T00:00:00",
+      "date_span_days": 7,
+      "known_facts": [
+        "Meta CEO Mark Zuckerberg bets billions not to fall behind in the AI race [the-decoder.com] (2025-06-20T08:05:04+00:00)",
+        "Report: Zuckerberg considered external AI systems as Meta faces setbacks in AI race [the-decoder.com] (2025-06-27T13:40:57+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "303f38cf1c07c6001f38238bed98d74b",
+          "title": "Meta CEO Mark Zuckerberg bets billions not to fall behind in the AI race",
+          "source": "the-decoder.com",
+          "published": "2025-06-20T08:05:04+00:00",
+          "url": "https://the-decoder.com/meta-ceo-mark-zuckerberg-bets-billions-not-to-fall-behind-in-the-ai-race/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "69fe858cfec63f9392d093f431af5fd1",
+          "title": "Report: Zuckerberg considered external AI systems as Meta faces setbacks in AI race",
+          "source": "the-decoder.com",
+          "published": "2025-06-27T13:40:57+00:00",
+          "url": "https://the-decoder.com/report-zuckerberg-considered-external-ai-systems-as-meta-faces-setbacks-in-ai-race/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0023",
+      "development_id": "development_0023",
+      "headline": "Cyber scams soar in New Zealand as AI & crypto drive threats",
+      "what_changed": "Cyber scams soar in New Zealand as AI & crypto drive threats",
+      "why_now": "This development was first seen on an unknown date and most recently appears in the intelligence on an unknown date. It is represented by 1 source domain(s).",
+      "story_type": "cybersecurity",
+      "topics": [
+        "cybersecurity"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 53.0,
+      "editorial_score": 54.0,
+      "article_count": 3,
+      "source_count": 1,
+      "sources": [
+        "futurefive.co.nz"
+      ],
+      "first_seen": "",
+      "last_seen": "",
+      "date_span_days": 0,
+      "known_facts": [
+        "Cyber scams soar in New Zealand as AI & crypto drive threats [futurefive.co.nz]",
+        "Online scams trap one third of victims in Australia, New Zealand [futurefive.co.nz]",
+        "Avast study finds older Kiwis at high risk of online scams [futurefive.co.nz]"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "2c65aa1d90f7a4821c83e413ab270dde",
+          "title": "Cyber scams soar in New Zealand as AI & crypto drive threats",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/cyber-scams-soar-in-new-zealand-as-ai-crypto-drive-threats",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "5dce378bc743427a44caeab6604986c4",
+          "title": "Online scams trap one third of victims in Australia, New Zealand",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/online-scams-trap-one-third-of-victims-in-australia-new-zealand",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "a7a96279f2e4707cc6abb9a335694b59",
+          "title": "Avast study finds older Kiwis at high risk of online scams",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/avast-study-finds-older-kiwis-at-high-risk-of-online-scams",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0024",
+      "development_id": "development_0024",
+      "headline": "LG Innotek invests up to $50m in Aeva to bring next-gen perception platform to market",
+      "what_changed": "LG Innotek invests up to $50m in Aeva to bring next-gen perception platform to market",
+      "why_now": "This development was first seen on 2025-07-29T00:00:00 and most recently appears in the intelligence on 2025-07-29T00:00:00. It is represented by 1 source domain(s).",
+      "story_type": "business_technology",
+      "topics": [
+        "business_technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 50.0,
+      "editorial_score": 54.0,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "autonomousvehicleinternational.com"
+      ],
+      "first_seen": "2025-07-29T00:00:00",
+      "last_seen": "2025-07-29T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "LG Innotek invests up to $50m in Aeva to bring next-gen perception platform to market [autonomousvehicleinternational.com] (2025-07-29T11:38:03+00:00)",
+        "LG Innotek invests up to US$50m in Aeva to bring next-gen perception platform to market [autonomousvehicleinternational.com] (2025-07-29T11:38:03+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "ac816fcbbe7ebe70fc531912a182a9cc",
+          "title": "LG Innotek invests up to $50m in Aeva to bring next-gen perception platform to market",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-07-29T11:38:03+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/ai-sensor-fusion/lg-innotek-invests-up-to-50m-in-aeva-to-bring-next-gen-perception-platform-to-market.html",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "d8b2ad3a6f3ed2ea85d504e047853e30",
+          "title": "LG Innotek invests up to US$50m in Aeva to bring next-gen perception platform to market",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-07-29T11:38:03+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/ai-sensor-fusion/lg-innotek-invests-up-to-us50m-in-aeva-to-bring-next-gen-perception-platform-to-market.html",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0040",
+      "development_id": "development_0040",
+      "headline": "MUFG Bank invests in and partners with May Mobility to develop fleet ownership models",
+      "what_changed": "MUFG Bank invests in and partners with May Mobility to develop fleet ownership models",
+      "why_now": "This development was first seen on 2025-06-23T00:00:00 and most recently appears in the intelligence on 2025-07-14T00:00:00. The observed development spans 21 days. It is represented by 1 source domain(s).",
+      "story_type": "business_technology",
+      "topics": [
+        "business_technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 56.0,
+      "editorial_score": 54.0,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "autonomousvehicleinternational.com"
+      ],
+      "first_seen": "2025-06-23T00:00:00",
+      "last_seen": "2025-07-14T00:00:00",
+      "date_span_days": 21,
+      "known_facts": [
+        "May Mobility launches ride-hail API [autonomousvehicleinternational.com] (2025-07-14T10:54:48+00:00)",
+        "MUFG Bank invests in and partners with May Mobility to develop fleet ownership models [autonomousvehicleinternational.com] (2025-06-23T10:48:45+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "05388b721e0a95c70a5af3d08a6d97ce",
+          "title": "May Mobility launches ride-hail API",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-07-14T10:54:48+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/may-mobility-launches-ride-hail-api.html",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "e2f9142e17c021389c999627d7e376b1",
+          "title": "MUFG Bank invests in and partners with May Mobility to develop fleet ownership models",
+          "source": "autonomousvehicleinternational.com",
+          "published": "2025-06-23T10:48:45+00:00",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/mufg-bank-invests-in-and-partners-with-may-mobility-to-develop-fleet-ownership-models.html",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0041",
+      "development_id": "development_0041",
+      "headline": "Google launches Audio Overviews in search results",
+      "what_changed": "Google launches Audio Overviews in search results",
+      "why_now": "This development was first seen on 2025-06-13T00:00:00 and most recently appears in the intelligence on 2025-06-20T00:00:00. The observed development spans 7 days. It is represented by 1 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 56.0,
+      "editorial_score": 54.0,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "the-decoder.com"
+      ],
+      "first_seen": "2025-06-13T00:00:00",
+      "last_seen": "2025-06-20T00:00:00",
+      "date_span_days": 7,
+      "known_facts": [
+        "Google launches Audio Overviews in search results [the-decoder.com] (2025-06-13T18:23:50+00:00)",
+        "Google expands search with Audio Overviews and AI-Powered Voice Search [the-decoder.com] (2025-06-20T17:07:50+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "43a39d7d907ac848b32b97ed5da1b3b6",
+          "title": "Google launches Audio Overviews in search results",
+          "source": "the-decoder.com",
+          "published": "2025-06-13T18:23:50+00:00",
+          "url": "https://the-decoder.com/google-launches-audio-overviews-in-search-results/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "ae3f90a5049c84003bfae7a412089346",
+          "title": "Google expands search with Audio Overviews and AI-Powered Voice Search",
+          "source": "the-decoder.com",
+          "published": "2025-06-20T17:07:50+00:00",
+          "url": "https://the-decoder.com/google-expands-search-with-audio-overviews-and-ai-powered-voice-search/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0029",
+      "development_id": "development_0029",
+      "headline": "Republic Airways to evaluate an electric aircraft from BETA Technologies for regional flights",
+      "what_changed": "Republic Airways to evaluate an electric aircraft from BETA Technologies for regional flights",
+      "why_now": "This development was first seen on 2025-06-16T00:00:00 and most recently appears in the intelligence on 2025-06-16T00:00:00. It is represented by 1 source domain(s).",
+      "story_type": "autonomous_mobility",
+      "topics": [
+        "autonomous_mobility"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 47.0,
+      "editorial_score": 51.7,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "electrek.co"
+      ],
+      "first_seen": "2025-06-16T00:00:00",
+      "last_seen": "2025-06-16T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "Republic Airways to evaluate an electric aircraft from BETA Technologies for regional flights [electrek.co] (2025-06-16T00:00:00)",
+        "Wisk Aero signs agreements to establish autonomous air taxi operations in Miami and Japan [electrek.co] (2025-06-16T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "984b51db529e03b9195a256bf08bcfc2",
+          "title": "Republic Airways to evaluate an electric aircraft from BETA Technologies for regional flights",
+          "source": "electrek.co",
+          "published": "2025-06-16T00:00:00",
+          "url": "https://electrek.co/2025/06/16/republic-airways-evaluate-electric-aircraft-beta-technologies-regional-flights/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "d9259c243c6c9116e428983de6831fcd",
+          "title": "Wisk Aero signs agreements to establish autonomous air taxi operations in Miami and Japan",
+          "source": "electrek.co",
+          "published": "2025-06-16T00:00:00",
+          "url": "https://electrek.co/2025/06/16/wisk-aero-signs-agreements-autonomous-air-taxi-operations-miami-japan/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0037",
+      "development_id": "development_0037",
+      "headline": "An in-depth look at the Google Veo 3 text-to-video AI model",
+      "what_changed": "An in-depth look at the Google Veo 3 text-to-video AI model",
+      "why_now": "This development was first seen on an unknown date and most recently appears in the intelligence on an unknown date. It is represented by 1 source domain(s).",
+      "story_type": "artificial_intelligence",
+      "topics": [
+        "artificial_intelligence"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 46.0,
+      "editorial_score": 50.7,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "futurefive.co.nz"
+      ],
+      "first_seen": "",
+      "last_seen": "",
+      "date_span_days": 0,
+      "known_facts": [
+        "An in-depth look at the Google Veo 3 text-to-video AI model [futurefive.co.nz]",
+        "Google launches Flow AI tool for filmmakers and video creators [futurefive.co.nz]"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "79174ea2f7c718410686395849083732",
+          "title": "An in-depth look at the Google Veo 3 text-to-video AI model",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/an-in-depth-look-at-the-google-veo-3-text-to-video-ai-model",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "bb7b540b8684d286adad6f6e2346c319",
+          "title": "Google launches Flow AI tool for filmmakers and video creators",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/google-launches-flow-ai-tool-for-filmmakers-and-video-creators",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0042",
+      "development_id": "development_0042",
+      "headline": "Four ways Google Research scientists have been using Empirical Research Assistance",
+      "what_changed": "Four ways Google Research scientists have been using Empirical Research Assistance",
+      "why_now": "This development was first seen on an unknown date and most recently appears in the intelligence on an unknown date. It is represented by 1 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 46.0,
+      "editorial_score": 50.4,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "research.google"
+      ],
+      "first_seen": "",
+      "last_seen": "",
+      "date_span_days": 0,
+      "known_facts": [
+        "Four ways Google Research scientists have been using Empirical Research Assistance [research.google]",
+        "Google Research at Google I/O 2025 [research.google]"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "480c46de51ef0b22280762516de12b2c",
+          "title": "Four ways Google Research scientists have been using Empirical Research Assistance",
+          "source": "research.google",
+          "published": "",
+          "url": "https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "6c06d05a65f8406335f8b6a2f99b9484",
+          "title": "Google Research at Google I/O 2025",
+          "source": "research.google",
+          "published": "",
+          "url": "https://research.google/blog/google-research-at-google-io-2025/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    },
+    {
+      "story_id": "story_0044",
+      "development_id": "development_0044",
+      "headline": "Samsung unveils new Galaxy Watch tools for sleep & fitness",
+      "what_changed": "Samsung unveils new Galaxy Watch tools for sleep & fitness",
+      "why_now": "This development was first seen on an unknown date and most recently appears in the intelligence on an unknown date. It is represented by 1 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 45.0,
+      "editorial_score": 50.0,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "futurefive.co.nz"
+      ],
+      "first_seen": "",
+      "last_seen": "",
+      "date_span_days": 0,
+      "known_facts": [
+        "Samsung unveils new Galaxy Watch tools for sleep & fitness [futurefive.co.nz]",
+        "A wake-up call for sleep health - the role of smartwatches in diagnosing sleep disorders [futurefive.co.nz]"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "8bc57224b3dca76a004d4e5cfb883e50",
+          "title": "Samsung unveils new Galaxy Watch tools for sleep & fitness",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/samsung-unveils-new-galaxy-watch-tools-for-sleep-fitness",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "9d11e47042400e86f43870578112c50a",
+          "title": "A wake-up call for sleep health - the role of smartwatches in diagnosing sleep disorders",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/a-wake-up-call-for-sleep-health-the-role-of-smartwatches-in-diagnosing-sleep-disorders",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [],
+      "editorial_status": "candidate"
+    }
+  ],
+  "filtered_stories": [
+    {
+      "story_id": "story_0016",
+      "development_id": "development_0016",
+      "headline": "Narwal’s Freo X Ultra, one of our favorite robovacs, is 60 percent off",
+      "what_changed": "Narwal’s Freo X Ultra, one of our favorite robovacs, is 60 percent off",
+      "why_now": "This development was first seen on 2025-06-05T00:00:00 and most recently appears in the intelligence on 2025-06-05T00:00:00. It is represented by 2 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 61.0,
+      "editorial_score": 34.9,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "futurefive.co.nz",
+        "theverge.com"
+      ],
+      "first_seen": "2025-06-05T00:00:00",
+      "last_seen": "2025-06-05T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "Hands-on review: Narwal Freo Z10 [futurefive.co.nz]",
+        "Narwal’s Freo X Ultra, one of our favorite robovacs, is 60 percent off [theverge.com] (2025-06-05T15:37:16+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "725535e8c208245e9401d5b564674050",
+          "title": "Hands-on review: Narwal Freo Z10",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/hands-on-review-narwal-freo-z10",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "f33e23687e4ea7ead0a83d53eda4c370",
+          "title": "Narwal’s Freo X Ultra, one of our favorite robovacs, is 60 percent off",
+          "source": "theverge.com",
+          "published": "2025-06-05T15:37:16+00:00",
+          "url": "https://www.theverge.com/tech/680505/narwhal-freo-x-ultra-robot-vacuum-jbl-go-4-deal-sale",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [
+        "off"
+      ],
+      "editorial_status": "filtered"
+    },
+    {
+      "story_id": "story_0034",
+      "development_id": "development_0034",
+      "headline": "Sam Altman claims that Meta offers $100 million signing bonuses to OpenAI researchers",
+      "what_changed": "Sam Altman claims that Meta offers $100 million signing bonuses to OpenAI researchers",
+      "why_now": "This development was first seen on 2025-06-18T00:00:00 and most recently appears in the intelligence on 2025-06-26T00:00:00. The observed development spans 8 days. It is represented by 1 source domain(s).",
+      "story_type": "artificial_intelligence",
+      "topics": [
+        "artificial_intelligence"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 57.0,
+      "editorial_score": 29.7,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "the-decoder.com"
+      ],
+      "first_seen": "2025-06-18T00:00:00",
+      "last_seen": "2025-06-26T00:00:00",
+      "date_span_days": 8,
+      "known_facts": [
+        "Sam Altman claims that Meta offers $100 million signing bonuses to OpenAI researchers [the-decoder.com] (2025-06-18T12:53:04+00:00)",
+        "Meta poaches three top AI researchers from OpenAI, who had poached them from Deepmind [the-decoder.com] (2025-06-26T21:25:29+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "58367fa9ffb980c8342bbeaeb9250988",
+          "title": "Sam Altman claims that Meta offers $100 million signing bonuses to OpenAI researchers",
+          "source": "the-decoder.com",
+          "published": "2025-06-18T12:53:04+00:00",
+          "url": "https://the-decoder.com/sam-altman-claims-that-meta-offers-100-million-signing-bonuses-to-openai-researchers/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "e94789832c0f687ce1bd2ed0064f09b9",
+          "title": "Meta poaches three top AI researchers from OpenAI, who had poached them from Deepmind",
+          "source": "the-decoder.com",
+          "published": "2025-06-26T21:25:29+00:00",
+          "url": "https://the-decoder.com/meta-poaches-three-top-ai-researchers-from-openai-who-had-poached-them-from-deepmind/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [
+        "off"
+      ],
+      "editorial_status": "filtered"
+    },
+    {
+      "story_id": "story_0039",
+      "development_id": "development_0039",
+      "headline": "Drone Legends review: A full-service STEM drone program for K–12 students",
+      "what_changed": "Drone Legends review: A full-service STEM drone program for K–12 students",
+      "why_now": "This development was first seen on 2025-06-18T00:00:00 and most recently appears in the intelligence on 2025-06-20T00:00:00. The observed development spans 2 days. It is represented by 1 source domain(s).",
+      "story_type": "drones",
+      "topics": [
+        "drones"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 56.0,
+      "editorial_score": 29.0,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "thedronegirl.com"
+      ],
+      "first_seen": "2025-06-18T00:00:00",
+      "last_seen": "2025-06-20T00:00:00",
+      "date_span_days": 2,
+      "known_facts": [
+        "Drone Legends review: A full-service STEM drone program for K–12 students [thedronegirl.com] (2025-06-18T00:00:00)",
+        "Drone show courses for schools? Here are your three best options [thedronegirl.com] (2025-06-20T00:00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "8dca9cd49ee601229d7b00aa2d112317",
+          "title": "Drone Legends review: A full-service STEM drone program for K–12 students",
+          "source": "thedronegirl.com",
+          "published": "2025-06-18T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/06/18/drone-legends-review/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "a52e96ea16abc9deb991d4937af7b2f7",
+          "title": "Drone show courses for schools? Here are your three best options",
+          "source": "thedronegirl.com",
+          "published": "2025-06-20T00:00:00",
+          "url": "https://www.thedronegirl.com/2025/06/20/drone-show-courses-for-schools/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [
+        "review"
+      ],
+      "editorial_status": "filtered"
+    },
+    {
+      "story_id": "story_0036",
+      "development_id": "development_0036",
+      "headline": "Why Samsung QLED stands out as the number one TV choice",
+      "what_changed": "Why Samsung QLED stands out as the number one TV choice",
+      "why_now": "This development was first seen on an unknown date and most recently appears in the intelligence on an unknown date. It is represented by 1 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 46.0,
+      "editorial_score": 25.8,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "futurefive.co.nz"
+      ],
+      "first_seen": "",
+      "last_seen": "",
+      "date_span_days": 0,
+      "known_facts": [
+        "Why Samsung QLED stands out as the number one TV choice [futurefive.co.nz]",
+        "Samsung strengthens 2025 TV range with QLED advancements [futurefive.co.nz]"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "1779aa6b0506ed13e0ee29d3bbb47e88",
+          "title": "Why Samsung QLED stands out as the number one TV choice",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/why-samsung-qled-stands-out-as-the-number-one-tv-choice",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "cf9581170f5ffdcdc2f8bfde9c977e18",
+          "title": "Samsung strengthens 2025 TV range with QLED advancements",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/samsung-strengthens-2025-tv-range-with-qled-advancements",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [
+        "number one tv"
+      ],
+      "editorial_status": "filtered"
+    },
+    {
+      "story_id": "story_0022",
+      "development_id": "development_0022",
+      "headline": "Hands-on Review: JBL Tune Beam 2",
+      "what_changed": "Hands-on Review: JBL Tune Beam 2",
+      "why_now": "This development was first seen on an unknown date and most recently appears in the intelligence on an unknown date. It is represented by 1 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 54.0,
+      "editorial_score": 4.9,
+      "article_count": 3,
+      "source_count": 1,
+      "sources": [
+        "futurefive.co.nz"
+      ],
+      "first_seen": "",
+      "last_seen": "",
+      "date_span_days": 0,
+      "known_facts": [
+        "Hands-on Review: JBL Tune Beam 2 [futurefive.co.nz]",
+        "Hands-on Review: JBL Wave Beam 2 (True Wireless Earbuds) [futurefive.co.nz]",
+        "Hands-on review: JBL Tour One M3 Headphones [futurefive.co.nz]"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "42f9f992e6d50854dfde1ef29163129d",
+          "title": "Hands-on Review: JBL Tune Beam 2",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/hands-on-review-jbl-tune-beam-2",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "44976a59a755234773641e8f779080b1",
+          "title": "Hands-on Review: JBL Wave Beam 2 (True Wireless Earbuds)",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/hands-on-review-jbl-wave-beam-2-true-wireless-earbuds",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "678202d2dcdd2d640d220b26fa22596c",
+          "title": "Hands-on review: JBL Tour One M3 Headphones",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/hands-on-review-jbl-tour-one-m3-headphones",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [
+        "review",
+        "hands-on review"
+      ],
+      "editorial_status": "filtered"
+    },
+    {
+      "story_id": "story_0035",
+      "development_id": "development_0035",
+      "headline": "Hands on-review: OPPO Watch X2 smartwatch",
+      "what_changed": "Hands on-review: OPPO Watch X2 smartwatch",
+      "why_now": "This development was first seen on an unknown date and most recently appears in the intelligence on an unknown date. It is represented by 1 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 47.0,
+      "editorial_score": 1.2,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "futurefive.co.nz"
+      ],
+      "first_seen": "",
+      "last_seen": "",
+      "date_span_days": 0,
+      "known_facts": [
+        "Hands on-review: OPPO Watch X2 smartwatch [futurefive.co.nz]",
+        "OPPO unveils Watch X2 Mini in New Zealand from NZD $499 [futurefive.co.nz]"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "48239de7b313d53277d3857f176d1e7e",
+          "title": "Hands on-review: OPPO Watch X2 smartwatch",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/hands-on-review-oppo-watch-x2-smartwatch",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "8a81a48fdef4138b1f5aecd987078caf",
+          "title": "OPPO unveils Watch X2 Mini in New Zealand from NZD $499",
+          "source": "futurefive.co.nz",
+          "published": "",
+          "url": "https://futurefive.co.nz/story/oppo-unveils-watch-x2-mini-in-new-zealand-from-nzd-499",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [
+        "review",
+        "smartwatch"
+      ],
+      "editorial_status": "filtered"
+    },
+    {
+      "story_id": "story_0012",
+      "development_id": "development_0012",
+      "headline": "Nintendo Switch 2 launch day stock live build-up: where to buy info and all the latest updates on stock ahead of release day",
+      "what_changed": "Nintendo Switch 2 launch day stock live build-up: where to buy info and all the latest updates on stock ahead of release day",
+      "why_now": "This development was first seen on 2025-06-04T00:00:00 and most recently appears in the intelligence on 2025-06-05T00:00:00. The observed development spans 1 days. It is represented by 2 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "cross-source",
+      "confidence": 72.0,
+      "editorial_score": 0,
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "techradar.com",
+        "theverge.com"
+      ],
+      "first_seen": "2025-06-04T00:00:00",
+      "last_seen": "2025-06-05T00:00:00",
+      "date_span_days": 1,
+      "known_facts": [
+        "Nintendo Switch 2 launch day stock live build-up: where to buy info and all the latest updates on stock ahead of release day [techradar.com] (2025-06-04T13:42:40+00:00)",
+        "PSA: Target will open online orders for the Switch 2 on June 6th [theverge.com] (2025-06-05T18:00:22+00:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "3011b2ca7679fa4130e5355710054906",
+          "title": "Nintendo Switch 2 launch day stock live build-up: where to buy info and all the latest updates on stock ahead of release day",
+          "source": "techradar.com",
+          "published": "2025-06-04T13:42:40+00:00",
+          "url": "https://www.techradar.com/live/news/nintendo-switch-2-launch-day-stock-where-to-buy-release",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "4e0267e45bb5cb142f37957299870dff",
+          "title": "PSA: Target will open online orders for the Switch 2 on June 6th",
+          "source": "theverge.com",
+          "published": "2025-06-05T18:00:22+00:00",
+          "url": "https://www.theverge.com/tech/680549/target-nintendo-switch-2-launch-restock-app-online-orders",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [
+        "where to buy",
+        "stock live",
+        "live build-up",
+        "buy info"
+      ],
+      "editorial_status": "filtered"
+    },
+    {
+      "story_id": "story_0043",
+      "development_id": "development_0043",
+      "headline": "This Emmy-nominated sci-fi series is one of 3 underrated Prime Video shows to watch this weekend (May 2-3)",
+      "what_changed": "This Emmy-nominated sci-fi series is one of 3 underrated Prime Video shows to watch this weekend (May 2-3)",
+      "why_now": "This development was first seen on 2026-05-02T00:00:00 and most recently appears in the intelligence on 2026-05-02T00:00:00. It is represented by 1 source domain(s).",
+      "story_type": "technology",
+      "topics": [
+        "technology"
+      ],
+      "evidence_strength": "single-source",
+      "confidence": 46.0,
+      "editorial_score": 0,
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "digitaltrends.com"
+      ],
+      "first_seen": "2026-05-02T00:00:00",
+      "last_seen": "2026-05-02T00:00:00",
+      "date_span_days": 0,
+      "known_facts": [
+        "This Emmy-nominated sci-fi series is one of 3 underrated Prime Video shows to watch this weekend (May 2-3) [digitaltrends.com] (2026-05-02T16:47:31-07:00)",
+        "This indie movie with 99% RT score is one of the 3 underrated Hulu movies to watch this weekend (May 2-3) [digitaltrends.com] (2026-05-02T14:25:54-07:00)"
+      ],
+      "claims": [],
+      "unknowns": [
+        "Independent source corroboration is limited in the supplied intelligence.",
+        "The intelligence confidence score is below 80, so some elements require caution.",
+        "The development is supported by a relatively small number of source articles.",
+        "The supplied intelligence contains source metadata but limited article-level analysis."
+      ],
+      "source_articles": [
+        {
+          "article_id": "8d8cd479a1921612ab26bd1947861db9",
+          "title": "This Emmy-nominated sci-fi series is one of 3 underrated Prime Video shows to watch this weekend (May 2-3)",
+          "source": "digitaltrends.com",
+          "published": "2026-05-02T16:47:31-07:00",
+          "url": "https://www.digitaltrends.com/movies/this-emmy-nominated-sci-fi-series-is-one-of-3-underrated-prime-video-shows-to-watch-this-weekend-may-2-3/",
+          "analysis": "",
+          "claims": []
+        },
+        {
+          "article_id": "9b4651af367ef12f7f17ff5f8bd0aa97",
+          "title": "This indie movie with 99% RT score is one of the 3 underrated Hulu movies to watch this weekend (May 2-3)",
+          "source": "digitaltrends.com",
+          "published": "2026-05-02T14:25:54-07:00",
+          "url": "https://www.digitaltrends.com/movies/this-indie-movie-with-99-rt-score-is-one-of-the-3-underrated-hulu-movies-to-watch-this-weekend-may-2-3/",
+          "analysis": "",
+          "claims": []
+        }
+      ],
+      "filter_hits": [
+        "watch this weekend",
+        "shows to watch",
+        "weekend"
+      ],
+      "editorial_status": "filtered"
+    }
+  ],
+  "weak_stories": []
+}

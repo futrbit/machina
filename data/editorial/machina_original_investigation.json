@@ -1,0 +1,777 @@
+{
+  "status": "complete",
+  "model": "qwen3:4b",
+  "research_pool_size": 84,
+  "investigation": {
+    "research_id": "acquired_podcast_investigation",
+    "pool_index": 24,
+    "headline": "Rolex",
+    "source": "",
+    "source_url": "",
+    "central_question": "What does the available evidence establish about Rolex, and which important claims remain unverified?",
+    "why_now": "The timing rationale must be established from the research and specialist evidence; it is not invented during selection.",
+    "thesis": "The editorial will examine Rolex by distinguishing established information from claims and unresolved questions, then assess its technical, commercial and strategic significance only where the research supports that analysis.",
+    "research": {
+      "pool_index": 24,
+      "research_id": "acquired_podcast_investigation",
+      "title": "Rolex",
+      "source": "",
+      "published": "",
+      "url": "",
+      "source_assessment": {
+        "source_type": "podcast",
+        "source_role": "opinion/analysis",
+        "source_reliability_notes": "This source is a podcast episode from the Acquired podcast, which focuses on business and technology. The source presents claims and opinions, and it is important to consider the source's perspective and potential biases."
+      },
+      "claims": [
+        {
+          "statement": "Rolex is a series of paradoxes. They sell obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors… and demand is stronger than ever in history!",
+          "claimant": "Acquired podcast",
+          "claim_type": "claim",
+          "verification_status": "unverified",
+          "evidence_needed": [
+            "Evidence of Rolex's pricing and demand trends"
+          ]
+        },
+        {
+          "statement": "Their products are comparable to a Hermès Birkin bag in price, luxury status and waitlist times… yet they produce over 1m units / year (roughly 10x annual Birkin production).",
+          "claimant": "Acquired podcast",
+          "claim_type": "claim",
+          "verification_status": "unverified",
+          "evidence_needed": [
+            "Comparison data on Rolex and Birkin bag prices, waitlist times, and production volumes"
+          ]
+        },
+        {
+          "statement": "They make the most universally recognized and desired Swiss watches… yet their founder wasn’t Swiss and didn’t start the company in Switzerland!",
+          "claimant": "Acquired podcast",
+          "claim_type": "claim",
+          "verification_status": "unverified",
+          "evidence_needed": [
+            "Historical data on Rolex's founder and company origins"
+          ]
+        },
+        {
+          "statement": "If Rolex were publicly traded, they’d almost certainly be among the top 50 market cap companies in the world… yet they’re 100% owned by a charitable foundation in Geneva that (among other things) literally just gives away money to local people in the city.",
+          "claimant": "Acquired podcast",
+          "claim_type": "claim",
+          "verification_status": "unverified",
+          "evidence_needed": [
+            "Market cap data for publicly traded companies, information on Rolex's ownership structure, and details on the charitable foundation's activities"
+          ]
+        }
+      ],
+      "established_information": [
+        "Rolex is a Swiss watch company.",
+        "Rolex has a long history and a strong brand reputation.",
+        "Rolex produces a wide range of watches."
+      ],
+      "entities": {
+        "companies": [
+          "Rolex",
+          "Hermès",
+          "Vanta",
+          "ServiceNow",
+          "Legora",
+          "Statsig",
+          "Renaissance of the Swiss Watch Industry",
+          "HODINKEE",
+          "Inside All Four Rolex Manufacturing Facilities",
+          "If you were…"
+        ],
+        "people": [],
+        "organisations": [
+          "Acquired",
+          "Geneva Foundation",
+          "Worldly Partners",
+          "Carve Outs",
+          "Bluey",
+          "Armchair Expert",
+          "Eleven Reader",
+          "More Acquired",
+          "ACQ, LLC"
+        ],
+        "products": [
+          "Rolex watches",
+          "Hermès Birkin bags"
+        ],
+        "programmes": [],
+        "technologies": []
+      },
+      "developments": [
+        "acquisition",
+        "funding",
+        "launch",
+        "partnership",
+        "research"
+      ],
+      "research_targets": [
+        {
+          "question": "What primary or investor source confirms the reported funding?",
+          "priority": "high",
+          "preferred_evidence": [],
+          "possible_primary_sources": [],
+          "possible_independent_sources": [],
+          "possible_contradictory_evidence": []
+        },
+        {
+          "question": "What original research paper or technical evidence supports the reported development?",
+          "priority": "high",
+          "preferred_evidence": [],
+          "possible_primary_sources": [],
+          "possible_independent_sources": [],
+          "possible_contradictory_evidence": []
+        },
+        {
+          "question": "What evidence confirms the partnership beyond the announcement?",
+          "priority": "high",
+          "preferred_evidence": [],
+          "possible_primary_sources": [],
+          "possible_independent_sources": [],
+          "possible_contradictory_evidence": []
+        }
+      ],
+      "unknowns": [
+        "Specific details about Rolex's pricing, demand, and production volumes",
+        "Historical data on Rolex's founder and company origins",
+        "Information on the charitable foundation's activities and its impact on Rolex's ownership structure"
+      ],
+      "contradiction_targets": [],
+      "next_action": "Verify the claims and evidence presented in the podcast episode. Research and gather evidence to support or refute the claims. Investigate the entities and organizations mentioned in the podcast. Explore potential sources for further information.",
+      "priority_score": 37
+    }
+  },
+  "alpha": {
+    "specialist": "ALPHA",
+    "discipline": "TECHNICAL INTELLIGENCE",
+    "assessment": "The investigation into Rolex reveals a mix of established facts and numerous unverified claims. While Rolex is recognized as a leading Swiss watch manufacturer with a strong brand reputation, many assertions regarding its market position, production volumes, and ownership structure lack concrete evidence.",
+    "discipline_specific_analysis": "The technical capabilities of Rolex watches, particularly in mechanical engineering, are well-documented. However, claims regarding their pricing strategies and market demand require rigorous market analysis and sales data to substantiate. The podcast's assertions about Rolex's production volume and comparison to luxury items like the Hermès Birkin bag necessitate empirical data for validation.",
+    "established_facts": [
+      "Rolex is a Swiss watch company.",
+      "Rolex has a long history and a strong brand reputation.",
+      "Rolex produces a wide range of watches."
+    ],
+    "important_claims": [
+      "Rolex sells obsolete mechanical devices for significantly higher prices than digital alternatives.",
+      "Rolex's production volume is comparable to that of luxury items like the Hermès Birkin bag.",
+      "Rolex's founder was not Swiss and did not start the company in Switzerland.",
+      "Rolex is 100% owned by a charitable foundation in Geneva."
+    ],
+    "key_evidence": [
+      "Historical data on Rolex's founder and company origins.",
+      "Market cap data for publicly traded companies to assess the hypothetical market position of Rolex.",
+      "Evidence of Rolex's pricing and demand trends."
+    ],
+    "data_gaps": [
+      "Specific details about Rolex's pricing, demand, and production volumes.",
+      "Historical data on Rolex's founder and company origins.",
+      "Information on the charitable foundation's activities and its impact on Rolex's ownership structure."
+    ],
+    "contradictions": [
+      "The claim that Rolex produces over 1 million units per year contradicts the assertion of exclusivity and luxury status, which typically implies limited production."
+    ],
+    "specialist_question": "What empirical data can confirm or refute the claims regarding Rolex's production volumes, pricing strategies, and market demand?",
+    "original_insight": "The technical evaluation of Rolex watches should focus on their engineering excellence and craftsmanship, which are well-established. However, the claims about market dynamics and luxury positioning require a more nuanced analysis that includes market research and consumer behavior studies.",
+    "confidence": 60,
+    "confidence_rationale": "The confidence score reflects the established facts about Rolex's brand and history, but the numerous unverified claims and lack of empirical data on market dynamics lower the overall confidence in the assessment. The claims made in the podcast are significant but require further investigation to validate.",
+    "source_records": [],
+    "web_research": {
+      "status": "metadata_only",
+      "provider": "Google News RSS",
+      "generated_at": "2026-10-11T20:19:13.275789+00:00",
+      "queries": [
+        "Rolex",
+        "Rolex technical capability",
+        "Rolex technical novelty",
+        "Rolex engineering evidence",
+        "Rolex architecture"
+      ],
+      "query_limit": 3,
+      "page_read_limit": 10,
+      "source_count": 10,
+      "readable_count": 0,
+      "sources": [
+        {
+          "title": "Francisco Cerundolo vs Jakub Mensik - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEh3eUVwTUdtUjlpQTRYQ2xHZ3FKRXdOdUVaZTB4NHF2aWRsOUt0aEpocjJDdzBRVVR4eFlHXy10YXBqS1JZUkZIZER1d2hfSWUwWjUwR0s0SmdQTkFudFdfYzIweG1XUXdYWUF1VThYUmpSUXFWZG11amppcmNUYjk4UjhIcTZKTHNTZFN1SlJ1d0FaSDlhZkxPNXgxSjJIazZB?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:18:39+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:18:39 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEh3eUVwTUdtUjlpQTRYQ2xHZ3FKRXdOdUVaZTB4NHF2aWRsOUt0aEpocjJDdzBRVVR4eFlHXy10YXBqS1JZUkZIZER1d2hfSWUwWjUwR0s0SmdQTkFudFdfYzIweG1XUXdYWUF1VThYUmpSUXFWZG11amppcmNUYjk4UjhIcTZKTHNTZFN1SlJ1d0FaSDlhZkxPNXgxSjJIazZB?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:15.966324+00:00"
+        },
+        {
+          "title": "Alex de Minaur vs Rei Sakamoto - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2llYjVEN0plWUhoNFB4QW5KMkhPbk51cG9oZVhJRFg1OHZxWFE2SmRZNVJfaXBIU0tLQ3VhNXE0Vl8yWG1mQW5ReVp5SDdSRlZ4UEdyemRDWFBGZnd0aFNaU29qVUQwSTVnNU1mMHhYVGtpRldta1NfakRsR1BKMTJlVGdaQUQwUm5KTjd4TEI2aTcybWtGd3pn?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:18:06+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:18:06 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2llYjVEN0plWUhoNFB4QW5KMkhPbk51cG9oZVhJRFg1OHZxWFE2SmRZNVJfaXBIU0tLQ3VhNXE0Vl8yWG1mQW5ReVp5SDdSRlZ4UEdyemRDWFBGZnd0aFNaU29qVUQwSTVnNU1mMHhYVGtpRldta1NfakRsR1BKMTJlVGdaQUQwUm5KTjd4TEI2aTcybWtGd3pn?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:16.635582+00:00"
+        },
+        {
+          "title": "Hubert Hurkacz vs Yi Zhou - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPam9yM3dwelVqSzVrNzVFc0J0OE5DNFUyYl9ybm9CYWFwd3BHOEUzZk5DTWtKTEtUWGVQbzNHa09fQmRIazJlRXZnU29yYlBFdHA0SUVSN0xVaDBoMVpRTlJlc3Z5NTh6QlpfLWNZQldGcndta2VQczRpaEcyMGtjc3ZrZWk0a3RLZS1VMm04NVdSZUk?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:17:58+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:17:58 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPam9yM3dwelVqSzVrNzVFc0J0OE5DNFUyYl9ybm9CYWFwd3BHOEUzZk5DTWtKTEtUWGVQbzNHa09fQmRIazJlRXZnU29yYlBFdHA0SUVSN0xVaDBoMVpRTlJlc3Z5NTh6QlpfLWNZQldGcndta2VQczRpaEcyMGtjc3ZrZWk0a3RLZS1VMm04NVdSZUk?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:17.290004+00:00"
+        },
+        {
+          "title": "Alex de Minaur vs Karen Khachanov - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3paYkgwNllzWTYzWE1qTEhrUDZqQU53bWZnaWQ1c1huWm52aWVVU0N1a1Q5RlNpamFoQzBzd2JEZkRwdFdLUENXYk9YZXFYRnVZZXVyZXVqR2VnbHdPaHB6djFQQkx2WGUyNlVmdVlaZWE4aEhRUUNwT1Q3RlIwR3JPWHZrR3VHbllkMVo2Q3F1X2xTUS1MTkZ0bVVGZw?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T19:33:38+00:00",
+          "published_raw": "Sun, 11 Oct 2026 19:33:38 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3paYkgwNllzWTYzWE1qTEhrUDZqQU53bWZnaWQ1c1huWm52aWVVU0N1a1Q5RlNpamFoQzBzd2JEZkRwdFdLUENXYk9YZXFYRnVZZXVyZXVqR2VnbHdPaHB6djFQQkx2WGUyNlVmdVlaZWE4aEhRUUNwT1Q3RlIwR3JPWHZrR3VHbllkMVo2Q3F1X2xTUS1MTkZ0bVVGZw?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:17.999832+00:00"
+        },
+        {
+          "title": "Alexander Zverev vs Alexander Bublik - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTgxQ3JNcGZySmVDaHNZU2RTdEU0QzFna3lCSkg2aU9vNzlIdFhvMHNBclpCT3hlS0p4TS1tYVQxempTN2RlZ1FHQzJ1V3VJLVIzTS1YaFJVZXE0ak9TWDYwNElqalNOa2t5MHNzSC1sYlU5ZXExdzI5TEJqd0FLRzdLMXFMV1NDTzVsYVRTbFk5MEVoczFFN0dsN2F2bUFadXdWcA?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T18:44:04+00:00",
+          "published_raw": "Sun, 11 Oct 2026 18:44:04 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTgxQ3JNcGZySmVDaHNZU2RTdEU0QzFna3lCSkg2aU9vNzlIdFhvMHNBclpCT3hlS0p4TS1tYVQxempTN2RlZ1FHQzJ1V3VJLVIzTS1YaFJVZXE0ak9TWDYwNElqalNOa2t5MHNzSC1sYlU5ZXExdzI5TEJqd0FLRzdLMXFMV1NDTzVsYVRTbFk5MEVoczFFN0dsN2F2bUFadXdWcA?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:18.685868+00:00"
+        },
+        {
+          "title": "The New Rolex Oyster Perpetual Marks the Watch’s Centennial With Hints of Warhol and Mondrian - AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcFBCX2hGMG1iM004bTFMQ3V1S2Z5NWJ6andRSDNmUGNEMXphaU93R2hJTDNsQWVXY1ppbUhocm1jYm1RQmRGdmx1eTRGXzBhV3hfRC1LeEtxSVBucmhCdGFXeHFicjJlTldCSGM2d0l4VGw3WkRkTVRsY2tHaGY1MDJvbkk?oc=5",
+          "publisher": "AOL.com",
+          "publisher_url": "https://www.aol.com",
+          "published": "2026-10-11T18:00:00+00:00",
+          "published_raw": "Sun, 11 Oct 2026 18:00:00 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcFBCX2hGMG1iM004bTFMQ3V1S2Z5NWJ6andRSDNmUGNEMXphaU93R2hJTDNsQWVXY1ppbUhocm1jYm1RQmRGdmx1eTRGXzBhV3hfRC1LeEtxSVBucmhCdGFXeHFicjJlTldCSGM2d0l4VGw3WkRkTVRsY2tHaGY1MDJvbkk?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:19.333023+00:00"
+        },
+        {
+          "title": "Hubert Hurkacz vs Alejandro Davidovich Fokina - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRHNPbllnSlpwbHl2eTVDMTBGQnBJcmRRSHU4RlFYdTBxYV8tOWkzSUhqbVBHZnZ0aEN1SUVwQ0k4WVB2aUxsSVp1M2RndUlYSzN6S2RSdWJWNFBubm9nUHpMZHBMT1kyWHJxckJkVTFuelRScWJmT09JQnhWNTNMNE5GcVNLMWFNWlNGdFdtajdrXzFSNVpHa3JPNzZycTJDWE5DeW5NTzZKQm5XN2Y0dA?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T16:53:16+00:00",
+          "published_raw": "Sun, 11 Oct 2026 16:53:16 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRHNPbllnSlpwbHl2eTVDMTBGQnBJcmRRSHU4RlFYdTBxYV8tOWkzSUhqbVBHZnZ0aEN1SUVwQ0k4WVB2aUxsSVp1M2RndUlYSzN6S2RSdWJWNFBubm9nUHpMZHBMT1kyWHJxckJkVTFuelRScWJmT09JQnhWNTNMNE5GcVNLMWFNWlNGdFdtajdrXzFSNVpHa3JPNzZycTJDWE5DeW5NTzZKQm5XN2Y0dA?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:20.038145+00:00"
+        },
+        {
+          "title": "Arthur Gea vs Jakub Mensik - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1Z6eGQyZ1djX1haTTBnSDBzSk5kMUVZWXhQTnIxbzI2VUpYUUhyZHM5YVJXajNzdVRaTzUzZF9xaVNja2VBZWJxTDlqc20tWTFXbVJIVWpoMkNpcFBDaHpNb1pIRkVjVHQ1SDQ4Y3B5UWQzMjVOOVhOeDI4Nl9CclZpdTdUVWhmWWxob0RuanZMOVVP?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T15:53:56+00:00",
+          "published_raw": "Sun, 11 Oct 2026 15:53:56 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1Z6eGQyZ1djX1haTTBnSDBzSk5kMUVZWXhQTnIxbzI2VUpYUUhyZHM5YVJXajNzdVRaTzUzZF9xaVNja2VBZWJxTDlqc20tWTFXbVJIVWpoMkNpcFBDaHpNb1pIRkVjVHQ1SDQ4Y3B5UWQzMjVOOVhOeDI4Nl9CclZpdTdUVWhmWWxob0RuanZMOVVP?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:20.671763+00:00"
+        },
+        {
+          "title": "Stefanos Tsitsipas vs Taylor Fritz - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX3dYdF8tN1k5WnhSN3dfMVFfSm5iMEhZNXJNbWc4Y09OaVdvMWt6UXlhVkFCWTk4dmxVYl9WaG13NHF3S2FKYXVnYkxTbUtDVU5KazZFaTNFd3lmV0NFQm0tYl9zMDJNdlZYMjFDeUJVNVJyZy10clJpVzRPWEJSMVBnbmZ4VVFNNVZ5RlcydUJTeloxTVhjZkFpY2VWekU?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T13:49:55+00:00",
+          "published_raw": "Sun, 11 Oct 2026 13:49:55 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX3dYdF8tN1k5WnhSN3dfMVFfSm5iMEhZNXJNbWc4Y09OaVdvMWt6UXlhVkFCWTk4dmxVYl9WaG13NHF3S2FKYXVnYkxTbUtDVU5KazZFaTNFd3lmV0NFQm0tYl9zMDJNdlZYMjFDeUJVNVJyZy10clJpVzRPWEJSMVBnbmZ4VVFNNVZ5RlcydUJTeloxTVhjZkFpY2VWekU?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:21.307865+00:00"
+        },
+        {
+          "title": "Tennis, ATP – Rolex Shanghai Masters 2026: Gea upends Shelton - Tennis Majors",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJiVE1uV1pxRENHNUQtRnJhY0pyOV9UVkpNT2ZXcEVPZkdBeEc1TlFOelRDV3BIaVFrS2ljeGFMUkZmbVNNNFFUTkRnUDNtLXd3UGs2dUQxVFpnbElSck1nQU5UWjlTbmtycl85M2RZT3FKOU9sY1dyU2pwam1KakhiRHFua29DeWJHWFZWWEhfb3o5M0lWMHpmMmVLMURFT3BTTVRLN2xzWklDbVVBOUUzVXhjcDB4OG9MQkVnQ2Q1eVE0THFEOF92ZTNlLXM?oc=5",
+          "publisher": "Tennis Majors",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T07:58:28+00:00",
+          "published_raw": "Sun, 11 Oct 2026 07:58:28 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:13.275789+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJiVE1uV1pxRENHNUQtRnJhY0pyOV9UVkpNT2ZXcEVPZkdBeEc1TlFOelRDV3BIaVFrS2ljeGFMUkZmbVNNNFFUTkRnUDNtLXd3UGs2dUQxVFpnbElSck1nQU5UWjlTbmtycl85M2RZT3FKOU9sY1dyU2pwam1KakhiRHFua29DeWJHWFZWWEhfb3o5M0lWMHpmMmVLMURFT3BTTVRLN2xzWklDbVVBOUUzVXhjcDB4OG9MQkVnQ2Q1eVE0THFEOF92ZTNlLXM?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:21.971388+00:00"
+        }
+      ],
+      "errors": [],
+      "note": "Publication dates come from RSS. A blocked or consent page is not treated as article evidence. Older results may be retained when relevant; check each published date."
+    }
+  },
+  "beta": {
+    "specialist": "BETA",
+    "discipline": "CAPITAL INTELLIGENCE",
+    "assessment": "The investigation into Rolex reveals a mix of established facts and unverified claims. While Rolex has a strong brand reputation and a significant production volume, many claims regarding its market position and financial metrics remain unverified. The lack of concrete evidence regarding pricing trends, demand, and the company's ownership structure raises questions about its commercial viability and competitive landscape.",
+    "discipline_specific_analysis": "The analysis focuses on the commercial aspects of Rolex's operations, particularly its pricing strategy, production volume, and market demand. The claims made about Rolex's pricing relative to luxury items like the Hermès Birkin bag and its production volume compared to other luxury brands require further verification. The potential economic dependency on luxury markets and the implications for competitors in the watch industry are also critical areas of focus.",
+    "established_facts": [
+      "Rolex is a Swiss watch company.",
+      "Rolex has a long history and a strong brand reputation.",
+      "Rolex produces a wide range of watches."
+    ],
+    "important_claims": [
+      {
+        "statement": "Rolex's demand is stronger than ever in history.",
+        "verification_status": "unverified",
+        "evidence_needed": [
+          "Evidence of Rolex's pricing and demand trends"
+        ]
+      },
+      {
+        "statement": "Rolex produces over 1 million units per year.",
+        "verification_status": "unverified",
+        "evidence_needed": [
+          "Confirmation of Rolex's production volume"
+        ]
+      },
+      {
+        "statement": "If Rolex were publicly traded, it would be among the top 50 market cap companies.",
+        "verification_status": "unverified",
+        "evidence_needed": [
+          "Market cap data for publicly traded companies"
+        ]
+      }
+    ],
+    "key_evidence": [],
+    "data_gaps": [
+      "Specific details about Rolex's pricing, demand, and production volumes.",
+      "Historical data on Rolex's founder and company origins.",
+      "Information on the charitable foundation's activities and its impact on Rolex's ownership structure."
+    ],
+    "contradictions": [],
+    "specialist_question": "What specific evidence can confirm or refute the claims regarding Rolex's market position and production metrics?",
+    "original_insight": "The luxury watch market is increasingly competitive, and Rolex's ability to maintain its pricing power and brand prestige amidst rising competition from both traditional and new entrants will be crucial for its future commercial success.",
+    "confidence": 45,
+    "confidence_rationale": "The confidence score reflects the limited availability of concrete evidence to support the claims made about Rolex's market position and financial metrics. While established facts about the brand exist, many claims remain unverified, leading to uncertainty in the overall assessment.",
+    "source_records": [],
+    "web_research": {
+      "status": "metadata_only",
+      "provider": "Google News RSS",
+      "generated_at": "2026-10-11T20:19:28.393237+00:00",
+      "queries": [
+        "Rolex",
+        "Rolex company strategy",
+        "Rolex investment",
+        "Rolex funding",
+        "Rolex valuation"
+      ],
+      "query_limit": 3,
+      "page_read_limit": 10,
+      "source_count": 10,
+      "readable_count": 0,
+      "sources": [
+        {
+          "title": "Francisco Cerundolo vs Jakub Mensik - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEh3eUVwTUdtUjlpQTRYQ2xHZ3FKRXdOdUVaZTB4NHF2aWRsOUt0aEpocjJDdzBRVVR4eFlHXy10YXBqS1JZUkZIZER1d2hfSWUwWjUwR0s0SmdQTkFudFdfYzIweG1XUXdYWUF1VThYUmpSUXFWZG11amppcmNUYjk4UjhIcTZKTHNTZFN1SlJ1d0FaSDlhZkxPNXgxSjJIazZB?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:18:39+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:18:39 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEh3eUVwTUdtUjlpQTRYQ2xHZ3FKRXdOdUVaZTB4NHF2aWRsOUt0aEpocjJDdzBRVVR4eFlHXy10YXBqS1JZUkZIZER1d2hfSWUwWjUwR0s0SmdQTkFudFdfYzIweG1XUXdYWUF1VThYUmpSUXFWZG11amppcmNUYjk4UjhIcTZKTHNTZFN1SlJ1d0FaSDlhZkxPNXgxSjJIazZB?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:31.738836+00:00"
+        },
+        {
+          "title": "Alex de Minaur vs Rei Sakamoto - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2llYjVEN0plWUhoNFB4QW5KMkhPbk51cG9oZVhJRFg1OHZxWFE2SmRZNVJfaXBIU0tLQ3VhNXE0Vl8yWG1mQW5ReVp5SDdSRlZ4UEdyemRDWFBGZnd0aFNaU29qVUQwSTVnNU1mMHhYVGtpRldta1NfakRsR1BKMTJlVGdaQUQwUm5KTjd4TEI2aTcybWtGd3pn?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:18:06+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:18:06 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2llYjVEN0plWUhoNFB4QW5KMkhPbk51cG9oZVhJRFg1OHZxWFE2SmRZNVJfaXBIU0tLQ3VhNXE0Vl8yWG1mQW5ReVp5SDdSRlZ4UEdyemRDWFBGZnd0aFNaU29qVUQwSTVnNU1mMHhYVGtpRldta1NfakRsR1BKMTJlVGdaQUQwUm5KTjd4TEI2aTcybWtGd3pn?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:32.541377+00:00"
+        },
+        {
+          "title": "Hubert Hurkacz vs Yi Zhou - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPam9yM3dwelVqSzVrNzVFc0J0OE5DNFUyYl9ybm9CYWFwd3BHOEUzZk5DTWtKTEtUWGVQbzNHa09fQmRIazJlRXZnU29yYlBFdHA0SUVSN0xVaDBoMVpRTlJlc3Z5NTh6QlpfLWNZQldGcndta2VQczRpaEcyMGtjc3ZrZWk0a3RLZS1VMm04NVdSZUk?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:17:58+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:17:58 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPam9yM3dwelVqSzVrNzVFc0J0OE5DNFUyYl9ybm9CYWFwd3BHOEUzZk5DTWtKTEtUWGVQbzNHa09fQmRIazJlRXZnU29yYlBFdHA0SUVSN0xVaDBoMVpRTlJlc3Z5NTh6QlpfLWNZQldGcndta2VQczRpaEcyMGtjc3ZrZWk0a3RLZS1VMm04NVdSZUk?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:33.566688+00:00"
+        },
+        {
+          "title": "Alex de Minaur vs Karen Khachanov - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3paYkgwNllzWTYzWE1qTEhrUDZqQU53bWZnaWQ1c1huWm52aWVVU0N1a1Q5RlNpamFoQzBzd2JEZkRwdFdLUENXYk9YZXFYRnVZZXVyZXVqR2VnbHdPaHB6djFQQkx2WGUyNlVmdVlaZWE4aEhRUUNwT1Q3RlIwR3JPWHZrR3VHbllkMVo2Q3F1X2xTUS1MTkZ0bVVGZw?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T19:33:38+00:00",
+          "published_raw": "Sun, 11 Oct 2026 19:33:38 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3paYkgwNllzWTYzWE1qTEhrUDZqQU53bWZnaWQ1c1huWm52aWVVU0N1a1Q5RlNpamFoQzBzd2JEZkRwdFdLUENXYk9YZXFYRnVZZXVyZXVqR2VnbHdPaHB6djFQQkx2WGUyNlVmdVlaZWE4aEhRUUNwT1Q3RlIwR3JPWHZrR3VHbllkMVo2Q3F1X2xTUS1MTkZ0bVVGZw?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:34.300103+00:00"
+        },
+        {
+          "title": "Alexander Zverev vs Alexander Bublik - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTgxQ3JNcGZySmVDaHNZU2RTdEU0QzFna3lCSkg2aU9vNzlIdFhvMHNBclpCT3hlS0p4TS1tYVQxempTN2RlZ1FHQzJ1V3VJLVIzTS1YaFJVZXE0ak9TWDYwNElqalNOa2t5MHNzSC1sYlU5ZXExdzI5TEJqd0FLRzdLMXFMV1NDTzVsYVRTbFk5MEVoczFFN0dsN2F2bUFadXdWcA?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T18:44:04+00:00",
+          "published_raw": "Sun, 11 Oct 2026 18:44:04 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTgxQ3JNcGZySmVDaHNZU2RTdEU0QzFna3lCSkg2aU9vNzlIdFhvMHNBclpCT3hlS0p4TS1tYVQxempTN2RlZ1FHQzJ1V3VJLVIzTS1YaFJVZXE0ak9TWDYwNElqalNOa2t5MHNzSC1sYlU5ZXExdzI5TEJqd0FLRzdLMXFMV1NDTzVsYVRTbFk5MEVoczFFN0dsN2F2bUFadXdWcA?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:34.972053+00:00"
+        },
+        {
+          "title": "The New Rolex Oyster Perpetual Marks the Watch’s Centennial With Hints of Warhol and Mondrian - AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcFBCX2hGMG1iM004bTFMQ3V1S2Z5NWJ6andRSDNmUGNEMXphaU93R2hJTDNsQWVXY1ppbUhocm1jYm1RQmRGdmx1eTRGXzBhV3hfRC1LeEtxSVBucmhCdGFXeHFicjJlTldCSGM2d0l4VGw3WkRkTVRsY2tHaGY1MDJvbkk?oc=5",
+          "publisher": "AOL.com",
+          "publisher_url": "https://www.aol.com",
+          "published": "2026-10-11T18:00:00+00:00",
+          "published_raw": "Sun, 11 Oct 2026 18:00:00 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcFBCX2hGMG1iM004bTFMQ3V1S2Z5NWJ6andRSDNmUGNEMXphaU93R2hJTDNsQWVXY1ppbUhocm1jYm1RQmRGdmx1eTRGXzBhV3hfRC1LeEtxSVBucmhCdGFXeHFicjJlTldCSGM2d0l4VGw3WkRkTVRsY2tHaGY1MDJvbkk?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:35.731140+00:00"
+        },
+        {
+          "title": "Hubert Hurkacz vs Alejandro Davidovich Fokina - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRHNPbllnSlpwbHl2eTVDMTBGQnBJcmRRSHU4RlFYdTBxYV8tOWkzSUhqbVBHZnZ0aEN1SUVwQ0k4WVB2aUxsSVp1M2RndUlYSzN6S2RSdWJWNFBubm9nUHpMZHBMT1kyWHJxckJkVTFuelRScWJmT09JQnhWNTNMNE5GcVNLMWFNWlNGdFdtajdrXzFSNVpHa3JPNzZycTJDWE5DeW5NTzZKQm5XN2Y0dA?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T16:53:16+00:00",
+          "published_raw": "Sun, 11 Oct 2026 16:53:16 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRHNPbllnSlpwbHl2eTVDMTBGQnBJcmRRSHU4RlFYdTBxYV8tOWkzSUhqbVBHZnZ0aEN1SUVwQ0k4WVB2aUxsSVp1M2RndUlYSzN6S2RSdWJWNFBubm9nUHpMZHBMT1kyWHJxckJkVTFuelRScWJmT09JQnhWNTNMNE5GcVNLMWFNWlNGdFdtajdrXzFSNVpHa3JPNzZycTJDWE5DeW5NTzZKQm5XN2Y0dA?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:36.368395+00:00"
+        },
+        {
+          "title": "Arthur Gea vs Jakub Mensik - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1Z6eGQyZ1djX1haTTBnSDBzSk5kMUVZWXhQTnIxbzI2VUpYUUhyZHM5YVJXajNzdVRaTzUzZF9xaVNja2VBZWJxTDlqc20tWTFXbVJIVWpoMkNpcFBDaHpNb1pIRkVjVHQ1SDQ4Y3B5UWQzMjVOOVhOeDI4Nl9CclZpdTdUVWhmWWxob0RuanZMOVVP?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T15:53:56+00:00",
+          "published_raw": "Sun, 11 Oct 2026 15:53:56 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1Z6eGQyZ1djX1haTTBnSDBzSk5kMUVZWXhQTnIxbzI2VUpYUUhyZHM5YVJXajNzdVRaTzUzZF9xaVNja2VBZWJxTDlqc20tWTFXbVJIVWpoMkNpcFBDaHpNb1pIRkVjVHQ1SDQ4Y3B5UWQzMjVOOVhOeDI4Nl9CclZpdTdUVWhmWWxob0RuanZMOVVP?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:37.041385+00:00"
+        },
+        {
+          "title": "Stefanos Tsitsipas vs Taylor Fritz - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX3dYdF8tN1k5WnhSN3dfMVFfSm5iMEhZNXJNbWc4Y09OaVdvMWt6UXlhVkFCWTk4dmxVYl9WaG13NHF3S2FKYXVnYkxTbUtDVU5KazZFaTNFd3lmV0NFQm0tYl9zMDJNdlZYMjFDeUJVNVJyZy10clJpVzRPWEJSMVBnbmZ4VVFNNVZ5RlcydUJTeloxTVhjZkFpY2VWekU?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T13:49:55+00:00",
+          "published_raw": "Sun, 11 Oct 2026 13:49:55 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX3dYdF8tN1k5WnhSN3dfMVFfSm5iMEhZNXJNbWc4Y09OaVdvMWt6UXlhVkFCWTk4dmxVYl9WaG13NHF3S2FKYXVnYkxTbUtDVU5KazZFaTNFd3lmV0NFQm0tYl9zMDJNdlZYMjFDeUJVNVJyZy10clJpVzRPWEJSMVBnbmZ4VVFNNVZ5RlcydUJTeloxTVhjZkFpY2VWekU?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:37.719207+00:00"
+        },
+        {
+          "title": "Tennis, ATP – Rolex Shanghai Masters 2026: Gea upends Shelton - Tennis Majors",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJiVE1uV1pxRENHNUQtRnJhY0pyOV9UVkpNT2ZXcEVPZkdBeEc1TlFOelRDV3BIaVFrS2ljeGFMUkZmbVNNNFFUTkRnUDNtLXd3UGs2dUQxVFpnbElSck1nQU5UWjlTbmtycl85M2RZT3FKOU9sY1dyU2pwam1KakhiRHFua29DeWJHWFZWWEhfb3o5M0lWMHpmMmVLMURFT3BTTVRLN2xzWklDbVVBOUUzVXhjcDB4OG9MQkVnQ2Q1eVE0THFEOF92ZTNlLXM?oc=5",
+          "publisher": "Tennis Majors",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T07:58:28+00:00",
+          "published_raw": "Sun, 11 Oct 2026 07:58:28 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:28.393237+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJiVE1uV1pxRENHNUQtRnJhY0pyOV9UVkpNT2ZXcEVPZkdBeEc1TlFOelRDV3BIaVFrS2ljeGFMUkZmbVNNNFFUTkRnUDNtLXd3UGs2dUQxVFpnbElSck1nQU5UWjlTbmtycl85M2RZT3FKOU9sY1dyU2pwam1KakhiRHFua29DeWJHWFZWWEhfb3o5M0lWMHpmMmVLMURFT3BTTVRLN2xzWklDbVVBOUUzVXhjcDB4OG9MQkVnQ2Q1eVE0THFEOF92ZTNlLXM?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:38.378675+00:00"
+        }
+      ],
+      "errors": [],
+      "note": "Publication dates come from RSS. A blocked or consent page is not treated as article evidence. Older results may be retained when relevant; check each published date."
+    }
+  },
+  "gamma": {
+    "specialist": "GAMMA",
+    "discipline": "STRATEGIC INTELLIGENCE",
+    "assessment": "The investigation into Rolex reveals a complex interplay of established facts and unverified claims that could have significant implications for governance, accountability, and market dynamics in the luxury goods sector.",
+    "discipline_specific_analysis": "Rolex's unique ownership structure, being fully owned by a charitable foundation, raises questions about governance and accountability in the luxury watch market. This structure may shield Rolex from typical market pressures, allowing it to maintain high prices and exclusivity. The claims regarding Rolex's pricing and demand trends suggest a potential disconnect between perceived value and actual market dynamics, which could influence regulatory scrutiny and consumer behavior if proven true.",
+    "established_facts": [
+      "Rolex is a Swiss watch company.",
+      "Rolex has a long history and a strong brand reputation.",
+      "Rolex produces a wide range of watches."
+    ],
+    "important_claims": [
+      {
+        "statement": "Rolex sells obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors.",
+        "verification_status": "unverified"
+      },
+      {
+        "statement": "Rolex's products are comparable to a Hermès Birkin bag in price, luxury status, and waitlist times.",
+        "verification_status": "unverified"
+      },
+      {
+        "statement": "Rolex's founder wasn’t Swiss and didn’t start the company in Switzerland.",
+        "verification_status": "unverified"
+      },
+      {
+        "statement": "If Rolex were publicly traded, they’d almost certainly be among the top 50 market cap companies in the world.",
+        "verification_status": "unverified"
+      }
+    ],
+    "key_evidence": [],
+    "data_gaps": [
+      "Specific details about Rolex's pricing, demand, and production volumes.",
+      "Historical data on Rolex's founder and company origins.",
+      "Information on the charitable foundation's activities and its impact on Rolex's ownership structure."
+    ],
+    "contradictions": [],
+    "specialist_question": "What are the implications of Rolex's unique ownership structure on its market behavior and regulatory scrutiny?",
+    "original_insight": "Rolex's charitable foundation ownership may insulate it from market pressures, allowing it to maintain pricing strategies that could otherwise attract regulatory attention. This could lead to a reevaluation of luxury goods governance and accountability frameworks.",
+    "confidence": 45,
+    "confidence_rationale": "The assessment is based on a mix of established facts and numerous unverified claims. The lack of concrete evidence to support the claims diminishes overall confidence in the implications drawn from them.",
+    "source_records": [],
+    "web_research": {
+      "status": "metadata_only",
+      "provider": "Google News RSS",
+      "generated_at": "2026-10-11T20:19:44.894378+00:00",
+      "queries": [
+        "Rolex",
+        "Rolex government policy",
+        "Rolex regulation",
+        "Rolex geopolitics",
+        "Rolex national strategy"
+      ],
+      "query_limit": 3,
+      "page_read_limit": 10,
+      "source_count": 10,
+      "readable_count": 0,
+      "sources": [
+        {
+          "title": "Francisco Cerundolo vs Jakub Mensik - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEh3eUVwTUdtUjlpQTRYQ2xHZ3FKRXdOdUVaZTB4NHF2aWRsOUt0aEpocjJDdzBRVVR4eFlHXy10YXBqS1JZUkZIZER1d2hfSWUwWjUwR0s0SmdQTkFudFdfYzIweG1XUXdYWUF1VThYUmpSUXFWZG11amppcmNUYjk4UjhIcTZKTHNTZFN1SlJ1d0FaSDlhZkxPNXgxSjJIazZB?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:18:39+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:18:39 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEh3eUVwTUdtUjlpQTRYQ2xHZ3FKRXdOdUVaZTB4NHF2aWRsOUt0aEpocjJDdzBRVVR4eFlHXy10YXBqS1JZUkZIZER1d2hfSWUwWjUwR0s0SmdQTkFudFdfYzIweG1XUXdYWUF1VThYUmpSUXFWZG11amppcmNUYjk4UjhIcTZKTHNTZFN1SlJ1d0FaSDlhZkxPNXgxSjJIazZB?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:47.689553+00:00"
+        },
+        {
+          "title": "Alex de Minaur vs Rei Sakamoto - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2llYjVEN0plWUhoNFB4QW5KMkhPbk51cG9oZVhJRFg1OHZxWFE2SmRZNVJfaXBIU0tLQ3VhNXE0Vl8yWG1mQW5ReVp5SDdSRlZ4UEdyemRDWFBGZnd0aFNaU29qVUQwSTVnNU1mMHhYVGtpRldta1NfakRsR1BKMTJlVGdaQUQwUm5KTjd4TEI2aTcybWtGd3pn?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:18:06+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:18:06 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2llYjVEN0plWUhoNFB4QW5KMkhPbk51cG9oZVhJRFg1OHZxWFE2SmRZNVJfaXBIU0tLQ3VhNXE0Vl8yWG1mQW5ReVp5SDdSRlZ4UEdyemRDWFBGZnd0aFNaU29qVUQwSTVnNU1mMHhYVGtpRldta1NfakRsR1BKMTJlVGdaQUQwUm5KTjd4TEI2aTcybWtGd3pn?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:48.311716+00:00"
+        },
+        {
+          "title": "Hubert Hurkacz vs Yi Zhou - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPam9yM3dwelVqSzVrNzVFc0J0OE5DNFUyYl9ybm9CYWFwd3BHOEUzZk5DTWtKTEtUWGVQbzNHa09fQmRIazJlRXZnU29yYlBFdHA0SUVSN0xVaDBoMVpRTlJlc3Z5NTh6QlpfLWNZQldGcndta2VQczRpaEcyMGtjc3ZrZWk0a3RLZS1VMm04NVdSZUk?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T20:17:58+00:00",
+          "published_raw": "Sun, 11 Oct 2026 20:17:58 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPam9yM3dwelVqSzVrNzVFc0J0OE5DNFUyYl9ybm9CYWFwd3BHOEUzZk5DTWtKTEtUWGVQbzNHa09fQmRIazJlRXZnU29yYlBFdHA0SUVSN0xVaDBoMVpRTlJlc3Z5NTh6QlpfLWNZQldGcndta2VQczRpaEcyMGtjc3ZrZWk0a3RLZS1VMm04NVdSZUk?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:48.993597+00:00"
+        },
+        {
+          "title": "Alex de Minaur vs Karen Khachanov - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3paYkgwNllzWTYzWE1qTEhrUDZqQU53bWZnaWQ1c1huWm52aWVVU0N1a1Q5RlNpamFoQzBzd2JEZkRwdFdLUENXYk9YZXFYRnVZZXVyZXVqR2VnbHdPaHB6djFQQkx2WGUyNlVmdVlaZWE4aEhRUUNwT1Q3RlIwR3JPWHZrR3VHbllkMVo2Q3F1X2xTUS1MTkZ0bVVGZw?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T19:33:38+00:00",
+          "published_raw": "Sun, 11 Oct 2026 19:33:38 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3paYkgwNllzWTYzWE1qTEhrUDZqQU53bWZnaWQ1c1huWm52aWVVU0N1a1Q5RlNpamFoQzBzd2JEZkRwdFdLUENXYk9YZXFYRnVZZXVyZXVqR2VnbHdPaHB6djFQQkx2WGUyNlVmdVlaZWE4aEhRUUNwT1Q3RlIwR3JPWHZrR3VHbllkMVo2Q3F1X2xTUS1MTkZ0bVVGZw?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:49.606932+00:00"
+        },
+        {
+          "title": "Alexander Zverev vs Alexander Bublik - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTgxQ3JNcGZySmVDaHNZU2RTdEU0QzFna3lCSkg2aU9vNzlIdFhvMHNBclpCT3hlS0p4TS1tYVQxempTN2RlZ1FHQzJ1V3VJLVIzTS1YaFJVZXE0ak9TWDYwNElqalNOa2t5MHNzSC1sYlU5ZXExdzI5TEJqd0FLRzdLMXFMV1NDTzVsYVRTbFk5MEVoczFFN0dsN2F2bUFadXdWcA?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T18:44:04+00:00",
+          "published_raw": "Sun, 11 Oct 2026 18:44:04 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTgxQ3JNcGZySmVDaHNZU2RTdEU0QzFna3lCSkg2aU9vNzlIdFhvMHNBclpCT3hlS0p4TS1tYVQxempTN2RlZ1FHQzJ1V3VJLVIzTS1YaFJVZXE0ak9TWDYwNElqalNOa2t5MHNzSC1sYlU5ZXExdzI5TEJqd0FLRzdLMXFMV1NDTzVsYVRTbFk5MEVoczFFN0dsN2F2bUFadXdWcA?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:50.284220+00:00"
+        },
+        {
+          "title": "The New Rolex Oyster Perpetual Marks the Watch’s Centennial With Hints of Warhol and Mondrian - AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcFBCX2hGMG1iM004bTFMQ3V1S2Z5NWJ6andRSDNmUGNEMXphaU93R2hJTDNsQWVXY1ppbUhocm1jYm1RQmRGdmx1eTRGXzBhV3hfRC1LeEtxSVBucmhCdGFXeHFicjJlTldCSGM2d0l4VGw3WkRkTVRsY2tHaGY1MDJvbkk?oc=5",
+          "publisher": "AOL.com",
+          "publisher_url": "https://www.aol.com",
+          "published": "2026-10-11T18:00:00+00:00",
+          "published_raw": "Sun, 11 Oct 2026 18:00:00 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcFBCX2hGMG1iM004bTFMQ3V1S2Z5NWJ6andRSDNmUGNEMXphaU93R2hJTDNsQWVXY1ppbUhocm1jYm1RQmRGdmx1eTRGXzBhV3hfRC1LeEtxSVBucmhCdGFXeHFicjJlTldCSGM2d0l4VGw3WkRkTVRsY2tHaGY1MDJvbkk?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:50.980151+00:00"
+        },
+        {
+          "title": "Hubert Hurkacz vs Alejandro Davidovich Fokina - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRHNPbllnSlpwbHl2eTVDMTBGQnBJcmRRSHU4RlFYdTBxYV8tOWkzSUhqbVBHZnZ0aEN1SUVwQ0k4WVB2aUxsSVp1M2RndUlYSzN6S2RSdWJWNFBubm9nUHpMZHBMT1kyWHJxckJkVTFuelRScWJmT09JQnhWNTNMNE5GcVNLMWFNWlNGdFdtajdrXzFSNVpHa3JPNzZycTJDWE5DeW5NTzZKQm5XN2Y0dA?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T16:53:16+00:00",
+          "published_raw": "Sun, 11 Oct 2026 16:53:16 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRHNPbllnSlpwbHl2eTVDMTBGQnBJcmRRSHU4RlFYdTBxYV8tOWkzSUhqbVBHZnZ0aEN1SUVwQ0k4WVB2aUxsSVp1M2RndUlYSzN6S2RSdWJWNFBubm9nUHpMZHBMT1kyWHJxckJkVTFuelRScWJmT09JQnhWNTNMNE5GcVNLMWFNWlNGdFdtajdrXzFSNVpHa3JPNzZycTJDWE5DeW5NTzZKQm5XN2Y0dA?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:55.490924+00:00"
+        },
+        {
+          "title": "Arthur Gea vs Jakub Mensik - Match ATP - Rolex Shanghai Masters 1970 - Round of 16 - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1Z6eGQyZ1djX1haTTBnSDBzSk5kMUVZWXhQTnIxbzI2VUpYUUhyZHM5YVJXajNzdVRaTzUzZF9xaVNja2VBZWJxTDlqc20tWTFXbVJIVWpoMkNpcFBDaHpNb1pIRkVjVHQ1SDQ4Y3B5UWQzMjVOOVhOeDI4Nl9CclZpdTdUVWhmWWxob0RuanZMOVVP?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T15:53:56+00:00",
+          "published_raw": "Sun, 11 Oct 2026 15:53:56 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1Z6eGQyZ1djX1haTTBnSDBzSk5kMUVZWXhQTnIxbzI2VUpYUUhyZHM5YVJXajNzdVRaTzUzZF9xaVNja2VBZWJxTDlqc20tWTFXbVJIVWpoMkNpcFBDaHpNb1pIRkVjVHQ1SDQ4Y3B5UWQzMjVOOVhOeDI4Nl9CclZpdTdUVWhmWWxob0RuanZMOVVP?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:56.162000+00:00"
+        },
+        {
+          "title": "Stefanos Tsitsipas vs Taylor Fritz - Match ATP - Rolex Shanghai Masters 1970 - Third round - tennismajors.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX3dYdF8tN1k5WnhSN3dfMVFfSm5iMEhZNXJNbWc4Y09OaVdvMWt6UXlhVkFCWTk4dmxVYl9WaG13NHF3S2FKYXVnYkxTbUtDVU5KazZFaTNFd3lmV0NFQm0tYl9zMDJNdlZYMjFDeUJVNVJyZy10clJpVzRPWEJSMVBnbmZ4VVFNNVZ5RlcydUJTeloxTVhjZkFpY2VWekU?oc=5",
+          "publisher": "tennismajors.com",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T13:49:55+00:00",
+          "published_raw": "Sun, 11 Oct 2026 13:49:55 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX3dYdF8tN1k5WnhSN3dfMVFfSm5iMEhZNXJNbWc4Y09OaVdvMWt6UXlhVkFCWTk4dmxVYl9WaG13NHF3S2FKYXVnYkxTbUtDVU5KazZFaTNFd3lmV0NFQm0tYl9zMDJNdlZYMjFDeUJVNVJyZy10clJpVzRPWEJSMVBnbmZ4VVFNNVZ5RlcydUJTeloxTVhjZkFpY2VWekU?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:56.823315+00:00"
+        },
+        {
+          "title": "Tennis, ATP – Rolex Shanghai Masters 2026: Gea upends Shelton - Tennis Majors",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJiVE1uV1pxRENHNUQtRnJhY0pyOV9UVkpNT2ZXcEVPZkdBeEc1TlFOelRDV3BIaVFrS2ljeGFMUkZmbVNNNFFUTkRnUDNtLXd3UGs2dUQxVFpnbElSck1nQU5UWjlTbmtycl85M2RZT3FKOU9sY1dyU2pwam1KakhiRHFua29DeWJHWFZWWEhfb3o5M0lWMHpmMmVLMURFT3BTTVRLN2xzWklDbVVBOUUzVXhjcDB4OG9MQkVnQ2Q1eVE0THFEOF92ZTNlLXM?oc=5",
+          "publisher": "Tennis Majors",
+          "publisher_url": "https://www.tennismajors.com",
+          "published": "2026-10-11T07:58:28+00:00",
+          "published_raw": "Sun, 11 Oct 2026 07:58:28 GMT",
+          "search_query": "Rolex",
+          "retrieved_at": "2026-10-11T20:19:44.894378+00:00",
+          "text": "",
+          "read_status": "blocked_or_insufficient_text",
+          "page_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJiVE1uV1pxRENHNUQtRnJhY0pyOV9UVkpNT2ZXcEVPZkdBeEc1TlFOelRDV3BIaVFrS2ljeGFMUkZmbVNNNFFUTkRnUDNtLXd3UGs2dUQxVFpnbElSck1nQU5UWjlTbmtycl85M2RZT3FKOU9sY1dyU2pwam1KakhiRHFua29DeWJHWFZWWEhfb3o5M0lWMHpmMmVLMURFT3BTTVRLN2xzWklDbVVBOUUzVXhjcDB4OG9MQkVnQ2Q1eVE0THFEOF92ZTNlLXM?oc=5&ucbcb=1&hl=en-GB&gl=GB&ceid=GB:en",
+          "page_title": "Google News",
+          "page_retrieved_at": "2026-10-11T20:19:57.480864+00:00"
+        }
+      ],
+      "errors": [],
+      "note": "Publication dates come from RSS. A blocked or consent page is not treated as article evidence. Older results may be retained when relevant; check each published date."
+    }
+  },
+  "generated_at": "2026-10-11T21:20:08"
+}
