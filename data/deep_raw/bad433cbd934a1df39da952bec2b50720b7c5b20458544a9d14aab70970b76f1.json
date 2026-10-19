@@ -1,0 +1,21 @@
+{
+  "id": "bad433cbd934a1df39da952bec2b50720b7c5b20458544a9d14aab70970b76f1",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "No Transformer Beats Six Covariates: Long-Horizon Prediction of Depressive Symptoms from Childhood Essays",
+  "url": "https://arxiv.org/abs/2610.07764",
+  "summary": "arXiv:2610.07764v1 Announce Type: cross Abstract: Natural language processing (NLP) models can detect depression-related language in text written near the time symptoms are measured, but whether pretrained transformers can predict depressive symptoms from text written twelve years earlier is largely untested. In the National Child Development Study, a British birth cohort, we predict probable depressive symptoms at age 23 from essays the same people wrote at age 11. Our baseline, a logistic regression on six childhood covariates, outperforms every text model that sees only the essay: seven fine-tuned transformers, a bag-of-words model, frozen embeddings and four zero-shot large language models. Its area under the receiver operating characteristic curve (AUC-ROC) is 0.737 against 0.670 for the best transformer on the primary seed, and no added text score detectably raises the baseline's AUC-ROC. None of the five domain-pretrained transformers detectably beats its general-domain control after Bonferroni correction. For long-horizon prediction, the baseline remains the model to beat.",
+  "published": "2026-10-06T05:00:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.167804+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:00:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07764v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.788078+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ce8b9e9e3053b7c9571223be9081163716085484f3105bad92d9b4ca41128f82",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "DePICT: Decision-Preserving Interface for Constrained Downstream Tasks",
+  "url": "https://arxiv.org/abs/2610.03945",
+  "summary": "arXiv:2610.03945v2 Announce Type: replace Abstract: A constrained optimization problem may involve a parameter in its objective and active constraints, yet the final decision may remain insensitive to small changes in that parameter. This raises a fundamental question: which inputs does a decision making system truly depend on? Building on this question, we introduce DePICT, a procedure for constructing decision preserving interfaces by ranking context directions according to the optimizer's solution sensitivity and aggregating them across an operating regime. We study this problem in a high dimensional setting where primitive context parameterizes a constrained task and the downstream agent observes only a selected subset of context directions. For locally regular constrained programs, we derive a Karush Kuhn Tucker (KKT) based characterization of when a context direction is optimizer relevant. Our analysis shows that appearing in the active optimization problem does not necessarily imply that a variable affects the final decision. Some context directions can alter the KKT conditions while leaving the optimal solution unchanged because their effect is absorbed by the dual variables. DePICT is designed to remove exactly these directions. In a controlled diagnosis, it recovers the decision relevant interface exactly and reduces linear predictor regret to 0.009, compared with 0.475 for the strongest competing baseline.",
+  "published": "2026-10-02T19:00:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.123460+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:10:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.03945v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.045923+00:00"
+}

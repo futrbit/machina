@@ -1,0 +1,18 @@
+{
+  "id": "27b0c620073d44064f837dbc975680117050567331cceb1b97d855c3c931a4cb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "When Plans Change, Remember: Replanning-Guided Visual Memory for Vision-Language-Action Models",
+  "url": "https://arxiv.org/abs/2610.22556",
+  "summary": "arXiv:2610.22556v1 Announce Type: cross Abstract: Long-horizon, multi-stage Vision-Language-Action (VLA) policies often require visual information that is no longer present in the current observation. Retaining the complete observation history is computationally expensive and highly redundant, motivating selective visual memory. We introduce RePlanMem-VLA (Replanning-Guided Keyframe Memory for VLA), which turns a policy's own plan revisions into an online memory-write signal. Under receding-horizon execution, consecutive action chunks predict some of the same future actions. RePlanMem-VLA treats unusually large disagreement between these temporally aligned predictions as evidence of a task-relevant event. We first compare 35 disagreement measures across single-task autoregressive decoder-only and Flow-Matching Transformers trained from scratch, then validate the selected signals on pretrained OpenVLA-OFT and $\\pi_{0.5}$ policies over MIKASA-Robo-VLA tasks. The resulting detectors achieve ROC-AUC of 0.981-0.997. We then use the selected signals in RePlanMem-VLA to trigger updates to a bounded visual memory, with a robot-masked write filter suppressing redundant frames. In the evaluated memory-retention experiments, RePlanMem-VLA preserves task-relevant observations until the later decision point in 100% of episodes. Real-robot replay data further show that event selection and redundancy suppression extend beyond simulation. These results establish plan revision as a policy-internal signal for controlling what a VLA remembers. Website: https://vika787.github.io/RePlanMem/.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.238725+00:00"
+}

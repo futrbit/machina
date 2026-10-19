@@ -1,0 +1,21 @@
+{
+  "id": "502b1ffdf11817ad21f830a93a9fe418b4b5d87635ca5d81e900e62327113ca8",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "LM-X: Explainable Vision--Language--Action Modeling via Progress, Event, and Uncertainty Prediction",
+  "url": "https://arxiv.org/abs/2608.25757",
+  "summary": "arXiv:2608.25757v5 Announce Type: replace Abstract: Large-scale vision--language--action (VLA) policies have advanced generalist robot control, yet most remain stimulus-to-action black boxes: actions are exposed, but their explanatory state is not. They provide no native account of three explanatory signals: task progress, the next semantic transition, or local command reliability. Prior work shows that progress and event structure aid long-horizon control and that uncertainty supports monitoring; however, such capabilities are typically added or extracted only after action pretraining. The field therefore lacks a VLA foundation model whose explanatory state is jointly pretrained with control. Drawing on biological sensorimotor organization, in which outcome-sensitive, event-segmented, and probabilistic predictions structure behavior, we introduce LM-X. LM-X learns three directly supervised online signals: return-to-go (RTG) estimates visible progress and state quality; event-to-go (ETG) predicts the action sequence to the next semantic event; and heteroscedastic action-flow variance reports local command reliability. RTG conditions ETG and both condition action generation; uncertainty is estimated inside the action expert, making explanation part of control rather than a post-hoc description. We pretrain LM-X on more than 20,000 hours of heterogeneous real-robot trajectories, including over 1,000 hours of failed rollouts. LM-X achieves 74.1\\% success on 50 randomized-hard RoboTwin2.0 tasks and 73.5\\% on seven real-robot tasks, compared with 55.4\\% and 50.7\\% for GR00T N1.7. Its signals track progress and regression, anticipate event-scale motion, detect high-error actions, and provide advance failure warning. These results establish LM-X as an explainable VLA foundation model that couples transparent predictive state with stronger generalist control. Github: https://github.com/loongOpen/LoongWu-LM-X-VLA",
+  "published": "2026-08-26T13:05:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.763528+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:15:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.25757v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.494460+00:00"
+}

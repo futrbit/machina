@@ -1,0 +1,18 @@
+{
+  "id": "dc75688c84e3e4f382f240ee1ce26f151736c1f7f94f27d493c7b8920690580c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Diagnosing GNN Failure Modes with Layer-Wise Probe Entropy",
+  "url": "https://arxiv.org/abs/2610.22595",
+  "summary": "arXiv:2610.22595v1 Announce Type: new Abstract: Graph neural networks (GNNs) are typically evaluated only at their final layer, obscuring how task-relevant information evolves during message passing. We introduce a post-hoc diagnostic that freezes a trained GNN, fits an independent linear probe to each layer, and tracks probe accuracy alongside normalized predictive entropy. Across real and synthetic graph settings, layer-wise probe entropy distinguishes beneficial, neutral, and harmful smoothing, a capability not demonstrated by existing geometric measures. Moreover, by comparing shallow and deep models, we show that the onset of entropy degradation separates the two main GNN failure modes: structural mismatch under heterophily, which appears from the earliest layers even in shallow models, and excessive-depth oversmoothing, which emerges only as propagation depth increases. These results establish probe-entropy trajectories as a tool for analyzing information flow in GNNs and motivate future work on adaptive depth selection and early-exit mechanisms.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.195752+00:00"
+}

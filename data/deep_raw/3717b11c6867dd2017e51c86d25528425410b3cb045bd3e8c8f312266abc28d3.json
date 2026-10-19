@@ -1,0 +1,22 @@
+{
+  "id": "3717b11c6867dd2017e51c86d25528425410b3cb045bd3e8c8f312266abc28d3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "PixVL: Self-Supervised Training of Pixel-Level MLLMs via a Unified Mask--Text Consistency Cycle",
+  "url": "https://arxiv.org/abs/2608.01354",
+  "summary": "arXiv:2608.01354v2 Announce Type: replace Abstract: Recent studies develop pixel-level multimodal large language models (MLLMs) that support both Region Segmentation and Region Understanding, extending multimodal interaction from whole images to specific objects and regions. However, these methods face two fundamental challenges. First, the scarcity of high-quality mask--text pairs leaves abundant mask annotations without corresponding language supervision. Second, discrepancies in supervision formats and learning-signal densities induce optimization interference between Region Segmentation and Region Understanding. To address these challenges, we propose PixVL, a self-supervised post-training framework that introduces a unified Mask--Text Consistency Cycle, enabling pixel-level MLLMs to generate and self-verify regional descriptions and learn from unlabeled data. We found that direct cycle based solely on geometric reconstruction is unreliable because re-segmentation IoU does not faithfully reflect the semantic quality and referring sufficiency. PixVL therefore introduces confuser-aware semantic verification, which uses the model's confidence when it correctly chooses the target among highly similar candidate regions, and assigns zero reward to an incorrect choice. Meanwhile, PixVL performs cross-view verification using temporally separated video frames or geometrically transformed image views, preventing cyclic learning from collapsing to positional and shape shortcuts. Finally, a quality-coupled bidirectional learning strategy uses the highest-reward description to guide Text-to-Mask learning. This strategy transforms Region Understanding and Region Segmentation from competing tasks into mutual generators and verifiers. Experiments demonstrate that PixVL improves both region understanding task and segmentation task.",
+  "published": "2026-08-02T16:13:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.788026+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:14:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.01354v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.637977+00:00"
+}

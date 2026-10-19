@@ -1,0 +1,22 @@
+{
+  "id": "2467d68eefe44aa3a731b6f5d025554207c92b000b88481b3e0d109c9a816233",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "System Attribution in LLM Brand Recommendations: Single Responses Identify the System, Aggregated Brand Profiles Do Not Transfer",
+  "url": "https://arxiv.org/abs/2610.00253",
+  "summary": "arXiv:2610.00253v1 Announce Type: cross Abstract: Audits of AI visibility summarise the brand recommendations of deployed language models into per-system profiles. We test whether such a profile describes the system on one corpus of 6,475 stored responses (6,324 analysable) collected between December 2025 and February 2026 from five deployed endpoints across gift-recommendation, corporate-reputation and category-ownership queries. The collection harness cut many answers short: 83.1% of Gemini 3 Flash answers in category ownership end mid-sentence under a 1,024-token output cap. With every answer cut to its first 800 characters, a character n-gram classifier cross-validated by prompt attributes one response to GPT-5.2, Gemini 3 Flash, Gemini 3 Flash with search, Grok or Perplexity sonar-pro with 97.84% accuracy (5,028 responses, 383 prompts, majority class 31.5%, 30 split seeds). Length alone falls to the majority rate, 24 formatting statistics reach 95.79%, and masking brand names and capitalised tokens leaves 97.72%. Held-out query conditions keep 97.43% weighted by size and 88.0% unweighted; in a retrieval-grounded arm that changes the harness, no Grok answer is attributed to Grok (0/120). Aggregated into 50 model-by-domain-by-condition units, twelve behavioural features separate four systems at 66.53% under grouped cross-validation, against a label-permutation null with mean 33.71% and 95th percentile 46.0%. Across domains the aggregate profile fails: a forest trained on category-ownership units assigns all 22 gift units to the wrong system, consistent with a reversal in brand volume (8.41 against 0.94 brands per response in gifts, 3.01 against 3.91 in category ownership), while single responses transfer at 89.92% balanced accuracy. The surface form of an answer carries the system across the query domains tested; aggregated brand behaviour does not, and the uncrossed design cannot separate the system from the domain or the harness.",
+  "published": "2026-09-23T21:57:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.806488+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-23T21:57:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00253v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.205237+00:00"
+}

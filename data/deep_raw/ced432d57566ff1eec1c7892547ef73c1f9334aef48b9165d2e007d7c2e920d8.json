@@ -1,0 +1,21 @@
+{
+  "id": "ced432d57566ff1eec1c7892547ef73c1f9334aef48b9165d2e007d7c2e920d8",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Object-Reconstruction-Aware Whole-body Control of Mobile Manipulators",
+  "url": "https://arxiv.org/abs/2509.04094",
+  "summary": "arXiv:2509.04094v3 Announce Type: replace Abstract: Object reconstruction and inspection tasks play a crucial role in various robotics applications. Identifying paths that reveal the most unknown areas of the object is paramount in this context, as it directly affects reconstruction efficiency. Current methods often use sampling based path planning techniques, evaluating views along the path to enhance reconstruction performance. However, these methods are computationally expensive as they require evaluating several candidate views on the path. To this end, we propose a computationally efficient solution that relies on calculating a focus point in the most informative region and having the robot maintain this point in the camera field of view along the path. In this way, object reconstruction related information is incorporated into the whole body control of a mobile manipulator employing a visibility constraint without the need for an additional path planner. We conducted comprehensive and realistic simulations using a large dataset of 114 diverse objects of varying sizes from 57 categories to compare our method with a sampling based planning strategy and a strategy that does not employ informative paths using Bayesian data analysis. Furthermore, to demonstrate the applicability and generality of the proposed approach, we conducted real world experiments with an 8 DoF omnidirectional mobile manipulator and a legged manipulator. Our results suggest that, compared to a sampling based strategy, there is no statistically significant difference in object reconstruction entropy, and there is a 52.3% probability that they are practically equivalent in terms of coverage. In contrast, our method is 6.2 to 19.36 times faster in terms of computation time and reduces the total time the robot spends between views by 13.76% to 27.9%, depending on the camera FoV and model resolution.",
+  "published": "2025-09-04T10:52:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.478012+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:40:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2509.04094v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.048921+00:00"
+}

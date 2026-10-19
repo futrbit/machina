@@ -1,0 +1,21 @@
+{
+  "id": "56b4f14a063dd0f6913181a05dda8174db4ef7ae63d34ca5625048b4698bace3",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Model-Based Geometry-Aware Generative Optimization for Constrained Locomotion Planning",
+  "url": "https://arxiv.org/abs/2610.07772",
+  "summary": "arXiv:2610.07772v1 Announce Type: new Abstract: Constrained Locomotion Planning (CLP) for quadrupeds and humanoids, where robots must satisfy collision avoidance, contact consistency, kinematic feasibility, and support constraints, is challenging under high-dimensional dynamics and highly non-convex environments. Recent Model-Based Diffusion (MBD) approaches recast trajectory optimization as posterior sampling over trajectories, using known dynamics and Monte Carlo rollouts to analytically estimate the denoising score function without demonstration learning. While constrained variants further incorporate feasibility into model-based score rollouts and show promising performance, they are still limited by (1) lacking a task-modulated active constraint geometry that shapes the score direction and reverse stochasticity, and (2) using deterministic DDPM-style reverse transport without adaptive scheduling across different generative transports. Therefore, we introduce Model-Based Geometry-Aware Generative Optimization (2GO) for constrained locomotion, which turns active constraint geometry into executable denoising operators through normal- induced metric shaping, tangent-space stochastic filtering, and CFS-based retraction. 2GO further decouples generative transport from reverse stochasticity through an adaptive diffusion and flow-like schedule. Experiments on constrained quadruped and humanoid locomotion demonstrate strong performance in discrete foothold selection and continuous posture planning, with higher success rates, fewer violations, and improved execution compatibility.",
+  "published": "2026-10-06T05:07:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.460022+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:07:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07772v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.626381+00:00"
+}

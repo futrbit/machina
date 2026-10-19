@@ -1,0 +1,21 @@
+{
+  "id": "fb7f9811b5f91f6749fabbaeab1c3e246159cff6c072f4fdbe5d9b88a3d8d4c4",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Decidable By Construction: Design-Time Verification for Truly Fearless Systems",
+  "url": "https://arxiv.org/abs/2603.25414",
+  "summary": "arXiv:2603.25414v5 Announce Type: replace-cross Abstract: Concurrency, parallelism and distributed execution become truly fearless when the compiler tracks wait-for edges, proves multi-threaded work is sound and preserves distributed boundary contracts. In this design, our Composer compiler preserves proofs while lowering Clef directly to native CPU, GPU, NPU and FPGA code, without translation through C or vendor APIs. Our Program Semantic Graph retains the values, relationships and premises that justify BAREWire's unboxed boundary contracts. And C & C++ interfacing is an explicit marshaling boundary, with proofs tied to actual arguments, conversions and returned values. Four verification tiers connect an account of our design. Tier 1 supplies structural inference, founded on principal dimensional types. Tier 2 generates and checks local arithmetic, representation, and computational integrity at the node level. Tier 3 instantiates reusable domain and system lemmas, including distributed proofs supported by Iris, Actris and Aneris. Tiers 1-3 require no developer annotations, with a quotation based lemma library design to extend coverage as use cases expand. Tier 4 admits computational and probabilistic relational proofs, with project annotations identifying the required relations. We extend the same library direction toward recognizing relational constructions from hypergraph structure. A formal composition rule connects arithmetic, ownership, protocol and realization evidence. Our worked distributed reduction preserves one specified result across concurrent workers, reordered arrivals and boundary mappings. Its probabilistic extension carries worker and conversion error with an explicit failure budget. With recent work by Urschel, we show bounds supply a relevant source of reusable proof terms. These constructions make verification a core engineering discipline for truly fearless programs and systems across a variety of hardware targets.",
+  "published": "2026-03-26T13:09:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.418358+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:51:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.25414v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.922805+00:00"
+}

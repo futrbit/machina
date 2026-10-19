@@ -1,0 +1,22 @@
+{
+  "id": "9fc3cdb362fe919030c50d91fababb4a8f8434a258176c621b4ac54f3a9ba099",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "AffordDrive3D: Affordance-Aware World-Action Modeling with Spatial Understanding",
+  "url": "https://arxiv.org/abs/2610.11060",
+  "summary": "arXiv:2610.11060v1 Announce Type: new Abstract: World-action models have recently improved autonomous driving by jointly learning future scene prediction and trajectory generation. Most existing approaches model the future primarily through RGB appearance, and recent works have begun to incorporate geometric prediction to improve spatial understanding. However, dense geometry describes the spatial layout of the entire scene without indicating which parts are most relevant to the ego vehicle's action. For driving, the model must also identify and anticipate where it can safely move and which regions may pose collision risks. Jointly modeling action-relevant regions and future geometry can provide the policy with both driving-relevant cues and their corresponding spatial structure. We therefore propose AffordDrive3D, an affordance- and geometry-aware world-action model that jointly learns future action-relevant regions and spatial structure. In order to capture the scene semantics and driving context needed for driving affordance prediction, we build AffordDrive3D on a VLM backbone to forecast drivable areas and collision-critical regions that directly affect ego motion, while predicting future geometry from RGB world-model latents. On NAVSIM, AffordDrive3D achieves state-of-the-art performance with 91.3 PDMS and 89.9 EPDMS, demonstrating the effectiveness of jointly modeling future affordances and geometry for trajectory planning.",
+  "published": "2026-10-08T01:16:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.738056+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T01:16:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11060v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.579409+00:00"
+}

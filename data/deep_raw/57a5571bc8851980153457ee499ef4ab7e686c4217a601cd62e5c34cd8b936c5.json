@@ -1,0 +1,21 @@
+{
+  "id": "57a5571bc8851980153457ee499ef4ab7e686c4217a601cd62e5c34cd8b936c5",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Precomputing Multi-Agent Path Replanning Using Temporal Flexibility",
+  "url": "https://arxiv.org/abs/2601.04884",
+  "summary": "arXiv:2601.04884v4 Announce Type: replace Abstract: Executing a multi-agent plan can be challenging when an agent is delayed, because this typically creates conflicts with other agents. So, we need to quickly find a new safe plan. Replanning only the delayed agent often does not yield an efficient plan, and sometimes cannot even yield a feasible one. On the other hand, replanning other agents may lead to a cascade of changes and delays, and it is computationally expensive. We show how to efficiently replan a single delayed agent by tracking and using the temporal flexibility of other agents while avoiding cascading delays. This flexibility is the maximum delay that the agent can take without changing the order with agents other than the initially delayed agent, or further delaying other agents. Our algorithm, FlexSIPP, precomputes all possible plans for the delayed agent and returns the changes to the other agents within the given scenario. We demonstrate our method in a real-world case study of replanning trains in the densely-used Dutch railway network and in the MovingAI MAPF benchmark set. Our experiments show that FlexSIPP provides effective solutions relevant to real-world adjustments, and within a reasonable timeframe.",
+  "published": "2026-01-08T12:30:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.181795+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:48:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2601.04884v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.653365+00:00"
+}

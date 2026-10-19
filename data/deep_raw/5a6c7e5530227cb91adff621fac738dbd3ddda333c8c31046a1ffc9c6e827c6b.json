@@ -1,0 +1,21 @@
+{
+  "id": "5a6c7e5530227cb91adff621fac738dbd3ddda333c8c31046a1ffc9c6e827c6b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Adaptive Power Sampling for LLM Reasoning",
+  "url": "https://arxiv.org/abs/2610.08563",
+  "summary": "arXiv:2610.08563v1 Announce Type: new Abstract: Sequence-level power sampling has recently emerged as a training-free approach to reasoning by sampling from a sharpened output distribution of a base large language model (LLM). Nevertheless, existing methods typically sharpen the base model distribution uniformly across queries, overlooking variations in query difficulty and in how well the base model already handles each query. The goal of this work is to equip power sampling with query adaptivity. Theoretically, we show that the benefits of further sharpening are determined by the self-reward gap between correct and incorrect responses. Based on this insight, we propose \\emph{Adaptive Power Sampling} (APS), which adjusts the sharpening exponent on a per-query basis at test time using the relationship between answer agreement and the model's self-reward. Experiments across diverse reasoning tasks, including MATH500, HumanEval, and GPQA, show that APS consistently outperforms power sampling with a fixed sharpening exponent, without additional training.",
+  "published": "2026-10-06T15:43:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.148814+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:43:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08563v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.713329+00:00"
+}

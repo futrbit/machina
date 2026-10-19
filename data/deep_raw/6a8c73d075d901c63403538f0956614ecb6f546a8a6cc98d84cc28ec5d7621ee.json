@@ -1,0 +1,21 @@
+{
+  "id": "6a8c73d075d901c63403538f0956614ecb6f546a8a6cc98d84cc28ec5d7621ee",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
+  "url": "https://arxiv.org/abs/2610.12432",
+  "summary": "arXiv:2610.12432v1 Announce Type: new Abstract: Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an analytic safety function and dynamics model, and standard minimal-intervention filters are myopic to long-horizon task return because they minimize only instantaneous action deviation. Hard projections are also undefined when no safe action exists. We present FAITH, a feasibility-aware, model-free framework that approximates the optimal state-action safety value and amortizes minimal-intervention filtering with a feedforward network. The task policy optimizes the task return through the filtered dynamics, which recovers the feasible constrained problem without a competing safety term in the task-policy update. When no action satisfies the learned safety condition, the same filter approaches the action with minimum predicted peak harm. On a double integrator example and a Safety Gym environment, FAITH achieves the highest return among methods with no feasible-start violations and matches the lowest harm from infeasible starts. On a 29-DoF humanoid, it reaches a 99.95% safety rate while retaining 97% of the unfiltered return in Walking-Avoid, and obtains the highest measured safety rate in Push-Avoid by learning to sacrifice balancing and fall away from the protected region. The same policies are also demonstrated on a real-world Unitree G1 humanoid.",
+  "published": "2026-10-08T17:57:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.751535+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:57:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12432v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.964177+00:00"
+}

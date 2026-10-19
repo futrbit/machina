@@ -1,0 +1,22 @@
+{
+  "id": "8ad2b1501a04dab9879eccd2660a73f658d6a2ddd37b6f8b89b20d239e75251c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ibUMAP: Coherent and Scalable Field Evaluation for UMAP Optimization",
+  "url": "https://arxiv.org/abs/2610.01445",
+  "summary": "arXiv:2610.01445v1 Announce Type: new Abstract: UMAP achieves scalable layout optimization through stochastic negative sampling. However, this stochasticity can lead to unstable embeddings across reruns and downstream reuse, as the estimated repulsive forces depend on the ordering of sampling events. We present ibUMAP, a coherent field-based alternative that evaluates attraction and repulsion from a shared embedding snapshot and applies them synchronously. Its degree-weighted repulsive field is motivated by the conditional expectation of negative sampling for a fixed embedding and represented by three scalar moments, which are evaluated efficiently on CPUs and GPUs using an interpolation-based FFT scheme. This formulation avoids explicit all-pairs computations while inducing optimization dynamics that differ from those of standard online UMAP. Controlled experiments show that synchrony and kernel capping alter the local-global fidelity trade-off, whereas FFT evaluation produces small average changes in final quality. End-to-end benchmarks show median speedups of 3.29x unseeded and 5.79x seeded over umap-learn on CPU, and 1.44x over cuML on million-scale datasets under unseeded GPU execution. These gains accompany greater run-to-run stability and measurable fidelity trade-offs.",
+  "published": "2026-10-01T10:41:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.791497+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T10:41:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01445v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.666754+00:00"
+}

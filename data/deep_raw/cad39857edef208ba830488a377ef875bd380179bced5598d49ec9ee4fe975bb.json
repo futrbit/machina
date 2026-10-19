@@ -1,0 +1,22 @@
+{
+  "id": "cad39857edef208ba830488a377ef875bd380179bced5598d49ec9ee4fe975bb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Mapping the Emergence of Regularization-Driven Dynamics in Grokking",
+  "url": "https://arxiv.org/abs/2608.25813",
+  "summary": "arXiv:2608.25813v3 Announce Type: replace Abstract: For overparameterized neural networks, many solutions can fit the training data equally well while behaving very differently on unseen samples. Grokking separates training fit from visible generalization, providing a window for studying how this selection develops during training. We sweep short, fixed-duration weight decay (WD) perturbations across the pre-generalization plateau and measure how they shift later generalization time. Across three grokking tasks, these shifts are unordered early in the plateau but later form a stable dose ordering before visible generalization, with stronger WD increases leading to earlier generalization and stronger WD decreases leading to later generalization. Test-loss barriers between perturbed and baseline generalization checkpoints collapse toward zero while the ordered timing effects persist. A similar response reorganization is observed under $\\ell_1$ regularization in the grokking setting of Junior et al. (2025). Drawing on Waddington's developmental landscape as an analogy, we call this combination of increasingly constrained solution selection and persistent dose-ordered timing shifts the canalization of grokking solution selection. Together, our response maps and loss-barrier measurements reveal a dynamical reorganization before visible generalization that is consistent with the theoretical picture of regularization-driven motion along a stable slow manifold (Boursier et al., 2025).",
+  "published": "2026-08-26T13:58:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.119463+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:21:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.25813v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.006946+00:00"
+}

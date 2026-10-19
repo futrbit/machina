@@ -1,0 +1,22 @@
+{
+  "id": "176426a961ccfc684a9ff87f5c94c2a1721d4b85dcdf806befa44aa259847b05",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "TSRN-RTVD: Real-Time Video Deblurring System",
+  "url": "https://arxiv.org/abs/2610.08230",
+  "summary": "arXiv:2610.08230v1 Announce Type: new Abstract: As video capture moves to handheld and edge devices, motion blur from camera shake has become a pervasive degradation that lowers perceptual quality and harms downstream vision tasks. The strongest deblurring networks recover impressive detail, yet they remain computationally heavy and overwhelmingly complex, so their quality comes at a cost that consumer hardware cannot pay in real time. This gap between restoration quality and on-device speed is exactly what makes real-time deblurring difficult. We developed and implemented TSRN-RTVD, an efficient video deblurring system that explicitly reconstructs the underlying camera trajectory during exposure and uses the recovered motion to guide restoration. This approach turns the physical cause of blur into a signal that drives sharpening. Our system runs on a single consumer GPU and restores the video at 30 FPS while reaching 30.08 dB PSNR on the GoPro dataset. We demonstrate TSRN-RTVD on consumer devices with interactive side-by-side visualization of the blurry input and the deblurred output, live throughput, and an on-screen view of the recovered camera trajectory. Demo video is available at https://youtu.be/3alMwVrVALU.",
+  "published": "2026-10-06T12:17:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.522380+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:17:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08230v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.865836+00:00"
+}

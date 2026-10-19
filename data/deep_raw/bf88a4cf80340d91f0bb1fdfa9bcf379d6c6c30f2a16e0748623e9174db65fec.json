@@ -1,0 +1,22 @@
+{
+  "id": "bf88a4cf80340d91f0bb1fdfa9bcf379d6c6c30f2a16e0748623e9174db65fec",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Low-Cost Sensor Calibration for Indoor Air Quality Monitoring: A Dataset, Evaluation Scenarios, and a Lightweight Model",
+  "url": "https://arxiv.org/abs/2610.11236",
+  "summary": "arXiv:2610.11236v1 Announce Type: new Abstract: Low-cost sensors enable scalable indoor air quality monitoring but require calibration because of nonlinear distortions, noise, and temporal drift. The conventional strict pairwise calibration setting requires a co-located reference sensor at each deployment location and does not account for spatial and temporal heterogeneity. To address these limitations, we introduce a six-month dataset comprising multivariate indoor air-quality measurements from low-cost and reference sensors with contextual metadata collected at five locations. Using this dataset, we define four evaluation scenarios. The reference-efficient and location-transfer scenarios evaluate spatial generalization, whereas the long-term drift and event-conditioned scenarios assess robustness to gradual and abrupt distribution shifts. Based on these scenarios, we derive design requirements and propose a lightweight temporal model that combines input-window compression with residual temporal and feature fusion. Experiments show strong calibration performance across all four scenarios with low edge-inference cost.",
+  "published": "2026-10-08T04:35:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.084432+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:35:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11236v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.854039+00:00"
+}

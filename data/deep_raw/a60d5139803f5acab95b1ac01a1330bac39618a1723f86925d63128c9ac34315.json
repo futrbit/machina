@@ -1,0 +1,21 @@
+{
+  "id": "a60d5139803f5acab95b1ac01a1330bac39618a1723f86925d63128c9ac34315",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
+  "url": "https://arxiv.org/abs/2610.11123",
+  "summary": "arXiv:2610.11123v1 Announce Type: new Abstract: Most human-agent interaction today remains text-based. Natural language can impose cognitive overload, ambiguity, information chaos, and slow input for complex tasks; ephemeral generative UIs can present structured information and guide users toward task completion. We propose GenUI-Harness, a multi-agent harness pairing a Tool Agent for information retrieval and task execution with a GUI Coder Agent that identifies ambiguities and generates front-end code for structured interfaces. Training the coder with reinforcement learning is challenging: verifiable rewards for interactive UI generation require costly execution, while LLM-as-a-Judge rewards are prone to reward hacking. We address the first challenge with Dynamic UX, a lightweight package for dynamic interaction and reward collection in a single sandbox, and the second with Reward Auditor, a meta-reward mechanism that monitors reward distributions and distills diagnostic patterns into a shared rubric and scoring specification. We introduce UI-TAU Bench, a benchmark for active human-agent interaction through generated UI code, built on 10 real-world domain databases constructed from public data sources and based on Tau-Bench tool-use settings, with Lite (300 tasks) and Full (1,000 tasks) splits. GenUI-Harness achieves an average Pass@3 gain of 4.48 percentage points over smolagents on Lite. Training with GenUI-Harness improves a 4B backbone from 9.33% to 58.00% Pass@3, outperforming larger frontier models such as Claude Opus 5 (46.67%). GenUI-Harness also remains robust on ambiguous and non-ambiguous queries. In a reviewer survey comparing communication channels, generated UIs reduce average dialogue rounds from 3.4 to 1.2. These results show that data-aware generative interfaces can support effective task completion and reduce dialogue rounds in evaluated database-backed workflows.",
+  "published": "2026-10-08T02:49:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.364391+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:49:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11123v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.310366+00:00"
+}

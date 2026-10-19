@@ -1,0 +1,18 @@
+{
+  "id": "96c9295513116c75ceaeedcebb3437a6da5f77979e5273574fd3697bc2fe1da5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "DeDiCa: A Scalable Deconfounding Discrete Causal Generative Model",
+  "url": "https://arxiv.org/abs/2610.23272",
+  "summary": "arXiv:2610.23272v1 Announce Type: new Abstract: We introduce DeDiCa, a practical framework for efficient causal inference with discrete variables and hidden confounding that revisits classical probabilistic modeling through a tensorized parameterization of causal Bayesian networks, enabling tractable inference. Given a causal graph, DeDiCa is trained once on observational data by maximum likelihood, exactly marginalizing over hidden confounders, and can then estimate any (proxy-)identifiable interventional query. Despite this deliberately simple parameterization, DeDiCa matches state-of-the-art neural causal generative models in ATE estimation, while supporting memory-efficient CPU training and exact interventional inference in milliseconds. Compared with causal foundation models, DeDiCa scales more effectively with additional observational samples and achieves competitive accuracy at substantially lower inference time and memory. DeDiCa provides a tractable, accurate, and scalable approach to causal inference in discrete settings with hidden confounding.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.203748+00:00"
+}

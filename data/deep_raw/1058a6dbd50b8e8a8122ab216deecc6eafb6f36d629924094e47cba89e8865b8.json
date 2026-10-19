@@ -1,0 +1,22 @@
+{
+  "id": "1058a6dbd50b8e8a8122ab216deecc6eafb6f36d629924094e47cba89e8865b8",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Graph Hierarchical Recurrence for Long-Range Generalization",
+  "url": "https://arxiv.org/abs/2605.18387",
+  "summary": "arXiv:2605.18387v2 Announce Type: replace Abstract: Graph Neural Networks and Graph Transformers have become central to graph learning, combining expressive representation learning with sample-efficient inductive biases. Yet they remain fundamentally limited when predictions depend on correlations between distant graph regions. We address this limitation with Graph Hierarchical Recurrence (GHR), a novel framework that jointly operates on the input graph and a pooled hierarchical abstraction. We also show that existing models degrade more sharply under out-of-range generalization, where test instances require interactions across distances exceeding those observed during training. Despite its minimal design, GHR consistently strengthens every tested message-passing backbone, yielding robust performance on long-range dependencies and particularly pronounced gains in out-of-range regimes. Across a broad suite of long-range benchmarks, GHR achieves state-of-the-art or competitive results on multiple tasks, establishing hierarchical recurrence as an effective mechanism for extending graph models beyond their observed interaction range.",
+  "published": "2026-05-18T13:31:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.831473+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T15:02:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.18387v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.684945+00:00"
+}

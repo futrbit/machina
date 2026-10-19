@@ -1,0 +1,22 @@
+{
+  "id": "a918b5b09ab999d3abd15a63ecf3a2ce0a560a6f71dee5df33f4afa0bcdfdf91",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DistScene: Object-to-Scene Distillation for 3D Scene Generation",
+  "url": "https://arxiv.org/abs/2610.06960",
+  "summary": "arXiv:2610.06960v1 Announce Type: new Abstract: We present DistScene, a framework for single-image compositional 3D scene generation by jointly modeling the environment and individual objects. Unlike existing methods that represent scenes primarily as collections of objects, we model the environment as an explicit scene component to provide geometric context for object placement. Specifically, we introduce Scene-Frame Generation, which jointly generates separate environment and object components in a shared coordinate frame, allowing their geometry and relative placement to be learned together. Then we introduce Object-Centric Refinement to refine each object in a local frame with scene context. Finally, we develop Object-to-Scene Distillation to transfer pretrained object-generation priors to scene generation through automatically composed and rendered synthetic scenes. Evaluations on indoor and outdoor benchmarks demonstrate improved scene-level spatial coherence over the evaluated baselines. Project page: https://coolbeam.github.io/DistScene/",
+  "published": "2026-10-03T16:21:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.508389+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T16:21:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06960v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.395315+00:00"
+}

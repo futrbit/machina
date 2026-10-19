@@ -1,0 +1,22 @@
+{
+  "id": "3dcbdcee701d81f0622d3d86a5eb00d55cd28e0151d1509a63d8aa955fe63a52",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Benchmarking Generative Models for Weather Data Assimilation on Real Station Observations",
+  "url": "https://arxiv.org/abs/2610.00728",
+  "summary": "arXiv:2610.00728v1 Announce Type: new Abstract: Weather reanalysis products rely on computationally intensive numerical weather predictions followed by data assimilation that corrects the forecast toward observations. Deep generative models offer a cheaper alternative that shifts much of this cost from inference to offline training. However, existing generative approaches have been evaluated on synthetic observations or under different datasets and evaluation schemes, making it unclear which design choices actually improve real-world data assimilation. We present the first controlled benchmark of generative weather data assimilation on real weather station observations. Using 11,849 NOAA MADIS stations across the contiguous United States and four weather variables, we evaluate methods while holding the dataset, observation operator, and deep learning architecture fixed. The benchmark compares the major design choices, including diffusion versus flow matching, pixel versus latent-space formulations, and multiple inference-time conditioning strategies, against a classical 3D-Var baseline. The benchmark reveals three clear conclusions. First, learned generative priors outperform the Gaussian prior of 3D-Var (35.7% vs. 33.3% RMSE reduction over ERA5) despite using no ERA5 background field at inference. Second, full-gradient guidance consistently outperforms stop-gradient and initial-noise optimization. Third, other choices provide little measurable benefit: diffusion and flow matching perform nearly identically under matched conditions, and latent-space variable mixing does not help. We further evaluate both dense and sparse station settings and find advantages from generative AI and full-gradient guidance more pronounced under sparsity. Together, these results identify which components of generative weather data assimilation improve performance on real station observations and establish a standardized benchmark for future work.",
+  "published": "2026-09-30T21:18:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.779505+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-07T01:38:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00728v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.747911+00:00"
+}

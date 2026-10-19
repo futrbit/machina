@@ -1,0 +1,18 @@
+{
+  "id": "6ddabee90dca46fa7543a17d8015b0683c2dc93aadc6f17ef0e9672385727cd4",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "How Murky Before a VLM Knows It Cannot See? Accuracy, Confidence and Abstention on a Physical Visibility Axis",
+  "url": "https://arxiv.org/abs/2610.22981",
+  "summary": "arXiv:2610.22981v1 Announce Type: new Abstract: Robustness studies of vision-language models (VLMs) grade degradation on nominal severity scales (\"level 1-5\") that carry no physical units, and they rarely ask whether a model's confidence follows the loss of visibility. We measure accuracy, internal (token-probability) confidence, verbalized confidence and an explicit abstain option on a visibility axis in metres: fog follows the Koschmieder model, an underwater arm scales the absorption spectrum of pure water, both are applied with a monocular metric depth map, and the visibility range V is swept over eight log-spaced levels from 250 m to 1.95 m. On 1000 COCO scenes and five small open VLMs (2-5 B parameters), accuracy on a boxed-object identification task falls from near its clean value to chance within a narrow band (half-way visibility V_acc of 12.1-15.9 m in fog and 20.5-38.6 m under water) while, for the four models that are confident on clean images, the confidence stays high: at V=1.95 m in fog their accuracy is at chance but their mean internal confidence is 0.68-0.84 and their verbalized confidence 0.61-1.00, a blind-spot width W=log10(V_acc/V_aware) of at least 0.79 decades, i.e. a factor of 6.2 in visibility. The remaining model is under-confident throughout and its internal confidence follows accuracy. An explicit abstain option follows accuracy when it names the reason (W from -0.21 to -0.06 in fog) but, for one model, lags with a generic \"I don't know\" (W up to 0.18). ImageNet-C fog severities 1-5 correspond to only 55-110 m of physical visibility, outside the failure band, and leave the accuracy of the models within 5 percentage points of its clean value. Blank-image and shuffled-image controls, a prior-matched answer set and a 200-image pilot that preceded the study are reported. Findings are descriptive: one draw of 1000 images, depth of assumed scale, and models of 2-5 B parameters.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.055085+00:00"
+}

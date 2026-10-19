@@ -1,0 +1,21 @@
+{
+  "id": "2dc04b2e2fd224ab3f2342f25d97e8eaf134afe829d2c88cd84ac32b52339334",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
+  "url": "https://arxiv.org/abs/2610.07969",
+  "summary": "arXiv:2610.07969v1 Announce Type: cross Abstract: Scaling robotic foundation models requires diverse training data and reliable evaluation environments. Simulation offers a scalable solution, yet existing generation pipelines remain constrained by predefined assets and skills, a disconnect between scene generation and task generation, and limited support for complex embodiments and physics. We introduce EmbodiedSmith, a framework for scalable embodied data generation through recursive self-improvement (RSI). EmbodiedSmith unifies asset, scene, and task generation in a pipeline that supports autonomous creation and language-driven customization. Its core is an agentic refinement loop: scene generation anticipates downstream task requirements, while task generation guides targeted scene edits, allowing scenes and tasks to iteratively improve one another. This joint refinement improves task generation success, including for long-horizon tasks. The framework further supports mobile manipulators, humanoids, and dexterous hands, as well as interactions involving deformable objects and fluids, broadening the range of behaviors and physical phenomena represented in generated data. Together, these capabilities provide a flexible simulation engine for both robot pretraining and evaluation. Extensive experiments validate the quality, diversity, and generation efficiency of the resulting data, while downstream policy experiments demonstrate that increased data diversity improves generalization.",
+  "published": "2026-10-06T08:34:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.475013+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:34:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07969v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.018351+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "936e9550eccb324e1773ba84724e6e66be3cc180148d5b34279490f399f44c28",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation",
+  "url": "https://arxiv.org/abs/2606.11891",
+  "summary": "arXiv:2606.11891v3 Announce Type: replace Abstract: Multi-objective reinforcement learning for humanoid robots must coordinate locomotion and manipulation within one policy. A natural design choice is between a single (unified) critic that estimates the combined value of all objectives and separate (dual) critics with disjoint reward signals. We compare the two on the Unitree G1 humanoid in NVIDIA Isaac Lab. In the standing mode of a standardized evaluation, the dual-critic run reaches targets 3.5x faster (6.5 vs. 22.6 simulation steps), achieves 2x the throughput (14.3 vs. 7.0 validated reaches per 1,000 steps) and a higher validated reach rate (65.2% vs. 53.8%) than the unified-critic run. That evaluation pins the fingers open for every policy, whereas the unified run had trained driving its own. When the unified run drives its own fingers, with nothing else changed, the standing-mode gap falls from 3.5x to 1.3x in speed and from 2x to 1.1x in throughput. This is a single re-evaluation of a single checkpoint, and we do not generalize from it. Adding five anti-gaming reward mechanisms to the dual critic did not raise validated reach rate (60.9% vs. 65.2%). The two runs differ not only in the critic but also in the PPO update rule (one summed advantage under one likelihood ratio, versus a per-stream advantage and a ratio per actor), and further in curriculum, arm action dimensionality, finger control and reward weights; each is a single run. The measurement therefore cannot separate the critic from the update rule. We argue that critic architecture deserves explicit treatment as a design variable in multi-objective humanoid RL, and specify the single-variable ablation needed to establish its causal contribution. Code, checkpoints and a project page: https://mturan33.github.io/critic-architecture-matters/",
+  "published": "2026-06-10T10:21:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.383195+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T17:59:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.11891v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.801673+00:00"
+}

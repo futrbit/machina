@@ -1,0 +1,21 @@
+{
+  "id": "199d7afb52d8eea485155ad85297b9886ed608cdd21d312a7756d80859e72b7e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Admission Without Answers: Label-Free Certification and Experience Learning for LLM-Based Optimization Modeling",
+  "url": "https://arxiv.org/abs/2608.15565",
+  "summary": "arXiv:2608.15565v5 Announce Type: replace Abstract: Agents that learn from experience improve at optimization modeling by storing solved trajectories and reusing them as skills. A wrong trajectory that enters the library can be retrieved again and again, and on a stream of new problems there is no ground-truth answer to decide with. Existing learners admit trajectories by matching known optima or labels, and label-free substitutes such as execution success or agreement at one instance can admit wrong models. We introduce ADMITOR, a label-free admission gate. It generates models from three model families, runs each on the stated problem and on instances with resampled parameters, keeps the largest group of models whose optimal values agree on every instance across families, and applies a threshold fitted on solver-verified problems to accept, abstain, or escalate, with a finite-sample bound on the false-discovery rate among accepted values. Inside a state-of-the-art skill learner, ADMITOR raises candidate-level admission precision to 0.927, against 0.871 for majority vote over the host's own samples and 0.726 for execution success, and its library, the smallest of the four, reaches the highest macro accuracy over five public benchmarks, 58.4 against 54.8 for majority vote. An ablation on the same records shows that the gain comes from the accepted value being external to the learner and unanimous across families; on this stream, resampling never changed an accepted value and only reduced coverage. The false-discovery bound holds on the calibration set but not on the benchmark stream: an audit of every false certificate traces most of them to benchmark texts that omit or round the numbers needed to reproduce the labeled answer, and a label-free check of the extracted numbers against the text flags most of these cases.",
+  "published": "2026-08-16T06:18:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.432415+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T16:13:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.15565v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.904812+00:00"
+}

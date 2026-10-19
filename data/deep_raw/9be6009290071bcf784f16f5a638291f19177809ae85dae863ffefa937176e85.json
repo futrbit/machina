@@ -1,0 +1,22 @@
+{
+  "id": "9be6009290071bcf784f16f5a638291f19177809ae85dae863ffefa937176e85",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Counterfactual Auditing of Bias in Open-Source Large Language Models for Clinical Triage",
+  "url": "https://arxiv.org/abs/2610.01963",
+  "summary": "arXiv:2610.01963v1 Announce Type: cross Abstract: Emergency department (ED) triage is a high-stakes prioritization task in which demographic, socioeconomic, and system-context information may improperly influence acuity assignment. Although open-source large language models (LLMs) are increasingly considered for local and privacy-preserving clinical decision support, it remains unclear how counterfactual bias varies across model families, sizes, medical-domain models, and domain-adapted models. We present a comparative counterfactual audit of ten open-source LLMs for pediatric Emergency Severity Index (ESI) prediction. Starting from real and handbook-style clinical vignettes, we construct paired counterfactual variants that change only one injected demographic, socioeconomic, healthcare-access, behavioral, social, or system-context variable while holding the clinical presentation fixed. Models include Qwen2.5-7B, Qwen2.5-14B-Instruct, a QLoRA fine-tuned Qwen2.5-7B, MedGemma variants, MedLLaMA2-7B, GPT-OSS-20B, and GPT-OSS-120B. We measure any counterfactual shift, undertriage, overtriage, shifts greater than one ESI level, mean shift, and mean absolute shift. Counterfactual sensitivity varied substantially and did not consistently decrease with larger model size or medical-domain pretraining. The fine-tuned Qwen2.5-7B showed the lowest overall sensitivity, with a 5.27% any-shift rate and mean absolute shift of 0.0534, versus 16.02% and 0.1706 for the base model. Several larger or medical-domain models showed more significant shifts. Stratified and correlation analyses further revealed clinically important directionality and shared failure patterns hidden by aggregate rates. These findings support counterfactual auditing as a lightweight, clinically interpretable framework for comparing fairness risks in open-source LLMs before clinical deployment.",
+  "published": "2026-10-01T16:17:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.823477+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:17:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01963v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.997555+00:00"
+}

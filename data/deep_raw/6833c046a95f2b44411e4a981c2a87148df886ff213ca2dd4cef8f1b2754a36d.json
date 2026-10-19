@@ -1,0 +1,18 @@
+{
+  "id": "6833c046a95f2b44411e4a981c2a87148df886ff213ca2dd4cef8f1b2754a36d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Mitigating Task Objective Conflicts for Continual Learning in Unified Multimodal Models",
+  "url": "https://arxiv.org/abs/2506.03591",
+  "summary": "arXiv:2506.03591v3 Announce Type: replace Abstract: Recent advances in unified autoregressive (AR) models have enabled multimodal understanding (MMU) and text-to-image generation (T2I) within a single architecture. However, in continual learning settings, their divergent objectives can induce task interference, hindering knowledge preservation and adaptation to new tasks. In this work, we investigate \\textbf{T}ask \\textbf{O}bjective \\textbf{C}onflict (TOC) through theoretical and empirical analyses, revealing conflicting optimization directions at the task level but complementary interactions at the token level. These findings suggest that continual adaptation requires mitigating task interference while preserving beneficial cross-task knowledge sharing. To this end, we propose \\textbf{UniDecouple}, a selective decoupling framework based on a \\textbf{T}ask-\\textbf{A}ware \\textbf{M}ixture-\\textbf{o}f-\\textbf{E}xperts (TA-MoE) architecture. Specifically, UniDecouple retains shared attention layers to preserve common contextual dependencies while introducing task-specific feed-forward network (FFN) experts to mitigate optimization conflicts. Furthermore, hierarchical expert routing enables adaptive expert selection, while hybrid expert collaboration leverages shared experts to facilitate cross-task knowledge transfer. A two-stage training strategy further balances task specialization and coordinated adaptation. Extensive experiments and ablation studies demonstrate that UniDecouple improves both multimodal understanding and image generation performance under a comparable per-token activation budget, achieving a favorable balance between knowledge preservation and task adaptation in continual learning.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.074072+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "6a562549aab66347b2fa99d1d901c0764ac9a5ff00e17c3b96aac32e7fc6b5cd",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "ExecVLA: Following Fine-Grained Execution Constraints in Vision-Language-Action Models with Bi-Level Action Representation",
+  "url": "https://arxiv.org/abs/2603.17524",
+  "summary": "arXiv:2603.17524v2 Announce Type: replace Abstract: We study fine-grained execution-constraint following in vision-language-action (VLA) models. Given an invariant task goal, the policy must follow instruction-specified execution constraints, including interaction targets, motion patterns, spatial relations, and terminal configurations. This setting exposes a limitation of goal-oriented VLAs: trajectories that complete the same task are not interchangeable when the instruction specifies how the task must be executed. We propose ExecVLA, a framework that separates a goal-oriented component from an execution-specific component through a bi-level action representation and supervised bi-level reasoning tokens. We further introduce explicit goal-invariance and execution-predictability objectives so that the goal-level representation remains stable across executions of the same goal, while the execution-level representation retains the constraints that distinguish those executions. We construct execution-constraint-following datasets in simulation and on a Realman-75 robot, with goal and fine-grained reasoning annotations. Experiments on LIBERO and the real robot show improved goal completion and, more importantly, substantially more reliable adherence to instruction-specified execution constraints.",
+  "published": "2026-03-18T09:28:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.759531+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:17:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.17524v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.959180+00:00"
+}

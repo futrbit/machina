@@ -1,0 +1,22 @@
+{
+  "id": "38c6da32de2b38d4b8ab809e13b024bd956d01e6f37e6622b85d760589aa0109",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "D3S2: Diffusion-Guided Dataset Distillation for Semantic Segmentation",
+  "url": "https://arxiv.org/abs/2605.25022",
+  "summary": "arXiv:2605.25022v2 Announce Type: replace Abstract: Dataset distillation (DD) aims to compress large-scale datasets into compact synthetic sets while preserving training efficacy. However, existing studies mainly focus on image classification, leaving dense prediction tasks such as semantic segmentation largely underexplored. In this work, we identify three key challenges for segmentation DD: (i) long-tailed class imbalance, (ii) the need for strict pixel-wise alignment between images and dense labels, and (iii) the high computational cost of optimizing high-resolution data with complex models. To address these challenges, we propose D3S2, a Diffusion-guided Dataset Distillation framework for Semantic Segmentation. Our method adopts a two-stage design. In Class-Balanced Mask Selection, we construct a representative mask set via a greedy strategy that prioritizes underrepresented classes. In Diffusion-Guided Image Synthesis, we employ a pretrained layout-to-image diffusion model to generate images conditioned on the selected masks, naturally ensuring spatial alignment. To further enhance the training utility of synthesized data, we introduce guided diffusion sampling with two complementary objectives: a segmentation-consistency loss for pixel-level alignment, and a class-wise feature matching loss for aligning per-class feature statistics across layers. Extensive experiments demonstrate the superiority of D3S2. Notably, at an extremely compression rate of 1%, our method achieves 24.99% and 35.49% mIoU on ADE20K and COCO-Stuff with Mask2Former (Swin-S), outperforming random selection by 9.34% and 5.70%, respectively. Our code is available at https://github.com/zwj084/D3S2.",
+  "published": "2026-05-24T12:01:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.540370+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:48:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.25022v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.667958+00:00"
+}

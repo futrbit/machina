@@ -1,0 +1,22 @@
+{
+  "id": "67027f9c9a1e941b2673690ed17d0f59cbe9a7e16c372dca00e2e41a9d4d4335",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RELACE: retrospective likelihood-based action credit estimation for long-horizon language agents",
+  "url": "https://arxiv.org/abs/2610.07349",
+  "summary": "arXiv:2610.07349v1 Announce Type: new Abstract: Group Relative Policy Optimization (GRPO) avoids a separate critic by estimating advantages from rollout groups. For multi-turn agents, however, trajectory-level supervision provides coarse, noisy credit: terminal rewards do not locate errors and can penalize useful actions alongside mistakes. Group-in-Group Policy Optimization (GiGPO) and subsequent methods refine supervision through state-conditioned comparisons, but their credit estimates remain sensitive to downstream decisions and outcomes. We introduce RELACE, Retrospective Likelihood-based Action, a critic-free framework that integrates retrospective action assessment with state-conditioned advantage estimation. RELACE evaluates executed actions through teacher-forced likelihood scoring under both their original contexts and outcome-augmented contexts. Comparing these likelihoods yields a trajectory-normalized retrospective factor that captures outcome-dependent changes in action plausibility, rather than hindsight plausibility alone. We use this factor to reweight discounted task returns and construct local advantages by comparing weighted returns among actions from equivalent states within a task. This couples retrospective relevance with observed reward, producing fine-grained credit that complements trajectory-level GRPO supervision. Temporal smoothing and success-protecting masking further stabilize the local signal. RELACE requires neither auxiliary value nor reward models nor additional autoregressive rollouts for credit estimation. Experiments on ALFWorld and WebShop with Qwen2.5-1.5B-Instruct and Qwen2.5-7B-Instruct demonstrate substantial improvements over GRPO, GiGPO, and HCAPO. With the 1.5B model, RELACE achieves $96.35\\%$ success on ALFWorld and $79.43\\%$ on WebShop, surpassing GiGPO by $5.47$ and $5.60$ percentage points, respectively.",
+  "published": "2026-10-05T20:19:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.055502+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:19:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07349v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.919205+00:00"
+}

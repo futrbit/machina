@@ -1,0 +1,22 @@
+{
+  "id": "1b0ff071922105551cc28a85f9c961d24fc47eae393f130e264b89c6e8fc0094",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "MemFLoRA: Memory-Floor LoRA for CNN Adaptation at the Edge",
+  "url": "https://arxiv.org/abs/2610.08669",
+  "summary": "arXiv:2610.08669v1 Announce Type: new Abstract: On-device learning is necessary when the model encounters user-,sensor-, or environment-specific shifts after deployment. Although parameter-efficient fine-tuning (PEFT) methods, particularly Low-Rank Adaptation (LoRA) variants, enable efficient adaptation at the edge, the limiting resource for Convolutional Neural Network (CNN) adaptation is often not the number of trainable parameters but the activation state that must be retained until the backward pass. This paper introduces Memory-Floor LoRA (MemFLoRA), a low-rank CNN adapter built around a memory-first design principle rather than a direct application of transformer-oriented LoRA. Instead of merely reducing trainable weights, we define an activation-memory-floor criterion: trainable backward computations must not depend on full-width layer inputs. The resulting adapter freezes the down-projection, trains a scale-matched up-projection, and combines eval-mode backbone normalization with activation-minimal backward rules, reducing saved state to the low-rank branch. Evaluated on three Human Activity Recognition (HAR) datasets and two CNN backbones under subject, body-location, and sensor-placement shifts, MemFLoRA reduces saved-activation memory by 98.5-98.7% and peak training-state memory by 94.9-97.3% relative to full fine-tuning, while matching or exceeding CNN PEFT baselines.",
+  "published": "2026-10-06T16:51:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.080486+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:51:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08669v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.936793+00:00"
+}

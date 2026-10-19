@@ -1,0 +1,22 @@
+{
+  "id": "72f7595503631590e5a6a780d269f1f67f37d4a3dd2a4cdc6962ac6316623a6d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Contrast Enhancement or Noise Reduction? On Improving Cervical Cancer Classification",
+  "url": "https://arxiv.org/abs/2610.11086",
+  "summary": "arXiv:2610.11086v1 Announce Type: new Abstract: Purpose: Cervical cancer is one of the leading causes of mortality worldwide. Deep learning has shown promising performance in medical image classification. The influence of image preprocessing algorithms on classification performance remains insufficiently investigated in the literature. This research aims to evaluate the impact of image preprocessing algorithms on the performance of CNNs for Pap smear image classification. Methods: Three CNN architectures (ResNet-34, MobileNet-V2, and DenseNet-121) were trained and evaluated using the SIPaKMeD dataset. Two preprocessing algorithms were applied: the PMD filter for noise reduction and CLAHE for contrast enhancement. The model performance was assessed using a confusion matrix. Results: Preprocessing improved the classification performance of all models. CLAHE significantly increased the accuracy of ResNet-34 from 76.73% to 84.16% and DenseNet-121 from 76.73% to 84.16%. The PMD filter yielded limited improvement and slightly reduced the MobileNet-V2 performance. Novelty: This research provides a systematic comparison of contrast enhancement and noise reduction techniques across CNN architectures. This research demonstrates that contrast enhancement is more effective than noise reduction in improving CNN performance. The research provides new pipelines for improving cervical cancer classification.",
+  "published": "2026-10-08T01:57:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.739055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T01:57:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11086v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.166056+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "2344db908937a3e9a448c7be67a8968806dc20fe63c64e444967a7b7d34291ad",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "BRICE: Brain-inspired Recurrent Illusory Contour Encoder for Point Cloud Completion",
+  "url": "https://arxiv.org/abs/2610.23001",
+  "summary": "arXiv:2610.23001v1 Announce Type: new Abstract: Mainstream point cloud completion methods are unanimously based on deep learning architectures. On one hand, these methods tend to repetitively stacking attention modules to enhance network performance, which drifts away from the neat design of unified and interpret-able networks; on the other hand, nearly all existing architectures rely solely on feed-forward connections to propagate information, neglecting feedback from deeper layers. The recurrent neural architecture, formed by feedforward-feedback loops, have shown its ability to generate Illusory Contours (ICs) in the V1 brain region of mammals; and ICs are essentially a completion mechanism of the brain for visual information. Motivated by this, we design a Brain-inspired Recurrent Illusory Contour Encoder (BRICE) to \"imagine\" what is missing in the incomplete 3D point clouds. Building upon the foundation model of Predictive Coding (PC), the plug-and-play nature enables BRICE to be seamlessly integrated into mainstream point cloud completion baselines. Experimental results show that BRICE can enhance various completion baselines on different 3D datasets such as MVP2K, PCN, and PlantPCom. Our code: Https://github.com/wangyunlei-wyl/BRICE.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.040095+00:00"
+}

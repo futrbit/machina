@@ -1,0 +1,22 @@
+{
+  "id": "e0c3dd66ac7b7b66965c686d3f035dd3d5ccea656b04c79c4035ea111539c0cf",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Tree-VQ: Progressive Image Compression from Pretrained Vector Quantizers",
+  "url": "https://arxiv.org/abs/2609.03641",
+  "summary": "arXiv:2609.03641v2 Announce Type: replace Abstract: Progressive image compression requires a single embedded representation whose received prefixes can be decoded without re-encoding the source. Modern vector-quantized (VQ) image models provide strong discrete endpoint representations, but conventional flat codeword indices do not define meaningful intermediate states for a neural decoder. We present Tree-VQ, a post-hoc conversion of a pretrained flat VQ tokenizer into a fine-grained, arbitrary-prefix progressive representation while preserving its encoder assignments and every learned leaf vector. The key idea is to organize the original codebook into a balanced binary hierarchy, associate explicit representations with internal nodes, and transmit branch decisions in depth-major order. Consequently, once the image header is available, every payload prefix uniquely specifies a valid latent state: each additional branch bit refines exactly one token, and transmission can therefore be truncated at essentially any payload position rather than only at a small number of stage boundaries. We further adapt one shared decoder on the complete-depth and mixed-depth latent states encountered under such arbitrary truncation, making these densely spaced prefixes useful for reconstruction rather than merely syntactically decodable. On Kodak, Tree-VQ achieves a DISTS-based BD-rate saving of 52.1% relative to ProGIC, while exposing thousands of valid arbitrary-prefix operating points from a single embedded bitstream.",
+  "published": "2026-09-03T10:41:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.545367+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:44:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.03641v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.254796+00:00"
+}

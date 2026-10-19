@@ -1,0 +1,22 @@
+{
+  "id": "c05c5b292c4267faa78642bc7e2cc5cb8b33788a81e69182a34cc4a08a84aaa3",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reading Between the Dots: Decoding Hidden Computation across Filler Tokens",
+  "url": "https://arxiv.org/abs/2607.03502",
+  "summary": "arXiv:2607.03502v2 Announce Type: replace-cross Abstract: Frontier LLMs can perform multi-step reasoning over content-free filler tokens like dots or counting sequences, producing correct answers with no visible chain-of-thought (CoT). This is a limit case for behavioral oversight, where surface tokens carry no information about the underlying reasoning. But hidden from the output is not the same as hidden from us. On four task families (fact retrieval, parallel numeric composition, string manipulation, and in-context computation), two open-weights frontier models (DeepSeek V3, Kimi K2) compute over filler tokens in a legible way: attention routes the question through the filler region to the answer, logit-lens readouts show retrieved facts emerging early and their composition crystallizing in late layers, and KV-cache transplants at filler positions causally swap outputs between examples. We introduce an unsupervised decoding pipeline that takes only hidden states as input and recovers intermediate values with 82-94% accuracy (best LLM judge) across both models and all four tasks, without ground-truth labels or training. Even without a judge, the hidden values are already directly in the pipeline's top-2 tokens 35-85% of the time. The uplift persists whether the filler is prefilled or the model generates the filler itself. On these cleanly decomposable tasks, hidden computation that defeats behavioral CoT monitoring is readable from the residual stream, which suggests that monitorability is a property of the model's full computational trace rather than only its surface tokens.",
+  "published": "2026-07-03T17:18:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.845464+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T04:10:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.03502v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.868030+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "79e7b22df59c79a771b57e6d6df61a5766ebe0191ce2ed5f65473b6a44d19972",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Capabilities Ain't All You Need: Measuring Propensities in AI",
+  "url": "https://arxiv.org/abs/2602.18182",
+  "summary": "arXiv:2602.18182v5 Announce Type: replace Abstract: AI evaluation has primarily focused on measuring capabilities, with formal approaches inspired from Item Response Theory (IRT) being increasingly applied. Yet propensities - the tendencies of models to exhibit particular behaviours - play a central role in determining both performance and safety outcomes. However, traditional IRT describes a model's success on a task as a monotonic function of model capabilities and task demands, an approach unsuited to propensities, where both excess and deficiency can be problematic. Here, we introduce the first formal framework for measuring AI propensities by using a bilogistic formulation for model success, which attributes high success probability when the model's propensity is within an \"ideal band\". Further, we estimate the limits of the ideal band using LLMs equipped with newly developed task-agnostic rubrics. Applying our framework to six families of LLM models whose propensities are incited in either direction, we find that we can measure how much the propensity is shifted and what effect this has on the tasks. Critically, propensities estimated using one benchmark successfully predict behaviour on held-out tasks. Moreover, we obtain stronger predictive power when combining propensities and capabilities than either separately. More broadly, our framework showcases how rigorous propensity measurements can be conducted and how it yields gains over solely using capability evaluations to predict AI behaviour.",
+  "published": "2026-02-20T12:40:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.828474+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:33:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.18182v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.328957+00:00"
+}

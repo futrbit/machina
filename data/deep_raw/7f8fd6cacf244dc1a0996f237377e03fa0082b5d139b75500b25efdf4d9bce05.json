@@ -1,0 +1,22 @@
+{
+  "id": "7f8fd6cacf244dc1a0996f237377e03fa0082b5d139b75500b25efdf4d9bce05",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Prediction-Powered Data Fusion for Treatment Effect Estimation",
+  "url": "https://arxiv.org/abs/2610.12332",
+  "summary": "arXiv:2610.12332v1 Announce Type: cross Abstract: Randomized controlled trials (RCTs) identify treatment effects without confounding but are often small, whereas observational studies (OBS) are large but may be confounded. Many estimators combining a small RCT with a large OBS have been developed for the average treatment effect (ATE) and the conditional ATE (CATE). However, existing ATE estimators either make assumptions on the OBS or do not borrow enough power from them. The CATE has been studied less than the ATE. Existing CATE methods either assume the OBS are unconfounded, rely on a model of the confounding function, or accept bias in exchange for lower variance. We therefore propose a framework that, without special assumptions on the OBS, fuses the OBS and the RCT by preserving the unbiasedness of RCT-based estimation while borrowing power from the large OBS to boost precision. Applying this principle, we build an ATE estimator, AIPW-Fusion, with closed-form weights and confidence intervals, and two CATE learners, DR-Fusion and R-Fusion. Experiments corroborate our findings.",
+  "published": "2026-10-08T17:11:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.117411+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:11:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12332v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.569417+00:00"
+}

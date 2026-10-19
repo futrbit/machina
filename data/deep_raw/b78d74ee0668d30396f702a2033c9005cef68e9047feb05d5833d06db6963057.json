@@ -1,0 +1,21 @@
+{
+  "id": "b78d74ee0668d30396f702a2033c9005cef68e9047feb05d5833d06db6963057",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics",
+  "url": "https://arxiv.org/abs/2609.27308",
+  "summary": "arXiv:2609.27308v2 Announce Type: replace Abstract: We study coding agents for long-horizon, dexterous robotics and ask whether their solutions can provide scalable supervision for learning general robot policies. To test this, we develop EMBODIEDSWE-BENCH, a simulation benchmark for coding agents spanning contact-rich manipulation, deformable objects, and long-horizon tasks requiring up to half an hour of continuous interaction. We find that frontier coding agents can solve complex long-horizon tasks and transfer prior solutions across both tasks and embodiments. We also design supporting tools that help agents more effectively solve these tasks. However, the resulting solutions require substantial iterative interaction and are typically specialized to individual task instances. We therefore introduce EMBODIEDSWE-GEN, which expands a single solution from coding agent into large diverse trajectories for training a VLA. VLA performance improves with more generated demonstrations, and agent-aided diversification improves generalization to held-out task variations. We also show that a VLA finetuned solely on coding-agent-generated simulation demonstrations completes a long-horizon task on real robot. Together, our framework uses coding agents to solve complex robotics tasks and turn verified solutions into scalable supervision for robot policies.",
+  "published": "2026-09-23T03:38:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.387070+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T04:11:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.27308v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.739108+00:00"
+}

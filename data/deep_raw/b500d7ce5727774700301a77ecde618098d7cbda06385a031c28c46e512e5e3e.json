@@ -1,0 +1,22 @@
+{
+  "id": "b500d7ce5727774700301a77ecde618098d7cbda06385a031c28c46e512e5e3e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LLM-powered Query Expansion for Enhancing Boundary Prediction in Language-driven Action Localization",
+  "url": "https://arxiv.org/abs/2505.24282",
+  "summary": "arXiv:2505.24282v2 Announce Type: replace Abstract: Language-driven action localization in videos requires not only semantic alignment between language query and video segment, but also prediction of action boundaries. However, the language query primarily describes the main content of an action and usually lacks specific details of action start and end boundaries, which increases the subjectivity of manual boundary annotation and leads to boundary uncertainty in training data. In this paper, on one hand, we propose to expand the original query by generating textual descriptions of the action start and end boundaries through LLMs, which can provide more detailed boundary cues for localization and thus reduce the impact of boundary uncertainty. On the other hand, to enhance the tolerance to boundary uncertainty during training, we propose to model probability scores of action boundaries by calculating the semantic similarities between frames and the expanded query as well as the temporal distances between frames and the annotated boundary frames. They can provide more consistent boundary supervision, thus improving the stability of training. Our method is model-agnostic and can be seamlessly and easily integrated into any existing models of language-driven action localization in an off-the-shelf manner. Experimental results on several datasets demonstrate the effectiveness of our method.",
+  "published": "2025-05-30T06:59:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.778032+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:46:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2505.24282v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.696133+00:00"
+}

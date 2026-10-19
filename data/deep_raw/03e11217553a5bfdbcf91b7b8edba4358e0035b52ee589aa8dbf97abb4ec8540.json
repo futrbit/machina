@@ -1,0 +1,22 @@
+{
+  "id": "03e11217553a5bfdbcf91b7b8edba4358e0035b52ee589aa8dbf97abb4ec8540",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Response Theory Probe for Learned Stochastic AI Simulators, Tested on Lorenz-63",
+  "url": "https://arxiv.org/abs/2610.06798",
+  "summary": "arXiv:2610.06798v2 Announce Type: replace-cross Abstract: Machine-learning emulators of chaotic and stochastic systems are usually validated on forecast skill and long-run statistics. Neither certifies that an emulator responds correctly to forcing, the property that projection and attribution studies rely on. Linear response theory makes this testable: the forced response follows from unperturbed correlations through a generalized fluctuation-dissipation relation, and decomposes over the stochastic Ruelle-Pollicott resonances of the Koopman generator. Building on the Koopmanism Response framework, we turn this into a calibrated, mode-resolved test for learned surrogates: each surrogate rollout passes or fails each check, and failure rates are compared with those of independent realizations of the true system. On stochastic Lorenz-63, a three-variable toy model, we evaluate SINDy, an MLP, a reservoir computer, a neural ODE and a neural SDE with learned diffusion, over up to 80 rollouts each. A sparse-regression model with the correct library passes every check at rates consistent with the true system. Invariant-statistics fidelity and response fidelity dissociate in both directions: a quarter of reservoir-computer rollouts pass every invariant-statistics check and match the static susceptibility $\\chi(0)$, yet misrepresent the slow relaxation modes, while the neural ODE and SDE rarely meet the invariant-statistics floor but recover those modes in three quarters of rollouts. As expected of a time-integrated quantity dominated here by fast relaxation, $\\chi(0)$ does not separate these cases. For a fixed network, the training formulation (one-step drift, flow map, or multi-step through the integrator) decides which of these properties it gets right.",
+  "published": "2026-10-05T17:51:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.135454+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:18:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06798v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.310170+00:00"
+}

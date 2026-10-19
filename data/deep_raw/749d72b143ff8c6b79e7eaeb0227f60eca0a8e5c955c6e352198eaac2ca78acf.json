@@ -1,0 +1,22 @@
+{
+  "id": "749d72b143ff8c6b79e7eaeb0227f60eca0a8e5c955c6e352198eaac2ca78acf",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Posterior sampling by source-space MCMC via prior-based few-step transport maps",
+  "url": "https://arxiv.org/abs/2610.01034",
+  "summary": "arXiv:2610.01034v1 Announce Type: cross Abstract: Bayesian inference increasingly uses informative but implicit priors represented only by samples, such as historical ensembles, simulator outputs, and pretrained generative models. The same computational problem appears in the test-time guidance task (generalized Bayes), where an explicit positive weight, e.g., an exponentiated reward, tilts an implicit prior. We develop a framework for source-space generalized Bayesian inference that combines inexpensive few-step prior transports with posterior stability guarantees. Specifically, we represent the prior using a one- or few-step improved MeanFlow (iMF) map and perform posterior sampling in its Gaussian source space. We establish Wasserstein error bounds between the exact and learned posteriors in terms of the joint population iMF and auxiliary-velocity loss, decomposed into training suboptimality and model-class approximation error. In the iMF source space, we adopt parallel tempering with preconditioned Crank-Nicolson updates and introduce a hybrid variant that incorporates split Hamiltonian Monte Carlo to improve sampling efficiency. Synthetic experiments show that the proposed framework can approximate posterior distributions accurately and efficiently, while CLIP-guided ImageNet experiments demonstrate its ability to steer a pretrained iMF image prior toward text-specified preferences.",
+  "published": "2026-10-01T04:21:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.816481+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T04:21:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01034v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.230018+00:00"
+}

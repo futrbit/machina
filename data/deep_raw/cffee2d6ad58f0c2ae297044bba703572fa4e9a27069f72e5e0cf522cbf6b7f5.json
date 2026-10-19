@@ -1,0 +1,22 @@
+{
+  "id": "cffee2d6ad58f0c2ae297044bba703572fa4e9a27069f72e5e0cf522cbf6b7f5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Monocular markerless biomechanics for clinically interpretable gait assessment in spinal cord injury",
+  "url": "https://arxiv.org/abs/2610.05552",
+  "summary": "arXiv:2610.05552v2 Announce Type: replace Abstract: Three-dimensional gait analysis guides rehabilitation after spinal cord injury but depends on marker-based motion capture and force plates, which few clinics have. Monocular markerless pipelines have been established in fewer healthy adult cohorts but not in neurological cohorts. We present the SCAI SCI Gait dataset, comprising 239 adult individuals with spinal cord injury with synchronized video, motion capture, and force-plate measurements, we fitted a parametric body mesh to a single sagittal-view video, driving an anthropometrically scaled OpenSim model via virtual markers. Markerless lower-body kinematics showed state-of-the-art agreement with motion-capture measurements (r = 0.68-0.90, p < 0.001, and RMSE = 4.18-6.49 degrees), and accurate kinematics-based predicted ground-reaction forces closely matched those measured by force plates (r = 0.85-0.87, p < 0.001, and RMSE = 2.13-2.19 Newton per kg). Furthermore, conditional-dependence graph analysis with Markov blankets revealed that waveform components were conditionally associated with functional independence, and speed-stratified clustering revealed distinct mechanical strategies among individuals walking at similar speeds. These findings establish the use of monocular video as a scalable approach for clinically meaningful biomechanical assessment and data-driven phenotyping in patients with spinal cord injury. Github: https://github.com/SCAI-Lab/SCAI-SCI-Gait-Dataset",
+  "published": "2026-10-04T21:40:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.550364+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:48:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05552v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.059915+00:00"
+}

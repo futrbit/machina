@@ -1,0 +1,22 @@
+{
+  "id": "0ddca8a0e9a2b9cf47771a2011425ac2e60faa20be9bda3ed445a99ce38ac17b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "IAD-Unify: Task-Specific Interfaces for Industrial Anomaly Understanding, Segmentation, and Generation",
+  "url": "https://arxiv.org/abs/2604.12440",
+  "summary": "arXiv:2604.12440v2 Announce Type: replace Abstract: Industrial anomaly inspection requires complementary capabilities: explaining an observed defect, localizing its pixels, and synthesizing a controlled edit. We present IAD-Unify, a unified architecture connecting a multimodal language model (MLLM), dense visual expert, and diffusion editor through task-specific token interfaces. A multi-reference DINOv2 pathway forms a dense anomaly field and compresses its 1,369 cells into 81 structured evidence tokens. Qwen3.5 consumes these tokens for grounded answers and, with 32 task tokens, converts them into a semantic residual over the dense mask. A separate 256-query interface resamples Qwen states into Stable Diffusion's complete cross-attention context, while the editor retains its source latent and hard-mask inputs. The task pathways share one Qwen adaptation without forcing every task through the same visual bottleneck; in particular, evidence tokens are excluded from the generation pathway. Staged optimization initializes dense evidence, aligns it with language, calibrates segmentation, and then pretrains and specializes the diffusion editor while preserving earlier capabilities. We also construct Anomaly Evidence over 54,501 deduplicated industrial images. Its quality-controlled Anomaly Evidence Compiler and Industrial Edit-Pair Compiler produce family-disjoint, validated supervision through independent geometry, semantic-grounding, and edit-consistency checks. This design provides one fixed shared parameter set for understanding, segmentation, and localized generation without conflating their inputs, supervision, or outputs. The resulting model reaches 73.02% MMAD Macro$_7$, the highest listed public segmentation AP average (57.10%) with one reference, and the lowest Controlled masked DINO distance (0.3765), with complementary strengths across reasoning, pixel ranking, and semantic edit fidelity.",
+  "published": "2026-04-14T08:29:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.783029+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:03:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.12440v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.605993+00:00"
+}

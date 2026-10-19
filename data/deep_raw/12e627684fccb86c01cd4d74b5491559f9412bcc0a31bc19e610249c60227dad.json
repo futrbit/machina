@@ -1,0 +1,21 @@
+{
+  "id": "12e627684fccb86c01cd4d74b5491559f9412bcc0a31bc19e610249c60227dad",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ActKV: Efficient LLM Agents through Action-Guided KV Cache Management",
+  "url": "https://arxiv.org/abs/2609.31395",
+  "summary": "arXiv:2609.31395v1 Announce Type: cross Abstract: Agentic LLM inference accumulates long KV caches across iterative observation-reasoning-action loops, imposing substantial memory overhead and limiting serving throughput. Existing compression methods emphasize overall output quality, overlooking the asymmetric importance of actions in driving task progress. Our key idea is to establish a compression criterion that values KV entries by their contribution to action generation and prioritizes action quality. However, iterative execution, dynamic memory demands, and scattered action-critical entries pose challenges to eviction policies, budget allocation, and paged memory integration. To this end, we propose ActKV, the first KV cache compression framework tailored for agentic LLM inference. (i) Action-oriented KV cache eviction exploits stable action access patterns to retain entries critical to future actions, supporting reliable task progress under compression. (ii) Confidence-driven adaptive budget allocation uses LLM's intrinsic confidence to adapt the budget to evolving action-critical memory demands. (iii) Page-aware compression management standardizes compression into three primitives with customized kernels, realizing practical throughput gains. On long-trace tasks, ActKV retains an average of 98.53% of FullKV's accuracy with only 25.98% of its peak KV cache memory. It also achieves 3.97 times and 3.58 times FullKV's token and task throughput, delivering state-of-the-art performance.",
+  "published": "2026-09-25T15:24:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.428432+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T15:24:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31395v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.748907+00:00"
+}

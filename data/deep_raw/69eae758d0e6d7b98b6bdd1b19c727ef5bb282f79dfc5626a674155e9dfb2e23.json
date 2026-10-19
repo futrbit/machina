@@ -1,0 +1,21 @@
+{
+  "id": "69eae758d0e6d7b98b6bdd1b19c727ef5bb282f79dfc5626a674155e9dfb2e23",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Representation-Guided Generation and Integration of Executable Programs for Robot Manipulation",
+  "url": "https://arxiv.org/abs/2609.31337",
+  "summary": "arXiv:2609.31337v1 Announce Type: new Abstract: Building a robotic manipulation system requires connecting perception, planning, and control through carefully designed representations and interfaces. VLM code generation offers a way to automate this construction, but independently generated components may operate on incompatible geometric and task-level information. We present Representation-guided Integration of VLM-generated Executable Task programs (RIVET), a framework for generating complete manipulation systems around a shared object-centric representation. The representation combines per-object 6D poses, which preserve the metric information required for action grounding, with a relation graph that exposes the task-level structure required for planning. Guided by this representation, a VLM generates cooperating perception, rendering, relation-inference, and planning programs, each combining task-specific computation with available packages where useful. The resulting programs are authored once for a manipulation domain and reused on unseen start and goal configurations without code regeneration. We evaluate RIVET on cube stacking, tangram rearrangement, and three-dimensional assembly in simulation and on a physical robot, where we achieve 83% overall success rate in the real world by reusing offline-generated systems. Our results demonstrate that representation-guided program generation can adapt a common manipulation framework to tasks with different geometric, relational, and sequential requirements.",
+  "published": "2026-09-25T14:41:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.378193+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T14:41:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31337v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.954184+00:00"
+}

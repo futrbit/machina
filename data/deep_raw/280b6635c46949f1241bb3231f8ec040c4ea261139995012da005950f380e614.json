@@ -1,0 +1,17 @@
+{
+  "id": "280b6635c46949f1241bb3231f8ec040c4ea261139995012da005950f380e614",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SPACE: Swarm Pheromone Fields for Adaptive Collision-Aware Exploration",
+  "url": "https://arxiv.org/abs/2606.29372",
+  "summary": "arXiv:2606.29372v2 Announce Type: replace Abstract: Massive robot swarms can explore unknown environments quickly, but adding robots eventually stops helping. Doorways and dense traffic create congestion, increasing inter-robot contacts and reducing the value of each additional robot. We study this safety-efficiency tradeoff for ground swarms of tens to hundreds of robots. We present SPACE, Swarm Pheromone Fields for Adaptive Collision-Aware Exploration. Inspired by ant foraging, SPACE maintains a shared environmental field with an attractive frontier pheromone, a repellent explore pheromone, and a fast robot-density field. Robots use local field guidance on a synchronized shared map. We evaluate SPACE on real building floorplans, namely sixteen home layouts from the HouseExpo dataset and eight campus floors from the KTH dataset, with swarms of up to two hundred and fifty-six robots. At congested swarm sizes, SPACE attains the lowest inter-robot contact rate on HouseExpo and lies on the empirical Pareto frontier on KTH, together with handed lane formation at sizes where Lane has fewer contacts. Relative to a greedy nearest-frontier planner, SPACE reduces the contact rate by four to seventeen times while keeping coverage time within about two percent. The results indicate that, at this scale, coordination mainly improves safety rather than coverage time.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.168643+00:00"
+}

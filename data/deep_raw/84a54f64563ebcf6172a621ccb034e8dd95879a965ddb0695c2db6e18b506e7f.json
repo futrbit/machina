@@ -1,0 +1,22 @@
+{
+  "id": "84a54f64563ebcf6172a621ccb034e8dd95879a965ddb0695c2db6e18b506e7f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Interval-valued SHAP in Tree-Based Models",
+  "url": "https://arxiv.org/abs/2610.11953",
+  "summary": "arXiv:2610.11953v1 Announce Type: new Abstract: Shapley values are among the most popular feature-attribution explanations. Efficient approaches for computing/estimating Shapley values for tree-based models, which are state-of-the-art for tabular data sets, have been developed. However, it is known that Shapley values can be (highly) unrobust due to small and realistic changes. In this paper, we propose an imprecise Dirichlet model (IDM) based method to analyze the robustness of Shapley values in decision trees and random forests. Technically, it is done by quantifying and analyzing the interval-valued Shapley values when a few unannotated instances are randomly introduced to the leaves of the trees. The interval-valued Shapley values can be defined following common principles in handling incomplete data: the pessimistic and averaging principles. We derive various theoretical results that lead to efficient computation of the interval-valued Shapley values. We also show that the proposed method can be straightforwardly generalized to the case of Banzhaf values. We then present various case studies and experiments to illustrate the behaviour of the proposed interval-valued Shapley values and their applications in debiasing uninformative features.",
+  "published": "2026-10-08T13:39:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.092427+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:39:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11953v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.526838+00:00"
+}

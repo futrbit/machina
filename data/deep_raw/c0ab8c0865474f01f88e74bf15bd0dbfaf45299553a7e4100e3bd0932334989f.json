@@ -1,0 +1,22 @@
+{
+  "id": "c0ab8c0865474f01f88e74bf15bd0dbfaf45299553a7e4100e3bd0932334989f",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Breaking the Group Size Barrier: Parameter-Efficient Group Dance Generation with Chain-of-Dancers",
+  "url": "https://arxiv.org/abs/2610.11237",
+  "summary": "arXiv:2610.11237v1 Announce Type: new Abstract: Group dance generation aims to synthesize coordinated multi-dancer choreography from music, with broad applications in animation and interactive content creation. This task requires modeling dense inter-person dependencies to ensure spatial coordination, while naturally preserving individual dancer identities. Existing approaches model all dancers jointly with end-to-end transformers, which tie the architecture to a fixed group size and entangle per-dancer identities across frames. We propose ChainDance, a scalable framework that reformulates group dance generation as a Chain-of-Dancers: a sequential decomposition over per-dancer conditional distributions, allowing a single model to scale across variable group sizes without retraining and naturally preserving per-dancer identity. Built on a frozen single-dancer diffusion backbone, ChainDance introduces two lightweight modules: a Role-Aware Text Encoder (RATE) for per-dancer semantic conditioning, and a Group-Aware Motion Encoder (GAME) that aggregates previously generated dancers via a distance-weighted graph convolutional network, and incorporates a training-free noise optimization procedure at inference time to enforce global spatial coherence. Experiments on AIOZ-GDance demonstrate that ChainDance achieves state-of-the-art motion quality and group coordination while structurally preserving per-dancer identity, with $3$-$4\\times$ fewer parameters and requiring $3$-$6\\times$ less training time compared to prior approaches.",
+  "published": "2026-10-08T04:37:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.743055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:37:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11237v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.874028+00:00"
+}

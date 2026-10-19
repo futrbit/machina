@@ -1,0 +1,21 @@
+{
+  "id": "c4b13933f80854c4fd88d4fd47a2cd554374315c444b4ca8d695b928e11985ca",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "To Call or Not to Call: Diagnosing Intrinsic Over-Calling Bias in LLM Agents",
+  "url": "https://arxiv.org/abs/2605.18882",
+  "summary": "arXiv:2605.18882v2 Announce Type: replace-cross Abstract: LLM agents exhibit a consistent tendency to over-call, invoking tools even in situations where none is needed. On the When2Call benchmark, six models from three families show high call accuracy but much lower no-call accuracy, leaving overall accuracy in the 55%-70% range. We trace this to an Intrinsic Bias Hypothesis (IBH): the call/no-call decision mapping carries an activation-independent call offset, so the model favors call even at activation parity. Using Sparse Autoencoders (SAEs), we recover behavior-aligned feature bases for the call/no_call decision, reduce them to a signed activation margin, and estimate the offset directly. Across all six models, the model is decision-neutral only when no_call activation outweighs call activation, consistent with IBH. We then causally test IBH with Adaptive Margin-Calibrated Steering (AMCS), a closed-form counter-bias shift along SAE decoder directions. Cancelling the diagnosed offset mitigates over-calling and improves overall accuracy with a negligible drop in call accuracy. Our work recasts over-calling from an empirical phenomenon into a mechanistic object amenable to causal correction. Code is available at https://github.com/SKURA502/agent-sae/.",
+  "published": "2026-05-16T04:18:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.196785+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:37:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.18882v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.946791+00:00"
+}

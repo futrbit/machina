@@ -1,0 +1,21 @@
+{
+  "id": "76c8f0750d05eca02eb87b42ccc6f6111884157990547bbdc321a95677cdb6b4",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "TICDA: Tabular In-Context Data Attribution",
+  "url": "https://arxiv.org/abs/2610.07996",
+  "summary": "arXiv:2610.07996v1 Announce Type: cross Abstract: Tabular foundation models (TFMs) achieve strong predictive performance by conditioning on labeled demonstrations provided in context, without any parameter update. Yet how individual demonstrations shape a given prediction remains poorly understood. This gap matters in practice: the context is often assembled from whatever labeled data is available, potentially leading to the inclusion of mislabeled, redundant, or low-quality examples that degrade performance. Standard data attribution methods do not transfer to the TFM setting: resampling-based approaches such as DemoShapley require a combinatorial number of forward passes, and gradient-based estimators such as influence functions require computing training point's effect on the model parameters, which in-context learning never updates. We introduce TICDA, a method that measures the influence of every demonstration in the context directly from linear surrogates trained on TFM latent embeddings, in a single forward pass and at negligible cost. We show that TICDA offers the best compromise against competitors across four tasks: detecting labeling errors, curating context to preserve predictive accuracy while lowering inference cost, producing attribution scores that transfer across TFMs, and supporting an acquisition strategy for efficient active learning.",
+  "published": "2026-10-06T08:55:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.171801+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:55:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07996v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.285186+00:00"
+}

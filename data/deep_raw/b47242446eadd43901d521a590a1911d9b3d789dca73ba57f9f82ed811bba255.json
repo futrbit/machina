@@ -1,0 +1,22 @@
+{
+  "id": "b47242446eadd43901d521a590a1911d9b3d789dca73ba57f9f82ed811bba255",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "WorldFact-Bench: Beyond Image-Internal Plausibility to Image-World Consistency",
+  "url": "https://arxiv.org/abs/2610.11184",
+  "summary": "arXiv:2610.11184v1 Announce Type: new Abstract: Advances in image generation have made visual authenticity increasingly difficult to assess. Although image forensics now examines both generation artifacts and higher-level visual inconsistencies, a plausible image can still contradict real-world facts or rules. We introduce WorldFact-Bench to evaluate image-world consistency from a single image, without a predefined claim or verification target. The benchmark contains 1,274 source-aligned real-fake pairs across four verification regimes and ten semantic domains. Each pair introduces a specific, evidence-supported factual conflict while seeking to preserve non-target content and visual plausibility. Images are evaluated independently, and pair accuracy requires both members of a pair to be classified correctly. We further propose PERSIST-Agent, which organizes iterative verification around a persistent state linking candidate facts, visual observations, evidence, and verification statuses. This state guides subsequent inspection and retrieval while retaining unresolved candidates. With backbone weights fixed, harness self-optimization refines the agent's prompts and execution rules through validation feedback. Experiments reveal strong label biases in several detectors and uneven gains from retrieval. On the evaluated 8B backbones, PERSIST-Agent improves pair accuracy over both direct judgment and retrieval-augmented baselines, while ablations support the role of persistent verification state. These findings highlight the value of state-guided verification and the remaining gap between visual plausibility and factual correctness.",
+  "published": "2026-10-08T03:42:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.743055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:42:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11184v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.688138+00:00"
+}

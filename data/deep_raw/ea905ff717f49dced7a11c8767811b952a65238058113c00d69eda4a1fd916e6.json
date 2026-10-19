@@ -1,0 +1,21 @@
+{
+  "id": "ea905ff717f49dced7a11c8767811b952a65238058113c00d69eda4a1fd916e6",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Soft Tournament Equilibrium: Differentiable Set-Valued Inference for Non-Transitive Pairwise Comparisons",
+  "url": "https://arxiv.org/abs/2604.04328",
+  "summary": "arXiv:2604.04328v4 Announce Type: replace Abstract: Soft Tournament Equilibrium (STE) is a differentiable layer for Top-Cycle (TC) and Uncovered-Set (UC) inference from reciprocal pair probabilities. Normalized log-sum-exp reachability and covering give smooth scores with approximation, perturbation, and margin-recovery bounds. We distinguish structural supervision, posterior uncertainty, and the final set decision through controlled synthetic studies and reconstruction of recorded ordinal profiles. Matched-epoch training improves F1 under a common structural readout, but a separate equal-budget soft-UC comparison does not demonstrate an advantage. A prospective equal-budget hard-UC study improves selective F1 at 24 alternatives from 0.6327/0.6292 for ordinary/relational native heads to 0.6676, while exact recovery remains only 1.16%. On 36 human profiles held out by source, a separate exploratory comparison favors Jeffreys posterior inference over learned independent-edge and mixture distributions in native expected-F1 decoding (0.8742 versus 0.8704/0.8366). Only three references are non-singleton selective cores. Completion certificates and full-depth TC diagnostics clarify additional identification, smoothing, and computational limits. The evidence supports conditional synthetic overlap gains, while preserving the soft-set null and the absence of a demonstrated learning advantage over strong count-based human-profile controls.",
+  "published": "2026-04-06T00:40:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.406367+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:02:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.04328v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.874834+00:00"
+}

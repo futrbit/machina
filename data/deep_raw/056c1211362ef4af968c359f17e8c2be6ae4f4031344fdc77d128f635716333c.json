@@ -1,0 +1,22 @@
+{
+  "id": "056c1211362ef4af968c359f17e8c2be6ae4f4031344fdc77d128f635716333c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Uniform Discrete Diffusion Models are Minimax Optimal for Estimating Distributions with Small Effective Support Size",
+  "url": "https://arxiv.org/abs/2610.07655",
+  "summary": "arXiv:2610.07655v1 Announce Type: cross Abstract: Discrete diffusion models have emerged as a practically successful framework for generative modeling on discrete product spaces, yet their statistical generalization properties remain poorly understood. Discrete real-world data such as text or biological sequences often concentrate on a small fraction of the astronomically large ambient space because of semantic or physical constraints, but existing bounds fail to capture this distributional structure and instead scale with the size of the ambient space, giving rise to almost vacuous error bounds. We address this gap for uniform discrete diffusion, one of the two dominant discrete diffusion paradigms alongside masking diffusion, by deriving statistical guarantees governed by the effective support size $s_n(P_0)$, a sample-size-dependent measure of distributional complexity. Given $n$ independent and identically distributed (i.i.d.) samples from an unknown data distribution $P_0$ on $[K]^d$, we show that, with appropriate choices of network size and hyperparameters, the expected total variation (TV) loss scales as $O(\\sqrt{s_n(P_0)/n})$, while the expected Kullback--Leibler (KL) divergence is bounded by $O(\\frac{1}{n}s_n(P_0)\\log(eK^d/s_n(P_0))\\log n)$. Furthermore, we show that the TV rate is minimax optimal and that the KL rate is minimax optimal up to a factor of $\\log n$. Together, these upper and lower bounds show that uniform discrete diffusion successfully avoids the curse of dimensionality for distributions with small effective support size: the TV error rate depends on the ambient state-space size only through $s_n(P_0)$, while the corresponding KL rate incurs only an additional logarithmic dependence on the ambient state-space size.",
+  "published": "2026-10-06T02:50:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.096477+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:50:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07655v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.347148+00:00"
+}

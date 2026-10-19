@@ -1,0 +1,22 @@
+{
+  "id": "0b37ff77a296e1daa1882fb1609df121c446a67a1de9ba9926a5bbf12d3fd825",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "MCL: Meta Convolution Layer",
+  "url": "https://arxiv.org/abs/2610.11117",
+  "summary": "arXiv:2610.11117v1 Announce Type: new Abstract: Dynamic convolution enhances convolutional neural networks (CNNs) by adapting kernels to input content, but it expresses the effective kernel as a linear mixture of a small number of basis kernels, which limits expressivity and complicates optimization as the mixture size grows. In this work, we revisit dynamic convolution from a functional perspective and propose the Meta Convolution Layer (MCL), which directly models the convolutional kernel as an input-conditioned function W(x) realized via a high-order polynomial expansion. Leveraging nested residual blocks inspired by deep polynomial networks, MCL implements a structured polynomial meta-network that generates a single input-adaptive kernel, thereby decoupling representational power from the explicit number of mixture kernels and alleviating training instability. MCL is a plug-in addition with standard convolutions and can be seamlessly integrated into both CNN and transformer backbones. Experimental evaluation shows that adding MCL improves the Top-1 accuracy of Resnet- 18, Resnet-50 and ResNet-101 by 6.61%, 3.42% and 3.05% on the ImageNet dataset. Moreover, the proposed method significantly boosts the accuracy of Resnet and Wide-Resnet variants on CIFAR-10 and CIFAR-100 datasets. Additionally, the proposed method outperforms previous methods on fine-grained visual classification tasks using Swin and ViT backbones. These results demonstrate that high-order polynomial kernel generation is a powerful and scalable alternative to linear mixture based dynamic convolution.",
+  "published": "2026-10-08T02:43:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.740054+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:43:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11117v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.503054+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9f75a32cbe9830286a528bf7eef3db85aaf72ec5f6861b02eb74e3ae23f8021e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Polylogarithmic Sparsity of Randomly Reweighted NPMLEs for Gaussian Mixtures",
+  "url": "https://arxiv.org/abs/2610.01088",
+  "summary": "arXiv:2610.01088v1 Announce Type: cross Abstract: The nonparametric maximum likelihood estimator (NPMLE) of a Gaussian location mixture maximizes the likelihood over the infinite-dimensional space of mixing distributions. The maximizing mixing distribution can be nonunique, and the classical bound on its number of atoms grows linearly with the sample size $n$. We show that a vanishingly small random perturbation of the likelihood yields exact polylogarithmic sparsity. The resulting randomly reweighted NPMLE maximizes a weighted likelihood whose independent weights, taken to be Gamma in our analysis, concentrate around one as $n$ grows. With high probability, it is unique, has $O\\{(\\log n/\\log\\log n)^d+\\log n\\}$ atoms in dimension $d$, nearly maximizes the ordinary likelihood, and estimates the mixture density at a Hellinger rate that is parametric up to logarithmic factors. This sparsity holds for the estimator itself, not for an approximation of it, and requires no support penalty. The proof rests on an effective-dimension principle for positive kernel mixtures: low-dimensional variation of the fitted values controls the support of every extreme point of the set of maximizers. Numerical illustrations verify that the reweighted NPMLE has Hellinger risk and support size comparable to those of the ordinary NPMLE.",
+  "published": "2026-10-01T05:32:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.816481+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T05:32:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01088v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.081504+00:00"
+}

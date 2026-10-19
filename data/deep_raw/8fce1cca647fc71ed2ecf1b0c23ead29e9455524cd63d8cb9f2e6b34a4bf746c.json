@@ -1,0 +1,22 @@
+{
+  "id": "8fce1cca647fc71ed2ecf1b0c23ead29e9455524cd63d8cb9f2e6b34a4bf746c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SpaTime: Streaming Vision-Language Models for Spatio-temporal Reasoning",
+  "url": "https://arxiv.org/abs/2610.08713",
+  "summary": "arXiv:2610.08713v1 Announce Type: new Abstract: Embodied agents must reason about 3D space while the video is still arriving, answering questions as soon as they have observed enough of the scene. VLMs that incorporate 3D geometric priors achieve strong spatial reasoning, but they operate offline, i.e., the full video must be available before they produce an answer. Streaming VLMs process frames causally and decide for themselves when to respond, yet they lack explicit 3D representations. We present SpaTime, a streaming VLM that fuses causal geometry tokens into the language model at every frame, using only the frames observed so far. To supervise when the model answers, we propose a response-time loss that maps per-frame response probabilities to a differentiable expected response time and penalizes the distance from the ground-truth frame. For evaluation, we construct StreamVSTI-Bench and StreamVSI-Bench, streaming adaptations of VSTI-Bench and VSI-Bench. On StreamVSTI-Bench, SpaTime reaches 49.2% overall accuracy and reduces the mean response-time error by 66% relative to the strongest streaming baseline.",
+  "published": "2026-10-06T17:22:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.527378+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:22:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08713v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.748705+00:00"
+}

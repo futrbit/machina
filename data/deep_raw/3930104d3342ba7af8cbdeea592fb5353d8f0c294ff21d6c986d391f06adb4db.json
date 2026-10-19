@@ -1,0 +1,22 @@
+{
+  "id": "3930104d3342ba7af8cbdeea592fb5353d8f0c294ff21d6c986d391f06adb4db",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Is In-Domain Training Enough for Fine-Grained Industrial Anomaly Understanding?",
+  "url": "https://arxiv.org/abs/2610.12310",
+  "summary": "arXiv:2610.12310v1 Announce Type: new Abstract: A single multimodal large language model (MLLM) struggles to excel simultaneously at detection, localization, description, and reasoning in multimodal industrial anomaly understanding (MM-IAU). We show that in-domain training does not close this gap. On MMAD, a widely adopted MM-IAU benchmark, trained specialists reach at most 75.5% accuracy in defect localization, against 92.3% for human experts, and even detect anomalies less accurately than their untrained base model. Meanwhile, different MLLMs offer complementary strengths but share this weakness in fine-grained perception, so combining them alone cannot remove it. We therefore propose SiGMA, a spatially grounded multi-agent framework that divides labor between heterogeneous MLLM agents and a dedicated visual defect expert. A multimodal searcher supplies industrial knowledge and normal references, the defect expert turns query-reference comparison into calibrated anomaly evidence, and a label-free reliability controller weighs each source by task-wise competence and query-level evidence quality. SiGMA reaches 85.2% average accuracy on MMAD, 4.0% above the strongest trained specialist and Gemini-2.5-Pro and within 1.5% of human experts. Even with three agents of at most 9B parameters, it reaches 84.4%, and new MLLMs join without retraining.",
+  "published": "2026-10-08T16:59:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.760042+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:59:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12310v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.678952+00:00"
+}

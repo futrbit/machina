@@ -1,0 +1,22 @@
+{
+  "id": "61728b4c9de929a39d687f06d23d6de9ada6a7fad40b6dfded80825cc80f78e1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SpecBraM: What Should an EEG Foundation Model Predict? Masked Band-Power Prediction versus Waveform Reconstruction",
+  "url": "https://arxiv.org/abs/2610.07484",
+  "summary": "arXiv:2610.07484v1 Announce Type: new Abstract: Self-supervised EEG models often reconstruct masked waveforms or predict discrete codes. We study a task-aligned alternative: masked band-power prediction (MBP), which predicts fixed narrow-band log spectral energy for masked channel-time patches. This target retains rhythm power relevant to sleep staging while avoiding phase-sensitive waveform reconstruction and a learned codebook. Across three pretraining seeds, we compare band-power and waveform targets with matched backbones, pretraining data (2,388 hours), and training steps, including a 2x2 tokenizer-by-target design. On ISRUC and HMC sleep staging, MBP exceeds raw- and band-waveform reconstruction by 1.6-2.8 balanced-accuracy points with all labels and 4.7-7.3 points with 1% of labels under a strict linear probe; the target effect exceeds the tokenizer effect. Its frozen features reach 0.7916/0.7425 balanced accuracy, versus 0.7636/0.7227 for a matched rich handcrafted spectral baseline, although the gap is about one point with 1% of labels. Full fine-tuning reaches 0.8107/0.7669. The gains do not extend to every task with spectral cues, including motor imagery, depression screening, and vigilance regression. These results support choosing pretraining targets to match the physical quantities and spatial and temporal scales relevant to downstream labels.",
+  "published": "2026-10-05T22:49:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.061498+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:49:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07484v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.822263+00:00"
+}

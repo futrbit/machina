@@ -1,0 +1,22 @@
+{
+  "id": "dbe07a60e59784bfb63060e9cf1b9c0dd1ad1f84c583df4bd3d8875d3236d8c5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RIFT: Relative Isolation From Trees For Anomaly Detection",
+  "url": "https://arxiv.org/abs/2610.12244",
+  "summary": "arXiv:2610.12244v1 Announce Type: new Abstract: Isolation Forest (IF) is a widely used baseline for unsupervised anomaly detection. Recent studies provide a closed-form expression for the infinite-forest limit for one-dimensional data. Inspired by the geometric interpretation of this formula, we introduce RIFT (Relative Isolation From Trees), a deterministic anomaly detection method that generates the minimum spanning tree and scores each point by the sum of the apparent sizes of tree edges as viewed from that point. For one-dimensional data, the RIFT score recovers the closed-form IF limit exactly. In higher dimensions, it provides a parameter-free generalization that is deterministic, robust to varying density and clustered anomalies and avoids the axis-parallel artifacts of IF. We further propose an ensemble variant for large datasets. Experiments on synthetic data and the ADBench benchmark demonstrate that the accuracy is comparable to IF, while the ensemble variant exhibits significantly lower variance across random seeds.",
+  "published": "2026-10-08T16:22:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.096424+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:22:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12244v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.206825+00:00"
+}

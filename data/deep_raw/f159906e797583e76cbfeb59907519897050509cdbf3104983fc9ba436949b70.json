@@ -1,0 +1,22 @@
+{
+  "id": "f159906e797583e76cbfeb59907519897050509cdbf3104983fc9ba436949b70",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Stochastic Optimal Control for Continuous-Time fMRI Representation Learning",
+  "url": "https://arxiv.org/abs/2502.04892",
+  "summary": "arXiv:2502.04892v2 Announce Type: replace Abstract: Learning robust representations from functional magnetic resonance imaging (fMRI) is fundamentally challenged by the temporal irregularity and noise inherent in data from heterogeneous sources. Existing self-supervised learning (SSL) methods often discard critical temporal information by discretizing or averaging fMRI signals. To address this, we introduce a novel framework that reframes SSL as a Stochastic Optimal Control (SOC) problem. Our approach models brain activity as continuous-time latent dynamics, learning a robust representation of brain dynamics by optimizing a control policy that is agnostic to the temporal irregularity. This SOC framework naturally unifies masked autoencoding (MAE) and joint-embedding prediction (JEPA) to extract compact, control-derived representations. Furthermore, a simulation-free inference strategy ensures computational efficiency and scalability for large-scale fMRI datasets. Our model demonstrates state-of-the-art performance across diverse downstream applications, highlighting the potential of the SOC-based continuous-time representation learning framework.",
+  "published": "2025-02-07T12:57:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.826476+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:20:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2502.04892v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.454676+00:00"
+}

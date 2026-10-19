@@ -1,0 +1,22 @@
+{
+  "id": "bac81efcaec4c5734148ec0b72204b1281742c90a0492d843a1f0e4b5df84df7",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "STORM-Bench: Evaluating Online Video QA under Evolving and Incomplete Evidence",
+  "url": "https://arxiv.org/abs/2609.30981",
+  "summary": "arXiv:2609.30981v1 Announce Type: new Abstract: Reliable online video question answering requires tracking state transitions while selectively abstaining when visual evidence is insufficient. Existing benchmarks focus on static recognition or long-range retrieval, rarely evaluating these coupled capabilities under evolving and incomplete evidence. We present STORM-Bench, comprising 5,736 questions across 630 compact, change-dense episodes spanning five egocentric domains (STORM-Real) and two controlled simulation subsets (STORM-Sim) at 1 FPS. Questions are stratified by a proxy for accumulated change intensity (Low, Medium, High) and query-time answerability (Known, Uncertain). To measure reliability, we introduce STORM-BR, a harmonic metric over joint answer-status correctness that exposes abstention failures masked by aggregate accuracy, alongside STORM-BR-ATTR for uncertainty attribution. Across 14 video LLMs, online accuracy peaks at 60.3\\% (mean 51.7\\%), whereas STORM-BR ranges from 5.7\\% to 35.6\\% (mean 18.8\\%), driven by pervasive overconfidence on uncertain queries. STORM-Bench shows that task accuracy masks these gaps in epistemic reliability and state tracking. Benchmark and code are available at https://github.com/siruzhong/STORM-Bench.",
+  "published": "2026-09-25T08:27:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.222654+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T08:27:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30981v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.786079+00:00"
+}

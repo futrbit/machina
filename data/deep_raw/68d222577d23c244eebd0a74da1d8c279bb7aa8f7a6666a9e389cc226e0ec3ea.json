@@ -1,0 +1,18 @@
+{
+  "id": "68d222577d23c244eebd0a74da1d8c279bb7aa8f7a6666a9e389cc226e0ec3ea",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Distinguishability and Recovery for a Doubly Sparse Spiked Wigner Model",
+  "url": "https://arxiv.org/abs/2610.23033",
+  "summary": "arXiv:2610.23033v1 Announce Type: cross Abstract: We study distinguishability and recovery of a sparse rank-one signal in a spiked Wigner model with independently sparse noise through a variety of algorithms and parameter regimes. The signal and noise have separate sparsity parameters, while the signal-to-noise ratio (SNR) remains of constant order as the matrix size grows. For sub-Gaussian noise and spikes whose nonzero coordinates are bounded away from zero, a leave-one-out quadratic thresholding procedure (a generalization of Ding et al., 2024) identifies the support. Sign synchronization yields exact recovery for a Rademacher spike, and spectral refinement yields strong recovery. The quadratic thresholding search parameter gives an explicit tradeoff between signal sparsity, noise sparsity, and computational cost. We also study extensions to sub-Gaussian spike priors through diagonal and quadratic thresholding. For Rademacher spikes with continuous nonzero noise, we develop an identical search algorithm that exploits unblurred signal entries, the existence of which permits distinguishability; connectivity of the graph they reveal provides a sufficient condition for exact recovery. These guarantees do not require moment assumptions on the continuous noise distribution. Together with our previous PCA results (Dumitriu et al., 2026), our analysis covers almost the entire space of parameters and regimes for distinguishing and recovering in our doubly sparse spiked Wigner model.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.216740+00:00"
+}

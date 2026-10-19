@@ -1,0 +1,22 @@
+{
+  "id": "1b521d3a7cb6b5be66b7ccd3d92e79cf05ddaddc1d3f2f34eabc718184897ce3",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "fable.intermittent: benchmarking probabilistic forecasting methods for intermittent time series",
+  "url": "https://arxiv.org/abs/2609.28607",
+  "summary": "arXiv:2609.28607v3 Announce Type: replace Abstract: Intermittent time series are common in spare-parts demand and retail sales. Since the cost of forecast errors is typically asymmetric, decisions such as inventory control require the full predictive distribution rather than a point forecast. Many probabilistic forecasting methods have been proposed; their implementations, however, are scattered across different software frameworks, making it difficult to compare them systematically. We introduce fable$.$intermittent, an R package that implements several probabilistic forecasting methods for intermittent series within the fable framework. The package allows several models to be fitted and evaluated on a collection of time series through a single, simple forecasting pipeline. We also introduce TWEES, a new exponential smoothing model with a Tweedie predictive distribution. Fitting TWEES requires repeated evaluation of the computationally demanding Tweedie density. We also release the R package tweedieDistr, whose implementation of the Tweedie distribution is substantially faster than the existing one while preserving the same numerical accuracy. We evaluate the methods implemented in fable$.$intermittent on four datasets, also released in the package.",
+  "published": "2026-09-23T16:37:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.837468+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:18:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.28607v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.953782+00:00"
+}

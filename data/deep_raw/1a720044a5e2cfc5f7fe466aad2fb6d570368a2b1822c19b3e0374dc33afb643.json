@@ -1,0 +1,21 @@
+{
+  "id": "1a720044a5e2cfc5f7fe466aad2fb6d570368a2b1822c19b3e0374dc33afb643",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "EAGOR: Embodied Reasoning in Omni-direction",
+  "url": "https://arxiv.org/abs/2607.06165",
+  "summary": "arXiv:2607.06165v2 Announce Type: replace Abstract: Omni-directional (360{\\deg}) cameras provide embodied agents with a holistic view of their surroundings, making them suited for directional reasoning in tasks such as navigation and object search. Existing Vision Language Models (VLMs) project 360{\\deg} observations to 2D equirectangular projection (ERP) images and process them using architectures designed for perspective images. However, they ignore the spherical nature of 360{\\deg} observations, where each pixel represents a viewing direction relative to the agent. Consequently, their direction estimates often become inconsistent under camera view transformations caused by agent motion. This limitation is particularly critical for map-free navigation, where the agent must continuously estimate the target direction in its egocentric frame. We propose EAGOR, a training-free, geometry-aware framework for embodied 360{\\deg} directional reasoning. Instead of predicting target directions as ERP image coordinates, EAGOR formulates directional reasoning as recursive Bayesian estimation directly on the sphere. It maintains a continuous belief over target directions and propagates it equivariantly under agent motion without training the backbone VLMs. To achieve this, we introduce the Spherical Harmonic Belief Field (SH-BF), whose spherical harmonic representation provides a globally defined, rotation-aware basis for directional estimation on the spherical manifold. This formulation eliminates ERP seam discontinuities, latitude distortions, and interpolation errors. We evaluate EAGOR on two benchmark datasets and real-world experiments with a legged robot across directional reasoning tasks. EAGOR consistently outperforms existing methods, achieving average relative gains of +34.4% and +45.6% on HOS and OSR-Bench, respectively, while improving navigation success by +14.6%, reducing step count by 17.7%, and lowering mean angular error by 24.5%.",
+  "published": "2026-07-07T11:39:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.384513+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T06:09:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.06165v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.930797+00:00"
+}

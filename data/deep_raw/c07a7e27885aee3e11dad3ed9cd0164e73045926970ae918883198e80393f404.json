@@ -1,0 +1,21 @@
+{
+  "id": "c07a7e27885aee3e11dad3ed9cd0164e73045926970ae918883198e80393f404",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "EvoKnow: Continual Knowledge Evolution for AI-Generated Image Detection",
+  "url": "https://arxiv.org/abs/2610.11381",
+  "summary": "arXiv:2610.11381v1 Announce Type: cross Abstract: AI-generated image detectors are commonly trained on fixed generator domains and become difficult to maintain as new generative models emerge. Continual adaptation is challenging because replaying historical generated images is costly, whereas updating shared parameters with limited current-domain data can overwrite prior forensic knowledge. We propose EvoKnow, a replay-free framework that formulates continual AI-generated image detection as forensic knowledge evolution. EvoKnow preserves a shared forensic basis learned from base domains, incrementally adds isolated residual experts for complementary generator-relevant evidence, and retrieves expertise through an Analytical Incremental Router (AIR) updated in closed form from current-stage generated images and accumulated sufficient statistics. Experiments demonstrate effective cross-generator generalization, few-shot expansion, and long-horizon continual adaptation. With ten generated images per arriving generator, EvoKnow achieves 96.70% average accuracy on non-base GenImage generators and 94.48% accuracy on Chameleon without target-benchmark adaptation. Under a strict replay-free continual learning protocol, EvoKnow achieves state-of-the-art continual learning performance, attaining 96.32% mean stage-wise accuracy and 4.32% average forgetting.",
+  "published": "2026-10-08T07:12:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.390375+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:12:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11381v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.953184+00:00"
+}

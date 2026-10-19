@@ -1,0 +1,21 @@
+{
+  "id": "f319251d59fea3a46d15513a559a95fd3f1b57e7465ffc631868ca123023ce66",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "IronMan: Information-Constrained Video-Action Learning for Robot Manipulation",
+  "url": "https://arxiv.org/abs/2610.07961",
+  "summary": "arXiv:2610.07961v1 Announce Type: new Abstract: Video Action Models (VAMs) couple visual dynamics modeling with action generation for robot manipulation. However, video representations are not naturally suited to action generation, as exposing the action policy to excessive visual detail can impair its generalization ability. Therefore, we introduce IronMan (Information-constRained videO-actioN learning for robot MANipulation), a robust video-action learning framework built on the information bottleneck principle. The core principle of this framework is to impose information constraints that suppress irrelevant visual information while preserving action-relevant dynamics cues. IronMan employs a dynamics-aware bottleneck that distills noisy, entangled one-step video features into compact world representations. Extensive simulation and real-world experiments demonstrate strong in-distribution (ID) performance and out-of-distribution (OOD) robustness while maintaining efficient inference. IronMan achieves success rates of 99.0% on LIBERO and 79.4% on RoboTwin clean2clean, outperforming all the evaluated baselines. Under OOD shifts, IronMan achieves a success rate of 79.1% on LIBERO-Plus, exceeding the strongest baseline by 10.4 percentage points. Project page: https://youngsoul0731.github.io/ironman-project-page/",
+  "published": "2026-10-06T08:30:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.462022+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:30:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07961v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.469667+00:00"
+}

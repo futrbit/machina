@@ -1,0 +1,22 @@
+{
+  "id": "764fc0f0fab8950b49a6616083e6e9cd1581b05d5f76e6019c7cb1b11febae74",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion",
+  "url": "https://arxiv.org/abs/2610.08620",
+  "summary": "arXiv:2610.08620v1 Announce Type: new Abstract: High-beam-count LiDAR sensors are costly, yet many perception pipelines require dense angular sampling. Using a pretrained Stable Diffusion model as the backbone, we fine-tune a LiDAR-conditioned depth model with pseudo-depth targets from a 2D foundation model. During training, the LiDAR conditioning is randomly decimated at different beam budgets. We then investigate how much of a LiDAR scan can be recovered from heavily decimated input and characterize performance across the input beam budget. We evaluate against physically held-out real beams on nuScenes and report recovery separately from fit accuracy. Our model yields its largest advantage in very sparse regimes, achieving a $\\delta_{1.25}$ accuracy of $66.8$% from $4$-beam input where scattered interpolation reaches only $45.1$%. A class-stratified error breakdown further reveals that planar surfaces recover first while objects introducing depth discontinuities degrade earliest. Together, these results quantify the recovery/resolution trade-off for foundation-model-guided LiDAR enhancement.",
+  "published": "2026-10-06T16:20:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.526378+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:20:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08620v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.255002+00:00"
+}

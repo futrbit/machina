@@ -1,0 +1,18 @@
+{
+  "id": "70ed1846202b92b6b5a8064ef3e6904affd213676700af204ddfd91820bb21de",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LDDR: Linear-DPP Dynamic-Resolution Frame Sampling for Video MLLMs",
+  "url": "https://arxiv.org/abs/2605.11477",
+  "summary": "arXiv:2605.11477v2 Announce Type: replace Abstract: Multimodal large language models, when used for long video understanding, require selecting an informative frame set from massive and redundant candidates. Limited by the model's visual-token budget and reasoning ability, frame selection is therefore essential to reduce input size while preserving the most relevant information for accurate video reasoning. Existing frame-sampling methods like uniform sampling or relevance/diversity-sampling often miss important events or retain redundant frames. On the other hand, agentic frame selection methods incur very high computational costs. Further, these methods allocate equal tokens to all selected frames, regardless of their importance. We therefore propose LDDR (Linear DPP Dynamic Resolution), which is a training-free and budget-aware video frame sampling framework. It is computationally efficient and allows non-uniform token budget allocation within the candidate frame set. Specifically, LDDR performs query-aware Determinantal Point Process (DPP) frame selection in a task-conditioned feature space, achieving a 3x runtime speedup over standard DPP baselines. It further introduces a Group DPP importance score to guide frame retention and dynamic resolution allocation: assigning more tokens to informative and non-redundant frames while downscaling or pruning less useful ones. We test LDDR on four popular video benchmarks spanning short, medium, and long-range videos. LDDR achieves a 2.5-point gain in low-budget settings and a 1.6-point gain in high-budget scenarios. These improvements are consistently observed across multiple MLLM families and sizes. Further manual qualitative analyses are included to prove the method's effectiveness.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.056084+00:00"
+}

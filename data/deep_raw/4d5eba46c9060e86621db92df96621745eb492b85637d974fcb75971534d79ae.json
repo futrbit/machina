@@ -1,0 +1,21 @@
+{
+  "id": "4d5eba46c9060e86621db92df96621745eb492b85637d974fcb75971534d79ae",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "mAVE: A Watermark for Joint Audio-Visual Generation Models",
+  "url": "https://arxiv.org/abs/2603.07090",
+  "summary": "arXiv:2603.07090v2 Announce Type: replace-cross Abstract: Watermarking joint audio-visual generation supports vendor copyright protection and content provenance. However, independently valid audio and video watermarks do not establish a shared generation session. An adversary can splice watermarked modalities from different sessions, causing the pair to be mistaken for the vendor's original joint output. We introduce mAVE (Manifold Audio-Visual Entanglement), a training-free watermarking framework that strengthens vendor attribution through session binding in native joint audio-visual diffusion transformers. mAVE separates public record retrieval from secret session authentication: a fixed public index locates the server record, while a randomized payload binds audio bits to a session-keyed video grid through a cryptographic digest. One prompt-conditioned joint inversion supports provider-assisted verification of both modalities against a session record, without modifying generator weights or training auxiliary watermark networks. Our analysis establishes implementation-matched distribution preservation and a full-initialization routing/clipping budget, alongside adaptive session-pool security and stable local-perturbation bounds. Experiments on LTX-2 and MOVA show comparable generation quality. mAVE achieves 99.8\\% true-positive rate and 0\\% observed false-positive rate in the evaluated swap test, and retains 99.2\\% true-positive rate under FrameAvg temporal averaging. Same-prompt and similarity-selected swaps further test session authentication beyond perceptual compatibility.",
+  "published": "2026-03-07T07:59:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.417360+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T05:04:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.07090v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.426502+00:00"
+}

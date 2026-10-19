@@ -1,0 +1,22 @@
+{
+  "id": "f4421ed98efdeee6aceaea8847f8d4deeb65bfffc0d1f5d2dd046d0b017c2514",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Conflict Between Logic and Memory: Learning Higher-Order Interactions in Shallow MLPs",
+  "url": "https://arxiv.org/abs/2610.00403",
+  "summary": "arXiv:2610.00403v1 Announce Type: new Abstract: A network can fit its training examples while failing to recover the rule that generated their labels. We examine this separation in single-hidden-layer multilayer perceptrons (MLPs), using synthetic tasks that control interaction order and the presence of nuisance inputs. We establish elementary benchmark properties: pure parity contains no predictive lower-order marginals, admits an exact Bayes posterior, and can be represented on clean latent inputs by a width-$k$ ReLU network. Experiments then identify distinct optimization outcomes. In a matched order-2--4 sweep, SGD, Adam, and Muon all reach 100\\% peak test accuracy at order two; at order three they reach 96.25\\%, 50.87\\%, and 76.82\\%, respectively, while Muon reaches 99.21\\% at order four. In a separate mixed-order task, freezing only the first-layer weights connected to independent nuisance inputs raises AdamW's epoch-10 accuracy from 44.73\\% to 95.07\\%. Removing the same inputs only at test time raises it to 48.38\\%. Thus, nuisance-weight learning changes the training outcome beyond its immediate effect on prediction. Bias interventions expose a connection between target symmetry and shallow ReLU representations. In a compact signal-only regime, both SGD and Muon learn orders five through eight, with higher SGD peak accuracy at orders nine through eleven. Together, the results show how optimization and nuisance learning constrain the higher-order rules realized by a shallow network.",
+  "published": "2026-09-30T13:08:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.773510+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-02T14:00:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00403v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.484659+00:00"
+}

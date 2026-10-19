@@ -1,0 +1,22 @@
+{
+  "id": "c4e6d24ca1af69584cb9b2654bb3d46c1723b73b55e896043454e57540160287",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning the identity: a case study of how SGD selects among functional decompositions",
+  "url": "https://arxiv.org/abs/2610.00615",
+  "summary": "arXiv:2610.00615v1 Announce Type: new Abstract: One might think that learning the identity function with a deep linear residual network is trivial - the path along residual connections already implements the identity, and so the network need only drive its weights to zero. However, this zero-weight solution is just one point on an entire manifold of population-loss minimizers, each corresponding to a different decomposition of the identity across the network's layers. Although the population loss does not distinguish among these solutions, stochastic gradient descent (SGD) reproducibly favors particular ones. For instance, under anisotropic label noise, the learned layers exhibit a noise-dependent spectrum; even with weight decay, SGD does not generally recover the zero-weight solution. Changing only the parametrization, while leaving the set of realizable functions unchanged, yields different behavior: factoring each weight matrix as a product of two matrices causes the weights to collapse to zero, even without explicit weight decay. While perhaps mysterious and unintuitive at first, these phenomena can be understood through the lens of entropic loss, which augments the population loss with a term proportional to the expected squared norm of the minibatch gradient (Ziyin et al., 2025). On the identity manifold, the population loss is constant, while the entropic term distinguishes among these decompositions. We characterize its minimizers analytically and use them to derive predictions for the structure of solutions favored by SGD. Networks trained with SGD closely match these predictions. Overall, the identity learning task studied here serves as a clean and simple case study of how the lens of entropic loss can clarify why SGD favors particular decompositions of the same input-output function.",
+  "published": "2026-09-30T19:18:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.777506+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T19:18:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00615v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.919998+00:00"
+}

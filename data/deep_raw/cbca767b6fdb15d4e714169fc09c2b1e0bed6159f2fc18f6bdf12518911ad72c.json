@@ -1,0 +1,22 @@
+{
+  "id": "cbca767b6fdb15d4e714169fc09c2b1e0bed6159f2fc18f6bdf12518911ad72c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "FSCE: A Target-Aware Frequency-Spatial Collaborative Enhancement Framework for Noise-Resilient SAR ATR",
+  "url": "https://arxiv.org/abs/2603.21565",
+  "summary": "arXiv:2603.21565v3 Announce Type: replace Abstract: Synthetic aperture radar automatic target recognition (SAR ATR) is severely challenged by coherent speckle noise, whose interference can be progressively amplified by hierarchical nonlinear transformations and eventually damage high-level semantic representations. To address this issue, we propose a Target-Aware Frequency-Spatial Collaborative Enhancement (FSCE) framework for noise-resilient SAR ATR, which integrates frequency-spatial modeling for early feature stabilization with semantic regularization. Specifically, we design a Frequency-Spatial Early-stage Adaptive Enhancement (FS-EAE) module at the network entrance to suppress noise propagation and preserve target structures through collaborative spatial-frequency modeling. Building upon stabilized shallow representation, we further introduce an Adaptive Policy-driven Semantic Alignment (APSA) mechanism, which uses an online teacher policy to impose top-down semantic constraints on the student and feeds semantic guidance back to the enhanced early features during training. Experiments on MSTAR, OpenSARShip, and FUSARShip demonstrate the effectiveness of this synergy. Moreover, the competitive performance of our lightweight impletation $\\text{FSCE-Net}_\\mu$ with only 0.17M parameters suggests that the proposed framework is applicable to both high-capacity and lightweight architectures.",
+  "published": "2026-03-23T04:35:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.536373+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:30:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.21565v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.726115+00:00"
+}

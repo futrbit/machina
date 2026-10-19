@@ -1,0 +1,22 @@
+{
+  "id": "ab92edb5c7c83de718d92ad0555f1df9835043b2a0c239c79900773ec3f3c3b9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "INDEQS: Informed Neural controlled Differential EQuationS",
+  "url": "https://arxiv.org/abs/2606.19138",
+  "summary": "arXiv:2606.19138v2 Announce Type: replace Abstract: Neural Controlled Differential Equations (NCDE) provide a powerful continuous-time framework for forecasting time series, but standard graph-based extensions typically learn spatial structure purely from data, even in settings where a directed graph structure is known a priori. We introduce Informed Neural controlled Differential EQuationS (INDEQS), a modification to graph-based NCDE forecasting methods that incorporates prior knowledge of a directed graph at distinct architectural positions. INDEQS separates inner mixing of hidden states across graph nodes from outer mixing between vector field and control, and offers both a lightweight graph-constrained variant and a more expressive variant, learning additional graph connections from data via adaptive graph convolutions. To systematically study when graph informedness is beneficial in forecasting, we devise a continuous advection simulation on directed graphs, yielding synthetic spatio-temporal datasets with known ground-truth flow structure. We then evaluate INDEQS on two real-world tasks: river discharge forecasting on a hydrological network and traffic flow prediction on PeMS08. Across the synthetic and the river-discharge tasks, outer informedness consistently improves mean absolute error over an uninformed NCDE with comparable parameter count, particularly on larger graphs, while inner informedness offers a more parameter-efficient alternative when strict adherence to a known adjacency is desired. A comparison of discrete convolutional and continuous-time decoders further shows that continuous decoders yield better accuracy and greater temporal flexibility on real-world tasks. An implementation of INDEQS and the advection simulation is available at https://github.com/mitchi1/indeqs .",
+  "published": "2026-06-17T14:46:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.833471+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:04:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.19138v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.446284+00:00"
+}

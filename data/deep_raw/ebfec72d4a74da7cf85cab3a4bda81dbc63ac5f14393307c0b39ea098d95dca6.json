@@ -1,0 +1,22 @@
+{
+  "id": "ebfec72d4a74da7cf85cab3a4bda81dbc63ac5f14393307c0b39ea098d95dca6",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "PhoenixSR: Generative Heterogeneous Distillation Unleashes Efficient Models for Real-World Super-Resolution",
+  "url": "https://arxiv.org/abs/2609.30988",
+  "summary": "arXiv:2609.30988v1 Announce Type: new Abstract: Real-world image super-resolution (SR) requires recovering perceptually realistic high-resolution images from complex low-resolution observations while preserving faithful content. Diffusion-based SR benefits from strong generative priors but incurs substantial computational overhead, whereas feed-forward CNN and Transformer SR models are efficient yet often struggle to recover realistic high-frequency details. This motivates a natural question: can diffusion priors be transferred to existing diffusion-free SR networks without introducing diffusion components at inference time? To this end, we propose PhoenixSR, a generative heterogeneous distillation framework that transfers diffusion priors to independently designed feed-forward SR networks through score-based distribution matching. Rather than aligning heterogeneous features or imitating sampled diffusion outputs, PhoenixSR uses the pretrained diffusion model as distribution-level supervision, while paired SR supervision preserves reconstruction fidelity. To make distribution matching effective for fidelity-sensitive SR, we introduce Heterogeneous Distribution Adaptation, which adapts the target score to the SR domain, improves tracking of the evolving student distribution, and anchors training with paired supervision. We further employ Directional Reliability Weighting, a lightweight residual-consistency-based reweighting strategy that reduces unstable distributional guidance. All diffusion-related components are removed after training, leaving the original student architecture and inference cost unchanged. Experiments on three SR benchmarks and six feed-forward backbones, including SwinIR, HAT, Real-ESRGAN, and SeeMoRe, show consistent perceptual improvements with largely preserved reconstruction fidelity.",
+  "published": "2026-09-25T08:34:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.223017+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T08:34:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30988v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.389716+00:00"
+}

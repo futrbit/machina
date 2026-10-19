@@ -1,0 +1,17 @@
+{
+  "id": "efaaffffed7cdc0214250cf07f6b6ba2e2aac2c6ce7700a1f0e9e32e36c1fd8b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "NEXUS: Learning Safety Constraints and Action Models for Safe and Robust Embodied Planning",
+  "url": "https://arxiv.org/abs/2605.09387",
+  "summary": "arXiv:2605.09387v2 Announce Type: replace Abstract: Large language models (LLMs) enable embodied agents to plan from naturallanguage instructions, yet their actions may be physically infeasible or hazardous. Existing neuro-symbolic learners primarily refine execution models, while formal safety methods acquire or enforce safety constraints. This separation limits the reuse of both execution corrections and safety knowledge across tasks. We present NEXUS, a modular neuro-symbolic framework that jointly maintains a PDDL domain model and an LTL safety specification. Execution failures are used to repair action schemas, whereas detected hazards are converted into reusable LTL constraints through hierarchical semantic and translation sampling with equivalence consensus. Accumulated constraints are enforced through LTL progression during symbolic search; comparing constrained and unconstrained search outcomes distinguishes physical unreachability from safety-induced refusal. Experiments on SafeAgentBench evaluation set show that NEXUS achieves the best overall trade-off between safetask completion and unsafe-task refusal, while maintaining low violation rates under jailbreak attacks. Ablations confirm the complementary benefits of PDDLdomain refinement and LTL-constraint accumulation.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.202133+00:00"
+}

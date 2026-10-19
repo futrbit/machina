@@ -1,0 +1,21 @@
+{
+  "id": "7e2b54d564a499af3f142f90c7950a59364e00295480e636d1ebb57bae106658",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Where Draft Trees Lose Target Mass: Exit-Guided Speculative Decoding",
+  "url": "https://arxiv.org/abs/2610.11750",
+  "summary": "arXiv:2610.11750v1 Announce Type: new Abstract: Tree-based speculative decoding verifies multiple draft continuations in one target-model pass, but finite trees built from draft scores face a fundamental draft-target mismatch. We ask whether better exact verification can increase acceptance on a fixed tree and how target feedback can improve the tree itself. Through a target-flow view, we identify a canonical exit law and prove that one plus target coverage sharply bounds the expected output-block length, including the bonus token, of any exact path verifier. All optimal verifiers share the same exit and bonus-token law, already attained by representative predraw-and-follow and sequential residual verifiers. This yields Tree Exit Verification (TEV), an exact, level-parallel procedure using one exit-node decision and one bonus-token decision. The exit law also identifies missing target probability, providing node-level feedback for Exit-Guided Draft-Tree Training (ExitTrain) on inference-time draft trees. Experiments across dialogue, code, and mathematical reasoning validate fixed-tree equivalence: ExitTrain increases average output-block length by 13%, while TEV reduces verifier-stage latency by 15%, yielding a 14% end-to-end speedup over DDTree. Our results distinguish two opportunities: better draft trees for higher acceptance and more direct verification for lower latency. Code: https://github.com/hsj576/TEV.",
+  "published": "2026-10-08T11:40:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.372387+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:40:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11750v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.401915+00:00"
+}

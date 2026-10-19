@@ -1,0 +1,21 @@
+{
+  "id": "f1aab3c1be4ffb7fd2e15826be36d45de062c40b28085f1b0055d92ded2c5228",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "PAPER2LLM++: Continual Self-Evolution of LLMs from Research Papers",
+  "url": "https://arxiv.org/abs/2610.02793",
+  "summary": "arXiv:2610.02793v2 Announce Type: replace Abstract: Research on LLMs continually uncovers model limitations, their causes, and potential solutions. Yet these human discoveries remain largely disconnected from model evolution: an LLM does not automatically learn from new research about its own failures. We introduce PAPER2LLM++, a framework for continual self-evolution of LLMs from research papers. Rather than treating papers merely as knowledge to retrieve, PAPER2LLM++ uses the growing literature as a stream of evidence and supervision for model improvement. For each incoming paper, it extracts evidence-grounded findings, tests whether the reported limitation persists in the current model, and, when needed, converts the findings into candidate learning signals. A try-evaluate-commit procedure integrates an update only when it improves the targeted behavior without substantially forgetting prior improvements or degrading general capabilities. Across a sequential stream of research-discovered LLM failures, we show that models can progressively incorporate new findings while retaining earlier gains. PAPER2LLM++ thus takes a step toward closing the loop between human discovery and model evolution, enabling models to continually learn from research about their own limitations and improvements.",
+  "published": "2026-10-02T04:33:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.187790+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:28:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02793v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.457675+00:00"
+}

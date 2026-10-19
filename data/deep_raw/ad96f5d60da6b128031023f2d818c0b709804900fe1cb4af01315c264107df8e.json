@@ -1,0 +1,21 @@
+{
+  "id": "ad96f5d60da6b128031023f2d818c0b709804900fe1cb4af01315c264107df8e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Risk-Sensitive Crowd Navigation with Adaptive Ellipsoidal Conformal Prediction",
+  "url": "https://arxiv.org/abs/2610.07474",
+  "summary": "arXiv:2610.07474v1 Announce Type: new Abstract: Safe crowd navigation under distribution shift requires uncertainty representations that capture structured human-motion prediction errors and safety objectives that account for rare but consequential failures. Existing uncertainty-aware methods typically represent prediction errors using isotropic regions, which can be either overly conservative or poorly aligned with directional motion uncertainty. We introduce a risk-aware navigation framework that uses anisotropic conformal ellipsoids to translate structured prediction uncertainty into an episode-level conditional value-at-risk (CVaR) signal that regulates the Lagrangian safety penalty. In particular, adaptive ellipsoidal conformal prediction (AECP) captures directional prediction errors and adaptively calibrates uncertainty regions under distribution shift, while the resulting CVaR-regulated navigation policy is optimized using Lagrangian proximal policy optimization. We evaluate our proposed method under both in-distribution settings and out-of-distribution (OOD) settings involving shifts in pedestrian motion patterns. Compared with state-of-the-art baselines, our method maintains competitive in-distribution performance while improving success rates by 5.68-7.44 percentage points and reducing collision rates by 5.44-6.64 percentage points across OOD settings. We further deploy the trained policy without fine-tuning on a physical robot with onboard perception and CPU-only inference, showing that the full pipeline is feasible in physical crowd navigation.",
+  "published": "2026-10-05T22:40:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.456025+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:40:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07474v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.465272+00:00"
+}

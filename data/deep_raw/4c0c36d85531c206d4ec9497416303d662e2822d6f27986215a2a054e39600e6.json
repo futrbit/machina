@@ -1,0 +1,22 @@
+{
+  "id": "4c0c36d85531c206d4ec9497416303d662e2822d6f27986215a2a054e39600e6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A mesh-based neural energy method for the simulation of heterogeneous composites",
+  "url": "https://arxiv.org/abs/2610.10862",
+  "summary": "arXiv:2610.10862v1 Announce Type: cross Abstract: Modeling heterogeneous materials remains a challenge for physics-informed neural networks such as the deep energy method (DEM). The DEM and its variants, here collectively referred to as the neural energy method (NEM), offer a differentiable variational framework. However, their conventional collocation-based implementation (C-NEM) often suffers from physically inadmissible displacement oscillations, integration errors, and high computational costs from automatic differentiation. This work introduces the mesh-based neural energy method (M-NEM), extending the NEM through a mesh-based discretization of the displacement field. By interpolating nodal displacements via shape functions, the M-NEM imposes a kinematic constraint that suppresses oscillations. Furthermore, the method replaces automatic differentiation with algebraic shape function derivatives for strain computation and employs high-order Gaussian quadrature for accurate energy integration. On a directly comparable benchmark problem, the M-NEM reduces stress errors by up to three orders of magnitude relative to the C-NEM while being one to two orders of magnitude faster. On two further benchmarks involving extreme stiffness contrasts, only the M-NEM converges. A comparative study of neural architectures reveals that radial basis function neural networks (RBFNNs) yield optimal performance within the M-NEM, resolving sharp gradients at material interfaces with higher accuracy than multi-layer perceptrons (MLPs) with random Fourier feature (RFF) mapping and faster convergence than Kolmogorov-Arnold networks (KANs).",
+  "published": "2026-10-07T20:08:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.102420+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:08:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10862v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.397519+00:00"
+}

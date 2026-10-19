@@ -1,0 +1,18 @@
+{
+  "id": "9e2e05f520b9d33227fb35f0331a047d2efae189367a6eb6dbeea4bfbf07d6a2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "HilbertGen-3D:Hilbert--Multifractal Conditioning for Topology-Aware 3D Generation",
+  "url": "https://arxiv.org/abs/2610.22720",
+  "summary": "arXiv:2610.22720v1 Announce Type: new Abstract: High-fidelity 3D generative modeling underpins game asset creation, medical imaging, and VR/AR environmental design, where geometric structure directly influences perception and decision-making. Diffusion models represent a powerful paradigm for point cloud generation. However, existing approaches rely heavily on local voxel or patch features and often miss global structural organization, and much less work has studied how global conditioning can be used to improve generation quality. In this paper, we introduce HilbertGen-3D, a novel topology-aware conditional diffusion framework based on Hilbert-Multifractal Conditioning (HMC). HMC computes multi-scale voxel measures, serializes them via a 3D Hilbert curve to expose structured spatial dependencies, and estimates the generalized fractal dimensions from scale-dependent partition functions. We encode these signals as global embeddings and multi-scale tokens, and inject them into a diffusion denoiser through an efficient bottleneck fusion module. Across the Chair, Airplane, and Car categories of ShapeNet, our two conditioning variants reduce the absolute deviation of 1-Nearest Neighbor Accuracy (1-NNA) from 50% by up to 8.90 percentage points and increase coverage by up to 5.88 percentage points relative to TopoDiT-3D. This shows that combining local density cues with global Hilbert-multifractal structure provides a simple and effective recipe for high-fidelity and diverse 3D generation.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.037097+00:00"
+}

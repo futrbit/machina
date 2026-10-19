@@ -1,0 +1,21 @@
+{
+  "id": "f4d04b839aa9449a24bc2302f14afc300129627377e102e84a1e915839088c81",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "TIDE 2.0: an open, model-agnostic engine for keyed de-identification of clinical notes",
+  "url": "https://arxiv.org/abs/2610.07224",
+  "summary": "arXiv:2610.07224v1 Announce Type: cross Abstract: Clinical notes capture most of what is documented about a patient's care, but they cannot be used for research until protected health information (PHI) is removed. De-identification is often treated as a detection problem. Detection alone is not sufficient: redaction strips clinical content along with identifiers, date blanking destroys the temporal intervals needed for longitudinal analysis, and assigning a fresh random surrogate at each occurrence breaks links between a patient's notes. We present TIDE 2.0, an MIT-licensed engine with two separable stages: an interchangeable recognizer and a keyed anonymizer. Both run on hardware the institution owns. Surrogates are generated cryptographically with no stored linkage table. Dates shift by a per-patient, interval-preserving offset; each value receives the same surrogate across all occurrences under a given key; and a release produced under a new key cannot be linked to earlier releases. We also release TIDE2-Sentry, a recognizer distilled from a large language model. On two gold-annotated corpora from two institutions, the default configuration reached span-level recall of 0.88 in-domain and 0.77 on the second institution's corpus, at precision 0.88 and 0.87. We report recall and precision per category alongside these aggregates. The engine is open source, and the recognizer is available under a gated research-use agreement, so institutions can run, inspect and extend both within their own environments.",
+  "published": "2026-10-05T18:31:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.158809+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:31:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07224v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.489656+00:00"
+}

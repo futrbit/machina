@@ -1,0 +1,22 @@
+{
+  "id": "381c87889ea2cf1ee3f82aa2f095750d49bd1b62bab5e154ae3f803429399cc2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "dattri-LLM: A Unified and Efficient Library for Training Data Attribution at LLM Scale",
+  "url": "https://arxiv.org/abs/2609.38767",
+  "summary": "arXiv:2609.38767v2 Announce Type: replace Abstract: Training data attribution (TDA) estimates the contribution of individual training examples to model outputs. Most scalable TDA methods rely on per-example gradients, whose computation and use at LLM scale pose challenges in efficiency, compatibility, and extensibility. We introduce dattri-LLM, a TDA library that makes gradient-based attribution more practical at scale. For efficiency, dattri-LLM uses compact gradient representations and dynamically routes gradient operations based on a cost model. For compatibility, its capture mechanism collects per-example gradients from existing training loops that call backward(), without requiring changes to the loop or its configuration. This includes distributed training with DDP and FSDP and pipelines built with HuggingFace Transformers, TRL, and OLMo. For extensibility, dattri-LLM exposes reusable gradient operations and training-time callbacks for implementing attribution methods and applications. These interfaces support a variety of attribution methods, including gradient similarity, curvature-based influence, and trajectory-based methods, as well as applications that act on gradients during training, such as online data selection. On the same hardware and workload, dattri-LLM achieves 3.2x the throughput of the fastest competing library on average, scales multiple attribution methods to 110B-parameter models across four H200 GPUs, and offers superior attribution fidelity-cost trade-offs across a range of models with different model families and scales. The source code of dattri-LLM is available at https://github.com/TRAIS-Lab/dattri-llm.",
+  "published": "2026-09-30T01:49:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.838468+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:36:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.38767v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.659963+00:00"
+}

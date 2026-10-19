@@ -1,0 +1,21 @@
+{
+  "id": "3001ed85b47f013fbdc0731cfe5d78f366e492e22258af8be61535052146299c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Heterogeneous-Modal Unsupervised Domain Adaptation via Latent Space Bridging",
+  "url": "https://arxiv.org/abs/2506.15971",
+  "summary": "arXiv:2506.15971v2 Announce Type: replace-cross Abstract: Unsupervised domain adaptation (UDA) effectively bridges the domain gap between a labeled source domain and an unlabeled target domain, but assumes that the two domains share the same modality. Heterogeneous domain adaptation (HDA) instead handles different feature spaces across domains, yet requires labeled target samples or paired data linking the source and target domains. Neither applies when a labeled source domain and a fully unlabeled target domain each hold an entirely distinct modality (e.g., 2D images and 3D point clouds). To address this limitation, we introduce a new setting termed Heterogeneous-Modal Unsupervised Domain Adaptation (HMUDA), which transfers knowledge across modalities via an unlabeled bridge domain containing paired observations from both modalities, whose distribution may deviate from those of the source and target domains. To learn under the HMUDA setting, we propose Latent Space Bridging (LSB), a dual-branch framework where a feature consistency loss on paired bridge samples closes the modality gap and a class-centroid alignment loss reduces the source-target discrepancy. Extensive experiments on eight benchmark settings covering both 2D-to-3D and 3D-to-2D transfer demonstrate that LSB achieves state-of-the-art performance.",
+  "published": "2025-06-19T02:31:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.414361+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:37:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2506.15971v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.419109+00:00"
+}

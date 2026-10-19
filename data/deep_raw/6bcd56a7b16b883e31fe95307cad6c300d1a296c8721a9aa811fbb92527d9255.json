@@ -1,0 +1,21 @@
+{
+  "id": "6bcd56a7b16b883e31fe95307cad6c300d1a296c8721a9aa811fbb92527d9255",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Predicting kernel regression learning curves from only raw data statistics",
+  "url": "https://arxiv.org/abs/2510.14878",
+  "summary": "arXiv:2510.14878v3 Announce Type: replace-cross Abstract: We study kernel regression with common rotation-invariant kernels on real datasets including CIFAR-5m, SVHN, and ImageNet. We give a theoretical framework that predicts learning curves (test risk vs. sample size) from only two measurements: the empirical data covariance matrix and an empirical polynomial decomposition of the target function $f_*$. The key new idea is an analytical approximation of a kernel's eigenvalues and eigenfunctions with respect to an anisotropic data distribution. The eigenfunctions resemble Hermite polynomials of the data, so we call this approximation the Hermite eigenstructure ansatz (HEA). We prove the HEA for Gaussian data, but we find that real image data is often \"Gaussian enough\" for the HEA to hold well in practice, enabling us to predict learning curves by applying prior results relating kernel eigenstructure to test risk. Extending beyond kernel regression, we empirically find that MLPs in the feature-learning regime learn Hermite polynomials in the order predicted by the HEA. Our HEA framework is a proof of concept that an end-to-end theory of learning which maps dataset structure all the way to model performance is possible for nontrivial learning algorithms on real datasets.",
+  "published": "2025-10-16T16:57:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.191788+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:58:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2510.14878v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.923801+00:00"
+}

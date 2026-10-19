@@ -1,0 +1,22 @@
+{
+  "id": "d459ffd4affe98abf8be8dd4ae866bc71b16102a73e1edead71ffadeaf24e625",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Calibrating Ambiguity Set via Diagnostic Transport for Distributionally Robust Optimization",
+  "url": "https://arxiv.org/abs/2610.10793",
+  "summary": "arXiv:2610.10793v1 Announce Type: cross Abstract: Distributionally robust optimization (DRO) protects decisions against distributional uncertainty by optimizing over an ambiguity set, but poorly aligned set geometry can require large radii and yield overly conservative decisions. We introduce diagnostic-transport DRO (DT-DRO), which uses held-out calibration data to adapt the ambiguity-set geometry to observed predictive errors. DT-DRO uses the conditional probability integral transform cumulative distribution function to diagnose systematic probability misallocation and translates this information into an outcome-level transport that jointly adjusts the ambiguity-set center and ground cost. The resulting formulation admits a computationally tractable dual reformulation. Theoretically, we derive valid ambiguity radii and decision-risk guarantees that tighten as estimation and approximation errors vanish, and show that DT-DRO can eliminate the nonvanishing robustness floor caused by model misspecification. Synthetic experiments and a power-outage application demonstrate improved decision quality, particularly under structural and tail misspecification.",
+  "published": "2026-10-07T18:51:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.101420+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:51:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10793v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.121877+00:00"
+}

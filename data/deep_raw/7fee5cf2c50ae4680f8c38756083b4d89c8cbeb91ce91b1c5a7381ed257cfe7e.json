@@ -1,0 +1,22 @@
+{
+  "id": "7fee5cf2c50ae4680f8c38756083b4d89c8cbeb91ce91b1c5a7381ed257cfe7e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Evaluating Memory Structure in LLM Agents",
+  "url": "https://arxiv.org/abs/2602.11243",
+  "summary": "arXiv:2602.11243v4 Announce Type: replace Abstract: Modern LLM-based agents and chat assistants rely on long-term memory frameworks to store reusable knowledge, recall user preferences, and augment reasoning. As researchers create more complex memory architectures, it becomes increasingly difficult to analyze their capabilities and guide future memory designs. Most long-term memory benchmarks focus on simple fact retention, multi-hop recall, and time-based changes. While undoubtedly important, these capabilities can often be achieved with simple retrieval-augmented LLMs and do not test complex memory hierarchies. To bridge this gap, we propose StructMemEval - a benchmark that tests the agent's ability to organize its long-term memory, not just factual recall. We gather a suite of tasks that humans solve by organizing their knowledge in a specific structure: transaction ledgers, to-do lists, trees and others. Our initial experiments show that simple retrieval-augmented LLMs struggle with these tasks, whereas memory agents can reliably solve them if prompted how to organize their memory. However, we also find that modern LLMs do not always recognize the memory structure when not prompted to do so. This highlights an important direction for future improvements in both LLM training and memory frameworks.",
+  "published": "2026-02-11T17:32:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.828474+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T10:38:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.11243v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.434895+00:00"
+}

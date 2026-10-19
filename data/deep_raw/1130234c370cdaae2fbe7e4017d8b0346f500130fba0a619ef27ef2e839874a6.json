@@ -1,0 +1,21 @@
+{
+  "id": "1130234c370cdaae2fbe7e4017d8b0346f500130fba0a619ef27ef2e839874a6",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "One Skill Too Many: How Co-Installed Skills Conflict in Coding Agents",
+  "url": "https://arxiv.org/abs/2610.11647",
+  "summary": "arXiv:2610.11647v1 Announce Type: cross Abstract: Coding agents are extended with agent skills, directories whose SKILL.md tells the model when and how to perform a task. Because skills come from independent sources (teams, developers, plugins, copied collections), an installed skill can be co-installed with a similar skill doing the same job, and the model picks between them by name and description alone. In a conflict, the installed skill loses core functions (e.g., a ban on touching git) because the similar skill runs instead or changes what it does. The task still passes, so benchmarks that check only task completion miss such cases. We present the first empirical study of such conflicts. From snapshots of 20,947 repositories, we mine 822,109 candidate similar-skill pairs, have an LLM judge a stratified sample of 3,754, and run 312 confirmed pairs on three models (6,368 runs, 169,294 tool calls, 542 agent-hours). We report five findings. (1) Conflict-prone skills are common: nearly one in four installed skills is co-installed with one that does the same job, and 37% of judged skills sit inside copied collections. (2) Most such pairs involve normative skills, then capability skills. (3) Without lowering task completion, a similar skill takes one in five runs from the installed skill, and runs that open the similar skill first lose over a third of the exclusive core functions that only the installed skill fulfills. (4) Install location decides which skill runs, listing order barely matters, and the final reply names the skill used in only 0.9% of substituted runs. (5) Conflicts are decided at the first skill read, almost always before any file is changed, and a pre-tool hook at that read restores fidelity on exclusive core functions to the level of runs that open the installed skill first. Benchmarks should thus score exclusive core functions, and platforms should guard the first read and show which skill ran.",
+  "published": "2026-10-08T10:20:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.394373+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:20:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11647v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.705933+00:00"
+}

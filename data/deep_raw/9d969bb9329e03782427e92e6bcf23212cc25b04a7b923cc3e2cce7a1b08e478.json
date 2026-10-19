@@ -1,0 +1,22 @@
+{
+  "id": "9d969bb9329e03782427e92e6bcf23212cc25b04a7b923cc3e2cce7a1b08e478",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "From Suppression to Repair: Mitigating Object Hallucination in Large Vision-Language Models via Localized Distribution Alignment",
+  "url": "https://arxiv.org/abs/2610.11826",
+  "summary": "arXiv:2610.11826v1 Announce Type: new Abstract: Object hallucination remains a major obstacle for large vision-language models (LVLMs) to generate reliable content. An intuitive mitigation strategy is to suppress hallucination-related components in hidden representations. However, these components may also contain useful information, and suppressing them can weaken the model's multimodal capabilities. In this paper, we propose ResOT, a training-free method that repairs representations at inference time through localized distribution alignment. Specifically, ResOT projects dominant hallucinated directions away from the faithful subspace, forming a low-dimensional residual subspace for intervention. Within this subspace, ResOT uses Gaussian optimal transport (OT) to align the hallucinated distribution with the faithful one. The resulting map defines repair targets with minimal changes to the original representations. At inference, ResOT adaptively controls how far each token state moves toward its OT target. Experiments on three representative LVLMs show that ResOT substantially reduces object hallucination while improving image caption quality and multimodal performance across multiple benchmarks. Code will be released.",
+  "published": "2026-10-08T12:25:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.752048+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:25:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11826v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.530039+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "a339c1b4af6b49022c4e67a71d4b6c5c1caf84abc4dace04934b60cf58830256",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A theory of platonic representations in language models",
+  "url": "https://arxiv.org/abs/2610.07168",
+  "summary": "arXiv:2610.07168v1 Announce Type: new Abstract: Representations of translated sentences are similar in the inner layers of multilingual language models -- an observation connected to the platonic representation hypothesis, yet unexplained theoretically. We provide an explanation based on the assumption that data have a hidden hierarchical structure whose abstract levels are shared across languages while surface levels are modality- or language-specific. Concretely, we generate synthetic languages from probabilistic context-free grammars sharing upper-level but not lower-level production rules. In this setting the Bayes-optimal next-token predictor is belief propagation (BP); encoding its messages in successive layers yields analytical predictions that agree well with transformers trained on the same data. The framework explains why cross-lingual similarity peaks in middle layers, coexists with language-specific structure, and strengthens with language proximity, model quality and data exposure. It distinguishes similarity (shared neighborhood geometry) from alignment (shared coordinates), showing that the latter occurs when code-switched data, i.e. mixed-language sentences, are abundant enough. It further predicts that subtracting from each layer the component linearly predictable from the preceding one increases cross-lingual similarity, which we confirm in pretrained LLMs.",
+  "published": "2026-10-05T18:00:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.048506+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:00:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07168v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.247405+00:00"
+}

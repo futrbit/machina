@@ -1,0 +1,22 @@
+{
+  "id": "d2a995863b6b5c71a0a706fc7637d584a326da4efc7136bca233bcdfe25050e0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ISBO: Scalable Spatio-Temporal Bayesian Optimization with Log Gaussian Cox Process Models via the INLA-SPDE Approach",
+  "url": "https://arxiv.org/abs/2610.12213",
+  "summary": "arXiv:2610.12213v1 Announce Type: cross Abstract: Bayesian Optimization (BO) is a popular method for efficiently optimizing expensive black-box objectives. However, BO utilizing standard Gaussian Processes is ill-suited for doubly stochastic Cox Processes that are often used in spatio-temporal problem spaces. We introduce INLA-SPDE Spatio-Temporal Bayesian Optimization (ISBO): the first scalable BO framework for spatio-temporal data, that models the log-intensity with a Log-Gaussian Cox Process(LGCP) and performs inference via Integrated Nested Laplace Approximation and Stochastic Partial Differential Equations (INLA-SPDE) approach. Using a Matern field on meshes yields a sparse Gaussian Markov Random Field, where INLA provides fast and accurate posterior inference throughout sequential optimization. ISBO stably locates high-intensity regions and the peak of the latent intensity with minimal evaluations. A time-varying Upper Confidence Bound acquisition with masking avoids revisits, while penalized-complexity priors regularize early rounds. Experiments on synthetic and real-world spatio-temporal datasets show accurate peak discovery, intensity recovery, and substantial speedups over an RKHS-based baseline, positioning ISBO as a practical choice for BO with point-process data.",
+  "published": "2026-10-08T16:01:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.116412+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:01:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12213v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.100890+00:00"
+}

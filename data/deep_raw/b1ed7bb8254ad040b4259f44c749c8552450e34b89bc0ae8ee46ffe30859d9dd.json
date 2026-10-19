@@ -1,0 +1,21 @@
+{
+  "id": "b1ed7bb8254ad040b4259f44c749c8552450e34b89bc0ae8ee46ffe30859d9dd",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection",
+  "url": "https://arxiv.org/abs/2610.10971",
+  "summary": "arXiv:2610.10971v1 Announce Type: cross Abstract: Large language models are increasingly used in legal research and drafting, but they can still produce claims that sound convincing without being supported by the cited source. We introduce PARCEL, a benchmark for checking whether a legal claim is supported by the underlying authority. Using recent New York State Court of Appeals decisions, we build a dataset of 3,396 parenthetical-style claims labeled as Supported, Refuted, or Not Found. We cast this task as a three-way natural language inference problem and evaluate several state-of-the-art LLMs in a zero-shot setting. Although the strongest models reach up to 0.97 accuracy, the results also show an important weakness: models still incorrectly mark unsupported claims as supported, even when the full opinion text is provided. Across models, missing support is harder to detect than direct contradiction, and fabricated but plausible citations cause the largest drop in performance. Overall, PARCEL provides a practical benchmark for testing claim-level groundedness in legal RAG systems.",
+  "published": "2026-10-07T22:43:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.385380+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:43:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10971v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.628175+00:00"
+}

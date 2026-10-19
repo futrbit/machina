@@ -1,0 +1,22 @@
+{
+  "id": "4d980a817292f0f8636ebe94ffb1726ae969efc2a4db23fbdab85e49d9f050df",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Missing Modality-Aware Calibration for Trustworthy Brain Tumor Segmentation",
+  "url": "https://arxiv.org/abs/2610.11419",
+  "summary": "arXiv:2610.11419v1 Announce Type: new Abstract: Multimodal brain tumor segmentation typically leverages multiple MRI modalities, yet incomplete modality acquisition is common in clinical practice due to protocol heterogeneity and scan failures. Although recent methods maintain segmentation accuracy under missing modality conditions, they frequently overlook prediction reliability, leading to miscalibrated confidence estimates that hinder clinical adoption. Existing calibration techniques are largely modality-agnostic or assume that prediction difficulty decreases monotonically as additional modalities become available. However, in brain tumor segmentation, prediction difficulty depends primarily on which modalities are absent rather than how many, leading to combination-specific and spatially heterogeneous calibration errors. To address this, we propose Missing Modality-Aware Local Temperature Scaling (MMA-LTS), a post-hoc voxel-wise confidence calibration method. It estimates a spatially adaptive temperature field conditioned on a modality-availability learnable token and a voxel-wise difficulty score. Experiments on BraTS 2020 and FeTS 2024 show that MMA-LTS improves calibration while preserving the segmentation accuracy of state-of-the-art models across diverse missing-modality scenarios, thereby enhancing trustworthiness toward clinical deployment.",
+  "published": "2026-10-08T07:46:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.747051+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:46:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11419v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.435497+00:00"
+}

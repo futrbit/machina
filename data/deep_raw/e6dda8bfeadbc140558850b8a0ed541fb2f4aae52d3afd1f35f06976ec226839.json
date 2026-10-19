@@ -1,0 +1,22 @@
+{
+  "id": "e6dda8bfeadbc140558850b8a0ed541fb2f4aae52d3afd1f35f06976ec226839",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RH-Detect: A Unified Benchmark for Reward Hacking Detection",
+  "url": "https://arxiv.org/abs/2610.10947",
+  "summary": "arXiv:2610.10947v1 Announce Type: new Abstract: Reward hacking, where a model exploits an evaluation signal without completing the intended task, threatens the reliability of deployed language model systems. Existing datasets use different labels, response formats, and metadata conventions, making detector results difficult to compare. We present RH-Detect, a benchmark that combines reward-hacking-relevant subsets from eleven public datasets, comprising 92,761 rows and six behavior categories, into a common schema. On 5,021 open-ended evaluation units, each comprising a task prompt and a free-form model continuation, including multi-turn tool-use trajectories, we evaluate six off-the-shelf language models from five families as reward hacking detectors without additional training. The best model achieves a pooled AUROC of 0.962, with accuracy above 93%. For the four strongest models, however, accuracy on the two multi-turn tool-use datasets, MALT and TRACE, is 10.7-15.9 percentage points lower than on the other sources at a common decision threshold, highlighting a key gap for deployment-time monitoring. We find that different input formats have different effects across models. Removing thinking raises Qwen3.5-4B AUROC from 0.779 to 0.849, but lowers Qwen Flash from 0.977 to 0.950. We also evaluate the benchmark as a training dataset for detectors. Holding out each source in turn, single-token SFT improves average AUROC on five of six held-out sources. A GRPO follow-up on that failure case yields a slight improvement in detection performance. Our results show that a single pooled score can conceal variation across data sources, detector inputs, and training procedures.",
+  "published": "2026-10-07T21:52:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.078437+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T21:52:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10947v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.320757+00:00"
+}

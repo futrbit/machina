@@ -1,0 +1,22 @@
+{
+  "id": "f9f56ac207edbdd2e689472ba1efee845e171d36836f8ca5a09649dc34b6d806",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Weight Oracles: Reading Neural Network Weights with Language Models",
+  "url": "https://arxiv.org/abs/2610.07334",
+  "summary": "arXiv:2610.07334v1 Announce Type: new Abstract: Interpretability methods for neural networks are predominantly reactive: they analyse activations produced during specific forward passes, requiring known inputs to find hidden capabilities such as backdoors. We propose Weight Oracles, fine-tuned language models that diagnose properties of a target network by reading its raw weights directly, without behavioural testing. We investigate this paradigm in two phases. Phase I establishes feasibility: through a staged curriculum and an external chain-of-computation that delegates parameter-free operations to deterministic code, an explainer LLM learns to simulate the forward pass of small transformers from their weights, achieving 99% holdout accuracy on unseen targets. Phase II repurposes this infrastructure for safety auditing. We train an oracle on natural language diagnostic questions about weight anomalies using only benign pathologies as training signal, and evaluate it zero-shot on backdoors absent from training. The oracle achieves AUROC 0.93 on attention-routed backdoors and 0.81 across a diversified threat distribution including stealth and adversarially regularized variants. Hand-crafted statistical detectors are sharp on the threat models they implicitly target but collapse on threat-model shift, while the oracle remains uniformly competent across attack types. Scaling to realistic model sizes remains the principal open challenge.",
+  "published": "2026-10-05T20:08:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.054503+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:08:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07334v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.550619+00:00"
+}

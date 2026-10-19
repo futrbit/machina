@@ -1,0 +1,21 @@
+{
+  "id": "d0f2967d88214ef2c397c0832cab143cca8e6d8adc799c0ad1a0b773b42b3271",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Dynamic Positional Attention Modulation for Parameter-Efficient Fine-Tuning of Large Language Models",
+  "url": "https://arxiv.org/abs/2610.07848",
+  "summary": "arXiv:2610.07848v1 Announce Type: cross Abstract: Parameter-efficient fine-tuning (PEFT) has become a standard approach for adapting large language models to downstream tasks. However, most existing PEFT methods rely on uniform and static adaptations, without accounting for the structured heterogeneity of attention across dimensions, heads, layers, and input tokens. In practice, attention representations exhibit non-uniform behavior, and positional encoding mechanisms such as rotary positional embeddings (RoPE) induce dimension-dependent positional structure, making uniform adaptation suboptimal. In this work, we propose DyPAM (Dynamic Positional Attention Modulation), a PEFT method that adapts how positional information contributes to attention by operating directly on the query and key representations. DyPAM combines input-conditioned, dimension-wise modulation with head-wise and layer-wise structural modulation, performing fine-grained adaptation of positional attention aligned with the RoPE-induced structure without modifying the pretrained backbone. Extensive experiments on mathematical and commonsense reasoning benchmarks across multiple backbone models demonstrate that DyPAM consistently outperforms existing strong PEFT baselines.",
+  "published": "2026-10-06T06:55:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.169803+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:55:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07848v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.074905+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "45036dc88cba7ee28206a9f31671dc9ce59034a1af274368752d4cc349ee0a82",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Real-Time Joint Audio-Video Generation by Parallel Adapter Composition",
+  "url": "https://arxiv.org/abs/2610.10343",
+  "summary": "arXiv:2610.10343v2 Announce Type: replace Abstract: Deploying a joint audio-video diffusion transformer for real-time, interactive generation normally requires two essential modifications: block-autoregressive attention, so frames can be emitted before the whole clip is finished, and few-step sampling, so each block is cheap. Conventionally, the streaming video literature obtains both capabilities from a chained pipeline. It first distills a bidirectional teacher into a causal student, then into a few-step one, or proceeds in reverse order. Each stage of such a chain fine-tunes the weights the previous one produced, so a later objective can undo an earlier capability. Following the idea of model merging, we show that on a packed audio-video backbone the two capabilities can be acquired in parallel. A causal adapter is trained against the frozen backbone, and an off-the-shelf few-step adapter provides the few-step capability. As the two edit different functional axes, we predict, and then verify, that their weight-update directions are near-orthogonal, without any explicit orthogonality constraint during training. Orthogonal updates should combine without interfering, so parallel composition is a direct sum. The two adapters are simply added at inference, with no joint training, yielding few-step, streaming audio-video whose image quality tracks the bidirectional teacher. Compared to the chained baselines, the composed model matches or beats them on most metrics, making parallel composition a practical approach. The resulting streaming system generates joint audio-video in real time, $\\approx$26 fps at $480\\times832$ without quantization, and sustains 30 s of continuous generation with stable image quality. Demo Page: https://pac-demo-2027.github.io/demo/",
+  "published": "2026-10-07T16:23:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.794022+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:22:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10343v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.858844+00:00"
+}

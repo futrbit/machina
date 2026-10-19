@@ -1,0 +1,18 @@
+{
+  "id": "6d8fba5983f57f01c6a113e35eb390d225652d56a15f9ff01264632065f89232",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "DisCo Algebra: Why Disintegration and Combination Are Not Inverses",
+  "url": "https://arxiv.org/abs/2610.15006",
+  "summary": "arXiv:2610.15006v2 Announce Type: replace-cross Abstract: We present DisCo algebra---a compositional framework for joint probability built from a symmetric cooperad (disintegration) and a non-unital partial symmetric operad (combination restricted to the image of disintegration) on the bare family $\\mathcal{P}_n=\\mathrm{Prob}([0,1]^n)$. No probability integral transform, no external summary functions, no enrichment of objects with conditional kernels. The disintegration side uses block-wise joint CDFs as intrinsic, measure-determined 1D summaries, yielding a lossy compression. The combination side reads the same summaries and reconstructs via regular conditional measures, yielding a lossless embedding on admissible inputs. We prove that combination followed by disintegration is the identity on admissible inputs, but disintegration followed by combination is not---it defines a renormalization operator $R_{\\mathcal{I}}=\\text{Combine}\\circ\\text{Disintegrate}$. The information loss of this operator is exactly the probability curvature $\\mathcal{K}_{\\mathcal{I}}(\\mu)$---the conditional KL divergence between the true conditional distribution and the conditionally independent product. This curvature measures the obstruction to lossless decomposition and reveals a hard limit on how much cross-block dependence can be captured by CDF-based scalar block summaries.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.297689+00:00"
+}

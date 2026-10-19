@@ -1,0 +1,22 @@
+{
+  "id": "f48b188028efd3db68da8b18a9895de4a312b1ee0bb9c3dc57dd1796e5d28a2a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Con-DSO: Learning Short-Horizon Consistency Priors for RGB-D Direct Sparse Odometry",
+  "url": "https://arxiv.org/abs/2605.27952",
+  "summary": "arXiv:2605.27952v2 Announce Type: replace Abstract: RGB-D direct visual odometry (VO) benefits from metric depth measurements but often degrades in the presence of dynamic objects, occlusions, illumination changes, and unreliable depth, which violate the photometric and geometric consistency assumptions of direct alignment. We propose Con-DSO, a consistency-aware RGB-D direct sparse odometry framework that addresses these challenges through a unified learned uncertainty model. A dual-branch consistency network is trained on adjacent RGB-D frame pairs using flow-guided photometric errors and projective depth-consistency errors to predict pixel-level photometric and geometric uncertainty. The predicted uncertainty is first converted into pairwise quality to guide support-pixel selection and is then fused across adjacent frame pairs to form a host-side quality prior for keyframe-based tracking. To account for the different roles of photometric and depth information in direct RGB-D optimization, the quality prior is incorporated through a decoupled photometric-geometric weighting scheme, with the geometric weight applied only to the translational component of pose estimation. Experiments on five public RGB-D benchmarks demonstrate consistent improvements over direct RGB-D odometry baselines, achieving more than 20\\% reduction in absolute trajectory error on ICL-NUIM and approximately 50\\% to 80\\% reductions on RGB-D Scenes V2, TUM/BONN, and OpenLORIS. These results demonstrate that learned consistency-aware uncertainty can substantially improve the robustness of RGB-D direct visual odometry in challenging environments.",
+  "published": "2026-05-27T04:46:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.540370+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:41:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.27952v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.223022+00:00"
+}

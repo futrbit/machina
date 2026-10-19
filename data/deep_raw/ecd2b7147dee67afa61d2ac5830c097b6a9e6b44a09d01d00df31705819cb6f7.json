@@ -1,0 +1,22 @@
+{
+  "id": "ecd2b7147dee67afa61d2ac5830c097b6a9e6b44a09d01d00df31705819cb6f7",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "GroundSight at GroundLM 2026 Shared Tasks: GoldenViewVQA",
+  "url": "https://arxiv.org/abs/2610.11402",
+  "summary": "arXiv:2610.11402v1 Announce Type: new Abstract: GoldenViewVQA requires models to jointly answer driving-scene questions and identify the camera view containing the supporting visual evidence, making precise evidence localization as important as answer correctness. We present \\textbf{CoVeR-VQA}, a training-free multi-stage verification and correction framework for grounded multi-view VQA. Starting from GPT-5.6 zero-shot predictions, CoVeR-VQA progressively applies view-specific verification with Gemini-3.6-Flash, prior-guided joint verification with Claude-Opus-5, and cross-split group-level verification that exploits semantically filtered question groups from shared multi-view scenes and validation-derived prior knowledge. On the official GoldenViewVQA test set, the four-stage CoVeR-VQA pipeline achieves 84.75\\% Joint Accuracy, improving the GPT-5.6 zero-shot baseline by 13.56 percentage points, while reaching 94.92\\% Answer Accuracy and 86.44\\% View Accuracy. The final submitted run achieves 88.14\\% Joint Accuracy after two additional evaluator-informed post-hoc corrections. Our analysis shows that supporting-view localization remains the primary source of residual errors, highlighting the importance of explicit evidence verification for reliable multi-view multimodal reasoning.",
+  "published": "2026-10-08T07:34:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.747051+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:34:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11402v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.393713+00:00"
+}

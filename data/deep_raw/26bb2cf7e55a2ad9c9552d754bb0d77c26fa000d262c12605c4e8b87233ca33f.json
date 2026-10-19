@@ -1,0 +1,22 @@
+{
+  "id": "26bb2cf7e55a2ad9c9552d754bb0d77c26fa000d262c12605c4e8b87233ca33f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Recovery Guarantees for Posterior Sampling of One-Bit Compressed Sensing",
+  "url": "https://arxiv.org/abs/2610.11834",
+  "summary": "arXiv:2610.11834v1 Announce Type: new Abstract: We study the sample complexity of noisy one-bit compressed sensing for signals drawn from a prior distribution. By characterizing the effective distributional complexity of the prior via its approximate covering number, we prove that posterior sampling achieves accurate recovery with high probability when the number of measurements scales with the logarithm of the approximate covering number, up to a one-bit separation gap factor. This upper bound is robust to learned prior mismatch. Specifically, we show that posterior sampling with an approximate prior remains reliable, provided that the learned prior distribution is sufficiently close to the true signal distribution in Wasserstein distance. In addition, we establish a sample complexity lower bound for any reliable method of noisy one-bit compressed sensing, showing that our upper bound is nearly matched in its main prior dependent term. To approximate the ideal posterior sampling process for real world scenarios, we instantiate posterior sampling through a plug-and-play algorithm with diffusion priors. Experiments on the FFHQ and ImageNet datasets demonstrate the effectiveness of our proposed approach.",
+  "published": "2026-10-08T12:27:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.091427+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:27:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11834v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.240217+00:00"
+}

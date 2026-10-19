@@ -1,0 +1,22 @@
+{
+  "id": "efedce06394c8e0615f4e2bba1f32d45d2e2accf164b2fd1f79eb99c017fce0e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SepsisLens: Structure-Preserving Sequence Modelling for Decomposable Early Sepsis Warning",
+  "url": "https://arxiv.org/abs/2610.08046",
+  "summary": "arXiv:2610.08046v1 Announce Type: new Abstract: Early sepsis warning from ICU records can be cast as a structure-preserving prediction problem. A model needs to detect deterioration from irregular measurements while keeping each alert connected to the physiological signals that support it. Many temporal models fuse clinical variables into a patient-level representation, supporting scalar risk prediction but weakening the structure needed for clinical decomposition. We present SepsisLens, which preserves variable-indexed temporal states until risk composition. Observation-aware representations encode each variable's dynamics and measurement history, while a shared temporal encoder models each trajectory without collapsing the variable axis. The StructuredRiskHead composes multi-horizon risk from explicit variable-level and organ-level components. We evaluate SepsisLens on three public ICU cohorts and one private-hospital cohort under a common pre-onset protocol. SepsisLens achieves strong discrimination on all four cohorts and lower alert burden at matched event recall on MIMIC-IV. Structural ablations support the design, while input-side masking shows that the ranked components reflect variables with greater influence on prediction.",
+  "published": "2026-10-06T09:45:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.071493+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:45:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08046v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.435688+00:00"
+}

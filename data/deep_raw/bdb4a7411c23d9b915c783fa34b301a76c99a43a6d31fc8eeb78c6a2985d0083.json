@@ -1,0 +1,21 @@
+{
+  "id": "bdb4a7411c23d9b915c783fa34b301a76c99a43a6d31fc8eeb78c6a2985d0083",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+  "url": "https://arxiv.org/abs/2609.30199",
+  "summary": "arXiv:2609.30199v2 Announce Type: replace Abstract: Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of evaluating scientific exploration into a concrete and tractable framework built on verifiable Alien Worlds: their rules are executable, so every answer can be checked exactly, and they conflict with familiar knowledge, so recall alone cannot solve the tasks. The benchmark contains two sandboxes, AlienCode (31 discovery targets, 70 tasks) and AlienLogic (24 discovery targets, 70 tasks). Each sandbox provides a flawed manual, task-specific environmental feedback, and a dedicated tool-call schema. Systems use these resources to explore the sandbox, then solve held-out tasks. We evaluate 10 AI systems and find that the strongest systems can acquire and apply unfamiliar rules, while performance varies substantially across trajectories and continued exploration can stall or reverse earlier gains. ExplorationBench represents a step towards AI systems that can acquire and apply genuinely new knowledge through exploration in unknown environments.",
+  "published": "2026-09-24T17:37:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.409365+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:21:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30199v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.830052+00:00"
+}

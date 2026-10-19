@@ -1,0 +1,22 @@
+{
+  "id": "93c345d2d498cb004b8a18f3ada4c5388505d846b1b98a7863348529068260d0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Velocity Scaling in Flow Matching",
+  "url": "https://arxiv.org/abs/2610.10823",
+  "summary": "arXiv:2610.10823v1 Announce Type: new Abstract: Scaling a learned flow-matching velocity field $v_\\theta$ by a gain $\\gamma(t)$ was recently shown to greatly improve generation quality. Prior work argued that velocity fields trained with mean-squared error (MSE) systematically underestimate velocity magnitude and that scaling corrects this error. We show that MSE training does not create a velocity-magnitude deficit. We find instead that velocity scaling reduces population time lag: sampled states at model time $t$ resemble training states from an earlier time. Velocity scaling and moving model time back are two ways to address this population time lag. Across architectures and model sizes, measuring population time lag and using it to select a gain greatly improves generation quality, reducing FID from 28.0 to 12.2 (estimated by linear interpolation between FID measurements at neighboring gains) on ImageNet-256 at NFE 25 without guidance.",
+  "published": "2026-10-07T19:25:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.736057+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:25:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10823v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.810668+00:00"
+}

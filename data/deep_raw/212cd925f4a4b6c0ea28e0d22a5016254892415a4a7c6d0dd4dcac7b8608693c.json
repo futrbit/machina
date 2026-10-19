@@ -1,0 +1,22 @@
+{
+  "id": "212cd925f4a4b6c0ea28e0d22a5016254892415a4a7c6d0dd4dcac7b8608693c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Revisiting Handcrafted Minutiae Detection: A Simple and Effective Open Source Baseline for Modern Fingerprint Workflows",
+  "url": "https://arxiv.org/abs/2610.11641",
+  "summary": "arXiv:2610.11641v1 Announce Type: new Abstract: Handcrafted minutiae detection algorithms remain fundamental to biometric science and forensic practice due to their full auditability, adherence to international standards, and operational independence from training datasets or GPU hardware. However, current open-source traditional baselines are severely outdated, relying almost exclusively on legacy C/C++ codebases that lack seamless integration with modern scientific software ecosystems. To bridge this gap, the present work introduces SBMEX (Skeleton-Based Minutiae EXtraction), a fast and deterministic minutiae detection method integrated into the open source \\texttt{pyfing} package. SBMEX achieves high computational throughput by employing a dual Look-Up Table architecture that replaces runtime neighborhood scanning during Crossing Number computation and skeleton tracking. Additionally, it incorporates a continuous quality scoring framework driven by tracking path length, dual ridge-valley skeleton fusion, and spatial density decay. Rigorous evaluation on NIST SD302 datasets demonstrates that SBMEX delivers feature extraction accuracy comparable to or outperforming traditional open-source baselines without fine-tuning, while achieving a drastic reduction in minutiae detection latency relative to classical Crossing Number Python implementations.",
+  "published": "2026-10-08T10:18:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.750049+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:18:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11641v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.142276+00:00"
+}

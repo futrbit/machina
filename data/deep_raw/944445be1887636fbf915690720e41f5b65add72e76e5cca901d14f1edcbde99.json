@@ -1,0 +1,21 @@
+{
+  "id": "944445be1887636fbf915690720e41f5b65add72e76e5cca901d14f1edcbde99",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Explanation Multiplicity in SHAP: Characterization and Assessment",
+  "url": "https://arxiv.org/abs/2601.12654",
+  "summary": "arXiv:2601.12654v3 Announce Type: replace-cross Abstract: SHAP explanations are widely used in high-stakes settings to justify decisions, yet they can differ substantially across repeated runs, even when the model, the input instance, and the prediction are held fixed. Prior work has documented disagreement between explanation methods; we show that substantial disagreement arises even within SHAP across reruns of the same estimator on the same trained model and instance. We call this phenomenon explanation multiplicity and develop an evaluation methodology for characterizing it under deployment-realistic computational budgets, combining a dual-seed protocol that compares model-induced and explainer-induced variability, a hierarchy of magnitude-based, rank-based, and set-based metrics, and randomized Dirichlet and Mallows null models that provide reference scales for observed disagreement. Across multiple datasets, models, and sampling strategies, we find that explanation multiplicity is pervasive and persists even for high-confidence predictions. The relative contribution of each source depends on the data regime and model: model-induced disagreement is generally greater on smaller datasets, while explainer-induced disagreement is greater on larger datasets. Commonly used L2 distance can understate this instability, while rank-based metrics reveal substantial changes in top-ranked features, including the leading feature. Improved sampling methods such as CTE do not eliminate rank-level multiplicity, and K-Means reduces run-to-run variation while its compressed-background explanations can diverge from the empirical-distribution reference. Practitioners should treat single-run SHAP outputs as realizations of a distribution rather than as authoritative artifacts.",
+  "published": "2026-01-19T02:01:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.416361+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:48:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2601.12654v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.829656+00:00"
+}

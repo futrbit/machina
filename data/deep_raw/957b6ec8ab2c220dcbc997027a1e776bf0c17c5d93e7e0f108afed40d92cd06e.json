@@ -1,0 +1,21 @@
+{
+  "id": "957b6ec8ab2c220dcbc997027a1e776bf0c17c5d93e7e0f108afed40d92cd06e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "TeleHairing: A Teleoperation Baseline for Robotic Haircutting",
+  "url": "https://arxiv.org/abs/2610.07096",
+  "summary": "arXiv:2610.07096v1 Announce Type: new Abstract: Robotic haircutting requires controlled tool motion near the head while simultaneously accounting for communication, visual feedback, tool actuation, and interruption handling. Existing studies still lack an operator-in-the-loop reference for analyzing these coupled behaviors before human trials or stronger autonomy. This paper presents TeleHairing, a closed-loop teleoperation architecture for mannequin-based robotic haircutting evaluation under local, relay, and remote deployment conditions. Logged timing shows that the main remote latency increase occurs before the robot-side control endpoint: overall timing reached 190.5~ms in remote mode, while robot-side command queue, control processing, and control-to-robot timing remained similar across modes. Trajectory analysis shows that the larger remote command-following error was dominated by the terminal withdrawal segment rather than accumulated uniformly over the path; excluding this segment reduced remote root-mean-square error (RMSE) from 45.1 mm to 9.6 mm. Detection-loss trials further show that rebase events resumed motion without a large target jump under the tested condition. These results clarify how deployment, execution, and interruption affect the robotic haircutting teleoperation loop, providing a quantitative reference for future autonomy, safety, and user-facing studies.",
+  "published": "2026-10-05T13:38:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.452028+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T13:38:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07096v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.853641+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "8a5a8b57851405e0399825c39cc78cc46af3bc2cea524a61c56b5dda1d8ba926",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Adaptive Latent Capacity for World Models",
+  "url": "https://arxiv.org/abs/2609.32921",
+  "summary": "arXiv:2609.32921v2 Announce Type: replace Abstract: We introduce Adaptive LeWorldModel (ALeWM), a world model based on a joint-embedding predictive architecture (JEPA) that learns to concentrate predictive information in compact prefixes of a wide latent representation. To encourage this ordering, ALeWM learns a sequence-conditioned distribution over prefix lengths and trains the predictor to estimate the full next embedding from a sampled input prefix. As standard anti-collapse objectives encourage variation across latent coordinates and do not organize them by predictive importance, we also introduce MixSIGReg. MixSIGReg regularizes the masked embeddings against a prior-weighted mixture with Gaussian active prefixes and zeros in the remaining coordinates. As a result, the ALeWM objective encourages early coordinates to retain information useful for prediction and recursive planning. Our analysis shows that the mixture distribution used by MixSIGReg assigns higher variance to earlier coordinate blocks and lower variance to later ones. In addition, we show that, under specified assumptions, prediction error is minimized by placing the information most useful for prediction in earlier blocks. Empirically, we study the behavior of ALeWM in a controlled dynamical system with known state variables and in goal-conditioned visual control. We show that ALeWM consistently achieves higher mean success rates than tuned fixed-width LeWM, with lower planning capacity on average.",
+  "published": "2026-09-26T20:16:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.121462+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:24:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.32921v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.656761+00:00"
+}

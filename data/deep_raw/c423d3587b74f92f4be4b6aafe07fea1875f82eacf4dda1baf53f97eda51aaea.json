@@ -1,0 +1,21 @@
+{
+  "id": "c423d3587b74f92f4be4b6aafe07fea1875f82eacf4dda1baf53f97eda51aaea",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Structure Tax: How Structured Output affects LLMs Performance",
+  "url": "https://arxiv.org/abs/2610.12056",
+  "summary": "arXiv:2610.12056v1 Announce Type: new Abstract: Deploying large language models in production often requires constraining outputs to structured formats such as JSON or XML, and prior work treats the resulting accuracy loss as an inherent `structure tax'. We re-examine this claim by evaluating a battery of models, datasets and schemas, measuring task accuracy, confidence calibration, and hidden-state geometry. The tax turns out to depend on schema design rather than on structure per se: reasoning-first field ordering matches or exceeds free-form accuracy, while answer-first ordering causes steep drops, particularly in smaller models. Format sensitivity scales inversely with a task's own structural constraints, and schemas that preserve reasoning order also improve calibration with CKA showing greater separability between correct and incorrect representations in middle transformer layers. Our findings indicate that properly designed structured formats can match or exceed free-form performance, reframing the critical question from `whether to structure' to `how to structure' for optimal reasoning preservation.",
+  "published": "2026-10-08T14:39:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.374386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:39:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12056v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.908006+00:00"
+}

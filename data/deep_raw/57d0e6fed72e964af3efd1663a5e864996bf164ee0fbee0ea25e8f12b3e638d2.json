@@ -1,0 +1,21 @@
+{
+  "id": "57d0e6fed72e964af3efd1663a5e864996bf164ee0fbee0ea25e8f12b3e638d2",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Has LLM Screening Performance Stalled in Software Engineering Systematic Reviews?",
+  "url": "https://arxiv.org/abs/2610.10633",
+  "summary": "arXiv:2610.10633v1 Announce Type: cross Abstract: Screening in systematic reviews (SRs) is manual and time-consuming. Prior work has explored large language models (LLMs) for automating this step, but LLMs are evolving rapidly, so earlier performance claims may no longer accurately reflect their screening performance. We used an existing software engineering SR screening benchmark (SESR-Eval) as our data. We also power-sampled a new, smaller dataset (SESR-Eval-Mini) that allows evaluation at lower costs. Using this data, we evaluated eight new LLMs for screening performance. Additionally, we tested different prompts, analyzed LLM agreement in screening decisions and criteria, and examined the effect of refining the inclusion and exclusion criteria on screening performance. The eight new LLMs performed marginally better than the seven old ones: avg. MCC across secondary studies rose from 0.347 to 0.365. Differences between secondary studies are still bigger than between LLMs. Computing the overall screening decision from criterion-level decisions degraded screening performance only slightly. LLMs generally agree with each other in their corresponding screening decisions (mean Gwet's AC1 = 0.830), though certain inclusion and exclusion criteria showed larger disagreement than others. Refining the inclusion and exclusion criteria slightly improved recall and made decisions easier for some LLMs, but overall impacts of criteria refinement were modest. LLMs are not yet ready to replace humans in paper screening and the advantages new, more costly models bring, appear to be very limited. Agent-based approaches, prompt engineering, and further criteria refinement are three potential future research avenues.",
+  "published": "2026-10-07T13:25:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.381382+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T13:25:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10633v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.666357+00:00"
+}

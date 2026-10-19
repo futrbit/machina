@@ -1,0 +1,22 @@
+{
+  "id": "64e8e850ee115b52e1609e91bb556c467d2100018e7a18a112a3ce34974ed49d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Evi-VN: Hard Region Guided Virtual Node Evidence Injection for GNN-Based Fraud Detection",
+  "url": "https://arxiv.org/abs/2610.11665",
+  "summary": "arXiv:2610.11665v1 Announce Type: new Abstract: Online platforms contain growing numbers of bots, deceptive reviewers, and scam accounts that imitate legitimate users. Such camouflage blurs graph neighborhoods and behavioral attributes, making it difficult for graph neural networks (GNNs) to distinguish both well-disguised fraudsters and legitimate users. Across diverse GNNs, we observe overlapping errors on a shared hard region, suggesting the presence of latent fraud evidence that graph topologies and standard features fail to capture. Fraud-specific GNNs can mitigate particular graph pathologies, yet they still make limited use of heterogeneous evidence such as structured records, text, images, and audio; uniform multimodal fusion may also disturb nodes already handled reliably by the graph. We propose Evi-VN to learn and correct these shared blind spots rather than build another fraud detector. To our knowledge, Evi-VN is the first graph fraud detection framework to use feature isolated evidence chains to correct hard regions shared across GNNs. Its evidence chains connect behavior, content, and context across structured, textual, visual, and acoustic sources, helping expose camouflage that graph neighborhoods may miss. Crucially, Evi-VN selectively applies this evidence only to likely hard samples via virtual class nodes, preserving both the reliable predictions and the input design of existing GNNs. Shared hard regions also let Evi-VN enhance generic, fraud-specific, and unseen GNNs even with imperfect evidence models. Experiments across bot, fake-review, refund-evidence, and telecom-fraud tasks validate these advantages.",
+  "published": "2026-10-08T10:39:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.088429+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:39:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11665v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.865237+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3841de44ac8fa32164f87187b23e439385a89c5d6d95c5dcecde539ae145c876",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Learning from Hallucinating Critical Points for Navigation in Dynamic Environments",
+  "url": "https://arxiv.org/abs/2509.26513",
+  "summary": "arXiv:2509.26513v2 Announce Type: replace Abstract: Generating large and diverse obstacle datasets to learn motion planning in environments with dynamic obstacles is challenging due to the vast space of possible obstacle trajectories. Inspired by hallucination-based data synthesis approaches, we propose Learning from Hallucinating Critical Points (LfH-CP), a self-supervised framework for creating rich dynamic obstacle datasets based on existing optimal motion plans without requiring expensive expert demonstrations or trial-and-error exploration. LfH-CP factorizes hallucination into two stages: first identifying when and where obstacles must appear in order to result in a near-optimal motion plan, i.e., the critical points, and then procedurally generating diverse trajectories that pass through these points while avoiding collisions. This factorization avoids generative failures such as mode collapse and ensures coverage of diverse dynamic behaviors. We further introduce a diversity metric to quantify dataset richness and show that LfH-CP produces substantially more varied training data than existing baseline. Experiments in simulation demonstrate that planners trained on a LfH-CP generated dataset achieves higher success rates compared to a prior hallucination method.",
+  "published": "2025-09-30T16:52:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.478012+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:44:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2509.26513v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.660963+00:00"
+}

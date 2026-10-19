@@ -1,0 +1,18 @@
+{
+  "id": "71e74ee04dc9ee6d2b182a543fe1dcf061ced40659ae682da342a2f3cbc56ba6",
+  "source_id": "openai",
+  "source_name": "OpenAI",
+  "source_type": "company",
+  "source_url": "https://openai.com/",
+  "sectors": [
+    "ai",
+    "agents",
+    "models"
+  ],
+  "title": "Reptile: A scalable meta-learning algorithm",
+  "url": "https://openai.com/index/reptile",
+  "summary": "We’ve developed a simple meta-learning algorithm called Reptile which works by repeatedly sampling a task, performing stochastic gradient descent on it, and updating the initial parameters towards the final parameters learned on that task. Reptile is the application of the Shortest Descent algorithm to the meta-learning setting, and is mathematically similar to first-order MAML (which is a version of the well-known MAML algorithm) that only needs black-box access to an optimizer such as SGD or Adam, with similar computational efficiency and performance.",
+  "published": "2018-03-07T08:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-17T15:06:24.246186+00:00"
+}

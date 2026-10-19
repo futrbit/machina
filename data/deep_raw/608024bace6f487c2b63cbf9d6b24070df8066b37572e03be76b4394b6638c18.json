@@ -1,0 +1,22 @@
+{
+  "id": "608024bace6f487c2b63cbf9d6b24070df8066b37572e03be76b4394b6638c18",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Emergent Object Binding Has a Finite Spatial Horizon",
+  "url": "https://arxiv.org/abs/2610.00006",
+  "summary": "arXiv:2610.00006v1 Announce Type: cross Abstract: Pretrained Vision Transformers encode whether two image patches belong to the same object. This IsSameObject signal is decodable from frozen patch embeddings at high accuracy, which suggests that object binding emerges from self-supervised pretraining alone. We show that this single accuracy number hides the structure of the signal. Binding is local: the probability that two patches of the same object are decoded as bound falls off monotonically with the distance between them and levels off at a nonzero floor, a falloff well described by an exponential with a finite length scale. This decay holds across object sizes, across three families of probe, on both ADE20K and COCO, and across DINO and CLIP backbones, which indicates that it is a property of the representation rather than of the decoder. Reading binding as local spatial coherence with a finite range accounts for a set of behaviors that the aggregate score leaves unexplained: binding weakens on large objects, separates distinct objects of the same class less reliably than objects of different classes, and groups object parts with their wholes. It is, by contrast, unaffected by occlusion once object size is controlled. We map each behavior with confounds controlled. As a preliminary observation, the horizon and its floor are organized at different depths in DINOv2 and DINOv3, which we report as suggestive given the small number of layers probed and the confound between the two models.",
+  "published": "2026-07-09T02:41:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.804489+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-07-09T02:41:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00006v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.813268+00:00"
+}

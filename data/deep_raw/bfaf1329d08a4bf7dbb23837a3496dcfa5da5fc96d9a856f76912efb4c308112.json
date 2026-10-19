@@ -1,0 +1,22 @@
+{
+  "id": "bfaf1329d08a4bf7dbb23837a3496dcfa5da5fc96d9a856f76912efb4c308112",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "EgoPhys: Estimating Peak Contact Force and Mechanical Work from Egocentric Manipulation Video",
+  "url": "https://arxiv.org/abs/2610.11347",
+  "summary": "arXiv:2610.11347v1 Announce Type: new Abstract: Physically grounded manipulation of articulated objects requires understanding both the maximum forces encountered during contact and the work performed as their parts move. Peak contact force and mechanical work quantify these complementary aspects, but estimating them from egocentric video is challenging because physical interaction cues are local and indirect. Moreover, peak force is associated with brief contact events, whereas mechanical work depends on force-motion coupling throughout the contact duration. To address these challenges, we propose EgoPhys, an RGB-only framework comprising Contact-Aware Spatial Aggregation (CASA) and Target-Specific Multi-Expert Temporal Routing (TMTR). CASA integrates appearance and geometry features to emphasize interaction-relevant cues, while TMTR models semantic, event, and motion cues with specialized temporal experts and routes them separately for force and work prediction. On the test split from Hoi! dataset, EgoPhys substantially improves predictions of peak force and mechanical work, achieving MAEs of \\(5.205 \\pm 0.584\\) $N$ and $0.894 \\pm 0.081$ $J$, respectively.",
+  "published": "2026-10-08T06:41:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.745053+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:41:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11347v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.857036+00:00"
+}

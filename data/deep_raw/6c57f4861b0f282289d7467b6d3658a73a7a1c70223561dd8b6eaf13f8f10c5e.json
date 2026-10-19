@@ -1,0 +1,22 @@
+{
+  "id": "6c57f4861b0f282289d7467b6d3658a73a7a1c70223561dd8b6eaf13f8f10c5e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Adversarial Training for Deep Hedging in Nonstationary Markets",
+  "url": "https://arxiv.org/abs/2610.07162",
+  "summary": "arXiv:2610.07162v1 Announce Type: new Abstract: Deep hedging learns trading policies from historical or simulated market trajectories, yet under nonstationarity these training paths may not represent future market conditions. We propose WRAP (Wasserstein-Reweighting Adversarial Perturbation), a drift-aware adversarial training framework derived from a two-budget distributionally robust optimization (DRO) formulation. The formulation is anchored to a weighted empirical reference distribution whose fixed baseline weights are chosen to balance sampling uncertainty against temporal drift. Around this reference distribution, the ambiguity set addresses two complementary forms of distributional misspecification by allowing an adversary to reweight the observed trajectories subject to a $\\phi$-divergence constraint and perturb their paths subject to an optimal-transport (OT) constraint. We derive a joint first-order expansion in which the leading-order increase over the nominal expected loss decomposes into a reweighting contribution determined by the dispersion of hedging losses across trajectories and a transport contribution determined by the sensitivity of the loss to path perturbations. This expansion yields an explicit finite-dimensional adversarial attack that replaces the distributional inner supremum with a tractable first-order approximation. Across stationary and nonstationary Heston dynamics and a generalized affine diffusion (GAD), the experiments show complementary benefits from reweighting and transport, with joint adversarial training providing the largest gains under nonstationarity.",
+  "published": "2026-10-05T18:00:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.048506+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:00:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07162v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.997158+00:00"
+}

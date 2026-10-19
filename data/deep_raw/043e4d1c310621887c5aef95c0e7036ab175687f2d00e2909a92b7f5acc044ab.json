@@ -1,0 +1,21 @@
+{
+  "id": "043e4d1c310621887c5aef95c0e7036ab175687f2d00e2909a92b7f5acc044ab",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SAFETY SENTRY: Context-Aware Human Intervention via EXECUTE-ASK-REFUSE Routing",
+  "url": "https://arxiv.org/abs/2607.13594",
+  "summary": "arXiv:2607.13594v2 Announce Type: replace Abstract: LLM agents act on real-world environments through tool calls, and a single misjudged action can cause irreversible harm. The standard safeguard is a guard model that labels each proposed action as safe or unsafe, but this binary view conflates two distinct decisions: whether the action is harmful in itself, and whether it is appropriate given the user's context. It also operates at the granularity of action categories rather than individual instances, producing routine interruptions that erode autonomy and train users to wave through the most consequential alerts. We reframe the problem as a per-instance three-way routing decision over {EXECUTE, ASK, REFUSE} and instantiate it with Safety Sentry, a lightweight guard model whose inference reduces to a single decoding call. A single decoding-time threshold lets one fixed checkpoint be re-positioned across deployments of differing risk tolerance without retraining. Safety Sentry outperforms a broad set of open-weight and frontier closed-source baselines on overall accuracy and safety-related recall, while controlling both directional error rates simultaneously.Code and data are available at https://github.com/safesentry/SAFETY-SENTRY",
+  "published": "2026-07-15T08:38:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.407366+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:32:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.13594v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.319166+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "802661afe82d24548d3f884fa3bba8b82f126334633a65bcd48b9962a266b0c0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Streaming-Aware Diffusion for Real-Time Video Super-Resolution via Cross-Step Attention",
+  "url": "https://arxiv.org/abs/2610.11746",
+  "summary": "arXiv:2610.11746v1 Announce Type: new Abstract: Real-time video super-resolution requires high spatio-temporal fidelity under strict latency constraints, challenging diffusion models due to their iterative sampling cost and limited temporal coordination. We propose a streaming-aware framework that adapts pretrained single-image latent diffusion models for efficient video super-resolution (VSR) by exploiting the sequential structure of video streams. Our Cross-Step Attention mechanism reuses intermediate denoising features across adjacent frames and diffusion steps, enabling temporal information exchange without explicit temporal modeling. We further introduce Trajectory-Coupled Diffusion Scheduling, which aligns adjacent diffusion states and provides cleaner intermediate representations for cross-step conditioning, improving temporal coherence. These components are integrated into a streaming inference pipeline that incrementally propagates latent states across frames, reducing the effective computational complexity from $O(N \\cdot S)$ to $O(N + S)$ for $N$ frames and $S$ diffusion steps. Experiments on REDS4 and YouHQ40-Test demonstrate improved perceptual quality and temporal realism while maintaining frame-wise stability. Our method achieves over 40 FPS at $512 \\times 512$ resolution after cold start, enabling real-time VSR without explicit temporal modeling.",
+  "published": "2026-10-08T11:35:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.751049+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:35:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11746v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.442889+00:00"
+}

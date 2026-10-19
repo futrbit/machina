@@ -1,0 +1,21 @@
+{
+  "id": "5ccefa7c27c19fd0b640ee5ef71e931f179588c01293fd11335bca9901ba1547",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Towards Path-Creative Navigation: Robot Navigation through Embodied Interaction",
+  "url": "https://arxiv.org/abs/2610.11072",
+  "summary": "arXiv:2610.11072v1 Announce Type: new Abstract: Autonomous navigation in cluttered and constrained environments typically assumes a fixed environment and searches only for paths within existing free space. However, a route can be blocked by an articulated structure, a movable object, or a pedestrian, and reaching the goal may therefore require appropriate embodied interaction with the environment. This paper formulates Path-Creative Navigation (PCN), a navigation paradigm in which the robot recovers free space by coordinating locomotion and embodied interaction, and addresses one class of PCN tasks with a mapless framework. The vision-LiDAR-odometry framework integrates local observations, obstacle geometry, and robot-state estimates through a unified navigation system, providing stable semantic and geometric information for navigation and interaction. The traversability-aware decision method utilizes visual and LiDAR distance information to determine whether a blockage is actionable and whether it can be safely bypassed, enabling the robot to interact only when necessary while supporting articulated structure pushing, movable object pushing, obstacle avoidance, and pedestrian requests. We design simulation scenarios and evaluate different methods in both simulation and two real-world tasks that cannot be completed by conventional navigation alone without embodied interaction. These results demonstrate that our framework achieves higher task completion than the baseline methods by coordinating navigation and interaction in cluttered and constrained environments. Code is available at:{https://anonymous.4open.science/r/path-creative-navigation/}.",
+  "published": "2026-10-08T01:30:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.734547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T01:30:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11072v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.752305+00:00"
+}

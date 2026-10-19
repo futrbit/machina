@@ -1,0 +1,22 @@
+{
+  "id": "c4c350dec530f7ebd741efdb645d1b530f3f044277ff33ffc3e513501b5b1b9c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Multigroup Fairness and Omniprediction: Separations and Equivalences",
+  "url": "https://arxiv.org/abs/2610.07374",
+  "summary": "arXiv:2610.07374v1 Announce Type: new Abstract: Omniprediction is a learning guarantee which requires a single predictor to be competitive relative to the best hypothesis from a benchmark class for any loss chosen from a family of loss functions. Loss Outcome Indistinguishability (loss OI for short) is a stronger notion that implies omniprediction. It requires the predicted distribution on labels to be indistinguishable from the true distribution to tests that depend on the loss functions and the benchmark class. Multiaccuracy and multicalibration are multigroup fairness notions that generalize classical notions of calibration and accuracy in expectation. Most known learning algorithms for omniprediction (both for the standard notion and for strengthenings like loss OI) rely on some version of these multigroup fairness notions, or on an intermediate notion called calibrated multiaccuracy. We ask if this is necessary: Does omniprediction require some form of multigroup fairness? We show that the answer is no for (plain) omniprediction, and yes for loss OI. First, a sequence of works shows that multicalibration or calibrated multiaccuracy imply omniprediction. We rule out even a weak converse, by showing that omniprediction for proper losses does not imply even accuracy in expectation, a much weaker notion than any of calibration, multiaccuracy, or multicalibration. Second, prior work showed how to achieve loss OI from a combination of calibration and multiaccuracy. We show a converse: loss OI is equivalent to a form of calibrated multiaccuracy.",
+  "published": "2026-10-05T20:45:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.056502+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:45:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07374v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.919000+00:00"
+}

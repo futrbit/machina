@@ -1,0 +1,22 @@
+{
+  "id": "0035b7eeba8f708174a6f07fc75fe482c8d0e61e3a7bf7326a5de515aeb0731f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "StoCFL: A Stochastically Clustered Federated Learning Framework for Non-IID Data with Dynamic Client Participation",
+  "url": "https://arxiv.org/abs/2303.00897",
+  "summary": "arXiv:2303.00897v2 Announce Type: replace Abstract: Federated learning is a distributed learning framework that takes full advantage of private data samples kept on edge devices. In real-world federated learning systems, these data samples are often decentralized and Non-Independently Identically Distributed (Non-IID), causing divergence and performance degradation in the federated learning process. As a new solution, clustered federated learning groups federated clients with similar data distributions to impair the Non-IID effects and train a better model for every cluster. However, existing CFL algorithms are ineffective because they lack an information-sharing mechanism across clusters resulting in low data efficiency and model performance. Meanwhile, their performance is highly subjected to ideal client clustering results which are practically unavailable. This paper proposes StoCFL, a novel clustered federated learning framework for generic Non-IID issues. In detail, StoCFL implements a flexible CFL framework that supports an arbitrary proportion of client participation and newly joined clients for a varying FL system, while maintaining a great improvement in model performance. The intensive experiments are conducted by using four basic Non-IID settings and a real-world dataset. The results show that StoCFL could obtain promising cluster results even when the number of clusters is unknown. Based on the client clustering results, models trained with StoCFL outperform baseline approaches in a variety of scenarios.",
+  "published": "2023-03-02T01:39:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.825476+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:30:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2303.00897v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.247209+00:00"
+}

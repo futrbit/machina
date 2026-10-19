@@ -1,0 +1,18 @@
+{
+  "id": "1a560a2b80088576aa7af5fb98b492de235c472535d97e96a931a03c4d46c941",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reinforcement Learning in MDPs with Information-Ordered Policies",
+  "url": "https://arxiv.org/abs/2508.03904",
+  "summary": "arXiv:2508.03904v2 Announce Type: replace-cross Abstract: Many operational Markov decision processes provide structured information where a trajectory generated under one policy may also reveal how other policies would have performed. We formalize this through an information order over a parameterized policy class, writing $\\pi_{\\theta'} \\preceq \\pi_\\theta$ when data collected under $\\pi_\\theta$ can be used to estimate the long-run average cost of $\\pi_{\\theta'}$. We develop an epoch-based reinforcement learning algorithm for infinite-horizon average-cost MDPs with continuous state and action spaces that exploits this order through counterfactual inference. For a $d$-dimensional policy class whose information order has width $w$, the algorithm achieves $\\widetilde O(H\\sqrt{wdT/\\alpha})$ regret relative to the optimal policy in the class, where $H$ is a bias span upper bound and $\\alpha$ denotes an \"information ratio\". Thus, the width captures the effective exploration complexity of the problem, interpolating between full counterfactual feedback and unstructured policy learning. We instantiate the framework in lost-sales inventory systems with positive lead times, dual-sourcing systems governed by dual-index policies, and queues with state-dependent service rates. These applications yield new regret guarantees without requiring global convexity of the average-cost function or specialized arrival-rate structure. Numerical experiments show that exploiting the information order substantially improves learning performance over existing general-purpose and problem-specific benchmarks.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.236727+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "c562f1919cb7cf75960c6399fb347c48eeaf0262acf4a4c78c37146f29f652ae",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Continuous Ground-Truth Construction and a Recovery Policy for Air--Water Robotic Tracking",
+  "url": "https://arxiv.org/abs/2610.11096",
+  "summary": "arXiv:2610.11096v1 Announce Type: cross Abstract: Visual tracking across the air-water interface is challenged by splashes, bubbles, refraction, reflections, and abrupt appearance changes that can temporarily invalidate observations. This setting poses two coupled difficulties: first, for evaluation, image-only annotation cannot reliably describe the target's physical location during visual blindness; second, for online tracking, corrupted observations can contaminate motion estimates and appearance templates. We address the first difficulty with a construction pipeline that synchronizes camera frames with motion-capture poses, projects known target geometry, corrects underwater projection with a medium-gated residual, and subjects the annotations to manual review. This yields an evaluation-only cross-medium test set of 22,346 frames. We further introduce a Cross-Medium Recovery Policy (CMRP) centered on confidence-triggered template selection. It supplies MixFormerV2 with the fixed initial template, a window-best pre-trigger template, and a trigger-frame Kalman-guided image crop, together with their associated weights, without retraining the visual backbone. In the accuracy evaluation, CMRP achieves 49.90 Macro Success AUC, 2.95 points above MixFormerV2 Official. On selected cross-medium transition and occlusion-recovery intervals, CMRP increases MixFormerV2 tracking coverage from 47.91\\% to 50.43\\% relative to Official updating, while mean loss-to-recovery latency over successfully recovered videos decreases from 55.3 to 49.3 frames.",
+  "published": "2026-10-08T02:11:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.387378+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:11:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11096v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.166261+00:00"
+}

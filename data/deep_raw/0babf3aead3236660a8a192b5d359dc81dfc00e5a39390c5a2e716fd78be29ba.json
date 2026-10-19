@@ -1,0 +1,21 @@
+{
+  "id": "0babf3aead3236660a8a192b5d359dc81dfc00e5a39390c5a2e716fd78be29ba",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Pareto-Optimal Entropy-Regularized Trajectory Optimization",
+  "url": "https://arxiv.org/abs/2610.08532",
+  "summary": "arXiv:2610.08532v1 Announce Type: new Abstract: Trajectory optimization (TO) under nonlinear dynamics, actuation limits and collision avoidance constraints is a fundamental problem in robotics, albeit especially challenging due to its highly non-convex nature. For this setting, Differential Dynamic Programming (DDP) is an efficient second-order shooting method, yet its local structure renders it vulnerable to suboptimal basins. Sampling-augmented variants mitigate this susceptibility through stochastic exploration, but often sample only around the few trajectories they retain for reoptimization, based solely on their cost which restricts exploration breadth. We introduce Pareto-Optimal Entropy-Regularized DDP (PER-DDP), an entropy-regularized population framework derived from the free-energy/relative-entropy inequality. Our method combines prior-guided sampling that shapes exploration around each retained trajectory, with expanded rollout evaluations that probe these sampling policies beyond the few retained candidates, and Pareto filtering for preserving task-constraint alternatives across iterations. This decouples sampling effort from the optimization population size and broadens exploration without sacrificing the second-order structure that makes DDP effective. Across multiple systems and hundreds of environments, PER-DDP achieves higher success rates than state-of-the-art sampling-augmented TO methods and finds reliable solutions in environments beyond the reach of all baselines.",
+  "published": "2026-10-06T15:25:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.469018+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:25:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08532v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.531038+00:00"
+}

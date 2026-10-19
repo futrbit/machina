@@ -1,0 +1,22 @@
+{
+  "id": "ef55ead0d71f3e822df879f87f45357bb4ab69e6ee3f5e8096d80bfc248b503f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
+  "url": "https://arxiv.org/abs/2610.02140",
+  "summary": "arXiv:2610.02140v1 Announce Type: new Abstract: Introducing new capabilities to frontier models has long been the goal of posttraining, which predominantly employs supervised finetuning (SFT) and reinforcement learning (RL) to this end. Conventional wisdom dictates that RL enables strong generalization on new tasks without losing existing capabilities, while SFT is prone to weak generalization and catastrophic forgetting. At the same time, SFT can learn from off-policy expert data, whereas RL must rely on a model's ability to find successful trajectories with repeated sampling. In our work, we seek to leverage the strength of on-policy learning while utilizing the privileged information contained in off-policy data. However, rather than modifying the learning objective to accommodate this data, we instead tailor the data distribution to better suit the learner. We introduce a Markov chain Monte Carlo (MCMC) sampling algorithm that progressively transforms off-policy traces to be more on-policy given a reference model for finetuning. Across tasks like scientific skill acquisition, mathematical reasoning, and open-ended expertise, our sampling algorithm enables SFT to rival prevailing posttraining techniques, often generalizing better and forgetting less than strong on-policy baselines. In addition, the resulting finetuned models exhibit strong distributional performance and are capable of learning beyond sharpening the base model distribution. At a higher level, our approach presents sampling as a model-native operator that shapes data for learnability, offering broader utility as a general-purpose primitive throughout the posttraining stack.",
+  "published": "2026-10-01T17:45:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.802491+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:45:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02140v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.428693+00:00"
+}

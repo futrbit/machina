@@ -1,0 +1,22 @@
+{
+  "id": "59f650a1638997185c3e1407817265f592da488158a2a6571bf37b5140342ec4",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "VesselSDF: Distance Field Priors for Vascular Network Reconstruction",
+  "url": "https://arxiv.org/abs/2506.16556",
+  "summary": "arXiv:2506.16556v2 Announce Type: replace-cross Abstract: Accurate segmentation of vascular networks from sparse CT scan slices remains a significant challenge in medical imaging, particularly due to the thin, branching nature of vessels and the inherent sparsity between imaging planes. Existing deep learning approaches, based on binary voxel classification, often struggle with structural continuity and geometric fidelity. To address this challenge, we present VesselSDF, a novel framework that leverages signed distance fields (SDFs) for robust vessel reconstruction. Our method reformulates vessel segmentation as a continuous SDF regression problem, where each point in the volume is represented by its signed distance to the nearest vessel surface. This continuous representation inherently captures the smooth, tubular geometry of blood vessels and their branching patterns. We obtain accurate vessel reconstructions while eliminating common SDF artifacts such as floating segments, thanks to our adaptive Gaussian regularizer which ensures smoothness in regions far from vessel surfaces while producing precise geometry near the surface boundaries. Our experimental results demonstrate that VesselSDF significantly outperforms existing methods and preserves vessel geometry and connectivity, enabling more reliable vascular analysis in clinical settings.",
+  "published": "2025-06-19T19:20:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.795021+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:17:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2506.16556v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.705334+00:00"
+}

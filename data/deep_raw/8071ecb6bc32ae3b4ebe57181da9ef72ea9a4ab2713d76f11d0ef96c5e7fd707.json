@@ -1,0 +1,22 @@
+{
+  "id": "8071ecb6bc32ae3b4ebe57181da9ef72ea9a4ab2713d76f11d0ef96c5e7fd707",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths",
+  "url": "https://arxiv.org/abs/2610.11228",
+  "summary": "arXiv:2610.11228v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) have demonstrated strong potential for sequential recommendation through their ability to reason over complex multimodal data. However, existing approaches either rely solely on the target user's own interaction history, neglecting collaborative signals from neighboring users, or incur substantial computational overhead through repeated MLLM inference over long interaction histories. To address these challenges, we propose MGRASRec, a multimodal graph retrieval-augmented framework for sequential recommendation. MGRASRec injects collaborative filtering signals conditioned on the candidate item directly into the MLLM prompt by retrieving structured paths from a user-item interaction graph, extended via multimodal similarity to increase coverage beyond exact co-interaction overlap. This retrieval also surfaces the history items most relevant to the candidate at no additional cost, removing the need for recurrent summarization and keeping inference to a single forward pass per candidate. All components are unified into an augmented prompt for parameter-efficient fine-tuning of an MLLM. Extensive evaluations across three publicly available datasets validate the effectiveness of MGRASRec, achieving the best performance on all metrics with particularly strong gains in ranking quality.",
+  "published": "2026-10-08T04:27:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.083434+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:27:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11228v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.448886+00:00"
+}

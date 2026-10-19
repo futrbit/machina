@@ -1,0 +1,22 @@
+{
+  "id": "d5eec059e3bcf60373716feab9c41a2d9a9492593f82878a9e2169717a23c9f4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Universality and Convergence of Generative Flows",
+  "url": "https://arxiv.org/abs/2610.05490",
+  "summary": "arXiv:2610.05490v2 Announce Type: replace Abstract: Generative flows sample from an unnormalized target by training a flow to be balanced, and the training loss is the signal a practitioner watches. We ask what that signal is worth: whether a small loss certifies an accurate sampler, whether the loss can be driven to zero, and how fast gradient descent does so. The loss decides the first. Losses that compare the two sides of the balance by their difference bound, in total variation, the error of the sampler the flow implies, with explicit constants that do not involve the policy; flow-matching losses that compare them through a ratio admit no such bound, already on a single cycle, whenever their generator is continuous at balance. On graphs, the backward policy decides the other two. Once it is frozen, balance becomes invariance under the backward chain, so that existence is free on finite graphs, and one constant --- the norm of that chain's Green operator, which plays the role of an inverse spectral gap --- fixes the order of the curvature of the loss around the balanced flow, from above and below, and sets a floor under the rate at which training converges near it. The mechanism is that gradient descent diffuses the flow along the backward policy. For the squared-logarithm generator of detailed and trajectory balance, training the balance loss on states converges globally on every finite path-connected graph, from every positive initialization. The constant can be infinite while backward trajectories are short on average, and exact flow matching can then fail. The bounds and rates are tested by exact computation on enumerable state spaces, and every theorem carries a certification status computed from a Lean~4 development.",
+  "published": "2026-10-04T19:58:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.132402+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:26:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05490v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.144863+00:00"
+}

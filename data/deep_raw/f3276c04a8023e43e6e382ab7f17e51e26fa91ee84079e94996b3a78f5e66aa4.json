@@ -1,0 +1,22 @@
+{
+  "id": "f3276c04a8023e43e6e382ab7f17e51e26fa91ee84079e94996b3a78f5e66aa4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Credal Machine Learning for Risk-Averse Decision Making",
+  "url": "https://arxiv.org/abs/2610.12115",
+  "summary": "arXiv:2610.12115v1 Announce Type: new Abstract: In many machine learning applications, it is necessary to guard against worst-case scenarios and predictions that could result in substantial losses. In principle, this can be achieved by training risk-averse predictive models that minimize loss functions such as conditional value-at-risk (CVaR), rather than relying on models that perform well on average. In practice, however, the effectiveness of this approach to risk aversion is undermined by the learner's uncertainty regarding the true loss distribution and, consequently, the true CVaR. To achieve reliable risk-aversion, we propose a method in which this (epistemic) uncertainty is represented in terms of credal sets, i.e., sets of probability distributions. More specifically, we develop an efficient yet reliable learner that produces predictions in the form of credal sets and combine it with a novel decision rule that maps each credal set to a single predictive distribution for CVaR minimization. Across classification, under distribution shift, and in reinforcement learning, our approach reliably avoids catastrophic decisions, while sacrificing little in expected performance.",
+  "published": "2026-10-08T15:11:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.094425+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:11:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12115v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.473665+00:00"
+}

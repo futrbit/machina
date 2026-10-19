@@ -1,0 +1,18 @@
+{
+  "id": "b1994f26e8cf9a8cddda3911ed18714695fcf6ac47fdf20c5a648238d2f522f4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Worst-Case Optimal $\\sqrt{\\epsilon}$-Rate Stability of KL Divergence under Perturbations of Gaussian Distributions",
+  "url": "https://arxiv.org/abs/2604.11026",
+  "summary": "arXiv:2604.11026v4 Announce Type: replace Abstract: We establish a stability bound for the Kullback-Leibler (KL) divergence when its Gaussian reference distribution is perturbed. Existing relaxed triangle inequalities of KL divergence between Gaussian distributions require all three distributions to be Gaussian, which limits their use in applications such as out-of-distribution detection with flow-based generative models. Let $\\mathcal{N}_1$ and $\\mathcal{N}_2$ be $d$-dimensional Gaussian distributions, and let $P$ be any $d$-dimensional distribution satisfying $\\mathbb{E}_P[\\|X\\|^2]<\\infty$ and $\\mathrm{KL}(P\\Vert \\mathcal{N}_1)<\\infty$. If $\\mathrm{KL}(\\mathcal{N}_1\\Vert\\mathcal{N}_2)\\leq\\epsilon$ for $0<\\epsilon<1/12$, we give an upper bound of $\\left|\\mathrm{KL}(P\\Vert\\mathcal{N}_1)-\\mathrm{KL}(P\\Vert\\mathcal{N}_2)\\right|$. Under suitable uniform boundedness conditions, the bound is $ \\frac{\\sqrt{6d\\epsilon}}{2}+K\\sqrt{\\epsilon}+o(\\sqrt{\\epsilon})$ as $\\epsilon\\rightarrow 0$ for fixed $d$, where $K$ depends on the parameters of $\\mathcal{N}_1$ and $\\mathcal{N}_2$, and on $\\mathbb{E}_P[\\|X\\|]$ and $\\mathbb{E}_P[\\|X\\|^2]$. Furthermore, we prove that the $\\sqrt{\\epsilon}$ dependence is worst-case optimal. The result extends stability guarantees restricted to Gaussian triples to comparisons involving an arbitrary distribution and two nearby Gaussian references. Experiments on synthetic distributions and latent representations from flow-based models support the predicted stability behavior.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.259713+00:00"
+}

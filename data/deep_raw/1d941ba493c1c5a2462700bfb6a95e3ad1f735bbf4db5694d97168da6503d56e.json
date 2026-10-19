@@ -1,0 +1,21 @@
+{
+  "id": "1d941ba493c1c5a2462700bfb6a95e3ad1f735bbf4db5694d97168da6503d56e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Bidirectional Incremental Generalized Hybrid A*",
+  "url": "https://arxiv.org/abs/2605.30647",
+  "summary": "arXiv:2605.30647v2 Announce Type: replace Abstract: We focus on the problem of efficient anytime kinodynamic planning for systems with complex dynamics in unstructured environments that make using precomputed motion primitives infeasible. Directly applying A* here is computationally infeasible due to the curse of dimensionality. Methods such as Hybrid A* (HA*) address this by pruning the search tree by discretizing the state space, but the coupling between pruning and discretization resolution can eliminate a vertex on the solution path. The Incremental Generalized Hybrid A* (IGHA*) breaks this coupling by organizing anytime search over a hierarchy of resolutions and by freezing vertices for later expansion rather than pruning. However, IGHA* can still freeze a vertex on the solution path, forcing the search to spend expansions elsewhere before reaching it. Our key insight is that bidirectional-IGHA* (Bi-IGHA*) not only gains the expected reduction in effective search depth from classical bidirectionality, but also mitigates this frozen-vertex barrier: when one search is blocked, the opposing search can reach it at a low resolution. We formalize this structural separation between Bi-IGHA* and IGHA* and empirically show a reduction in effective branching factor beyond the theoretical expectation from classic bidirectionality alone. Through open- loop experiments in R3, R4, and R6, we show that Bi- IGHA* substantially reduces expansions over IGHA*. Closed- loop experiments further demonstrate improved performance and feasibility in simulation and on a real-world robotic system. Link to Website: https://personalrobotics.github.io/IGHAStar/biighastar.html",
+  "published": "2026-05-28T23:04:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.483009+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:11:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.30647v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.995902+00:00"
+}

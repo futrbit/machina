@@ -1,0 +1,18 @@
+{
+  "id": "775350abc05528d6012967e1bec9b173550af7e4e0c26f84bf5052fa713d1459",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Measuring Differences between Conditional Distributions using Kernel Embeddings",
+  "url": "https://arxiv.org/abs/2605.02260",
+  "summary": "arXiv:2605.02260v2 Announce Type: replace-cross Abstract: Comparing conditional distributions is a fundamental challenge in statistics and machine learning, with applications across a wide range of domains. While proposed methods for measuring discrepancies using kernel embeddings of distributions in a reproducing kernel Hilbert space (RKHS) provide powerful non-parametric techniques, the existing literature remains fragmented and lacks a unified theoretical treatment. This paper addresses this gap by establishing a coherent framework for studying kernel-based methods to measure divergence between conditional distributions through what we refer to as conditional maximum mean discrepancy (CMMD). The CMMD consists of a family of metrics which we call levels, with three special cases each using a different type of RKHS embedding: CMMD$_0$ (conditional mean operators), CMMD$_1$ (conditional mean embeddings), and CMMD$_2$ (joint mean embeddings). We additionally introduce a general level $s$ CMMD, clarifying the required assumptions, and establishing mathematical connections between the levels through the lens of operator-based smoothing. In addition to reviewing previously proposed estimators, we introduce a novel doubly robust estimator for the CMMD that maintains consistency provided the product of errors of the underlying models reduces sufficiently fast. We provide numerical experiments demonstrating that the CMMD effectively captures complex conditional dependencies for statistical testing.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.238725+00:00"
+}

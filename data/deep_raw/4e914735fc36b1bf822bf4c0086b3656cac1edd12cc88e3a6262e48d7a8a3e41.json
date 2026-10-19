@@ -1,0 +1,22 @@
+{
+  "id": "4e914735fc36b1bf822bf4c0086b3656cac1edd12cc88e3a6262e48d7a8a3e41",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DiDE:Direct Injection with Color-Texture DEcoupling for 3D Stylization",
+  "url": "https://arxiv.org/abs/2610.02044",
+  "summary": "arXiv:2610.02044v2 Announce Type: replace Abstract: Recent advances in rectified flow-based image-to-3D generative models have enabled high-fidelity 3D asset generation. Building on this, a growing line of work has exploited these strong 3D priors for training-free stylization, transferring visual attributes from a reference image onto a generated 3D asset. However, existing methods enforce an all-or-nothing paradigm: color and texture are transferred jointly, with no mechanism to control them independently -- a limitation we formalize as Disentangled 3D Stylization(Disen3D). To address this, we propose DiDE, the first training-free framework for Disen3D. Key to our approach is the observation that the structured latent space of image-to-3D models is overcomplete with respect to texture: texture information occupies only a small subset of the style-significant channels, leaving a free subspace available for independent color encoding. DiDE exploits this via a channel partition mechanism that processes a content image, a texture reference, and a color reference through dedicated branches and composes both style signals interference-free at every self-attention layer, preserving content geometry throughout. Experiments on Disen3D-Bench, our newly collected multi-reference benchmark, show that DiDE consistently outperforms 2D and 3D stylization baselines in color fidelity, texture transfer, and content preservation.",
+  "published": "2026-10-01T16:55:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.549365+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:25:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02044v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.449488+00:00"
+}

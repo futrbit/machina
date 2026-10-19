@@ -1,0 +1,22 @@
+{
+  "id": "af9597f247d38aefdd6bebaef958dd3cf359d8c821730cb218f952919f0ebf5c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "From the Drosophila Visual Connectome to General-Purpose Computer Vision",
+  "url": "https://arxiv.org/abs/2610.08418",
+  "summary": "arXiv:2610.08418v1 Announce Type: new Abstract: Biological connectomes encode structured solutions to visual computation that may provide reusable inductive biases for artificial vision. We develop ConnectomeX around FlyVision, a trainable architecture that preserves parallel ON/OFF processing, recurrent computation and population-level graph interaction while scaling model capacity across tasks. FlyVision reached 99.34% accuracy on MNIST with 80,608 parameters and 78.03% on CIFAR-10 with 81,408 parameters. On ImageNet-1K, FlyVision Base and Large reached 60.79% and 66.25% top-1 accuracy with 1.8 and 3.7 million parameters, while a Large local-k7 model with a learned low-frequency branch reached 66.53%, compared with 69.25% for ResNet18 with 11.7 million parameters. On a 22-class skin-disease benchmark, FlyVision Large achieved 63.78% accuracy and 95.28% macro-AUROC with 2.99 million parameters. In four-class chest radiography, ImageNet-pretrained FlyVision Base and Large reached 92.60% and 92.76% accuracy with 1.33 and 2.97 million parameters, compared with 91.56% for ImageNet-pretrained ResNet18 with 11.18 million. BrainAGE extends FlyVision to volumetric T1-weighted MRI by applying a shared ImageNet-pretrained FlyVision Large encoder to 24 sagittal, coronal and axial slices per scan and combining slice-level age estimates by confidence-modulated Gaussian voting. On 433 held-out scans, three-axis fusion achieved a mean absolute error of 5.98 years and R^2 = 0.868. Across the 224x224 classification tasks, the best FlyVision configuration remained within three percentage points of ResNet18 on ImageNet-1K and skin-disease classification and exceeded it on chest radiography with substantially fewer parameters. These results show that a conserved connectome-informed computation can scale from compact recognition to large-scale natural and biomedical vision.",
+  "published": "2026-10-06T14:22:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.524379+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:22:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08418v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.555219+00:00"
+}

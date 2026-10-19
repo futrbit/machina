@@ -1,0 +1,22 @@
+{
+  "id": "496ab2c90a2d9411ef03c06e6f2316a70b977e8eab0c447d4976e9c4ad1a88e5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Towards Whole-Study Screening for Congenital Heart Disease in Fetal Ultrasound Using Multiple Instance Learning",
+  "url": "https://arxiv.org/abs/2609.31376",
+  "summary": "arXiv:2609.31376v1 Announce Type: cross Abstract: Congenital heart disease (CHD) is the most common birth defect, yet a large fraction of cases remain undetected on prenatal ultrasound, in part because current artificial-intelligence methods assume that the key diagnostic frames have already been isolated from a study, by a clinician or by a view classifier. We remove that assumption and address CHD screening directly at the level of the whole ultrasound study. We propose a two-stage framework that first learns transferable frame representations by self-supervised masked-autoencoder pre-training on unlabeled fetal ultrasound, then identifies cardiac frames with a disease-robust module and aggregates them with a transformer-based multiple instance learning (MIL) model that produces a case-level diagnosis from study-level labels alone. The model further returns its highest-scoring frames for clinician review, and a hierarchical head separates critical from non-critical CHD. On the internal test set of our multi-source development cohort (FUSE), the proposed cardiac-gated MIL model reaches an area under the curve (AUC) of 0.985 with a specificity of 0.990, outperforming the reproduced NATMED ensemble (AUC 0.861, specificity 0.600) and the FetalCLIP foundation model (AUC 0.867, specificity 0.710). On an independent external cohort, all models initially perform near chance, but label-free CORAL adaptation raises the proposed model from an AUC of 0.513 to 0.944, whereas whole-study and view-dependent baselines do not recover. These results indicate that whole-study MIL with disease-robust cardiac-frame identification is an accurate and deployable route to prenatal CHD screening.",
+  "published": "2026-09-25T15:14:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.231119+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T15:14:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31376v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.955785+00:00"
+}

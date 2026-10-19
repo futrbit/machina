@@ -1,0 +1,22 @@
+{
+  "id": "ce8fe2cf99aff600f16efef39a8250400a62a81f0fb02796ffde9283b7cce91c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Time-o1: Time-Series Forecasting Needs Transformed Label Alignment",
+  "url": "https://arxiv.org/abs/2505.17847",
+  "summary": "arXiv:2505.17847v3 Announce Type: replace Abstract: Training time-series forecasting models poses unique challenges in loss function design. Most existing approaches adopt temporal mean squared error, but this study reveals two critical limitations: (1) it ignores the presence of label autocorrelation, which biases it from the true label sequence likelihood; (2) it involves excessive number of tasks, which complicates optimization, especially for long-term forecasting. To address these issues, we introduce Time-o1, a transform-enhanced loss function for time-series forecasting. The central idea is to transform the label sequence into decorrelated components with discriminated significance. Models are then trained to align the most significant components, thereby effectively mitigating label autocorrelation and reducing task amount. Experiments demonstrate that Time-o1 achieves state-of-the-art performance and is compatible with various forecast models. Code is available at https://github.com/Master-PLC/Time-o1.",
+  "published": "2025-05-23T13:00:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.110468+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:21:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2505.17847v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.924804+00:00"
+}

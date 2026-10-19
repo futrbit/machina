@@ -1,0 +1,22 @@
+{
+  "id": "3c4fcb2153714de269ea4bd0a542ce6c0645082ee825fe27de11775fc1ecc27f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Conditional Kernel Stein Discrepancy",
+  "url": "https://arxiv.org/abs/2610.11863",
+  "summary": "arXiv:2610.11863v1 Announce Type: cross Abstract: Kernel Stein discrepancies (KSDs) provide a versatile tool for comparing distributions. One of their main applications is in quantifying the goodness-of-fit (GoF) between a data-generating distribution and a prescribed target distribution. In this work, we study the related problem of conditional GoF quantification: given only a (possibly non-normalized) conditional target model, without information on the distribution of its covariates, and samples from a joint distribution, the goal is to assess how well the conditional distribution of the samples matches the target. To tackle this setting, we present a framework that allows lifting unconditional KSDs to the conditional setting through an operator-valued kernel on the covariate space, going beyond the known Euclidean case. We establish that our suggested statistic vanishes if and only if the conditional model and the true conditional distribution agree for almost all covariates and deploy it to test conditional GoF on smooth manifolds and on discrete spaces. Our experiments on level, power, and runtime demonstrate the viability of testing on these domains using the proposed statistic.",
+  "published": "2026-10-08T12:41:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.112416+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:41:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11863v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.725924+00:00"
+}

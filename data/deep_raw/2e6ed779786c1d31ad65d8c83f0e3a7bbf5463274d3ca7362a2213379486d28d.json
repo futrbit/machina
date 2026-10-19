@@ -1,0 +1,22 @@
+{
+  "id": "2e6ed779786c1d31ad65d8c83f0e3a7bbf5463274d3ca7362a2213379486d28d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Tight Transition Time Bounds for Separable Logistic Regression at the Edge of Stability",
+  "url": "https://arxiv.org/abs/2610.01459",
+  "summary": "arXiv:2610.01459v1 Announce Type: new Abstract: We study logistic regression on linearly separable data under gradient descent with a large constant stepsize $\\eta$. Such dynamics may exhibit a characteristic Edge of Stability phenomenon, in which the loss initially oscillates before transitioning to a stable phase of monotone decrease. Existing work provides a tight $\\Theta(1)$ bound in dimension $d=2$ as $\\eta \\to \\infty$ and conjectures a bound independent of $\\eta$ in arbitrary dimensions $d\\geq 2$. In this paper, we disprove this conjecture by showing that, for every fixed sample size $n\\geq 2$ and sufficiently small margin $\\gamma$, the worst-case transition time is $$\\Theta\\!\\left((\\log\\eta)^{\\min\\{n-2,d-2\\}}\\right)$$ uniformly over $d\\geq2$. The key challenge in establishing a tight bound is that the sample contributing most strongly to the gradient can change repeatedly across iterations. To address this issue, we control such changes by induction on dimension and sample size, and construct matching hard instances.",
+  "published": "2026-10-01T10:54:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.791497+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T10:54:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01459v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.375135+00:00"
+}

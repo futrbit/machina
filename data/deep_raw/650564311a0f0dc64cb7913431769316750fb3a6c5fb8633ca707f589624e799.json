@@ -1,0 +1,22 @@
+{
+  "id": "650564311a0f0dc64cb7913431769316750fb3a6c5fb8633ca707f589624e799",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Neural Fields Encode Adaptation Geometry",
+  "url": "https://arxiv.org/abs/2610.07253",
+  "summary": "arXiv:2610.07253v1 Announce Type: new Abstract: Neural fields are usually evaluated by how well they reconstruct an observation. We show that this misses two useful properties of a fitted network: how easily it can adapt to new observations, and what its weights retain from earlier ones. We study these properties as adaptation geometry. For images, we meta-learn class-specific initializations, adapt each one to a new image, and measure how much the network must change to fit it. A simple local linear model closely predicts this adaptation cost, while replacing one network's tangent kernel with another's substantially worsens the prediction. Adaptation thus depends on the local geometry of the fitted network, not only on its current reconstruction. For physical fields, we repeatedly fit the same network to observations from a sequence. Its weights then retain information about that history. When two wave histories end at exactly the same observation, the final weights recover the sign of the wave velocity with 68.6% accuracy, whereas the current observation alone contains no such information and gives 50%. These two phenomena are quantitatively linked: tangent-kernel eigenvalues predict both which changes are easy to learn and how quickly they are overwritten by later fitting. Together, these results show that neural fields contain useful information beyond what they currently reconstruct: in how they can change and in how they got there.",
+  "published": "2026-10-05T18:52:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.052503+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:52:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07253v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.868235+00:00"
+}

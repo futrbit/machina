@@ -1,0 +1,22 @@
+{
+  "id": "38e08d5a818557c72f85f3aa02ec4527cea23a9efe9e7c9d9ba84b6f8e49e845",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "AI4Fire: Evaluating Large Language Models on Wildfire Tasks",
+  "url": "https://arxiv.org/abs/2610.10946",
+  "summary": "arXiv:2610.10946v1 Announce Type: cross Abstract: Large language models (LLMs) are entering wildfire management, where overstated evaluations can cost property and lives. How do they perform on wildfire tasks, with and without grounding? Bare means a model receives the task input alone. Grounded means it also receives one task-specific addition: for smoke detection, a smoke-free reference frame from the same camera. AI4Fire runs six core models bare and grounded on five wildfire tasks, zero-shot; a sweep adds 29 more. Our literature search on fire tasks found 138 works; none combines this roster, task coverage, and paired bare and grounded runs. We report three findings. (1) Grounding helped most where the addition carried the answer: a read-only SQL tool lifted every core model's database accuracy from at most 16 to at least 88 percent. (2) Simple rules were hard to beat: no core model outperformed repeating today's staffing count, and two open-weight models mostly copied the median of similar earlier fire-days, a worse forecast. (3) Public releases carry hazards: a fire-danger column separates the holdout perfectly, and 67 aerial fire frames carry smoldering or fire-free labels read from a clipped thermal maximum. We release prompts, responses, scores, code, and the survey record.",
+  "published": "2026-10-07T21:52:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.103419+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T21:52:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10946v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.673955+00:00"
+}

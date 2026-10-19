@@ -1,0 +1,21 @@
+{
+  "id": "ab7850c8c55c0d7fb938feaca7f409117bcdcb7ae11dbd86d9f9d0270edc981c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "How Should a Prompt Optimizer Spend a Tight Budget? BudgetAPO with Noise-Adaptive Evaluation",
+  "url": "https://arxiv.org/abs/2610.05671",
+  "summary": "arXiv:2610.05671v2 Announce Type: replace Abstract: Automatic prompt optimization (APO) has been widely employed to adapt large language models without updating their weights, yielding promising results. However, existing methods such as GEPA and OPRO assume hundreds to thousands of subject-model calls, far more than is practical behind paid, rate-limited APIs. Under tight budgets they fail in two ways: multi-stage pipelines can exhaust the budget and return the seed prompt unchanged, while single-stage methods compare candidates on fixed-size minibatches, regardless of each task's noise. As a remedy, we introduce BudgetAPO, a single-stage optimizer for the tight-budget regime. BudgetAPO incorporates (1) a noise-adaptive rule that sizes the evaluation slice to each task's noise, measured by a short probe; (2) a fixed slice that turns every accept/reject decision into a paired comparison; and (3) a reflective operator that rewrites reasoning strategy and output format jointly. Extensive results across seven benchmarks and five subject models demonstrate that BudgetAPO ranks first on every subject and beats every baseline under Holm-corrected paired tests, while returning the seed in 13% of runs at 250 calls against 86% for GEPA. On GPT-OSS-20B, GEPA needs 5 times as many calls to match \\method's 100-call score.",
+  "published": "2026-10-05T01:34:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.411364+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:15:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05671v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.440288+00:00"
+}

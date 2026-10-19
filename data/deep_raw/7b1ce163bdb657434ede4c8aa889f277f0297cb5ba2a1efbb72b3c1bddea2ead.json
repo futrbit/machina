@@ -1,0 +1,22 @@
+{
+  "id": "7b1ce163bdb657434ede4c8aa889f277f0297cb5ba2a1efbb72b3c1bddea2ead",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "What 30,000 Hours of Ego-centric Video Does Not Teach",
+  "url": "https://arxiv.org/abs/2610.12464",
+  "summary": "arXiv:2610.12464v1 Announce Type: new Abstract: World models offer a promising alternative to physics-based simulators, yet remain far from practical deployment. We ask how far scaling ego-centric human video takes them, using a dataset of 30,000 hours spanning over 1,000 scene types and 14,000 contributors. Rather than relying on opaque downstream metrics, we directly evaluate agent and object-interaction fidelity on a challenging out-of-distribution benchmark. Increasing training data by 100x improves both, but unevenly: the agent is modeled well, while object fidelity remains far lower and improves slowly. We show that the agent gains need not come from data, and a careful visual conditioning design saturates fidelity with a fraction of it, which lets us measure object fidelity on its own and discover its saturation point. We then introduce a supervision scheme that shifts capacity from scene appearance toward object dynamics, improving object fidelity though a substantial gap remains. Finally, our conclusions transfer to downstream humanoid modeling. Overall, our results suggest that scaling ego-centric data brings agent modeling close to its limit while leaving its effects on the world far behind, and that closing this gap will depend on how models are trained, not only on how much data they see.",
+  "published": "2026-10-08T17:59:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.766038+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:59:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12464v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.354942+00:00"
+}

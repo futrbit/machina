@@ -1,0 +1,17 @@
+{
+  "id": "c54b084cb57a8e6cd0fe67e63ccff8f423a41b13c7a2da1e3caa63954fa0bd5e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Mind the Phase: Effective Rank and Representation Health in Legged Locomotion",
+  "url": "https://arxiv.org/abs/2609.06958",
+  "summary": "arXiv:2609.06958v2 Announce Type: replace Abstract: Reinforcement learning has become the leading paradigm in legged locomotion, enabling complex behaviors from backflips to parkour via massively parallel simulation. Under PPO's non-stationarity, shallow networks remain the de facto architecture, supported by carefully staged environments; nevertheless, the representations learned by these policies remain poorly understood, specifically the relation to motion produced on hardware. In this work, we empirically study locomotion policies through the effective rank of the network Jacobian and show that conditioning rank on gait phase exposes representation structures invisible from a global rank. In particular, we find that architectural choices, namely observation and layer normalization with residual connections, allocate more than one additional dimension of effective rank to swing-dominant states than to stance-dominant states, which is mostly absent in vanilla MLPs. Building on this, we propose practical recommendations to convert these into diagnostics for healthier and smoother policies. In practice, this results in lower joint jitter, up to $2$x, not only in simulation, but also on a physical Spot. More broadly, our findings show that how a policy distributes its capacity across the gait cycle is closely tied to its health and sim-to-real transfer.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.160647+00:00"
+}

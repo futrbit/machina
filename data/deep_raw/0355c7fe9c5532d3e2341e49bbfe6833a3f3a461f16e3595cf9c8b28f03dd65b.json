@@ -1,0 +1,21 @@
+{
+  "id": "0355c7fe9c5532d3e2341e49bbfe6833a3f3a461f16e3595cf9c8b28f03dd65b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Unbiased Reward Modeling from Implicit Feedback for LLM Alignment",
+  "url": "https://arxiv.org/abs/2603.23184",
+  "summary": "arXiv:2603.23184v2 Announce Type: replace-cross Abstract: Despite the success of reinforcement learning from human feedback (RLHF), existing reward modeling methods largely rely on explicit feedback, which is costly to collect and difficult to scale. This work studies implicit reward modeling, learning reward models from implicit user feedback, such as clicks, copies and skips. While scalable and cost-effective, implicit feedback poses two key challenges: It lacks definitive negative samples, which makes standard positive-negative classification methods inapplicable; It suffers from selection bias, where responses have heterogeneous propensities to elicit feedback, which further obscures definitive negative samples. To address these challenges, we propose ImplicitRM, which learns unbiased reward models from implicit feedback. It stratifies training samples into four latent groups using a stratification model and derives a likelihood-maximization objective that is theoretically unbiased, thereby addressing both challenges. Experiments across diverse LLM backbones and benchmark datasets validate that ImplicitRM learns accurate reward models from implicit feedback and improves performance on downstream RLHF tasks.",
+  "published": "2026-03-24T13:32:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.194786+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:34:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.23184v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.300177+00:00"
+}

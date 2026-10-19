@@ -1,0 +1,21 @@
+{
+  "id": "4f13902aadde2f68dd35932c71c55441b474532a56334697452c3f9ac4bbea89",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Obscuring Data Contamination Through Translation: Evidence from Arabic Corpora",
+  "url": "https://arxiv.org/abs/2601.14994",
+  "summary": "arXiv:2601.14994v2 Announce Type: replace-cross Abstract: Data contamination can invalidate benchmark evaluation when a model benefits from memorized evaluation content rather than genuine generalization. Yet contamination is difficult to audit when the exposed content differs in language from the evaluation benchmark. We study this failure mode by deliberately exposing four open-weight instruction-tuned LLMs to Arabic translations of MMLU and XQuAD evaluation items at increasing exposure levels, then evaluating them on the original English tasks. This controlled setup is a proxy for contamination rather than a reconstruction of real-world pretraining leakage. We first test two English-centric post-hoc probes, TS-Guessing and Min-K%++, and find that their signals largely disappear under translated exposure: TS-Guessing remains weak except for model-specific positional recall on MMLU, while Min-K%++ stays at or below chance. At the same time, English MMLU performance increases with Arabic exposure, showing that the absence of an English contamination signal does not imply the absence of an exposure effect. We then introduce Translation-Aware Contamination Detection (TACD), a training-data-free diagnostic based on cross-lingual prediction consistency and choice reordering. Cross-lingual consistency is substantially higher than an independence baseline and generally increases relative to the clean condition, although its magnitude is model-dependent and not strictly monotonic. These results show that translation can conceal contamination-related effects from English-only probes and motivate multilingual diagnostics that are explicitly framed as evidence of contamination-consistent behavior rather than definitive membership tests.",
+  "published": "2026-01-21T13:53:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.416361+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:34:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2601.14994v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.466478+00:00"
+}

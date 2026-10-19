@@ -1,0 +1,21 @@
+{
+  "id": "14584cec7bfd87838adc401d66679efe0255a3f677efa7a882d8f24262cefb88",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Causal Memory Policy: Making Memory Utility Identifiable by Intervening on Retrieval",
+  "url": "https://arxiv.org/abs/2610.02070",
+  "summary": "arXiv:2610.02070v3 Announce Type: replace Abstract: Memory-augmented large language models must decide which memories to retain, and recent systems do so by estimating each memory's effect on task performance. However, these estimates rely entirely on retrieved memories. When a memory is never retrieved, store-level interventions produce identical outcomes, leaving its utility unidentified. This is a retrieval-level positivity violation, invisible to diagnostics that examine only memory operations. We introduce Causal Memory Policy (CMP), a causal framework that restores identification by intervening on retrieval itself, reserving a fixed number of context slots for memories sampled with known propensities. CMP estimates memory utility by self-normalized inverse propensity weighting under a balanced assignment design. We prove the causal factorization of memory utility through retrieval, the unbiasedness and exact variance of the estimator, and the optimal decision rule under irreversible operations. Empirically, identification fails for 54% of required memories on LongMemEval and 67% on LoCoMo, and the failure persists in a deployed memory system. CMP improves discrimination between required and non-required memories from 0.54 to 0.66 AUC. Finally, we show that identified memory utility alone is insufficient for retention decisions: per-query utility reaches 0.78 AUC on the query for which it is estimated, yet no aggregation available to a retention policy predicts a memory's value on unseen queries. Code is available at: https://anonymous.4open.science/r/cmp-release-D0C3/.",
+  "published": "2026-10-01T17:11:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.411364+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:30:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02070v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.800875+00:00"
+}

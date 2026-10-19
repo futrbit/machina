@@ -1,0 +1,21 @@
+{
+  "id": "4bc3d271a7c8ca7347bd6ac510cf8440a36703fe1ee274841d51acc73dd28ee4",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SkillPoison: Progressive Skill Poisoning via Successful Experiences",
+  "url": "https://arxiv.org/abs/2610.07645",
+  "summary": "arXiv:2610.07645v1 Announce Type: cross Abstract: Self-improving LLM agents increasingly distill successful experiences into persistent, reusable skills. Existing skill attack methods corrupt this learning pipeline by injecting malicious triggers, behaviors, or false facts into individual experiences or extracted skills. However, such attacks are easily detected, and the injected malicious behaviors often fail to accumulate as persistent skills. In this paper, we show that skill poisoning can arise even from verified successful experiences, without making any individual trajectory malicious. Based on this insight, we propose SkillPoison, a novel framework that progressively poisons skill via successful experiences. SkillPoison first constructs a set of successful experiences that reinforce a target behavior, and then removes the contextual conditions that constrain when the behavior applies. Rather than injecting malicious content, SkillPoison shapes how the skill extractor generalizes, allowing useful behavior to support task success while inducing harmful behavior when they are misapplied. Extensive experiments on three benchmarks show that SkillPoison achieves 95.71% attack success rates, while all injected experiences remain task-correct and pass verification and lexical inspection. Our code, data and implementation details are available for the community at https://github.com/DEEP-JLU/SkillPoison.",
+  "published": "2026-10-06T02:38:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.165805+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:38:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07645v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.387526+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "440dc876b3b836a793aaa9d30f09103f552f7e41f7cef942bc550c83d78d30e8",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SCOPE: Certified Theorem Proving with a Language Model as the Policy Planner",
+  "url": "https://arxiv.org/abs/2610.08319",
+  "summary": "arXiv:2610.08319v1 Announce Type: new Abstract: In proof assistants such as Lean, a generated proof must pass machine compilation checks, so evaluation needs no human scoring. Direct generation fails on multi-step numeric propositions: a proof is valid only if every content integer is correct, so the pass rate is bounded by the k-th power of the per-integer accuracy. Controlled corruption across 2,617 reference proofs confirms this power law. SCOPE (State-Conditioned Operator Planning and Execution) enforces the natural division of labor: the model plans over an operator vocabulary, a symbolic engine executes the numerics, and a compiler renders the proof. On a 218-problem suite it certifies 191/218 (87.6%) with a 135M backbone; the 7B DeepSeek-Prover-V1.5-RL certifies 18/218 at 27.5 times the tokens and 37.5 times the wall-clock, and DeepSeek-Prover-V2-7B certifies zero on a bidirectional dual suite. Multi-step thinking costs 6.12 discrete decision actions per problem and produces no natural-language thinking text. Replacing the lagged engine state in the decision frame with the current one lifts the pass rate from 117/218 to 191/218, while up-weighting the chain-end loss hurts. On the public Lean-Workbook library, 2,132 of 3,536 gradeable admissible problems certify (60.29%) with zero regression on the main suite. All readings come from a version-frozen review with independent rechecks and reverse verification. Restricting free generation and keeping decision-time information visible is a more direct route than enlarging the model.",
+  "published": "2026-10-06T13:22:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.146815+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:22:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08319v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.848850+00:00"
+}

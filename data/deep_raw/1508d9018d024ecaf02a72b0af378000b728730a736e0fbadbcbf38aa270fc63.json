@@ -1,0 +1,22 @@
+{
+  "id": "1508d9018d024ecaf02a72b0af378000b728730a736e0fbadbcbf38aa270fc63",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Observer Choice and Threshold Selection in Retinal Vessel Segmentation: A Subject-Separated Evaluation",
+  "url": "https://arxiv.org/abs/2609.25597",
+  "summary": "arXiv:2609.25597v2 Announce Type: replace Abstract: The annotation used to select a segmentation threshold is part of the evaluation protocol, yet its effect is easily conflated with model quality. We examine this choice for retinal vessel segmentation using all 28 CHASE DB1 images and both human annotations. A fixed seven-fold protocol keeps both eyes of each of the 14 subjects together. Random forests and Extra Trees are fitted against observer 1 with three random seeds, yielding 42 fits. Five threshold policies share identical score maps: fixed 0.50, observer-1 tuning, observer-2 tuning, mean-observer tuning, and maximin tuning of the per-image lower observer Dice. For random forests, maximin changes the threshold in 19 of 21 fits, but worst-observer Dice decreases from 70.53 percent to 70.45 percent. The paired difference is -0.073 percentage points, with a conditional subject-bootstrap 95 percent interval of [-0.384, 0.238]. Extra Trees shows the same direction. Identical observer-1-tuned random-forest masks score 73.66 percent against observer 1 and 71.06 percent against observer 2. The results support explicit reporting of both the threshold-selection reference and evaluation reference; they do not support an accuracy benefit from maximin tuning in this cohort. All splits, raw predictions, metrics and code are supplied. AI assistance is disclosed.",
+  "published": "2026-09-22T02:41:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.546367+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:58:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.25597v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.814866+00:00"
+}

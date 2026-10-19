@@ -1,0 +1,21 @@
+{
+  "id": "5f4776ec2c4bdbb27d69a0092bb9023552c0a83c5784200f1f0292fdb163c6f9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+  "url": "https://arxiv.org/abs/2610.08761",
+  "summary": "arXiv:2610.08761v1 Announce Type: new Abstract: Self-improving policies continually expose new failure patterns, changing what their judges must be able to verify. However, current fixed judges constrain both optimization feedback and the discovery of useful training examples, limiting further self-improvement. This challenge is even more acute in embodied reasoning, where reliable evaluation must account for spatial grounding, causal reasoning, and safety-aware decision-making. We introduce VeriFine, an agent harness framework that scales verification through the co-evolution of the policy, training curriculum, and judge. The Policy Improvement Loop uses a rubric judge to diagnose recurring failures, construct an adaptive curriculum, and optimize the policy. When progress plateaus and verification becomes a bottleneck, the Judge Improvement Loop selectively queries human guidance on informative failure cases and refines the judge through coactive calibration, in which humans and agents resolve disagreements and converge toward the objective rubric of physical reasoning. The revised judge then guides the next stage of data selection and policy optimization. Experiments on driving and robot navigation tasks demonstrate continuous self-improvement in both policy and judge capability across reinforcement and supervised fine-tuning. These results show how scaling verification supports continuous self-improvement as policy failure patterns evolve.",
+  "published": "2026-10-06T17:50:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.149814+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:50:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08761v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.789285+00:00"
+}

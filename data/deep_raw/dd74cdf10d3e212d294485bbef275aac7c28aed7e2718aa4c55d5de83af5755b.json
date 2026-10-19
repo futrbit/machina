@@ -1,0 +1,22 @@
+{
+  "id": "dd74cdf10d3e212d294485bbef275aac7c28aed7e2718aa4c55d5de83af5755b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Group-Invariant Statistics Determine Embedding Geometry: Harmonic Analysis of Representations from Bach to the Night Sky",
+  "url": "https://arxiv.org/abs/2610.00647",
+  "summary": "arXiv:2610.00647v1 Announce Type: new Abstract: The representations that language models learn for concepts such as months, weekdays, and places display consistent geometric structure: circles and saddle-shaped \"Pringle\" manifolds. Recent work traced these structures to $\\textit{translation symmetry}$ in word co-occurrence statistics, deriving the observed Fourier geometry when co-occurrence depends only on distance on an abelian lattice of concepts. We demonstrate that more general notions of symmetry lead to equally structured predictions. Considering symmetries defined by arbitrary finite groups, compact groups, and homogeneous spaces, we prove that whenever the co-occurrence statistics of a word family are invariant under a group $G$, the learned word embeddings consist of matrix elements of the irreducible representations (irreps) of $G$. Circles and Pringles arise when $G$ is cyclic, in which case the irreps are Fourier modes. We verify the irrep structure in three experimental settings. (i) The cyclic group $\\mathbb{Z}_{12}$: for the months of the year we recover the known circular geometry. (ii) A dihedral group acting on the major and minor triads: we unify two classical observations -- that transposition and chord inversion form a group ($T/I$) acting on chords (music theory), which $\\textit{implies}$ that the well-known \"circle of fifths\" emerges in learned chord embeddings (machine learning). (iii) We explain and reproduce a recently discovered spherical representation of celestial objects in large language models (LLMs) as a spherical-harmonic embedding derived from our theory. Our results demonstrate that the geometry of learned representations is often a consequence of the statistical symmetry of underlying data.",
+  "published": "2026-09-30T19:50:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.777506+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T19:50:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00647v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.220818+00:00"
+}

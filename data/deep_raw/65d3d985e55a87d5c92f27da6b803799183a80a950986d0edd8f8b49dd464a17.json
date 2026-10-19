@@ -1,0 +1,21 @@
+{
+  "id": "65d3d985e55a87d5c92f27da6b803799183a80a950986d0edd8f8b49dd464a17",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "RoboAware: Learning to Coordinate Embodied Skills from Counterfactual Outcomes",
+  "url": "https://arxiv.org/abs/2610.11480",
+  "summary": "arXiv:2610.11480v1 Announce Type: new Abstract: Embodied coding agents can combine modular robot skills with frozen end-to-end policies, yet effective composition requires anticipating which policy family will succeed in the current physical state. We present RoboAware, which builds on coding agents' skill orchestration by learning only a state-conditioned responsibility coordinator from counterfactual outcomes. Inspired by the success of REPL, we propose the $P^5$ schema and formulate a hierarchical MDP based on it. $P^5$ organizes skills uniformly into five semantic stages, defining where responsibility can be compared. To address the lack of counterfactual branch outcomes in existing work, we introduce State-Locked Counterfactual Branching (SCB), which restores the same training state to generate and execute a code block from each admissible family, exposing outcomes that selected-branch experience leaves unobserved. Building on this, we propose Execution-Aware Learning (EAL), which combines Monte Carlo tree search with Q-learning to distill these outcomes into family-conditioned values. At deployment, the coordinator selects the policy family according to observable context, and the frozen coding agent generates the next local code block. Comprehensive single-episode evaluations on 100 tasks show that RoboAware reaches a 77.0% overall success rate, with SOTA averages of 90.0% on RoboSuite, 73.8% on diverse LIBERO-Pro task clusters, and 90.0% on challenging RoboTwin bimanual tasks, outperforming existing code-as-policy and VLA-harness baselines.",
+  "published": "2026-10-08T08:25:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.738545+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:25:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11480v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.888224+00:00"
+}

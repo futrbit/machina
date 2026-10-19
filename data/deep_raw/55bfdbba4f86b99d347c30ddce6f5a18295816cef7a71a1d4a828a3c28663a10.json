@@ -1,0 +1,21 @@
+{
+  "id": "55bfdbba4f86b99d347c30ddce6f5a18295816cef7a71a1d4a828a3c28663a10",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "When Agent Context Goes Stale: Incoherence in Volatile Agent Context",
+  "url": "https://arxiv.org/abs/2610.05281",
+  "summary": "arXiv:2610.05281v2 Announce Type: replace Abstract: Modern agents increasingly ground their reasoning in observations returned by tools, such as file contents read from a workspace. However, the data sources underlying these observations may later be modified by users, other agents, or external tools, while the model retains only the stale content in its context window. Existing agent runtimes provide little support for notifying the model that a previously observed fact has become stale, causing agents to reuse outdated observations and make incorrect claims about the current workspace state. We propose Concord, a context coherence framework that maintains the consistency between tool observation in agent context and the mutable sources from which they were derived. Concord links each observation to its source, detects source changes, and uses configurable handling policies to update, annotate, or suppress stale context before reuse. Concord is applicable across different agent runtimes and external resources, and can be easily extended to new runtime-resource settings. We implement Concord as a general framework, and instantiate a concrete use case to assess its effectiveness. We construct ConcordBench, where previously observed file contents become stale after subsequent edits. Across three evaluated frontier models, Concord produces answers consistent with the restored workspace state in all evaluated cases under these constructed conditions, matching the oracle on recover count for this benchmark, while using 46.4% fewer tokens than the strongest non-oracle baseline.",
+  "published": "2026-10-04T15:01:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.189793+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:55:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05281v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.603395+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "046065397fe4a0e2b471647bcb7ea7380bf751e332a405c21b79e22f7ccae6db",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Structuring MoE Expert Selection for Agentic Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2610.07332",
+  "summary": "arXiv:2610.07332v1 Announce Type: new Abstract: Long-horizon LLM agents are frequently implemented using sparse mixture-of-experts (MoE) models, yet the co-design of agentic behavior and MoE structures remains underexplored. In this work, we comprehensively study the connections between agentic post-training and MoE expert selection. In off-the-shelf MoE models, we observe expert selection exhibits a specialized structure that naturally aligns with agentic trajectories. Specifically, expert routing overlaps more between turns where the agent performs semantically similar operations (e.g., READ, UPDATE) than between turns with differing operations. However, standard RL algorithms ignore this specialization, allowing the MoE routing to go uncontrolled during training, which empirically limit task performance and inference efficiency. To address this, we introduce a hierarchical routing control framework for agentic tasks. We explicitly encourage turn-level expert selections to align with agentic operations while regularizing token-level expert selections to maintain local consistency. To resolve stability issues that arise during post-training with the proposed methods, we further introduce an entropy-gated control mechanism. Overall, our routing control framework achieves over 10-point improvements in success rate on all evaluated benchmarks. These results demonstrate that agentic trajectory structure provides an effective signal for optimizing MoE capacity during RL post-training.",
+  "published": "2026-10-05T20:06:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.054503+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:06:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07332v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.322163+00:00"
+}

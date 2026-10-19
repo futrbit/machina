@@ -1,0 +1,22 @@
+{
+  "id": "7943578760ffb301bbd87294e6354370a07b17626a8f26a9b718847d0d7c6441",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Constrained Dynamic Gaussian Splatting",
+  "url": "https://arxiv.org/abs/2602.03538",
+  "summary": "arXiv:2602.03538v2 Announce Type: replace Abstract: While Dynamic Gaussian Splatting enables high-fidelity 4D reconstruction, its deployment is severely hindered by a fundamental dilemma: unconstrained densification leads to excessive memory consumption incompatible with edge devices, whereas heuristic pruning fails to achieve optimal rendering quality under preset Gaussian budgets. In this work, we propose Constrained Dynamic Gaussian Splatting (CDGS), a novel framework that formulates dynamic scene reconstruction as a budget-constrained optimization problem to enforce a strict, user-defined Gaussian budget during training. Our key insight is to introduce a differentiable budget controller as the core optimization driver. Guided by a multi-modal unified importance score, this controller fuses geometric, motion, and perceptual cues for precise capacity regulation. To maximize the utility of this fixed budget, we further introduce an adaptive static-dynamic allocation strategy that separates the Gaussian representation into static and dynamic branches and distributes the shared global capacity between them according to motion complexity. Furthermore, we implement a three-phase training strategy to seamlessly integrate these constraints, ensuring precise adherence to the target count. After training, a dual-mode hybrid compression scheme further reduces storage overhead. CDGS therefore not only strictly adheres to the specified Gaussian-count budget (error<2%) but also achieves favorable rate-distortion performance. Extensive experiments demonstrate that CDGS delivers optimal rendering quality under varying capacity limits and favorable rate-distortion performance, achieving over 3x model compression compared with the state-of-the-art method Ex4DGS.",
+  "published": "2026-02-03T13:53:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.782030+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:01:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.03538v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.317965+00:00"
+}

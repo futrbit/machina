@@ -1,0 +1,22 @@
+{
+  "id": "0499ece93429e700cc5ebca1dbf69a84743d491bbc38ffab157ad772b40c08d8",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Benchmark Designers Should \"Train on the Test Set\" to Expose Exploitable Non-Visual Shortcuts",
+  "url": "https://arxiv.org/abs/2511.04655",
+  "summary": "arXiv:2511.04655v2 Announce Type: replace Abstract: Multimodal LLMs can answer many questions in vision-centric benchmarks without looking at the image, using linguistic priors and skewed answer distributions. Blind evaluation shows what a model already answers this way, but not what it could learn from the test set's own regularities. Extending partial-input auditing (e.g., hypothesis-only baselines in natural language inference), we argue that benchmark designers should \"train on the test set\": probe the artifact they release for exploitable patterns. Our Test-set Stress-Test (TsT) cross-validates a text-only Qwen2-7B on the test set's questions and answer options, yielding a benchmark-level score and a per-question bias score s(x); a random forest on hand-crafted features adds a fast, interpretable audit. On the template-based VSI-Bench and CV-Bench, the held-out score is 17.9 and 13.1 points above the model's own zero-shot score. On MMMU it learns little, even though GPT-4o correctly answers 52.3% of its multiple-choice questions without the image, so blind success there reflects pretrained knowledge rather than learnable test-set patterns. Iterative Bias Pruning (IBP) removes the questions with the highest s(x) and re-diagnoses; on VSI-Bench it widens a fine-tuned model's vision-blind gap more than random removal at the same rate. We also release VSI-Bench-Debiased, which lowers a fine-tuned model's blind score from 44.7 to 32.0 while its vision score falls only from 57.1 to 48.7.",
+  "published": "2025-11-06T18:43:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.780031+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T17:57:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2511.04655v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.326161+00:00"
+}

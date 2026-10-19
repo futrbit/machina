@@ -1,0 +1,22 @@
+{
+  "id": "61c39816824eb9e03f6748be629ed83e10fb59133a1bc9aa03edc78d1a153aad",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "MSPR: Multi-scale Predictive Representations for Goal-conditioned Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2605.09364",
+  "summary": "arXiv:2605.09364v2 Announce Type: replace Abstract: This paper investigates robust representation learning in offline goal-conditioned reinforcement learning (GCRL). Particularly in sparse reward scenarios, learning representations that align state and goal latents is a challenge, as the encoder can learn goal-agnostic features that destabilize policy learning. We address this issue by learning the encoder's representation with alignment objectives that capture the environment across multiple scales, from local physical dynamics to long-horizon goal-directed structure. Concretely, we propose MSPR, a framework that leverages multi-scale predictive supervision to enforce goal-directed alignment within the latent space. We demonstrate that MSPR leads to strong performance on both vision and state-based tasks. Furthermore, we show that our approach is resilient under realistic, challenging data regimes, maintaining state-of-the-art performance across a wide variety of tasks.",
+  "published": "2026-05-10T06:27:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.115465+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:05:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.09364v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.825261+00:00"
+}

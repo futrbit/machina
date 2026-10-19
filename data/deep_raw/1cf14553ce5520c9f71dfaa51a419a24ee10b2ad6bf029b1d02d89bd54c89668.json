@@ -1,0 +1,17 @@
+{
+  "id": "1cf14553ce5520c9f71dfaa51a419a24ee10b2ad6bf029b1d02d89bd54c89668",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Trust Is Not a Score: Runtime Assurance Contracts for High-Risk AI Agents",
+  "url": "https://arxiv.org/abs/2609.39717",
+  "summary": "arXiv:2609.39717v2 Announce Type: replace Abstract: Benchmarks, audits, and agent protocols describe performance, permissions, and repair, but not how observed evidence should change an agent's authority during a consequential task. We propose a Runtime Assurance Contract (RAC), a policy-level formal schema binding autonomy boundaries, component eligibility, evidence state, transition policy, human-review capacity, and non-compensatory gates. Under RAC, soft metrics may inform routing, whereas a failed or unknown mandatory gate forces retry, switch, escalation, deferral, or stop; aggregate performance cannot authorize action. We define the contract, an evidence record, a permission rule, and five invariants. A deterministic failure-injection study in agentic coding evaluates 174 cases, each a distinct mechanism, under a gate conjunction, a score-only rule, and a restricted protocol baseline. At the published example weights and threshold, the score rule admits 56 of 63 block-required injections and all 24 review-required injections; tuned in hindsight, it matches the conjunction case for case. For positive weights, a positive threshold, binary risk signals, and each signal firing alone on some case, the two rules agree on every case if and only if the threshold does not exceed the smallest weight. On 124 further cases written blind by a model of another vendor, the conjunction itself admits 35 of 79 injections, and so does the tuned score rule: a missing detector is invisible to every decision rule. Eighteen hand-authored traces check version-pinned evidence and review transitions. In a prospective synthetic holdout of 24 episodes, RAC and a separately implemented full stateful baseline both match the labels of two blinded LLM judges. These studies test mechanisms on synthetic cases; they establish neither deployed safety nor cross-domain effectiveness.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.207130+00:00"
+}

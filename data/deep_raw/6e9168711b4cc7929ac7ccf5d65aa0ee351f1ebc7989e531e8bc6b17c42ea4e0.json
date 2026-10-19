@@ -1,0 +1,22 @@
+{
+  "id": "6e9168711b4cc7929ac7ccf5d65aa0ee351f1ebc7989e531e8bc6b17c42ea4e0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Interpreting Reasoning of Large Language Models via Partial Information Decomposition",
+  "url": "https://arxiv.org/abs/2610.00571",
+  "summary": "arXiv:2610.00571v1 Announce Type: cross Abstract: Large reasoning models (LRMs) have achieved substantial improvements in solving complex mathematical problems, but often produce lengthy, repetitive, or erroneous reasoning trajectories. In this work, we introduce a new interpretability framework, SLIDER, to evaluate the quality of the reasoning process. SLIDER leverages an emerging body of work from information theory called Partial Information Decomposition to disentangle the information about the final answer between two consecutive reasoning steps into non-negative components: unique information (in preceding steps or current step), redundant information, and synergistic information. Building on this decomposition, we propose the *Step-wise Repetitive Reasoning Index (Step-RRI)*, a theoretically grounded measure that assesses whether the answer-relevant information in the current step $S_i$ is predominantly redundant with the past steps $S_{<i}$, relative to its unique and synergistic contributions. To evaluate the effectiveness of Step-RRI in detecting repetitiveness, we apply SLIDER to the redundancy class of the PRMBench dataset where Step-RRI improves step-level redundancy identification accuracy by over $10$ points compared to embedding-similarity and information-gain baselines. Next, we define *Trajectory-RRI*, an aggregate measure of repetitiveness for an individual reasoning trajectory. To demonstrate its practical relevance, we show that average Trajectory-RRI strongly correlates with actual reasoning length across QwQ-32B, DeepSeek-R1-Distill-Qwen-32B, and GPT-4.1, motivating its use as a signal for improving reasoning efficiency. Finally, we introduce *Trajectory-RRI-guided data selection for fine-tuning*, demonstrating that selecting training data based on Trajectory-RRI can improve a fine-tuned model's reasoning efficiency while largely preserving its task performance.",
+  "published": "2026-09-30T18:44:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.810486+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T18:44:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00571v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.035135+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "0e9bbf62ba095c93191113393c8514c678e6be5bdad58d751b616deb3b1aa3bd",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "NoveltyScope: A Multi-Agent Research Assistant for Evidence-Grounded Novelty Assessment of Scientific Papers",
+  "url": "https://arxiv.org/abs/2610.22703",
+  "summary": "arXiv:2610.22703v1 Announce Type: cross Abstract: NoveltyScope is a prototype that compares a scientific paper with retrieved prior work and produces a structured report and a five-level novelty score. The system extracts the core task and at most two author-claimed contributions, then searches a closed local corpus using BM25 and dense retrieval with reciprocal rank fusion. Contribution comparisons request paired passages for potential refutations, and quotations are checked against cached source text. Four scoring roles (Prosecutor, Defender, Judge, and Critic) use the resulting evidence, with at most one revision of the Judge's score. Evaluation uses 50 class-balanced RINoBench samples whose idea-level labels are retained for full-paper input. Mean absolute error is 1.48 and 1.26 for single-LLM and multi-agent scoring with Gemini, respectively, and 1.22 and 1.16 with Qwen3. The vector-similarity baseline has an error of 1.68. A HiCLIP case study illustrates the contribution comparisons and paired evidence passages. Overall, the results demonstrate the feasibility of evidence-grounded novelty assessment and show that the multi-agent configurations achieve lower scoring errors than their single-LLM counterparts across both evaluated models.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.192141+00:00"
+}

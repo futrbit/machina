@@ -1,0 +1,22 @@
+{
+  "id": "3315d812805f2edc2a17cfdafe1b88182dd3ac0544ecc7ae2b21064ea4613133",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Training-Aware Target Coverage for Synthetic Data Selection",
+  "url": "https://arxiv.org/abs/2610.00814",
+  "summary": "arXiv:2610.00814v1 Announce Type: new Abstract: Synthetic data are increasingly used to scale LLM training, yet more synthetic data do not necessarily produce better models. Useful synthetic data must add information relevant to the target task without introducing errors that offset their benefit, and the value of an example can change as the training set grows. We develop a linear theory that characterizes this tradeoff and determines where synthetic data are useful, how much should be added, and the marginal value of adding one example to an existing set. The analysis shows the conditions when input coverage alone is sufficient and when synthetic errors must also be considered. Guided by these results, we introduce \\emph{Training-Aware Target Coverage} (TATC), a synthetic data selection method for LLM fine-tuning. TATC identifies candidates whose training effects are beneficial to the target task and selects among them to expand coverage of target-relevant directions not already represented by the available data. Experiments on text and image data verify the linear theory. With mathematical reasoning tasks, TATC selects synthetic solutions for fine-tuning Qwen2.5-Math-1.5B-Instruct and outperforms alternative synthetic-data selection methods on GSM8K across selection budgets. In summary, we provide a principled approach to synthetic data selection by quantifying and maximizing its value to the target task.",
+  "published": "2026-09-30T23:17:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.781503+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T23:17:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00814v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.485069+00:00"
+}

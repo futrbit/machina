@@ -1,0 +1,21 @@
+{
+  "id": "9835d8029f5fc52ca00e4bbef46ef64b5e2350b63a7bc30326944a3ecf3268cd",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "NanoProof: Open and Efficient Automated Theorem Proving in Lean 4",
+  "url": "https://arxiv.org/abs/2610.11605",
+  "summary": "arXiv:2610.11605v1 Announce Type: cross Abstract: We introduce NanoProof, to our knowledge the first factorized execution-guided theorem prover in Lean 4 whose training data, extraction tooling, training pipeline, and weights are all released, making it end-to-end reproducible using open-source resources. To this end, we build and release a dataset of structured proof trees, as well as a tool for programmatic interaction and data extraction within the Lean 4 formal verifier. To support sustainable research, we focus on compute efficiency to facilitate accessible training and evaluation. NanoProof achieves 50.8% pass@16 on MiniF2F-Test, exceeding the two closest systems of its class, HyperTree Proof Search and ABEL, at roughly 90x and 7x less compute, and using more than four orders of magnitude less compute than AlphaProof. Stronger open-weight provers exist, but they are fine-tuned from large pretrained language models and release neither training data nor pipeline; NanoProof shows that the factorized execution-guided class of provers can be rebuilt from scratch with modest resources.",
+  "published": "2026-10-08T09:49:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.393374+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:49:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11605v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.919602+00:00"
+}

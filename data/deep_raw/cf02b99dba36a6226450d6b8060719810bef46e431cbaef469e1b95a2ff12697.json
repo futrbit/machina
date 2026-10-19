@@ -1,0 +1,21 @@
+{
+  "id": "cf02b99dba36a6226450d6b8060719810bef46e431cbaef469e1b95a2ff12697",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Cross-Provider Review as a Runtime Contract for Coding Agents: A Controlled Pilot and Fault-Injection Study",
+  "url": "https://arxiv.org/abs/2610.10961",
+  "summary": "arXiv:2610.10961v1 Announce Type: cross Abstract: Coding agents increasingly share a workstation while drawing on separate providers and subscription allowances. A second agent can inspect a completed answer, but the call spends another pool and may provide no substantive finding. We describe an advisory cross-provider review contract: distinct resource pools, bounded execution, restricted reviewer capabilities, complete input delivery, usable semantic output, explicit failure states and durable per-attempt evidence. In a controlled, agent-authored pilot of 20 paired development turns, eight had a material reviewer finding (95% exact interval 19.1-63.9%). A boundary-condition scan across both reviewer backends reproduced a previously discovered false success on partial input: four truncation levels passed historically and failed after repair. The scan also found and repaired cancellation during process reaping. In real CLI probes, Claude had no writing tools; Codex attempted writes in five of five read-only trials, each write tool failed, and no disposable repository changed. These tests cover specified paths and versions, not field reliability. A preregistered shadow study of metadata-only review allocation accrued 25 formal observations before an exact-runtime regression found a third defect: a reviewer exiting nonzero with a well-formed verdict was counted as complete. Exit status was not recorded per attempt, so exposure cannot be resolved retrospectively. The 25 formal and two pending records remain an audit cohort; the measurement-valid cohort restarted at zero and collection has begun. No gate result is reported.",
+  "published": "2026-10-07T22:28:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.385380+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:28:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10961v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.051919+00:00"
+}

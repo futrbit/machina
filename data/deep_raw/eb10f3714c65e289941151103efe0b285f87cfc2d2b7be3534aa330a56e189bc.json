@@ -1,0 +1,22 @@
+{
+  "id": "eb10f3714c65e289941151103efe0b285f87cfc2d2b7be3534aa330a56e189bc",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "FOSLS-deRhaNN: native de Rham neural classes for H(div) and H(curl) with applications to first-order system least-squares neural network methods for partial differential equations",
+  "url": "https://arxiv.org/abs/2610.08016",
+  "summary": "arXiv:2610.08016v1 Announce Type: cross Abstract: We construct neural approximation classes native to the graph spaces H(div) and H(curl), in two and three dimensions and, for H(div), in any dimension. Every realization lies in the space for all parameter values, and with kinked potentials, such as ReLU networks, the admissible jumps appear at finite width. The classes are images of scalar and componentwise networks under fixed operators of the de Rham complex, and do not involve a mesh or finite element emulation. For H(div) in R^n two native classes are given on an equal footing, with a skew-symmetric potential $A$: $\\mathrm{Div}\\,A+R_nq+\\mathbf{h}$, with the divergence $q$ as an explicit unknown, and $\\mathrm{Div}\\,A+\\mathbf{z}$ with an $H^1$ field $\\mathbf{z}$; for H(curl) the analogous classes are $\\mathrm{grad}\\,\\phi+Sr+\\mathbf{h}$ in two dimensions and $\\mathrm{grad}\\,\\phi+\\mathbf{z}$ in two and three dimensions. In all of them every interface jump of the field is carried by the potential term, $\\mathrm{Div}\\,A$ or $\\mathrm{grad}\\,\\phi$, while the remaining part has no interface jump (it is an $H^1$ field in the regular-decomposition classes); the classes with $\\mathbf{z}$ are the componentwise approach enriched by this term. Known or learned interface geometry enters the potential through factors with trainable amplitudes, and the remaining part if the divergence jumps. The classes lead to the FOSLS-deRhaNN method, first-order system least squares with de Rham neural networks, whose loss is the least-squares functional posed in the natural spaces of the weak formulation; for elliptic equations this includes $H^{-1}$ right-hand sides and $H^{1/2}$ Dirichlet data. Elliptic equations with discontinuous coefficients and curl-curl problems are treated as instances, with the functional equivalent to the error; linear transport with discontinuous solutions and conservation laws with shocks use the same flux classes.",
+  "published": "2026-10-06T09:12:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.101474+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:12:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08016v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.375724+00:00"
+}

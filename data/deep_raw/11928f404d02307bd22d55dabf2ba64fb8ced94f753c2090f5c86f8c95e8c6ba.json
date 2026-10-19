@@ -1,0 +1,21 @@
+{
+  "id": "11928f404d02307bd22d55dabf2ba64fb8ced94f753c2090f5c86f8c95e8c6ba",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Policy-Calibrated DAgger: Offline Calibrated Noise Injection for Imitation Learning",
+  "url": "https://arxiv.org/abs/2609.30462",
+  "summary": "arXiv:2609.30462v1 Announce Type: new Abstract: Policies trained with imitation learning can accumulate errors over time, causing the robot to drift outside the training distribution. Existing methods mitigate this covariate shift by collecting additional data where the policy fails or is likely to fail. The first places the robot in unsafe conditions and the second requires choosing an appropriate noise distribution to collect new expert demonstrations under that noise. We propose Policy-Calibrated DAgger, a method that makes use of the properties of recent generative policies to estimate the policy's noise offline by using its own predicted action distribution. We measure a diffusion policy's spread of predicted actions at observations along the expert trajectory and measure its closed-loop error relative to a recorded trajectory. To address issues with measuring error in a multimodal action space, we guide the policy towards the trajectory during closed-loop control through partial denoising, and use properties of a diffusion model to unnormalize the measured error as if we did not guide it. We experiment in a scenario where a robot is tasked to reach an engine lever in a cluttered and narrow environment and show results in a 3D photorealistic simulator and a 2D planar reacher environment. We show that our method surpasses policies trained with dataset aggregation without noising and matches the performance of the best noise level in hindsight, without requiring a sweep over noise levels.",
+  "published": "2026-09-24T18:56:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.372171+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T18:56:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30462v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.712928+00:00"
+}

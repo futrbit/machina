@@ -1,0 +1,22 @@
+{
+  "id": "b22040246fb6abc32460f8626d5f93fe2edb4faf66edbec1f8a30cb68fe1b551",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "IntrinSync: Joint Intrinsic Decomposition and Reciprocal Rendering",
+  "url": "https://arxiv.org/abs/2610.11138",
+  "summary": "arXiv:2610.11138v1 Announce Type: new Abstract: Inverse rendering decomposes an image into intrinsic properties such as appearance, illumination, geometry, and material, yet these properties are inherently interdependent. A reliable decomposition should produce intrinsic maps that are not only individually plausible, but also mutually compatible in explaining the image. However, existing methods either model intrinsic channels in isolation or treat inverse and forward rendering as separate processes, leaving the interdependence underexploited. In this paper, we introduce IntrinSync, a unified framework that captures this interdependence through joint-channel modeling and reciprocal inverse-forward rendering. At the channel level, we jointly decompose an input RGB into albedo, shading, surface normal, roughness, and metallic maps through a 1-to-N mapping, enabling information exchange across channels throughout generation. At the process level, we establish inverse-forward reciprocity through a dual cycle-consistent objective that aligns corresponding predictions across a closed loop. Experiments on three datasets demonstrate that our method achieves competitive intrinsic estimation and forward rendering performance, improving coherence and physical consistency. Beyond decomposition, IntrinSync provides a physically grounded interface for image editing, allowing intrinsic properties to be explicitly manipulated and rendered back into RGB images.",
+  "published": "2026-10-08T03:05:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.740054+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:05:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11138v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.645164+00:00"
+}

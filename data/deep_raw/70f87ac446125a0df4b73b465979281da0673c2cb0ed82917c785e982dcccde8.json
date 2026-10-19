@@ -1,0 +1,21 @@
+{
+  "id": "70f87ac446125a0df4b73b465979281da0673c2cb0ed82917c785e982dcccde8",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Predicting Cable Dynamics with Physical Attention Bias",
+  "url": "https://arxiv.org/abs/2610.11975",
+  "summary": "arXiv:2610.11975v1 Announce Type: new Abstract: Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches itself or the floor. Attention over all pairs of cable segments can represent contact between parts of the cable that are far apart along its length, but attention has no notion of geometry. A cable has two pairwise distances, which agree only while it is straight: the arc-length distance along the cable, which governs elastic forces, and the Euclidean distance in space, which governs contact. We add a physical attention bias, an additive term on the attention logits with a learned rate, and ask which distance it should use. We compare no bias, each distance alone, and both distances on disjoint sets of heads, keeping the rest of the model and the training protocol fixed. A physical bias improves prediction on unseen cables. The gain is largest when attention is the only mechanism that connects distant segments: there, the arc-length bias reduces prediction error by 15% and more than halves the drift in segment length. The Euclidean bias alone stays close to unbiased attention, while assigning both distances across heads is best or near-best on every metric we report. Code and per-run records: https://github.com/avihaig/dlogps.",
+  "published": "2026-10-08T13:51:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.743542+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:51:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11975v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.109091+00:00"
+}

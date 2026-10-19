@@ -1,0 +1,22 @@
+{
+  "id": "409b3b85ecf2c5f85a7c5cb8be82541d4d560403f641ffe8cd4eab8f0cbab191",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Less Is More: A Leakage-Controlled Study of Dermoscopic Preprocessing for Joint Skin Lesion Classification and Segmentation with YOLO26",
+  "url": "https://arxiv.org/abs/2610.08570",
+  "summary": "arXiv:2610.08570v1 Announce Type: cross Abstract: Handcrafted preprocessing is widely employed in automated dermoscopic analysis to suppress imaging artifacts and enhance lesion visibility. Nevertheless, its actual contribution to modern real-time models remains unclear, particularly when evaluation protocols do not adequately control correlations among images of the same lesion. This study presents a leakage-controlled, lesion-disjoint evaluation of dermoscopic preprocessing and augmentation for joint multi-class lesion classification and instance segmentation using a fixed nano-scale YOLO26 segmentation model (YOLO26n-seg). From HAM10000 (10,015 images), quality control yields 10,013 valid image-mask pairs from 7,468 unique lesions, partitioned into mutually exclusive sets by lesion identity. With the architecture, resolution, training budget, and evaluation protocol held fixed, we compare minimally processed images plus online augmentation against offline class balancing, DullRazor-CLAHE preprocessing, and raw-processed hybrid views, over three random seeds. On the lesion-disjoint test set, the raw baseline achieves a mask mAP$_{50:95}$ of $0.5636 \\pm 0.0234$, a Dice score of $0.9356 \\pm 0.0024$, and a macro-F1 score of $0.6917 \\pm 0.0202$. Offline augmentation does not improve the mean performance, while the combined and hybrid strategies reduce both class-aware segmentation and classification accuracy. At only 2.69 million parameters, the model runs at approximately 50 frames per second. Under a leakage-controlled, lesion-disjoint protocol with all non-input factors held fixed, minimally processed dermoscopic images combined with standard online augmentation deliver a better accuracy-efficiency trade-off than increasingly complex deterministic preprocessing, which yields no consistent joint benefit across three seeds on HAM10000.",
+  "published": "2026-10-06T15:47:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.533375+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:47:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08570v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.703934+00:00"
+}

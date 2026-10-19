@@ -1,0 +1,21 @@
+{
+  "id": "11f134219ef9b32883b7970514e4b11496f2964dc87bf786a944c28f457a646e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "State Propagation Also Satisfies: A Complex-Valued State-Space Model for Deterministic State Tracking",
+  "url": "https://arxiv.org/abs/2608.03425",
+  "summary": "arXiv:2608.03425v3 Announce Type: replace Abstract: Despite the dominance of massive language models, leading paradigms like Transformers and Mamba fundamentally falter at continuous deterministic state tracking, suffering from catastrophic out-of-distribution (OOD) collapse when generalizing to extended sequences. To shatter this bottleneck, we present the \\textbf{Complex State Propagator (CSP)}, a radically minimalist recurrent paradigm that operates strictly on the complex phase manifold without intermediate output projections, amplitude modulations, or per-step non-linearities. Crucially, we unveil an unprecedented architectural marvel: \\textbf{the phase signal survives extreme depth with absolute zero informational attenuation}. By implementing an exact four-quadrant \\textbf{Coordinate-to-Phase (C-to-2)} transformation governed by the \\(\\text{atan2}(y, x)\\) activation, CSP forces the continuous optimization landscape to seamlessly align with discrete cyclic groups. Remarkably, with a mere \\textbf{3-layer hidden topology} trained on short inputs (length 16),CSP demonstrates absolute mathematical purity, achieving a nearly $100\\%$ validation accuracy and F1-score when generalized to a $4\\times$ prolonged OOD length of 64 on the canonical Mod-3 tracking task. Our work establishes complex-valued, pure-phase propagation not merely as a compact alternative, but as a dominant frontier that beats heavy networks at a fraction of their size.",
+  "published": "2026-08-04T10:16:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.432228+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T02:14:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.03425v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.727919+00:00"
+}

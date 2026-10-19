@@ -1,0 +1,21 @@
+{
+  "id": "d175bb7edda7f329e863c767082d64f7e77a2daaf34281d7756f46d19df0063a",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Skill-SLM: Agent Skill-driven Small Language Models for Reliable Robot Operation",
+  "url": "https://arxiv.org/abs/2610.10812",
+  "summary": "arXiv:2610.10812v1 Announce Type: new Abstract: Small language models (SLMs) have been increasingly adopted for onboard robot operation because they enable intelligent decision-making. However, existing approaches are mainly distillation-oriented and rely on enumerating representative task-solution pairs. This makes dataset construction difficult and limits generalization to diverse robot tasks whose possible forms grow rapidly. This paper proposes Skill-SLM, a framework that reformulates SLM-driven robot operation as a task-decomposition and skill-composition problem. Given a natural language task instruction, Skill-SLM decomposes the task into subtasks, selects appropriate skills from the skill library, and orchestrates the selected skills into executable robot operations. First, to support the skill-driven workflow, we propose a novel robot operational skill aware context-free grammar (CFG) to extract the skills required to accomplish tasks and build the skill library accordingly. Then, we configure LLM teachers to induce and synthesize training datasets for the SLMs, enabling SLMs to decompose tasks and orchestrate skills reliably. Additionally, we employ a progressive skill orchestration strategy to improve the reliability of skill implementation and overall robot operation. Experiments on UAV operation tasks indicate that Skill-SLM substantially outperforms distillation-oriented baselines, especially on unseen tasks that require generalization of capabilities. Additional experiments on ground vehicle tasks further demonstrate that Skill-SLM can be applied to different robot platforms.",
+  "published": "2026-10-07T19:17:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.732547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:17:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10812v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.083900+00:00"
+}

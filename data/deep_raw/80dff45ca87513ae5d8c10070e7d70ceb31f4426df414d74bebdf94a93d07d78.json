@@ -1,0 +1,22 @@
+{
+  "id": "80dff45ca87513ae5d8c10070e7d70ceb31f4426df414d74bebdf94a93d07d78",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Stop Probing, Start Coding: Why Linear Probes and Sparse Autoencoders Fail at Compositional Generalisation",
+  "url": "https://arxiv.org/abs/2603.28744",
+  "summary": "arXiv:2603.28744v2 Announce Type: replace Abstract: The linear representation hypothesis states that neural network activations encode high-level concepts as linear mixtures. However, under superposition, this encoding is a projection from a higher-dimensional concept space into a lower-dimensional activation space, and a linear decision boundary in the concept space need not remain linear after projection. In this setting, classical sparse coding methods with per-sample iterative inference leverage compressed sensing guarantees to recover latent factors. Sparse autoencoders (SAEs), on the other hand, amortise sparse inference into a fixed encoder, introducing a systematic gap. We show this amortisation gap persists across training set sizes, latent dimensions, and sparsity levels, causing SAEs to fail under out-of-distribution (OOD) compositional shifts. Through controlled experiments that decompose the failure, we identify dictionary learning as the limiting factor (not the inference procedure): SAE-learned dictionaries point in substantially wrong directions, and replacing the encoder with per-sample FISTA on the same dictionary does not close the gap. An oracle baseline proves the problem is solvable with a good dictionary at all scales tested. Our results, including experiments with real LLM activations (Pythia-70M, Gemma-2-2B) reframe the SAE failure as a dictionary learning challenge, not an inference problem, and point to scalable dictionary learning as the key open problem for sparse inference under superposition.",
+  "published": "2026-03-30T17:52:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.123410+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T17:25:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.28744v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.458879+00:00"
+}

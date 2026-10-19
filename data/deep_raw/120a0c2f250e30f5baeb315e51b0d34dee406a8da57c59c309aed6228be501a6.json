@@ -1,0 +1,18 @@
+{
+  "id": "120a0c2f250e30f5baeb315e51b0d34dee406a8da57c59c309aed6228be501a6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards",
+  "url": "https://arxiv.org/abs/2605.10899",
+  "summary": "arXiv:2605.10899v2 Announce Type: replace-cross Abstract: Deep research agents plan, search, evaluate evidence, and synthesize long-form reports. Training these agents with reinforcement learning (RL) is challenging because they operate over long horizons and their outputs lack exact answer verifiers. To this end, we introduce RubricEM, a unified RL framework for deep research that combines stagewise credit assignment with reflection-based meta-RL for experience reuse. Rubrics unify the framework by providing a shared interface for policy execution, judge feedback, and experience reuse. RubricEM first instills a rubric-guided scaffold through supervised fine-tuning, teaching the agent to plan with rubrics and organize its trajectory into semantic stages. Building on this structural prior, we optimize the task policy with Stage-Structured GRPO, using stagewise judge feedback for finer-grained credit assignment. In parallel, we asynchronously train a shared-backbone reflection meta-policy (with meta-RL) to distill completed trajectories into reusable guidance, contributing through both shared-parameter updates and textual memory. The resulting RubricEM-8B model achieves strong performance across four long-form research benchmarks, outperforming existing open models of larger sizes and approaching proprietary deep-research systems. Beyond final performance, we perform thorough controlled analyses to understand the key ingredients of RubricEM.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.238725+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "00717a6e35e58456c2b013c2673ea1b88b9e451b48971fc806691fa57c89d116",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Bellman Meets Lyapunov: Unsupervised Reinforcement Learning via Mastering Chaos",
+  "url": "https://arxiv.org/abs/2610.02012",
+  "summary": "arXiv:2610.02012v1 Announce Type: new Abstract: Reinforcement learning (RL) is a powerful paradigm for training agents, yet its success rests on domain expertise of human engineers who design informative reward signals for every new task. Unsupervised RL aims to reduce this engineering with intrinsic motivation (IM): reward signals that emerge from the agent environment interaction itself. Existing IM objectives, however, involve the selection of information variables, which re-introduces domain expertise the field has sought to eliminate. We introduce Forward CIP (F-CIP), an RL-native formulation of the Controllable Information Production (CIP) objective, which is defined by the system's dynamics alone and requires no such selection. We prove that F-CIP is compatible with RL and demonstrate its effectiveness with existing algorithms. Training agents with F-CIP results in unsupervised discovery of primitive behaviors such as balancing and maintaining controllability, which are essential for more complex robot behaviors. Paired with a simple forward-velocity reward, our method produces coordinated gaits such as hopping and running which otherwise require reward engineering to learn.",
+  "published": "2026-10-01T16:38:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.800491+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:38:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02012v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.251206+00:00"
+}

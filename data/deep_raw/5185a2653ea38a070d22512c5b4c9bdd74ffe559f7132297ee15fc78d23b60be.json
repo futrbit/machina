@@ -1,0 +1,22 @@
+{
+  "id": "5185a2653ea38a070d22512c5b4c9bdd74ffe559f7132297ee15fc78d23b60be",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "In CEM, a World Model Is Also a Proposal Mechanism",
+  "url": "https://arxiv.org/abs/2610.00921",
+  "summary": "arXiv:2610.00921v1 Announce Type: new Abstract: The cross-entropy method (CEM) uses world-model scores to select action sequences and fit the distribution sampled in its next iteration. A scoring error can therefore change both the present decision and the candidates considered later. We evaluate these two roles separately. Four types of predictive model generate CEM traces, and every model rescores every saved candidate pool. Executing the same candidates in the environment provides a reference elite set and proposal update. Across twelve independently trained task-seed units on Walker and Cheetah, the pre-specified proposal distance falls from the first to the final CEM iteration in every unit. Proposal widths contract and fitted means separate relative to the remaining search width. Pairwise ranking agreement stays near chance on Walker and declines on Cheetah; elite-set agreement does not improve. This comparison shows greater variation between scorers than between pool sources on Cheetah; Walker has variation in both and in their pairings. We use the original six units to select Random nonlinear for a one-update intervention, without inspecting intervention outcomes. Replacing its first model-ranked update with an environment-ranked update lowers final realised selected-sequence cost in those six units and in six further units held out from the selection.",
+  "published": "2026-10-01T01:57:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.783502+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T01:57:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00921v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.520445+00:00"
+}

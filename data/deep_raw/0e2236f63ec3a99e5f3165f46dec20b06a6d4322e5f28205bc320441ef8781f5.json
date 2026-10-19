@@ -1,0 +1,21 @@
+{
+  "id": "0e2236f63ec3a99e5f3165f46dec20b06a6d4322e5f28205bc320441ef8781f5",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Demo: Closed-Loop Sionna-Isaac Sim Co-Simulation Framework for Wireless-Aware Robot Navigation over ROS 2",
+  "url": "https://arxiv.org/abs/2610.08618",
+  "summary": "arXiv:2610.08618v1 Announce Type: cross Abstract: A robot that offloads its control loop to the network carries the receiver with it, so link quality is decided by where it goes. Simulating this requires both a physics engine and a site-specific propagation model at once; to our knowledge no simulator natively unifies both, with existing couplings of the two limited to offline analyses. We demonstrate a real-time co-simulation framework coupling NVIDIA Isaac Sim and NVIDIA Sionna over ROS 2 that closes the perception-action-communication (PAC) loop between them. Sionna ray-traces the base-station-to-robot channel over the exact geometry Isaac Sim simulates on, rather than modeling it stochastically, and feeds channel states back into the control loop in real time. Ray-traced on GPU, the coverage map is refreshed in ~16ms (~60 Hz), fast enough for real-time control. To showcase the framework's utility, we implement a wireless-aware navigation application in an OpenStreetMap(OSM)-derived SUTD campus twin with two Nova Carter robots: the closed-loop planner eliminates communication outage at only +7.4% traversal time over the shortest-path baseline (which spends 7.9 s of its 81.2 s run disconnected).",
+  "published": "2026-10-06T16:17:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.476013+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:17:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08618v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.614988+00:00"
+}

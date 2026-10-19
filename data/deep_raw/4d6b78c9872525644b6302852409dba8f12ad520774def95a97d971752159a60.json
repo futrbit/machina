@@ -1,0 +1,18 @@
+{
+  "id": "4d6b78c9872525644b6302852409dba8f12ad520774def95a97d971752159a60",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Anisotropic Representation Dynamics in Transformers",
+  "url": "https://arxiv.org/abs/2610.23242",
+  "summary": "arXiv:2610.23242v1 Announce Type: new Abstract: Small differences between internal representations can shrink or grow as they pass through a Transformer layer, affecting how information is preserved and how sensitive the model is to perturbations. Yet it remains unclear when changes in attention weights can turn a representation difference that would otherwise shrink into one that grows. We develop a \\textbf{Mixture-Gated Theory of Anisotropic Representation Dynamics} that separates self-attention into value transport, query gating, and key gating. Our analysis reveals how the geometry of attended representations constrains gating and how interactions between these mechanisms can reverse contraction induced by value transport. We formalize this phenomenon as gating-induced regime switching, where a representation difference contracts under fixed attention routing but expands under full attention. We derive a necessary and sufficient spectral criterion that certifies the existence or absence of switching and identifies switching directions without exhaustive search. Beyond existence, our theory characterizes maximum relative switching strength, certifies the severity of contraction that gating can overcome, and determines the largest dimension of a subspace in which every nonzero direction switches. Experiments across four Transformer architectures validate these predictions through analytical and finite-forward comparisons, revealing distinct and joint query--key gating mechanisms and nontrivial switching subspaces. Our results provide a mechanistic and spectral understanding of how attention routing can alter local representation dynamics.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.203748+00:00"
+}

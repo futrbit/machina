@@ -1,0 +1,17 @@
+{
+  "id": "5b3c6f26987b4f3fc0cc56c9161e3b8a65980e39566ae5767b77191493cf8ed0",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Mitigating Demographic Disparities in Explanation-Human Alignment via Rationale Regularization",
+  "url": "https://arxiv.org/abs/2610.22586",
+  "summary": "arXiv:2610.22586v1 Announce Type: cross Abstract: We study explanation fairness in hate speech detection. High classification performance does not always mean that a model produces equally plausible explanations for different demographic groups. Using the HateXplain dataset, we introduce Plausibility-EFG, a metric that measures the largest difference in explanation plausibility across demographic groups by comparing model-generated token attributions with human-annotated rationales. We evaluate BERT, RoBERTa, and ADV-RoBERTa, an adversarially trained model, using Integrated Gradients and SHAP. Our results show that ADV-RoBERTa improves classification performance and alignment between explanations and human rationales while reducing explanation disparities across demographic groups. These improvements are observed with both attribution methods and remain consistent across training, validation, and test splits. We also show that reducing prediction-level bias alone does not eliminate disparities in explanations, suggesting that predictive fairness and explanation fairness are related but distinct objectives. Finally, our fairness-performance analysis shows that stronger adversarial regularization can further reduce Plausibility-EFG, although it may cause a small decrease in macro-F1. Overall, this work presents explanation fairness as an important objective in hate speech moderation and introduces Fair-REF, a framework designed to reduce disparities in model explanations across demographic groups.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.191141+00:00"
+}

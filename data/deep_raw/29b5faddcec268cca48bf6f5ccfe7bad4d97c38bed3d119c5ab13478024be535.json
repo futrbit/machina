@@ -1,0 +1,22 @@
+{
+  "id": "29b5faddcec268cca48bf6f5ccfe7bad4d97c38bed3d119c5ab13478024be535",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "You've Seen Enough: Quality-Constrained Image Coding for Machines",
+  "url": "https://arxiv.org/abs/2609.25108",
+  "summary": "arXiv:2609.25108v2 Announce Type: replace Abstract: Visual data is increasingly consumed by machine-vision systems rather than by human observers. Image Coding for Machines (ICM) compresses images assuming the main observer is a computer vision application and that the human observer needs to inspect or validate the decisions. Inspired by just-noticeable distortion, we cap human-observed quality at a desired level and devote the remaining bits to machine performance. Specifically, joint compression-segmentation training is recast as a constrained optimization problem in which the codec must meet a predefined acceptable target visual quality while a task term consumes the remaining coding capacity. This paper proposes two variants of a penalty function that guides the quality toward the target: an absolute function and a bilinear function, the latter applying a steeper slope once the target visual quality is exceeded. Experimental results show that, under the quality constraint, the proposed method achieves BD-rates of $-22.82\\%$ and $-29.81\\%$ relative to an unconstrained joint rate--distortion--task optimization and a simple rate--distortion baseline, respectively, showcasing bitrate reduction with the same task performance. This is achieved while the codec also meets the target visual quality with a reasonable error and without adding any complexity overhead.",
+  "published": "2026-09-20T04:02:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.238160+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T23:02:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.25108v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.282191+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "4b96ca9a758b4ee12fde4e02fff381e98938e38465d59e3c013f189c8e19a964",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "asdex: Automatic Sparse Differentiation in JAX",
+  "url": "https://arxiv.org/abs/2610.12336",
+  "summary": "arXiv:2610.12336v1 Announce Type: cross Abstract: Many tasks in scientific computing and machine learning require the Jacobian or Hessian matrix of a function. Automatic differentiation (AD) computes these derivatives to machine precision, but materializing a dense $m \\times n$ Jacobian requires $n$ forward-mode or $m$ reverse-mode AD passes, one per column or row. For a large class of functions, each output depends on only a few inputs, making the derivative matrix sparse. Automatic sparse differentiation (ASD) exploits this structure in four steps: detection of the input-agnostic sparsity pattern, coloring of a graph to group columns or rows that can share an AD pass, compressed differentiation to compute a compressed derivative matrix with one AD pass per color, and finally decompression into the original sparsity pattern. The number of colors, and hence of AD passes, is often independent of the problem dimension: a banded Jacobian with $b$ contiguous bands, for instance, only ever requires $b$ colors, regardless of its size. asdex offers the first standalone ASD toolkit in the popular JAX ecosystem. With asdex.jacobian and asdex.hessian, it provides sparse drop-in replacements for jax.jacobian and jax.hessian.",
+  "published": "2026-10-08T17:13:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.117411+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:13:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12336v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.382529+00:00"
+}

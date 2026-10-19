@@ -1,0 +1,18 @@
+{
+  "id": "53e31e3f302caf1472161310951c0d2c4f34197553de3b5908accf5cbebee957",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Adaptive Conditional Residual Sampling for Spectral Risk Optimisation under Decision-Dependent Uncertainty",
+  "url": "https://arxiv.org/abs/2603.12507",
+  "summary": "arXiv:2603.12507v3 Announce Type: replace Abstract: We consider minimising a spectral risk objective, the expected cost plus a weighted conditional value-at-risk, when the distribution of the uncertain parameters depends on the decision and can only be sampled through a stochastic simulator under a fixed budget of draws. We propose adaptive conditional residual sampling (ACRS). It takes one simulator draw at each point of a space-filling design, fits a heteroscedastic regression model of the decision-dependent distribution and reuses the standardised residual vectors as scenarios to construct a deterministic surrogate. ACRS searches this surrogate for several local optima, adds draws around the most promising ones, ranks the candidates on the simulator with common random numbers and finishes with sample-path local refinement using tail importance sampling. We show that the optimality gap of the surrogate minimiser is bounded by the Wasserstein error of the scenario distribution and that the refinement estimator is consistent. In the experiments, all methods share the budget accounting, the design sampler and the local refinement routine, and solutions are scored by normalised regret against reference optima. On 60 random instances of an analytic family with a closed-form objective, ACRS attains a mean regret of 11.8% against 22.3-42.3% for Bayesian optimisation, cross-entropy, kernel-density, stochastic-gradient and refinement-only baselines; its lead is largest at small budgets and, relative to the kernel-density method, tends to grow with the dimension. ACRS also has the lowest mean regret on two six-dimensional benchmarks and three development problems, and performs comparably to pure local refinement on three held-out problems frozen before testing.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.225733+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fd15a7a2dd478cb4de350cd08b5185fabaff8e264954ac4e5e24b83d7b96ef02",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+  "url": "https://arxiv.org/abs/2610.12403",
+  "summary": "arXiv:2610.12403v1 Announce Type: new Abstract: Skill-augmented agents improve sample efficiency by distilling successful trajectories into reusable strategies. Yet most existing approaches remain text-centric, linearizing spatial layouts and action-state correspondences into language that loses critical geometric structure. Recent efforts have begun incorporating visual evidence, but construct and update skills separately from policy optimization, leaving their mutual improvement underexplored. We propose ViSkill, a visual-native skill learning framework that encodes successful interactions as composite visual skill cards directly accessible to VLM agents. Retrieved skills guide both inference and reward shaping, while successful trajectories are distilled back into the library, forming a closed feedback loop in which skill accumulation and policy improvement reinforce each other. An optional cold-start mechanism further accelerates early-stage learning. Evaluated on Sokoban, FrozenLake, and PrimitiveSkill, ViSkill achieves an overall success rate of 0.89, rising to 0.91 with cold-start initialization, outperforming all evaluated proprietary and open-source baselines while converging faster than standard PPO. Our code is available at https://github.com/ZJU-REAL/ViSkill.",
+  "published": "2026-10-08T17:44:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.763040+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:44:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12403v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.593593+00:00"
+}

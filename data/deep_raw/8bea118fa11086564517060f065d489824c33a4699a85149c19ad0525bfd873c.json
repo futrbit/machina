@@ -1,0 +1,22 @@
+{
+  "id": "8bea118fa11086564517060f065d489824c33a4699a85149c19ad0525bfd873c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "ERASE: Eliminating Redundant Visual Tokens via Adaptive Two-Stage Token Pruning",
+  "url": "https://arxiv.org/abs/2605.09982",
+  "summary": "arXiv:2605.09982v2 Announce Type: replace Abstract: Recent advances in Vision-Language Models (VLMs) enable large language models (LLMs) to process high-resolution images, significantly improving real-world multimodal understanding. However, this capability introduces a large number of vision tokens, incurring substantial computational overhead. To mitigate this issue, various vision token compression methods have been proposed. Existing methods often estimate different sources of visual redundancy using learned representations or fixed pruning schedules. We propose ERASE, an adaptive two-stage framework that separates image-level redundancy removal from instruction-dependent token pruning. Stage 1 derives image-dependent token retention from lightweight raw-image statistics, while Stage 2 progressively removes instruction-irrelevant tokens across decoder layers. Experiments demonstrate substantial token reduction while preserving accuracy: on Qwen2.5-VL-7B, ERASE retains 95.70% of the original model's accuracy at 25% token retention. Our code is available at https://github.com/Tuna-Luna/ERASE.",
+  "published": "2026-05-11T04:50:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.785027+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:23:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.09982v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.685742+00:00"
+}

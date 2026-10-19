@@ -1,0 +1,21 @@
+{
+  "id": "fb9db1ba726a4ce6ffb6fd05c44789458801471623ca3b6355d0be076a75eba8",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Feeling Through the Load: Compliant Quadruped Locomotion under Payload Interactions",
+  "url": "https://arxiv.org/abs/2610.08637",
+  "summary": "arXiv:2610.08637v1 Announce Type: new Abstract: Quadruped robots are increasingly expected to carry objects while moving through human environments. But what happens when a person interacts directly with the payload rather than with the robot? If the payload is unrestrained, the robot must distinguish intentional external interactions from ordinary payload motion, while still keeping the load balanced and maintaining stable locomotion. How can a quadruped infer and compliantly respond to such interactions using only onboard measurements? In this work, we develop a force-aware locomotion framework that treats payload interactions as commands that shape the motion of the combined robot-payload system. Our approach separates the learning of force-aware locomotion and force estimation on an unrestrained payload. We combine a compliant load-carrying policy with a causal force estimator, trained through estimator-in-the-loop data aggregation and finetuning, to predict interactions from onboard robot measurements. Our simulations and real-world experiments show that the resulting controller can maintain stable payload-carrying locomotion, yield compliantly to external interactions, and use the inferred force to support human-guided changes in the robot's trajectory.",
+  "published": "2026-10-06T16:32:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.471017+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:32:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08637v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.568608+00:00"
+}

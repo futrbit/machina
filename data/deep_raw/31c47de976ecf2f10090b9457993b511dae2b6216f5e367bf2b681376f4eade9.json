@@ -1,0 +1,21 @@
+{
+  "id": "31c47de976ecf2f10090b9457993b511dae2b6216f5e367bf2b681376f4eade9",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "GenZ-LIO: Generalizable LiDAR-Inertial Odometry Beyond Confined--Open Boundaries",
+  "url": "https://arxiv.org/abs/2603.16273",
+  "summary": "arXiv:2603.16273v3 Announce Type: replace Abstract: For field robotic missions such as inspection, search-and-rescue, and exploration, light detection and ranging (LiDAR)-inertial odometry (LIO) can serve as a core component of autonomy by providing localization and mapping in GNSS-denied or unstructured environments. However, transitions between confined and open spaces, which are commonly encountered in field deployments, can induce substantial changes in scan density and local geometric structure, thereby reducing the robustness and computational efficiency of LIO. To address these issues, we present GenZ-LIO, a generalizable LIO framework designed to adapt to variations in spatial scale across confined and open environments. GenZ-LIO comprises three components: (i) scale-aware adaptive voxelization for regulating scan downsampling across spatial-scale changes, (ii) hybrid-metric state update for combining point-to-plane and point-to-point residuals under varying geometric structure, and (iii) voxel-pruned correspondence search for efficient point-to-point matching. We conduct a comprehensive evaluation using 42 sequences from nine public datasets and our newly collected NarrowWide dataset to analyze LIO performance under spatial-scale variations across diverse field scenarios. Across the evaluated sequences, GenZ-LIO maintains stable odometry estimation without divergence, indicating practical robustness under the tested field conditions. Our code is available at https://github.com/cocel-postech/genz-lio .",
+  "published": "2026-03-17T09:05:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.481010+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:57:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.16273v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.455087+00:00"
+}

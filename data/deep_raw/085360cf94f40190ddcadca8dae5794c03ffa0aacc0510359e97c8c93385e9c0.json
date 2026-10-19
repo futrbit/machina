@@ -1,0 +1,22 @@
+{
+  "id": "085360cf94f40190ddcadca8dae5794c03ffa0aacc0510359e97c8c93385e9c0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Co-Evolving Paths and Flows via Path-Flow Alignment",
+  "url": "https://arxiv.org/abs/2610.08717",
+  "summary": "arXiv:2610.08717v1 Announce Type: cross Abstract: We study path-flow alignment as a unified training objective for flow matching. Instead of fixing the interpolation path and learning only the velocity field, we jointly train an endpoint-preserving path network and a flow network using the same alignment loss: the flow learns to match the path velocity, and the path learns to align its velocity to the current flow. Although every fixed learned path defines a valid flow-matching objective, the alignment loss alone is not a reliable criterion for path learning. We identify path overfitting, a failure mode in which the alignment loss decreases while sample quality worsens. We find that this failure is associated with low-entropy bottlenecks in the induced probability path, where the learned path routes samples through overly concentrated intermediate marginals. Motivated by this diagnosis, we introduce a stochastic path regularizer that hides part of the source information from the path network while preserving exact endpoints. The resulting regularization gives an explicit entropy floor for the stochastic training-path marginals and empirically suppresses the bottleneck in the learned sampler, making joint path-flow training effective. On ImageNet-256x256 with SiT backbones, our method consistently improves FID across model scales, extends to model-guidance training, and leaves the inference-time architecture and sampler unchanged. Code is available at https://github.com/lizeyu090312/traj_opt_paper",
+  "published": "2026-10-06T17:24:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.108469+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:24:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08717v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.427100+00:00"
+}

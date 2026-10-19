@@ -1,0 +1,21 @@
+{
+  "id": "b6ec834dee27a6f142d49ec9e0dbcbd48805cc091c7d18d848175ecadf9f338b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "A Trust Layer for Agent Evaluation",
+  "url": "https://arxiv.org/abs/2610.07274",
+  "summary": "arXiv:2610.07274v1 Announce Type: new Abstract: Deterministic benchmark scores show that an agent received credit, but not whether that credit was earned, reported honestly, or would hold on a second run. We introduce a Trust Layer for Agent Evaluation, an additive post-hoc framework that reports, beside each recorded score, whether it should be believed. It verifies four properties: whether the result is supported by the benchmark's own grading logic, whether a passing answer was earned through traceable computation, whether the agent's completion claim matches what occurred, and whether the result is stable under repeated execution. The first three use only saved artifacts; the fourth re-runs the agent. Model judgments only label evidence under majority voting; all verdicts follow deterministic rules and never modify the recorded score. Applied to five agent configurations on 108 tasks from Agents' Last Exam, every model shows passing runs with no traceable computation (at rates varying tenfold), confirmed false completion claims, and unstable results: 18-46% of tasks do not stay in one score band over five runs. Only 22.6% of recorded passes clear all four checks (95% CI 15.0-32.6, n=84). Measuring what an agent can do and verifying that it did it are different problems, and current benchmarks address only the first.",
+  "published": "2026-10-05T19:15:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.127828+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:15:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07274v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.729114+00:00"
+}

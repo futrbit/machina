@@ -1,0 +1,22 @@
+{
+  "id": "b86c4ebcf40bf9d2469f96e20ba1fe5d430531f6b774b3fe96b0f9a7110f20b2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Why Does Train-Validation Separation Emerge? Update-Pressure Density Dynamics in Pretrained Backbones",
+  "url": "https://arxiv.org/abs/2610.01425",
+  "summary": "arXiv:2610.01425v1 Announce Type: new Abstract: Train-validation separation is the evolving difference between performance on observed training examples and a finite held-out validation set. We propose a dynamic structural account of how this gap develops during adaptation of pretrained models: continued fitting can shift update demand from broadly reusable support toward narrower support with weaker held-out transfer. A conditional local model links this shift to increasing heterogeneity in gradient allocation and train-validation separation. Fixed training probes make this structural evolution observable without validation examples entering the readouts; held-out performance is used separately to evaluate its relation to the gap. In a constructed hierarchy implemented with a residual multilayer perceptron (ResMLP), increasing the target share of example-private features from $p=.3$ to $.5$ to $.7$, while preserving the relative mixture $1{:}2{:}3{:}4$ among the four shared feature levels, increases the final mean accuracy gap from $.185$ to $.331$ to $.527$ across five runs per condition. Masked-input losses measured separately on training and validation examples expose the corresponding transfer asymmetry. The natural language processing (NLP) analysis uses 10-epoch runs of RoBERTa, DeBERTa, and Qwen on six datasets (90 runs): the training-probe-weighted within-class and overall dispersion readouts each have positive raw and smoothed level correlations with the accuracy gap in all 90 runs. Raw changes paired at approximately one-epoch intervals remain positively associated in 86/90 and 87/90 runs, respectively. A 40-epoch ResNet-18 study tests both readouts on three vision datasets. Together, controlled simulation, NLP, and vision support the dynamic structural account across settings, with real-model evidence testing its observable predictions under the specified monitors.",
+  "published": "2026-10-01T10:25:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.791497+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T10:25:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01425v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.751100+00:00"
+}

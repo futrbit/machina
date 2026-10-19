@@ -1,0 +1,21 @@
+{
+  "id": "68df1d02cedb1f9feca1227841a5f51c03ce539450aef95eda284ecbcf68d77e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation",
+  "url": "https://arxiv.org/abs/2610.11657",
+  "summary": "arXiv:2610.11657v1 Announce Type: new Abstract: Dexterous teleoperation requires reliable human-hand state estimations. However, common low-cost motion-capture gloves and markerless trackers often exhibit biases that vary across users, glove fit, and recording sessions, degrading retargeting and demonstration quality. We present YOCO, a fast few-shot, fine-tuning-free calibration framework that corrects biased hand-pose streams from a small set of paired raw and target poses. Instead of optimizing a separate model for every operator or session, YOCO conditions a calibration HyperNet on the paired examples and predicts LoRA-style updates for a frozen MANO hand-estimation module, turning per-user calibration into a lightweight feed-forward adaptation step while preserving the geometric prior of MANO and the efficiency of a compact estimator. We train YOCO with synthetic drift augmentations on InterHand2.6M and evaluate on augmented InterHand sequences, offline real glove data, and dexterous teleoperation tasks. Across these settings, YOCO improves calibration efficiency, hand-state estimation quality and teleoperation performance compared with uncalibrated input and standard calibration baselines.",
+  "published": "2026-10-08T10:34:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.740547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:34:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11657v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.946189+00:00"
+}

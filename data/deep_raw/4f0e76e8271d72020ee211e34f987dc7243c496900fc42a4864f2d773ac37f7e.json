@@ -1,0 +1,22 @@
+{
+  "id": "4f0e76e8271d72020ee211e34f987dc7243c496900fc42a4864f2d773ac37f7e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Early Learning Shapes Later Directions Of Representation Change In Continual Learning",
+  "url": "https://arxiv.org/abs/2609.36081",
+  "summary": "arXiv:2609.36081v2 Announce Type: replace Abstract: Representations continually change as a network learns new tasks. We ask whether early representational changes naturally form a geometric structure that continues to shape later learning. We identify a low-dimensional subspace of early representation drift, which we call a scaffold, and test whether it is reused across subsequent tasks. Across four pretrained visual encoders and two datasets, later representational changes consistently favor this early-defined subspace over matched random alternatives. This reuse is history-dependent: when networks experience different early tasks but identical later training inputs, each network preferentially reuses the scaffold induced by its own learning history. The same preference appears in individual optimizer updates, even though the network's dominant local response directions shift away from the original scaffold. Finally, constraining motion within the scaffold slows new-task acquisition more than matched random constraints, while effects on old-task retention are less consistent. In summary, these results suggest that early experience leaves a persistent geometric imprint on how neural networks adapt to future tasks.Code is available at https://github.com/YuantaoDeng/latent-scaffold.",
+  "published": "2026-09-28T18:26:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.837468+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:15:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.36081v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.465478+00:00"
+}

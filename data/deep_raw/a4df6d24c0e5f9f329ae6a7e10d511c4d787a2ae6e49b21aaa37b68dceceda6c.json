@@ -1,0 +1,22 @@
+{
+  "id": "a4df6d24c0e5f9f329ae6a7e10d511c4d787a2ae6e49b21aaa37b68dceceda6c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Learning from Next-Frame Prediction: Autoregressive Video Modeling Encodes Effective Representations",
+  "url": "https://arxiv.org/abs/2512.21004",
+  "summary": "arXiv:2512.21004v2 Announce Type: replace Abstract: Recent advances in pretraining general foundation models have significantly improved performance across diverse downstream tasks. While autoregressive (AR) generative models like GPT have revolutionized NLP, most visual generative pretraining methods still rely on BERT-style masked modeling, which often disregards the temporal information essential for video analysis. The few existing autoregressive visual pretraining methods suffer from issues such as inaccurate semantic localization and poor generation quality, leading to poor semantics. In this work, we propose NExT-Vid, a novel autoregressive visual generative pretraining framework that utilizes masked next-frame prediction to jointly model images and videos. NExT-Vid introduces a context-isolated autoregressive predictor to decouple semantic representation from target decoding, and a conditioned flow-matching decoder to enhance generation quality and diversity. Through context-isolated flow-matching pretraining, our approach achieves strong representations. Extensive experiments on large-scale pretrained models demonstrate that our proposed method consistently outperforms previous generative pretraining methods for visual representation learning via attentive probing in downstream classification.",
+  "published": "2025-12-24T07:07:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.234549+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T14:47:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.21004v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.287380+00:00"
+}

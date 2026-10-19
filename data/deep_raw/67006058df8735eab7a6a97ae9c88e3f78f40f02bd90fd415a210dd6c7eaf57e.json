@@ -1,0 +1,21 @@
+{
+  "id": "67006058df8735eab7a6a97ae9c88e3f78f40f02bd90fd415a210dd6c7eaf57e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SeA-RVINS: Semantic-Aware Tightly Coupled RTK-Visual-Inertial System with Correlation-Preserving Robust Estimation for Urban Navigation",
+  "url": "https://arxiv.org/abs/2609.30814",
+  "summary": "arXiv:2609.30814v1 Announce Type: new Abstract: Reliable absolute pose estimation in urban environments is undermined by outlier measurements and incorrect temporal associations that can persist in tightly coupled estimators. Global Navigation Satellite System (GNSS) observations provide globally referenced measurements but are prone to multipath effects. Visual-inertial sensing supplies local motion constraints, but false visual associations can corrupt the estimator. We present SeA-RVINS, a fixed-lag factor-graph Real-Time Kinematic (RTK) visual-inertial system for robust urban pose estimation. A semantic-aware learned stereo frontend rejects unreliable tracks before persistent landmarks enter the graph. For double-differenced GNSS measurements, SeA-RVINS applies Dynamic Covariance Scaling through configurable batch, scalar, and latent-pivot robust formulations while retaining the shared-pivot correlation structure. We propose a hybrid ambiguity-continuation strategy that shares one ambiguity state over short arcs with verified continuity and softly links successive arcs through random-walk factors. On an approximately 20-km route from the public TEX-CUP dataset, including about 50\\% deep-urban driving, the latent-pivot configuration achieves 100\\% availability and a 1.6-m maximum horizontal error, with 96.16\\% and 99.90\\% of epochs below 1.0 and 1.5 m, respectively. The implementation is released as open-source software",
+  "published": "2026-09-25T04:49:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.375200+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T04:49:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30814v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.916207+00:00"
+}

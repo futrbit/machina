@@ -1,0 +1,21 @@
+{
+  "id": "eddf0eee8087df14c6559f544d8d086b15f9855ac64b87c91c28b858a303ab7b",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "MIM-VLA: Learning Physical Interaction Representations from Gripper Motor Feedback",
+  "url": "https://arxiv.org/abs/2610.08425",
+  "summary": "arXiv:2610.08425v1 Announce Type: new Abstract: Vision-language-action (VLA) policies infer grasp actions primarily from visual observations and robot state, but do not explicitly represent the physical response observed after contact. We present MIM-VLA, a motor-feedback-based architecture that encodes recent gripper current, position, velocity, and signal validity as a 128-dimensional interaction token. A motor-only Motor Interaction Module (MIM) is pretrained with human-reviewed contact and interaction-phase labels and then conditions only the gripper-action pathway of SmolVLA; arm actions and the position-control interface remain unchanged. The same token supports the MEM selector VLM that compares candidate interactions and produces evidence-conditioned selections and explanations. We evaluate MIM-VLA in three real-world settings: comparing the interaction resistance of visually different objects, disambiguating visually similar real and replica objects through active probing, and gently grasping fragile objects, including held-out instances. Across 13 object pairs, MIM-VLA selects the higher-resistance object in 75.0% of trials, compared with 48.8% for the SmolVLA baseline. For the evaluated tasks, the approach uses motor feedback already available from the gripper and does not require an additional tactile array, force-torque sensor, calibrated force estimate, or direct current control.",
+  "published": "2026-10-06T14:28:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.467018+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:28:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08425v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.404707+00:00"
+}

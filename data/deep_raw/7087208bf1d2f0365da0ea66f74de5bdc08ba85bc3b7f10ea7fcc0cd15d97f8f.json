@@ -1,0 +1,21 @@
+{
+  "id": "7087208bf1d2f0365da0ea66f74de5bdc08ba85bc3b7f10ea7fcc0cd15d97f8f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Probability-Signature Dynamics: Unpacking Modular Addition Learning Within Two-Layer Networks",
+  "url": "https://arxiv.org/abs/2610.11833",
+  "summary": "arXiv:2610.11833v1 Announce Type: new Abstract: Neural networks trained on modular addition tasks often develop Fourier-structured representations that support exact generalization. While prior work has identified these Fourier circuits, the mechanism by which gradient-based training selects them from the data distribution remains unclear. We address this question using probability signatures, which express leading gradient interactions through conditional statistics of the training distribution. For modular addition, these signatures are cyclic shift operators and are diagonalized by the discrete Fourier transform, yielding approximately decoupled Fourier-mode dynamics. This explains the emergence of Fourier sparsity, frequency matching, and phase alignment. The same framework resolves a puzzle under label noise: corrupted examples can show faster early loss decrease than clean examples, despite lacking a coherent generalization rule. We show that noise increases conditional label collisions, strengthening early shared-coordinate reinforcement. Finally, this method can be applied to other operators. Taking XOR as an example, we observed the predicted frequency in experiments.",
+  "published": "2026-10-08T12:27:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.373388+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:27:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11833v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.086104+00:00"
+}

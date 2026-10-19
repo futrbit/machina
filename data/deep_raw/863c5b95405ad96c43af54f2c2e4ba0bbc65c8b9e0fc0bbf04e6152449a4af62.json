@@ -1,0 +1,22 @@
+{
+  "id": "863c5b95405ad96c43af54f2c2e4ba0bbc65c8b9e0fc0bbf04e6152449a4af62",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "One-Step Generative Modeling via Training Dynamics Action",
+  "url": "https://arxiv.org/abs/2610.00518",
+  "summary": "arXiv:2610.00518v1 Announce Type: new Abstract: One-step generative models construct a static generator through iterative training-time transport. Existing transport objectives primarily assess distributional motion, although a neural generator needs to realize the requested sample displacements jointly through shared parameter updates. The training-time construction raises the question: \\emph{once training becomes the iterative process that constructs the final one-step map, what to optimize: the next distributional move, or the route by which the finite generator learns the final map?} To address the question, we introduce \\textbf{T}raining \\textbf{D}ynamics \\textbf{A}ction (\\textbf{TDAction}), which selects transport targets according to local shared-parameter realization cost while retaining a prescribed level of distributional progress. We formulate the cost as a soft-terminal control problem and derive a closed-form Batch Tangent Action-to-Go value that accounts for parameter effort and terminal mismatch. The criterion captures cross-sample interactions omitted by independent pairwise costs; under isotropic mobility, the criterion agrees with quadratic Euclidean assignment for deterministic balanced couplings. Randomized tangent probes provide a low-rank implementation that constructs shared detached targets without adding an inference-time trajectory. Controlled studies examine the relationship between generator geometry, transport selection, and realized local action. On ImageNet $256\\times256$, TDAction attains an FID below $1.1$ without distillation.",
+  "published": "2026-09-30T18:10:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.775508+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T18:10:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00518v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.569812+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b298d59c94fbf7ed8785a9e100a510ea6980b487024f79c27f77332a83f3d05a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Seeing Isn't Knowing: Do VLMs Know When Not to Answer Spatial Questions (and Why)?",
+  "url": "https://arxiv.org/abs/2605.30557",
+  "summary": "arXiv:2605.30557v2 Announce Type: replace Abstract: Spatial reasoning benchmarks typically evaluate whether vision-language models can derive the correct answer from a visual observation. Yet in real 3D environments, the observation itself may be unreliable: occlusion can remove task-relevant evidence, while perspective can make visible geometry misleading. Reliable spatial reasoning therefore requires more than answering a question correctly. A model must also assess whether its current observation provides sufficient and trustworthy evidence for that answer. We introduce SPATIALUNCERTAIN, a controlled evaluation framework for studying viewpoint-dependent observational uncertainty. We study two complementary failure modes: missing evidence caused by occlusion and misleading evidence caused by perspective. We further evaluate whether models can recognize when the current view is unreliable and identify a more informative observation. Across eight open- and closed-source vision-language models, we find that model behavior does not track the reliability of visual evidence. Models do not reliably become more cautious as evidence disappears, and under perspective conflict, their judgments increasingly follow projected appearance rather than the unchanged physical 3D relation. Internal analysis suggests a corresponding representational asymmetry: projected 2D relations are readily available, whereas the underlying physical 3D relation is barely decodable. Moreover, models that can identify an informative viewpoint when explicitly asked often fail to recognize when such an additional view is needed. These failures are not fully resolved by prompting or fine-tuning, and providing a better viewpoint is substantially more effective than adding depth information to the same misleading observation. Our results identify assessing the reliability of visual observations as a distinct and missing component of current spatial reasoning evaluation.",
+  "published": "2026-05-28T20:44:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.540370+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:04:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.30557v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.280590+00:00"
+}

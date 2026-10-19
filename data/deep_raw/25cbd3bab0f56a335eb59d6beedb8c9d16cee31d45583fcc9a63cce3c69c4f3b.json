@@ -1,0 +1,22 @@
+{
+  "id": "25cbd3bab0f56a335eb59d6beedb8c9d16cee31d45583fcc9a63cce3c69c4f3b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SeedER: Seed-Expand-Retrieve for Efficient Knowledge Graph Retrieval",
+  "url": "https://arxiv.org/abs/2605.23753",
+  "summary": "arXiv:2605.23753v2 Announce Type: replace Abstract: Knowledge graphs (KGs) offer a rich representation for relational knowledge, but their irregular structure makes retrieval challenging: ego-graph expansion grows rapidly, and dense embedding methods struggle with multi-hop compositional queries. Several approaches use LLM agents to explore the KG, analyze candidate nodes, and decide where to explore next. While expressive, these approaches can incur substantial computational and memory costs. On the other hand, we show theoretically that dense embeddings precomputed for graph nodes, even with augmented structure and neighborhood-aware features, can require embedding dimensions comparable to the size of the graph to answer families of knowledge graph queries. This limitation can be overcome with query-adaptive embeddings under certain conditions, and there are graph neural network (GNN) variants that can do so. However, processing the whole graph with a GNN can also incur substantial memory and computational costs, and it requires dense ground-truth labels indicating whether each node answers the query. Straightforward $k$-hop selection around anchor nodes can also be problematic: small $k$ limits the nodes we can see, and even with small $k$ values such as three and four, the $k$-hop subgraph can grow substantially. In this work, we devise a new approach using Graph Transformers and reinforcement learning that is much less demanding in memory and computation, can run on a CPU at inference time as a first-stage retriever, and requires feedback on only a small number of nodes at a time during training. We show that this method is competitive with methods that fine-tune LLMs to retrieve information from KGs. We call our method SeedER (Seed-Expand-Retrieve), and position it primarily as a first-stage retriever that can run with modest computational resources.",
+  "published": "2026-05-22T15:26:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.116464+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:38:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.23753v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.231222+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "d8f1208f0f152d12d90277dcc55ee7045b86c18d81f4d5602f6a047cba7e7549",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Hypergraph-Enhanced Dual Convolutional Network for Bundle Recommendation",
+  "url": "https://arxiv.org/abs/2312.11018",
+  "summary": "arXiv:2312.11018v3 Announce Type: replace-cross Abstract: Bundle recommendation ranks sets of related items rather than isolated items. Its central challenge is to connect user preferences, item interactions, and bundle composition without losing the signals needed to rank bundles. We propose Hypergraph-Enhanced Dual Convolutional Neural Network (HED), which constructs a complete hypergraph containing user--bundle, user--item, and bundle--item interactions together with intra-user and intra-bundle relations. HED couples complete-hypergraph propagation with a user--bundle branch, allowing item-aware higher-order context to inform ranking while preserving recommendation-specific signals. On NetEase, HED-128 improves over the strongest baseline by 5.04--6.97% across the six reported metrics; on Youshu, HED-64 improves by 1.87--4.56%. Ablation results support the contributions of both the user--bundle branch and intra-type relations, and sensitivity analyses identify stable operating ranges for the main hyperparameters. We further quantify the computational trade-off of the complete hypergraph, including its memory cost. The evidence supports HED on the two evaluated bundle-recommendation datasets while making its resource limitations explicit. Code and datasets will be made available upon publication.",
+  "published": "2023-12-18T08:35:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.190789+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T11:10:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2312.11018v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.174845+00:00"
+}

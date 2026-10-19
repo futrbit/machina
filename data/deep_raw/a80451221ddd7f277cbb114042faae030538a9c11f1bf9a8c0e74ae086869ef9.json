@@ -1,0 +1,21 @@
+{
+  "id": "a80451221ddd7f277cbb114042faae030538a9c11f1bf9a8c0e74ae086869ef9",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "RoboIRS: Inference-Time Internal Representation Steering for Generalist Robot Policies",
+  "url": "https://arxiv.org/abs/2610.04681",
+  "summary": "arXiv:2610.04681v3 Announce Type: replace Abstract: Vision-language-action (VLA) and world-action models (WAMs) often degrade under out-of-distribution task variations despite retaining partial task capability. To recover such capability, we propose RoboIRS, an inference-time internal representation steering method that uses successful and failed rollouts to train linear classifiers, select outcome-relevant intervention locations, and derive task-specific steering directions without updating policy parameters. On 15 simulation tasks with a frozen $\\pi 0.5$ policy, RoboIRS improves the average success rate from 44.4% to 66.2%, outperforming alternative inference-time intervention baselines while adding little inference time. We further validate RoboIRS on real-robot manipulation using the same $\\pi 0.5$ policy and demonstrate its applicability to a world-action model Cosmos Policy, where the average success rate improves from 35.4% to 55.4%. These results show that directly steering internal robot-policy representations can improve the performance of robot policies at inference time. Project website is available at https://rollingoat.github.io/roboirs/.",
+  "published": "2026-10-03T17:50:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.765527+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:36:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.04681v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.348344+00:00"
+}

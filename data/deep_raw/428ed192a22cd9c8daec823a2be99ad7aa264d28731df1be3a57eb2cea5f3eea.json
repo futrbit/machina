@@ -1,0 +1,21 @@
+{
+  "id": "428ed192a22cd9c8daec823a2be99ad7aa264d28731df1be3a57eb2cea5f3eea",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LEAD: An EEG Foundation Model for Alzheimer's Disease Detection",
+  "url": "https://arxiv.org/abs/2502.01678",
+  "summary": "arXiv:2502.01678v5 Announce Type: replace-cross Abstract: Electroencephalography (EEG) provides a non-invasive, highly accessible, and cost-effective approach for detecting Alzheimer's disease (AD). However, existing methods, whether based on handcrafted feature engineering or standard deep learning, face three major challenges: 1) the lack of large-scale EEG-based AD datasets for robust representation learning and evaluation; 2) limited cross-subject generalizability; and 3) difficulty in adapting to highly heterogeneous data. To address these challenges, we curate the world's largest EEG-AD corpus to date, comprising 2,238 subjects. Leveraging this unique resource, we propose LEAD, the first foundation model for EEG-based AD detection. Specifically, we design a gated temporal-spatial Transformer that can adapt to EEG recordings with diverse lengths, channel configurations, and sampling rates. In addition, we introduce a subject-regularized training strategy to enhance end-to-end subject-level detection. We further employ medical contrastive learning to pre-train on 13 datasets, including 4 AD datasets and 9 non-AD neurological disorder datasets, and fine-tune/test the model on the other 5 AD datasets. LEAD achieves the best average ranking across all 20 evaluations on 5 downstream datasets, substantially outperforming existing approaches, including state-of-the-art (SOTA) EEG foundation models. These results strongly demonstrate the effectiveness of our proposed method and significant progress for EEG-based AD detection. Source code: https://github.com/DL4mHealth/LEAD",
+  "published": "2025-02-02T04:19:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.433326+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T14:15:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2502.01678v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.826863+00:00"
+}

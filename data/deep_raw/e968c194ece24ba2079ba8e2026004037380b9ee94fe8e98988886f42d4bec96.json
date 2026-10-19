@@ -1,0 +1,22 @@
+{
+  "id": "e968c194ece24ba2079ba8e2026004037380b9ee94fe8e98988886f42d4bec96",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "BranchIP: Learning Adaptive Equivariant Computation for Interatomic Potentials",
+  "url": "https://arxiv.org/abs/2610.02013",
+  "summary": "arXiv:2610.02013v1 Announce Type: new Abstract: Equivariant machine learning interatomic potentials (MLIPs) have revolutionized atomistic modeling, but accurate treatment of complex materials and molecular systems demands expensive models. This limits simulation length- and time-scales, with tensor products a key computational bottleneck. The recent emergence of foundation-scale MLIPs further exacerbates this challenge. We present Branch Interatomic Potential (BranchIP), a single-model framework for learned adaptive tensor product computation, trained with a novel distillation loss. In our experiments on two systems of physical interest, a heterogeneous catalysis system and a proton-conducting solid acid electrolyte, BranchIP accelerates MLIPs across model sizes by up to $2.4\\times$ while reducing memory usage by up to $2.6\\times$. This is achieved while maintaining physical fidelity. Furthermore, the learned adaptive computation provides model interpretability by revealing which interactions demand deeper computation and showing how computational depth relates to chemical complexity and dynamics.",
+  "published": "2026-10-01T16:39:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.800491+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:39:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02013v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.357735+00:00"
+}

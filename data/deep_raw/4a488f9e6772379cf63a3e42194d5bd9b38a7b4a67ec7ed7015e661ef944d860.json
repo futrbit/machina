@@ -1,0 +1,22 @@
+{
+  "id": "4a488f9e6772379cf63a3e42194d5bd9b38a7b4a67ec7ed7015e661ef944d860",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SpaceFlow: Locally Controllable 3D Generation",
+  "url": "https://arxiv.org/abs/2610.12399",
+  "summary": "arXiv:2610.12399v1 Announce Type: new Abstract: Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions and a collection of geometric primitives. Each primitive serves as a proxy for an object part and is assigned a local control level, enabling users to specify whether regions should strictly follow the input shape or allow generative completion. During structure generation, we enforce these spatial constraints within the generative flow process. For appearance synthesis, the generated structure is segmented and matched to the primitives. Each generated part is conditioned only on its assigned text or image cue, thereby limiting cross-part leakage. Regional geometry metrics demonstrate that SpaceFlow preserves the specified geometry in high-control regions and enables plausible shape variation in low-control areas. A user study further indicates that the resulting balance between geometric fidelity and generative freedom remains competitive in overall quality. When evaluating appearance on fixed geometry, text-conditioned routing achieves state-of-the-art prompt faithfulness and color/material accuracy. Qualitative results additionally show localized routing of image cues. The project page is available at SpaceFlow3D.github.io.",
+  "published": "2026-10-08T17:42:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.762041+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:42:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12399v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.267598+00:00"
+}

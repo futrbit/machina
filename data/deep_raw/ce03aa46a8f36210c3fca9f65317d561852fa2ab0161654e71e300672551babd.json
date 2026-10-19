@@ -1,0 +1,22 @@
+{
+  "id": "ce03aa46a8f36210c3fca9f65317d561852fa2ab0161654e71e300672551babd",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+  "url": "https://arxiv.org/abs/2610.10429",
+  "summary": "arXiv:2610.10429v2 Announce Type: replace Abstract: Autoregressive video generation requires denoising the current frames while writing their key-value representations as context for future predictions. However, these two roles typically share parameters, and we find that their gradients exhibit distinct patterns and systematic negative alignment, hindering the joint optimization of visual quality and temporal consistency. We introduce Self Gradient Forcing Plus (SGF+), which assigns separate parameters to context writing and denoising while preserving their interaction through causal attention. Both roles are jointly optimized using the original generation objective without auxiliary losses, with context writing supervised through its contribution to future predictions. This simple change improves visual quality and long-horizon consistency over the evaluated baselines in both framewise and chunkwise generation, without additional video training data or a longer training horizon. Trained on only 5s rollouts, SGF+ supports continuous generation for up to 24 hours without long-video fine-tuning. These results highlight role-specific parameterization as an effective design principle for high-quality autoregressive video generation and native long-horizon extrapolation.",
+  "published": "2026-10-07T17:09:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.794022+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:32:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10429v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.041925+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "125a387f7f21f67780df7e7f805ff6b48dd90b77f2692acfda60b1b510809056",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Control-Ready Uncertainty for Trajectory Diffusion",
+  "url": "https://arxiv.org/abs/2610.12431",
+  "summary": "arXiv:2610.12431v1 Announce Type: new Abstract: Diffusion models can represent complex, multimodal trajectory distributions, but extracting uncertainty from them typically requires costly Monte Carlo sampling. This limits their use in real-time control, where robots must rapidly assess risk and maintain safety margins. We introduce Score-Curvature for Online Precision Estimation (SCOPE), a lightweight module that augments diffusion trajectory models with control-ready uncertainty. SCOPE learns a structured precision matrix around each nominal trajectory by distilling score-curvature information and producing calibrated Gaussian tubes with low overhead and without repeated Monte Carlo sampling. These tubes provide per-timestep covariance estimates that can be used both as predicted occupancy for moving agents and as adaptive exploration guides for robot control. We evaluate SCOPE with mode-conditioned multimodal diffusion backbones in pedestrian forecasting, crowd navigation, Maze2D control, and real-world Franka Panda manipulation. Across these settings, SCOPE provides fast uncertainty estimation, which leads to better closed-loop performance. Project page: https://zackaxue.github.io/SCOPE-project-page/",
+  "published": "2026-10-08T17:57:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.750536+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:57:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12431v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.731917+00:00"
+}

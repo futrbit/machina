@@ -1,0 +1,22 @@
+{
+  "id": "893a47d9b1c27ed7290d582745e49c896f26aa546988c76b5d81105e30fae140",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning",
+  "url": "https://arxiv.org/abs/2610.12340",
+  "summary": "arXiv:2610.12340v1 Announce Type: new Abstract: We introduce RefineMix, a framework for training discrete diffusion models under severe data scarcity, a common constraint in scientific applications. RefineMix uses out-of-distribution data at selected diffusion times to improve generalization without biasing the sampling distribution. Although this strategy has been explored in continuous diffusion, discrete diffusion presents a distinct challenge: unlike Gaussian noise, masking preserves domain information in surviving tokens, limiting the use of related data at high noise levels. At low noise levels, however, the domains effectively disjoint supports become an advantage, allowing the model to learn from both in-domain and out-of-distribution data without biasing the sampler. We formalize these intuitions and provide a theoretical analysis for the proposed method. Experimentally, across five domain-shift settings, RefineMix matches or outperforms in-domain finetuning and data mixing. For protein sequence generation, finetuning with just 197 in-domain examples nearly doubles the fraction of generated proteins that are simultaneously novel, foldable, and in-family compared to standard finetuning.",
+  "published": "2026-10-08T17:15:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.096424+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:15:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12340v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.633776+00:00"
+}

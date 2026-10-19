@@ -1,0 +1,21 @@
+{
+  "id": "33d27ac3e2a627ee0a3878a334f7f568e18da6fa328c729e758cacf81f6c9598",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Parallel Predictive World Models for Accurate and Efficient Long-Horizon Planning",
+  "url": "https://arxiv.org/abs/2610.08627",
+  "summary": "arXiv:2610.08627v1 Announce Type: new Abstract: Long-horizon world-model planning typically relies on autoregressive rollouts, where predicted states are repeatedly fed back into the model. This preserves temporal structure but creates a horizon-length sequential path and exposes later predictions to recursive decoded-state feedback. We introduce Parallel Predictive World Models (PPWM), which predict a finite-horizon trajectory in parallel while retaining causal interaction among future representations. Each horizon is conditioned on its causal action prefix, and future representations interact before decoding, separating temporal causality from state-by-state output recursion. We formalize this distinction by viewing autoregressive rollout as a causal trajectory map and identifying the decoded-state feedback pathway removed by PPWM. Across four visual-control tasks, PPWM achieves the lowest long-horizon prediction error and the highest Cross-Entropy Method (CEM) simulator success among the evaluated predictive interfaces. Meanwhile, PPWM achieves more than a 3$\\times$ average CEM planning speedup over the autoregressive LeWM baseline. These results suggest that accurate and efficient long-horizon world-model planning does not require state-by-state autoregression, but can instead be achieved through parallel causal trajectory prediction.",
+  "published": "2026-10-06T16:26:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.148814+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:26:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08627v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.509054+00:00"
+}

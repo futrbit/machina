@@ -1,0 +1,22 @@
+{
+  "id": "3af5f60eaea16a2b576a8030727c726f16507be1707b83fd3e39f237bf921c6e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "MATE4D: Matrix-Guided Editable 4D Generation from a Single Image",
+  "url": "https://arxiv.org/abs/2610.11181",
+  "summary": "arXiv:2610.11181v1 Announce Type: new Abstract: Generative models have rapidly pushed content creation be-yond 2D imagery toward dynamic 3D and 4D scene synthesis. Yet pro-ducing realistic and temporally stable 4D content from a single image is still difficult because one view provides limited structural cues and weak motion evidence. We introduce MATE4D, a framework that converts one input image into editable dynamic 4D content. Our method constructs a spatio-temporal multi-view image matrix with text-guided background manipulation, delivering coherent supervision over viewpoint, appear-ance, and motion. These synthesized observations are used to optimize 3D Gaussian primitives, which are then animated through a lightweight deformation module to form a 4D representation. The resulting scenes preserve geometry more faithfully, maintain smoother temporal behavior, and keep background edits more consistent, reducing context ambiguity and motion artifacts. Experiments on Objaverse-XL and Diffusion4D show that MATE4D outperforms strong baselines in visual quality, effi-ciency, and controllability, supporting practical AR/VR content creation.",
+  "published": "2026-10-08T03:40:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.742053+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:40:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11181v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.707935+00:00"
+}

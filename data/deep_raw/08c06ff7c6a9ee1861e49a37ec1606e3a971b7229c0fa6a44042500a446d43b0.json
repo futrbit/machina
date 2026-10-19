@@ -1,0 +1,22 @@
+{
+  "id": "08c06ff7c6a9ee1861e49a37ec1606e3a971b7229c0fa6a44042500a446d43b0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "LIME: Link-based User-item Interaction Modeling with Decoupled XOR Attention for Efficient Test Time Scaling",
+  "url": "https://arxiv.org/abs/2510.18239",
+  "summary": "arXiv:2510.18239v4 Announce Type: replace-cross Abstract: Scaling large recommendation systems requires advancing three major frontiers: processing longer user histories, expanding candidate sets, and increasing model capacity. While promising, transformers' computational cost scales quadratically with the user sequence length and linearly with the number of candidates. This trade-off makes it prohibitively expensive to expand candidate sets or increase sequence length at inference, despite the significant performance improvements. We introduce \\textbf{LIME}, a novel architecture that resolves this trade-off. Through two key innovations, LIME fundamentally reduces computational complexity. First, low-rank ``link embeddings\" enable pre-computation of attention weights by decoupling user and candidate interactions, making the inference cost nearly independent of candidate set size. Second, a linear attention mechanism, \\textbf{LIME-XOR}, reduces the complexity with respect to user sequence length from quadratic ($O(N^2)$) to linear ($O(N)$). Experiments on public and industrial datasets show LIME achieves near-parity with state-of-the-art transformers but with a 10$\\times$ inference speedup on large candidate sets or long sequence lengths. When tested on a major recommendation platform, LIME improved user engagement while maintaining minimal inference costs with respect to candidate set size and user history length, establishing a new paradigm for efficient and expressive recommendation systems.",
+  "published": "2025-10-21T02:53:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.135399+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:45:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2510.18239v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.439094+00:00"
+}

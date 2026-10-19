@@ -1,0 +1,22 @@
+{
+  "id": "2887c572f7aa208b8766b4459e2721fb604b836031ee74d8cbad5d6e3c0a329f",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
+  "url": "https://arxiv.org/abs/2610.12416",
+  "summary": "arXiv:2610.12416v1 Announce Type: new Abstract: Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion. However, supervision for these capabilities is rarely available jointly at scale. Human-scene datasets provide rich information about environment-aware motion, while human-object datasets capture detailed interaction dynamics, yet paired human-object-scene data remain scarce. We present MAMHOI, an affordance-mediated factorization for scene-aware human-object interaction generation. MAMHOI factorizes scene-aware HOI generation through an explicit motion-affordance interface between scene understanding and motion synthesis: a scene-conditioned model first predicts where and how an interaction can be feasibly executed, and an affordance-conditioned HOI model then generates the corresponding human-object motion. This factorization allows scene understanding and interaction dynamics to be learned from complementary sources of supervision without requiring paired human-object-scene data. Experiments in complex indoor environments show that MAMHOI reduces object--scene penetration while better preserving human--object interaction quality, yielding more realistic and physically feasible scene-aware interactions. Project page: https://leimingyuan.github.io/MAMHOI-project-page/",
+  "published": "2026-10-08T17:52:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.763040+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:52:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12416v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.230223+00:00"
+}

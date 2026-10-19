@@ -1,0 +1,22 @@
+{
+  "id": "1333148c8c6fe4654d8e5749bc63b79574111d90616e2908b40c3171a315cc9b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Deformable CT-US Registration via Anatomy-Aware Implicit Neural Representations",
+  "url": "https://arxiv.org/abs/2610.08419",
+  "summary": "arXiv:2610.08419v1 Announce Type: new Abstract: Slice-to-volume registration between ultrasound (US) and preoperative computed tomography (CT) imaging would enhance many minimally invasive interventions, for example by locating soft tissue structures intra-operatively that are discernible in CT. While optical tracking enables initial rigid registration, contact from the probe induces soft tissue deformations that inhibit accurate alignment. In this work, we introduce a deformable CT-ultrasound registration framework that incorporates anatomical priors derived from CT to improve registration under deformation. Rigid registration is first established using a robot-assisted optical tracking system, after which a deformable transformation is estimated using a sinusoidal implicit neural representation (SIREN) optimized per frame. Tissue stiffness is approximated from CT-based HU values and used as spatially varying regularization, suppressing deformation in rigid structures such as bone while allowing more flexibility in soft tissue. Two additional constraints capture the physics of probe contact: a contact-zone displacement prior that drives the displacement field to compress tissue below the probe face, and a fan-geometry regularization term based on beam direction and convex transducer field of view. Model parameters are optimized with a normalized gradient field (NGF). The proposed approach improves alignment over rigid initialisation by 17% and outperforms classical deformable baselines while maintaining near-zero topological folding.",
+  "published": "2026-10-06T14:22:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.524379+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:22:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08419v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.757901+00:00"
+}

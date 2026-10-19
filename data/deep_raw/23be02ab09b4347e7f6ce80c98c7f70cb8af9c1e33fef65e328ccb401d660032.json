@@ -1,0 +1,22 @@
+{
+  "id": "23be02ab09b4347e7f6ce80c98c7f70cb8af9c1e33fef65e328ccb401d660032",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "IS-Diff: Improving Diffusion-Based Inpainting with Better Initial Seed",
+  "url": "https://arxiv.org/abs/2509.11638",
+  "summary": "arXiv:2509.11638v2 Announce Type: replace Abstract: Diffusion models have shown promising results in free-form inpainting. Recent studies based on refined diffusion samplers or novel architectural designs led to realistic results and high data consistency. However, random initialization seed (noise) adopted in vanilla diffusion process may introduce mismatched semantic information in masked regions, leading to biased inpainting results, e.g., low consistency and low coherence with the other unmasked area. To address this issue, we propose the Initial Seed refined Diffusion Model (IS-Diff), a completely training-free approach incorporating distributional harmonious seeds to produce harmonious results. Specifically, IS-Diff employs initial seeds sampled from unmasked areas to imitate the masked data distribution, thereby setting a promising direction for the diffusion procedure. Moreover, a dynamic selective refinement mechanism is proposed to detect severe unharmonious inpaintings in intermediate latent and adjust the strength of our initialization prior dynamically. We validate our method on both standard and large-mask inpainting tasks using the CelebA-HQ, ImageNet, and Places2 datasets, demonstrating its effectiveness across all metrics compared to state-of-the-art inpainting methods.",
+  "published": "2025-09-15T07:16:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.779030+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:17:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2509.11638v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.193245+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "33596642cb6dd4510ce41f63d0235f7b23c5ef2e99a95b1bea30455184938dc4",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Differentiable design of the PIAA-ZWFS: a flexible wavefront sensor that approaches the fundamental limit",
+  "url": "https://arxiv.org/abs/2606.28136",
+  "summary": "arXiv:2606.28136v2 Announce Type: replace-cross Abstract: Extreme adaptive optics (AO) is necessary for high contrast astronomy at scales of the habitable zone of nearby systems. We seek to evaluate wavefront sensors that approach fundamental limits of wavefront sensing, enabling adaptive optics systems to run faster or on fainter targets. We present the phase-induced amplitude apodisation Zernike wavefront sensor (PIAA-ZWFS): an adaptation of the conventional Zernike wavefront sensor (ZWFS) that leverages lossless apodisation of the pupil to concentrate the starlight in the focal plane. We optimise and evaluate the sensor with a differentiable modelling framework, drawing on concepts from Bayesian experimental design to minimise the variance of a maximum likelihood estimator that uses the system in the high Strehl regime. Our architecture shows state-of-the-art performance in simulation for different apertures, bandwidths, photon fluxes and source sizes, closing the gap to the fundamental limit by a factor 10 (2.5) compared to the conventional ZWFS (optimised ZWFS) in a typical photon-limited case. For extended sources, we show that even an ideal point source sensor rapidly becomes sub-optimal, and our system outperforms it for stellar diameters larger than 0.8{\\lambda}/D. We verify that these gains do not come at the cost of dynamic range with either linear or non-linear reconstructors. Finally, we present a proof that there must be a trade-off between the information gained about amplitude and phase errors for any wavefront sensor. The PIAA-ZWFS is a viable wavefront sensor operating near the fundamental sensitivity limits.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.092061+00:00"
+}

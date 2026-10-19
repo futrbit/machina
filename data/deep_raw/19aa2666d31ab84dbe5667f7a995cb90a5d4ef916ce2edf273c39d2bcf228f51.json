@@ -1,0 +1,22 @@
+{
+  "id": "19aa2666d31ab84dbe5667f7a995cb90a5d4ef916ce2edf273c39d2bcf228f51",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Puffin: Probabilistic Learning of Spatial Detail From Coarse Observations",
+  "url": "https://arxiv.org/abs/2610.11914",
+  "summary": "arXiv:2610.11914v1 Announce Type: new Abstract: High-resolution socioeconomic variables are important for applications such as urban planning, public health, disaster response, and resource allocation. In practice, however, these variables are often observed only at a coarse spatial resolution. We introduce Puffin, a probabilistic framework for statistical disaggregation that raises the resolution of coarse totals using high-resolution satellite embeddings as covariates. Instead of predicting a single value for each fine-resolution subregion, Puffin learns a probability distribution and is trained through an aggregation-aware likelihood. At inference, Puffin conditions these predictions on the observed regional total and splits it among the subregions. The resulting fine-scale estimates are consistent with the observed aggregate and come with calibrated uncertainty, without requiring fine-resolution labels for training. We evaluate Puffin on German and US census, employment, and election data across population, jobs, and other count variables, and study when statistical disaggregation succeeds or fails across regions, countries, and targets.",
+  "published": "2026-10-08T13:12:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.092427+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:12:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11914v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.908810+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "83feb7a8dff7af687d8399280553547290d4734d5113c7f846889f82a33b288f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ReG-SAM: Reference Graph-Driven SAM for 2D Foundational Vessel Segmentation",
+  "url": "https://arxiv.org/abs/2609.31160",
+  "summary": "arXiv:2609.31160v1 Announce Type: cross Abstract: Vessel segmentation in medical images is essential for many clinical tasks, ranging from diagnosis to treatment planning. However, it remains challenging due to complex vascular morphology and diverse imaging conditions. Existing deep learning methods rarely aim at building a generalizable vessel segmentor across anatomies and modalities. While the Seg- ment Anything Model (SAM) has shown promise for med- ical image segmentation, its original design does not fully exploit vascular morphology and struggles with fine-grained vascular structures, leading to suboptimal performance. In this paper, we propose ReG-SAM, a SAM-based framework tailored to 2D vessel segmentation that leverages reference graph set for enhancing vascular representations. Specifically, we introduce two modality-aware representations derived from the reference masks: graph prompt embeddings (GPEs) that encode global spatial features from graphs, and vascu- lar prototype embeddings (VPEs) that capture fine-grained modality-specific vessel characteristics from multi-scale fea- ture maps and vascular masks. Since both require vascular masks that are unavailable during inference and require robust modality-aware vascular feature representations, we construct a modality-wise vascular database and develop two reference graph-guided representation learning schemes for estimating GPEs and VPEs using samples from the database rather than ground-truth masks. Extensive experiments across 19 datasets demonstrate that ReG-SAM consistently outperforms existing baselines, even those using manual prompts, particularly on challenging thin vessels.",
+  "published": "2026-09-25T11:53:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.426563+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T11:53:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31160v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.509849+00:00"
+}

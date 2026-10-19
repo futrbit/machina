@@ -1,0 +1,22 @@
+{
+  "id": "8d59b5ccf82e4c112997f54c4e6ae6c98a934e55095488ddc6aaf20eb9c936ae",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Poster: A Preliminary Study of LLM Distillation Inference",
+  "url": "https://arxiv.org/abs/2610.12137",
+  "summary": "arXiv:2610.12137v1 Announce Type: cross Abstract: Unauthorized model distillation, in which a model is trained on the outputs of a proprietary large language model (LLM), is a growing threat to model providers. We study distillation inference: determining whether a suspect model was distilled from another model or trained independently. We formulate this problem as a hypothesis test and estimate the behavior expected under each hypothesis by training shadow models: distilled shadow models learn from the teacher's reasoning traces, whereas independent shadow models learn only from reference answers. The auditor measures how closely each model predicts the teacher's reasoning outputs and then uses the shadow models to convert the suspect's score into a calibrated p-value. In a preliminary study using Qwen2.5-7B as the teacher and Llama-3.2-3B for the suspects, our test achieves a true positive rate of 1.0 at a significance level of 0.02. These results demonstrate the feasibility of using distillation inference to detect distillation attacks.",
+  "published": "2026-10-08T15:24:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.115420+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:24:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12137v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.708729+00:00"
+}

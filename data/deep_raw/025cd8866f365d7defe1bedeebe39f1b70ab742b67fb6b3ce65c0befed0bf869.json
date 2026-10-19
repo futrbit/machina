@@ -1,0 +1,21 @@
+{
+  "id": "025cd8866f365d7defe1bedeebe39f1b70ab742b67fb6b3ce65c0befed0bf869",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Growing an Agent/Prover Interface: Evolutionary Tool Design for Cost-Efficient Theorem Proving in Rocq and Lean",
+  "url": "https://arxiv.org/abs/2609.39544",
+  "summary": "arXiv:2609.39544v3 Announce Type: replace Abstract: Recent achievements in AI-assisted mathematics require intensive interaction of agents with proof assistants to generate machine-checked proof certificates. Agents interact with proof assistants such as Rocq or Lean through an interface that controls what the agent receives from the prover and the cost of these interactions. Today, these interfaces are adapted from tools designed for humans and not optimized for agents. We propose an evolutionary method where a frontier model incrementally proposes new features and only keeps the ones that improve the overall performance of smaller models. We demonstrate the effectiveness of our method by growing, on a curated set of mathematical problems, ROCQ-MCP-EVOLVE, a new MCP server for the Rocq prover. On the held-out test split of miniF2F-Rocq, an agent equipped with ROCQ-MCP-EVOLVE outperforms both the baseline that only exposes the Rocq compiler and an established MCP server, across four models from two families, in success rate, cost per solve, and time per solve. Although evolved for Rocq, the resulting server transfers to Lean, improving cost and time per solve on a subset of PutnamBench. We release ROCQ-MCP-EVOLVE and its port to Lean.",
+  "published": "2026-09-30T11:44:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.410364+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:42:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.39544v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.288185+00:00"
+}

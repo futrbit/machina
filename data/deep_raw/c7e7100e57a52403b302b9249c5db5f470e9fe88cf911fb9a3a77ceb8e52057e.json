@@ -1,0 +1,22 @@
+{
+  "id": "c7e7100e57a52403b302b9249c5db5f470e9fe88cf911fb9a3a77ceb8e52057e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CommunityKV: Efficient Long-Context Decoding via Graph Partitioning",
+  "url": "https://arxiv.org/abs/2610.00418",
+  "summary": "arXiv:2610.00418v1 Announce Type: new Abstract: Scaling Transformers to long contexts is constrained by the quadratic cost of self-attention and the linear growth of key-value cache memory transfer. Sparse attention mitigates this by retrieving only relevant tokens, but current approaches either require large-scale training or, within the training-free regime, rely on semantically coarse heuristics or expensive clustering that is difficult to update efficiently during decoding. We introduce CommunityKV, a framework that formulates sparse attention as a community detection problem. CommunityKV constructs a token graph from the $QK^T$ scores already computed during standard prefill, and partitions the graph into communities to enable retrieval of semantically coherent token groups. A local update rule assigns newly generated tokens to communities in constant time, enabling sparse retrieval throughout streaming decoding without global re-partitioning. We evaluate CommunityKV on Qwen3 and Llama-3.1 models across three long-context benchmarks. With one graph per query head, CommunityKV delivers up to $1.25\\times$ the end-to-end generation throughput of dense attention, while query-group graph aggregation yields up to $1.71\\times$ with comparable accuracy.",
+  "published": "2026-09-30T14:36:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.773510+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T14:36:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00418v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.961973+00:00"
+}

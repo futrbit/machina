@@ -1,0 +1,21 @@
+{
+  "id": "0af8d19d0391321923c480f336650b1e0da65574c64564c2018255c54b40d1d3",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SP-DocReader: Difference-Aware Self-Play for Precise Document OCR",
+  "url": "https://arxiv.org/abs/2610.11148",
+  "summary": "arXiv:2610.11148v1 Announce Type: cross Abstract: Accurate page transcription remains difficult for vision language models under limited input and training budgets. We present SP-DocReader, a self-play framework for optical character recognition (OCR) that targets residual errors after supervised fine-tuning. Reading Discrepancy Masking aligns reference and generated model tokens through a longest common subsequence, then scores unmatched positions with their full conditioning prefixes. Focused Fidelity Loss adds direct negative log-likelihood supervision at unmatched ground-truth positions. Only the OCR module is trained, while the backbone remains frozen. We derive the combined gradient to distinguish relative score optimization from direct supervision. Compared with SFT-2, SP-DR-3 reduces Vary-600K character error rate on both backbones. On Qwen3-VL-4B, it reduces character error rate by approximately 54 percent and improves DocVQA Average Normalized Levenshtein Similarity (ANLS) by 3.7 points. These results show the value of focusing self-play training on the discrepancies that remain after supervised fine-tuning.",
+  "published": "2026-10-08T03:12:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.387378+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:12:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11148v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.495059+00:00"
+}

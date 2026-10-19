@@ -1,0 +1,22 @@
+{
+  "id": "4059b625d2d75abcda7afee44cd86ced72fe5509799ee969e2e7aec4145dbdcc",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "On the Escaping Efficiency of Distributed Adversarial Training Algorithms",
+  "url": "https://arxiv.org/abs/2509.11337",
+  "summary": "arXiv:2509.11337v2 Announce Type: replace Abstract: Adversarial training has been widely studied in recent years due to its role in improving model robustness against adversarial attacks. This paper focuses on comparing different distributed adversarial training algorithms--including centralized and decentralized strategies--within multi-agent learning environments. Previous studies have highlighted the importance of model flatness in determining robustness. To this end, we develop a general theoretical framework to study the escaping efficiency of these algorithms from local minima, which is closely related to the flatness of the resulting models. We show that when the perturbation bound is sufficiently small (i.e., when the attack strength is relatively mild) and a large batch size is used, decentralized adversarial training algorithms--including consensus and diffusion--are guaranteed to escape faster from local minima than the centralized strategy, thereby favoring flatter minima. However, as the perturbation bound increases, this trend may no longer hold. In the simulation results, we illustrate our theoretical findings and systematically compare the performance of models obtained through decentralized and centralized adversarial training algorithms. The results highlight the potential of decentralized strategies to enhance the robustness of models in distributed settings.",
+  "published": "2025-09-14T16:28:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.827475+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T15:19:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2509.11337v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.785888+00:00"
+}

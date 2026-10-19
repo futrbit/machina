@@ -1,0 +1,18 @@
+{
+  "id": "3819cd1506c23c7d19f2501c78dfb7d609a61f1ed434ab59b20aaa058a03bdb6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Complete Characterization of Learnability for Adversarial Noisy Bandits",
+  "url": "https://arxiv.org/abs/2605.09200",
+  "summary": "arXiv:2605.09200v3 Announce Type: replace Abstract: We study adversarial noisy bandits given a known function class $\\mathcal{F}$. In each round, the adversary selects a function $f \\in \\mathcal{F}$, the learner chooses an arm, and then observes a noisy reward determined by the chosen arm and the function $f$. The goal is to minimize the cumulative regret $R(T)$, defined as the difference between the learner's performance and that of the best fixed arm in hindsight over $T$ rounds. We say that a function class $\\mathcal{F}$ is learnable if there exists an algorithm achieving sublinear regret. Our main result is a complete characterization of learnability for adversarial noisy bandits. The characterization is given in terms of a convexified variant of the generalized maximin volume introduced by Hanneke and Wang (2025): namely, the generalized maximin volume evaluated on the convex hull $\\operatorname{co}(\\mathcal F)$. We prove that $\\mathcal F$ is learnable if and only if this convexified generalized maximin volume is positive at every scale. This condition characterizes learnability against both oblivious and adaptive adversaries, showing in particular that these two notions of learnability are equivalent in the noisy bandit setting. Our analysis reveals that the key complexity measure is closely connected to two new combinatorial notions, hitting set and distribution covering number, which may be of independent interest. These results establish the first complete characterization of learnability for adversarial noisy bandits.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.262712+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "42ed2d47714fdc19d537cee9e61ea037d057136f497b086a98005aeeb629e8a4",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SkyAgent: Revisable Target Memory for Continuous Aerial Search",
+  "url": "https://arxiv.org/abs/2610.23293",
+  "summary": "arXiv:2610.23293v1 Announce Type: new Abstract: Continuous aerial search builds target hypotheses from sparse, viewpoint-dependent observations. When later evidence contradicts a stored hypothesis, however, the candidate can remain available to the planner and continue triggering approach or verification actions. We call this trajectory-level failure false candidate persistence (FCP). We equip SkyAgent with Revisable Target Memory (RTM), which associates evidence with persistent candidates, discounts correlated views, and revises each candidate through Tentative, Confirmed, and Rejected states. The key interface binds every generated waypoint to its source candidate: rejection therefore invalidates stale goals, while conservative reactivation protects temporarily occluded targets. Across four splits from the CityAVOS, UAV-ON, and OpenUAV benchmarks, our SkyAgent equipped with RTM outperforms all competitors, improving SR by 2.90--6.31 points while substantially reducing Behavior-FCP and post-contradiction travel with a low false-rejection rate. Across 35 matched real-world DJI scenarios per method, RTM consistently improves task success and behavioral reliability, further validating its state-to-action correction under physical deployment conditions.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.158649+00:00"
+}

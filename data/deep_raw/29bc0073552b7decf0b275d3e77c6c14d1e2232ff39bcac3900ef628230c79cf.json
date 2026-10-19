@@ -1,0 +1,18 @@
+{
+  "id": "29bc0073552b7decf0b275d3e77c6c14d1e2232ff39bcac3900ef628230c79cf",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "What Accuracy Hides In Learned Transformer Programs",
+  "url": "https://arxiv.org/abs/2610.22891",
+  "summary": "arXiv:2610.22891v1 Announce Type: new Abstract: Transformer Programs (TP) (Friedman et al., 2023) constrain a Transformer's architecture so that its learned computation can be extracted as readable Python code. TP expose learned computations, but token accuracy can hide incorrect complete answers. In this work, we examine how program inspection provides insights beyond accuracy scores and helps guide training. We first evaluated TP on nine algorithmic tasks. We compared token accuracy with accuracy on complete output sequences and checked for failures missed by sampled tests. Further, we assessed training data improvements informed by program inspection and failure analysis, finding gains in sequence accuracy on several tasks. We examined a counting task where a program achieved 100% accuracy on sampled test sequences but failed on another input using the symbols and lengths allowed during training. The program counted correctly, but the required answer was missing from its output labels. After adding training examples with larger counts, the retrained models passed exhaustive evaluation over the bounded domain. In the frequency ranking task, inspection showed how correct counts contributed to incorrect answers in programs trained before and after changes to the training data. Finally, we studied constraints imposed by TP training and operations. The TP training process can lead to accuracy losses late in training. Our reference constructions also show how composing the restricted TP operations can use many layers or large lookup tables.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.199750+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "43bd46680ef8ece3f955081813c6690630230141fd893d6992650b1dc6c6f5ab",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "How Many, but How Sure? Class Competition as a Confidence Proxy in Multi-Class Density-Based Counting",
+  "url": "https://arxiv.org/abs/2610.23611",
+  "summary": "arXiv:2610.23611v1 Announce Type: new Abstract: Multi-class density estimators can count objects in crowded scenes, but their class-wise outputs offer no indication of how reliably density mass has been allocated. We introduce a training-free confidence proxy based on local competition between the strongest class channels. The resulting prominence measure requires only the predicted density maps, with no retraining or access to model internals. We test whether residual competition is diagnostic of cross-class leakage by attenuating contested density at inference time. On DSACA predictions for the Hicks et al. dataset, this reduces overall MAE from 0.920 to 0.846, suggesting that class competition contains useful information about count reliability.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.233729+00:00"
+}

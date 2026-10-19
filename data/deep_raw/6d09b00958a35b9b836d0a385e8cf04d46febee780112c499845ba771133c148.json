@@ -1,0 +1,21 @@
+{
+  "id": "6d09b00958a35b9b836d0a385e8cf04d46febee780112c499845ba771133c148",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "StairVLA: Stage-Aware Hierarchical Action Generation for Vision-Language-Action Models",
+  "url": "https://arxiv.org/abs/2610.07756",
+  "summary": "arXiv:2610.07756v1 Announce Type: new Abstract: Vision-language-action (VLA) models increasingly rely on diffusion- or flow-matching-based action heads to generate continuous robot actions. These action heads typically process the denoising trajectory in a largely uniform manner. However, we observe that the conditioning focus naturally shifts across denoising stages: early stages combine language instructions and visual observations to establish a coarse action trajectory, whereas later stages place greater emphasis on current visual observations for action alignment. Based on this insight, we introduce StairVLA, a stage-aware hierarchical action generation framework that uses partially denoised actions as a natural interface between coarse long-horizon action generation and local refinement. A high-level VLA performs early denoising to produce a reusable long-horizon partially denoised action trajectory, while a lightweight refiner operates at a higher frequency to refine local action chunks using the latest observations. This design amortizes expensive high-level VLA computation while preserving frequent closed-loop correction. On LIBERO, our GR00T-style instantiation improves average success from 96.5% to 97.8% while reducing amortized inference latency from 115.0 ms to 44.2 ms per action chunk. More broadly, across two VLA backbones, simulation benchmarks, and real-robot tasks, StairVLA consistently reduces inference cost while maintaining strong task performance.",
+  "published": "2026-10-06T04:53:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.459024+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T18:38:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07756v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.011149+00:00"
+}

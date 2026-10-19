@@ -1,0 +1,22 @@
+{
+  "id": "0a322e5a9dae2033a1b3c2c66af59d37b0e13639e47f3900d75017c5b8c8a3c5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A First Glance at Jev for Network Traffic Classification: Accuracy, Processing Time, and Cost",
+  "url": "https://arxiv.org/abs/2610.00376",
+  "summary": "arXiv:2610.00376v1 Announce Type: new Abstract: We evaluate Jev on ten dataset-defined application labels in CESNET-QUICEXT-25 using only the first ten packets' sizes, directions, and inter-packet times. To the best of our knowledge, this is the first empirical study of general-purpose decision models, represented here by Jev, for application classification of network flows. Across 52,000 records from 26 collection weeks following the training period, 40 fixed labeled examples raise Jev's accuracy from 9.80% to 28.42%. Random Forest and Extra Trees trained on 8,000 records achieve 69.95% and 66.80% and outperform Jev in every week. Increasing Jev's context to 150 examples yields 34.50% on the first test week. On a paired 100-record subset, Jev with 40 examples achieves 29% accuracy at a median request time of 0.750 s, versus 37% and 6.036 s for the generative language model OpenAI GPT-5.6 Sol with high reasoning effort through Azure; Jev also incurs lower API charges. The paired subset does not establish an accuracy advantage for either service, and the timing reflects different service configurations. Thus, labeled examples substantially improve Jev, but the tested Jev configurations remain less accurate than trained tree ensembles; unequal supervision budgets and fixed configurations prevent attributing the gap to a single cause.",
+  "published": "2026-09-30T08:21:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.770511+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T08:21:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00376v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.471075+00:00"
+}

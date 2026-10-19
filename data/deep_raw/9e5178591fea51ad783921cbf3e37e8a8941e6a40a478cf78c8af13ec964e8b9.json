@@ -1,0 +1,22 @@
+{
+  "id": "9e5178591fea51ad783921cbf3e37e8a8941e6a40a478cf78c8af13ec964e8b9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks",
+  "url": "https://arxiv.org/abs/2603.04364",
+  "summary": "arXiv:2603.04364v2 Announce Type: replace Abstract: Multimodal web agents that process both screenshots and accessibility trees are increasingly deployed to interact with web interfaces, yet their dual-stream architecture opens an underexplored attack surface: an adversary who injects content into the webpage DOM simultaneously corrupts both observation channels with a consistent deceptive narrative. Our vulnerability analysis on MiniWob++ reveals that attacks including a visual component far outperform text-only injections, exposing critical gaps in text-centric VLM safety training. Motivated by this finding, we propose Dual-Modality Multi-Stage Adversarial Safety Training (DMAST), a framework that formalizes the agent-attacker interaction as a two-player general-sum Markov game and co-trains both players through a three-stage pipeline: (1) imitation learning from a strong teacher model, (2) oracle-guided supervised fine-tuning that uses a novel zero-acknowledgment strategy to instill task-focused reasoning under adversarial noise, and (3) adversarial reinforcement learning via Group Relative Policy Optimization (GRPO) self-play. On out-of-distribution tasks, DMAST nearly halves the attack success rate (41.2\\%$\\rightarrow$21.4\\%) while raising task completion by over 60\\% relative (6.2\\%$\\rightarrow$10.2\\%). Our approach outperforms established training-based defenses and complements prompt-based defenses, demonstrating genuine co-evolutionary progress and robust generalization to complex, unseen environments. Code is available at https://github.com/huajianduzhuo-code/DMAST_official.",
+  "published": "2026-03-04T18:29:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.113467+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:01:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.04364v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.174256+00:00"
+}

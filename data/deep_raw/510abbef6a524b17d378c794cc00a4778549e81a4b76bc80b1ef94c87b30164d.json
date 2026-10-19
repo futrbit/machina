@@ -1,0 +1,21 @@
+{
+  "id": "510abbef6a524b17d378c794cc00a4778549e81a4b76bc80b1ef94c87b30164d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "KlinikeBench: Evaluating Language Models Beyond Diagnostic Accuracy",
+  "url": "https://arxiv.org/abs/2609.38480",
+  "summary": "arXiv:2609.38480v2 Announce Type: replace-cross Abstract: Most clinical benchmarks evaluate language models (LMs) on diagnosis using complete case descriptions. In clinical practice, however, patients present information in different ways, and clinicians must obtain relevant history and determine which examinations are needed before reaching a diagnosis. Diagnostic accuracy alone therefore cannot establish whether an agent gathered essential information or conducted an appropriate clinical assessment. Furthermore, existing benchmarks lack professional clinicians' verification. To address this gap, we introduce KlinikeBench, a benchmark of 333 clinician-authored tasks, each providing an isolated sandbox environment with a virtual patient, clinical tools, and task-specific success criteria. More than 35 clinicians contributed to case authoring and benchmark evaluation. In an empirical study, clinicians gave simulated dialogues higher mean quality ratings than reference conversations, which is adapted from real conversation. In each task, an LM has a fixed budget of turns to communicate with the patient, ask about relevant history, request examinations, follow action constraints, and record a final diagnosis. We score these steps separately as well as together. Across 31 models and seven model families, the best-performing models (e.g., GPT-6-astra and Claude Opus 5) succeed on less than 30% of tasks, even though their diagnosis accuracy reaches 90.7%. Some models benefit from talking with the patient; others diagnose well from a complete chart but perform much worse in conversation. Overall, KlinikeBench provides a testbed for evaluating the full clinical encounter and reveals a substantial gap between diagnostic accuracy and performance in interactive clinical assessment. All the code and data is available on https://zehui127.github.io/klinikebench/",
+  "published": "2026-09-29T20:08:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.201783+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:01:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.38480v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.509451+00:00"
+}

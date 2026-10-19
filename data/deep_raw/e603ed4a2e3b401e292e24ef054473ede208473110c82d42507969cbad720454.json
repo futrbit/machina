@@ -1,0 +1,18 @@
+{
+  "id": "e603ed4a2e3b401e292e24ef054473ede208473110c82d42507969cbad720454",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RSD-Poker: Structure-Adaptive and Shift-Robust Risk-Utility Certification for Residual Policies in Imperfect-Information Games",
+  "url": "https://arxiv.org/abs/2609.33669",
+  "summary": "arXiv:2609.33669v2 Announce Type: replace-cross Abstract: Residual policy adaptation provides a lightweight way to modify a strong reference policy, but a shared scale and a fixed subgroup partition can hide heterogeneous degradation and become fragile when the deployment mixture of information states changes. We introduce RSD-Poker, a structure-adaptive and shift-robust certification framework that freezes a bank of residual families and scales, learns a policy-visible partition on an independent structure split, and freezes that partition before calibration labels are joined. Each candidate-group pair receives a weighted simultaneous upper certificate for anchor-relative risk and a lower certificate for weak-response utility. A robust group-to-candidate map is then selected over a predeclared uncertainty set of deployment group proportions. Under independent calibration units drawn from each frozen group's law, a candidate bank and partition fixed before calibration, and invariant within-group conditionals, the selected map satisfies its declared mixture-robust risk budget and utility certificate with probability at least $1-\\zeta_{risk}-\\zeta_{util}$. The information contract supports both a teacher-backed transform and a teacher-free observation-only student. The retained deterministic 24-state audit remains an exact replay diagnostic: empirical-zero selects $\\alpha=0.08$, raising the weak-response proxy from 4.2082 to 4.2889 with $0/12$ held-out threshold crossings. On stratified held-out states, the learned-partition dual selector raises weak utility from 4.4074 under global dual certification to 4.4936 and lowers held-out violation from 0.0215 to 0.0078; its mixture-robust variant reaches violation 0.0059. Across five observation-only checkpoints, risk-calibrated residuals attain weak utility $4.3659\\pm0.0177$ and violation rate $0.0178\\pm0.0057$.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.292692+00:00"
+}

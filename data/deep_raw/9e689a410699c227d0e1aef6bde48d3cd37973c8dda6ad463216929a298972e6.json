@@ -1,0 +1,22 @@
+{
+  "id": "9e689a410699c227d0e1aef6bde48d3cd37973c8dda6ad463216929a298972e6",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "PCAsplat: Gaussian Splatting with Local PCA Regularization",
+  "url": "https://arxiv.org/abs/2610.11011",
+  "summary": "arXiv:2610.11011v1 Announce Type: new Abstract: Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera rays. Gaussians that are occluded or contribute little to the sampled view therefore receive weak or no geometric gradients and may drift away from the underlying surface, producing undesired floaters. We introduce PCAsplat, a geometry-aware regularization framework for Gaussian splatting based on differentiable local principal component analysis (PCA). Our PCA regularizer acts directly on neighborhoods of Gaussian centers and can therefore update Gaussians that do not contribute to the current training view. We regularize the PCA eigenvalues to encourage Gaussians to move to the underlying surface with isotropic tangent-plane coverage. We also align each Gaussian normal with the PCA-estimated neighborhood normal to enforce consistent orientation. Experiments on DTU, Tanks and Temples, and NeRF Synthetic show that the splats produced by PCAsplat better approximate samples of the reference surface while substantially reducing undesired floaters. These surface-aligned splats enable downstream geometry-processing tasks, including point cloud segmentation, and direct Poisson reconstruction. Additionally, PCAsplat remains competitive under conventional novel view synthesis and mesh extraction tasks. Code will be released.",
+  "published": "2026-10-07T23:49:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.737056+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T23:49:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11011v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.061516+00:00"
+}

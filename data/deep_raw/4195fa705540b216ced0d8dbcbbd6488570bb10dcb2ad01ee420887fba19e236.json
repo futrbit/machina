@@ -1,0 +1,22 @@
+{
+  "id": "4195fa705540b216ced0d8dbcbbd6488570bb10dcb2ad01ee420887fba19e236",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "From Gradients to Capabilities: Understanding Multi-Teacher On-Policy Distillation",
+  "url": "https://arxiv.org/abs/2610.02179",
+  "summary": "arXiv:2610.02179v1 Announce Type: new Abstract: Multi-teacher on-policy distillation (MOPD) aims to combine the strengths of RL-trained teachers in a single student, but how teacher signals affect parameter changes remains underexplored. We study Qwen3-1.7B with four domain teachers trained with RL from the same initialization as the student, comparing gradients, optimizer updates, and task learning curves, with additional SmolLM3-3B diagnostics. We find that several factors influence teacher signals. First, loss averaging implicitly weights responses: token averaging favors longer responses, and equalizing domain contributions retains this weighting within domains. Second, Adam's first moment reduces differences in parameter updates: the cosine similarity is 0.83 between teachers and 0.96 between averaging rules, despite differences in raw gradients. Third, BF16 rounding hides small changes: about 97\\% of FP32 master weights differ from initialization, but only 7--11\\% of BF16 weights do. Finally, the top-64 intersection KL gradient closely matches Qwen's full-vocabulary gradient, but the effect on task performance depends on averaging: mathematics accuracy is 2.6 points higher than with sampled-token policy-gradient (PG) under response averaging and 2.1 points lower under global token averaging.",
+  "published": "2026-10-01T17:57:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.803490+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:57:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02179v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.815870+00:00"
+}

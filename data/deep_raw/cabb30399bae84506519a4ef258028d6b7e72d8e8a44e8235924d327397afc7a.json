@@ -1,0 +1,22 @@
+{
+  "id": "cabb30399bae84506519a4ef258028d6b7e72d8e8a44e8235924d327397afc7a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Expression-Diverse References for Identity-Preserving Video Generation",
+  "url": "https://arxiv.org/abs/2610.11023",
+  "summary": "arXiv:2610.11023v1 Announce Type: new Abstract: Identity-preserving video generation aims to maintain a subject's identity while synthesizing realistic videos. Yet a single reference portrait captures the subject's appearance under only one facial configuration. As expressions change, facial appearance can vary in highly identity-specific ways, leaving the subject's appearance under unseen expressions underdetermined by the reference alone. This expression-dependent variation also complicates evaluation: similarity to a neutral reference may decrease under strong expressions even for real images of the same person. We investigate this limitation from both generation and evaluation perspectives. First, we quantify how face-recognition similarity varies with expression intensity using controlled photographs and MEAD videos. We then construct a compact yet expressive reference gallery that captures diverse expression-dependent facial configurations. Matching against this gallery provides a more robust measure of identity similarity under expressive motion. To further expose performance degradation with expression intensity, we report identity similarity separately for mild, intense, and extreme expressions. For generation, we extend Stand-In to condition on our expression-diverse reference sets and develop a data-curation pipeline that extracts consistent yet diverse face crops from training videos. In practical settings where only a single portrait is available, we construct the reference set by synthesizing additional expressions with a pretrained facial reenactment model. On our controlled benchmark, both real and synthesized reference sets outperform the evaluated baselines in identity similarity across all three expression-intensity regimes, with the largest improvements for extreme expressions.",
+  "published": "2026-10-08T00:15:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.738056+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T00:15:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11023v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.003948+00:00"
+}

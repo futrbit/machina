@@ -1,0 +1,21 @@
+{
+  "id": "7a0be711851aa3220deb8303a88cf27b75424fb83cd096d27a0e6c7f2978c398",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Regime-Conditional Verification: Correctness Estimation for Adapting and Monitoring Safety Classifiers",
+  "url": "https://arxiv.org/abs/2608.14089",
+  "summary": "arXiv:2608.14089v3 Announce Type: replace Abstract: Safety classifiers deployed with large language models often fail for two reasons: their decisions reflect the policy learned during training rather than the deployer's desired policy, and their performance degrades as deployment traffic evolves. We present Regime-Conditional Verification (RCV), a lightweight wrapper that adapts an off-the-shelf safety classifier without retraining it. RCV estimates, from the classifier's internal representations, the probability that each prediction disagrees with the deployer's policy, and selectively corrects predictions likely to be wrong. The same correctness estimates also provide a label-free signal for detecting distribution shift, enabling a maintenance loop that updates the correctness estimation layer and resorts to classifier fine-tuning only when repair fails within a label budget. Across three off-the-shelf safety classifiers and two benchmark datasets, RCV improves adherence to the deployer's policy in every classifier-dataset combination, catching up to 0.81 of previously missed unsafe content without modifying the underlying classifier. In a deployment study with ten attack campaigns, each a harm category held out of RCV's training, RCV detects every campaign in a dedicated injection panel; in the maintenance census most drift episodes are repaired without updating the classifier, and the fine-tune is reserved for the residual episodes.",
+  "published": "2026-08-14T08:50:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.185792+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:35:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.14089v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.843251+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fb5a728daab92093e59e46dfe4069005bff0b516b7a526d506045de8ba0420fe",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Transformed Samplers with Variance Reduction",
+  "url": "https://arxiv.org/abs/2610.10870",
+  "summary": "arXiv:2610.10870v1 Announce Type: cross Abstract: Markov chain Monte Carlo (MCMC) methods are the standard tool for computing expectations under complex probability distributions. Control variates reduce the variance of the resulting estimates, but a good control variate requires solving the Poisson equation of the sampler, which rarely admits a closed-form solution. Exact solutions are available when the sampler's kernel has a known spectral decomposition on a simple reference density. In our work, we extend these solutions to general targets through a learned change of variables. A bijection, such as a normalizing flow, is trained so that the target becomes close to the reference in a latent space, and we show that Markov kernels and their Poisson solutions are transformed by any bijection. Running such samplers in the latent space then yields explicit control variates, and the estimator is consistent under mild tail conditions on the map and target. Importance sampling (IS) from the flow is the limiting case of the same construction and the control variates apply to it as well. Experiments on synthetic targets and real posteriors compare the procedure against state-of-the-art samplers and control variates.",
+  "published": "2026-10-07T20:16:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.102420+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:16:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10870v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.564610+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "7b3f952c8be248616682411a3c10b946da4868b02f8afb78f064818d1c212b6b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Inverse-LLaVA: Rethinking Multimodal Alignment via Text-to-Vision Mapping",
+  "url": "https://arxiv.org/abs/2508.12466",
+  "summary": "arXiv:2508.12466v3 Announce Type: replace Abstract: Connecting pretrained vision and language models usually involves projecting image features into the language model's input space. Inverse-LLaVA reverses this mapping within decoder attention: language states are projected to the visual feature dimension, and modality-specific maps produce residual query, key, and value updates. Fusion and low-rank adaptation (LoRA) learn jointly from 665K visual instructions, with frozen backbones and no separate alignment stage. Across nine primary benchmark evaluations, the final 7B model approaches two-stage LLaVA-1.5 on several tasks. It scores 78.45% on VQAv2 versus 79.13% for official LLaVA-LoRA, and 50.96% versus 48.56% on VizWiz; TextVQA is lower at 56.96% versus 58.47%. Controlled studies examine fusion components, insertion depth, visual features, and language-model size. Representation analysis shows that the text maps preserve much of the pairwise similarity ordering while changing its geometric spread. Additional paired supervision improves celebrity recognition, while instruction replay repairs caption-induced answer-format failures. Analytical cost expressions and fixed-work profiles separate the additional fusion computation from the omitted alignment stage. These findings establish text-to-vision attention fusion as a practical alternative for instruction-only multimodal adaptation.",
+  "published": "2025-08-17T18:36:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.779030+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:19:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2508.12466v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.357940+00:00"
+}

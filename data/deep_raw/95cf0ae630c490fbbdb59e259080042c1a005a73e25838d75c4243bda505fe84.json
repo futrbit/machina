@@ -1,0 +1,22 @@
+{
+  "id": "95cf0ae630c490fbbdb59e259080042c1a005a73e25838d75c4243bda505fe84",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Leveraging Instruction Tuning and Merging for Reasoning Model Adaptation",
+  "url": "https://arxiv.org/abs/2607.14895",
+  "summary": "arXiv:2607.14895v2 Announce Type: replace Abstract: Reasoning language models (RLMs) demonstrate impressive performance by leveraging test-time compute in the form of reasoning tokens. However, this behavior makes adapting RLMs to new domains challenging and expensive. The reason is that further training can disturb the learned behavior and degrade model performance. This makes it difficult to leverage supervised fine-tuning data with human-written solutions: although it contains high-quality annotations, it lacks reasoning tokens. In this work, we show how, despite this challenge, such data can be used efficiently for RLM adaptation. For this, we first use standard instruction tuning. Next, we leverage model merging to combine the instruction-tuned model with the original RLM, picking the merging ratio such that the resulting model's reasoning behavior on the target domain is recovered. We evaluate our method across four RLMs on coding and text summarization tasks, where it improves target-task performance by up to $11.0\\%$ while preserving reasoning behavior and limiting the out-of-distribution score degradation to on average $0.7\\%$. Importantly, our adaptations are efficient and economical, costing less than USD $\\$10$ per model.",
+  "published": "2026-07-16T12:11:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.834470+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:18:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.14895v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.867633+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "8eaffc9766252b31ee9563f27218ccf6d58ecc6b938f1b786d9b849a300ee2d0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Leveraging Cell-level Spatial Transcriptomics as Weak Supervision for Nuclei Classification",
+  "url": "https://arxiv.org/abs/2604.23481",
+  "summary": "arXiv:2604.23481v2 Announce Type: replace-cross Abstract: Deep learning-based nuclei analysis in histopathology relies heavily on large-scale, expert-curated datasets that are costly and difficult to scale across organs. To address this, we propose a scalable framework leveraging cell-level spatial transcriptomics (ST) as an alternative supervision source for nuclei classification. Cell-level ST provides both gene expression profiles and nucleus masks, enabling automatic generation of image-label pairs without manual annotation. We convert gene expression into cell-type labels and introduce an image-oriented classification strategy to effectively transfer these identities to histopathology images. Evaluated on unseen tissues, our framework achieves comparable segmentation and classification performance compared with conventional supervised approaches, despite using fewer manually annotated datasets.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.238725+00:00"
+}

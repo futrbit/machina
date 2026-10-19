@@ -1,0 +1,22 @@
+{
+  "id": "87eb0173144209d0c72099c4f64480281ddd7db7942614892bacfd8fc69c895c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "FineART: Fine-Grained Annotated Robotic Trajectory Dataset and Vision-Language-Action Model for Bimanual Manipulation",
+  "url": "https://arxiv.org/abs/2609.36416",
+  "summary": "arXiv:2609.36416v3 Announce Type: replace-cross Abstract: Robots operating in real-world environments must often execute complex, multi-step bimanual tasks over long horizons rather than single, isolated actions. Current manipulation datasets provide limited support for this capability: although single-arm datasets reach hundreds of thousands of trajectories, they typically provide only one high-level instruction per episode, while existing bimanual datasets provide subtask annotations for only part of their recorded hours. We present FineART, a densely annotated bimanual manipulation dataset comprising 40,543 episodes (1,718 hours) and 533,913 subtasks across 151 tasks. We also introduce FineART-VLA, a vision-language-action policy that predicts its own next subtask to guide its actions. Mid-training on FineART's subtask annotations improves FineART-VLA's success at following spatial instructions from 32.0% to 100.0%. With step-by-step human subtask guidance, success on unseen long-horizon tasks increases from 16.0% to 76.0%. Furthermore, FineART-VLA matches baseline performance on a new robot with 10x less fine-tuning data and generalizes zero-shot to unseen tasks. We open-source the full dataset, model weights, and training code.",
+  "published": "2026-09-29T00:13:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.556360+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:13:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.36416v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.438097+00:00"
+}

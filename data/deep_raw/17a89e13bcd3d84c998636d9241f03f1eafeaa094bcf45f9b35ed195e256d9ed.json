@@ -1,0 +1,18 @@
+{
+  "id": "17a89e13bcd3d84c998636d9241f03f1eafeaa094bcf45f9b35ed195e256d9ed",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Sign Code: The Hidden Binary Nature of Deep Networks",
+  "url": "https://arxiv.org/abs/2610.23616",
+  "summary": "arXiv:2610.23616v1 Announce Type: new Abstract: Every neuron in a trained network outputs a number that can be separated into its sign (positive or negative) and its magnitude (absolute size). We call the set of all neuron signs the \\textit{sign code}. This raises a key question: does classification depend more on the sign code or on the magnitudes? For overparameterized vision classifiers with sign-preserving activations, the answer is overwhelmingly the sign code. A $k$-nearest neighbor classifier operating only on this binary sign code achieves accuracy comparable to the full model across different architectures, activation functions, and datasets. Moreover, replacing all magnitudes in every layer with random noise while keeping the original signs barely changes residual network performance. In contrast, flipping just 20\\% of the signs reduces accuracy to chance. Models generalize well when same-class inputs share similar sign codes. When this overlap is disrupted by a regularizer, training accuracy remains high, but test performance collapses. A margin decomposition helps explain these results: the sign-only contribution to each logit grows as $\\sqrt{d}$ in network width, dominating the magnitude residual. The natural unit of analysis for these networks may not be through their continuous weight space but instead through their discrete sign codes.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.233729+00:00"
+}

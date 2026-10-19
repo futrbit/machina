@@ -1,0 +1,22 @@
+{
+  "id": "a2ccf99767a498f69c0c4608e6e1284c28f8e59d723c941acc5e4dc3e6dfa068",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction",
+  "url": "https://arxiv.org/abs/2609.13504",
+  "summary": "arXiv:2609.13504v2 Announce Type: replace Abstract: Recent developments in feed-forward 3D reconstruction resulted in models which can recover dense scene representations and camera motion solely from an image stream. However, such predictions are prone to becoming inconsistent over long trajectories, specifically in demanding environments with repetitive structures, weak textures and dynamic objects or people. One way to mitigate those challenges is to use an omnidirectional camera, which provides wide spatial coverage and captures richer visual information. Yet, the majority of models do not offer support for 360-degree imagery or require additional fine-tuning. To bridge these two aspects, we present RIGOR: a large-scale reconstruction pipeline for gravity-aligned omnidirectional videos that retains a frozen feed-forward perspective backbone and exploits each panorama as a four-view virtual rig. The rig structure is used to detect and repair locally inconsistent predictions, to retrieve loop closures through cyclic four-view consensus, and to geometrically verify candidate revisits before global optimization. Verified constraints drive a Sim(3) pose graph that corrects accumulated rotation, translation, and scale drift along the sequence. We demonstrate that the proposed consistency mechanisms improve both trajectory accuracy and reconstructed geometry over a feed-forward baseline on challenging construction-site sequences. The code is made available under this link: https://github.com/TangentH/RIGOR.",
+  "published": "2026-09-11T20:11:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.545367+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:21:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.13504v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.205430+00:00"
+}

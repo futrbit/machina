@@ -1,0 +1,18 @@
+{
+  "id": "7ca614813178f449b895104e41c2e2c154746c409f6bbb07855223b664ab23c0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "A Deeper Dive into the Irreversibility of PolyProtect: Making Protected Face Templates Harder to Invert",
+  "url": "https://arxiv.org/abs/2605.03857",
+  "summary": "arXiv:2605.03857v2 Announce Type: replace Abstract: This work presents a deeper analysis of the \"irreversibility\" property of PolyProtect, a biometric template protection method initially proposed for securing face embeddings. PolyProtect transforms embeddings into protected templates via multivariate polynomials, whose coefficients and exponents are distinct for each subject enrolled in the face recognition system. A polynomial is applied to consecutive sets of elements from a given embedding, where the amount of overlap between the sets is a tunable parameter. We begin our irreversibility analysis by demonstrating that PolyProtected templates are easier to invert using a numerical solver based on cosine distance, as opposed to Euclidean distance (used in the earlier PolyProtect work). To make this inversion more difficult, we then propose a \"key selection algorithm\", which tries to choose \"keys\" (coefficients and exponents of the PolyProtect polynomial) that enhance the irreversibility of PolyProtected templates, compared to when the keys are purely random. Our experiments show that this algorithm is effective at generating PolyProtected templates that are significantly more difficult to invert, and that it approximately equalises the irreversibility of PolyProtected templates generated using different \"overlap\" parameters. This allows for better control of the known irreversibility versus accuracy trade-off across different overlaps. We also show that accuracy in the PolyProtected domain can be affected by the range in which the embedding elements lie, but that this can be improved by normalizing the embeddings prior to applying PolyProtect. This work is reproducible using our open-source code: https://github.com/idiap/BTPBench/blob/main/paper/polyprotect-irreversibility/.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.078070+00:00"
+}

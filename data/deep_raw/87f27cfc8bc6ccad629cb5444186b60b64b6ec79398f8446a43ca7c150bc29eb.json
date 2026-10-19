@@ -1,0 +1,21 @@
+{
+  "id": "87f27cfc8bc6ccad629cb5444186b60b64b6ec79398f8446a43ca7c150bc29eb",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Batch Before You Lift: Scalable Topological Deep Learning on Large Graphs",
+  "url": "https://arxiv.org/abs/2610.12247",
+  "summary": "arXiv:2610.12247v1 Announce Type: cross Abstract: Topological Deep Learning extends graph-based learning to higher-order domains, such as hypergraphs, cellular, and simplicial complexes. These domains are typically constructed from patterns in an input graph through a process of graph lifting. Full-domain training constructs and stores the complete lifted representation before model execution. On large and dense datasets like Reddit (233k nodes and 57.3M edges), this global materialization becomes a severe computational bottleneck, often rendering training infeasible. To address this limitation, we introduce Cluster-TNN, a domain-agnostic framework that avoids this bottleneck by lifting locally instead. After partitioning the input graph during preprocessing, at runtime Cluster-TNN dynamically samples groups of node clusters, reconstructs their induced subgraphs to form mini-batches, and applies the chosen lifting within each mini-batch. Retaining all edges among sampled nodes preserves the connectivity needed to construct higher-order structures across clusters, producing topological mini-batches that existing Topological Neural Networks can process directly. Across 21 matched comparisons with full-graph execution, Cluster-TNN reduces peak GPU memory in every configuration, by 83.2% on average while maintaining competitive predictive performance. Notably, such a reduction enables, to our knowledge, the first training of multiple different higher-order Topological Neural Networks on large datasets such as Reddit and OGBN Products. These results establish Cluster-TNN as a general strategy for scaling Topological Deep Learning beyond the limitations of global domain construction.",
+  "published": "2026-10-08T16:23:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.401369+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:23:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12247v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.608392+00:00"
+}

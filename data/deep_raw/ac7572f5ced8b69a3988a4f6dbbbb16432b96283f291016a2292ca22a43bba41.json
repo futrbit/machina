@@ -1,0 +1,21 @@
+{
+  "id": "ac7572f5ced8b69a3988a4f6dbbbb16432b96283f291016a2292ca22a43bba41",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Robust Nonprehensile Object Transport with Quadruped Robots",
+  "url": "https://arxiv.org/abs/2610.07245",
+  "summary": "arXiv:2610.07245v1 Announce Type: new Abstract: In this paper, we present a robust nonprehensile object transportation framework for quadruped robots. An uncertainty-aware trajectory optimization method generates object motions with minimal closed-loop sensitivity to uncertain parameters. The resulting reference trajectory is tracked using a coupled convex model predictive controller that jointly predicts the CoM dynamics of the quadruped and the payload followed by a whole-body QP that enforces ground reaction constraints. The approach is evaluated through extensive simulations and real-world experiments under variations in the object's inertial parameters. Its performance is compared with fixed-orientation and straight-line trajectories as baseline. The results show that the optimized object motion reduces the sliding by approximately 50% compared with the fixed-orientation baseline and 30% compared with the straight-line baseline, while also achieving lower robot CoM tracking errors.",
+  "published": "2026-10-05T18:46:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.453026+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:46:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07245v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.453280+00:00"
+}

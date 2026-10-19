@@ -1,0 +1,22 @@
+{
+  "id": "130e86b7d36ede267a8d476c7b1896ad502a3103d5c8a0197c1027ea41f01759",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Mean-based algorithms: A lower bound and regret",
+  "url": "https://arxiv.org/abs/2606.04931",
+  "summary": "arXiv:2606.04931v2 Announce Type: replace Abstract: Mean-based algorithms are online learning algorithms that assign low probability to actions with low average rewards. Recent research shows that they converge to serially undominated actions, which serve as approximations to Nash equilibria in economic games. However, empirical studies indicate that mean-based algorithms converge more slowly in bandit-feedback settings than established no-regret alternatives. This work investigates mean-based algorithms under unknown horizons and bandit feedback. In this setting, we provide the first lower bound on the algorithm-defining sequence $\\gamma_t$, establishing a fundamental limit on the learning speed of such algorithms. In multi-armed bandit problems, this result constrains the rate at which any algorithm can reliably identify low-reward actions while acting according to this knowledge. We also propose two mean-based algorithms: one generalizes $\\epsilon$-greedy, and the other extends mean-based Exp3 to unknown horizons. Our experiments show that mean-based algorithms, although slightly slower, can perform competitively with other bandit-feedback algorithms. We further study the relationship to regret. Depending on the choice of $\\gamma_t$, the intersection with no-regret algorithms is non-trivial, and we show that some algorithms are both mean-based and no-regret.",
+  "published": "2026-06-03T14:23:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.117464+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:18:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.04931v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.749906+00:00"
+}

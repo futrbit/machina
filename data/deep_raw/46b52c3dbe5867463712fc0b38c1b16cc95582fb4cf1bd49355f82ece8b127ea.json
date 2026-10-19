@@ -1,0 +1,18 @@
+{
+  "id": "46b52c3dbe5867463712fc0b38c1b16cc95582fb4cf1bd49355f82ece8b127ea",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "CFC26: Building Evaluations for Deployment in Sonar-Based Fish Counting",
+  "url": "https://arxiv.org/abs/2610.22549",
+  "summary": "arXiv:2610.22549v1 Announce Type: new Abstract: Accurate counts of fish populations are essential for monitoring ecosystems and making decisions for conservation, harvest limits, and river management. In many field deployments, these counts are obtained from sonar videos that experts must inspect manually, making large-scale monitoring slow, expensive, and difficult. Automated counting systems have been proposed as a scalable alternative, but so far this promise has been difficult to realize in deployment. Developing evaluations that better reflect real-world deployment conditions will help close this gap and drive improvements in counting performance in practice. To achieve this, we propose Caltech Fish Counting 2026 (CFC26), a new dataset with improved evaluation protocols that simulate deployment to seen and novel rivers, testing in-distribution and out-of-distribution performance. We expand the CFC22 dataset to eleven deployment locations across nine Pacific salmon river systems from Alaska to Northern California, capturing a broader geographical and ecological range of data. We additionally introduce two new evaluation metrics for counting, nMNE and nMANE, that mirror the operational workflow that experts use and help surface errors that frame-level detection metrics do not capture. Using these metrics, we reveal previously-concealed directional bias in upstream vs downstream counts, which would have direct and significant ecological implications if undetected. The dataset and code are publicly available on CaltechDATA and GitHub.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.035098+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "6309b85b8c859e410c80ce43368cd2e8e32ec80e59a95ad54bbf8d62c87f84ee",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Do Multi-Agent LLMs Explore Each Other?",
+  "url": "https://arxiv.org/abs/2607.11250",
+  "summary": "arXiv:2607.11250v2 Announce Type: replace-cross Abstract: Exploration is essential for reliable autonomy in multi-agent systems, yet it remains unclear whether large language model (LLM) agents can explore effectively when interacting with one another. We show that modern LLM agents often fail to do so, exhibiting myopic and polarized interaction patterns that lead to suboptimal coordination and increased regret. We formalize this challenge as the Multi-Agent Exploration problem, modeling it as a partially observable stochastic game (POSG), in which agents must probe peers to infer their capabilities and identify effective interaction strategies. To address this, we introduce Multi-Agent Contextual Exploration (MACE), a lightweight framework that explicitly promotes exploration through structured peer selection. Across both contextual and parametric diversity settings, exploration behavior and downstream task performance substantially improve when MACE is applied. We further provide theoretical insight that MACE achieves a sublinear expected-regret bound. Overall, our results highlight a fundamental limitation of current LLM agents and underscore the importance of explicitly guided exploration for reliable multi-agent autonomy.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.220123+00:00"
+}

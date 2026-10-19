@@ -1,0 +1,22 @@
+{
+  "id": "d1650867166d589a65d00e111f256dbea6d127efd2e5eebd898b0457f9bb2baf",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Global Transport Couplings for Classifier-Free Guided Flows",
+  "url": "https://arxiv.org/abs/2610.07555",
+  "summary": "arXiv:2610.07555v1 Announce Type: new Abstract: Optimal-transport couplings have been shown to reduce training variance in unconditional flow models, but their role in conditional generation remains unclear. A natural approach constructs separate couplings for each condition, but this is impractical for large or continuous conditioning spaces found in modern image foundation models. We introduce Global Transport (GT), a global class-agnostic optimal-transport coupling, computed without class labels. GT can associate different conditions with different regions of the source noise, and consequently worsens performance without guidance. However, when combined with classifier-free guidance (CFG), GT consistently improves generation across domains, model scales, and sampling budgets. This reversal suggests that couplings for conditional flows should be evaluated both empirically and theoretically under the guided flow used at inference, rather than on unguided generation. We evaluate GT over both discrete class and continuous text conditioned image generation across model scales, and investigate how coupling choice alters guided trajectories. These results identify coupling design in the guided flow setting as a simple training time axis to improve performance without modifying existing architectures, samplers, or guidance mechanisms.",
+  "published": "2026-10-06T00:39:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.064497+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:39:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07555v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.082900+00:00"
+}

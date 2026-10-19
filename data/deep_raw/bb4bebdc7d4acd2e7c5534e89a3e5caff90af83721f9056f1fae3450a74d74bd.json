@@ -1,0 +1,22 @@
+{
+  "id": "bb4bebdc7d4acd2e7c5534e89a3e5caff90af83721f9056f1fae3450a74d74bd",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CHORDONOMICON: A Dataset of 666,000 Songs and their Chord Progressions",
+  "url": "https://arxiv.org/abs/2410.22046",
+  "summary": "arXiv:2410.22046v4 Announce Type: replace-cross Abstract: Chord progressions encapsulate important information about music, pertaining to its structure and conveyed emotions. They serve as the backbone of musical composition, and in many cases, they are the sole information required for a musician to play along and follow the music. Despite their importance, chord progressions as a data domain remain underexplored; existing datasets lack the scale, structural annotation, and metadata diversity required for rigorous evaluation of music understanding models. In this work, we present Chordonomicon, the largest dataset of its kind, containing over 666,000 song-level symbolic chord progressions, annotated with structural parts (verse, chorus, bridge, etc.), genre, and release date, created by scraping various sources of user-generated progressions and associated metadata, showing strong similarity to well-established prior datasets. Beyond the dataset itself, we propose a reproducible benchmark suite for next chord prediction, evaluating three sequence modeling architectures (RNN, GRU, LSTM) across multiple context window sizes and data scales under strict exact-match evaluation. Our experiments reveal that structural part annotations consistently improve prediction performance. Chordonomicon is released as an open benchmark, providing split methodology, baselines, and evaluation protocols to enable fair and reproducible comparison for future work on chord prediction, classification, generation, and beyond.",
+  "published": "2024-10-29T13:53:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.840467+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T08:39:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2410.22046v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.798072+00:00"
+}

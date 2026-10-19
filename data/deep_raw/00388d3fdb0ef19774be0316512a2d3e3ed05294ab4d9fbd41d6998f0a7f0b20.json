@@ -1,0 +1,21 @@
+{
+  "id": "00388d3fdb0ef19774be0316512a2d3e3ed05294ab4d9fbd41d6998f0a7f0b20",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Fast Non-Parametric Heteroscedastic Imitation Learning With Geometric Priors",
+  "url": "https://arxiv.org/abs/2610.08650",
+  "summary": "arXiv:2610.08650v1 Announce Type: new Abstract: When learning probabilistic policies from human demonstrations, data-efficient learning and fast adaptations to new scenarios are key requirements. One popular way to achieve intuitive and reliable adaptations is through non-parametric, typically kernel-based, methods. However, existing solutions either fail to account for the geometry of manifolds common in robotics, limiting data efficiency, or, when geometry-aware, provide unreliable uncertainty estimates or require retraining to adapt. We propose a non-parametric approach leveraging geometric priors in scenarios of data scarcity and heteroscedastic uncertainties for probabilistic modeling. We utilize the method to formulate policies based on time or robot state, where non-separable diagonal kernels allow capturing uncertainty relations between degrees of freedom for same-sized in- and outputs. Fast updates, requiring less than 3 ms for a trajectory involving both position and orientation are possible through an optimized formulation. Our approach supports both manifold-valued input and manifold-valued output with large orientation changes. Using task parameterization, adaptation to different object poses is easily possible. We evaluate the approach on a set of toy examples and on real robot manipulation tasks both in autonomous execution and in shared control scenarios.",
+  "published": "2026-10-06T16:36:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.471017+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:36:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08650v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.250207+00:00"
+}

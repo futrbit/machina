@@ -1,0 +1,21 @@
+{
+  "id": "2303cc19335b1c19df8421f9b058bd8894ce2a54a1b8c71578b0c09992908ded",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "AgentFly: Scaling Agentic Reinforcement Learning with Unified Resource System",
+  "url": "https://arxiv.org/abs/2507.14897",
+  "summary": "arXiv:2507.14897v2 Announce Type: replace Abstract: Methods to build LLM agents have evolved from prompt engineering and supervised finetuning to agentic reinforcement learning (agentic RL). However, agentic RL remains bottlenecked by its surrounding systems: agents must interact with heterogeneous environments, such as sandboxes, model services, and external APIs. Their allocation, reuse, and lifecycle dominate rollout cost and cap the scale at which training becomes practical. In this work, we present AgentFly, an agentic RL framework built with a unified resource layer that treats each of these environments as a distinct, typed resource scheduled through one engine, with per-tool acquisition for multi-turn reuse, asynchronous backpressure, and rollout versus global-scoped lifecycles. AgentFly adopts a four-layer design: (I) agent layer that abstracts the agent, tool, and reward concepts, decomposing agentic RL into defining agents, tools, and reward functions; (II) rollout layer that composes these into agent loops and computes rewards; (III) context layer that organizes rollouts, injects contextual information, and arranges resources; and (IV) a low-level resource layer that performs resource management. We provide a suite of prebuilt tools and environments, demonstrate successful agent training across multiple tasks and models, and report the first controlled cross-framework throughput comparison against agentic RL frameworks.",
+  "published": "2025-07-20T10:22:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.404368+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:02:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2507.14897v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.180253+00:00"
+}

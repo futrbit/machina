@@ -1,0 +1,21 @@
+{
+  "id": "03c20ba6ab1cabf0b5098ebc5f880cf5e0654f3115d4c3f7de9367d1e8bfb335",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "MiniWAM: Learning Compact Future Targets for Efficient World-Action Modeling",
+  "url": "https://arxiv.org/abs/2610.12194",
+  "summary": "arXiv:2610.12194v1 Announce Type: new Abstract: World modeling has emerged as an effective co-training objective for robot policies, giving rise to World Action Models (WAMs) that jointly predict actions and future states. However, most WAMs predict future states in the native representation space of pretrained visual backbones, resulting in high-dimensional targets with substantial training cost. We introduce MiniWAM, which instead predicts compact future representations learned from privileged current-future transitions. To construct these targets, we propose Predictive Representations via Inverse Spatiotemporal Modeling (PRISM), which combines inverse-dynamics supervision with feature reconstruction to emphasize control-relevant transition information while preserving useful future-state information. With the learned PRISM encoder frozen, MiniWAM is trained to jointly predict the resulting targets and robot actions from current observations. With 65$\\times$ fewer native future feature tokens, MiniWAM consistently outperforms native future-feature prediction with both DINOv3 and WAN2.1 VAE features, while achieving up to an 8$\\times$ speedup in world-action training. At 0.25B parameters, MiniWAM is already competitive with substantially larger WAMs on LIBERO, LIBERO-Plus, and RoboTwin 2.0 simulation benchmarks. Representation analyses further show that PRISM contributes behavioral structure beyond feature reconstruction alone. These results demonstrate that effective world-action modeling does not require predicting native visual futures, and that compact predictive representations provide a strong and substantially more efficient target for policy learning. The project page is available at: https://j1dan.github.io/MiniWAM.",
+  "published": "2026-10-08T15:51:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.746538+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:51:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12194v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.305174+00:00"
+}

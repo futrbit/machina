@@ -1,0 +1,18 @@
+{
+  "id": "97b9beab946cc13d309e466769b1c9f6b166c6ea2dfb8a807d706bda76b65e1f",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Input- and Feature-Space Correction for Cross-Hospital IHC Grading",
+  "url": "https://arxiv.org/abs/2610.22756",
+  "summary": "arXiv:2610.22756v1 Announce Type: new Abstract: Pathology foundation models (FMs) are trained predominantly on hematoxylin and eosin (H&amp;E) images but are increasingly used as frozen feature extractors for immunohistochemistry (IHC), where cross-hospital differences can impair grading. However, systematic comparisons of correction methods for cross-hospital IHC grading remain limited. To address this gap, we benchmark label-free transformations applied to input images before frozen-FM encoding and to features after frozen-FM encoding using UNI and Virchow2, three IHC markers, and six directed cross-hospital transfers, yielding 12 settings. Among the evaluated input-space methods, our proposed method FIX achieved the largest macro-F1 improvement over no correction, outperforming well-known stain normalization techniques. Among feature-space methods, a simple feature-wise standardization achieved the best improvement over no correction, outperforming CORAL. Under patient-averaged tile-level evaluation, combining FIX with feature-wise standardization improved macro-F1 and quadratic weighted kappa (QWK) by 0.181 and 0.208, respectively, and reduced ordinal error by 0.209 relative to no correction. These results show that input- and feature-space transformations can provide complementary benefits for cross-hospital IHC grading with frozen pathology FMs.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.038096+00:00"
+}

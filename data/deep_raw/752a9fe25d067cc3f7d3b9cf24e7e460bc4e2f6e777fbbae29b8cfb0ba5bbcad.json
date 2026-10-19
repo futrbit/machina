@@ -1,0 +1,22 @@
+{
+  "id": "752a9fe25d067cc3f7d3b9cf24e7e460bc4e2f6e777fbbae29b8cfb0ba5bbcad",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Composite Online-to-Nonconvex Conversion with Optimal Oracle Complexity",
+  "url": "https://arxiv.org/abs/2610.12328",
+  "summary": "arXiv:2610.12328v1 Announce Type: new Abstract: We consider stochastic nonsmooth nonconvex composite optimization, which includes several important problems such as constrained optimization and the regularized training of neural networks. The objective is the sum of a possibly nonsmooth nonconvex Lipschitz function and a convex regularizer, and the function is accessed through stochastic gradients or function values. The goal is to find a point that satisfies a Goldstein-type stationarity condition designed for composite objectives. To our knowledge, no oracle complexity bound for this setting is known under first-order access, and existing complexities under zeroth-order access are suboptimal. To handle this issue, we employ the framework of online-to-nonconvex conversion, which chooses update directions by an online learner and is known to achieve optimal rates for noncomposite problems. We extend the framework to our composite scenario by introducing new losses for the learner, which contain the regularizer itself rather than its linearization and for which a variant of online mirror descent achieves low regret. We show that the resulting algorithm finds such a point with $O(\\delta^{-1}\\varepsilon^{-3})$ stochastic gradient queries or $O(d\\delta^{-1}\\varepsilon^{-3})$ function-value queries, where $\\delta$ is the Goldstein radius, $\\varepsilon$ is the stationarity tolerance, and $d$ is the dimension. These rates match the optimal ones for noncomposite nonsmooth nonconvex optimization, demonstrating that the additional convex regularizer does not worsen the oracle complexity. We also give rates for the smooth case and present numerical experiments.",
+  "published": "2026-10-08T17:08:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.096424+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:08:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12328v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.240011+00:00"
+}

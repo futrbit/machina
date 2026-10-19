@@ -1,0 +1,21 @@
+{
+  "id": "81e1f3b0fdbe0a5f0442af2f503ff98b18bb84d2e1092b36013012f3a2772229",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems",
+  "url": "https://arxiv.org/abs/2610.11600",
+  "summary": "arXiv:2610.11600v1 Announce Type: new Abstract: LLM-based multi-agent systems (MASs) are increasingly used to solve complex tasks through coordinated reasoning, tool use, and interaction with external resources. However, attributing failures in such systems remains challenging because the observed outcome often does not directly reveal the error responsible for the failed execution. In this work, the attribution target is the decisive error, defined as the agent--step pair whose correction would recover the failed execution. Existing approaches largely identify suspicious steps without explicitly modeling how errors propagate across interactions or persist in unresolved loops, making decisive errors difficult to distinguish from downstream failure symptoms. We propose \\textbf{E}rror-Propagation \\textbf{M}odeling for \\textbf{F}ailure \\textbf{A}ttribution (\\textbf{EMFA}). EMFA constructs a structured representation of the failed trajectory, models both cascading propagation and persistent interaction loops, and uses propagation-aware candidate screening followed by counterfactual verification to identify the decisive agent--step pair. On the Who\\&amp;When benchmark, EMFA achieves state-of-the-art step-level attribution accuracy and remains competitive at the agent level. It improves the previous best step-level results by 3.45 and 4.40 percentage points on the Hand-Crafted and Algorithm-Generated subsets, respectively.",
+  "published": "2026-10-08T09:44:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.370388+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:44:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11600v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.479867+00:00"
+}

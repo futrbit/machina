@@ -1,0 +1,21 @@
+{
+  "id": "6f6eeca89eff316861971a280507940c833ab345ecb52006e5f8a332c501245d",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Census-Based Population Autonomy For Distributed Robotic Teaming",
+  "url": "https://arxiv.org/abs/2511.02147",
+  "summary": "arXiv:2511.02147v2 Announce Type: replace Abstract: Collaborating teams of robots show promise due to their ability to complete missions more efficiently and with improved robustness, attributes that are particularly useful for systems operating in marine environments. A key issue is how to model, analyze, and design these multi-robot systems to realize the full benefits of collaboration, a challenging task since the domain of multi-robot autonomy encompasses both collective and individual behaviors. This paper introduces a layered model of multi-robot autonomy that uses the principle of census, or a weighted count of the inputs from neighbors, for collective decision-making about teaming, coupled with multi-objective behavior optimization for individual decision-making about actions. The census component is expressed as a nonlinear opinion dynamics model and the multi-objective behavior optimization is accomplished using interval programming. This model can be reduced to recover foundational algorithms in distributed optimization and control, while the full model enables new types of collective behaviors that are useful in real-world scenarios. To illustrate these points, a new method for distributed optimization of subgroup allocation is introduced where robots use a gradient descent algorithm to minimize portions of the cost functions that are locally known, while being influenced by the opinion states from neighbors to account for the unobserved costs. With this method the group can collectively use the information contained in the Hessian matrix of the total global cost. The utility of this model is experimentally validated in three categorically different experiments with fleets of autonomous surface vehicles: an adaptive sampling scenario, a high value unit protection scenario, and a competitive game of capture the flag.",
+  "published": "2025-11-04T00:32:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.758532+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:31:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2511.02147v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.057121+00:00"
+}

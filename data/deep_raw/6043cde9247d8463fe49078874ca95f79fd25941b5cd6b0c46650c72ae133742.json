@@ -1,0 +1,21 @@
+{
+  "id": "6043cde9247d8463fe49078874ca95f79fd25941b5cd6b0c46650c72ae133742",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering",
+  "url": "https://arxiv.org/abs/2610.11506",
+  "summary": "arXiv:2610.11506v1 Announce Type: cross Abstract: Graph clustering is a fundamental task in data analysis, aiming at grouping nodes with similar characteristics in the graph into clusters. This problem has been widely explored using graph neural networks (GNNs) due to their ability to leverage node attributes and graph topology for effective cluster assignments. However, representations learned through GNNs typically struggle to capture global relationships between nodes via local message-passing mechanisms. Moreover, the redundancy and noise inherently present in graph data may easily result in node representations lacking compactness and robustness. To address these issues, we propose a conjoint framework CoCo, which captures compactness and consistency in the learned node representations for deep graph clustering. Technically, our CoCo leverages graph convolutional filters to learn robust node representations from both local and global views, and then encodes them into low-rank compact embeddings, thus effectively removing the redundancy and noise as well as uncovering the intrinsic underlying structure. To further enrich the node semantics, we develop a consistency learning strategy based on compact embeddings to facilitate knowledge transfer from the two perspectives. Our experimental results indicate that our CoCo outperforms state-of-the-art counterparts on various datasets.",
+  "published": "2026-10-08T08:43:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.392374+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:43:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11506v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.807273+00:00"
+}

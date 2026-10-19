@@ -1,0 +1,21 @@
+{
+  "id": "7916190597512fe07b3256c90e5190af2e00ad22219925bf2c95e304c380eb03",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "ScanSTL: Parallel Robustness Evaluation for Signal Temporal Logic",
+  "url": "https://arxiv.org/abs/2610.07346",
+  "summary": "arXiv:2610.07346v1 Announce Type: new Abstract: Repeated evaluation and differentiation of Signal Temporal Logic (STL) robustness can become a computational bottleneck in robot planning and control. Sequential temporal recurrences limit parallelism, while dense masking increases memory requirements. We propose ScanSTL, which combines associative temporal aggregation with parallel scans and ordered block reductions. Eventually and Always use range extrema, while inclusive strong Until composes compact segment representations. A common range engine handles bounded and shifted intervals, including the guards required before delayed Until witnesses. Each exact temporal operator computes complete robustness traces with linear work and storage and logarithmic parallel depth on uniformly sampled finite signals. An open source JAX implementation supports automatic differentiation, batching, and compilation. We compare ScanSTL with STLCG and STLCG++ using CPU and GPU operator benchmarks and nine composed specifications. Across these nine specifications at 512 samples, ScanSTL achieves geometric mean speedups of 243 times for forward evaluation and 104 times for gradient computation over STLCG++ in JAX on the CPU. On an RTX~5090 GPU, ScanSTL evaluates unbounded Until over more than two million samples with median times below 0.1 ms for forward evaluation and 0.25 ms for gradient computation. Simulated escort and patrol experiments with a robot dog further demonstrate faster repair of violating plans and greater solver capacity in model predictive control.",
+  "published": "2026-10-05T20:17:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.454027+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:17:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07346v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.305972+00:00"
+}

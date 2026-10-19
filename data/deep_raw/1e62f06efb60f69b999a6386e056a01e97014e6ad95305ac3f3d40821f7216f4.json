@@ -1,0 +1,22 @@
+{
+  "id": "1e62f06efb60f69b999a6386e056a01e97014e6ad95305ac3f3d40821f7216f4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reconstruction of Multiscale Plasma Dynamics Across Operating Regimes",
+  "url": "https://arxiv.org/abs/2610.11004",
+  "summary": "arXiv:2610.11004v1 Announce Type: cross Abstract: Reconstructing spatially resolved plasma dynamics from few sensors is essential for diagnostics, reduced-order modelling and control, yet remains difficult because the sparse measurements incompletely constrain multiscale, regime-dependent degrees of freedom. The Shallow Recurrent Decoder (SHRED) partially addresses spatial sparsity by using measurement histories; however, its fully connected decoder provides no explicit mechanism for resolving spatial structure across scales or explicit parametric dependency. We introduce the Recurrent Multiscale Affine-modulated Inference Network (ReMAIN), which preserves SHRED's recurrent temporal encoding but replaces its decoder with a U-Net whose feature hierarchy is conditioned by the recurrent state through feature-wise linear modulation. The temporal representation supplies both a dense prior and scale-specific modulation throughout the U-Net. A parametric extension jointly embeds the operating condition and sensor history, enabling reconstruction to adapt as the governing dynamics change with operating regime. ReMAIN is first benchmarked against SHRED on six one-dimensional nonlinear PDEs representing diverse dynamics. Across all benchmarks, it reduces reconstruction errors on unseen trajectories and more faithfully resolves sharp transitions, localized extrema and fine-scale variations. The parameter-conditioned model is then demonstrated on a collisionless $E \\times B$ plasma subject to perpendicular axial electric and radial magnetic fields, with the electric-field strength serving as the operating parameter. ReMAIN reconstructs the high-dimensional, multiscale plasma state and recovers its regime-dependent spatiotemporal dynamics at electric-field strengths withheld from training. Together, ReMAIN improves sparse-sensor full-state reconstruction and, through parameter conditioning, generalizes across plasma operating regimes.",
+  "published": "2026-10-07T23:36:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.104419+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T23:36:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11004v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.020349+00:00"
+}

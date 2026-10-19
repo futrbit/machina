@@ -1,0 +1,22 @@
+{
+  "id": "397e93d6f13535deefb311605499446239d77afcfd29c7795cd8971ad5bd75f7",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning consistent molecular mechanics force fields from first principles",
+  "url": "https://arxiv.org/abs/2610.08020",
+  "summary": "arXiv:2610.08020v1 Announce Type: cross Abstract: Classical force fields (FFs) remain the workhorse for large-scale simulations even as machine-learned interatomic potentials (MLIPs) approach ab initio accuracy. They decompose total configuration energies into simple effective interactions whose parameters are traditionally assigned based on atom or bond types, enabling efficient simulations but also limiting their ability to adapt across configurations. Recent machine learning approaches have improved the accuracy and transferability of bonded parameters in these FFs by inferring them as functions of local atomic environments, but still rely on empirical nonbonded parameters for practical simulations. In this work, we introduce a unified approach, \\texttt{grappa-fullFF}, which learns both bonded and nonbonded parameters \\emph{consistently} and simultaneously from ab initio reference data. By incorporating physically inspired regularization via supervision of the electrostatic potential and an architecture that facilitates charge equilibration, our model recovers accurate electric response properties, achieves state-of-the-art accuracy on geometry optimization benchmarks, and reproduces the conformational sampling of both classical and existing machine-learned FFs, without relying on externally assigned nonbonded parameters.",
+  "published": "2026-10-06T09:14:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.101474+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:14:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08020v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.684949+00:00"
+}

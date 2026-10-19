@@ -1,0 +1,21 @@
+{
+  "id": "58849ba30112eef28ba0459891ad7907c884396eb5afa43dea820ed8700a9a5b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "3D-DefectBench: A Controlled Factorial Study of Vision-Language Model Evaluation Pipelines for Fine-Grained 3D Generation Defects",
+  "url": "https://arxiv.org/abs/2607.10826",
+  "summary": "arXiv:2607.10826v2 Announce Type: replace-cross Abstract: Automated evaluation is essential for scaling generative 3D systems, where exhaustive human review is costly and slow. Yet the reliability of an automated judge depends on the full evaluation pipeline, including the vision-language model (VLM), asset rendering, visual evidence, task specification, and human reference labels. We introduce 3D-DefectBench, a large-scale benchmark for rigorous evaluation-pipeline analysis. It complements holistic ratings and pairwise preferences with nine fine-grained binary defects spanning geometry, texture, and prompt adherence, with optional human severity annotations. Using a balanced factorial design, we vary the VLM, camera protocol, visual input, and prompt schema across 84 inference designs, and validate the resulting conclusions on a broader set of frontier models. Model choice is the dominant source of variation in agreement with human labels, while other pipeline factors also influence agreement, interact with the model, and can alter the best configuration. A compact six-view RGB protocol performs comparably to denser view sets and configurations augmented with depth or normal channels, making it a strong cost-effective default. Under this fixed design, the best of 12 VLMs still trail trained human labelers, and texture agreement drops sharply from expert-agreement to noisier silver labels. Severity annotations further show that binary judges recover most defects humans flag as severe. These results highlight the importance of evaluating automated judges as complete pipelines and calibrating them across human reference regimes.",
+  "published": "2026-07-12T16:41:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.197784+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:25:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.10826v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.680349+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62f28c335b8ed02cf8b45ba7880d22f70c172754b22f0b15ea33de9033c3dd8d",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "The Kinetics Observer: A Tightly Coupled Estimator for Legged Robots",
+  "url": "https://arxiv.org/abs/2406.13267",
+  "summary": "arXiv:2406.13267v2 Announce Type: replace Abstract: This paper presents the Kinetics Observer, a novel proprioceptive state estimator for legged robots designed to provide the feedback required for versatile locomotion and physical interaction with the environment, with enhanced robustness to contact slippage. Its core contribution is a tight coupling between whole-body kinematics and external wrenches through a contact dynamics model, enabling the consistent fusion of leg kinematics, IMU, and wrench sensor measurements for real-time joint estimation of centroidal kinematics, contact rest poses, contact wrenches, and disturbance wrenches. By exploiting contact wrench measurements as correction terms, the proposed observer increases sensing redundancy, which provides observability of contact slippage relative to the centroid frame and enhanced robustness to modeling and sensor errors. The approach is experimentally evaluated on two humanoid robots across three scenarios totaling thirteen walking sequences, including long-distance walking with repeated contact changes, locomotion over slippery obstacles, and non-coplanar multicontact motion.",
+  "published": "2024-06-19T06:57:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.757532+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:36:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2406.13267v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.839253+00:00"
+}

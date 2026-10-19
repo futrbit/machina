@@ -1,0 +1,21 @@
+{
+  "id": "130fd1dbeb8e1c1ee038a5e1caa503a3a3e4d0a979324a2f3e0a7f05aa329a09",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "CoDe-LoRA: Mitigating the Orthogonality Dilemma in Continual Learning of LLMs via Knowledge Consolidation and Decoupling",
+  "url": "https://arxiv.org/abs/2610.08312",
+  "summary": "arXiv:2610.08312v1 Announce Type: new Abstract: Continual learning (CL) is essential for Large Language Models (LLMs) to sequentially adapt to evolving tasks. To mitigate catastrophic forgetting, recent advances implement low-rank adaptation with orthogonal projections (e.g., O-LoRA) to isolate task parameters. However, we reveal that such strict geometric constraints trigger an \"Orthogonality Dilemma\": rigid parameter isolation impedes the transfer and accumulation of shared representations across semantically related tasks. In this work, we propose a new replay-free method, called Consolidation and Decoupling LoRA (CoDe-LoRA), for CL of LLMs. CoDe-LoRA disentangles the learning process into Consolidating Universal Knowledge and Decoupling Task-Specific Knowledge. To achieve this, CoDe-LoRA leverages an adaptive null space projection mechanism and semantic routing to balance knowledge accumulation with task-specific adaptation. Experimental results across four backbones and three CL benchmarks show that CoDe-LoRA achieves the best average accuracy. Our code is available at https://github.com/Estrellajer/CoDe-LoRA.",
+  "published": "2026-10-06T13:17:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.145815+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:17:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08312v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.750906+00:00"
+}

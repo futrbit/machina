@@ -1,0 +1,18 @@
+{
+  "id": "a7f92ec5ed64fda8f7a5c04722af4212a8cedde4a2c7624a79db6e882ee6fc31",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Spectral Indistinguishability and Learning-Curve Identifiability in Quadratic Networks",
+  "url": "https://arxiv.org/abs/2610.20678",
+  "summary": "arXiv:2610.20678v2 Announce Type: replace Abstract: Motivated by information-organization sculpting, we study spectral summaries and scalar learning curves in centered quadratic networks. We construct analytic positive input densities with Gaussian one- and two-coordinate marginals. Their complete fourth-moment operators are orthogonally intertwined by a map fixing the entire diagonal teacher algebra, giving equal anchored spectral measures. For selected common teachers with a nonzero cycle invariant, their factorized loss curves differ because the map does not preserve matrix multiplication. Cycle length $r$, which can be arbitrarily large, gives $O(\\varepsilon^r)$ contrast uniformly in training time for each fixed construction. For a supplied pair, noisy scalar loss queries require order $\\varepsilon^{-2r}$ observations, while bounded initialization interventions with scalar gradient readouts require order $\\varepsilon^{-2}$. A shared-input score, equal to a paired-gradient difference, attains the optimal input-sample exponent without knowing the teacher. An explicit family of diverging auxiliary teacher scales instead admits a nonzero finite limiting contrast at coupling $1/\\log L$. Conversely, for Gaussian inputs and a rationally independent teacher spectrum, one exact scalar loss curve identifies the initial predictor up to sign conjugation. Within this rationally independent class, with nonzero diagonal inverse-state error in every coordinate and calibrated time and loss scales, it also identifies the unknown teacher spectrum and active dimension, modulo simultaneous rotations. For fixed dimension and distinct unordered teacher sums, dimension-minimal exact observations give generic joint local recovery. Finite exact global bounds hold for a known teacher and, on the active class, under a blind dimension cap. Exact certificates and full-weight replay verify the construction; numerical inverse checks reveal severe ill-conditioning.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.274704+00:00"
+}

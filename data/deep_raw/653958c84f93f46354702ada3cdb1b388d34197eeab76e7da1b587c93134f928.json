@@ -1,0 +1,22 @@
+{
+  "id": "653958c84f93f46354702ada3cdb1b388d34197eeab76e7da1b587c93134f928",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Riemannian Geometry for Low-rank Adaptation",
+  "url": "https://arxiv.org/abs/2610.08049",
+  "summary": "arXiv:2610.08049v1 Announce Type: new Abstract: Low-rank adaptation (LoRA) is widely used as a parameter-efficient fine-tuning technique for pre-trained deep neural networks, which approximates the weight update via full fine-tuning by a low-rank matrix $BA^\\top$. This parameterization leads to the equivalence relation $(B, A) \\sim (BG^{-1}, AG^\\top)$ for any invertible matrix $G$ because $BA^\\top = BG^{-1}(AG^\\top)^\\top$ and thus both pairs yield the same loss value. This relation induces a quotient manifold where matrices $(BG^{-1}, AG^\\top)$ for all $G$ are identified, eliminating redundant directions along which the loss value remains unchanged. To respect the geometry of this manifold, the original search space is endowed with a Riemannian metric that is invariant under the equivalence relation. Such a metric induces preconditioning at each gradient step and ensures that each weight update via LoRA changes the loss value, leading to efficient optimization. In this paper, we propose a new Riemannian metric that is specifically tailored to LoRA to close the gap to full fine-tuning at the weight level. We theoretically show that LoRA with our preconditioning induced by this metric satisfies the following two properties at each iteration: (i) The weight update follows the direction closest to the gradient of full fine-tuning within the subspace of first-order weight changes allowed by the LoRA parameterization. (ii) The updated weight matrix is closer in Frobenius norm to that of full fine-tuning than the updated weight matrices of LoRA with conventional preconditioning and without preconditioning. These theoretical insights suggest that our preconditioning makes LoRA better approximate full fine-tuning, thereby leading to more efficient optimization. Experiments show the effectiveness and efficiency of our preconditioning for LoRA on fine-tuning tasks with language and vision domains.",
+  "published": "2026-10-06T09:47:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.072492+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:47:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08049v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.874232+00:00"
+}

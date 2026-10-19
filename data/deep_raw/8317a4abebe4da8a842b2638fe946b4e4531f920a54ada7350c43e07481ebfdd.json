@@ -1,0 +1,21 @@
+{
+  "id": "8317a4abebe4da8a842b2638fe946b4e4531f920a54ada7350c43e07481ebfdd",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Tell Robot What Not to Do: A Negation Understanding Perspective",
+  "url": "https://arxiv.org/abs/2610.11952",
+  "summary": "arXiv:2610.11952v1 Announce Type: new Abstract: Instruction following enables robots to perform diverse tasks specified in natural language, making it a fundamental capability for human-robot interaction. Beyond communicating desired outcomes, users also need to specify constraints on what not to do. We investigate how to enable vision-language-action models (VLAs) to follow negated instructions, where robots must accomplish task goals while respecting explicit exclusions. To this end, we propose NegaAlign, a parameter-efficient, plug-and-play framework that extends pretrained VLAs to follow negated instructions through image-language supervision alone. Specifically, we introduce Negation Transformation Layers into selected layers of the vision-language backbone to reshape intermediate instruction representations. Meanwhile, a teacher-guided alignment mechanism is designed to align instruction-relevant visual tokens, transferring action-relevant grounding from instructions that satisfy the negated constraint. The training phase uses supervision constructed from existing demonstrations and updates only the inserted layers, keeping all pretrained parameters frozen, including the action generator. We further introduce NegaBench, a simulation benchmark spanning 10 scenarios across five domains for systematically evaluating manipulation under negated constraints. Experiments across GR00T, $\\pi_0$, and $\\pi_{0.5}$ demonstrate consistent improvements in negated instruction following. With 11.6M trainable parameters, NegaAlign increases the negated-instruction success rate of $\\pi_{0.5}$ from 2.60% to 88.45% on NegaBench and from 12.4% to 88.8% on real-world tasks, while retaining performance on affirmative instructions.",
+  "published": "2026-10-08T13:39:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.742541+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:39:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11952v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.492859+00:00"
+}

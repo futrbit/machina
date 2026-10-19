@@ -1,0 +1,21 @@
+{
+  "id": "d97e33b11b9e3ef5868cb6587c78040b9a184f431263a13cd11e353c447cb1e8",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "ActionCodec: What Makes for Good Action Tokenizers",
+  "url": "https://arxiv.org/abs/2602.15397",
+  "summary": "arXiv:2602.15397v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models leveraging the native autoregressive paradigm of Vision-Language Models (VLMs) have demonstrated superior instruction-following and training efficiency. Central to this paradigm is action tokenization, yet its design has primarily focused on reconstruction fidelity, failing to address its direct impact on VLA optimization. Consequently, the fundamental question of \\textit{what makes for good action tokenizers} remains unanswered. In this paper, we bridge this gap by establishing design principles specifically from the perspective of VLA optimization. We identify a set of best practices based on information-theoretic insights, including maximized temporal token overlap, minimized vocabulary redundancy, enhanced multimodal mutual information, and token independence. Guided by these principles, we introduce \\textbf{ActionCodec}, a high-performance action tokenizer that significantly enhances both training efficiency and VLA performance across diverse simulation and real-world benchmarks. Notably, on LIBERO, a SmolVLM2-2.2B fine-tuned with ActionCodec achieves a 95.5\\% success rate without any robotics pre-training. With advanced architectural enhancements, this reaches 97.4\\%, representing a new SOTA for VLA models without robotics pre-training. We believe our established design principles, alongside the released model, will provide a clear roadmap for the community to develop more effective action tokenizers.",
+  "published": "2026-02-17T07:07:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.758532+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:35:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.15397v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.478868+00:00"
+}

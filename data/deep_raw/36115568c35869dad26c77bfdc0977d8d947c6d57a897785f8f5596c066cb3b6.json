@@ -1,0 +1,22 @@
+{
+  "id": "36115568c35869dad26c77bfdc0977d8d947c6d57a897785f8f5596c066cb3b6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CLAD: Constrained Abstract Domain for Neural Network Verification",
+  "url": "https://arxiv.org/abs/2609.34628",
+  "summary": "arXiv:2609.34628v2 Announce Type: replace-cross Abstract: Neural network verification (NNV) formally verifies that a network satisfies a specified property for all inputs within a defined region. Modern NNV tools employ abstract domains to compute a sound over-approximation of the network's behavior from the given input region, thus the tightness of these abstractions essentially determines efficiency. A long line of increasingly precise domains has been developed, but they all describe the valid input region in the same restrictive way, e.g., an Lp-norm ball. A practical input region is rarely a simple Lp ball, but rather a combination Lp ball with additional constraints. Verifying a network over such a region with existing abstraction produces a loose over-approximation, which results in either failing to verify a property or spurious counterexamples. We introduce Constrained Lagrangian Abstract Domain (CLAD), a new abstract domain that computes a sound over-approximation of neural networks over input regions defined by a combination of convex constraints. CLAD propagates these constraints and tightens bounds over the true feasible region. However, bounding a neuron over the intersection of these constraints has no closed-form solution, so CLAD relaxes each constraint into the objective with a Lagrange multiplier and solves the resulting max-min problem with a projected primal-dual method, alternating a projected gradient step on the input with a multiplier update. CLAD supports any convex constraint with a subgradient, e.g., from automatic differentiation. We evaluate CLAD on 1,944 instances across four convolutional networks with motion-blur structured perturbations with halfspace or L2-ball constraints. On standard unconstrained Linf property, CLAD verifies as many instances as GCPCROWN at a similar runtime. On constrained properties, CLAD verifies 60% more instances than GCPCROWN on L2-ball properties, and 22% more in total.",
+  "published": "2026-09-28T08:48:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.134454+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:08:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.34628v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.622986+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f576691ffb9c647c97dbfc8f7247b021bb7fb4497a351192a43f5b3c12d2c6ee",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Reasoning Externalization for Faithful Large Language Model Narratives of Stock Return Predictions",
+  "url": "https://arxiv.org/abs/2609.38869",
+  "summary": "arXiv:2609.38869v2 Announce Type: replace Abstract: In finance, interpreting machine learning predictions is essential, yet the numerical outputs of explainable AI can be difficult for non-experts to understand. While large language models (LLMs) can translate these outputs into natural language, they may produce errors when inferring numerical changes and feature relations. We propose an LLM narrative framework for cross-sectional stock return prediction that combines temporal Shapley additive explanations (SHAP) evidence with historical regime analogs. Temporal evidence tracks changes in the normalized global SHAP importance of an XGBoost model over six months. Historical analogs are past periods with similar changes in SHAP importance, their model performance and subsequent market returns are provided as comparative context. Using this framework, we conduct a controlled study of progressive reasoning externalization, sequentially providing raw SHAP sequences, deterministic temporal descriptors, and feature relations. Each generated claim is verified against provenance-linked evidence. Across Qwen3, externalizing numerical and relational reasoning improved evidence faithfulness as well as temporal and relational accuracy. Evidence faithfulness increased from 0.696 to 0.996 for Qwen3-32B-Instruct. While historical analogs did not improve structured automatic faithfulness, they received higher human-rated usefulness scores. These results suggest that externalizing verifiable reasoning enhances narrative faithfulness and that historical context adds interpretive value.",
+  "published": "2026-09-30T03:20:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.187790+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:02:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.38869v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.502648+00:00"
+}

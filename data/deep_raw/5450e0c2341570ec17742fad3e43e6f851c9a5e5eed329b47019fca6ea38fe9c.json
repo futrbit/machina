@@ -1,0 +1,21 @@
+{
+  "id": "5450e0c2341570ec17742fad3e43e6f851c9a5e5eed329b47019fca6ea38fe9c",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "CoRE: Learning Collaboration-Role Experts for Decentralized Collaborative Manipulation with One Policy",
+  "url": "https://arxiv.org/abs/2610.07752",
+  "summary": "arXiv:2610.07752v1 Announce Type: new Abstract: Collaborative manipulation requires robots to perform complementary actions as interactions unfold. We study single-policy decentralized collaboration: every robot runs the same policy from its visual observations and proprioception, without task prompts, identity labels, or inter-robot messages. The challenge is to learn complementary team behaviors within shared parameters and select appropriate actions from each robot's local observations. We introduce CoRE, which learns Collaboration-Role Experts from pooled multi-task, multi-robot demonstrations. Fused appearance and geometry provide local interaction evidence. Query-conditioned cross-attention experts provide adaptable prediction paths, which a local router combines at each action-chunk position. During training, an action-expert alignment loss supervises expert selection using relative forced-route prediction errors against demonstrations under fixed inputs, without role labels. Across simulation benchmarks, CoRE achieves the highest average performance among evaluated decentralized methods. Physical experiments demonstrate effective collaboration across diverse manipulation tasks and robustness to partner delays and slowdowns. Project page: https://aus.bot/research/core/.",
+  "published": "2026-10-06T04:49:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.459024+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:49:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07752v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.571414+00:00"
+}

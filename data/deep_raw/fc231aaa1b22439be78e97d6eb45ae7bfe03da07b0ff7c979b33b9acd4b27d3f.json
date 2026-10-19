@@ -1,0 +1,22 @@
+{
+  "id": "fc231aaa1b22439be78e97d6eb45ae7bfe03da07b0ff7c979b33b9acd4b27d3f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Directly Optimizing Mean Demographic Parity for Nonlinear Regression",
+  "url": "https://arxiv.org/abs/2607.05098",
+  "summary": "arXiv:2607.05098v2 Announce Type: replace Abstract: We focus on regression settings where the fairness goal is to equalize average predictions across values of a sensitive attribute, a criterion known as mean demographic parity. Directly optimizing this criterion is difficult because it depends on a conditional mean that is unknown and changes during training. Common dependence penalties and adversarial methods do not estimate this conditional mean; instead, they push predictions toward full independence. This stronger constraint can reduce accuracy even when average predictions are already equal. Existing conditional-mean methods are limited to linear predictors or low-dimensional sensitive attributes. We enable direct optimization of mean demographic parity using DPVar, a fairness measure defined as the variance of the conditional mean prediction. Because the conditional mean must be estimated as the predictor changes, optimizing DPVar leads to a functional bilevel problem. We develop two solvers: FBO, which uses a closed-form hypergradient, and an iterative-differentiation (ITD) solver that differentiates through updates of the conditional-mean estimator. Unlike previous conditional-mean methods, our approach applies to nonlinear predictors and high-dimensional continuous sensitive attributes. Across a semi-synthetic benchmark built from 21 tabular regression datasets and Communities & Crime data, FBO and ITD recover competitive or better accuracy-DPVar trade-offs than existing methods.",
+  "published": "2026-07-06T13:56:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.127407+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:07:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.05098v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.575604+00:00"
+}

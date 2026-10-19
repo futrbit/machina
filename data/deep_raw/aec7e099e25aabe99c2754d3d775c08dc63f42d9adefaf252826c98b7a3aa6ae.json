@@ -1,0 +1,21 @@
+{
+  "id": "aec7e099e25aabe99c2754d3d775c08dc63f42d9adefaf252826c98b7a3aa6ae",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Learning Force-Regulated Robotic Manipulation with a Low-Cost Tactile-Force-Controlled Gripper",
+  "url": "https://arxiv.org/abs/2602.10013",
+  "summary": "arXiv:2602.10013v2 Announce Type: replace Abstract: Successfully manipulating many everyday objects, such as potato chips, requires precise force regulation. Failure to modulate force can lead to task failure or irreversible damage to the objects. Humans can precisely achieve this by adapting force from tactile feedback, even within a short period of physical contact. We aim to give robots this capability. However, commercial grippers exhibit high cost or high minimum force, making them unsuitable for studying force-controlled policy learning with everyday force-sensitive objects. We introduce TF-Gripper, a low-cost (~$150) force-controlled parallel-jaw gripper that integrates tactile sensing as feedback. It has an effective force range of 0.45-45 N and is compatible with different robot arms. Additionally, we designed a teleoperation device paired with TF-Gripper to record human-applied grasping forces. While we can train standard low-frequency policies with the collected force data, achieving reliable performance remains challenging due to the reactive and contact-dependent nature of force-regulated manipulation. To overcome this, we propose RETAF (REactive Tactile Adaptation of Force), a framework that decouples grasping force control from arm pose prediction. RETAF regulates force at high frequency using wrist images and tactile feedback, while a base policy predicts end-effector pose and gripper open/close action. Our experiments show that, compared to position control, direct force control with TF-Gripper improves grasp stability and overall task performance across six real-world tasks. We further show that tactile feedback is essential for force regulation, and that RETAF consistently outperforms baselines and can be integrated with various base policies. We hope this work opens a path for scaling the learning of force-controlled policies in robotic manipulation. Project page: https://force-gripper.github.io .",
+  "published": "2026-02-10T17:36:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.479012+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:04:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.10013v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.538229+00:00"
+}

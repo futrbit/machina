@@ -1,0 +1,17 @@
+{
+  "id": "4d7922dc717a01a7d7e09e942ad0c3927b966370b6eb586310e167db1b8fb21a",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PanoAir: A Panoramic Visual-Inertial SLAM with Cross-Time Real-World UAV Dataset",
+  "url": "https://arxiv.org/abs/2604.00852",
+  "summary": "arXiv:2604.00852v2 Announce Type: replace Abstract: Accurate pose estimation is fundamental for unmanned aerial vehicle (UAV) applications, where Visual-Inertial SLAM (VI-SLAM) provides a cost-effective solution for localization and mapping. However, existing VI-SLAM methods mainly rely on sensors with limited fields of view (FoV), which can lead to drift and even failure in complex UAV scenarios. Although panoramic cameras provide omnidirectional perception to improve robustness, panoramic VI-SLAM and corresponding real-world datasets for UAVs remain underexplored. To address this limitation, we first construct a real-world panoramic visual-inertial dataset covering diverse flight conditions, including varying illumination, altitudes, trajectory lengths, and motion dynamics. To achieve accurate and robust pose estimation under such challenging UAV scenarios, we propose a panoramic VI-SLAM framework that exploits the omnidirectional FoV via the proposed panoramic feature extraction and panoramic loop closure, enhancing feature constraints and ensuring global consistency. Extensive experiments on both the proposed dataset and public benchmarks demonstrate that our method achieves superior accuracy, robustness, and consistency, completing all 17 sequences without tracking failure and reducing the ATE by up to 47.1% compared with the best-performing baseline. Moreover, deployment on an embedded platform validates its practical applicability, achieving comparable computational efficiency to PC implementations. The source code and dataset are publicly available at https://github.com/YYWumm/PanoAir",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.165646+00:00"
+}

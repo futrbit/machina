@@ -1,0 +1,21 @@
+{
+  "id": "f1db781d4d5c530698e59b2709d44118f7d9ead1619fbde8b507a726f1b21391",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Syn-Omni: Structured Specialization and Progressive Collaboration for Omnimodal Embeddings",
+  "url": "https://arxiv.org/abs/2610.12256",
+  "summary": "arXiv:2610.12256v1 Announce Type: cross Abstract: Omnimodal embeddings naturally involve both shared representations and modality-specific features across heterogeneous inputs. However, existing omnimodal embedding methods often rely on a single shared parameter space over mixed-modality data, limiting structural separation between universal and modality-specific representations. To address this, we propose Syn-Omni, a unified framework for structured omnimodal adaptation with modality specialization and controlled cross-modal collaboration. Specifically, we introduce Orthogonal Modality-Expert LoRA (OME-LoRA), which decomposes adaptation into a shared LoRA path for universal semantics and modality-expert LoRA paths for modality-aware specialization. Furthermore, Progressive Synergy Routing (PSR) enables experts to first establish modality-specific priors, then gradually interact with other modality-experts for cross-modal synergy. Evaluated across 81 diverse tasks spanning image, video, audio, and audiovisual modalities, Syn-Omni consistently outperforms omnimodal baselines, demonstrating the effectiveness of structured specialization and cross-modal progressive collaboration.",
+  "published": "2026-10-08T16:26:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.401369+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:26:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12256v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.301768+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "67e276898b2fe3d22cefed0347f772594e4d50725f1ce3eb1342ada02e0e8072",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "No Need to Stop the Fleet: Localized Anomaly Isolation via Dead Zones in AGV Fleets",
+  "url": "https://arxiv.org/abs/2610.08524",
+  "summary": "arXiv:2610.08524v1 Announce Type: new Abstract: Automated Guided Vehicle (AGV) fleets in production and logistics environments rely on a system-wide emergency stop to handle local anomalies such as malfunctions, hazards, or contaminated areas. While safe, this approach halts the entire fleet even when only a small area is affected, causing unnecessary downtime. This paper proposes dead zones --- a formally defined localized isolation approach that serves as an additional fail-operational mechanism for situations where a full system-wide halt is not strictly needed. Rather than shutting down the entire fleet, a dead zone isolates the anomalous area, allowing unaffected robots to continue operating normally. We introduce two operational strategies: basic dead zone handling, in which affected robots enter a dead zone and stop, and dead zone handling with escaping, in which robots that are sufficiently far from a dead zone reroute around it. For escaping on counterclockwise trajectories we prove collision-freedom with a bounded arrival delay for all escaping robots, provided a minimum pairwise separation is kept between robots. Experimental evaluation confirms the theoretical guarantees and characterizes the throughput tradeoffs between all three approaches: full emergency stop, basic dead zone handling, and dead zone handling with escaping.",
+  "published": "2026-10-06T15:20:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.469018+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:20:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08524v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.935195+00:00"
+}

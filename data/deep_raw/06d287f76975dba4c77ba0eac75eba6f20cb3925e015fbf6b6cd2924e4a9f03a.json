@@ -1,0 +1,21 @@
+{
+  "id": "06d287f76975dba4c77ba0eac75eba6f20cb3925e015fbf6b6cd2924e4a9f03a",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Realizability Is Not Enough: Encoding, Liveness, and Auditing of Synthesized Robot Supervisors",
+  "url": "https://arxiv.org/abs/2609.30460",
+  "summary": "arXiv:2609.30460v1 Announce Type: new Abstract: High-level robotic supervisors coordinate capabilities whose reported outcomes determine the robot's next action. Reactive synthesis can generate such supervisors with formal guarantees, but deployment requires more than proving a Generalized Reactivity (1) (GR(1)) specification realizable. Designers must encode failure-prone capabilities, choose liveness assumptions that match retry intent, audit strategies, and translate them into robot software. We present an open-source pipeline for Robot Operating System (ROS) 2 Flexible Behavior Engine (FlexBE) supervisors that generates capability-based GR(1) specifications, analyzes assumptions before synthesis, audits strategies, reduces states with a behavior-preservation proof, and emits executable state machines. Across four case studies (six comparisons), including hardware on two quadcopter platforms, we compare enumerated and one-hot encodings and two liveness formulations. Under the tested backend, enumerated encoding usually synthesizes faster, although fewer propositions do not reliably predict smaller controllers or lower symbolic cost. System-Goal without pending memory is the only liveness treatment confirmed to yield executable controllers under both encodings across the reported grid; Fair-Outcome can permit realizable cycles without designer-intended completion. For this backend and model, we recommend enumerated encoding with System-Goal and auditing every realized strategy, since proposition count and realizability do not measure deployability. The auditor is sound and complete for four structural defect classes (protocol violations, deadlocks, bounded-failure violations, goal-unreachable traps) but is not a general liveness verifier, and the reduction preserves capability-level behavior. Together, these stages narrow the gap between formal realizability and controllers that pass protocol and structural-progress checks.",
+  "published": "2026-09-24T18:51:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.371982+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T18:51:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30460v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.394120+00:00"
+}

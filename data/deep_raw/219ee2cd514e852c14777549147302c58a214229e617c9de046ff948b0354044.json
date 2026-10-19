@@ -1,0 +1,21 @@
+{
+  "id": "219ee2cd514e852c14777549147302c58a214229e617c9de046ff948b0354044",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Fast and Efficient Asynchronous Gossip Algorithm for Robust and Non-Smooth Convex Decentralized Learning",
+  "url": "https://arxiv.org/abs/2601.20571",
+  "summary": "arXiv:2601.20571v3 Announce Type: replace-cross Abstract: Asynchronous primal-dual methods for decentralized non-smooth convex optimization often require each node to maintain $\\mathcal{O}(d)$ auxiliary variables, where $d$ is its degree. This dependence on degree increases memory requirements and can amplify the effects of stale information, especially in dense networks. Motivated by the challenge of frugal memory management in decentralized learning, we introduce Goal-PD, an asynchronous gossip-based primal-dual algorithm that maintains only two variables per node, regardless of the node's degree. We establish almost-sure convergence of Goal-PD to a minimizer of the underlying optimization problem, and prove linear convergence when the objective functions are piecewise linear-quadratic. For decentralized mean estimation, we show that pairwise averaging is a special case of Goal-PD, which establishes a direct link between the proposed primal-dual framework and classical gossip. Experiments on synthetic and real datasets over various network topologies, with non-smooth objectives including median estimation, show that Goal-PD converges faster than existing asynchronous baselines while requiring significantly less memory by design.",
+  "published": "2026-01-28T13:09:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.193787+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:17:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2601.20571v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.155269+00:00"
+}

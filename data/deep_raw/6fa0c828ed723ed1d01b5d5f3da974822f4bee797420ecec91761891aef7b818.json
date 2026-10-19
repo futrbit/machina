@@ -1,0 +1,18 @@
+{
+  "id": "6fa0c828ed723ed1d01b5d5f3da974822f4bee797420ecec91761891aef7b818",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "GoDe: Gaussians on Demand for Backbone-Agnostic Progressive Compression",
+  "url": "https://arxiv.org/abs/2501.13558",
+  "summary": "arXiv:2501.13558v4 Announce Type: replace Abstract: Splat-based radiance fields have rapidly diversified in primitive type, kernel support, and appearance parameterization. This diversity makes compression difficult: most codecs are single-rate, requiring a separately optimized model for each target bitrate, while progressive codecs remain tied to representation-specific assumptions that do not transfer across backbones. We introduce GoDe (Gaussians on Demand), a progressive compression framework whose central contribution is backbone agnosticism. It reorganizes any trained differentiable splat representation into a single scalable bitstream without modifying the backbone or re-deriving the compression structure for each new primitive type. GoDe builds a nested level-of-detail hierarchy via masked-gradient importance ranking, refines all levels with one quantization-aware fine-tuning stage, and stores the base layer and enhancement layers as progressive chunks compressed with shared entropy dictionaries. Any decoded prefix is directly renderable, so one training pipeline provides multiple rate-distortion operating points without per-rate retraining. Across five heterogeneous backbones and three standard benchmarks, GoDe achieves competitive rate-distortion performance while enabling faster rendering and substantially faster progressive decoding than existing methods. Project page: https://gaussians-on-demand.github.io/",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.054086+00:00"
+}

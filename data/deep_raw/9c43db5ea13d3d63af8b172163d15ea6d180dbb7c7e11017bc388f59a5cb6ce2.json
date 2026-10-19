@@ -1,0 +1,22 @@
+{
+  "id": "9c43db5ea13d3d63af8b172163d15ea6d180dbb7c7e11017bc388f59a5cb6ce2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LARK: A Low-Cost, Accurate, Occlusion-Resilient, Kalman Filter-Assisted Tracking System for Image-Guided Surgery",
+  "url": "https://arxiv.org/abs/2610.07561",
+  "summary": "arXiv:2610.07561v1 Announce Type: new Abstract: Image-guided surgery (IGS) depends on accurate tracking of surgical instruments to provide real-time navigation relative to anatomical structures. Commercial stereo infrared trackers are accurate but prone to occlusion and cost-prohibitive for many settings. This work presents LARK, a multi-camera optical tracking system using commodity RGB hardware and multi-view redundancy and fusion. We develop and evaluate two complete tracking methods: multi-view monocular pose fusion and multi-view triangulation. Both methods are assessed under varying occlusion levels using a precision-machined grid and an anatomical head phantom, and compared against a gold-standard stereo infrared system. With five cameras and adaptive Kalman filtering, LARK achieves median target registration errors of 0.64 mm for point localization with triangulation and 0.73 mm for trajectory tracking with pose fusion on the machined grid. Camera-subset experiments show graceful degradation in adaptive pose-fusion accuracy as fewer views remain available. With tracking hardware costing under $1,000 USD, LARK provides a low-cost platform for image-guided surgery research. Hardware designs and software are publicly available at https://nist.mni.mcgill.ca/software/ , and datasets at https://nist.mni.mcgill.ca/data/ .",
+  "published": "2026-10-06T00:49:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.514385+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:49:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07561v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.013545+00:00"
+}

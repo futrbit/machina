@@ -1,0 +1,22 @@
+{
+  "id": "9e2a2803669e8f5e639deaf7ed078643efc4386739246d9f6da305fa5ee9f601",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Systematic Study of Small Language Models on Abstract Reasoning Tasks",
+  "url": "https://arxiv.org/abs/2610.08680",
+  "summary": "arXiv:2610.08680v1 Announce Type: new Abstract: Endpoint accuracy on abstract-reasoning benchmarks does not reveal whether a language model has acquired a transferable rule or fit distribution-specific regularities. We study this distinction in small language models on the ARC-TGI benchmark, which organizes abstract grid transformations into controllable task families and supports resampling, spatial shifts, and cross-benchmark transfer. Across more than 1,000 runs, we profile decoder-only, encoder--decoder, and mixture-of-experts model families under supervised fine-tuning. We examine the efficiency and stability of skill acquisition, robustness beyond the training distribution, interactions with model family and task formulation, and layer-wise attention signatures that accompany behavioral differences. Substantial in-distribution accuracy is attainable, but acquisition is sensitive to optimization and unevenly distributed across task families. Performance deteriorates sharply outside the training distribution, including when the rule is retained but grid scale changes. Greater training-set depth and breadth yield uneven gains, while the effect of additional in-context examples depends on model family. Executable-rule induction also yields correct solutions not observed under direct grid generation. On selected tasks, attention diagnostics show distinct concentration and context-dependence profiles, but do not establish general causal mechanisms. Overall, abstract-reasoning scores are conditional on the model, adaptation regime, evaluation distribution, and response format.",
+  "published": "2026-10-06T17:01:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.081486+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:01:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08680v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.059518+00:00"
+}

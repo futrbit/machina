@@ -1,0 +1,22 @@
+{
+  "id": "dd1d411241a1239f0c0c9665b12e53e126537162e56a2815fcf2fa329ed1a4e2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "The Linear Geometry of Interpretable Tokens: Jailbreaking Attacks and Defenses for Unlearned Diffusion Models",
+  "url": "https://arxiv.org/abs/2504.21307",
+  "summary": "arXiv:2504.21307v5 Announce Type: replace Abstract: Diffusion models excel at generating high-quality images but can memorize and reproduce harmful concepts when prompted. Although fine-tuning methods have been proposed to unlearn a target concept, they struggle to fully erase it while maintaining generation quality on other concepts, leaving models vulnerable to jailbreak attacks. Existing jailbreak methods demonstrate this vulnerability but offer limited insight into how unlearned models retain harmful concepts, limiting progress on effective defenses. In this work, we show that a coherent, interpretable, attack-accessible linear residual of the erased concept can be recovered in the token embedding space, and that both an attack and a defense follow from this structure. We introduce SubAttack, a novel jailbreaking attack that reads out this subspace by learning an orthogonal set of attack token embeddings, each being a linear combination of human-interpretable textual elements, revealing that unlearned models still retain the target concept through related textual components. Furthermore, our attack is also more powerful and transferable across text prompts, initial noises, and unlearned models than prior attacks. Conversely, projecting out the same subspace yields SubDefense, a lightweight plug-and-play defense mechanism that suppresses the residual concept in unlearned models. SubDefense provides stronger robustness than existing defenses while better preserving safe generation quality. Extensive experiments across multiple unlearning methods, concepts, and attack types demonstrate that our approach advances both understanding and mitigation of vulnerabilities in diffusion unlearning.",
+  "published": "2025-04-30T04:33:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.534374+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:21:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2504.21307v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.216820+00:00"
+}

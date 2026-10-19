@@ -1,0 +1,22 @@
+{
+  "id": "cca1f3a3188b163432c85cdfe99a6e54d940017332eb1ff2d340c5d41cc31993",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "RPA: Residual Patch-Token Adapter for Image Retrieval from EEG and MEG",
+  "url": "https://arxiv.org/abs/2609.31698",
+  "summary": "arXiv:2609.31698v2 Announce Type: replace Abstract: Most existing MEG and EEG (M/EEG) visual decoding methods align brain signals with a single global embedding extracted from a pretrained visual encoder, leaving open whether intermediate patch representations, which preserve richer and more granular rich visual information, can improve representation learning. To address this question, we introduce the Residual Patch Adapter (RPA), a lightweight, modular adapter that leverages all patch tokens from an intermediate layer of a ViT visual encoder for alignment. Through extensive ablation analyses, we first show that pooling or masking patch tokens degrades the learned representation, demonstrating that retaining the full set of patch tokens is important for EEG alignment, while the CLS token provides little unique information. We then use a series of six quantitative feature analyses to show that both higher-level semantics and lower-level visual features, including color and texture, are essential for this EEG-to-image alignment. Under current protocols, our system achieves Top-1 accuracies of 95.4\\% within-subject and 35.5\\% cross-subject on THINGS-EEG2, and 65.2\\% and 6.7\\%, respectively, on THINGS-MEG, achieving state-of-the-art (SOTA) performance across both datasets. Evaluations with alternative brain encoders, including pretrained EEG foundation models, demonstrate that the approach extends beyond the projection-based EEG encoder. Furthermore, we provide a plug-and-play interface that allows RPA to be replaced by convolution, attention, or ConvNeXt alternatives. Together, these findings provide significant insight into M/EEG-to-image representation learning by establishing design principles for leveraging the latent space of visual encoders, and open new directions for brain--image alignment and non-invasive brain--computer interface (BCI).",
+  "published": "2026-09-19T01:40:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.548366+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:25:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31698v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.022937+00:00"
+}

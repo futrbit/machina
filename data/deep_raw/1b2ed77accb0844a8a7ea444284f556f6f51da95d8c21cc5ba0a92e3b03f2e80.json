@@ -1,0 +1,22 @@
+{
+  "id": "1b2ed77accb0844a8a7ea444284f556f6f51da95d8c21cc5ba0a92e3b03f2e80",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "UP-MOPD: Update Projection in Multi-Teacher On-Policy Distillation",
+  "url": "https://arxiv.org/abs/2610.08398",
+  "summary": "arXiv:2610.08398v1 Announce Type: new Abstract: On-policy distillation from multiple teachers combines expertise from different domains in a single student, but conflicting gradients can hinder this integration. Gradient corrections directly constrain parameter updates under plain SGD. With optimizers such as AdamW, however, momentum, adaptive scaling, and weight decay can turn a corrected gradient into an update that increases a domain loss to first order. To address this gap, we propose Update Projection for Multi-Teacher On-Policy Distillation (UP-MOPD). UP-MOPD lets the original mixed gradient update the optimizer state and generate a candidate displacement, then projects only violating candidates before they are committed to the parameters. The projection gives the unique feasible update closest to the candidate in Euclidean distance. In experiments combining medical and general domains, UP-MOPD improves IFEval-loose accuracy late in training by 2.96 points over vanilla M-OPD. It achieves an average score of 60.03 across eight metrics, compared with 59.00 for gradient projection and 59.15 for update rejection. On a public benchmark covering mathematics, code, and instruction following, it achieves the best average across six tasks (32.67), leads on LiveCodeBench v5, and ties for the best IFEval result.These results support projecting optimizer updates to reduce interference between domains.",
+  "published": "2026-10-06T14:13:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.523380+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:13:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08398v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.941790+00:00"
+}

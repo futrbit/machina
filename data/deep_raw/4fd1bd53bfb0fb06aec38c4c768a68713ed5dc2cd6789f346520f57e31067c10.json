@@ -1,0 +1,22 @@
+{
+  "id": "4fd1bd53bfb0fb06aec38c4c768a68713ed5dc2cd6789f346520f57e31067c10",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "When Should an In-Context Learner Expand Its Hypothesis Space?",
+  "url": "https://arxiv.org/abs/2610.09471",
+  "summary": "arXiv:2610.09471v2 Announce Type: replace Abstract: Learning systems adapt quickly inside a familiar family of models. The harder step comes earlier: deciding, from observations that could be noise, an exception, a change within the family or structure outside it, whether opening a richer family is worth its cost. We treat this as a costly sequential decision: prediction failure must be turned into structural evidence, evidence into a value of expansion, and value into action. The Structural Revision Environment produces matched failures from each source, varies the price of expansion and the remaining horizon independently of the evidence, and admits exact Bayesian calculations and an exact normative solution of the one-shot decision. Its solution shows that revision is a value boundary and not an evidence threshold: one history has different optimal actions under different prices, horizons and announced queries, the boundary between local repair and expansion is set by the inputs a rule predicts and a repair cannot cover, and belief in the richer family crosses long before the decision does. Transformers trained in the environment reproduce this boundary from utility alone. Language models of three post-training lineages carry a failure-sensitive signal in their predictions that is not reflected in their revision decisions, and given the gain of expanding they read it without weighing it against price and horizon. Three models allowed to reason weigh the stated gain in the reference's proportions and still do not turn the history into an estimate of what expansion would buy. Controlled post-training of the meta-trained learners moves the prior and the sharpness of predictions, and neither moves the criterion.",
+  "published": "2026-10-07T05:26:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.133401+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:42:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.09471v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.483467+00:00"
+}

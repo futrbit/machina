@@ -1,0 +1,18 @@
+{
+  "id": "33daf5d1bd3926e93d92bf803c0fdcabd935c3278736d662e58aaabeb903c176",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "TSA: Temporal Slot Activation for Persistent Object-Centric Video Representation",
+  "url": "https://arxiv.org/abs/2606.13714",
+  "summary": "arXiv:2606.13714v4 Announce Type: replace Abstract: Unsupervised video object-centric learning aims to decompose dynamic scenes into temporally persistent entity representations. Existing recurrent video slot-attention methods propagate a fixed set of slots across frames, but typically assume unconditional slot propagation: every slot is updated and decoded at every frame, regardless of whether its corresponding object is visible. We show that this design violates a basic lifecycle requirement for persistent slots: when an object is absent or fully occluded, its slot should preserve its previous state and avoid explaining unrelated visible content. Instead, unconditional propagation creates update-induced state drift, where current-frame evidence overwrites the absent object's representation, and decoder-induced reconstruction interference, where the inactive slot remains coupled to reconstruction through decoder attention. We propose Temporal Slot Activation (TSA), a lightweight mechanism that learns a per-slot, per-frame activation score $\\alpha_{k,t}\\in(0,1)$ without visibility supervision. TSA uses this activation as a shared latent control variable for slot lifecycle modeling. When a slot is inactive, TSA anchors its state to the previous slot via activation-gated updating and suppresses its decoder participation through an activation-dependent additive bias on attention logits before softmax normalization. This jointly reduces state drift and reconstruction-driven interference. To improve decisions under partial occlusion and gradual reappearance, TSA further conditions activation prediction on a per-slot temporal memory produced by a Temporal Context Encoder. We evaluate TSA on MOVi-C, MOVi-E, YTVIS-HQ, and the occlusion-heavy OVIS benchmarks, using standard (FG-ARI, mBO) and tracking-based (IDF1, HOTA) metrics. TSA improves object decomposition and temporal identity preservation, with large gains on long, heavily occluded videos.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.081067+00:00"
+}

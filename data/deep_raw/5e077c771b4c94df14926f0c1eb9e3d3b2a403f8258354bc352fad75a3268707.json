@@ -1,0 +1,22 @@
+{
+  "id": "5e077c771b4c94df14926f0c1eb9e3d3b2a403f8258354bc352fad75a3268707",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams",
+  "url": "https://arxiv.org/abs/2610.12248",
+  "summary": "arXiv:2610.12248v1 Announce Type: cross Abstract: Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without being explicitly asked. While proactive video assistants, spoken dialog systems, and egocentric task understanding have each advanced rapidly, existing systems do not address the joint problem of deciding when to speak and what to say from continuous first-person streams. We introduce EgoVoice, a framework for training and evaluating proactive egocentric spoken assistants. From HoloAssist video recordings of real human instructors, we construct clean audio streams through source separation and speech resynthesis, and convert each video session into a format where the model must decide at each moment whether to remain silent or provide spoken guidance. We fine-tune an omni-modal LLM with our data, and further improve its proactive intervention behavior with direct preference optimization. Experiments across closed and open-source models show that existing systems rarely produce well-timed, meaningful proactive interventions, while EgoVoice yields clear improvements in intervention timing, content relevance, and human preference over the zero-shot backbone.",
+  "published": "2026-10-08T16:24:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.775032+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:24:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12248v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.772293+00:00"
+}

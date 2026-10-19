@@ -1,0 +1,22 @@
+{
+  "id": "e7598216a8ddac15c80577ad423d6c220c696fc4b66bb18ed9e3a75a3f0440fc",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Initial condition recovery in nonlinear damped viscous photoacoustic tomography using a convolutional neural network-guided gradient-free optimization framework",
+  "url": "https://arxiv.org/abs/2610.01015",
+  "summary": "arXiv:2610.01015v1 Announce Type: cross Abstract: Photoacoustic tomography (PAT) is a hybrid imaging modality that combines high optical contrast with high ultrasonic resolution for biomedical imaging applications. In this work, we investigate the inverse problem of recovering the initial pressure distribution from boundary measurements in the presence of nonlinear acoustic propagation and viscous attenuation effects. To model these phenomena more accurately, we consider a nonlinear damped viscoelastic wave equation incorporating spatially varying sound speed, temporal attenuation, and nonlinear propagation mechanisms. We first establish the well-posedness of the corresponding forward problem using a Galerkin approximation combined with energy estimates and a fixed-point argument. For the inverse problem, we derive existence, uniqueness, and local uniqueness results under suitable assumptions through a harmonic extension reduction, spectral Laplace transform techniques, and observability estimates. To numerically reconstruct the initial pressure field, we develop a hybrid reconstruction framework that combines a convolutional neural network (CNN) with a gradient-free optimization strategy based on the sequential quadratic Hamiltonian (SQH) method derived from Pontryagin's maximum principle. The CNN is used to generate an informative initial guess, while the SQH framework enforces the governing PDE dynamics during the reconstruction process. Numerical experiments demonstrate that the proposed hybrid strategy significantly improves reconstruction quality, contrast, and robustness compared to standalone time-reversal and CNN-based approaches.",
+  "published": "2026-10-01T03:58:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.815482+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:58:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01015v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.331750+00:00"
+}

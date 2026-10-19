@@ -1,0 +1,22 @@
+{
+  "id": "c5c8299993f3f4031dedb0c4d7adda7205127b05c20cb66e3c6536b5f07f3ced",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Sharpen Before You Adapt: Data-Free Entry-State Sharpening for Test-Time Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2610.00903",
+  "summary": "arXiv:2610.00903v1 Announce Type: new Abstract: Test-time reinforcement learning (TTRL) adapts language models on unlabeled test problems using supervision derived from their own samples. This makes the checkpoint's \\emph{entry state} consequential: a diffuse policy provides noisier self-supervision and may spend much of a limited adaptation budget merely concentrating probability mass before reliably expressing capability it already possesses. We propose \\textbf{entry-state sharpening}: use data-free training \\emph{before} TTRL to prepare a general-purpose checkpoint in a state that subsequent label-free adaptation can exploit more efficiently. The idea is not tied to one training recipe; different data-free objectives can move the same base model to different entry states. Across five data-free checkpoints derived from Qwen3-4B and evaluated under an identical 15-step TTRL protocol, entry policy entropy strongly rank-orders endpoint conversion efficiency, a reliability-to-reachability measure (Spearman $\\rho=-0.90$; $\\rho=-0.99$ after controlling for entry reachability). The contrast across objectives is striking: R-Zero remains diffuse at $3.39$ nats and finishes below the untuned base in 6/6 matched comparisons across MATH, GPQA, and AMC, whereas SPIRAL reaches $0.07$ nats and achieves the highest post-TTRL accuracy on MATH and GPQA despite its self-play stage using no math training data. An in-domain label-free self-distillation intervention further shows that the entry state can be deliberately sharpened. These results motivate treating checkpoint preparation as a \\emph{state-control problem}: use data-free training to improve TTRL readiness, with entry entropy as a label-free control signal and reachable capability as the constraint.",
+  "published": "2026-10-01T01:33:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.783502+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T01:33:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00903v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.928993+00:00"
+}

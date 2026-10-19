@@ -1,0 +1,18 @@
+{
+  "id": "d609fc014bc81df4fe80ebd3d2fe23e6b3ec85b5c75dac21a25a6eb6b6c307ff",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RamanBench: A Large-Scale Benchmark for Machine Learning on Raman Spectroscopy",
+  "url": "https://arxiv.org/abs/2605.02003",
+  "summary": "arXiv:2605.02003v4 Announce Type: replace Abstract: Machine learning (ML) has transformed many scientific fields, yet key applications still lack standardized benchmarks. Raman spectroscopy, a widely used technique for non-invasive molecular analysis, is one such field where progress is limited by fragmented datasets, inconsistent evaluation, and models that fail to capture the structure of spectral data. We introduce RamanBench, the first large-scale, fully reproducible benchmark for ML on Raman spectroscopy, consisting of streamlined data access (https://pypi.org/project/raman-data/), evaluation protocols and code (https://pypi.org/project/raman-bench/), as well as a live leaderboard (https://huggingface.co/spaces/HTW-KI-Werkstatt/RamanBench). It unifies 77 datasets (including 17 first released with this benchmark) across four domains, comprising 325,862 spectra and spanning classification and regression tasks under diverse experimental conditions. We benchmark 28 models under a standardized protocol, including classical methods (e.g., PLS), Raman-specific (e.g., RamanNet), tabular foundation models (TFMs; e.g., TabPFN), and time-series approaches (e.g., ROCKET). TFMs consistently outperform domain-specific and gradient boosting baselines, while time-series models remain competitive. However, no single method dominates across these heterogeneous datasets, revealing that Raman spectroscopy remains an open challenge for machine learning. Therefore, we invite the community to contribute new approaches to our living benchmark, with the potential to accelerate advances in critical applications such as medical diagnostics, biological research, and materials science.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.261713+00:00"
+}

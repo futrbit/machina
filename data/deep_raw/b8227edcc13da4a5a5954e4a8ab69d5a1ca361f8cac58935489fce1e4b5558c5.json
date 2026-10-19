@@ -1,0 +1,22 @@
+{
+  "id": "b8227edcc13da4a5a5954e4a8ab69d5a1ca361f8cac58935489fce1e4b5558c5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Prediction-powered Neural Architecture Search",
+  "url": "https://arxiv.org/abs/2610.01317",
+  "summary": "arXiv:2610.01317v1 Announce Type: new Abstract: Evaluating candidate architectures in neural architecture search (NAS) faces an inherent trade-off: on the one hand, reliable performance labels are limited because training and evaluating architectures is costly; on the other hand, zero-cost proxies (ZCPs) are cheap to compute at large scale but can be noisy. Yet, how to effectively combine these two sources of supervision remains unclear. In this paper, we propose PPNAS, a novel prediction-powered inference (PPI) approach for NAS. PPNAS fuses (1) a small set of architectures with observed performance labels and (2) a large set of architectures with ZCP information. To combine these two sources of supervision, PPNAS exploits the ordinal information provided by ZCPs to construct additional pairwise ranking supervision, while PPI debiases systematic discrepancies between ZCP-based and true performance rankings. We evaluate PPNAS in end-to-end predictor-based NAS, where it achieves state-of-the-art under limited evaluation budgets. To the best of our knowledge, PPNAS is the first prediction-powered approach for label-efficient NAS.",
+  "published": "2026-10-01T08:47:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.789498+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T08:47:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01317v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.745104+00:00"
+}

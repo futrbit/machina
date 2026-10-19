@@ -1,0 +1,22 @@
+{
+  "id": "5f8aa934926aa8f25e005a054df5390400a287ea3f15aa5ed4465ea1012abe5e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Are Near-Tied LLM Rankings Robust to Family-DIF-Guided Benchmark Recomposition?",
+  "url": "https://arxiv.org/abs/2609.00482",
+  "summary": "arXiv:2609.00482v2 Announce Type: replace-cross Abstract: Small leaderboard gaps are often interpreted as evidence that one language model is better than another, but their sign may depend on which benchmark items are included. We test this using item-level responses from five benchmarks and a family-label-free spectral approximation to multidimensional item-response theory (MIRT). In owner-disjoint folds, one owner half identifies items with low residual differential item functioning across model families (low-DIF). These items are used to score models in the other half with frozen weights that preserve the benchmark's composition across metadata-defined item groups and easiness strata. Equally short matched-random subtests provide a baseline for variation due to item subsampling. Full-benchmark and low-DIF rankings remain strongly correlated ($\\tau_b=.900$--$.948$). Yet in four of five benchmarks, 30.9--47.1\\% of cross-family pairs initially within one percentage point reverse order, exceeding their matched-random medians by 16.9--28.6 percentage points (all $p=.001$). The fifth benchmark shows no reliable excess ($-0.9$ points, $p=.689$). The pattern survives all pre-specified population perturbations, and residual item--family signatures replicate across owner halves; however, no family shows a consistent advantage across benchmarks. Thus, globally stable rankings can still leave individual near-tie orderings sensitive to benchmark composition, and sub-one-point leaderboard gaps should be accompanied by evidence that the implied ordering is composition-robust.",
+  "published": "2026-08-31T23:29:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.140396+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T23:17:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.00482v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.793280+00:00"
+}

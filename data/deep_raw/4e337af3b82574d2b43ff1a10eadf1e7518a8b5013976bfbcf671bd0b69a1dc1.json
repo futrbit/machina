@@ -1,0 +1,21 @@
+{
+  "id": "4e337af3b82574d2b43ff1a10eadf1e7518a8b5013976bfbcf671bd0b69a1dc1",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Rank-Reliable Teacher-Guided Fitness Approximation for Expensive Evolutionary Optimization: A TinyML Architecture Search Study",
+  "url": "https://arxiv.org/abs/2609.30553",
+  "summary": "arXiv:2609.30553v1 Announce Type: new Abstract: Expensive evolutionary search does not always need an exact fitness estimate for every candidate. It often needs a reliable answer to a simpler question: which candidate is better? We address this need through Teacher-Guided Learning NSGA-II (TGL-NSGA-II), a low-fidelity framework for constrained Tiny Machine Learning (TinyML) neural architecture search. A pretrained teacher organizes samples into strata defined jointly by difficulty and class. Each candidate then undergoes KD-Lite, a short and capped knowledge-distillation procedure on a compact training set, before being scored on a separate stratified evaluation set. This teacher-guided score is fused with a Gaussian-process surrogate to select candidates for full evaluation. For a fixed candidate population, we analyse evaluation variance, score concentration, pairwise rank inversion, expected Kendall-$\\tau$, first-front identification, and hypervolume perturbation. We also derive a variance-aware fusion weight and a capacity-adaptive distillation rule. On keyword spotting and bird-call classification, the measured Kendall-$\\tau$ values are 0.74 and 0.62, exceeding the corresponding predicted lower bounds of 0.60 and 0.46. Joint stratification reduces proxy-score variance by 41% relative to random evaluation. Selective teacher mismatch, in contrast, increases differential bias and reduces Kendall-$\\tau$ to 0.41. Under a constrained evaluation budget, TGL-NSGA-II achieves the largest mean hypervolume and smallest generational distance on keyword spotting, records the lowest mean false-positive rate on BirdCLEF, and runs 2.2x faster than full NSGA-II. These guarantees apply to population-level low-fidelity evaluation and do not establish convergence of the complete evolutionary trajectory.",
+  "published": "2026-09-24T21:03:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.412615+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T21:03:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30553v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.445490+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "72935899518b80ea27762c8a317dadbe6b361e921721d2c78aaca1eda738df37",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems",
+  "url": "https://arxiv.org/abs/2610.08101",
+  "summary": "arXiv:2610.08101v1 Announce Type: new Abstract: Shared memory coordinates agents' actions, but correct records do not establish that those actions satisfy task requirements. Memory governance and failure diagnosis regulate or inspect recorded information; they do not by themselves establish whether it is sufficient to judge task duties. We define execution consistency through duties governing state use, information handoffs, and final-state agreement, with explicit evidence conditions for judging fulfillment. Our core claim is that identical retained records can correspond to compliant and violating executions under the same task rule. Controlled removal of evidence such as receipt, action dependence, or response validity leaves 82.4% of opposite-label pairs indistinguishable; restoration separates 97.9% of the merged pairs. Natural-log annotations identify the defined violations in actual executions. However, existing logs do not always explicitly represent the execution relationships needed for these judgments. To assess the definition's practical value, we use CAVERT, a framework for consistency diagnosis and recovery, to extract supported relationships from logs and apply these criteria. It consistently outperforms contract-prompted LLM and rule-based baselines in diagnosis across all 12 benchmark-executor settings. Under the same gate and executor limits, it also outperforms rule-guided recovery in all four evaluated environments. These findings identify execution evidence that agent-memory and execution interfaces should preserve for reliable judgment.",
+  "published": "2026-10-06T10:29:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.143816+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:29:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08101v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.164057+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "e5260e58ee644fa229193ef0959493b1bbdc1f96dfb96f4ad7b2c29dbb1b300c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Assumption-lean logistic regression with missing covariates",
+  "url": "https://arxiv.org/abs/2610.07292",
+  "summary": "arXiv:2610.07292v1 Announce Type: cross Abstract: Missing covariates are frequently encountered in supervised learning problems, and classical methods for estimation using such data use carefully chosen imputation schemes for missing data, or likelihood approximations that lead to nonconvex $M$-estimation problems. These methods and their relatives are suitable for scenarios in which the covariate distribution is known, and more broadly, have enjoyed tremendous success in linear models. But even in basic nonlinear problems such as logistic regression in moderate dimensions, such methods can experience drastic failure modes when the covariate distribution is unknown. Motivated by the need for reliable alternatives, we consider the problem of parameter estimation in logistic regression with missing covariates. Crucially, we operate in the assumption-lean setting where the covariate distribution is unknown (but bounded). We design a stochastic approximation method that is based on $Z$-estimation with a novel monotone operator, and establish that our algorithm is computationally efficient and achieves provable signal recovery at parametric rates under the hypothesis that covariates are missing completely at random. Our theory sharply characterizes the $\\ell_2^2$ risk of the estimator in terms of the missingness profile, accommodating heterogeneous observation probabilities. Importantly, it shows that our method always outperforms the de facto ``complete-case'' estimator that ignores observations with any missing data. Even in the setting with homogeneous missingness (in which each covariate is observed independently with probability $q$), our bounds exhibit intricate and nonstandard dependence on $q$ that can yield significant improvements over using only complete cases. We complement our upper bounds with new information-theoretic lower bounds that show that this intricate dependence on $q$ is fundamental in a minimax sense.",
+  "published": "2026-10-05T19:28:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.090481+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:28:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07292v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.306765+00:00"
+}

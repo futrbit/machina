@@ -1,0 +1,22 @@
+{
+  "id": "c56de3101dfd84954e4f996c1a45702440eded534d48fa4bb96389b1623db3b1",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Image Reconstruction from Phase with Untrained Neural Priors",
+  "url": "https://arxiv.org/abs/2609.30659",
+  "summary": "arXiv:2609.30659v1 Announce Type: cross Abstract: Fourier phase encodes important spatial image structure, but recovering an image without measured spectral magnitude requires additional constraints and leaves absolute intensity ambiguous. We propose a projection-based two-stage framework that combines Fourier-phase and spatial-support constraints with an image-specific neural prior. The first stage alternates constraint enforcement with regularized neural-prior updates, while the second performs phase/support refinement alone with guaranteed convergence. We evaluate two neural-prior implementations on the same 77 microscopy images and compare them with a constraint-only baseline. After 500 final refinement passes, the best-performing variant achieves 31.41 dB pooled PSNR, 35.75 dB mean PSNR, and 0.9531 mean SSIM, improving pooled PSNR by 1.51~dB and reducing pooled MSE by 29.3% relative to the baseline. The results demonstrate the benefit of combining neural guidance with explicit constraint refinement at the evaluated iteration budget, while showing that lower phase residual alone does not guarantee greater reconstruction accuracy.",
+  "published": "2026-09-25T00:55:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.229044+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T00:55:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30659v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.922997+00:00"
+}

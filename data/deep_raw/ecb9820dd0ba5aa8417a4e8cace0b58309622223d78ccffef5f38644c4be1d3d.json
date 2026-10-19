@@ -1,0 +1,22 @@
+{
+  "id": "ecb9820dd0ba5aa8417a4e8cace0b58309622223d78ccffef5f38644c4be1d3d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Quality-Controlled Active Learning via Gaussian Processes for Robust Structure-Property Learning in Autonomous Microscopy",
+  "url": "https://arxiv.org/abs/2603.29135",
+  "summary": "arXiv:2603.29135v3 Announce Type: replace Abstract: Autonomous experimental systems are increasingly used in materials research to accelerate scientific discovery, but their performance is often limited by low-quality, noisy data. This issue is especially problematic in data intensive structure-property learning tasks such as Image-to-Spectrum (Im2Spec) and Spectrum-to-Image (Spec2Im) translations, where standard active learning strategies can mistakenly prioritize poor quality measurements. We introduce a gated active learning framework that combines curiosity driven sampling with a physics-informed quality control filter based on Simple Harmonic Oscillator model fits, allowing the system to automatically exclude low fidelity data during acquisition. Evaluations on a pre-acquired dataset of band-excitation piezoresponse spectroscopy (BEPS) data from PbTiO3 thin films with spatially localized noise show that the proposed method outperforms random sampling, standard active learning, and multitask learning strategies. We further deployed the framework in real-time experiments on a separate PbTiO3 thin-film sample with heterogeneous domain structures, demonstrating its effectiveness in autonomous microscopy experiments. Overall, this work supports hybrid autonomy in self-driving labs, where physics-informed quality assessment and active decision making work together for more reliable discovery.",
+  "published": "2026-03-31T01:35:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.114466+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:45:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.29135v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.391714+00:00"
+}

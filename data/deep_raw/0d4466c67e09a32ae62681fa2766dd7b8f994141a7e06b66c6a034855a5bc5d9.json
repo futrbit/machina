@@ -1,0 +1,21 @@
+{
+  "id": "0d4466c67e09a32ae62681fa2766dd7b8f994141a7e06b66c6a034855a5bc5d9",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "REACT: Rolling Denoising and Dual Decoupling for Reactive Robot Control with VLA Models",
+  "url": "https://arxiv.org/abs/2610.12007",
+  "summary": "arXiv:2610.12007v1 Announce Type: new Abstract: Flow-based vision-language-action (VLA) models generate action chunks for temporally coherent robot motion, but chunked control creates a fundamental closed-loop trade-off: long chunks provide smooth execution, whereas frequent replanning improves reactivity at the cost of action discontinuities. We introduce REACT, a rolling-denoising framework that makes flow-based VLAs more reactive while preserving long-horizon context. Instead of regenerating entire action chunks from scratch, REACT maintains a persistent action buffer with staggered flow timesteps. At each control step, the full horizon is denoised using the latest observation, the cleanest action block is executed, partially refined future blocks are shifted forward, and fresh noise is appended to the tail. As a result, each executed action block is refined across multiple recent observations before deployment. To support real-time control, we further introduce dual decoupling, which separates sensing, VLM encoding, DiT denoising, and action execution, enabling high-frequency observation updates and action streaming under practical compute constraints. Across the RoboTwin 2.0 simulation benchmark and real-world tasks spanning bimanual manipulation and dynamic control on multiple robot platforms, REACT improves task success and reduces reaction latency while producing smoother trajectories than frequent-replanning and asynchronous baselines.",
+  "published": "2026-10-08T14:09:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.743542+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:09:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12007v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.593002+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "fb8ec3265d4bebd79a85a9ea8cc1497006fc16b13c59f73391d19b5a999c7239",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "A100: A Hybrid Vision Foundation Model for Agricultural Plant Image Analysis",
+  "url": "https://arxiv.org/abs/2610.22991",
+  "summary": "arXiv:2610.22991v1 Announce Type: new Abstract: The use of accurate vision models for crop monitoring, disease diagnosis, and plant phenotyping in agriculture is hindered by the lack of expertly annotated data, especially in developing countries. We propose A100, an agricultural vision foundation model that is pre-trained using self-supervised learning on 3 million unlabeled images from fields covering more than 100 crop species. A100 uses a hybrid CNN-Transformer backbone that fuses MBConv stages for local feature extraction with Transformer stages for global contextual representation. A100 uses pre-training with the integration of DINO self-distillation, iBOT masked patch reconstruction, and KoLeo uniformity regularization, resulting in features that are better than ImageNet-12K supervised representations for agricultural applications without any fine-tuning. By utilizing a frozen backbone, the accuracy for crop classification of A100 is 95.37%, which is +2.56% better than ImageNet-12K, and reduces the leaf count error by 10.4% on the GroMo25 phenotyping benchmark, proving that the same backbone can be used for classification and regression tasks. After full fine-tuning, the performance of A100 is 99.90% on 32-class crop identification and 99.02% on 44-class disease detection. On the difficult PlantDoc dataset, A100 outperforms all baselines, such as CvT-13 (64.89% against 63.56%). Remarkably, A100 obtains 98.01% accuracy on plant classification using just 1% of the labelled data (about 284 images per category), showing great label efficiency for use cases with limited labeling. Under an identical protocol, A100 also outperforms the publicly released agricultural foundation models FoMo4Wheat and LeafVision by more than 14 points at 1% labels. We plan to publicly release our pretrained model to allow agricultural professionals to adapt A100 for various plant analysis applications using limited annotations.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.040095+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9c1e5aed5028e09d8f131c3fff837ff533fa239d459249a7b52c1bc10a4d8a2c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LR-V2X: Loss-Resilient Collaborative Perception under Low-Bandwidth Communication",
+  "url": "https://arxiv.org/abs/2610.11264",
+  "summary": "arXiv:2610.11264v1 Announce Type: new Abstract: Given the inherent unpredictability of packet loss in vehicular wireless communications, V2X collaborative perception can yield practical benefits only if agents can achieve reliable collaboration under lossy and low-bandwidth communication conditions. Existing dense BEV feature fusion methods depend on redundant BEV feature exchange, which is infeasible in low-bandwidth scenarios, while compact-communication methods aggressively compress messages but can hardly recover the missing feature content after packet loss. In this paper, we present LR-V2X, a loss-resilient, latent-space reconstruction framework that converts corrupted received latents (even under severe 90% packet loss) into a spatial prior and then reconstructs the missing BEV information from this informative prior and using ego context as condition. Notably, the model can be trained under complete communication conditions and can be directly applied to lossy conditions at test time, eliminating the need for training under numerous lossy conditions. Experiments on DAIR-V2X and V2XREAL show that LR-V2X delivers the strongest robustness under severe packet loss and preserves reliable collaboration as communication quality degrades. And it reduces communication overhead by $64\\times$ compared to dense BEV feature fusion baselines. Code will be released at https://github.com/sidiangongyuan/LR-V2X.",
+  "published": "2026-10-08T05:19:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.744054+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T05:19:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11264v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.010547+00:00"
+}

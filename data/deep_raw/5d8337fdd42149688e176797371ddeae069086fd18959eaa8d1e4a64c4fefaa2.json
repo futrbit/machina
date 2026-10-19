@@ -1,0 +1,22 @@
+{
+  "id": "5d8337fdd42149688e176797371ddeae069086fd18959eaa8d1e4a64c4fefaa2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+  "url": "https://arxiv.org/abs/2510.25257",
+  "summary": "arXiv:2510.25257v2 Announce Type: replace Abstract: Real-time object detection has achieved substantial progress through meticulously designed architectures and optimization strategies. However, the pursuit of high-speed inference via lightweight network designs often leads to degraded feature representation, which hinders further performance improvements and practical on-device deployment. In this paper, we propose a cost-effective and highly adaptable distillation framework that harnesses the rapidly evolving capabilities of Vision Foundation Models (VFMs) to enhance lightweight object detectors. Given the significant architectural and learning objective disparities between VFMs and resource-constrained detectors, achieving stable and task-aligned semantic transfer is challenging. To address this, on one hand, we introduce a \\textbf{Deep Semantic Injector (DSI)} module that facilitates the integration of high-level representations from VFMs into the deep layers of the detector. On the other hand, we devise a \\textbf{Gradient-guided Adaptive Modulation (GAM)} strategy, which dynamically adjusts the intensity of semantic transfer based on gradient norm ratios. Without increasing deployment and inference overhead, our approach painlessly delivers striking and consistent performance gains across diverse DETR-based models, underscoring its practical utility for real-time detection. Our new model family, RT-DETRv4, achieves state-of-the-art results on COCO, attaining AP scores of $49.8/53.7/55.4/57.0$ at corresponding speeds of $273/169/124/78$ FPS. Code is publicly available at https://github.com/RT-DETRs/RT-DETRv4.",
+  "published": "2025-10-29T08:13:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.780031+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:10:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2510.25257v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.763298+00:00"
+}

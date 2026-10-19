@@ -1,0 +1,21 @@
+{
+  "id": "dafc423d78ddc4a30294d2c9e45a3ecc9de051f4f645685553c45324e183214f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Tool-calling retrieval versus vector RAG for a small Greek--English knowledge base: accuracy and robustness to how users type Greek",
+  "url": "https://arxiv.org/abs/2610.08205",
+  "summary": "arXiv:2610.08205v1 Announce Type: cross Abstract: Assistants grounded in a small, frequently edited knowledge base can retrieve through tool calls to a live data interface or through vector retrieval-augmented generation (RAG). We compare the two on KyGround, a benchmark of 198 questions drawn from the published records of a Greek--English agricultural platform on Kythera, Greece, with answers verified automatically against the records and each question posed in up to nine forms, including Greek without accents, in capitals and in three Latin-script (Greeklish) schemes. With Claude Haiku 4.5 as router and answer model, a reconstruction of the platform's tool agent answered 71.6\\% of canonical Greek questions correctly and vector RAG 95.3\\% (difference $-23.6$ percentage points, 95\\% CI $-33.1$ to $-15.1$). Letting the router write the vector query changed nothing, and placing the whole knowledge base of about 26,000 tokens in the prompt reached 99.3\\%. The tool agent's losses arose in retrieval. Its literal searches returned nothing when the router's arguments did not occur verbatim in a record, for example when it transliterated Greek into Latin script or combined words that occur in a record but not as one phrase, and the agent then abstained. Unaccented and capitalised questions cost the tool agent about 20 points and vector RAG at most 2; accent-insensitive search removed this loss, and matching stemmed tokens raised the tool agent to 83.8\\% on canonical Greek. Greeklish cost both designs about 21 to 32 points. Tool interfaces for community knowledge bases need search that tolerates how users type.",
+  "published": "2026-10-06T11:58:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.173800+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:58:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08205v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.199832+00:00"
+}

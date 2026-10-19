@@ -1,0 +1,21 @@
+{
+  "id": "3c05ec9b7ce7de6a96535bc440cd77bbe379c640a502992ae32b3be6a14fed15",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization",
+  "url": "https://arxiv.org/abs/2605.11015",
+  "summary": "arXiv:2605.11015v2 Announce Type: replace-cross Abstract: Software vulnerability detection plays a critical role in ensuring system security, where real-world auditing requires not only determining whether a function is vulnerable but also pinpointing the specific lines responsible. However, existing approaches either rely on a single information source -- sequential, structural, or semantic -- failing to jointly exploit the complementary strengths across modalities, or treat statement-level localization merely as a byproduct of function-level detection without explicit line-level supervision. To address these limitations, we propose DCVD (Dual-Channel Cross-Modal Vulnerability Detection), a unified framework that performs joint function-level detection and statement-level localization. DCVD extracts control-dependency and semantic features through two parallel branches and integrates them via contrastive alignment coupled with bidirectional cross-attention, effectively bridging the cross-modal representation gap. It further introduces explicit supervision signals at both the function and statement levels, enabling collaborative optimization across the two granularities. Extensive experiments on a large-scale real-world vulnerability benchmark demonstrate that DCVD consistently outperforms state-of-the-art methods on both function-level detection and statement-level localization. Our code is available at https://github.com/vinsontang1/DCVD.",
+  "published": "2026-05-10T14:33:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.420357+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:12:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.11015v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.721927+00:00"
+}

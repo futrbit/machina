@@ -1,0 +1,22 @@
+{
+  "id": "d055807813751f1c1a880298ab05032400bafa5fbbd8d7c8b771009d9245f1eb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reward as Observation: Learning Reward-Based Policies for Rapid Adaptation",
+  "url": "https://arxiv.org/abs/2610.00729",
+  "summary": "arXiv:2610.00729v1 Announce Type: new Abstract: This paper explores a reward-based policy to achieve zero-shot transfer between source and target environments with completely different observation spaces. While humans can demonstrate impressive adaptation capabilities, deep neural network policies often struggle to adapt to a new environment and require a considerable amount of samples for successful transfer. Instead, we propose a novel reward-based policy only conditioned on rewards and actions, enabling zero-shot adaptation to new environments with completely different observations. We discuss the challenges and feasibility of a reward-based policy and then propose a practical algorithm for training. We demonstrate that a reward policy can be trained within three different environments, Pointmass, Cartpole, and 2D Car Racing, and transferred to completely different observations, such as different color palettes or 3D rendering, or Stretch robot navigation in Habitat-Sim, in a zero-shot manner. We also demonstrate that a reward-based policy can further guide the training of an observation-based policy in the target environment.",
+  "published": "2026-09-30T21:18:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.779505+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-05T21:19:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00729v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.064911+00:00"
+}

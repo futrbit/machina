@@ -1,0 +1,22 @@
+{
+  "id": "464583fb1e9c4be9dd587bd1484ec6e804b85b37c8bb46180b532ceec533c5ba",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Decision Titan: Test-Time Training for Long-Term Memory in Offline Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2610.01513",
+  "summary": "arXiv:2610.01513v1 Announce Type: cross Abstract: Long-term dependencies remain a major challenge for sequential decision-making in the field of AI: RNNs suffer from vanishing gradients and the limited expressivity of vector-based hidden states, whilst Transformer-based models are limited by the quadratic scaling of attention. Recent work has proposed tackling this problem with the Test-Time Training (TTT) framework, which stores episodic memories in the parameters of a neural network through gradient descent at both train and test-time. This approach has seen success in the domain of Natural Language Processing, however, to the best of our knowledge it has not yet been applied to the domain of Reinforcement Learning (RL), nor has there been a study analysing how this memory practically functions. In this paper, we study the potential of the TTT framework for offline RL by augmenting a Decision Transformer with TTT layers, dubbed the Decision Titan. We analyse performance and properties of the model in the X-Maze environment, an extension of T-Maze designed to test sequential memory, and investigate how the memory mechanism learns by visualising gate values over time. Our key findings are that Decision Titan can learn long-term dependencies with ranges 20x longer than the context window, generalises to lengths 1.7x the training data, but crucially temporal generalisation depends on the time embeddings used, and the ability to learn long-term dependencies depends on how the relevant information is encoded.",
+  "published": "2026-10-01T11:48:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.819480+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T11:48:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01513v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.888826+00:00"
+}

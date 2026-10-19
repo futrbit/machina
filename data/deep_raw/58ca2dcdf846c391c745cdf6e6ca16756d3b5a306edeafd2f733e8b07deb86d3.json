@@ -1,0 +1,22 @@
+{
+  "id": "58ca2dcdf846c391c745cdf6e6ca16756d3b5a306edeafd2f733e8b07deb86d3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Scene-Agnostic Object-Centric Representation Learning for 3D Gaussian Splatting",
+  "url": "https://arxiv.org/abs/2604.09045",
+  "summary": "arXiv:2604.09045v2 Announce Type: replace Abstract: Recent works on 3D scene understanding leverage 2D masks from visual foundation models (VFMs) to supervise radiance fields, enabling instance-level 3D segmentation. However, the supervision signals from foundation models are not fundamentally object-centric and often require additional mask pre/post-processing or specialized training and loss design to resolve mask identity conflicts across views. The learned identity of the 3D scene is scene-dependent, limiting generalizability across scenes. Therefore, we propose a dataset-level, object-centric supervision scheme to learn object representations in 3D Gaussian Splatting (3DGS). Building on a pre-trained slot attention-based Global Object Centric Learning (GOCL) module, we learn a scene-agnostic object codebook that provides consistent, identity-anchored representations across views and scenes. By coupling the codebook with the module's unsupervised object masks, we can directly supervise the identity features of 3D Gaussians without additional mask pre-/post-processing or explicit multi-view alignment. The learned scene-agnostic codebook enables object supervision and identification without per-scene fine-tuning or retraining. Our method thus introduces unsupervised object-centric learning (OCL) into 3DGS, yielding more structured representations and better generalization for downstream tasks such as robotic interaction, scene understanding, and cross-scene generalization.",
+  "published": "2026-04-10T07:07:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.536373+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:23:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.09045v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.684346+00:00"
+}

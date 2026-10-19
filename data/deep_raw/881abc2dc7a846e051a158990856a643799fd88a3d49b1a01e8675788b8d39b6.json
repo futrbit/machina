@@ -1,0 +1,21 @@
+{
+  "id": "881abc2dc7a846e051a158990856a643799fd88a3d49b1a01e8675788b8d39b6",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SAVU-BENCH: A Real-World Benchmark for Spatial Audio-Visual Understanding",
+  "url": "https://arxiv.org/abs/2610.10624",
+  "summary": "arXiv:2610.10624v1 Announce Type: cross Abstract: Spatial audio-visual understanding requires models to recognize not only what is present, but also where events occur and how they relate across modalities. Existing benchmarks often rely on simulated scenes, evaluate isolated spatial skills, and provide limited diagnostic insight into failure modes. We introduce SAVU-Bench, a real-world benchmark that systematically evaluates spatial audio-visual understanding across three capability levels and seven evaluation tasks. We further introduce SAVU-Diag, a scene-linked diagnostic set that decomposes reasoning questions into their prerequisite grounding and alignment sub-tasks. Evaluation of 12 representative models on SAVU-Bench reveals that while visual spatial grounding is relatively mature, spatial perception involving audio remains a primary bottleneck. SAVU-Diag further demonstrates that most reasoning errors co-occur with failures on these prerequisite tasks, though reasoning gaps persist even when prerequisites are correctly resolved. Motivated by these findings, we introduce SAVU-EA, a training-free evidence-augmented baseline that makes spatial cues more explicit. While SAVU-EA substantially improves spatial grounding and joint matching, high-level spatial reasoning remains challenging. Our findings highlight the urgent need for both robust spatial audio perception and deeper integration of cross-modal spatial relations.",
+  "published": "2026-10-07T08:55:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.381382+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T08:55:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10624v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.612787+00:00"
+}

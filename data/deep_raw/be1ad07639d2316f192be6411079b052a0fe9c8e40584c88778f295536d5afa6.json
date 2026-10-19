@@ -1,0 +1,21 @@
+{
+  "id": "be1ad07639d2316f192be6411079b052a0fe9c8e40584c88778f295536d5afa6",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Silicon Language: A Robot-Native Knowledge Exchange Framework for Heterogeneous Robots",
+  "url": "https://arxiv.org/abs/2610.07650",
+  "summary": "arXiv:2610.07650v1 Announce Type: new Abstract: Reusing a capability across heterogeneous robots still requires substantial human adaptation and verification: transferring a skill often means re-engineering interfaces, retuning parameters, and re-validating safety. We introduce Silicon Language, a robot-native knowledge exchange framework that treats the robot as the active subject of its own capability evolution. In this framework, a robot that wants a capability encodes its own experience into knowledge packets, publishes them, retrieves peer packets, translates them for its own sensors and actuators, and reviews them through independent local trial. A receiver-side usability evaluation procedure lets each robot decide for itself whether an external packet is useful, and progressive blending with automatic rollback is designed to reduce the risk of negative transfer when adopting it. The system combines three infrastructure layers (edge agent, Silicon Transfer Protocol (STP), and knowledge hub) with a capability stack inspired by the human scholarly system. We report a 30-day proof-of-concept deployment at an above-ground simulated-mine laboratory in Yulin, with following trials on an outdoor sand road and an indoor factory floor. Two heterogeneous robots encoded and translated three capabilities across embodiments through operator-assisted file copies mediated by the Silicon Language translation layer; source-side trials of the dust-locked following behavior were recorded on Taurus. Project records indicate that per-capability adaptation time dropped from days to hours; we present these figures as descriptive deployment records rather than controlled measurements. The deployment provides initial evidence for cross-embodiment knowledge exchange; fleet-level autonomous evolution and controlled with/without-packet comparisons remain future work.",
+  "published": "2026-10-06T02:46:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.458024+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:46:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07650v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.836049+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b07e846088d47b1ef9922626a8b9ad7e81ffa2d69deb4e26105fc489756c5630",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Retrieval Geometry Shapes Cache-Based Clip Adaptation",
+  "url": "https://arxiv.org/abs/2609.23409",
+  "summary": "arXiv:2609.23409v2 Announce Type: replace Abstract: Cache-based test-time adaptation improves CLIP predictions by storing and retrieving examples from the target stream while keeping the model frozen. However, existing methods largely treat the feature space used for image-image retrieval as fixed, leaving open how much adaptation depends on the retrieval space itself. We study this question by fixing the memory and changing only the retrieval encoder, finding that the same memory can yield very different gains: across sixteen retrieval spaces, ImageNet-A cache gain ranges from at most +0.44 points for CLIP and MAE to +19.7 +/- 0.4 for DINOv2-L, while label-free retrieval-space selection retains 98% of oracle gain on ImageNet-V2. These results show that memory quality depends not only on which examples are stored, but also on how they are retrieved. Motivated by this finding, we propose MARC (Memory Augmented Retrieval for CLIP), a training-free system that uses frozen CLIP for prediction and DINOv2-B for retrieval with a single fusion weight. A single-view cache repairs 1074 +/- 21 baseline errors, compared with 878 +/- 4 for a 64-view ensemble, at roughly one seventh of the cost. Across four ImageNet distribution shifts, MARC reaches a 67.91% OOD average and, at matched DINOv2-B scale and eight views, achieves 64.17 +/- 0.31% versus 62.75 +/- 0.15% for a graph-based cache system while running 2.6 times faster. Overall, our results establish retrieval space as a first-order design choice for robust cache-based adaptation in remote sensing, scientific imaging, and changing visual environments.",
+  "published": "2026-09-20T06:48:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.238070+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T17:06:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.23409v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.611186+00:00"
+}

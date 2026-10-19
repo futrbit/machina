@@ -1,0 +1,22 @@
+{
+  "id": "5c53171319f20f7b4e9f054659b5845ba96391ae30ef9ad48237d3f3509c4533",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "FAER: Auditable Utility-Aligned Trajectory Replay for Language Model Post-Training",
+  "url": "https://arxiv.org/abs/2610.00385",
+  "summary": "arXiv:2610.00385v1 Announce Type: new Abstract: Replay selectors often rank cached trajectories by format feedback, confidence, freshness, or response length, although cache-level correctness and downstream learner utility are distinct objectives. We formalize this selection-to-learning gap and introduce FAER as an auditable full-trajectory replay framework. Its training-free fixed selector is a protocol baseline; FAER-UTILITY is the learner-aware selector fitted on disjoint calibration blocks. The normalized gradient alignment is reported as a baseline, while a disposable optimizer-aware virtual update supplies a magnitude-aware utility surface. The audit contract freezes observed fields and replay traces before evaluation labels are joined. On GSM8K with Qwen2.5-1.5B-Instruct, the matched learner study reports quality 0.6329 for the fixed selector, compared with 0.5482 for uniform and 0.6037 for format-feedback under 128 updates. Metadata-only cross-fitted calibration reaches $0.6476\\!\\pm\\!0.0139$ over eight seeds (median 0.6481; paired 95% interval $[+0.079,+0.122]$) at 63,276 target-run tokens; its recorded full cost is 189,642 tokens and 3.48 GPU-hours including calibration. The completed FAER-UTILITY row reaches 0.6624 at 62,844 target-run tokens and 4.26 GPU-hours. Format-feedback selects records with correctness 0.6953, compared with 0.3594 for the fixed selector, despite the different downstream ranking. The completed comparison surfaces report the learner-aware ablation, same-seed gap, policy-optimization rows, and strict zero-shot transfer.",
+  "published": "2026-09-30T09:41:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.771511+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T09:41:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00385v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.745310+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "0ff0db4b83ed652368257031c5c6a85cd3e7176299b0a19b3d21b8b40191e29c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LiteGUI: Lightweight GUI Agents via Multi-Solution Guided Distillation and Dual-Level Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2605.07505",
+  "summary": "arXiv:2605.07505v2 Announce Type: replace Abstract: We present LiteGUI, a new framework for building lightweight GUI agents. GUI interaction poses unique challenges due to the long-horizon nature of complex tasks and the existence of multiple valid interaction paths, which are difficult for lightweight GUI agents to handle effectively. To address these challenges, LiteGUI introduces a two-stage post-training framework operating on logged GUI states. First, we propose Guided On-Policy Distillation, which provides training-time privileged teacher guidance at each GUI state by selecting the most-matched valid action from human-verified multi-solution action annotations, while leaving the student's on-policy rollout unchanged. Second, we develop Multi-Solution Dual-Level GRPO, which combines action-level supervision with history-conditioned, per-state planning-quality supervision while accounting for multiple valid actions at each logged GUI state. Together, these stages support multi-step GUI tasks without requiring the student to reproduce fixed demonstration trajectories. We further develop a scalable data generation pipeline and a corresponding multi-solution dataset, Lite-Dataset, to support the training and evaluation of GUI agents, addressing a gap in the existing literature. Extensive experiments across multiple GUI benchmarks demonstrate that LiteGUI substantially improves the performance of lightweight GUI agents over existing training paradigms, including SFT, on-policy distillation and GRPO, and achieves competitive or superior performance compared with substantially larger models.",
+  "published": "2026-05-08T09:38:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.406367+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:52:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.07505v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.335155+00:00"
+}

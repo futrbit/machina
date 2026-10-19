@@ -1,0 +1,21 @@
+{
+  "id": "b25292629095d8fdefffb7808101c8ee4ce79dcbf4fd470ba386cafcadb776f6",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Leveraging LLM-Generated Explanations for Detecting Emotionally Rewritten Fake News",
+  "url": "https://arxiv.org/abs/2610.08835",
+  "summary": "arXiv:2610.08835v2 Announce Type: replace-cross Abstract: The spread of fake news may cause severe social consequences. Existing fake news detection methods mainly focus on stylistic variations or incorporate external information such as explanations. However, news articles are often rewritten under different emotional backgrounds while preserving their underlying factual claims, which may affect the robustness of detection models. In this work, we investigate fake news detec- tion under fact-preserving emotional variations. To study this problem, we construct emotion-rewritten test sets and generate explanations from the original news articles as stable background knowledge. We then propose a Gated Cross Attention (GCA) framework that adaptively integrates emotionally rewritten news with the corresponding explanations, enabling the model to focus on informative explanation content while reducing potential mismatches caused by emotional reframing. Experiments on PolitiFact, GossipCop, and LUN demonstrate that the proposed method achieves notable improvements under multiple emotional conditions on PolitiFact and LUN, while maintaining competitive performance on GossipCop. We further analyze the effects of explanation guidance and gating mechanisms under different emotional conditions. Our code and data are available at: https://github.com/Flulike/fakenews gca .",
+  "published": "2026-09-29T11:50:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.429351+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:07:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08835v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.649163+00:00"
+}

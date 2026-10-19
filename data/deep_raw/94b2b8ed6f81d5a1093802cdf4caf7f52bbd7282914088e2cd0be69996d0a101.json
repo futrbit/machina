@@ -1,0 +1,18 @@
+{
+  "id": "94b2b8ed6f81d5a1093802cdf4caf7f52bbd7282914088e2cd0be69996d0a101",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "TRIP-Shapley: Propagation-Aware Contribution Attribution Framework for Peer-to-Peer Federated Learning",
+  "url": "https://arxiv.org/abs/2505.23246",
+  "summary": "arXiv:2505.23246v3 Announce Type: replace Abstract: Contribution attribution is a fundamental problem in federated learning (FL), yet it remains challenging in peer-to-peer FL (P2PFL), where participant influence propagates through repeated model exchanges. Recent work, DICE, addresses this issue by directly tracking multi-round propagation paths. However, its practical deployment is hindered by two challenges: (i) communication explosion caused by multi-hop propagation path tracking, and (ii) vulnerability to misreporting attacks. To overcome these challenges, we consider contribution attribution in P2PFL with a model-free coordinator used solely for auditing. Based on this setting, we propose TRIP-Shapley, a propagation-aware Shapley-inspired surrogate for contribution attribution. Instead of explicitly tracking multi-round paths, TRIP-Shapley computes round-wise contribution scores independently and propagates only scalar contribution values. This enables attribution of influence accumulated throughout the entire training process while maintaining practical communication costs. In addition, we introduce lightweight mechanisms to detect and mitigate misreporting attacks. Rather than theoretically approximating Shapley values, TRIP-Shapley is empirically evaluated against Shapley values as a reference. Experiments demonstrate communication savings of up to $45.8\\times$ relative to the compared DICE configurations, with favorable cost--reference-alignment trade-offs overall, although alignment is weaker in some FMNIST and 25-client settings. The proposed defenses reduce contribution inflation under the two evaluated attacks.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.223735+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "88ba30010abfad16fccfb9bbc7601a1b1366596cc5b1a090ca8775e5e70db75f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Playing Devil's Advocate: Off-the-Shelf Persona Vectors Rival Targeted Steering for Sycophancy",
+  "url": "https://arxiv.org/abs/2605.21006",
+  "summary": "arXiv:2605.21006v4 Announce Type: replace-cross Abstract: Language models are often sycophantic: they agree with a user's stated opinion whether or not it is correct. Prior work has shown that this trait can be controlled by steering a model with a sycophancy persona vector (Chen et al., 2025). Such vectors, however, are extracted from data about sycophancy itself. We ask whether we can instead reuse existing vectors for general roles---Skeptic, Judge, Devil's Advocate---that were extracted without targeting sycophancy at all. On Gemma 2 27B and Qwen 3 32B, we compare these role vectors with a purpose-built Contrastive Activation Addition (CAA) sycophancy vector on a largely held-out, counterbalanced PhilPapers benchmark, using task-specific coefficient tuning on a separate split of sycophancy data. The selected \"critical\" roles achieve, on average, about 68% (Gemma) and 98% (Qwen) of CAA's reduction in the sycophancy logit. Less agreement does not mean more factual errors on the probes we checked: on 16 true and false factual claims, Qwen steered by the Skeptic or Judge vector still gives the correct answer in all 16 cases, matching the unsteered model and CAA. \"Conformist\" roles do not reliably produce the opposite effect. Role vectors also have low absolute cosine similarity with the measured CAA direction at the layer we steer; they are geometrically separate interventions, although this does not by itself show that they act through distinct downstream mechanisms. Together, these results show that general persona vectors can help mitigate sycophancy in LLMs, even when extracted without sycophancy-specific labels. Code: https://github.com/vkmk1/Sycophancy-Steering Results: https://github.com/kelkarI/sycophancy-clean-results",
+  "published": "2026-05-20T10:43:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.844465+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T23:52:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.21006v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.629777+00:00"
+}

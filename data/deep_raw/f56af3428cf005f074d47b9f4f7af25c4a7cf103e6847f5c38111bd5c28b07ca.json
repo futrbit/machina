@@ -1,0 +1,21 @@
+{
+  "id": "f56af3428cf005f074d47b9f4f7af25c4a7cf103e6847f5c38111bd5c28b07ca",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "OmniDex: Scaling Dexterous Hand Grasping to Diverse Cluttered Scenes",
+  "url": "https://arxiv.org/abs/2610.11194",
+  "summary": "arXiv:2610.11194v1 Announce Type: new Abstract: Dexterous grasping is the foundational primitive in embodied AI, demanding massive data to train robust models. As real-world data collection is expensive, simulation has become the mainstream paradigm. Yet, while cluttered scenes best reflect real-world applications, learning to grasp within them is bottlenecked by a critical scarcity of large-scale data. To resolve this, we curate high-quality 3D objects and supporting bases, proposing a scalable seed-and-filter strategy that bypasses sluggish scene-level optimization. This yields an unprecedented benchmark comprising over 2.6 million scenes and 0.4B scene-specific grasp ground truths, featuring diverse realistic layouts paired with rich semantic and geometric observations. Furthermore, we introduce the OmniDex model to overcome the grasp multimodality and last-millimeter precision errors plaguing current generative models. By coupling Soft Winner-Takes-All learning with human-inspired physical constraints during training, and utilizing physics-driven ranking, our approach achieves robust dexterous grasping without the latency of post-optimization. Experimental results show that OmniDex model achieves state-of-the-art performance and strong generalization across diverse scenes, views, and unseen objects.",
+  "published": "2026-10-08T03:58:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.735545+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:58:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11194v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.289776+00:00"
+}

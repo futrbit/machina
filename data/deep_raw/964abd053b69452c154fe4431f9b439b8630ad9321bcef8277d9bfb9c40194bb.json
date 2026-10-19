@@ -1,0 +1,22 @@
+{
+  "id": "964abd053b69452c154fe4431f9b439b8630ad9321bcef8277d9bfb9c40194bb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
+  "url": "https://arxiv.org/abs/2604.12102",
+  "summary": "arXiv:2604.12102v3 Announce Type: replace-cross Abstract: We describe compute-grounded reasoning (CGR), a design pattern in which code computes selected sub-problems from explicit intermediate representations before a language model answers. Spatial Atlas implements CGR as an Agent2Agent (A2A) server with a spatial question-answering handler and a machine-learning engineering handler. The spatial handler asks a language model to extract a scene graph, and code then fills in missing distances and checks the extracted safety rules. A separate benchmark driver can also run a strict metric bridge. It computes the gap for horizontal-gap questions from segmentation masks and a reconstructed point map, and it passes that gap to the answering model as a fact. The bridge returns a fixed unavailable answer when an evidence check fails, and it never falls back to model-estimated coordinates. The ML-engineering handler generates pipeline code, parses validation scores, and caps the number of repair and refinement passes. Its code execution is off by default. The repository also provides four run modes that can write label-free journals, a shuffled-image control mapping, and journal validators that reject label-bearing fields. We report one private label-free operational run in which four paths each wrote eight prediction rows with zero retries. Labels stayed sealed, and no score was computed, so this run establishes operational integrity only. We report no FieldWorkArena result because the benchmark data were not accessible. We also omit every performance, latency, and resource-use number that lacks a reproducible run artifact.",
+  "published": "2026-04-13T22:22:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.843465+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T18:06:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.12102v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.880625+00:00"
+}

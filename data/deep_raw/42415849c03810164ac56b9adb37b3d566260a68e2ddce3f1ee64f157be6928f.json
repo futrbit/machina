@@ -1,0 +1,21 @@
+{
+  "id": "42415849c03810164ac56b9adb37b3d566260a68e2ddce3f1ee64f157be6928f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "FedCoT: Communication-Efficient Federated Reasoning Enhancement for Large Language Models",
+  "url": "https://arxiv.org/abs/2508.10020",
+  "summary": "arXiv:2508.10020v2 Announce Type: replace-cross Abstract: Enhancing LLM reasoning in federated settings is nontrivial due to stringent computational, communication, and privacy constraints, especially in healthcare, where clinically consequential decisions require not only accuracy but also interpretable, auditable rationales to meet safety, accountability, and regulatory requirements. Conventional federated fine-tuning largely imitates final answers rather than cultivating step-by-step reasoning, often relying on privacy-sensitive centralized distillation and still incurring substantial communication overhead. We address this gap with \\textbf{\\ours{}}, a federated reasoning framework that combines lightweight chain-of-thought resampling with a compact discriminator for selection, and client-aware LoRA stacking with weighted classifier aggregation to accommodate heterogeneity while reducing aggregation noise and communication; clients generate candidate chains and supervision locally, and only lightweight modules are aggregated on the server. Experiments on medical reasoning benchmarks show consistent gains under tight resource budgets while keeping data local and respecting privacy, offering an interpretable and resource-efficient solution. Our code is made publicly available at https://github.com/DIaacKr/FedCoT",
+  "published": "2025-08-07T06:50:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.191788+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:02:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2508.10020v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.824864+00:00"
+}

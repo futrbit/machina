@@ -1,0 +1,21 @@
+{
+  "id": "6710442120029614376626e0a9ef8d159725f3b95c4a97d228599b0e45b0f59a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Bayesian Optimization with Fisher Information Geometry: Gradient Bounds and Trust-Region Methods",
+  "url": "https://arxiv.org/abs/2609.31107",
+  "summary": "arXiv:2609.31107v1 Announce Type: cross Abstract: We study Bayesian optimization (BO) through the lens of information geometry. Pulling back the Fisher information metric through the surrogate posterior map yields a local sensitivity tensor on the input space, which leads to an upper bound on the gradient of reparameterizable acquisition functions. This view explains vanishing-gradient behavior in high-dimensional BO and provides a common interpretation of heuristics such as RAASP and dimension-scaled lengthscales. Building on this analysis, we propose FITR, a trust-region-based BO method that replaces lengthscale-based scaling by local pullback-Fisher weights. FITR is not restricted to GP kernels with explicit lengthscales. On GP benchmarks with an SE kernel, experiments show competitive performance using FITR. The proposed method also easily generalizes to non-isotropic surrogates, although the gains are more task-dependent in that setting.",
+  "published": "2026-09-25T10:52:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.425897+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T10:52:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31107v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.922204+00:00"
+}

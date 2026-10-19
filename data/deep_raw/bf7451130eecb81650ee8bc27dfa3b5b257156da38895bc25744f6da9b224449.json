@@ -1,0 +1,22 @@
+{
+  "id": "bf7451130eecb81650ee8bc27dfa3b5b257156da38895bc25744f6da9b224449",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "No Distillation Needed: Single-Pass Real-Time Talking Heads via Acausal Noise Shaping",
+  "url": "https://arxiv.org/abs/2610.11070",
+  "summary": "arXiv:2610.11070v1 Announce Type: new Abstract: Audio-driven facial animation underpins real-time avatars, telepresence, and embodied virtual agents. And it must run online: each frame emitted from audio observed up to the current time, at interactive rates. Recent progress is dominated by diffusion models, which need many network evaluations per sample and are therefore a poor fit for streaming. We argue the cost is unnecessary in this domain. Audio-conditioned facial motion occupies a comparatively low-dimensional manifold, a regime where a single-pass GAN suffices. The obstacle is not capacity but stochastic structure. We show that a causal, time-invariant generator driven by i.i.d. noise cannot suppress its output spectrum over a band without collapsing its per-step innovation. We proposed FaceGAN, which dissolved the limitation by shaping the noise pathway acausally. Because the driving noise is synthetic, its future can be sampled now, so the audio-to-expression path stays causal, and the model supports fully causal operation. FaceGAN emits expression and head pose in a single forward pass per frame and matches or outperforms state-of-art approaches in generation quality. Being feed-forward with bounded attention windows, it generates indefinitely without drift.",
+  "published": "2026-10-08T01:30:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.739055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T01:30:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11070v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.853039+00:00"
+}

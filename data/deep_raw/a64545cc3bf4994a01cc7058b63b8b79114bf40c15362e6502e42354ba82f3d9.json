@@ -1,0 +1,17 @@
+{
+  "id": "a64545cc3bf4994a01cc7058b63b8b79114bf40c15362e6502e42354ba82f3d9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Hard Instances on Demand",
+  "url": "https://arxiv.org/abs/2610.22637",
+  "summary": "arXiv:2610.22637v1 Announce Type: cross Abstract: The conclusions of an experimental study of algorithms are only as good as the instances they are run on. Benchmark libraries for well-studied problems took decades to curate, while evaluations of new problems often fall back on random instances, which are known to be misleading: they may say more about the random generator than about the algorithmic question at hand. We treat instance generation as an optimization problem: parameterize the instance space, take the solver's running time as the objective, and let a black-box optimizer search for hard instances. We develop a widely applicable workflow built on the Nevergrad optimization platform and demonstrate it on four NP-hard problems: satisfiability, traveling salesperson, Hamiltonian cycle, and non-permutation flow-shop scheduling. The search needs only the solver, an instance encoder, and a compute budget. Our evolved instances beat the hardest instance of a budget-matched random draw in all four case studies, by an order of magnitude or more in three. They are often competitive with long-curated benchmark sets: our SAT champion is harder (for a three-solver portfolio) than 78% of the 498 SAT Competition formulas in its size class; our 20-city TSP champions take several times longer than the hardest measured classical TSPLIB instance (229 cities); and our flow-shop champion takes 238.6 seconds of CP Optimizer time to solve to proven optimality (versus 4.5 seconds for the hardest of 100,000 random draws) while denying CP-SAT an optimality proof. The optimizer even recovers known structure from running time alone: it locates a SAT clause/variable ratio near the phase transition and finds structurally different champions for the two scheduling engines.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.192141+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "7ad0f858f43c35d2a250bbcc6c1c56e6b6b35ce56fa148c24545c69759bf7e6a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Adaptive and oblivious statistical adversaries are equivalent",
+  "url": "https://arxiv.org/abs/2410.13548",
+  "summary": "arXiv:2410.13548v3 Announce Type: replace Abstract: We resolve a fundamental question about the ability to perform a statistical task, such as learning, when an adversary corrupts the sample. Such adversaries are specified by the types of corruption they can make and their level of knowledge about the sample. The latter distinguishes between sample-adaptive adversaries which know the contents of the sample when choosing the corruption, and sample-oblivious adversaries, which do not. We prove that for all types of corruptions, sample-adaptive and sample-oblivious adversaries are \\emph{equivalent} up to polynomial factors in the sample size. This resolves the main open question introduced by [BLMT22] and further explored in [CHL+23]. Specifically, consider any algorithm $A$ that solves a statistical task even when a sample-oblivious adversary corrupts its input. We show that there is an algorithm $A'$ that solves the same task when the corresponding sample-adaptive adversary corrupts its input. The construction of $A'$ is simple and maintains the computational efficiency of $A$: It requests a polynomially larger sample than $A$ uses and then runs $A$ on a uniformly random subsample.",
+  "published": "2024-10-17T13:42:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.826476+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T20:29:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2410.13548v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.349945+00:00"
+}

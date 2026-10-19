@@ -1,0 +1,22 @@
+{
+  "id": "2f02e29242d673a90e8181ac228710f534fe375a2d92a80f53bf539206a472c7",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning Decision-Stump Thresholds in Context: Dynamics of Softmax Attention",
+  "url": "https://arxiv.org/abs/2610.07074",
+  "summary": "arXiv:2610.07074v1 Announce Type: cross Abstract: Estimating a decision threshold requires locating observations near an unknown boundary. We study how gradient-based pretraining learns this statistical rule in a two-parameter softmax-attention model with a fixed feature and inequality direction. Pretraining uses labeled contexts and their true thresholds; a fresh threshold must be inferred from context alone. Under a large-resolution initialization, constant-step gradient descent on $m$ tasks with $n$ examples each produces a frozen estimator with error $\\widetilde O((m\\wedge n)^{-1}+N^{-1})$ for each fixed interior threshold and every fresh-context size $N$. The two terms separate finite-pretraining accuracy from fresh-context localization. The mechanism is coordinated parameter divergence: population training calibrates the relative label and feature scores, then increases the attention scale as $t^{1/4}$, giving population threshold error $O(t^{-1/4})$. To transfer this mechanism to a fixed finite corpus, we control gradient errors relative to the shrinking directions of progress at successive parameter scales. This certifies a growing training interval without requiring long-time tracking of the population trajectory. We also identify the boundary limitation of the one-head model and explain statistically what a reflected symmetrization could achieve.",
+  "published": "2026-10-05T09:00:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.087482+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T09:00:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07074v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.393124+00:00"
+}

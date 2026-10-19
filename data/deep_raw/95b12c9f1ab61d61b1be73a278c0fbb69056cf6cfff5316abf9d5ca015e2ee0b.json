@@ -1,0 +1,21 @@
+{
+  "id": "95b12c9f1ab61d61b1be73a278c0fbb69056cf6cfff5316abf9d5ca015e2ee0b",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Sensor-Layout-Agnostic Navigation via Geometric Observation Canonicalization",
+  "url": "https://arxiv.org/abs/2610.08306",
+  "summary": "arXiv:2610.08306v1 Announce Type: new Abstract: Existing visual navigation policies are inherently bound to fixed camera configurations, creating a fundamental barrier to zero-shot deployment across heterogeneous robot sensor layouts. To overcome this limitation, we present an embodiment-informed navigation policy capable of generalizing across diverse depth sensor configurations on a specific aerial platform. Instead of implicitly learning spatial alignments, our approach explicitly unprojects depth measurements from arbitrary depth sensor payloads, varying in sensor count, mounting extrinsics, and intrinsics, into a shared robot-centric frame, stitching them into a unified spherical range image and a binary validity mask. This mask allows the downstream policy to explicitly distinguish covered space from unobserved blind spots. Trained via reinforcement learning with aggressive camera randomization, our policy generalizes zero-shot to unseen layouts featuring up to seven cameras, scaling success rates from 78% to 95% as total spatial sensing coverage increases. Finally, real-world flight trials on a physical quadrotor, conducted in an obstacle-filled corridor and an outdoor forest, validate the policy's zero-shot transfer across camera configurations and its resilience to sudden online sensor dropouts.",
+  "published": "2026-10-06T13:11:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.466019+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:11:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08306v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.864635+00:00"
+}

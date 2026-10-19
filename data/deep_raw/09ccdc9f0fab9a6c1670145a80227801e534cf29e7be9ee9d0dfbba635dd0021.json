@@ -1,0 +1,22 @@
+{
+  "id": "09ccdc9f0fab9a6c1670145a80227801e534cf29e7be9ee9d0dfbba635dd0021",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Decoy and disclosure radii of invariant shape descriptors",
+  "url": "https://arxiv.org/abs/2610.08410",
+  "summary": "arXiv:2610.08410v1 Announce Type: new Abstract: A recognizer that compares rotation-invariant descriptors sees a surface only up to the fiber of the descriptor. We measure this fiber by its radius in the orbit distance from the enrolled surface. A large radius admits decoys, that is, distant shapes that pass the matcher. A small radius discloses the enrolled shape to anyone who captures the stored value. For star-shaped surfaces truncated to spherical harmonics of degree at most $L$, with $n$ coefficients, a descriptor of generic rank $r$ has generic fibers of dimension $n-3-r$ modulo rotations. The standard pool of band powers, even bispectra, and three invariants of the degree-three band therefore admits decoy families of dimension $5$, $13$, $20$ at $L=4,6,8$. Its rank first reaches $n-3$ at $L=16$, and a mirror decoy remains at every $L$. The odd bispectra remove the mirror decoy generically for $L \\geq 4$. Yet at fixed mean radius the same pool determines the enclosed volume exactly, and it does not determine whether a surface meets a clearance requirement. We certify two cases by exact and interval arithmetic. At $L=6$ a decoy matches all $32$ invariants to relative precision $2 \\cdot 10^{-18}$ at orbit distance at least $0.87$ times the norm of the enrolled tuple. For the radar shape model of asteroid (101955) Bennu, the pool recovers the modeled volume, misses the handedness, and leaves the keep-out radius uncertain by more than $7 \\, \\mathrm{m}$.",
+  "published": "2026-10-06T14:16:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.524379+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:16:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08410v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.455084+00:00"
+}

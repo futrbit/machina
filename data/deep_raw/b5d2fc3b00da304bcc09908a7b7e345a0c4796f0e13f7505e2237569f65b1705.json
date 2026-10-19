@@ -1,0 +1,22 @@
+{
+  "id": "b5d2fc3b00da304bcc09908a7b7e345a0c4796f0e13f7505e2237569f65b1705",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Statistical Turbulence and High-Fidelity Disturbance Fields for Quadrotor Flight Control",
+  "url": "https://arxiv.org/abs/2610.06874",
+  "summary": "arXiv:2610.06874v1 Announce Type: cross Abstract: Reinforcement-learning quadrotor controllers are usually trained under simplified wind models, yet the impact of wind-field fidelity, as opposed to magnitude, on policy robustness remains unquantified. This paper compares five disturbance-fidelity levels, from wind-free flight and discrete 1-cosine gusts through statistical turbulence and synthetic coherent structures to large-eddy-simulation fields of the atmospheric boundary layer, in a full cross-fidelity train test evaluation of proximal policy optimization (PPO) agents, with cascaded PID and geometric SE(3) controllers as training-free references, over a 0-12 m/s wind sweep. Before any controller comparison is made, all disturbance data are validated: every synthetic generator is checked quantitatively against its analytical or certification-standard reference, and the large-eddy-simulation fields against the imposed log law. On a racing-class quadrotor in hover, the train test matrix is remarkably flat, and the cheapest structured training wind, which is discrete-gust domain randomization, ranks first in every test column, a ranking replicated on a wind-sensitive 27 g platform; a once-tuned geometric controller brackets the learned PPO policies at zero crash rate. Mechanism diagnostics show that control authority, not wind realism, bounds robustness, so wind-fidelity investment should scale with platform wind sensitivity.",
+  "published": "2026-09-09T05:14:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.083484+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-09-09T05:14:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06874v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.712124+00:00"
+}

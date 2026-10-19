@@ -1,0 +1,22 @@
+{
+  "id": "17025e72a0af88d85ac1acb4d42e063e913f9b68fee209eb9de59b85150b009b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "UniCounting: Instance-Aware Proposal Consolidation for Image-Query-Free Multi-Category Counting",
+  "url": "https://arxiv.org/abs/2610.08379",
+  "summary": "arXiv:2610.08379v1 Announce Type: new Abstract: Visual counting is commonly formulated as counting a single specified target, with a model receiving an image-specific exemplar, text query, or target category and returning a single count. We instead study fixed-vocabulary image-query-free multi-category counting. A global vocabulary is fixed for each run, and, given only an RGB image, the model predicts a complete category--count vector without being told which categories appear. We present UniCounting, which casts counting as instance-aware structural inference over an over-complete proposal set. Generic segmenters produce duplicate masks, partial views, and proposals from neighboring instances; semantic scores can name them but cannot determine which denote the same object. Frozen SAM~2.1 generates masks, while frozen DINOv2 and OpenCLIP provide relation and category features. A 3,267-parameter category-shared relation head predicts same-instance affinities from instance-mask-derived supervision. Sparse graph construction, representative selection, labeling, and background-margin admission then convert each admitted component into one count with replayable group evidence. Only the relation head is trained, without count or density-map targets. On COCO clean500, UniCounting obtains lower point-estimate vector $\\ell_1$ error and absent-class false mass than calibrated OWLv2-All80, with comparable micro presence F1. Under a matched decoder, the learned relation reduces both errors relative to mask containment, mask IoU, CLIP, and DINO, while revealing a fragmentation--merge trade-off. We also report transfer diagnostics on OmniCount-sub, FSC-147, and CARPK.",
+  "published": "2026-10-06T14:02:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.523380+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:02:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08379v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.858840+00:00"
+}

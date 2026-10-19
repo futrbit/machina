@@ -1,0 +1,21 @@
+{
+  "id": "ba69f9d382b91861a2a1831b3224381d2ba6688bde079ad8bddff69b55ed1fd2",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Context-Conditioned Hamilton-Jacobi Reachability for Adaptive Safety Filtering",
+  "url": "https://arxiv.org/abs/2610.08115",
+  "summary": "arXiv:2610.08115v1 Announce Type: cross Abstract: Hamilton-Jacobi reachability constructs safety certificates for specified dynamics and safety constraints, tying each certificate to the deployment context for which it is synthesized. We ask whether a single certificate can instead represent a family of context-dependent safety problems and be queried across deployment conditions without re-synthesis. We learn a backward reachable tube for an eight-state vehicle model conditioned on local boundary geometry, friction coefficient, and adversarial disturbance scale. Geometry enters through an ego-frame boundary observation that defines the local containment constraint, while friction and disturbance scale enter as explicit operating-condition variables. This allows the same value function to be queried across friction coefficients from 0.4 to 2.0 and on geometries absent from synthesis. On 11 held-out evaluation geometries, the certificate maintains containment across the full tested friction range, including simultaneous geometry and grip shifts, while remaining within 1.2 percentage points in intervention rate and 0.09 m/s in speed of certificates re-synthesized with knowledge of the test geometry. We then deploy the certificate as a sampled discrete-time control barrier function filter on a full-scale vehicle near the handling limit. Lateral containment holds in every hardware session under both adversarial driving and autonomous racing, with 99th-percentile acceleration magnitude reaching 0.99 g. Across three certificates evaluated under a fixed autonomous racing controller, lap time varies by only 3.1%, demonstrating that a context-conditioned reachability certificate can transfer to deployment geometries absent from synthesis with modest performance cost.",
+  "published": "2026-10-06T10:36:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.475013+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:36:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08115v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.779085+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "8e4cb685228ec6887a36d0a460626c1d06b2366a2ac8845ccc6bb4304e48490e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "BAT: Balancing Agility and Stability via Online Policy Switching for Long-Horizon Whole-Body Humanoid Control",
+  "url": "https://arxiv.org/abs/2604.01064",
+  "summary": "arXiv:2604.01064v2 Announce Type: replace Abstract: Despite advances in reinforcement and imitation learning, achieving both precise control and dynamic whole-body behaviors in long-horizon tasks remains challenging. Existing approaches typically follow two paradigms: coupled whole-body policies for global coordination and decoupled policies for modular precision. However, effectively combining these two types of controllers to achieve agility, robustness, and precision remains challenging. In this work, we propose BAT, an online policyswitching framework that dynamically selects between coupled and decoupled whole-body RL generalist controllers according to the evolving motion context. BAT employs two complementary switching predictors: OpVQ-VAE provides motion-token-based predictions with strong generalization, while OpHRL provides closed-loop, state-aware predictions. A Token-Familiarity Router (TFR) selects between their predictions, favoring OpHRL for familiar token sequences and OpVQ-VAE for unfamiliar ones when their predictions disagree. BAT achieves 85.2% success on seen long-horizon motion combinations, while retaining 71.3% success on unseen motions. BAT also outperforms existing whole-body controllers on individual motions and demonstrates successful zero-shot deployment on the Unitree G1 humanoid.",
+  "published": "2026-04-01T16:03:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.481010+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:39:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.01064v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.723720+00:00"
+}

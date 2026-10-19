@@ -1,0 +1,22 @@
+{
+  "id": "7aa1e4414029ea49363b3f3f48341958c1dcc7a405bbe8fc830c48bf9d67ee6f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CHOIR: heterogeneity-aware conformal prediction for crash injury severity across driver safety strata",
+  "url": "https://arxiv.org/abs/2609.11592",
+  "summary": "arXiv:2609.11592v2 Announce Type: replace-cross Abstract: Transportation agencies increasingly predict crash-injury severity with statistical and machine-learning models, but these models do not state how often their output contains the recorded injury level or for which groups of drivers it fails, a gap that matters most for motorcyclists and unrestrained drivers. This study develops and evaluates a certification layer that gives any fitted severity model a finite-sample, distribution-free coverage guarantee within prespecified safety strata. The layer, CHOIR (Conformal Heterogeneity-aware Ordinal Inference with Risk control), combines groupwise and weighted conformal prediction with conformal risk control to return contiguous KABCO intervals, and adds a declared sensitivity analysis for medically assessed injury and bounds on fatal omission. It is evaluated on 4.04 million Texas crashes from 2017-2023, one sampled driver per crash, with seven base models from the ordered logit to a tabular foundation model, and on held-out counties and later years. Under one pooled threshold every model reaches 0.90 coverage overall but covers motorcyclists or unrestrained drivers at 0.868 or lower, and class-balanced gradient boosting covers unrestrained drivers at only 0.374. Calibration within four safety strata places all 28 model-by-stratum estimates between 0.898 and 0.907, at the cost of sets spanning 3.6 to 4.6 of five categories for these groups, and the certified ordered logit is within 0.03 categories of the narrowest model. Injury-model coverage should therefore be certified within safety groups rather than on average, calibration rather than model complexity determines validity, and a statewide threshold should not be applied to small rural counties without local calibration data.",
+  "published": "2026-09-10T14:20:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.847463+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T12:30:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.11592v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.346947+00:00"
+}

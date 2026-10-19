@@ -1,0 +1,17 @@
+{
+  "id": "43eab038ba42af0e4e9b706114cadf91c9edf72a876a031f23e34cd3ab75d5cf",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Towards Adaptive and Real-Survey-Aligned Simulated Urban Mobility Behaviour of Generative Agents",
+  "url": "https://arxiv.org/abs/2610.22407",
+  "summary": "arXiv:2610.22407v1 Announce Type: cross Abstract: In existing agent-based simulations of multimodal urban mobility, agents, representing humans, choose their travel modes either using discrete choice or machine learning models fitted on structured travel survey data, or with rules explicitly written by the domain experts. Such approaches fix a priori the agents' possible behaviour space. Hence, a factor absent from variables or rules cannot affect agents' decisions. In reality, choosing a transport mode is a multidimensional decision in which objective and subjective factors intertwine and change over time. Integrating such complexity into a city-scale multimodal mobility simulation remains a challenge. Generative agents (GAs) built on large language models promise to respond to this challenge because they carry decision heuristics that travel surveys do not record. However, to the best of our knowledge, aligning their decisions with real household travel surveys remains an open question. In this paper, we build an agent-based model of daily multimodal mobility for Toulouse (France). We compare the performance of fifteen decision-makers (simple baselines, models fitted on the survey, GAs with minimal and tuned prompts, and a typed classifier) on the real household travel survey. Our results show that GAs with tuned prompts come close to the fitted models on the modal split of a simulated day without transport disruptions, but not trip by trip. GAs also react when unforeseen events occur. The recently released Jev-1.13 TypeSafe classifier gives surprisingly great results, showing that generating output text is not necessary. The results presented in this paper would be of interest to transport policy makers and service providers looking to apply generative agent-based modelling for improving urban mobility services.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.189143+00:00"
+}

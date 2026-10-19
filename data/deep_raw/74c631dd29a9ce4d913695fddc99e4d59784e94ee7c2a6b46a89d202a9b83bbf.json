@@ -1,0 +1,22 @@
+{
+  "id": "74c631dd29a9ce4d913695fddc99e4d59784e94ee7c2a6b46a89d202a9b83bbf",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "GRPODropout: Less is More for Online Reinforcement Learning Rollouts",
+  "url": "https://arxiv.org/abs/2610.11854",
+  "summary": "arXiv:2610.11854v1 Announce Type: new Abstract: Reinforcement learning (RL) methods such as GRPO substantially improve large language model reasoning but often suffer from policy entropy collapse: the loss of sampling diversity weakens exploration and limits further improvement. Existing methods address this issue either through algorithm-level interventions, such as reward modification and entropy/KL regularization, or through token-level reweighting. We investigate a complementary perspective: entropy collapse can also be mitigated by changing which generated rollouts contribute to policy updates. Under the same sampling budget, not all rollouts contribute positively to an update, and selectively excluding some can improve learning. To address this, we propose GRPODropout: before the standard update, we use a simple strategy that selectively removes a small number of high-probability positive-advantage rollouts and recenters the retained advantages. To motivate this design, we develop a rollout-level theoretical analysis that guides method design and threshold selection. The method changes only rollout usage, and adds negligible computational overhead. Experiments show higher accuracy than original GRPO and higher actor entropy while using fewer rollout samples for updates, illustrating \"less is more.\" This work provides insight into RL rollout usage: removing some rollouts can improve performance. Code is available at https://github.com/hexuandeng/GRPODropout/.",
+  "published": "2026-10-08T12:38:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.091427+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:38:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11854v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.312173+00:00"
+}

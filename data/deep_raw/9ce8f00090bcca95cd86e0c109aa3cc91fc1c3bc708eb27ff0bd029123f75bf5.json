@@ -1,0 +1,22 @@
+{
+  "id": "9ce8f00090bcca95cd86e0c109aa3cc91fc1c3bc708eb27ff0bd029123f75bf5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Pepti-drift: Scalable Safe-Active Peptide Generation Without Inference-Time Guidance",
+  "url": "https://arxiv.org/abs/2606.27824",
+  "summary": "arXiv:2606.27824v3 Announce Type: replace Abstract: Therapeutic peptides are a promising drug modality, but their generation must satisfy multiple therapeutic constraints. We introduce BindSafe-PepBench, a fixed-budget benchmark that jointly evaluates target binding and four major safety metrics on the same generated candidates. We reveal that peptide length is a major confounder of joint binding-safety evaluation: longer peptides tend toward stronger predicted binding but less favorable predicted safety. This creates an apparent trade-off and can bias comparisons among models with different output-length distributions. We report absolute Safe-Active yield and exact-length-matched gains to distinguish generative improvements from output-length effects. High Safe-Active yield remains challenging, while the strongest multi-property methods rely on costly inference-time guidance. We therefore introduce Pepti-drift, a one-step generation framework that incorporates attraction toward target-specific binders and repulsion from liability-associated regions, requiring a single latent refinement followed by parallel decoding without inference-time guidance. Across 88 held-out targets, Pepti-drift achieves an 18.37% predicted Safe-Active yield while retaining positive exact-length-matched gains. The resulting gains are competitive with multi-property-guided baselines while requiring 468 times lower generation cost, enabling scalable and fair high-throughput peptide design.",
+  "published": "2026-06-26T08:04:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.833471+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T08:42:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.27824v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.036532+00:00"
+}

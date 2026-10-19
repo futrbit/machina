@@ -1,0 +1,22 @@
+{
+  "id": "d10e6bff94729fdbe74ec85d3295c5922c50d8e35fe2f51e9888c7971f0ae37a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Stochastic Siamese MAE Pretraining for Longitudinal Medical Images",
+  "url": "https://arxiv.org/abs/2512.23441",
+  "summary": "arXiv:2512.23441v2 Announce Type: replace-cross Abstract: Temporally aware image representations are crucial for capturing disease progression in 3D volumes of longitudinal medical datasets. However, recent state-of-the-art self-supervised learning approaches like Masked Autoencoding (MAE), despite their strong representation learning capabilities, lack temporal awareness. In this paper, we propose STAMP (Stochastic Temporal Autoencoder with Masked Pretraining), a Siamese MAE framework that encodes temporal information through a stochastic process by conditioning on the time difference between the 2 input volumes. Unlike deterministic Siamese approaches, which compare scans from different time points but fail to account for the inherent uncertainty in disease evolution, STAMP learns temporal dynamics stochastically by reframing the MAE reconstruction loss as a conditional variational inference objective. We evaluated STAMP on two OCT and one MRI datasets with multiple visits per patient. STAMP pretrained ViT models outperformed both existing temporal MAE methods and foundation models on different late stage Age-Related Macular Degeneration and Alzheimer's Disease progression prediction which require models to learn the underlying non-deterministic temporal dynamics of the diseases.",
+  "published": "2025-12-29T13:00:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.552363+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:10:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.23441v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.768090+00:00"
+}

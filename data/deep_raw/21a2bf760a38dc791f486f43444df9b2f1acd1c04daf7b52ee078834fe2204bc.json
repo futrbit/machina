@@ -1,0 +1,21 @@
+{
+  "id": "21a2bf760a38dc791f486f43444df9b2f1acd1c04daf7b52ee078834fe2204bc",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Koopman Model Predictive Control of An Origami-Inspired Soft Exoskeleton for Knee Rehabilitation",
+  "url": "https://arxiv.org/abs/2510.11094",
+  "summary": "arXiv:2510.11094v2 Announce Type: replace Abstract: Knee rehabilitation plays a critical role in restoring patients' mobility and functional independence. Traditional rigid rehabilitation exoskeletons are often bulky and cumbersome to wear, whereas soft pneumatic exoskeletons offer lightweight, wearable, and intrinsically compliant solutions that are better suited for human--robot interaction. However, achieving precise motion control for soft exoskeletons remains challenging due to the difficulty of accurately modeling pneumatic actuators and the patient-specific human--robot coupled dynamics during rehabilitation training. To address these challenges, this paper proposes a Koopman-based Model Predictive Control (KMPC) framework for soft knee rehabilitation exoskeletons. The nonlinear human--robot coupled system is represented through a lifted linear Koopman model, enabling predictive control with explicit handling of constraints. In addition to actuation commands used to control valves and pumps, electromyography (EMG) signals are incorporated as system inputs, allowing the Koopman model to capture voluntary neuromuscular contribution and individual neuromuscular characteristics. Experimental results on both healthy participants and patients demonstrate that the proposed framework improves model prediction accuracy and effectively captures subject-specific behaviors, thereby supporting EMG-informed subject-specific assistance within the tested seated knee-rehabilitation setting. Compared with conventional Proportional--Integral--Derivative (PID) control, the proposed KMPC approach achieves lower tracking errors and reduced actuation effort in both passive and active rehabilitation modes. Additional comparisons with Iterative Learning Control (ILC) further validate the tracking performance of the proposed controller.",
+  "published": "2025-10-13T07:44:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.479012+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:26:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2510.11094v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.158265+00:00"
+}

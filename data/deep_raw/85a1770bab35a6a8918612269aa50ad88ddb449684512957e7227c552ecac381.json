@@ -1,0 +1,22 @@
+{
+  "id": "85a1770bab35a6a8918612269aa50ad88ddb449684512957e7227c552ecac381",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Crop Yield Prediction for Punjab, Pakistan: A Tree-Ensemble and Leaf-Health Prototype, and What Random Validation Hides",
+  "url": "https://arxiv.org/abs/2610.07059",
+  "summary": "arXiv:2610.07059v1 Announce Type: new Abstract: Yield forecasts help planners and farmers decide on inputs, storage and imports, but small agricultural tables can make reported accuracy fail on a new season. We built a crop-yield prototype for Punjab, Pakistan that combines Random Forest, XGBoost, support vector regression and a Ridge-stacked ensemble with a MobileNetV2 leaf-health classifier, and deployed it as a web application with SHAP explanations. A random 80/20 split of a merged Kaggle-derived table (414 rows) gives the ensemble an R2 of 0.991. An audit showed that the table contains only 46 independent observations: a join with nine temperature records per year copied every crop-year nine times. Holding out whole years takes XGBoost on the same rows from R2 = 0.994 to -0.20. On deduplicated data, and on a longer FAOSTAT table (1990-2024, 70 observations), a per-crop linear trend (leave-one-year-out RMSE 0.29 Ton/Ha) beats every model not given the year (0.84-1.06). Neither pesticide use nor national temperature change explains the trend residuals. An apparent pesticide gain in the Kaggle table disappears on FAOSTAT, where the pesticide series is mostly imputed and the two releases disagree. An independent district-level wheat panel (36 districts, 13 seasons) shows that most variation in Punjab is spatial and that a district mean with a common trend matches the learned models. The leaf classifier reaches 99.87% accuracy on held-out PlantVillage images and recalls 96.4% of 336 unseen diseased leaves after near-duplicates were removed. However, no leaf image is paired with a yield record, so the health score used in the yield models had to be constructed and adds nothing. We report these negative findings together with the prototype.",
+  "published": "2026-10-05T05:42:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.510388+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T05:42:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07059v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.544828+00:00"
+}

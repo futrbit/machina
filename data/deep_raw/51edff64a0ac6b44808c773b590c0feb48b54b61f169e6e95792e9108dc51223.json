@@ -1,0 +1,22 @@
+{
+  "id": "51edff64a0ac6b44808c773b590c0feb48b54b61f169e6e95792e9108dc51223",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "EgoSpeedUp: Transferring Human Manipulation Tempo to Robot Policies",
+  "url": "https://arxiv.org/abs/2609.29310",
+  "summary": "arXiv:2609.29310v2 Announce Type: replace-cross Abstract: Robot manipulation policies trained through imitation learning inherit not only the demonstrated behavior but also the conservative execution tempo of robot demonstrations. Existing acceleration approaches can execute faster than the original demonstrations, but determine the appropriate acceleration primarily from robot-side information or a predefined set of tempo factors, leaving open how to obtain a task-appropriate reference for how fast each manipulation phase should progress. We introduce EgoSpeedUp, a framework that uses human manipulation as temporal supervision for robot imitation learning. Our key insight is that human demonstrations naturally reveal task-appropriate, phase-wise manipulation tempo. Given slow robot demonstrations and human demonstrations of the same task, EgoSpeedUp aligns corresponding manipulation phases, estimates their relative execution tempos from multiple human demonstrations, and transfers the resulting phase-wise tempo by retiming the robot demonstrations. The retimed demonstrations are then used for standard behavior cloning, allowing the robot to retain its executable manipulation behavior while learning to perform it at a human-informed tempo. Across two real-world manipulation tasks, EgoSpeedUp improves the task success rate by an average of 25 percentage points (pp) while reducing successful execution time by 36.5%. These results demonstrate that human manipulation tempo provides an effective temporal reference for learning faster and more reliable robot policies.",
+  "published": "2026-09-24T09:44:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.239522+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T05:13:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.29310v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.527441+00:00"
+}

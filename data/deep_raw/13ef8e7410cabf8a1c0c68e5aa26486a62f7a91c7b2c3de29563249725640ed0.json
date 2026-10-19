@@ -1,0 +1,22 @@
+{
+  "id": "13ef8e7410cabf8a1c0c68e5aa26486a62f7a91c7b2c3de29563249725640ed0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Healthy Counterfactual Generation via Diffusion Inpainting for Mammography Classification",
+  "url": "https://arxiv.org/abs/2610.12147",
+  "summary": "arXiv:2610.12147v1 Announce Type: new Abstract: False negatives remain a critical limitation of computer-aided diagnosis (CAD) systems for breast cancer screening due to delayed detection and treatment. To address this issue, we propose a counterfactual data augmentation strategy that generates healthy mammograms by \"erasing\" lesions from anomalous images, thereby enriching the training distribution. We train a Denoising Diffusion Probabilistic Model on BI-RADS 1 (healthy) mammograms and use a RePaint-based sampling strategy to inpaint realistic normal tissue within annotated lesion bounding boxes. The resulting healthy counterfactuals replace annotated lesion regions with realistic healthy tissue while preserving patient-specific anatomical structure, as supported by similarity metrics between real and generated images. Image realism was further assessed by radiologists and found to be consistent with the original dataset quality. We evaluate counterfactual augmentation across four representative classifier architectures: a convolutional neural network (ConvNeXt), a vision transformer (ViT), a vision-language model pre-trained on mammogram-report pairs (Mammo-CLIP) and a multi-scale attention-based multiple-instance learning framework (FPN-MIL). Experiments conducted on the VinDr-Mammo dataset show improvements in sensitivity across all architectures, particularly at 80\\% fixed specificity, contributing towards more reliable CAD systems for breast cancer. Code is available at: https://github.com/ines03garcia/diffusion-based-counterfactual-generation.",
+  "published": "2026-10-08T15:31:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.757044+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:31:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12147v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.783885+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "714e9fff446b8ee821514b890180d3002e89fe52db110a22fb70de2ff4d2c213",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Event-Driven Proactive Robot Assistance through Vision-Language Reasoning",
+  "url": "https://arxiv.org/abs/2610.08344",
+  "summary": "arXiv:2610.08344v1 Announce Type: new Abstract: Assistance in collaborative manipulation is often initiated by user instructions, making high-level reasoning request-driven. In fluent human teamwork, however, partners often infer the next helpful step from the observed outcome of an action rather than waiting for instructions. Motivated by this, we investigate an event-driven formulation of proactive assistance, where human--object interaction outcomes initiate assistive reasoning without user-provided task specifications at inference time. To this end, we propose an event-driven framework that monitors workspace state changes with an event monitor and, upon event completion, extracts stabilized pre/post snapshots that characterize the resulting state transition. A frozen pretrained Vision-Language Model (VLM) then uses its semantic priors to infer the task context, decide whether assistance is appropriate, and, when needed, generate a sequence of assistive actions from the observed transition. To make outputs executable and verifiable, we restrict actions to a set of action primitives and reference objects via integer IDs.We evaluate the same framework across three distinct real world tabletop collaboration tasks without task-specific training or fine-tuning. The event-driven framework achieves performance comparable to variants given user instructions.",
+  "published": "2026-10-06T13:39:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.467018+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:39:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08344v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.119085+00:00"
+}

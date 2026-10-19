@@ -1,0 +1,21 @@
+{
+  "id": "28f9e89b72940d02ede3630b0e881f2c3ddef5e7c1493452bb071456f5629929",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "ACG-WAM: World-Action Modeling via Action-Conditioned Geometric Latent Prediction",
+  "url": "https://arxiv.org/abs/2610.06965",
+  "summary": "arXiv:2610.06965v1 Announce Type: new Abstract: World action models jointly learn visual predictionand robot actions, providing a way to use observations ofscene evolution for policy learning. Their video and actionlosses, however, provide no explicit target for the geometricconsequences of a demonstrated action sequence. Moreover,visual features taken after temporal attention can contain futureobservations, making them unsuitable as the sole current visualinput to an auxiliary predictor. We introduce ACG-WAMand its auxiliary objective, the Action-Conditioned GeometricJoint-Embedding Predictive Architecture (ACG-JEPA), whichpredicts geometric features at several horizons from the currentobservation and intervening actions, using the future slot of afrozen VGGT encoding of each current and future image pairas the target. We apply this supervision from the head and wristcameras to a shared visual embedding before temporal mixing,and remove the teacher and auxiliary modules at inference.On 50 RoboTwin 2.0 tasks, ACG-WAM achieves 93.46%success in clean scenes, with the best randomized success(92.68%) and mean across both settings (93.07%) among thecompared methods; across three tasks on a real robot, itachieves 85.00% success and 91.67% partial completion score,exceeding Motus by 10.00 and 9.17 percentage points, respec-tively. Code:https://github.com/RoboOpus/ACG-WAM.Website:https://RoboOpus.github.io/ACG-WAM.",
+  "published": "2026-10-03T17:52:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.452028+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T17:52:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06965v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.273197+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "eb4279b7b62e4973e523ac55a88c61ae25d77098480530b527b5a1b6774810f1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "EvoHarness-RL: Learning Runtime Harness Coordination for Self-Evolving Agents",
+  "url": "https://arxiv.org/abs/2608.05446",
+  "summary": "arXiv:2608.05446v2 Announce Type: replace Abstract: Long-horizon LLM agents increasingly rely on external execution support to maintain state, track progress, recover from failures, and reuse experience across extended interactions. Yet existing harnesses and their use are often tailored to environments and controlled through prompts, heuristics, or system-specific rules, making agent and harness coordination difficult to jointly optimize. We introduce EvoHarness-RL, a unified framework that separates environment-specific harness implementations from a shared policy-facing interface. EvoHarness-RL organizes external support into a Belief, Progress, and Experience (BPE) workspace and exposes four compact harness actions for accessing and updating this state. We first instantiate BPE as an inference-time scaffold and then make harness coordination learnable through supervised initialization followed by cost-aware GRPO. Across heterogeneous long-horizon tasks, EvoHarness-Base improves the average success rate of frontier models by 10.0 percentage points, while EvoHarness-RL outperforms the strongest open-source baseline by 8.5 percentage points, together with higher RL rollout efficiency and stronger generalization to unseen tasks. Our analyses show that training gradually shifts agents from frequent scaffold use toward selective, environment-dependent harness access as the policy becomes more capable, while the external workspace continues to evolve and refine itself to better support task execution and generalization. Together, these results show that long-horizon agents benefit not only from external scaffolding itself, but also from learning how and when to coordinate with external support as part of a cost-aware policy.",
+  "published": "2026-08-05T22:29:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.118463+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:53:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.05446v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.377722+00:00"
+}

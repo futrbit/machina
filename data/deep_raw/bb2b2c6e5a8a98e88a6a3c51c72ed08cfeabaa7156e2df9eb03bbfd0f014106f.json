@@ -1,0 +1,21 @@
+{
+  "id": "bb2b2c6e5a8a98e88a6a3c51c72ed08cfeabaa7156e2df9eb03bbfd0f014106f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Blind, Not Weak: A Best-of-Suite Safety-Utility Frontier for Recover-and-Reguard Defenses Against Encoded VLM Jailbreaks",
+  "url": "https://arxiv.org/abs/2607.26574",
+  "summary": "arXiv:2607.26574v3 Announce Type: replace-cross Abstract: Safety classifiers (\"guards\") are the dominant black-box defense for vision-language models, yet a guard judges an input's surface form, not its meaning: a harmful request re-encoded as set theory, formal logic, a classical language, code, or text rendered inside an image slips past a guard that would block it in plain language - the decode gap. The standard fix is a preprocessor that recovers image content and decodes the encoding before the guard. We build one and evaluate it against an ensemble of eleven encoding attacks - six published implementations, one standard encoding baseline, one adapted and three author-constructed renders - counting a behavior as broken if any attack succeeds. Restoring a view the guard never had is what buys coverage - block rates on image renders go from exactly zero to 67-90% - and what it costs in benign traffic is set by the guard, not by the mechanism: one guard pays 9 benign blocking points for the same 70-point gain another pays 69 for. It still does not make the system safer: against an attacker free to choose among eleven encodings, closing one channel relocates the success rather than removing it, and no ensemble contrast for that step survives multiple-comparison correction. What does lower ensemble attack success is a reguard step that re-screens the recovered pre-decode surface, and it is the one every guard pays for: it raises benign over-refusal on all ten guard-target pairs, where restoring a single channel raises it on some and not others. Across the full guard x target x condition factorial, no configuration reaches an ensemble attack-success rate at or below 40% while holding benign over-refusal under 70%. That empty region is a property of the configurations we sample, not a bound on what recovery-based defenses can reach, and we breach its safety half ourselves.",
+  "published": "2026-07-29T07:53:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.439416+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T05:37:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.26574v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.793075+00:00"
+}

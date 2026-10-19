@@ -1,0 +1,18 @@
+{
+  "id": "a473cd2ffd78899e0384e731a3e4564a5c79bd150f7bd067e399688d45d5cec4",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Open ultrasound foundation model for robust segmentation and clinical measurement across heterogeneous settings",
+  "url": "https://arxiv.org/abs/2609.19230",
+  "summary": "arXiv:2609.19230v2 Announce Type: replace Abstract: Ultrasound is the most widely deployed imaging modality worldwide, yet clinical AI remains fragmented into narrow single-task models that fail when device, operator, or anatomy changes. Here we present SonoCorpus, an open resource unifying 456,963 images and 1,626,085 expert masks from 53 public datasets spanning 24 clinical applications and 17 countries, and SonoBase, an interactive segmentation foundation model pretrained on it. Across fifteen evaluation datasets introducing new organs, devices, operators, and geographies, SonoBase outperforms SAM2, MedSAM2, and the concept-promptable MedSAM3 on every dataset and matches per-dataset specialist models trained on the same data; on fully external data it exceeds the accuracy these baselines achieve on their own in-distribution benchmarks. Ejection fraction derived from its segmentations falls within inter-observer variability (6.63\\% error), with fewer misclassifications at the defibrillator-candidacy threshold than either promptable baseline (13\\% versus 18--42\\%); fetal head-circumference (1.81~mm) and gestational-age (1.2 days) errors fall below inter-observer variability. Where a baseline fails outright, one in four test cases, SonoBase recovers a usable segmentation in 81\\% of them, including on handheld probes operated by minimally trained users in two low- and middle-income countries (Sierra Leone and Tanzania). Five labeled examples can help the model adapt to a new setting, and the identical training protocol transfers well to newer models such as SAM3, locating the advantage in ultrasound-specific pretraining rather than any single architecture. To ensure reproducibility and enable the community to build on SonoBase as a platform, we release all checkpoints, optimizer states, data-split indices, deduplication hashes, and starter code at https://github.com/AlfredQin/sonobase.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.083067+00:00"
+}

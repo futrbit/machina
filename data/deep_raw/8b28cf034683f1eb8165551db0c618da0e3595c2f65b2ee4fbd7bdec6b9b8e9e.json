@@ -1,0 +1,21 @@
+{
+  "id": "8b28cf034683f1eb8165551db0c618da0e3595c2f65b2ee4fbd7bdec6b9b8e9e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "CPR for LLMs: Critical-Point Routing against Catastrophic Forgetting in Domain Adaptation",
+  "url": "https://arxiv.org/abs/2608.30158",
+  "summary": "arXiv:2608.30158v3 Announce Type: replace-cross Abstract: Supervised fine-tuning (SFT) is the de facto standard for adapting large language models (LLMs) to target domains, but it often degrades the model's general capabilities, a phenomenon known as catastrophic forgetting. Existing approaches typically modify the SFT loss to mitigate forgetting, but they inevitably operate along a domain-generality trade-off. In this work, we step outside this trade-off by decoupling the two capabilities at the model level: we keep the original base model for general capability, and selectively invoke the SFT expert only when domain-specific knowledge is required. Specifically, we propose CPR (Critical-Point Routing), a token-level routing framework between a base model and its expert derivative, based on critical tokens where the base model fails but the expert succeeds. We train a lightweight hierarchical router that estimates the expert-call probability per token, and pair it with a tailored inference procedure that combines momentum smoothing and threshold gating. Across diverse model-domain configurations, CPR achieves state-of-the-art across all settings, surpassing SFT expert by 1.4-5.5% in domain performance while recovering its general-capability drop from 3.4-14.5% to at most 0.5%, with minimal overhead from invoking the expert on only one-third of tokens.",
+  "published": "2026-08-31T02:19:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.425354+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:39:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.30158v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.675749+00:00"
+}

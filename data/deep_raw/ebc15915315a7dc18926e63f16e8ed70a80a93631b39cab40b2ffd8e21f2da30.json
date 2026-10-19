@@ -1,0 +1,22 @@
+{
+  "id": "ebc15915315a7dc18926e63f16e8ed70a80a93631b39cab40b2ffd8e21f2da30",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Do Your Own Research: Learning to Forecast by Learning to Search",
+  "url": "https://arxiv.org/abs/2610.01955",
+  "summary": "arXiv:2610.01955v1 Announce Type: new Abstract: Outcome-based reinforcement learning can train language models to forecast real-world events, but prior forecasting work either freezes research context before training or deploys agentic research only at test time, so the skill of gathering evidence is never shaped by the reward. We introduce an agentic forecasting environment, dataset, and harness built from 2,100+ resolved Polymarket questions; the agent acquires its own context at rollout time (web search, page reading, and financial time series, all restricted by layered leak filtering to information published before each question's cutoff), and we train Qwen3.5-35B-A3B (3B active parameters) on it with single-epoch GRPO under a Brier-score reward. Training changes how the agent interacts with information: calibration improves 30-40%, and search attempts fall from 3.8 to 2.25 per rollout as evidence discipline is learned. Evaluated in an identical harness against four frontier models, the trained policy also finishes ahead of every frontier model tested at evidence-based forecasting, including Claude Opus 4.5 (soft-Brier 0.254 vs. 0.256, n=265), at about 5% of the inference cost, and its margin is widest on the hardest questions, the ones the crowd itself had not decided. We release the environment, dataset, and per-rollout records as a reusable harness for temporal forecasting agents.",
+  "published": "2026-10-01T16:12:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.799492+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:12:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01955v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.385718+00:00"
+}

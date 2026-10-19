@@ -1,0 +1,22 @@
+{
+  "id": "f178f6cf7a82b7610c497d9a395a4cb7de3b6af936f3820b42af005c71108807",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Mean Spatial Frequency Decoupling for Learning-Based Uplink-to-Downlink Covariance Conversion in FDD Massive MIMO",
+  "url": "https://arxiv.org/abs/2610.00596",
+  "summary": "arXiv:2610.00596v1 Announce Type: cross Abstract: In frequency division duplexing (FDD) massive multiple-input multiple-output (MIMO) systems, the uplink (UL)-to-downlink (DL) channel covariance matrix (CCM) conversion problem is studied to relieve the heavy burden of DL training and feedback required for channel estimation. Learning- based methods perform well up to a certain array size, but for a fixed dataset size their accuracy deteriorates with the number of antennas, to the point where simple model-based methods outperform them. This paper identifies a key cause of this behavior and addresses it. The mean angle of arrival (AoA) induces a phase ramp along the lags of the CCM. Since the oscillation rate of this ramp grows with the number of antennas, a dataset of fixed size becomes increasingly sparse relative to the variation that must be captured. We propose estimating the slope of this ramp from the UL CCM separately and mapping it to the DL band in closed form, leaving the learner with a residual that is largely insensitive to the mean AoA, which substantially reduces the performance degradation with an increasing number of antennas. The proposed scheme, termed deramping, is a combination of pre- and post-processing steps that applies to learning-based conversion methods without altering their internal structure, as demonstrated on three structurally different learners. Simulation results show that deramping reduces the covariance estimation error of all three learners under uniform, Laplacian, and Gaussian angular power spectra,keeps the interpolation-based learners ahead of a model-based benchmark at large array sizes, and improves downlink channel estimation.",
+  "published": "2026-09-30T19:00:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.810486+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T19:00:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00596v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.455676+00:00"
+}

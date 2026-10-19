@@ -1,0 +1,21 @@
+{
+  "id": "85a7c0994871a2017ed129b3cada134fdfbb1bbc6b2620fde0138902f37dad72",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Policy Regret for Embedding Model Routing: Contextual Bandits with Low-Rank Experts",
+  "url": "https://arxiv.org/abs/2606.14929",
+  "summary": "arXiv:2606.14929v2 Announce Type: replace-cross Abstract: Modern recommendation systems increasingly rely on dynamically routing diverse queries to multiple embedding models. Despite its practical significance, this problem remains poorly understood under realistic conditions like adversarial queries, bandit feedback, and limited observability of models. We formalize embedding model routing as an adversarial contextual linear bandit with low-rank experts, where contexts are queries, actions are items, and experts are the embedding models working on low-rank latent representation spaces. We first establish that standard regret notions suffer from structural misspecification or statistical intractability, and we identify a log-quadratic policy class that is expressive enough to capture query-dependent model routing, yet structured enough to allow efficient online learning. Focusing on this log-quadratic policy optimization problem under bandit feedback -- which is of independent interest -- we propose a policy gradient algorithm called Hypentropy Policy Gradient (HPG). It provably adapts to the unknown low-rank structure under incomplete information and attains $\\widetilde{\\mathcal O}(s\\sqrt{M T})$ linearized policy regret -- where $s, M$, and $T$ are the intrinsic rank of the experts, the number of models, and the number of rounds -- thus avoiding a curse of dimensionality. We provide computationally efficient and parameter-free implementation of HPG.",
+  "published": "2026-06-12T20:09:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.438713+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T22:16:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.14929v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.545827+00:00"
+}

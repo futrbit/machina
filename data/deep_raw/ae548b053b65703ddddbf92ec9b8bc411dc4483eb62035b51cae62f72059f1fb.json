@@ -1,0 +1,22 @@
+{
+  "id": "ae548b053b65703ddddbf92ec9b8bc411dc4483eb62035b51cae62f72059f1fb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Group Invariant Spectral Embedding",
+  "url": "https://arxiv.org/abs/2607.08987",
+  "summary": "arXiv:2607.08987v2 Announce Type: replace Abstract: Spectral embedding methods are widely used for dimensionality reduction and clustering of high-dimensional datasets with intrinsic low-dimensional structures. Although many datasets of practical interest exhibit invariance under symmetries such as rotations, standard spectral embedding methods do not account for this, treating symmetry-related data points as unrelated. Our approach to this problem is to incorporate the symmetries directly into the affinity kernels used for spectral embedding. We analyze the case of a Riemannian data manifold $M$ with symmetries given by a compact Lie group~$G$ and prove that, under suitable conditions, graph Laplacians constructed from three types of invariant kernels converge pointwise to explicit second-order differential operators on the quotient space $M/G$. Our analysis implies improved convergence rates, as the effective dimension drops according to the dimension of the group. We validate our approach on datasets with $\\mathrm{SO}(2)$ or $\\mathrm{SO}(3)$ symmetry, and show that $G$-invariant spectral embedding recovers the intrinsic geometry of the data, in contrast to standard spectral embedding, which fails to do so even in the limit of infinite data.",
+  "published": "2026-07-09T23:18:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.127407+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:46:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.08987v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.505249+00:00"
+}

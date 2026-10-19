@@ -1,0 +1,22 @@
+{
+  "id": "807781d3a7deb95bf934377762c3a697e6a7ef773f493118e023e382309bf9f0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Curvature of Regret in Contextual Linear Optimization",
+  "url": "https://arxiv.org/abs/2610.01980",
+  "summary": "arXiv:2610.01980v1 Announce Type: new Abstract: Decision-focused learning for linear optimization is complicated by the discontinuity of the optimizer, where small cost errors may leave the decision unchanged or move it to a different vertex. We show that this non-smooth pointwise behavior becomes locally quadratic after averaging over the data distribution, and we derive the curvature in closed form, specifically, a matrix-valued measure supported on the walls of the normal fan. This measure depends only on the feasible set, with the data distribution entering only as a weight. We then offer a tractable approximation for this curvature, computable with just one projection to the feasible set. We prove that the approximation weakly converges to the true population curvature. We offer one application of our findings, a decision-aware scenario generation method for expected-cost linear optimization. Our experiments test the quadratic and weak convergence laws and show a 30.8% regret improvement over uniform allocation on battery arbitrage.",
+  "published": "2026-10-01T16:25:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.800491+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:25:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01980v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.449885+00:00"
+}

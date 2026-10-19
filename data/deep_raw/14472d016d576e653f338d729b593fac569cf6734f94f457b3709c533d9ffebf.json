@@ -1,0 +1,21 @@
+{
+  "id": "14472d016d576e653f338d729b593fac569cf6734f94f457b3709c533d9ffebf",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Benchmarking candidate coverage and rejection policy transfer in typed decision models",
+  "url": "https://arxiv.org/abs/2610.03387",
+  "summary": "arXiv:2610.03387v2 Announce Type: replace Abstract: Rejection policies must remain useful as candidate sets and tasks change. We compare Laya, Jev and Qwen2.5-7B-Instruct using public reference labels, testing Laya/Jev policy transfer at equal calibration budgets and all three models on artificial omission, natural retrieval misses and public out-of-scope queries. Source calibration often fails to preserve the target operating point. A Jev policy calibrated on DBpedia rejects 69.3% of covered Emotion test inputs, while an Emotion policy loses detection entirely. Retrieval exposes a different tradeoff: with ten intent candidates, Laya detects 99.0% of out-of-scope queries but rejects 48.8% of covered queries. Separating missing-answer sources reveals these costs alongside retrieval coverage. The benchmark provides shared inputs, explicit decision and failure categories, and reproducible scoring to assess rejection policies under the conditions in which they are reused. Code and benchmark artifacts are available at https://github.com/luckykevvv/Decision_Model_Benchmark.",
+  "published": "2026-10-02T14:36:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.188790+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:17:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.03387v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.794879+00:00"
+}

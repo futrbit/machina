@@ -1,0 +1,22 @@
+{
+  "id": "127d48b503b835edf30fb95a7f833d23a2518d9e93e8f97e3120f8c848c0d8ca",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Continual Reinforcement Learning with Neuroevolution",
+  "url": "https://arxiv.org/abs/2610.01583",
+  "summary": "arXiv:2610.01583v1 Announce Type: cross Abstract: Despite many studies about causes and remedies of plasticity loss in Reinforcement Learning (RL) under continual task changes, no RL method has yet consistently achieved a good balance between adaptation and forgetting. Here we turn to an alternative optimization paradigm, neuroevolution (NE): algorithms that search directly in weight space through mutation and selection over a population of neural networks. Across a wide array of environments and environmental changes, with policies ranging from a few hundred parameters to million-parameter networks, we compare evolution strategies (ES) and genetic algorithms (GAs) against state-of-the-art continual RL variants and population-based RL. ES most consistently achieves a good stability-plasticity trade-off, while the GA is the most plastic method but forgets more than ES. To explain this, we study the return landscape around each method's solutions. ES finds the widest neighborhoods, i.e.\\ regions of weight space in which perturbed policies still solve the task, and the size of the overlap between the neighborhoods of consecutive tasks correlates with a method's stability-plasticity trade-off. Rewarding behavioral diversity in a GA through novelty search makes the population even more plastic, at the cost of forgetting. Finally, symptoms of plasticity loss commonly reported in RL do not transfer to NE. Overall, these results establish NE as a competitive alternative to RL under continual task changes, and suggest that training under perturbations in weight space may be a useful mechanism for continual learning more broadly.",
+  "published": "2026-10-01T12:39:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.820479+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-02T09:18:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01583v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.735914+00:00"
+}

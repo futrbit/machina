@@ -1,0 +1,22 @@
+{
+  "id": "f9ae1f441f09ae3d0c5f71003771ef95d2126e25296af31ffa0267a52104ebac",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "MotherTree: Meta-learning on synthetic data improves decision tree training",
+  "url": "https://arxiv.org/abs/2610.10832",
+  "summary": "arXiv:2610.10832v1 Announce Type: new Abstract: Conventional decision tree algorithms produce effective, transparent models that can be audited, communicated, and deployed independently of the training data, but require learning every new task from scratch. In contrast, tabular foundation models demonstrate that meta-learning from a synthetic prior distribution enables strong in-context prediction for previously unseen tasks, especially in small-sample regimes. However, this approach does not produce a standalone model that can be inspected in isolation. We introduce MotherTree, a tabular transformer that meta-learns decision tree induction: given a training set for a new task, it outputs a hard, axis-aligned decision tree, equivalent in form to classically trained trees, in a single forward pass. MotherTree is pre-trained on a synthetic prior using stochastic gradient descent without requiring reference trees for supervision. On established benchmarks with controlled sample size, the approach is competitive with size-matched trees from common algorithms: recursive partitioning, gradient-based tree learning, globally optimal trees, and distillation from tabular foundation models. Notably, MotherTree consistently improves over from-scratch gradient-based learning and acts as a strong initializer: task-specific tuning of the generated tree outperforms the corresponding from-scratch learner on all benchmarks and sample sizes. These results show that meta-learning can provide effective inductive biases for learning stand-alone, small decision tree classifiers.",
+  "published": "2026-10-07T19:34:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.076437+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:34:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10832v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.546621+00:00"
+}

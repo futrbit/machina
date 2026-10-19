@@ -1,0 +1,22 @@
+{
+  "id": "f7de36107beb2ebf52df4ede58a2872bc3772a7cd3e63a621b0553607913708b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Connected Self Forcing: Beyond Local Learning in Video Autoregression",
+  "url": "https://arxiv.org/abs/2610.12156",
+  "summary": "arXiv:2610.12156v1 Announce Type: new Abstract: To stream long videos while maintaining visual quality and temporal consistency, Self Forcing mitigates exposure bias through self-rollout training on self-generated histories with key-value (KV) caching. To keep memory manageable, it detaches historical caches, preserving forward dependencies between chunks but severing the backward gradient paths. We introduce Connected Self Forcing, a training framework that reconnects gradient paths across autoregressive chunks, allowing feedback from later predictions to guide how earlier context is generated. These connections go beyond historical KV-writing: gradients pass through generated latents into the computations that produced them, linking the generation of earlier context to its use in later predictions. To make this connected training memory-efficient, we develop shortcut gradient replay, which recovers cross-chunk gradients without retaining the full rollout computation graph. Integrated with distribution matching distillation, Connected Self Forcing trains historical chunks according to both their direct supervision and their contribution to subsequent generation. Experiments on autoregressive video generation show improvements in long-horizon visual quality and temporal consistency, without changing the inference procedure.",
+  "published": "2026-10-08T15:36:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.757044+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:36:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12156v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.524635+00:00"
+}

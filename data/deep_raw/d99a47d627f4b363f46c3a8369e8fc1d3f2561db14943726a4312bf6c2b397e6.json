@@ -1,0 +1,21 @@
+{
+  "id": "d99a47d627f4b363f46c3a8369e8fc1d3f2561db14943726a4312bf6c2b397e6",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MAPF-World: Action World Model for Multi-Agent Path Finding",
+  "url": "https://arxiv.org/abs/2508.12087",
+  "summary": "arXiv:2508.12087v3 Announce Type: replace Abstract: Multi-agent path finding (MAPF) studies the problem of planning conflict-free paths for multiple agents from given start locations to designated goals, with applications in robot-assisted logistics and social navigation. Recent decentralized learned solvers have shown promise for large-scale MAPF, particularly when leveraging foundation models and large datasets. However, most existing methods rely on reactive policies, often resulting in congestion, deadlocks, and degraded generalization in high agent-density environments. To address these limitations, we propose MAPF-World, an autoregressive action world model for MAPF that unifies short-horizon local future prediction and action generation, enabling decision-making beyond immediate local observations. MAPF-World models short-horizon local dynamics by predicting the next local observation and neighboring agents' action intentions, capturing both spatial structures and temporal interaction patterns. We further introduce a spatio-agent positional encoding that integrates spatial awareness with agent-level semantics in Transformer-based architectures, facilitating more coordinated multi-agent behaviors. In addition, we augment existing MAPF benchmarks by introducing an automated map generator grounded in real-world urban layouts, aiming to narrow the gap between synthetic simulation and practical deployment scenarios. Extensive experiments across diverse map types and interaction settings demonstrate that MAPF-World achieves strong performance compared with existing learned solvers. Notably, it exhibits robust zero-shot generalization and maintains a high success rate even as agent density increases.",
+  "published": "2025-08-16T15:50:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.404368+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:29:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2508.12087v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.184839+00:00"
+}

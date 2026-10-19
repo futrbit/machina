@@ -1,0 +1,22 @@
+{
+  "id": "bc2b2770a9860a83b1e62d1034203c29da68c016bbd8369fa3661d3b7730a4ae",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Can an MLP Absorb Its Own Skip Connection Exactly?",
+  "url": "https://arxiv.org/abs/2604.23705",
+  "summary": "arXiv:2604.23705v2 Announce Type: replace Abstract: The benefits usually attributed to skip connections are optimization-theoretic: a smoother loss landscape and better gradient propagation. We ask a representational question instead: given a residual block x -> x + MLP(x), does a residual-free MLP of the same width compute the same function? The answer is no, unconditionally and at every depth, for every activation used in current frontier language models (ReLU^2, ReGLU, SwiGLU, GeGLU). For ungated ReLU and GELU absorption is possible, but only on a set of weights of measure zero. The two families are therefore generically disjoint: removing a skip connection and retraining cannot recover exactly the same function at equal width.",
+  "published": "2026-04-26T13:37:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.114466+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:52:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.23705v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.808066+00:00"
+}

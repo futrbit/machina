@@ -1,0 +1,22 @@
+{
+  "id": "b1e9a48b720617d01eec0b8d2d051e7c5701281fd690c086620f6dd379e31f04",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Accuracy: Robustness, Interpretability and Expressiveness of EEG Foundation Models",
+  "url": "https://arxiv.org/abs/2605.17562",
+  "summary": "arXiv:2605.17562v2 Announce Type: replace Abstract: EEG foundation models (EEG-FMs) have been evaluated predominantly on clean, in-distribution accuracy, demonstrating modest gains over supervised baselines and weak frozen representations. This study examines whether these conclusions hold beyond clean accuracy by evaluating six EEG-FMs and a supervised baseline across ten datasets along three layers of analysis: (i) Robustness: we apply test-time perturbations including additive noise, random and region-based channel dropout and region-specific noise injection. Our analyses show that no single model dominates all failure modes. The most noise-robust model is among the most fragile under channel dropout and much of the dropout fragility disappears when channels are removed rather than zero-padded. (ii) Interpretability: using attribution methods in EEG-FMs, we show that models broadly concentrate relevance on task-appropriate brain regions consistent with known neurophysiology. (iii) Expressiveness: we demonstrate that the poor head-only performance previously attributed to low-quality pre-trained representations is largely explained by the pooling strategy and that EEG-FMs possess sufficient representational capacity when their token-level embeddings are preserved. Furthermore, with block-wise probing and attention analysis we show that late blocks are repurposed during fine-tuning, while early blocks already hold task-related information. Our results show that conclusions about EEG-FMs depend on evaluation choices and we recommend that future evaluation of EEG-FMs should report robustness per perturbation type, produce attribution maps and examine multiple pooling strategies.",
+  "published": "2026-05-17T17:47:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.125408+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:45:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.17562v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.416303+00:00"
+}

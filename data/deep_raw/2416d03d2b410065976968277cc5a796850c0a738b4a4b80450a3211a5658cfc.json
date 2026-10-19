@@ -1,0 +1,18 @@
+{
+  "id": "2416d03d2b410065976968277cc5a796850c0a738b4a4b80450a3211a5658cfc",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Visual Input and Its Framing Affect Undermine the Stability of Attribute-based Descriptions Produced by Large Vision-Language Models",
+  "url": "https://arxiv.org/abs/2609.18345",
+  "summary": "arXiv:2609.18345v2 Announce Type: replace Abstract: Large vision-language models (LVLMs) are commonly prompted with text alone or together with an image. In this paper, we find a new aspect of LVLM vulnerability in its response robustness: adding an image can unexpectedly affect responses even when text prompts ask about a concept rather than the instance of the concept depicted in the image. For example, adding an image of an animal can change the generated attribute descriptions of its breed, and framing of the image further affects those changes. We study this new problem on seven LVLMs with image sets covering 30 animal breeds and eight food categories, using two types of framings that focus on the subject (subject-focused) or place it in a broader context (subject-in-situation). We draw the following main findings: (1) adding images increases physical-term proportions for animals (16.7\\% $\\to$ 32.8\\%) and decreases sensory-term proportions for food (83.6\\% $\\to$ 73.2\\%) among the most frequent terms, averaged over seven models and two framings on correctly recognized images. (2) attribute-term distributions differ significantly between the two framing types for 41.4\\% of animal and 71.4\\% of food model--concept pairs, with generally higher physical-term proportions for animals and sensory-term proportions for food under subject-focused than subject-in-situation framing.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.083067+00:00"
+}

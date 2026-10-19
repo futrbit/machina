@@ -1,0 +1,22 @@
+{
+  "id": "7d01edfb82fd434db62126945a7a7b74c38d0f0b5d1cf7e0e6690e650e8444dd",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "State-Aware Interaction MIL for Rare Joint Molecular Phenotype Prediction in Colorectal Cancer and Lung Adenocarcinoma",
+  "url": "https://arxiv.org/abs/2610.06991",
+  "summary": "arXiv:2610.06991v1 Announce Type: new Abstract: Joint molecular phenotype prediction is complicated by small joint-positive populations and overlapping histological features across alternative molecular states. Existing computational pathology approaches typically predict biomarkers independently or formulate the joint-positive phenotype as a binary endpoint. Independent prediction does not model interactions between biomarker-specific histological representations, whereas binary joint prediction collapses the double-negative and two single-positive configurations into a single negative class. We propose State-Aware Interaction MIL, a weakly supervised method that preserves biomarker-specific histological representations, models their interaction, and supervises the complete four-state molecular configuration. We evaluate the proposed approach for joint BRAF+/MSI+ prediction in colorectal cancer and EGFR+/TP53+ prediction in lung adenocarcinoma using frozen UNI2-h and CONCH pathology foundation-model representations. With UNI2-h, State-Aware Interaction MIL achieved an average precision of 0.5566 in colorectal cancer (joint-positive prevalence 6.8%) compared with 0.5161 for NaiveMTL, and 0.2784 in lung adenocarcinoma (joint-positive prevalence 8.6%) compared with 0.2525 for IndependentPair. With CONCH, State-Aware achieved an average precision of 0.4410 compared with 0.3932 for DirectJoint in colorectal cancer and 0.1659 compared with 0.1226 for DirectJoint in lung adenocarcinoma. These results indicate that pathology foundation-model representations contain predictive information for rare joint molecular phenotypes and that preserving biomarker-specific representations within a structured molecular-state formulation can improve prediction of these phenotypes from histopathology.",
+  "published": "2026-10-04T07:29:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.509389+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T07:29:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06991v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.393920+00:00"
+}

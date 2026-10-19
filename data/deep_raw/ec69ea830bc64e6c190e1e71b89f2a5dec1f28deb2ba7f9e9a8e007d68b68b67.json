@@ -1,0 +1,21 @@
+{
+  "id": "ec69ea830bc64e6c190e1e71b89f2a5dec1f28deb2ba7f9e9a8e007d68b68b67",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "RL-ARC: Calibrating Large Reasoning Models via Reasoning-guided Uncertainty",
+  "url": "https://arxiv.org/abs/2610.11352",
+  "summary": "arXiv:2610.11352v1 Announce Type: new Abstract: Language models (LMs) are commonly trained with Reinforcement Learning with Verifiable Rewards (RLVR) to enhance their reasoning capabilities. However, since RLVR does not explicitly account for calibration during training, it can lead to severe calibration degradation, including overconfidence. Recent calibration-aware training methods for LMs, which incorporate objectives for uncertainty estimation into training, improve calibration but still exhibit overconfidence under distribution shift, while sacrificing reasoning performance. To this end, we propose RL-ARC, a calibration-aware training framework that jointly leverages reasoning confidence and answer confidence. Specifically, RL-ARC leverages reasoning confidence as an auxiliary signal for calibrating answer confidence, applying it as reasoning-guided regularization for correct cases and as an overconfidence penalty for incorrect cases. Comprehensive results across ID and OOD settings show that, beyond improving calibration, RL-ARC enables reasoning models to adaptively estimate confidence based on the given question without substantially sacrificing reasoning performance, thereby highlighting the importance of reasoning confidence for training reliable reasoning models.",
+  "published": "2026-10-08T06:45:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.367389+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:45:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11352v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.214821+00:00"
+}

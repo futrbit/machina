@@ -1,0 +1,22 @@
+{
+  "id": "12455ce5c8002ad0bbcc75ea3c260abb99d52ae975372ce5a0856b65a8e26ca9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "AFA-BANDIT: Provably Near-Optimal Online Multi-Feature Classification Under Budget Constraints",
+  "url": "https://arxiv.org/abs/2610.07615",
+  "summary": "arXiv:2610.07615v1 Announce Type: new Abstract: Active Feature Acquisition (AFA) is a classification problem in which an agent decides which costly features to acquire before predicting each sample's label. Unlike batch AFA, which trains a fixed policy and classifier offline on fully observed data, online AFA updates its predictor from revealed labels as samples arrive. Existing online methods either use deep reinforcement learning (RL) without performance guarantees or maximize cost-adjusted reward rather than enforce a global budget. We formulate online AFA as a combinatorial Bandits with Knapsacks (BwK) problem that couples acquisition and prediction. Unlike prior bandit-based AFA and classical BwK, our setting has combinatorial complexity, evolving rewards, a global budget, and structured side information. We obtain an improved regret upper bound over standard BwK bounds in this framework, leveraging a cardinality-aware confidence bound and the subset update structure. To avoid an exponentially large action space, we propose \\emph{LP-Chain}, a variant that searches a cost-aware chain of feature subsets with a size that grows linearly with the number of features. While the regret upper bound is specific to the combinatorial framework, \\emph{LP-Chain} empirically achieves comparable predictive performance. On synthetic data, \\emph{LP-Chain} outperforms HEDGE-based BwK and deep RL-based online AFA baselines and scales favorably to more features.",
+  "published": "2026-10-06T02:02:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.065496+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:02:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07615v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.730918+00:00"
+}

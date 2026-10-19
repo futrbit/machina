@@ -1,0 +1,22 @@
+{
+  "id": "0fcad3a55a5cdf7589eff28c3adbdc168850ec189260fbfa646abe85ae192ccb",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Fast Pose Tracking of Rigid Objects with Compact Pose Graph Optimization",
+  "url": "https://arxiv.org/abs/2610.11815",
+  "summary": "arXiv:2610.11815v1 Announce Type: new Abstract: Tracking a novel object's 6D pose over long horizons currently requires either expensive onboarding or a reconstruction maintained throughout the sequence. This makes current trackers impractical for robotic manipulation and augmented reality, which need trackers that are ready to use and run in real time. We show that a lightweight tracking module can be applied on top of a wide range of correspondence estimation methods to keep drifts bounded while maintaining fast runtime. Our key idea is to avoid point-based optimization in the pose graph and operate only on relative pose constraints, which we weight by a derived uncertainty from the geometric alignment. This makes optimization independent of the number of correspondences while avoiding the direct inclusion of noisy point measurements, leading to fast and robust long-term tracking. Across four real-world benchmarks, our approach achieves tracking accuracy comparable to reconstruction-based trackers with a fraction of the optimization cost. Overall, these results suggest that a compact and reliable pose graph optimization can provide long-horizon consistency at substantially lower computational cost.",
+  "published": "2026-10-08T12:21:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.752048+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:21:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11815v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.677949+00:00"
+}

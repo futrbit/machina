@@ -1,0 +1,22 @@
+{
+  "id": "b288139385815fb2df7c64b21f0c3c203d5ee8bd3c89130fd16ebd89b9b61818",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Gaussian Density Splatting Network",
+  "url": "https://arxiv.org/abs/2610.10396",
+  "summary": "arXiv:2610.10396v2 Announce Type: replace Abstract: This paper proposes a novel crowd counting approach, the Gaussian Density Splatting Network (GDSNet). Unlike methods that rely on conventional, grid-based density maps and are sensitive to spatial resolution, GDSNet represents a crowd as a superposition of continuous 2D Gaussian primitives. Our approach is built upon two key contributions. First, a control-point-based fitting mechanism is introduced to structure the prediction of Gaussian parameters. A set of control points is adaptively allocated to define local regions, from which features are pooled to regress each primitive's parameters. Second, we adapt a differentiable Gaussian Splatting framework to the counting task by parameterizing each primitive with geometric parameters and a scalar density mass. This formulation allows the network to be trained end-to-end via spatial matching of differentiably rendered density maps, naturally providing both local density supervision and global count optimization. Extensive evaluations on four standard benchmarks show GDSNet consistently outperforms the state of the art. The code is available at https://github.com/infinite0522/GDSNet-Gaussian-Density-Splatting-Network.",
+  "published": "2026-10-07T16:48:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.794022+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:56:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10396v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.656158+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "6b1d5f240d1cb31d13415f65089574df3bb31b89589bb64d8789d7065e960d3b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "FedAlphaEdit: Null-Space-Aligned Merging for Collaborative Knowledge Editing",
+  "url": "https://arxiv.org/abs/2610.11033",
+  "summary": "arXiv:2610.11033v1 Announce Type: cross Abstract: Multiple institutions may each hold their own private knowledge edits and wish to integrate them into a single large language model without sharing raw edit requests. Null-space-constrained editing methods such as AlphaEdit mathematically guarantee that each update leaves unrelated knowledge intact, while collaborative frameworks such as CollabEdit aggregate edits from multiple clients without data sharing. Combining the two appears trivial. However, we show that this naive combination fails structurally, and we identify its cause. Guided by this analysis, we propose FedAlphaEdit. To our knowledge, this is the first collaborative knowledge editing framework that aligns both local editing and the server-side merging rule under a single null-space principle for preserving existing knowledge. FedAlphaEdit builds on null-space-aligned merging, in which clients share projected statistics and the server provably recovers the result of editing everything in one place under a one-shot idealization. Empirically, the proposed method repairs the collapse and brings edit success and preservation simultaneously close to the level of centralized editing across two architecture families. FedAlphaEdit thus lets institutions that cannot share raw edit data, such as hospitals and financial firms, jointly maintain a shared model that closely approximates editing all facts in one place.",
+  "published": "2026-10-08T00:25:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.104419+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T00:25:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11033v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.973172+00:00"
+}

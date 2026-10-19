@@ -1,0 +1,22 @@
+{
+  "id": "9d5903642a05821aa6160f25a7ca77de1b2fdf58a216ae140488749b8b9fe417",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Distributional Fidelity: Causal-Penalized Diffusion for Synthetic Tabular Data",
+  "url": "https://arxiv.org/abs/2610.11407",
+  "summary": "arXiv:2610.11407v1 Announce Type: cross Abstract: Synthetic tabular generators are commonly optimized for distributional fidelity, but statistical similarity alone does not guarantee preservation of causal effects. In this paper, we study whether causal fidelity can be improved directly within a fully generative tabular model. Causal Fidelity is defined with respect to a target estimand as the discrepancy between inferential distributions obtained from real and synthetic data, and theoretical results show that high statistical fidelity does not generally imply high causal fidelity. We then propose a causal-fidelity-aware training framework which adds a causal discrepancy penalty to the generative objective. The framework is instantiated with a causal-penalized TabDDPM and optimized using an on-policy score-function estimator. We further establish conditions under which causal regularization improves expected causal fidelity. Experiments across diverse treatment-effect simulations and two benchmark datasets evaluate the ability of our method to improve causal fidelity while preserving competitive statistical fidelity.",
+  "published": "2026-10-08T07:36:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.108419+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:36:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11407v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.042528+00:00"
+}

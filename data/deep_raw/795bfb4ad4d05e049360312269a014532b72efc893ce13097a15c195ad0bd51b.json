@@ -1,0 +1,22 @@
+{
+  "id": "795bfb4ad4d05e049360312269a014532b72efc893ce13097a15c195ad0bd51b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Algorithmically Aligned Neural Agglomerative Tree Construction",
+  "url": "https://arxiv.org/abs/2610.07271",
+  "summary": "arXiv:2610.07271v1 Announce Type: new Abstract: Linkage algorithms for hierarchical clustering (HC) are a powerful and efficient framework for constructing clustering trees, yet it is often unclear which merge rule best suits a given dataset or task. In contrast, neural approaches can learn from data, but often fail to retain the efficiency and size generalization of classical algorithms. We introduce NN-linkage, a neural network (NN) model that can learn task-specific and locally dependent merge rules while retaining the recursive structure and efficient inference of classical linkage algorithms. In particular, our model is algorithmically aligned with the Lance-Williams (LW) recurrence, a parameterized framework for defining a broad, continuous family of linkage rules for agglomerative HC. Classical methods such as single linkage (SL), complete linkage (CL), and average linkage arise as discrete choices within this broader family. We show that NN-linkage is a universal approximator for continuous linkage functions, including LW recurrences, and, when paired with a transformer encoding, can also approximate globally dependent rules such as robust single-linkage. We further show that NN-linkage can exactly implement any symmetric constant-coefficient LW recurrence across all input sizes. On the empirical front, we evaluate NN-linkage in real-world applications, clock-tree routing and phylogenetic reconstruction, using both synthetic and real datasets, demonstrating its effectiveness over both classical algorithms and other neural approaches. By learning merge rules directly from target trees, NN-linkage extends efficient HC to scientific and engineering objectives not adequately captured by existing hand-designed linkage rules.",
+  "published": "2026-10-05T19:11:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.053503+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:11:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07271v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.318964+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b70971683fc2022e0a6daa4d9df10895a983a9fdbcc7db2e234cbd86c8a34315",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "No Corners Cut: State-Grounded Transitions for Mid-Stream Prompt Switches in Video Generation",
+  "url": "https://arxiv.org/abs/2609.38691",
+  "summary": "arXiv:2609.38691v2 Announce Type: replace Abstract: Streaming video generators allow users to dynamically modulate video synthesis via mid-stream prompt switching. Existing streaming methods can respond to the updated instruction while still cutting corners, prematurely realizing goals or taking heuristic shortcuts that bypass necessary intermediate state changes needed for a plausible transition. In this study, we present SEGUE, a novel framework that makes this process explicit and trains the generator to execute these transitions faithfully. At each switch, a training-free planner parses the latest frame and prompts, writes a few segue prompts with roles and durations, and then hands control back to the user's prompt. Furthermore, to address the inherent difficulty of training causal models on short-lived temporal schedules without corrupting preparatory supervision, we introduce SPANDMD, which evaluates each active prompt using the full rollout as temporal context while retaining its DMD residual only within the prompt's assigned span. On OpenTrans-360, a benchmark of 1,800 switches that scores how the old state exits and the new one begins, SEGUE ranks first on all eight transition metrics and raises the overall score over the strongest baseline from 0.866 to 0.887. It also ranks first on four of six instruction-response metrics of StreamAV-Bench, while the planner transfers to frozen autoregressive generators without retraining. Project Page: https://anonymous.4open.science/w/No-Corners-Cut-6C5D/",
+  "published": "2026-09-30T00:21:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.548366+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:19:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.38691v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.731112+00:00"
+}

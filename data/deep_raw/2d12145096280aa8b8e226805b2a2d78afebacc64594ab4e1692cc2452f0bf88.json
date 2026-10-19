@@ -1,0 +1,22 @@
+{
+  "id": "2d12145096280aa8b8e226805b2a2d78afebacc64594ab4e1692cc2452f0bf88",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Rethinking the Global Convergence of Softmax Policy Gradient with Linear Function Approximation: The Case of Multi-Armed Bandits",
+  "url": "https://arxiv.org/abs/2505.03155",
+  "summary": "arXiv:2505.03155v2 Announce Type: replace Abstract: Policy gradient (PG) methods have played an essential role in the empirical successes of reinforcement learning. In order to handle large state-action spaces, PG methods are typically used with function approximation. In this setting, the approximation error in modeling problem-dependent quantities is a key notion for characterizing the global convergence of PG methods. We study Softmax PG with linear function approximation (referred to as $\\texttt{Lin-SPG}$) and demonstrate that the approximation error is irrelevant to the algorithm's global convergence even in the bandit setting. Consequently, we rethink the effect of approximation error in the standard stochastic multi-armed bandit problem. We first identify the conditions on the policy feature representation that can guarantee the asymptotic global convergence of $\\texttt{Lin-SPG}$. Under these feature conditions, we further prove that $T$ iterations of $\\texttt{Lin-SPG}$ with a problem-specific learning rate result in an $O(1/T)$ convergence to the optimal policy. Moreover, we prove that $\\texttt{Lin-SPG}$ with an arbitrary constant learning rate can ensure asymptotic convergence to the optimal policy.",
+  "published": "2025-05-06T04:03:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.826476+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T11:42:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2505.03155v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.345153+00:00"
+}

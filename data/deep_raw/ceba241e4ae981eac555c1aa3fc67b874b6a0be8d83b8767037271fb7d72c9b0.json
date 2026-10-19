@@ -1,0 +1,21 @@
+{
+  "id": "ceba241e4ae981eac555c1aa3fc67b874b6a0be8d83b8767037271fb7d72c9b0",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "COMPASS: Finding Where Reasoning Lives in Language Models",
+  "url": "https://arxiv.org/abs/2610.07469",
+  "summary": "arXiv:2610.07469v1 Announce Type: new Abstract: Explicitly eliciting reasoning substantially improves LLM performance. Existing approaches require a predefined characterization of reasoning, whether through CoT prompt design, contrastive CoT directions, or via SAE derived reasoning features. For mathematical reasoning with verifiable answers, we show that a much simpler signal suffices, which is the correctness of the model's own direct answer attempts. This signal yields a latent direction that elicits reasoning. This direction is decodable within the activations of most attention heads, but only a small subset of them can be effectively intervened. We introduce COMPASS, an inference-time steering method that identifies these heads using a logit-space attribution score and steers their activations along the correctness direction, requiring only per-head activation statistics. Across three model families and multiple math benchmarks, COMPASS outperforms the activation-steering baselines we compare against, improves GSM8K accuracy by 16 percentage points on average, and approaches CoT accuracy with 20-70\\% fewer generated tokens. Interventions transfer without re-fitting to unseen benchmarks, and ablations show that both the correctness direction and the small set of heads carrying it are necessary, with the effect concentrated in remarkably few heads.",
+  "published": "2026-10-05T22:35:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.130826+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T07:10:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07469v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.047922+00:00"
+}

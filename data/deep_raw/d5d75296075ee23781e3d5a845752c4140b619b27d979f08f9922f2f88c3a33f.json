@@ -1,0 +1,22 @@
+{
+  "id": "d5d75296075ee23781e3d5a845752c4140b619b27d979f08f9922f2f88c3a33f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+  "url": "https://arxiv.org/abs/2607.15271",
+  "summary": "arXiv:2607.15271v2 Announce Type: replace-cross Abstract: Online novel view synthesis from multi-view streaming videos faces a fundamental trade-off: maintaining a persistent, long-horizon memory to reconstruct temporarily occluded regions while operating under strict real-time constraints. While Test-Time Training (TTT) offers a powerful memory mechanism, standard models mandate gradient-based memory updates at every frame to adapt to the changing motion in dynamic scenes. The computational cost of heavy memory updates precludes real-time application and can lead to instability over long contexts. Given that memory updates are more demanding than memory application and video content is largely redundant, we propose to decouple the frequencies of these two processes. Our approach performs periodic memory updates while applying the memory on a per-frame basis, using cross-view attention to manage deformations between the prior memory state and the current frame. To lock in the historical context, we introduce two critical mechanisms: an auxiliary Memory Loss that forces persistent internalization of the scene, and a Memory Caching strategy that regularizes active weights against catastrophic drift. Our method demonstrates state-of-the-art minute-scale memory persistence in online dynamic human scenes at amortized real-time speed.",
+  "published": "2026-07-16T17:58:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.131456+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:59:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.15271v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.150065+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17103b9f6d344cfc3582aeb1134ae7ae574424789f005e54a737eaa065800ac3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Self-Supervised Perceptually Interpretable Monocular Depth Estimation",
+  "url": "https://arxiv.org/abs/2609.30987",
+  "summary": "arXiv:2609.30987v1 Announce Type: new Abstract: Self-supervised monocular depth estimation (MDE) enables depth prediction from monocular images without requiring ground-truth supervision, making it attractive for large-scale and real-world applications. Despite steady improvements in accuracy, most existing methods remain difficult to interpret, as depth is inferred from RGB representations that obscure the impact of individual perceptual image components. This lack of transparency limits systematic analysis of failure cases and reduces confidence in safety-critical settings. This paper presents a self-supervised framework for perceptually interpretable monocular depth estimation (PIMDE), designed to associate depth predictions with distinct perceptual components of the input image. Rather than operating directly on RGB inputs, the proposed method decomposes each image into a set of perceptual feature maps (PFMs), each encoding a specific visual cue. Distinct depth estimation branches process these PFMs independently to produce depth estimates (PIDEs), which are subsequently combined through an explicit fusion strategy. This formulation allows us to examine directly the contribution of each perceptual cue to the final depth prediction. Experiments conducted on the KITTI benchmark dataset demonstrate that PIMDE achieves performance comparable to established self-supervised MDE methods while providing additional insight into how different perceptual cues influence depth estimation. These results indicate that perceptual decomposition can support interpretability without sacrificing depth estimation accuracy.",
+  "published": "2026-09-25T08:34:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.222887+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T08:34:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30987v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.859840+00:00"
+}

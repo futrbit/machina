@@ -1,0 +1,22 @@
+{
+  "id": "4721c8479dd1197aacec96e4daddd3061e2b66ba492ab1540c8ecc6e106b5ccb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Optimal Stochastic Bilevel Optimization with First-Order Oracles",
+  "url": "https://arxiv.org/abs/2610.01843",
+  "summary": "arXiv:2610.01843v1 Announce Type: cross Abstract: We study nonconvex--strongly-convex bilevel optimization under a stochastic first-order oracle. We introduce MRT-FD, a single-loop first-order method that simultaneously tracks the upper-level variable, the lower-level solution, and the auxiliary response arising from implicit differentiation of the hyperobjective. MRT-FD performs one update of each variable per iteration and approximates the second-order derivative actions using order-$p$ finite differences. For any fixed finite smoothness order $p\\ge1$ in the lower-level variable, MRT-FD finds an $\\varepsilon$-stationary point using $\\mathcal{O}(\\varepsilon^{-4-2/p})$ stochastic gradient queries. We also prove a matching $\\Omega(\\varepsilon^{-4-2/p})$ oracle lower bound. The lower-bound construction starts from a hard nonconvex minimization chain with a stronger stochastic oracle, and lifts it to a bilevel problem through a sinusoidal coupling with a scalar lower-level variable. Consequently, the dependence on $\\varepsilon$ is optimal for every fixed finite $p$, closing the upper--lower complexity gap in this stochastic first-order oracle setting.",
+  "published": "2026-10-01T15:11:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.822478+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T15:11:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01843v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.904816+00:00"
+}

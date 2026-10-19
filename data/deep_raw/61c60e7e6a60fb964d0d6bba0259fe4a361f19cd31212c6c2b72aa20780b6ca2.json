@@ -1,0 +1,18 @@
+{
+  "id": "61c60e7e6a60fb964d0d6bba0259fe4a361f19cd31212c6c2b72aa20780b6ca2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Seeing Seizures: A Large-Scale Empirical Study of Video and EEG Deep Learning for Automated Rodent Seizure Detection and Severity Grading",
+  "url": "https://arxiv.org/abs/2610.22566",
+  "summary": "arXiv:2610.22566v1 Announce Type: new Abstract: Manual annotation of synchronized video and EEG recordings is a bottleneck in preclinical seizure research. We present an empirical study of seizure detection and behavioral severity grading using 24,131 paired clips from 601 sessions across 20 rats in a soman-induced epilepsy model. Ten video architectures and seven single-channel EEG models are evaluated independently on binary detection and three- and five-class severity tasks. In the session-exclusive reference comparison, R(2+1)D-18 and GRU achieve detection macro-F1 scores of 0.968 and 0.974, respectively; for five-class grading, the corresponding scores are 0.657 and 0.560. Subject-exclusive evaluation reduces five-class macro-F1 to 0.475 for video and 0.404 for EEG, highlighting the difficulty of grading unseen animals. Temporal-sampling experiments demonstrate the value of multiple frames, while detection performance varies relatively little across the evaluated video architectures. A separate video-only binary-detection evaluation on RodEpil achieves a mean seizure-class F1 of 0.979 after uniform re-encoding to reduce identified class-correlated encoding cues. The study characterizes existing models for behavior-defined severity labels under the evaluated protocol, motivating further investigation of expert-assisted annotation workflows. Our code and github page is available here.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.036097+00:00"
+}

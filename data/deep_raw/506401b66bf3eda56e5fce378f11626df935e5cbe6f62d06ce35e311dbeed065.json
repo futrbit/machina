@@ -1,0 +1,22 @@
+{
+  "id": "506401b66bf3eda56e5fce378f11626df935e5cbe6f62d06ce35e311dbeed065",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "PlotPick: AI-powered batch extraction of numerical data from scientific figures",
+  "url": "https://arxiv.org/abs/2605.06021",
+  "summary": "arXiv:2605.06021v2 Announce Type: replace Abstract: Systematic reviews and meta-analyses often need numerical data reported only in figures, and extracting them with interactive digitisers usually requires a person to select and calibrate each figure. We present PlotPick, an open-source tool that uses vision-language models (VLMs) to extract tabular data from batches of scientific figures, and we benchmark the kind of model it calls: nine VLMs from four providers on ChartX and six of them on PlotQA, against DePlot, a dedicated chart-to-table model, with every system scored on the same items by numeric F1 (F1 over unlabelled numbers at 5% relative tolerance). On six ChartX chart types (n=300) all nine VLMs outperform DePlot in aggregate, at 79.1-96.0% against 74.3%. The lead comes mainly from box plots, where DePlot scores 24.8% against 64.2-97.3%; pooled over the other five types, seven VLMs keep a lead of 4.7 to 11.6 points and the two weakest do not. On a subset of the PlotQA test split (n=529; 427 horizontal bar charts), scored by a lenient best-series variant of the metric, DePlot reaches 87.0%; the two strongest VLMs are level with it or slightly above it, and four fall 3.8 to 30.3 points below. DePlot was trained on PlotQA's training split. Both benchmarks use synthetic charts, and the metric ignores which series a value belongs to. The application itself was not evaluated: its figure detection, structured output, prompt and default model were not tested, and the one benchmarked model it offers, Claude Haiku 4.5, is one of the four below DePlot on PlotQA. Accuracy on biomedical figures has not been established, and every extracted value must be checked against its source figure. This version corrects version 1, which scored most PlotQA replies against category labels instead of plotted values; its claim that every VLM outperformed DePlot on both benchmarks is withdrawn. PlotPick is available at https://plotpick.streamlit.app/.",
+  "published": "2026-05-07T11:15:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.538371+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:12:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.06021v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.499457+00:00"
+}

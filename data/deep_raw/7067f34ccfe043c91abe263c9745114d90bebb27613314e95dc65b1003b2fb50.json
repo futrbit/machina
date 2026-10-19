@@ -1,0 +1,18 @@
+{
+  "id": "7067f34ccfe043c91abe263c9745114d90bebb27613314e95dc65b1003b2fb50",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RoutePack: Replay-Guided Expert Placement and Rollout Trajectory Scheduling for MoE Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2608.12146",
+  "summary": "arXiv:2608.12146v2 Announce Type: replace-cross Abstract: Reinforcement learning (RL) post-training of Mixture-of-Experts (MoE) models couples two load-balancing problems. Rollout-trajectory composition determines attention and dense feed-forward work across data-parallel (DP) replicas, while token routing determines expert work across expert-parallel ranks. Optimizing either side independently can worsen the other. Routing replay exposes trajectory lengths and layer-wise expert demand before training, creating an opportunity to coordinate both controls. We present RoutePack, a replay-guided planner that coordinates expert placement and rollout-trajectory scheduling. Its key insight is that placement determines a batchwise expert-rank load bound that trajectory scheduling alone cannot lower, while scheduling controls the hotspots within individual execution micro-steps. RoutePack incrementally adjusts expert placement while preserving expert residency, then uses parallel population annealing to reschedule complete trajectories into token-capped microbatches. Its objective jointly balances dense-side work and layer-wise expert peaks under a fixed, capacity-feasible micro-step count and the deployed synchronization groups. The planner preserves logical token routing and keeps placement fixed throughout forward and backward execution to maintain training-state consistency. We evaluate mixed-task RL post-training of two hybrid-attention MoE models (7.9B and 124B parameters) across six NVIDIA H20-3e configurations spanning 8K-32K contexts. Within the Megatron training region, RoutePack achieves 4.44-11.85% higher throughput than a DP-local first-fit-decreasing baseline and 1.33-5.28% higher throughput than expert rerouting alone. Additional evaluations of the 7.9B model on H200 and H20 retain positive gains. We separately characterize planning and admission costs.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.240724+00:00"
+}

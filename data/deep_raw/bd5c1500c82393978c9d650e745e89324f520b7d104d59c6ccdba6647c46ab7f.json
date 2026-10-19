@@ -1,0 +1,22 @@
+{
+  "id": "bd5c1500c82393978c9d650e745e89324f520b7d104d59c6ccdba6647c46ab7f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Fenchel Tilting: Weighted Correction for Efficient Finetuning of Generative Models",
+  "url": "https://arxiv.org/abs/2609.40030",
+  "summary": "arXiv:2609.40030v2 Announce Type: replace Abstract: Adapting a pretrained generative model to an arbitrary preference expressed as a utility function underlies reward alignment, guided design, and constraint satisfaction, enabling diverse applications. Existing fine-tuning methods trade off generality against computational cost: they either restrict the family class of supported preferences to keep optimization simple or preserve generality at the expense of efficiency. We introduce Fenchel Tilt Flow Control (FTFC), which decouples utility optimization from generative-model fitting. FTFC first optimizes for a target distribution by jointly fitting an effective reward and density-ratio weights on pretrained samples. Method combines the utility's variational structure with Fenchel duality, supporting general $f$-divergence penalties that determine how rewards are transformed into an distribution-correction weights. These weights are then frozen and used to modify a diffusion or flow model in a single stage of importance-weighted denoising or flow matching, without differentiating through sampling trajectories. We establish exact duality for concave utilities under suitable conditions and show that weighted fitting reproduces the optimal target distribution for a given utility. Across image and molecule generation benchmarks, FTFC improves over baselines on diverse preference functions, while also being up to $20\\times$ more efficient. roposed method enables adaptation beyond expected-reward maximization without complex optimization, while preserving robustness for more general class of the utility functions compared to baselines.",
+  "published": "2026-09-30T16:02:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.839468+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T07:56:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.40030v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.822058+00:00"
+}

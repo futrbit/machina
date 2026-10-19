@@ -1,0 +1,22 @@
+{
+  "id": "ddb3cf8866ba807e9eb64d456b5fa67799e6853689f6d5c93908622ce52fe6ed",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "OPERA: Object Perception Enhances Single-view 3D Reconstruction",
+  "url": "https://arxiv.org/abs/2607.18630",
+  "summary": "arXiv:2607.18630v2 Announce Type: replace Abstract: Single-view 3D reconstruction is a challenging task in computer vision due to information missing from the single input image. Generative model-based approaches can produce plausible 3D objects from a single image, thanks to data-driven priors learnt from rich and large-scale datasets. However, plausible generation does not guarantee fidelity to the geometry and appearance of the particular input object. Inspired by object perception in human vision, we propose OPERA, a framework that guides multi-view diffusion sampling with pretrained perception models through lightweight alignment modules. These modules are trained independently while both the generative and perception models remain frozen, allowing multiple signals to be combined at inference without joint fusion training. We evaluate OPERA on two single-view 3D reconstruction baselines using subsets of Google Scanned Objects and OmniObject3D. On the primary baseline, combined guidance reduces mean Chamfer Distance by 30.4\\% and 24.8\\%, respectively, relative to unguided reconstruction. We also compare our method with recent image-to-3D models. We provide in-depth analyses of the design choices and their effects across datasets and backbones. Our project page is at https://opera-3d.github.io/.",
+  "published": "2026-07-21T01:55:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.788026+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:00:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.18630v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.221817+00:00"
+}

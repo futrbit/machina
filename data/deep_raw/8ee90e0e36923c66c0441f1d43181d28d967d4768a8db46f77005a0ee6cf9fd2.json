@@ -1,0 +1,21 @@
+{
+  "id": "8ee90e0e36923c66c0441f1d43181d28d967d4768a8db46f77005a0ee6cf9fd2",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Segment-Level Risk Discovery in Online Handwriting for Alzheimer's Disease Detection",
+  "url": "https://arxiv.org/abs/2609.29384",
+  "summary": "arXiv:2609.29384v2 Announce Type: replace-cross Abstract: Online handwriting provides a non-invasive and low-cost behavioral biomarker for Alzheimer's disease (AD) detection, as it reflects both cognitive planning and fine motor control. Existing handwriting-based AD detection methods usually rely on global trajectory features or whole-sample representations, which can be strongly affected by individual writing style, task-specific variation, and acquisition noise. In this paper, we propose NormPaST-Risk, a healthy-normative Paper-Air selective trajectory state-space risk network for interpretable AD detection from online handwriting. Instead of treating the entire trajectory as a single holistic representation, our method reformulates AD handwriting detection as local disease-relevant segment discovery. Specifically, a multi-scale temporal encoder captures stroke dynamics at different temporal resolutions, while a selective Paper-Air state-space encoder models long-range handwriting progression and distinguishes on-paper motor execution from in-air planning and transition behaviors. To explicitly characterize abnormal deviations, a healthy normative branch learns normal handwriting dynamics from healthy controls, and a task-aware multi-expert segment-risk module estimates segment-level AD risk calibrated by hidden-state changes and normative deviations. A weakly supervised segment-level objective further enables high-risk segment discovery without manual segment annotations. Experiments on the DARWIN benchmark demonstrate that the proposed framework achieves superior AD/HC classification performance compared with existing methods. Moreover, the discovered high-risk segments can be projected back to the original handwriting trajectory, providing interpretable evidence associated with AD-related handwriting variations.",
+  "published": "2026-09-24T11:10:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.199783+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:50:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.29384v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.731715+00:00"
+}

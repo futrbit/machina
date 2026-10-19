@@ -1,0 +1,21 @@
+{
+  "id": "257a9c6be9502ce5fbd605b0bbdb0143d05bc607dc8ab1d441c80365371c3133",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SAFESHIELD: A Decision-Organization Framework for Deployment-Time Safety of Small Language Models",
+  "url": "https://arxiv.org/abs/2610.07276",
+  "summary": "arXiv:2610.07276v1 Announce Type: cross Abstract: Deployment-time safety of language models is commonly implemented through runtime guardrails such as input moderation, routing, retrieval verification, and output filtering. Existing deployment frameworks provide increasingly capable mechanisms for these functions, but offer limited guidance on how the safety decisions they produce should be explicitly organized, coordinated, and audited. We formulate deployment-time safety as a decision-organization problem with two elements: responsibility-oriented decomposition of safety decisions and explicit coordination among them. We instantiate this formulation in SAFESHIELD, a deployment-time safety system for small language models that organizes four recurring decision responsibilities (admission, routing, evidence, and release) and records committed decisions in auditable Decision Traces. We evaluate SAFESHIELD through mechanism-level experiments, aggregate stage ablations, controlled coordination ablations, and a deployment-oriented stress suite. Mechanism-level results show that the instantiated safeguards provide the capabilities required by the decision process, while aggregate ablations show substantial degradation in end-to-end safety as the surrounding safety organization is removed. More importantly, dedicated coordination ablations preserve the participating safeguard mechanisms while selectively severing their dependencies: removing admission gating substantially increases false release, and withholding upstream evidence from the release decision reduces release accuracy from 96.0% to 69.5%. These results provide system-level evidence that deployment-time safety depends not only on the capability of individual guardrails, but also on how their decisions are organized and coordinated.",
+  "published": "2026-10-05T19:16:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.159809+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:16:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07276v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.223226+00:00"
+}

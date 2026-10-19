@@ -1,0 +1,22 @@
+{
+  "id": "a3690ed85eb41f230c92acbd03cfec5a2fab4b3741f226eb7829552074c17dca",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Feature Information Dynamics in Diffusion",
+  "url": "https://arxiv.org/abs/2610.08626",
+  "summary": "arXiv:2610.08626v1 Announce Type: cross Abstract: Diffusion models generate data through a continuum of denoising problems, and are widely observed to reveal coarse structure before fine detail. Yet, this intuition is mostly empirical and qualitative. We introduce feature information dynamics, an information-theoretic framework for localizing when a feature is generated during diffusion. Using the I-MMSE identity, we connect the rate of feature mutual information change to a gap between optimal unconditional and feature-conditional denoising losses, yielding practical estimators for feature information density. We further develop a chained decomposition that separates shared from incremental information in a feature hierarchy. We use this framework first to quantitatively confirm spectral autoregression in pixel diffusion, and then to extend the analysis beyond frequency: under a class $\\to$ mask $\\to$ Canny conditioning chain, the per-feature information densities differ across pixel, SDVAE, VAVAE, and RAE, exposing fundamental differences between these representations and suggesting that ordered generation could be beneficial for training diffusion models. Our code is available at https://github.com/AI4Science-WestlakeU/feature-information-dynamics.",
+  "published": "2026-10-06T16:24:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.107470+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:24:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08626v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.691945+00:00"
+}

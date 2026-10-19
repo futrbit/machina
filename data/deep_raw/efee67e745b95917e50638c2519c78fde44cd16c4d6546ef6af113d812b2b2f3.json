@@ -1,0 +1,21 @@
+{
+  "id": "efee67e745b95917e50638c2519c78fde44cd16c4d6546ef6af113d812b2b2f3",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SC3BF: Shifted Collision Cone Control Barrier Function for Dynamic Obstacle Avoidance",
+  "url": "https://arxiv.org/abs/2610.08332",
+  "summary": "arXiv:2610.08332v1 Announce Type: new Abstract: The collision cone used by velocity-space control barrier functions is conservative: it rejects every relative velocity aimed into an obstacle, however slow. We propose the \\emph{shifted collision-cone CBF} (SC3BF), which adds a state-dependent \\emph{allowance} to the cone condition, so the robot may approach the obstacle at a rate that grows with distance and with its own speed. SC3BF is enforced by an ordinary quadratic program, and its safe set is forward invariant under bounded inputs without a minimum forward speed or a clearance margin. We prove that a nonzero allowance preserving safety always exists, and derive one in closed form. Against three velocity-space baselines on a kinematic bicycle among up to $100$ moving obstacles, SC3BF reaches the goal more often and modifies the nominal input less than half as much.",
+  "published": "2026-10-06T13:30:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.466019+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:30:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08332v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.436687+00:00"
+}

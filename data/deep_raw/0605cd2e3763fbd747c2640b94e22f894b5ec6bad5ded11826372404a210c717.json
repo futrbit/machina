@@ -1,0 +1,22 @@
+{
+  "id": "0605cd2e3763fbd747c2640b94e22f894b5ec6bad5ded11826372404a210c717",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "RefRef: A Dataset and Benchmark for Reconstructing Refractive and Reflective Objects",
+  "url": "https://arxiv.org/abs/2505.05848",
+  "summary": "arXiv:2505.05848v3 Announce Type: replace Abstract: Modern 3D reconstruction and novel view synthesis approaches have demonstrated strong performance on scenes with opaque, non-refractive objects. However, most assume straight light paths and therefore cannot properly handle refractive and reflective materials. The lack of datasets specialized for these effects has impeded efforts to fairly and thoroughly evaluate performance and thereby make progress in this domain. Most existing datasets focus on opaque scenes, while those targeting refractive objects are often limited to thin glass with negligible ray bending, untinted single-material objects, or backgrounds treated as infinitely-distant, leaving key failure modes under strong refraction untested. To address this gap, we introduce the RefRef dataset. It contains 150 synthetic and 60 real scenes spanning varying levels of geometric complexity and diverse background types that expose the limitations of existing methods. For the purpose of benchmarking, we also provide an oracle method that, given the object geometry and refractive indices, calculates accurate light paths for neural rendering, and a simple two-stage baseline that relaxes these assumptions. We evaluate these against state-of-the-art methods and show that the task is far from solved.",
+  "published": "2025-05-09T07:38:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.233018+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T17:32:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2505.05848v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.362140+00:00"
+}

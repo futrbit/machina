@@ -1,0 +1,21 @@
+{
+  "id": "c720ae6a48bd9431daf40c2ee1c008da9c408bd0ae4e8bde554db14cbe9b5673",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Programs-of-Layers in LLMs through the Lens of Cortical Areas",
+  "url": "https://arxiv.org/abs/2609.31360",
+  "summary": "arXiv:2609.31360v1 Announce Type: new Abstract: Inference in LLMs is conventionally a fixed-depth, fixed-order forward pass through every layer, regardless of how difficult the input is. The human brain does not work this way: using the thalamus as a central hub, it routes information flexibly to all regions of the cortex according to demand. Li et al. (2026) recently showed, with a system they call program-of-layers (PoLar), that transformers can be given an analogous flexibility if their layers are treated as a library of functions rather than a fixed sequence. Performance improves over the standard forward pass when each input is dynamically routed through an adaptive sequence of skipped or repeated contiguous layer blocks. We reconstructed PoLar's diagnostic MCTS in more detail than the original paper and applied it across 5 models. We reproduced several of PoLar's findings: skipping outperformed the standard pass, repeating outperformed skipping, and combining both outperformed either alone. Shorter programs sufficed for easier questions, while harder questions required more layer repeats. However, we failed to replicate the main claim regarding their learned router for single-shot inference: its top-ranked prediction consistently collapsed back to the standard pass, even though its top-k predicted programs, taken together, did show a real accuracy gain. Beyond reproduction, we find that a small number of generic programs are enough to solve most of the questions. We also provide a much deeper analysis of these programs' structure and robustness: for example, we found that programs that correct errors are highly brittle: undoing even a single edit inside a program typically breaks the correction. Connecting this to the brain's routing mechanisms, PoLar mirrors principles of thalamo-cortical coordination between cortical-area-like transformer layers. We publicly release the code at https://datexis.github.io/RE-PoLar/",
+  "published": "2026-09-25T14:55:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.418581+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T14:55:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31360v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.948982+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3d62d0464df44c4b742c67060ed60d13e429af0fe9d9dd619f80981d03940abe",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Efficient and Scalable Provenance Tracking for LLM-Generated Code Snippets",
+  "url": "https://arxiv.org/abs/2605.28510",
+  "summary": "arXiv:2605.28510v3 Announce Type: replace-cross Abstract: Large language models (LLMs) for code completion and generation are increasingly used in software development, yet they may reproduce training examples verbatim and without authorship attribution, raising legal and ethical concerns around plagiarism and license compliance. Classical fingerprint-based plagiarism detectors, such as Winnowing, remain highly effective, yet the inspection requires comparing fragments of code to the entire training set, and their linear-time search makes them impractical for the billion-scale corpora used to train modern code LLMs. To bridge this gap, we introduce SourceTracker, a 300M-parameter encoder tailored for code retrieval, together with a hybrid two-stage provenance-tracking pipeline HybridSourceTracker (HST). HST first narrows down a small set of candidate snippets via vector search, then re-ranks those candidates using Winnowing on exact fingerprints. We train and evaluate our system on a 10M-snippet subset of the TheStackV2 dataset, with both verbatim and adapted snippets that emulate realistic identifier renaming. On an in vitro 100k-snippet search space with adapted queries, our hybrid approach reaches a mean reciprocal rank on par with Winnowing for 30-token fragments. Then, starting from windows >= 60 tokens, it consistently overperforms by up to 5.4% while preserving logarithmic-time query complexity. In a complementary evaluation using an LLM-based judge, we find that many retrieved snippets not labeled as ground truth are still highly similar to the expected sources, particularly with longer context windows, and thus remain useful for end users. Overall, our results demonstrate that integrating vector search with fingerprinting enables scalable, high precision provenance tracking for code produced by LLMs, provided that their training data is made accessible...",
+  "published": "2026-05-27T14:12:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.422356+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:47:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.28510v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.741914+00:00"
+}

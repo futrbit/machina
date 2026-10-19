@@ -1,0 +1,22 @@
+{
+  "id": "9765cb52d0d026a395e7df43694886f90b3f46de4089f323e8ab62fff0a3ccf2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Pheno-GS: Phenoscape-scale Geodesic Sinkhorn",
+  "url": "https://arxiv.org/abs/2609.27633",
+  "summary": "arXiv:2609.27633v2 Announce Type: replace Abstract: High-throughput single-cell data is now collected across large patient cohorts. Understanding patient-level heterogeneity from cellular-level data motivates phenoscaping: embedding each single-cell distribution as a \"datapoint,\" with distances given by optimal transport (OT). Computing geometry-aware OT at this scale, between all pairs of patient datasets, remains an open challenge, since existing methods either rely on Euclidean ground metrics that distort manifold structure or fail under sparse, unevenly sampled, or large-scale data. We present \\textbf{Pheno-GS} (Phenoscape-scale Geodesic Sinkhorn), which computes accurate, scalable geodesic transport distances under noisy, unbalanced, large-scale settings via three components: ($1$) graph connectivity regularization for well-defined geodesics on sparse/disconnected manifolds; ($2$) an unbalanced OT formulation via KL marginal penalties; and ($3$) a batched matrix algorithm computing all pairwise distances in one heat diffusion (over $200 \\times$ faster than Geodesic Sinkhorn for $500$ distributions). We validate Pheno-GS on synthetic benchmarks and a CyTOF perturbation dataset.",
+  "published": "2026-09-23T09:54:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.837468+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:47:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.27633v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.913606+00:00"
+}

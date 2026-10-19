@@ -1,0 +1,17 @@
+{
+  "id": "f79c33e5523a6b57dabaa7a421bc24a3a3b1cb10cc4eb17df246c125b4428d3f",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PASS: A Trustworthy Precision Approach Simulation System for CAT III Integrity Algorithm Development",
+  "url": "https://arxiv.org/abs/2610.23019",
+  "summary": "arXiv:2610.23019v1 Announce Type: new Abstract: For fixed-wing aircraft, reliable localization during approach and landing is critical to flight safety. Visual--inertial navigation is promising, but aircraft navigation also requires integrity: trustworthy outputs and timely warnings when they should not be used. Real approach data are costly to collect, while many visual errors and failures required for integrity algorithm development are difficult to reproduce safely. We present PASS, a trustworthy Precision Approach Simulation System for CAT III integrity algorithm development. In a unified temporal and geometric framework, PASS integrates configurable airport environments, prescribed trajectories, inertial simulation, calibrated stereo images, and continuous runway-relative ground truth. It supports navigation and integrity research through controllable sensor errors and environmental variations, computable visual projection errors, deterministic runway geometry priors, and condition-labeled data for statistical error modeling. We further propose Sim-to-Real Scene Trustworthiness (SRST), a measure based on DINOv2 feature distributions and UMAP, to quantify sim-to-real closeness. Experiments with representative stereo--inertial estimators demonstrate the usability of the generated sequences and quantify localization errors across algorithms and environments. PASS provides a controllable foundation for developing and evaluating visual--inertial navigation and integrity algorithms for fixed-wing precision approaches up to CAT III requirements.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.156650+00:00"
+}

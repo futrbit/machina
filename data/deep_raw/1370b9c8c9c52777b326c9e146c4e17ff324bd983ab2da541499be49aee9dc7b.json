@@ -1,0 +1,22 @@
+{
+  "id": "1370b9c8c9c52777b326c9e146c4e17ff324bd983ab2da541499be49aee9dc7b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Enhancing Distance-Based Graph Autoencoders with Structural Penalties for Dynamic Graph Embedding",
+  "url": "https://arxiv.org/abs/2608.18762",
+  "summary": "arXiv:2608.18762v2 Announce Type: replace Abstract: Graph autoencoders (GAEs) are widely used for learning representations of dynamic graphs. However, their optimisation objectives typically do not take structural heterogeneity across nodes into account. We propose three distance-based GAE variants that incorporate structural penalties into the reconstruction loss. All variants share a two-layer Graph Convolutional Network encoder and a Euclidean-distance decoder trained with distance-based reconstruction objectives. We extend sparsity-corrected loss with two node-level regularization terms: (i) a hub penalty based on degree centrality, and (ii) a penalty based on Natural Community Local Intrinsic Dimensionality (NC-LID). The paper is motivated by prior evidence linking high NC-LID to reduced embedding quality. The proposed methods are designed to emphasize reconstruction errors for structurally ambiguous nodes. Experiments on multiple dynamic graph data sets show that incorporating NC-LID-based regularization consistently improves reconstruction performance over the baseline without structural regularization and the method using hub-aware regularization. These findings highlight NC-LID as a useful structural signal for enhancing distance-based graph autoencoders in dynamic settings.",
+  "published": "2026-08-19T10:13:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.119463+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:14:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.18762v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.761899+00:00"
+}

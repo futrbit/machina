@@ -1,0 +1,22 @@
+{
+  "id": "b17fe30c494a25504fe591d09e7eb74261ed3c3eed71a2d7b1332b0b0f1e1635",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The hidden advantage of mask resampling: a theory of masked autoencoders",
+  "url": "https://arxiv.org/abs/2610.01578",
+  "summary": "arXiv:2610.01578v1 Announce Type: cross Abstract: Why can masked prediction learn useful representations that unmasked reconstruction misses? We study this question in a high-dimensional model of a masked autoencoder (MAE) trained on data with shared latent structure and heterogeneous noise. We prove that masked linear reconstruction can recover the latent feature at linear sample complexity in regimes where unmasked linear reconstruction, equivalent to PCA, fails. The analysis also quantifies the statistical advantage of mask resampling, an established ingredient of masked pretraining. By introducing a fixed collection of $K$ masks per sample, we characterize its effect on feature recovery and downstream performance, identifying regimes where greater mask diversity lowers sample complexity. Guided by this prediction, we find that random cropping and flipping in standard image-training pipelines can obscure the advantage of mask resampling by renewing the prediction task even when the patch mask is fixed. Removing these transformations reveals a downstream advantage for dynamic over static masking in CNN autoencoders and vision transformers. A complementary BERT pilot finds benefits from greater mask diversity on downstream language tasks. Our results separate the benefit of the masked prediction objective from that of mask diversity, and show how a tractable theory can guide experiments that uncover advantages hidden by standard training practices.",
+  "published": "2026-10-01T12:35:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.820479+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T12:35:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01578v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.624177+00:00"
+}

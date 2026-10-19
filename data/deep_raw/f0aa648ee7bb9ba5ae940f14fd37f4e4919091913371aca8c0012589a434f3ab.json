@@ -1,0 +1,18 @@
+{
+  "id": "f0aa648ee7bb9ba5ae940f14fd37f4e4919091913371aca8c0012589a434f3ab",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care",
+  "url": "https://arxiv.org/abs/2606.31036",
+  "summary": "arXiv:2606.31036v2 Announce Type: replace Abstract: Specialist epilepsy expertise is scarce in resource-constrained settings. Clinical decision-support systems must adapt to local prescribing practices and recognize when specialist review is needed. We study pediatric epilepsy care in Uganda, predicting anti-seizure medication regimens from longitudinal clinic notes. General-purpose language models achieve non-trivial agreement with physician prescriptions, but neurologists' review reveals Western prescribing defaults that do not account for local practices. We introduce MANANA, a non-parametric prompt-learning framework that learns local prescribing guidance from a small patient-level training set. MANANA turns prescription errors into auditable prompt memory, with single-agent and multi-agent variants, and improves over classical ML models, direct LLM prompting, and prompt-optimization baselines across two independently collected Ugandan cohorts. The learned prompt trajectory also provides a basis for estimating uncertainty. Bayesian prompt averaging (BPA) combines predictions across this trajectory to produce prescription likelihoods and a deferral signal. Using the same MANANA-Multi trajectory, BPA improves top-1 physician-regimen agreement from 66% to 70% on Cohort A and from 73% to 75% on Cohort B while preserving top-3 coverage. On Cohort B, its most confident half of cases achieves 95% precision, and its most confident quarter achieves 99% precision, supporting deferral of lower-confidence cases for specialist review. These results suggest a path toward locally adapted clinical LLM systems that learn from limited site-specific data and focus scarce specialist attention on uncertain cases.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.265710+00:00"
+}

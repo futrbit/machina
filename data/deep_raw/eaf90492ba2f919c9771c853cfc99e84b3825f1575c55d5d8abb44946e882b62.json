@@ -1,0 +1,22 @@
+{
+  "id": "eaf90492ba2f919c9771c853cfc99e84b3825f1575c55d5d8abb44946e882b62",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Score Is Not the Structure: Brain Alignment and Cross-Lingual Transfer",
+  "url": "https://arxiv.org/abs/2610.03827",
+  "summary": "arXiv:2610.03827v2 Announce Type: replace-cross Abstract: Similarity scores are often offered as evidence that a model shares structure with the brain or across languages. We ask what such a score reads when that structure is removed, or when the instrument measuring it does not work, in two settings. Across seventeen languages, a grammaticality probe transfers worse between more distant languages (r = -0.66). But the probe's own accuracy falls along the same axis and is at chance in four languages, four of the five most distant. Dropping them halves the explained variance, and because it also narrows the range of distances, the design cannot say how much of the gradient is the instrument. Counting the 272 language pairs as independent gives p = 0.0006 for a steering effect that is null when the seventeen languages are the unit (p = 0.155). In brain alignment, a training objective raises a language model's similarity to fMRI responses from 0.10 to 0.34 (reliability ceiling 0.54), yet targets with the brain correspondence destroyed still reach 0.31. A shuffled target scores about k/n against the real one, for rank k and n sentences, a baseline that can be computed before any model is trained. Both interventions work, yet we detect no distance-graded steering effect and no syntactic benefit from alignment. Before reading a correspondence score, measure how much of it survives without the correspondence.",
+  "published": "2026-10-02T09:21:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.141396+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:00:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.03827v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.976170+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "add3c6860ac46fe21049a79c7c06341c637b5e9b9891c4d87f81e4d19c106fa6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Redundancy Meets Synergy: Dependency-aware Expert Selection for MoE via Submodular Optimization",
+  "url": "https://arxiv.org/abs/2610.00558",
+  "summary": "arXiv:2610.00558v1 Announce Type: new Abstract: While Mixture-of-Experts (MoE) models effectively scale model capacity through sparse activation, their deployment is often bottlenecked by prohibitive memory requirements. Extracting a compact subset of experts presents a promising solution. However, existing expert selection heuristics predominantly rely on Top-k ranking, which isolates the evaluation of individual experts and ignores the intricate inter-expert dependencies introduced by the MoE gating network. In this paper, we propose DS-MoE, a theoretically grounded framework that redefines expert selection via difference-of-submodular (DS) optimization. By analyzing the second-order Taylor expansion of the loss degradation, we reveal functional duality within expert combinations: redundancy (where experts encode overlapping representations) and synergy (where experts provide complementary error cancellation). To navigate this duality, we mathematically decouple redundancy reduction from synergy maximization by formulating the selection objective as a DS function. Furthermore, we devise a tailored majorization-minimization (MM) algorithm with provable monotonicity guarantees to efficiently identify the optimal expert subset. Extensive experiments demonstrate that DS-MoE effectively preserves indispensable expert combinations, achieving superior performance compared to the state-of-the-art baselines.",
+  "published": "2026-09-30T18:33:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.775508+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T18:33:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00558v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.468271+00:00"
+}

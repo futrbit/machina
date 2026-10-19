@@ -1,0 +1,21 @@
+{
+  "id": "45fdd579e6fe004e819efc40f449f5f36e06e013aba87f511104387783afb68b",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "MAP2: Model- and Acceleration-Based Pursuit with MPC and Gaussian Process Residual Learning for Autonomous Racing",
+  "url": "https://arxiv.org/abs/2610.12196",
+  "summary": "arXiv:2610.12196v1 Announce Type: new Abstract: Autonomous racing requires accurate trajectory tracking near the handling limits of a vehicle while maintaining low computational latency. Geometric controllers are computationally efficient, but the Ackermann steering geometry becomes invalid under limit-handling conditions. Model- and Acceleration-based Pursuit (MAP) preserves the simplicity of geometric approaches while leveraging tire dynamics. Yet MAP remains fundamentally a geometric controller that relies on Ackermann steering geometry, and its tire model may not fully capture the vehicle's actual dynamic response. This paper presents MAP2, a model-based pursuit controller that combines a curvature-based kinematic MPC and a Sparse Gaussian Process (SGP) residual correction. The proposed algorithm uses MPC to optimize kinematic control inputs over a prediction horizon and maps them to steering commands through a tire dynamics model augmented with SGP residual correction. Real-world vehicle experiments demonstrate substantial reductions in lateral tracking error and lap time. Compared with MAP and Pure Pursuit (PP), MAP2 reduces the average lateral tracking error by 37.99% and 44.65%, respectively, while reducing average lap time by at least 1.5%.",
+  "published": "2026-10-08T15:52:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.746538+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:52:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12196v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.878832+00:00"
+}

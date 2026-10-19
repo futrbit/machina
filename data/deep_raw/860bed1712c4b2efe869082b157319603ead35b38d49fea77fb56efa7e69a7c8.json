@@ -1,0 +1,22 @@
+{
+  "id": "860bed1712c4b2efe869082b157319603ead35b38d49fea77fb56efa7e69a7c8",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Holo-World: Unified Camera, Object and Weather Control for Video World Model",
+  "url": "https://arxiv.org/abs/2606.20083",
+  "summary": "arXiv:2606.20083v4 Announce Type: replace Abstract: Video world models are moving toward preserving an observed world under controllable camera and object motion while allowing its environmental state to change. Yet these controls remain isolated, and weather generation typically relies on a source video or reconstructed scene that already specifies future structure. We study a first-frame-anchored source-to-state setting, where the model starts from a single image and follows explicit camera and object controls and an optional weather instruction, then generates a video that either preserves the source world or transfers it to a target weather state. To address these challenges, we first build HoloStateData, a state video dataset that turns diverse videos into unified control samples for camera, object, and weather supervision. Second, we introduce Holo-World, a unified controllable video world model that jointly controls the scene from a single image. Its Unified Scene Adapter factorizes world preservation and weather transfer into distinct parameter subspaces, using rendered background, geometry buffers, and object controls to maintain controlled scene structure while modeling weather-dependent appearance and particle effects. Additionally, Scene-Weather Decomposed CFG guides scene and weather residuals separately, strengthening target weather effects without over-amplifying the full condition. Quantitative and qualitative experiments demonstrate that Holo-World maintains precise camera and object controls with consistent scene structure while transferring scenes into diverse target weather states, outperforming video-to-video weather editing baselines on weather-state generation. Our project page is available at https://xiangchenyin.github.io/Holo-World/.",
+  "published": "2026-06-18T11:01:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.236245+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T18:08:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.20083v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.552822+00:00"
+}

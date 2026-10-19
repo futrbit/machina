@@ -1,0 +1,22 @@
+{
+  "id": "8b4c74a1ca88719eb797cd5abac353b23a4fa01b87be04d52ed2cad35767a8f3",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning PDE Dynamics between Submanifolds Using Green's Observation Operators",
+  "url": "https://arxiv.org/abs/2610.01697",
+  "summary": "arXiv:2610.01697v1 Announce Type: new Abstract: Many physical systems are driven and observed only on lower-dimensional submanifolds of a larger spatial domain, while their dynamics are governed by the ambient medium occupying that domain. Examples include laser-heated parts imaged by an infrared camera, and ground-level emissions measured on a sensor plane. Full-domain solvers, however, compute the entire volume for every new source although only the observation submanifold is needed, and black-box surrogates do not exploit that the ambient medium remains fixed. We introduce the \\emph{Green's Observation Operator (GObO)}, which maps the ambient medium once to the Green's kernel of a linear PDE restricted to the source and observation submanifolds. New sources then cost one lower-dimensional integral and no network evaluation. Exponential rates in the kernel yield an exact finite streaming state with horizon-independent memory; we prove its stability and an approximation rate for the restricted heat kernel. On three-dimensional heat conduction and advection--diffusion with collocated and distinct source and observation geometries, GObO trained on static sources predicts responses to moving sources zero-shot with 4--8$\\times$ lower error than black-box surrogates, at 1.4\\,ms per query after a single conditioning pass. The same kernel transfers across resolutions and admits corrections for mild nonlinearities, including radiative losses and temperature-dependent conductivity, without retraining, at the cost of lower in-distribution accuracy.",
+  "published": "2026-10-01T13:47:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.795495+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-05T13:59:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01697v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.676748+00:00"
+}

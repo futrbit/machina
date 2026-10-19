@@ -1,0 +1,21 @@
+{
+  "id": "fbaadc60b955aceef696c3f54eb3d22544ea03aaf8872a38b1b4a7d95b3308e8",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "When Has a Bayesian Neural Network Sampled Enough? Adaptive Inference Time with Statistical Guarantees",
+  "url": "https://arxiv.org/abs/2610.12212",
+  "summary": "arXiv:2610.12212v1 Announce Type: new Abstract: Bayesian neural network predictions are commonly approximated using a fixed number of Monte Carlo samples per input, without controlling the resulting error that comes from this finite sample. We propose the use of confidence sequences to dynamically determine how many samples are needed while maintaining statistical guarantees. We consider several ways in which predictive probabilities are used, including identifying the most likely class, approximating the full predictive distribution, and resolving probability-threshold decisions. Sampling stops once the corresponding decision can be made with the desired guarantee. Experiments show that the method allocates the computational budget efficiently, assigning more samples to ambiguous inputs than to easy inputs while preserving reliable decisions and reducing overall latency relative to a fixed Monte Carlo budget.",
+  "published": "2026-10-08T16:01:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.376386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:01:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12212v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.569608+00:00"
+}

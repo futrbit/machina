@@ -1,0 +1,21 @@
+{
+  "id": "45e9bb48a2f41a8b0c8987e570ca06290cd2e1c491f49d9439b47d1b169469e2",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "EvoAlloc: A Self-Evolving Resource Allocation Agent for Efficient Program Evolution",
+  "url": "https://arxiv.org/abs/2610.12086",
+  "summary": "arXiv:2610.12086v1 Announce Type: new Abstract: LLM-based program evolution relies on evaluation feedback to guide the iterative search for high-performing programs. However, evaluation is often computationally expensive, making it essential to allocate limited resources to candidates that can most effectively advance the search. Existing LLM-based methods typically rely on fixed allocation strategies throughout the search, potentially wasting resources on low-value candidates while overlooking promising ones. We propose EvoAlloc, a self-evolving resource-allocation agent that learns from search experience to revise its strategy for allocating computational resources across candidates. EvoAlloc periodically consolidates prior search and allocation outcomes into reusable experience, which informs subsequent strategy revisions. It further uses a counterfactual exploration mechanism to occasionally evaluate candidates denied resources by the allocator, revealing their outcomes to enrich its experience for future strategy updates. Across coding and agent-harness optimization benchmarks, EvoAlloc requires 59-82% fewer full evaluations and 61-89% fewer total LLM tokens to reach baseline-level performance. Moreover, under the same full-evaluation budget, EvoAlloc achieves 8.7-12.0% higher final performance.",
+  "published": "2026-10-08T14:57:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.375386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:57:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12086v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.875833+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "0c2c43e05e6451a3af2935712f410c00115def1d46fd9d00742475acb60103db",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Medical Image Alignment Assessment as a Test of Generalist Visual Reasoning in Frontier Multimodal Models",
+  "url": "https://arxiv.org/abs/2610.06896",
+  "summary": "arXiv:2610.06896v1 Announce Type: new Abstract: Frontier multimodal large language models (MLLMs) are increasingly positioned as general purpose visual reasoners as part of the quest for artificial general intelligence. A key test of this generality is whether they can perform novel visual judgments that humans can make reliably from visual evidence and task instructions, without task-specific parameter optimisation. We investigate this question through the task of medical image alignment assessment, where the goal is to establish whether there is anatomical correspondence between two images. Human visual assessment of image alignment is still the gold standard and most common approach; however, it requires trained operators and is impractical to scale for large datasets. We evaluate recent generations of MLLMs on two exemplar medical image alignment tasks, varying both prompting strategies and image-presentation methods. We compare against a locally fine-tuned MLLM and a task-specific CNN to examine the trade-off between frontier general purpose models and smaller models that require specific task optimisation but can be used locally. We show that are reaching an inflection point, where frontier MLLMs can now perform effective visual assessment of medical image alignment. Models released only a few months ago generalise poorly and, in some settings, perform barely above chance, whereas GPT-6 achieves over 85% across almost all scenarios tested. Fine-tuned local models can match or exceed frontier-model performance on the tasks on which they are trained, but transfer substantially less effectively to unseen settings. These findings identify medical image alignment as a useful test bed for generalist visual reasoning and suggest that frontier multimodal models are beginning to acquire capabilities that could support a common quality-control mechanism across heterogeneous medical-imaging pipelines.",
+  "published": "2026-09-28T17:17:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.508389+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-09-28T17:17:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06896v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.561020+00:00"
+}

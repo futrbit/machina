@@ -1,0 +1,21 @@
+{
+  "id": "e629c8873a88af08e898c1e0bb78a3cce6d6638367caa3e6953c73d20f2b5f37",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "FreeLoc: Online Floorplan Localization via Diffusion-Aided Pose Refinement",
+  "url": "https://arxiv.org/abs/2610.05011",
+  "summary": "arXiv:2610.05011v2 Announce Type: replace Abstract: Floorplans provide compact and widely available geometric maps for indoor localization, but existing high-performing floorplan-based methods still convert them into dense scene-specific offline databases, tying accuracy, storage, and runtime to the sampling resolution of the discretized pose space. We present FreeLoc, an online RGB-based floorplan localization framework that treats the floorplan as a directly queryable geometric map. FreeLoc introduces an efficient online geometric querying and diffusion-aided refinement scheme, which retrieves plausible pose anchors through on-the-fly floorplan ray querying and refines them into accurate continuous pose estimates. For sequential localization, FreeLoc develops an online likelihood construction strategy that bridges single-frame localization and probabilistic temporal fusion by constructing likelihoods from coarse-sampled candidates and refined pose hypotheses, enabling histogram-filter-based temporal fusion without offline databases. Experiments demonstrate real-time online inference and state-of-the-art performance in both single-frame and sequential localization, while real-world results validate practical deployability in indoor robotic localization scenarios.",
+  "published": "2026-10-04T07:09:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.765527+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:29:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05011v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.958780+00:00"
+}

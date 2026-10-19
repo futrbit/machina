@@ -1,0 +1,22 @@
+{
+  "id": "9b2e09b264b5da207f88fc052f852d609948aa5c06c93c4113d8069b4b1731f7",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DORS: Dynamic Attention Routing for Diffusion-based Object Removal in Dense Scenes",
+  "url": "https://arxiv.org/abs/2607.16656",
+  "summary": "arXiv:2607.16656v2 Announce Type: replace Abstract: Object removal aims to eliminate target objects specified by a mask while preserving visual consistency with the surrounding regions. Existing methods typically rely on contextual information from surrounding regions. However, in dense scenes where the surrounding regions contain instances visually similar to the removal target, such reliance often leads to semantic interference, resulting in incomplete removal. This problem arises from erroneous information propagation in the attention space, where masked queries tend to align with such instances due to global similarity matching in self-attention. To address this challenge, we propose a Diffusion-based Object Removal framework for dense Scenes, dubbed DORS, built upon a Dynamic Attention Routing mechanism comprising two complementary components: Instance-Filtered Attention (IFA), which suppresses misleading semantic information from similar instances through dynamically constructed mask-guided attention constraints, and Context-Guided Routing (CGR), which dynamically routes complementary scene information to maintain visual consistency. We further introduce DOR-Bench, a benchmark tailored for object removal in dense scenes. Extensive experiments demonstrate that DORS outperforms state-of-the-art methods, particularly in reducing incomplete removal and duplicate artifacts. The code will be available at https://github.com/httang1224/DORS.",
+  "published": "2026-07-18T06:23:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.788026+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T01:28:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.16656v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.984562+00:00"
+}

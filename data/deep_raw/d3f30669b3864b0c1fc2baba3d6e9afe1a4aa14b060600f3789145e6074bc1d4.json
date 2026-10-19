@@ -1,0 +1,22 @@
+{
+  "id": "d3f30669b3864b0c1fc2baba3d6e9afe1a4aa14b060600f3789145e6074bc1d4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reliability-Aware Future Conditioning for Temporally Robust Robot Manipulation",
+  "url": "https://arxiv.org/abs/2610.11956",
+  "summary": "arXiv:2610.11956v1 Announce Type: cross Abstract: A generated video of a task the robot is about to perform is useful guidance only if it depicts the phase the robot is actually in. We show that temporal misalignment can turn a task-consistent generated future into actively harmful guidance. On CALVIN, a five-frame early shift nearly erases the benefit of generated futures, reducing success from 81.3% to 54.8% against 54.0% without futures; imposed timing shifts reduce it even further to 34.2%, 19.8 points below the future-free policy. We introduce Reliability-Aware Future Conditioning (RAFC), which treats this as a control problem rather than a generation problem. At every step, RAFC estimates how far to trust the received clip and which nearby temporal hypothesis to prefer, falling back toward a static branch when neither fits, and it learns both from task reward alone without shift labels or alignment supervision. RAFC sits on top of Future-Experience Conditioning (FEC), which builds the clip once from task grounding, a robot-free digital-twin rollout, and mask-free video diffusion. Under deliberately off-grid phase shifts and rate mismatch, RAFC substantially improves success under temporal mismatch. Candidate ensembling accounts for most of the recovery near alignment, while learned reliability adds a further 7.0 percentage points over uniform averaging of the identical candidate bank under off-grid shifts. The gain holds on the evaluated task sets and survives on a Franka under natural timing mismatch nobody imposed, where aggregate success rises from 26.7% to 56.7%. All resources will be made publicly available. https://future-condition.github.io/.",
+  "published": "2026-10-08T13:40:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.113416+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:40:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11956v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.473076+00:00"
+}

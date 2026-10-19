@@ -1,0 +1,21 @@
+{
+  "id": "3cae4b1f737da0060740c33228ceef7724caaa8f1a87f31474c2fa142e0f4edd",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Dexterous Control of an 11-DOF Redundant Robot for CT-Guided Needle Insertion With Task-Oriented Weighted Policies",
+  "url": "https://arxiv.org/abs/2503.14753",
+  "summary": "arXiv:2503.14753v3 Announce Type: replace Abstract: Computed tomography (CT)-guided needle biopsies are critical for diagnosing a range of conditions, including lung cancer, but present challenges such as limited in-bore space, prolonged procedure times, and radiation exposure. Robotic assistance offers a promising solution by improving needle trajectory accuracy, reducing radiation exposure, and enabling real-time adjustments. In our previous work, we introduced a robotic platform designed for accurate needle insertion within the confined CT bore. However, its performance in clinical settings is restricted by limited dexterity and a constrained workspace. In this study, we present an 11-degree-of-freedom (DOF) robotic system that integrates a 6-DOF robotic base with an improved 5-DOF cable-driven end-effector, yielding a significantly expanded workspace and enhanced dexterity. To leverage the hyper-redundant degrees of freedom, we introduce a weighted inverse kinematics controller, along with a null-space control strategy to optimize maneuverability and dexterity. By using a task-oriented weight matrix as a hyperparameter, the system provides a two-stage priority scheme fit for both large-scale movement and fine in-bore adjustments. In clinically relevant simulated scenarios, the system demonstrates a consistent 97% reachability rate across various human models. In addition, the task-oriented weight-matrix policy is extensively explored in five representative subtasks seen during needle biopsy through both simulation and real-world experiments, demonstrating superior tracking accuracy and enhanced manipulability for CT-guided procedures.",
+  "published": "2025-03-18T21:46:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.477012+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:21:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2503.14753v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.731920+00:00"
+}

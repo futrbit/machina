@@ -1,0 +1,22 @@
+{
+  "id": "858d05500eb40c005d0f06ed5fa9d295ee7fdc79f116c6ea253d58e7378721ba",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "AnyBottle: A Recipe to Only Keep the Concepts You Really Need",
+  "url": "https://arxiv.org/abs/2610.08552",
+  "summary": "arXiv:2610.08552v1 Announce Type: cross Abstract: Concept bottleneck models (CBMs) make predictions inspectable and intervenable by routing them through human-interpretable concepts, but originally required concept annotations. Annotation-free variants remove this requirement, but typically use large concept vocabularies, static at both training and inference, producing bottlenecks larger than any task or prediction needs and harder to inspect. We propose AnyBottle, a single recipe for building compact, task-specific CBMs. AnyBottle assumes only a frozen backbone and an unsupervised concept pool, such as a sparse autoencoder. A black-box teacher trained on the same backbone then guides selection: each round adds the concept that best explains the bottleneck's current failures, with candidates restricted to regions of teacher/student disagreement. Trained with nested dropout over this selection order, the final bottleneck predicts accurately from any concept prefix, so inference spends fewer concepts on inputs it is confident about early and more on hard ones. Since no stage is modality-specific, a new domain and task requires swapping only the backbone and concept pool. Across six vision and two text datasets and two teacher paradigms, AnyBottle yields bottlenecks with fewer concepts and higher concept consistency than annotation-free baselines, while staying close to the black-box reference. Overall, AnyBottle shows that going annotation-free need not mean going large: a small, discovered vocabulary can be as expressive as a much larger, fixed one.",
+  "published": "2026-10-06T15:40:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.106471+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:40:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08552v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.540830+00:00"
+}

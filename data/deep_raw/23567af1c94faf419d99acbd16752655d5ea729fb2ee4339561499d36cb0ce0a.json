@@ -1,0 +1,21 @@
+{
+  "id": "23567af1c94faf419d99acbd16752655d5ea729fb2ee4339561499d36cb0ce0a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ElasticFit: Fit-Aware 3D Object Insertion via VLM Reasoning and Generative Adaptation",
+  "url": "https://arxiv.org/abs/2610.07460",
+  "summary": "arXiv:2610.07460v1 Announce Type: cross Abstract: Inserting objects into existing 3D scenes requires more than selecting a plausible location: the inserted object must also fit local geometry while preserving semantic intent and physical plausibility. Although recent Vision-Language Models (VLMs) and generative models enable semantic reasoning and visual content creation, they offer limited 3D grounding and geometric control when an inserted object must fit into constrained local spaces. We introduce \\textbf{ElasticFit}, a VLM-guided framework for fit-aware object insertion centered on a novel scene-grounded representation. Given a language instruction and rendered scene observations, ElasticFit infers structured fitting cues that specify where the object should be grounded, what volume it should occupy, how it should be oriented, and its adaptation mode (rigid placement, uniform scaling, or elastic fitting). These cues convert high-level VLM reasoning into explicit 3D constraints that condition object generation and guide downstream geometric fitting. ElasticFit then generates a scene-conditioned object prior, reconstructs it in 3D, and refines the mesh through mode-specific fitting while enforcing collision avoidance, contact consistency, and physical grounding. In fixed-asset baseline comparisons, ElasticFit improves spatial relation success from 50.8\\% to 69.7\\% and support success from 48.3\\% to 91.7\\% over the strongest baseline, while providing novel support for generative \"make-it-fit\" insertions in complex scenarios.",
+  "published": "2026-10-05T22:12:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.162807+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T11:04:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07460v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.184251+00:00"
+}

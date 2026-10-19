@@ -1,0 +1,22 @@
+{
+  "id": "11330d19dd255e1c01f4b4d702a5ea8416a1579f4603017461e6095ccab6b01a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Evaluation of Active Feature Acquisition Policies with Tabular Foundation Models",
+  "url": "https://arxiv.org/abs/2610.07406",
+  "summary": "arXiv:2610.07406v1 Announce Type: new Abstract: Active feature acquisition learns policies that sequentially acquire features to maximize information about a target variable. We study how to learn and evaluate such policies from finite offline data using prior-data fitted networks (PFNs), which are off-the-shelf models that output posterior predictive distributions without task-specific training. We show that under the imbalanced coverage of offline data, using total predictive entropy as a reward creates an epistemic bias that penalizes acquiring sparsely observed features. Specifically, this reward conflates epistemic uncertainty (arising from lack of offline data) with aleatoric uncertainty (arising from uninformative features). To address this, we target the posterior expected (aleatoric) entropy instead of the total predictive entropy output by a PFN for evaluating feature acquisitions. Empirical evaluations on synthetic and real-world datasets demonstrate that our approach consistently reduces value estimation bias and yields credible intervals with strong empirical coverage, which can translate to improved downstream policy selection.",
+  "published": "2026-10-05T21:16:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.058500+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:16:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07406v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.706932+00:00"
+}

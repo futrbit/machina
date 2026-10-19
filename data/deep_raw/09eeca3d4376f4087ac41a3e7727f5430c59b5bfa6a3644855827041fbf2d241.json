@@ -1,0 +1,22 @@
+{
+  "id": "09eeca3d4376f4087ac41a3e7727f5430c59b5bfa6a3644855827041fbf2d241",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Linear Fitness Subspace in Protein Language Models Enables Sample-Efficient Directed Evolution",
+  "url": "https://arxiv.org/abs/2610.07607",
+  "summary": "arXiv:2610.07607v1 Announce Type: cross Abstract: Model-guided directed evolution seeks to identify high-fitness protein variants under limited oracle budgets. Protein language models (PLMs) provide rich representations for this task, but task-agnostic zero-shot scores can be misaligned with a target assay, while supervised search in high-dimensional embedding spaces can make surrogate modeling and uncertainty estimation sample-inefficient. We propose the Linear Fitness Subspace (LFS) hypothesis: within mutation-induced residue-level representation changes, a compact, assay-specific set of directions makes fitness variation linearly accessible from few labeled variants. This is a local, supervision-recoverable statement rather than a claim that protein fitness landscapes or global PLM geometry are universally linear. Building on this observation, we introduce Subspace-Guided Evolutionary Search (SGES), which estimates an LFS from a small initial sample and performs surrogate modeling, uncertainty estimation, and acquisition in the learned subspace. Across 10 core ProteinGym assays, 87 extended static-validation assays, and an 18-assay budgeted-search evaluation, SGES improves fitness prediction and search efficiency over zero-shot PLMs and recent ML-guided protein optimization baselines. Controlled comparisons with PCA, random projections, label-shuffled PLS, classical mutation features, and acquisition ablations further isolate the benefit of a fitness-aligned site-delta coordinate.",
+  "published": "2026-10-06T01:50:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.095478+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:50:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07607v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.460080+00:00"
+}

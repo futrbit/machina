@@ -1,0 +1,22 @@
+{
+  "id": "847397e82169e58684d5c05fcf583b9083bf248d0b1e8a454ee181e257e5b32d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "ToCo-Mesh: Topology-Consistent Dynamic Mesh Reconstruction via Adaptive Tessellation and Surface-Aligned 2DGS",
+  "url": "https://arxiv.org/abs/2609.29529",
+  "summary": "arXiv:2609.29529v2 Announce Type: replace-cross Abstract: Reconstructing dynamic meshes with consistent topology from multi-view temporal images remains a challenge. Existing approaches typically face a dilemma between fine-scale shape recovery and topological stability. Frame-by-frame extraction methods capture fine details but break vertex correspondence, leading to flickering meshes. Conversely, template-based deformation ensures consistency but struggles to adapt its surface resolution during optimization, missing local surface details. To address these limitations, we propose ToCo-Mesh, a dynamic reconstruction framework that maintains topology consistency over time while achieving high-fidelity geometry. Specifically, we introduce a dual-mesh representation, where a canonical template mesh is tightly bound to time-varying coarse guide meshes via barycentric parameterization. While keeping guide meshes fixed to condition the deformation, we perform error-driven split-and-merge on the template mesh to progressively increase reconstruction fidelity. Furthermore, to suppress surface irregularities and achieve photorealistic rendering, we incorporate a Surface-Aligned 2DGS module. By anchoring flattened Gaussians to mesh faces, we utilize their rendered normals to guide inverse geometric fine-tuning. To our knowledge, ToCo-Mesh is the first framework to enable adaptive mesh refinement while maintaining strict topological consistency. Extensive experiments demonstrate that our method achieves SOTA geometric accuracy while maintaining competitive rendering quality.",
+  "published": "2026-09-01T02:00:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.239846+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T04:04:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.29529v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.525840+00:00"
+}

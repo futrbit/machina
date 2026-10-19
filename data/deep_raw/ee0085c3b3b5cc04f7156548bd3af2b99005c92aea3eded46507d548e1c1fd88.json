@@ -1,0 +1,21 @@
+{
+  "id": "ee0085c3b3b5cc04f7156548bd3af2b99005c92aea3eded46507d548e1c1fd88",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Agentic RCA for Internet-Scale Services Using Constrained Creativity",
+  "url": "https://arxiv.org/abs/2610.08622",
+  "summary": "arXiv:2610.08622v1 Announce Type: cross Abstract: System administrators of Internet-scale services need to resolve failure incidents to maintain reliability of such services. Ideally, we want a troubleshooting system to be: (1) expressive to known and unknown incidents with high accuracy; (2) cost efficient at scale; (3) explainable to provide actionable insights operators can act on; and (4) entail low effort from the operators. Unfortunately, most existing systems, including emerging LLM-assisted agentic workflows and structured frameworks for authoring diverse RCA algorithms fall short of achieving all four requirements. We present E4, a novel agentic system for troubleshooting for Internet-scale services. E4 embodies the paradigm of constrained creativity that combines the best of LLM-assisted automation and exploration with the explainability and efficiency of a structured approach. Instead of allowing an LLM agent to write arbitrary code or generate arbitrary responses, we provide the agent a restricted DSL to generate its response via simple loop-free data flow programs. This DSL, equipped with high level operators for troubleshooting, makes E4's output accurate, verifiable and explainable. On a mix of synthetic and real-world workloads, E4 achieves up to 62% better accuracy compared to state-of-the-art solutions, while providing more explainable responses at up to 12x reduced cost.",
+  "published": "2026-10-06T16:21:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.178797+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:21:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08622v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.407704+00:00"
+}

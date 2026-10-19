@@ -1,0 +1,22 @@
+{
+  "id": "ece2ab6c2006ab85275d636383364874cf8923ceadbb6bda2a004181b14e415d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SmoothOperator: Enhancing Representations for Fine-grained Open-set Recognition via Modulated Label Smoothing",
+  "url": "https://arxiv.org/abs/2610.00851",
+  "summary": "arXiv:2610.00851v1 Announce Type: cross Abstract: Open Set Recognition (OSR) aims to enable models to accurately classify known classes while rejecting samples from unseen classes. A key challenge in OSR lies in the inability to model the unbounded distribution of unknown classes during training, often leading to the misclassification of samples from these classes. Rather than modeling unknowns, recent work shapes the feature space so that known classes are compact and well separated, and spherical representation learning methods have achieved strong results this way. Label smoothing has been identified as one of the key drivers of this success, yet it applies the same coefficient to every training sample, regardless of how well each sample is already embedded. We show that the spherical representation learning objectives used in OSR share a single alignment--uniformity structure in which labels enter only through the alignment term. Label smoothing therefore acts as an alignment dial, and a fixed coefficient sets this dial to the same value for every sample. We propose a plug-in, SmoothOperator (SmoothOP), which sets the smoothing coefficient of each sample from its \\textbf{prominence}, an embedding-space signal measuring how clearly the sample's own class stands out against its strongest competing class. Our method integrates into four existing spherical representation learning methods at minimal training overhead. SmoothOP assigns strong smoothing to samples with high prominence, which reduces their alignment and relaxes their pull. On the Semantic Shift Benchmark, SmoothOP-augmented variants generally outperform their base objectives across datasets, degrees of semantic shift, and OSR post-processors, with gains of up to 4.7\\% in AUROC, OSCR, and closed-set accuracy.",
+  "published": "2026-10-01T00:08:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.814483+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T00:08:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00851v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.394712+00:00"
+}

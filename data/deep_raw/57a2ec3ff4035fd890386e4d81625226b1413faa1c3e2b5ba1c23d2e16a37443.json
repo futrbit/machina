@@ -1,0 +1,22 @@
+{
+  "id": "57a2ec3ff4035fd890386e4d81625226b1413faa1c3e2b5ba1c23d2e16a37443",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Learning Conditional Source Distribution via Flow Reversal for Temporal Flow Matching",
+  "url": "https://arxiv.org/abs/2610.05349",
+  "summary": "arXiv:2610.05349v2 Announce Type: replace Abstract: We introduce CNP-Flow, a flow matching framework for temporal generation that learns conditional source distributions through flow reversal. Whereas standard conditional flow matching (FM) incorporates conditioning through the vector field and draws source samples from a standard Gaussian, CNP-Flow uses a conditional noise predictor (CNP) to produce an isotropic Gaussian source for each temporal condition. The CNP is supervised by source samples obtained through flow reversal, which maps observed targets backward through a pretrained FM model. A three-stage pipeline pretrains the FM model, trains the CNP, and fine-tunes the FM model using the learned source distribution, while preserving the FM backbone architecture. Across video prediction, video interpolation, and 7-DoF Franka robot motion planning, CNP-Flow consistently improves generation quality. It also matches baseline performance with fewer function evaluations. Project page: https://embodiedai-ntu.github.io/cnpflow",
+  "published": "2026-10-04T16:15:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.550364+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:10:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05349v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.652366+00:00"
+}

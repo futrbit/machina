@@ -1,0 +1,17 @@
+{
+  "id": "b640e145b5c6c18dc60ec63caf40b12d35e265ed96eced0cabacf7a160b89cb3",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Prompt Codebooks: Discrete Compositional Optimization for Language Model Instruction Refinement",
+  "url": "https://arxiv.org/abs/2605.28360",
+  "summary": "arXiv:2605.28360v3 Announce Type: replace Abstract: Automatic prompt optimization (APO) has driven significant gains in LLM-based agentic workflows. However, most existing methods treat each task's prompt as a monolithic, instance-blind string optimized through global edits, producing brittle updates and preventing the reuse of learned sub-behaviors. We propose Prompt Codebook Optimization (PCO), a novel compositional prompt optimization framework that recasts APO as discrete learning over a finite vocabulary of natural-language instincts--atomic, reusable instruction units. PCO organizes prompt-construction knowledge in a discrete codebook and routes each input to a small subset of entries via an LLM-based encoder; a generator composes them into a prompt for the executor; a critic emits a structured verdict that decomposes by attribution into per-variable textual gradients, jointly training the encoder, generator, critic, and codebook under a language-valued min-max objective. The resulting routing is per-instance: different inputs in the same task receive different instinct compositions. Across six benchmarks, PCO improves aggregate performance over zero-shot by +13.50 points on Qwen3-8B and +11.80 points on LLaMA-3.1-8B. Crucially, PCO surpasses GEPA on HotpotQA by +6.34 points (Qwen3-8B) and +4.27 points (LLaMA-3.1-8B), while simultaneously reducing deployed prompt length by up to 14.1$\\times$ vs. MIPROv2 and 3.0$\\times$ vs. GEPA.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.203133+00:00"
+}

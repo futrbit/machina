@@ -1,0 +1,22 @@
+{
+  "id": "7aeda977632f5efb36b49bc2d19a606f5d26b8bce649595501d47b352ea1d32b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Budgeted Cache Repair for Cross-Context KV-Cache Reuse",
+  "url": "https://arxiv.org/abs/2610.02233",
+  "summary": "arXiv:2610.02233v2 Announce Type: replace-cross Abstract: Cross-context KV-cache reuse predicts a shared segment's keys and values under a new prefix instead of recomputing them, and has been reported to do so without quality loss. We find otherwise, and identify two problems. (1) A hidden cost: on MMLU and GSM8K, reuse costs substantial accuracy. (2) A decision at the wrong unit: no rule for deciding whether to reuse a cache removes that cost. What does help is choosing which parts of the cache to recompute, and the value of choosing well falls as the unit of choice grows: informed selection removes 49.5% of the cache error beyond chance at single rows (one token's keys and values), 10.6% at 64-token chunks, and nothing at the level of whole calls. Budgeted Cache Repair (BCR) acts at the unit where selection still pays. It drafts two tokens from the assembled cache, ranks cache rows by the attention those tokens pay them, and recomputes a fixed budget of rows exactly, in one of three layouts. The cost is paid rather than predicted away, and the draft that fails as a gate succeeds as a selector. BCR restores GSM8K to dense-prefill accuracy while still serving most calls from cache, and its best layout outperforms every reuse baseline's mean in the reference grid. The draft also beats a coin-flip selector at the same budget - a control prior evaluations lack.",
+  "published": "2026-09-27T07:57:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.141396+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:41:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02233v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.351944+00:00"
+}

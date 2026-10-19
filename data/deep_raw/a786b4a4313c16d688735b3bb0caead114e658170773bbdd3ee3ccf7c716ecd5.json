@@ -1,0 +1,21 @@
+{
+  "id": "a786b4a4313c16d688735b3bb0caead114e658170773bbdd3ee3ccf7c716ecd5",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SpectralCache: Accelerating Diffusion-Based World Models via Spectral Feature Caching",
+  "url": "https://arxiv.org/abs/2610.02660",
+  "summary": "arXiv:2610.02660v1 Announce Type: cross Abstract: Diffusion-based world models enable high-quality interactive environment generation but suffer from substantial inference overhead due to repeated Transformer evaluations during denoising. Existing caching methods mainly exploit temporal redundancy at the feature or token level, leaving the underlying mathematical structure of diffusion features largely unexplored. In this work, we reveal that world-model features exhibit highly stable singular subspaces across nearby denoising steps, while their singular values follow predictable evolution patterns. Building on this observation, we propose SpectralCache, a training-free spectral caching framework that reuses stable singular subspaces and estimates only low-dimensional singular values through linear extrapolation. We further exploit the spectral consistency between neighboring full-computation features to skip selected expensive backbone evaluations via singular value scaling. Extensive experiments on representative world models demonstrate that SpectralCache consistently improves inference efficiency while preserving generation quality. On HunyuanWorld-Voyager-13B, SpectralCache achieves 5.22x acceleration while maintaining a WorldScore of 65.90 for static scenes, substantially outperforming existing training-free caching methods in inference efficiency.",
+  "published": "2026-10-02T01:28:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.754535+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-02T01:28:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02660v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.743311+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "06e8c546a6d9d9555439b6108b7e82572d5e71143f1adad0126d80d89ca0659c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks",
+  "url": "https://arxiv.org/abs/2610.22457",
+  "summary": "arXiv:2610.22457v1 Announce Type: cross Abstract: Recent advances in video generation have increased the demand for reliable watermarking for copyright protection, yet the robustness of video watermarks against removal attacks remains underexplored. Most watermark-removal methods originate from the image domain: signal optimization injects imperceptible pixel-domain perturbations, whereas generative resynthesis produces a visually similar instance through diffusion synthesis. When extended to videos, the former introduces temporally varying noise that causes visible flickering, while the latter regenerates fine-grained structures inconsistently across frames, leading to structural motion inconsistency. To evaluate video watermark robustness, we propose PoseRegen, a pose-consistent reconstruction framework that removes watermarks while preserving the original content and motion. PoseRegen first applies a temporally shared viewpoint transformation to disrupt watermark-bearing spatial patterns and then jointly reconstructs the transformed sequence with a pose-conditioned video model. A frozen video DiT processes the complete sequence with its reference-video latent, and full-sequence Flow Matching supervision keeps identity and background consistent across frames. To further preserve motion structure, we introduce a lightweight Pose-Conditioned Motion Consistency Adapter that adapts the frozen backbone to temporally ordered pose guidance and constrains body-part trajectories throughout reconstruction. Experiments on eleven video watermarking schemes show that PoseRegen reduces the average bit accuracy to 0.505, near random guessing, while outperforming the strongest baseline by 9.34% on motion-related VBench metrics. These results reveal a practical vulnerability of current video watermarks and highlight the need to evaluate robustness jointly with temporal and motion quality.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.051087+00:00"
+}

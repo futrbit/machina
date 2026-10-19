@@ -1,0 +1,21 @@
+{
+  "id": "b8d205cfaddb0384c46c717573edf79b1f77976d81126179ba6b1cc521093627",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "CUSP: CUSUM-Governed Survival Hazard Alarms at the Perception Onset for Off-Road Navigation",
+  "url": "https://arxiv.org/abs/2610.07882",
+  "summary": "arXiv:2610.07882v1 Announce Type: new Abstract: Off-road navigation exposes a robot to potentially hazardous terrain en route. Although learning-based navigation uses safety supervision to choose which path to drive, it provides no runtime alarm when the robot following that path is heading into danger. Such an alarm must be learned from field logs, where human intervention preempts the failure and the failure itself is therefore never observed. The human judges driving unsafe early but typically intervenes only once failure is clearly near, so the intervention marks that judgment late. That earlier judgment is what a runtime alarm must detect, yet no prior intervention-supervised method has targeted it. To address this problem, we introduce CUSP (CUSUM-governed Survival model of the Perception onset), a model-agnostic runtime hazard alarm that learns this moment from intervention-terminated logs. \"Cusp\" is a word for the point at which one state is about to turn into another, and the moment we target is exactly such a cusp: the point at which safe driving turns unsafe in a human's judgment. We call this point the perception onset and annotate it separately from the intervention. A visual hazard head is trained on the annotated onset with a discrete-time survival objective so that driving with and without an onset both supervise the head, and a CUSUM accumulates the predicted onset risk into alarms. We evaluate CUSP at five unseen sites, two autonomous and three teleoperated, with 142 events and every method tuned to the same rate of ten false alarms per hour. CUSP detected 85 events compared to 26 for the best of nine adapted baselines, and the margin comes from hazards to which every signal in the navigation model is blind.",
+  "published": "2026-10-06T07:29:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.460022+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:29:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07882v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.754098+00:00"
+}

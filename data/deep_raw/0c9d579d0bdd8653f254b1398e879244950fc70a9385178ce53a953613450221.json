@@ -1,0 +1,22 @@
+{
+  "id": "0c9d579d0bdd8653f254b1398e879244950fc70a9385178ce53a953613450221",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Rendering-Free Lookahead for Question-Guided Active Vision",
+  "url": "https://arxiv.org/abs/2610.11039",
+  "summary": "arXiv:2610.11039v1 Announce Type: new Abstract: Active robot vision requires controlling the camera to reveal task-relevant information that is hidden from the current viewpoint. For example, determining what is inside a box may require raising the camera and looking down into it. For viewpoint-dependent question answering, the challenge is to select camera motions that expose the visual evidence needed to answer the question. Although vision-language models (VLMs) can interpret observed images, selecting such motions requires anticipating the usefulness of unseen views. We quantify this usefulness as answerability, a VLM's estimate that a view suffices to answer the question, and present Rendering-Free Lookahead (RFL), a viewpoint-selection policy that ranks candidate camera motions by predicted future answerability. RFL transfers visual lookahead from deployment to offline training. At training, a privileged teacher renders candidate future views in 3D Gaussian Splatting (3DGS) scenes and uses a frozen VLM to compute one- and two-step answerability targets. Through two-stage distillation, a student learns to predict these action values from the question, recent visual observations, and a candidate camera motion. At deployment, RFL uses these predicted values to select camera motions without rendering future views. On 377 E3VS-Bench test episodes in unseen environments, RFL improves the mean judge score by 43\\% over a direct-action baseline using the same VLM. These results support learning camera-control policies from privileged visual lookahead for viewpoint-dependent question answering.",
+  "published": "2026-10-08T00:45:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.738056+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T00:45:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11039v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.575011+00:00"
+}

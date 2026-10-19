@@ -1,0 +1,21 @@
+{
+  "id": "8f278f4e00572590b9feb131b4f8a15e4c7b9178ffe3041984bc675875155f80",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "AssemState: Manual and Physical-State-Guided Reasoning for Zero-shot Furniture Assembly",
+  "url": "https://arxiv.org/abs/2610.08446",
+  "summary": "arXiv:2610.08446v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) have made significant progress in visual understanding, but precise 3D spatial reasoning integrated with physical environment remains difficult. Furniture assembly requires not only recovering step-level operations from diagrammatic manuals, but also translating semantic attachment relations into 6D pose updates that enable parts to physically interact with the environment and previously assembled components. To study this problem, we propose AssemState, a zero-shot framework for manual and physical-state-guided furniture assembly. It firstly employs anchor-guided boundary assembly states to decompose manual pages into single-part operations and recover an assembly-tree. Then, it uses iterative after-state feedback refinement to guide successive (SE(3)) updates and corrections, and validates their physical plausibility through simulation-based release tests. Experiments show that compared with the strongest prior baseline, AssemState improves F1 from 38.58\\% to 62.80\\% and Tree Exact Match from 28.24\\% to 53.92\\% for assembly-tree recovery. On 243 independently evaluated part-level operations, our proposed iterative refinement improves judge-accepted operations from 0 to 5.3\\% and reduces mean Chamfer distance from 5.4111 to 1.7744. However, visually plausible candidate poses may still suffer from collision, floating, mirror-orientation errors, incomplete seating, and wrong-side attachment. These results show that AssemState improves operation-structure recovery and selected local pose metrics, while MLLMs remain limited for spatial relationship reasoning.",
+  "published": "2026-10-06T14:35:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.147814+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:35:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08446v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.733714+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2870f235c785f153ee53f48e94b53df6c3bfbdec4878a117cb7a2a778b546152",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "NMPP: Nonlinear Model Predictive Planning for Agile UAV Flight in Cluttered Environments",
+  "url": "https://arxiv.org/abs/2610.08695",
+  "summary": "arXiv:2610.08695v1 Announce Type: new Abstract: Flying a quadrotor through a cluttered environment requires not only planning a collision-free reference trajectory based on perceived obstacles, but the reference also needs to be dynamically feasible and within the actuation limits of the vehicle, so that the controller can track it precisely. Existing methods either optimize a smooth polynomial inside a convex corridor, which limits agility, or treat obstacles as soft costs traded against tracking performance. We propose a Nonlinear Model Predictive Planning (NMPP) that imposes perceived obstacles as hard geometric constraints and hands a full-state reference to an obstacle-blind SE(3) controller. Our planner achieves a 58-67 % lower position RMSE than a linear Model Predictive Control trajectory planner and a 41-70 % lower RMSE than a polynomial trajectory planner. It also completes all forest flights with up to 9.5 m/s speed without collisions, and achieves 86 % flight success rate under a more aggressive speed profile where a state-of-the-art planner has only 26 % success rate. The real-world deployment showed reliable execution flying up to 5.5 m/s in an unknown cluttered environment.",
+  "published": "2026-10-06T17:10:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.472014+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:10:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08695v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.268200+00:00"
+}

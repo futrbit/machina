@@ -1,0 +1,22 @@
+{
+  "id": "111f7a62fcf89f75ffb3fe0b1adc3727726b807463b1d83cb15f0ec0e302e136",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Fork-and-Flush: Escaping Idea Basins in Autoresearch Agents",
+  "url": "https://arxiv.org/abs/2610.07447",
+  "summary": "arXiv:2610.07447v1 Announce Type: new Abstract: Autoresearch agents tackle open-ended problems by repeatedly proposing candidate solutions, evaluating them, and using feedback to guide subsequent experiments. We show that independent runs of the same agent on the same task often plateau at substantially different scores, with gaps that persist even after considerable additional compute. Embedding their candidate artifacts by functional similarity provides further evidence that trajectories remain in localized regions of the solution space, which we call idea basins. To help agents escape these basins, we study a simple periodic intervention, fork-and-flush. Our method forks the agent into parallel trajectories, each inheriting the accumulated workspace but starting with a fresh chat context. After running each trajectory for a fixed horizon, the agent continues from the highest-scoring one. Across 13 long-horizon research and engineering tasks, with individual agent runs lasting up to several days, fork-and-flush outperformed the single-run and best-of-N baselines by a relative improvement of 66.0% and 44.4%, respectively, on the min-max normalized average score under an equal compute budget.",
+  "published": "2026-10-05T21:55:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.059500+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:55:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07447v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.701935+00:00"
+}

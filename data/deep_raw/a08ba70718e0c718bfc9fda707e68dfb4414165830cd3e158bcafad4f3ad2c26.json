@@ -1,0 +1,22 @@
+{
+  "id": "a08ba70718e0c718bfc9fda707e68dfb4414165830cd3e158bcafad4f3ad2c26",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Understanding Latent Diffusability via Fisher Geometry",
+  "url": "https://arxiv.org/abs/2604.02751",
+  "summary": "arXiv:2604.02751v3 Announce Type: replace Abstract: Diffusion models often degrade in latent spaces, yet the formal causes remain poorly understood. We quantify latent-space diffusability via the rate of change of the Minimum Mean Squared Error (MMSE) along the diffusion trajectory. Our framework decomposes this MMSE rate into contributions from Fisher Information (FI) and Fisher Information Rate (FIR). We show that isometric embeddings preserve intrinsic FI and establish quantitative intrinsic-FI bounds for a broader class of bi-Lipschitz encoders with controlled weak volume distortion, whereas FIR is governed by the interplay between encoder and data geometries. Our analysis separates four geometric contributions in local stability bounds for Gaussian-smoothed FIR: dimensional compression, tangential distortion, high-frequency encoder curvature, and curvature of data manifold. Experiments across diverse autoencoding architectures provide qualitative support for the geometric mechanisms identified by the theory and show that empirical FI and FIR track several measures of generation quality and latent-space geometry in the settings tested. We establish FI and FIR as a comprehensive analytical framework for understanding latent diffusability.",
+  "published": "2026-04-03T05:52:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.829474+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T05:01:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.02751v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.113485+00:00"
+}

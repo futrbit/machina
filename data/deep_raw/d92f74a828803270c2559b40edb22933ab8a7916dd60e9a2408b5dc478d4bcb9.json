@@ -1,0 +1,22 @@
+{
+  "id": "d92f74a828803270c2559b40edb22933ab8a7916dd60e9a2408b5dc478d4bcb9",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Mitigating Illumination-Induced Domain Shift in Night-Time Pedestrian Detection for Intelligent Vehicles using Annotation-Preserving Diffusion Augmentation",
+  "url": "https://arxiv.org/abs/2605.16406",
+  "summary": "arXiv:2605.16406v2 Announce Type: replace Abstract: Night-time pedestrian detection remains challenging because labelled night-time data are limited and large illumination differences make daytime-only trained detectors unreliable. Latent diffusion models (LDMs) provide a powerful basis for image-to-image translation and cross-domain augmentation, but their effectiveness in safety-critical perception depends on whether detector-relevant objects and local semantic structure are preserved when translating between source and target domains. In this work, we present Contrastive-SDXL, a day-to-night augmentation framework for night-time pedestrian detection built on SDXL-Turbo and fine-tuned using Low-Rank Adaptation (LoRA). To preserve semantic correspondence between daytime inputs and translated night-time images, we introduce a patch-wise semantic contrastive loss guided by a pretrained DINOv2 encoder rather than generator encoder features. Multi-level DINOv2 self-attention maps enforce both local and global semantic consistency, while an object consistency loss explicitly encourages pedestrian preservation. Contrastive-SDXL produces realistic night-time images, achieving a Frechet Inception Distance (FID) of 22.5. Detectors trained with our synthetic images obtain a 6-7% reduction in miss rate compared with a daytime-only baseline, approaching the performance of detectors trained on real night-time data. These results demonstrate that consistency-driven diffusion augmentation can effectively support safety-critical night-time pedestrian detection.Specific",
+  "published": "2026-05-13T10:41:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.540370+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T17:51:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.16406v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.178842+00:00"
+}

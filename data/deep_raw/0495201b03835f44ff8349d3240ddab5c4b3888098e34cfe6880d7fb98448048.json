@@ -1,0 +1,22 @@
+{
+  "id": "0495201b03835f44ff8349d3240ddab5c4b3888098e34cfe6880d7fb98448048",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Rethinking the Information Bottleneck: Structured Decomposition under Label-Induced Partitions",
+  "url": "https://arxiv.org/abs/2610.01175",
+  "summary": "arXiv:2610.01175v1 Announce Type: new Abstract: Standard information bottleneck (IB) regularization constrains representations via a single scalar I(Z;X), implicitlytreating all information as homogeneous. However, a single global compression control couples label-relevant structurewith residual within-condition variation, rather than regulating their allocation independently, allowing nuisanceinformation to persist in learned representations. For example, in medical imaging applications, residual variation oftenstems from acquisition conditions, background factors, or subject-specific appearance. This issue becomes particularlypronounced in data-limited settings, where models tend to overfit such variation, hindering generalization. While existingregularization methods can stabilize training, control capacity, or shape representation geometry, they do not explicitlyseparate nuisance-like variation from task-supporting structure. To address this limitation, we revisit IB from a structuredperspective based on a label-induced partition, where condition-level structure and within-condition information playdistinct roles. This leads to a dual-bottleneck formulation: a standard KL term controls global information capacity, while aconditional KL term targets within-condition information. We show that the conditional KL admits an exact decompositioninto a within-condition information term and a prior-mismatch term, explaining its alignment with the design objective.With a simplex-structured conditional prior, the method provides controllable latent geometry and integrates seamlesslyinto existing pipelines. Experiments on classification and segmentation show the clearest gains in low-data classificationand consistent improvements across dense prediction benchmarks.",
+  "published": "2026-10-01T06:50:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.787500+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T06:50:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01175v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.324162+00:00"
+}

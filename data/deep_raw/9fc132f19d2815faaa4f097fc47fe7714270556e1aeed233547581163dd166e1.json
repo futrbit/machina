@@ -1,0 +1,21 @@
+{
+  "id": "9fc132f19d2815faaa4f097fc47fe7714270556e1aeed233547581163dd166e1",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Cross-Modality Controlled Molecule Generation with Diffusion Language Model",
+  "url": "https://arxiv.org/abs/2508.14748",
+  "summary": "arXiv:2508.14748v2 Announce Type: replace-cross Abstract: The increasing variety of molecular data creates a need for generative models that can flexibly incorporate heterogeneous constraints across modalities. However, existing SMILES-based diffusion models are typically designed for a fixed conditioning modality, and introducing new constraints often requires retraining the model. To address this limitation, we propose Cross-Modality Controlled Molecule Generation with Diffusion Language Model (CMCM-DLM), a modular framework that extends a pre-trained diffusion model to support heterogeneous molecular constraints without retraining the backbone. We demonstrate CMCM-DLM using two complementary modalities: molecular structure and chemical properties. Specifically, a Structure Control Module (SCM) guides early diffusion steps to establish the molecular scaffold, while a Property Control Module (PCM) subsequently steers generation toward target chemical properties. This staged design enables flexible integration of different molecular constraints within a unified generative framework. Experiments on multiple datasets demonstrate effective cross-modal controllability and strong adaptability, highlighting the potential of CMCM-DLM for heterogeneous molecular data modeling and data-driven drug discovery.",
+  "published": "2025-08-20T14:48:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.191788+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:59:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2508.14748v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.598795+00:00"
+}

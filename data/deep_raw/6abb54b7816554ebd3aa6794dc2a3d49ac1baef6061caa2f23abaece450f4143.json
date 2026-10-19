@@ -1,0 +1,22 @@
+{
+  "id": "6abb54b7816554ebd3aa6794dc2a3d49ac1baef6061caa2f23abaece450f4143",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Smart Content Ingestion for Generative AI Workloads",
+  "url": "https://arxiv.org/abs/2610.07091",
+  "summary": "arXiv:2610.07091v1 Announce Type: cross Abstract: The evolution of machine learning has progressively changed where intelligence resides in an AI system. In conventional machine learning the task, data representation, labels and model architecture were tightly coupled, so data preparation was narrow, schema-bound and visible. Generative AI decouples the model from any single task: one foundation model serves open-ended downstream tasks, and the generality gained on the model side is matched by heterogeneity on the data side, because enterprise knowledge is authored in the formats people use (PDF, presentations, spreadsheets, scanned documents, forms, tables, diagrams and mixed-layout files) that carry textual, visual, geometric and structural information at once. A language model or retriever cannot reason reliably over information misrepresented at this interface, so content extraction becomes a lifecycle stage in its own right whose errors no downstream retriever or re-ranker can repair. This paper presents a production-ready content-extraction system that makes this stage explicit, configurable, and measurable. The system incorporates selective OCR routing, a scarcity-first curation engine with a reference-based extraction scorer that measures character, word, and table-structure accuracy, a deterministic structure-aware parent-child chunker, and a read-only retrieval evaluator that generates grounded questions from every page and reports Hit@k, mean reciprocal rank, and latency. On a 180-document corpus the best extractor scores 97.4 of 100 (character error rate 0.13%, table similarity 0.995) and the chunker reaches hit@1 of 68.6%, hit@10 of 92.8% and MRR 0.77 over 25,050 generated questions. We distil three design principles (structure before semantics, never mutate what you measure, budget your labels) and position measured content extraction as the perception layer of enterprise agentic systems.",
+  "published": "2026-10-05T13:22:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.529377+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T13:22:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07091v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.567417+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "0557fc3b46bcab254621f3206ab8b18a3541336d75b40b7c8c055578fdd0cb2e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Adaptive conformal prediction on the Grassmannian",
+  "url": "https://arxiv.org/abs/2610.23508",
+  "summary": "arXiv:2610.23508v1 Announce Type: cross Abstract: We introduce a conformal prediction framework for regression with Grassmann-valued responses. The proposed method constructs prediction regions in the form of metric balls directly on the Grassmann manifold, using basis-invariant geometric distances as non-conformity measures and scaling the corresponding non-conformity scores through a learned prediction difficulty estimator. This yields locally adaptive, input-dependent prediction regions that respect the underlying manifold geometry, while retaining the finite-sample marginal coverage guarantee of split conformal prediction under exchangeability. We evaluate several Grassmannian distance metrics and compare their prediction-region efficiency on synthetic benchmarks and an airfoil inverse shape-design problem. The results highlight the advantages of geometry-aware non-conformity scores, while local adaptation improves empirical coverage uniformity across prediction difficulty levels and, in strongly heteroscedastic settings, can substantially reduce prediction-region size while maintaining the target coverage.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.219738+00:00"
+}

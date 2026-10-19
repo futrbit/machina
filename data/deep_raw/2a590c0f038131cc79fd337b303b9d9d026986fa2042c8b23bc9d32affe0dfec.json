@@ -1,0 +1,18 @@
+{
+  "id": "2a590c0f038131cc79fd337b303b9d9d026986fa2042c8b23bc9d32affe0dfec",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Edit-Your-Interest: Efficient Video Editing via Feature Most-Similar Propagation",
+  "url": "https://arxiv.org/abs/2510.13084",
+  "summary": "arXiv:2510.13084v2 Announce Type: replace Abstract: Text-to-image diffusion models have advanced video editing. However, existing video editing methods are limited by their high computational overhead and memory consumption. Furthermore, these approaches often sacrifice visual fidelity, leading to temporal inconsistencies and artifacts such as blurring and mosaic-like patterns. To address these dual challenges and strike a balance between computational efficiency and visual fidelity, we propose Edit-Your-Interest, a lightweight, text-driven, zero-shot video editing method. Edit-Your-Interest introduces a Spatio-Temporal Feature Memory bank (SFM) to cache spatial-attention features from previous frames under a fixed memory budget. The SFM maintains a representative candidate pool, reducing the computational overhead of full-sequence spatio-temporal modeling. To query this memory, we propose Feature Most-Similar Propagation (FMP), a similarity-based retrieval rule that propagates relevant cached tokens to the current frame. Together, SFM and FMP form a bounded-memory retrieval-based propagation design that improves temporal consistency while reducing blurring and mosaic-like artifacts. Finally, we introduce a feature-diversity-based SFM update algorithm to keep the memory representative and non-redundant throughout the video sequence. Furthermore, to enable precise object editing, we leverage cross-attention maps to automatically extract masks for the instances of interest. These masks are seamlessly integrated into the diffusion denoising process, enabling fine-grained control over target objects and allowing Edit-Your-Interest to perform highly accurate edits while robustly preserving the background integrity. Extensive experiments demonstrate that Edit-Your-Interest outperforms state-of-the-art methods in both efficiency and visual fidelity. Project page: https://edit-your-interest.github.io/.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.054086+00:00"
+}

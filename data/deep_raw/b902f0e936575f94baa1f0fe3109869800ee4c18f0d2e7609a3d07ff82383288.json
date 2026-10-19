@@ -1,0 +1,22 @@
+{
+  "id": "b902f0e936575f94baa1f0fe3109869800ee4c18f0d2e7609a3d07ff82383288",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
+  "url": "https://arxiv.org/abs/2610.10613",
+  "summary": "arXiv:2610.10613v1 Announce Type: new Abstract: Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exchange information over the Controller Area Network (CAN) bus. Due to the rapidity, structure, and repetition of this communication, even slight variations in timing, payload values, or message patterns can point to unusual activity. Whether due to errors, malfunctions, or deliberate interference, these anomalies are frequently subtle and challenging to identify with conventional methods that handle messages separately or rely on manually created rules. Motivated by this gap, we present a privacy-preserving framework for anomaly detection in in-vehicle networks, based on a Temporal Transformer CAN Encoder with Federated Lightweight Heads, to better capture these irregularities. The detection of subtle temporal and contextual anomalies is made possible by a lightweight Transformer encoder that learns how these signals evolve over time, while a federated learning mechanism enables several vehicles or ECUs to work together to improve a shared model without exchanging raw CAN data. This combination of federated learning and temporal sequence modeling provides robust anomaly detection performance while maintaining efficiency and privacy, according to experiments conducted on open-source datasets.",
+  "published": "2026-10-07T07:13:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.073439+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T07:13:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10613v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.760096+00:00"
+}

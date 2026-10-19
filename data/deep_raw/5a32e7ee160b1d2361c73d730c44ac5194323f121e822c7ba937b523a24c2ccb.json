@@ -1,0 +1,21 @@
+{
+  "id": "5a32e7ee160b1d2361c73d730c44ac5194323f121e822c7ba937b523a24c2ccb",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Intent Graph: Navigating the Analytical Reasoning Space for Exploratory Data Analysis",
+  "url": "https://arxiv.org/abs/2610.11025",
+  "summary": "arXiv:2610.11025v1 Announce Type: cross Abstract: Exploratory data analysis (EDA) is rarely open-ended in practice: analysts work from high-level domain questions toward the concrete analyses that can answer them, prioritizing directions with domain knowledge and prior hypotheses. Large language models (LLMs) can supply such knowledge, but their responses are unstructured, leaving analysts no way to see what has been explored, what is missing, or why one direction was chosen over another. We present DAG-EDA, a system that lets analysts and an LLM co-navigate the space of possible analyses through two linked structures. An intent graph, governed by a grammar of analytical intent, decomposes an ambiguous natural-language question into progressively concrete analysis tasks, keeping alternative framings open and letting analysts branch, backtrack, and compare paths. A multi-layered knowledge graph externalizes the LLM's domain knowledge, linking domain concepts to the dataset variables that can measure them, so analysts can inspect and contest how their question is grounded in the data. Both graphs are constructed from only the dataset and the analyst's question, and the analyses the analyst reaches are rendered as interactive dashboards. We illustrate the system through a usage scenario and describe a user study design for examining whether the system scaffold analysts' reasoning and navigation.",
+  "published": "2026-10-08T00:19:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.386380+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T00:19:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11025v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.707332+00:00"
+}

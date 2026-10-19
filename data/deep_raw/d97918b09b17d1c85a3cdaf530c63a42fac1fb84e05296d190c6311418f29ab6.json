@@ -1,0 +1,22 @@
+{
+  "id": "d97918b09b17d1c85a3cdaf530c63a42fac1fb84e05296d190c6311418f29ab6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "When Do Intrinsic Rewards Lead to Exploration?",
+  "url": "https://arxiv.org/abs/2610.02159",
+  "summary": "arXiv:2610.02159v1 Announce Type: new Abstract: Intrinsic rewards are designed to guide exploration in reinforcement learning by assigning value to an agent's experience, for example through prediction error or learning progress. However, maximizing these rewards need not produce the most informative experience available. We propose a formal criterion for exploration that compares policies by the counterfactual information they acquire: how well their histories can substitute for experience under alternative policies. We construct a single, simple environment in which specified count-based, prediction-error, empowerment, and information-gain objectives have maximizing policies that are Pareto-suboptimal at acquiring counterfactual information. We explain these failures and establish conditions under which existing intrinsic rewards successfully encourage optimal exploration. We also construct an objective that assigns a higher value whenever exploration strictly improves under our criterion.",
+  "published": "2026-10-01T17:52:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.802491+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:52:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02159v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.182840+00:00"
+}

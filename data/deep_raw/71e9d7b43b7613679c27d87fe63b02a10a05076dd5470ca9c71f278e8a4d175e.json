@@ -1,0 +1,22 @@
+{
+  "id": "71e9d7b43b7613679c27d87fe63b02a10a05076dd5470ca9c71f278e8a4d175e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Recurrent Looped Transformer",
+  "url": "https://arxiv.org/abs/2610.07591",
+  "summary": "arXiv:2610.07591v1 Announce Type: cross Abstract: State tracking requires an update at every input, but the depth a Transformer applies to each token is fixed regardless of sequence length. We introduce the Recurrent Looped Transformer (RLT), which splits its layers between a parallel causal encoder and a recurrent decoder. At each token, the decoder merges the encoder output with the previous token's final decoder state, so the computation path grows with sequence length at a fixed per-token cost. On six algorithmic tasks, we compare five splits of eight layers with an eight-layer Transformer over three seeds. Trained on at most 40 bits, two RLT splits generalize parity to 256 bits with 100% accuracy in every seed, while the Transformer stays at chance. On swap-based $S_5$ permutation tracking at eight times the training length, RLT reaches 97% final-state accuracy versus under 1% for the Transformer, and accuracy increases with decoder depth. On modular arithmetic beyond the training lengths, RLT reaches up to 93% versus 33% for the Transformer. Ablations show that these gains depend on the feedback: removing it drops parity and swap-based $S_5$ to chance at every split. Updating the feedback once per four-token chunk lets known tokens in a chunk run in parallel and keeps 64-bit parity at 99%, while permutation tracking depends on per-token feedback: chunking lowers length-64 swap-based $S_5$ from 100% to 20%.",
+  "published": "2026-10-06T01:29:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.094478+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:29:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07591v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.837856+00:00"
+}

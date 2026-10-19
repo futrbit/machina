@@ -1,0 +1,21 @@
+{
+  "id": "1f0e58dbb4c7fa46eaeee5cd61fe0821e987a90765d4c42ab2e3a4c228b04e1d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Guided Action Flow: Value-Guided Sampling for Frozen Vision-Language-Action Policies",
+  "url": "https://arxiv.org/abs/2607.02092",
+  "summary": "arXiv:2607.02092v4 Announce Type: replace-cross Abstract: Reinforcement learning can improve vision-language-action (VLA) policies beyond supervised fine-tuning, although this typically involves further updates to the policy parameters. For flow-matching policies, iterative action generation provides an additional opportunity to incorporate task information during inference. We introduce Guided Action Flow (GAF), which learns a compact, observation-conditioned action-value critic from robot task rollouts and applies its action gradient to steer reverse-time flow sampling. The supervised-fine-tuned VLA remains frozen throughout critic learning and deployment. Physical-robot experiments show an increase in aggregate success from 60.0% to 82.5% across six nominal manipulation tasks. Under six altered-lighting and object-distractor conditions evaluated on three of these tasks, aggregate success improves from 34.2% to 49.2%. Ablations and rollout analyses support the importance of the learned guidance direction and the critic's visual and proprioceptive inputs. With approximately 2.735M trainable critic parameters alongside a 0.45B-parameter VLA, GAF enables task outcomes to inform action generation through a compact inference-time guidance module.",
+  "published": "2026-07-02T12:30:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.197784+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:43:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.02092v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.071320+00:00"
+}

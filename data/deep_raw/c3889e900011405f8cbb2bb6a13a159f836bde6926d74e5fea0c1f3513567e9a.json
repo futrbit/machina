@@ -1,0 +1,17 @@
+{
+  "id": "c3889e900011405f8cbb2bb6a13a159f836bde6926d74e5fea0c1f3513567e9a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Detecting Multi-Agent Collusion Through Multi-Agent Interpretability",
+  "url": "https://arxiv.org/abs/2604.01151",
+  "summary": "arXiv:2604.01151v5 Announce Type: replace Abstract: Non-verbalised or secret collusion may impose a ceiling on transcript-level monitoring in multi-agent deployments. Internal model activations are known to provide an additional monitoring surface for single-agent phenomena such as deception, but detecting collusion within an unknown subgroup is ultimately a joint inference task over multiple agents. This paper derives collusion detection statistics based on the composite hypothesis testing literature and introduces HELIOS, a multi-agent detection framework for collusion. Using per-agent activation probes as sensors, we then evaluate these principled statistics alongside heuristics on NARCBench, a novel benchmark for evaluating multi-agent collusion detection under environment distribution shift. Across four open-weight models, both our group-level statistics and heuristics transfer zero-shot to NARCBenchs holdout environments. Notably, the best method on every model reaches 0.99 to 1.00 AUROC when transferred from committee deliberations to a steganographic collusion task that unprimed transcript monitors fail to separate. We find empirically that no single statistic or heuristic dominates across tasks, consistent with our analysis that there is no known universally most powerful test for this setting. We then evaluate detector transfer to third-party environments with emergent, rather than instructed, collusion. In one such environment, only 2 of 229 collusive episodes verbalise the coordination in the transcript. We find evidence of partial transfer from NARCBench to these environments, indicating that probes fitted to instructed collusion may not fully capture emergent collusion signals. Overall, we establish multi-agent interpretability as a complementary monitoring technique, while highlighting the need to evaluate detector performance on both emergent and instructed collusion risks.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.202133+00:00"
+}

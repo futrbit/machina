@@ -1,0 +1,22 @@
+{
+  "id": "66079f947b2fe17aa6bb0f676c0409140a027ada56f7ce876d036ddb5e54b380",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Decision-Focused On-Policy Learning for Contextual Linear Optimization with Partial Feedback",
+  "url": "https://arxiv.org/abs/2606.01081",
+  "summary": "arXiv:2606.01081v2 Announce Type: replace Abstract: Decision-focused learning (DFL) trains predictive models by optimizing downstream decision quality rather than standalone prediction accuracy. For contextual linear optimization, most existing DFL methods assume offline data and full observations of the objective cost vector. We develop an on-policy learning method for sequential contextual linear optimization under partial feedback, generalizing the standard bandit feedback setting. Our method learns a stochastic predict-then-optimize policy that samples a cost-vector prediction from a conditional distribution and solves the resulting downstream linear optimization problem. To update this distributional model, we introduce a two-component hybrid gradient estimator. The first component is a score function estimator, which provides an unbiased but potentially high-variance policy gradient estimate. The second is a decision-focused plug-in component that uses an auxiliary nuisance estimate of the latent cost vector to exploit the downstream optimization structure, becoming more informative as the estimate improves. We prove an O(T^-1/2) bound on the average squared policy-gradient norm, matching the standard non-convex SGD rate. Experiments on top-k selection, shortest path, combinatorial pricing, and a real-data energy-scheduling benchmark show that, under bandit feedback, the hybrid gradient approach achieves lower mean cumulative regret than the contextual-bandit baselines on all four benchmarks and than linear Thompson sampling on three, and that it also works with richer conditional generative cost models. Code is available at https://github.com/Joeyetinghan/on-policy-bandit-dfl.",
+  "published": "2026-05-31T07:58:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.126408+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:13:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.01081v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.895219+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "44d06d679a1479851ea340dc3a6e6a1c77faeb65fa25c0586a621b7bbd5f3542",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Neural State Prediction: Obstructing Shortcut Learning in EEG Foundation Models",
+  "url": "https://arxiv.org/abs/2609.31167",
+  "summary": "arXiv:2609.31167v1 Announce Type: new Abstract: EEG foundation models increasingly use masked prediction to learn from unlabeled recordings, but optimizing this objective does not ensure transferable neural representations. A central challenge is that stable positional cues and local correlations can make masked regions predictable without integrating distributed neural context. To reduce this reliance on low-information prediction paths, we introduce Neural State Prediction (NSP), a latent-predictive framework that constrains both the prediction target and the available context. NSP uses a Target Encoder updated by an exponential moving average (EMA) to define latent supervision. Identity residualization removes additive effects associated with channel identity and relative time from the targets, while topology-separated context excludes their immediate spatial and temporal neighborhood from the visible input. We pretrain NSP on 2.2 million EEG segments from TUEG and evaluate it across 30 downstream datasets spanning clinical diagnosis, sleep staging, emotion recognition, motor imagery, event-related potentials, cognitive-state decoding, and language retrieval. Under full-parameter multi-task fine-tuning on EEG-FM-Bench, NSP achieves 63.94 macro balanced accuracy across 14 datasets, exceeding the strongest evaluated baseline by 2.35 percentage points. Controlled component ablations assess the contribution of each mechanism, while matched context controls and held-out interventions characterize the role of context geometry, signal content, and positional information. Jointly designing latent targets and their context offers a promising direction for EEG foundation models that learn from distributed signal structure.",
+  "published": "2026-09-25T11:58:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.417480+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T11:58:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31167v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.857845+00:00"
+}

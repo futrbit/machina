@@ -1,0 +1,22 @@
+{
+  "id": "d6fe906faf7b767e29de0ddf7f9ad7442d782a2b9af9c5747068a78df306dedd",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Robust Importance Sampling for Rare Events via Constrained Gaussian Mixtures",
+  "url": "https://arxiv.org/abs/2610.07485",
+  "summary": "arXiv:2610.07485v1 Announce Type: new Abstract: We study estimating rare-event probabilities $I = \\mathbb{P}(g(\\mathbf{X}) > \\gamma)$ with $\\mathbf{X} \\sim \\mathcal{N}(\\boldsymbol{\\mu}, \\boldsymbol{\\Sigma})$ and general $g : \\mathbb{R}^d \\to \\mathbb{R}$. We address this problem through importance sampling, and propose a framework that substantially improves efficiency and robustness over baselines such as crude Monte Carlo, adaptive cross-entropy, variational-inference-based methods (including reverse- and forward-KL approaches), as well as Safe-ICE, Subset Simulation, and Sequential Monte Carlo, drawing on ideas from both rare-event estimation and cross-entropy optimization. The key contribution has two parts: first, we separate the problem into coverage, to overcome the cold-start barrier, and fitting, to refine proposals once a meaningful signal is available; second, we constrain the final GMM proposal so that it has finite importance-sampling variance (since coverage alone is not sufficient -- without safeguards, importance sampling may still suffer from infinite variance). Together, these ingredients yield expressive proposals; finite variance does not by itself guarantee practical stability at a fixed sampling budget. Extensive experiments demonstrate substantial variance reduction, strong robustness across diverse benchmarks, and favorable cost--efficiency trade-offs, with the proposed approach often outperforming these baselines, particularly in high-dimensional and multimodal settings where competing methods frequently become unstable or fail. Our code is available at https://github.com/lorek/robust-cfi-is.",
+  "published": "2026-10-05T22:49:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.061498+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:49:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07485v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.158857+00:00"
+}

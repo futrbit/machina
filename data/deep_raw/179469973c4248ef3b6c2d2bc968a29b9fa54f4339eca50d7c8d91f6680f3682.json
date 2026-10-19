@@ -1,0 +1,17 @@
+{
+  "id": "179469973c4248ef3b6c2d2bc968a29b9fa54f4339eca50d7c8d91f6680f3682",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding",
+  "url": "https://arxiv.org/abs/2610.22992",
+  "summary": "arXiv:2610.22992v1 Announce Type: new Abstract: Designing RNA sequences that fold into specific 3D structures is a fundamental challenge in therapeutics. Current RNA inverse folding methods typically condition on 3D backbone coordinates but the generation is limited to 1D discrete sequences. This ignores the continuous side-chain orientations, which are essential for overall structural stability. To address this issue, we explicitly introduce side-chain geometry into the RNA generative process. Unlike co-design frameworks that diffuse across separate raw spaces, we propose Geometric Optimized Latent Diffusion (\\textbf{GOLD}), which project sequence and structure into a unified latent manifold. GOLD employs a novel GeoVAE to elegantly integrate discrete RNA sequences with continuous side-chain angles. By mapping these modalities into a single, smooth latent manifold, GOLD naturally facilitates a synergistic co-diffusion process. To enhance structural validity, we further introduce a training-free, gradient-guided sampling mechanism. By decoding the generated sequence probabilities and side-chain geometries into structures during the sampling process, we compute analytical gradients from physical constraints. This dynamic feedback actively guides the generated sequence to a physically stable state. Extensive experiments validate the superiority of GOLD, achieving state-of-the-art performance across sequence recovery, secondary structure validity, and 3D foldability metrics. Our code and data are publicly available at https://github.com/darkflash03/GOLD.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.182147+00:00"
+}

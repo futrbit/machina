@@ -1,0 +1,18 @@
+{
+  "id": "788af63f3855a1c6edcc72cbee53c920d44e50422bc550a13e0c76ce53e3bb1e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Theoretical Analysis of Test-Driven Code Generation",
+  "url": "https://arxiv.org/abs/2602.06098",
+  "summary": "arXiv:2602.06098v4 Announce Type: replace-cross Abstract: Code assistants are increasingly utilized in test-driven software development, yet the theoretical mechanisms behind their environment-interaction strategies remain underexplored. We provide a probabilistic framework for two dominant paradigms: code selection after generation using the execution environment, and code generation conditioned on environment feedback. First, we formalize several well-established selection heuristics as environment-aware estimators of code correctness. We theoretically prove that estimators based on fuzzy functional similarity add an inductive bias and strictly dominate estimators based on functional equivalence in terms of signal-to-noise ratio. Second, we frame backprompting as an in-context approximation of Thompson sampling. We derive a novel regret bound for reward functions with unobservable components, theoretically explaining why the effectiveness of backprompting is limited by the ambiguity of the informal task description (an irreducible regret). Using seven state-of-the-art open weight models, we corroborate these findings across BigCodeBenchHard, LeetCodeDataset, QiskitHumanEvalSim, and SWE-bench Verified. Our formalization also suggests how to improve task descriptions effectively, leading to an improved benchmark for LLM-assisted quantum programming, QiskitHumanEvalSimX.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.238725+00:00"
+}

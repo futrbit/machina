@@ -1,0 +1,18 @@
+{
+  "id": "6c36e604974eb818ba3286c7e2538afe2a307f9e0da085135f9b3af635832f43",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SPARE: Shared Perception and Adaptive Retrieval of Evidence for Streaming Video Understanding",
+  "url": "https://arxiv.org/abs/2610.14671",
+  "summary": "arXiv:2610.14671v2 Announce Type: replace Abstract: Streaming video understanding requires answering questions from the observed video, with evidence drawn from recent observations or earlier events. Historical context can improve recall but may interfere with judgments based on recent frames. Its usefulness depends on both when it is introduced and which clips are selected, while relevance alone does not guarantee sufficient evidence for an answer. We propose SPARE, a framework that combines adaptive historical retrieval with visual encoder sharing. A lightweight gate predicts whether recent observations provide sufficient evidence to answer the question. When additional evidence is predicted to be necessary, a multimodal embedding model retrieves relevant historical clips to supplement the current context. LoRA instruction tuning trains the understanding model to use recent observations and retrieved history jointly and abstain when the evidence remains insufficient. To reduce redundant visual parameters, the understanding and retrieval branches share a visual encoder while retaining separate language backbones. Four linear adapters align the shared features with the retrieval model through distillation at the visual token and final retrieval embedding levels. With visual-only inputs, SPARE achieves 77.78% on the evaluated Real-time and Backward task groups of OVO-Bench and 73.31% on StreamingBench. Compared with Qwen3-VL-8B-Instruct evaluated at 2 fps, SPARE improves accuracy by 20.68 percentage points on OVO-Bench and 14.15 percentage points on StreamingBench.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.087064+00:00"
+}

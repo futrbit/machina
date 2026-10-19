@@ -1,0 +1,22 @@
+{
+  "id": "d0ae359bbfecf198153f6a9d6ad35640c1b4c9adf8628f62e5578042ce517653",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DeepFedNAS: Efficient Hardware-Aware Architecture Adaptation for Heterogeneous IoT Federations via Pareto-Guided Supernet Training",
+  "url": "https://arxiv.org/abs/2601.15127",
+  "summary": "arXiv:2601.15127v4 Announce Type: replace-cross Abstract: Deploying federated learning across heterogeneous IoT device fleets requires tailored neural network architectures for each device class, yet existing Federated Neural Architecture Search (FedNAS) methods suffer from unguided supernet training and prohibitively costly post-training search pipelines that validate thousands of subnets to construct learned accuracy predictors. We introduce DeepFedNAS, a two-phase framework built on a multi-objective fitness function that synthesizes information-theoretic network metrics with architectural heuristics. In the first phase, Federated Pareto Optimal Supernet Training replaces random subnet sampling with a pre-computed cache of elite, high-fitness architectures, yielding a superior supernet. In the second phase, a Predictor-Free Search uses the structural fitness function as an accuracy proxy without constructing a learned subnet-accuracy predictor. In our CIFAR-10 benchmark, preparing the baseline predictor requires evaluating 10,000 subnets over the 5,000-image validation split, totaling 50 million image-level forward evaluations. DeepFedNAS eliminates these evaluations and selects a hardware-optimized architecture in $\\sim$20 seconds on a CPU. Experiments on CIFAR-10, CIFAR-100, and CINIC-10 demonstrate state-of-the-art accuracy and robust performance under extreme non-IID conditions ($\\alpha=0.1$). On CIFAR-100, DeepFedNAS provides an average 2.12-percentage-point gain across the four computation-budget intervals. Under the lowest evaluated computation budget, its mean result exceeds SuperFedNAS's best mean accuracy while using $2.95\\times$ fewer parameters. These results make DeepFedNAS practical for scalable, communication-constrained IoT federations. Source code: https://github.com/bostankhan6/DeepFedNAS",
+  "published": "2026-01-21T16:03:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.238983+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T13:13:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2601.15127v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.071908+00:00"
+}

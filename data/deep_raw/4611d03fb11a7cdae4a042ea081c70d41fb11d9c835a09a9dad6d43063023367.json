@@ -1,0 +1,22 @@
+{
+  "id": "4611d03fb11a7cdae4a042ea081c70d41fb11d9c835a09a9dad6d43063023367",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+  "url": "https://arxiv.org/abs/2610.12442",
+  "summary": "arXiv:2610.12442v1 Announce Type: new Abstract: Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model should receive as its condition and propose a lifting-free answer: a learned view synthesizer, an LVSM-style transformer fine-tuned to render the egocentric view directly without depth, point clouds, or reprojection, resolving cross-view correspondence internally. In contrast, its probabilistic mapping averages each region over candidate source locations according to a learned correspondence distribution, preserving structure while fine texture is averaged away. We argue that this trade-off suits a diffusion generator, whose denoising training excels at restoring detail, so an effective condition should prioritize structural alignment over sharpness. This distribution's concentration also yields a per-region confidence, used both to mask low-confidence regions and to guide the generator toward high-confidence areas during early layout-forming denoising steps. Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining. The synthesizer thus supplies view structure, and the diffusion model its detail.",
+  "published": "2026-10-08T17:58:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.764040+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:58:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12442v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.881830+00:00"
+}

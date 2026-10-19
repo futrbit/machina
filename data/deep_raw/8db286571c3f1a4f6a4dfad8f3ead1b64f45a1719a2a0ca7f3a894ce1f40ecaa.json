@@ -1,0 +1,21 @@
+{
+  "id": "8db286571c3f1a4f6a4dfad8f3ead1b64f45a1719a2a0ca7f3a894ce1f40ecaa",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies",
+  "url": "https://arxiv.org/abs/2610.11573",
+  "summary": "arXiv:2610.11573v1 Announce Type: new Abstract: The memory capabilities of Large Language Models (LLMs) have garnered increasing attention recently. Despite great success achieved, existing retrieval-based memory approaches typically overlook the differences between memories and employ a unified strategy to process all memories, leading to suboptimal performance. Thus, an intuitive question arises: can we categorize memory into different types and select appropriate strategies? However, given the topic-rich, scenario-complex, and boundary-blurred nature of memory scenarios, achieving precise classification of memories is not easy. To address this challenge, we propose a memory multi-class dataset in this paper, termed TriMEM, which provides precise annotations for memory types across diverse scenarios. Building upon this foundation, we propose a novel memory framework, named MemoType, which can adaptively recognize each memory and query type with the learned router model. With the memory and query routing, MemoType can retrieve the memory with corresponding query types and design tailored retrieval strategies, thereby enhancing the retrieval performance. Moreover, we theoretically prove that any single retrieval strategy is subject to a fundamental upper bound on its expected retrieval precision in multi-class corpora, leading to systematic precision degradation. Extensive experiments on three datasets demonstrate that MemoType consistently outperforms existing methods, achieving up to 16.18% improvement in Recall@1.",
+  "published": "2026-10-08T09:28:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.370388+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:28:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11573v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.710728+00:00"
+}

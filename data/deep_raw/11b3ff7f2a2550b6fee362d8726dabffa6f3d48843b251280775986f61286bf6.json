@@ -1,0 +1,22 @@
+{
+  "id": "11b3ff7f2a2550b6fee362d8726dabffa6f3d48843b251280775986f61286bf6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "EchoPress: Query-Agnostic KV Cache Pruning via Virtual Context Reconstruction",
+  "url": "https://arxiv.org/abs/2610.00412",
+  "summary": "arXiv:2610.00412v1 Announce Type: new Abstract: KV cache pruning reduces long-context inference memory usage by evicting less important key-value pairs. KVzip estimates importance through context reconstruction: prompting a model to repeat the context chunk by chunk. This achieves strong compression quality at the cost of additional forward passes. Learned approximations reduce this cost but require model-specific training. We analyze how KVzip identifies important cached information and show how to approximate its reconstruction scores using information already computed during prefill. These findings motivate EchoPress, a training-free method that approximates reconstruction attention using queries and keys from standard prefill. For each request, it reconstructs only the first chunk to calibrate importance scores for the remaining context. Experiments on LongBench and RULER with Qwen3-8B and Llama-3.1-8B-Instruct show that EchoPress matches KVzip in task accuracy across eviction ratios from 50% to 90%, while reducing compression overhead by a factor of 1.7-19.6 and total prefill time by a factor of up to 2.9. Code is available at https://github.com/ljwljwljwljw/kvpress/tree/echo-press.",
+  "published": "2026-09-30T14:04:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.773510+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T14:04:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00412v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.720924+00:00"
+}

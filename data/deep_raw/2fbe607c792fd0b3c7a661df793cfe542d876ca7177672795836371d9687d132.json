@@ -1,0 +1,21 @@
+{
+  "id": "2fbe607c792fd0b3c7a661df793cfe542d876ca7177672795836371d9687d132",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ProtoSemImage: Image-Valued Prototypes with Deformable Row Alignment for Interpretable Document Classification",
+  "url": "https://arxiv.org/abs/2610.11460",
+  "summary": "arXiv:2610.11460v1 Announce Type: cross Abstract: Prototypes in classification models are almost always vectors, and a vector has no readable form. This paper asks what happens when a prototype is an image. Documents give the question a natural form, because a document can be rendered as a multi-channel image in which every token becomes a pixel, so a class representative can take the same shape and the same channel semantics as the inputs it stands for. ProtoSemImage represents each class by one or more visual archetypes: prototype images in a four-channel HSV space whose channels carry named linguistic factors. A Skip-Gram objective learns that color space end to end through a four-dimensional bottleneck, discourse boundary rows become differentiable typed difference rows, and classification reduces to 2D visual template matching: a deformable row alignment between a document image and the archetype bank, in the spirit of dynamic time warping. Because the match is a spatial pattern comparison rather than a linear readout, the model reports where an input departs from its archetype and along which channel, and a generative head decodes each archetype back into text. The image representation works: it beats an otherwise identical model with vector prototypes in all three paired seeds, by between 4.3 and 11.8 points on a ten-class task. The distance-based matching does not. A diagnostic that keeps the representation fixed and swaps only the classifier recovers the sequence baselines, which locates a 20.6-point shortfall in the matching rather than in the color compression, and a benchmark built so that a pair of documents shares a bag of words and differs only in arrangement confirms the layout-preservation it was designed for. We report both directions, because for a representation whose whole purpose is inspect ability, the failure modes are as informative as the gains.",
+  "published": "2026-10-08T08:12:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.391375+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:12:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11460v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.412114+00:00"
+}

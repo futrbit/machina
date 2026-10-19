@@ -1,0 +1,21 @@
+{
+  "id": "732a156d9c879fce90a6ed0007c7f84f94859d6603c046009ba560c3d16f4e9b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
+  "url": "https://arxiv.org/abs/2609.30059",
+  "summary": "arXiv:2609.30059v2 Announce Type: replace-cross Abstract: Deep learning inference and training performance depends critically on GPU kernel efficiency. Modern compilers such as PyTorch Inductor automatically generate GPU kernels from high-level model code, but frequently underperform expert-written implementations by wide margins. Recent LLM-assisted kernel optimizers can close this gap for standalone kernels, yet treat compiled models as black boxes, generally optimizing individual standalone kernels without respecting the compiler's structural decisions or verifying the model end-to-end. We present KernelOPT, a multi-agent system that treats compiled models as structured artifacts. It preserves vendor library calls (cuBLAS, cuDNN) and exclusively targets generated Triton sub-kernels using five profiling-guided LLM agents. A four-gate verification cascade applies static validation, multi-seed correctness checking, model-level float64-fallback verification, and performance gating ($\\gamma{=}1.03$) to filter candidates and verify the re-stitched model end-to-end. When candidates fail verification, the system preserves the compiler baseline. The system accepts PyTorch nn Modules, standalone Triton kernels, and Helion kernels. Evaluated on 250 KernelBench problems (100 Level 1, 100 Level 2 and 50 Level 3) on NVIDIA H200, KernelOPT achieves geometric mean speedups over torch compile of 1.40$\\times$ (L1), 1.15$\\times$ (L2), and 1.07$\\times$ (L3) across all kernels, including fallback cases. Optimized-only geomeans (excluding cases where verification gates preserve the compiler baseline) are substantially higher: 2.54$\\times$ (L1: 36/100), 1.84$\\times$ (L2: 23/100), and 1.37$\\times$ (L3: 11/50), reflecting where the optimizer achieves meaningful leverage.",
+  "published": "2026-09-24T16:17:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.200783+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:23:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30059v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.195039+00:00"
+}

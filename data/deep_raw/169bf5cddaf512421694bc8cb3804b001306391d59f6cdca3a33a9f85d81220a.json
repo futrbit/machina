@@ -1,0 +1,21 @@
+{
+  "id": "169bf5cddaf512421694bc8cb3804b001306391d59f6cdca3a33a9f85d81220a",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "TAPNAV: Humanoid Navigation through Tactile Active Perception",
+  "url": "https://arxiv.org/abs/2610.10748",
+  "summary": "arXiv:2610.10748v1 Announce Type: new Abstract: Navigation in vision-denied environments is challenging for humanoid robots because proprioceptive odometry drifts and localization uncertainty accumulates rapidly. We present TAPNAV, a tactile active-perception framework that enables humanoid navigation toward a goal by actively probing surrounding structures without relying on vision. TAPNAV maintains a pose belief from odometry, IMU, and tactile contact observations, and couples uncertainty-aware global route planning with information-gain-driven local probing. The global planner searches for routes that keep predicted localization uncertainty bounded by exploiting opportunities for tactile correction, while the local planner selects probe actions that maximize expected information gain. A whole-body controller coordinates the humanoid's locomotion and end-effector contact to execute the planned navigation and probe motions. We evaluate TAPNAV in simulation and on a Unitree G1 across different floor plans and obstacle geometries. TAPNAV achieves lower state estimation error and a higher task completion rate than baselines. These results demonstrate that actively planning physical interactions with the environment can provide localization cues for reliable humanoid navigation without vision.",
+  "published": "2026-10-07T18:14:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.731548+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:14:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10748v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.848846+00:00"
+}

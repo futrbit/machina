@@ -1,0 +1,21 @@
+{
+  "id": "354be3b57ae3affea8045029ee8205627589831b390e7009bdf1b720ee4cf4c0",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PMTRM: Pseudo-Memory Temporal Re-encoding Module for Embodied Policy Learning",
+  "url": "https://arxiv.org/abs/2610.11168",
+  "summary": "arXiv:2610.11168v1 Announce Type: new Abstract: Robotic manipulation often contains repeated motions whose local observations look similar at different phases. When these phases require different actions, a policy that relies mainly on the current observation may repeat completed motions or switch phases at the wrong time. To address this phase ambiguity, we present the Pseudo-Memory Temporal Re-encoding Module (PMTRM), a lightweight plug-in module with only 7.61M parameters that encodes a bounded history of executed states and actions into a latent sequence for existing policies. To help distinguish phases, a temporal heterogeneity objective penalizes positive similarity between distant positions in this sequence, while anchor and reconstruction losses preserve information needed for action prediction. The reconstruction decoder is used only during training, leaving the temporal re-encoder to supply history to the policy at inference. We train the module progressively on synthetic sequences and robot data, then jointly with the policy, using temporal masking to accommodate partial histories. This integration retains the original action head and action space and adds auxiliary losses to the original policy loss. Experiments with multiple policy backbones in simulation and on a real robot show improved task success on tasks with phase ambiguity, with little additional computation.",
+  "published": "2026-10-08T03:25:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.734547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:25:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11168v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.608994+00:00"
+}

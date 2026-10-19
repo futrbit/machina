@@ -1,0 +1,21 @@
+{
+  "id": "09079dfbc37f62b49041e9ffe42a40400dd3c1e4bf57af14d8432202f4fac26a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Token by Token, Compromised: Backdoor Vulnerabilities in Unified Autoregressive Models",
+  "url": "https://arxiv.org/abs/2605.19227",
+  "summary": "arXiv:2605.19227v2 Announce Type: replace-cross Abstract: Unified autoregressive models (UAMs) are transformer models that generate text as well as image tokens within a single autoregressive pass. Shared parameters and a multimodal vocabulary simplify the training pipeline and facilitate flexible multimodal generation, yet might introduce new vulnerabilities. In particular, we are the first to show that this unified architecture enables multimodal backdoor attacks, where a trigger can propagate malicious effects across multiple output modalities. Specifically, we present the Token by Token Backdoor Attack (ToBAC), the first backdoor attack targeting UAMs, exploring both data-based and model-based poisoning strategies. We demonstrate that inconspicuous characters or even common words can be transformed into triggers that elicit harmful behavior in autoregressive image generation. ToBAC can jointly manipulate visual outputs and accompanying text, increasing the perceived authenticity of fabricated content. With model access, ToBAC enables attacks on the Liquid model in which a subtle word (e.g., \"cool\") induces modality-aligned brand promotion or ideological influence in 55% of generations. Without model access, ToBAC can be induced through data poisoning, achieving an average success rate of 63.1% against JanusPro. Our code is available at https://github.com/multimodal-ai-lab/ToBAC.",
+  "published": "2026-05-19T00:55:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.420357+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:27:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.19227v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.446089+00:00"
+}

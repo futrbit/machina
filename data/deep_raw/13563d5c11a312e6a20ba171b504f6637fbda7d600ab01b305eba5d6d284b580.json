@@ -1,0 +1,22 @@
+{
+  "id": "13563d5c11a312e6a20ba171b504f6637fbda7d600ab01b305eba5d6d284b580",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "AnchorPrompt: Self-Distilled Soft Prompts for Robust Audio-Language Models",
+  "url": "https://arxiv.org/abs/2610.00706",
+  "summary": "arXiv:2610.00706v1 Announce Type: cross Abstract: Large audio-language models (LALMs) are sensitive to input perturbations, such as noise, waveform corruption, and adversarial injections. We propose AnchorPrompt, an efficient adaptation method that keeps the model frozen and learns a single block of prompt vectors inserted at the decoder input, between the audio and question embeddings. We train these vectors through self-distillation over diverse audio and text perturbations. To improve answer consistency and mitigate hallucination, we use the model's prediction on the clean recording as the target for answerable inputs, and assign a refusal target when the audio lacks sufficient evidence to answer. Furthermore, AnchorPrompt is perturbation-agnostic at inference, requiring no prior detection of perturbations and enabling zero-shot transfer to unseen distortions. We evaluate three LALMs across three benchmarks and show that AnchorPrompt improves answer consistency in most tested conditions. Clean accuracy improves in six of nine model-benchmark pairs, with minimal impact on the remainder of 1.2% at most. Crucially, AnchorPrompt reduces hallucinations under severe audio corruption while keeping false refusals on clean audio rare. Finally, these consistency gains transfer to unseen perturbations, such as choice permutations and reverberation.",
+  "published": "2026-09-30T20:53:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.812484+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T20:53:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00706v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.758900+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "e0ce23693b03c821bea0f45ec6d7b8b53db22685da495dc5526f9f0372518686",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Benchy: towards a universal language for task-oriented AI benchmarks",
+  "url": "https://arxiv.org/abs/2609.30550",
+  "summary": "arXiv:2609.30550v1 Announce Type: new Abstract: Benchy is a semantic language and execution engine for benchmarking AI programs. A benchmark is completely specified by a program, a scoring function, and a dataset, B=(P,S,D), and is separate from the AI-system taking it; a run binds the two, R=(B,AI). Benchmarks are authored as canonical YAML in which each semantic concept has one valid syntax, classified by a shared task/domain/language ontology, and deterministically compiled into a canonical JSON intermediate representation that the engine executes. Compilation changes representation, not meaning: it does not repair invalid definitions or inject hidden defaults. Programs use fixed schemas of named input and output fields, the leaf output fields are the scoring dimensions, and the engine exposes one universal runtime contract --- a named-field input object in, a named-field output object out --- to which external AI-systems adapt at the boundary, so integration mechanics never propagate into benchmark semantics. This paper gives the semantic object model, the ontology and task-to-program validation rule, the scoring and failure semantics, the compilation and execution architecture, and the scope of the current language. An appendix fixes the normative engineering contract for the first engine implementation.",
+  "published": "2026-09-24T20:57:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.412518+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T20:57:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30550v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.255796+00:00"
+}

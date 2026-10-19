@@ -1,0 +1,18 @@
+{
+  "id": "484de1752511d4c2887ed221421d1e44512f8fada3fe20b8f534bcbc334e8eb5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Practical and Private Hybrid ML Inference with Fully Homomorphic Encryption",
+  "url": "https://arxiv.org/abs/2509.01253",
+  "summary": "arXiv:2509.01253v2 Announce Type: replace-cross Abstract: In contemporary cloud-based services, protecting users' sensitive data and ensuring the confidentiality of the server's model are critical. Fully homomorphic encryption (FHE) enables inference directly on encrypted inputs, but its practicality is hindered by expensive bootstrapping and inefficient approximations of non-linear activations. We introduce Safhire, a hybrid inference framework that executes linear layers under encryption on the server while offloading non- linearities to the client in plaintext. This design eliminates bootstrapping, supports exact activations, and significantly reduces computation cost. To safeguard model confidentiality despite client access to intermediate outputs, Safhire applies randomized shuffling, which obfuscates intermediate values and makes it practically impossible for a client to reconstruct the model. To further reduce inference latency, Safhire incorporates advanced optimizations such as fast ciphertext packing and partial extraction. Evaluations on multiple standard models and datasets show that Safhire achieves up to 7.6x and 7.4x lower inference latency than Orion and Concrete-ML, respectively, which are two state-of-the-art FHE baselines, with manageable communication overhead and comparable accuracy. These results underline the practicality of our hybrid FHE inference scheme.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.280700+00:00"
+}

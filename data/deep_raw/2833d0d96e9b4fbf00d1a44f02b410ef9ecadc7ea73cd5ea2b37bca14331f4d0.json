@@ -1,0 +1,21 @@
+{
+  "id": "2833d0d96e9b4fbf00d1a44f02b410ef9ecadc7ea73cd5ea2b37bca14331f4d0",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Infrared Subtraction with Artificial Intelligence",
+  "url": "https://arxiv.org/abs/2609.36007",
+  "summary": "arXiv:2609.36007v3 Announce Type: replace-cross Abstract: We present AI-developed local infrared subtraction, building on projection to Born and EFT matching. The framework separates an integrable radiation term from a finite contribution at Born kinematics, referred to as the Born contact. The contact is determined using the EFT singular distribution in a resolution observable such as N-jettiness $\\tau_N$. Under human physics guidance, an LLM develops two implementations. One uses a neural network for phase space projection and fits the contact by matching to EFT cumulants. The other uses an analytic construction that keeps the Born momenta fixed while integrating over radiation. It combines the EFT $\\delta(\\tau_N)$ coefficient with finite 4-dimensional radiation integrals to calculate the contact term directly. This gives a local subtraction formula without a slicing parameter, while reusing existing lower-order radiation calculations and EFT singular predictions. As a demonstration, we reconstruct the full NLO correction for massless 3- and 4-jet production in electron-positron annihilation. The attempt to the NNLO dijet production is also made by recursively using the NLO P2B construction with the LLM designing machine-learning controls to reduce the variance of the contact integral. The tested predictions are in good agreement with EERAD3. The numerical calculation and projection-network training use a 2020 Apple M1 MacBook, without GPU acceleration, illustrating the feasibility of the construction with modest computing resources. The appendices develop an extension of the local subtraction to 3-jet NNLO, giving explicit radiation maps and a proposed contact formula. We also show how to integrate over NNLO radiation while keeping the Born momenta fixed, for any number of massless final-state jets. Our results demonstrate how AI can help higher-order calculations by constructing infrared subtraction and improving its numerical integration.",
+  "published": "2026-09-28T18:00:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.200783+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:02:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.36007v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.259205+00:00"
+}

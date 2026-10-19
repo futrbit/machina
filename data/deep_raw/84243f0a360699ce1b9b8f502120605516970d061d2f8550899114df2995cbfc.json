@@ -1,0 +1,22 @@
+{
+  "id": "84243f0a360699ce1b9b8f502120605516970d061d2f8550899114df2995cbfc",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "MiniVer-V: Identifying Minimal Sufficient Evidence for Short Video Verification",
+  "url": "https://arxiv.org/abs/2610.11233",
+  "summary": "arXiv:2610.11233v1 Announce Type: new Abstract: A core challenge in short-video fact-checking is identifying which evidence is sufficient to support a verification conclusion. Existing approaches either give the verifier all available evidence, introducing noise, or select evidence by topical relevance, which conflates relatedness with sufficiency. We identify evidential sufficiency as the selection criterion: whether a subset of evidence is adequate to support a confident verdict without redundancy. We introduce MiniVer-V, a benchmark of 195 short videos with three-way verdict annotations (supported, refuted, insufficient) and 5,510 multimodal evidence units spanning visual keyframes, speech transcripts, and web-retrieved external sources. We propose a two-layer verification framework that separates claim-video consistency, assessed from internal evidence, from factual verdict determination, which additionally requires external corroboration. On top of it, a sufficiency-driven greedy search assembles evidence until a sufficiency threshold is met and outputs insufficient when the candidate pool is exhausted, rather than forcing a verdict. With Claude Sonnet 4, the method reaches a Macro-F1 of 0.510 using 4.5 evidence units on average (16% of the full evidence set), statistically indistinguishable from the full-evidence baseline (0.518 with 27.7 units), while significantly improving recognition of insufficient cases over the same search without abstention. The efficiency result replicates with GPT-5.5 and holds only partially with an open-weight Qwen2.5-72B verifier. Ablations show that external evidence is indispensable for factual determination, while internal video evidence grounds the verdict in claim-video consistency. These findings suggest that evidence-efficient verification is achievable, and that explicit abstention is needed when evidence is genuinely inadequate.",
+  "published": "2026-10-08T04:33:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.743055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:33:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11233v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.520842+00:00"
+}

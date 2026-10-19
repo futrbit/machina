@@ -1,0 +1,21 @@
+{
+  "id": "8ed365798bf18a20fb5d478a1b6282057ca3b22a3b16c9ac5b16e28f008be647",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Mid-Training Language Models on Raw Video",
+  "url": "https://arxiv.org/abs/2610.11019",
+  "summary": "arXiv:2610.11019v1 Announce Type: cross Abstract: Multimodal large language models learn mostly from paired image-text data or annotated video, and raw web video is rarely used to further train an existing language model. We study whether raw video, with no captions and no text loss, can serve as mid-training data for a pretrained language model. Frames are encoded into continuous visual tokens, and the language model learns to predict the next visual token. We mid-train Qwen3-1.7B on raw clips from YT-Temporal-1B and then apply the same image-text instruction tuning to it and to the model without mid-training, so that the two differ only in mid-training. The mid-trained model scores 2.9 points higher on average across four video benchmarks and 5.1 points higher across ten image benchmarks, spanning perception, document, and chart tasks. Text performance is preserved even though mid-training includes no text, with an average of 48.9 across 14 text benchmarks compared with 48.0 for the model without mid-training. Analyses across training show that the image and video gains emerge within 30% of training and plateau thereafter, varying by less than 0.5 points. Predicting captions fails to outperform next-visual-token prediction, demonstrating that video mid-training can remain purely self-supervised without the computational overhead or labeling noise of automated captioning.",
+  "published": "2026-10-08T00:03:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.386380+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T00:03:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11019v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.776889+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "f5a919755534f672d39e7d9169b4d752bb16ab409a8e9c081be93ab2b08f622e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Dynamics as Code: On Model Compression via Dynamic System",
+  "url": "https://arxiv.org/abs/2610.11115",
+  "summary": "arXiv:2610.11115v1 Announce Type: new Abstract: The escalating size of pretrained neural networks has rendered model compression a prerequisite for deployment under stringent memory and compute constraints. With the irrational winding as an example, earlier work introduced a dynamic system (DS) paradigm that reconceptualizes compression as compact weight representation: high-dimensional parameters are encoded by the index of a trajectory produced by a dynamic system, from which the vector is recovered during decompression. This mechanism is fundamentally distinct from pruning, quantization, knowledge distillation, and low-rank decomposition. Along this direction, we prove that under a Diophantine condition, a finite trajectory of \\(M = O(\\epsilon^{-(d+\\nu)})\\) states in the irrational winding constitutes an \\(\\epsilon\\)-net over the \\(d\\)-dimensional weight space, thereby linking state resolution, decompression error, and compression ratio in a predictable manner. Furthermore, we propose a generalized DS-based model compression framework by unifying four DS families---space-filling curves (Hilbert, Peano, Morton/Z-order, Snake), chaotic systems (Lorenz), congruential and pseudo-random generators (LCG, PCG), and low-discrepancy sequences (Halton). Also, we introduce the KD-tree and coordinate-template acceleration to scale to large models as well as outlier identification to control the error. Experiments on ResNet-18 and Qwen2.5-1.5B/Qwen1.5-7B validate that DS-based compression achieves competitive compression ratios without post-hoc retraining, with controllable decompression error and flexible state-space design, establishing it as a principled and practical compression approach.",
+  "published": "2026-10-08T02:39:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.081435+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:39:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11115v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.503647+00:00"
+}

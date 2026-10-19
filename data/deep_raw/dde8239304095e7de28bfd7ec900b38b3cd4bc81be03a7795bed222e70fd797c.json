@@ -1,0 +1,21 @@
+{
+  "id": "dde8239304095e7de28bfd7ec900b38b3cd4bc81be03a7795bed222e70fd797c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Scale-Invariant Training for Time Series Foundation Models",
+  "url": "https://arxiv.org/abs/2610.07324",
+  "summary": "arXiv:2610.07324v1 Announce Type: cross Abstract: Time series foundation models (TSFMs) are trained on large collections of time series datasets that span various morphologies and domains. This setting exposes models to series whose scales -- typical magnitudes of their values -- can differ substantially. Affine scaling methods such as Reversible Instance Normalization (ReVIN) scale model inputs and reverse the transform before computing the loss. We show that this inversion multiplies each series' gradient by $b^p$ relative to loss on scaled targets, where $b$ is the scaling denominator (e.g., standard deviation) and $p$ is the loss degree. We call this scale-contaminated training (ScaleCon), because the scale of each series consequently becomes an importance weight, causing high-scale series to dominate training. For any scale-equivariant scaler and residual loss that is homogeneous of degree $p$, including MSE, MAE, and Quantile Loss, we prove that computing loss on scaled targets makes every mini-batch gradient and, consequently, the full optimization trajectory invariant to arbitrary independent rescaling of the training series, yielding scale-invariant training (ScaleIn). Notably, existing TSFMs use both objectives, with neither consistent reporting nor a common convention on how to compute training loss. We isolate the convergence disparity induced by ScaleCon and its correction under ScaleIn in controlled studies on synthetic and real data. In pretraining across four TSFM architectures, ScaleIn lowers MASE in all 24 architecture-benchmark comparisons, with average reductions across TSFMs of 18.8% on GIFT-Eval and 21.9% on the M-competitions. The gains extend to supervised neural forecasting, where it lowers MASE in 16 of 20 matched settings. Most existing time series forecasting pipelines can adopt ScaleIn with a one-line code change.",
+  "published": "2026-10-05T19:56:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.160808+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:56:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07324v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.925599+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "8127b1fda53380a01866d62476952c046ddabf97ecfa1c622241092a15342e04",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Fluid-Gen-Zero: Grounding Pretrained Video Generators in Physics without Training",
+  "url": "https://arxiv.org/abs/2610.10984",
+  "summary": "arXiv:2610.10984v1 Announce Type: new Abstract: We present Fluid-Gen-Zero, a training-free framework for physics-aware fluid-object interaction video generation that decouples physical reasoning from appearance synthesis. Our key insight is to delegate motion dynamics to a physics simulator while preserving the appearance modeling capacity of pretrained video generators. We bridge these two domains through a two-level agentic workflow: generation-time planning, where a vision-language model (VLM) agent interprets intent and the simulation rollout to organize generation clips, and latent-space guidance, which injects simulation signals into denoising through region-aware latent wrapping. This plug-and-play design is compatible with current video foundation models. We further introduce a benchmark for fluid-object interaction video generation. Across Tora (CogVideoX-based), VACE and WanMove (Wan-based), Fluid-Gen-Zero consistently improves simulation alignment, reducing object trajectory error by 26.7%-81.5% and fluid fEPE (fluid flow endpoint error) by 67.9%-84.0%, while largely preserving perceptual quality. In a human preference study, raters favor Fluid-Gen-Zero in 55.1%-74.4% of same-backbone comparisons across three backbones, and in 90.4%-94.2% of comparisons against simulation-based methods. Code and data will be released upon acceptance.",
+  "published": "2026-10-07T23:16:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.737056+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T23:16:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10984v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.460878+00:00"
+}

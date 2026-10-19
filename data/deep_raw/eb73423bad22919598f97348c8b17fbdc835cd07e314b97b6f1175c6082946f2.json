@@ -1,0 +1,22 @@
+{
+  "id": "eb73423bad22919598f97348c8b17fbdc835cd07e314b97b6f1175c6082946f2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "PACT: End-to-End Learning of Human Pose, Contacts, and Forces from Video",
+  "url": "https://arxiv.org/abs/2610.00451",
+  "summary": "arXiv:2610.00451v1 Announce Type: cross Abstract: Human motion, environmental contacts, and interaction forces are governed by common physical laws, yet existing approaches typically separate visual pose reconstruction from contact and force estimation. This separation limits joint reasoning and can propagate errors between stages. We introduce PACT, an end-to-end model that jointly learns to estimate human pose, contacts and contact forces from monocular video. Our approach augments a human reconstruction foundation model with learnable contact-force tokens and a temporal transformer that integrates visual features with world-space motion. Joint prediction heads refine human poses and estimate contacts and forces, while physics-based supervision encourages consistency between the reconstructed motion and interaction forces. To address the scarcity of force annotations, we develop a data annotation pipeline that combines contact labeling with physics-based motion and force optimization, producing training supervision from synthetic and real-world videos. We also introduce a real-world climbing benchmark ForceWall with climbing videos and corresponding ground-truth contact forces obtained from the force sensors. Experiments demonstrate state-of-the-art contact and force estimation, outperforming staged reconstruction approaches and generalizing to interactions beyond the training distribution. These results support end-to-end joint learning as an effective approach to recovering human motion and physical interactions from video.",
+  "published": "2026-09-30T17:59:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.809486+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-05T06:52:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00451v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.379721+00:00"
+}

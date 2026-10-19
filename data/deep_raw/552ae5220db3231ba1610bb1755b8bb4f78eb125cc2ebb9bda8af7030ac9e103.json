@@ -1,0 +1,22 @@
+{
+  "id": "552ae5220db3231ba1610bb1755b8bb4f78eb125cc2ebb9bda8af7030ac9e103",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Transforming Image Editors into Video Editors",
+  "url": "https://arxiv.org/abs/2610.11037",
+  "summary": "arXiv:2610.11037v1 Announce Type: new Abstract: Recent image editing systems have achieved impressive semantic understanding, visual fidelity, and instruction-following ability, while video editing remains substantially more difficult and costly. In this paper, we present a simple alternative to end-to-end video editing: instead of training a monolithic video editor, we transform a strong image editor into a video editor through anchor-based generation. Our key insight is that video editing can be decomposed into two subproblems: editing a sparse set of keyframes and propagating those edits across time. Based on this observation, we propose Anchor-based Video Editing (AVE), a two-stage framework in which a powerful image editor first performs composed editing on selected keyframes, and a motion-guided image-to-video diffusion model then generates the final video by treating the edited keyframes as fixed anchors. This design directly inherits the strengths of modern image editors while avoiding expensive end-to-end video editing training. Experiments on IVEBench and VIE-Bench show that AVE achieves strong performance in instruction following, temporal consistency, and content fidelity. Further ablations reveal that final video editing quality is strongly correlated with the quality of the image editor, suggesting that future progress in video editing may come from stronger image editing foundations and lightweight transfer to video. Code is available at https://github.com/wangf3014/AVE.",
+  "published": "2026-10-08T00:43:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.738056+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T00:43:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11037v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.590403+00:00"
+}

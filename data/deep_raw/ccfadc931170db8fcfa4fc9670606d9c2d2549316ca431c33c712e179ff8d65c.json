@@ -1,0 +1,21 @@
+{
+  "id": "ccfadc931170db8fcfa4fc9670606d9c2d2549316ca431c33c712e179ff8d65c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "HygieneRoboBench: Benchmarking Hygiene-Aware Planning for Household Robots",
+  "url": "https://arxiv.org/abs/2610.08642",
+  "summary": "arXiv:2610.08642v1 Announce Type: cross Abstract: Contact with contaminated objects can spread hazards through a household robot's grippers, tools, and shared surfaces, while new contacts can make an existing plan unsafe. Existing benchmarks do not jointly assess how planners identify hygiene risks from contact history and plan safe continuations after new contact events. Planners must do so within time and resource limits while respecting user priorities. We introduce HygieneRoboBench, with 624 instances across 134 task families, to evaluate safe resolution of household tasks from a given execution history. Tasks capture contamination through two grippers and shared objects, treatment costs, and user priorities. We combine controlled history, profile, and event comparisons with independent plan evaluation. These assess safe resolution, cost efficiency under user priorities, and responses to contact events. Evaluation of LLM-based and symbolic planners shows that safely completing a task does not guarantee the lowest execution costs under the user's priorities. To address this problem, we introduce Hygiene-NSP. It combines LLM-based grounding, contact-history reconstruction, and CP-SAT to jointly plan hygiene treatment and task execution under user priorities. Hygiene-NSP achieves safe resolution and optimal safe resolution rates of 94.4% and 90.4%, respectively. Both rates are higher than those of the evaluated baseline planners on the full dataset. Project page: https://euron-zc.github.io/HygieneRoboBench/.",
+  "published": "2026-10-06T16:33:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.178797+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:33:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08642v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.028536+00:00"
+}

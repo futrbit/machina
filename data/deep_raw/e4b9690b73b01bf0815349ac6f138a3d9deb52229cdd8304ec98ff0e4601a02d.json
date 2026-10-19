@@ -1,0 +1,18 @@
+{
+  "id": "e4b9690b73b01bf0815349ac6f138a3d9deb52229cdd8304ec98ff0e4601a02d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "When Is Language-Model Advice Worth Buying? A Matched-Budget Study of Predictive Gating in Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2609.29548",
+  "summary": "arXiv:2609.29548v2 Announce Type: replace Abstract: Language-model advice can accelerate reinforcement learning, but every call has a price, and a returned suggestion may be unparsable, unsafe to execute, or no better than the agent's own action. We introduce certified predictive advice gating, a cost-aware controller that forecasts possible advisor responses, values the action actually executed after parsing, execution checks, and cache reuse, and requests advice only when a calibrated lower bound on that value covers the price. Our analysis separates the gap of executed advice, cumulative regret under an intervention-stable fallback, and myopic acquisition loss. On BabyAI GoToObj with Qwen2.5-1.5B and 7B advisors, the gate improves return over no advice by paired $0.029\\pm0.016$ and $0.030\\pm0.015$ while using more than $97\\%$ fewer calls than always asking. Matched-budget comparisons, however, do not resolve an advantage over an early query schedule, so the gain reflects economical advice volume rather than demonstrated state selection. Groupwise calibration raises coverage on positive-value opportunities from $0.47$ to $0.85$, still below the $0.90$ target. A separate headroom-aware gate reports paired gains over an early schedule of $0.032\\pm0.012$ and $0.029\\pm0.011$ on GoToObj and $0.027\\pm0.011$ and $0.028\\pm0.012$ on GoToObjDoor, and adds BabyAI and ALFWorld success, decision-stratum coverage, and component timing. These results separate return gains, query placement, and execution screening; finite-sample deployment guarantees remain unestablished.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.229731+00:00"
+}

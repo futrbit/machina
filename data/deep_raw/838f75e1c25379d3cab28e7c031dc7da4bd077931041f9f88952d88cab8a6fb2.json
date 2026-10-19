@@ -1,0 +1,21 @@
+{
+  "id": "838f75e1c25379d3cab28e7c031dc7da4bd077931041f9f88952d88cab8a6fb2",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Internalizer: Portable Context-to-Parameter Mapping for Very Large Language Models",
+  "url": "https://arxiv.org/abs/2610.11715",
+  "summary": "arXiv:2610.11715v1 Announce Type: new Abstract: Hypernetworks that map a context directly to a LoRA adapter let a large language model carry that context in its weights, but prior work has demonstrated them only on base models of up to 14 billion parameters. We present the Internalizer, a state-of-the-art, portable Context-to-Parameter Mapping hypernetwork that generates document-specific LoRA adapters for the frozen 284B-parameter DeepSeek v4 Flash, a target two orders of magnitude larger than in any previous work. Most of its parameters live in a model-agnostic trunk with only thin entry and exit layers per base model, so it trains cheaply against small models before being ported to the large one. On unseen documents of up to 4096 tokens, the generated adapters reach 84.9% top-1 and 97.8% top-5 teacher-forced accuracy against 63.4% and 83.5% for the base model, with nothing in the context window but a three-word instruction. Once the hypernetwork is trained, a single forward pass turns any document into an adapter for such a model, which could be served alone for speed or alongside the document in the window to raise accuracy further.",
+  "published": "2026-10-08T11:19:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.372387+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:19:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11715v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.227019+00:00"
+}

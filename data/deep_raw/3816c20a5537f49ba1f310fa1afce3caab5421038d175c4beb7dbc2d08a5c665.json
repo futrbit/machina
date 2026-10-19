@@ -1,0 +1,22 @@
+{
+  "id": "3816c20a5537f49ba1f310fa1afce3caab5421038d175c4beb7dbc2d08a5c665",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Footprint-Aware, High-Resolution Approach for Carbon Flux Prediction Across Diverse Ecosystems",
+  "url": "https://arxiv.org/abs/2512.01917",
+  "summary": "arXiv:2512.01917v2 Announce Type: replace Abstract: Eddy-covariance (EC) flux towers provide in situ measurements of $CO_2$ flux and serve as the ground-truth data for predictive `upscaling' models derived from satellite products. However, many satellites now resolve spatial scales smaller than an EC tower's footprint. We show theoretically that upscaling models trained on high-resolution data in heterogeneous landscapes must account for an EC tower's footprint to avoid bias in pixel-level predictors. To address this problem, we introduce Footprint-Aware Regression (FAR), a deep-learning framework that simultaneously predicts spatial footprints and pixel-level estimates of $CO_2$ flux, and show it yields unbiased pixel-level predictions given sufficient training data. We demonstrate FAR on our AMERI-FAR25 dataset, which combines 205 site-years of tower data with corresponding Landsat scenes, and show that FAR outperforms non-footprint-aware models. FAR increased half-hourly $R^2$ from approximately 0.575 to 0.634 and reduced RMSE by about 7% relative to the best fixed-footprint baseline on a dataset of withheld sites. Gains are larger for monthly and yearly averages relative to a coarser 990 m baseline. Site-level analyses show that these gains extend across multiple ecosystem types. These performance gains are observed whether footprints are learned jointly or estimated independently using an established footprint model, despite substantial variation in footprint size between methods. In a regional comparison over the Western Cascades, FAR produces flux estimates with a distribution comparable to that of existing high-resolution process-based models.",
+  "published": "2025-12-01T17:34:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.111467+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:04:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.01917v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.656965+00:00"
+}

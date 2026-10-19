@@ -1,0 +1,21 @@
+{
+  "id": "06f6c4a707864bb3cbff046f69422e51c6d12c5d85a941c88218692992083160",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "HistCAD: Constraint-Aware Parametric CAD Histories for Evaluating Editability",
+  "url": "https://arxiv.org/abs/2602.19171",
+  "summary": "arXiv:2602.19171v4 Announce Type: replace-cross Abstract: Sketch constraints specify geometric conditions for constructing and modifying parametric CAD models. We study whether predicted constraints allow a given history to reproduce the required initial model and support prescribed dimensional edits. We introduce HistCAD, an executable representation and dataset whose Academic and Industrial collections contain 180,495 parametric construction histories with entity-referenced sketch constraints and retained feature operations. Predictors receive these histories with the geometry and feature definitions retained and explicit sketch constraints removed. They generate constraints for every sketch without seeing the edit request. The benchmark compares models built with alternative constraint sets for the same history under the same dimensional edit. An edit succeeds when the model reproduces the required initial geometry, reaches the target value, preserves specified relations and unedited dimensions in the target sketch, and rebuilds through the complete history. A predictor trained on both collections and supplied with descriptions of the input histories achieves overall edit success of 52.4% on Academic and 29.0% on Industrial. Models retaining only endpoint-connectivity constraints in the target sketch and the history's constraints elsewhere can reach the target and rebuild while failing preservation. For all-sketch predictions, we retain the target-sketch prediction and restore the history's constraints in other sketches. More models then reproduce the required initial geometry, and some of these newly matched models complete the edit. HistCAD connects constraint learning to the construction and revision of parametric CAD models.",
+  "published": "2025-12-08T05:52:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.417360+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:23:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.19171v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.399118+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "d7a697368d09d536a6ffea8ee4aff3437fabc6c6c0c22a0c9f481f904eece951",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Toward Open-World Video Segmentation over Long Horizons",
+  "url": "https://arxiv.org/abs/2606.15632",
+  "summary": "arXiv:2606.15632v4 Announce Type: replace Abstract: Long videos challenge open-world segmentation systems to continually discover objects and preserve their identities through disappearance and reappearance. Savvy, a zero-shot, semi-online, class-agnostic system for persistent object discovery and identity maintenance, and OGA, an evaluation suite that credits coherent part-level predictions when their granularity differs from the reference annotations. Savvy combines modular mask discovery, deferred admission based on accumulated evidence, and track consolidation to maintain an evolving object set. OGA allows multiple predictions to support one reference while preserving prediction IDs, pairing granularity-aware fidelity with diagnostics of identity bleeding and fragmented support. Across 142 ScanNet videos and 106 HM3D trajectories, evaluated using adaptively sampled prefixes capped at 1,500 source frames, Savvy outperforms DEVA+SAM and EntitySAM in VPQ_inf, STQ, and AQ under both conventional and OGA evaluation. Conventional VPQ_inf reaches 18.44 versus DEVA+SAM's 11.52 on ScanNet and 17.31 versus 6.58 on HM3D. VIPSeg comparisons reveal conventional one-to-one VPQ's sensitivity to annotation granularity. Controlled identity-severing and flicker tests show that OGA detects temporal failures even when frame-level masks remain unchanged. Together, these results demonstrate complementary advances: Savvy improves long-horizon segmentation and association, and OGA distinguishes coherent part-level support from temporal identity failures. Project website: https://github.com/QingSuML/savvy",
+  "published": "2026-06-14T06:48:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.542368+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:12:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.15632v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.164851+00:00"
+}

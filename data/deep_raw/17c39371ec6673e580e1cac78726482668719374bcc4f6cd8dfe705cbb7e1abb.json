@@ -1,0 +1,21 @@
+{
+  "id": "17c39371ec6673e580e1cac78726482668719374bcc4f6cd8dfe705cbb7e1abb",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Understanding and Mitigating Inference-Time Overreliance Using Agentic Memory",
+  "url": "https://arxiv.org/abs/2610.07311",
+  "summary": "arXiv:2610.07311v1 Announce Type: new Abstract: Agentic memory allows LLM agents to reuse past experience, yet retrieved memories can also distort inference even when they are benign, correctly stored, and appropriately retrieved. We study this failure mode, which we call memory over-reliance. Across benchmarks and memory architectures, we find that memory is useful when past experience transfers to the current task, but can become misleading when only part of the evidence transfers. Failures are strongest under partial query-memory overlap, a pattern further confirmed by controlled experiments thatvary the amount of overlapping evidence. Motivated by this finding, we propose MEMTRIM, a plug-and-play framework that indexes memory evidence at write time and controls its reuse at read time. MEMTRIM removes repeated or conflicting evidence while preserving useful memory-specific information, requires no retraining, and applies to both embedding-based and structured memory systems.Experiments show that MEMTRIM reduces memory overreliance while preserving the benefits of useful memory across models and memory settings.",
+  "published": "2026-10-05T19:48:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.127828+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:48:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07311v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.866836+00:00"
+}

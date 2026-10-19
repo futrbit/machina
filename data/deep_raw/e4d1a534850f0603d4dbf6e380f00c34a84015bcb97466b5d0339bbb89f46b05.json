@@ -1,0 +1,22 @@
+{
+  "id": "e4d1a534850f0603d4dbf6e380f00c34a84015bcb97466b5d0339bbb89f46b05",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Report Imitation: Clinically Aware Multi-Image Ultrasound Report Generation from Visible Evidence",
+  "url": "https://arxiv.org/abs/2610.11610",
+  "summary": "arXiv:2610.11610v1 Announce Type: new Abstract: Generating ultrasound reports from multiple images requires aggregating clinical evidence across views, yet archived key frames capture only part of the dynamic examination. Raw-report imitation is therefore misaligned with visual supervision: content that is clinically valid for the full examination may be unverifiable from the images available to a model. This gap creates a clinical behavior alignment problem. A model must preserve visible findings, avoid diagnostic reversals and unsupported completion, and not collapse into conservative templates. We propose CAMEO, a Clinically Aware Multi-image Evidence-grounded Orchestration framework for ultrasound report generation. Stage I learns ultrasound visual-language primitives; Stage II performs Cross-View Evidence Grounding by distilling trusted visible report points into multi-image QA and report-style supervision; and Stage III performs Clinically Aware Preference Alignment using clinical-error-oriented preference pairs. From USReport, we construct USReport-Distilled with 17,670 evidence-grounded paired-image training instances and USReport-Pref with 21,869 preference pairs; we additionally use 25,631 PubMedVision-US ultrasound instruction samples for domain adaptation and multi-image instruction tuning. On the primary USReport-Distilled benchmark, CAMEO improves over EchoVLM from 0.25 to 0.40 BLEU-1, 0.28 to 0.45 ROUGE-1, and 0.27 to 0.43 METEOR, while raising ClinicalScore from 55.02 to 74.20. These results underscore the value of evidence-grounded supervision, clinically aware alignment, and clinically structured evaluation for reliable ultrasound report generation.",
+  "published": "2026-10-08T09:53:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.749050+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:53:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11610v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.406910+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "eafaac48f1e6f2cb3626629b23ef1b6a79d0d187c5c7fb43ad7030deea1e7793",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "CETUS: How Far Do Representations Trained on Earth Transfer to Cassini SAR of Titan?",
+  "url": "https://arxiv.org/abs/2610.07576",
+  "summary": "arXiv:2610.07576v1 Announce Type: new Abstract: Cassini synthetic aperture radar (SAR) images reveal the dunes, plains, and lake basins of Titan, providing an instance of representations learned from Earth imagery for planetary terrain classification. Cross-domain Evaluation of Earth-to-Titan Transfer Using SAR (CETUS) compares features from DINOv2, DOFA and CROMA with classical image measurements and features from an untrained vision transformer on the U.S. Geological Survey's Cassini SAR mosaic. The classifiers learn terrain labels from an expert geomorphological map and predict those labels in geographically separate Titan regions. Under logistic regression settings, pretrained encoders achieve higher mean macro F1 than the combined classical features. Encoder rankings change when feature scaling, optimization, and regularization change together. Further training on Titan improves DINOv2 performance, degrades DOFA performance, and leads to mixed results for CROMA under the tested settings. Architectural and input processing differences prevent these comparisons from isolating the effect of pretraining. Classifier fitting and performance on individual terrain classes matter when assessing representation transfer for planetary mapping. Since the map draws partly on the same radar observations, the scores measure agreement with expert interpretation.",
+  "published": "2026-10-06T01:11:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.515385+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:11:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07576v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.930992+00:00"
+}

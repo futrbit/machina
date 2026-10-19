@@ -1,0 +1,18 @@
+{
+  "id": "7f3d6fe6e27ab5c4729d8029b74dcafe1f80dd582ebb6166fc7e481ebe3e0342",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Predicting Task Difficulty Without Rollouts",
+  "url": "https://arxiv.org/abs/2608.05797",
+  "summary": "arXiv:2608.05797v3 Announce Type: replace Abstract: A fundamental challenge in evaluating and training autonomous agents is measuring the intrinsic difficulty of the tasks they attempt. Estimating this quantity can be useful for environment designers creating synthetic data or benchmarks, as well as for constructing training curricula, thereby offering a way to reduce compute costs. Such an estimation becomes increasingly important as agents (particularly LLM-based) move into longer-horizon domains, where empirical trial-and-error becomes a severe computational bottleneck. However existing work is largely confined to static tasks and relies on evaluation metrics that, as we show, can give an incomplete picture of predictive performance. In this paper we study ex ante difficulty prediction across 17 agentic benchmarks spanning coding, mathematics, machine learning, web navigation, function calling, and other domains. We find that AUC can mask poor difficulty estimates, identify token-level entropy as a useful predictive signal, and demonstrate how residuals between expected and observed difficulty can expose environment flaws such as contamination and infeasibility.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.265710+00:00"
+}

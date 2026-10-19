@@ -1,0 +1,22 @@
+{
+  "id": "4746c95f95a088997813556a9eafb01f9db37c4f4a08d64ea9df1b52decfc99d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Efficient Gaussian Splatting Sequence Compression with Standard Video Codecs",
+  "url": "https://arxiv.org/abs/2610.07795",
+  "summary": "arXiv:2610.07795v1 Announce Type: new Abstract: This paper presents a novel effective Gaussian Splatting (GS) sequence Compression method that utilizes the Video codec (GSCV). Existing video-based GS sequence compression relies on the Parallel Linear Assignment Sorting (PLAS) and tracked primitive information to convert GS into smooth 2D videos. However, tracked information is not available for most practical applications, and without it, using the vanilla PLAS can generate images exhibiting weak inter-frame correlation, due to its stochastic nature. GSCV incorporates a simple yet efficient Inter-PLAS method to produce close images between the I- and P-frames of GS, enhancing the inter-frame performance of video codec greatly. GSCV also realizes a new pipeline based on the state-of-the-art video codecs with high bit-depth GS images, achieving higher compressibility while simultaneously providing a higher quality upper bound. Experimental results show that the proposed GSCV exhibits obviously improved performance over MPEG video and point cloud-based anchors in GS sequence compression. The code is available at https://github.com/Qi-Yangsjtu/GSCV.",
+  "published": "2026-10-06T05:43:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.517383+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:43:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07795v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.913811+00:00"
+}

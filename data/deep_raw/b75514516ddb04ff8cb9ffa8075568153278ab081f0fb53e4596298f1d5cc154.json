@@ -1,0 +1,21 @@
+{
+  "id": "b75514516ddb04ff8cb9ffa8075568153278ab081f0fb53e4596298f1d5cc154",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "TransMASK: Masked State Representation through Learned Transformation",
+  "url": "https://arxiv.org/abs/2603.05670",
+  "summary": "arXiv:2603.05670v2 Announce Type: replace Abstract: When humans learn new manipulation skills, they are able to generalize these skills to new contexts and environments. In particular, when learning, humans can easily separate task-relevant aspects of the environment (e.g., object location) and distractors (e.g., the table color). Ideally, robot policies should be able to learn similar, generalizable representations, but instead they often fail under small environment shifts such as changes in lighting, object instance, or initial configuration. In this paper, we propose a self-supervised method that learns a mask which, when multiplied by the observed image features, attempts to transform these features to retain only those which are relevant to the task. Our method --- which we call TransMASK --- can be combined with a variety of imitation learning frameworks (such as diffusion policies) without any additional labels or alterations to the loss function. By introducing a learned mask to the network during training, we aim to induce competitive pressure among the image features during training to force the policy to only attend to features which are consistently task-relevant. We find empirically that our masks are interpretable and can reject known spurious features such as the position of distractor objects or the background color. When compared to other representation learning methods for imitation learning, we find that TransMASK results in policies that are more robust to distribution shifts for irrelevant features, achieving at least 30 % improvement over the baselines when tested on out-of-distribution environments. See our project website: https://transmask.github.io/TransMASK/",
+  "published": "2026-03-05T20:45:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.480011+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:12:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.05670v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.734111+00:00"
+}

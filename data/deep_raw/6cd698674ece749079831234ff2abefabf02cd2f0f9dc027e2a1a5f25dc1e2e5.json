@@ -1,0 +1,17 @@
+{
+  "id": "6cd698674ece749079831234ff2abefabf02cd2f0f9dc027e2a1a5f25dc1e2e5",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PinNet: Keypoint-Aware Learned Local Descriptors with Geometric Embedding for Loop Closure in LiDAR SLAM",
+  "url": "https://arxiv.org/abs/2606.28637",
+  "summary": "arXiv:2606.28637v3 Announce Type: replace Abstract: Loop closure is essential to reduce drift and build globally consistent maps in large-scale environments. However, reliable loop closure with only geometric information from, e.g., a LiDAR sensor, remains challenging due to the difficulty of constructing discriminative geometric features. We present PinNet, a neural network that produces local geometric descriptors from point clouds for place recognition and scanto-scan registration. PinNet incorporates a neural network that generates keypoints and their corresponding descriptors, together with a plane-based geometric self-attention module that models inter-keypoint spatial relationships to enhance descriptor discriminability for loop-closure detection and point-cloud registration. The approach is comprehensively evaluated on multiple datasets collected with different LiDAR sensors. Experimental results demonstrate strong place-recognition performance, precise relative pose estimation, and successful single-shot localization in different environments.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.168643+00:00"
+}

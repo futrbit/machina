@@ -1,0 +1,22 @@
+{
+  "id": "91d888836d64d665cdda306e640a678936961bf7d54424cc95e49c558a2183c5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Structure-Aware Graph Abstention for Reliable Selective Forecasting",
+  "url": "https://arxiv.org/abs/2610.08322",
+  "summary": "arXiv:2610.08322v1 Announce Type: new Abstract: Selective forecasting abstains on high-risk test windows under a retained-coverage budget. Existing gates such as TEM (Brusokas et al., 2025) score each forecast as a whole; for multivariate outputs, trajectories can look plausible while violating dependencies among variables. We treat instance-level plausibility and relational consistency as distinct reliability axes and operationalize the latter via a learned sparse graph and a Dirichlet-style structural energy E_struct, trained with error-weighted graph regularization and score-error alignment. On seven long-horizon benchmarks and four backbones, structural gating often reduces selective MSE versus TEM at matched coverage, with the largest gains where cross-variable structure appears more informative in our benchmarks; gains are not universal, indicating a complementary abstention signal. Table 1 is a Protocol A ranking diagnostic (seed 2024); three-seed deployable Protocol B on an aligned subset is in Table 3 (full validation-to-test grids: Appendix A).",
+  "published": "2026-10-06T13:23:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.074490+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:23:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08322v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.785682+00:00"
+}

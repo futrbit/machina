@@ -1,0 +1,22 @@
+{
+  "id": "187a2681644b2024681a6341e67b56ea1c5594f0cf7d0cefe1497b3e95197bd9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Unimodal Bases: Pullback Geometry for Multimodal Data",
+  "url": "https://arxiv.org/abs/2610.00708",
+  "summary": "arXiv:2610.00708v1 Announce Type: new Abstract: Data-driven Riemannian geometry provides nonlinear interpolation and geometric representations of high-dimensional data. For these operations to be statistically meaningful, paths between observations should preferentially traverse high-likelihood regions. Existing scalable pullback constructions typically use a unimodal Gaussian latent distribution, assuming that the data reside close to a single manifold. For multimodal data, mapping separated modes or local structures into one Gaussian region can require substantial transport deformation and compromise the resulting geometry. We introduce a pullback geometry for data supported on mixtures of manifolds. Using a latent Gaussian mixture, we define its Riemannian metric as the matrix square of the responsibility-weighted expected component precision. The metric is smooth and positive definite and recovers the existing Gaussian construction in the single-component limit. For structured overlapping mixtures, we establish conditions under which the log-density is concave along geodesics, providing a formal connection between the proposed geometry and paths through high-likelihood regions, and derive the corresponding local curvature relations. We instantiate this geometry in a normalizing flow with adaptive mixture learning, allowing the number of active components to emerge from the data and supporting component-wise reconstruction and local effective-dimension estimation. Experiments on synthetic geometric data, a controlled multi-view image setting with a known reference trajectory, and MNIST show reduced transport distortion, competitive path support, close reference-trajectory recovery, and improved interpolation realism. These results extend scalable pullback geometry beyond datasets that reside close to a single manifold while retaining tractable and interpretable local structure.",
+  "published": "2026-09-30T20:55:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.779505+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T20:55:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00708v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.889822+00:00"
+}

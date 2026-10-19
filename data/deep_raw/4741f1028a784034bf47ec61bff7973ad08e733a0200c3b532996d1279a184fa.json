@@ -1,0 +1,22 @@
+{
+  "id": "4741f1028a784034bf47ec61bff7973ad08e733a0200c3b532996d1279a184fa",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Quantum Multi-Armed Bandits and Linear Bandits: Lower Bounds and Algorithms",
+  "url": "https://arxiv.org/abs/2608.14319",
+  "summary": "arXiv:2608.14319v2 Announce Type: replace Abstract: We study quantum multi-armed bandits (QMAB) and quantum linear bandits (QLB), where the learner queries each arm or action through a quantum reward oracle or its inverse. Prior work gives algorithms over horizon $T$ with regret $O(K\\log T)$ for QMAB with $K$ arms and $O(d^2\\operatorname{polylog} T)$ for $d$-dimensional QLB. This leaves open the optimal dependence on $K$ and $T$ and whether the dependence on $d$ can be further improved. In this work, we prove the first tight minimax regret bound of $\\Theta(K\\log(1+T/K))$ for QMAB and the first lower bound of $\\Omega(d\\log(1+T/d))$ for finite-action QLB, ruling out regret independent of $T$. Our lower bounds rely on a high-confidence single-arm quantum testing lower bound for distinguishing a fixed reward mean from an interval of alternatives. A bandit-to-testing reduction then lifts it to the QMAB lower bound, while a linear embedding gives the finite-action QLB lower bound. The matching QMAB upper bound is obtained using a tail bound for the Quantum Monte Carlo (QMC) estimator. For finite-action QLB, we propose a phased elimination algorithm that combines a low-bias low-variance quantum mean estimator with a small-support $G$-optimal design through a query allocation matched to the design weights. When the action set has size $\\operatorname{poly}(d)$, its regret is nearly linear in $d$ and matches our lower bound up to polylogarithmic factors.",
+  "published": "2026-08-14T14:04:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.128406+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:18:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.14319v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.912811+00:00"
+}

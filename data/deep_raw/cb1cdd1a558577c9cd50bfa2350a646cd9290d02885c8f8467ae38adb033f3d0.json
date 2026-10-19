@@ -1,0 +1,21 @@
+{
+  "id": "cb1cdd1a558577c9cd50bfa2350a646cd9290d02885c8f8467ae38adb033f3d0",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "VALSE: Vertical Adaptive Layer Skipping for Efficient Inference in Large Language Models",
+  "url": "https://arxiv.org/abs/2610.07606",
+  "summary": "arXiv:2610.07606v1 Announce Type: new Abstract: This paper establishes a theoretical framework for vertical adaptive layer skipping, proving three foundational results: (i) an Expected FLOPs formula (theorem 2) giving a closed-form expression for the computational cost of arbitrary per-sample skip schedules as a function of layer-wise skip probabilities; (ii) function-space superset (theorem 10) and strict inclusion (theorem 11) theorems showing that skip-layer models are strictly contained in---yet meaningfully approximate---the full-layer function space, with an explicit separating example; and (iii) a structural duality between VALSE and Mixture-of-Experts architectures (proposition 6), positioning vertical depth-wise sparsity as the orthogonal counterpart to horizontal width-wise sparsity. Building on this theory, we propose VALSE (Vertical Adaptive Layer Skipping for Efficiency), a per-sample, non-contiguous layer skipping method: a lightweight difficulty estimator scores each input from the first few layers, and per-layer gates selectively skip redundant layers---including arbitrary middle layers while retaining deeper ones---so that only the necessary depth is activated for each input, whose feasibility is preliminarily assessed at prototype scale.",
+  "published": "2026-10-06T01:47:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.134823+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:47:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07606v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.010944+00:00"
+}

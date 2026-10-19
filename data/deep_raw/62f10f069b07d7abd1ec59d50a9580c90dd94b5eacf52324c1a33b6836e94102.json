@@ -1,0 +1,22 @@
+{
+  "id": "62f10f069b07d7abd1ec59d50a9580c90dd94b5eacf52324c1a33b6836e94102",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Do Sheaf Neural Networks Use Holonomy? A Measure--Intervene--Control Study",
+  "url": "https://arxiv.org/abs/2607.19514",
+  "summary": "arXiv:2607.19514v3 Announce Type: replace Abstract: Geometric architectures are often motivated by internal mechanisms, but accuracy alone does not show whether predictions use them. In Sheaf Neural Networks (SNNs), edge transports form a connection whose cycle products define holonomy. We ask whether training changes triangle holonomy, whether predictions rely on the learned connection, and whether holonomy drives triangle counting. We use basis-independent loop readouts with identity interventions and shortcut controls. On high-homophily GraphUniverse graphs, triangle counting increases the mean SO(2) triangle rotation in Neural Sheaf Propagation (NSP) from 0.010 to 0.388 radians, while community detection ends at 0.029 radians. With more data, learned SO(2)--NSP outperforms Identity NSP, and replacing its transports after training increases error further. However, ridge regression is more accurate, diagonal maps improve without continuous rotation, and fixed-degree models develop rotation without improved counting. Thus, NSP can learn and rely on a nontrivial connection, but our experiments do not show that triangle holonomy drives its predictions.",
+  "published": "2026-07-21T18:57:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.128406+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-09-28T18:17:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.19514v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.838255+00:00"
+}

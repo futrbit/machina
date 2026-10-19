@@ -1,0 +1,22 @@
+{
+  "id": "00380cf4a10546e31ff236b84836fff9ab4f990163b30a05cd85f36819e4d87f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ATLAS-AL: Adaptive Trust-Region for Latent Adversarial Searches via Active Learning",
+  "url": "https://arxiv.org/abs/2610.07323",
+  "summary": "arXiv:2610.07323v1 Announce Type: new Abstract: Security evaluation of learning-based systems requires more than just testing the system against a fixed collection of attacks. It requires adaptive mechanisms that can efficiently discover \\textit{sets} of inputs that induce model failure. We introduce ATLAS (Adaptive Trust-Regions for Latent Adversarial Searches), which is a query-based framework that discovers adversarial input sets for black-box learning systems. ATLAS casts attack generation as an active learning level set estimation problem then combines calibrated approximations with a local-global sampling architecture to find regions of the input space that contain adversarial examples. Once discovered, ATLAS is designed to sample points within these adversarial regions to build adversarial sets that accurately represent the state of robustness of the target model. When applied on toy experiments, we find that ATLAS is able to recover more of the adversarial region under a limited query budget than does previous work. When applied to standard and adversarially trained MNIST, CIFAR, and ImageNet model targets, ATLAS produces better representative attacks than other query-based black-box attacks (NES, SignHunter, BayesOpt). ATLAS represents an automated red-teaming framework that can be used for both analyzing the robustness of learning-based systems under development and continuous auditing to see how the robustness of a system changes over time.",
+  "published": "2026-10-05T19:56:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.054503+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:56:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07323v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.248208+00:00"
+}

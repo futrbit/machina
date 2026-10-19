@@ -1,0 +1,21 @@
+{
+  "id": "44c1259d5584bd0d88cd3df3f8185d0bd5f05ea77d4b1a7fe482fc78f32b10b9",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "ProCut: Probabilistic Cutting Topology for Autonomous Electrosurgical Tissue Dissection",
+  "url": "https://arxiv.org/abs/2610.07515",
+  "summary": "arXiv:2610.07515v1 Announce Type: new Abstract: Accurately modeling and tracking the deformation of soft tissue is critical for a wide range of interventional and surgical procedures. However, current methods struggle in scenarios involving topological changes, such as cutting and dissection, due to the inherent non-linearity and discontinuity introduced by explicit changes in connectivity. In this work, we present a novel, fully differentiable framework that enables robust estimation and modeling of topological changes during deformable tracking. Our method introduces a continuous, sigmoid-based formulation to smooth the otherwise discrete event of tissue cutting, making it amenable to gradient-based optimization within a differentiable Position-Based Dynamics (PBD) simulation. To account for uncertainty and improve robustness in the presence of noisy visual data, we incorporate Stein Variational Gradient Descent (SVGD) for particle-based probabilistic inference, generating multiple hypotheses for topological state estimation. Building on this foundation, we develop an autonomous dissection algorithm for thin-shell tissues that leverages topological updates to guide closed-loop cutting trajectory control. We evaluate our approach in both simulated and real-world electrosurgical environments, demonstrating significant improvements in topological estimation accuracy and dissection precision over existing methods. Our results highlight the potential of this framework to advance automation in soft-tissue surgical procedures by enabling reliable perception and control in the presence of complex structural changes.",
+  "published": "2026-10-05T23:27:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.456025+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T01:53:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07515v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.854847+00:00"
+}

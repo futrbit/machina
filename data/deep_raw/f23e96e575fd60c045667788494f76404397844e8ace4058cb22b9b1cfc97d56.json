@@ -1,0 +1,22 @@
+{
+  "id": "f23e96e575fd60c045667788494f76404397844e8ace4058cb22b9b1cfc97d56",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "CCRV-Bench: Constraint-Based Evaluation of Causal Reasoning in Vision-Language Models",
+  "url": "https://arxiv.org/abs/2609.30979",
+  "summary": "arXiv:2609.30979v1 Announce Type: new Abstract: Vision-language models (VLMs) have demonstrated excellent performance in visual tasks, but their visual causal reasoning capabilities still lack reliable evaluation. Existing evaluations struggle to distinguish whether a model is performing causal reasoning based on visual evidence or relying on statistical correlations for shortcut learning, thereby potentially overestimating their actual capabilities. This paper proposes CCRV-Bench, a constraint-driven visual causal reasoning benchmark for single-image physical scenarios. We construct an orthogonal framework that evaluates four causal task dimensions: causal relation discovery, state prediction, causal diagnosis, and intervention. We further introduce entity symbolization, spatial grounding, the factual adversarial constraint, and minimalist output constraints to reduce shortcut cues while preserving the physical commonsense required by the task. Experiments across 15 multimodal models show that constraint sensitivity is task- and model-dependent: intervention has the largest average effective degradation among the four causal tasks, spatial grounding is the most damaging constraint on average, and the factual adversarial constraint improves DCR for all evaluated models. These results show that unconstrained performance does not determine constrained robustness and that a single aggregate score can obscure distinct failures in causal identification, spatial grounding, and constraint-compliant expression. CCRV-Bench provides a standardized framework for diagnosing image-grounded causal reasoning under controlled constraints. The code is available at https://github.com/0815linyuan/CCRV-Bench-Constraint-Based-Evaluation-of-Causal-Reasoning-in-Vision-Language-Models",
+  "published": "2026-09-25T08:26:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.222551+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-10-08T12:03:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30979v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.463671+00:00"
+}

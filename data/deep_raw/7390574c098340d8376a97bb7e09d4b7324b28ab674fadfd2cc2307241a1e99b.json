@@ -1,0 +1,22 @@
+{
+  "id": "7390574c098340d8376a97bb7e09d4b7324b28ab674fadfd2cc2307241a1e99b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "FlowCF: Sparse Counterfactual Explanations for Mixed-Type Tabular Data using Flow Matching",
+  "url": "https://arxiv.org/abs/2610.08537",
+  "summary": "arXiv:2610.08537v1 Announce Type: new Abstract: In the field of Explainable AI (XAI), counterfactual (CF) explanations interpret a model's decision by suggesting the changes to the input that would lead to a more favourable outcome. To be useful in practice, such an explanation should change few features and change them as little as possible, properties known as sparsity and proximity. We observe that existing methods remain limited in this respect, especially for numerical features, whether they are model-agnostic and amortised, or gradient-based with full access to the model. In this paper, we propose FlowCF, a model-agnostic generative method that frames CF generation as sparse transport from the factual to the target class. We solve this transport with flow matching, which we extend to mixed feature types with a novel mixed flow operator, and exploit the resulting geometry to optimise for sparsity through a gating network that minimises the number of features the transport changes. Extensive experiments on six benchmark datasets demonstrate that FlowCF produces the best numerical sparsity and proximity, changing 29% of the numerical features where the best baseline changes 89%, at 70% smaller displacement, while remaining comparable on the other desiderata.",
+  "published": "2026-10-06T15:27:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.078488+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:27:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08537v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.206031+00:00"
+}

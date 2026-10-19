@@ -1,0 +1,21 @@
+{
+  "id": "1bfa5b16865e3c2d4144d07562b4960b92511a24c887572716e74d1e56188e13",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Same Outcome, Different Evidence: Intent Recovery in LLM Safety Evaluation",
+  "url": "https://arxiv.org/abs/2610.11766",
+  "summary": "arXiv:2610.11766v1 Announce Type: cross Abstract: Safety evaluations of large language models commonly summarize harmful-output behavior with attack success rate (ASR). Yet the same non-harmful outcome can arise for very different reasons. A model may recover a harmful task and refuse it, fail to recover the task, or respond to something else entirely. Distinguishing these cases becomes especially important under intent-obscuring prompts, where a low ASR does not reveal whether the evaluated task was actually engaged. To make this distinction explicit, we pair ASR with operative understanding rate (UR), which measures whether a response both identifies the evaluated task and treats it as the task to be answered. Across interfaces, this paired view reveals substantial variation hidden by ASR: similar ASR values can correspond to sharply different recovery rates. Controlled English reconstructions show that recovery consistently improves as compressed prompts become more explicit, whereas ASR does not follow the same pattern. A complementary contrast comes from FormalLogic, where high recovery can still coincide with frequent harmful assistance. Together, these results show that non-harmful outcomes are not equally informative about model safety, motivating the joint reporting of intent recovery and ASR in LLM safety evaluation. Code and experiment inputs are available at https://github.com/kevinjiang0121-cyber/IRIS.",
+  "published": "2026-10-08T11:50:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.396372+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:50:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11766v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.974771+00:00"
+}

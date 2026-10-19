@@ -1,0 +1,22 @@
+{
+  "id": "bb729357fff16e88ecdf8815aad759dc89f4fcc9b526b2294cbec7622772505e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SupraTITO: Transferable Generative Molecular Dynamics for Supramolecular Systems",
+  "url": "https://arxiv.org/abs/2610.01381",
+  "summary": "arXiv:2610.01381v1 Announce Type: cross Abstract: Peptide sequence governs both the structures formed through supramolecular assembly and the dynamics by which they emerge, but predicting either requires resolving slow collective processes among many interacting molecules. Molecular dynamics (MD) provides microscopic insight into these processes, yet the long timescales of assembly and the vast peptide sequence space make systematic exploration computationally demanding. We introduce SupraTITO, a transferable generative molecular dynamics (GenMD) framework for supramolecular systems, demonstrated through peptide self-assembly. SupraTITO learns transferable implicit transfer operators (TITO) conditioned on peptide sequence, molecular topology, and periodic geometry, allowing configurations to be propagated over physical intervals much longer than an MD integration step. On a comprehensive dipeptide benchmark, SupraTITO generalizes to held-out sequences and reproduces sequence-dependent structures and dynamics while maintaining molecular integrity over long rollouts. Compared with direct ensemble prediction trained on the same trajectory data, SupraTITO more accurately reproduces assembly structures while also resolving their temporal evolution. The learned dynamics generalize across peptide concentrations, including dilute conditions not represented during training. These results extend transferable GenMD to collective dynamics in periodic supramolecular systems and provide a foundation for modeling related processes beyond peptide assembly.",
+  "published": "2026-10-01T09:46:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.818481+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T09:46:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01381v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.799072+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ee3ebd9979b93d4996413118320bb9ef181c497a947b067f0313d42a8fe13f0b",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Experience-Guided Initiation Search for Learned Skills in Skill Composition",
+  "url": "https://arxiv.org/abs/2610.11418",
+  "summary": "arXiv:2610.11418v1 Announce Type: new Abstract: Deploying frozen learned skills, such as Vision-Language-Action (VLA) policies, in new environments requires identifying initiation configurations that support reliable execution. In skill composition, an initiation configuration affects not only the current skill but also the physical state passed to subsequent skills, so successful execution of an individual skill does not necessarily imply successful completion of the composed task. Estimating target-specific capability through extensive rollouts is costly in real-world deployment, while directly reusing historical experience can be unreliable under environment changes. We propose EVIS, an Experience-Guided and Behavior-Validated Initiation Search framework for discovering reliable initiation configurations under limited target interaction. EVIS uses historical execution experience to prioritize promising candidates and target-environment behavior to validate whether they remain effective. We evaluate EVIS on single-skill and two-stage manipulation tasks with frozen VLA policies. EVIS reduces mean target-environment queries and improves reliable candidate discovery under small interaction budgets. These results show that combining historical guidance with target-side behavioral validation can reduce the interaction cost of deploying frozen learned skills in new environments.",
+  "published": "2026-10-08T07:46:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.737545+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:46:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11418v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.412701+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "160cb5c16a35741b2a2d31981848bf9fbfa82e593ee42f55151e4aee3b202ec4",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare",
+  "url": "https://arxiv.org/abs/2605.11814",
+  "summary": "arXiv:2605.11814v2 Announce Type: replace Abstract: The large-scale deployment of personalized healthcare agents demands memory mechanisms that are exceptionally precise, safe, and capable of long-term clinical tracking. However, existing benchmarks primarily focus on daily open-domain conversations, failing to capture the high-stakes complexity of real-world medical applications. Motivated by the stringent production requirements of an industry-leading health management agent serving tens of millions of active users, we introduce MedMemoryBench. We develop a human-agent collaborative pipeline to synthesize highly realistic, long-horizon medical trajectories based on clinically grounded, synthetic patient archetypes. This process yields a massive, expertly validated dataset comprising approximately 2,000 sessions and 16,000 interaction turns. Crucially, MedMemoryBench departs from traditional static evaluations by pioneering an \"evaluate-while-constructing\" streaming assessment protocol, which precisely mirrors dynamic memory accumulation in production environments. Furthermore, we formalize and systematically investigate the critical phenomenon of memory saturation, where sustained information influx actively degrades retrieval and reasoning robustness. Comprehensive benchmarking reveals severe bottlenecks in mainstream architectures, particularly concerning complex medical reasoning and noise resilience. By exposing these fundamental flaws, MedMemoryBench establishes a vital foundation for developing robust, production-ready medical agents.",
+  "published": "2026-05-12T09:06:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.406367+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:51:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.11814v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.834855+00:00"
+}

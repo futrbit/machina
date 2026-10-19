@@ -1,0 +1,18 @@
+{
+  "id": "7496668314bb8999f42366dffe68841ab263ca007598c935a4ad1b9d28695e43",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "GPT, But Backwards: Exactly Inverting Language Model Outputs",
+  "url": "https://arxiv.org/abs/2507.01693",
+  "summary": "arXiv:2507.01693v3 Announce Type: replace Abstract: Recent work shows that distinct inputs produce distinct hidden representations in LLMs, so the input can in principle be recovered from them. Yet, no existing method can reliably do so from the model's output text or logits alone. We introduce Sparse One-hot Discrete Adam (SODA), a white-box search-based algorithm that reconstructs textual inputs from partial knowledge of the output. Given output logits, SODA recovers natural sequences of up to 17 tokens with zero false positives and achieves a 4x improvement in exact-match reconstruction over the strongest prior method. We further show that input length and vocabulary size matter more for inversion difficulty than parameter count, with SODA inverting models from 33M to 3B parameters. Finally, we demonstrate proof-of-concept security applications: SODA recovers 6 backdoor triggers from a poisoned LLM in under 1000 iterations, and 139 tokens of personally identifiable information from synthetic user-chatbot interactions. Our code is available at https://github.com/AdrSkapars/inversion_optimisation.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.224734+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "91af2777e58c16b2f765d9d106cf86c3b40e330c9acb159910464380cc5b7161",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "\"Train classical, deploy quantum\" requires rethinking generalization",
+  "url": "https://arxiv.org/abs/2608.31117",
+  "summary": "arXiv:2608.31117v2 Announce Type: replace-cross Abstract: Generative models have become central across science and industry, from image and text synthesis to the design of molecules and materials. Quantum generative models are considered one of the most promising applications for quantum computers, since a quantum circuit naturally produces samples from the distribution it encodes, and for suitable circuits that distribution is believed to be hard for any classical computer to reproduce. A leading strategy trains these models on a classical computer and reserves the quantum device for generating samples at deployment. This is possible when the training loss can be evaluated on a classical computer. A prime example is the maximum mean discrepancy (MMD$^2$), a moment-matching loss that compares the model and the data through their Pauli-$Z$ correlations. Research so far has asked whether such models can be trained and whether their sampling is hard; whether minimizing such an objective yields a model that \\emph{generalizes}, rather than one that merely reproduces the training statistics, remains poorly understood. We benchmark thirteen quantum and classical generative models by direct sampling on two application-inspired datasets: first a cardinality-constrained dataset at up to $30$ qubits and second a dataset of genomic single-nucleotide variants, whose valid set is the observed data. Models that converge the loss to the same value differ widely in how much of the unseen valid set they cover. These results indicate that a converged moment-matching loss is not a reliable measure of generalization, and that a train-classical, deploy-quantum workflow has to measure generalization by sampling the trained model, a step that at the sizes of interest is believed to require the quantum device.",
+  "published": "2026-08-31T17:26:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.132456+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:07:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.31117v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.782684+00:00"
+}

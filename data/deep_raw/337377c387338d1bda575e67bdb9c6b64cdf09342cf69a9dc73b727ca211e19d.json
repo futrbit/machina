@@ -1,0 +1,21 @@
+{
+  "id": "337377c387338d1bda575e67bdb9c6b64cdf09342cf69a9dc73b727ca211e19d",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space",
+  "url": "https://arxiv.org/abs/2606.17924",
+  "summary": "arXiv:2606.17924v2 Announce Type: replace Abstract: Current Vision-Language-Action (VLA) models face a trade-off between efficient action generation and explicit deliberation. Directly decoding actions from vision-language backbone representations enables low-latency control, whereas textual reasoning, pixel-level subgoals, or world-model evaluation of decoded actions can improve planning but incur substantial latency and computational cost. We propose PearlVLA, a VLA framework that progressively refines a VLM-derived latent plan using feedback from the predicted consequence of each intermediate plan. PearlVLA uses a frozen latent world model (LaWM) pretrained on action-free video. At each refinement round, the current plan produces a continuous latent action code, and the LaWM predicts the corresponding latent visual subgoal. A future-guided plan refiner uses this subgoal to update the plan, so each revision reshapes the next LaWM query. After K rounds, the refined plan is passed once to the host policy's action interface to produce an action chunk. We further introduce Causal Refinement-Grouped Process-Reward RL to optimize latent refinement by comparing rewards from the longer-horizon imagined futures of plan edits made at the same refinement state. Experiments on the LIBERO and RoboCasa benchmarks show that PearlVLA performs competitively against strong existing methods.",
+  "published": "2026-06-16T13:38:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.760532+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:24:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.17924v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.497062+00:00"
+}

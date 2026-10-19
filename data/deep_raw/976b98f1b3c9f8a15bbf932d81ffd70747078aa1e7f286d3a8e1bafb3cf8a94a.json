@@ -1,0 +1,21 @@
+{
+  "id": "976b98f1b3c9f8a15bbf932d81ffd70747078aa1e7f286d3a8e1bafb3cf8a94a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SDFlow: Similarity-Driven Flow Matching for Time Series Generation",
+  "url": "https://arxiv.org/abs/2605.05736",
+  "summary": "arXiv:2605.05736v3 Announce Type: replace Abstract: Vector quantization (VQ) with autoregressive (AR) token modeling is a widely adopted and highly competitive paradigm for time-series generation. However, such models are fundamentally limited by exposure bias: during inference, errors can accumulate across sequential predictions, leading to pronounced quality degradation in long-horizon generation. To address this, we propose SDFlow ($\\textbf{S}$imilarity-$\\textbf{D}$riven $\\textbf{Flow}$ Matching), a non-autoregressive framework that operates entirely in the frozen VQ latent space and enables parallel sequence generation via flow matching. We tackle three key challenges in making this transition: (1) eliminating exposure bias by replacing step-wise token prediction with a global transport map; (2) mitigating the high-dimensionality of VQ token spaces via a low-rank manifold decomposition with a learned anchor prior over the latent manifold; and (3) incorporating discrete supervision into continuous transport dynamics by introducing a categorical posterior over codebook indices within a variational flow-matching formulation. Extensive experiments show that SDFlow achieves state-of-the-art performance, improving Discriminative Score and substantially reducing Context-FID, particularly for challenging long-sequence generation. Moreover, SDFlow provides significant inference speedups over autoregressive baselines, offering both high fidelity and computational efficiency. Code is available at https://github.com/William-Liwei/SDFlow",
+  "published": "2026-05-07T06:28:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.181795+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:27:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.05736v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.914605+00:00"
+}

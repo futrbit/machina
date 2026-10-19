@@ -1,0 +1,22 @@
+{
+  "id": "2ccd7096d64d65ff56cf4140efe01e6ef20d8aae4830a96988679f8d48145797",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Being-M0.7: A Latent World-Action Model for Humanoid Robots",
+  "url": "https://arxiv.org/abs/2610.11283",
+  "summary": "arXiv:2610.11283v1 Announce Type: cross Abstract: Humanoid loco-manipulation requires coordinated locomotion and manipulation informed by future scene evolution and whole-body motion, yet learning these capabilities is constrained by scarce robot demonstrations. Human video and motion datasets offer scalable supervision, but many contain only video or motion rather than paired video-motion data. Moreover, human motion does not directly specify executable robot actions. We present Being-M0.7, a latent world-action model that transfers visual-motion priors learned from mixed-modality human data to humanoid control through pre-training, robot mid-training, and action post-training. We curate a corpus from more than 10,000 hours of raw human-centric data, integrating video-only, motion-only, and paired video-motion streams to learn complementary visual dynamics and whole-body kinematic structure. Joint prediction of future latent visual states and motion encourages visual representations to encode future kinematics. Robot mid-training adapts this coarse-grained prior to robot viewpoints and body dynamics. During action post-training, an action expert combines visual predictive representations from the frozen, adapted prior with current images and proprioception through gated cross-attention, grounding predictive context in executable whole-body commands. Being-M0.7 achieves the highest aggregate success rate among the compared baselines on SIMPLE and matches the strongest baseline on real-world Unitree G1 loco-manipulation tasks.",
+  "published": "2026-10-08T05:49:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.107419+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T05:49:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11283v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.261200+00:00"
+}

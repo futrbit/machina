@@ -1,0 +1,22 @@
+{
+  "id": "aa1477a327aab3f106ba222ce58a4367d645af6a58c20dfce596dea1293242ca",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Minimax Gaussian Mechanisms for Continual Machine Unlearning",
+  "url": "https://arxiv.org/abs/2610.11628",
+  "summary": "arXiv:2610.11628v1 Announce Type: cross Abstract: Machine unlearning updates a trained model after records are deleted, aiming to match exact retraining without repeating the full training procedure. We develop Gaussian mechanisms for Newton updates under sequential deletion requests. Using Gaussian differential privacy (GDP) and its adaptive composition rule, we show that the full sequence of released models is statistically difficult to distinguish from matched exact retraining. To calibrate these mechanisms for empirical risk minimization, we derive upper bounds on the error of the Newton approximation relative to exact retraining and on how this error changes after each deletion batch. Independent Gaussian noise is calibrated using bounds on the full residual at each release, whereas Gaussian random walk noise uses smaller bounds on residual increments. These bounds yield allocations minimizing the worst-case maximum noise variance across releases under the resulting GDP certification constraints. With count-based bounds, the random walk asymptotically matches the worst-case variance of a single release at deletion cap $M$, while independent noise incurs an additional factor of order $M$. Set-based bounds can reduce the noise variances by using gradients and Hessians of the deleted records. For singleton deletion, we further show that count-based independent noise, count-based random walk noise, and set-based independent noise are minimax among fixed Gaussian covariances under their respective residual or increment bounds. With set-based bounds, allowing variances to adapt to deleted records can improve on every fixed covariance by a factor of order $(\\log M)^2$ on some data sequences. The residual and noise bounds also yield parameter and predictive consistency relative to exact retraining, uniformly over deletion policies. Simulations and a credit default data analysis evaluate bounds, noise variances, and estimation errors.",
+  "published": "2026-10-08T10:06:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.110418+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:06:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11628v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.424299+00:00"
+}

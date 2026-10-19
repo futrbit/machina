@@ -1,0 +1,22 @@
+{
+  "id": "f660e64a7ceaf95cab9efcfad0fff13f755b25e95b3f866f2e6add9fa72037e5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Adam at the Edge of Stability: Adaptive Feedback, Provable Oscillation, and Gradient Reversal",
+  "url": "https://arxiv.org/abs/2608.20638",
+  "summary": "arXiv:2608.20638v2 Announce Type: replace Abstract: The edge-of-stability (EoS) phenomenon of full-batch Adam has been widely observed, yet its underlying dynamical mechanism remains poorly understood. In this paper, we identify Adam's second-moment adaptation as a negative-feedback mechanism that drives the dynamics toward the stability boundary. We characterize this mechanism through the *active curvature*, namely, the preconditioned curvature along the preconditioned gradient direction, and establish rigorous characterizations in progressively richer settings: rank-one quadratics with momentum, diagonal quadratics, on which the active curvature separates from the sharpness, and general objectives. Importantly, the mechanism predicts *gradient reversal* of full-batch Adam near the edge: consecutive gradients repeatedly point in nearly opposite directions, as we observe across fully connected networks, ResNets, ViTs, LSTMs, GPT-2 medium, and Adam-family optimizers. Consistent with this picture, averaging iterates suppresses these fast oscillations and produces smoother and lower loss curves. Together, these results provide an important first step towards fully understanding the dynamical behavior of Adam's EoS through active curvature and gradient reversal.",
+  "published": "2026-08-21T00:22:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.835470+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T10:25:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.20638v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.509643+00:00"
+}

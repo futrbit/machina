@@ -1,0 +1,22 @@
+{
+  "id": "9ce2af94ee73f17dfe8049ad9b8abf882e757f654a9a08f0209c39bbbb525f02",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "From What to Which: Decoding Modifier Grounding in Frozen MLLMs",
+  "url": "https://arxiv.org/abs/2610.12305",
+  "summary": "arXiv:2610.12305v1 Announce Type: new Abstract: As Multimodal Large Language Models (MLLMs) can describe increasingly complex visual scenes, token-level grounding becomes crucial. Yet, when an MLLM generates \"the yellow banana on the left\", established grounding approaches focus on what is in the image (\"banana\"), overlooking tokens that help describe which instance is meant (\"yellow\", \"left\"). In this work, we ask whether frozen MLLM representations contain decodable grounding information about the referred instance across generated tokens, extending to modifiers such as attributes, spatial expressions, and relational/action terms. To address this question, we introduce OTTER, a lightweight supervised probe over frozen MLLM representations that uses Optimal Transport (OT) to align generated tokens with visual regions and produce compact grounding maps. Our results show that (i) instance-discriminative visual information can be decoded from modifier tokens, with the clearest evidence for spatial terms, but (ii) is not confined to them, as contextualized object nouns also carry referential information; (iii) the recovered grounding remains informative under context perturbations, while selected regions remain relevant to generation; and (iv) the learned OT-based grounding extends beyond the controlled setting to free generation and cross-dataset transfer.",
+  "published": "2026-10-08T16:53:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.759043+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:53:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12305v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.034532+00:00"
+}

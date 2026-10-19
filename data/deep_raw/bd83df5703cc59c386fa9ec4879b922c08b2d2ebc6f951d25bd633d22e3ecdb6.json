@@ -1,0 +1,22 @@
+{
+  "id": "bd83df5703cc59c386fa9ec4879b922c08b2d2ebc6f951d25bd633d22e3ecdb6",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "EviDETR: Preserving Query-Relevant Temporal Evidence for Moment Retrieval and Highlight Detection",
+  "url": "https://arxiv.org/abs/2609.30724",
+  "summary": "arXiv:2609.30724v1 Announce Type: new Abstract: Joint video moment retrieval and highlight detection requires identifying query-relevant temporal segments while estimating clip-level saliency, yet DETR-style pipelines do not explicitly preserve query-relevant evidence throughout encoding, decoding, and cross-task prediction. We propose EviDETR, an evidence-preserving framework with three components. Semantic-aware Feature Reweighting (SFR) enhances query-relevant clip representations through saliency estimation and cross-modal interaction. A Temporal Top-2 Mixture-of-Experts (TTop2MoE) decoder performs query-adaptive refinement via sparse expert routing. MR-to-HD (MR2HD) fusion transfers span-level retrieval evidence to clip-level highlight prediction through confidence-weighted multi-scale aggregation. Using CLIP+SlowFast features, EviDETR achieves 69.29 R1@0.5, 54.77 R1@0.7, and 48.41 Avg. mAP for moment retrieval on QVHighlights, together with 41.83 HD-mAP and 68.33 HIT@1. Strong results on TACoS and Charades-STA further demonstrate cross-dataset transferability.",
+  "published": "2026-09-25T02:53:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.220159+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T02:53:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30724v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.826055+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "c9c364c470939801a311f7a11eb291c6662c0e752a4e060119c8a7944e389cc8",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Governance Records as Supervision: Verifier-Selected Self-Training for Structured Workflow Repair",
+  "url": "https://arxiv.org/abs/2608.18324",
+  "summary": "arXiv:2608.18324v2 Announce Type: replace Abstract: Machine-verifiable workflows produce governance records linking a task contract, model attempt, verifier decision, accepted output, and target origin. We test whether verifier-admitted outputs can supervise a bounded model by consolidating occasional or expensive capability into reliable one-shot execution. On fresh, structure-disjoint PlanBench replanning cases, Qwen3-14B thinking produced 24 plans admitted by independently authored VAL. They trained the same checkpoint for non-thinking execution, without oracle targets or a stronger teacher. VAL acceptance rose from 1/80 to 57/80. A prospective replication held targets, model revision, recipe, and evaluation corpus fixed across eight LoRA seeds and three inference realizations per seed. Every seed produced a clear lift: adapters reached 45/80 to 70/80 against 1/80 for every matched base report; the exact seed-level sign-flip test gave p=0.0078125. Target-selection performance was less stable. An initial matched seed gave 102/160 accepted plans after VAL selection versus 69/160 after blinded model self-selection. Across eight prospective seeds, the contrast was seed-dependent, included one clear reverse seed, and did not replicate (p=0.3672). VAL also had a positive descriptive aggregate over schema-only selection but failed its preregistered seed-level reliability gate (p=0.0703). The verifier remains the admission authority; no reliable downstream capability advantage of semantic selection is established. A complementary Phi arm supports stronger-teacher distillation. Earlier synthetic studies bound teachability, cumulative learning, transfer, and stopping. The evidence supports robust consolidation of one fixed, machine-checkable capability, not arbitrary planning, enterprise validity, or unrestricted self-improvement.",
+  "published": "2026-08-18T21:16:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.432510+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T17:33:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.18324v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.988957+00:00"
+}

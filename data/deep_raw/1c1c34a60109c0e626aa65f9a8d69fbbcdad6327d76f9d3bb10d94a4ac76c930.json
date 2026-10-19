@@ -1,0 +1,22 @@
+{
+  "id": "1c1c34a60109c0e626aa65f9a8d69fbbcdad6327d76f9d3bb10d94a4ac76c930",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Continual Learning for 6-DoF Grasp Synthesis via Experience and Demonstrations",
+  "url": "https://arxiv.org/abs/2610.01301",
+  "summary": "arXiv:2610.01301v1 Announce Type: cross Abstract: Most current grasp synthesis systems are trained offline and remain fixed during deployment. While this works well when deployment conditions resemble the training data, performance can degrade when robots encounter conditions they have not seen before, such as unfamiliar objects. In this work, we present a continual-learning framework for single-view 6-DoF grasp synthesis for a parallel-jaw gripper in cluttered scenes. Rather than finetuning a large parametric model, our method adapts through memory in a learned embedding space: grasp outcomes update future grasp scores, while optional user demonstrations are recalled and transferred to new scenes as additional candidate grasps. We evaluate our method in simulation and in extensive real-world experiments comprising over 1500 grasp trials. We show that our method matches the performance of existing 6-DoF grasping baselines even before adaptation, improves online on unseen objects from categories absent or underrepresented during training, and supports long-horizon continual learning with limited forgetting. In real-world experiments, our method reaches over 90\\% success rates on several challenging object categories after only 50 online grasp attempts. Videos and code at https://giuschio.github.io/cl_grasping/.",
+  "published": "2026-10-01T08:36:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.817481+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T08:36:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01301v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.979767+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2891e696a7642cb43ccca32f0acd45c496c57acca34850b8134b3ec69baf43ee",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Transfer Learning of Multiobjective Indirect Low-Thrust Trajectories Using Diffusion Models and Markov Chain Monte Carlo",
+  "url": "https://arxiv.org/abs/2605.09125",
+  "summary": "arXiv:2605.09125v2 Announce Type: replace-cross Abstract: Preliminary low-thrust spacecraft mission design is a global search problem characterized by a complex solution landscape, multiple objectives, and numerous local minima. During this phase, mission parameters are often not yet fully defined, requiring new solutions to be generated at a high cadence across varying parameter values. When combined with the indirect approach to optimal control, diffusion models can accelerate this search by learning distributions that represent high-quality initial costates. However, generating training data remains expensive, and opportunities exist to better exploit past data. We propose a transfer-learning framework that combines homotopy in a mission parameter with Markov chain Monte Carlo (MCMC) to generate training data more efficiently. The approach reformulates a multiobjective optimization problem as sampling from an unnormalized target distribution in costate space. We compare three MCMC algorithms on a planar multi-revolution transfer in the circular restricted three-body problem, with homotopy in the system mass parameter. The results show that gradient-based MCMC variants achieve the best trade-off between sample quality and computational cost. For the test transfer, the proposed framework generates 40 % more feasible solutions and achieves a higher-quality Pareto front than a state-of-the-art indirect approach based on adjoint control transformations and gradient-based optimization. Finally, the MCMC-generated samples are used to fine-tune a diffusion model conditioned on the mass parameter, enabling it to learn a global representation of the underlying solution distribution and efficiently generate new solutions. These findings establish the transfer-learning framework as a practical method for efficiently solving indirect trajectory optimization problems with varying parameters.",
+  "published": "2026-05-09T19:15:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.138398+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:04:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.09125v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.269199+00:00"
+}

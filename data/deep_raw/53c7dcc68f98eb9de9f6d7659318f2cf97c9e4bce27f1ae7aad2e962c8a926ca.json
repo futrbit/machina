@@ -1,0 +1,21 @@
+{
+  "id": "53c7dcc68f98eb9de9f6d7659318f2cf97c9e4bce27f1ae7aad2e962c8a926ca",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Demo: Vision-Language Model-Guided Online Calibration of an Electromagnetic Digital Twin",
+  "url": "https://arxiv.org/abs/2610.07081",
+  "summary": "arXiv:2610.07081v1 Announce Type: cross Abstract: An electromagnetic (EM) digital twin gives mobile robots wireless situational awareness but depends on material conductivities that change with the environment. Online calibration faces initialization sensitivity and measurement travel costs. We demonstrate a vision-language model (VLM)-guided framework using a Unitree G1 robot and NVIDIA Sionna, with two VLM calls: material classification maps visible materials through ITU-R P.2040 to conductivity priors for Sionna's gradient descent on accumulated received signal strength (RSS) measurements; waypoint planning selects the next measurement location online using residual RSS calibration error and image coverage. In a real indoor scenario, the framework achieves a normalized mean absolute conductivity error of $1.74\\times10^{-4}$ within 20 m of travel; random initialization never converges, while random waypoints require over twice the travel.",
+  "published": "2026-10-05T11:15:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.156811+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T05:08:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07081v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.727923+00:00"
+}

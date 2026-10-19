@@ -1,0 +1,21 @@
+{
+  "id": "5a5ed7aaf23aa6cc1af068c492e7d60f0f53af2cc8b222244469f18ba43615ae",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MLToolBench: Learning Tool-Augmented Agents for Machine Learning Development",
+  "url": "https://arxiv.org/abs/2609.36679",
+  "summary": "arXiv:2609.36679v2 Announce Type: replace Abstract: Machine learning engineering (MLE) agents have made substantial progress, but learning through ML experimentation remains costly in time and computation. Synthetic environments reduce these costs while introducing variations in data and experimental settings that require task-specific diagnosis. Access to diagnostic tools alone does not ensure that agents learn when to use them or how to act on their findings. We introduce ToolMLBench, a suite of executable tools for data inspection, code verification, and experiment diagnosis, together with an SFT and RL pipeline for learning their use. Diagnostic calls acquire evidence whose value depends on subsequent decisions, so final outcomes provide limited guidance on which calls to reinforce. We address this challenge with SPICE, which measures how privileged context changes the likelihood of a sampled tool action and uses this difference as a turn-level reward alongside the final outcome. We train on 80 synthetic tasks and evaluate on 25 in-domain and 10 out-of-domain tasks. Providing tool interfaces and descriptions alone yields inconsistent gains across unadapted models. With the same diagnostic interface, our training pipeline raises in-domain success from 24.8% to 52.4% for Qwen3-8B and from 35.6% to 69.2% for Qwen3.5-35B-A3B. The latter also improves from 31% to 48% out-of-domain, supporting learned diagnostic tool use on held-out sources and targets.",
+  "published": "2026-09-29T04:17:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.186791+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:57:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.36679v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.710330+00:00"
+}

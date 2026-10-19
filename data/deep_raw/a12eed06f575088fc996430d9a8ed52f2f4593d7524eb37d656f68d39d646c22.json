@@ -1,0 +1,21 @@
+{
+  "id": "a12eed06f575088fc996430d9a8ed52f2f4593d7524eb37d656f68d39d646c22",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation",
+  "url": "https://arxiv.org/abs/2603.06480",
+  "summary": "arXiv:2603.06480v3 Announce Type: replace Abstract: Vision-Language Navigation (VLN) enables robots to follow natural-language instructions in visually grounded environments, serving as a key capability for embodied robotic systems. Recent Vision-Language-Action (VLA) models have demonstrated strong navigation performance, but their high computational cost introduces latency that limits real-time deployment. We propose a training-free spatio-temporal vision token pruning framework tailored to VLA-based VLN. We apply spatial token selection to the current view, alongside spatio-temporal compression for historical memories, enabling efficient long-horizon inference while reducing redundant computation. Leveraging attention-based token importance and query-guided spatio-temporal filtering, the proposed approach preserves navigation-relevant information without retraining or modifying pretrained models, allowing plug-and-play integration into existing VLA systems. Through experiments on standard VLN benchmarks, we confirm that our method significantly outperforms existing pruning strategies. It successfully preserves superior navigation accuracy under extreme pruning scenarios, all while maintaining the highly competitive inference efficiency. Real-world deployment on a Unitree Go2 quadruped robot further validates reliable and low-latency instruction-following navigation under practical robotic constraints. We hope this work helps bridge the gap between large-scale multimodal modeling and efficient, real-time embodied deployment in robotic navigation systems. Project Page: https://wqtwjt1996.github.io/publications/2026-vln.html",
+  "published": "2026-03-06T17:03:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.381698+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T20:36:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.06480v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.123479+00:00"
+}

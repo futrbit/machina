@@ -1,0 +1,22 @@
+{
+  "id": "56d3c15004de462b0f4d0b90318bfbdf21421e838cd7e26f83bb453b1f07469b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Degree-Corrected Joint Matrix Factorization for Multilayer Community Detection",
+  "url": "https://arxiv.org/abs/2610.01361",
+  "summary": "arXiv:2610.01361v1 Announce Type: cross Abstract: Multilayer networks allow the modeling of interactions between the same entities across different contexts, such as temporal observations, varying settings, or interactions of different types. The goal of community detection in multilayer networks is to identify groups of nodes exhibiting similar connectivity patterns, which may vary across layers. We propose a method based on a joint nonnegative symmetric matrix trifactorization for community detection in multilayer networks, where each graph is approximated by a nonnegative symmetric matrix trifactorization. Our approach enforces constraints on the factor matrices so that communities are disjoint and shared across layers, while allowing each layer to have its own connectivity patterns and node degrees. This flexibility enables the model to capture both local and global structural variations across layers. We also develop an algorithm to efficiently solve this problem. We evaluate multilayer community detection methods using the multilayer degree-corrected stochastic block model (MDCBM), a flexible framework for generating realistic multilayer graphs with heterogeneous degrees and varying connectivity patterns. Experiments show that our method reliably detects communities across diverse regimes, whereas existing state-of-the-art approaches are often limited by restrictive structural assumptions.",
+  "published": "2026-10-01T09:31:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.817481+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T09:31:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01361v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.629380+00:00"
+}

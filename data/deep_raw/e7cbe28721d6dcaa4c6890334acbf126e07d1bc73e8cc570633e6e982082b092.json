@@ -1,0 +1,22 @@
+{
+  "id": "e7cbe28721d6dcaa4c6890334acbf126e07d1bc73e8cc570633e6e982082b092",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Large Pretraining Datasets Don't Guarantee Robustness after Fine-Tuning in Image Classification",
+  "url": "https://arxiv.org/abs/2410.21582",
+  "summary": "arXiv:2410.21582v4 Announce Type: replace Abstract: Large-scale pretrained models are widely leveraged as foundations for learning new specialized tasks via fine-tuning, with the goal of maintaining the general performance of the model while allowing it to gain new skills. A valuable goal for all such models is robustness: the ability to perform well on out-of-distribution (OOD) tasks. We assess whether fine-tuning preserves the overall robustness of the pretrained model in image classification, and observed that models pretrained on large datasets exhibited strong catastrophic forgetting and loss of OOD generalization. To systematically assess robustness preservation in fine-tuned models, we propose the Robustness Inheritance Benchmark (ImageNet-RIB). The benchmark, which can be applied to any pretrained model, consists of a set of related but distinct OOD (downstream) tasks and involves fine-tuning on one of the OOD tasks in the set then testing on the rest. We find that though continual learning methods help, fine-tuning reduces robustness across pretrained models. Surprisingly, models pretrained on the largest and most diverse datasets (e.g., LAION-2B) exhibit both larger robustness losses and lower absolute robustness after fine-tuning on small datasets, relative to models pretrained on smaller datasets. We observe this collapse in contrastively pretrained (CLIP) models and their fine-tuned variants, where it grows with pretraining scale; the supervised models we test do not exhibit it. These findings suggest that starting with the strongest foundation model is not necessarily the best approach for performance on specialist tasks. https://jd730.github.io/projects/ImageNet-RIB",
+  "published": "2024-10-28T22:33:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.534374+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:20:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2410.21582v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.012943+00:00"
+}

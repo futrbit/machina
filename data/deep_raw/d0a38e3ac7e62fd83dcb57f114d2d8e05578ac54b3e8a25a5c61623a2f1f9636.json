@@ -1,0 +1,21 @@
+{
+  "id": "d0a38e3ac7e62fd83dcb57f114d2d8e05578ac54b3e8a25a5c61623a2f1f9636",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Towards One-for-All Foundation Model for Attributed Graph Clustering",
+  "url": "https://arxiv.org/abs/2610.07778",
+  "summary": "arXiv:2610.07778v1 Announce Type: cross Abstract: Attributed graph clustering aims to discover node groups by jointly exploiting node attributes and graph topology, yet its unsupervised nature makes model selection and adaptation inherently difficult. Existing methods typically train and tune a separate model for each input graph, leading to costly and fragile pipelines that often fail to transfer across graphs with different feature spaces, structural patterns, and attribute-structure correlations. In this paper, we study a one-for-all alternative: can a single model be trained once and directly applied to diverse attributed graphs without graph-specific training, fine-tuning, or hyperparameter search? We propose OFAG, a foundation model for attributed graph clustering. Building upon Prior-data Fitted Networks, OFAG learns a reusable clustering inference strategy from synthetic attributed graphs generated under broad priors over latent clusters, node attributes, and graph structures. To handle incompatible feature spaces across graphs, OFAG adopts a dimension-agnostic signal-wise graph encoder that treats each feature channel as a graph signal and models its response to shared graph filters. The model is trained with a hyperspherical clustering objective, producing clustering-friendly node representations in a single forward pass at inference time. On ten datasets, one frozen OFAG model achieves the best mean performance and average rank across NMI, ACC, ARI, and F1, while completing all ten datasets in 12.43 minutes total---over 6* faster than the second-fastest baseline and nearly 28* faster than the second-best on clustering quality. Our code and pretrained checkpoint are available at https://github.com/Cloudy1225/OFAG, allowing practitioners to directly apply OFAG to their own attributed graph datasets without additional training or tuning.",
+  "published": "2026-10-06T05:13:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.168803+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:13:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07778v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.779686+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "a69043c244c742540ca97b0adc19aee496fdf938a1bbc9c6d97330867f493592",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Do Higher-Order Models Win for Higher-Order Reasons? Rethinking Performance Gains in Hypergraph Learning",
+  "url": "https://arxiv.org/abs/2610.07981",
+  "summary": "arXiv:2610.07981v1 Announce Type: new Abstract: Higher-order models (e.g., hypergraph neural networks) often outperform lower-order baselines on hypergraph learning benchmarks, and their advantages are commonly attributed to their ability to exploit higher-order information. However, better performance alone does not establish this explanation. We therefore ask: Do higher-order models win for higher-order reasons? To investigate this question, we introduce a controlled performance-attribution framework that perturbs higher-order information while preserving the lower-order, i.e., pairwise, information. Across 25 commonly used hypergraph learning benchmarks spanning three tasks, we frequently observe an intriguing pattern: higher-order models originally outperform lower-order baselines, yet retain most of their advantage after perturbation. This suggests that much of the observed advantage remains achievable without the higher-order information. We then investigate potential lower-order explanations for these remaining gaps. We find that simple additions to a lower-order baseline, e.g., richer pairwise weighting, more steps of pairwise feature propagation, and normalization, reduce the remaining performance gaps, supporting lower-order explanations for part of the observed advantage. Our analysis calls for the hypergraph learning community to rethink performance attribution by distinguishing performance gains from their explanations, adopt stronger lower-order baselines, and use suitable benchmarks that better test the value of higher-order information.",
+  "published": "2026-10-06T08:44:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.071493+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:44:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07981v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.320360+00:00"
+}

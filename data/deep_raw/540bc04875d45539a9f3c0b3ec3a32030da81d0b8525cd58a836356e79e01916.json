@@ -1,0 +1,18 @@
+{
+  "id": "540bc04875d45539a9f3c0b3ec3a32030da81d0b8525cd58a836356e79e01916",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Neural Block-wise Auto-exposure for Single-Shot High Dynamic Range Imaging",
+  "url": "https://arxiv.org/abs/2610.18733",
+  "summary": "arXiv:2610.18733v2 Announce Type: replace Abstract: Block-wise varying exposures are effective for cap- turing appearance of a real-world high dynamic range (HDR) scene via a single-shot. However, brightness order reversal (BOR) artifacts, blocking artifacts and loss of details in highlight/shadow regions are possible issues for block-wise varying exposures. In this paper, a novel neural block-wise auto-exposure algorithm is proposed to address the issues. The proposed algorithm maps a temporary image and its exposure time to the exposure times of all non-overlapping 16 X 16 blocks. The temporary image can be either an sRGB or a raw image. Although the sRGB image is widely adopted in existing auto-exposure algorithms, exposure times of blocks in the highlight and shadow regions might not be accurately learned due to the limited radiance measurement capability of the sRGB image. This paper thus also explores the feasibility of temporary image as a raw image. Due to the better radiance measurement capability of the raw image, the exposure times of blocks are learned more accurately, and more details in the highlight/shadow regions of the real-world HDR scene are captured by the resultant HDR imaging system. Experiment results validate the proposed neural block-wise auto-exposure algorithm.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.061082+00:00"
+}

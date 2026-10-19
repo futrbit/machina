@@ -1,0 +1,21 @@
+{
+  "id": "3ad29726ac9d457a9e9b6db2fc9322aea7aa1f5477ff0344fa72f376a5d33ee9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "The One-Word Census: Answer-Choice Conformity Across 44 Language Models",
+  "url": "https://arxiv.org/abs/2607.12796",
+  "summary": "arXiv:2607.12796v3 Announce Type: replace-cross Abstract: When a language model must choose one answer from a large space of equally valid options, which answer does it choose, and how often is it the answer every other model chooses? Asked to \"pick a word,\" 105 language models from more than twenty labs chose serendipity 46% of the time. We measure this convergence, and each model's share in it, with 96 single-turn prompts that each name a category with many valid one-word answers (\"Name a tree.\"), asked eight times per model and scored by exact match, with no embeddings and no judge. A model's answer-choice surprisal is the average -log2 probability of its answers under the pooled answers of all other models. In 28 of 96 categories a single answer takes at least 80% of all answers. The concentration does not depend on small or persona-tuned models: the 87 major-lab models are at least as concentrated as the full field. Lightly post-trained and persona-tuned models are the most divergent; heavily post-trained assistants from the major labs are the most conformist. Models that avoid the modal answer mostly land on the same runner-up. Within the major providers' lineages, release order shows no panel-wide trend once model tier is controlled; GPT, Gemini, Grok and Qwen become more conformist across releases, and Claude's generation-5 releases reverse. On open checkpoints of three post-training pipelines, supervised fine-tuning is the largest step toward the field's answers. Against human category-production norms, the field is more concentrated than people in 18 of 20 shared categories. All prompts, transcripts, and code are public.",
+  "published": "2026-07-14T14:12:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.424354+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:52:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.12796v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.705936+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f8e473422e6a9c9edc24e3cbc8e6ce3c3691a2b4aa83c3ce0a368e7467460d29",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "EnGRICH: Enhancing Generative Reward Modeling with Critiques from Humans",
+  "url": "https://arxiv.org/abs/2610.05370",
+  "summary": "arXiv:2610.05370v2 Announce Type: replace Abstract: Generative reward models (GRMs) are important for LLM optimization. Unlike scalar reward models, GRMs generate natural-language critiques alongside preference judgments, providing finer-grained evaluation signals. Their effectiveness depends heavily on critique reliability. However, existing GRM training typically uses final preference correctness as outcome supervision. Because the preference outcome space is highly constrained, unreliable critiques can still yield correct outcomes and thus be reinforced. Recent work leverages human critiques for process supervision, but such critiques are scarce and are often reduced to scalar rewards, leaving their fine-grained evaluative information underutilized. We argue that evaluative criteria learned from human critiques can be generalized to broader outcome-only preference data. To this end, we propose \\textbf{EnGRICH}, a GRM training framework that pairs the GRM with a training-time MetaCritic learned from a small set of human critiques. MetaCritic constructs response-specific rubrics and uses them to evaluate the evidence coverage and correctness of generated critiques. The resulting signals provide both process rewards for fine-grained credit assignment and structured guidance for exploring better critiques. During GRM training, MetaCritic is further optimized to generalize human-grounded evaluative criteria to outcome-only data. At inference, the trained GRM operates independently. Experiments across seven reward-model benchmarks show that EnGRICH consistently improves over competitive baselines, while further analyses validate the effectiveness of its core mechanisms.",
+  "published": "2026-10-04T16:51:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.189793+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:53:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05370v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.536627+00:00"
+}

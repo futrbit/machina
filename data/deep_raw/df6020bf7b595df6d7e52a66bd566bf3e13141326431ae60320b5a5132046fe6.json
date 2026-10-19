@@ -1,0 +1,22 @@
+{
+  "id": "df6020bf7b595df6d7e52a66bd566bf3e13141326431ae60320b5a5132046fe6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "What Words Keep of a Place: Zero-Shot Language Reasoning for Cross-View Geo-Localization",
+  "url": "https://arxiv.org/abs/2610.07269",
+  "summary": "arXiv:2610.07269v1 Announce Type: cross Abstract: Cross-view geo-localization is commonly solved as an image retrieval problem, matching a ground-level image against a database of satellite tiles through a jointly trained embedding. Such models are accurate, but they need large paired supervision and cannot show what evidence supports a match. In this paper, we study a different question: how much of this task can be solved through language alone? We prompt a multimodal large language model (MLLM) to describe each ground panorama and each satellite tile as structured text, and localize by comparing these descriptions. No component is trained. We evaluate on 9,826 VIGOR pairs from four U.S. cities, in three settings. First, the descriptions are faithful but not discriminative. They agree closely across the two views, yet ranking the full pool by description similarity almost never returns the correct tile (0.39% Recall@1). Second, we narrow the pool to ten neighboring tiles, as a coarse prior would do. The same descriptions now become useful: an MLLM judge that scores structural consistency doubles random ranking and matches a strong lexical baseline. It also states which fields of the two descriptions agree and which conflict, which an embedding distance cannot do, and which we see as a step toward interpretable localization. Third, we place the judge on a trained visual retriever. On the queries it ranks wrongly, reranking from images works, while reranking from our descriptions does not (23.5% against 10.7% Recall@1). Scene structure survives the conversion into language, while the fine appearance detail needed to separate nearby places does not. Code and prompts are publicly available at https://github.com/AyeshAbuLehyeh/GeoLingual.",
+  "published": "2026-10-05T19:11:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.090481+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:11:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07269v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.236808+00:00"
+}

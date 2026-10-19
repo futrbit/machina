@@ -1,0 +1,22 @@
+{
+  "id": "9acd41631c8052cfb04ebde06a10e6031f5f259adbfa7856c5d88521b6aa4372",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Scalable Multi-Task Inverse Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2610.00758",
+  "summary": "arXiv:2610.00758v1 Announce Type: new Abstract: By learning transferable rewards, inverse reinforcement learning (IRL) enables counterfactual evaluation of agents under modified environments. Such transfer places strict requirements on coverage since target environments affect agents' state occupancy. We propose a multi-task IRL method that pools data across multiple agents with different rewards in the same environment under a low-rank assumption. In addition to alleviating coverage requirements, so each task need not visit every state as long as others do, the method offers scalable evaluation of multiple tasks under new environments as computationally intensive planning scales with rank rather than the number of tasks. We provide finite sample guarantees on reward recovery and on policy learning in new environments. Experiments show our method is robust to limited coverage, recovers rewards on and off of each task's support, transfers to target environments at lower regret than baselines, with its computational advantage over per-task methods widening as tasks grow.",
+  "published": "2026-09-30T21:52:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.780505+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T21:52:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00758v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.982564+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ae562364508536fb901074216875a44b752ac498297161991a9052c04b76a969",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Light Field Primitive for Novel View Synthesis",
+  "url": "https://arxiv.org/abs/2609.31198",
+  "summary": "arXiv:2609.31198v1 Announce Type: new Abstract: We present Light Field Primitives (LFP), a formulation for novel view synthesis that replaces the dense ray database with a compact set of differentiable primitives in the classical two-plane parameterization. Each primitive condenses a group of rays into one learned record, and its response to a query is governed by how closely that query belongs to the group. Rendering a camera ray then reduces to compositing all responses it elicits, and a scene can be optimized directly from posed images and rendered in real time with rays. Beyond its competitive performance on standard benchmarks, the main advantage of LFP is structural: its primitives reside directly in the 4D ray space, so optical and appearance effects that are already operations on the light field become behaviors of a single shared renderer. With minimal changes to that renderer, LFP supports multi-scale anti-aliasing, defocus deblurring with refocusing, rendering for fisheye cameras, and even transparent object reconstruction with ray refraction, matching specialized frameworks that devote substantial machinery to these effects.",
+  "published": "2026-09-25T12:35:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.225415+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T12:35:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31198v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.528236+00:00"
+}

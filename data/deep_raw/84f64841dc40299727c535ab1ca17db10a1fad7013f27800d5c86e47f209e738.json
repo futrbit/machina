@@ -1,0 +1,22 @@
+{
+  "id": "84f64841dc40299727c535ab1ca17db10a1fad7013f27800d5c86e47f209e738",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning Visual Feature-Based World Models via Residual Latent Action",
+  "url": "https://arxiv.org/abs/2605.07079",
+  "summary": "arXiv:2605.07079v2 Announce Type: replace-cross Abstract: World models predict future transitions from observations and actions. Existing works predominantly focus on image generation only. Visual feature-based world models, on the other hand, predict future visual features instead of raw video pixels, offering a promising alternative that is more efficient and less prone to hallucination. However, current feature-based approaches rely on direct regression, which leads to blurry or collapsed predictions in complex interactions, while generative modeling in high-dimensional feature spaces still remains challenging. In this work, we discover that a new type of latent action representation, which we refer to as Residual Latent Action (RLA), can be easily learned from DINO residuals. We also show that RLA is predictive, generalizable, and encodes temporal progression. Building on RLA, we propose RLA World Model (RLA-WM), which predicts RLA values via flow matching. RLA-WM outperforms both state-of-the-art feature-based and video-diffusion world models on simulation and real-world datasets, while being orders of magnitude faster than video diffusion. Furthermore, we develop two robot learning techniques that use RLA-WM to improve policy learning. The first one is a minimalist world action model with RLA that learns from actionless videos, and improves VLA on LIBERO and real robot. The second one is a visual RL framework trained entirely inside a world model learned from offline videos only, using a video-aligned reward and no online interactions. Project page: https://mlzxy.github.io/rla-wm",
+  "published": "2026-05-08T00:58:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.130456+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:17:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.07079v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.987165+00:00"
+}

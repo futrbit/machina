@@ -1,0 +1,21 @@
+{
+  "id": "d3967b87502820bd474b03124b68d1f1d3cb53ceaf829500c4081e22ced2fe06",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SURGE: Sonar-fUsed Reconstruction and localization via image-gated Graph Estimation",
+  "url": "https://arxiv.org/abs/2610.07472",
+  "summary": "arXiv:2610.07472v1 Announce Type: new Abstract: Remotely operated vehicles (ROVs) are widely used to explore and inspect underwater environments such as caves, shipwrecks, and submerged infrastructure. These missions require accurate 3D understanding of the surrounding environment, which depends on both reliable vehicle localization and metric scene reconstruction. However, external positioning is often unavailable underwater, requiring small ROVs to rely primarily on onboard perception. Optic vision provides rich visual and geometric information but suffers from scale ambi- guity and trajectory drift, whereas 2D imaging sonar provides metric range but incomplete 3D geometry. Existing underwater reconstruction approaches typically address these limitations separately or assume known sensor poses, leaving localization and reconstruction disconnected. We present SURGE, a camera sonar framework that jointly estimates the ROV trajectory and target location by integrating visual and acoustic observations within a factor graph, then uses the recovered metric poses for sonar Gaussian splatting. Experiments on real underwater RGB sonar observations show that SURGE substantially improves localization consistency over conventional vision based pose estimation and produces a more compact, natively metric reconstruction than RGB Gaussian splatting baselines.",
+  "published": "2026-10-05T22:38:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.455025+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:38:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07472v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.111883+00:00"
+}

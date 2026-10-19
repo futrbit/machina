@@ -1,0 +1,22 @@
+{
+  "id": "ebb5f4afbb1fbf81a9fa981774e798e70fc9cafc79c9c4052c4214d3da7d180a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Beyond the Leaderboard: Multi-Dimensional Evaluation of Dense and Mixture-of-Experts Models for Automated Program Repair",
+  "url": "https://arxiv.org/abs/2610.08173",
+  "summary": "arXiv:2610.08173v1 Announce Type: cross Abstract: Automated Program Repair (APR) with language models is usually evaluated by whether a generated patch passes the test suite, which can hide differences in maintainability, security, and computational cost. We propose a Weighted Quality Index (QI), inspired by the ISO/IEC 25010 software quality model, that combines functional correctness, maintainability, security, and generation efficiency under configurable weighting schemes. We evaluate three dense Qwen2.5-Coder models (3B, 7B, 14B) and the 16B-parameter DeepSeek-Coder-V2-Lite Mixture-of-Experts (MoE) model (2.4B active parameters) on 40 QuixBugs and 90 Defects4J bugs, all run locally on identical hardware to control for infrastructure effects. Model rankings change with the weighting scheme, showing that single-metric evaluation can hide trade-offs. The MoE model shows almost no statistically significant difference in correctness from the 7B and 14B dense models (McNemar's exact test) while using 3-6 times fewer active parameters, whereas correctness increases significantly across the three dense scales. These results suggest that active parameter count can be a more informative lens than total parameter count for sparse code models.",
+  "published": "2026-10-06T11:27:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.103472+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:27:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08173v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.384718+00:00"
+}

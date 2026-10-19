@@ -1,0 +1,22 @@
+{
+  "id": "8fdf15374509bf12018ccd8c553e06386e82c1092baec2bd88b4defb93f469c3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "The Dual Mechanisms of Spatial Variable Binding in Vision-Language Models",
+  "url": "https://arxiv.org/abs/2603.22278",
+  "summary": "arXiv:2603.22278v3 Announce Type: replace Abstract: Many multimodal tasks, such as image captioning and visual question answering, require vision-language models (VLMs) to bind objects with their properties and spatial relations. Yet it remains unclear where and how such associations are computed within VLMs. In this work, we show that VLMs rely on two concurrent mechanisms to represent spatial variable binding. In the language model backbone, intermediate layers represent content-independent spatial relations on top of visual tokens corresponding to objects. However, this mechanism plays only a secondary role in shaping model predictions. Instead, the dominant source of spatial information originates in the vision encoder, whose representations encode the layout of objects and are directly exploited by the language model backbone. Notably, this spatial signal is distributed globally across visual tokens, extending beyond object regions into surrounding background areas. We validate the generalization of our findings to complex natural images from the COCO dataset, where globally amplifying the vision-derived spatial representations across all image tokens corrects spatial variable binding failures across models of various sizes. Together, our results clarify how spatial variable binding is computed within VLMs and highlight the central role of vision encoders in enabling it.",
+  "published": "2026-03-23T17:58:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.536373+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:42:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.22278v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.370138+00:00"
+}

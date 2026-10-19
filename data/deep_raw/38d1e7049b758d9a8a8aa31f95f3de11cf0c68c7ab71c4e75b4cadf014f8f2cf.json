@@ -1,0 +1,18 @@
+{
+  "id": "38d1e7049b758d9a8a8aa31f95f3de11cf0c68c7ab71c4e75b4cadf014f8f2cf",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Shift-Reliance Alignment: Ranking Vision-Language Models by the Cues They Trust",
+  "url": "https://arxiv.org/abs/2610.22610",
+  "summary": "arXiv:2610.22610v1 Announce Type: new Abstract: Vision-language models (VLMs) are usually chosen from leaderboards, which give one ranking for every application. On questions about objects that a scene suggests but does not contain, however, the model with the lowest error on the POPE hallucination benchmark is not the one with the lowest error on such questions. For yes/no questions about object presence, we show that the best model for a target domain can be predicted without running any candidate on that domain, given 650 to 1,200 labeled target items that calibrate a detector. We measure each model's reliance on a cue, a feature such as scene context or text in the image, by editing 100 labeled source images so that the cue suggests the wrong answer, and comparing with a matched control edit. Reliance predicts which VLMs are misled by physical sticker attacks (Spearman .93 on nine models not used to design the score) and which hallucinate on unedited COCO photographs, beyond what their tendency to answer yes explains. Shift-Reliance Alignment (SRA) scores a model by its source error on the labeled source questions plus its reliance multiplied by the shift. The shift is the proportion of target questions on which the cue misleads, and a detector estimates it on the unlabeled target images. SRA selects the model with the lowest score. In pre-registered tests on new images where most questions mislead, it lowered the error of the selected model from 30.4% under selection by source error to 18.8% on Objects365 and OpenImages but, against its prediction, not on COCO. On CueDial, a benchmark we release that varies how often a cue misleads, selection by model confidence falls more than 40 percentage points behind the best model when overlaid text denies a visible object, and SRA stays within 3 points.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.036097+00:00"
+}

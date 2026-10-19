@@ -1,0 +1,21 @@
+{
+  "id": "761957d33a88752521afceb068d309de5d003f89bdf2fb337744c5dae7a419f0",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning with Dynamic Routing",
+  "url": "https://arxiv.org/abs/2609.15160",
+  "summary": "arXiv:2609.15160v2 Announce Type: replace Abstract: Looped Transformers have recently demonstrated strong performance in both reasoning and language tasks by reusing a shared set of parameters across multiple iterations, achieving parameter efficiency without sacrificing representational power. Besides, looped Transformers perform inference directly in the latent space (latent reasoning) to reduce the number of tokens consumed during inference, thereby achieving improved sample efficiency. However, these models typically apply a fixed recursion depth uniformly to every token, leading to suboptimal compute allocation and leaving significant efficiency gains on the table. In this work, we propose dynamic token-choice routing for looped transformers, enabling each token to adaptively determine its own number of loop iterations based on its hidden state, which can improve the token generation accuracy. Moreover, we further introduce recursion-wise KV cache, which maintains an independent key-value cache for each recursion loop, this design ensures that tokens at different depths only attend to their corresponding cached states, effectively enabling faster autoregressive decoding. Extensive experiments show that T-LoopFormer achieves robust performance on language modeling and zero-shot reasoning tasks and our model can reach the lowest decoding latency, which validate the effectiveness of token-choice router and recursion-wise KV cache. Code is available at https://github.com/YuMingQian1234/T-LoopFormer",
+  "published": "2026-09-14T07:41:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.432876+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T15:06:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.15160v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.249006+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "71df9e90b4d426bb7cd705e3bfd962b96b709d0b6f6f1ad8c5787b1c10c365f2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts",
+  "url": "https://arxiv.org/abs/2610.00722",
+  "summary": "arXiv:2610.00722v1 Announce Type: new Abstract: World models enable agents to plan by predicting future states of the environment, but their predictions can become unreliable when test-time dynamics differ from those seen during training. We present JEPA-TTT, which adapts the latent dynamics predictor of a pretrained action-conditioned Joint-Embedding Predictive Architecture world model throughout test time. Self-supervised updates accumulate across episodes, while the visual encoder and reward head remain fixed, preserving the pretrained representation and task objective. Planning requires neither a goal image nor online environment reward. JEPA-TTT uses dense replay, which forms prediction windows at every temporal offset, retains them in a growing buffer, and samples minibatches from that buffer for predictor updates. Across eight dynamics shifts in four continuous-control environments, JEPA-TTT improves planning on every shift. After 500 test-time episodes, it reduces autoregressive latent prediction error by 83% on average and improves planning performance by 153% over the frozen JEPA world model. These results show that persistent self-supervised test-time training can adapt a pretrained latent world model under changed dynamics.",
+  "published": "2026-09-30T21:13:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.779505+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T21:13:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00722v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.128080+00:00"
+}

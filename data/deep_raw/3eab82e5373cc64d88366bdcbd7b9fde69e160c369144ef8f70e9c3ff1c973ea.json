@@ -1,0 +1,21 @@
+{
+  "id": "3eab82e5373cc64d88366bdcbd7b9fde69e160c369144ef8f70e9c3ff1c973ea",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+  "url": "https://arxiv.org/abs/2608.06332",
+  "summary": "arXiv:2608.06332v2 Announce Type: replace Abstract: Generalist robot policies exhibit strong capabilities, but their robustness in complex and unseen environments remains limited. Scaling robot learning and evaluation in diverse real-world environments remains costly and challenging. Action-conditioned world models offer a promising alternative, but they often suffer from limited action controllability and poor generalization to out-of-distribution (OOD) scenarios. To this end, we present GeniWorld, an interactive world model for robots that generalizes robustly across unseen scenarios. Building on pretrained video generative models, we use URDF-based rendering to transform numerical actions into visual action representations, enabling spatially grounded action control. By explicitly decoupling embodiment kinematics from environmental dynamics, our model mitigates scene overfitting and facilitates modeling of robot-environment interactions. To achieve closed-loop control, we construct an autoregressive video prediction model integrated with high-frequency robot kinematic control, enabling interaction with both robot policies and human teleoperators. In our experiments, even when trained solely on limited fixed-scene data, our model achieves superior in-domain performance and robust zero-shot generalization to highly randomized, unseen environments. For downstream applications, GeniWorld serves as a scalable policy evaluator that remains reliable under environmental perturbations. Furthermore, even with limited real-world demonstrations, GeniWorld generates diverse manipulation trajectories within the world model, improving downstream policy performance and robustness in complex environments.",
+  "published": "2026-08-06T17:40:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.761530+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:56:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.06332v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.762902+00:00"
+}

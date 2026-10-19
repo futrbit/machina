@@ -1,0 +1,22 @@
+{
+  "id": "c95a9f881b010e796c95c009d8ae317b38c00f5d36e4a05e80200ece1d1f42e4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Symbolic Density Estimators for Unnormalized Distributions",
+  "url": "https://arxiv.org/abs/2610.10807",
+  "summary": "arXiv:2610.10807v1 Announce Type: new Abstract: Estimating the symbolic or analytical form of probability density functions (PDFs) from observed samples is a fundamental challenge in statistical and computational modelling. This process is critical for deriving interpretable and generalizable relationships characterizing the underlying phenomenon. Traditionally, this estimation depends strongly on domain expertise and prior field-specific knowledge, with experts selecting appropriate functional forms or parametric families based on empirical evidence and theoretical understanding. The coefficients of these forms are then typically determined through parameter estimation. In this paper, we develop a framework for estimating symbolic expressions of unnormalized distributions from observed samples using domain-specific prior knowledge, such as the range of interactions and a predefined set of primitive functions. We integrate deep generative models with symbolic regression (SR), incorporating inductive biases, such as factorizing large distributions, to keep the problem tractable. The deep generative models we examine include likelihood-based models, viz., flow models, and score-based models. Experiments show the effectiveness of the proposed framework for estimating density functions for multivariate toy distributions as well as lattices from computational physics, namely, XY model and $\\phi^4$ theory. When applied to the renormalization problem in $\\phi^4$ theory, the proposed framework estimates compact symbolic approximations of the hamiltonian function at different scales directly from samples, yielding expressions that may be challenging to derive using traditional perturbative or analytic approaches in nonperturbative settings.",
+  "published": "2026-10-07T19:09:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.076437+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:09:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10807v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.983960+00:00"
+}

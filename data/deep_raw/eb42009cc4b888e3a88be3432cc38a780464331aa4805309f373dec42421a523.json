@@ -1,0 +1,21 @@
+{
+  "id": "eb42009cc4b888e3a88be3432cc38a780464331aa4805309f373dec42421a523",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MiniScope: Authorizing Agents with Least-Privilege Permissions",
+  "url": "https://arxiv.org/abs/2512.11147",
+  "summary": "arXiv:2512.11147v2 Announce Type: replace-cross Abstract: AI agents are increasingly granted autonomous access to sensitive user data and third-party services, making effective permission management a critical security challenge. Existing permission models, however, typically rely on flat permission structures that fail to balance security with usability: fine-grained confirmation induces user fatigue, while coarse-grained or persistent approval leads to overprivileged agents. To address this tradeoff, we propose a task-centric, hierarchical permission model that treats an agent as a delegate operating within a task-specific role instead of requiring a separate permission decision for every tool call. Building on this model, we present MiniScope, an end-to-end permission system for agents that automates permission-hierarchy discovery and enforces contextual least privilege at runtime. Our evaluation shows that MiniScope reduces simulated permission confirmations by 43.4%-89.4% for cautious and typical personas relative to per-tool prompting and mitigates all privilege-escalation attacks with negligible impact on utility and runtime. Applied to real-world deployments, MiniScope further uncovers six overprivileged connector configurations in ChatGPT and Claude.",
+  "published": "2025-12-11T22:10:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.192787+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:56:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.11147v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.377722+00:00"
+}

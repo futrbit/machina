@@ -1,0 +1,18 @@
+{
+  "id": "59a31c3f6e0a59de981676d33084709a9481657f8cc25ec2880ad7eb2cd9e468",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Can Graph Learning Learn Circuits?",
+  "url": "https://arxiv.org/abs/2608.08536",
+  "summary": "arXiv:2608.08536v2 Announce Type: replace Abstract: Circuit localization is a mechanistic interpretability task whose goal is to identify a sparse subgraph of a transformer's computation graph sufficient to reproduce a particular behavior. Most established methods localize circuits independently for each model-task pair. We instead frame circuit localization as a graph machine learning problem in which the edges of a computation graph represent computational pathways, and graph neural networks (GNNs) model interactions among these pathways. We introduce Graph Circuit Learning (GCL), a supervised, amortized framework that trains a GNN across multiple model-task pairs and applies it to unseen cases. To provide sufficient data, we augment the InterpBench benchmark with additional cases derived from TracrBench programs. Of the 46 evaluated GCL configurations, the one selected by cross-validation scored a median edge AUROC of 0.946 (interquartile interval [0.841, 0.980]) on the 16 held-out cases of our evaluation split. Removing all message-passing edges reduces the median to 0.926. We also adapt PGExplainer, a GNN explainability method, to circuit localization, obtaining a median edge AUROC of 0.950 on the same cases. These preliminary results suggest that graph machine learning offers a natural and potentially powerful perspective on circuit localization, one we hope encourages closer exchange between the two communities.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.266708+00:00"
+}

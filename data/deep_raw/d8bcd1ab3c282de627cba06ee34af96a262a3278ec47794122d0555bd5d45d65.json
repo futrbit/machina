@@ -1,0 +1,22 @@
+{
+  "id": "d8bcd1ab3c282de627cba06ee34af96a262a3278ec47794122d0555bd5d45d65",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Hierarchical Continuous Diffusion Language Models",
+  "url": "https://arxiv.org/abs/2610.02193",
+  "summary": "arXiv:2610.02193v1 Announce Type: cross Abstract: Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, so nothing ties it to a valid token configuration until it is finally decoded. To address this, we propose Hierarchical Continuous Diffusion Language Models (HC-DLM), which couple discrete token generation with a continuous latent trajectory in a single, principled denoising process, whose training objective is derived from a variational bound on the token likelihood. In contrast to recent methods that attach continuous context to a self-contained discrete chain, HC-DLM makes the latent the only persistent generative state: tokens are read out from it at every step and feed back as a scaffold for the next latent update. On structured reasoning (Sudoku), mathematical planning (Countdown) and language modeling (LM1B), HC-DLM improves over discrete and continuous diffusion baselines at matched model size, in puzzle accuracy on Sudoku and Countdown and in generative perplexity on LM1B. Project page: https://hc-dlm.github.io/.",
+  "published": "2026-10-01T17:59:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.825476+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:59:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02193v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.173846+00:00"
+}

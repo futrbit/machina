@@ -1,0 +1,22 @@
+{
+  "id": "fd2b9cbab8ed069267baa8dfb51060304e1a72da6b982278a71f3598834c1475",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Scalable extraction and visualization of multi-attribute logical and functional dependencies in tabular data",
+  "url": "https://arxiv.org/abs/2610.08287",
+  "summary": "arXiv:2610.08287v1 Announce Type: new Abstract: Understanding the structural relationships among attributes in tabular data is fundamental to machine learning and pattern recognition. While functional dependency (FD) discovery has been extensively studied, scalable discovery of logical dependencies (LDs), particularly as the number of attributes and dependency order increase, remains underexplored. These dependencies capture non-deterministic, condition-specific relationships among pairwise or multiple attributes. Furthermore, existing approaches do not provide a unified framework for extracting multi-attribute LDs and FDs. To address these limitations, we propose LDTool and HLDTool for extracting and visualizing multi-attribute LDs and FDs from tabular data. LDTool extends dependency discovery beyond pairwise relationships, while HLDTool enables scalable extraction through hypergraph-guided search-space reduction. Experiments on three simulated and eleven real-world datasets demonstrate that the proposed framework extracts meaningful LDs and FDs while improving scalability. LDTool recovers the same FDs as existing FD discovery methods with lower runtime in high-dimensional feature spaces, whereas HLDTool enables dependency discovery in datasets with hundreds of features. The proposed framework provides interpretable visualizations of dependency structures and supports applications in exploratory data analysis and the quantitative evaluation of synthetic tabular data.",
+  "published": "2026-10-06T12:56:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.074490+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:56:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08287v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.594592+00:00"
+}

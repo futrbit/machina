@@ -1,0 +1,22 @@
+{
+  "id": "ecc832091a2248a2f18c12f7b3cee13ca3690cd6f01e58fc2ebdc30ca26c176c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A perspective note on likelihood approximation and inference for complex simulation models using a chain of aggregated normalizing flows",
+  "url": "https://arxiv.org/abs/2610.07391",
+  "summary": "arXiv:2610.07391v1 Announce Type: cross Abstract: We present a new perspective on the problem of likelihood approximation within the framework of simulation-based inference that promotes scalable and controllable simulation routines for large-scale data analysis, allows efficient parameter space exploration or smooth interpolation in high-dimensions and, thus, supports valid statistical treatments of hypothesis testings as well as uncertainty quantification. In particular, we consider a chain of $n$-aggregated normalizing flows for likelihood approximation scheme, where a set of upfront replicated observation datasets from the forward complex simulation model pass through the first set of bijective transformations, and then subsequently pass to the other sets of bijective transformations. Here, we assume that, for any $k \\in \\{1,\\,2, \\ldots, n\\}$, the parameters corresponding to the first $k$ sets of bijective transformations are estimated sequentially, in some sense of optimality, for constructing flexible probability distributions, regardless of the remaining $(n-k)$ sets of bijective transformations. Moreover, our objects of interest are to highlight two complementary mathematical arguments that leverage an informatics-theoretic formalization, based-on empirical likelihood estimators under moment restrictions, and a sequential decision-making paradigm, with mixing distributions, for updating and aggregating the estimated parameters of the overall normalizing flows. As a by-product, the framework provides a reliable surrogate model, conditioned on the model parameters defining the forward computational simulation, that allows samples generation, with statistical powers, and facilitates computationally tractable scheme in the Bayesian paradigm for inference, hypothesis testings and uncertainty quantification.",
+  "published": "2026-10-05T21:05:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.091480+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:05:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07391v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.392715+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ea991e80dad64b3f4584e3c72eaef1d395363e76b9bde9ff2335da1cbb76d9ac",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Federated Mixture-of-Experts Alignment on Mobile Edge Networks under Data Heterogeneity",
+  "url": "https://arxiv.org/abs/2603.21276",
+  "summary": "arXiv:2603.21276v2 Announce Type: replace-cross Abstract: The growing demand for on-device large language model (LLM) services on mobile edge devices has driven the adoption of Mixture-of-Experts (MoE) architectures, which scale model capacity with limited computation. Since fine-tuning MoE-based LLMs relies on privacy-sensitive local data, federated learning (FL) offers a natural paradigm for collaborative training without exposing raw data. However, integrating MoE-based LLM fine-tuning into FL faces two critical challenges caused by data heterogeneity across clients: (i) divergent local data distributions drive clients to develop distinct gating preferences, so direct parameter aggregation yields a one-size-fits-none global gating network; and (ii) same-indexed experts develop disparate semantic roles across devices, leading to expert semantic blurring and degraded specialization. To address these challenges, we propose FedAlign-MoE, a federated aggregation alignment framework for edge computing systems that jointly enforces routing consistency and expert semantic alignment. Specifically, FedAlign-MoE aggregates gating behaviors by aligning routing distributions through consistency weighting and optimizes local gating networks through distribution regularization, maintaining cross-client stability while preserving discriminative local gating preferences. Meanwhile, FedAlign-MoE quantifies the semantic consistency of same-indexed experts across devices and selectively aggregates semantically aligned experts, ensuring stable and specialized global experts. Extensive experiments demonstrate that FedAlign-MoE outperforms state-of-the-art benchmarks, achieving faster convergence and higher accuracy in non-IID federated environments with lightweight computation and efficient communication.",
+  "published": "2026-03-22T15:07:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.194786+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:09:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.21276v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.316965+00:00"
+}

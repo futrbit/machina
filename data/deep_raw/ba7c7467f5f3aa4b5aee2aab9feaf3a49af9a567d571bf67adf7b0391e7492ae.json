@@ -1,0 +1,22 @@
+{
+  "id": "ba7c7467f5f3aa4b5aee2aab9feaf3a49af9a567d571bf67adf7b0391e7492ae",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Single-Loop, Constant-Batch First-Order Penalty Method for Stochastic Bilevel Optimization",
+  "url": "https://arxiv.org/abs/2610.07290",
+  "summary": "arXiv:2610.07290v1 Announce Type: cross Abstract: Recent advances in penalty-based methods for stochastic bilevel optimization (SBO) have eliminated the need for second-order derivative oracles. However, for stochastic nonconvex-strongly convex bilevel problems, existing first-order methods typically rely on nested loops and/or large batch sizes for attaining $O(\\epsilon^{-6})$ or $O(\\epsilon^{-4})$ sample complexity under standard bounded-variance assumption or mean-square smoothness assumption. Achieving these rates with a single-loop penalty method and a constant batch size remains challenging due to a large penalty value needed for an accurate approximation. To address this challenge, we develop a stochastic SIngle-loop COnstant-Batch first-order penalty method (SICO) that combines two complementary ingredients. First, it performs one stochastic-gradient update per-iteration for both the original lower-level and penalized problems, with a projection that controls the separation between their iterates. Second, it applies an exponential moving average to stabilize the upper-level gradient estimator. We show that this combination achieves $ O(\\epsilon^{-6}) $ sample complexity using only $O(1)$ stochastic-gradient samples per iteration under unbiased, bounded-variance stochastic gradients. Under the additional mean-square smoothness assumption on the lower-level stochastic gradients, the same algorithm improves the complexity to $O(\\epsilon^{-4})$ also with $O(1)$ batch size. To the best of our knowledge, this is the first work to match the best-known convergence rate for fully first-order SBO methods using a single loop and a constant batch size. This result addresses an open problem posed in the literature.",
+  "published": "2026-10-05T19:26:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.090481+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:26:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07290v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.781082+00:00"
+}

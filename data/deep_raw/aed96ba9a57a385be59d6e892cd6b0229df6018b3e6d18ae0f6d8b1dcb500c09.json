@@ -1,0 +1,21 @@
+{
+  "id": "aed96ba9a57a385be59d6e892cd6b0229df6018b3e6d18ae0f6d8b1dcb500c09",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Seed2Scale: A Self-Evolving Data Engine with Parallel Worlds Expansion for Scalable Robot Learning",
+  "url": "https://arxiv.org/abs/2603.08260",
+  "summary": "arXiv:2603.08260v2 Announce Type: replace Abstract: Existing data generation methods for robot learning suffer from limited exploration, embodiment gaps, low signal-to-noise ratios, and domain shifts, leading to performance degradation during self-iteration and poor generalization to unseen scenes. To address these challenges, we propose Seed2Scale, a self-evolving data engine with parallel worlds expansion. Starting with as few as four seed demonstrations, Seed2Scale first executes a self-evolution stage driven by a heterogeneous synergy of \"small-model collection, large-model evaluation, and target-model learning\". Specifically, the lightweight Vision-Language-Action (VLA) model, SuperTiny, serves as a dedicated data collector for robust exploration. Concurrently, a pretrained Vision-Language Model (VLM) functions as a verifier to autonomously score and filter trajectories, supporting stable self-evolution in the evaluated tasks without performance collapse. Furthermore, Seed2Scale introduces a parallel worlds stage, projecting self-evolved trajectories into different environments of the same task to generate more diverse data and enhance adaptability to unseen scenes, including real-world environments. Experimental results demonstrate that Seed2Scale exhibits significant scaling potential: as iterations progress, the success rate of the target model shows a consistent upward trend, significantly outperforming the seed baseline. Notably, Seed2Scale achieves a remarkable 75.38% success rate in zero-shot real-world evaluations, where baseline methods fail completely (0%). Project page: https://terminators2025.github.io/Seed2Scale.github.io",
+  "published": "2026-03-09T11:30:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.758532+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:40:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.08260v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.539229+00:00"
+}

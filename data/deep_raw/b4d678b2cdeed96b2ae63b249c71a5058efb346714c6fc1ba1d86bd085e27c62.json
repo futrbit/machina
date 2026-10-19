@@ -1,0 +1,22 @@
+{
+  "id": "b4d678b2cdeed96b2ae63b249c71a5058efb346714c6fc1ba1d86bd085e27c62",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Generalized Matheron Variational Implicit Processes",
+  "url": "https://arxiv.org/abs/2610.07938",
+  "summary": "arXiv:2610.07938v1 Announce Type: new Abstract: Implicit-process priors specify distributions over functions through sample-forward mechanisms such as Bayesian neural networks and stochastic simulators, but their function-space densities are typically unavailable. We introduce Generalized Matheron Variational Implicit Processes (GMVIP), a pathwise variational family for posterior inference with such priors. For Gaussian-process priors, GMVIP recovers the standard inducing-variable variational GP construction; for general implicit priors, its empirical covariance construction preserves the prior mean and covariance in the population limit. GMVIP constructs posterior samples by drawing a function from the prior and applying a correction anchored at a set of inducing inputs. The effect of this correction away from the inducing inputs is determined directly from prior samples, allowing the posterior to retain the structure and variability of the original implicit process. The (surrogate) prior and variational posterior use the same pathwise construction and differ only in the distribution of whitened inducing coefficients, yielding a tractable coefficient-space Kullback-Leibler divergence. Experiments on regression, classification, and forecasting with simulator-defined and retrieval-conditioned empirical trajectory priors show that GMVIP is broadly competitive with existing methods.",
+  "published": "2026-10-06T08:11:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.070492+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:11:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07938v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.693136+00:00"
+}

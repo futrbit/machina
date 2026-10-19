@@ -1,0 +1,22 @@
+{
+  "id": "a2d1202bafdbebbc9988aa01a7e180cdb67ec00be337e1a50a1b75a3f5b6ee12",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "PI-AMFM: Permutation-Invariant Learning for Variable-Cardinality AM-FM Mode Decomposition in Biomedical Signal Analysis",
+  "url": "https://arxiv.org/abs/2610.00819",
+  "summary": "arXiv:2610.00819v1 Announce Type: cross Abstract: Physiological recordings often contain nonstationary oscillatory components whose number and dynamics vary across signals. Amplitude- and frequency-modulated (AM-FM) representations are well suited to characterizing such dynamics and have shown broad utility in biomedical signal analysis. Recent approaches have incorporated neural networks to learn mode decomposition patterns from data, but component cardinality is often predefined or determined through separate stopping or selection mechanisms. We propose a permutation-invariant neural framework for variable-cardinality AM-FM mode decomposition (PI-AMFM). PI-AMFM combines a multiscale temporal encoder, Mamba backbone, and component-presence estimation, with permutation-invariant Hungarian matching during training. On synthetic AM-FM signals, PI-AMFM achieved lower decomposition, instantaneous-frequency, reconstruction, and mode-count errors than the compared methods while preserving the overall trajectory pattern in a crossing-chirp example. On photoplethysmographic recordings, recovered modes captured cardiac and respiratory dynamics despite training only on synthetic signals. These results support the feasibility of PI-AMFM for variable-cardinality decomposition of nonstationary biomedical signals.",
+  "published": "2026-09-30T23:24:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.813484+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T23:24:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00819v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.242408+00:00"
+}

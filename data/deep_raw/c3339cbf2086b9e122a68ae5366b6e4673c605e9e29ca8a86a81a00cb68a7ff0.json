@@ -1,0 +1,22 @@
+{
+  "id": "c3339cbf2086b9e122a68ae5366b6e4673c605e9e29ca8a86a81a00cb68a7ff0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "GHARP: Real-time Gaussian Head Animation from Large-scale Reconstruction Prior",
+  "url": "https://arxiv.org/abs/2610.10945",
+  "summary": "arXiv:2610.10945v1 Announce Type: new Abstract: We present GHARP (Real-time Gaussian Head Animation from Large-scale Reconstruction Prior), a method that animates 3D human heads in real time from a few input images of a subject and a driving expression signal. We decouple the problem into an identity stage that builds a representation of the subject's geometry and appearance offline, and an animation stage that predicts expression-dependent residuals on top of it at runtime. This separation offers a favorable trade-off with respect to fidelity, quality and runtime: the identity stage can be expensive while the animation stage runs a lightweight network, optimized for mobile devices. Our method performs animation in a semantically structured latent space of a pretrained reconstruction model, where expression changes remain spatially contained, making residual prediction efficient. This reconstruction prior provides a consistent spatial layout, allowing fusion of multiple input views into a compact, fixed-size canonical Gaussian representation. While this two-stage design improves the runtime-quality trade-off, it still inherits a problem common to all expression-driven avatar methods: expression codes describe only the face and thus omit body pose and clothing position, making these regions underspecified in the input. The animation network faces an ill-posed mapping and resorts to averaging over conflicting body appearances, producing blur and temporal flicker. We address this with a body alignment network that learns to align the person's body in the target image with the input reference images, removing the ambiguity from the training signal. Our method achieves state-of-the-art quality on the Ava-256 benchmark while running up to 13x faster on an A100 GPU with 8x fewer Gaussians.",
+  "published": "2026-10-07T21:50:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.736057+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T21:50:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10945v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.799277+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dd4a89a6225c8f2640653079c0fc0496c21977f3c53abb0ecceb87b3aa71dbd0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Scale-invariant Gaussian derivative residual networks",
+  "url": "https://arxiv.org/abs/2603.02843",
+  "summary": "arXiv:2603.02843v2 Announce Type: replace Abstract: Generalisation across image scales remains a fundamental challenge for deep networks, which often fail to handle images at scales not seen during training (the out-of-distribution problem). In this paper, we present provably scale-invariant Gaussian derivative residual networks (GaussDerResNets), constructed out of scale-covariant Gaussian derivative residual blocks coupled in cascade, aimed at addressing this problem. By adding residual skip connections to the previous notion of Gaussian derivative layers, deeper networks with substantially increased accuracy can be constructed, while preserving very good scale generalisation properties. Explicit proofs are provided for the underlying scale-covariant and scale-invariant properties in arbitrary dimensions. To analyse the ability of GaussDerResNets to generalise to new scales, we apply them on a new rescaled version of the STL-10 dataset, where training is done at a single fixed scale and evaluation is performed on copies of the test set, each rescaled to a distinct spatial scale, with scale factors extending over a range of 4. We also conduct similar systematic experiments on the rescaled versions of Fashion-MNIST and CIFAR-10 datasets, and the existing STIR datasets. Experimentally, we demonstrate that the GaussDerResNets have strong scale generalisation and scale selection properties on all the four considered datasets with scaling variations. In our ablation studies, we investigate different architectural variants of GaussDerResNets, demonstrating that basing the architecture on depthwise-separable convolutions reduces the number of parameters and computations, with reasonably maintained accuracy and scale generalisation. We conclude by outlining how the proposed GaussDerResNets can be extended to joint local spatial and scale selection, to address the topic of multi-object detection in a provably scale-invariant manner.",
+  "published": "2026-03-03T10:39:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.235065+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T12:15:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.02843v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.219818+00:00"
+}

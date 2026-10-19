@@ -1,0 +1,21 @@
+{
+  "id": "1b4c61aa623201f5c415b96261779094e8022db030a65e36549944b6f228d600",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue",
+  "url": "https://arxiv.org/abs/2610.08683",
+  "summary": "arXiv:2610.08683v1 Announce Type: new Abstract: Full-duplex speech models are trained to converse with a person, but they are increasingly made to converse with each other, in self-play data generation, agent societies, and model-based evaluation. In that loop no human absorbs a timing error: each model's turn-taking is the other's input. We ask what timing the loop settles into. Two PersonaPlex-7B instances exchange audio tokens on a shared clock in unscripted conversation, and one floor-transfer rule is applied to them and to Switchboard. Their timing is coupled: re-pairing speakers across conversations destroys it. But the floor changes hands late, at a median of 400-560 ms against 137 ms for humans, and the last 120 ms of the partner's turn, where human projection places a tenth of its transfers, holds 1% of theirs. Delaying one direction of the channel shifts the response one-for-one and leaves the run-up to it empty, consistent with a reactive wait after the perceived end rather than the turn-end projection human timing requires.",
+  "published": "2026-10-06T17:03:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.148814+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:03:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08683v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.952783+00:00"
+}

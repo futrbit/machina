@@ -1,0 +1,22 @@
+{
+  "id": "cd16c4add1ea6d05e0bb0c27c41de68abcac47bd7012e3b9cd2ec0207b6e1cb1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Event-Driven ML Pipeline Orchestration for Manufacturing: An AWS Industry Experience",
+  "url": "https://arxiv.org/abs/2610.06890",
+  "summary": "arXiv:2610.06890v1 Announce Type: new Abstract: We present an industry experience report on three years of operating an event-driven cloud infrastructure for continuous machine learning training in automotive manufacturing. Our system orchestrates GPU-accelerated training of product-specialized model pairs, a physics prediction model and a reinforcement-learning control policy, across multiple plants, coordinating long-running GPU workloads triggered by manufacturing events. The architecture combines Amazon ECS with EC2 GPU capacity providers, SQS-based messaging with dead-letter queues, and an admission-controlled Lambda dispatcher that enforces cluster concurrency limits. A Conductor orchestrator on ECS Fargate initiates dependency-aware retraining chains on a weekly schedule. The entire infrastructure is codified in modular Terraform with multi-account separation. From 40000+ production training jobs we report a 72-78% cost reduction versus always-on GPU infrastructure. A discrete-event simulation confirms that admission control is necessary (naive dispatch loses 65% of jobs) and that queue-draining matches AWS Step Functions latency while eliminating per-job startup overhead. We provide lessons learned and release the simulator and Terraform module skeletons as open-source artifacts.",
+  "published": "2026-09-24T03:56:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.039511+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-09-24T03:56:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06890v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.027934+00:00"
+}

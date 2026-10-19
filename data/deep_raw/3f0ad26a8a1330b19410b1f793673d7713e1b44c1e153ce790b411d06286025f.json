@@ -1,0 +1,22 @@
+{
+  "id": "3f0ad26a8a1330b19410b1f793673d7713e1b44c1e153ce790b411d06286025f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Removing the NEEDLE in the Haystack: Backdoor Removal in LLMs via Weight Orthogonalisation",
+  "url": "https://arxiv.org/abs/2610.00348",
+  "summary": "arXiv:2610.00348v1 Announce Type: cross Abstract: Backdoor attacks can be implanted in Large Language Models (LLMs) during training, causing unwanted behaviour when a trigger appears in the input. Existing backdoor defences for LLMs attempt to remove the backdoor but inadvertently shift the model's output distribution to benign prompts, which can result in degraded model performance and safety. We propose NEEDLE, a training-free method for targeted backdoor removal. Once a trigger has been identified, our method estimates a backdoor direction and a refusal subspace through activation vectors, then applies sequential weight orthogonalisation to suppress the backdoor while preventing changes in refusal-related representations. NEEDLE requires neither a clean reference model nor the original poisoned training data. Evaluation is conducted across multiple model families and attack types. NEEDLE achieves the lowest mean Attack Success Rate (ASR) among the evaluated defences, including 0% on challenging code injection attacks, while resulting in the lowest KL divergence and minimal changes in capability and safety.",
+  "published": "2026-09-29T20:35:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.808487+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-29T20:35:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00348v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.765900+00:00"
+}

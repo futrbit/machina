@@ -1,0 +1,21 @@
+{
+  "id": "07d28f1cac2d492fbd189b1298a71b86fa590a4e3bf894d6c9310498b2487ba9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "PlaySuite: A Large-Scale Benchmark for Interactive Visual Intelligence",
+  "url": "https://arxiv.org/abs/2610.07127",
+  "summary": "arXiv:2610.07127v1 Announce Type: cross Abstract: Recent advances in multimodal foundation models yield strong performance on static perception and reasoning benchmarks, yet such evaluations largely overlook a central aspect of intelligence: acting competently in dynamic environments over extended time horizons. We introduce PlaySuite, a large-scale benchmark for evaluating interactive visual intelligence across more than 5K open-source video games curated from PyWeek and itch.io. Spanning diverse genres and engines, including Pygame, HTML5, Godot, and Unity, these independent games are largely out-of-distribution for current models, reducing the likelihood that success can be achieved by retrieving memorized walkthroughs or web-scale training artifacts. To enable scalable evaluation across heterogeneous titles, we develop a unified closed-loop interaction framework optimized for HPC clusters alongside a Video-LLM-as-a-judge protocol that maps observable gameplay milestones to standardized progress levels. We evaluate fourteen recent open models spanning vision-language models, computer-use agents, and vision-language-action models. Our results yield strong evidence of a perception-action gap: despite strong reasoning capabilities, current models struggle to make sustained progress and exhibit recurring failures in spatial grounding, action execution, and self-correction. PlaySuite provides a reproducible and extensible testbed for measuring progress from visual perception to goal-directed interaction, and a foundation for developing models that can act, adapt, and generalize in dynamic visual environments.",
+  "published": "2026-10-05T17:52:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.157810+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T17:52:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07127v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.413109+00:00"
+}

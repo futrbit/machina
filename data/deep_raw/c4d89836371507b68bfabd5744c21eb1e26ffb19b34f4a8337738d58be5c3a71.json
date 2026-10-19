@@ -1,0 +1,22 @@
+{
+  "id": "c4d89836371507b68bfabd5744c21eb1e26ffb19b34f4a8337738d58be5c3a71",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "TEMPEST: Temporal Embeddings for Scalable Driver Identification via Angular Margin Learning",
+  "url": "https://arxiv.org/abs/2610.06855",
+  "summary": "arXiv:2610.06855v1 Announce Type: cross Abstract: Scalable driver identification requires embedding models that maintain discriminative performance as fleet size grows, yet existing triplet-loss formulations degrade rapidly with driver pool size and overfit to session-specific patterns under rigorous temporal evaluation. We introduce TEMPEST, a Temporal Convolutional Network embedding model trained with an additive angular margin (ArcFace) loss that enforces global class-level separation in a normalized angular space. TEMPEST maps 60-second multimodal driving windows to compact 96-dimensional embeddings, supporting truly dynamic enrollment without any retraining or classifier refitting. Under rigorous temporal evaluation on a 45-driver dataset, TEMPEST achieves 91.71% Rank-1 accuracy, outperforming the best classical model by 17.9 pp and the strongest triplet-loss baseline by 58.4 pp. TEMPEST degrades by only 4.3 pp when growing the subject pool from 10 to 45 drivers, compared to 22 pp and 32.5 pp for supervised and unsupervised triplet-loss baselines, and its cross-session advantage is corroborated on the public KIA Soul dataset, where it outperforms the best classical model by 7.3 pp within-session and 14.3 pp cross-session. With 720K parameters, a 2.80 MB footprint, and 50-epoch convergence, TEMPEST establishes a rigorous, reproducible baseline for scalable behavioral driver biometric identification.",
+  "published": "2026-05-20T18:23:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.529377+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-05-20T18:23:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06855v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.378133+00:00"
+}

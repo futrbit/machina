@@ -1,0 +1,21 @@
+{
+  "id": "a4b3f6681c025e795def7f1f04d155c1be124c4ca1cea1a8e422b477e9fd930d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "TwinCheck: Evidence-Grounded Negative-Twin Verification for Stateful Tool Agents",
+  "url": "https://arxiv.org/abs/2609.26911",
+  "summary": "arXiv:2609.26911v2 Announce Type: replace Abstract: A single locally plausible tool call can derail an otherwise successful agent trajectory. Suspicion alone does not justify intervention, because the replacement itself can introduce the very failure verification is meant to prevent. We introduce TwinCheck, an inference-time verification policy that considers replacement only when the trace satisfies an evidence condition tied to a trace-local failure hypothesis. It constructs a trace-grounded counterfactual alternative, a negative twin, and replaces the agent's proposal only if the twin passes structural checks and the pairwise verifier prefers it in both candidate orders. For paired evaluation, exact replay holds the agent's parsed responses and actions fixed until the first accepted replacement, separating intervention effects from resampling. In the primary analysis of 159 multi-turn BFCL V4 tasks with complete exact-replay pairs, the complete policy raises task success for GPT-5.6 Sol from 45.3% to 58.5% (95% task-bootstrap CI [8.2, 18.8]), with no observed success-to-failure regressions. Together, these findings recast execution-boundary repair as a constrained comparison, making the counterfactual action itself the object of verification.",
+  "published": "2026-09-22T18:09:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.185792+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:58:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.26911v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.286381+00:00"
+}

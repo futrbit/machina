@@ -1,0 +1,21 @@
+{
+  "id": "79c6661487cfc2e110b1d231c8af8cae6433c4babeabf383dfe6e6da6fde718c",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "What Enables In-Context Behavior Prompting for Manipulation?",
+  "url": "https://arxiv.org/abs/2606.30457",
+  "summary": "arXiv:2606.30457v2 Announce Type: replace Abstract: Behavior prompting is a paradigm in which a sensorimotor robot demonstration, called a behavior prompt, serves as an in-context prompt for performing new tasks at test time. While prior work has shown that this capability is possible, the conditions that enable it remain poorly understood. We present an empirical study of when, how, and why behavior prompting works. To support this study, we introduce DrawAnything and LIBERO-Gen, benchmarks with up to 2000 procedurally generated tasks that evaluate test-time adaptation to unseen drawing and tabletop manipulation tasks. We also present Behavior Prompting Policy (BPP), an in-context visuomotor architecture, and iPhUMI, a handheld interface to demonstrate behavior prompts at test time. Our main finding is that task diversity, rather than demonstrations per task, is a key driver of prompting capability. Given sufficient diversity, a behavior prompt improves adaptation to unseen tasks, reducing drawing error by 80.7% over goal-image conditioning and improving success on chained manipulation tasks by up to 20.8% over language conditioning. Given insufficient diversity in a real-world laundry experiment, behavior prompting has weaker task conditioning than a language baseline. An attention analysis shows how the prompt is used: the policy follows it step by step as a source of dense sub-goals. Prompt ablations show that dense sensorimotor detail matters: removing actions or downsampling the prompt hurts fine-grained action adaptation. We have open-sourced all components to enable reproducible research on behavior prompting without needing industrial-scale data collection or compute.",
+  "published": "2026-06-29T15:23:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.485007+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:22:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.30457v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.323961+00:00"
+}

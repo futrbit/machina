@@ -1,0 +1,18 @@
+{
+  "id": "70fc3acee872549189c534ce60886cbd2af319595a92f4068dec4f156c21f011",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Regularized free deconvolution for spectral repair of resampling distortion in high-dimensional particle filters",
+  "url": "https://arxiv.org/abs/2610.23448",
+  "summary": "arXiv:2610.23448v1 Announce Type: new Abstract: Resampling is the standard remedy for weight degeneracy in particle filters, but in high dimensions it distorts the spectrum of the ensemble covariance in a way that is computable from the importance weights. This paper studies the inverse problem: recovering the pre-resampling spectrum from the observed weights and the empirical spectrum alone, and using it without biasing the filter. We first show that the forward spectral law extends to random importance weights once one conditions on the weights together with the realized offspring counts, rather than on the weights alone. We then construct a regularized free-deconvolution estimator, prove its consistency with an explicit error budget at a fixed resolution scale, and certify model mismatch through a computable forward residual. The repaired spectrum enters the filter only as the preconditioner of a Metropolis-adjusted rejuvenation move, so that spectral error affects mixing efficiency but not the invariant target. For the full filtering cycle, we derive a geometrically summable error recursion under stable scalar dynamics and an explicit law for the cost of abstaining from repair. Pre-registered simulations show that the inversion reduces the spectral error by an order of magnitude, that the corrected preconditioner recovers about 90% of the oracle's sampling efficiency in an anisotropic regime, and that the cost of abstention depends on when abstentions occur rather than on how many. The repair recovers eigenvalue laws, not eigenvectors, and is certified only within an explicitly stated exogenous-weight regime.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.205746+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "72153f8b141cdfe4f2618363b8d22fd2e5c0bc420080237a938f9673f1385508",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "RISR: Residual-Informed Scientific Equation Discovery with Large Language Models",
+  "url": "https://arxiv.org/abs/2610.11387",
+  "summary": "arXiv:2610.11387v1 Announce Type: cross Abstract: Symbolic regression combines structural search with numerical fitting, but aggregate fit scores do not describe how the remaining error varies across inputs. We introduce RISR, a residual-informed method that uses these error patterns to guide formula discovery and learn which corrections are worth fitting. A residual encoder compresses aligned inputs, targets, current predictions, and residuals into continuous tokens that condition a language model to propose formulas. For subsequent refinement, a dual-view relational encoder uses additive and regularized multiplicative residuals to predict the post-fit utility of candidate corrections. We evaluate RISR on scientific tasks from the LLM-SRBench. RISR achieves 63.57% and 38.50% ID accuracy at the 1% and 0.1% pointwise relative-error tolerances, respectively. The corresponding OOD accuracies are 56.07% and 38.24%. RISR outperforms the reported baselines using the same backbone. The results show that our residual-informed approach can improve numerical equation recovery.",
+  "published": "2026-10-08T07:17:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.390375+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:17:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11387v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.141071+00:00"
+}

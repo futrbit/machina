@@ -1,0 +1,22 @@
+{
+  "id": "56f2067a90587e13d7614c94c44dedca08ec797413d90f38529ab81eaa8da3e6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling",
+  "url": "https://arxiv.org/abs/2610.12393",
+  "summary": "arXiv:2610.12393v1 Announce Type: cross Abstract: Self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions. Unlike the shared information across individual modalities, synergy arises when task-relevant signals emerge only from the joint configuration of multiple modalities and cannot be recovered from any modality in isolation. This work focuses on how to preserve the information capacity for such synergistic signals in multimodal representations. The key observation is that synergistic information is reflected in higher-order statistical dependence among modalities, which provides a principled target for explicitly modeling joint interactions. Motivated by this insight, we propose Higher-order Representation and Information Learning (HRIL), which constructs an empirical cross-moment tensor over modality embeddings to represent multi-way interactions. HRIL employs Tucker decomposition to obtain a core tensor, complemented by a synergy-aware regularizer that prevents energy concentration and preserves higher-order coupling capacity for synergistic information capture. Experiments on the controlled synergy task and real-world benchmarks demonstrate consistent improvements over existing multimodal contrastive methods, with notable gains on tasks dominated by synergistic interactions. Code is released at https://github.com/brightest66/HRIL.",
+  "published": "2026-10-08T17:39:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.118413+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:39:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12393v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.632378+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "85b575793c6cb7f3a653e25d68c8566f51c602179a2c86979617e96140d13c1c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Alignment of visual brain encoding models with individual perceptual similarity judgments",
+  "url": "https://arxiv.org/abs/2610.22569",
+  "summary": "arXiv:2610.22569v1 Announce Type: cross Abstract: Encoding models that predict brain activation responses to images have traditionally been trained to maximize accuracy when predicting observed brain data. However, their internal representations may not reflect individual human perception. In this work, we investigate whether we can fine-tune brain encoding models to better align their representations with individuals' similarity judgments. Using similarity judgments of 100 images from 8 participants in the Natural Scenes Dataset (NSD), we adapt a generic human similarity judgment model (DreamSim) separately for each participant to obtain personalized perceptual similarity models. These models are then used to obtain subject-specific similarity structure across images in their encoding model training sets. We fine-tune each participant's baseline encoder in two conditions, aligning its representations with either generic or personalized similarity judgments, with the same initialization and objective. We find that baseline brain encoders reflect within-subject perceptual similarity more strongly than measured fMRI responses and preserve intersubject correlations present in measured fMRI, but fail to reflect those of human perceptual similarity judgments. Fine-tuning with generic, population-level perceptual similarity information results in better alignment with human judgments than baseline encoders, but these models still fail to capture intersubject correlations of human judgments. However, fine-tuning with personalized perceptual similarity information results in models that are the most aligned with human perceptual similarity judgments and also reflect intersubject correlations of human judgments. Our framework provides an approach for bootstrapping human similarity judgment data into more individualized, human-aligned brain encoding models of vision.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.051087+00:00"
+}

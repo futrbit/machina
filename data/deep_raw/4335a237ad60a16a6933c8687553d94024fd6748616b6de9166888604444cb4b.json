@@ -1,0 +1,22 @@
+{
+  "id": "4335a237ad60a16a6933c8687553d94024fd6748616b6de9166888604444cb4b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Premise Is the Problem: Exchangeability Failure in Self-Monitored Test-Time Adaptation",
+  "url": "https://arxiv.org/abs/2610.07038",
+  "summary": "arXiv:2610.07038v1 Announce Type: new Abstract: Modern forecasting models are often updated after deployment so they can respond to changing data. These updates can also make predictions worse, so practical systems need a reliable monitor that can detect harmful changes and trigger protection. A natural design is to monitor the same prediction errors that guide the updates. This paper asks whether the statistical guarantee behind such a monitor remains valid when monitoring and adaptation use the same feedback. We study this question in multi-step time-series forecasting. We show that overlapping targets and dependence in forecast errors can break a key assumption required by the guarantee. The monitor may then raise alarms even when no harmful change has occurred, and its response can further damage prediction quality. We also find that adaptation can hide sustained changes from its own monitor, while the original frozen model retains a clearer signal. These results expose a basic failure mode in self-monitored adaptation. They show why reliable deployment requires checking the monitor's assumptions, comparing adaptation with the frozen model under realistic feedback, and limiting the effect of every protective response.",
+  "published": "2026-10-04T23:17:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.044508+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T23:17:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07038v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.839855+00:00"
+}

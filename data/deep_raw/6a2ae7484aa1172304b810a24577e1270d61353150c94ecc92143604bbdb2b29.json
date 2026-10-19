@@ -1,0 +1,22 @@
+{
+  "id": "6a2ae7484aa1172304b810a24577e1270d61353150c94ecc92143604bbdb2b29",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DOGS: Design-Space Sampling for Prompt-Driven Logo Generation",
+  "url": "https://arxiv.org/abs/2610.10760",
+  "summary": "arXiv:2610.10760v1 Announce Type: new Abstract: Prompt optimization for text-to-image (T2I) generation has been pursued almost entirely as text rewriting, in which a short user brief is expanded into a longer, model-preferred token sequence. We argue that such a language-space formulation is ill-suited to structured visual design tasks such as logo creation, where a one-line brief leaves most design decisions unspecified. These decisions depend on relational priors that a linear sequence cannot encode, and they leave an uncontrolled channel through which protected marks may be reproduced. We therefore recast logo prompting as sampling within a structured design space, and instantiate this idea as DOGS (Design-space prompting with an Originality-aware GFlowNet Sampler). From a large corpus of real-world logos, we mine a typed, graph-structured design grammar whose edges record empirical co-occurrence. A GFlowNet sampler then generates design graphs with probability proportional to a terminal reward that combines recognizability, aesthetics, and corpus-relative originality. Every slot draws only from a closed design-level vocabulary, and any infringement-inducing or harmful token is removed during parsing. The originality reward further penalizes proximity to existing logos, thereby incorporating infringement avoidance into the method by construction. On two open-source renderers and against nine baselines, DOGS produces logos that are more recognizable and aesthetic, substantially more diverse, and far less prone to trademark infringement.",
+  "published": "2026-10-07T18:24:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.735057+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:24:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10760v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.956182+00:00"
+}

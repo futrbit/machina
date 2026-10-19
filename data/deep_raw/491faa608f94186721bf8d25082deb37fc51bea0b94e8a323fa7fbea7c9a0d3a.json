@@ -1,0 +1,22 @@
+{
+  "id": "491faa608f94186721bf8d25082deb37fc51bea0b94e8a323fa7fbea7c9a0d3a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Autoregressive Retriever: Improving Query Understanding from Item Feedback for Universal Multimodal Retrieval",
+  "url": "https://arxiv.org/abs/2610.11666",
+  "summary": "arXiv:2610.11666v1 Announce Type: cross Abstract: Universal multimodal retrieval typically encodes a query once and ranks independently indexed items by embedding similarity. This design supports efficient search, but leaves the query representation unchanged even when retrieved items could help clarify the information need. We introduce the AutoRegressive Retriever (ARR), a multimodal retrieval model that learns both to select informative items and to use their content to refine subsequent retrieval. ARR alternates between retrieving an item and updating the query embedding, then uses the final embedding to rank the collection. Supervised fine-tuning teaches the encoder to use feedback through stepwise contrastive supervision. Reinforcement learning treats feedback items as actions and optimizes their selection using the final reciprocal rank of a relevant item. A query-side adapter enables this optimization against a fixed item index. ARR demonstrates strong retrieval performance on both in-domain and zero-shot benchmarks, outperforming the compared baselines on average. Further analyses show that feedback improves retrieval at inference time and that training with feedback also improves the initial query embedding, before any item is observed.",
+  "published": "2026-10-08T10:39:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.772034+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:39:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11666v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.948789+00:00"
+}

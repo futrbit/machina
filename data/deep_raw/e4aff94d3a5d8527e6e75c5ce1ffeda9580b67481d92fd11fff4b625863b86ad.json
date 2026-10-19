@@ -1,0 +1,22 @@
+{
+  "id": "e4aff94d3a5d8527e6e75c5ce1ffeda9580b67481d92fd11fff4b625863b86ad",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "ShapeY: A Principled Framework for Measuring Shape Recognition Capacity via Nearest-Neighbor Matching",
+  "url": "https://arxiv.org/abs/2604.25065",
+  "summary": "arXiv:2604.25065v2 Announce Type: replace Abstract: Object recognition (OR) in humans relies heavily on shape cues and the ability to recognize objects across varying 3D viewpoints. Unlike humans, deep networks often rely on non-shape cues such as texture and background, leading to vulnerabilities in generalization and robustness. To address this gap, we introduce ShapeY, a novel and principled benchmarking framework designed to evaluate shape-based recognition capability in OR systems. ShapeY comprises 68,200 grayscale images of 200 3D objects rendered from multiple viewpoints and optionally subjected to non-shape ``appearance'' changes. Using a nearest-neighbor matching task, ShapeY specifically probes the fine-grained structure of an OR system's embedding space by evaluating whether object views are clustered by 3D shape similarity across varying 3D viewpoints and other non-shape changes. ShapeY provides a suite of quantitative and qualitative performance readouts, including error rate graphs, viewpoint tuning curves, histograms of positive and negative matching scores, and grids showing ordered best matches, which together offer a comprehensive evaluation of an OR system's shape understanding capability. Testing of 321 pre-trained networks with diverse architectures reveals significant challenges in achieving robust shape-based recognition: even state-of-the-art models struggle to generalize consistently across 3D viewpoint and appearance changes, and are prone to infrequent but egregious matches of objects of obviously completely different shape. ShapeY establishes a principled framework for advancing artificial vision systems toward human-like shape recognition capabilities, emphasizing the importance of disentangled and invariant object encodings.",
+  "published": "2026-04-27T23:42:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.783029+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T21:42:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.25065v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.302768+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b3ff92d3207880b5f193f3acc6bddb9f3989e468efe612c09782f3edbe4ff116",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "StaFIR: Convex Learning of Stationarity-Aware Causal Filters",
+  "url": "https://arxiv.org/abs/2610.07430",
+  "summary": "arXiv:2610.07430v1 Announce Type: new Abstract: Reducing nonstationarity in a persistent time series entails deciding how much of its temporal dependence to remove. In finance, fractional differencing is often tuned using the Augmented Dickey--Fuller (ADF) test, limiting the search to a one-parameter family of lag profiles and addressing input preservation only indirectly. We propose StaFIR, a causal finite-impulse-response filter with a learned nonnegative mixture of exponential lag profiles. Its convex learning objective balances empirical stationarity with similarity to the input. We evaluate StaFIR on ARFIMA--GARCH controlled settings and rolling financial series, including a realized-volatility forecasting task. The experiments show that StaFIR adjusts its filtering strength to persistence while limiting unnecessary transformation in stationary regimes. In downstream forecasting, there is no clear accuracy difference from fixed half-order differencing, while StaFIR achieves higher measured similarity to the raw signal. A complementary direct forecasting experiment finds that greater input similarity is associated with smaller forecasting penalties, although the raw representation remains stronger.",
+  "published": "2026-10-05T21:37:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.059500+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:37:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07430v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.685141+00:00"
+}

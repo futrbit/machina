@@ -1,0 +1,21 @@
+{
+  "id": "b3663aaa22065f7ebb265e719aa6e86336a66e378f458bb84be3c32de62ce2fe",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "When Listening Becomes Easier: Scrubbing Visual Cues for Shortcut-Free VLAs",
+  "url": "https://arxiv.org/abs/2610.10912",
+  "summary": "arXiv:2610.10912v1 Announce Type: new Abstract: Shortcut learning is a prevalent issue in robot learning. The limited diversity of robot demonstration datasets can mislead policies into exploiting spurious correlations between tasks and irrelevant features, such as viewpoint or background. Collecting sufficiently diverse robot demonstrations is costly and inefficient, motivating algorithmic alternatives. We focus on vision-language-action (VLA) models and discover that different vision-language model backbones exhibit substantially different levels of susceptibility to visual shortcut learning. We find that model behavior correlates with our proposed representation-level metric, action margin, which requires no policy rollouts. Visual shortcuts consistently enter action representations in early layers, with models differing in the extent to which later layers correct them by incorporating language information. To boost models' attention to language, we introduce task scrubbing, a new domain-adversarial training method that decreases models' likelihood of using visual shortcuts and improves VLAs' generalization. Experiments in both simulation and the real world across multiple VLAs and visual cues show that task scrubbing improves out-of-distribution robustness and often eliminates visual shortcut learning.",
+  "published": "2026-10-07T21:11:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.733548+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T21:11:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10912v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.678144+00:00"
+}

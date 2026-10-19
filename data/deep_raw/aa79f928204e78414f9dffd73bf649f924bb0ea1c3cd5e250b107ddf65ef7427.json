@@ -1,0 +1,22 @@
+{
+  "id": "aa79f928204e78414f9dffd73bf649f924bb0ea1c3cd5e250b107ddf65ef7427",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "EchoDiST: Self-distillation-based joint learning for diffusion-conditioned echocardiographic myocardial motion estimation",
+  "url": "https://arxiv.org/abs/2610.11431",
+  "summary": "arXiv:2610.11431v1 Announce Type: new Abstract: Motion estimation in echocardiography is essential for quantitative assessment of cardiac function and myocardial mechanics, but remains challenging due to image artifacts, limited image information, speckle decorrelation, and the scarcity of ground-truth displacement fields. Anatomy-guided approaches can provide structural information, yet often rely on expert-labeled myocardial segmentations. We propose EchoDiST, a framework for unsupervised echocardiographic myocardial motion estimation that integrates self-distillation-based joint learning with a diffusion-conditioned motion estimation network. Here, unsupervised motion estimation refers to learning without ground-truth displacement fields. The self-distillation strategy jointly optimizes anatomical segmentation and myocardial motion estimation under limited anatomical annotations. Diffusion-based conditioning is used during training with stochastic perturbations, while inference requires only a single deterministic forward pass without iterative reverse-diffusion sampling. EchoDiST was evaluated on three echocardiographic datasets, including two external test datasets under cross-view and cross-dataset settings. Compared with seven representative learning-based methods, EchoDiST consistently improved anatomical alignment, myocardial strain assessment, and motion-derived functional and cardiac-phase assessment. These gains were statistically significant across the evaluated tasks and datasets. Overall, EchoDiST provides an effective approach for reliable myocardial motion estimation under limited anatomical supervision and supports downstream quantitative assessment of cardiac function.",
+  "published": "2026-10-08T07:55:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.747051+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:55:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11431v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.431294+00:00"
+}

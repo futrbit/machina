@@ -1,0 +1,21 @@
+{
+  "id": "84f7db3f6dfd7e7390db960e2256171daad4f955596edecd86a694b503181c0e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Action Shaping: Policies Absorb What They Can Express",
+  "url": "https://arxiv.org/abs/2609.32752",
+  "summary": "arXiv:2609.32752v2 Announce Type: replace Abstract: Reward shaping has a theorem: a potential-based term can be removed without changing the optimal policy. The same practice on the action channel, an offset added in training and dropped at deployment, has no theorem. Nothing cancels an action offset, so the correction is kept at deployment or removed without a guarantee. We call it action shaping and state its principle. A trainable policy absorbs an offset its own output layer can reproduce exactly, which is what we mean by express; what is absorbed can be removed with the return intact. Its minimal instance is a zero-initialized linear head behind a learnable gate, added to an actor that trains through a learned action-value function, with no penalty or schedule. The gate rises and then falls on its own, for deterministic and stochastic actors alike, and on 20 tasks removing the head costs almost nothing. The condition is exact reproduction, not capacity: a nonlinear head with more parameters is not absorbed, and in a paired control, one linear path added to a nonlinear base head restores absorption. Exact reproduction gives the loss a flat direction that gradient noise drifts along, and the offset's amplitude indicates, before removal, what dropping the head will cost. Action shaping thus gains the counterpart of the shaping theorem, a condition for absorption, together with the mechanism behind it and a diagnostic that reads it. Policies absorb what they can express, and only that.",
+  "published": "2026-09-26T16:18:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.186791+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:32:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.32752v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.033136+00:00"
+}

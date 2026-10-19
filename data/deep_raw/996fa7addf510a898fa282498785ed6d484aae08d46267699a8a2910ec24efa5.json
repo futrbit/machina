@@ -1,0 +1,22 @@
+{
+  "id": "996fa7addf510a898fa282498785ed6d484aae08d46267699a8a2910ec24efa5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Few-Step Generation via Data-Space Iteration",
+  "url": "https://arxiv.org/abs/2610.12102",
+  "summary": "arXiv:2610.12102v1 Announce Type: cross Abstract: Flow matching has emerged as a scalable paradigm for training high-quality generative models, but sampling from the learned probability flow requires many network evaluations. Distillation can reduce this cost to one or a few evaluations; however, one-step generation often sacrifices quality, making few-step generation the practical operating regime. Existing few-step methods perform their iterative computation along the probability flow and therefore require a fixed, manually chosen timestep discretization. This discretization is often chosen heuristically and is expensive to tune; it may also be restrictive when refinement difficulty differs across samples or spatial locations. We introduce data-space iteration, a few-step generation framework that removes flow discretization altogether. Starting from noise, a shared generator directly refines its prediction in data space, with every iteration trained to produce the best sample permitted by its capacity. Our formulation integrates with distribution matching distillation (DMD) with minimal changes, enabling a controlled comparison between iteration methods under matched training settings. On class-conditional ImageNet 256x256, data-space iteration outperforms standard discretization baselines and matches or improves upon variants selected through schedule search, without requiring schedule-specific training. These results show that data-space iteration provides a simple and effective alternative to discretized flow-space iteration for fast generation.",
+  "published": "2026-10-08T15:03:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.774033+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:03:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12102v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.946585+00:00"
+}

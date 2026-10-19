@@ -1,0 +1,21 @@
+{
+  "id": "7f3e2ab58830c7f9dd27a5c0327386c5c721f3aaca4fd5d0851cf979064800aa",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "DeepAJM: Deep Association Joint Model for Irregularly Sampled data",
+  "url": "https://arxiv.org/abs/2610.07388",
+  "summary": "arXiv:2610.07388v1 Announce Type: cross Abstract: Joint Models simultaneously model longitudinal and survival outcomes, leveraging patterns in patients' longitudinal trajectory to improve the prediction of survival outcomes. The classical parametric joint models, however, rely on fixed parametric assumptions, making them susceptible to bias under model misspecification and smaller sample sizes. We propose a deep joint model, DeepAJM, that does not require any parametric assumptions, while retaining a partially interpretable, per-longitudinal-outcome association structure. The joint model uses an encoder-decoder (sequence-to-sequence) architecture to learn the latent structure in patients' time-varying covariate trajectories. The model links the longitudinal processes to the survival processes through a learned interpretable association structure, in which each longitudinal output from the decoder gets remodulated by baseline covariates before it contributes to the risk scores from the survival head of the architecture. The model was evaluated on three datasets ( a cardiovascular-disease EHR cohort, a primary biliary cirrhosis (PBC2) dataset, and a simulated dataset) against a classical parametric joint model, TransformerJM, DA-LSTM and a Cox-based survival-only model. All models were assessed using C-index, integrated brier score (IBS), time-dependent AUROC, and time-dependent AUPRC. Our model achieved the best discrimination in terms of the C-index, time-dependent AUROC, and AUPRC across all datasets.",
+  "published": "2026-10-05T21:02:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.161807+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T03:53:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07388v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.422902+00:00"
+}

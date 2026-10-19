@@ -1,0 +1,21 @@
+{
+  "id": "3372f0defbf094a8e4f7e09035a44cdd3a86374b909bbdb54a601a88bcbec3a4",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Predicting Alignment Generalization with Value Representations",
+  "url": "https://arxiv.org/abs/2610.12410",
+  "summary": "arXiv:2610.12410v1 Announce Type: cross Abstract: LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen contexts and environments in unexpected ways. In this paper, we establish the task of alignment generalization prediction, i.e., predicting how fine-tuning a model to follow a given value changes its behavior across a wide range of held-out values. We conduct a large-scale analysis of alignment generalization effects across 66 values found in modern alignment targets, and benchmark representational techniques on the alignment generalization prediction task. We find that representations based on model activations when applying values in context significantly outperform methods based on textual descriptions of the values. Specifically, the best activations-based methods achieve correlations of 0.45 with our generalization matrix, compared with 0.05 from description-based baselines. We then show the applicability of representations that predict alignment generalization toward downstream tasks by using them to measure how similar the values in a multi-value alignment target are, which we find is significantly correlated with model robustness. Finally, we show initial evidence towards a shared, model-independent value space, which we use to develop the first taxonomy of LLM values grounded in empirical generalization dynamics. Our work demonstrates the importance of studying value generalization in LLMs and its application toward the more empirical design and training of model behavior.",
+  "published": "2026-10-08T17:47:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.403369+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:47:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12410v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.495063+00:00"
+}

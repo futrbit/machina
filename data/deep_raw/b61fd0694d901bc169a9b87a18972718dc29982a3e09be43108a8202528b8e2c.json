@@ -1,0 +1,21 @@
+{
+  "id": "b61fd0694d901bc169a9b87a18972718dc29982a3e09be43108a8202528b8e2c",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "2DGS-Planner: Rasterization-based Path Planning in 2D Gaussian Splatting Map",
+  "url": "https://arxiv.org/abs/2610.11752",
+  "summary": "arXiv:2610.11752v1 Announce Type: new Abstract: Gaussian splatting provides an explicit and efficiently rasterizable scene representation for robot navigation. However, individual Gaussian primitives may not reliably represent obstacles as they are jointly optimized through alpha-composited rendering from a finite set of reconstruction views. We propose 2DGS-Planner, a path planner for ground robots that reads planning-relevant geometry from a 2D Gaussian splatting (2DGS) map through rasterization, rather than treating individual Gaussian primitives as obstacles. During offline roadmap construction, multi-view attribution converts rendered normal dispersion into structural scores for non-ground disks supported by the reconstruction views. These scores guide adaptive node sampling on the ground. Path-aligned orthographic queries validate candidate edges, while cylindrical queries estimate local clearance fields that are cached on the edges. During online planning, graph search initializes a route, and path refinement reuses the cached fields while accounting for the robot's dimensions and ground constraints. Experiments demonstrate improved roadmap connectivity, more accurate clearance estimation, and higher planning success compared with the tested baselines. These results support rasterization as an effective geometric query interface for planning directly on Gaussian maps. Code and data are available at https://2dgs-planner.github.io/",
+  "published": "2026-10-08T11:41:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.741542+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:41:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11752v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.717121+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "c7c7e6e32aee8ffccccf7d0b187b531ed5a92f4c827f8252dccf7b3e88efaa40",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Boosting the Local Invariance for Better Adversarial Transferability",
+  "url": "https://arxiv.org/abs/2503.06140",
+  "summary": "arXiv:2503.06140v3 Announce Type: replace Abstract: Transfer-based attacks pose a significant threat to real-world applications by directly targeting victim models with adversarial examples generated on surrogate models. While numerous approaches have been proposed to enhance adversarial transferability, existing works often overlook the intrinsic relationship between adversarial perturbations and input images. In this work, we find that the adversarial perturbations often exhibit poor translation invariance for a given clean image and model, which is attributed to local invariance. Through empirical analysis, we demonstrate a positive correlation between the local invariance of adversarial perturbations w.r.t. the input image and their transferability across models. Based on this finding, we propose a general adversarial transferability boosting technique called the Local Invariance Boosting approach (LI-Boost). Extensive experiments on the standard ImageNet dataset demonstrate that LI-Boost significantly enhances five categories of transfer-based attacks, i.e., gradient-based, input transformation-based, model-related, advanced objective function, and ensemble attacks. The improvements hold not only on conventional CNNs, ViTs, and defense mechanisms, but also on real-world commercial vision API systems and vision-language models. Our approach provides a promising direction for future research on improving adversarial transferability across models. Our code is available at https://github.com/Trustworthy-AI-Group/TransferAttack.",
+  "published": "2025-03-08T09:44:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.778032+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:49:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2503.06140v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.959975+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "dc9ec60ab95847b1f6ffb8b259265227bc19993fd11b89c9bc6ae6a7fcb9cc0f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Nearly Linear Private Learning of Littlestone Classes",
+  "url": "https://arxiv.org/abs/2610.23160",
+  "summary": "arXiv:2610.23160v1 Announce Type: new Abstract: Differentially private learning aims to learn from data while protecting individual training examples. For binary classification, finite Littlestone dimension characterizes approximate private PAC learnability (Alon et al., JACM 2022). Understanding how this dimension controls private sample complexity remains a central question. For classes of Littlestone dimension $d$, the first general upper bound was doubly exponential in $d$ (Bun, Livni, and Moran, FOCS 2020). Subsequent work improved this to $\\widetilde O(d^6)$ (Ghazi et al., STOC 2021) and then to $\\widetilde O(d^5)$ (Lyu, STOC 2026). We prove a nearly linear upper bound of $O(d\\log d)$. Our main algorithmic contribution is a structural exponential mechanism for data-dependent candidate sets equipped with a rank satisfying suitable stability conditions. For natural Littlestone classes such as subspace indicators, this rank has a simple geometric interpretation: it is the codimension. This yields a private PAC learner for subspaces of dimension at most $d$ over any field, with tight linear dependence on $d$ and no dependence on the ambient dimension, improving the quadratic dependence of Kaplan et al. (STOC 2025). Our second contribution is combinatorial: drawing on model-theoretic ideas, we construct a suitable rank for general Littlestone classes and establish the counting bounds required by the mechanism.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.202748+00:00"
+}

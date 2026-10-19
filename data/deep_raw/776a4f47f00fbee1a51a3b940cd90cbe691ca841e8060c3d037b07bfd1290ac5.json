@@ -1,0 +1,22 @@
+{
+  "id": "776a4f47f00fbee1a51a3b940cd90cbe691ca841e8060c3d037b07bfd1290ac5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "From Articulated Kinematics to Routed Visual Control for Action-Conditioned Surgical Video Generation",
+  "url": "https://arxiv.org/abs/2605.08712",
+  "summary": "arXiv:2605.08712v3 Announce Type: replace Abstract: Action-conditioned surgical video generation is a critical yet highly challenging problem for robotic surgery. The core difficulty is that low-dimensional control vectors must precisely govern complex image-space evolution. In this work, we propose a kinematic-to-visual lifting paradigm that converts articulated kinematics into a unified set of five image-aligned control modalities. Building on this representation, we introduce a hierarchically routed visual control framework that selectively activates the most relevant control modalities and motion scales. Instead of uniformly applying all control signals, our model performs hierarchical routing to dynamically allocate conditioning capacity. We further design kinematic-prior-guided routing loss functions to ensure physically meaningful, temporally stable, and efficient expert utilization. To improve efficiency, we propose a budgeted training and inference scheme that leverages routing-induced sparsity. By selectively discarding low-significance control pathways during training and execution, our approach enables adaptive computation that is complementary to standard distillation. We additionally construct a new benchmark with curated articulated annotations, obtained through human-in-the-loop semantic labeling and differentiable pose tracking, providing realistic supervision for action-conditioned surgical video generation. Extensive experiments demonstrate that our method consistently improves action faithfulness, visual fidelity, and cross-domain generalization over diverse baselines. Moreover, our efficient variant achieves substantial reductions in latency while maintaining strong control accuracy.",
+  "published": "2026-05-09T05:48:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.235615+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T02:46:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.08712v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.273991+00:00"
+}

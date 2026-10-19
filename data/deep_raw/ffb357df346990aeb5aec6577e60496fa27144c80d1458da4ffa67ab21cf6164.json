@@ -1,0 +1,21 @@
+{
+  "id": "ffb357df346990aeb5aec6577e60496fa27144c80d1458da4ffa67ab21cf6164",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Learning from Failures: A Failure-Driven Prompt Refinement for LLM-Based Vulnerability Analysis",
+  "url": "https://arxiv.org/abs/2610.08405",
+  "summary": "arXiv:2610.08405v1 Announce Type: cross Abstract: Large Language Models have emerged as promising tools for software vulnerability analysis, but their effectiveness depends heavily on prompt design. Existing research primarily compares prompting strategies using aggregate performance metrics, providing limited insight into why models fail or how prompts can be improved systematically. We propose Failure-Driven Prompt Refinement (FDPR), a methodology that analyzes recurring model failures to guide evidence-based prompt refinement. Using the Damn Vulnerable Java Application (DVJA), we identify recurring failure modes, including false positives, false negatives, unsupported reasoning, and CWE misclassification, and translate them into targeted prompt refinements. We then evaluate the resulting prompt on the Juliet Test Suite and perform cross-model validation to assess generalizability. The results show that failure-driven refinement improves the reliability of LLM-based vulnerability analysis while yielding reusable prompt design principles. More broadly, this work demonstrates that recurring model failures provide a principled foundation for prompt engineering, enabling the systematic development of more reliable LLM-based vulnerability analysis systems.",
+  "published": "2026-10-06T14:15:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.175799+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:15:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08405v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.612581+00:00"
+}

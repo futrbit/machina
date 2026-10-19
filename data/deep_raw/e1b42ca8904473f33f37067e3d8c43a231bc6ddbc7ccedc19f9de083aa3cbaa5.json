@@ -1,0 +1,22 @@
+{
+  "id": "e1b42ca8904473f33f37067e3d8c43a231bc6ddbc7ccedc19f9de083aa3cbaa5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Resolution: Object-to-Image Ratio Mismatch in Instance Retrieval",
+  "url": "https://arxiv.org/abs/2610.11489",
+  "summary": "arXiv:2610.11489v1 Announce Type: new Abstract: Visual instance retrieval often fails when the same object appears at different apparent sizes in the query and gallery. We show that the dominant cause is usually not resolution loss but object-to-image (O2I) ratio mismatch: the object occupies different fractions of the two images. On a controlled benchmark of 3,021 Objaverse objects rendered at five camera distances, more than 80% of the cross-distance degradation is attributable to O2I mismatch rather than resolution for 9 of 12 pretrained backbones; multi-scale architectures cut the resolution-only effect to single digits yet remain equally susceptible. The failure is also asymmetric: tight queries retrieve more reliably against wide gallery images than the reverse. Guided by this analysis, query-side scale augmentation and an OWLv2 crop reranker reach state of the art on ILIAS 100M (29.2 mAP@1000 before reranking, 42.0 after) without training or modifying the precomputed gallery index, and a LoRA fine-tune matches the query-side gains at a single forward pass, showing that O2I robustness is learnable.",
+  "published": "2026-10-08T08:31:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.748060+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:31:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11489v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.266790+00:00"
+}

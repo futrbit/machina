@@ -1,0 +1,22 @@
+{
+  "id": "2e7de80f227076f0e719522097505bd205b605986a20023e0dd2a764cba927d3",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "PyDPF: A Python Package for Differentiable Particle Filtering",
+  "url": "https://arxiv.org/abs/2510.25693",
+  "summary": "arXiv:2510.25693v4 Announce Type: replace-cross Abstract: State-space models (SSMs) are a widely used tool in time series analysis. In the complex systems that arise from real-world data, it is common to employ particle filtering (PF), an efficient Monte Carlo method for estimating the hidden state corresponding to a sequence of observations. Applying particle filtering requires specifying both the parametric form and the parameters of the system, which are often unknown and must be estimated. Gradient-based optimisation techniques cannot be applied directly to standard particle filters, as the filters themselves are not differentiable. However, several recently proposed methods modify the resampling step to make particle filtering differentiable. In this paper, we present an implementation of several such differentiable particle filters (DPFs) with a unified API built on the popular PyTorch framework. Our implementation makes these algorithms easily accessible to a broader research community and facilitates straightforward comparison between them. We validate our framework by reproducing experiments from several existing studies and demonstrate how DPFs can be applied to address several common challenges with state space modelling.",
+  "published": "2025-10-29T16:57:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.127459+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:27:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2510.25693v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.379133+00:00"
+}

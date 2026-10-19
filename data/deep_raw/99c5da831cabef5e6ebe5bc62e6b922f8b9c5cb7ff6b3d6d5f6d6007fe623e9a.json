@@ -1,0 +1,22 @@
+{
+  "id": "99c5da831cabef5e6ebe5bc62e6b922f8b9c5cb7ff6b3d6d5f6d6007fe623e9a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "VEDJE: Video-Efficient Discriminative Joint Encoder for Scalable Video-Text Retrieval",
+  "url": "https://arxiv.org/abs/2610.11850",
+  "summary": "arXiv:2610.11850v1 Announce Type: new Abstract: Finding the right video often requires distinguishing similar scenes in which different events occur. Joint matching improves retrieval, but processing rich video representations for each query is costly. VEDJE compresses features within sampled frames while keeping their representations separate in a reusable cache. Feature-change prediction supplies an auxiliary training signal that improves retrieval from the compressed cache without adding work at query time. On MSR-VTT, MSVD, DiDeMo, and ActivityNet, VEDJE improves R@1 over matched first-stage retrievers in both retrieval directions. On MSR-VTT, it reaches 59.8 text-to-video R@1 with a fine-tuned VideoCLIP-XL first stage. In the VideoPrism configuration, shrinking the per-video cache fourfold to 12 KiB preserves text-to-video recall within 0.2 points. These results show that accurate video search can operate on compact evidence, encoded once and reused as new queries arrive.",
+  "published": "2026-10-08T12:37:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.752048+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:37:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11850v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.953581+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "9383674d1c2dd8fb6c785a8df81488cb7fc279f1ccfaa26e5de563f075057409",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Toward Alignment Scaling Laws: A Framework and First Preregistered Measurements",
+  "url": "https://arxiv.org/abs/2610.08540",
+  "summary": "arXiv:2610.08540v1 Announce Type: new Abstract: Whether alignment gets easier or harder as models grow is often argued from isolated findings, as if alignment were one property. We treat it as a family of measurable scaling relations: for each risk category r, the alignment burden needed to hold a fixed safety target is modeled as B_r(N)=a_rN^alpha_r, with N a capability proxy; against a budget proportional to N, scaling helps if alpha_r 1. We give three operationalizations of burden and distinguish observed, audited and true alignment. A toy model, in which corrections consume capability headroom, makes the consequences explicit. We prove that the largest exponent among corrected risks, not an average, sets the long-run regime; that above 1 any policy holding headroom above a floor must grow super-exponentially; that, for burdens that are positive mixtures of power laws, fits on small models underestimate large-scale exponents; and that an audit that uncovers hidden failures without false positives never underestimates true alignment. We propose a pre-registrable protocol and apply reduced versions of it twice. A preregistered reanalysis of public adversarial-training data for Pythia classifiers finds that the compute needed to bring attack success under 10% grows as N^0.60. A preregistered pilot on Qwen2.5 0.5B-72B finds exponents of -0.05 for truthfulness and 0.48 for stated dispositions (both scaling helps under its reduced rule, though local slopes approach 1 at the top; replicated on Qwen3 0.6B-14B), while sycophancy (0.89, or 0.83 with two seeds added at 72B) and a planted backdoor are undetermined: the backdoor is removed quickly when its trigger is known but survives blind safety training at four of five sizes. We release four browser games that play these laws (www.aisafety.fun). We make no claim about which regime holds for current frontier models.",
+  "published": "2026-10-06T15:29:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.147814+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:29:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08540v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.702938+00:00"
+}

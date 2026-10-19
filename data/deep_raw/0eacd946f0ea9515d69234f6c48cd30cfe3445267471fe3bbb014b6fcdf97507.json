@@ -1,0 +1,22 @@
+{
+  "id": "0eacd946f0ea9515d69234f6c48cd30cfe3445267471fe3bbb014b6fcdf97507",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DiscoVL: Unveiling Disentangled C ross-Modal Representation Learning via Orthogonal Adversarial Regularization for V ision-Language Models",
+  "url": "https://arxiv.org/abs/2610.11113",
+  "summary": "arXiv:2610.11113v1 Announce Type: new Abstract: Pre-trained vision-language models excel across varied perception tasks, but adapting them to novel downstream settings without sacrificing generalization remains non-trivial. Existing parameter-efficient prompt learning method often yields inconsistent representations and fails to account for semantic distribution shifts. In this work, we present DiscoVL, a disentangled cross-modal representation learning framework that couples orthogonal adversarial regularization with structured cross-modal alignment for vision-language models. To address the insufficient cross-modal interaction, our DiscoVL designs a multi-branch low-rank residual aligner that decomposes representations into subspaces and enables bidirectional cross-modal feedback between visual and textual streams at each layer. Furthermore, while conventional triplet constraints overfit features to class centroids, we design an orthogonal regularization for adversarial triplet loss, which prevents centroid collapse and substantially boosts generalization. Evaluations on 15 benchmarks demonstrate that DiscoVL delivers consistent improvements over state-of-the-art methods for base-to-novel generalization, cross-dataset evaluation, and few-shot learning",
+  "published": "2026-10-08T02:35:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.739055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:35:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11113v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.626980+00:00"
+}

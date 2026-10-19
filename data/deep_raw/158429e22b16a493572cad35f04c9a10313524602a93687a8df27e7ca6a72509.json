@@ -1,0 +1,21 @@
+{
+  "id": "158429e22b16a493572cad35f04c9a10313524602a93687a8df27e7ca6a72509",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Data-Free On-Policy Distillation: How Far Can We Go Without External Data?",
+  "url": "https://arxiv.org/abs/2609.14193",
+  "summary": "arXiv:2609.14193v4 Announce Type: replace-cross Abstract: On-policy distillation (OPD) is increasingly applied to frontier foundation model post-training. Prior work in this area has largely focused on algorithmic advances, yet it remains unclear how much OPD depends on its training questions and, in particular, how far this dependence can be reduced. Across two representative single-teacher OPD settings, we find that training on 8 real prompts yields performance comparable to training on 17k problems, while datasets differing substantially in measured difficulty and initial distillation gap yield similar outcomes. Our analyses suggest two complementary explanations: repeated sampling could allow even a few prompts to expose substantial teacher supervision, while OPD transfers generalizable reasoning capabilities beyond dataset-specific knowledge. Building on these observations, we next propose a data-free on-policy distillation (DF-OPD) setting to investigate whether the system can supply the training questions itself, eliminating the need for external data. With 64 self-generated questions obtained without seed examples, DF-OPD yields performance comparable to full-data OPD in both single-teacher settings. This finding also holds in multi-teacher OPD: across mathematics, code, and instruction following, 1k generated questions achieve performance comparable to training on approximately 7k real post-training examples. We further explore whether OPD can operate even without explicit training questions. The experiments show that this is effective only in limited cases, where the student unexpectedly generates and answers its own questions, thereby reducing the process to an implicit form of DF-OPD. Together, these findings invite a reassessment of the role of training data in on-policy distillation. Code is available at https://github.com/Ryuki661/DF-OPD",
+  "published": "2026-09-12T23:51:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.426353+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T17:57:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.14193v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.821863+00:00"
+}

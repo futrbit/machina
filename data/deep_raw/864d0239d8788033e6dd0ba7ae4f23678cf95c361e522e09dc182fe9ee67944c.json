@@ -1,0 +1,21 @@
+{
+  "id": "864d0239d8788033e6dd0ba7ae4f23678cf95c361e522e09dc182fe9ee67944c",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "ImagiNav: Scalable Embodied Navigation via Generative Visual Prediction and Inverse Dynamics",
+  "url": "https://arxiv.org/abs/2603.13833",
+  "summary": "arXiv:2603.13833v2 Announce Type: replace Abstract: Enabling robots to navigate open-world environments via natural language is critical for general-purpose autonomy. Yet, Vision-Language Navigation has relied on end-to-end policies trained on expensive, embodiment-specific robot data. While recent foundation models trained on vast simulation data show promise, the challenge of scaling and generalizing persists due to the limited scene diversity and visual fidelity in simulation. To address this gap, we propose ImagiNav, a novel hierarchical paradigm that formulates navigation in visual space. Instead of predicting waypoints, ImagiNav synthesizes a future egocentric video conditioned on language instructions, serving as a high-level plan, interpreted by an inverse dynamics model to extract metric trajectories for execution. By decoupling planning from robot actuation, the paradigm enables direct utilization of diverse in-the-wild navigation videos. To support this, we develop an auto-labeling data pipeline that enhances motion annotation accuracy. ImagiNav demonstrates strong zero-shot transfer to robot navigation without requiring robot demonstrations, paving the way for generalist robots that learn navigation directly from unlabeled, open-world data. The project page is available at: https://j1dan.github.io/ImagiNav",
+  "published": "2026-03-14T08:34:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.759531+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:45:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.13833v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.571812+00:00"
+}

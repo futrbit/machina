@@ -1,0 +1,21 @@
+{
+  "id": "ca686c7fad9c57013b142c45b6658e9d3446c363cd04fddfed8495616df2b5f3",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments",
+  "url": "https://arxiv.org/abs/2610.07376",
+  "summary": "arXiv:2610.07376v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly operate in interactive environments, where they need to make sequential decisions through observation, action, and feedback. Although memory can help agents reuse experience, existing work designs memory in isolation, where collecting enough trajectories to populate it is expensive. Existing shared-memory approaches mitigate isolated experience by pooling episodic memories across tasks and environments. However, retrieving shared memory is challenged by the granularity, where retrieved memories can be either too specific to preserve current grounding or too coarse to support the next action. In this work, we propose MemCo, a memory-centric collaboration framework for generalizing LLM agents to unseen interactive environments. It maintains complementary local and global memory spaces, preserving environment-specific details locally while promoting transferable workflows induced from local trajectories to global memory. During online interaction, MemCo routes relevant local and global memories in terms of the agent's current state and decision phase, enabling agents to reuse the experience of other agents without blindly transferring environment-specific details. Experiments on interactive decision-making benchmarks show that MemCo improves task success and reduces redundant exploration compared with isolate-memory and shared-memory baselines. Our code is available at https://github.com/SYannL/nvdamas.",
+  "published": "2026-10-05T20:46:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.128827+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:46:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07376v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.998951+00:00"
+}

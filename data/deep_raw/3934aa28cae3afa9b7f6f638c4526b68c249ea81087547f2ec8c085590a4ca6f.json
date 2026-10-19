@@ -1,0 +1,21 @@
+{
+  "id": "3934aa28cae3afa9b7f6f638c4526b68c249ea81087547f2ec8c085590a4ca6f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Type-checking: Towards Holistic Evaluation of Formal Specification Generation",
+  "url": "https://arxiv.org/abs/2610.10604",
+  "summary": "arXiv:2610.10604v1 Announce Type: cross Abstract: When generating verifiable code, natural language requirements are mapped to machine checked code using LLMs and agentic workflows. A crucial component of this pipeline is specification generation (SpecGen), which produces a formal contract against which an agent can prove implementation correctness. Proof generation can obtain deterministic feedback from a theorem prover, but SpecGen lacks a definitive check that a generated specification captures the user's intent. A checked proof can therefore establish correctness against a specification that misrepresents the intended behaviour. We take a step towards holistic SpecGen evaluation with a unified dataset assembled from $350$ existing Lean tasks, including $189$ from VERINA and $161$ from CLEVER, and a framework covering formal validity, reference similarity and equivalence, and behavioural adequacy. We distinguish acceptance of required inputs from acceptance of valid outputs and rejection of invalid outputs, while making each metric's evidence scope explicit. Across four SpecGen configurations, restricting the generalized tree edit distance (GTED) comparison, a reference similarity measure, to $32$ jointly measurable VERINA tasks changes the VERINA configuration's position from second to fourth in mean similarity, showing the importance of measurement coverage. In an authored control, a specification achieves $100\\%$ positive test recall and negative test rejection while accepting $0\\%$ of required inputs. This demonstrates that perfect postcondition scores can miss an unusable input contract, motivating separate feedback on input coverage and output constraints.",
+  "published": "2026-10-07T02:11:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.380385+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T02:11:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10604v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.679952+00:00"
+}

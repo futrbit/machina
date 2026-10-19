@@ -1,0 +1,22 @@
+{
+  "id": "8dc208790e1385155433f3c0f28c066ea5fe6b26180c264ee17657b0dfd812ad",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Spatial Information Bottleneck for Interpretable Visual Recognition",
+  "url": "https://arxiv.org/abs/2511.09239",
+  "summary": "arXiv:2511.09239v2 Announce Type: replace Abstract: Deep neural networks typically learn spatially entangled representations that conflate discriminative foreground features with spurious background correlations, thereby undermining model interpretability and robustness. We propose a novel understanding framework for gradient-based attribution from an information-theoretic perspective. We prove that, under mild conditions, the Vector-Jacobian Products (VJP) computed during backpropagation form minimal sufficient statistics of input features with respect to class labels. Motivated by this finding, we propose an encoding-decoding perspective : forward propagation encodes inputs into class space, while VJP in backpropagation decodes this encoding back to feature space. Therefore, we propose Spatial Information Bottleneck (S-IB) to spatially disentangle information flow. By maximizing mutual information between foreground VJP and inputs while minimizing mutual information in background regions, S-IB encourages networks to encode information only in class-relevant spatial regions. Since post-hoc explanation methods fundamentally derive from VJP computations, directly optimizing VJP's spatial structure during training improves visualization quality across diverse explanation paradigms. Experiments on five benchmarks demonstrate universal improvements across six explanation methods, achieving better foreground concentration and background suppression without method-specific tuning, alongside consistent classification accuracy gains.",
+  "published": "2025-11-12T11:58:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.233384+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T22:40:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2511.09239v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.712726+00:00"
+}

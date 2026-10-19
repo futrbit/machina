@@ -1,0 +1,18 @@
+{
+  "id": "81cad02a804af7120150d701b422702247ad1cc71452c03e16296aeec483b034",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies",
+  "url": "https://arxiv.org/abs/2610.22895",
+  "summary": "arXiv:2610.22895v1 Announce Type: new Abstract: Physical reasoning about humans in videos has largely focused on everyday interactions, where contact, pressure, pose, and motion support embodied perception and contact-aware applications. Still, short and forceful properties like impact events remain relatively underexplored, despite their relevance to broader understanding of how abrupt physical events affect the human body. To fill this gap, we introduce human-centric impact localization, a new task that localizes target physical impacts temporally within a video and spatially on the human body. We further present HAPACT, a HumAn-centric imPACT dataset and benchmark built from movie clips, containing over 2.8K video-query pairs with more than 20K fine-grained human-annotated frames. We built HAPACT around viewer-grounded annotation, text-conditioned localization, and supervision at frame-level temporal and SMPL-X-based spatial granularity. To demonstrate the effectiveness of our benchmark, we conduct extensive evaluations of existing methods, employing video moment retrieval models for temporal localization and human-scene contact models for spatial localization. For the spatial task, we propose a text-conditioned baseline by reformulating localization as query-guided body-region selection. Benchmark results show that physical impact localization remains challenging for existing methods, motivating HAPACT as a dedicated benchmark to support physical impact reasoning in videos.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.039095+00:00"
+}

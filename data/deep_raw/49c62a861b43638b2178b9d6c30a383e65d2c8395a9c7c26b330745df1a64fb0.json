@@ -1,0 +1,22 @@
+{
+  "id": "49c62a861b43638b2178b9d6c30a383e65d2c8395a9c7c26b330745df1a64fb0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "EyeTAG: Eye Trajectory-Aware Gaze Estimation",
+  "url": "https://arxiv.org/abs/2610.00922",
+  "summary": "arXiv:2610.00922v1 Announce Type: cross Abstract: Gaze estimation under natural head-eye motion underpins applications from driver monitoring to human-computer interaction. Single-frame methods predict each frame independently, so consecutive outputs fluctuate as jitter. Multi-frame methods reduce this, but they learn motion implicitly inside appearance features, so the gaze trajectory is never an explicit variable. We propose EyeTAG (Eye Trajectory-Aware Gaze Estimation), a causal multi-frame framework built around an explicit first-order gaze prior: at each step it differentiates its own recent predictions and feeds the resulting trajectory back as a compact kinematic token. Because differencing is translation-invariant in gaze space, this token carries subject-invariant motion rather than personal gaze offsets. Face and eye streams supply visual evidence, fused by cross-attention and a causal Transformer decoder. EyeTAG reduces the mean angular error by about 1.0$^\\circ$ on Gaze360 and performs on par with the strongest baseline on EVE (2.56$^\\circ$ vs. 2.58$^\\circ$). Within-model ablations, which keep the encoder and the rest of the architecture fixed and vary only the gaze history, show that the differential formulation, rather than temporal context alone, removes the systematic saccade bias that persists even with an absolute gaze-history prior. Our code is available at https://github.com/peter8366/EyeTAG.",
+  "published": "2026-10-01T01:57:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.814483+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T01:57:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00922v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.958783+00:00"
+}

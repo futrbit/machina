@@ -1,0 +1,22 @@
+{
+  "id": "fa2a0b0999f261f8ea55b56a91bc54b1e7f03bc93f8dc526dc2996d5246b6f72",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "A Latent Distribution Perspective on Evaluating and Improving Latent Generative Models",
+  "url": "https://arxiv.org/abs/2609.24088",
+  "summary": "arXiv:2609.24088v2 Announce Type: replace Abstract: In latent generative models, reconstruction quality is often assumed to correlate with generative performance. However, reconstruction FID (rFID) can exhibit weak or even negative correlation with generation FID (gFID). We attribute this misalignment to a latent distribution mismatch: reconstruction evaluates the decoder on encoder-induced latents, whereas generation uses the same decoder on latents produced by the generative model. To characterize this shift, we introduce generation-aware reconstruction (GAR), which constructs a continuous trajectory from standard reconstruction toward generation by perturbing encoder latents with noise and denoising them through the generative model before decoding. GAR probes the decoder behavior along this trajectory, making the transition from encoder to generation-time latent distributions observable and diagnosable. The resulting trajectory-based diagnostic, GAR-FID, exhibits strong empirical correlation with gFID across diverse tokenizers and scales. Importantly, intermediate GAR latents become more generation-aware while preserving correspondence with their source images, thereby retaining paired supervision that is absent for fully generated latents. This correspondence enables decoder adaptation on intermediate GAR latents, consistently improving generative quality across model scales. Overall, latent distribution mismatch provides a useful perspective for evaluating and improving latent generative models.",
+  "published": "2026-09-21T04:20:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.546367+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:24:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.24088v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.557615+00:00"
+}

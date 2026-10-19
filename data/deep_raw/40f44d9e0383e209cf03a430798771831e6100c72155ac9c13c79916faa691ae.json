@@ -1,0 +1,22 @@
+{
+  "id": "40f44d9e0383e209cf03a430798771831e6100c72155ac9c13c79916faa691ae",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Event Detection in Table Tennis Videos using 2D Keypoints",
+  "url": "https://arxiv.org/abs/2610.08286",
+  "summary": "arXiv:2610.08286v1 Announce Type: new Abstract: This paper addresses the challenge of automatic, frame-accurate event detection in table tennis videos. Current methods for estimating 3d ball trajectories and ball spin typically require that key events, such as ball-racket contacts, have already been identified in advance. This requirement makes it difficult to apply these methods to longer, unedited video recordings. To overcome this limitation, we propose EventNet, a two-stage pipeline to detect key events: (1) 2d keypoints are extracted of the upper-body poses for both players, table corners and ball center. A small keypoint transformer combines them into a compact representation that is robust to changes in viewpoint, lighting, and background clutter. (2) The temporal sequences of these frame-based representations are processed by a transformer encoder that predicts two time-to-event values for each frame, indicating how close the current frame is to the next and previous ball-racket contact. One novelty is a new, temporal cosine-like target signal. Furthermore, we introduce viewpoint augmentation via 3D reprojection and frame-rate augmentation to improve robustness and generalization. Our extensive ablation study gives deeper insights into the importance of various architectural and training aspects. Experimental results show that the proposed approach achieves an F1 score of 91.16% and a mean frame deviation between ground truth and predicted frame of 0.42 on the Latte-MV dataset and 73.08% / 1.16 on the challenging TTHQ dataset. Overall, our work demonstrates that 2d keypoint-based temporal modeling with our EventNet architecture is a promising and practical approach for automatic event detection in table tennis videos.",
+  "published": "2026-10-06T12:55:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.522380+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:55:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08286v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.804877+00:00"
+}

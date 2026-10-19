@@ -1,0 +1,22 @@
+{
+  "id": "2d87514b788b3ce5a0c91919a8de907ae406d79c094be404ca286323bef9b645",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Multimodal Knowledge Distillation for Gastric Adenocarcinoma Classification from Whole-Slide Images",
+  "url": "https://arxiv.org/abs/2610.07913",
+  "summary": "arXiv:2610.07913v1 Announce Type: new Abstract: Gastric adenocarcinoma (GA) is a leading cause of cancer-related mortality worldwide, and accurate histopathological subtype classification from whole-slide images (WSIs) is essential for effective treatment planning. While multimodal approaches that integrate pathology report text with WSIs can improve classification, existing methods often depend on computationally expensive transformer architectures and large language models. We propose a multimodal knowledge distillation (MKD) framework that combines a pretrained WSI image encoder and a clinical text encoder using Low-Rank Multimodal Fusion (LMF) to efficiently model cross-modal interactions during training. Each WSI is represented as a bag of patches paired with a slide-level diagnostic caption. The teacher model learns fused image-text representations for subtype classification, while the student model distills this knowledge to enable accurate image-only inference. We evaluate our method on the PatchGastric benchmark dataset and achieve at least 3.35% higher mean accuracy than state-of-the-art approaches, without relying on transformer-based fusion, multi-task learning, or large language models. The source code is available at https://github.com/helomelo1/MKD-LMF.",
+  "published": "2026-10-06T07:56:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.518383+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:56:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07913v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.353149+00:00"
+}

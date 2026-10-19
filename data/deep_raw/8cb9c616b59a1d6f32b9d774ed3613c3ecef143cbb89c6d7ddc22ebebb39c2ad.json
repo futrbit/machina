@@ -1,0 +1,22 @@
+{
+  "id": "8cb9c616b59a1d6f32b9d774ed3613c3ecef143cbb89c6d7ddc22ebebb39c2ad",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection",
+  "url": "https://arxiv.org/abs/2610.08639",
+  "summary": "arXiv:2610.08639v1 Announce Type: new Abstract: As generated images become increasingly realistic, reliable forgery detection is essential for maintaining trust in visual information. However, existing methods primarily rely on task-specific supervision to adapt vision foundation model representations, without fully exploiting internal forensic knowledge to guide detection. To address this limitation, we propose Reserve-Guided Elicitation (RGE), a framework that treats sparse, origin-sensitive internal components in pretrained models as a forensic reserve and translates their localization into structural constraints for lightweight adaptation. Specifically, we first use the Forensic Lens (F-lens) to decompose activations across layers and token groups into independent components and globally screen them by their response differences between real and generated images, identifying reserve sites and directions. Next, we map the selected directions back to hidden-state space to construct fixed reserve subspaces and insert Forensic Reserve Adapters (FRA) only at the identified sites. Finally, with the backbone parameters, previously fitted reference classifier, and subspace bases fixed, we train only the FRA coefficient maps to generate input-dependent residual updates constrained to the corresponding subspaces, strengthening existing forensic responses. Using only 500 labeled training images and a trainable parameter budget below 0.2% of the backbone, RGE achieves competitive performance across three detection benchmarks without target-benchmark adaptation. Furthermore, RGE consistently improves over the corresponding frozen detectors across eight encoders spanning self-supervised and vision-language pretraining, eliciting a latent forensic capacity broadly shared across pretrained vision models.",
+  "published": "2026-10-06T16:33:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.526378+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:33:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08639v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.702732+00:00"
+}

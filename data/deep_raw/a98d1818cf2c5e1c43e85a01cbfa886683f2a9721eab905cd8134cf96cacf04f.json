@@ -1,0 +1,22 @@
+{
+  "id": "a98d1818cf2c5e1c43e85a01cbfa886683f2a9721eab905cd8134cf96cacf04f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ELF-REG: Scaling Continuous Diffusion Language Models to Reasoning Tasks",
+  "url": "https://arxiv.org/abs/2609.29102",
+  "summary": "arXiv:2609.29102v2 Announce Type: replace-cross Abstract: Fully continuous diffusion language models (dLMs) denoise continuous representations without intermediate discretization, then decode all response tokens in parallel at the final step. Their performance on challenging reasoning tasks remains less established than that of autoregressive (AR) LLMs and masked dLMs. We scale Embedded Language Flows (ELF) to mathematical reasoning and code generation on GSM8K, MATH-500, HumanEval, and MBPP. We introduce ELF-REG, which improves learning with representation alignment and entanglement (REPA+REG), where a frozen AR teacher supervises intermediate denoiser features and supplies a global representation that is jointly denoised with the response. ELF-REG-L achieves 55.96% pass@1 on GSM8K at 64 network function evaluations (NFE), and 13.39% on MATH-500 and 22.56% on HumanEval at 128 NFE. It outperforms the evaluated comparable-scale dLMs in pass@1 on GSM8K and code, and improves MATH-500 pass@1 from 10.55% for the ELF-L baseline to 13.39% with ELF-REG-L. Without few-step training, the same task-specific checkpoints support strong low-NFE performance through early-stop, which decodes an intermediate clean prediction without completing the denoising trajectory. At 16 NFE, ELF-REG-L reaches 41.21% HumanEval pass@10, outperforming recent continuous dLMs of comparable scale.",
+  "published": "2026-09-24T06:33:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.133455+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-08T03:01:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.29102v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.409307+00:00"
+}

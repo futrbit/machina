@@ -1,0 +1,22 @@
+{
+  "id": "c350afb428d476b5ec16da1f2e381b3feba71e71bed167654041879093a12178",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning to Emulate Chaos: Adversarial Optimal Transport Regularization",
+  "url": "https://arxiv.org/abs/2604.21097",
+  "summary": "arXiv:2604.21097v3 Announce Type: replace-cross Abstract: Chaos arises in many complex dynamical systems, from weather to power grids, but is difficult to accurately model with data-driven methods such as machine learning emulators. While emulators are promising tools for accelerating simulations and solving inverse problems, they still struggle to learn chaotic dynamics, where sensitivity to initial conditions renders exact long-term forecasts infeasible, especially given noisy data. Recent work instead trains emulators to match the statistical properties of chaotic attractors, but these approaches often rely on handcrafted summary statistics or large, diverse multi-environment datasets. In this work, we propose a family of adversarial optimal transport objectives that can jointly learn high-quality summary statistics and a physically consistent emulator from a single noisy trajectory. We theoretically analyze and experimentally validate a Sinkhorn divergence formulation (2-Wasserstein) and a WGAN-style dual formulation (1-Wasserstein) of our approach. Numerical experiments across a variety of chaotic systems, including ones with high-dimensional spatiotemporal chaos, show that emulators trained using our proposed objectives have significantly improved long-term statistical fidelity.",
+  "published": "2026-04-22T21:34:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.137399+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:21:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.21097v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.897013+00:00"
+}

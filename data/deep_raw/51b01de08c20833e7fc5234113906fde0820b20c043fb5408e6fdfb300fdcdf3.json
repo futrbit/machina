@@ -1,0 +1,22 @@
+{
+  "id": "51b01de08c20833e7fc5234113906fde0820b20c043fb5408e6fdfb300fdcdf3",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Not All Is Lost: Repairing Lossy User Preference States of Personalization Encoders",
+  "url": "https://arxiv.org/abs/2610.01270",
+  "summary": "arXiv:2610.01270v1 Announce Type: new Abstract: Personalization encoders compress evolving interaction histories into preference states used to rank items or condition text generation. A task head operating only on this state can miss useful evidence that remains in the frozen encoder's cached representations for individual timesteps. We study this recoverability gap and propose REPAIR, which compares cached representations with the current preference state in a compact learned coordinate space. It resolves corrective evidence over extended history, recent interactions, and localized bursts. It then selects which patterns at which timesteps contribute and adds their aggregate correction to the state before the task head. Encoder-host repair reuses representations from the existing forward computation without re-encoding the history. Across MovieLens, PENS, MIND, and Amazon Reviews 2023, training only REPAIR improves MRR and nDCG@10 for all twelve representative recommendation hosts while both encoder and task head remain frozen. Head-only finetuning of the same hosts yields smaller gains. For example, Mamba4Rec on MovieLens gains 3.96 MRR points, compared with 0.19 from head-only finetuning. Rank and temporal diagnostics support a compact, host-dependent corrective structure. In personalized generation, IMPerSumm improves the two reported weighted PerSEval variants, which assess responsiveness to user preference, by up to 25.23%. These results support post-compression state correction and distinguish the availability of preference evidence from its downstream use.",
+  "published": "2026-10-01T08:09:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.788499+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T08:09:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01270v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.525441+00:00"
+}

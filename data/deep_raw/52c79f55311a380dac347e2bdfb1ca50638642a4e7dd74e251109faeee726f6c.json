@@ -1,0 +1,21 @@
+{
+  "id": "52c79f55311a380dac347e2bdfb1ca50638642a4e7dd74e251109faeee726f6c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models",
+  "url": "https://arxiv.org/abs/2610.12090",
+  "summary": "arXiv:2610.12090v1 Announce Type: new Abstract: Latent reasoning enables vision-language-action (VLA) models to transform multimodal observations into task-relevant internal states before generating continuous robot actions. While existing methods learn to generate or refine such states for each policy query, they discard successful reasoning after execution and therefore reconstruct similar computation from scratch. We present Reasoning and Flow Memory (FLOWMEM), a unified VLA model that turns successful latent computation into reusable reasoning experience. Rather than appending a fixed retrieved context, FLOWMEM dynamically retrieves and recomposes compatible latent fragments as the embodied context evolves, forming a reasoning route that follows the temporal structure and progress of successful computation. The route is then refined using current visual and proprioceptive evidence before it conditions action generation. Experiments on RoboMME and LIBERO-Plus show that FLOWMEM attains 48.0% and 77.3% success, outperforming memory-free policies by 1.7 and 4.1 percentage points, respectively. These results demonstrate the value of reusing successful latent computation for closed-loop VLA control.",
+  "published": "2026-10-08T15:00:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.375386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:00:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12090v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.540433+00:00"
+}

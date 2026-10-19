@@ -1,0 +1,17 @@
+{
+  "id": "432c447593d0da9517f97ef4014d1a1cf27d4374bff21a62804a35c208f1485d",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "TransNav: Transformer-Based End-to-End Navigation Method for Static and Dynamic Quadrotor Obstacle Avoidance",
+  "url": "https://arxiv.org/abs/2610.23635",
+  "summary": "arXiv:2610.23635v1 Announce Type: new Abstract: Obstacle avoidance for autonomous quadrotors in cluttered environments remains challenging, especially when both dense static obstacles and moving obstacles are present. Existing methods are often tailored to either static or dynamic settings, which always limit their adaptability across diverse environments. This paper presents TransNav, a transformer-based end-to-end navigation method for quadrotor obstacle avoidance in both static and dynamic environments. TransNav employs a patch-based point-cloud encoding scheme that combines local feature extraction with global contextual modeling, enabling compact yet informative environment representation. The method integrates perception and navigation in a single architecture and directly predicts a finite-horizon action sequence, from which the first action is executed. Moreover, we develop an unsupervised learning strategy by incorporating a lightweight point-mass dynamics model, which directly optimizes trajectory-level costs over the predicted sequence through numerical gradient propagation. Thus, the policy can be efficiently trained without expert demonstrations. Simulation and real-world experiments show that the proposed method achieves strong performance in dense static environments and competitive obstacle-avoidance capability in dynamic scenarios, while maintaining low inference cost for onboard deployment.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.152653+00:00"
+}

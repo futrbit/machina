@@ -1,0 +1,22 @@
+{
+  "id": "b31c5cb673c7b682e67e905673b568c07ef249f8197ef04fe831bc4f0945a4f6",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SteadySplats: Resampling of Low-Variance Gaussians for High-Fidelity Stochastic Rendering",
+  "url": "https://arxiv.org/abs/2610.05576",
+  "summary": "arXiv:2610.05576v2 Announce Type: replace Abstract: Stochastic order-independent transparency enables efficient and elegant rendering of primitive-based radiance fields like 3D Gaussian Splatting models, but remains impractical due to the inherent visible noise in the output. We propose a principled approach to minimize high-frequency noise, addressing its sources at the representation and image synthesis level. During stochastic rendering, our history-based spatial resampling scheme drastically accelerates image convergence, while temporal importance resampling ensures coherence under camera movement. During training, a color regularizer implicitly reduces the variance along view rays in the 3DGS models. With these properties, our optimized, Vulkan-based renderer effectively mitigates output noise at low and high sample counts, achieving a substantial 13~dB PSNR increase in quality over previous stochastic methods at 1 sample per pixel and quickly converging to sorted 3DGS with an average L1 error of less than $10^{-4}$.",
+  "published": "2026-10-04T22:25:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.550364+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:27:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05576v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.671149+00:00"
+}

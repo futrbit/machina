@@ -1,0 +1,22 @@
+{
+  "id": "5e2f6247c953bdb7b1fa7d5a8fac79f74f01735a93c6d79265eeb6e51483df6d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "AnchorFlow: Learning Anchor Placement for Faithful and Editable SVG Reconstruction",
+  "url": "https://arxiv.org/abs/2605.19551",
+  "summary": "arXiv:2605.19551v2 Announce Type: replace-cross Abstract: Raster-to-SVG reconstruction requires faithful geometry and a compact control structure for editing. A central challenge is deciding where to place anchors: raster appearance alone does not determine how a contour should be divided into B\\'ezier segments. We present AnchorFlow, which learns anchor placement from designer-authored SVGs to reconstruct accurate curves with sparse controls. Our key idea is a sparse anchor field that jointly encodes contour geometry and reference segment junctions, including those along smooth contours. An anchor decoder predicts explicit anchor proposals from features learned under field supervision. These proposals guide boundary-constrained fitting and local refinement to recover cubic B\\'ezier paths. On clean single-path inputs, AnchorFlow achieves 99.52% mean IoU while using 56.6% fewer anchors on average than AdaVec, with lower boundary error and closer agreement with source-SVG anchor layouts. Under boundary perturbations, it maintains high fidelity with limited anchor growth. Integrated into a component-based pipeline, the same path module also produces compact, faithful full-image reconstructions. On four local-editing tasks, our outputs require less median active time and fewer actions than AdaVec and LIVE while retaining high target-shape accuracy.",
+  "published": "2026-05-19T08:49:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.796021+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:17:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.19551v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.775291+00:00"
+}

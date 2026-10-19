@@ -1,0 +1,21 @@
+{
+  "id": "f85a2c18beb5061955fe331c6ef24003be28e0feb7c4c1dcb301093df07ee801",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "OmniHOI: Dexterous Hand-Object Interaction from Monocular Human Video",
+  "url": "https://arxiv.org/abs/2610.10855",
+  "summary": "arXiv:2610.10855v1 Announce Type: new Abstract: Monocular videos of human manipulation provide abundant dexterous demonstrations, yet reconstructing hand-object interaction from a single view and transferring it to robot hands remain difficult, limiting their direct use for robot execution. Prior methods either require task-specific RL training, limiting scalability, or assume clean motion-capture trajectories and thus cannot operate directly on video. We present OmniHOI, a pipeline that turns an RGB video of hand-object interaction into an interaction-faithful trajectory on dexterous hands. The key idea is to enforce physical consistency using the evidence available at each stage: image evidence during reconstruction, contact geometry during retargeting, and dynamics during physics-in-the-loop refinement. Each stage optimizes the corresponding representation directly, correcting errors before they propagate downstream or must be absorbed by a learned policy. Across 150 motion-capture trajectories transferred to each of five dexterous hands with 6 to 22 DoF, we achieve 39-89% success, compared with at most 31% for prior transfer methods. On 60 monocular video clips, we achieve 53% success, compared with 28% for the best prior video-to-robot pipeline. Its trajectories also execute on a real bimanual robot across diverse tasks.",
+  "published": "2026-10-07T19:59:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.732547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:59:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10855v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.530630+00:00"
+}

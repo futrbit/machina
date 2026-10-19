@@ -1,0 +1,21 @@
+{
+  "id": "b37d90c15efe88b208dd74c37cd7c340e435c7ede6eb8b450b4051419bcb5f07",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "From Geometry to Generalization: Why Row Normalization Can Beat Adam and Muon",
+  "url": "https://arxiv.org/abs/2610.11309",
+  "summary": "arXiv:2610.11309v1 Announce Type: cross Abstract: Different optimizers can fit the same training data while selecting classifiers with substantially different geometries, but whether this difference provably affects population performance remains unclear. We show that row-wise normalization can achieve strictly higher population accuracy than full-batch Adam, a proxy for random-reshuffling Adam, and exact-SVD Muon in high-dimensional multiclass classification. Under an isotropic Gaussian-cloud data model, this advantage arises because row normalization's class-wise Euclidean geometry asymptotically preserves the population decision-boundary directions, whereas Adam's coordinate-wise geometry and Muon's spectral geometry introduce nonvanishing distortions. Beyond isotropy, the advantage persists for full-batch training on class means with independently oriented class-mean and test-noise covariances. It holds for power-law spectra with class-mean exponent below one, even under heavily anisotropic test noise. When both covariances are diagonal and sufficiently close, the advantage over Adam can reverse, while applying the same random rotation to both restores it by changing only their alignment with Adam's coordinate axes. Synthetic and last-layer language-model experiments support the predicted advantage.",
+  "published": "2026-10-08T06:15:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.389376+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:15:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11309v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.341152+00:00"
+}

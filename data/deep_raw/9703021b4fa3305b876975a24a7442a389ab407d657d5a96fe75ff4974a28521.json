@@ -1,0 +1,22 @@
+{
+  "id": "9703021b4fa3305b876975a24a7442a389ab407d657d5a96fe75ff4974a28521",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Diagnosing the Sources of Compositional Failure in Vision-Language Models: A Controlled Analysis",
+  "url": "https://arxiv.org/abs/2609.31456",
+  "summary": "arXiv:2609.31456v1 Announce Type: new Abstract: Vision-language models (VLMs) often struggle with compositional reasoning tasks, but the reasons for this underperformance remain unclear. A common hypothesis is that models struggle to integrate multiple components, leading to training interventions to improve compositional binding. However, this assumption has never been directly quantified. Existing benchmarks evaluate captions only in their composed form, making it impossible to separate the cost of joint reasoning from the cost of recognizing individual components under increasing load. We introduce COMPASS (COMPositional Analysis of SkillS), a controlled evaluation framework designed to isolate and measure the distinct factors underlying compositional failure. By comparing performance on composed captions with their decomposed counterparts , we directly quantify the cost of compositional integration across 87K image-caption pairs. Across multiple VLMs, this gap is real but partial, accounting for only part of the observed degradation. This motivates a finer-grained investigation into what additional factors govern model behavior. We analyze performance at the level of individual skills: object detection, attribute binding, and relation reasoning, using skill-targeted perturbations across 274K image-caption pairs. We find a consistent skill-specific pattern: each skill degrades primarily with the count of its own primitive type (self-load), while cross-load effects are predominantly positive, suggesting that primitives of different types provide useful grounding context. This pattern holds across standard contrastive encoders, explicitly trained compositional reasoning models, and non-contrastive architectures. These findings show that compositional degradation reflects multiple separable factors that cannot be reduced to joint reasoning alone.",
+  "published": "2026-09-25T16:09:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.227394+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T16:09:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31456v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.909608+00:00"
+}

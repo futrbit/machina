@@ -1,0 +1,22 @@
+{
+  "id": "35e5a5434a3b4f5288e62544bd2172b5789cbb92cde5a64055200e2ea827f546",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learnt Attacks on Quantum Key Distribution under Channel Noise and Device Drift",
+  "url": "https://arxiv.org/abs/2610.01792",
+  "summary": "arXiv:2610.01792v1 Announce Type: cross Abstract: Quantum key distribution (QKD) links are provisioned from security analyses of stationary channels, whereas the devices that determine the channel drift between recalibrations. Whether an eavesdropper who cannot alter the channel's own noise gains by following that drift has not been quantified. Adaptive eavesdropping is posed here as a constrained Markov decision process in which the attacker selects one circuit per round while the noise level follows an Ornstein--Uhlenbeck process and the abort condition is a budget over each block of rounds. The value of adaptation is bounded by the best fixed circuit and a dynamic-programming upper bound. The actions are learnt attacks. Whereas Decker et al. trained a parametrised circuit on a fixed gate template against a fixed channel, here the gate structure and rotation angles are searched jointly. This yields circuits compact enough to form a discrete action set, extending the construction to noise models lacking a known template, including the amplitude damping channel. On device-independent E91 under bilateral depolarising noise, a reinforcement-learning attacker raises her Holevo information from $0.135$ for the best fixed circuit to $0.348$ at zero detection, $98\\%$ of the upper bound. On BB84 under a drifting bit-flip channel, she exceeds a conservative noise-indexed rule by $0.024$ in fidelity, reaching $99\\%$ of the upper bound. Under stationary noise, the attacker's gain from basis asymmetry changes sign between an averaged and a per-basis error-rate constraint. The search, started from random gate sequences, recovers the analytical cloners and the collective-attack key rate, and meets the lower bound of the Winick--L\\\"utkenhaus--Coles objective from above.",
+  "published": "2026-10-01T14:36:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.821479+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T14:36:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01792v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.618988+00:00"
+}

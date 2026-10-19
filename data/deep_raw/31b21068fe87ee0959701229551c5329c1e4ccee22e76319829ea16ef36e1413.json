@@ -1,0 +1,21 @@
+{
+  "id": "31b21068fe87ee0959701229551c5329c1e4ccee22e76319829ea16ef36e1413",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Generalists Act, Specialists Intervene: Modular Stage-Selective Reinforcement Learning for Vision-Language-Action Manipulation",
+  "url": "https://arxiv.org/abs/2609.26467",
+  "summary": "arXiv:2609.26467v2 Announce Type: replace Abstract: Vision-language-action (VLA) models often struggle in the precision-critical phases of multi-stage manipulation tasks. To mitigate this issue, VLA models can be used in conjunction with reinforcement learning (RL) specialists that are specifically trained to handle the precision-critical phases. However, the coordination between the base VLA model and the RL specialists, which dictates when a specialist should take over from the base VLA and vice-versa, remains an open research question. In this paper, we address this gap by introducing RouteRLT, a modular framework that coordinates a generalist VLA, used as the default controller, with designated precision-critical RL specialists. At a high level, our framework trains a phase-aware coordination mechanism that handles handoffs between the generalist and the specialists. We evaluate RouteRLT on the LIBERO and LIBERO-Plus benchmarks, as well as on a physical connector pickup and insertion task. Overall, we find that RouteRLT improves success on LIBERO, and retains net gains on LIBERO-Plus. On the physical task, RouteRLT completes 65.7% of trials, compared with 8.6% for the baseline. Altogether, these results demonstrate that learned coordination builds on generalist VLA capabilities to improve task completion in precision-critical manipulation.",
+  "published": "2026-09-22T14:15:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.763528+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:34:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.26467v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.449090+00:00"
+}

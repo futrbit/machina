@@ -1,0 +1,22 @@
+{
+  "id": "6c65fe57dec664337335a5b67c14b2adbb2ff1f73d8b9eaf1f2d03f9d3e2f00d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "IntactWorld: Joint World Modeling with Intact Features",
+  "url": "https://arxiv.org/abs/2610.11174",
+  "summary": "arXiv:2610.11174v1 Announce Type: new Abstract: While recent video generation models synthesize highly realistic visuals, they lack a genuine understanding of intrinsic real-world logic. Existing methods attempt to understand the world by internalizing diverse world knowledge, yet constrained by computational overhead or dimensionality alignment, their learning processes inevitably compress features, causing a severe loss of structural information. To address this, we propose \\textbf{IntactWorld}, a \\textbf{Joint World Modeling Architecture} utilizing uncompressed \\textbf{Intact Features}. Since data naturally reside on a low-dimensional manifold within a high-dimensional space, predicting the flow velocity $v$ within this uncompressed high-dimensional space induces a severe manifold gap. To successfully eliminate this optimization bottleneck, our framework instead predicts the clean feature $x_0$ at intermediate layers. Furthermore, to mitigate the computational overhead of incorporating complete world knowledge, we introduce a \\textit{Full-to-Compact Training Paradigm}. By replacing raw full features with highly refined CLS tokens, this paradigm enables efficient single-branch guidance, reducing spatial memory consumption by 11.4\\% and cutting inference latency by 43.8\\%. Extensive evaluations demonstrate the effectiveness of IntactWorld, outperforming established baselines by 2.46 points on the VBench 2.0 benchmark.",
+  "published": "2026-10-08T03:31:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.742053+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:31:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11174v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.999156+00:00"
+}

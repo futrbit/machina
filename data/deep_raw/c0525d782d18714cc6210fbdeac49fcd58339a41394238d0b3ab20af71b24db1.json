@@ -1,0 +1,21 @@
+{
+  "id": "c0525d782d18714cc6210fbdeac49fcd58339a41394238d0b3ab20af71b24db1",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "READ-Bench: Benchmarking Historical Instance Retrieval for Time-Series Diagnosis",
+  "url": "https://arxiv.org/abs/2609.32123",
+  "summary": "arXiv:2609.32123v2 Announce Type: replace Abstract: Time-series diagnostic systems rarely rely on retrieving relevant historical cases, and when they do, retrieval is evaluated only indirectly through downstream prediction. We introduce READ-Bench, a benchmark for historical-case retrieval across 12 diagnostic datasets, centered on multivariate time series, that defines relevance by shared fault or event type rather than signal shape, so visually different traces of the same fault count as relevant while similar-looking traces of different faults do not. Treating retrieval as a base retriever followed by a reranker, we evaluate classical distances, symbolic retrievers, self-supervised and foundation-model embedders, and their fusion, plus label-aware and language-model rerankers, under one protocol that varies supervision, pollution, and corpus scale with significance testing. Under a common channel-independent interface, pretrained representations offer no statistically detectable advantage over strong classical and symbolic baselines for search alone. The decisive factor is a small amount of resolved-case supervision at reranking, namely a Gaussian-process reranker that propagates a few neighbor labels in embedding space, which helps far more than more sophisticated representations or language-model reasoning and holds under pollution and at full corpus scale. Guided by these findings, we fuse a normal-residual-scored embedder with a dynamic time warping leg via reciprocal-rank fusion, then rerank with the Gaussian-process reranker, improving NDCG@10 over its own search stage on all 12 datasets, by +0.11 from reranking and +0.16 over the strongest single base retriever.",
+  "published": "2026-09-26T00:53:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.410364+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:57:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.32123v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.867031+00:00"
+}

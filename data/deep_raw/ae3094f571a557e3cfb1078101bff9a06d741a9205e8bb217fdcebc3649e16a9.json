@@ -1,0 +1,21 @@
+{
+  "id": "ae3094f571a557e3cfb1078101bff9a06d741a9205e8bb217fdcebc3649e16a9",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild",
+  "url": "https://arxiv.org/abs/2610.12368",
+  "summary": "arXiv:2610.12368v1 Announce Type: new Abstract: Direct visual navigation policies generate trajectories efficiently but do not explicitly evaluate their future consequences. Generative navigation world models provide this foresight through visual rollouts, which are costly when evaluating multiple candidates. We present LiteNWM, a latent navigation world model that shares visual encoding across candidates and jointly predicts their action-conditioned future representations at multiple horizons, while a learned scorer uses these predictions to select trajectories. In offline evaluations on RECON, SCAND, and SACSoN, LiteNWM reduces macro-averaged trajectory error by 17.56% relative to NoMaD+NWM-XL and achieves a 128.00-fold end-to-end speedup on an RTX 5090. The same evaluator transfers from NoMaD to MBRA without proposer-specific retraining, reducing MBRA's macro-averaged trajectory error by 16.2%. In real-robot experiments in unseen indoor and outdoor environments, LiteNWM improves navigation success from 43.3% to 83.3% relative to NoMaD. These results demonstrate that LiteNWM can be deployed for future-aware planning and closed-loop navigation on a physical robot.",
+  "published": "2026-10-08T17:29:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.748538+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:29:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12368v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.472269+00:00"
+}

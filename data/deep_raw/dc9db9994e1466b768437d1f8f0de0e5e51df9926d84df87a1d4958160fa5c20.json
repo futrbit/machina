@@ -1,0 +1,22 @@
+{
+  "id": "dc9db9994e1466b768437d1f8f0de0e5e51df9926d84df87a1d4958160fa5c20",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "CALR: Continuous Anchored Latent Reasoning via Render-of-Thought Compression",
+  "url": "https://arxiv.org/abs/2610.07175",
+  "summary": "arXiv:2610.07175v1 Announce Type: new Abstract: Visual latent reasoning compresses rendered derivations into compact intermediate states, reducing textual reasoning overhead. Existing approaches differ in how they represent these states: continuous methods avoid vocabulary constraints, whereas discrete methods improve accuracy through quantization into a finite codebook. Our analysis of representative continuous and discrete systems identifies two functional requirements: answers must rely on latent states, and those states must carry valid, problem-specific reasoning. Continuous latents influence answers despite collapsed reasoning content, whereas discrete latents retain recoverable intermediate reasoning that answer prediction largely bypasses. To address these challenges, we propose Continuous Anchored Latent Reasoning (CALR), which connects latent formation with answer use through functional anchoring. With reference latents from information-balanced compression, CALR couples latent-mediated answer supervision with derivation-level semantic anchoring: the former routes answer supervision through intermediate states, while the latter grounds their decoded content in problem-specific derivations. A parallel-to-autoregressive curriculum develops sequential reasoning by conditioning subsequent latent blocks on generated prefixes. Evaluations on five mathematical reasoning benchmarks across model families show substantial accuracy gains. Under matched budgets, CALR gains 26.0 percentage points over a comparable continuous latent reasoning method. Further analyses show that its latents support answer prediction and carry problem-specific intermediate reasoning.",
+  "published": "2026-10-05T18:00:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.512386+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:00:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07175v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.212822+00:00"
+}

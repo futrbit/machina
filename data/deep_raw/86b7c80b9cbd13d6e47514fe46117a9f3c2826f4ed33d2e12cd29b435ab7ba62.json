@@ -1,0 +1,21 @@
+{
+  "id": "86b7c80b9cbd13d6e47514fe46117a9f3c2826f4ed33d2e12cd29b435ab7ba62",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+  "url": "https://arxiv.org/abs/2610.12445",
+  "summary": "arXiv:2610.12445v1 Announce Type: cross Abstract: Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and introducing a novel probe architecture which can aggregate information across many layers and tokens. Our probes achieve 98.8% AUC in SHADE-Arena, surpassing an Opus 5.5 text-monitoring baseline, and show improved efficacy as the underlying model is scaled up. To push our probes to their limit, we test them on several cases where deception cannot be determined from the context alone. In these cases, which we refer to as introspective deception, the ground truth can only be determined through careful elicitation or thorough knowledge of a model's training data. In one such evaluation, we show that probes can distinguish transcripts containing a model's true hidden goal from other goals with an AUC of up to 99.7%. Our probes also readily detect deception on prominent open-weight models which lie about politically sensitive topics, and about their beliefs when put under pressure. We release our training dataset, dubbed FIBS, to help drive frontier deployment of effective probes, and encourage the community to expand upon it with further examples of deception and sabotage.",
+  "published": "2026-10-08T17:58:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.403369+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:58:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12445v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.343949+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "83f8817c389435f4c1f657446e00c062338bdb297b9591b93effdbe152835900",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Structural Causal Bottleneck Models",
+  "url": "https://arxiv.org/abs/2603.08682",
+  "summary": "arXiv:2603.08682v3 Announce Type: replace-cross Abstract: We introduce structural causal bottleneck models (SCBMs), a novel class of structural causal models in which causal effects between high-dimensional variables are mediated by low-dimensional summary statistics, or *bottlenecks*. SCBMs provide a flexible framework for mechanism-specific, target-dependent dimension reduction while remaining estimable via standard learning algorithms. We prove that bottleneck variables are identifiable up to bijection from observational data, and validate this experimentally. We then study causal effect estimation in linear SCBMs under three standard adjustment strategies. For instrumental variables, we identify a population-level non-identifiability of na\\\"ive two-stage least squares when all variables are high-dimensional, and show that bottleneck representations restore identification. For mediation and backdoor adjustment, we prove that conditioning on bottleneck variables yields valid effect estimates with explicit finite-sample efficiency gains over conditioning on full high-dimensional variables. We argue that SCBMs provide a principled alternative to existing causal dimension reduction frameworks such as causal representation learning and causal abstractions.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.238725+00:00"
+}

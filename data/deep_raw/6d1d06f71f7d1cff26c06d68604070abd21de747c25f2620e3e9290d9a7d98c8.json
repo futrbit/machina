@@ -1,0 +1,22 @@
+{
+  "id": "6d1d06f71f7d1cff26c06d68604070abd21de747c25f2620e3e9290d9a7d98c8",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SV-TAD: Native Sparse Convs for Efficient Temporal Action Detection",
+  "url": "https://arxiv.org/abs/2610.11579",
+  "summary": "arXiv:2610.11579v1 Announce Type: new Abstract: To adapt billion-parameter Vision Transformers for long-video understanding, recent methods freeze the backbone and train lightweight convolutional modules. While effective for parameter-efficient training, existing adapters do not reduce inference-time computation, leaving scalability with respect to video length largely unaddressed. Token selection can reduce attention cost by pruning redundant tokens, but it breaks the spatial grid structure required by convolutional adapters. This forces an expensive dense reconstruction, nullifying much of the potential speedup. We address this by introducing native sparse 2D convolutions, a primitive that allows these adapters, for the first time, to operate directly and efficiently on dynamically pruned token sets. We integrate this primitive into SV-TAD, an adapter framework for temporal action detection, reducing VideoMAEv2-L computation by up to 64% and achieving 2.2x faster inference, while maintaining state-of-the-art accuracy on THUMOS-14 and ActivityNet-1.3. When scaled to InternVideoNext-L, our approach surpasses the previous state of the art at roughly half its computational cost. Moreover, the sparse formulation naturally supports auxiliary task tokens, which improves fine-grained assembly detection on ATTACH.",
+  "published": "2026-10-08T09:31:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.749050+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:31:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11579v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.013148+00:00"
+}

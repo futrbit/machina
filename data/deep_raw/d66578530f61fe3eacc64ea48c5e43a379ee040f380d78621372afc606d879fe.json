@@ -1,0 +1,21 @@
+{
+  "id": "d66578530f61fe3eacc64ea48c5e43a379ee040f380d78621372afc606d879fe",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SPECTRUM: Proximal Spectral Modulation for Looped Self-Distillation",
+  "url": "https://arxiv.org/abs/2610.07237",
+  "summary": "arXiv:2610.07237v1 Announce Type: new Abstract: A model that learns from its own outputs inherits more than their correctness: it inherits which solutions it produces. We formulate Looped Self-Distillation, a self-evolution framework for code generation in which a model repeatedly generates and learns from its own raw outputs, under a fixed information budget, without ongoing external assessment or test-based selection of the generated samples. We identify a consequential separation: correctness can improve while the breadth of correct implementations contracts. We introduce SPECTRUM, which re-estimates loss-sensitive key/value geometry from a fixed reference anchor at each round and converts it into full-rank proximal spectral modulation. All generated completions train a single student, whose subsequent inference requires no intervention. After five rounds of experiments on MBPP, SPECTRUM retains 89.9% of the initial model's 64-sample correct AST richness, compared with 66.4% for Vanilla self-distillation and 65.5% for a subspace-projection control. The advantage persists at matched correct-sample counts. Without further training or recalibration, the resulting student also achieves higher matched-correct richness than Vanilla SD on HumanEval+ and APPS Intro, demonstrating transfer of the diversity benefit. These findings establish correct-solution retention as a complementary objective of recursive self-improvement (RSI) and show that generation-time intervention can improve the solution repertoire retained by subsequent students.",
+  "published": "2026-10-05T18:43:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.125829+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:43:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07237v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.149860+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bea6385d4363a558b930d47cd06f0463f88620c3d20ebf4ac32ca1a0f7b6abc5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "From Video Clips to Creation Trajectory: Sora100K for AI-Native Video Creation",
+  "url": "https://arxiv.org/abs/2610.11770",
+  "summary": "arXiv:2610.11770v1 Announce Type: new Abstract: AI-Native video creation is shifting from isolated video clips toward iterative video creation workflows. However, existing datasets remain largely video clips, representing video generation and editing as separate tasks rather than connected stages of a video creation workflow. In this paper, we introduce Sora100K, a dataset that represents the AI-Native video creation workflow as a structured video creation trajectory. Specifically, we first identify video creation trajectories and decompose them into three subsets according to their structural roles: text-to-video generation records as roots, single-turn video editing records as editing edges, and multi-turn video editing records as complete trajectories. Then, we use a VLM to assign semantic annotations for generation roots and editing-operation annotations for editing edges. A strict construction pipeline further reconstructs source-to-edit lineage, editing order, and intermediate video states while ensuring data quality. Finally, we perform lightweight adaptation on LTX-2 models to assess the supervision value of Sora100K. The results show improvements in visual quality, multi-shot generation, and cross-shot consistency, while successive-turn evaluation reveals that following multi-turn editing instructions remains challenging. Sora100K establishes a new data foundation for AI-Native video creation beyond isolated video clips and toward structured video creation trajectory. The dataset and supplementary materials are publicly available at https://huggingface.co/datasets/ysicong/Sora100K.",
+  "published": "2026-10-08T11:52:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.751049+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:52:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11770v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.844044+00:00"
+}

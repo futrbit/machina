@@ -1,0 +1,21 @@
+{
+  "id": "d667143838e7e6a466522b7890b0bb5fde7ed8868cdfdf391af77827d6afb897",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ReLoop: Structured Modeling and Behavioral Verification for Reliable LLM-Based Optimization",
+  "url": "https://arxiv.org/abs/2602.15983",
+  "summary": "arXiv:2602.15983v5 Announce Type: replace-cross Abstract: Large language models (LLMs) can translate natural-language problem descriptions into optimization code, but the code is prone to silent failures: it executes and returns a solver-feasible solution while encoding a semantically incorrect formulation. On compositional problems, the resulting feasibility-correctness gap reaches 90 percentage points. We introduce ReLoop, which combines two mechanisms. Structured generation decomposes code production into a four-stage reasoning chain (understand, formalize, synthesize, verify) to reduce formulation errors during generation. Behavioral verification detects the errors that remain by testing whether the formulation responds correctly to solver-based parameter perturbation, a signal that comes from the solver rather than from LLM self-review and requires no ground truth. The two mechanisms address different error structures: structured generation gives the largest gain on compositional problems (+8.5pp accuracy on RetailOpt-190 with Claude Opus 4.6), and behavioral verification gives its largest gain on localized defects (+4.4pp on MAMO-ComplexLP). With diagnostic execution recovery, ReLoop reaches 100% executable code on Claude Opus 4.6, and relative to direct generation it raises or preserves every reported metric of the three chat-tuned foundation models on all three benchmarks. For the narrowly fine-tuned SFT model we test, the chain-of-thought prompt conflicts with its learned output format and lowers its accuracy on MAMO-ComplexLP; we document and analyze this interaction. We release RetailOpt-190, 190 compositional retail optimization scenarios in which several constraints interact.",
+  "published": "2026-02-17T20:20:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.193787+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T03:07:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.15983v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.150860+00:00"
+}

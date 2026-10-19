@@ -1,0 +1,22 @@
+{
+  "id": "5d77fa7dc0ef433584dcb8fafd41462b5cb6acc06afd1ac631bd0c93186617b6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning Grasp Targeting from Point Clouds for Log Pile Clearing on a Hydraulic Crane",
+  "url": "https://arxiv.org/abs/2610.07613",
+  "summary": "arXiv:2610.07613v1 Announce Type: cross Abstract: In mill yards, log loaders clear dense piles by a sequence of bundle grasps: hundreds of logs rest in contact, and each removal changes the pile available to the next grasp. A learned policy chooses where to place and orient the grapple from unsegmented point clouds and runs on a trailer-mounted hydraulic forestry crane. The policy classifies at which observed point to grasp and predicts depth and grapple orientation there. The same network outputs support behavior cloning (BC), reinforcement learning (RL), and deployment. BC learns from successful top-of-pile demonstrations; RL explores for improvements by fine-tuning the cloned policy (BC$\\to$RL) or by training from scratch. In simulation, BC clears 98 of 100 piles of 200 logs, while BC$\\to$RL improves load stability. Twelve field trials compare a geometric heuristic, RL from scratch, BC, and BC$\\to$RL through complete grasp-transport-deposit cycles. BC and BC$\\to$RL deposit 93.8% and 88.9% of pooled inventory, against 80.4% for the heuristic. BC$\\to$RL deposits logs on 83.6% of its cycles, against 79.6% for the heuristic and 65.7% for BC, while its simulated stability gain does not carry over to the crane testbed. Trained entirely in simulation and run unchanged on the crane, the learned policies clear more than the hand-filtered heuristic while observing unfiltered clouds that still contain the storage rack's rails and poles.",
+  "published": "2026-10-06T02:01:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.095478+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:01:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07613v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.838853+00:00"
+}

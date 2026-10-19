@@ -1,0 +1,22 @@
+{
+  "id": "e136403f6c04737b7ff3e96b4a1c29848a15493408dc95136c37fcc7015d09e9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Discrete Wasserstein Flows for One-Step Generative Modeling",
+  "url": "https://arxiv.org/abs/2610.01355",
+  "summary": "arXiv:2610.01355v1 Announce Type: new Abstract: We introduce a new framework for one-step generative modelling on finite state spaces. To extend drifting beyond continuous domains, we use discrete Wasserstein geometry to define a target-relative KL gradient flow over the transitions of a reversible Markov kernel. We realize this probability flow at the particle level through Markov jumps and amortize the resulting transport updates into a latent-conditioned generator, so that the iterative dynamics are required only during training while inference remains one-step. In a controlled setting where the underlying distributions and transport dynamics can be computed exactly, we verify KL dissipation, consistency between the particle dynamics and the probability flow, and the predicted numerical scaling. We further show that a finite-capacity neural generator can track these exact transport targets while retaining one-step generation. These results validate the basic construction and provide a foundation for scaling Discrete Drifting to structured discrete data.",
+  "published": "2026-10-01T09:25:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.789498+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T09:25:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01355v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.258794+00:00"
+}

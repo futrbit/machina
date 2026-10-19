@@ -1,0 +1,17 @@
+{
+  "id": "de60c18468e7d72c11ce362a799e83e7f262f8d96a05c445a6bcf6573e03a4fd",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization",
+  "url": "https://arxiv.org/abs/2610.23496",
+  "summary": "arXiv:2610.23496v1 Announce Type: new Abstract: Monocular simultaneous localization and mapping (SLAM) remains challenging in dynamic environments. Real-time dynamic object identification in such environments is a critical problem. Recent approaches estimate per-pixel uncertainty from rendering residuals or multiview feature inconsistency to identify dynamic regions. These methods lack direct motion evidence, and their accuracy may degrade when reconstruction is inaccurate or features are ambiguous. In addition, such uncertainty merely downweights pixels in bundle adjustment (BA), so inaccurate uncertainty estimates can still impair camera pose estimation and 3D reconstruction. Accordingly, we present a monocular RGB SLAM system for dynamic scenes. Specifically, a motion uncertainty estimation method is proposed to derive uncertainty from the residual between optical flow and camera motion induced flow, directly reflecting object motion. The estimation varies with frame alignment accuracy, reducing false detections and yielding accurate pixel-level masks of dynamic regions. To make BA more robust, we estimate camera poses from high confidence pixels. These poses are then used to reproject dynamic pixels during joint refinement of poses and depth, reducing the influence of object motion on both pose and depth updates. Moreover, we provide a quantitative evaluation of dynamic masks and analyze how these masks affect the downstream tracking and reconstruction of dynamic objects. Our approach improves the mean dynamic mask IoU by 35\\% over a state-of-the-art baseline on DAVIS, and reduces the average ATE by 59\\% on Bonn and 19\\% on TUM relative to the SLAM backbone used in our system. The source code will be made publicly available.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.151653+00:00"
+}

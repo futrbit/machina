@@ -1,0 +1,18 @@
+{
+  "id": "709a9c7b8ec1c0d4a7ed1c51468cfb968efe7f03001aa78f6f34fc44bf912476",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Anytime Contracts for AI Services",
+  "url": "https://arxiv.org/abs/2610.22781",
+  "summary": "arXiv:2610.22781v1 Announce Type: cross Abstract: AI services are prone to moral hazard, as model providers can silently route requests to cheaper, lower-quality models, and the inherent stochasticity of model outputs makes this degradation hard to detect. Contract theory addresses moral hazard by designing payment rules that reward high-quality outputs and prevent strategic overcharging. However, existing frameworks assume interactions of fixed duration, whereas AI services are typically consumed through subscriptions and pay-as-you-go APIs that users can terminate at any time based on observed performance. We show that this flexibility can break standard contracts, opening them up to abuse by either the providers or users. To address this, we extend contract theory to account for unknown exit rules. We formalize the problem as a Principal-Agent game, and show that budget-optimal contracts in this setting are proportional to anytime-valid hypothesis tests based on likelihood-ratio e-values. We give an efficient algorithm for computing anytime contracts and show how betting e-processes can be used to approximate them when the models are unknown. Finally, we evaluate our findings on synthetic data and data from deployed LLMs.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.240724+00:00"
+}

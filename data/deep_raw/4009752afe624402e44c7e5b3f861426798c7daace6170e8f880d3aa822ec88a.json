@@ -1,0 +1,17 @@
+{
+  "id": "4009752afe624402e44c7e5b3f861426798c7daace6170e8f880d3aa822ec88a",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Online Constraint Optimization-Based Indirect-Adaptive Robust Control for Autonomous Vehicles with Unknown Friction",
+  "url": "https://arxiv.org/abs/2610.22675",
+  "summary": "arXiv:2610.22675v1 Announce Type: cross Abstract: Friction uncertainty is a significant challenge for autonomous vehicle control, undermining feasibility and performance. This paper proposes a novel two-layer control framework to achieve vehicle motion control under large friction uncertainty by combining optimization-based planning with indirect adaptive robust control (IARC). The upper layer solves a constrained optimal control problem to generate a feasible trajectory that satisfies all the constraints in a time-optimal manner along the desired path. The lower layer, IARC, adapts the unknown parameters related to friction uncertainty and combines model compensation with robust feedback to ensure transient and steady-state tracking performance. An estimation monitor is designed to prevent poor learning when data indicate a model mismatch, while a smooth parameter reset reduces the estimated tire capacity and limits abrupt tightening of constraints. The updated parameters are fed back into the model and constraints in the planner, enabling trajectory replanning as friction conditions change. Simulation results indicate that the proposed method achieves accurate tracking of the desired trajectory and online friction adaptation under large friction uncertainty while ensuring time-optimal vehicle motion. The simulation results demos are available at https://github.com/TedZhou0603/CO-IARC.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.154652+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dcbc0c301ed1c029604ba34d80a500e155f8725fa213f5adc174b2da7fe225b7",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Self- and Other-Labels Induce Bidirectional Bias in LLM Judges",
+  "url": "https://arxiv.org/abs/2608.18091",
+  "summary": "arXiv:2608.18091v3 Announce Type: replace-cross Abstract: As LLM-as-a-judge becomes increasingly widespread, self-preference -- the tendency of a judge to favor its own outputs -- raises growing concerns about evaluation reliability. However, this bias has been studied predominantly on generated text, where stylistic features and response quality are inevitably conflated. As a result, existing measurements cannot separate genuine self-preference from these confounds. We address this limitation by changing the object of evaluation: instead of judging generated text, ten LLMs assess sets of narrative constraints selected from a shared pool, which carry no stylistic fingerprint yet retain a recoverable model-specific signature. Two experiments on this task yield complementary findings. Under blind evaluation, self-preference disappears, with a small effect remaining in the opposite direction once selection quality and judge severity are controlled. Under matched quality, however, self- and other-labels alone -- without naming any model -- shift scores bidirectionally. LLM judges inflate scores for self-labeled selections and deflate those for other-labeled ones regardless of the selection's actual source. We make two contributions: 1) authorship attribution is a distinct driver of evaluation bias, and 2) ground-truth-free tasks can serve as controlled instruments for studying LLM judge behavior.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.222122+00:00"
+}

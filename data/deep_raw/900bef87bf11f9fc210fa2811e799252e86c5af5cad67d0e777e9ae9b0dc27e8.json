@@ -1,0 +1,22 @@
+{
+  "id": "900bef87bf11f9fc210fa2811e799252e86c5af5cad67d0e777e9ae9b0dc27e8",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SCORE: Spectral Correlation Estimation for Multivariate Gaussians",
+  "url": "https://arxiv.org/abs/2610.12096",
+  "summary": "arXiv:2610.12096v1 Announce Type: new Abstract: Neural network-based predictive modeling with high-dimensional structured Gaussian targets requires an efficient and numerically stable, yet expressive approximation of the covariance matrix. We propose SCORE: a scalable framework, combining scoring rule training with an expressive covariance approximation learned in spectral space. For $d$-dimensional data, the learning task is decomposed into learning the marginal distributions and learning a structured correlation matrix, which enables dense dependencies with linear storage and $\\mathcal{O}(d\\log d)$ cost. We utilize the closed form Gaussian kernel score for training, which remains defined even for degenerate covariances and admits bounded gradients during optimization. We characterize kernel scores under invertible transforms and prove exact invariance under unitary transforms. At population level, our two-level objective recovers the true marginals and projects the target correlation onto the representable class; finite-sample PAC bounds show that the errors of the two stages enter additively. We evaluate our model on a variety of tasks with a commonly assumed Gaussian domain: Time-series forecasting, monocular depth estimation, and spatial weather prediction, showing improved performance at lower computational cost.",
+  "published": "2026-10-08T15:01:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.093426+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:01:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12096v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.757700+00:00"
+}

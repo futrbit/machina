@@ -1,0 +1,22 @@
+{
+  "id": "371bd895607080c4fa53d7b09e8f80c8b4a4f06fd31d0afbba5fbf12ceed6097",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Two Vectors Replace In-Context Demos: Structured Task Adaptation via Embeddings",
+  "url": "https://arxiv.org/abs/2610.07572",
+  "summary": "arXiv:2610.07572v1 Announce Type: cross Abstract: In-context learning (ICL) adapts frozen large multimodal models (LMMs) to new tasks from a few demonstrations (demos), but re-encodes them at every query, where each demo image adds up to hundreds of visual tokens. Demo-free methods remove this cost with a compact task state. However, they add it at locations searched per task or at every decoder layer, where task parameters grow with depth. Moreover, inserted tokens or keys cannot change how the original prompt divides its attention within a layer. To address these issues, we propose Structured Task Adaptation via Embeddings (STAVE), which replaces demos with two task-specific vectors added to existing input embeddings. Specifically, a readout vector updates the answer-producing tokens and a context vector updates the other structural token groups. Both are trained with answer labels on prompts with and without demos. We justify these design choices theoretically using a first-order analysis of the loss and a margin bound. Extensive experiments on six LMMs and five large language models show that STAVE matches or outperforms state-of-the-art methods on multimodal tasks with far fewer task parameters and surpasses 15-shot ICL and prior task vectors on 18 text tasks, all at zero-shot inference cost.",
+  "published": "2026-10-06T01:05:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.093479+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:05:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07572v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.461084+00:00"
+}

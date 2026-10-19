@@ -1,0 +1,22 @@
+{
+  "id": "66adb85d8e1452e03bb2e8e3435e80e16d8950a3bb54f5b2d272e96cd7abdb16",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Localize Any Object in X-Ray Security Scans without Human Annotation",
+  "url": "https://arxiv.org/abs/2610.07326",
+  "summary": "arXiv:2610.07326v1 Announce Type: new Abstract: Universal object localization in X-ray security inspection is critical for automated threat detection in safety-critical venues. However, unlike everyday RGB images that dominate web-scale visual data, X-ray scans exhibit distinct color patterns, ambiguous boundaries, and compositional structures caused by volumetric superposition. These gaps hinder the direct zero-shot transfer of dense perception foundation models trained on web-scale RGB data. Moreover, annotated X-ray data is scarce and requires expert labeling, limiting both the training of generalizable X-ray native models and the adaptation of RGB foundation models for X-ray data via fine-tuning. Given these challenges, the bright promise of highly generalizable perception models, enabled by data scaling laws in the RGB domain, remains largely out of reach for X-ray inspection. To this end, we introduce LAO-X, a self-supervised adaptation framework that Locates Any Object in X-ray scans using diverse synthesized image--annotation pairs with granularity-aware supervision. LAO-X first designs a saliency-guided X-ray object mining module to separate diverse object instances, which are then used for physics-guided synthesis in the absorbance domain. LAO-X further incorporates an occlusion-controlled curriculum strategy to fine-tune a Segment Anything Model 2 (SAM2) localizer, progressively adapting it to X-ray scans with increasing object counts and overlap levels. Experiments on six X-ray benchmarks show that LAO-X substantially improves category-agnostic localization, achieving 2\\% to 23\\% mAP gains over SAM2 and X-ray specific baselines in heavily cluttered scenarios, entirely without human-annotated labels.",
+  "published": "2026-10-05T19:57:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.512386+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:57:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07326v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.910211+00:00"
+}

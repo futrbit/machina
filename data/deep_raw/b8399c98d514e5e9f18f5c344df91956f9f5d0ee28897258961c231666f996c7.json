@@ -1,0 +1,22 @@
+{
+  "id": "b8399c98d514e5e9f18f5c344df91956f9f5d0ee28897258961c231666f996c7",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Early Signatures of Memorization in Diffusion Models via Basin Geometry and Cyclic Denoising",
+  "url": "https://arxiv.org/abs/2610.11670",
+  "summary": "arXiv:2610.11670v1 Announce Type: new Abstract: Diffusion models generalize early in training and later reproduce individual training samples. Standard tests detect memorization only once one-shot generation produces near-copies, leaving a released model unaudited until its outputs fail. We show that memorization is encoded in the geometry of the learned energy landscape before it appears in generated samples, a state we call latent memorization. Using score divergence and basin volume, we find that localized basins form around training samples and separate them from held-out samples before the first memorized sample appears, with an onset that follows the same $O(n)$ scaling as the memorization time. We probe these basins with cyclic denoising, which repeatedly applies partial noising and denoising. Under the exact empirical score, we prove that cycling started near an isolated training sample recovers it and returns to it over any finite number of cycles with high probability. In trained models, cycling recovers training images from CelebA and CIFAR-10 checkpoints whose one-shot samples contain no copies, and at a CelebA checkpoint with 0.1% one-shot copies, 500 cycles raise the memorized fraction above 30%. Cycling also reveals degenerate attractors that match no single training image and fade as training proceeds, so residence in a basin does not by itself imply memorization. These findings hold on a Gaussian mixture, CelebA, and CIFAR-10 across optimizers, architectures, noise schedules, and training-set sizes, and extend to off-the-shelf Stable Diffusion v1.4, where the cycled conditional-unconditional divergence gap separates memorized from non-memorized prompts with an AUC of 0.944 and a TPR of 0.866 at 1% FPR. More broadly, what a diffusion model has memorized is a property of the geometry and stability of its learned distribution, and assessing it requires examining this structure rather than generated outputs alone.",
+  "published": "2026-10-08T10:47:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.088429+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:47:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11670v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.747103+00:00"
+}

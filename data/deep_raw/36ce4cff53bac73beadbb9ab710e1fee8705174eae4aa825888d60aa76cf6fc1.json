@@ -1,0 +1,22 @@
+{
+  "id": "36ce4cff53bac73beadbb9ab710e1fee8705174eae4aa825888d60aa76cf6fc1",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "A Camera-Native Stereo VR180 Dataset",
+  "url": "https://arxiv.org/abs/2610.10607",
+  "summary": "arXiv:2610.10607v1 Announce Type: new Abstract: Immersive VR180 video is increasingly produced with professional stereo fisheye cameras, yet public VR180 research resources are mostly collected from online platforms such as YouTube: already stitched, projected and compressed by unknown pipelines, and without lens calibration. We present a firsthand-captured stereo VR180 dataset recorded with two Blackmagic URSA Cine Immersive cameras. It contains 1,211 samples -- 636 stereo video clips (2,220.8 s, mostly 90 fps) and 575 stereo stills -- each released as camera-native Blackmagic RAW, separate-eye native fisheye HEVC (8160x7200 per eye) and half-equirectangular HEVC (7200x7200 per eye), together with the factory lens calibration, portable fisheye/half-equirectangular conversion tools and AI-generated scene and visual-challenge annotations. Re-encoding the released fisheye and half-equirectangular renders with x265 over 24 clips, both eyes, four rate points and nine viewing directions, native-fisheye coding needed more bitrate than half-equirectangular coding at equal viewport quality for all 24 clips (median +38%), in every part of the field of view. Data: https://huggingface.co/datasets/lulinxuan/VR180 ; code: https://github.com/lulinxuan/vr180-dataset-tools",
+  "published": "2026-10-07T03:20:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.735057+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T03:20:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10607v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.634979+00:00"
+}

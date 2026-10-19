@@ -1,0 +1,18 @@
+{
+  "id": "194d018cb1cba15f9785c213f66b2010ba274c99b76a956a73189efff2552c1e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Scalable Adaptation of 3D Geometric Foundation Models via Weak Supervision from Internet Video",
+  "url": "https://arxiv.org/abs/2602.07891",
+  "summary": "arXiv:2602.07891v2 Announce Type: replace Abstract: Geometric foundation models show promise in 3D reconstruction. However, their progress is severely constrained by the scarcity of diverse, large-scale 3D annotations. While static-scene Internet videos are abundant and diverse, utilizing them as a scaling source for geometric learning is challenging due to the absence of ground-truth geometry and the presence of observational noise. To address this, we propose SAGE, a framework for Scalable Adaptation of GEometric foundation models from raw video streams. SAGE leverages a hierarchical mining pipeline to transform videos into training trajectories and hybrid supervisions: (1) Informative training trajectory selection; (2) Sparse Geometric Anchoring via SfM point clouds for global structural guidance; and (3) Dense Differentiable Consistency via 3D Gaussian rendering for multi-view constraints. Besides, we also introduce a regularization strategy that replays a small fraction of supervised data to prevent catastrophic forgetting. Applied to two architecturally distinct backbones, SAGE reduces Chamfer Distance on unseen benchmarks (7Scenes, TUM-RGBD, Matterport3D) by 20-42% with MV-DUSt3R and consistently improves VGGT. SAGE establishes Internet video as a viable and scalable adaptation source for geometric foundation models. Code is available at https://github.com/aim-uofa/SAGE.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.077071+00:00"
+}

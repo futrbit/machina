@@ -1,0 +1,22 @@
+{
+  "id": "7516456d6c2ce675dac569b425b8e31eea1c14956a0e9f35905d961b8b744833",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "GLASS: Graph-Language Alignment with Spherical Scoring for Transferable Graph-Level Anomaly Detection",
+  "url": "https://arxiv.org/abs/2609.05253",
+  "summary": "arXiv:2609.05253v2 Announce Type: replace Abstract: We introduce GLASS, a framework for graph-level anomaly detection (GLAD) that achieves robust cross-domain transferability through graph-language alignment on the unit hypersphere. GLASS builds a unified representation space by aligning a structure-aware graph encoder with an instruction-aware text embedding via a multi-slice soft cosine objective. Our framework serializes local, global, and semantic graph properties into a compact Graph Descriptor Prompt (GraphDP), creating a text bridge that enables domain-agnostic anomaly scoring. By enforcing multi-scale consistency through Matryoshka representation slices, the model captures anomalous deviations at multiple levels of granularity. We formulate anomaly detection as density estimation on the aligned hypersphere and introduce Spherical Multi-Modal Scoring (SMS), which instantiates von Mises-Fisher kernel density estimators in both graph and text embedding spaces. This probabilistic formulation recovers angular 1-nearest-neighbor scoring in the high-concentration limit, motivates the practical mean k-nearest-neighbor scorer, and provides a principled fusion of structural and semantic anomaly signals. The shared text embedding space further serves as a cross-domain bridge: by encoding a target domain's GraphDP without target-domain training data, GLASS performs zero-shot anomaly detection, and with only a handful of normal examples, few-shot adaptation via reference-set calibration. For privacy-sensitive deployment, we extend reference-set calibration with a bounded joint graph-text kernel summary that provides graph-record differential privacy while keeping the encoders fixed independently of the private target references. Across twelve benchmarks and three meta-domains, GLASS obtains the best average AUROC and rank compared with recent advanced GLAD baselines and enables effective cross-domain transfer.",
+  "published": "2026-09-04T15:16:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.836469+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T14:13:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.05253v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.238012+00:00"
+}

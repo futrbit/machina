@@ -1,0 +1,22 @@
+{
+  "id": "5fa482eda21c81ac725e8f33e323112f154ee85592825962ed59c25df606693c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "AURAL: Adaptive Latent Reasoning with Joint Chunk for Speech Language Models",
+  "url": "https://arxiv.org/abs/2610.01560",
+  "summary": "arXiv:2610.01560v1 Announce Type: cross Abstract: Model intelligence and fast response jointly shape the quality of interaction with speech language models, yet remain difficult to achieve together. Explicit chain-of-thought (CoT) improves reasoning and audio understanding, but generating intermediate reasoning tokens delays responses. Describing fine-grained acoustic cues further lengthens CoT and increases latency. Latent reasoning can reduce this overhead, yet existing methods often trail CoT and remain limited by single-path supervision and reasoning budgets that do not adapt to problem difficulty. We introduce AURAL, which models a distribution over multiple plausible reasoning continuations in latent space and jointly predicts chunks of future states to reduce sequential forward passes and reasoning latency. To provide initial supervision for latent reasoning, we construct AuralReason-683K: 683K bilingual speech utterances (about 1,000 hours) with concise CoT for emotion recognition, empathetic dialogue, and general reasoning. AURAL-RL then explores beyond these traces, rewarding concise reasoning that yields high-quality answers and adapting reasoning effort to each problem. Across two backbones, AURAL-RL achieves performance comparable to CoT-RL, with larger gains over the respective supervised checkpoints on most metrics. Analysis further shows that harder questions elicit more latent reasoning steps. On Qwen2.5-Omni, it reduces time to the first answer token by 11.8x, from 1.22 to 0.10 s, versus 0.05 s for direct answering.",
+  "published": "2026-10-01T12:28:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.819480+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T12:28:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01560v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.795280+00:00"
+}

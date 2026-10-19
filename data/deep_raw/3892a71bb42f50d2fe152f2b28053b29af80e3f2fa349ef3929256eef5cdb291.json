@@ -1,0 +1,22 @@
+{
+  "id": "3892a71bb42f50d2fe152f2b28053b29af80e3f2fa349ef3929256eef5cdb291",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "RACE-FPP: A Robust AI-assisted Characterisation Enhancement for Fringe Projection Profilometry",
+  "url": "https://arxiv.org/abs/2610.08213",
+  "summary": "arXiv:2610.08213v1 Announce Type: new Abstract: Fringe Projection Profilometry (FPP) requires precise system characterisation to achieve reliable three-dimensional (3D) reconstructions; however, characterisation accuracy strongly depends on robust checkerboard feature localisation, which can deteriorate under challenging imaging conditions such as lens blur and characterisation target orientations. Existing deep learning-based corner detectors are typically assessed using detection metrics and camera reprojection error alone, without considering their wider impact on projector characterisation, camera-projector stereo characterisation consistency, or overall measurement accuracy. In this work, we introduce a complete FPP characterisation pipeline that incorporates deep learning-based corner detection into the standard camera characterisation workflow. We also characterise the projector by sampling phase values at the centres of the white squares in the characterisation target. Rather than treating corner detection as an isolated task, the proposed framework explicitly analyses how localisation errors propagate throughout the entire FPP characterisation chain. Performance is evaluated using detection metrics (e.g., precision and recall), camera and projector reprojection errors, and the camera and projector stereo characterisation. Across a mixed dataset of clean and degraded images, the camera reprojection error is reduced from 1.237 pixels to 0.259 pixels, while the projector reprojection error is reduced by roughly 50%. Dimensional evaluation of reconstructed artefacts shows improved geometric accuracy compared with those resulting from the conventional pipeline. Overall, the findings indicate increased robustness of system-level characterisation under challenging imaging conditions, thereby enabling more reliable industrial FPP measurements.",
+  "published": "2026-10-06T12:07:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.522380+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:07:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08213v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.664960+00:00"
+}

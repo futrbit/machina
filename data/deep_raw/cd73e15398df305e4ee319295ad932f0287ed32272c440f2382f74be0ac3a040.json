@@ -1,0 +1,22 @@
+{
+  "id": "cd73e15398df305e4ee319295ad932f0287ed32272c440f2382f74be0ac3a040",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "LeanPlan: Optimal Planning with LLM-Generated Heuristics and Admissibility Proofs",
+  "url": "https://arxiv.org/abs/2610.08246",
+  "summary": "arXiv:2610.08246v1 Announce Type: cross Abstract: Frontier large language models (LLMs) can generate heuristic functions that guide search to achieve state-of-the-art performance in satisficing planning, where any plan is acceptable. However, these heuristics are not guaranteed to be admissible and can lead to suboptimal plans. We introduce LeanPlan, the first planning system that finds optimal plans with LLM-generated heuristics whose admissibility is machine-checked. Given a domain description and training tasks, an agentic loop uses planner feedback to iteratively improve a reusable domain-specific heuristic, its admissibility proof and the required domain assumptions. LeanPlan implements the heuristic, its proof and an efficient planner with machine-checked grounding and search in Lean 4. We evaluate LeanPlan on ten domains from the International Planning Competition and three new domains, using test tasks with up to 57 times as many objects as the training tasks. With GPT-5.6 Sol in the agentic loop, we successfully generate heuristics and admissibility proofs for all these domains. With the resulting heuristics, LeanPlan usually expands fewer states than the state-of-the-art Scorpion planner and solves more tasks overall.",
+  "published": "2026-10-06T12:27:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.103472+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:27:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08246v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.368139+00:00"
+}

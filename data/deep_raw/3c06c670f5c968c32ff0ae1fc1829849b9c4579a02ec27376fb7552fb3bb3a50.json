@@ -1,0 +1,22 @@
+{
+  "id": "3c06c670f5c968c32ff0ae1fc1829849b9c4579a02ec27376fb7552fb3bb3a50",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "A Two-Scan Deep Learning Model for Predicting Dementia in Mild Cognitive Impairment",
+  "url": "https://arxiv.org/abs/2605.28397",
+  "summary": "arXiv:2605.28397v3 Announce Type: replace Abstract: Predicting which people with mild cognitive impairment (MCI) will develop dementia matters for starting treatment early, yet computational work on structural brain imaging has relied almost entirely on a single scan. We propose TAFNet, a temporal attention fusion network that combines a baseline and a follow-up T1-weighted scan. A pretrained Siamese encoder represents each scan, and a fusion module combines the two through anatomical difference, cross-temporal attention and joint context, mixed by a learned per-patient gate. We evaluate it on paired scans from participants with MCI in the Alzheimer's Disease Neuroimaging Initiative, taken up to two years apart, with a dementia diagnosis within three years of the first scan as the outcome. The evaluation is designed to hold up under scrutiny: conversion is defined from recorded diagnoses, the pretraining pool shares no participants with the evaluation cohort, a held-out test partition is kept apart from model development, and uncertainty is estimated by resampling participants. TAFNet discriminates converters from non-converters well on the held-out partition. It outperforms conventional single-scan networks and a model that subtracts the two scans; both differences are significant in cross-validation and have the same direction on the smaller held-out partition. With everything else held fixed, adding the follow-up scan gives a significant gain in cross-validation. Against a recurrent CNN-LSTM baseline built on the same encoder, TAFNet performs comparably, with neither model consistently ahead. Operating points chosen on validation data, in place of the default threshold, give high sensitivity at a clinically reasonable specificity.",
+  "published": "2026-05-27T12:33:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.786027+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:05:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.28397v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.722926+00:00"
+}

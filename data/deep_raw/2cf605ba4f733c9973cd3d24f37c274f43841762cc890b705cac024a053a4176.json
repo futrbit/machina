@@ -1,0 +1,21 @@
+{
+  "id": "2cf605ba4f733c9973cd3d24f37c274f43841762cc890b705cac024a053a4176",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Where Rules End and Judges Begin: Measuring the Judgment Boundary in Multi-Agent Systems Security",
+  "url": "https://arxiv.org/abs/2610.07657",
+  "summary": "arXiv:2610.07657v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) engage tools, share memory, and delegate tasks, often encountering adversarial content. Current defenses for MAS are typically evaluated in isolation, focusing on one attack type at a time, which can lead to costly and hard-to-audit outcomes. This study organizes defenses into five principles, implementing them as DEFER1 (DEterministic-First Enforcement with Residual judgment), which includes a cascade of 28 checks that blocks what it can and refers the rest to a panel of four judges. In independent testing across four domains, attack success rates drop from about 30.0% to approximately 3.0%, with 78% of blocked attacks handled by deterministic checks. Only a quarter of proposals reach the judges in the security-operations domain, illustrating that the rules provide security for attacks violating clear policies, while judges manage those that only misrepresent intent. Both systems have weaknesses, such as a risk-score approval gate that inaccurately approves most attack proposals but few legitimate ones, highlighting the challenges in assessing threats accurately.",
+  "published": "2026-10-06T02:52:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.136822+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:52:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07657v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.340158+00:00"
+}

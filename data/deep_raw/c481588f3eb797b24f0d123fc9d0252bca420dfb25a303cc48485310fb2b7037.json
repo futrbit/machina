@@ -1,0 +1,18 @@
+{
+  "id": "c481588f3eb797b24f0d123fc9d0252bca420dfb25a303cc48485310fb2b7037",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "ODSS-Net: Orthogonally Decoupled Shared-Specific Representations for Multi-Modal Object Re-Identification",
+  "url": "https://arxiv.org/abs/2610.22922",
+  "summary": "arXiv:2610.22922v1 Announce Type: new Abstract: Multi-modal object re-identification (ReID) leverages complementary information from heterogeneous sensors. Cross-modal alignment and fusion remain challenging. Existing methods mainly reduce modality gaps via feature alignment and fusion. However, alignment may entangle modality-shared structural information with modality-specific cues, while conventional fusion may not fully exploit complementary information. To address these issues, we propose ODSS-Net, a framework for orthogonally decoupled shared-specific representation learning and adaptive fusion of complementary modality-specific features. First, a Shared Structural Feature Construction (SSFC) module suppresses modality-dependent appearance variations and extracts modality-shared structural information. Then, an Orthogonal Specific Feature Learning (OSFL) module aggregates identity-relevant local information and removes the shared-aligned component via geometric orthogonal projection. Finally, a Sample Adaptive Mixture of Experts (SAMoE) module uses the shared structure as routing context to adaptively refine and fuse modality-specific features. Experiments on three benchmarks demonstrate the effectiveness of ODSS-Net for multi-modal object ReID.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.039095+00:00"
+}

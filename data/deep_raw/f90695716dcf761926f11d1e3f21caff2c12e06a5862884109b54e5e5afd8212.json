@@ -1,0 +1,21 @@
+{
+  "id": "f90695716dcf761926f11d1e3f21caff2c12e06a5862884109b54e5e5afd8212",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "FactorizedHMR: A Hybrid Framework for Video Human Mesh Recovery",
+  "url": "https://arxiv.org/abs/2605.14854",
+  "summary": "arXiv:2605.14854v4 Announce Type: replace-cross Abstract: Human Mesh Recovery (HMR) is fundamentally ambiguous: under occlusion or weak depth cues, multiple 3D bodies can explain the same image evidence. This ambiguity is not uniform across the body, as torso pose and root structure are often relatively well constrained, whereas distal articulations such as the arms and legs are more uncertain. Building on this observation, we propose FactorizedHMR, a two-stage framework that treats these two regimes differently. A deterministic regression module first recovers a stable torso-root anchor, and a probabilistic flow-matching module then completes the remaining non-torso articulation. To make this completion reliable, we combine a composite target representation with geometry-aware supervision and feature-aware classifier-free guidance, preserving the torso-root anchor while improving single-reference recovery of ambiguity-prone articulation. We also introduce a synthetic data pipeline that provides the paired image-camera-motion supervision under diverse viewpoints. Across camera-space and world-space benchmarks, FactorizedHMR remains competitive with strong baselines, with the clearest gains in occlusion-heavy recovery and drift-sensitive world-space metrics.",
+  "published": "2026-05-14T13:59:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.420357+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:24:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.14854v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.326754+00:00"
+}

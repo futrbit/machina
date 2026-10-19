@@ -1,0 +1,21 @@
+{
+  "id": "73f44c6df54824d052a62f720807f29c5169e1fcbf3ace2f73502075c52603eb",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Evaluate the Stack, Not the Layer: Do Deterministic and LLM Gates for Agent Actions Fail Independently?",
+  "url": "https://arxiv.org/abs/2610.07359",
+  "summary": "arXiv:2610.07359v1 Announce Type: new Abstract: Runtime gates for agent tool calls are stacked on the assumption that their errors multiply. We test it on 1,119 labelled agent actions from three corpora, without an adaptive adversary. The stack has one deterministic rule layer and four LLM judges, three of them re-collected with the served model recorded on every call. We read each stack as a number of multiplication-equivalent layers, n_mult, with its floor under perfect coupling. Under the STRICT miss definition (escalation to a human scored as not stopped), any two judges compose to about 1.2 to 1.4 layers ({\\phi} median +0.430, 6 of 6 pairs significant, floors 1.02 to 1.17). The rule layer plus one judge composes to 1.86 to 2.09 layers ({\\phi} median +0.014, 0 of 4 significant, floors 1.01 to 1.09). Under PRIMARY (escalation scored as caught) the bands are 1.21 to 1.57 and 1.80 to 2.13. Intervals separate on the pooled data, point estimates split on each corpus, and a third-vendor judge lands in the judge band. Solo accuracy does not predict what a layer adds: a cloud rule pack lowers the rule layer's solo miss rate by 20% and adds no new joint coverage. The difficulty share of judge coupling is not identifiable: 31.8% to 61.8% depending on the probe and the miss definition. One judge tier was served by an unrequested model version in 50 of 112 batches, concentrated on the external corpus. That event overturned a pre-declared analysis rule, and the scoring of review verdicts reversed five conclusions. We report both.",
+  "published": "2026-10-05T20:26:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.128827+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:26:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07359v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.218025+00:00"
+}

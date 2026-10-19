@@ -1,0 +1,22 @@
+{
+  "id": "65422dd3646a53f9d68f9a2e407a39958ecf8bcd2cac017ec2078be014b73968",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Unifying Distributional Training for One-Step Visual Generation",
+  "url": "https://arxiv.org/abs/2609.35763",
+  "summary": "arXiv:2609.35763v3 Announce Type: replace Abstract: Distributional training provides collective supervision for one-step visual generation by matching real and generated features in frozen representation spaces. We introduce a unified theoretical framework that separates distribution modeling from matching discrepancy and connects global objectives to pointwise feature updates through Wasserstein gradient flow. Under this framework, FD-Loss and Gaussian-kernel Drifting are recovered through Gaussian optimal transport and kernel-density-based KL matching, respectively. The framework motivates MGFlow, which models feature distributions with Gaussian mixtures at an adjustable granularity between global moments and sample-based representations. MGFlow supports both optimal transport and score-based matching, and couples mass-constrained sample assignment with paired component updates to address mode collapse that mixture expressivity alone does not resolve. On ImageNet $256\\times256$, MGFlow substantially surpasses the FD-Loss baseline, achieving state-of-the-art results with 1.45 $\\mathrm{FDr}^6$ on pMF-H and 1.64 on JiT-H. For text-to-image generation, MGFlow post-trains FLUX.2 [klein] 4B into a one-step generator that outperforms the original four-step model on both GenEval and PickScore.",
+  "published": "2026-09-28T17:59:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.837468+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-02T15:54:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.35763v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.875231+00:00"
+}

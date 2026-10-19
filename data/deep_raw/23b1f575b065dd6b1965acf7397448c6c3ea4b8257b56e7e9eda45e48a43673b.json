@@ -1,0 +1,22 @@
+{
+  "id": "23b1f575b065dd6b1965acf7397448c6c3ea4b8257b56e7e9eda45e48a43673b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Measuring Learned Monotone Temporal Aggregation at Matched Admissibility",
+  "url": "https://arxiv.org/abs/2610.05196",
+  "summary": "arXiv:2610.05196v2 Announce Type: replace Abstract: Risk regulation imposes directional constraints on scores; we adopt their strict per-input form -- the score monotone non-decreasing in every exposure input -- as a normative commitment. Deployed pipelines -- monotone hand-crafted aggregates feeding sign-constrained gradient boosting -- already satisfy it by composition, so constrained-versus-unconstrained comparisons price a guarantee the incumbent has for free. We instead hold admissibility fixed on both sides and measure what learning the aggregation is worth. Our instrument is a recurrent network whose state is classical risk statistics (an exponentially weighted moving average and a high-water mark with learned transforms), monotone by construction in every input and per MC-dropout sample. The central finding, by functional regression, is a subsumption boundary: a learned monotone channel reproduces the geometrically weighted separable family of hand-crafted statistics, one channel per member, to Spearman $\\rho \\ge 0.996$, approximates window statistics with measurable ceilings, and fails at consecutivity ($\\rho = 0.924$) and time localization (0.628), both structural, and at the exposure floor (0.829), a learnability boundary. One explicit admissible basis repairs each failure (rank correlation 1.000). In or near the separable family, learned and engineered aggregation are substitutes, and the learned channel is never statistically behind at full sample size and specified capacity. Its advantages are incumbent-specific: a committed grid pays up to 0.019 AUC in decay regions it leaves uncovered (the learned channel stays within 0.004 of the strongest engineered consumer at every swept point); the highest-dimensional comparator degrades fastest with scarce data; and beyond the training support, grid-fed tree-ensemble scores go flat while a strictly increasing head keeps ranking. No single incumbent is dominated on all three axes.",
+  "published": "2026-10-04T13:09:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.132402+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:04:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05196v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.191247+00:00"
+}

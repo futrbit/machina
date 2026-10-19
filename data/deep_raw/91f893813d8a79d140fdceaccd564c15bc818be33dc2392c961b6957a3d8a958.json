@@ -1,0 +1,21 @@
+{
+  "id": "91f893813d8a79d140fdceaccd564c15bc818be33dc2392c961b6957a3d8a958",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids",
+  "url": "https://arxiv.org/abs/2610.08381",
+  "summary": "arXiv:2610.08381v1 Announce Type: new Abstract: Human video offers a scalable source of robot demonstrations, yet most human-to-humanoid retargeting methods assume a legged robot with human-like kinematics. This assumption does not hold for mobile-base humanoids equipped with a wheeled base, vertical lift, and two arms. Human walking must be expressed through base motion, while torso bending may require coordinated lift and arm motion. We address this mismatch with a task-conditioned framework that assigns reconstructed human motion to base, lift, and arm responsibilities before robot-specific realization. The allocator preserves the human-derived path, stabilizes heading, separates turn and translation when needed, retimes commands to satisfy base limits, and repairs lift and arm trajectories. A deployment adapter then converts the reference to 50 Hz commands using stationary-base detection, deadband and slew-rate filtering, time-consistent playback scaling, and separate linear and angular gains. We evaluate the resulting references with human-derived task-space comparisons, policy-free simulation replay, and a qualitative execution on a physical robot.",
+  "published": "2026-10-06T14:02:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.467018+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:02:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08381v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.786682+00:00"
+}

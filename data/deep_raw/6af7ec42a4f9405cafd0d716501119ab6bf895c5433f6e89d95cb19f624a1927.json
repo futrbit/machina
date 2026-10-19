@@ -1,0 +1,18 @@
+{
+  "id": "6af7ec42a4f9405cafd0d716501119ab6bf895c5433f6e89d95cb19f624a1927",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "MeshSuite: A Unified Benchmark for Triangle- and Mesh-Based Neural Rendering",
+  "url": "https://arxiv.org/abs/2609.01306",
+  "summary": "arXiv:2609.01306v4 Announce Type: replace-cross Abstract: Triangle- and mesh-based neural rendering seeks to bridge neural representations and graphics engines through triangle primitives compatible with standard rasterization. Yet existing methods were developed and evaluated under inconsistent settings, with few direct comparisons and little evaluation in graphics engines. We introduce MeshSuite, the first benchmark for systematic evaluation of engine deployment and Non-Engine Render in triangle- and mesh-based neural rendering. MeshSuite evaluates two deployment settings: Standard Deployment, using an opaque mesh pipeline with vertex colors and hardware Z-buffering; and Dedicated Deployment, using method-specific engine implementations to preserve appearance and compositing features. For mesh splatting, we also audit exported surfaces for topological and geometric integrity as downstream graphics assets. Our results show that engine deployment reduces image quality in both settings; among evaluated methods, MeshSplatting degrades least under Standard Deployment. Dedicated Deployment preserves most fidelity at roughly 5-33x the runtime of Standard Deployment across two deployment datasets. For mesh splatting, explicit connectivity and shared indexing remain limited: shared vertex indexing alone guarantees neither manifoldness nor global connectivity. These findings show that rasterizability is only part of graphics readiness and underscore the need to assess engine deployment. Project page: https://surrey-up-lab.github.io/MeshSuite.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.093061+00:00"
+}

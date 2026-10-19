@@ -1,0 +1,21 @@
+{
+  "id": "c570349737ac14aab3dfffd4895920483b4a93266d18119a2a5d540139e4dd33",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PACE: Stage-Consistent Long-Horizon Robot Manipulation via Progress-Aligned Context for Execution",
+  "url": "https://arxiv.org/abs/2610.07917",
+  "summary": "arXiv:2610.07917v1 Announce Type: new Abstract: Demonstration-conditioned policies provide a natural interface for specifying robot behavior, yet long-horizon manipulation remains difficult when visually similar states recur across different stages or when demonstrations and executions proceed at different speeds. We identify the resulting failure mode as stage confusion and introduce Progress-Aligned Context for Execution (PACE), a stateful method that continually reinterprets a complete demonstration according to realized execution progress. PACE compresses the demonstration into ordered multimodal prompt tokens and uses training-only dual-edge attention supervision to expose its latent stage structure. During execution, an episode-local fast-weight memory causally encodes realized action-observation transitions and modulates prompt cross-attention, producing a progress-aligned context for a unified diffusion action expert without test-time stage labels or stage-specific policies. PACE improves success from 88.9% to 94.0% on LIBERO-Gen Goal Chain, from 79.1% to 83.3% on Spatial Combination, and from 33.3% to 73.3% on the two-step Block Routing tasks. Failure analysis further indicates that structured demonstration alignment and causal execution memory jointly mitigate stage confusion.",
+  "published": "2026-10-06T07:58:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.460022+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:58:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07917v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.923996+00:00"
+}

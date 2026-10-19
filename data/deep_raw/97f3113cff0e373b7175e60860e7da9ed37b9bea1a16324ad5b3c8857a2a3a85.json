@@ -1,0 +1,22 @@
+{
+  "id": "97f3113cff0e373b7175e60860e7da9ed37b9bea1a16324ad5b3c8857a2a3a85",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reason in Style: Discovering and Controlling Style in Language Models",
+  "url": "https://arxiv.org/abs/2610.00724",
+  "summary": "arXiv:2610.00724v1 Announce Type: cross Abstract: Language models learn content and style jointly, making stylistic variation in their outputs difficult to identify and control. We study whether recurring styles in model responses can be discovered without supervision and explicitly controlled. We design an algorithm that learns to separate representations of content and style from language models' outputs and validate its effectiveness on math questions in a controlled setting. By applying this method to over 100K verified traces from nine distinct teacher models, we discover six recurring yet imbalanced styles. We then fine-tune smaller student models to follow these styles when explicitly conditioned on them, using importance weighting to balance the contribution of the styles represented in the corpus. This approach improves Pass@$k$ over standard fine-tuning on the same data across six math reasoning benchmarks, demonstrating that we can diversify the style of answers effectively. We confirm that this also results in strong correspondence between requested and realized styles. We find that style affects correctness: the probability of solving a problem depends on the style we condition on, and different problems benefit from different styles. In summary, our results show that stylistic variation in model-generated data can be discovered in an unsupervised way, and made explicit, providing a source of both control and improved reasoning performance.",
+  "published": "2026-09-30T21:15:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.812484+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T21:15:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00724v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.915604+00:00"
+}

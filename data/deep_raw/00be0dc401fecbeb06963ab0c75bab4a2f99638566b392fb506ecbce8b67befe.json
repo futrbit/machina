@@ -1,0 +1,22 @@
+{
+  "id": "00be0dc401fecbeb06963ab0c75bab4a2f99638566b392fb506ecbce8b67befe",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Exact-Solution Volume and Length Generalization in Transformers",
+  "url": "https://arxiv.org/abs/2610.07676",
+  "summary": "arXiv:2610.07676v1 Announce Type: new Abstract: Research on transformer expressivity shows whether a transformer is capable of solving a given task, but gives little indication of whether the solution, if learned, is generalizable to longer input lengths. We study this question through normalized exact-solution volume (NESV): the fraction of a bounded parameter region that achieves an exact solution on every input of length $n$. For fixed-width, single-layer transformers with $\\log n$-scaled attention, we establish asymptotic bounds on NESV for four tasks: FIRST ($\\Theta(1)$), MAJORITY ($\\Theta(1/(n\\log n))$), INDEX ($\\Theta(1/n^3)$), and PARITY ($0$). These results are consistent with previous empirical results: the faster the exact-solution volume decays with input length, the harder it is to length-generalize on that task. Looking deeper into INDEX, our volume analysis reveals two error sources that grow with $n$. Consequently, we study a transformer model that would structurally eliminate one of the terms, theoretically improving the NESV bound to $\\Theta(n^{-1})$, and empirically achieving 85% accuracy when tested at $10\\times$ the training length, compared with the 60% accuracy of the original model. We conclude that volume analysis may be a useful approach to identify concrete sources of length sensitivity and thus provide insights into task-specific model refinements.",
+  "published": "2026-10-06T03:11:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.066495+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T03:11:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07676v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.254205+00:00"
+}

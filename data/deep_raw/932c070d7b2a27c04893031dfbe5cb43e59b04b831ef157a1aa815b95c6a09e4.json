@@ -1,0 +1,22 @@
+{
+  "id": "932c070d7b2a27c04893031dfbe5cb43e59b04b831ef157a1aa815b95c6a09e4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Identifiable World Models from Pretrained Diffusion Representations",
+  "url": "https://arxiv.org/abs/2610.07028",
+  "summary": "arXiv:2610.07028v1 Announce Type: new Abstract: Diffusion-based world models can generate and predict trajectories in high-dimensional dynamical systems, but predictive accuracy does not imply that their latent coordinates recover the underlying state variables or causal interactions. We ask whether a frozen pretrained diffusion model can be equipped with identifiable coordinates without retraining its generative backbone. We show that auxiliary-variable nonlinear ICA guarantees can be transferred to Contrastive Diffusion Alignment (ConDA), which learns only a lightweight alignment map on top of frozen diffusion latents. Under standard TCL/GCL assumptions, the aligned representation identifies latent dynamical states up to permutation and componentwise invertible transformations, preserves the latent dynamic structural causal model, and reduces lagged graph recovery to transition-Jacobian sparsity. We evaluate TCL-, GCL-, and CEBRA-based ConDA against TDRL, CaRiNG, IDOL, temporal SuaVE, and iVAE across physical and robotic video systems. TCL and GCL achieve near-perfect blockwise state recovery and competitive lagged graph recovery, including exact recovery in a simulated falling-body system. In a simulated bipedal robot, learned dynamics recover the sign and temporal structure of responses to held-out control perturbations. These results show that a frozen generative diffusion model can be equipped with coordinates that are identifiable, structurally interpretable, and useful for analyzing intervention-relevant dynamics.",
+  "published": "2026-10-04T18:15:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.043508+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T18:15:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07028v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.798674+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "365455b344ff84f71b31301eec04a2e2ff148ced4468b0efa39ad7fa3f49c00c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "BoT-Feedback: Grounding Multimodal Reasoning in Biomechanical Evidence for Explainable Human Action Feedback",
+  "url": "https://arxiv.org/abs/2610.06972",
+  "summary": "arXiv:2610.06972v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) have demonstrated impressive capabilities in visual understanding and multimodal reasoning, yet they remain fundamentally limited in Human Action Feedback Generation. Existing methods infer coaching feedback directly from visual observations, producing generic advice, limited interpretability, and physically implausible hallucinations. In contrast, expert human coaches diagnose performance through explicit biomechanical reasoning over joint kinematics, posture, and body dynamics. We introduce BoT-Feedback, a framework that grounds MLLM reasoning in structured biomechanical evidence. Our key contribution is Biomechanics of Thought (BoT), a four-stage reasoning framework that progressively identifies the action, localises the critical body regions, analyses quantitative biomechanical differences between expert and student performances, and synthesises interpretable coaching feedback. To support this reasoning process, we develop a plug-and-play Biomechanical Data Parser (BDP) that converts videos into structured biomechanical descriptors and an alignment strategy that temporally matches expert and student motions. We further introduce BiomAF, a benchmark containing paired teacher-student videos, 3D skeletons, biomechanical attributes, and expert-coaching annotations. Experiments across twelve open- and closed-source MLLMs demonstrate that grounding reasoning in biomechanical evidence consistently improves feedback quality, interpretability, and robustness while substantially reducing biomechanical hallucinations. BoT-Feedback improves the average expert evaluation score from 2.07 to 2.95 (+40%), enabling compact open-source MLLMs to approach the performance of substantially larger proprietary systems for explainable action feedback generation.",
+  "published": "2026-10-03T20:22:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.508389+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T20:22:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06972v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.627983+00:00"
+}

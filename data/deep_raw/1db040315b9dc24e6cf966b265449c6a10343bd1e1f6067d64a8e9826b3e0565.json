@@ -1,0 +1,21 @@
+{
+  "id": "1db040315b9dc24e6cf966b265449c6a10343bd1e1f6067d64a8e9826b3e0565",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "LEAP: Making Privileged Geometry Supervision Effective for Visuomotor Learning",
+  "url": "https://arxiv.org/abs/2610.07015",
+  "summary": "arXiv:2610.07015v1 Announce Type: new Abstract: Privileged 3D supervision uses additional geometric information during training to guide RGB-based visuomotor policy learning, without requiring geometric inputs at deployment. However, low reconstruction error does not ensure that visual representations capture geometry useful for control. We identify three limitations that weaken this supervision: proprioceptive shortcuts, dominant-view reliance, and reconstruction objectives dominated by task-irrelevant geometry. To address these limitations, we propose Latent Encoding with Aligned Privileged Geometry (LEAP). Our framework uses an auxiliary decoder to reconstruct point clouds within the manipulation workspace from visual features alone, while retaining proprioception for action prediction. Alongside full reconstruction, we introduce wrist-view dropout and partial reconstruction targets matched to the retained wrist, encouraging the encoder to capture complementary local geometry. The auxiliary decoder is removed at inference, leaving only RGB observations and robot state as policy inputs. Extensive experiments on RoboTwin, ManiSkill, and real-world tasks demonstrate consistent and substantial improvements over Diffusion Policy and ACT, with only a small increase in parameter count and no reduction in inference speed.",
+  "published": "2026-10-04T14:13:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.452028+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T14:13:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07015v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.998900+00:00"
+}

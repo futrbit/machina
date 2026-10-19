@@ -1,0 +1,22 @@
+{
+  "id": "22a5df975273c32a1041de7845ad85517950434be3255dcb410d90fe86cd8e27",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "On Reliability of Membership Inference Vulnerability Evaluation",
+  "url": "https://arxiv.org/abs/2605.25819",
+  "summary": "arXiv:2605.25819v2 Announce Type: replace Abstract: Membership inference attacks (MIAs) are popular methods for empirically assessing the leakage of sensitive information in the training data through models or statistics learned from the data. The MI vulnerability is often evaluated through a binary classifier that tries to predict whether a particular sample was in the training data. In order to evaluate the effectiveness of MIAs multiple \\textit{shadow models} are trained using random partitions of a larger dataset. After training the shadow models the MI vulnerability can be evaluated for all the samples for which we obtained shadow models. In order to evaluate the MI vulnerability reliably one needs a lot of shadow models which can be computationally infeasible. Therefore instead of reporting the actual sample level vulnerabilities aggregates over multiple samples are often reported in practice. We demonstrate two key weaknesses in typical MIA evaluation pipeline. First, we show that sampling the shadow datasets from a fixed superset leads to finite sample bias inflating the vulnerability estimates. Second, we show that evaluating the true positive rate (TPR) by concatenating MIA scores across multiple individuals, commonly used in the very low false positive rate (FPR) regime, is not calibrated across the per-sample FPRs. For both weaknesses we propose fixes that in the most simple approximate form do not incur any additional computation cost. We show that with additional computation one can further improve the reliability of the vulnerability estimation.",
+  "published": "2026-05-25T13:16:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.832471+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T06:46:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.25819v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.173257+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "0f0b95c39a5906718d5e193fa942c40744a9f5377f5d885befb07acde1edf71f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Distributionally Robust Schr\\\"odinger Bridge",
+  "url": "https://arxiv.org/abs/2610.02043",
+  "summary": "arXiv:2610.02043v1 Announce Type: new Abstract: Schr\\\"odinger bridge (SB) learns stochastic transport between prescribed initial and target distributions. When the initial distribution shifts at test time, the learned dynamics can fail to recover the target distribution. We introduce the Distributionally Robust Schr\\\"odinger Bridge (DRSB), which learns a single controller that accounts for uncertainty in the initial distribution. The DRSB objective consists of control energy and a KL penalty between the resulting terminal distribution and the target distribution. DRSB seeks a single controller that minimizes the worst-case value of this objective as the initial distribution varies within an ambiguity set around the nominal distribution. We derive an exact variational formulation of this objective and connect its fixed-terminal-cost subproblem to stochastic optimal control and distributionally robust optimization. This formulation motivates an alternating algorithm that updates the adversarial initial distribution, estimates the terminal log-density ratio, and trains the controller. We develop Wasserstein and Sinkhorn variants using stochastic control optimality conditions to approximate the gradients required for adversarial updates. Experiments on two-dimensional transport tasks and image-to-image translation show improved robustness to input perturbations relative to standard SB, with a tradeoff in nominal performance. On Gaussian mixture transport, Sinkhorn DRSB also achieves lower mean sliced Wasserstein distance than fixed-level noise augmentation at both tested unseen noise levels.",
+  "published": "2026-10-01T16:54:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.801491+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:54:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02043v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.644969+00:00"
+}

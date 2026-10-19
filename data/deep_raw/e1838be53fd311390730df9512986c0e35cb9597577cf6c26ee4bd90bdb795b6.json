@@ -1,0 +1,21 @@
+{
+  "id": "e1838be53fd311390730df9512986c0e35cb9597577cf6c26ee4bd90bdb795b6",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Aim Short to Reach Far: Your Frozen World Model Can Plan Better Than You Think",
+  "url": "https://arxiv.org/abs/2609.30036",
+  "summary": "arXiv:2609.30036v2 Announce Type: replace-cross Abstract: Planners built on visual world models commonly score each predicted outcome by its distance to the encoded goal image. We show that this target can limit control even with exact dynamics and globally optimal short-horizon search: reaching a goal may require actions that initially move away from it. With frozen LeWM models, intermediate targets substantially improve action synthesis and recorded-action ranking on Cube, PushT, Reacher, and TwoRoom. Learned targets and targets drawn from observed experience both produce these gains. We introduce Anchored Planning, which retrieves a recorded segment whose start and end resemble the current and goal observations, then aims at an observation shortly after its start. The frozen model scores actions toward this target from the current state. Without additional training, planning toward observed targets outperforms the LeWM planner on every task in our long-range evaluation. Additional final-goal search falls short of the same gains. Lower successor-prediction error need not translate into better control. Success also depends on how far ahead the target is placed and on shrinking the retrieval span as execution advances. Changing only the target lets the same frozen model and planner reach goals that final-goal scoring misses.",
+  "published": "2026-09-24T16:05:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.388593+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-30T11:38:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30036v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.262792+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "f2a2a74137d2484f26bb60eb24459b22dfe8e5a7dc9e1855084bad5403572bd9",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Deflating the Hessian: Rank-4 W4A4 Quantization for Multimodal Diffusion Transformers",
+  "url": "https://arxiv.org/abs/2610.11315",
+  "summary": "arXiv:2610.11315v1 Announce Type: cross Abstract: In diffusion transformers, low-rank branches can mitigate 4-bit weight--activation (W4A4) post-training quantization (PTQ) loss by decomposing each weight into a low-bit residual and a high-precision low-rank component. Existing low-rank PTQ approaches, however, either optimize low-rank compensation and residual quantization separately, often requiring higher ranks, or rely on second-order weight updates without explicitly modeling activation quantization error, which becomes particularly pronounced under 4-bit quantization. To address these limitations, we present \\method{}, a unified framework modeling low-rank-assisted W4A4 PTQ as a coupled calibration problem and deriving optimization-based solvers from the joint objective. Eliminating the output-side low-rank factor yields a \\emph{deflated Hessian} that discounts residual errors already captured by the low-rank component, while an activation-noise surrogate is incorporated to suppress activation quantization error. Across five diffusion backbones, rank-4 \\method{} consistently outperforms rank-4 SVDQuant in PSNR and LPIPS. It further surpasses rank-32 SVDQuant on SANA-1.6B, FLUX.1-schnell, and FLUX.1-dev with an $8\\times$ smaller rank and up to $6.25\\times$ faster quantization. Furthermore, on the Qwen3-8B LLM, rank-4 \\method{} improves MMLU accuracy from 61.50\\% to 68.17\\% over rank-32 SVDQuant. Overall, \\method{} achieves better W4A4 performance with substantially lower rank and quantization cost.",
+  "published": "2026-10-08T06:22:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.769036+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:22:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11315v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.334351+00:00"
+}

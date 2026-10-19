@@ -1,0 +1,21 @@
+{
+  "id": "342ccd5452f19e2dd56c7bc9c987b75a47d7c301c537c372f358d10e7233e115",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SWAP: Stepwise Action Policy Routing for Vision-Language-Action Models",
+  "url": "https://arxiv.org/abs/2610.06926",
+  "summary": "arXiv:2610.06926v1 Announce Type: new Abstract: Robot manipulation systems using Vision-Language-Action (VLA) model backbones typically use just one VLA for task execution. However, individual VLAs do not perform well across different task states and environments. We introduce a framework for dynamically composing multiple VLA policies during execution: StepWise Action Policy Routing (SWAP). SWAP formulates policy routing as an offline reinforcement learning problem, learning a routing critic that selects the most appropriate policy at each decision step given the current observation. SWAP enables robots to select new policies to execute online rather than committing to a single policy for the duration of an episode. We evaluate SWAP on both real-world DROID manipulation tasks and LIBERO simulation experiments. SWAP improves over fixed-policy execution and routing baselines, giving absolute improvements in real-world task success up to 33% while reducing successful trajectory robot action step length by 28.3%.",
+  "published": "2026-10-03T00:12:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.451028+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T00:12:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06926v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.514051+00:00"
+}

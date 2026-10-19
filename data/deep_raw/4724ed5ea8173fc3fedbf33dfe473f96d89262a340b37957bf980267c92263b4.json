@@ -1,0 +1,22 @@
+{
+  "id": "4724ed5ea8173fc3fedbf33dfe473f96d89262a340b37957bf980267c92263b4",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Decoupling What from Where: How Should a Small GUI Grounding Model Receive the Action Type?",
+  "url": "https://arxiv.org/abs/2610.07444",
+  "summary": "arXiv:2610.07444v1 Announce Type: cross Abstract: A GUI agent decides which action to take and where to take it; we ask how a small grounding model should receive the action type. Fine-tuning Qwen2-VL-2B with LoRA on Android in the Wild, we compare a flat baseline with five ways of supplying the type under matched data, compute, and decoding: an auxiliary loss, a hard-routed action word, an additive learned embedding, a prepended learned token, and the type written into the prompt. With five seeds, an episode-clustered bootstrap, and seed-level paired tests, the ranking on a mixed stream is clear: the auxiliary loss, the additive embedding, and the prompt word each gain five to seven hit@0.10 points over the baseline, while hard routing and the prepended token are not distinguishable from it. Much of that gain is protection from a preprocessing choice of ours rather than a spatial prior. Our serializer clamps the off-screen touch point AITW records for type events to the origin; that class degrades the baseline's click grounding, and removing it lifts the baseline by nearly seven points, after which no mechanism's hit rate beats it and the intervals exclude a two-point effect, though the auxiliary loss still shortens the average miss; on a stream of taps and swipes none helps. Whether this generalizes beyond one serialization is open. For deployment, the pipeline's margin over the baseline with predicted rather than gold types is not established (+0.016, 95% interval [-0.017, +0.052]), and a wrong type collapses every model conditioned at inference. The prepended token does not help at the shared learning rate, where its rows barely move from initialization; trained ten times faster it reaches the level of the other three, with a margin three seeds do not establish. We also document a silent failure: injecting conditioning through inputs_embeds makes Qwen2-VL fall back to 1-D positions for image tokens, costing nine points.",
+  "published": "2026-10-05T21:50:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.530376+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:50:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07444v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.905816+00:00"
+}

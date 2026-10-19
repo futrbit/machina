@@ -1,0 +1,21 @@
+{
+  "id": "d885ca987ad6815fe2682b6ff07d9293baccc8070ea75051c7adc410730b6f7a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "AgentTime: Can Agents Estimate and Control Their Own Runtime?",
+  "url": "https://arxiv.org/abs/2610.09944",
+  "summary": "arXiv:2610.09944v2 Announce Type: replace Abstract: An essential control of AI agents is their ability to manage runtime. This ability requires a sense of time-awareness, to predict and estimate wall-clock time and to control their own actions. Prior work has focused on time-awareness, but duration-following and control in native agent harnesses remain unexplored. We present AgentTime, a benchmark for testing whether agents can work for a requested duration, predict their runtime, and estimate elapsed time afterward. It comprises 222 tasks from 18 sources spanning coding, computer use, agentic work, and automated research. Duration-following experiments append a single instruction specifying how long to work, with requests ranging from about a minute to multiple days. Accuracy on these instructions varies substantially: Fable 5.1 in Claude Code deviates from requested runtimes by a typical factor of 2.9$\\times$, compared with only 1.2$\\times$ for GPT-6 Astra in Codex. However, matching the requested runtime does not, by itself, establish continued work on the task. Among 158 reviewed Astra runs with classifiable transcripts, 14 explicitly slept after appearing to finish. In forecasting experiments, predictions tend to overestimate natural runtimes. In retrospective experiments, removing temporal information more than doubles deviation for Sol and Astra and nearly doubles it for Fable. An agent's ability to complete a task does not guarantee that it can control its own time or work for the whole requested duration. For agents to run reliably, safely, and autonomously over long horizons, we require the evaluation of both.",
+  "published": "2026-10-07T12:26:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.413362+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:06:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.09944v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.172846+00:00"
+}

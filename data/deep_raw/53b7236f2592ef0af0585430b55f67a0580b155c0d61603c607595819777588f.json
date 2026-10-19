@@ -1,0 +1,22 @@
+{
+  "id": "53b7236f2592ef0af0585430b55f67a0580b155c0d61603c607595819777588f",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Adapting Personalized Speech Enhancement for Low-Latency Audio-Visual Target-Speaker Extraction",
+  "url": "https://arxiv.org/abs/2609.30631",
+  "summary": "arXiv:2609.30631v1 Announce Type: cross Abstract: Online audio-visual target-speaker extraction aims to remove competing voices while preserving speech quality and bounding lookahead. Existing extractors are built and evaluated for separation on synthetic mixtures, leaving listening quality and meeting behavior largely untested. We introduce Audio-Visual Personalized Voice Quality Enhancement (AV-PVQE), which approaches these requirements from the other direction. We start from a personalized speech enhancement model that reconstructs a requested voice at high quality but confuses the target in 46% of two-speaker mixtures despite clean enrollment. Adding mouth features at its speaker-conditioning input and jointly fine-tuning the visual and reconstruction networks reduces this rate to 1.6%, with no future frames and 20 ms of algorithmic delay. Compared with an online autoregressive audio-visual extractor, AV-PVQE yields separation gains on two synthetic benchmarks and larger gains on recorded meetings, and keeps its advantage on excerpts with more speakers than the fine-tuning mixtures. In personalized P.835 listening tests on two meeting corpora, it improves overall quality over this extractor by 0.57 and 0.63 MOS, with similar mean rating relative to the starting model. Preservation and rejection tests show that it keeps the target intact when no competing voice is present and suppresses competing speech when the target is absent.",
+  "published": "2026-09-24T23:36:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.228956+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T23:36:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30631v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.562419+00:00"
+}

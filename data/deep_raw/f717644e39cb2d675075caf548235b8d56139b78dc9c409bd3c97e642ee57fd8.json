@@ -1,0 +1,22 @@
+{
+  "id": "f717644e39cb2d675075caf548235b8d56139b78dc9c409bd3c97e642ee57fd8",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "XDecomposer: Learning Prior-Free Set Decomposition for Multiphase X-ray Diffraction",
+  "url": "https://arxiv.org/abs/2605.05866",
+  "summary": "arXiv:2605.05866v2 Announce Type: replace-cross Abstract: Multiphase powder X-ray diffraction (PXRD) analysis remains a fundamental bottleneck in structure identification, as real-world synthesis often produces complex mixtures whose constituent phases (components) cannot be reliably disentangled. While recent advances in representation-based crystal retrieval and generation suggest the possibility of inferring structures directly from PXRD, existing approaches largely assume single-phase inputs and break down in multiphase settings. Here, we present XDecomposer, a prior-free framework for joint decomposition and identification of multiphase XRD patterns without requiring candidate phase lists, structural templates, or prior knowledge of phase number. We formulate multiphase diffraction analysis as a set prediction problem, where the model infers an unordered set of phase-resolved components, their mixture proportions, and corresponding structural representations within a unified architecture. A phase-query-driven decomposition mechanism, together with diffraction-consistent physical reconstruction, enables accurate source separation while preserving crystallographic fidelity. Extensive experiments on both simulated and experimental datasets show that XDecomposer substantially improves reconstruction accuracy and phase identification across diverse chemical systems, while maintaining strong generalization to unseen mixtures. These results provide a practical route toward data-driven, source-resolved multiphase XRD analysis and reduce long-standing dependence on prior-guided iteratively phase matching. The code is openly available at https://github.com/Licht0812/XDecomposer",
+  "published": "2026-05-07T08:33:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.129457+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:25:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.05866v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.338747+00:00"
+}

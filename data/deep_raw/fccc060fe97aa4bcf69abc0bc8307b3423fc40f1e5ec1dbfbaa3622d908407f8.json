@@ -1,0 +1,22 @@
+{
+  "id": "fccc060fe97aa4bcf69abc0bc8307b3423fc40f1e5ec1dbfbaa3622d908407f8",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Attention from Above: A Multimodal Model for Drone-Based Object Localization",
+  "url": "https://arxiv.org/abs/2607.17669",
+  "summary": "arXiv:2607.17669v2 Announce Type: replace Abstract: Drone-based object detection technology has advanced rapidly, becoming increasingly sophisticated and efficient. Recently, research trends have expanded beyond the detection of predefined objects toward the identification of specified target objects. For example, desired targets can be specified through textual prompts, enabling accurate detection of objects of interest. To address this demand, this paper proposes an efficient multimodal-based object detection model aimed at improving small object detection performance. The proposed method is built upon the YOLO-World framework and replaces the C2f layers used in the YOLOv8 backbone with attention-based A2C2f layers. This modification enables more precise representation of local features, particularly for small objects or objects with well-defined boundaries. In addition, the incorporation of attention mechanisms and parallel processing structures significantly enhances the model's computational accuracy. Comparative experiments conducted on the VisDrone dataset demonstrate that the proposed model outperforms the original YOLO-World model. Specifically, precision increases from 43.0% to 45.1%, recall from 32.8% to 35.0%, the F1 score from 37.2% to 39.4%, mAP@0.5 from 32.5% to 35.2%, and mAP@0.5-0.95 from 18.5% to 19.9%, confirming a substantial improvement in detection accuracy. These results verify that the proposed approach provides an effective and highly accurate solution for object detection in drone-based image and video application environments.",
+  "published": "2026-07-20T08:21:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.544368+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:44:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.17669v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.585598+00:00"
+}

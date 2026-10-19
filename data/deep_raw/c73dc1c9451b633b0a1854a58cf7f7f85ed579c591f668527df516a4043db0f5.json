@@ -1,0 +1,21 @@
+{
+  "id": "c73dc1c9451b633b0a1854a58cf7f7f85ed579c591f668527df516a4043db0f5",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MemMux: Runtime Verification and Honest Resource Attribution for Fleets of Parallel Coding Agents",
+  "url": "https://arxiv.org/abs/2610.07257",
+  "summary": "arXiv:2610.07257v1 Announce Type: new Abstract: Developers increasingly run a fleet of coding agents side by side on one workstation. The tools they reach for, terminal multiplexers like tmux and a new generation of agent managers, were built to arrange windows, not to govern memory. When ten agents each spawn language servers, test runners, and browsers, no standard tool can say how much memory belongs to which agent, confirm that a terminated agent's descendants are gone, notice a child that has escaped its agent, or keep the machine off the swap cliff when an OOM kill would silently discard uncommitted work. We treat these as runtime-verification problems: an agent-hosting substrate should continuously emit observable signals an operator or auditor can check while agents run. We present MemMux, a local runtime that turns resource governance into checkable signals (per-agent attribution, complete reclamation, escaped-process visibility, bounded footprint under overcommit, and monitoring overhead), with a claims-disciplined benchmark against tmux, a purpose-built agent multiplexer, and a raw-process baseline on identical workloads. Under a binding memory budget on a Linux host, MemMux keeps the fleet under budget (7.5 GiB) with zero swap by admitting a subset and reclaiming under pressure, while the ungoverned tools run every agent, pin the machine at its RAM ceiling (2x over budget), and spill about 2 GiB into swap. MemMux reclaims 100% of a terminated agent's process subtree where the raw baseline strands half of it, and it alone surfaces escaped children (10 of 10 detected). We report the cost: the 1 Hz attribution scan runs near 0.6% CPU at one agent but 2.7% at ten, above our 2% target. Running the harness on real Claude Code sessions shows 100% attribution and low overhead carry over to live agent trees. We release the engine, benchmark, and a one-command reproducer.",
+  "published": "2026-10-05T18:56:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.126828+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:56:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07257v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.950980+00:00"
+}

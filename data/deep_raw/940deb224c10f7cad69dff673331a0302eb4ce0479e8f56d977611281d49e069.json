@@ -1,0 +1,21 @@
+{
+  "id": "940deb224c10f7cad69dff673331a0302eb4ce0479e8f56d977611281d49e069",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "RoboAug: One Annotation to Hundreds of Scenes via Region-Contrastive Data Augmentation for Robotic Manipulation",
+  "url": "https://arxiv.org/abs/2602.14032",
+  "summary": "arXiv:2602.14032v2 Announce Type: replace Abstract: Enhancing the generalization of robotic learning in diverse unseen environments remains a fundamental challenge. Existing approaches often rely on large-scale pretraining, which is labor-intensive and time-consuming, or semantic data augmentation methods that assume flawless upstream object detection in real-world scenarios. In this work, we propose RoboAug, a novel generative data augmentation framework that reduces reliance on large-scale pretraining and perfect visual recognition by requiring only a single image with bounding box annotations for dataset construction. Leveraging this minimal supervision, RoboAug employs pretrained generative models for precise semantic augmentation and introduces a plug-and-play region-contrastive loss to guide attention toward task-relevant regions, thereby enhancing generalization and task success rates. Extensive real-world experiments on UR-5e, AgileX, and Tian Gong 2.0 demonstrate that RoboAug consistently outperforms state-of-the-art augmentation baselines under background, distractor, and lighting shifts. Our project is available at https://x-roboaug.github.io/.",
+  "published": "2026-02-15T07:40:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.758532+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:38:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.14032v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.824659+00:00"
+}

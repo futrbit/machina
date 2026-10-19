@@ -1,0 +1,21 @@
+{
+  "id": "e9273f10553f762427f5f8fadb0163902866dcadf84b33719698b5687cd59a46",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "X-OPM: Explainable Automatic Digital On-Chip Power Modeling for Enhanced Robustness",
+  "url": "https://arxiv.org/abs/2610.08502",
+  "summary": "arXiv:2610.08502v1 Announce Type: cross Abstract: Proactive power management systems reduce processor dynamic power through runtime power prediction and power-aware scheduling. Accurate, stable and low-overhead digital on-chip power meters (OPMs) are crucial for improving the prediction quality. Recent studies have explored various modeling methods, including using linear models, decision trees, and multi-layer perceptrons (MLPs) to construct OPMs. However, most current approaches train models end-to-end without analyzing the physical interpretability of features, affecting their ability to generalize to unseen workloads. Grounded in the design principles of synchronous digital VLSI circuits, X-OPM introduces a robust feature engineering framework that uses tree-based models to capture feature interactions and linear models for prediction. It also incorporates a human-in-the-loop workflow to balance model accuracy against modeling effort. Evaluated on a commercial C906 vector processor, X-OPM consistently achieves $R^2 > 0.93$ across all workloads with sampling window size set below $8$ cycles. In contrast, state-of-the-art methods including APOLLO, COBIT, and standard MLPs fail to generalize across all test cases. Layout with commercial EDA tools shows that X-OPM incurs an area overhead below $0.1\\%$, which is on par with lightweight tree-based and linear models, and significantly smaller than MLP-based models.",
+  "published": "2026-10-06T15:09:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.176798+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:09:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08502v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.832859+00:00"
+}

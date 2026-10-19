@@ -1,0 +1,18 @@
+{
+  "id": "77caef92ac7ce96049211e055a066a03c351d27cad84dfd4771270b9b70d3afb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "What is causal about causal models and representations?",
+  "url": "https://arxiv.org/abs/2501.19335",
+  "summary": "arXiv:2501.19335v3 Announce Type: replace-cross Abstract: Causal Bayesian networks are often described as causal because they support reasoning about interventions. Yet interventions are defined in the mathematical model, whereas the resulting model predictions concern the effects of actions in the real world. Consequently, whether and how a causal model makes falsifiable predictions about the effects of actions depends on how actions are interpreted as interventions. This requires specifying which actions correspond to which interventions, a step that is frequently left implicit. We develop a formal framework that separates a causal model from the data-generating process it aims to describe and formalizes interpretations connecting actions to interventions. Within this framework, we prove an impossibility result: no interpretation can simultaneously satisfy a collection of desirable properties while remaining non-circular. Under a circular interpretation, every model that fits the observational distribution is interventionally valid, so no experiment can falsify it. We analyze several non-circular alternatives and discuss implications for falsification, causal discovery, causal representation learning, and causal abstraction. More broadly, our framework provides a way to make assumptions about the connections between actions and interventions explicit and to reason formally about the empirical content of causal models.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.278701+00:00"
+}

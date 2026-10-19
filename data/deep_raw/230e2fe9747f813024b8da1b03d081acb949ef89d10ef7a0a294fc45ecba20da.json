@@ -1,0 +1,22 @@
+{
+  "id": "230e2fe9747f813024b8da1b03d081acb949ef89d10ef7a0a294fc45ecba20da",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Score-Based Learning of Cluster DAGs from Interventions",
+  "url": "https://arxiv.org/abs/2610.11947",
+  "summary": "arXiv:2610.11947v1 Announce Type: cross Abstract: Graphical approaches to causal abstraction transform a low-level causal directed acyclic graph (DAG) over many measured variables into a smaller, high-level DAG whose nodes cluster the original variables and whose edges summarize the causal relations between clusters. Such cluster DAGs are easier to interpret, but learning them requires finding the clusters and recovering the edges between them. Madaleno et al. (2026) learn the interventional coarsening (the cluster DAG that merges variables the interventions cannot distinguish) in two constraint-based phases: first the clusters, then the edges. We introduce COARSE, the first score-based method for this task: it keeps the two-phase structure but, under linear Gaussian assumptions, swaps the constraint-based edge phase for a score-based one. We show that the interventions themselves identify a causal order over the clusters, and learning the edges reduces to a single local search per cluster under a cluster-level BIC score. We prove that the procedure runs in polynomial time and, provided the variables affected by each intervention are correctly identified, that it is consistent. On synthetic and real-world interventional data, COARSE matches state-of-the-art edge recovery given enough samples, with an edge phase up to two orders of magnitude faster, including on dense graphs with hundreds of nodes.",
+  "published": "2026-10-08T13:35:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.113416+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:35:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11947v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.181253+00:00"
+}

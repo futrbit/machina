@@ -1,0 +1,22 @@
+{
+  "id": "4aaaebf2eb6e0d0ee3fed626dda70675eaeb1ecc035f91dd01636e4520f4c67c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "HarnessIR: Harnessing Multimodal Foundation Models for Universal Real-World Image Restoration",
+  "url": "https://arxiv.org/abs/2610.10133",
+  "summary": "arXiv:2610.10133v2 Announce Type: replace Abstract: Real-world low-quality images suffer from complex mixed degradations, including but not limited to noise, blur, atmospheric effects, etc. Recent agentic methods usually model real-world image restoration (Real-IR) as a sequential tool calling problem over task-specific single-degradation restoration models. This paradigm, however, is fundamentally limited because complex real-world degradations cannot be cleanly undone degradation by degradation, and the tool used for task-specific models caps the capability of the agent system. In this work, we present HarnessIR, an agentic framework for Real-IR by harnessing a multimodal foundation model (MFM) as the executor. HarnessIR consists of five stages: perception and diagnosis, on-demand tool invocation, prompt composition, execution, and verification-driven refinement. Unlike prior agentic Real-IR methods that rely on tool chains assembled from task-specific models, HarnessIR feeds the restoration requirements, the perceptual diagnosis, and the evidence into an MFM that performs restoration in a single pass, followed by verification stages to determine whether the result warrants further processing. Under our harness, off-the-shelf MFMs handle restoration tasks remarkably well, achieving state-of-the-art results on the widely used MiO100 synthetic benchmark. More importantly, by exploiting the strong generalization ability of MFMs, HarnessIR delivers compelling restoration quality on challenging real-world scenes where previous agentic IR systems often struggle. Codes is available at https://github.com/PolyU-VCLab/HarnessIR.",
+  "published": "2026-10-07T14:14:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.793023+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T05:35:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10133v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.315568+00:00"
+}

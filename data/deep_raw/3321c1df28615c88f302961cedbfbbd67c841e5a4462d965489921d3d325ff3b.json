@@ -1,0 +1,21 @@
+{
+  "id": "3321c1df28615c88f302961cedbfbbd67c841e5a4462d965489921d3d325ff3b",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
+  "url": "https://arxiv.org/abs/2610.12424",
+  "summary": "arXiv:2610.12424v1 Announce Type: new Abstract: A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before it is reused. We introduce RoboRSI, a robot self-improvement system built on Top-Down Skill Refinement (TSR). TSR decomposes tasks into compound, atomic, and base skills with scoped responsibilities and explicit input--output contracts, attributes each execution outcome to the responsible branch, and confines revision to that branch. Building upon this structure, a Manager, Planner, Engineer, and Reviewer coordinate planning, execution, diagnosis, and the validated release of new skills, while people steer the process through objectives and corrections; stable skill sequences are further consolidated into reusable compound skills. On a mobile manipulator, RoboRSI develops multi-object household cleanup over 104 rounds. In simulation, it achieves the highest success rate on LIBERO, LIBERO-PRO, LIBERO-Plus, and RoboTwin, exceeding the strongest baseline by 2.7 to 11.0 percentage points.",
+  "published": "2026-10-08T17:55:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.750536+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:55:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12424v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.487068+00:00"
+}

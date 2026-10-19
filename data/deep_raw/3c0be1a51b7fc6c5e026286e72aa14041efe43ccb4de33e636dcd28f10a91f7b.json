@@ -1,0 +1,18 @@
+{
+  "id": "3c0be1a51b7fc6c5e026286e72aa14041efe43ccb4de33e636dcd28f10a91f7b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Training-Induced Escape from Token Clustering in a Mean-Field Formulation of Transformers",
+  "url": "https://arxiv.org/abs/2605.07772",
+  "summary": "arXiv:2605.07772v2 Announce Type: replace Abstract: Transformers perform inference by iteratively transforming token representations across layers. This layerwise computation has been studied empirically, and recent mean-field theories of Transformer dynamics explain how attention can drive token distributions toward clustering. However, existing analyses treat model parameters as prescribed, leaving open how training reshapes this clustering picture. We study this question in a noisy mean-field Transformer in which only a parameter-linear FFN is trained under $L^2$ regularization. We identify a training-induced phase of the inference dynamics across layers: after clustering in the early layers, the token distribution can leave the clustered regime near the final layers. A single gradient-descent update already produces this escape, and minimizers of the training objective satisfy an exponential turnpike bound under which clustering persists through the interior layers. Our analysis is based on an entropy-regularized interaction energy that captures the clustering bias of attention, for which we establish a double-well landscape and a local Polyak-{\\L}ojasiewicz inequality. More broadly, our results point toward a training-aware mean-field theory in which training and inference dynamics of Transformers are treated together.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.262712+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "884599655ebd819437bad07cb595676f756f2727f7d8d525dad1b8da3cfbdaa9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Softmax Attention on Gaussian Mixtures: Linear When It Can, Selective When It Must",
+  "url": "https://arxiv.org/abs/2610.11798",
+  "summary": "arXiv:2610.11798v1 Announce Type: cross Abstract: Softmax attention, at the heart of Transformers, has demonstrated remarkable capabilities. Yet its underlying mechanisms remain only partially understood. Recent theoretical work studies Gaussian prompts, where the infinite-prompt limit reduces softmax attention to a linear map, but also removes the query-dependent selection that distinguishes it from linear attention. This work studies the infinite-prompt limit of softmax attention on Gaussian mixtures, which retain the tractability of Gaussian data while introducing latent structure, multimodality, and nonlinear dependencies. We show that softmax attention can represent and learn, via gradient-based methods, optimal solutions to a range of statistical tasks, including supervised classification and denoising. Our results highlight two complementary capabilities of softmax attention: it can recover linear tasks as effectively as its simpler linear counterpart, while also exploiting query-dependent context selection to solve nonlinear tasks beyond the reach of linear attention.",
+  "published": "2026-10-08T12:09:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.112416+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:09:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11798v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.620782+00:00"
+}

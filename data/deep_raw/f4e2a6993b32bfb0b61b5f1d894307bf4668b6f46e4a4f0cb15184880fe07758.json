@@ -1,0 +1,22 @@
+{
+  "id": "f4e2a6993b32bfb0b61b5f1d894307bf4668b6f46e4a4f0cb15184880fe07758",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Local Superior Soups: A Catalyst for Model Merging in Cross-Silo Federated Learning",
+  "url": "https://arxiv.org/abs/2410.23660",
+  "summary": "arXiv:2410.23660v2 Announce Type: replace Abstract: Federated learning (FL) is a learning paradigm that enables collaborative training of models using decentralized data. Recently, the utilization of pre-trained weight initialization in FL has been demonstrated to effectively improve model performance. However, the evolving complexity of current pre-trained models, characterized by a substantial increase in parameters, markedly intensifies the challenges associated with communication rounds required for their adaptation to FL. To address these communication cost issues and increase the performance of pre-trained model adaptation in FL, we propose an innovative model interpolation-based local training technique called ``Local Superior Soups.'' Our method enhances local training across different clients, encouraging the exploration of a connected low-loss basin within a few communication rounds through regularized model interpolation. This approach acts as a catalyst for the seamless adaptation of pre-trained models in in FL. We demonstrated its effectiveness and efficiency across diverse widely-used FL datasets. Our code is available at https://github.com/ubc-tea/Local-Superior-Soups.",
+  "published": "2024-10-31T06:20:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.826476+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T07:01:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2410.23660v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.491654+00:00"
+}

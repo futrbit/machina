@@ -1,0 +1,22 @@
+{
+  "id": "4f7f03a96d100326d61bd728d5131d1d3cab8315ac7f6084c03a3e889b8ad524",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Distillation of Tabular Foundation Models into Efficient Predictors",
+  "url": "https://arxiv.org/abs/2610.01435",
+  "summary": "arXiv:2610.01435v1 Announce Type: new Abstract: Tabular foundation models (TFMs) achieve strong predictive performance through in-context learning, yet repeatedly conditioning on labeled data makes inference expensive. Knowledge distillation can reduce this cost by transferring their predictive ability to lightweight, dataset-specific students. However, the dependence of TFM predictions on both a labeled context and a query introduces two design questions: how to construct teacher supervision and whether expanding query coverage improves distillation. We examine these questions across two TFMs and both neural and tree-based students, and derive an effective distillation recipe. The recipe uses the full labeled training set as teacher context and trains students solely on teacher predictions for observed and synthetic queries. On TabArena, the resulting students outperform their supervised trained tuned-and-ensembled counterparts by 57-98 Elo points. Applied unchanged to TALENT, the same recipe improves matched default students on 236-258 of 300 datasets and reduces median primary error by 4.0-6.4%. The distilled students also achieve median inference speedups of 3.0-21.6 times over their teachers, offering a practical trade-off between predictive performance and repeated inference cost. Code is available at https://github.com/nums-ai/TFM_Distillation .",
+  "published": "2026-10-01T10:31:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.791497+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T10:31:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01435v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.477471+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "daa74ed3ab25f1f2ea43e1486caa142f44f075efcd0d9da1f258e621c6a6fa51",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Learning to Retrieve: Internalizing Memory Retrieval for Video World Models",
+  "url": "https://arxiv.org/abs/2610.11444",
+  "summary": "arXiv:2610.11444v1 Announce Type: new Abstract: Video world models aim to generate explorable, 3D-consistent scene videos conditioned on camera trajectories. Existing approaches often rely on external memory systems that explicitly retrieve previously observed content to mitigate scene drift during long-horizon generation. However, these auxiliary memory pathways operate outside the model's internal generative dynamics, preventing the model from intrinsically learning when and what historical information should be retrieved. We propose to internalize memory retrieval into the generation process, allowing retrieval to emerge as an intrinsic behavior of the video world model rather than relying on an external memory system. Based on this principle, we introduce \\textbf{Learning-to-Retrieve (L2R)}, which repurposes the model's persistent internal state as a memory for historical context. A camera-conditioned retrieval gate selectively accesses relevant historical information from this state, determining \\textit{what to retrieve}, while a retrieval trigger determines \\textit{when to retrieve}. We further supervise the trigger with a 3D re-visibility signal, activating retrieval when previously observed content re-enters the current view while otherwise preserving the existing context. Together, these components enable the model to intrinsically acquire memory retrieval behavior and incorporate relevant historical observations into generation without a separate retrieval pathway. Across multiple base models and camera-revisit benchmarks, L2R improves long-term scene consistency while eliminating the need for an external memory bank or 3D conditions. https://jkhu29.github.io/l2r",
+  "published": "2026-10-08T08:01:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.747051+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:01:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11444v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.196831+00:00"
+}

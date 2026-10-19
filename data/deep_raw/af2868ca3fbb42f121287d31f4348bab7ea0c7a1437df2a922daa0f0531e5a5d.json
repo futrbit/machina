@@ -1,0 +1,18 @@
+{
+  "id": "af2868ca3fbb42f121287d31f4348bab7ea0c7a1437df2a922daa0f0531e5a5d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Variational and Decomposed method for Mitigating Bimodal Bias in Robust Visual Question Answering",
+  "url": "https://arxiv.org/abs/2610.22845",
+  "summary": "arXiv:2610.22845v1 Announce Type: new Abstract: Visual question answering (VQA) models are known to suffer from the bias issue, which refers to overfitting the regularities of frequent patterns. Previously, researchers only consider the language bias. Recently, the multimodal bias is noticed. However, what multimodal bias is remains unclear. In this paper, we investigate the multimodal bias in counting and non-counting questions. We find that they have distinct underlying mechanism, so their biases come from distinct reasons. We provide valuable interpretations of VQA counting mechanism: \\textbf{quantity information stems from the magnitude of the multimodal features in specific dimensions.} Thus, counting bias stems from the vision side and propagates to multimodal features through modality fusion, while the non-counting bias stems from primarily language bias and slightly vision bias. Thus, we propose a method to deal with them differently: Variational and Decomposed method for mitigating Bimodal Bias (VDB). It extracts bimodal bias affected by different proportion of vision and language sides. We introduce variational bias models utilizing the principle of Variational Auto-Encoder to learn mainly language bias with slight vision effect, and a bimodal bias model for bimodal bias combining language and vision sides. Extensive experiments on VQACPv2, VQACPv1, and GQAOOD datasets demonstrate the rationality of our claim and the effectiveness of our method. We also provide explanation for the compromised performance on VQAv2.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.039095+00:00"
+}

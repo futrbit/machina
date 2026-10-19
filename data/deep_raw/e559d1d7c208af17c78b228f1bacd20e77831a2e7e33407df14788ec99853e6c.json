@@ -1,0 +1,22 @@
+{
+  "id": "e559d1d7c208af17c78b228f1bacd20e77831a2e7e33407df14788ec99853e6c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RW-Flow: One-Step Generation on Compact Manifolds via Wasserstein Gradient Flows",
+  "url": "https://arxiv.org/abs/2609.39271",
+  "summary": "arXiv:2609.39271v2 Announce Type: replace Abstract: Manifold-valued data, and consequently the distributions they induce, are prevalent across many domains, ranging from the locations of geospatial events, such as earthquakes, to biomolecular torsion angles that encode information about three-dimensional structure. While diffusion and flow-based generative models have been successfully extended to compact manifolds, sampling typically requires tens or hundreds of sequential network evaluations. We introduce RW-Flow, a theoretically grounded framework for learning one-step generative models on compact manifolds via Wasserstein gradient flows. The main challenge is identifiability: driving the velocity field to zero should guarantee that the model distribution matches the target distribution. We establish a necessary and sufficient condition for identifiability on compact, connected Riemannian manifolds. We specifically show that, for a symmetric, Lipschitz-continuous cost function, the velocity field induced by the Sinkhorn divergence is identifiable if and only if the associated Gibbs kernel is nondegenerate. This characterization provides a general principle for designing identifiable costs on compact manifolds. It also reveals that the squared geodesic distance, the natural manifold analogue of the squared Euclidean distance, does not always guarantee identifiability. Across benchmarks involving geospatial events, protein side chain torsion angles, RNA backbone torsion angles, and general manifolds discretized as triangular meshes, RW-Flow outperforms existing one-step methods in nearly all settings under fair comparison conditions.",
+  "published": "2026-09-30T08:24:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.839468+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T04:57:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.39271v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.309764+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "24695325d716805c9eea341d29a4a669b066d3f7a0b7595fe606c44205180f99",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "CytoSPM: Open-Vocabulary Cytopathology Detection with Structured Prompt Bank",
+  "url": "https://arxiv.org/abs/2609.31314",
+  "summary": "arXiv:2609.31314v1 Announce Type: new Abstract: Cytopathology detection requires open-vocabulary recognition because cellular categories are fine-grained, long-tailed, and continuously evolving across different organ systems. However, existing cytology detectors are mostly single-domain and closed-set, and there is still no unified benchmark for evaluating open-vocabulary cytopathology detection. We present PentaCyto, a multi-domain benchmark covering cervical, urinary, respiratory, serous fluid, and thyroid cytology, with 24 base categories and 9 held-out novel categories. Each category is associated with structured cytomorphology prompts that describe diagnostic morphological attributes and provide clinically grounded textual knowledge. We further propose CytoSPM, an efficient detector based on a decoupled two-stage design. It first extracts reusable class-agnostic visual representations, and then performs class-aware structural prompt matching with class names and cytomorphology prompts. On PentaCyto, CytoSPM outperforms existing methods in novel-category detection and open-vocabulary detection while maintaining efficient inference.",
+  "published": "2026-09-25T14:21:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.226461+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T14:21:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31314v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.206238+00:00"
+}

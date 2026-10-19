@@ -1,0 +1,22 @@
+{
+  "id": "72206f8cae9877a1d275c3d4504c7721a99351579d9cc30b072fae2d06bf144a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "TaskIR: Task-Driven Image Restoration via Degradation Adaptation and Task Feedback",
+  "url": "https://arxiv.org/abs/2609.31170",
+  "summary": "arXiv:2609.31170v1 Announce Type: new Abstract: Task-driven image restoration aims to improve both image quality and downstream task performance. However, existing methods predominantly focus on single degradation type and struggle to handle the diverse degradations encountered in real-world scenarios. Different degradations impose distinct restoration demands, and insufficient restoration may leave residual degradations and artifacts that impair object boundaries and semantic cues, thereby compromising downstream task performance. To address these challenges, we propose TaskIR, a two-stage task-driven unified image restoration framework that integrates degradation-adaptive restoration with task feedback refinement. In Stage I, a Degradation Representation Module (DRM) extracts degradation representations, enabling a Degradation-Guided Transformer Block (DGTB) to dynamically modulate feature transformations for adaptive restoration. In Stage II, a Task-to-Restoration Feedback Generation module (TRFG) transforms heterogeneous task features into restoration feedback by modeling task-representation discrepancies associated with the current restoration. Subsequently, a Selective Task Feedback Refinement module (STFR) assesses feedback relevance and selectively refines intermediate restoration features to mitigate interference with well-restored content. Extensive experiments demonstrate that TaskIR achieves competitive restoration quality and downstream task performance across diverse degradations and tasks.",
+  "published": "2026-09-25T12:02:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.225054+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-29T12:46:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31170v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.142070+00:00"
+}

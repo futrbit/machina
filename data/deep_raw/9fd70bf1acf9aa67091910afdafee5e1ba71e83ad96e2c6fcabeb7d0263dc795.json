@@ -1,0 +1,21 @@
+{
+  "id": "9fd70bf1acf9aa67091910afdafee5e1ba71e83ad96e2c6fcabeb7d0263dc795",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "LACE-CRAFT: Robot Co-Design with Actor Inheritance and Blackboard Collaboration",
+  "url": "https://arxiv.org/abs/2610.09283",
+  "summary": "arXiv:2610.09283v2 Announce Type: replace Abstract: Robot co-design couples morphology search with policy learning, yet training every new design from scratch discards acquired control experience. We present LACE-CRAFT, which compares continued learning on the current robot with policy adaptation to new morphology-reward pairs. LACE resumes the incumbent's full learning state and initializes compatible challengers with its actor parameters and observation statistics. A fixed task metric selects among both branches and the frozen incumbent. CRAFT coordinates Feedback, Morphology, Reward, and Integration roles through shared experimental records and behavioral replays to generate and cross-review paired proposals. A generative extension converts generated meshes into editable articulated models with configured joints, actuator interfaces, and consistently updated simulation assets. Across five locomotion benchmarks, mean scores over three evaluation seeds are 6.4-91.9% higher than D2C. Both methods train 30 new morphology-reward pairs over five rounds; LACE additionally uses four continuation training units. Five-task ablations examine policy inheritance and replay-derived feedback. A fabricated prototype demonstrates indoor walking and illustrates the geometry-to-hardware workflow.",
+  "published": "2026-10-07T01:31:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.766527+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:41:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.09283v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.096495+00:00"
+}

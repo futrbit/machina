@@ -1,0 +1,21 @@
+{
+  "id": "191359e67114f6678cf0a44e7cd00e1552be6b75d0907bb77df20d4a4497399f",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Masked Generative Motion Planning with Geometry-Guided Token Search",
+  "url": "https://arxiv.org/abs/2610.10646",
+  "summary": "arXiv:2610.10646v1 Announce Type: new Abstract: Generative motion planners typically use learned trajectory priors for initial generation, while leaving test-time repair to local continuous refinement. We introduce Masked Generative Motion Planning (MGMP), which extends the learned prior from efficient parallel generation to structural repair. A masked generative transformer generates discrete trajectory candidates in parallel, and Geometry-Guided Token Search (GGTS) uses scene geometry to target where to edit and which prior-supported alternatives to evaluate. This turns refinement into an efficient search over discrete motion alternatives, enabling route-level restructuring beyond local trajectory deformation. MGMP achieves 96% success on Ring Maze and 82% repair success on Controlled Route Invalidation on Kuka, exceeding the strongest external baselines by 23 and 25 percentage points, respectively. It further generalizes to unseen layouts, additional obstacles, unseen geometries, single- and dual-arm planning, and real-world Baxter tasks.",
+  "published": "2026-10-07T15:19:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.731548+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T15:19:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10646v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.900815+00:00"
+}

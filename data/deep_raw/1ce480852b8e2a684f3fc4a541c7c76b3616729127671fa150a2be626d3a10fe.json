@@ -1,0 +1,22 @@
+{
+  "id": "1ce480852b8e2a684f3fc4a541c7c76b3616729127671fa150a2be626d3a10fe",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SOL: Measuring Gaps between Text Distributions by Double Sliced Wasserstein Metrics",
+  "url": "https://arxiv.org/abs/2610.06513",
+  "summary": "arXiv:2610.06513v2 Announce Type: replace-cross Abstract: Evaluating text generation requires measuring how well the generated distribution matches the data distribution. For autoregressive models, this is done by the perplexity. Diffusion and flow-based language models can only provide a likelihood bound, whose tightness differs between model families. Sample-based substitutes such as generative perplexity with entropy do not consider the distribution fit. We propose SOL, a distance between text distributions. Each sequence is represented by the empirical measure of its hidden states under a fixed transformer and the distributions of these measures are compared by the double sliced Wasserstein distance. We prove that SOL is a metric if the transformer is injective. Experiments show that SOL detects distributional failures, recovers expected model trends, and provides stable sample-based estimates. We put forward SOL to fill the gap in the current evaluation protocol used for non auto-regressive models. As a first step we use SOL to re-evaluate a variety of models trained on OpenWebText.",
+  "published": "2026-10-05T15:29:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.141396+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:22:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06513v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.990760+00:00"
+}

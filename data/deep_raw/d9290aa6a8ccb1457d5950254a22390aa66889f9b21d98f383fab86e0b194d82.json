@@ -1,0 +1,21 @@
+{
+  "id": "d9290aa6a8ccb1457d5950254a22390aa66889f9b21d98f383fab86e0b194d82",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Evaluating Exact Output and Checkpoint-State Prediction in Real Programs",
+  "url": "https://arxiv.org/abs/2610.11889",
+  "summary": "arXiv:2610.11889v1 Announce Type: cross Abstract: We present a benchmark for predicting final output and checkpoint state from source and input alone. It extends CRUXEval-style output prediction with paired shorter- and longer-trace inputs and checkpoints inside and after a loop. The benchmark contains 400 cases from 371 Python and C++ programs, evaluated under seven settings from four model families without tools or code execution. Of 11,200 planned predictions, 11,151 produced gradable responses. Reasoning-enabled settings outperform their off counterparts by 33.1 to 55.2 percentage points on completed responses. The strongest setting scores 93.0% on shorter-trace final output, 77.0% on longer-trace final output, and 65.5% and 63.5% on the two state tasks; these scores also hold when missing responses count as wrong. Across 2,397 matched Python comparisons with identical source, changing to the longer-trace input yields 528 correct-to-wrong changes and 147 reversals. Source-clustered analyses preserve this accuracy gap, while adjusted Python models give no evidence of a positive incremental association between cumulative state load and error. Changed inputs and checkpoint tasks alter several factors together, so the gaps do not isolate trace length or an internal state-tracking mechanism. The benchmark exposes errors hidden by short-output scores alone.",
+  "published": "2026-10-08T12:59:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.397371+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:59:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11889v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.177843+00:00"
+}

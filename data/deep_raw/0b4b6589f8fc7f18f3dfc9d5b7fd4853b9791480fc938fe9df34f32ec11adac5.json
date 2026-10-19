@@ -1,0 +1,18 @@
+{
+  "id": "0b4b6589f8fc7f18f3dfc9d5b7fd4853b9791480fc938fe9df34f32ec11adac5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "TALLOP: Joint Optimization of Local Training and Communication Compression for Time-Constrained Federated Learning",
+  "url": "https://arxiv.org/abs/2610.22996",
+  "summary": "arXiv:2610.22996v1 Announce Type: new Abstract: Minimizing the wall-clock time required to reach a target accuracy is crucial in federated learning (FL), where many applications require frequent model updates as data distributions evolve over time. Nevertheless, in heterogeneous environments, slow clients with limited computational and communication capabilities can delay global synchronization, forcing faster clients to wait and increasing the overall training time. To mitigate this straggler effect, recent studies have introduced per-round time constraints and adapted client workloads within the available time. However, these approaches primarily focus on local computation, whereas communication can become a major bottleneck in communication-limited environments, motivating the joint optimization of training workload and communication compression. Although previous studies have explored such joint optimization, determining an effective training--communication balance under a fixed per-round time budget remains challenging, as the resulting model performance depends on both training progress and compression-induced degradation. We therefore propose TALLOP, which jointly optimizes the local training workload and communication compression under per-round time constraints. TALLOP predicts the training loss achievable under different computation budgets from the early-stage mini-batch loss trajectory (LENS), and estimates the degradation caused by communication compression using a compression-error model (CLEN). TALLOP combines these predictions to select the training-communication allocation that minimizes the post-compression loss under the given round time constraint. Experiments in heterogeneous FL environments show that TALLOP generally achieves competitive or improved time-to-accuracy compared with approaches that optimize only local training or neither, although the benefit over training-only adaptation depends on the setting.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.200749+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "6347ed413583295d5c6da430098dd74b20e3c0f51ba6903e7e788ab0a7342042",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Uncertainty-aware AI-enabled framework for predicting hydrogen dispersion in confined spaces to enhance operator situational awareness",
+  "url": "https://arxiv.org/abs/2610.23515",
+  "summary": "arXiv:2610.23515v1 Announce Type: new Abstract: We present a two-stage AI-enabled framework for enhancing operator situational awareness during compressed hydrogen bunkering in maritime confined spaces. In the event of a leak, the framework first estimates the unknown leakage rate from early sensor readings and then forecasts how the hydrogen cloud will disperse over the next time steps, providing operators with a predicted concentration map together with confidence bounds. The framework is based on two independent AI models building one AI system. The AI system is designed as a decision-support tool. It augments sensor readings, and thus enhances operator situational awareness and supports decision-making. This enables preventive safety barriers to be deployed before hazardous concentrations are reached, while an independent emergency shutdown system remains the ultimate safety layer. The system design incorporates safeguards to ensure the AI system operates within its competence envelope. Trained and tested on an open dataset of confined-space hydrogen releases, the framework achieves a mean absolute error of $0.052$~g/s in leakage-rate estimation and $\\approx0.018$ in hydrogen-concentration prediction, approaching the sensor precision bound of $\\pm0.01$. The hydrogen-concentration prediction provides well-calibrated uncertainty estimates that allow operators to judge the reliability of each forecast. These results suggest that the framework may provide early information about hazardous concentration build-up, potentially supporting preventive actions by operators.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.206746+00:00"
+}

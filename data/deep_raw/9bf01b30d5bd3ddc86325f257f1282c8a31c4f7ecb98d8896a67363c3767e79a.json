@@ -1,0 +1,21 @@
+{
+  "id": "9bf01b30d5bd3ddc86325f257f1282c8a31c4f7ecb98d8896a67363c3767e79a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Learning to Configure Agentic AI Systems",
+  "url": "https://arxiv.org/abs/2602.11574",
+  "summary": "arXiv:2602.11574v5 Announce Type: replace Abstract: Configuring LLM-based agent systems involves choosing workflows, tools, token budgets, and prompts from a large combinatorial design space, and is typically handled today by fixed templates or hand-tuned heuristics that apply the same configuration regardless of query difficulty, leading to brittle behavior and wasted compute. To address this, we formulate agent configuration as a semi-Markov decision process (SMDP) where each configuration acts as a temporally extended option that determines how an agent system processes a query, and introduce introduce ARC (Agentic Resource & Configuration learner), a lightweight hierarchical policy that dynamically selects query-specific agent configurations. Across reasoning, tool-use, and agentic benchmarks, ARC consistently improves over budget-matched tool-augmented LLMs, increasing average reasoning accuracy by 31.3%, tool-use accuracy by 13.95%, and doubling {\\tau}-Bench (Airline) Pass^1 success from 9.0% to 18.0%. These results demonstrate that learning per-query agent configurations is a powerful alternative to \"one size fits all\" designs.",
+  "published": "2026-02-12T04:45:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.181795+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:32:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.11574v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.998554+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "0b6b8a529c7a596cb8fb6e530f5fc2e17ff646dff67946f25eca818c6a33c275",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DDL: A Large-Scale Dataset for Deepfake Detection and Localization in Diversified Real-World Scenarios",
+  "url": "https://arxiv.org/abs/2506.23292",
+  "summary": "arXiv:2506.23292v3 Announce Type: replace Abstract: Recent advances in AIGC have exacerbated the misuse of malicious deepfake content, making the development of reliable deepfake detection methods an essential means to address this challenge. Although existing deepfake detection models demonstrate outstanding performance in detection metrics, most methods only provide simple binary classification results, lacking interpretability. Recent studies have attempted to enhance the interpretability of classification results by providing spatial manipulation masks or temporal forgery segments. However, due to the limitations of forgery datasets, the practical effectiveness of these methods remains suboptimal. The primary reason lies in the fact that most existing deepfake datasets contain only binary labels, with limited variety in forgery scenarios, insufficient diversity in deepfake types, and relatively small data scales, making them inadequate for complex real-world scenarios. To address this predicament, we construct a novel large-scale deepfake detection and localization (DDL) dataset containing 1.4M+ forged samples and encompassing 80 distinct deepfake methods. The DDL design incorporates four key innovations: (1) Comprehensive Deepfake Methods (covering 7 different generation architectures and a total of 80 methods), (2) Varied Manipulation Modes (incorporating 7 classic and 3 novel forgery modes), (3) Diverse Forgery Scenarios and Modalities (including 3 scenarios and 3 modalities), and (4) Fine-grained Forgery Annotations (providing 1.18M+ precise spatial masks and 0.23M+ precise temporal segments). Through these improvements, our DDL not only provides a more challenging benchmark for complex real-world forgeries but also offers crucial support for building next-generation deepfake detection, localization, and interpretability methods.",
+  "published": "2025-06-29T15:29:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.778032+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:43:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2506.23292v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.513048+00:00"
+}

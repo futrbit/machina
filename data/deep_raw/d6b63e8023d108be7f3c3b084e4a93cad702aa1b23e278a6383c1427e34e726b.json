@@ -1,0 +1,18 @@
+{
+  "id": "d6b63e8023d108be7f3c3b084e4a93cad702aa1b23e278a6383c1427e34e726b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Towards a GraphNARX model for structural dynamics",
+  "url": "https://arxiv.org/abs/2610.23103",
+  "summary": "arXiv:2610.23103v1 Announce Type: new Abstract: The current paper introduces the GraphNARX model, a graph-based nonlinear autoregressive exogenous model for structural dynamics. The model is built to account for the geometry of structures and to model dynamic behaviour as the interaction between elements of the structure. Similar to other types of NARX models, GraphNARX is used for system identification. Nodal attributes of the graph encode past displacements and nodal forces, and the output of the model is the next-timestep displacement. The graph formulation of the model allows it to generalise to structures of different dimensions and degrees of freedom. Moreover, because graph-learning is performed locally between the nodes, the GraphNARX model can also learn to infer displacements of nodes for which data are not available, i.e.\\ to perform virtual sensing. The proposed model's performance is evaluated in a system-identification framework and a virtual-sensing framework, and achieves good accuracy and exhibits generalisation capabilities to structures of different sizes.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.226733+00:00"
+}

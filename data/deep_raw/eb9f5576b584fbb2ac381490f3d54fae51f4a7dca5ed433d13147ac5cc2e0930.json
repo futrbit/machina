@@ -1,0 +1,21 @@
+{
+  "id": "eb9f5576b584fbb2ac381490f3d54fae51f4a7dca5ed433d13147ac5cc2e0930",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "RoboRacer Arena: Specification-Driven Track Construction for Autonomous Racing",
+  "url": "https://arxiv.org/abs/2608.23040",
+  "summary": "arXiv:2608.23040v2 Announce Type: replace Abstract: Learning-based autonomous racing relies on diverse training environments, yet constructing a new track requires geometric design, validation, and simulation-asset generation. This coupling makes track geometry difficult to vary systematically during policy training and evaluation. To address this limitation, we present RoboRacer Arena, a specification-driven pipeline that exposes track geometry as an explicit experimental variable. Starting from natural-language requirements, a seeded coverage-guided constructor generates closed-loop layouts, validates the exported occupancy maps, and automatically builds the corresponding Isaac Sim environments. The same interface admits recorded maps and scaled circuits, yielding an initial reference collection of 130 tracks. Across our evaluation, RoboRacer Arena achieves the highest valid-map generation rate among the tested construction procedures under their respective computational budgets and converts eight benchmark maps into simulation assets in less than 2.5 seconds each. We further reconstruct the RoboRacer vehicle as a CAD and USD asset and use it for parallel residual-policy training and deployment on the physical platform. In physical experiments, policies trained with RoboRacer Arena complete ten consecutive laps at command settings up to four times the nominal training speed. These results demonstrate that explicit track requirements can be connected to validated simulation assets and physical evaluation within a reproducible autonomous-racing workflow.",
+  "published": "2026-08-24T09:44:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.762529+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:44:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.23040v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.383719+00:00"
+}

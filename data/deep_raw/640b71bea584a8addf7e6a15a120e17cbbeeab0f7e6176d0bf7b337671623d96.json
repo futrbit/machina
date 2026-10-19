@@ -1,0 +1,22 @@
+{
+  "id": "640b71bea584a8addf7e6a15a120e17cbbeeab0f7e6176d0bf7b337671623d96",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Diffusion Meta-Prompting and Steering for Generalizable Foundation Model Adaptation",
+  "url": "https://arxiv.org/abs/2610.11067",
+  "summary": "arXiv:2610.11067v1 Announce Type: new Abstract: Prompt learning is a popular method for adapting foundation models, but learned prompts are typically task-specific and fail to generalize to new classes, domains, or compositions of tasks. In this paper, we introduce a Diffusion Meta-Prompt (DMP) model , a framework that models the distribution of learned prompts using diffusion models. Given a repository of previously learned prompts, DMP is trained and sampled without access to the original task examples or task losses, and synthesizes new prompts conditioned on natural language task descriptions. To improve the sampling stability, we introduce a test-time steering strategy for DMP, which uses the best training-selected prompt in the repository as a latent anchor during diffusion sampling, without retraining the DMP or accessing test classes. DMP improves generalization across classification, retrieval and text-to-image generation tasks, supports concept composition and negative prompting without explicit training. It reduces storage and inference costs by over 90% compared to prompt retrieval methods. For composite classification, DMP achieves upto 2.0% average gain over prior meta-learning methods across 55 pairs of datasets with gains as high as 8.5% on specific pairs such as Eurosat and Flowers. DMP also enhances cross-task generalization with ~2-9% improvement for hierarchical classification task. We further provide a theoretical guarantee bounding the expected task loss of prompts sampled from a DMP. Code is available: https://github.com/DeepakSridhar/dmp",
+  "published": "2026-10-08T01:26:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.739055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T01:26:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11067v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.854244+00:00"
+}

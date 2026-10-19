@@ -1,0 +1,18 @@
+{
+  "id": "677e94b0c04a983e799748efc7b85b42c84f1640f43ee0a84adf9c53baf0ab5d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "GRAFT-EEG: Gauge-Aware Physical Field Transport for Cross-Dataset Motor-Imagery EEG",
+  "url": "https://arxiv.org/abs/2610.23620",
+  "summary": "arXiv:2610.23620v1 Announce Type: new Abstract: Cross-dataset EEG decoding often treats montage, reference, and active-sensor changes as representation shift, although they also alter the observation operator. We study target-statistics-blind transfer: fitting receives no target signal, label, or empirical statistic, and electrode coordinates only instantiate a fixed prediction operator. method removes the active-set common-reference gauge and transports each native mask through a template motor leadfield. A source-fitted spectral classifier anchors the decision; a bounded state-space-model (SSM) residual is secondary. We establish restricted identifiability and an operator-perturbation bound. Across five leave-one-dataset-out targets (253 participants), dynamic method achieved 60.865% equal-target balanced accuracy versus 52.684% for strict-clean 5/5 BIOT (hierarchical difference +8.182 points; 95% CI +6.382 to +10.196; positive in every target). On four EEGPT-clean targets, the descriptive means were 61.520% and 59.057%. In four post-hoc exact same-parent tests, FULL exceeded coordinate-basis, matched-spectrum, row-shuffled, and wrong-anatomy controls by 9.959, 9.698, 11.241, and 3.985 points, respectively (all 95% CIs excluded zero; Holm-adjusted P<0.001). A separate 60-participant same-paradigm evaluation retained a positive physical-operator contrast (+4.029 points; +2.338 to +5.773), whereas dynamic--static was inconclusive; its preregistered status is partial confirmation rather than unrestricted external validation. The SSM added +1.059 points (+0.013 to +1.892). Claims remain bounded to five binary motor-imagery domains and the tested operators.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.207745+00:00"
+}

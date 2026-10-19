@@ -1,0 +1,21 @@
+{
+  "id": "5aa94c8bc213d67a71281f515d2c6ef6652368aa1c9c0ff94488e34eac656df6",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Learning Language-Conditioned Traversability Representations for Adaptive Visual Navigation",
+  "url": "https://arxiv.org/abs/2610.11622",
+  "summary": "arXiv:2610.11622v1 Announce Type: new Abstract: Traversability is essential for visual navigation but varies with robot capabilities and user preferences. Conventional pipelines often rely on explicit costmaps or segmentation masks with predefined criteria, requiring hand-crafted rules and careful tuning. Moreover, viewpoint-dependent segmentation masks complicate asynchronous planning under perception latency. We present LaTraNav, a framework that learns language-conditioned traversability representations for adaptive visual navigation. Its asynchronous architecture combines a slow vision-language model that produces latent representations of traversability and navigation goals, with a fast flow-matching planner conditioned on these representations. To train the system, we develop a simulation-based data generation pipeline with controllable trajectories, producing observations paired with language instructions, traversability maps, goal locations, and diverse trajectories. Photorealistic image translation further enhances visual realism. Evaluations on datasets from multiple sources demonstrate effective language-guided traversability segmentation and goal localization by the slow VLM, alongside adaptive pixel-space path planning by the fast planner. Latent conditioning improves planning performance over explicit segmentation masks, while asynchronous scheduling increases the path-update rate by $6.05\\times$ at the same semantic-update rate.",
+  "published": "2026-10-08T10:03:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.740547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:03:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11622v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.716326+00:00"
+}

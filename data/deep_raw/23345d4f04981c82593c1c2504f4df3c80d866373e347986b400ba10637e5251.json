@@ -1,0 +1,21 @@
+{
+  "id": "23345d4f04981c82593c1c2504f4df3c80d866373e347986b400ba10637e5251",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "STAG: A Sparse Traversability-Aware Graph Representation from Grid-Based Costmaps for Robotic Navigation",
+  "url": "https://arxiv.org/abs/2610.11943",
+  "summary": "arXiv:2610.11943v1 Announce Type: new Abstract: Autonomous rovers navigating large unstructured environments need efficient global planning that accounts for terrain traversability. However, searching dense grid-based costmaps becomes computationally expensive as the mapped area grows. We introduce STAG, a Sparse Traversability-Aware Graph that converts costmaps into compact graphs. STAG combines a medial-axis topological backbone, representative nodes for homogeneous traversability regions, and transition nodes near strong traversability gradients. Edges encode geometry and traversability to account for path length and terrain difficulty. We compare A* on STAG and dense grids using synthetic cave maps, mine maps and the DARPA CERBERUS dataset. Across five benchmark categories comprising 203 map instances and 101,200 queries, STAG reduces median planning time by 3.4x to 9.9x and peak query memory by 2.1x to 15.4x, with median relative path-length differences of -2.9% and +7.6%. STAG offers a compact representation for global planning, trading dense-grid traversability optimality for faster, less memory-intensive search.",
+  "published": "2026-10-08T13:33:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.742541+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:33:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11943v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.183251+00:00"
+}

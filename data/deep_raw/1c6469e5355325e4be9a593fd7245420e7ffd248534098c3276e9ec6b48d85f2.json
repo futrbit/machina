@@ -1,0 +1,18 @@
+{
+  "id": "1c6469e5355325e4be9a593fd7245420e7ffd248534098c3276e9ec6b48d85f2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "STRIDE: Reasoning-Aware Training for Time Series Forecasting",
+  "url": "https://arxiv.org/abs/2605.08625",
+  "summary": "arXiv:2605.08625v2 Announce Type: replace Abstract: Time Series Foundation Models (TSFMs) excel at numerical forecasting but operate as black boxes lacking qualitative reasoning. Conversely, applying LLMs directly to temporal data introduces a modality gap: text tokenizers fragment continuous numerical values, degrading mathematical relationships and exploding sequence lengths, leading to computational overhead. To resolve this, we introduce STRIDE (Strategic Time-series Reasoning Injected via Distilled Embeddings), a novel framework natively integrating LLM reasoning into the continuous embedding space of TSFMs. Instead of discrete tokens, STRIDE distills reasoning traces into a lightweight LLM and dynamically projects its pooled hidden states as a continuous cross-modal prior into the numerical encoder. Jointly optimized via cross-entropy and quantile losses, STRIDE readily attaches to diverse architectures (e.g., Chronos-2, Timer-S1). STRIDE ranks #1 on the GIFT-Eval leaderboard (0.625 MASE, 0.423 CRPS) when ensembled with Synapse. On TFRBench, STRIDE consistently outperforms baselines in both forecasting accuracy and reasoning quality, with ablations confirming gains stem from strategic reasoning. Thus, injecting semantic reasoning as a continuous prior equips TSFMs with human-interpretable reasoning while improving predictive accuracy.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.262712+00:00"
+}

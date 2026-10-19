@@ -1,0 +1,22 @@
+{
+  "id": "5a3679874330235434be4f879baa0102e3027e494d9e752809a745f2744e7085",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "PICO: Projection-Informed Consistency Optimisation for 6DoF Surgical Tool Pose Estimation",
+  "url": "https://arxiv.org/abs/2609.30989",
+  "summary": "arXiv:2609.30989v1 Announce Type: new Abstract: Purpose: Accurate 6 DoF pose estimation of surgical tools is critical for automa- tion, robotic proprioception, and safe interaction with the tissue operated on. Kinematics-based approaches suffer from accumulated errors due to the cable- driven nature of robotic arms, while vision-based methods often rely on external markers or trackers. Although more recent vision-based advances have been pro- posed, these two-stage pose estimation methods often lack real-time robustness due to accumulated errors and computational overhead. Methods: We propose a novel end-to-end trainable model, PICO. Our model employs a multi-task learning architecture to predict segmentation and depth maps, alongside regression of translation and rotation parameters. We define two proxy tasks that enforce geometric consistency in both 2D and 3D spaces, improving accuracy and robustness. For this, we propose a projection loss, and a point-to-point loss. Results: We evaluate our method on the SurgRIPE dataset, benchmarking its performance against state-of-the-art approaches using standard 6DoF pose esti- mation metrics. Our results demonstrate consistently strong performance across all four subsets, specifically in rotation, ranking second even under occlusion. It also demonstrates comparable translational performance, remaining competitive, especially in occluded cases. Conclusion: PICO demonstrates the effectiveness of multi-task learning and geometry-aware proxy tasks for robust and reliable surgical tool pose estimation, especially in occluded scenarios, highlighting potential for future applications.",
+  "published": "2026-09-25T08:35:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.223142+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T08:35:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30989v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.708333+00:00"
+}

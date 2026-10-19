@@ -1,0 +1,22 @@
+{
+  "id": "2ff7a061225be6e875d834ae39168be7177685252e88d279143690f1ee0000f0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Comprehensive Evaluation and Fine-Tuning of Foundational Cell Nuclei Segmentation Models in Renal Pathology",
+  "url": "https://arxiv.org/abs/2610.07711",
+  "summary": "arXiv:2610.07711v1 Announce Type: new Abstract: Accurate nuclei instance segmentation is essential for quantitative renal pathology, yet general-purpose models often struggle with low contrast, dense nuclei, complex morphology, and strong background staining. In this work, we extended a human-in-the-loop framework by combining 5,901 foundation-model-generated pseudo-labels from well-segmented cases (Easy), 860 newly expert-annotated unresolved challenging cases (Medium), and 198 expert-annotated consensus failure cases (Hard). These annotations, spanning different levels of segmentation difficulty, enabled the systematic evaluation of seven single-source and mixed-source fine-tuning strategies across nine cell segmentation model configurations. Fine-tuning improved all models, with Medium data included in seven of the nine best-performing strategies. LSP-DETR achieved the highest F1 score of 0.8725 with Hard-only fine-tuning, while StarDist showed the largest improvement, increasing from 0.7380 to 0.8332 with Medium-only fine-tuning. These findings show that annotations spanning multiple difficulty levels support effective model adaptation, although the optimal annotation composition remains model dependent.",
+  "published": "2026-10-06T04:05:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.516384+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:05:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07711v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.418110+00:00"
+}

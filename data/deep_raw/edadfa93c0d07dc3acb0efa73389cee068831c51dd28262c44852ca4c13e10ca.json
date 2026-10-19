@@ -1,0 +1,21 @@
+{
+  "id": "edadfa93c0d07dc3acb0efa73389cee068831c51dd28262c44852ca4c13e10ca",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "All Verdicts are Not Equal: Rethinking LLM Judge Reliability",
+  "url": "https://arxiv.org/abs/2610.12083",
+  "summary": "arXiv:2610.12083v1 Announce Type: cross Abstract: LLM-as-a-Judge is the standard paradigm for NLP evaluation, yet its systemic reliability remains poorly understood despite being widely treated as a deterministic ground truth. We present a comprehensive reliability audit, stresstesting six frontier models across four benchmarks, five prompt formats, two presentation orders, three sampling temperatures, and ten repetitions per condition. Our empirical analysis reveals severe vulnerabilities: verdicts change across identical replications at temperature zero, position-order swaps flip the majority of verdicts on challenging tasks, and the most deterministic judge achieves perfect consistency by trivially repeating incorrect verdicts, agreeing with ground truth only 51% of the time. To formalize these multi-faceted failure modes, we introduce the trustworthy verdict rate (T ), a unified metric capturing the joint probability that an evaluation is reproducible, order-invariant, and accurate. UsingT , we derive a theoretical upper bound on accuracy imposed by position bias and show that reliability is item-specific rather than modellevel. Finally, we demonstrate that shifting from pairwise win-rate to holistic rubric scoring improves trustworthiness more than any single-format prompting intervention, offering an actionable framework for robust NLP evaluation.",
+  "published": "2026-10-08T14:55:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.399370+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:55:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12083v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.399709+00:00"
+}

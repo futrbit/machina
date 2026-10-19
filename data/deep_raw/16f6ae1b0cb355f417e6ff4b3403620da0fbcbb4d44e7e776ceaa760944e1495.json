@@ -1,0 +1,21 @@
+{
+  "id": "16f6ae1b0cb355f417e6ff4b3403620da0fbcbb4d44e7e776ceaa760944e1495",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Nullify: Null-Space Activation Steering for Training-Free LLM Unlearning",
+  "url": "https://arxiv.org/abs/2610.10655",
+  "summary": "arXiv:2610.10655v1 Announce Type: cross Abstract: Large Language Models (LLMs) inevitably internalize substantial amounts of sensitive or private information during pre-training, while LLM unlearning aims to selectively erase specific knowledge to prevent privacy leakage with minimal loss of model utility. However, existing methods struggle to balance forget quality with utility, and typically incur substantial computational costs due to parameter fine-tuning. To address this, we propose Nullify, a training-free, non-destructive activation steering method for LLM unlearning. Nullify employs steering vectors during inference to redirect privacy-related activations away from their memorized answers, while satisfying a null-space constraint that leaves retained-query activations essentially unaffected to maintain utility. Evaluations on TOFU and MUSE show that Nullify matches or surpasses established baselines in forget quality while achieving near-lossless preservation of model utility. By avoiding weight updates entirely, Nullify serves as an efficient, plug-and-play inference-time intervention framework.",
+  "published": "2026-10-07T16:24:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.382382+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T16:24:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10655v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.856841+00:00"
+}

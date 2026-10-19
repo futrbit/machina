@@ -1,0 +1,21 @@
+{
+  "id": "081c540655691eb76f270e5f7d192359df8bb8fc878ab6fec10764fa10c98a48",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Reinforcement Learning over Predictive Distributions for LLM Regression",
+  "url": "https://arxiv.org/abs/2605.20740",
+  "summary": "arXiv:2605.20740v2 Announce Type: replace-cross Abstract: Large language models (LLMs) have emerged as flexible regressors capable of predicting real-valued quantities from heterogeneous inputs. Yet most LLM regression objectives optimize predictions independently, often yielding poor calibration. We introduce Distribution-Aware Reward (DAR), an on-policy reinforcement learning objective that instead jointly evaluates the empirical predictive distribution formed by multiple predictions for the same input. To translate this distribution-level objective into rollout-level rewards, we assign each prediction credit based on its leave-one-out contribution to the quality of the overall predictive distribution. This encourages predictions that are well-centered and appropriately dispersed around the target. We evaluate on three regression settings: a synthetic task probing interpolation and extrapolation, and two real-world scientific tasks involving code and molecular data. Across tasks, DAR produces better-calibrated uncertainty estimates while consistently reducing prediction error and improving ranking quality over supervised fine-tuning and pointwise reinforcement learning. Together, these results highlight the benefits of distribution-aware training for LLM regression.",
+  "published": "2026-05-20T05:43:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.196785+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:48:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.20740v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.420105+00:00"
+}

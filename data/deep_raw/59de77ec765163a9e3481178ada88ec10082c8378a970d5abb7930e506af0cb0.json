@@ -1,0 +1,22 @@
+{
+  "id": "59de77ec765163a9e3481178ada88ec10082c8378a970d5abb7930e506af0cb0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "How Hackable Is Your Speech Quality Metric? A Corrected Protocol, a Benchmark, and What Patching Buys",
+  "url": "https://arxiv.org/abs/2610.10899",
+  "summary": "arXiv:2610.10899v1 Announce Type: new Abstract: Speech quality predictors are increasingly used as rewards, yet no agreed measure of their hackability exists. The usual measurement has two flaws. First, the perturbation reaches the predictor through a processing chain -- here a neural codec -- that shifts the score on its own, which scoring against the raw input charges to the attack. Referencing the unperturbed round trip instead changes measured hackability by up to a factor of four (0.31 to 0.08 for one defence). Second, one trained attacker is a sample, not a measurement: five attackers differing only in random seed reach success rates from 0.00 to 0.38 against one fixed predictor, so a defence claim needs the worst case over several. Under this protocol, four published predictors differ widely: NISQA is hacked on 90% of utterances, SSL-MOS on 21%, DNSMOS on 14% and UTMOS on 6%. We then audit a closed attack-detect-patch loop. It hardens the predictor only in its own attack space, by less than the spread between attackers; a random-perturbation baseline matches it; and it costs up to 0.30 system SRCC out of domain. Enhancers post-trained against patched predictors hack them far less (PESQ -0.03 versus -0.23). Code, preregistration and run outputs are released.",
+  "published": "2026-10-07T20:55:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.077438+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:55:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10899v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.702336+00:00"
+}

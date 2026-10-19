@@ -1,0 +1,21 @@
+{
+  "id": "283479712f224c132c0dd6818415942d0af36ecedea10e0dc8a4ec131d05902f",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Beyond Task Reward: A Controller-Restriction Protocol for Evaluating Embodiment-Dependent Competence",
+  "url": "https://arxiv.org/abs/2610.07629",
+  "summary": "arXiv:2610.07629v1 Announce Type: new Abstract: Co-design methods optimize a robot's body and controller jointly and judge the result by one number, the task reward of the fully optimized pair. That number cannot separate morphologies whose competence depends on the controller to very different degrees. We evaluate a morphology by restricting its controller instead, recording the task competence it retains under an explicitly declared, low-complexity controller family, environment, task and search budget. On three EvoGym locomotion tasks, task reward explains only $39\\%$, $33\\%$ and $10\\%$ of the variance in this quantity, and geometric descriptors do not predict it under run-grouped cross-validation. The measurement is reliable across optimizer restarts (ICC$(2,k) = 0.956$--$0.986$) but depends on the declared family: phasing the drive by actuator index instead of position ranks the same morphologies at Spearman $0.50$--$0.63$ and reverses reward-matched pairs. As a second search objective the axis improved competence at matched task reward in $3$ of $5$ paired runs, short of a pre-registered bar of $4$. Used after an ordinary reward-only search instead, to choose within its top task-reward band, it selected a different body in all $8$ runs offering a choice, at a cost of at most $0.10$ reward units, and in $6$ of $8$ that body also scored higher under a held-out family. Restricted-control competence is therefore a reportable property of a co-designed morphology, interpretable only with the controller family that defines it.",
+  "published": "2026-10-06T02:21:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.458024+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:21:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07629v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.260205+00:00"
+}

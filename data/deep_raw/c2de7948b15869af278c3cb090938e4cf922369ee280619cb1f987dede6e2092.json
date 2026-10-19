@@ -1,0 +1,22 @@
+{
+  "id": "c2de7948b15869af278c3cb090938e4cf922369ee280619cb1f987dede6e2092",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learned Adaptive Multiresolution Diffusion Imaging",
+  "url": "https://arxiv.org/abs/2610.07884",
+  "summary": "arXiv:2610.07884v1 Announce Type: cross Abstract: Adaptive multiresolution methods reduce representation cost by concentrating fine-scale degrees of freedom where needed, but their tree updates are usually governed by fixed local criteria. We introduce Learned Adaptive Multiresolution Diffusion Imaging (Learned AMDI), which preserves the AMDI fixed-tree propagator and hierarchy constraints while replacing the post-propagation selector with a shared local policy trained by proximal policy optimization. Regression tests reproduce deterministic AMDI trajectories to machine precision when identical trees are used. In the Haar implementation studied here, the deterministic one-step selector accepts no refinements in 54 decisions. Across nine held-out cases, Learned AMDI executes 393 refinements and reduces the mean terminal reference discrepancy from $0.17496$ to $0.13657$, while occupancy rises from $0.13737$ to $0.26660$. Step-resolved diagnostics reveal occasional small adaptation-energy increases; fixed-tree energy stability therefore does not guarantee monotonicity of the learned outer iteration. At comparable occupancy, a validation-tuned observed-detail threshold reaches a discrepancy of $0.13792$ with slightly better RMSE and SSIM, placing both methods on essentially the same accuracy--occupancy tradeoff. A decision-1-only control reaches $0.13742$, indicating that most of the improvement on this static benchmark arises from the initial allocation. The shared actor transfers without retraining to $64\\times64$ and $128\\times128$ images, improving reference discrepancy, RMSE, and SSIM relative to deterministic AMDI, while the frozen threshold rule remains competitive. Learned AMDI thus provides a hierarchy-constrained, resolution-transferable mechanism for adaptive allocation and clarifies the contribution of sequential decisions.",
+  "published": "2026-10-06T07:31:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.100475+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:31:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07884v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.893015+00:00"
+}

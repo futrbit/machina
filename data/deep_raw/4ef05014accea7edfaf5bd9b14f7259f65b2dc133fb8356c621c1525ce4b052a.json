@@ -1,0 +1,22 @@
+{
+  "id": "4ef05014accea7edfaf5bd9b14f7259f65b2dc133fb8356c621c1525ce4b052a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Cultural Counterfactuals: Evaluating Cultural Biases in Large Vision-Language Models with Counterfactual Examples",
+  "url": "https://arxiv.org/abs/2603.02370",
+  "summary": "arXiv:2603.02370v3 Announce Type: replace Abstract: Large Vision-Language Models (LVLMs) have grown increasingly powerful in recent years, but can also exhibit harmful biases. Prior studies investigating such biases have primarily focused on demographic traits related to the visual characteristics of a person depicted in an image, such as their race or gender. This has left biases related to cultural differences (e.g., religion, socioeconomic status), which cannot be readily discerned from an individual's appearance alone, relatively understudied. A key challenge in measuring cultural biases is that determining which group an individual belongs to often depends upon cultural context cues in images, and datasets annotated with cultural context cues are lacking. To address this gap, we introduce Cultural Counterfactuals: a high-quality synthetic dataset containing nearly 60k counterfactual images for measuring cultural biases related to religion, nationality, and socioeconomic status. To ensure that cultural contexts are accurately depicted, we generate our dataset using an image-editing model to place people of different demographics into real cultural context images. This enables the construction of counterfactual image sets which depict the same person in multiple different contexts, allowing for precise measurement of the impact that cultural context differences have on LVLM outputs. We demonstrate the utility of Cultural Counterfactuals for quantifying cultural biases in popular LVLMs.",
+  "published": "2026-03-02T20:19:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.535372+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:00:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.02370v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.459482+00:00"
+}

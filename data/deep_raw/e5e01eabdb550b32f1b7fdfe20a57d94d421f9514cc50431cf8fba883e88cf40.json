@@ -1,0 +1,21 @@
+{
+  "id": "e5e01eabdb550b32f1b7fdfe20a57d94d421f9514cc50431cf8fba883e88cf40",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation",
+  "url": "https://arxiv.org/abs/2610.07250",
+  "summary": "arXiv:2610.07250v1 Announce Type: new Abstract: Wrapping an image generation model in an agentic harness can effectively boost Text-to-Image task performance: the harness can leverage memory, skills, workflow orchestration, result verification, and iterative refinement to continually construct and revise prompts, thereby eliciting better images. These gains, however, remain external to the diffusion model and are realized only while the full harness runs. We propose Diffusion On-Policy Context Distillation (D-OPCD), which treats the agent-improved prompt as privileged context and distills the knowledge encoded in the agent harness into the weights of the diffusion model, so that the model retains part of the harness's benefit when conditioned on the original query alone. Using a Text-to-Image agent equipped with our proposed Auto Skill Evolver (ASE), we show that D-OPCD can internalize harness capabilities into the generator's weights, raising the average direct-generation score from 60.52 to 65.09 across four benchmarks. With this knowledge absorbed into the weights, the harness can shed its saturated skills and resume evolving: a second ASE round on the updated generator improves on a skill-free harness by additional 1.83 points, pointing toward text-to-image systems in which harness and model keep improving each other through continual co-evolution.",
+  "published": "2026-10-05T18:50:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.126828+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:50:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07250v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.311763+00:00"
+}

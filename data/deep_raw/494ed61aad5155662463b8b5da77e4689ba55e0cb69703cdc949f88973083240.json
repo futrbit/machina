@@ -1,0 +1,18 @@
+{
+  "id": "494ed61aad5155662463b8b5da77e4689ba55e0cb69703cdc949f88973083240",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Empirical Bayesian Multi-Bandit Learning",
+  "url": "https://arxiv.org/abs/2510.26284",
+  "summary": "arXiv:2510.26284v3 Announce Type: replace Abstract: Multi-task learning in contextual bandits has attracted significant research interest due to its potential to enhance decision-making across multiple related tasks by leveraging shared structures and task-specific heterogeneity. In this article, we propose a novel hierarchical Bayesian framework for learning in various bandit instances. This framework captures both the heterogeneity and the correlations among different bandit instances through a hierarchical Bayesian model, enabling effective information sharing while accommodating instance-specific variations. Unlike previous methods that overlook the learning of the covariance structure across bandits, we introduce an empirical Bayesian approach to estimate the covariance matrix of the prior distribution. This enhances both the practicality and flexibility of learning across multi-bandits. Building on this approach, we develop two efficient algorithms: ebmTS (Empirical Bayesian Multi-Bandit Thompson Sampling) and ebmUCB (Empirical Bayesian Multi-Bandit Upper Confidence Bound), both of which incorporate the estimated prior into the decision-making process. We provide the frequentist regret upper bounds for the proposed algorithms, thereby filling a research gap in the field of multi-bandit problems. Extensive experiments on both synthetic and real-world datasets demonstrate the superior performance of our algorithms, particularly in complex environments. Our methods achieve lower cumulative regret compared to existing techniques, highlighting their effectiveness in balancing exploration and exploitation across multi-bandits.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.256715+00:00"
+}

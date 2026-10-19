@@ -1,0 +1,22 @@
+{
+  "id": "4935076a607b06378e5397e48c49054de2c6b81733f3ad111d782c04dd36dc5f",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "GenIA: Generative Reconstruction with Test-Time Input Alignment",
+  "url": "https://arxiv.org/abs/2610.12388",
+  "summary": "arXiv:2610.12388v1 Announce Type: new Abstract: Reconstructing complete 3D object assets from monocular or sparse multi-view observations remains challenging. Generative 3D foundation models can complete object geometry beyond the observed views, but their predictions may not faithfully reproduce the observed geometry, appearance, or pose. We introduce GenIA, a framework for test-time input-aligned generation that grounds SAM3D's generative prior in geometric and photometric observations without retraining the foundation model. We improve object pose by deriving translation and scale from geometry while retaining the learned rotation prior, and align appearance through visibility-biased attention, cross-observation fusion, and differentiable rendering guidance during denoising. An optional post-denoising refinement further adapts the appearance latent, lightweight decoder adapters, and object placement to the observations. Our framework also supports externally supplied geometry; when given temporal shapes of dynamic objects, it recovers a shared, input-aligned canonical appearance and stable world-space placement. Across synthetic and real benchmarks, GenIA improves pose prediction and object reconstruction from monocular, multi-view, and dynamic inputs, outperforming recent optimization-based, per-frame image-to-3D, and video-to-4D methods. Our project page is available at https://facebookresearch.github.io/GenIA.",
+  "published": "2026-10-08T17:38:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.762041+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:38:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12388v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.951788+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "283d50a5a4f3c0648e31ab77ad886a748b5b01a08774f2eb96825a90189bf442",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
+  "url": "https://arxiv.org/abs/2610.00423",
+  "summary": "arXiv:2610.00423v1 Announce Type: new Abstract: Massive activations, residual-stream coordinates with magnitudes far larger than typical activations, are associated with attention sinks in transformers, but how their scale is regulated during training remains incompletely understood. Combining training-trajectory analyses and controlled interventions, we trace their emergence, growth, and consolidation. Sink-carrying channels vary across random seeds but stabilize early within each run. Over longer training, surrounding channels erode and the sink concentrates onto a few redundant carriers. Across ablations, gradient attenuation follows the sink token's collective root-mean-square magnitude rather than any single channel, making collective scale central to understanding their effects. Our central result is that weight decay causally controls the turnover of global activation scale. In controlled continuations, removing decay near the peak allows this scale to keep rising, whereas retaining it produces decline even at constant learning rate. We develop a balance model for the rise and peak of massive-activation magnitude, in which AdamW-preconditioned growth opposes weight decay. Sweeping the decay coefficient $\\lambda$ shifts peak timing approximately log-linearly and yields peak magnitudes scaling approximately as $\\lambda^{-1/2}$, consistent with this balance. Optimizer measurements further show that preconditioning sustains the large-channel cohort against decay even when raw maintaining forces are too small to do so. Together, these findings connect the observed life cycle to scale-regulating training dynamics and establish weight decay as a training-time lever on activation magnitude.",
+  "published": "2026-09-30T15:28:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.774509+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-05T13:17:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00423v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.262203+00:00"
+}

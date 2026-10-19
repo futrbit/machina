@@ -1,0 +1,22 @@
+{
+  "id": "af9fccb6c1806dfed347cfca0cee946ad09a3ce4fade3453f589420959c10ac5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "TopTimeNet: Topologically-assisted time-series classification model",
+  "url": "https://arxiv.org/abs/2609.39792",
+  "summary": "arXiv:2609.39792v2 Announce Type: replace Abstract: Distinguishing periodic from chaotic dynamics in a time series is a fundamental challenge in both physics and engineering. Yet, end-to-end learned architectures must discover both a representation and a decision boundary from data, at substantial cost. We introduce TopTimeNet, which decouples these tasks: a fixed, non-learned stage extracts a $42$-dimensional geometric and topological descriptor from Takens delay embeddings and persistent homology, and a lightweight learnable stage performs classification. On a benchmark of $49$ nonlinear dynamical systems, a $1{,}638$-parameter configuration matches the mean accuracy of one with $33\\times$ more trainable parameters. Additionally, this approach delivers mean accuracy comparable to convolutional neural networks and surpasses the average performance of converged Transformer models, while requiring three to four orders of magnitude fewer trainable parameters. Robustness also depends sharply on where noise is introduced: TopTimeNet degrades gracefully under perturbations to its precomputed features, but degrades sharply when noise is introduced into the raw signal and the full feature-extraction pipeline is recomputed, showing that robustness to perturbations of the precomputed features does not imply robustness of the complete raw-signal-to-prediction pipeline. These results show that decoupling fixed geometric and topological feature construction from a lightweight discriminative stage can achieve comparable classification accuracy with substantially fewer trainable parameters.",
+  "published": "2026-09-30T14:11:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.839468+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T13:15:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.39792v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.557218+00:00"
+}

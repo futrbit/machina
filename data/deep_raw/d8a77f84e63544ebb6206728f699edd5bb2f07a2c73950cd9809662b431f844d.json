@@ -1,0 +1,22 @@
+{
+  "id": "d8a77f84e63544ebb6206728f699edd5bb2f07a2c73950cd9809662b431f844d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "How Much Does Message Passing Matter? A Drop-In Study of GNN Layers for Neural Network Graph Regression",
+  "url": "https://arxiv.org/abs/2607.26404",
+  "summary": "arXiv:2607.26404v2 Announce Type: replace Abstract: Graph Neural Networks (GNNs) are widely used as regressors, for example to predict the accuracy of a neural architecture. Yet new message-passing (MP) layers are developed and benchmarked almost exclusively on classification tasks, and regression pipelines typically adopt a single MP layer without ablation. We ask how much the choice of MP layer matters for graph-level regression. Holding the architecture, loss and training recipe of four existing GNN regressors fixed, we substitute ten MP configurations spanning convolutional, isomorphism-based and attention-based designs. We evaluate them on eleven datasets of neural-network graphs that range from under ten to over a thousand nodes per graph and from a few hundred to over four hundred thousand samples, measuring rank correlation, prediction error, top-$k$ retrieval, latency and memory. MP choice changes results substantially, and we find that the best choice depends on graph size, training-set size and regression objective. Classical layers such as GEN, $k$-GNN and PNA match or exceed attention-based layers on small architecture graphs at lower cost, while GATv2 performs well on datasets with few large graphs.",
+  "published": "2026-07-29T02:35:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.128406+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:05:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.26404v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.172846+00:00"
+}

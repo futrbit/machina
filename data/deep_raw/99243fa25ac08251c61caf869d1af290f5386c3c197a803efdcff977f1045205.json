@@ -1,0 +1,22 @@
+{
+  "id": "99243fa25ac08251c61caf869d1af290f5386c3c197a803efdcff977f1045205",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "GPU-Accelerated Computation of Persistent Homology for Topological Analysis of Image Data",
+  "url": "https://arxiv.org/abs/2610.10959",
+  "summary": "arXiv:2610.10959v1 Announce Type: new Abstract: In recent years, persistent homology has seen rapid adoption in deep learning, yet its computation remains a major bottleneck in network training. This paper introduces TopoGPU, a GPU streaming pipeline that computes persistence diagrams of cubical complexes induced by 2D and 3D images. TopoGPU streams the input image chunk by chunk, processing each chunk with massively parallel GPU kernels on a grid of GPU blocks; the resulting boundary relations are accumulated in host memory, where the CPU performs the boundary matrix reduction. TopoGPU introduces a stratification-aware discrete Morse matching that provably preserves persistent homology under streaming, together with a parallel topological sorting algorithm and a parallel V-path parity algorithm for deriving Morse boundaries on the GPU. TopoGPU outperforms Cubical Ripser, a state-of-the-art method for persistent homology computation, on every benchmark evaluated, achieving an average end-to-end speedup of 53.24x and a maximum of 198.01x. We further integrate TopoGPU into a topology-preserving deep network, demonstrating that it substantially reduces the cost of persistent homology computation during network training. TopoGPU is open source, with pre-built binaries, Google Colab notebooks, and Docker images available at the project's GitHub page: https://github.com/seravee08/GPU-Computation-of-Persistent-Homology-for-Image-Data.",
+  "published": "2026-10-07T22:24:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.736057+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:24:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10959v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.936592+00:00"
+}

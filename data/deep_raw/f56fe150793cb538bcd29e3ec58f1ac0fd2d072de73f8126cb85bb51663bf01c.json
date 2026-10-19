@@ -1,0 +1,22 @@
+{
+  "id": "f56fe150793cb538bcd29e3ec58f1ac0fd2d072de73f8126cb85bb51663bf01c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "End-to-End Historical Music Restoration in Latent Space",
+  "url": "https://arxiv.org/abs/2610.00607",
+  "summary": "arXiv:2610.00607v1 Announce Type: cross Abstract: Historical music restoration (HMR) has almost exclusively focused on constrained problems such as Super-Resolution or the restoration of solo pieces, under-exploring the general task of restoring orchestral historical music, which has multiple instruments. This under-exploration is largely because the HMR domain, early-20th-century recordings, has no pre-degradation ground-truth pairs, making the restoration task unsupervised and more challenging. This paper presents a supervised end-to-end orchestral HMR benchmark by exploring both the synthetic degradation functions and the end-to-end generative deep-learning restoration methods. We simulate the historical recording degradation chain more faithfully than prior work, which makes orchestral restoration into a tractable supervised problem. A latent flow-matching model trained on the resulting synthetic pairs outperforms existing HMR baselines on intrusive, non-intrusive, and subjective evaluations. We also curate and release a 9.3-hour license-free, unpaired, historical classical-music test set, along with code and audio demos.",
+  "published": "2026-09-30T19:11:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.810486+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T19:11:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00607v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.500649+00:00"
+}

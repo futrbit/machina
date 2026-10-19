@@ -1,0 +1,21 @@
+{
+  "id": "c60acad79df4c0c8f193799dc251ab685f02eee452e09fb53dfce34b3d11fac5",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "EgoBench: An Interactive Egocentric Multimodal Benchmark for Tool-Using Agents",
+  "url": "https://arxiv.org/abs/2605.27820",
+  "summary": "arXiv:2605.27820v2 Announce Type: replace Abstract: As AI agents increasingly operate in open, real-world environments, they require a deep synergy of multimodal perception, tool invocation with multi-hop reasoning, and dynamic interaction with users. However, existing benchmarks fail to jointly evaluate these capabilities due to challenges in designing strictly coupled multi-capability tasks, simulating natural and task-constrained user feedback, and ensuring objective evaluation of dynamic interaction. To bridge this gap, we introduce EgoBench, the first interactive multimodal benchmark for tool-using agents. EgoBench comprises 1,590 egocentric-video-grounded tasks covering five daily scenarios, along with a user-agent-tool interactive environment for evaluation. We implement a three-stage synergistic pipeline through which each task is designed to enforce the joint application of visual perception and tool-augmented multi-hop reasoning. We additionally develop a multi-agent simulated user to evaluate agents' interaction capabilities, which generates high-fidelity, task-aligned responses to agents. Furthermore, we establish a deterministic joint validation framework that guarantees objective assessment through process-based and result-based equivalence. Benchmarking eight video-MLLM agents on EgoBench reveals a severe performance ceiling: the best-performing model achieves only a 34.95% average Joint Success Rate across the three interaction modes. Finally, we conduct a multi-dimensional error analysis to disentangle failure modes, exposing capability bottlenecks for advancing future AI agents.",
+  "published": "2026-05-27T01:28:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.406367+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:38:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.27820v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.933991+00:00"
+}

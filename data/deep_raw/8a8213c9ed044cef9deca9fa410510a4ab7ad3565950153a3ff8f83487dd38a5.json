@@ -1,0 +1,22 @@
+{
+  "id": "8a8213c9ed044cef9deca9fa410510a4ab7ad3565950153a3ff8f83487dd38a5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Closing the Horizon Gap in Policy Optimization for Adversarial MDPs",
+  "url": "https://arxiv.org/abs/2610.12362",
+  "summary": "arXiv:2610.12362v1 Announce Type: new Abstract: We consider policy optimization for online episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback. Policy optimization updates the policy locally at each state and avoids optimization over the occupancy-measure polytope, but its existing regret bounds are larger by a factor of the horizon $H$ than those of occupancy-measure-based algorithms. We close this gap by using regularized $Q$-functions, which allow us to control the stability of the local updates jointly over all state-action pairs rather than separately at each state. The resulting algorithm attains high-probability regret bounds of $\\widetilde O(\\sqrt{HS(H+A)T})$ for known transitions and $\\widetilde O(HS\\sqrt{AT})$ for unknown transitions, where $S$ is the number of states, $A$ the number of actions, and $T$ the number of episodes. Both bounds improve the horizon dependence of existing policy optimization bounds, and the latter matches the best-known bound. We further extend the algorithm to adversarial linear-mixture MDPs and obtain the same improvement in the horizon dependence.",
+  "published": "2026-10-08T17:26:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.097424+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:26:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12362v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.659758+00:00"
+}

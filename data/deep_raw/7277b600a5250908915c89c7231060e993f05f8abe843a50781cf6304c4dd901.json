@@ -1,0 +1,21 @@
+{
+  "id": "7277b600a5250908915c89c7231060e993f05f8abe843a50781cf6304c4dd901",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+  "url": "https://arxiv.org/abs/2610.12457",
+  "summary": "arXiv:2610.12457v1 Announce Type: new Abstract: Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily insufficient policy capability, but insufficient spatial observability, where task-critical spatial relationships may be poorly revealed by the existing physical camera setup. We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup. SpatialHarness maintains an online simulated scene synchronized with real-world execution, identifies task-critical spatial relationships, and renders complementary virtual views that expose them to a frozen multimodal policy. To keep the simulated scene aligned during interaction, we develop interaction-aware scene synchronization that distinguishes static, held, and transition modes. We evaluate SpatialHarness on four real-robot manipulation tasks spanning precise geometric alignment, object-relative placement, and articulated-object interaction. Using the same frozen GPT-6 Astra policy, SpatialHarness substantially improves task success, including from 26.7% to 66.7% on plug insertion and from 0% to 100% on Tower of Hanoi. These results indicate that improving spatial observability at test time can unlock fine-manipulation capabilities already present in strong multimodal foundation models. Project website: https://emilia113.github.io/SpatialHarness/.",
+  "published": "2026-10-08T17:59:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.752535+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:59:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12457v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.161059+00:00"
+}

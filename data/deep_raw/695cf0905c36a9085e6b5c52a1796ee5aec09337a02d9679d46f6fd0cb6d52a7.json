@@ -1,0 +1,21 @@
+{
+  "id": "695cf0905c36a9085e6b5c52a1796ee5aec09337a02d9679d46f6fd0cb6d52a7",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Scalar IoU: Structured Verification from Rollout Groups for Video Temporal Grounding",
+  "url": "https://arxiv.org/abs/2610.07601",
+  "summary": "arXiv:2610.07601v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides a natural framework for adapting pretrained models to video temporal grounding, where generated temporal intervals can be scored directly against ground truth intervals. Yet existing overlap verifiers typically score each rollout independently, leaving the joint structure of the rollout group unused. We introduce SUTURE, which conditions verification on the rollout group and exploits its structure at two complementary scales: disagreement across rollouts controls how strongly the target is reweighted, while coverage at each position determines where reward mass is redistributed. We show that the resulting verifier admits an exact decomposition into the standard IoU term and a covariance correction determined by the rollout group. A local gradient diagnostic finds a preference for responses covering relatively less supported target regions in the analyzed groups. Across five temporal grounding benchmarks, SUTURE improves grounding performance at every reported IoU threshold. Its trained policy also shows less video-start anchoring in reasoning traces: for later events, the first temporal mention more often overlaps the annotated target. Together, these results show that the joint structure of a rollout group can support a more informative temporal verifier.",
+  "published": "2026-10-06T01:40:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.134823+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:40:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07601v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.948188+00:00"
+}

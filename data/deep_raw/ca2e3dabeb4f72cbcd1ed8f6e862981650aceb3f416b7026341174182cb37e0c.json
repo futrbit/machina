@@ -1,0 +1,21 @@
+{
+  "id": "ca2e3dabeb4f72cbcd1ed8f6e862981650aceb3f416b7026341174182cb37e0c",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Latent Policy Steering: An Efficient and Flexible Framework for Cross-Embodiment Transfer",
+  "url": "https://arxiv.org/abs/2609.22521",
+  "summary": "arXiv:2609.22521v2 Announce Type: replace Abstract: The performance of learned robot visuomotor policies depends heavily on the size and quality of their training data, yet collecting high-quality demonstrations remains costly for robots in the real world. Although large-scale robot and human datasets are increasingly available, embodiment gaps and mismatched action spaces make them difficult to leverage directly. Cross-embodiment transfer, reusing experience from other embodiments to improve learning on a target embodiment, is therefore crucial for scaling robot learning beyond per-robot data collection. In this work, we find that efficient transfer can be achieved by learning from what is shared across embodiments, the visual dynamics of how the world responds to motion, and by effectively exploiting the scarce target-embodiment data at test time. The proposed framework, called Latent Policy Steering (LPS), implements an embodiment-agnostic pretraining phase, which trains an image-based World Model (WM) with optical flow across diverse embodiments. The resulting WM is finetuned on the target embodiment with robot actions. It then steers the base policy toward better actions by searching in the WM's latent space for plans that stay close to the finetuning data. LPS is a policy-agnostic framework: it can flexibly accommodate different policies without having to retrain them. In Robomimic and real-world evaluations, LPS improves the average performance of Diffusion Policy relatively by 16% and 62%, and Pi0.5 by 8% and 14%, with only 50 demonstrations on an unseen target embodiment.",
+  "published": "2026-09-18T19:28:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.385992+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T21:34:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.22521v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.992955+00:00"
+}

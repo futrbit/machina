@@ -1,0 +1,22 @@
+{
+  "id": "94db2c61f0df83c26790cc56c357913fd62e56153496524bbaa8754f4036c475",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Memorization and Malign Generalization in Conditional Diffusion Models with Random Features",
+  "url": "https://arxiv.org/abs/2610.11288",
+  "summary": "arXiv:2610.11288v1 Announce Type: new Abstract: Conditional diffusion models generate diverse, novel, and high-quality samples under prescribed conditions. However, theoretical understanding of their memorization and generalization remains limited, while recent works have characterized these behaviors primarily in unconditional settings. In this work, we analyze a random-feature conditional score model in the high-dimensional proportional limit, deriving asymptotic expressions for training and test losses. By decomposing the test loss, we show that in the overparameterized regime, increasing model width improves prediction of the condition-dependent mean while reducing within-condition prediction variance, a phenomenon we term \"malign generalization.\" Furthermore, analyzing the training loss reveals that more informative conditions lead to memorization of training samples at smaller widths. These theoretical findings are supported by experiments with U-Net architectures on realistic data.",
+  "published": "2026-10-08T05:52:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.084432+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T05:52:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11288v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.837652+00:00"
+}

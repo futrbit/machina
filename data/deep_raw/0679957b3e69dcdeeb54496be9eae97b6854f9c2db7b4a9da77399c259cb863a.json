@@ -1,0 +1,18 @@
+{
+  "id": "0679957b3e69dcdeeb54496be9eae97b6854f9c2db7b4a9da77399c259cb863a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "UniPolar: Joint Image and Polarimetric Restoration under Compound Degradations via Physical Consistency Learning",
+  "url": "https://arxiv.org/abs/2610.23360",
+  "summary": "arXiv:2610.23360v1 Announce Type: new Abstract: Polarimetric image restoration aims to recover polarization angle images and reliable polarimetric quantities from degraded observations. Beyond visual fidelity, it also requires preserving the physical relationships underlying reliable polarimetric estimation. However, existing methods typically address either device- or environment-induced degradations in isolation, limiting their applicability to color polarization filter array (CPFA) imaging, where both often coexist. Such compound degradations jointly perturb image intensities and cross angle polarization differences. Consequently, improved image fidelity alone does not necessarily ensure accurate Stokes, DoLP, and AoLP recovery. To address this challenge, we propose UniPolar, a coupled Image Stokes framework for joint image polarimetric restoration from compound-degraded CPFA observations. Specifically, UniPolar employs two complementary streams to reconstruct four polarization-angle images and directly predict Stokes difference components. To coordinate these streams, Degradation Conditioned Cross Domain Interaction combines Dual Domain Frequency Interaction for frequency selective evidence exchange with Degradation Conditioned Modulation for condition adaptive feature correction. Furthermore, at the output level, Image Stokes Physical Consistency Learning aligns image derived and directly predicted Stokes components while regularizing angular fidelity and the physical feasibility of DoLP. On the compound-degradation benchmark, UniPolar achieves average image and DoLP PSNR of 31.522 dB and 24.097 dB, respectively, with an average AoLP error of 16.833 degree. These results underscore the importance of jointly considering visual fidelity and polarimetric reliability, offering a physically grounded perspective on learning based restoration under compound degradations.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.044092+00:00"
+}

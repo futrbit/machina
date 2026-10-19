@@ -1,0 +1,18 @@
+{
+  "id": "99e29fd69778660627f80e057dcdb428665ea36bd90e2037eb43929f008d1928",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CVaR anchor regression protects against rare shifts",
+  "url": "https://arxiv.org/abs/2609.27034",
+  "summary": "arXiv:2609.27034v2 Announce Type: replace-cross Abstract: We study prediction in new environments when the training data contains rare, large distribution shifts. Anchor regression penalizes the average of the squared mean residual across environments. It protects against shifts in an ellipsoid determined by the second moment of the training shifts. Covering rare shifts may therefore require a large penalty $\\gamma \\gg 1$, expanding the ellipsoid in every direction and reducing accuracy on common environments. We propose CVaR anchor regression, which replaces the average of the squared mean residuals with a tail average. We prove an exact worst-case risk guarantee under a linear structural model that allows for heteroscedastic noise. CVaR anchor regression protects against shifts in a union of ellipsoids determined by second moments of the shifts in the worst $\\alpha$-fraction of environments. For $\\alpha$ small enough, this is the scaled convex hull of the training shifts and their negatives. It therefore covers all training shifts when $\\gamma \\geq 1$. Unlike CVaR or GroupDRO applied directly to prediction risks, CVaR anchor regression does not give environments more weight solely because their noise levels are high. Examples show how the method can improve protection against rare shifts while retaining accuracy on common environments. We illustrate the method on the New York City taxi dataset.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.241724+00:00"
+}

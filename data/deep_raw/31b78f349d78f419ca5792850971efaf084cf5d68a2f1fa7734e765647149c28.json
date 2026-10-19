@@ -1,0 +1,22 @@
+{
+  "id": "31b78f349d78f419ca5792850971efaf084cf5d68a2f1fa7734e765647149c28",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "One Permutation Is All You Need: Fast, Deterministic Feature Importance and Model Stress-Testing",
+  "url": "https://arxiv.org/abs/2512.13892",
+  "summary": "arXiv:2512.13892v3 Announce Type: replace-cross Abstract: Reliable estimation of feature contributions in machine learning models is essential for transparency, algorithmic fairness, and regulatory compliance. While permutation feature importance is widely used, classical implementations rely on repeated Monte Carlo shuffling, introducing significant computational overhead and stochastic instability. In this paper, we show that replacing $B$ random permutations with a single, max-min rank-optimal deterministic permutation maintains or improves correlation with ground-truth importance while eliminating estimation variance and reducing complexity from $O(B \\cdot n \\cdot p)$ to $O(n \\cdot p)$. Under location-scale feature distributions, we formally prove exact recovery of scale-adjusted linear regression coefficients, alongside improved importance estimation under concave model sensitivity. We extend this deterministic framework along two complementary dimensions. First, Systemic Feature Importance (SFI) integrates empirical feature correlations to quantify indirect feature reliance through proxy variables. Second, Importance Direction extends scalar importance to a signed, directional representation by measuring concordance between covariate displacements and output shifts. Extensive empirical validation across nearly 200 simulation scenarios demonstrates superior bias-variance trade-offs in high-dimensional and low signal-to-noise regimes. Finally, two real-world credit risk case studies show how coupling SFI with Importance Direction enables practitioners and regulators to audit models for both the magnitude and net sign of hidden reliance on protected attributes, delivering a principled, transparent, and scalable framework for model governance.",
+  "published": "2025-12-15T20:50:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.136399+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:19:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.13892v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.452088+00:00"
+}

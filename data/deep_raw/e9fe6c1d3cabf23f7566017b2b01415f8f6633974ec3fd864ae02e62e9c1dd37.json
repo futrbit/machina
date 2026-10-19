@@ -1,0 +1,21 @@
+{
+  "id": "e9fe6c1d3cabf23f7566017b2b01415f8f6633974ec3fd864ae02e62e9c1dd37",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+  "url": "https://arxiv.org/abs/2610.12285",
+  "summary": "arXiv:2610.12285v1 Announce Type: new Abstract: Learning to predict how the world evolves can provide vision-language-action (VLA) policies with predictive context for long-horizon control, but its effectiveness depends on what future representation is modeled and how it conditions action generation. We introduce PLaW-VLA, which models task-relevant future states in a pretrained prediction-oriented representation space, reducing the need to predict control-irrelevant visual details. Built on a Mixture-of-Transformers architecture, PLaW-VLA conditions action generation on observation history, current task semantics, and predicted future states through structured causal attention. Experiments show a +11.8 percentage-point (pp) gain over reactive policies on RoboTwin Hard Horizon III and a +1.77 pp gain over reconstruction-oriented latent prediction on zero-shot LIBERO-Plus, supporting improved long-horizon control and generalization under distribution shift, respectively. By avoiding low-level visual reconstruction, PLaW-VLA lowers the burden of future prediction, enabling a lightweight latent world model with parallel future prediction and about 1/19 the inference latency of generative world-action modeling at comparable policy performance.",
+  "published": "2026-10-08T16:41:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.748538+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:41:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12285v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.362732+00:00"
+}

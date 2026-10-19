@@ -1,0 +1,22 @@
+{
+  "id": "19dcf2cc2de99a7d0080aed1a0cd8e3a308c665f3fffe90ab081b7105dd1743b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Decoding Looped Transformers Better for (Almost) Free",
+  "url": "https://arxiv.org/abs/2610.02185",
+  "summary": "arXiv:2610.02185v1 Announce Type: new Abstract: Looped Transformers achieve parameter efficiency by repeatedly executing a shared block across recurrent loops. Each loop yields an intermediate representation decodable for the same next token, yet standard decoding discards earlier states. Because earlier loops embody less computation, recurrence inherently supplies aligned weak-and-strong prediction pairs without auxiliary models or external training. We introduce LoopCD, a training-free contrastive decoding framework that guides token selection by contrasting the final prediction with an earlier recurrent pass, operating either in logit space with one extra output pass (LoopCD-Logits) or in hidden-state space with zero output overhead (LoopCD-Hidden). Across four looped Transformer families, LoopCD delivers substantial, consistent gains at full recurrent depth: LoopCD-Logits raises Ouro-2.6B-Thinking's AIME 2024 pass@1 from 61.88% to 73.33%, while LoopCD-Hidden lifts Huginn's HumanEval pass@1 from 22.56% to 31.71%. Crucially, these performance gains enable halving the number of recurrent loops while still matching or exceeding full-depth unguided baselines, reducing forward FLOPs by 22.5% to 48.2%. By transforming intermediate recurrent states into effective guidance signals, LoopCD achieves superior decoding quality while substantially reducing inference compute.",
+  "published": "2026-10-01T17:58:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.803490+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:58:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02185v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.917805+00:00"
+}

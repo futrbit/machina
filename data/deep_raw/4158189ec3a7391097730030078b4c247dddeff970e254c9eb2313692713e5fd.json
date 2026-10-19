@@ -1,0 +1,21 @@
+{
+  "id": "4158189ec3a7391097730030078b4c247dddeff970e254c9eb2313692713e5fd",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Probabilistic Sensing, Deterministic Authority: Admitting Model-Produced Observations into Sufficiency-Checked Governance Contracts",
+  "url": "https://arxiv.org/abs/2610.10978",
+  "summary": "arXiv:2610.10978v1 Announce Type: cross Abstract: When a field that an authority contract needs exists only in unstructured evidence, a model can sense it. We admit the model's output only as an observation record with a score. An admission policy, with thresholds fitted on a held-out split at a declared false-positive ceiling, maps each score to true, false or unknown. Unknown denies. A deterministic, sufficiency-checked contract decides. The probability that sensing changes the verdict is bounded by the sum, over the contract's sensed fields, of the admitted-wrong and unknown rates. This is an instantiation of union-bound reasoning, indexed by the contract. Minimising the estimated bound is a valid cost model for choosing among sufficient contracts. In a registered study on two constructed domains with two sensor families (36,000 model calls), no cell refuted the bound. Deny-to-allow changes from sensing appeared for the first time in this programme: 13 of 21,000 test verdicts, all from 3 contradictory records; each flip in a cell with a registered bound lay under it. Sensing-aware selection picked the lower-exposure contract in 4 of 4 registered tests. Both sensors' scores were informative but not calibrated. Correctness is relative to the declared loss model, candidate representation and reachable states; all domains are constructed.",
+  "published": "2026-10-07T23:02:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.385380+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T23:02:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10978v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.810872+00:00"
+}

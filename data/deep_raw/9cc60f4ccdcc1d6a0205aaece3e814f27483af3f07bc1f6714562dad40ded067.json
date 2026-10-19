@@ -1,0 +1,21 @@
+{
+  "id": "9cc60f4ccdcc1d6a0205aaece3e814f27483af3f07bc1f6714562dad40ded067",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "ReBound: Reset-Free Reinforcement Learning for Agile Driving via Reset-Aware Semi-Markov Bootstrapping",
+  "url": "https://arxiv.org/abs/2604.07672",
+  "summary": "arXiv:2604.07672v2 Announce Type: replace Abstract: We present ReBound (reset-aware semi-Markov bootstrapping), a value-learning method for reset-free reinforcement learning (RL) that learns agile driving through real-world RL without human intervention after training starts. Reset-free RL explores by alternating between a forward policy that performs the task and a reset policy that restores a drivable state. Standard reset-free RL treats collisions as episode terminations in value-function bootstrapping, truncating the return at each collision. This conflicts with the reset-free objective, under which driving resumes after recovery, and acts as a hidden collision penalty absent from the reward function. ReBound instead applies semi-Markov bootstrapping: it treats the collision-causing action and the subsequent recovery as a single semi-Markov transition and bootstraps from the post-recovery value, discounted by the actual recovery time. We further apply reward centering to stabilize value learning in the resulting continuing task. In simulation and on a 1/10-scale vehicle, ReBound substantially outperforms conventional value-learning methods and model-based control.",
+  "published": "2026-04-09T00:28:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.482010+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:41:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.07672v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.033534+00:00"
+}

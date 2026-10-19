@@ -1,0 +1,17 @@
+{
+  "id": "ac6a2a50b5a5d2b921c9d46b340f7ab6dba073d79035437ca5713fe71b6dd89d",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SCOPE: Selective Certification of Program Edits for Embodied Heuristic Learning",
+  "url": "https://arxiv.org/abs/2610.23128",
+  "summary": "arXiv:2610.23128v1 Announce Type: new Abstract: Embodied heuristic learning must balance strategic adaptation with the preservation of previously successful behavior. Local repairs may leave structural failures unresolved, whereas broader revisions can introduce regressions that are costly to detect through repeated environment interaction. We introduce SCOPE (Selective Certification Of Program Edits), which uses failed and successful executions as complementary evidence for program revision. Frontier-guided program search annotates a shared diagnostic graph with execution evidence to distinguish supported progress from unresolved checks. Selective behavioral certification uses stateful API replay to restore recorded responses and mutations, checking whether edits preserve selected historical successes. Diagnosis and certification feedback, supplemented by sparse environment diagnostics, guide consecutive repairs across configurations. SCOPE outperforms the strongest baseline in both simulation and real-world tasks. On LIBERO-PRO and Robosuite, it achieves mean success rates of 80.66% and 84.48%, with respective gains of 6.51 and 3.48 percentage points. Our code is available at https://github.com/VDIGPKU/SCOPE.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.157650+00:00"
+}

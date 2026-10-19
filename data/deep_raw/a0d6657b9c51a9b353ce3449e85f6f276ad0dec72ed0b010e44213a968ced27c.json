@@ -1,0 +1,21 @@
+{
+  "id": "a0d6657b9c51a9b353ce3449e85f6f276ad0dec72ed0b010e44213a968ced27c",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "RACER: Residual-Adaptive Closed-Loop Estimation for Sampling-Based Planning in Wheeled-Quadruped Racing",
+  "url": "https://arxiv.org/abs/2610.07409",
+  "summary": "arXiv:2610.07409v1 Announce Type: new Abstract: We present RACER, a hierarchical control framework for wheel-based quadruped racing that combines an MPPI planner with a learned residual dynamics model and a low-level RL velocity tracker. The planner augments a nominal unicycle kinematic model with a neural residual term to capture the closed-loop tracking behavior of the RL policy. To train this residual model under limited real-world data, we propose Low-Rank Residual Adaptation (LoRRA), a two-stage approach that pre-trains on large-scale simulation data for broad coverage and then fine-tunes on a small real-world dataset with a low-rank constraint. In simulation, we empirically validate our engineering choices by showing (A) Residual dynamics improve the overall performance of our pipeline by capturing the tracking error of RL velocity tracker at high-speed cornering. (B) Residual dynamics trained with both source-domain and target-domain data gives racing performance significantly better than the residual dynamics trained with only target-domain data. (C) Low-rank constraint at target-domain adaptation gives higher success rates and higher performance than full-tune and from-scratch when domain gap in ground coefficient or joint gain increases.",
+  "published": "2026-10-05T21:17:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.455025+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:17:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07409v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.119481+00:00"
+}

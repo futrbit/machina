@@ -1,0 +1,21 @@
+{
+  "id": "9e69bca32850b559bc3db006e7529ff5f03aaefdd9056a006056a3fb1f2a712d",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Embedded Bare-Metal Radar-Inertial Odometry",
+  "url": "https://arxiv.org/abs/2610.07278",
+  "summary": "arXiv:2610.07278v1 Announce Type: new Abstract: Compact extraplanetary rovers and micro aerial vehicles require robust state estimation frameworks designed to operate under strict computational constraints in unforgiving environments. Typical solutions involving vision- or LiDAR-based sensing are computationally expensive and vulnerable to environments with perceptual degradation, making them poorly suited for resource-constrained platforms and austere conditions. Alternatively, Frequency Modulated Continuous Wave (FMCW) radar offers both robustness and computational efficiency by directly providing velocity measurements coupled with inherent resilience to perceptual degradation. These factors enable robust estimation, thereby reducing reliance on human operators for supervision to ensure platform safety in challenging environments. In this manuscript, we propose an embedded radar-inertial estimator tailored for low-compute platforms. All sensor drivers, data processing, and aided inertial navigation are performed on a single-core microcontroller, demonstrating its computational efficiency. Flight experiments show translational APE of $0.51-0.82\\,\\mathrm{m}$ and RPE of $<$3\\,\\% against motion capture, alongside closed-loop flight through an unmodified PX4 stack. The firmware and printed circuit board design are openly available on GitHub at \\href{https://github.com/ntnu-arl/embedded_rio}{ntnu-arl/embedded\\_rio} and \\href{https://github.com/ntnu-arl/embedded_rio-pcb}{ntnu-arl/embedded\\_rio-pcb} respectively.",
+  "published": "2026-10-05T19:16:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.453026+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:16:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07278v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.063515+00:00"
+}

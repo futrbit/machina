@@ -1,0 +1,21 @@
+{
+  "id": "30bcd55d41c300f48788d6ed67dc17d36806505bcbb700cba56757e302a85b19",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SWE-Journey: Towards More Realistic Evaluation of Coding Assistants through Long-Horizon, Multi-Turn Interaction",
+  "url": "https://arxiv.org/abs/2610.11559",
+  "summary": "arXiv:2610.11559v1 Announce Type: cross Abstract: Coding assistants such as Claude Code and Codex have become a major application of LLM agents, yet existing benchmarks remain far from real-world use, particularly in task horizon and interaction length. Code assistants require completing long chains of development work in continuously evolving repositories, while repeatedly clarifying requirements and adapting implementations through multi-turn interaction. To address these gaps, we introduce SWE-Journey, a benchmark for more realistic evaluation of coding assistants. To address the task-horizon gap, we propose a weak-to-strong synthesis pipeline that automatically constructs long-horizon coding tasks. To address the interaction gap, we mine four representative user personas from real interaction data and build a user-simulation agent to reproduce realistic code-assistance interactions. On average, models pass over 75% of tests for requested functionality with software architects, but fewer than 25% with non-coders. These results show that current coding assistants still fall short of enabling reliable coding for non-coders. We further analyze the reasons for this gap and identify asking right, finding right, and fixing right as key capabilities during interaction.",
+  "published": "2026-10-08T09:21:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.392374+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:21:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11559v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.431101+00:00"
+}

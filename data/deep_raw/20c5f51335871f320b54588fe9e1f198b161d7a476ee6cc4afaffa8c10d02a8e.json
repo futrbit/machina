@@ -1,0 +1,22 @@
+{
+  "id": "20c5f51335871f320b54588fe9e1f198b161d7a476ee6cc4afaffa8c10d02a8e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Contingent Exposure Routing for Financial AI: Outage Risk and the Cost of Indivisible Decisions",
+  "url": "https://arxiv.org/abs/2610.00239",
+  "summary": "arXiv:2610.00239v1 Announce Type: new Abstract: Model failover restores availability, but changes which financial institutions share decision errors. We formulate outage-contingent routing through a local market-impact response matrix and study expected squared price displacement. A symmetric construction shows that a shared backup can leave an order-one concentration floor as the number of primary endpoints grows, while balanced fallback risk decreases inversely with the surviving endpoint count. For indivisible decisions, we derive the exact second moment of independent randomized routing and an effective-exposure granularity that determines its gap from fractional allocation. Conditional-expectation rounding gives a finite-agent bound without coupled quotas; a separate swap procedure preserves endpoint counts and is assessed against dual lower bounds. Across 60 synthetic portfolio networks and 11,340 scenario evaluations, the latter reduces risk by 6.57% and 10.53% for single and double endpoint removals at the central feedback setting with independent errors. A replay of 1,024 recorded API responses on constructed rebalancing tasks gives a smaller held-out reduction of 3.30% (paired bootstrap interval 2.07--4.57%). Strongly aligned errors, inferior endpoints, and indivisibility limit diversification. The contribution is an auditable routing stress test and implementation analysis, not an estimate of real-market crash probabilities.",
+  "published": "2026-09-23T06:56:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.768513+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-23T06:56:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00239v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.139278+00:00"
+}

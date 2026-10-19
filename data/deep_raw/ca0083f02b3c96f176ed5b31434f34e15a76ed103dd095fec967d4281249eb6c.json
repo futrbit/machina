@@ -1,0 +1,22 @@
+{
+  "id": "ca0083f02b3c96f176ed5b31434f34e15a76ed103dd095fec967d4281249eb6c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ChainLoRA: Geometry-Preserving Task Vector Merging for Continual Learning in LLMs",
+  "url": "https://arxiv.org/abs/2610.00431",
+  "summary": "arXiv:2610.00431v1 Announce Type: cross Abstract: Continual parameter-efficient fine-tuning for large language models (LLMs) must balance retention of previously acquired knowledge, adaptation to new tasks, and strict parameter budgets. We present \\textbf{ChainLoRA}, a replay-free continual merging framework built on chain-updated task-vector geometry. From a parameter-merging perspective, we formulate a geometric view of forgetting through a measurable interaction between task updates, separating directional overlap from coefficient coupling. Building on this view, ChainLoRA combines chain-updated training with post-stream adaptive SVD merging. During training, initialization and a one-sided orthogonality proxy use only the last carrier, keeping their historical-state footprint and regularization overhead constant as the task stream grows. At merging time, Adaptive SVD extracts a shared carrier and aligns it to the latest task through Procrustes adaptation. Our theoretical analysis shows that Procrustes adaptation facilitates geometric approximate separation of shared and task-specific components. The one-sided proxy further bounds inter-task interference. An effective-rank penalty additionally promotes efficient utilization of the task subspace during continual learning. Experiments show that ChainLoRA achieves state-of-the-art performance among the evaluated replay-free methods on the Large and SuperNI benchmarks, while remaining competitive on Standard CL and attaining almost the closest average scores to the evaluated replay-based method across all three benchmarks.",
+  "published": "2026-09-30T16:43:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.808487+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T16:43:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00431v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.989957+00:00"
+}

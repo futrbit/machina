@@ -1,0 +1,22 @@
+{
+  "id": "e3f233035cb45f0184d1d59b5e08c312d2abcd361eab00eabec115e5ee19d0c4",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SAGE: Source-Anchored Guidance via Frequency Equalization for Hierarchical RGB-T Alignment and Fusion",
+  "url": "https://arxiv.org/abs/2609.30703",
+  "summary": "arXiv:2609.30703v1 Announce Type: new Abstract: Spatial misregistration and cross-modal discrepancies often cause ghosting, structural blurring, and content imbalance in RGB-T fusion. Existing methods typically decouple appearance adaptation, geometric alignment, and information fusion, limiting dependency propagation across stages. We propose Source-Anchored Guidance via Frequency Equalization for Hierarchical RGB-T Alignment and Fusion (SAGE), a unified framework integrating frequency equalization, hierarchical alignment, and subband fusion. SAGE employs invertible joint encoding and source-specific low-frequency modulation to derive structural and gain guidance while preserving source information. Hierarchical frequency collaborative alignment estimates global affine geometry from low-frequency approximations and transfers geometric and contextual cues to high-frequency correlation reasoning for reliability-aware residual refinement. Guided subband fusion jointly aggregates the aligned frequency coefficients under propagated source and alignment guidance, coordinates complementary low- and high-frequency information, and reconstructs the fused image through the inverse wavelet transform. Extensive experiments on RGB-T datasets with real-world and synthetic misalignments demonstrate consistently competitive performance in alignment and fusion, validating the effectiveness of source-anchored guidance for weakly registered RGB-T images.",
+  "published": "2026-09-25T02:22:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.219742+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T02:22:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30703v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.512049+00:00"
+}

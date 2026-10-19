@@ -1,0 +1,21 @@
+{
+  "id": "fb367f477bbaa5cf34ea8d90edc2a8cf3271e0a54df17e540f8a0851cc4420ba",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
+  "url": "https://arxiv.org/abs/2610.12126",
+  "summary": "arXiv:2610.12126v1 Announce Type: new Abstract: General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new requests and environments. Our key insight is to let the MLLM focus on interpreting requests, understanding scenes, and making decisions while preserving its general-purpose capabilities and delegating motion execution to navigation tools. To realize this idea, we introduce SuperNav, which equips a pretrained MLLM with a specialized agent harness without navigation-specific fine-tuning of the MLLM. Our harness supports these decisions with Navigation Skills, agent-oriented Tools for physical interaction, and task-progress and context management. A unified visual-point interface connects decision-making to motion by allowing the model to specify destinations directly in images and revise its decisions from execution feedback. Together, these components support sustained navigation across different task requirements and environments. SuperNav outperforms four evaluated baselines on instance-level, multi-object, and demand-driven tasks. Category-level evaluation on HM3D and deployment on a real quadruped robot further demonstrate its applicability across environments. Project Page: https://zju3dv.github.io/SuperNav/",
+  "published": "2026-10-08T15:19:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.745540+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:19:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12126v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.030138+00:00"
+}

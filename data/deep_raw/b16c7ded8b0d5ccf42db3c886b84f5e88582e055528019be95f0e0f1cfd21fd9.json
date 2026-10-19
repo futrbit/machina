@@ -1,0 +1,22 @@
+{
+  "id": "b16c7ded8b0d5ccf42db3c886b84f5e88582e055528019be95f0e0f1cfd21fd9",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Seeing Through the Glare: A Multi-Source Benchmark and Ocular-Adaptive Pixel MeanFlow for Eyeglass Reflection Removal",
+  "url": "https://arxiv.org/abs/2610.10703",
+  "summary": "arXiv:2610.10703v1 Announce Type: new Abstract: Eyeglass reflection removal is important across smartphone imaging, video conferencing, and other face-centric visual applications. The task is challenging because reflections range from mild photometric contamination to severe ocular occlusion, requiring selective correction and plausible reconstruction without altering identity or natural appearance. Existing datasets cover limited reflection conditions, constraining generalization to complex real-world scenes and systematic evaluation. We introduce \\textbf{OcuBench}, a multi-source benchmark comprising 10,280 controllable synthetic pairs, 732 real-input pseudo-pairs, and 458 independent real-world test images, supporting both paired evaluation and assessment beyond generated supervision. We further propose \\textbf{OcuFlow}, an ocular-adaptive pixel MeanFlow (pMF) framework for efficient, detail-preserving restoration. It combines geometry-adaptive representation with one-step pMF to focus reconstruction on reflection-obscured ocular regions, together with native-resolution frequency-preserving synthesis to retain reliable observed details. Experiments across diverse reflection conditions demonstrate that OcuFlow achieves consistent advantages in reflection removal quality, ocular fidelity, and efficiency. In a blind user study, it receives $67.32\\%$ of selections, $6.2\\times$ the next-best share. Both the code and dataset will be released.",
+  "published": "2026-10-07T18:00:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.735057+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:00:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10703v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.623178+00:00"
+}

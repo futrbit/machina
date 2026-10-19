@@ -1,0 +1,21 @@
+{
+  "id": "c19674fc14d5171e5dfdbaca20fab37a4799794c87025cad72e2cfcbba2ec698",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "UniData: Universal Multimodal Instruction Generation Pipeline",
+  "url": "https://arxiv.org/abs/2610.11363",
+  "summary": "arXiv:2610.11363v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) are increasingly being applied in a wider range of real-world scenarios. However, due to the substantial labor cost, creating high-quality multimodal instruction datasets for MLLMs remains a significant challenge. Although some methods propose to generate instruction data, they often face limitations in modality support and struggle with generating multi-round instructions. To address these problems, we introduce UniData, a universal instruction generation pipeline, to transform simple user requirements into multi-round, multimodal instructions. Specifically, UniData first expands user requirements into multiple diverse events. Using these events, UniData then integrates an any-to-any large model for multimodal instruction generation. Finally, UniData enhances data quality by correcting irrelevant and redundant inference flow, leveraging correlations between instruction rounds. To train this pipeline, we also build UniDataset, a dataset comprising 20,000 entries across nine modalities for improved multimodal generation. Our experiments demonstrate that UniData achieves SOTA performance in data quality and can also enhance the understanding and generation capabilities of other multimodal models.",
+  "published": "2026-10-08T06:52:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.367389+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:52:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11363v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.879025+00:00"
+}

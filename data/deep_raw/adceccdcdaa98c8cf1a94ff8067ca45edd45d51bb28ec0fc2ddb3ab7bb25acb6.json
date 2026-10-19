@@ -1,0 +1,22 @@
+{
+  "id": "adceccdcdaa98c8cf1a94ff8067ca45edd45d51bb28ec0fc2ddb3ab7bb25acb6",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Tracking Is Not Permanence: What Video World Models Keep of a Hidden Object",
+  "url": "https://arxiv.org/abs/2610.07355",
+  "summary": "arXiv:2610.07355v1 Announce Type: new Abstract: Video world models track objects they can see; we ask what they keep of objects they cannot. We hide an object from a frozen V-JEPA 2 predictor and compare its prediction for the hidden region with the encoder's representation of two worlds that differ only inside that region. The predictor's decision keeps a stationary object in part and one carried inside a container not at all, and loses a moving one within 0.3 s (0.5 s under V-JEPA's own tube mask; ViT-H keeps it to 1.1 s at pretraining's 90% masking ratio); in projection a trace remains, below the midpoint, at 14-60% of what a baseline copying the last view retains. The information is there: the encoder reads the object's presence at 1.00 and keeps a closed container's contents decodable for 3.5 s, while the predictor's output, read with the encoder's own probe, contains the ball in 2% of scenes once the box has been closed for half a second. On rendered scenes, permanence is missing on the predictor's side, and training installs it cheaply as a prior: three thousand predictor-only steps on synthetic containers take this belief from 0.05 to 1.00 against two matched controls. They also raise IntPhys-2019 from 84.2% to 93.3%, but so does a curriculum without containers, and which training habit the benchmark credits changes with its scoring rule. Continued training with tube masks produces 1.1-1.6 s of moving-object carry-over on manipulation and internet-style video, so the deficit is not intrinsic to latent prediction. VideoMAE keeps almost nothing, and Cosmos's next-token prediction keeps a stationary hidden object but not one carried inside a moving container.",
+  "published": "2026-10-05T20:22:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.513386+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:22:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07355v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.467271+00:00"
+}

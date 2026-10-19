@@ -1,0 +1,17 @@
+{
+  "id": "8cb8d3ce21c7d5f1fd300a78212d5edfc5374f9f140004012d7a4c1f1bbf08d4",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Analytic Robot Self-Model: Learning Screw-Axis Kinematics for Rendering and Model-Based Control",
+  "url": "https://arxiv.org/abs/2610.15558",
+  "summary": "arXiv:2610.15558v2 Announce Type: replace Abstract: Visual self-modelling lets robots learn body models from observations, but such models usually encode kinematics implicitly rather than exposing metric joint parameters for computation and control. Moreover, a good fit to images does not by itself establish accurate kinematics. Here we present an explicit analytic robot self-model that requires neither deformation networks nor URDF/CAD templates. Multi-view images and joint readings establish Gaussian appearance and provide motion evidence for rigid link assignments, whereas sparse end-effector poses independently identify metric screw axes. The resulting closed-form forward kinematics and analytic Jacobian can be evaluated beyond the fitting ranges. We validate the model on a simulated seven-axis arm, a simulated twelve-joint quadruped and a real six-axis arm. In simulation, it achieves millimetre-level reaching and pick-and-place, as well as closed-loop quadruped walking. On the real arm, it renders held-out configurations, predicts end-effector positions with a median error of 6.4 mm, compared with 11.7 mm for a calibrated nominal model, and supports reaching with external marker feedback. A controlled comparison shows that image fit alone is not enough: two Panda models differing only in their joint axes are 0.55 dB apart in PSNR, yet their end-effector prediction errors differ 13.7-fold.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.161647+00:00"
+}

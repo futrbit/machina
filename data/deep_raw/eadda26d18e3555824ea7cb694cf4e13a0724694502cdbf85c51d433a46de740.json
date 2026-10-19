@@ -1,0 +1,22 @@
+{
+  "id": "eadda26d18e3555824ea7cb694cf4e13a0724694502cdbf85c51d433a46de740",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Time-multiplexed layer reuse for physical neural networks",
+  "url": "https://arxiv.org/abs/2511.00044",
+  "summary": "arXiv:2511.00044v4 Announce Type: replace Abstract: Physical neural networks (PNNs) are promising candidates for next-generation computing, but existing demonstrations remain several orders of magnitude smaller than modern digital neural networks, whose recent advances have been driven by rapid growth in trainable parameters. This situation resembles the constraints of early digital neural networks, which led to ideas around parameter reuse. We investigate what similarly efficient hardware architectures may look like, focusing specifically on the common bottleneck of slow re-adjustment of the weights in PNNs. We propose the Time-Indexed Deep Alternating Layers Network (TIDAL-Net), which occupies an intermediate regime between recurrent and deep neural networks, specifically aimed at the scales and restrictions of common PNN prototypes. TIDAL-Net leverages the timescale separation found in many PNNs between fast forward dynamics and slowly trainable weights and biases, using layer-by-layer time multiplexing to increase effective depth while limiting implementation cost. Numerical experiments on image classification and natural language processing tasks show that TIDAL-Net improves performance with only minor modifications to conventional PNNs.",
+  "published": "2025-10-28T07:25:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.111467+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:33:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2511.00044v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.368728+00:00"
+}

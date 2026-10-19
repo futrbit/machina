@@ -1,0 +1,21 @@
+{
+  "id": "64a0d6a61814f94db8543a3af5b9fa69085ba4b68527f6c6bb23ee1c256c6603",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Which alloy composition,what process parameters? Inferring the recipe from optimized metallic microstructure and texture",
+  "url": "https://arxiv.org/abs/2610.08165",
+  "summary": "arXiv:2610.08165v1 Announce Type: new Abstract: The mechanical properties of a metallic alloy are set by its microstructure and texture: the size and shape of its grains and the orientation of their crystals. That structure is in turn set by a recipe, the alloy composition together with the processing parameters. Alloy development runs this chain forwards, tuning the structure until a target property is met. Running it backwards, from an optimized structure to the recipe that would produce it, still relies on expert knowledge. We ask whether this backwards step can be learned. On an in-house dataset of 107 magnesium alloy extrusion conditions across 14 alloys, each with optical micrographs and an X-ray texture measurement, we compare three descriptors of microstructure and texture: conventional grain and texture statistics, a vision embedding from a pretrained image encoder, and a graph neural network on the grain network. Each is paired with prediction heads for two tasks: the alloy composition given the process (Task A), and the process parameters given the composition (Task B). Under 5-fold cross-validation, the conventional descriptors identify the correct alloy for 65% of held-out conditions, against 17% for always guessing the most common alloy, while the learned embeddings stay below 30%. The process parameters are recoverable but noisier: compared with using the composition alone, the microstructure roughly halves the temperature error. Because only a few alloys were cast and only a few press settings were used, both answers are discrete, and heads that pick from these known options, while respecting their order, worked better than heads that predict a free value.",
+  "published": "2026-10-06T11:22:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.144816+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:22:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08165v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.860240+00:00"
+}

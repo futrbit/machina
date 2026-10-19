@@ -1,0 +1,21 @@
+{
+  "id": "84478abb0124e13197ac6721eb37b3ca5b3a98a664ea40b838d77f32fa9dc0dd",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Safe, Persistent, and Evolving Agent Harness for Understanding Partially Observable Worlds",
+  "url": "https://arxiv.org/abs/2610.11552",
+  "summary": "arXiv:2610.11552v1 Announce Type: new Abstract: Large language model agents can invoke tools fluently, but enterprise workflows demand more than selecting the right tools: actions must strictly comply with organizational policies, tool feedback often conceals hidden side effects under partial observability, and long-horizon tasks require persistent state tracking across multiple records. To address these challenges, we introduce E-Ledger, a multi-agent harness for safe and persistent execution. E-Ledger employs a code approval layer that checks every proposed action against policy before execution, and maintains a world ledger of verified hidden rules alongside evidence-backed dynamic state. Because hidden rules are typically unknown a priori, we further propose WorldAbduct, an abductive, world-model-driven harness evolution framework. WorldAbduct diagnoses execution trajectories across four complementary views (state consistency, world-observation gap, policy-gate correctness, and goal judgment) to hypothesize latent rules, and verifies them through targeted abductive interactions before integrating them into the ledger. On the enterprise benchmark World of Workflows, E-Ledger with WorldAbduct improves safe task completion across four LLM backbones, outperforming the strongest evolution baseline by 5--15 percentage points. Experiments in ScienceWorld and DiscoveryWorld further show that abductive harness evolution carries over to scientific environments. Our code is available at https://github.com/HKUST-KnowComp/E-LEDGER-WorldAbduct.",
+  "published": "2026-10-08T09:15:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.369388+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:15:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11552v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.521842+00:00"
+}

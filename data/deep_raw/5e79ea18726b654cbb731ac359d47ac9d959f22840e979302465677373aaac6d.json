@@ -1,0 +1,22 @@
+{
+  "id": "5e79ea18726b654cbb731ac359d47ac9d959f22840e979302465677373aaac6d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models",
+  "url": "https://arxiv.org/abs/2511.00053",
+  "summary": "arXiv:2511.00053v2 Announce Type: replace Abstract: The design of learning objectives is central to training time-series forecasting models. Existing learning objectives such as mean squared error mostly treat each future step as an independent, equally weighted task, which leads to the following two challenges: (1) they overlook the label autocorrelation effect among future steps, leading to biased learning objectives; (2) they fail to set heterogeneous task weights for different forecasting tasks corresponding to varying future steps, limiting the forecasting performance. To fill this gap, we propose a novel quadratic-form weighted learning objective, addressing both issues simultaneously. Specifically, the off-diagonal elements of the weighting matrix account for the label autocorrelation effect, whereas the non-uniform diagonals are expected to match the preferred weights of the forecasting tasks with varying future steps. On this basis, we propose a Quadratic Direct Forecast (QDF) learning algorithm, which trains the forecast model using the adaptively updated quadratic-form weighting matrix. Experiments show that our QDF effectively improves the performance of various forecast models, achieving state-of-the-art results. Code is available at https://github.com/Master-PLC/QDF.",
+  "published": "2025-10-28T14:48:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.111467+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:23:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2511.00053v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.949786+00:00"
+}

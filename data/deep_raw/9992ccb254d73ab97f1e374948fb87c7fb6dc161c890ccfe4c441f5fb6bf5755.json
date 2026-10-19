@@ -1,0 +1,21 @@
+{
+  "id": "9992ccb254d73ab97f1e374948fb87c7fb6dc161c890ccfe4c441f5fb6bf5755",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "A Dual-Hypothesis Reasoning Framework for LLM Guardrails",
+  "url": "https://arxiv.org/abs/2607.17575",
+  "summary": "arXiv:2607.17575v3 Announce Type: replace Abstract: We propose ARBITER, a novel LLM guardrail framework that introduces two key ideas: (i) dual-hypothesis reasoning, a reasoning method for LLM guardrails that explicitly considers both safe and unsafe interpretations of a prompt before making a safety decision, and (ii) multi-component supervised fine-tuning (MC-SFT), a structured training loss for reasoning-based guardrails that decomposes LLM outputs into logical components and weights them according to their importance. Existing reasoning-based guardrails often rely on expensive procedures, such as generating reasoning traces using larger or closed-source teacher models and applying full-parameter fine-tuning. In contrast, ARBITER uses a cost-effective self-generation strategy for reasoning traces and LoRA-based parameter-efficient fine-tuning while still achieving better performance than these expensive approaches. Additionally, ARBITER provides faithful evidence-phrase explanations for unsafe decisions, enabling a more transparent and interpretable guardrail method. Experiments on three safety moderation benchmarks show that ARBITER outperforms existing reasoning-based and non-reasoning guardrail baselines, with clear gains in out-of-domain evaluations.",
+  "published": "2026-07-20T05:42:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.407366+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T17:23:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.17575v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.949584+00:00"
+}

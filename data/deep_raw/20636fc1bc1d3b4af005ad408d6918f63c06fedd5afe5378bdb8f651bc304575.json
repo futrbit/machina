@@ -1,0 +1,22 @@
+{
+  "id": "20636fc1bc1d3b4af005ad408d6918f63c06fedd5afe5378bdb8f651bc304575",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Exact information accounting for SGD methods",
+  "url": "https://arxiv.org/abs/2610.00446",
+  "summary": "arXiv:2610.00446v1 Announce Type: new Abstract: As an alternative to the standard geometric analyses, we give an exact, information-theoretic analysis of stochastic gradient descent (SGD) and its variants. We show that a preconditioned SGD step is the posterior-mean update of a Gaussian Bayes model, and that its one-step regret splits into an intrinsic-time cost and a change in comparator information. The split extends to an identity for the objective itself. Convex convergence, strict-saddle-point escape, the link between flatness and generalization, the standard learning-rate schedules, adaptive optimizers, and the noisy, momentum, heavy-tailed, and gradient-free variants of SGD each correspond to a term or a special case of this identity. We measure its terms on synthetic and real training runs. On real networks it attributes the slack of classical convergence bounds to the terms their derivations drop and separates optimizers that reach the same training loss. That separation follows the number and consistency of their steps. Its relation to which of them generalizes better differs between networks. For gradient-free SGD the identity determines how a curvature preconditioner should enter the update. The sharpness-based generalization certificate it yields, with a data-independent isotropic prior, is vacuous at network scale unless the curvature spectrum is nearly flat across all parameters.",
+  "published": "2026-09-30T17:53:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.774509+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T17:53:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00446v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.108297+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "f7d7c9ca4805815c7db9d4aefbcf4277a22a0fdb076fcd3910e65033d359fe4d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "GraphPilot: Grounded Scene Graph Conditioning for Language-Based Autonomous Driving",
+  "url": "https://arxiv.org/abs/2511.11266",
+  "summary": "arXiv:2511.11266v5 Announce Type: replace Abstract: Vision-language models have recently emerged as promising planners for autonomous driving, where success hinges on reasoning over spatial structure and dynamic interactions from multimodal input. However, existing models are typically trained without supervision that explicitly encodes relational dependencies, requiring them to infer interactions between traffic entities implicitly from raw sensor data. In this work, we introduce GraphPilot, a model-agnostic approach that conditions language-based driving models on structured relational context in the form of traffic scene graphs. We serialize scene graphs at different abstraction levels and formats and inject them through structured prompts without modifying the underlying architecture or training objective. Extensive closed-loop evaluations on LangAuto and Bench2Drive show persistent improvements across LMDrive, BEVDriver, and SimLingo. Controlled ablations and hidden-state probing further indicate that relational supervision contributes substantially to these improvements while increasing the decodability of scene relations. Open-loop SpaceDrive results on nuScenes further demonstrate transfer to real-world data. These results indicate that diverse architectures can effectively internalize and ground relational priors through scene graph-conditioned training, even without requiring scene graph input at test-time. Code, fine-tuned models, and our scene graph dataset are publicly available at https://github.com/iis-esslingen/GraphPilot.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.055085+00:00"
+}

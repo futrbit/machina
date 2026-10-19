@@ -1,0 +1,22 @@
+{
+  "id": "d2b25172d6769a02cf548b8bddfb43c493830d78ae27f872a48aedd163c81f27",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Point-Focused Attention Meets Context-Scan State Space: Robust Biological Visual Perception for Point Cloud Representation",
+  "url": "https://arxiv.org/abs/2610.11342",
+  "summary": "arXiv:2610.11342v1 Announce Type: new Abstract: Synergistically capturing intricate local structures and global contextual dependencies has become a critical challenge in point cloud representation learning. To address this, we introduce PointLearner, a point cloud representation learning network that closely aligns with biological vision which employs an active, foveation-inspired processing strategy, thus enabling local geometric modeling and long-range dependency interactions simultaneously. Specifically, we first design a point-focused attention, which simulates foveal vision at the visual focus through a competitive normalized attention mechanism between local neighbors and spatially downsampled features. The spatially downsampled features are extracted by a pooling method based on learnable inducing points, which can flexibly adapt to the non-uniform distribution of point clouds as the number of inducing points is controlled and they interact directly with point clouds. Second, we propose a context-scan state space that mimics eye's saccade inference, which infers the overall semantic structure and spatial content in the scene through a scan path guided by the Hilbert curve for the bidirectional S6. With this focus-then-context biomimetic design, PointLearner demonstrates remarkable robustness and achieves state-of-the-art performance across multiple point cloud tasks.",
+  "published": "2026-10-08T06:37:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.745053+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:37:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11342v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.103888+00:00"
+}

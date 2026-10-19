@@ -1,0 +1,22 @@
+{
+  "id": "edeffd0d2358bbf2c2b3f255bc1a8d2853e9a516cd41c16c6de4f759b0823433",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Removing spurious minima for planar features by skip connections",
+  "url": "https://arxiv.org/abs/2610.01728",
+  "summary": "arXiv:2610.01728v1 Announce Type: new Abstract: Understanding loss landscapes is central to explaining neural-network training, yet their structure remains only partially understood even in simple models. We study the Gaussian population loss of shallow, bias-free ReLU networks in the teacher--student setting. This provides a simple model for studying essential aspects such as feature learning and overparameterization. For teacher networks with positive output weights and planar features, we show that including a learned linear skip removes all spurious local minima with non-negative student output weights once the student network is at least as wide as the teacher network. In contrast, without the skip, we construct a fixed teacher network with positive output weights and only three hidden neurons in input dimension two whose spurious local minima persist at every student width at least three. Thus, a learned linear skip can remove spurious minima that persist under arbitrary overparameterization. Furthermore, we show that a positive output weight student network always learns the subspace spanned by the teacher features: student features at local minima with non-negative student output weights lie in the span of the teacher features. For ReLU networks in two dimensions, even heavily overparameterized student networks have effective width controlled by the teacher width: every critical point with positive student output weights has at most twice as many distinct student feature directions as teacher neurons. Finally, we transfer the benignity result to empirical minima over parameter balls of any prescribed radius, with the required sampling accuracy depending on that radius.",
+  "published": "2026-10-01T14:01:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.796494+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-03T18:52:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01728v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.405706+00:00"
+}

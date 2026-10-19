@@ -1,0 +1,22 @@
+{
+  "id": "4f1dbf91bbf326cb7e847f8dfae87d98968e029a970b7933469d8ebcd3c1cb9e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "HuC-VideoMAE: Human-Centric Video Masked Autoencoding from synthetic data",
+  "url": "https://arxiv.org/abs/2610.08433",
+  "summary": "arXiv:2610.08433v1 Announce Type: new Abstract: Modern action recognition models rely on video transformers pretrained on massive collections of web-crawled videos, such as Kinetics-700. However, the use of such data raises ethical concerns, as subjects' consent is typically not obtained. Recent high-quality synthetic video datasets generated from motion-capture data, such as BEDLAM2.0, offer a promising ethical alternative. In this work, we investigate self-supervised pretraining of video transformers on synthetic human-motion datasets. We first show that directly applying the standard VideoMAE masking strategy leads to substantially worse performance than pretraining on Kinetics. To address this limitation, we propose a human-centric masking scheme that leverages body keypoints and person bounding box regions. Our approach encourages the model to focus on the structure and dynamics of human motion during pretraining. Experiments on NTU RGB+D and Toyota-Smarthome demonstrate that our method significantly outperforms standard VideoMAE pretraining on synthetic data, closing 49% of the gap to Kinetics pretraining on NTU RGB+D cross-view-subject without using a single real frame during pretraining. To promote the use of ethical action recognition models, we will publicly release our pretrained models.",
+  "published": "2026-10-06T14:30:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.525380+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:30:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08433v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.469476+00:00"
+}

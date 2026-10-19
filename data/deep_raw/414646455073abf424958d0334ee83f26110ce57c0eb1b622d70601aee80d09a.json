@@ -1,0 +1,22 @@
+{
+  "id": "414646455073abf424958d0334ee83f26110ce57c0eb1b622d70601aee80d09a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Risk-Conditioned Fine-Tuning of Large Language Models",
+  "url": "https://arxiv.org/abs/2609.08064",
+  "summary": "arXiv:2609.08064v3 Announce Type: replace Abstract: Large Language Models (LLMs) are increasingly deployed in settings where rare but severe harmful generations can have significant consequences. Existing Risk-Averse RLHF addresses this issue by optimizing Conditional Value-at-Risk (CVaR), but it trains policies for fixed risk levels and therefore cannot adjust the desired degree of risk aversion at inference time. In this paper, we propose risk-conditioned RLHF, a framework that trains a single policy that provides a continuous risk-control interface, enabling users to select different degrees of risk aversion without retraining or deploying multiple risk-specific models. Experiments across multiple benchmarks demonstrate that a single risk-conditioned policy can adapt to different risk levels at inference time, enabling more flexible and risk-aware LLM deployment.",
+  "published": "2026-09-08T00:12:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.128406+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:15:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.08064v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.809873+00:00"
+}

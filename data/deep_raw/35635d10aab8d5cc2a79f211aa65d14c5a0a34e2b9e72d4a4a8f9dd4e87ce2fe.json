@@ -1,0 +1,21 @@
+{
+  "id": "35635d10aab8d5cc2a79f211aa65d14c5a0a34e2b9e72d4a4a8f9dd4e87ce2fe",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "The Robot Is Not Its Description: GaugeBench for Representation Robustness in Morphology-Aware Policies",
+  "url": "https://arxiv.org/abs/2610.07597",
+  "summary": "arXiv:2610.07597v1 Announce Type: new Abstract: A robot description does more than specify a physical mechanism: it also encodes arbitrary conventions, such as joint-axis direction, joint-angle zero, and the order and names of links and joints. Morphology-aware policies consume interfaces built from these descriptions, yet cross-embodiment evaluation typically changes the robot while keeping those conventions fixed. This leaves a simple question unanswered: does behavior survive when the robot stays fixed but its description changes? GaugeBench isolates this case by rewriting a fixed mechanism under physically equivalent conventions, verifying that its physics and policy interface are preserved, and then evaluating the same policy weights. The result is stark: three MetaMorph policies score 4030.6 on 80 familiar robots, but only 51.6 when those same robots are equivalently re-described, while 98 genuinely held-out robots score 1489.6. A new description can therefore be more damaging than a new robot. Tracing the failure reveals that axis reversal alone reproduces the collapse, joint-angle zero changes are nearly harmless, and reordering lies between them; moreover, changing joint-state and torque coordinates alone is sufficient to cause the failure, while changing description-derived features alone is not. The same phenomenon appears in ModuMorph and an unrelated PyBullet framework. Yet it is not irreversible: exact two-description transport restores the original controller, and training across equivalent axis conventions raises retained return under axis reversal from 3.6% to 80.6%. Together, these results separate mechanism robustness from representation robustness and show that cross-embodiment evaluation should test both.",
+  "published": "2026-10-06T01:37:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.457024+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:37:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07597v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.611992+00:00"
+}

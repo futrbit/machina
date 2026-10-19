@@ -1,0 +1,21 @@
+{
+  "id": "27dad464a9b70e0542d9d24ece64f507794f0371756bb7b34c2bdcea034e628f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Calibration Is Not Control: Intervention Value for LLM-Agent Oversight",
+  "url": "https://arxiv.org/abs/2606.21399",
+  "summary": "arXiv:2606.21399v2 Announce Type: replace Abstract: Runtime oversight often intervenes when an LLM agent's calibrated failure score crosses a threshold. Yet states with the same failure risk can differ in whether intervention helps. Strictly increasing recalibration preserves the threshold policy class and cannot recover this distinction. We formalize when a summary is sufficient for intervention decisions and the utility lost when it is not. We evaluate the consequences by replaying agent prefixes and executing alternative actions from the same state. On ALFWorld, holding features, estimator, and router fixed while changing the supervision target from failure to intervention utility lowers regret from 0.51 to 0.09; the gain replicates on a second suite of mid-episode prefixes. A deployable intervention-trained scalar also beats the failure-score threshold rule selected on test outcomes. Online, on 300 unseen tasks with a fixed stronger-model handoff, a frozen prefix-feature controller improves utility over failure-triggered routing, handing off less often (35% vs 48%) and succeeding more often (45% vs 37%). Gains depend on intervention value and are small on two reasoning benchmarks. Oversight signals should be evaluated by the decisions they support alongside their predictive quality. Code is available at https://github.com/bennidict23/calibration-is-not-control.",
+  "published": "2026-06-19T13:08:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.183795+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:18:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.21399v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.255207+00:00"
+}

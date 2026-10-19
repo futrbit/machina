@@ -1,0 +1,22 @@
+{
+  "id": "ca82fdb439ff983fa661af70e25c0bf9553396948f11870b80799b45a59ec583",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "VolS-GS: Relightable Gaussian Splatting with Volumetric Subsurface Scattering",
+  "url": "https://arxiv.org/abs/2610.04007",
+  "summary": "arXiv:2610.04007v2 Announce Type: replace Abstract: We present VolS-GS, a relightable Gaussian splatting framework that reconstructs objects from one-light-at-a-time (OLAT) captures and renders them under novel lighting and viewpoints. Relightable Gaussian Splatting methods typically model appearance independently at each primitive, which makes non-local effects difficult to represent. This limitation is particularly apparent for subsurface scattering, where light entering the object at one location can emerge at another. Rather than modeling this effect solely with a neural network or a local kernel at each primitive, we use the spatial support of the Gaussian scene as the domain of a differentiable finite-volume transport solver, so that light can propagate through the object's interior. A small network predicts scattering and absorption coefficients for each Gaussian, and the solve redistributes incident light through the resulting field. The coefficients are fit to images rather than measured, so the solve supplies a transport-shaped path for aggregating per-primitive appearance, not a measurement of the material. To keep the learned shadow and specular terms from taking over the other components, our shadow term is predicted from visibility together with the transmittances and the scattering the solve produces, and a regularizer suppresses specular highlights in regions the shadow term predicts to be unlit. Experiments on three OLAT benchmarks show that VolS-GS consistently improves relighting quality on held-out lights and views.",
+  "published": "2026-10-02T20:09:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.550364+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:06:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.04007v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.999950+00:00"
+}

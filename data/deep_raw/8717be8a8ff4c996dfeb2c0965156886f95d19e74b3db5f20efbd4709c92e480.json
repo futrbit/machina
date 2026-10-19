@@ -1,0 +1,22 @@
+{
+  "id": "8717be8a8ff4c996dfeb2c0965156886f95d19e74b3db5f20efbd4709c92e480",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "The segmentation ceiling: why explicit left-ventricular masks do not improve learned ejection-fraction regression",
+  "url": "https://arxiv.org/abs/2609.19730",
+  "summary": "arXiv:2609.19730v2 Announce Type: replace-cross Abstract: Accurate estimation of left ventricular ejection fraction (EF) from echocardiography is central to cardiovascular care, and deep learning enables automated EF prediction from echocardiographic video. Because EF is clinically derived from left-ventricular (LV) volumes, a widely held intuition is that explicit LV segmentation should improve prediction. We introduce a quantitative criterion, the segmentation ceiling, that makes this testable: from EF as a normalized difference of end-diastolic and end-systolic volumes, we derive in closed form how per-frame segmentation area error propagates into EF error, and thus the accuracy a mask must reach before it can improve on direct regression. Using EchoNet-Dynamic, a UniFormer-S backbone, and the empirically measured within-patient error correlation, the criterion places the break-even near 10% per-frame area error, whereas a representative segmenter operates at roughly 14%, above the ceiling. Consistent with this, four strategies for injecting segmentation or area information (a predicted-mask channel, end-diastolic/end-systolic clip sampling, and per-bin and amplitude area-consistency objectives) fail to beat a raw-video baseline; ground-truth masks help only through label leakage. Input representation thus not being the limit, we identify generalization as the practical lever: weight averaging with strong augmentation attains a test R^2 of 0.806 (MAE 4.08) under a matched dense-clip protocol, comparable to an R(2+1)D baseline (0.811) while tightening the validation-to-test gap. Finally, a heteroscedastic beta-NLL formulation yields informative, well-calibrated per-prediction uncertainty, larger for clinically harder low-EF cases, where Monte-Carlo dropout does not. The segmentation ceiling gives a concrete design criterion for when mask-guided EF estimation is worthwhile, plus a simple, uncertainty-aware recipe for EF regression.",
+  "published": "2026-09-17T05:41:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.798018+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:14:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.19730v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.588801+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cf8d3b5ff4805fd8492294f6605e15a36a8ccdb274e7b1bb998ee96e65a09e3f",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "TinyCVIO: A Constellation-Aided Visual-Inertial Odometry System for Nanodrones",
+  "url": "https://arxiv.org/abs/2609.30358",
+  "summary": "arXiv:2609.30358v1 Announce Type: new Abstract: Nanodrones require accurate, real-time state estimation under severe sensing and computational constraints. We present TinyCVIO, a visual-inertial odometry system that co-designs miniature sensing, visual processing, and estimation for a commodity dual-core microcontroller with 520 kB SRAM. Lightweight LED constellations provide known geometry without surveyed positions or yaw angles, assuming placement on a common level plane. A streaming visual frontend tracks LED observations from a millimeter-scale camera at 29.2 FPS, while a rigid-board measurement model retains inter-LED constraints and streaming QR bounds estimation workspace for a fixed filter-state size. Across 19 hand-held hardware-in-the-loop datasets, the rigid-board model reduces mean absolute trajectory error by 27% relative to planar points. The complete system runs onboard a Crazyflie across nine flights at three speeds, achieving 3.5-3.7 cm mean absolute trajectory error and 0.50-0.60% relative pose error over 10 m segments, with mean estimate latency of 15.7-16.3 ms.",
+  "published": "2026-09-24T17:51:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.371413+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T17:51:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30358v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.056916+00:00"
+}

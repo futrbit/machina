@@ -1,0 +1,22 @@
+{
+  "id": "f8e693ab61df28695db7c9038774070faeff00d68dd04b684103914f56634743",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Dynamic Free-Rider Detection in Cross-Silo Federated Learning via Simulated Attack Patterns",
+  "url": "https://arxiv.org/abs/2604.04611",
+  "summary": "arXiv:2604.04611v3 Announce Type: replace Abstract: Federated learning (FL) enables multiple clients to collaboratively train a global model by aggregating local updates without sharing private data. In this work, we focus on cross-silo FL, where each client typically represents an independent organization. However, cross-silo FL can face the challenge of free-riders, clients who submit fake model parameters without performing actual training to obtain the global model without contributing. Chen et al. proposed a free-rider detection method based on the weight evolving frequency (WEF) of model parameters. This detection approach is practical because it requires neither a proxy dataset nor pre-training. Nevertheless, it struggles to detect ``dynamic'' free-riders who behave honestly in early rounds and later switch to free-riding, particularly under global-model-mimicking attacks such as the delta weight attack and our newly proposed adaptive WEF-camouflage attack. In this paper, we propose a novel detection method S2-WEF that simulates the WEF patterns of potential global-model-mimicking attacks on the server side using previously broadcast global models, and identifies clients whose submitted WEF patterns resemble the simulated ones. To handle a variety of free-rider attack strategies, S2-WEF further combines this simulation-based similarity score with a deviation score computed from mutual comparisons among submitted WEFs, and separates benign and free-rider clients by two-dimensional clustering and per-score classification. This method enables dynamic detection of clients that transition into free-riders during training without proxy datasets or pre-training. We conduct extensive experiments across four datasets and five attack types, demonstrating that S2-WEF provides robust dynamic free-rider detection across diverse settings.",
+  "published": "2026-04-06T11:54:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.123410+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:34:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.04611v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.537626+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "8cfb5c645076d35aca76ccdd503bdbc277d1119442b3e2fccaea5fb05aba33d9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Refinement as a Service: Algorithmic Predictor Refinement",
+  "url": "https://arxiv.org/abs/2610.11415",
+  "summary": "arXiv:2610.11415v1 Announce Type: cross Abstract: Prediction aggregation aims to combine information from multiple predictors into a more informative one. We study this question in the setting of calibrated predictors, where each prediction must equal the conditional expectation of the quantity being predicted given the predictor's signal. Given several calibrated input predictors and the feature distribution, but not the underlying Bayes probabilities, we ask when one can construct refined calibrated predictors that preserve the information in the original predictors and cannot be further refined using the available information. We formulate calibrated predictors as signaling schemes and define refinement through feature-independent garblings: a predictor refines another if its signal can simulate the other's signal. Constructibility is characterized through observable linear information: each signal corresponds to a vector over the feature space, and a new signal is constructible exactly when its vector lies in the linear span of the input signal vectors. Under this formulation, we establish a sharp algorithmic picture. For deterministic output predictors, bilateral refinement admits a polynomial-time algorithm based on a bipartite graph between the two input signal partitions, while refinement with an arbitrary number of input predictors is $\\mathsf{NP}$-hard. In contrast, when randomized output predictors are allowed, we give a polynomial-time algorithm for any number of input predictors by decomposing constructible signal vectors into extreme rays of the associated polyhedral cone.",
+  "published": "2026-10-08T07:45:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.108419+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:45:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11415v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.704731+00:00"
+}

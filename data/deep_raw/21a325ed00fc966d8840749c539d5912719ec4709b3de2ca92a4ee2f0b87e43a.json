@@ -1,0 +1,22 @@
+{
+  "id": "21a325ed00fc966d8840749c539d5912719ec4709b3de2ca92a4ee2f0b87e43a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Denoising Surface: Modeling and Predicting Inference Cost for Diffusion LLM Serving",
+  "url": "https://arxiv.org/abs/2610.00499",
+  "summary": "arXiv:2610.00499v1 Announce Type: new Abstract: As diffusion large language models (dLLMs) become more capable, they are moving from research settings to real-world \\textit{serving}, where request management (such as scheduling and resource allocation) relies on accurate estimation of per-request inference cost. However, common cost proxies fall short for dLLMs: output length ignores that one forward pass can unmask multiple tokens, and denoising-step count ignores the \\textit{heterogeneous} per-step costs. We observe that the block-autoregressive generation mechanism induces a two-dimensional execution structure over output blocks and within-block denoising steps, whereas these proxies collapse it into a scalar, discarding information essential for characterizing the cost. Motivated by this insight, we propose the Denoising Workload Surface (DWS), which preserves this two-dimensional block-step structure as a probability surface to weight the heterogeneous per-step costs. We then design a coarse-to-fine training scheme that enables a lightweight prompt-only predictor to accurately predict the complex DWS. This predictor runs efficiently even on a single CPU core, avoiding GPU contention with the serving model. Since DWS decouples request-dependent execution behavior from deployment-specific cost factors, the predictor transfers across hardware configurations without retraining. In \\textit{real-world} serving experiments, DWS reduces cost-prediction error by up to $2.50\\times$ over scalar-based predictors, while the DWS-guided shortest-job-first scheduler reduces end-to-end latency by up to $1.92\\times$ for online chatbots.",
+  "published": "2026-09-30T18:01:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.775508+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T18:01:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00499v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.160266+00:00"
+}

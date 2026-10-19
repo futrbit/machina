@@ -1,0 +1,18 @@
+{
+  "id": "fe488d6bbedec2422432cdccfe279cd3cb454e157746ce9942e3cfb3459f2a50",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Optimal approximation of smooth functions by ReLU neural networks",
+  "url": "https://arxiv.org/abs/2610.22693",
+  "summary": "arXiv:2610.22693v1 Announce Type: cross Abstract: We study uniform approximation of the H\\\"older ball $\\mathcal H_1^s([0,1]^D)$ by fully connected ReLU networks. Except in the one-dimensional Lipschitz case, existing constructions remain separated from the information-theoretic efficiency limit. This article closes the gap for every $s>0$ and $D\\ge1$: networks with width $O(N)$, depth $O(L)$, and parameter magnitude $O(1)$ attain uniform approximation error of order $(N^2L^2\\log N)^{-s/D}$. No relation between width and depth is required. The construction uses new encoding and decoding mechanisms that exploit higher-order finite-difference bounds for local Taylor coefficients of the target function. As a statistical consequence, empirical risk minimizers over the corresponding clipped network classes attain the minimax regression rate $n^{-2s/(2s+D)}$ without additional logarithmic factors. The paper also gives a detailed exposition of the key approximation techniques, covering both established and new mechanisms.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.239725+00:00"
+}

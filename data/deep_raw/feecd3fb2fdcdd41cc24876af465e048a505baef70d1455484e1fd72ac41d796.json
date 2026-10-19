@@ -1,0 +1,21 @@
+{
+  "id": "feecd3fb2fdcdd41cc24876af465e048a505baef70d1455484e1fd72ac41d796",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning",
+  "url": "https://arxiv.org/abs/2610.08726",
+  "summary": "arXiv:2610.08726v1 Announce Type: cross Abstract: Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control. Our key insight is that, although low-level actions are embodiment-specific, their underlying motion intent can capture task-relevant structure that transfers across humans and robots. We introduce EgoLAP, a VLA pre-training framework that jointly learns from human and robot trajectories through a shared language-based action chain-of-thought. EgoLAP expresses motion intent as structured, temporally abstracted language actions and pairs them with motion-level reasoning grounded in scene geometry, physics, and object affordances. Across extensive real-world and simulated experiments, EgoLAP transfers human experience to robot control more effectively than alternative action representations and reaches 80.1% mean real-world task progress, a 2.3x performance gain over alternative action representations. Motion-level reasoning also outperforms a composite reasoning format that combines subtask, object-box, and visual-trace reasoning.",
+  "published": "2026-10-06T17:30:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.179796+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:30:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08726v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.005153+00:00"
+}

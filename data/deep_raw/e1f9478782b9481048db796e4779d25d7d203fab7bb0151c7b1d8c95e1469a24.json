@@ -1,0 +1,22 @@
+{
+  "id": "e1f9478782b9481048db796e4779d25d7d203fab7bb0151c7b1d8c95e1469a24",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "PiERN: Token-Level Routing for Integrating High-Precision Computation and Reasoning",
+  "url": "https://arxiv.org/abs/2509.18169",
+  "summary": "arXiv:2509.18169v4 Announce Type: replace Abstract: Tasks on complex systems require high-precision numerical computation to support decisions. However, current large language models (LLMs), even with enhanced reasoning capabilities, cannot integrate such computations as an intrinsic and interpretable capability with existing architectures. To this end, we propose Physically-isolated Experts Routing Network (PiERN), an architecture that directs computation and reasoning at token level, thereby enabling iterative alternation within a single chain of thought. We systematically evaluate PiERN on representative computation-reasoning tasks, including PDEBench and battery management tasks. Results show that PiERN achieves not only higher accuracy than directly finetuning LLMs but also significant improvements in response latency, token usage, GPU energy consumption, and experts routing accuracy compared with mainstream multi-agent approaches, while exhibiting no significant degradation in performance on MMLU and GLUE benchmarks. PiERN offers an efficient, interpretable, and scalable paradigm for interfacing language models with scientific systems.",
+  "published": "2025-09-17T10:15:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.110468+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:14:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2509.18169v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.269788+00:00"
+}

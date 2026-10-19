@@ -1,0 +1,22 @@
+{
+  "id": "73168ca7e77018474d751d17c0b4db020285d193ad079e66fe3350f3b0ac2d0b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "REPA-G: Test-Time Conditioning with Representation-Aligned Visual Features",
+  "url": "https://arxiv.org/abs/2602.03753",
+  "summary": "arXiv:2602.03753v2 Announce Type: replace Abstract: While representation alignment with self-supervised models has been shown to improve diffusion model training, its potential for enhancing inference-time conditioning remains largely unexplored. We introduce Representation-Aligned Guidance (REPA-G), a framework that leverages these aligned representations, with rich semantic properties, to enable test-time conditioning from features, in generation. By optimizing a similarity objective (the potential) at inference, we steer the denoising process toward a conditioned representation extracted from a pre-trained feature extractor. Our method provides versatile control at multiple levels of granularity, ranging from patch level matching via single patches to broad semantic guidance using global image feature tokens. We further extend this to multi-concept composition, allowing for the faithful combination of distinct concepts. REPA-G operates entirely at inference time with no additional training required, offering a flexible and precise alternative to often ambiguous text prompts or coarse class labels. Our approach achieves high-quality, diverse generations on ImageNet and COCO. Code is available at https://github.com/valeoai/REPA-G",
+  "published": "2026-02-03T17:15:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.534374+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:19:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.03753v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.183048+00:00"
+}

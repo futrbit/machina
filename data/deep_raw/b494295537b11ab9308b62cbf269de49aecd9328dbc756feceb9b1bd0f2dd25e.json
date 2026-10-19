@@ -1,0 +1,21 @@
+{
+  "id": "b494295537b11ab9308b62cbf269de49aecd9328dbc756feceb9b1bd0f2dd25e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Towards Efficient Robotic Manipulation Models with Self-Recursive Pruning",
+  "url": "https://arxiv.org/abs/2610.08555",
+  "summary": "arXiv:2610.08555v1 Announce Type: new Abstract: Network pruning can reduce parameter redundancy in robotic policies. However, generic pruning criteria are tailored for image recognition tasks and commonly designed to preserve weight magnitude, local reconstruction, or language-model likelihood rather than closed-loop action behavior. Directly applying these pruning algorithms to robotic tasks yields unsatisfactory performance. In this paper, we propose Loss-Conditioned Activation-Moment (LCAM) pruning, a training-free method for unstructured pruning of pre-trained robotic manipulation policies. Specifically, we first rank connections using row-normalized weight contribution, activation moments measured on calibration demonstrations, and the sensitivity of output directions to the action-prediction loss. We further design a self-recursive coarse-to-fine procedure: importance is recalibrated after each nested coarse pruning stage, while held-out offline action distortion guides fine-grained budget allocation after a sparsity knee. Our algorithm is free from costly recovery training and simulator rollouts after pruning. Experiments on three LIBERO suites with competitive robotic policies, together with evaluations on OpenVLA, show that LCAM attains competitive performance across a broad range of pruning ratios. Notably, on LIBERO-Object with OpenVLA, our LCAM achieves 84.0% success at 50% unstructured pruning, retaining over 90% of the dense policy's success rate. Promising results on real-world robotic ping pong further demonstrate the effectiveness of our pruning algorithm.",
+  "published": "2026-10-06T15:40:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.470018+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:40:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08555v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.690137+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "aa64a6ae3b3beceec66fe20507ed09114d5985a643ba2f8f368c1b80584bfdb6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Source Identification Is Not Fitness Testing: Measuring the Limits of Synthetic-Data Attribution",
+  "url": "https://arxiv.org/abs/2610.00417",
+  "summary": "arXiv:2610.00417v1 Announce Type: new Abstract: Repeated training on model-generated data can degrade later models. One possible response is to use provenance when deciding which generated examples to reuse. We test both how reliably that provenance can be recovered and whether it helps identify better training data. Using financial-risk text, we first identify the source of generated passages and then repeat the test after rewriting them. Generator attribution is 98.7% accurate on the original passages but falls to 53.1% after paraphrasing and 29.0% after style rewriting. Generated-versus-human detection remains close to perfect against the tested human comparison set. We then compare two ways of selecting generated examples over three rounds of generation and retraining. One uses source information. The other uses a score from a separate reference model. The two rules select different examples, but the planned comparison does not detect a stable difference in the degradation of the resulting models. The results show that identifying where data came from and identifying which data are useful for training are separate problems. The experiment therefore separates source identity, criterion-facing selection, and recursive training outcome: neither the provenance score nor the tested criterion-facing proxy is established as sufficient for future recursive behaviour.",
+  "published": "2026-09-30T14:34:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.773510+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T14:34:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00417v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.427296+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fe362d55df72f9d028c66acc5aca38293f077b7718ee60a0af1cf09cbfd02d4d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Road Maps as Free Geometric Priors: Weather-Invariant Drone Geo-Localization with GeoFuse",
+  "url": "https://arxiv.org/abs/2605.14925",
+  "summary": "arXiv:2605.14925v3 Announce Type: replace Abstract: Drone-view geo-localization aims to match a query drone image, often captured under adverse weather conditions (e.g., rain, snow, fog), against a gallery of geo-tagged satellite images. Weather-induced degradations in the drone view, such as noise, reduced visibility, and partial occlusions, severely exacerbate the intrinsic cross-view domain gap. While prior methods predominantly rely on weather-specific architectures or data augmentations, they have largely overlooked road map data, a readily available modality that provides strong, inherently weather-invariant geometric layout cues (e.g., road networks and building footprints) at negligible additional cost. We introduce GeoFuse, a cross-modal fusion framework that integrates precisely aligned road map tiles with satellite imagery to yield more discriminative and weather-resilient representations. We first augment the existing University-1652 and DenseUAV benchmarks with geo-aligned road maps, supplying structural priors robust to meteorological variations. Building on this, we propose a flexible fusion module that combines satellite and road map features via token-level and channel-level interactions, with a lightweight dynamic gating mechanism that adaptively weights modality contributions per instance. Finally, we employ class-level cross-view contrastive learning to promote robust alignment between weather-degraded drone features and the fused satellite-roadmap representations. Extensive experiments under diverse weather conditions show that GeoFuse consistently outperforms state-of-the-art methods, achieving +3.46% and +23.18% Recall@1 accuracy on the University-1652 and DenseUAV benchmarks, respectively.",
+  "published": "2026-05-14T15:01:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.785027+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:01:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.14925v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.901818+00:00"
+}

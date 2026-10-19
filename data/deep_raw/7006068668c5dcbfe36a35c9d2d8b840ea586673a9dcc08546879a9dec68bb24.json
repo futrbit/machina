@@ -1,0 +1,21 @@
+{
+  "id": "7006068668c5dcbfe36a35c9d2d8b840ea586673a9dcc08546879a9dec68bb24",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LogicTree-RAG: Logic Tree-guided Retrieval-Augmented Generation for Long-form Patent Drafting",
+  "url": "https://arxiv.org/abs/2609.30943",
+  "summary": "arXiv:2609.30943v1 Announce Type: new Abstract: Long-form technical text generation underpins knowledge-intensive workflows, yet remains challenging for large language models (LLMs) due to the need for globally consistent logical structuring and faithful technical reasoning beyond local coherence. Patent drafting is a canonical instance of this challenge, demanding holistic generation of a legally compliant and technically exhaustive document through sustained multi-expert collaboration. Existing approaches often focus on partial section generation or rely on manually crafted outlines, limiting scalable automation in realistic settings. In this work, we propose LogicTree-RAG, a logic tree-guided retrieval-augmented generation framework that induces a hierarchical logic tree as a global organizational backbone to organize and ground technical disclosures, without relying on expert-defined drafting priors. Each node in the logic tree represents a technical element and is constructed through evidence-guided recursive generation. A hybrid traversal mechanism then maps the logic tree into patent sections, enabling controllable and section-balanced generation. Extensive experiments show that LogicTree-RAG consistently improves content quality and language conformity over strong LLM-based baselines and achieves longer structured generation with high token efficiency, demonstrating the effectiveness of logic-centric generation for complex technical document drafting.",
+  "published": "2026-09-25T07:56:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.415994+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T07:56:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30943v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.067116+00:00"
+}

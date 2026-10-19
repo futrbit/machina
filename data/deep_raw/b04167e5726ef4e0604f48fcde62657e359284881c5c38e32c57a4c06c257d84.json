@@ -1,0 +1,22 @@
+{
+  "id": "b04167e5726ef4e0604f48fcde62657e359284881c5c38e32c57a4c06c257d84",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ManifoldFlow: SPD-Relaxed Stiefel Layers with Learnable Singular Spectrum",
+  "url": "https://arxiv.org/abs/2607.04535",
+  "summary": "arXiv:2607.04535v2 Announce Type: replace Abstract: Orthogonal and Stiefel layers give neural weights exact spectral control, but they also impose a strong modeling constraint: all represented singular values are fixed at one. Many settings that benefit from an orthonormal basis still need direction-dependent attenuation or amplification. We introduce ManifoldFlow, a minimal relaxation of a fixed-spectrum Stiefel layer that keeps the basis on the Stiefel manifold while learning a bounded positive spectrum through W = Q S^{1/2}, with Q^T Q = I and S positive definite. Since W^T W = S, the eigenvalues of S are exactly the squared singular values of the realized weight, making eigenvalue clipping a direct singular-value control mechanism. Across paired sequence, tabular, and image experiments, the learnable SPD spectrum improves the fixed-spectrum Stiefel counterpart in the reported settings where the Stiefel prior is useful, with the largest gains in recurrent language-model projections. Boundary cases in convolutional classifier heads clarify the intended scope: ManifoldFlow is not a universal dense-layer replacement, but a spectrum-learnable Stiefel relaxation for settings where an orthonormal basis is a useful prior. When the basis should be orthonormal, its spectrum need not be frozen. Code available at https://github.com/Hik289/manifold_flow",
+  "published": "2026-07-05T22:46:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.834470+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T21:41:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.04535v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.602190+00:00"
+}

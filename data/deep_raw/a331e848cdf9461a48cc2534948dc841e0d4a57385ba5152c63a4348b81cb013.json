@@ -1,0 +1,17 @@
+{
+  "id": "a331e848cdf9461a48cc2534948dc841e0d4a57385ba5152c63a4348b81cb013",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "CIIR - Class-Indexed Interface Representation Learning",
+  "url": "https://arxiv.org/abs/2610.23151",
+  "summary": "arXiv:2610.23151v1 Announce Type: new Abstract: Multimodal learning commonly assumes paired or synchronized observations, yet independently collected datasets rarely provide such correspondence. We introduce CIIR, a modular encoder--decoder framework that connects heterogeneous datasets through a class-indexed address space while preserving each dataset's native input format and output module. A known local index selects address $k$, and an input-dependent 128-dimensional address representation Z_k(x) is written to that address. To demonstrate CIIR, we learn this address space from handwritten digits, clothing images, spoken-digit spectrograms, and hand signs without synchronized or instance-matched samples. Newly trained label-free receivers recover the requested addresses with 94.7% macro-average Address Realization Accuracy. We then attach the unseen SVHN dataset after freezing the base address space and train only lightweight adapters, achieving 90.2% MNIST>SVHN and 82.3% SVHN>MNIST end-to-end Address Transfer Accuracy without target-side decoder labels. To demonstrate generalizability of CIIR, we reuse the ten addresses as code elements in collision-free arithmetic and hierarchical address codes for all 100 CIFAR-100 classes and evaluate direct arithmetic-code realization through the existing receivers. These results establish CIIR as a compact interface for modular cross-dataset communication and post-hoc dataset attachment without exhaustive paired multimodal supervision.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.183146+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "7bb19ee41e4b5dca24475268474882f778fc0712373ff105dade240b891e7483",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Frequency-Decomposed Avatar Representation for Varying Camera Distances",
+  "url": "https://arxiv.org/abs/2512.03593",
+  "summary": "arXiv:2512.03593v2 Announce Type: replace Abstract: We present a CloseUpAvatar - a novel approach for articulated human avatar representation supporting a wider range of camera motions, while preserving rendering quality for close-up views. CloseUpAvatar represents an avatar as a set of textured planes with frequency-decomposed learnable textures for low and high-frequency detail. The method automatically switches to high-frequency textures when the camera comes close to the avatar's surface and gradually reduces their impact as the camera moves farther away. Such parametrization of the avatar enables CloseUpAvatar to adjust rendering quality based on camera distance ensuring realistic rendering across a wider range of camera orientations than previous approaches. We provide experiments on the ActorsHQ dataset with high-resolution input images and the THuman4.0 dataset with diverse articulated poses. CloseUpAvatar demonstrates both qualitative and quantitative improvements over existing methods in rendering from novel wide range camera positions, while maintaining high FPS by limiting the number of required primitives.",
+  "published": "2025-12-03T09:25:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.233886+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T13:15:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.03593v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.372931+00:00"
+}

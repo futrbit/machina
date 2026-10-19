@@ -1,0 +1,21 @@
+{
+  "id": "f55d8ec6f0f61c06434bbe24a3bbc5495ed073282d68ec86fffb5f821051df4e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Grounding What Shapes the Plan: Rethinking Groundedness for Physical Intelligence in Autonomous Driving",
+  "url": "https://arxiv.org/abs/2610.07521",
+  "summary": "arXiv:2610.07521v1 Announce Type: new Abstract: Driving models increasingly ground reasoning in causal relations, spatial structure, perceptual evidence, and predicted futures. These advances make reasoning more faithful to the driving scene, but leave a fundamental question unresolved: what should groundedness mean when the model ultimately outputs an action? Correctly grounded reasoning does not, by itself, ensure desirable driving outcomes. We introduce GroundAct, which starts from a simple premise: driving unfolds through physical entities and their interactions. Entities therefore become the unit of grounding; a lightweight reference token keeps each selected entity's continuous state addressable through symbolic reasoning; and only the referenced entities' interactions with the evolving proposal correct the plan. The result is an explicit path from what reasoning grounds to what the plan does, which we call grounded planning. To assess its practical value, we evaluate GroundAct in both open- and closed-loop settings. GroundAct shows strong open-loop planning across normal, out-of-distribution, and safety-critical scenarios, with closed-loop results extending this evidence to driving in simulation.",
+  "published": "2026-10-05T23:39:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.131825+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:39:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07521v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.499649+00:00"
+}

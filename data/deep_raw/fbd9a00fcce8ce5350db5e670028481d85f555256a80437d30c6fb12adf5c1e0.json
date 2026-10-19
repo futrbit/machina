@@ -1,0 +1,22 @@
+{
+  "id": "fbd9a00fcce8ce5350db5e670028481d85f555256a80437d30c6fb12adf5c1e0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SimCortex v2: Joint Cortical Surface Reconstruction with Near-Zero Collisions and Self-Intersections",
+  "url": "https://arxiv.org/abs/2610.07378",
+  "summary": "arXiv:2610.07378v1 Announce Type: new Abstract: Reconstructing cortical WM and pial surfaces from structural magnetic resonance imaging (MRI) is a prerequisite for surface-based neuroanatomical analysis, yet remains challenging because the cortex is thin and tightly folded. Reconstruction methods can produce geometric artifacts such as mesh self-intersections and collisions between cortical surfaces, and although recent deep learning methods have reduced reconstruction time from hours to minutes, these artifacts persist. We propose SimCortex v2, a deep learning framework for simultaneous reconstruction of the left and right WM and pial surfaces from T1-weighted MRI. SimCortex v2 estimates topologically correct initial surfaces from a volumetric segmentation and refines all four jointly using multi-scale stationary velocity fields predicted by a ribbon-conditioned, U-Net-like network. We evaluated SimCortex v2 on 560 cases from 14 cohorts, thirteen of them unseen during training, spanning ages 6-89, healthy and clinical populations, and scanners from three vendors. SimCortex v2 matched the surface-distance accuracy of the strongest baseline (average symmetric surface distance 0.253 mm) while showing no detected inter-surface collision in 92.14% of cases and the lowest self-intersection fraction (0.044%) among learning-based methods, whereas every baseline produced at least one collision in every case. Source code, configuration files, pretrained weights, preprocessed data, and the exact evaluation splits are publicly released.",
+  "published": "2026-10-05T20:49:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.513386+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:49:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07378v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.572606+00:00"
+}

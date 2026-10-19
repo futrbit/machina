@@ -1,0 +1,21 @@
+{
+  "id": "95874b7df2bcca27a0e84b6259ace66054ab06262505a14530b2603d1b962976",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Communication-Free Obstacle Localization from Aggregate Wrench Measurements in Leader--Follower Cooperative Transport",
+  "url": "https://arxiv.org/abs/2610.08324",
+  "summary": "arXiv:2610.08324v1 Announce Type: new Abstract: We consider obstacle localization for a team of robots cooperatively transporting a rigid payload without explicit inter-robot communication. A leader robot directs the payload's motion, while follower robots assist and react to locally detected obstacles. The leader measures the followers' aggregate wrench, i.e., the combined force and torque they exert on the payload, but cannot directly distinguish their individual reactions. We design a follower control law that allows the leader to recover obstacle locations from these measurements. Each follower resists motion toward nearby obstacles, resulting in a piecewise-linear relationship between the payload's translational and angular velocity and the aggregate wrench. Changes between adjacent linear regions reveal an obstacle's bearing and distance and identify the responding follower. We give sufficient conditions for exact recovery at a fixed payload configuration and develop an adaptive probing procedure in which the leader applies translational and rotational inputs to the payload to obtain the required measurements. We demonstrate the performance of the proposed method in simulations.",
+  "published": "2026-10-06T13:24:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.466019+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:24:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08324v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.856640+00:00"
+}

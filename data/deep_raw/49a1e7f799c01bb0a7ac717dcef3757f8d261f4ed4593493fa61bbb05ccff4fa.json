@@ -1,0 +1,22 @@
+{
+  "id": "49a1e7f799c01bb0a7ac717dcef3757f8d261f4ed4593493fa61bbb05ccff4fa",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Rate-Optimal Algorithm for Adversarial Linear CMDPs",
+  "url": "https://arxiv.org/abs/2610.00927",
+  "summary": "arXiv:2610.00927v1 Announce Type: new Abstract: We study episodic adversarial linear constrained Markov decision processes (CMDPs) with unknown transitions, where both the loss and constraint functions may vary adversarially across episodes. The best previous algorithm achieves $\\widetilde{\\mathcal{O}}(K^{3/4})$ regret and cumulative constraint violation, leaving a gap to the optimal $\\widetilde{\\mathcal{O}}(\\sqrt{K})$ dependence on the number of episodes $K$. We close this gap by proposing a new primal dual algorithm that achieves $\\widetilde{\\mathcal{O}}(\\sqrt{K})$ regret and cumulative constraint violation without assuming Slater's condition. The main challenge is that learning linear CMDPs requires uniform concentration over a value function class with a controlled covering number, whereas standard techniques in constrained online learning, such as policy mixing, can make this class more complex. Our algorithm combines adaptive Follow the Regularized Leader (FTRL), contracted value estimation, and an exponential Lyapunov function. An adaptive dual regularizer offsets the dependence on the dual weights in the primal regret bound, removing the need for policy mixing. We further show that the normalization in the FTRL update bounds the policy parameters independently of the magnitudes of the dual weights, which explains why the resulting policy class remains compatible with uniform concentration. Under feature access, the computational complexity is independent of the size of the state space.",
+  "published": "2026-10-01T02:03:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.783502+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-06T06:59:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00927v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.956784+00:00"
+}

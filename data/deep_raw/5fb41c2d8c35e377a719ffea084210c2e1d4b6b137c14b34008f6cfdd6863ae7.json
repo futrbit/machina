@@ -1,0 +1,21 @@
+{
+  "id": "5fb41c2d8c35e377a719ffea084210c2e1d4b6b137c14b34008f6cfdd6863ae7",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "On Open-Ended Information Seeking for Information Elicitation Agents",
+  "url": "https://arxiv.org/abs/2610.07509",
+  "summary": "arXiv:2610.07509v1 Announce Type: new Abstract: Information elicitation is an open-ended information-seeking problem in which an interaction can unfold in many potentially valuable directions, requiring an elicitor to continually determine which information to pursue as new information emerges. In agentic elicitation, these decisions may be delegated to a foundation model, yet how model choice shapes the resulting information-seeking behavior remains understudied. We study how judgments about information value vary across LLMs and how these differences shape sequential information seeking. We first examine these judgments across 11 LLMs spanning multiple model families and parameter scales, using a shared set of information and elicitation objectives. We then develop a controlled elicitation simulation in which different models encounter the same information space and use the same selection rule, isolating these judgments from question generation and respondent behavior. Using this setting, we characterize the breadth-depth behavior that emerges from model-specific information-seeking preferences over the course of elicitation. We further examine how interaction history changes the evaluation and subsequent selection of prospective information. We test the robustness and boundaries of these findings through sensitivity analyses and ablations over the opportunities available to the elicitor, the response labels used to operationalize information-seeking preferences, the presence of interaction history, and whether redundancy is explicitly relevant to the assessment. The project code, data, and trajectory files are available at https://github.com/infosenselab/open-elicitation.",
+  "published": "2026-10-05T23:20:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.131825+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:20:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07509v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.796279+00:00"
+}

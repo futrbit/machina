@@ -1,0 +1,22 @@
+{
+  "id": "a2773c7eaeced09dbc2e5d399d91d73e8a1c9f6c5f6d67733e945e33d1860344",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Similar Predictive Fit but Different Latent Dynamics: Characterizing Learned Dynamical Structure in Personalized Models of Brain Disorders",
+  "url": "https://arxiv.org/abs/2610.10850",
+  "summary": "arXiv:2610.10850v1 Announce Type: new Abstract: As AI models move toward clinical decision-making and personalized treatment, understanding \\emph{what} a model learns is important beyond predictive accuracy alone. We investigate whether personalized latent dynamics reveal clinically associated differences even when predictive fit is similar. A lightweight CNN--Transformer EEG foundation model pretrained on the Temple University EEG Corpus (TUEG) extracts segment-level representations. Using the Temple University Epilepsy Corpus (TUEP), representations are mapped to a shared latent-state space, and sparse multinomial logistic transition distributions (mLTD) are fit independently to each subject to obtain personalized transition-dependency graphs $W_n$. Analyses include $n{=}198$ subjects (99 epilepsy / 99 non-epilepsy). At $k{=}4$, epilepsy subjects exhibit substantially denser learned dependency structure ($p{=}1.1\\times10^{-7}$), with the same pattern at $k{=}6$ (19.90 vs. 13.46; $p{=}5.2\\times10^{-5}$). Graph-derived features provide moderate group discrimination under 5-fold subject-wise cross-validation (AUROC 0.68 at $k{=}4$; 0.65 at $k{=}6$). In contrast, held-out log-likelihood is nearly identical between groups at $k{=}4$ ($-0.992$ vs. $-0.991$; $p{=}0.95$), with similarly matched next-state prediction (AUROC 0.855 vs. 0.861; $p{=}0.54$). Thus, similar predictive fit does not imply similar learned dynamics: groups can be comparably predictable while differing substantially in the internal dynamical structure learned by personalized models. This distinction motivates evaluating learned structure alongside predictive performance in personalized clinical models.",
+  "published": "2026-10-07T19:54:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.077438+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:54:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10850v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.203430+00:00"
+}

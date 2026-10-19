@@ -1,0 +1,22 @@
+{
+  "id": "b84726d1ba4a8a9979c083d6404a5df565f9061a1f925f67af37167deff34167",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "FedSAP: Federated Learning with Structured Adaptive Partitioning for Multi-Domain Heterogeneous Edge Devices",
+  "url": "https://arxiv.org/abs/2610.01638",
+  "summary": "arXiv:2610.01638v1 Announce Type: new Abstract: Federated learning (FL) on heterogeneous edge devices must jointly accommodate unequal resource budgets and domain-shifted local data. Existing resource-adaptive methods decide how much of a model each client trains but not where retained capacity should reside or how it should be shared, whereas federated domain-generalization methods usually assume a shared full architecture. Uniform compression can therefore discard high-utility channels, and a single aggregation path can mix transferable features with domain-sensitive updates. We propose FedSAP, a domain-aware heterogeneous FL framework that casts structured pruning as budget-constrained tri-state channel allocation. FedSAP converts each keep ratio into non-uniform layer budgets, assigns stable channels to a Global pool, useful domain-sensitive channels to pseudo-domain-specific Private pools, and low-utility channels to a Dropped state. This partition lets broadly useful features benefit from cross-client pooling while isolating domain-sensitive updates from incompatible clients. Domain-Guided Assignment infers pseudo-domains from shallow-gradient similarity, while Type-Matched Aggregation restricts each channel to its intended sharing scope. Across three random seeds, FedSAP reaches 76.00% and 72.67% mean global accuracy on Digits and Office-Caltech, exceeding the strongest baseline by 1.70 and 4.92 percentage points while supporting client pruning ratios of up to 80% across heterogeneous clients.",
+  "published": "2026-10-01T13:05:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.794495+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T13:05:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01638v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.749102+00:00"
+}

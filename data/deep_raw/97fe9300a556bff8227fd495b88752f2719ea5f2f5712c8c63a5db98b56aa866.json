@@ -1,0 +1,22 @@
+{
+  "id": "97fe9300a556bff8227fd495b88752f2719ea5f2f5712c8c63a5db98b56aa866",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Stochastic Grouping Conformal Prediction for Effective Subgroup Reliability",
+  "url": "https://arxiv.org/abs/2610.11957",
+  "summary": "arXiv:2610.11957v1 Announce Type: new Abstract: Conformal prediction offers a distribution-free coverage guarantee, making it especially attractive for clinical applications. Standard conformal prediction, however, provides such guarantees only at the population level, and its prediction sets can exhibit coverage disparities across clinically important subgroups. A natural remedy is to calibrate within predefined groups. However, this can require access to sensitive subgroup attributes and is prone to a worst-group bottleneck: protecting the most difficult subgroup can inflate prediction sets for all, increasing cognitive burden on decision makers. To this end, we propose Stochastic Grouping Conformal Prediction (SGCP), a conformal framework for subgroup-reliable uncertainty quantification. It learns a stochastic grouping map that allows each sample to draw calibration information from others with similar calibration behavior, yielding a local score law that boosts reliability across subpopulations. We prove that SGCP retains the standard coverage guarantee. Experiments on synthetic and real-world benchmarks show that it consistently reduces subgroup coverage gaps while achieving smaller or comparable prediction set sizes relative to existing baselines.",
+  "published": "2026-10-08T13:41:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.092427+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:41:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11957v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.309171+00:00"
+}

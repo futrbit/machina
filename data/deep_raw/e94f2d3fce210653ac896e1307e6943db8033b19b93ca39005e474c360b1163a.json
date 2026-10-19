@@ -1,0 +1,22 @@
+{
+  "id": "e94f2d3fce210653ac896e1307e6943db8033b19b93ca39005e474c360b1163a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "System-Prompt Conditioning and Hidden-State Geometry in Four Open-Weight Models: Corrections and What Survives",
+  "url": "https://arxiv.org/abs/2607.09842",
+  "summary": "arXiv:2607.09842v3 Announce Type: replace Abstract: Versions 1 and 2 of this preprint reported that an identity-specifying system prompt leaves a geometric fingerprint in the final-layer hidden-state trajectories of four open-weight language models, and that instruction tuning moves this fingerprint from the direction to the magnitude of the hidden-state vector. An audit of their code and data found the following. The curvature statistic described as Ollivier-Ricci curvature on Euclidean k-NN graphs was a non-standard Forman-type edge statistic on graphs built from temporal and cosine k-NN edges. Its released test permuted pooled edges instead of trajectories, and the published p-values came from unreleased code. The quantity reported as the norm of the first generated state is the state at the last prompt position, from which the first output token is predicted. The generic control prompt was matched to the identity prompt in characters, not in tokens. This version corrects the methods, withdraws the regime-specific claims (one model per regime) and the direction-to-magnitude claim, and re-analyzes the data with added controls. What survives is narrower. Centroid distance, maximum mean discrepancy and a linear probe separate every pair of prompt conditions in every model, while the curvature statistic exceeds its split-half noise floor in only four of twelve comparisons. In Gemma-4-E4B-it this state has a lower norm under the identity prompt than under a token-length-matched generic prompt (138.1 vs. 216.5; Cohen's d = -5.45; n = 20). Its direction also separates the conditions, and the effect fits the state's role in planning the output: the identity prompt instructs a pause before every answer, and the model opens 98 of 100 responses with a pause marker. When the first token is fixed, the norm ordering reverses. The base model continues the prompt template instead of answering. A redesigned follow-up study is in preparation.",
+  "published": "2026-07-10T17:22:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.127407+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T01:08:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.09842v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.353737+00:00"
+}

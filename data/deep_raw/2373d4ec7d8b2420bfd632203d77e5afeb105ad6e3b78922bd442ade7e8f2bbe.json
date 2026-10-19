@@ -1,0 +1,22 @@
+{
+  "id": "2373d4ec7d8b2420bfd632203d77e5afeb105ad6e3b78922bd442ade7e8f2bbe",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "How Many Directions Must a Truncated Diffusion Sampler Retain? Matching Bounds Under Power-Law Spectra",
+  "url": "https://arxiv.org/abs/2610.10640",
+  "summary": "arXiv:2610.10640v1 Announce Type: cross Abstract: Diffusion samplers can reduce computation by generating selected spectral coordinates and filling the remaining directions with noise. How many directions must they retain? We study this question for data with power-law covariance spectra. For Gaussian data compared to a smoothed target, we prove matching bounds on the required number of retained directions, provided that the ambient dimension is sufficiently large. The truncation error depends on the combined Wiener gains of the omitted directions, regardless of the accuracy of the sampler on the retained coordinates. Keeping only directions whose signal exceeds the output noise level can therefore leave a non-vanishing error: many individually weak directions remain significant in aggregate. Combining this characterization with a diffusion convergence bound yields sufficient sampling-step complexity under exact scores. The upper bounds also extend to estimated principal components and, componentwise, to Gaussian mixtures. The practical prescription is to select the retained subspace using an aggregate spectral-tail error budget, then to choose the diffusion noise level accordingly.",
+  "published": "2026-10-07T14:32:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.100421+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T14:32:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10640v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.187248+00:00"
+}

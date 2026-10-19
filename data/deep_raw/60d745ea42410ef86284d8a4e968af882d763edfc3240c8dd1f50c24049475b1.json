@@ -1,0 +1,22 @@
+{
+  "id": "60d745ea42410ef86284d8a4e968af882d763edfc3240c8dd1f50c24049475b1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Neural JKO Scheme for Hellinger-Kantorovich Gradient Flows via Monge-Growth Pairs",
+  "url": "https://arxiv.org/abs/2610.07602",
+  "summary": "arXiv:2610.07602v1 Announce Type: cross Abstract: We develop a mesh-free neural JKO scheme for advection-reaction-diffusion equations with a gradient-flow structure in the Hellinger-Kantorovich (HK) geometry of unbalanced optimal transport. Each update is parametrized by a spatial map and a mass-changing factor, allowing spatial redistribution and local mass creation or loss to be treated jointly within a single variational step. Their cone action bounds the squared HK distance from above, yielding a sufficient condition for discrete energy dissipation through comparison with the identity pair. Minimizing the pair objective over all admissible pairs recovers the exact JKO minimum when the source and a minimizer have positive densities. We establish existence and mass bounds for JKO minimizers and, under additional assumptions, obtain positivity and regularity together with a discrete Euler-Lagrange equation and a metric-dissipation identity. The self-consistent chemical potential is then nonincreasing along an optimal map. There exist parametric pairs whose endpoint densities and objective values converge to those of an exact JKO minimizer, provided a regular-pair approximation hypothesis holds. Finally, we show that a primal-dual gap controls objective suboptimality and, for Boltzmann entropy, the $L^1$ density error, assuming exact-step regularity, positive-semidefinite interactions, and global dual feasibility. Numerical experiments examine pointwise agreement with the PDE, energy dissipation, and the roles of transport, reaction, and fully implicit interactions.",
+  "published": "2026-10-06T01:44:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.095478+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:44:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07602v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.816266+00:00"
+}

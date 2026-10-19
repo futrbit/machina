@@ -1,0 +1,22 @@
+{
+  "id": "d656ea999689e932346dd98cd59fba096b733f2f7200627d477b35d29a672690",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "From Dual Tracking to Clipping: Provably Faster Distributionally Robust Multi-Objective Optimization",
+  "url": "https://arxiv.org/abs/2605.05660",
+  "summary": "arXiv:2605.05660v3 Announce Type: replace Abstract: Multi-objective optimization (MOO) has received growing attention in applications that require learning under multiple criteria. However, most existing MOO formulations do not explicitly account for distributional shifts in the data. We introduce distributionally robust multi-objective optimization (DR-MOO), which minimizes multiple objectives under their respective worst-case distributions. We propose Pareto-type solution concepts for DR-MOO and develop multi-gradient descent algorithms (MGDA) with provable guarantees. Leveraging a Lagrangian dual reformulation, we first design a double-loop MGDA that uses an inner loop to estimate dual variables and achieves a total sample complexity $\\mathcal{O}(\\epsilon^{-8})$ for reaching an $\\epsilon$-Pareto-stationary point. To further improve convergence, we combine large-batch sampling with gradient clipping to accommodate generalized smoothness and control bias in stochastic preference updates, eliminating the need for double sampling. This yields a single-loop double-clip MGDA with substantially improved sample complexity $\\mathcal{O}(\\epsilon^{-4})$. Our theory applies to nonconvex problems without requiring uniformly bounded gradients of the dual objectives. Experiments demonstrate that our methods are competitive with state-of-the-art MGDA baselines.",
+  "published": "2026-05-07T04:24:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.115465+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:53:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.05660v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.148860+00:00"
+}

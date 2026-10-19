@@ -1,0 +1,22 @@
+{
+  "id": "e3bf9a1764830341062ec419a12e5573e53e356cd08ea39f970436f31bbbf5df",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning to Cover Locally: Graph Neural Combinatorial Optimization under a Hard Information Horizon",
+  "url": "https://arxiv.org/abs/2610.00422",
+  "summary": "arXiv:2610.00422v1 Announce Type: cross Abstract: Neural combinatorial optimization typically assumes a centralized solver that reads the whole instance. We study the opposite: combinatorial optimization under a hard information horizon, where every node commits to its share of a global solution seeing only its $k$-hop neighborhood, and those commitments must compose into a globally feasible solution. We formalize this as local set cover and instantiate it on weighted multipoint relay (MPR) selection, the NP-hard 2-hop covering problem of the Optimized Link State Routing Protocol version 2 (OLSRv2) routing protocol (RFC~7181), whose horizon is imposed by the protocol, not chosen by the modeler. We prove two results. Any deterministic selector whose horizon is one hop short must either fail coverage or land a factor $\\Delta$ from optimal, and an $L$-layer graph neural network (GNN) read out at the deciding node is exactly an $L$-hop selector, so capacity cannot buy back radius. Conversely, at the horizon a \\ac{GNN} of depth $O(\\Delta)$ reproduces the RFC~7181 covering greedy, and at width $O(c_{\\max}\\Delta)$ its metric-aware weighted analogue, inheriting the $(1+\\ln\\Delta_2)$-approximation in both cases. Empirically, a 3-layer \\ac{GATv2} with a coverage-completing decoder, behavior-cloned from the CP-SAT optimum, reaches $\\text{cost}/\\text{opt}=1.030\\pm0.001$ against greedy's $1.138$, closing $79.1\\%$ of the gap at $100\\%$ coverage. Restricting the same learner to one hop, on identical instances with the same decoder and demonstrations, collapses it to $1.344$, far worse than greedy. Two transfer checks target real-world networks. OLSRv2's unmodified selection code matches our cardinality greedy on $200/200$ unit-cost instances, and on $40{,}308$ instances of real battalion mobility the frozen model closes $48\\%$ of the gap at full coverage. The information horizon, not the model capacity, is the most significant variable.",
+  "published": "2026-09-30T15:23:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.808487+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T15:23:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00422v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.287777+00:00"
+}

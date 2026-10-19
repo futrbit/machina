@@ -1,0 +1,21 @@
+{
+  "id": "9d1534b9f9f8abf14021b8e06ef1e26244b5d21ceeb1732b5bf9bcfd538c6493",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "zkLLMPoT: Efficient Zero Knowledge Proof of Training for Large Language Models",
+  "url": "https://arxiv.org/abs/2610.08258",
+  "summary": "arXiv:2610.08258v1 Announce Type: new Abstract: Auditing the claimed outcomes of large language model (LLM) training is challenging when model weights and training data are private, while cryptographically proving the full training process is prohibitively expensive at Transformer scale. We present zkLLMPoT, a zero-knowledge framework that certifies auditor-defined properties of a trained checkpoint through forward evaluation rather than verification of its optimization trajectory. zkLLMPoT includes 2 phases: 1) The trainer fixes the architecture and the model weights are committed. Then the auditor selects challenge sequences, preventing the trainer from modifying the checkpoint in response to the audit data. 2) Then the trainer proves the objective value attained by the committed model on those sequences. This formulation makes the certification cost independent of the number of training iterations, without revealing model weights or requiring access to private training data. We build on sumcheck- and lookup-based arguments to certify Transformer computations, while supporting next-token loss and task-specific audit objectives. Across four model families, operator-level benchmarks yield proving times of 41-59 seconds for 1.1-1.5B-parameter models and 131 seconds at 13B for the covered operators, with verification below half a second at a sequence length of 512.",
+  "published": "2026-10-06T12:35:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.145815+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:35:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08258v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.041529+00:00"
+}

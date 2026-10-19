@@ -1,0 +1,22 @@
+{
+  "id": "2dc1ee6787b5f47bab408585e1b2eaa77c1acebaffb43d580be7d0a853c1496b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Rare Gate Disagreements Can Limit Plasticity: When Gradient Flow Mispredicts Finite-Batch SGD",
+  "url": "https://arxiv.org/abs/2610.11475",
+  "summary": "arXiv:2610.11475v1 Announce Type: new Abstract: Population gradient flow is a common tool for reasoning about how neural networks adapt, including after pretraining. We show that it can mispredict finite-batch stochastic gradient descent (SGD) qualitatively, and we trace the discrepancy to a specific mechanism. In a two-unit ReLU regression, a source task drives the two neurons toward positive proportionality and a target task rewards separating them. After source training for time $T$, gradient flow recovers on the target in time linear in $T$. Online SGD with batch size $b$ and step size $\\eta$ in both phases instead fails with high probability throughout a horizon of order $e^{c/\\eta}$ once $T \\gtrsim \\log(b/\\eta)$, uniformly on an explicit set of initializations with Gaussian probability above one percent. For each fixed $T$, small-step SGD still recovers, so the failure requires the joint limit of small steps and long pretraining. At the target clone, the population instability is carried entirely by inputs on which the two ReLU gates disagree. For units at angle $\\delta$ these inputs form a wedge of probability $\\delta/\\pi$, and weight decay shrinks the angle exponentially during pretraining. On every other input both units receive the same random linear update, which contracts their separation in conditional expectation. Bounding the cumulative probability of sampling the wedge along the exact online recursion, without a diffusion approximation, shows that recovery with fixed probability from an identical source-gradient-flow checkpoint, within $e^{c/\\eta}$ updates, requires $Nb \\gtrsim e^{\\lambda T}$ target samples and batch size $b \\gtrsim \\eta e^{\\lambda T}$, where $N$ counts updates and $\\lambda$ is the weight decay. In simulations, recovery is approximately a function of the disagreement budget $b\\delta/\\eta$ and saturates in the horizon.",
+  "published": "2026-10-08T08:22:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.087430+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:22:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11475v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.361144+00:00"
+}

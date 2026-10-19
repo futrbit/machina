@@ -1,0 +1,22 @@
+{
+  "id": "c5ae09ff51e7c97b212ea72677af60a1ddc4163aafd6d12f680609c6af02f8b2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "OmniMed-Jev: Calibrating LVLM Confidence for Trustworthy Medical Multimodal Decisions via System One",
+  "url": "https://arxiv.org/abs/2610.00381",
+  "summary": "arXiv:2610.00381v1 Announce Type: new Abstract: Medical models are judged not only on correctness, but on whether reported confidence matches actual accuracy. Generalist multimodal medical models have expanded what a single model can perceive, yet they still express bounded decisions such as diagnoses, findings or cell counts as generated text, so the reported probability reflects the next token rather than the decision itself. Motivated by decision-native interfaces such as Jev, we introduce OmniMed-Jev, which represents each medical decision as a Choice, Noul or Score decision over a runtime-supplied candidate set and returns a full distribution over that set: mutually exclusive classes, binary presence of a finding, or a bounded ordered value. The design is omni in three respects: it accepts diverse imaging modalities, covers different prediction tasks, and expresses them through one candidate-conditioned probability model, so heterogeneous outputs become comparable probabilities rather than task-specific strings. In an interface-controlled comparison against a generative baseline trained on the same backbone, data and schedule, OmniMed-Jev's reported probabilities track observed correctness far more closely, reducing calibration error by up to an order of magnitude and reliability error by up to two, while point-prediction performance remains comparable; counting is the one family where the generative baseline stays ahead. Making the decision distribution the model's output is not a format change but what turns reported numbers into probabilities that mean what they say. These results support explicit decision modeling as a way to make reported confidence meaningful within the evaluated tasks, and they are not evidence of clinical readiness: the comparison cannot separate the interface from associated training differences, which we state alongside the results. Code is available at github.com/lytang63/OmniMed-Jev.",
+  "published": "2026-09-30T08:53:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.771511+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T08:53:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00381v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.925995+00:00"
+}

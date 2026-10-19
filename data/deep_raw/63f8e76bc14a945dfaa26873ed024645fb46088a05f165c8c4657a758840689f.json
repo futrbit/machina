@@ -1,0 +1,22 @@
+{
+  "id": "63f8e76bc14a945dfaa26873ed024645fb46088a05f165c8c4657a758840689f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Random Feature Gaussian Process Attention: Linear-Time Probabilistic Attention with Calibrated Uncertainty",
+  "url": "https://arxiv.org/abs/2610.08578",
+  "summary": "arXiv:2610.08578v1 Announce Type: new Abstract: Transformers provide a state-of-the-art modeling framework, yet poor calibration limits their reliability in safety-critical applications. A promising direction addresses this issue by interpreting attention as a Gaussian process (GP) posterior, which enables principled uncertainty calibration but incurs cubic complexity in sequence length due to the inversion of the kernel; although decoupled GP variants reduced the cost to quadratic, the computation remains prohibitive in practice. In this paper, we propose the plug-and-play random Fourier feature Gaussian process attention (RFF-GPA) module, which represents the attention as a GP with a stationary kernel approximated by random Fourier features. This low-rank approximation results in linear-time complexity for approximating the posterior mean and variance, making it far more scalable compared to previous work. Empirical results on multiple real-world datasets show that our attention module improves calibration while maintaining predictive accuracy, and simultaneously reduces computational complexity to linear in the sequence length.",
+  "published": "2026-10-06T15:51:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.079487+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:51:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08578v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.853244+00:00"
+}

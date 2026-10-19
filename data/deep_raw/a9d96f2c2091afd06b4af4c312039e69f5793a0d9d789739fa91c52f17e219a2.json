@@ -1,0 +1,22 @@
+{
+  "id": "a9d96f2c2091afd06b4af4c312039e69f5793a0d9d789739fa91c52f17e219a2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Minimax Rate of Perturbed Second-Order Calibration",
+  "url": "https://arxiv.org/abs/2605.07808",
+  "summary": "arXiv:2605.07808v2 Announce Type: replace Abstract: Second-order calibration error quantifies how closely a higher-order predictor's epistemic-uncertainty estimate matches the conditional variance of the label probability on its level sets. We characterize the minimax rate of estimating the second-order calibration error for binary classification in the regime where a small perturbation is applied to the classifier outputs. Our procedure is simple: add independent bandwidth-$h$ sech noise to the score coordinates, then regress $Y^{(1)}$ and $Y^{(1)}Y^{(2)}$ on the perturbed score using low-degree polynomials. Crucially, the sech perturbation makes the calibration functions analytic in a suitable strip. The resulting estimator has error $O_h(\\log^{3/2}n/\\sqrt n)$, with explicit constants. In the same setting, a matching $\\Omega(1/\\sqrt{n})$ lower bound establishes minimax optimality up to logarithmic factors. As a corollary, we give a finite-sample guarantee for perturbed second-order Platt scaling, yielding a post-hoc procedure that recalibrates both the mean prediction and the epistemic-variance estimate of the perturbed higher-order predictor. Along the way, we give an explicit two-moment formulation of second-order calibration error and relate it quantitatively to the bucketed formulation of Ahdritz et al. [2025]. Our experiments confirm the predicted rate and the quality of the recalibrated uncertainties.",
+  "published": "2026-05-08T14:41:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.124409+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:36:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.07808v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.417303+00:00"
+}

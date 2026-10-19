@@ -1,0 +1,22 @@
+{
+  "id": "d0b09370be0905ffbefe213cf71c8e8c9fc866e73bc90c4151d5f758ff4a2516",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Physics-Informed Conditional Diffusion for Motion-Robust Retinal Temporal Laser Speckle Contrast Imaging",
+  "url": "https://arxiv.org/abs/2604.20594",
+  "summary": "arXiv:2604.20594v2 Announce Type: replace Abstract: Retinal laser speckle contrast imaging (LSCI) is a noninvasive optical modality for monitoring retinal blood flow dynamics. However, conventional temporal LSCI (tLSCI) reconstruction relies on sufficiently long speckle sequences to obtain stable temporal statistics, which makes it vulnerable to acquisition disturbances and limits effective temporal resolution. A physically informed reconstruction framework, termed RetinaDiff (Retinal Diffusion Model), is proposed for retinal tLSCI that is robust to motion and requires only a few frames. In RetinaDiff, registration based on phase correlation is first applied to stabilize the raw speckle sequence before contrast computation, reducing interframe misalignment so that fluctuations at each pixel primarily reflect true flow dynamics. From the long registered sequence this step yields a high-quality multiframe tLSCI map that serves only as the reconstruction target, while a motion-corrected contrast prior is computed independently from the few input frames. Next, guided by this prior, a conditional diffusion model performs inverse reconstruction by jointly conditioning on the registered few-frame sequence and the prior. On stable sequences acquired with an in-house retinal LSCI system, RetinaDiff improved SSIM from 0.159 to 0.533, PSNR from 14.83 to 18.06 dB, and FID from 211.50 to 111.55 compared with direct five-frame reconstruction, showing improved structural continuity and statistical stability over representative baselines. The framework also remains effective in a small number of extremely challenging cases, where both the direct five-frame input and the conventional multiframe reconstruction are severely degraded. Overall, this work provides a practical and physically grounded route for reliable retinal tLSCI reconstruction from extremely limited frames. The source code and model weights will be released upon acceptance.",
+  "published": "2026-04-22T14:11:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.538371+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:34:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.20594v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.073906+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5af25854efbc850cc25faaf5c9896d72e46b899edc13432a8e3f2a61473e2885",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "MatLat: Material Latent Space for PBR Texture Generation",
+  "url": "https://arxiv.org/abs/2512.17302",
+  "summary": "arXiv:2512.17302v2 Announce Type: replace Abstract: We propose a generative framework for producing high-quality PBR textures on a given 3D mesh. As large-scale PBR texture datasets are scarce, our approach focuses on effectively leveraging the embedding space and diffusion priors of pretrained latent image generative models while learning a material latent space, MatLat, through targeted fine-tuning. Unlike prior methods that freeze the embedding network, which leads to distribution shifts when encoding additional PBR channels and hinders subsequent diffusion training, we fine-tune the pretrained VAE so that new material channels can be incorporated with minimal latent distribution deviation. We further show that correspondence-aware attention alone is insufficient for cross-view consistency unless the latent-to-image mapping preserves locality. To enforce this locality, we introduce a regularization in the VAE fine-tuning that crops latent patches, decodes them, and aligns the corresponding image regions to maintain strong pixel-latent spatial correspondence. Ablation studies and comparison with previous baselines demonstrate that our framework improves PBR texture fidelity and that each component is critical for achieving state-of-the-art performance.",
+  "published": "2025-12-19T07:35:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.781030+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:42:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.17302v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.720324+00:00"
+}

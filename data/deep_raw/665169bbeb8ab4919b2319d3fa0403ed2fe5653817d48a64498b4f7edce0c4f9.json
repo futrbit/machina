@@ -1,0 +1,21 @@
+{
+  "id": "665169bbeb8ab4919b2319d3fa0403ed2fe5653817d48a64498b4f7edce0c4f9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "The Distillation Game: Adaptive Evaluations & Efficient Defenses",
+  "url": "https://arxiv.org/abs/2605.22737",
+  "summary": "arXiv:2605.22737v4 Announce Type: replace-cross Abstract: Distillation attacks create a deployment trade-off for model providers: the same outputs that make a model more useful can also make it easier to imitate. We study this trade-off through a minimax game between a utility-constrained teacher and an adaptive student. Our framework yields tractable one-sided response rules: an adaptive evaluation rule in which the student reweights high-value examples, and a teacher-side defense template that suppresses outputs most useful for distillation. From a cheap proxy for example value, we derive Product-of-Experts (PoE), a simple forward-pass-only defense that combines the teacher with a proxy student during generation. Empirically, adaptive evaluation reveals a large passive--adaptive gap: on state-of-the-art defenses, adaptive students recover substantially more capability than passive evaluation suggests on GSM8K and MATH. Under this stronger evaluation, the apparent robustness gap between expensive defenses and PoE narrows considerably, while PoE remains substantially cheaper and preserves higher-quality reasoning traces. Overall, our results suggest that strong distillation remains difficult to stop, and that progress on antidistillation should be judged against adaptive students rather than passive ones. Our code is available at: https://github.com/ysfalh/distillation-game.",
+  "published": "2026-05-21T17:09:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.421356+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T21:45:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.22737v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.900216+00:00"
+}

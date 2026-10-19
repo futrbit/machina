@@ -1,0 +1,21 @@
+{
+  "id": "ebddf1420ca6b23e9b1d59c53ef4b3a4c2d3052cab1e5494ea5b805cc9a1c8d4",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "OSFP4: Joint Optimization of Diagonal Smoothing and Block Scales for NVFP4 Quantization",
+  "url": "https://arxiv.org/abs/2610.08231",
+  "summary": "arXiv:2610.08231v1 Announce Type: new Abstract: NVFP4 is an attractive datatype for large language model (LLM) inference, offering compact storage and native tensor-core acceleration. However, preserving accuracy using NVFP4 requires careful quantization. In this work we develop a novel quantization scheme called Optimized Smoothing and Scaling for NVFP4 (OSFP4). For each linear projection it uses a diagonal smoothing matrix whose entries are optimized to minimize the squared matrix-product quantization error under NVFP4, taking into account the rounding procedure that is used (either round-to-nearest, or GPTQ-style successive interference cancellation). This requires performing joint optimization on the smoothing entries as well as the block scales, which is facilitated by analyzing a multiplicative-dither FP4 quantizer instead of the fixed deterministic one. Experiments show that OSFP4 achieves the highest average accuracy among the evaluated competitors in the corresponding quantization settings, while retaining approximately 94-97\\% of vendor NVFP4 prefill throughput on the measured workloads. Our code is available in https://github.com/neriahbd/OSFP4",
+  "published": "2026-10-06T12:17:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.145815+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:17:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08231v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.387716+00:00"
+}

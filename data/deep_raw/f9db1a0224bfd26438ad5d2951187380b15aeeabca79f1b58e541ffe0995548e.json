@@ -1,0 +1,21 @@
+{
+  "id": "f9db1a0224bfd26438ad5d2951187380b15aeeabca79f1b58e541ffe0995548e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Stability-Plasticity Balance via Singular-Vector Selection in LLM Continual Learning",
+  "url": "https://arxiv.org/abs/2610.11076",
+  "summary": "arXiv:2610.11076v1 Announce Type: cross Abstract: Domain-specific continual adaptation of LLMs risks catastrophic forgetting, creating a fundamental tension between acquiring new capabilities and preserving those learned during pretraining. PEFT mitigates this problem by restricting the number of trainable parameters, but existing methods lack a principled unit for deciding where plasticity should be allocated and stability should be preserved. We identify the singular-vector channel as a natural unit for managing this trade-off. Each channel represents an input-output transformation, which can be updated to acquire new knowledge or fixed to preserve pretrained capabilities. Based on this perspective, we introduce SVC, a parameter-efficient continual-learning method that selectively updates Singular-Vector Channels. Before fine-tuning, SVC uses domain-specific data to estimate each channel's adaptation benefit and a fixed public general-domain corpus only as a history activation proxy for estimating forgetting cost. It then adaptively selects trainable channels based on these scores via knee-based cost screening, Pareto-front filtering, and Otsu thresholding. Experimental results across four LLM families and eight downstream tasks show that SVC better preserves pretrained capabilities while achieving strong downstream performance relative to existing PEFT baselines. Further analysis of channel scoring and selection demonstrates that selective plasticity at the singular-vector-channel level enables effective continual LLM adaptation.",
+  "published": "2026-10-08T01:35:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.387378+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T01:35:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11076v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.001155+00:00"
+}

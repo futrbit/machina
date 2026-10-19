@@ -1,0 +1,22 @@
+{
+  "id": "77d7a78c7cd93a8513b4aa3c288de8895f5b667dc500a95a7f299480bee18a28",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Image Recognition with Vision and Language Embeddings of VLMs",
+  "url": "https://arxiv.org/abs/2509.09311",
+  "summary": "arXiv:2509.09311v2 Announce Type: replace Abstract: Vision-language models (VLMs) have enabled strong zero-shot classification through image-text alignment. Yet, their purely visual inference capabilities remain under-explored. In this work, we conduct a comprehensive evaluation of both language-guided and vision-only image classification with a diverse set of dual-encoder VLMs, including both well-established and recent models such as SigLIP 2 and RADIOv2.5. The performance is compared in a standard setup on the ImageNet-1k validation set and its label-corrected variant. The key factors affecting accuracy are analysed, including prompt design, class diversity, the number of neighbours in k-NN, and reference set size. We show that language and vision offer complementary strengths, with some classes favouring textual prompts and others better handled by visual similarity. To exploit this complementarity, we introduce a simple, learning-free fusion method based on per-class precision that improves classification performance. The code is available at: https://github.com/gonikisgo/bmvc2025-vlm-image-recognition.",
+  "published": "2025-09-11T09:54:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.779030+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:13:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2509.09311v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.286983+00:00"
+}

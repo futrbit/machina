@@ -1,0 +1,22 @@
+{
+  "id": "72915f90fb5da399bec6996e6a278b88f992a3c23f21fa7404478f7468b138c9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Local Timescale Gates for Timescale-Robust Continual Spiking Neural Networks",
+  "url": "https://arxiv.org/abs/2510.12843",
+  "summary": "arXiv:2510.12843v2 Announce Type: replace Abstract: Spiking neural networks (SNNs) promise energy-efficient artificial intelligence on neuromorphic hardware but struggle with tasks requiring both fast adaptation and long-term memory, especially in continual learning. We propose Local Timescale Gating (LT-Gate), a neuron model that combines dual time-constant dynamics with an adaptive gating mechanism. Each spiking neuron tracks information on a fast and a slow timescale in parallel, and a learned gate locally adjusts their influence. This design enables individual neurons to preserve slow contextual information while responding to fast signals, addressing the stability-plasticity dilemma. We further introduce a variance-tracking regularization that stabilizes firing activity, inspired by biological homeostasis. Empirically, LT-Gate yields significantly improved accuracy and retention in sequential learning tasks: on a challenging temporal classification benchmark it achieves about 51 percent final accuracy, compared to about 46 percent for a recent Hebbian continual-learning baseline and lower for prior SNN methods. Unlike approaches that require external replay or expensive orthogonalizations, LT-Gate operates with local updates and is fully compatible with neuromorphic hardware. In particular, it leverages features of Intel's Loihi chip (multiple synaptic traces with different decay rates) for on-chip learning. Our results demonstrate that multi-timescale gating can substantially enhance continual learning in SNNs, narrowing the gap between spiking and conventional deep networks on lifelong-learning tasks.",
+  "published": "2025-10-13T23:31:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.121411+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:08:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2510.12843v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.162058+00:00"
+}

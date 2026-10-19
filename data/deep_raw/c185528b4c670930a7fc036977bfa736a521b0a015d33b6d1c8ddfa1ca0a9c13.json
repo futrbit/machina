@@ -1,0 +1,22 @@
+{
+  "id": "c185528b4c670930a7fc036977bfa736a521b0a015d33b6d1c8ddfa1ca0a9c13",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "MedFeat: Model-Aware and Explainability-Driven Feature Engineering with LLMs for Tabular Prediction",
+  "url": "https://arxiv.org/abs/2603.02221",
+  "summary": "arXiv:2603.02221v3 Announce Type: replace Abstract: In clinical tabular prediction, classical machine learning models with feature engineering often outperform neural methods. LLMs are increasingly used to automate this process, acting as domain experts that propose diverse feature transformations to boost downstream performance. However, the feature generation process of existing LLM-based methods is agnostic to the downstream learner: the LLM receives no signal about which features currently drive predictions or where the model's representational capacity falls short, so proposals are neither targeted to promising regions of the feature space nor tailored to the learner's inductive bias. This shortcoming is amplified in healthcare data, which simultaneously exhibits class imbalance, heterogeneous feature spaces, and strict interpretability requirements. In this paper, we propose MedFeat, the first feature engineering framework inspired by the workflow of machine learning practitioners, leveraging model-awareness and feature importance signals to iteratively guide feature discovery for clinical tabular learning. We evaluate MedFeat on a broad range of challenging real-world clinical tasks and show that it statistically significantly outperforms state-of-the-art baselines, with an average F1 improvement of more than 10% over the baseline across models with distinct inductive biases.",
+  "published": "2026-02-10T15:05:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.829474+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T12:04:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.02221v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.878025+00:00"
+}

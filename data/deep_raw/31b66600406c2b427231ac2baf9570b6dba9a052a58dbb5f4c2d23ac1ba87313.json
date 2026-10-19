@@ -1,0 +1,21 @@
+{
+  "id": "31b66600406c2b427231ac2baf9570b6dba9a052a58dbb5f4c2d23ac1ba87313",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LUMOS: Tracing Parametric Knowledge from Training Data to Behavioral Outputs in LLMs",
+  "url": "https://arxiv.org/abs/2610.02902",
+  "summary": "arXiv:2610.02902v2 Announce Type: replace Abstract: Current analyses of LLMs' parametric knowledge are largely output-centric, drawing conclusions about what a model knows without verifying what it was actually trained on. This leaves fundamental questions, such as whether a correct response reflects genuine generalization or rote memorization, grounded in speculation rather than evidence. To resolve these ambiguities, we introduce LUMOS, a diagnostic framework that traces knowledge along the causal chain from training-data exposure to behavioral output, leveraging OLMo 2 with its fully transparent training corpus. By grounding analysis in verified exposure, we reveal that models internally encode rare facts with high separability (84%) yet fail to express them behaviorally (54%), though this retrieval gap narrows with scale. Furthermore, when models are asked to self-reflect on their own answers, they perform reliably on trained content (83%) but drop to random-baseline levels (49%) on unseen content. This collapse persists even under chain-of-thought prompting, which inflates confidence signals rather than improving calibration. Collectively, these findings demonstrate that incorporating the training-data axis into LLM evaluation transforms speculative diagnoses into verifiable claims, and we advocate that this axis should be a standard component of knowledge assessment in LLMs.",
+  "published": "2026-10-02T06:53:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.188790+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:17:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02902v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.450090+00:00"
+}

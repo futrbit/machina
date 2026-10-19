@@ -1,0 +1,22 @@
+{
+  "id": "eefc9981e2626dd1608f985d1b40d278f8868970797ea2751d5e181f137df0b3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "TripleFlow: Training-Free Video Object Removal by Bridging Residual Editing and Native Generation",
+  "url": "https://arxiv.org/abs/2609.39157",
+  "summary": "arXiv:2609.39157v2 Announce Type: replace Abstract: Video object removal presents a uniquely difficult editing challenge. Because a removal prompt specifies only what to erase rather than what to generate, the model must infer and reconstruct a highly specific occluded background entirely from the surrounding context. Existing training-free methods struggle with this because their editing mechanisms act primarily as localized erasers. They fail to actively synthesize the missing background details and often leave behind ghosting artifacts. To solve this, we propose TripleFlow, a training-free framework that tightly couples erasure and generation. It coordinates a source flow, a residual flow, and a synthesis flow throughout the entire process. By reusing a single target prediction, the residual flow isolates and suppresses the object, while the synthesis flow independently reconstructs the occluded background. Crucially, TripleFlow injects this newly synthesized background back into the editing trajectory at every step. This continuous feedback loop ensures that the generated structures actively guide the removal process, achieving seamless completion that is spatiotemporally consistent with the unedited scene. Extensive evaluations across five challenging benchmarks demonstrate that TripleFlow establishes a new state-of-the-art, significantly outperforming existing baselines in both reconstruction fidelity and temporal consistency.",
+  "published": "2026-09-30T07:20:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.549365+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:29:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.39157v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.424695+00:00"
+}

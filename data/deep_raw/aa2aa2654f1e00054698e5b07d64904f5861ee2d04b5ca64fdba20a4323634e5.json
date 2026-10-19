@@ -1,0 +1,22 @@
+{
+  "id": "aa2aa2654f1e00054698e5b07d64904f5861ee2d04b5ca64fdba20a4323634e5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "OX-NeRF: 3D X-ray Tomography Reconstruction from Sparse Views Using Implicit Neural Representation",
+  "url": "https://arxiv.org/abs/2610.11547",
+  "summary": "arXiv:2610.11547v1 Announce Type: new Abstract: NeRF and Gaussian splatting methods have been successfully applied on X-ray scenes where the views are too sparse for 3D reconstruction via classical methods. Ultra-sparse scenes with 10 or fewer views such as those with high-rate or low-dose acquisition still, however, present a significant challenge. To address this problem we present a new framework, Optimised X-ray Neural Radiance Fields (OX-NeRF), that combines cross-scene feature learning with scene-specific optimisation to reconstruct sets of related scenes. OX-NeRF employs a convolutional neural network (CNN) to identify cross-scene features while maintaining scene-specific multi-resolution hash grids of spatial features. The paired representations are fused and passed to a multilayer perceptron (MLP); the CNN, hash grids and MLP are then jointly optimised end-to-end. Benchmarking on parallel-beam and cone-beam X-ray datasets shows OX-NeRF provides significantly higher reconstruction accuracy on ultra-sparse scenes compared to existing radiance field methods.",
+  "published": "2026-10-08T09:12:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.749050+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:12:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11547v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.425297+00:00"
+}

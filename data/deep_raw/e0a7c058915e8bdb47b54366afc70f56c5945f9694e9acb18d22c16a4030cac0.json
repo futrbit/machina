@@ -1,0 +1,22 @@
+{
+  "id": "e0a7c058915e8bdb47b54366afc70f56c5945f9694e9acb18d22c16a4030cac0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reward Observability and the Limits of Offline Checkpoint Selection in RSSM World Models",
+  "url": "https://arxiv.org/abs/2607.01736",
+  "summary": "arXiv:2607.01736v3 Announce Type: replace Abstract: We study the closed-loop properties of a recurrent state-space model (RSSM) world model trained on human demonstrations in Gymnasium's LunarLander-v3. We use the trained world model for zero-shot CEM model-predictive control (MPC) and for actor-critic (A2C) training in imagination. Scored on 100 held-out episodes, the selected model-based A2C policy (trained on world-model checkpoint 280) reaches a mean return of +189.5, matching the best model-free A2C checkpoint (+183.7; 600- and 1000-step episode caps respectively) with ~65x fewer real training transitions. We also compare world-model MPC with a behaviour-cloning (BC) policy trained on the successful demonstrations. The BC policy matches MPC's mean return only under stochastic action selection, and on the same 20 episodes it has one catastrophic episode where MPC has none. We then introduce the Reward Observability Fraction (ROF), the Euclidean fraction of the reward gradient in the observable subspace of the linearized latent dynamics, and show that the next H observations carry Fisher information about every direction in this subspace and none about directions orthogonal to it. ROF itself however depends on how the latent is scaled: rescaling it changes ROF but not the model, so raw levels are not comparable across models. Forcing the reward head onto the posterior-corrected latent z raises ROF, and the rise survives a coordinate-invariant check on the pair of runs we tested. Finally, we test whether ROF or other offline metrics can predict the closed-loop collapse of MPC. Collapse varies between training runs with identical data and configuration. ROF does not predict it, none of the 108 offline summaries we screened passes a permutation test, and the best candidate fails on new runs. Predicting collapse offline from the model and logged data alone remains open.",
+  "published": "2026-07-02T05:46:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.127407+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:14:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.01736v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.307177+00:00"
+}

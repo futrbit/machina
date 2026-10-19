@@ -1,0 +1,17 @@
+{
+  "id": "e7d9fe16881e79cde80219ffeb2787239f9cec9bedaf361a744e637e0181c953",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Algorithmic Primitives of Theory of Mind Benchmarks",
+  "url": "https://arxiv.org/abs/2604.17819",
+  "summary": "arXiv:2604.17819v2 Announce Type: replace-cross Abstract: Do Theory of Mind (ToM) benchmarks really test theory of mind, or are they actually testing parsing and algorithmic state tracking? While benchmarks vary modality and dialogue length, this paper finds that they re-encode the same few state transition algorithms. We create PDDL-Mind, a neuro-symbolic approach that recovers such algorithms and upstream inductive biases of ToM benchmarks explicitly by parsing narratives into the Planning Domain Definition Language (PDDL) and executes candidate actions against a predefined set of update algorithms. Doing so provides program-verified state traces to the model. We use our method's performance gain to audit how much of a benchmark's difficulty our inductive bias absorbs. Across MMToM, MuMA, and FanToM, outsourcing parsing to programs alone brings performance close to strong agentic pipelines, while outsourcing state tracking to PDDL moves GPT-4o to close-to-human performance. We demonstrate that complex ToM benchmarks primarily punishes Large Language Models' unreliable implicit implementation of state tracking and parsing algorithms rather than limitations in belief and counterfactual reasoning.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.217125+00:00"
+}

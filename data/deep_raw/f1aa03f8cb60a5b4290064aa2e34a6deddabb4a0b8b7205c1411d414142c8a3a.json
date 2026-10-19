@@ -1,0 +1,22 @@
+{
+  "id": "f1aa03f8cb60a5b4290064aa2e34a6deddabb4a0b8b7205c1411d414142c8a3a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SkillFormer: Skill-Decomposed Adaptation for Audio Language Models",
+  "url": "https://arxiv.org/abs/2610.07533",
+  "summary": "arXiv:2610.07533v1 Announce Type: cross Abstract: Audio language models must handle dozens of distinct skills, from pitch comparison and speaker counting to musical tempo estimation and emotion recognition. Joint training on all skills at once causes interference: gains on one skill often come at the cost of another. We propose \\textbf{SkillFormer}, which decomposes audio understanding into skill-specific low-rank adapters and composes them at inference time through a learned router. The router examines the question to decide which adapters to activate and how much weight each should carry, so that a pitch query engages different parameters than a genre classification query. An alternating training schedule updates each adapter on its own skill cluster before jointly calibrating the router, preventing the gradient conflicts that arise in standard multi-task optimization. SkillFormer adds fewer than 4\\% of the base model's parameters and requires no changes to the audio encoder or language backbone. Evaluated on three architecturally distinct models across MMSU, MMAU-Pro, and MMAR, it raises the average accuracy by 2.5 to 4.1 points, with balanced gains across perception, reasoning, and semantic subcategories.",
+  "published": "2026-10-06T00:00:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.093479+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:00:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07533v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.456676+00:00"
+}

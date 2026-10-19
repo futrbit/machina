@@ -1,0 +1,21 @@
+{
+  "id": "7accd0075484ed721590549abf57b9bf96866ce7cd095ecb5e3eb19d3a1766db",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PIER: An Evidence-Gated Execution Interface for Robotic Manipulation",
+  "url": "https://arxiv.org/abs/2610.12123",
+  "summary": "arXiv:2610.12123v1 Announce Type: new Abstract: Generating a plausible robot action does not establish that current observations justify its execution. Motivated by exploratory observations of high-confidence visual outputs under severe occlusion, we present PIER, an execution-authorization interface that separates evidence checks, decision provenance, and stage-scoped re-observation from hardware control. The deterministic gate evaluates declared visual and tactile inputs, while its caller maintains a budget of at most one re-observation per stage. We evaluate the implementation using 1,600 threshold-grid cases and 1,200 paired synthetic traces spanning score noise, missing tactile inputs, stale observations, and falsely reassuring scores. The finite grid yields zero declared invariant violations, and a matched Boolean baseline reproduces all non-recovery decisions. Under synthetic score noise, re-observation reduces valid-state denials from 57/120 to 18/120 while increasing invalid-state proceeds from 5/120 to 7/120. Stale and falsely reassuring inputs expose limitations that threshold checks alone cannot resolve. Exploratory visual, tactile, and robot setup records provide context but do not establish physical task performance. These results characterize an inspectable authorization interface and its input-contract limitations, without claiming superiority over equivalent rule logic, calibrated tactile accuracy, or certified physical safety.",
+  "published": "2026-10-08T15:16:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.745540+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:16:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12123v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.348946+00:00"
+}

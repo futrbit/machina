@@ -1,0 +1,22 @@
+{
+  "id": "66597f8e3e4a7ea53d83717e80d2fd5543a6c3aa24c91aa8f6aa82ceb6125e85",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Complementary Supervised and Self-Supervised Representations for Out-of-Distribution Graph Learning",
+  "url": "https://arxiv.org/abs/2610.07628",
+  "summary": "arXiv:2610.07628v1 Announce Type: new Abstract: Out-of-distribution (OOD) generalization remains challenging for graph neural networks (GNNs), as graph distributions can vary substantially across time and domains. Supervised and self-supervised graph representation learning are guided by distinct objectives and offer different perspectives on graph representations. In this work, we study whether self-supervised representations (SSL) can provide complementary signals to improve supervised OOD node classification. We develop two backbone-agnostic frameworks that exploit such information at different stages of learning and prediction. Co-Train jointly learns supervised and SSL representations and adaptively integrates them during training, while Dual-Space Retrieval performs non-parametric prediction in the two representation spaces and combines their predictions through confidence-aware fusion at inference time. The supervised and SSL encoders are separately parameterized and need not share the same GNN architecture. We evaluate multiple GNN backbones and two distinct SSL objectives, DGI and GRACE, on four graph benchmarks spanning temporal and cross-domain distribution shifts. Extensive experiments show that Co-Train consistently outperforms strong supervised OOD baselines, while Dual-Space Retrieval achieves competitive performance as a flexible non-parametric alternative. Results across different backbones and SSL objectives, together with representation analyses and ablations, demonstrate that SSL representations provide complementary information to supervised representations and can improve OOD node classification across diverse settings.",
+  "published": "2026-10-06T02:21:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.065496+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:21:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07628v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.902214+00:00"
+}

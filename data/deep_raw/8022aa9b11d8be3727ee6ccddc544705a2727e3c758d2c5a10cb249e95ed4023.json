@@ -1,0 +1,22 @@
+{
+  "id": "8022aa9b11d8be3727ee6ccddc544705a2727e3c758d2c5a10cb249e95ed4023",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Making COMET Comparable Across Scripts: Diagnosis and Correction of Tokeniser-Induced Script Bias in Indic MT Evaluation",
+  "url": "https://arxiv.org/abs/2610.08159",
+  "summary": "arXiv:2610.08159v1 Announce Type: cross Abstract: COMET reports translation quality as a single number, and that number is routinely compared across target languages written in different scripts. Such a comparison assumes Script Invariance: the score should not depend on the writing system that carries the target. We test it on IndicMT Eval by re-encoding the target into Latin script, which changes orthographic form while holding content and human ratings fixed. Script identity then accounts for 22.9% of native-script COMET variance, and agreement with annotators falls in all five languages studied. We trace the effect to the tokeniser and measure it with three label-free diagnostics. The bias is two faults, not one. Scores from different scripts occupy incompatible ranges, and within a single script the metric orders translations less accurately. No order-preserving transform of the score can repair the second fault. The first is removed exactly by COMET-QN, which maps the score distribution of each (language, script) pair onto a shared reference. Pooled agreement with annotators rises from 0.300 to 0.399, which is what makes scores from different scripts safe to place on one axis, and every within-language ordering is provably preserved. A regressor over parity features recovers a further 17.1% of the lost sensitivity. The remainder belongs to the encoder, and no post-processing can reach it. We therefore recommend publishing the normalised score, the three diagnostics, and the identity of the tokeniser they were computed against, so that a reader can tell how much of a score reflects translation quality and how much reflects the writing system.",
+  "published": "2026-10-06T11:11:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.103472+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:11:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08159v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.441889+00:00"
+}

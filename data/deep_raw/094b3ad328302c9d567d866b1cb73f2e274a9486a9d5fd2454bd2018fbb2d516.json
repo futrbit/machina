@@ -1,0 +1,22 @@
+{
+  "id": "094b3ad328302c9d567d866b1cb73f2e274a9486a9d5fd2454bd2018fbb2d516",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "TAFFY: A Task-Adaptive Tabular Foundation Model with In-Context Diversity",
+  "url": "https://arxiv.org/abs/2610.07559",
+  "summary": "arXiv:2610.07559v1 Announce Type: new Abstract: Recent progress in tabular foundation models suggests that training on synthetic tasks can substantially improve in-context learning capabilities, with overall performance largely depending on how well models can infer task-specific predictive relationships from the available context during inference. In this paper, we introduce TAFFY, a tabular foundation model with an In-Context Diversity Prior and a Task-Conditioned Looped Transformer that strengthen this ability. Specifically, to construct each synthetic pretraining context, the In-Context Diversity Prior samples from multiple related environments derived via controlled interventions and distribution shifts on a shared causal process. This in-context diversity encourages the model to learn a more comprehensive and task-specific representation. Moreover, the Task-Conditioned Looped Transformer iteratively and selectively applies a shared group of Transformer blocks to refine contextual representations, with a task-conditioned gate modulating the final hidden-state update. This enables task-adaptive iterative refinement. Together, these components encourage the model to identify predictive relationships from contextual contrasts during pretraining and dynamically modulate context integration for each task. Across six classification and five regression benchmark datasets, TAFFY attains the lowest average rank.",
+  "published": "2026-10-06T00:46:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.064497+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:46:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07559v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.449088+00:00"
+}

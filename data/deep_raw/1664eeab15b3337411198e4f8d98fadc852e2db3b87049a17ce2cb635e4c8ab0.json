@@ -1,0 +1,22 @@
+{
+  "id": "1664eeab15b3337411198e4f8d98fadc852e2db3b87049a17ce2cb635e4c8ab0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Altered Thoughts, Altered Actions: Reasoning Chain as Control Surface for a Vision-Language-Action Policy",
+  "url": "https://arxiv.org/abs/2603.12717",
+  "summary": "arXiv:2603.12717v3 Announce Type: replace-cross Abstract: Vision-language-action policies map camera images and natural-language instructions to a robot's motor actions. Some of these policies are designed to reason in text before acting, generating a reasoning chain and decoding actions conditioned on that chain. The works introducing this design offer the reasoning chain as an oversight interface: text a person can read and edit to correct the policy. What an edited reasoning chain does to the policy's motor actions, whether it repairs them or corrupts them, has so far been measured only in part. We measure both directions, repair and corruption, with our deterministic entity swap applied to the instruction the policy receives and to the reasoning chain it generates. A forty-task observed backdrop across all four LIBERO simulation suites reveals that the cost of corrupting the reasoning chain concentrates where language alone determines the goal. There, on LIBERO-Goal, we run the counterfactual intervention with DeepThinkVLA, chosen because its reasoning chain is exposed as plain text. The policy receives a corrupted instruction, but its reasoning chain is replaced by the one it generates when that instruction is clean. This counterfactually correct reasoning chain recovers 47.8 pp of the lost success, our pre-registered confirmatory test. Had the chain merely restated what the camera image already determines, the replacement could have changed nothing. Instead, all 10 tasks move in the predicted direction, though success falls short of the clean runs by 38.0 pp, a gap we had predicted at 5-15 pp. The reasoning chain is therefore a working control surface: text written into it moves the robot, repairing behaviour when the text is right and corrupting it when the text is wrong. Whether to expose such a control surface is a deployment tradeoff, and part of it can now be measured.",
+  "published": "2026-03-13T07:02:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.137399+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:15:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.12717v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.812868+00:00"
+}

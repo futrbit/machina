@@ -1,0 +1,21 @@
+{
+  "id": "5e948baabaf2a044ee5ab81220aac69607037e4cd8ec374ca96d8f45af1d0113",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+  "url": "https://arxiv.org/abs/2610.01780",
+  "summary": "arXiv:2610.01780v3 Announce Type: replace Abstract: An AI companion that talks with someone for months should come to understand them. It should know who they are, remember what they said, and recognize when something from the past matters now. Testing this needs real conversations, but real conversations are private, so existing benchmarks use invented people and invented questions. We release RealCompanion, ten real relationships between people and an AI companion, with 27,218 messages over up to 120 days. For each person, we release the full conversation, a profile, a persona, chat test items, and question test items. Every label points to the messages that support it, and every chat label comes with the reasoning that produced it. The real data shows three things. First, people rarely refer back. Only 3.4% of their messages depend on something said earlier, and when one does, the earlier message is usually far away (a median of 2,157 messages back). Averages hide this. Looking at the most recent messages finds the needed one 95.9% of the time overall, but only 2.2% of the time when it is far back. Second, AI systems cannot tell when the past matters. The detectors we tested barely beat chance on real messages, and when the same earlier messages are labeled \"memories\" instead of \"earlier messages\", models bring up the past 10 to 14 percentage points more often, even when nothing from the past is needed. Third, AI systems read more into a person than the person revealed. Three agent systems rebuild each persona equally well (F1 0.71). They see the person, and then imagine more. Understanding a person depends on knowing when their past matters and where what they shared ends, and only real conversations can test it.",
+  "published": "2026-10-01T14:31:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.410364+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:22:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01780v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.782287+00:00"
+}

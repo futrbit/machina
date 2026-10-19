@@ -1,0 +1,21 @@
+{
+  "id": "6887a3330b473d0e9b42c699d0090573093d9953b0c4eca2ebfa905f9761c869",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "PertMind: Eliciting Emergent Biological Reasoning in LLM via Reinforcement Learning on Cellular Perturbation Data",
+  "url": "https://arxiv.org/abs/2608.16419",
+  "summary": "arXiv:2608.16419v3 Announce Type: replace-cross Abstract: Large language models can describe mechanisms, yet scalable post-training still depends on costly, manually curated biological reasoning traces. Here we show that cellular perturbation atlases can instead become reinforcement-learning environments, where measured gene responses provide computable rewards for biological reasoning. We introduce PertMind, which combines trusted-trajectory supervised initialization with gene-, pathway-, and format-level reinforcement signals. Although trained only on forward perturbation-response prediction, PertMind improves response inference in unseen cellular contexts while retaining general language capabilities. It also transfers, without task-specific post-training, to reverse perturbation identification, double-perturbation reasoning, phenotypic-screen prioritization, and biological-process interpretation. PertMind further generates biological profiles that support competitive gene, cell, and donor representations across multiscale downstream tasks. These results support the hypothesis that reinforcement on experimental endpoints can concentrate reusable biological strategies already accessible to pretrained models. More broadly, perturbation-derived reinforcement learning offers a scalable route for transforming expanding experimental atlases into training environments for general-purpose biological reasoning.",
+  "published": "2026-08-17T11:17:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.198784+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:42:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.16419v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.771897+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "0a9b71bb15058dea46e0743468b80212029b7ffa4363a0b2bd547cbe5f66ca54",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Gabor-Enhanced Physics-Informed Neural Networks for Fast Simulations of Acoustic Wavefields",
+  "url": "https://arxiv.org/abs/2502.17134",
+  "summary": "arXiv:2502.17134v3 Announce Type: replace-cross Abstract: Physics-Informed Neural Networks (PINNs) have gained attention for solving partial differential equations, including the scattered Helmholtz equation, due to their flexibility and mesh-free formulation. However, their performance suffers from low-frequency bias, particularly in high-frequency wavefield simulations, limiting convergence speed and accuracy. To address this, we propose a novel and simplified PINN framework that incorporates explicit, trainable Gabor basis functions to efficiently capture the localized and oscillatory nature of wavefields. Unlike previous Gabor-based PINNs that rely on multiplicative filters or auxiliary networks to learn Gabor parameters, our approach redefines the network's task as learning a nonlinear mapping from input coordinates to a custom Gabor coordinate system, where a Gabor function captures the dominant oscillatory behavior of the wavefield. This formulation absorbs the effect of two Gabor parameters into the learned mapping, reducing computational complexity and eliminating the need for manual tuning of hyperparameters. We also present an efficient formulation for incorporating a Perfectly Matched Layer (PML) into the training by deriving real-valued loss components and introducing an analytical expression for the background wavefield. Numerical experiments on various velocity models show that our Gabor-PINN achieves faster convergence, higher accuracy, and greater robustness to architectural design and initialization compared to both traditional PINNs and prior Gabor-based methods. The improvement lies not in adding architectural complexity --as is common in enhanced PINNs -- but in absorbing this complexity into the learned coordinate transformation, making the method both simpler and more effective. Our implementation is publicly available to support reproducibility and future research.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.278701+00:00"
+}

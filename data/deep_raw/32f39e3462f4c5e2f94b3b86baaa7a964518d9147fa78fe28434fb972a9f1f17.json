@@ -1,0 +1,22 @@
+{
+  "id": "32f39e3462f4c5e2f94b3b86baaa7a964518d9147fa78fe28434fb972a9f1f17",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Sera: Semantic Representation Aggregation for Reliable and Interpretable Battery Health Forecasting",
+  "url": "https://arxiv.org/abs/2610.11567",
+  "summary": "arXiv:2610.11567v1 Announce Type: new Abstract: Battery state of health (SoH) forecasting is important for battery management, but remains challenging due to nonlinear degradation and heterogeneity across batteries. Existing data-driven approaches primarily use temporal models to learn from numerical battery time series, and higher-level degradation characteristics are often not explicitly represented. These characteristics, however, can provide degradation guidance to support reliable forecasting and make the influence of degradation more interpretable. In this paper, we propose \\textsc{Sera}, a \\underline{se}mantic \\underline{r}epresentation \\underline{a}ggregation framework that complements temporal modelling with degradation semantics. Guided by battery domain expertise, \\textsc{Sera} extracts degradation semantics from time series and constructs two complementary representations using rule-based knowledge and LLM-based interpretation. The representations are independently encoded and integrated with the representation learned by temporal models through gated aggregations. Experiments on the mainstream benchmark across multiple prediction horizons and different temporal models show that \\textsc{Sera} consistently improves forecasting performance, achieving up to a 37.3\\% reduction in prediction error over the temporal baseline and enhanced generalizability. Counterfactual analysis examines how forecasts respond to changes in degradation semantics to assess interpretability. The results show that prediction responses are consistent with the meanings of key degradation descriptors across tested horizons. Together, these findings demonstrate that structured degradation semantics and effective aggregation can improve forecasting accuracy and support reliable and interpretable battery health forecasting for advanced battery management.",
+  "published": "2026-10-08T09:25:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.088429+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:25:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11567v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.483070+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bce1f9c10955786857c48426ba7c296c506962c8255c632c73ef88d957af460a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
+  "url": "https://arxiv.org/abs/2610.07967",
+  "summary": "arXiv:2610.07967v1 Announce Type: new Abstract: As large language model (LLM) agents become increasingly autonomous, they may pursue task performance through deception, raising concerns about their reliable deployment. Existing evaluations show that LLM agents can deceive, but often examine isolated scenarios or narrowly defined conditions, limiting systematic understanding of when deception becomes more likely. To address this gap, we introduce DecepEval, a benchmark comprising 1,532 instances across 3 task families and 28 professional scenarios. Drawing on classical fraud theories, we propose the LLM Deception Diamond framework, which characterizes four external conditions that may induce deception: pressure, incentive, opportunity, and conflict. DecepEval pairs neutral and induced versions of each instance to measure condition-dependent changes in deception rates, while explicit task facts and observable agent behavior help distinguish deception from capability-related errors. Evaluations of nine frontier LLMs show that inducements increase deception across models and task families, even among models with low baseline deception rates. DecepEval makes these vulnerabilities measurable, providing a shared benchmark for progress toward trustworthy artificial intelligence.",
+  "published": "2026-10-06T08:33:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.070492+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:33:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07967v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.816062+00:00"
+}

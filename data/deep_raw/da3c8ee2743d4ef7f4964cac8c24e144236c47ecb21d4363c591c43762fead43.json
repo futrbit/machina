@@ -1,0 +1,22 @@
+{
+  "id": "da3c8ee2743d4ef7f4964cac8c24e144236c47ecb21d4363c591c43762fead43",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models",
+  "url": "https://arxiv.org/abs/2502.13141",
+  "summary": "arXiv:2502.13141v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) are vulnerable to attacks like prompt injection, backdoor attacks, and adversarial attacks, which manipulate prompts or models to generate harmful outputs. In this paper, departing from traditional deep learning attack paradigms, we explore their intrinsic relationship and collectively term them Prompt Trigger Attacks (PTA). This raises a key question: Given a prompt, can we tell whether a hidden trigger is steering the model's behavior? We propose UniGuardian, to the best of our knowledge the first training-free LLM detector to jointly detect successfully activated prompt injection, backdoor, and adversarial attacks without knowing the attack type. Its shared mechanism measures how structured prompt perturbations shift the model's output distribution. Additionally, we introduce a single-forward strategy to optimize the detection pipeline, enabling simultaneous attack detection and text generation within a shared batched forward pass at each decoding step. Our experiments confirm that UniGuardian accurately and efficiently identifies trigger-activated prompts in LLMs.",
+  "published": "2025-02-18T18:59:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.840467+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:30:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2502.13141v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.192834+00:00"
+}

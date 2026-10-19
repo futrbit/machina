@@ -1,0 +1,22 @@
+{
+  "id": "28c467bd75aeb96d0db523e19cfd4015874df67eb49d97453a614c4ae004fe53",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Expected Batch Optimal Transport Plans and Consequences for Flow Matching",
+  "url": "https://arxiv.org/abs/2605.12174",
+  "summary": "arXiv:2605.12174v2 Announce Type: replace Abstract: Solving optimal transport (OT) on random minibatches is a common surrogate for exact OT in large-scale learning. In flow matching (FM), this surrogate is used to obtain OT-like couplings that can straighten probability paths and reduce numerical integration cost. Yet, the population-level coupling induced by repeated minibatch OT remains only partially understood. We formalize this coupling as the expected batch OT plan $\\overline{\\pi}_{k}$, obtained by averaging empirical OT plans over independent minibatches of size $k$. We then establish its large-batch consistency and, in the semidiscrete case relevant to generative modeling, derive rates for both the transport-cost bias and the convergence of $\\overline{\\pi}_{k}$ to the OT plan. For FM, this yields a population coupling whose induced velocity field is regular enough to define a unique flow from the source to the discrete target. We finally quantify how OT batch size interacts with numerical integration in a tractable two-atom model and in synthetic and image experiments.",
+  "published": "2026-05-12T14:19:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.125408+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:09:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.12174v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.271198+00:00"
+}

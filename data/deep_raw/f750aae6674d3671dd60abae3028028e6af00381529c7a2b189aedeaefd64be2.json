@@ -1,0 +1,18 @@
+{
+  "id": "f750aae6674d3671dd60abae3028028e6af00381529c7a2b189aedeaefd64be2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "PONDER: Learning to Generate in the Right Order",
+  "url": "https://arxiv.org/abs/2610.23531",
+  "summary": "arXiv:2610.23531v1 Announce Type: new Abstract: We introduce PONDER, a method that learns in which order an image generator should fill in content and which of its earlier predictions to revise. Masked generative models construct a sample by repeatedly filling in subsets of missing variables. The order of these partial predictions determines the context available in subsequent steps and therefore affects the quality of the final sample. Common strategies are to choose the order randomly or based on local confidence estimates. Conditioned on the partially generated sample and the generator's features, our policy chooses which positions to fill next and/or which previously filled positions to mask for later regeneration, a mechanism we call rethinking. In this way, the generation process is able to adapt to the evolving context and also to revise earlier predictions. We optimize the policy using group-relative policy gradients, with rewards that measure constraint satisfaction, human preference, or distribution quality. For the latter, we introduce FIDgrad, an image-level reward derived from the (first-order) change in Fr\\'echet Inception Distance caused by adding a generated sample to the current feature distribution. With the generators frozen, learned ordering reduces MAR-B ImageNet FID from 4.09 to 2.78 and raises the accuracy on hard visual Sudokus from 3.9\\% to 56.6\\%, surpassing uncertainty-based greedy ordering (38.7\\%). Rethinking further improves these results to 2.70 FID and 96.7\\% accuracy, while increasing the rethinking budget of a fixed policy yields continued improvements at inference time.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.060082+00:00"
+}

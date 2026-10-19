@@ -1,0 +1,22 @@
+{
+  "id": "9f2e9cce7d2e068a5fd186c4106ad3356753baa4a2e8b082e3ef65135b4b6225",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Express Language Modeling",
+  "url": "https://arxiv.org/abs/2606.10944",
+  "summary": "arXiv:2606.10944v2 Announce Type: replace Abstract: We introduce a new tool, Express, for converting a non-causal attention approximation into a causal approximation with matching approximation guarantees. When combined with the state-of-the-art Thinformer approximation, Express improves upon the best known causal attention guarantees, delivering $\\log^{3/2}(n)/s$ approximation error with only $O(s)$ memory and $O(s^2 \\log^2(n))$ compression overhead for a sequence of length $n$. We pair these developments with an efficient I/O-aware Triton implementation, demonstrate substantial speedups over FlashAttention 2, and use Express to overcome four resource bottlenecks in the language modeling pipeline: long-context prefill, KV cache compression, long-form memory-constrained decoding, and long-form compute-constrained decoding.",
+  "published": "2026-06-09T14:48:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.117464+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:36:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.10944v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.078506+00:00"
+}

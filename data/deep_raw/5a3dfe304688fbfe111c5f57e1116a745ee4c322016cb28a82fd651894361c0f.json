@@ -1,0 +1,22 @@
+{
+  "id": "5a3dfe304688fbfe111c5f57e1116a745ee4c322016cb28a82fd651894361c0f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CAF\\'E: Causal Black-Box Testing of Machine Unlearning",
+  "url": "https://arxiv.org/abs/2509.16525",
+  "summary": "arXiv:2509.16525v2 Announce Type: replace-cross Abstract: Machine learning models are increasingly deployed as software components that must evolve as requirements change. When specific training records or features must no longer influence a deployed model, machine unlearning aims to remove that influence without retraining from scratch. Because unlearning is often approximate, its effectiveness must be tested. Such tests must often treat the model as a black box, without access to its parameters, training history, or unlearning procedure. Features pose a further challenge: even after a feature is removed from a model's inputs, its influence can persist through downstream features. Many existing checks examine only the feature's direct use and can therefore certify a model that still depends on it. We frame unlearning testing as specification-based testing and present CAF\\'E, which, using only a deployed model's predictions, intervenes on the feature, propagates the change to its downstream features, and checks whether the predictions still respond. CAF\\'E measures a target's residual influence through both its direct and indirect causal paths, and its fine-grained diagnostics show which channels and subgroups still carry it. On two causal-network benchmarks with four unlearning methods, CAF\\'E ranks residual influence with 0.92--0.93 pairwise accuracy, against at most 0.71 for existing checks, which fail in both directions: they certify models whose influence persists through downstream features and flag correctly unlearned ones. On real census data, CAF\\'E likewise exposes influence that survives retraining yet goes unnoticed by direct-input checks.",
+  "published": "2025-09-20T04:19:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.135399+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:18:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2509.16525v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.557023+00:00"
+}

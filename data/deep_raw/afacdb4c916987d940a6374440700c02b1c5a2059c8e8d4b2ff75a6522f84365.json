@@ -1,0 +1,21 @@
+{
+  "id": "afacdb4c916987d940a6374440700c02b1c5a2059c8e8d4b2ff75a6522f84365",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation",
+  "url": "https://arxiv.org/abs/2608.25585",
+  "summary": "arXiv:2608.25585v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models provide a versatile foundation for general robotic manipulation, yet they exhibit significant brittleness when confronted with novel task distributions. While In-Context Imitation Learning (ICIL) offers a training-free alternative, existing frameworks suffer from an adaptation bottleneck that hinders the effective translation of expert context to executable actions. This failure originates from superficial retrieval mechanisms and an inherent behavioral inertia that anchors the policy to its pre-trained priors. To address these limitations, we present RA-VLA, a retrieval-augmented VLA framework that integrates behavior-aligned context retrieval with a grounded execution pipeline. By enforcing faithful adherence to functional cues within a scalable architecture, RA-VLA facilitates seamless task adaptation while preserving inference efficiency. Our empirical evaluations across the LIBERO benchmark and a real-world UR5e environment demonstrate that RA-VLA achieves superior success rates and computational efficiency, establishing a robust framework for training-free robotic adaptation.",
+  "published": "2026-08-26T09:52:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.762529+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:20:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.25585v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.562215+00:00"
+}

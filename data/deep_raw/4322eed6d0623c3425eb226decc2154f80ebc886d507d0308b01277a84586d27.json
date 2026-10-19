@@ -1,0 +1,21 @@
+{
+  "id": "4322eed6d0623c3425eb226decc2154f80ebc886d507d0308b01277a84586d27",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation",
+  "url": "https://arxiv.org/abs/2609.15012",
+  "summary": "arXiv:2609.15012v3 Announce Type: replace Abstract: Can changing only the language instruction redirect a VLA policy's end effector, or does the visually driven motion prior dominate? We present Atomic Motion Coordinate, a geometry-grounded coordinate for steerable and force-responsive manipulation. Each arm owns thirteen signed translation, rotation, and hold atoms grounded from text and forward kinematics with vision withheld, and the coordinate is injected into every action-expert block via weighted codebook alignment. Contact history modulates the same coordinate through a bounded spherical residual that is recomputed from a fixed nominal latent to regenerate only the unexecuted horizon suffix. Across 7,520 offline horizon interventions, opposite-atom separation reaches 92.5/83.1% (single/dual) versus 39.1/24.0% for LA4VLA-style. Across 50 real-robot trials per task, AMC raises OOD fruit progress from 60.5% to 87.8%; force adaptation raises Plug/Vase from 59.0/71.5% to 78.5/75.2%.",
+  "published": "2026-09-14T04:19:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.487006+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:59:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.15012v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.838856+00:00"
+}

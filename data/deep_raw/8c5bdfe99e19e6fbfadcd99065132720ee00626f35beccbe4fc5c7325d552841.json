@@ -1,0 +1,22 @@
+{
+  "id": "8c5bdfe99e19e6fbfadcd99065132720ee00626f35beccbe4fc5c7325d552841",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Fresco++: Frequency-Guided and Canonical-Consistent Optimization for Fine-Grained Head Avatar Modeling",
+  "url": "https://arxiv.org/abs/2610.11412",
+  "summary": "arXiv:2610.11412v1 Announce Type: new Abstract: We propose Fresco++, a unified optimization framework for fine-grained and view-consistent head avatar reconstruction. Head avatar optimization is typically driven by per-view image supervision, which can lead to premature fitting of unstable high-frequency details and inconsistent local appearance across viewpoints. Fresco++ addresses these challenges by regulating both the progression of visual detail and the formation of cross-view supervision during optimization. For frequency-aware optimization, a progressive curriculum first stabilizes low-frequency structures and then introduces high-frequency constraints to recover fine facial and hair details without amplifying spurious responses at early stages. For cross-view optimization, we introduce Canonical Group Consensus, which associates local observations through shared canonical surface regions and establishes correspondence across different viewpoints. Geometric and visibility-aware screening removes unreliable observations, while the remaining multi-view evidence is aggregated in feature space to form a consensus target for supervising the current rendering. This design enforces local consistency without relying on a specific image-space parameterization and avoids additional rendering of the auxiliary view. Together, the frequency curriculum and canonical consensus provide stable optimization from coarse structures to fine details while maintaining coherent appearance across viewpoints. Extensive experiments on NeRSemble demonstrate improved reconstruction quality and cross-view consistency, while evaluations across diverse avatar representations further confirm the generality and transferability of Fresco++.",
+  "published": "2026-10-08T07:43:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.747051+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:43:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11412v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.697736+00:00"
+}

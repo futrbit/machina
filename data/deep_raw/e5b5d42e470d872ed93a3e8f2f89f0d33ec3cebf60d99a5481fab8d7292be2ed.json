@@ -1,0 +1,21 @@
+{
+  "id": "e5b5d42e470d872ed93a3e8f2f89f0d33ec3cebf60d99a5481fab8d7292be2ed",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "UniST-Pred: A Robust Unified Framework for Spatio-Temporal Traffic Forecasting in Transportation Networks Under Disruptions",
+  "url": "https://arxiv.org/abs/2602.14049",
+  "summary": "arXiv:2602.14049v3 Announce Type: replace-cross Abstract: Spatio-temporal traffic forecasting is a core component of intelligent transportation systems, supporting various downstream tasks such as signal control and network-level traffic management. In real-world deployments, forecasting models must operate under structural and observational uncertainties, conditions that are rarely considered in model design. Recent approaches achieve strong short-term predictive performance by tightly coupling spatial and temporal modeling, often at the cost of increased complexity and limited modularity. In contrast, efficient time-series models capture long-range temporal dependencies without relying on explicit network structure. We propose UniST-Pred, a unified spatio-temporal forecasting framework that first decouples temporal modeling from spatial representation learning, then integrates both through adaptive representation-level fusion. To assess robustness of the proposed approach, we construct a dataset based on an agent-based, microscopic traffic simulator (MATSim) and evaluate UniST-Pred under severe network disconnection scenarios. Additionally, we benchmark UniST-Pred on standard traffic prediction datasets, demonstrating its competitive performance against existing well-established models despite a lightweight design. The results illustrate that UniST-Pred maintains strong predictive performance across both real-world and simulated datasets, while also yielding interpretable spatio-temporal representations under infrastructure disruptions. The source code and the generated dataset are available at https://anonymous.4open.science/r/UniST-Pred-EF27",
+  "published": "2026-02-15T08:28:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.193787+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:13:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.14049v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.225226+00:00"
+}

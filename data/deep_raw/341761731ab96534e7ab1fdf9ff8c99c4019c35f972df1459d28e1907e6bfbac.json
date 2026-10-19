@@ -1,0 +1,22 @@
+{
+  "id": "341761731ab96534e7ab1fdf9ff8c99c4019c35f972df1459d28e1907e6bfbac",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Revisiting Integration of Image and Metadata for DICOM Series Classification: Cross-Attention and Dictionary Learning",
+  "url": "https://arxiv.org/abs/2602.23833",
+  "summary": "arXiv:2602.23833v3 Announce Type: replace-cross Abstract: Automated identification of DICOM image series is essential for large-scale medical image analysis, quality control, protocol harmonization, and reliable downstream processing. However, DICOM series classification remains challenging due to heterogeneous slice content, variable series length, and entirely missing, incomplete or inconsistent DICOM metadata. We propose an end-to-end multimodal framework for DICOM series classification that jointly models image content and acquisition metadata while explicitly accounting for all these challenges. (i) Images and metadata are encoded with modality-aware modules and fused using a bi-directional cross-modal attention mechanism. (ii) Metadata is processed by a sparse, missingness-aware encoder based on learnable feature dictionaries and value-conditioned modulation. By design, the approach does not require any form of imputation. (iii) Variability in series length and image data dimensions is handled via a 2.5D visual encoder and attention operating on equidistantly sampled slices. We evaluate the proposed approach on the publicly available Duke Liver MRI dataset and a large multi-institutional in-house cohort, assessing both in-domain performance and out-of-domain generalization. Across all evaluation settings, the proposed method consistently outperforms relevant image only, metadata-only and multimodal 2D/3D baselines. The results demonstrate that explicitly modeling metadata sparsity and cross-modal interactions improves robustness for DICOM series classification.",
+  "published": "2026-02-27T09:12:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.795021+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:11:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.23833v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.513052+00:00"
+}

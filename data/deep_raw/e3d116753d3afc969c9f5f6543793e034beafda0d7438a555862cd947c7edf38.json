@@ -1,0 +1,21 @@
+{
+  "id": "e3d116753d3afc969c9f5f6543793e034beafda0d7438a555862cd947c7edf38",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Verdict Without the Rule: Diagnosing and Auditing Regulatory Rule Sensitivity in LLM Compliance Systems",
+  "url": "https://arxiv.org/abs/2610.12313",
+  "summary": "arXiv:2610.12313v1 Announce Type: new Abstract: Large language model compliance systems are deployed on the assumption that a verdict depends on the regulatory rule it is given. We test this directly across five models and 20 regulatory and platform-policy domains: delete, swap, or negate the governing rule while holding the case fixed, and check whether the verdict changes (OCS) or the model's internal representation of compliance shifts at all (ICS-delta). Neither moves much: models' verdicts are often invariant to substantial perturbations of the supplied rule, and the guard model, evaluated here under a custom-rule adaptation of its native taxonomy, is the least rule-sensitive and least accurate of the five, barely above chance (51%, versus 90-92% for general-purpose models). This reflects easy cases more than blanket neglect: on cases where deleting the rule changes a previously correct model prediction, models do track it closely. Neither better prompting nor direct intervention on the model's internal representations closes this gap. Accuracy alone does not establish that a compliance verdict is grounded in the supplied rule.",
+  "published": "2026-10-08T16:59:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.377385+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:59:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12313v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.292774+00:00"
+}

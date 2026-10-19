@@ -1,0 +1,21 @@
+{
+  "id": "cb12dd2364191c6c50d49753ef77d105a6b42c07fc791237109b4ac6cf12fe76",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Sinkhorn doubly stochastic attention rank decay analysis",
+  "url": "https://arxiv.org/abs/2604.07925",
+  "summary": "arXiv:2604.07925v2 Announce Type: replace-cross Abstract: The self-attention mechanism is central to the success of Transformer architectures. However, standard row-stochastic attention has been shown to suffer from significant signal degradation across layers. In particular, it can induce rank collapse, resulting in increasingly uniform token representations, as well as entropy collapse, characterized by highly concentrated attention distributions. Recent work has highlighted the benefits of doubly stochastic attention as a form of entropy regularization, promoting a more balanced attention distribution and leading to improved empirical performance. In this paper, we study rank collapse across network depth and show that doubly stochastic attention matrices normalized with Sinkhorn algorithm preserve rank more effectively than standard softmax row-stochastic ones. As previously shown for softmax, skip connections are crucial to mitigate rank collapse. We empirically validate this phenomenon on both sentiment analysis and image classification tasks. Moreover, we derive a theoretical bound for the pure self-attention rank decay when using Sinkhorn normalization and find that rank decays to one doubly exponentially with depth, a phenomenon that has already been shown for softmax.",
+  "published": "2026-04-09T07:46:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.195786+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:16:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.07925v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.382128+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "34d003ff4301726c46cd3823958a162b3470fe7501abd39c91a61362c8ddcd08",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Learning How to Search for Plans with Exponentially Less Space",
+  "url": "https://arxiv.org/abs/2610.10954",
+  "summary": "arXiv:2610.10954v1 Announce Type: new Abstract: Heuristic search for a plan can store exponentially many states, even when its heuristic is almost perfect. We instead learn search control, one specification per domain, written as an indexical policy: a generalized policy with registers that hold objects and modes that sequence its rules. We add the choose rule, which loads an object into a register and marks a backtracking point, where one candidate suffices; every other rule must work for all of its outcomes and needs no search. Our main result is that structural termination, which rules out infinite executions, also bounds every execution by a polynomial in the number of objects. A depth-first procedure then finds a plan in polynomial space, however large the state space, with no list of visited states. The cost is time, exponential only in the choice depth, the number of real choices along an execution. Any class that such a policy solves therefore lies in NP, and in P at constant choice depth. We learn these policies with a language model in a counterexample-guided loop that certifies termination, verifies the training tasks, and keeps the choice depth small. With the learned policies, the procedure solves 1,709 of 1,890 test tasks of the IPC 2023 Learning Track and the Autoscale Agile suite, more than LAMA, BFWS, and Levitron, and most of them within one second and 100 MiB.",
+  "published": "2026-10-07T22:14:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.363392+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:14:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10954v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.592004+00:00"
+}

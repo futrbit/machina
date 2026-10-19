@@ -1,0 +1,21 @@
+{
+  "id": "c659cb4470158f9afb3e01e83b4fcfd86e255c86f2367055231d80b0df816e8d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Continuous Memory Machines",
+  "url": "https://arxiv.org/abs/2610.07907",
+  "summary": "arXiv:2610.07907v1 Announce Type: new Abstract: Recurrent neural networks typically compress information into a single vector-valued recurrent state, forcing short-term computation and long-term retention to share the same representation. Past extensions alleviate this bottleneck by increasing the memory capacity or separating timescales, but lack the combination of rapid neuron-level processing and longer-term retention found in biology. To that end, we introduce the Continuous Memory Machine (CMM), a recurrent architecture with matrix-valued short- and long-term memory states serving distinct functional roles. Building on the Continuous Thought Machine (CTM), the CMM's short-term memory tracks recent neural activity, with uniquely parameterized neuron-level models learning to use these activity patterns for computation. A persistent long-term memory stores information for later use, with a Transformer jointly updating both memory stores, providing an expressive bidirectional read--write mechanism such that each store can reorganize its own contents and both read from and write to the other. Across algorithmic, in-context learning, and recurrent reasoning tasks, the CMM outperforms a broad suite of baselines, exhibiting stronger generalization than prior memory-augmented networks while preserving the CTM's interpretable attention patterns. Code is available at https://github.com/SakanaAI/continuous-memory-machines.",
+  "published": "2026-10-06T07:52:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.141818+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:52:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07907v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.938988+00:00"
+}

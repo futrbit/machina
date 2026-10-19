@@ -1,0 +1,18 @@
+{
+  "id": "a6554a61ae299e11802469b25791cb16dbff8f2437048f829eb98ff3b9321c6c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "AceFF: A State-of-the-Art Machine Learning Potential for Small Molecules",
+  "url": "https://arxiv.org/abs/2601.00581",
+  "summary": "arXiv:2601.00581v3 Announce Type: replace-cross Abstract: We introduce AceFF, a pre-trained machine learning interatomic potential (MLIP) optimized for small molecule drug discovery. While MLIPs have emerged as efficient alternatives to Density Functional Theory (DFT), generalizability across diverse chemical spaces remains difficult. AceFF addresses this by refining the TensorNet2 architecture and training it on a comprehensive dataset of drug-like compounds. This approach yields a force field that balances high-throughput inference speed with DFT-level accuracy. We introduce two models sharing the same architecture: \\mbox{AceFF-2}, trained on our own dataset of small molecules and supporting the essential medicinal chemistry elements (H, B, C, N, O, F, Si, P, S, Cl, Br, I); and \\mbox{AceFF-2-OMOL}, trained on a subset of OMol25 containing the AceFF-2 elements plus the common biomolecular ion elements Na and K. The models are explicitly trained to handle charged states. Validation against rigorous benchmarks, including complex torsional energy scans, molecular dynamics trajectories, batched minimizations, and tests of force and energy accuracy, demonstrates that AceFF is state-of-the-art for organic molecules in the accuracy and speed regime important for drug discovery. The AceFF-2 and AceFF-2-OMol model weights and inference code are available at https://huggingface.co/Acellera/AceFF-2.0 and https://huggingface.co/Acellera/AceFF-2-OMOL.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.237726+00:00"
+}

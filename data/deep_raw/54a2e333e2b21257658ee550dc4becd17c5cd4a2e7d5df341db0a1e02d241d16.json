@@ -1,0 +1,22 @@
+{
+  "id": "54a2e333e2b21257658ee550dc4becd17c5cd4a2e7d5df341db0a1e02d241d16",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "3DTexMOR: 3D Gaussian Multi-Object Removal via Texture-Space Inpainting",
+  "url": "https://arxiv.org/abs/2610.11198",
+  "summary": "arXiv:2610.11198v1 Announce Type: new Abstract: 3D object removal aims to remove target objects from reconstructed scenes and complete the geometry and appearance of occluded regions. Existing NeRF- and 3DGS-based methods typically inpaint 2D images to guide 3D completion. However, complex multi-object layouts limit the surrounding context visible in each view, making 2D inpainting prone to artifacts. Inconsistent completions across views also introduce conflicting supervision and blurry reconstructions. We propose 3D Gaussian Multi-Object Removal via Texture-Space Inpainting (3DTexMOR). Our key idea is to perform inpainting in a unified texture space shared by all views. By combining complementary observations, this space provides richer context for recovering missing regions and promotes cross-view appearance consistency. We aggregate multi-view observations into texture maps, inpaint the missing regions, and reproject the completed maps into camera views to supervise Gaussian scene completion. To avoid the influence of view-dependent highlights and reflections, we decompose appearance and aggregate view-independent intrinsic attributes instead of RGB colors. We further introduce geometrically regularized Gaussian completion to constrain the geometry of the completed regions. Extensive experiments demonstrate visually plausible completions and state-of-the-art multi-object removal performance, improving PSNR by 5.8 dB and reducing LPIPS by at least 22% compared with existing methods.",
+  "published": "2026-10-08T04:02:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.743055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:02:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11198v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.582408+00:00"
+}

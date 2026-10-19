@@ -1,0 +1,21 @@
+{
+  "id": "ade16da5acc249dc9adc290ce511378e5ff6817e8575b27bd4028017a05058f3",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "EconSkills: Studying Skill Transfer and Retrieval for Web Agents on Live Economic Data",
+  "url": "https://arxiv.org/abs/2609.19523",
+  "summary": "arXiv:2609.19523v2 Announce Type: replace Abstract: Web agents often revisit the same sites, yet most evaluations discard the procedures learned in earlier successful interactions. We introduce EconSkills, a skill library and evaluation framework that distills verified EconWebArena trajectories into parameterized standard operating procedures for retrieving live economic data. Each skill records its scope, navigation procedure, site-specific guidance, verification checks, and recovery steps while replacing source-instance values with placeholders. EconSkills separates two questions: whether a known relevant procedure transfers to a held-out task, and whether an agent can retain that benefit when selecting from a library. In controlled transfer, matched skills improve success over no-skill prompting and require fewer steps on paired successes. Under the evaluated prompt formats, the parameterized skill prompt substantially outperforms the corresponding raw-trajectory prompt. With the full 50-skill library, retrieval is competitive with the no-skill baseline overall and performs best on tasks with a direct family match; approximate matches on other tasks offset these gains. Browser trajectories further identify when procedural guidance shortens portal-specific navigation and when semantic verification remains necessary. These results establish that reusable economic web procedures can transfer across task instances and provide a concrete design target for match-aware selection and context delivery.",
+  "published": "2026-09-17T00:29:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.409365+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:53:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.19523v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.469271+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "675c3a22754fd98a9a7ae820b1c26774b9b1d068a559620476d90f49a8d8aef2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Scalable next-scale autoregression for medical image generation across anatomical regions",
+  "url": "https://arxiv.org/abs/2602.14512",
+  "summary": "arXiv:2602.14512v3 Announce Type: replace Abstract: Autoregressive pretraining has been key to the scalability of large language models, yet medical generative foundation models remain predominantly based on diffusion. Here we introduce MedVAR, the first foundation model for all-round medical image generation through autoregressive training, and find it offers improved generation quality and efficiency, stronger scalability, and broader adaptability to downstream clinical tasks than diffusion-based models. A tokenizer trained on medical images and separate semantic and structural controls enable generation across six anatomical regions in computed tomography and magnetic resonance imaging. Trained on 438,905 slices from 40 datasets, including seven internal clinical centres, MedVAR generates images 12-19 times faster than 100-step diffusion baselines. Generation quality improves with model size. Pretraining on generated images improves seven-centre hepatocellular carcinoma segmentation Dice from 0.615 to 0.632, while reconstruction using MedVAR images approaches the volumetric segmentation performance of fully sampled volumes. Membership inference reaches 3.54% sensitivity at a 1% false-positive rate, while copy detection performs near chance. These findings establish next-scale autoregression as a scalable and versatile approach to medical image generation and downstream analysis.",
+  "published": "2026-02-16T06:48:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.535372+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:05:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.14512v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.928200+00:00"
+}

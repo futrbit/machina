@@ -1,0 +1,22 @@
+{
+  "id": "0801763a9c6555029f42d1bd52bdc45c28f73042bf3d7a03bdbf7c3833966413",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "In-context Learning of Single-index Targets: Comparing Kernel and Feature Learners",
+  "url": "https://arxiv.org/abs/2610.01712",
+  "summary": "arXiv:2610.01712v1 Announce Type: new Abstract: In-context learning (ICL) enables a pretrained model to infer a task from demonstrations without updating its parameters. While much of the existing theory focuses on linear target functions, in this paper we study nonlinear cases by comparing two one-layer attention architectures on the same family of single-index tasks. A kernel learner first maps inputs through a fixed nonlinear feature map and then applies linear attention, whereas a feature learner applies attention to the original input, followed by a learned nonlinear readout. We derive predictions for their memorization and generalization errors using the replica method, retaining the effects of pretraining size, task-pool diversity, and training and inference context lengths. The resulting predictions closely match numerical experiments across a broad range of regimes. Our analysis yields phase diagrams that characterize when each architecture is advantageous as the amount of pretraining data, task diversity, and context lengths vary. We further identify qualitatively different context-length scalings for the two learners. Together, these results clarify how architectural choices interact with the dataset and govern nonlinear in-context learning.",
+  "published": "2026-10-01T13:54:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.795495+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T13:54:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01712v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.415108+00:00"
+}

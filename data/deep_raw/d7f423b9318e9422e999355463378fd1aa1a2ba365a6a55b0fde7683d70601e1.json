@@ -1,0 +1,22 @@
+{
+  "id": "d7f423b9318e9422e999355463378fd1aa1a2ba365a6a55b0fde7683d70601e1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
+  "url": "https://arxiv.org/abs/2610.08677",
+  "summary": "arXiv:2610.08677v1 Announce Type: new Abstract: Off-policy evaluation (OPE) for contextual bandit policies becomes challenging when action-level importance weighting incurs excessive variance. Doubly robust (DR) estimation remains unbiased under common support but retains these high-variance action-level weights. A prior estimator, Off-policy evaluation with Conjunct Effect Model (OffCEM), replaces them with more stable cluster-level weights, at the cost of relying on local correctness of the reward model. In this paper, we show that, under the assumptions required by DR and OffCEM, there exists an unbiased family of estimators that interpolates between OffCEM and DR. Building on this result, we propose the Variance Optimal-CEM (VOCEM) estimator, which selects the interpolation coefficient to minimize variance. We derive the population-optimal coefficient in closed form and show that the resulting estimator has variance no larger than either endpoint, OffCEM or DR. Experiments in controlled synthetic settings and on two large-action benchmarks show that VOCEM improves upon both endpoints in all 23 evaluated conditions, exhibiting greater stability and empirical robustness.",
+  "published": "2026-10-06T16:58:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.081486+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:58:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08677v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.168849+00:00"
+}

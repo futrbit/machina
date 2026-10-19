@@ -1,0 +1,22 @@
+{
+  "id": "b90d31c73c04146ab31cee058aa6a705dec33fd492f1ef5147e1aff07fe7d54f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Low-rank tensor structure of precipitation and its application to satellite-reference merging",
+  "url": "https://arxiv.org/abs/2610.11000",
+  "summary": "arXiv:2610.11000v1 Announce Type: new Abstract: The intermittent and variable nature of precipitation makes its accurate estimation over extended domains difficult, yet its spatiotemporal structure suggests that a low-rank representation may be possible. This work represents daily precipitation over the contiguous United States (CONUS) as spatiotemporal tensors and applies CANDECOMP/PARAFAC factorization, showing that preserving the native spatial and temporal modes yields more accurate reconstruction than factorizing independent daily fields or unfolded space--time matrices. Building on this finding, this work presents TMerge, a tensor-based framework that integrates satellite precipitation with sparse reference observations through shared low-rank spatial and temporal factors. TMerge was applied to correct the IMERG Final Run product with climate prediction center reference observations over CONUS. During 2019-2022, TMerge increased correlation from 0.53 to 0.85 and reduced root-mean-square error and mean absolute error by 48.2% and 29.3%, respectively. TMerge consistently outperformed linear bias correction, quantile mapping, and neural networks across seasons, precipitation-intensity regimes, and regions. Improvements were spatially coherent and largest in coastal regions where IMERG errors were greatest. These results demonstrate that low-rank tensor structure parsimoniously approximates the dominant spatiotemporal variability of precipitation and provides a practical mechanism for improving satellite estimates under limited reference observations over extended domains.",
+  "published": "2026-10-07T23:35:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.080436+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T23:35:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11000v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.761095+00:00"
+}

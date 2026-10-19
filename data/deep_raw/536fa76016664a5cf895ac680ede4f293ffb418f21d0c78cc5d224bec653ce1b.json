@@ -1,0 +1,22 @@
+{
+  "id": "536fa76016664a5cf895ac680ede4f293ffb418f21d0c78cc5d224bec653ce1b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "MCIR: A Feature Dependence-Aware Explainability Method with Reliability Guarantees",
+  "url": "https://arxiv.org/abs/2610.01641",
+  "summary": "arXiv:2610.01641v1 Announce Type: new Abstract: Modern machine-learning models often contain strongly dependent or redundant features, making feature attribution difficult because shared predictive information can be distributed across correlated predictors. Existing methods such as SHAP, LIME, HSIC, MI/CMI, and SAGE may therefore produce unstable rankings under multicollinearity or near-duplicate predictors. We propose the Mutual Correlation Impact Ratio Method (MCIR-M), a dependence-aware global feature-importance approach that quantifies the unique predictive information contributed by each feature beyond a selected dependence neighbourhood. MCIR-M introduces the Mutual Correlation Impact Ratio (MCIR), which conditions each feature on strongly dependent neighbours and computes a normalized ratio of conditional to block-level information. The population score lies in [0,1] and equals zero under exact conditional redundancy. We also introduce a lightweight estimation procedure that computes MCIR using a fraction of the available data and evaluates agreement with full-data explanations. Across controlled synthetic redundancy experiments and the UCI HAR benchmark, MCIR shows dependence-aware ranking behaviour, with its clearest advantage under injected near-duplicate predictors. Comparisons with independent and conditional SHAP, SAGE, HSIC, MI-based scores, and CIR-family baselines are mixed across real-data criteria. Reduced explanation samples lower computational burden in the evaluated configurations, while agreement with full-data explanations is assessed separately through ranking, head-set, and faithfulness diagnostics. Overall, MCIR-M provides a practical dependence-aware diagnostic for global explanation under strong feature dependence.",
+  "published": "2026-10-01T13:07:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.794495+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T13:07:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01641v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.555425+00:00"
+}

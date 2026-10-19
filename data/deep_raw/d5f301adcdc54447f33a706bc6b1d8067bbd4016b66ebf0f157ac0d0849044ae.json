@@ -1,0 +1,21 @@
+{
+  "id": "d5f301adcdc54447f33a706bc6b1d8067bbd4016b66ebf0f157ac0d0849044ae",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Cybflight: An Embedded Rust Autopilot for Aerial Robotics Research",
+  "url": "https://arxiv.org/abs/2609.31232",
+  "summary": "arXiv:2609.31232v1 Announce Type: new Abstract: Bringing an aerial robotics method from simulation to flight should not require rebuilding a mature autopilot or adding a companion computer. Cybflight is an open-source embedded Rust research autopilot whose typed, replaceable interfaces connect hardware access, perception, state estimation, trajectory planning, and control. This modular development and compile-time optimization workflow is demonstrated with replaceable Rust implementations of model predictive contour-tracking control (MPCTC) and incremental nonlinear dynamic inversion (INDI) running on one STM32H743 without a companion computer. Using this configuration, the vehicle reaches 12.38 m/s during indoor flight, while an outdoor flight using global navigation satellite system (GNSS) position updates reaches 31.4 m/s. These flights show that running demanding estimation and nonlinear control entirely on a flight-controller microcontroller need not come at the expense of a modular autopilot structure.",
+  "published": "2026-09-25T13:10:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.377923+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T13:10:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31232v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.145862+00:00"
+}

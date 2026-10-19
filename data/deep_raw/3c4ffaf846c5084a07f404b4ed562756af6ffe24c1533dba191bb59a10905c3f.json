@@ -1,0 +1,22 @@
+{
+  "id": "3c4ffaf846c5084a07f404b4ed562756af6ffe24c1533dba191bb59a10905c3f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Inference for stochastic differential equations driven by weighted sub-fractional Brownian motion using neural networks and the Euler approximation",
+  "url": "https://arxiv.org/abs/2610.00793",
+  "summary": "arXiv:2610.00793v1 Announce Type: cross Abstract: We consider the estimation of drift, diffusion, and noise covariance from discrete observations of stochastic differential equations driven by Gaussian processes. For a fixed observation horizon $T>0$ and a known initial state $x_0\\in\\mathbb R$, we study \\begin{equation*} dX_t=a(X_t)\\,dt+\\sigma(X_t)\\,dZ_t^{\\beta,f}, \\qquad X_0=x_0,\\quad 0\\leq t\\leq T. \\end{equation*} \\smallskip\\noindent Here $a:\\mathbb R\\to\\mathbb R$ is the drift coefficient, $\\sigma:\\mathbb R\\to(0,\\infty)$ is the diffusion coefficient, and $Z^{\\beta,f}$ is a centered Gaussian process from the weighted sub-fractional Brownian family, with covariance \\begin{equation*} \\operatorname{Cov}(Z_s^{\\beta,f},Z_t^{\\beta,f}) =\\int_0^{s\\wedge t} f(r)q_\\beta(s-r,t-r)\\,dr, \\qquad 0\\leq s,t\\leq T. \\end{equation*} \\smallskip\\noindent Here $s\\wedge t=\\min\\{s,t\\}$. The temporal weight $f:[0,T]\\to[0,\\infty)$ is measurable, bounded, and positive almost everywhere, and $\\beta\\in(0,2)$ is the covariance exponent. For $u,v\\geq0$, the kernel is $q_\\beta(u,v)=[u^\\beta+v^\\beta-(u+v)^\\beta]/(1-\\beta)$ when $\\beta\\ne1$. Its continuous extension at $\\beta=1$ is $q_1(u,v)=(u+v)\\log(u+v)-u\\log u-v\\log v$, with $0\\log0=0$. Using the Euler approximation, we reconstruct the Gaussian driving increments from observed transitions and use their joint density to obtain a trajectory likelihood. Neural and radial-basis representations model the drift, diffusion, and normalized temporal weight, while a likelihood profile estimates the covariance exponent and diffusion scale. We compare the method with two neural alternatives on the same simulated trajectories in twenty coefficient settings.",
+  "published": "2026-09-30T22:33:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.813484+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T22:33:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00793v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.726923+00:00"
+}

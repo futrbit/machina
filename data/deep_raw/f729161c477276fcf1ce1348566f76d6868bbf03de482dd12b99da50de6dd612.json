@@ -1,0 +1,21 @@
+{
+  "id": "f729161c477276fcf1ce1348566f76d6868bbf03de482dd12b99da50de6dd612",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Practical Feasibility of Gradient Inversion Attacks in Federated Learning",
+  "url": "https://arxiv.org/abs/2508.19819",
+  "summary": "arXiv:2508.19819v3 Announce Type: replace-cross Abstract: Gradient inversion attacks are often presented as a serious privacy threat in federated learning, with recent work reporting increasingly strong reconstructions under favorable experimental settings. However, it remains unclear whether such attacks are feasible in modern, performance-optimized systems deployed in practice. In this work, we evaluate the practical feasibility of gradient inversion for image-based federated learning. We conduct a systematic study across multiple datasets and tasks, including image classification and object detection, using canonical vision architectures at contemporary resolutions. Our results show that while gradient inversion remains possible for certain legacy or transitional designs under highly restrictive assumptions, modern, performance-optimized models consistently resist meaningful reconstruction visually. We further demonstrate that many reported successes rely on upper-bound settings, such as inference mode operation or architectural simplifications which do not reflect realistic training pipelines. Taken together, our findings indicate that, under an honest-but-curious server assumption, high-fidelity image reconstruction via gradient inversion does not constitute a critical privacy risk in production-optimized federated learning systems, and that practical risk assessments must carefully distinguish diagnostic attack settings from real-world deployments.",
+  "published": "2025-08-27T12:07:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.191788+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:02:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2508.19819v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.198241+00:00"
+}

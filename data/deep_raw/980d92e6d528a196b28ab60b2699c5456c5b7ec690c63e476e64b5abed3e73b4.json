@@ -1,0 +1,22 @@
+{
+  "id": "980d92e6d528a196b28ab60b2699c5456c5b7ec690c63e476e64b5abed3e73b4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Do MLLM Judges Judge the Edit? Auditing Bias in Image Editing Evaluation with Verified Quality Preservation",
+  "url": "https://arxiv.org/abs/2610.01670",
+  "summary": "arXiv:2610.01670v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) are increasingly used as automated judges for instruction-based image editing and as reward signals for model training. However, systematically auditing whether these judges are influenced by cues irrelevant to editing quality is challenging because visual interventions may themselves alter the quality being evaluated. A judgment shift can therefore be attributed to bias only when the intervention is verified to preserve the underlying editing quality. To address this challenge, we introduce EditJudgeBias, a counterfactual benchmark with verified quality preservation, comprising 1,196 real editing samples and 13 cues injected across four evaluation sites. We verify quality preservation for the requested edit using calibrated multimodal validators, controls, and human inspection. We then audit five MLLM judges along three complementary dimensions: invariance to quality-preserving cues, agreement with human judgments, and stability of pairwise preferences. Importantly, observed shifts are evaluated against each judge's own zero-dose and re-query noise floors rather than against zero. Experiments show that quality-preserving cues move every judge beyond its own noise. Fabricated majority opinions increase ratings, irrelevant visual elements cause larger shifts than whole-image manipulations, and swapping candidate order reverses up to 60.9% of pairwise decisions. Edit-region cues also tend to reduce human agreement. The three measures characterize judges differently, showing that robustness cannot be captured by a single metric.",
+  "published": "2026-10-01T13:30:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.820479+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T13:30:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01670v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.916604+00:00"
+}

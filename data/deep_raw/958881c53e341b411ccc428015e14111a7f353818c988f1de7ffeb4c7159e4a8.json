@@ -1,0 +1,22 @@
+{
+  "id": "958881c53e341b411ccc428015e14111a7f353818c988f1de7ffeb4c7159e4a8",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Comparing Object Detection Models for Electrical Substation Component Mapping",
+  "url": "https://arxiv.org/abs/2512.22454",
+  "summary": "arXiv:2512.22454v2 Announce Type: replace Abstract: Electrical substations are a significant component of an electrical grid. Indeed, the assets at these substations (e.g., transformers) are vulnerable to hazards such as hurricanes, flooding, earthquakes, and geomagnetically induced currents (GICs). Because failures can have significant economic and public safety implications, identifying key substation components is essential for quantifying vulnerability. Unfortunately, traditional manual mapping of substation infrastructure is time-consuming and labor-intensive. Therefore, an autonomous solution utilizing computer vision models is preferable, as it offers greater convenience and efficiency. In this study, we train and compare 16 models on a manually labeled dataset of US substation images. These models include 12 You Only Look Once (YOLO) models, 2 Roboflow Detection Transformer (RF-DETR) models, and 2 Cascade R-CNN models. RF-DETR-large achieved the highest overall detection performance with mAP@50 and mAP@50:95 scores of 0.881 and 0.632, respectively. Across all models, alternate energy systems were detected most accurately, while transformers and reactors were more difficult to identify due to their smaller size and greater visual variability. Applying our best-performing model to nationwide imagery yielded approximately 22,591 component detections across 11,083 unique substations within the United States. These detections were broken down by state and Federal Energy Regulatory Commission (FERC) regions, with Florida (2,478 detections) and Midcontinent Independent System Operator (MISO; 4,329 detections) having the largest number of detections in their respective categories.",
+  "published": "2025-12-27T03:48:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.781030+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:04:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.22454v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.857639+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "d122eed5ab65666f9151ccb4199ebb9c9f87c3dc0b9862ab510fbda41a3a1dd5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "TKCAM: Text and Keyframe to Camera Trajectory Generation",
+  "url": "https://arxiv.org/abs/2610.11105",
+  "summary": "arXiv:2610.11105v1 Announce Type: new Abstract: Generating high-quality and controllable camera motion is essential for AI-assisted cinematography, video synthesis, and 3D scene understanding. We introduce TKCAM, a Text- and Keyframe-conditioned CAMera-motion synthesis framework based on generative masked modeling. We represent camera dynamics using a 12-dimensional kinematic feature comprising position, velocity, and a continuous rotation representation and discretize them into hierarchical motion tokens via a Residual Vector Quantizer (RVQ). A two-stage masked transformer architecture then learns to reconstruct and refine these tokens, utilizing explicit self- and cross-attention modules for multimodal conditioning. A central feature of our framework is sparse visual keyframe conditioning: users can provide free-form text prompts together with RGB observations at selected timestamps, which provide temporally localized visual guidance for generating coherent in-between trajectories. Furthermore, to advance evaluation standards, we curate RealEstate10K-Cap, a large-scale text-camera dataset, and establish a cross-domain benchmark with a Universal CLaTr Evaluator. Extensive experiments demonstrate that TKCAM surpasses recent state-of-the-art baselines on Fr\\'echet distance (FID), text-motion matching scores, and retrieval metrics (R@K), while additional analyses evaluate temporal smoothness and cross-domain generalization. Code is available at https://github.com/linearalgebrayhz/TKCAM.",
+  "published": "2026-10-08T02:20:16Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.739055+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:20:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11105v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.079902+00:00"
+}

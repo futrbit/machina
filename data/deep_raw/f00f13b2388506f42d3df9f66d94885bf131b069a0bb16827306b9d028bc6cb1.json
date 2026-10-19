@@ -1,0 +1,22 @@
+{
+  "id": "f00f13b2388506f42d3df9f66d94885bf131b069a0bb16827306b9d028bc6cb1",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "WAM-Cache: Staleness-Bounded KV Reuse for Efficient World Action Models",
+  "url": "https://arxiv.org/abs/2610.11401",
+  "summary": "arXiv:2610.11401v1 Announce Type: cross Abstract: World Action Models (WAMs) enable generalist robot manipulation by conditioning an action expert on representations from a pretrained video Diffusion Transformer (DiT). In closed-loop control, the video DiT runs at every chunk to encode the current observation into layerwise key-value (KV) pairs that the action expert queries. This prefill dominates the per-chunk computational cost, yet existing training-free accelerations leave it fully dense. We present WAM-Cache, a training-free framework that retains layerwise key-value representations across chunks and recomputes only a sparse refresh set of tokens. Crucially, we find that the intuitive heuristic of refreshing visually drifted tokens plateaus far below the dense baseline, even with an oracle predicting ground-truth KV drift. Downstream action accuracy is instead governed by where the action expert attends, not by what moved. WAM-Cache therefore selects the refresh set by uniting the action expert's cross-attention with visual latent surprise, complemented by a strict age bound that suppresses compounding error. On Fast-WAM, WAM-Cache cuts video DiT prefill FLOPs by 32-42% across RoboTwin 2.0, LIBERO, and real-world experiments, while staying within 0.7-1.8 percentage points of the dense policy in simulation and 2.5 points on a real robot.",
+  "published": "2026-10-08T07:33:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.770036+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:33:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11401v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.835857+00:00"
+}

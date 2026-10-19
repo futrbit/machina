@@ -1,0 +1,22 @@
+{
+  "id": "c489fe02e8d7b355e9a2688b7316e9f2a7141897cbd07f0ce191d65f7dfdfceb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Trustworthy Method Comparison with AI Judges: Estimation and Design under Order, Batch, and Aggregation Effects",
+  "url": "https://arxiv.org/abs/2610.07755",
+  "summary": "arXiv:2610.07755v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly used as judges for automated AI evaluation. A common practice is to randomize prompt sequences and average the resulting scores, but its statistical validity remains unclear. We show that LLM evaluation mechanisms can be approximated by a class of Markov generalized linear mixed models (GLMMs), supported by out-of-sample predictions across three major commercial LLMs. Using a first-order Markov GLMM, we study leaderboard ranking and group comparison. For leaderboard ranking, randomize-and-average selection is consistent under a mild separation condition, and a Williams square design can improve efficiency when item qualities are close. For group comparison, naive averaging can yield inconsistent conclusions about differences in group-level quality because of the response model's nonlinearity. Empirical results further support the validity of the proposed model-based inference beyond the first-order theory, including settings with higher-order sequence memory. We illustrate the approach in an application where AI judges compare two graphical model estimation methods.",
+  "published": "2026-10-06T04:53:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.098475+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:53:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07755v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.913003+00:00"
+}

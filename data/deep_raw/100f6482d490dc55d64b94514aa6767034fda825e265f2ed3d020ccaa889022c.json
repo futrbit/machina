@@ -1,0 +1,18 @@
+{
+  "id": "100f6482d490dc55d64b94514aa6767034fda825e265f2ed3d020ccaa889022c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Deep conditional distribution learning via conditional F\\\"ollmer flow",
+  "url": "https://arxiv.org/abs/2402.01460",
+  "summary": "arXiv:2402.01460v4 Announce Type: replace-cross Abstract: We introduce an ordinary differential equation (ODE) based deep generative method for learning conditional distributions, named Conditional F\\\"ollmer Flow. Starting from a standard Gaussian distribution, the proposed flow could approximate the target conditional distribution very well when the time is close to 1. For effective implementation, we discretize the flow with Euler's method where we estimate the velocity field nonparametrically using a deep neural network. Furthermore, we also establish the convergence result for the Wasserstein-2 distance between the distribution of the learned samples and the target conditional distribution, providing the first comprehensive end-to-end error analysis for conditional distribution learning via ODE flow. Our numerical experiments showcase its effectiveness across a range of scenarios, from standard nonparametric conditional density estimation problems to more intricate challenges involving image data, illustrating its superiority over various existing conditional density estimation methods.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.277702+00:00"
+}

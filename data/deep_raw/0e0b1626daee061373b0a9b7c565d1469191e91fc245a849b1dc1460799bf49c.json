@@ -1,0 +1,22 @@
+{
+  "id": "0e0b1626daee061373b0a9b7c565d1469191e91fc245a849b1dc1460799bf49c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ApexQuant: Data-Free Elastic Quantization by Residual Re-Isotropization",
+  "url": "https://arxiv.org/abs/2610.07904",
+  "summary": "arXiv:2610.07904v1 Announce Type: new Abstract: We introduce ApexQuant, a calibration-free quantization method that recursively re-quantizes the residual error, serving as a refinement layer on top of existing quantizers. We establish that a fresh random rotation returns each residual to the uniform distribution on the hypersphere, which characterizes the rate of progressive error decay across successive passes. This result lets us determine, before any weight is read, how many passes a layer needs for a target weight-space error. Every prefix is itself a valid lower-rate model, so one artifact serves several precisions. We instantiate ApexQuant with three interchangeable stages, scalar, $E_8$ and trellis, and validate it on four open-weight LLMs and on Earth-observation and medical domains where in-distribution data is often unattainable as imagery arrives under restrictive licences or due to patient material under privacy constraints. Progressive re-isotropization comes within a few percent of full precision at four bits and gives the best two-bit arm we measure, in a completely data-free setting.",
+  "published": "2026-10-06T07:49:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.070492+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:49:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07904v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.611989+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "01515b1172e38784ad319124860002a095215217bf2ade9770de0ac3f7bfd65f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Coding with \"Enemy\": Can Human Developers Detect AI Agent Sabotage?",
+  "url": "https://arxiv.org/abs/2606.05647",
+  "summary": "arXiv:2606.05647v2 Announce Type: replace Abstract: AI coding agents are increasingly embedded in real-world software development, collaborating with human developers while gaining broader access to codebases and tools. This creates a new attack surface: an agent can exploit human trust to sabotage development, for instance by inserting malicious code to accomplish a hidden side task. Most prior work studies AI sabotage in AI-only settings, paying limited attention to the role of human oversight in detecting and mitigating such malicious behavior. To address this gap, we conduct the first large-scale study of human oversight in AI coding sabotage. Over 100 participants collaborate with one of four frontier models (Claude-Opus-4.6, GPT-5.4, Gemini-3.1-Pro, and MiniMax-M2.7) on a long-horizon coding task lasting around five hours, designed to mimic real-world workflows. We find that 83/88 (94%) of developers in the no-monitor conditions fail to detect sabotage, and our analysis of participant feedback attributes this vulnerability to minimal code review, plausible cover story, and overtrust in agents. We further test the effectiveness of a safety monitor in one condition: while the monitor reduces sabotage success, sabotage still succeeds in 9/16 (56%) of sessions with a correct monitor alert. Drawing on participant feedback, we offer actionable suggestions for better monitor design. This work complements existing AI safety research and highlights an urgent need for human-centric safety mechanisms that account for human factors, particularly in long-horizon, real-world development settings.",
+  "published": "2026-06-04T03:22:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.183795+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:33:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.05647v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.271194+00:00"
+}

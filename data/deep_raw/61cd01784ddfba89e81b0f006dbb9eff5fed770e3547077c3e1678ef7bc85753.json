@@ -1,0 +1,21 @@
+{
+  "id": "61cd01784ddfba89e81b0f006dbb9eff5fed770e3547077c3e1678ef7bc85753",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Digital Twin for Pre-Deployment Validation of AI-Driven Safety-Critical Industrial Edge Control Loops",
+  "url": "https://arxiv.org/abs/2610.11934",
+  "summary": "arXiv:2610.11934v1 Announce Type: cross Abstract: Industrial environments are increasingly characterized by the tight interaction among physical processes, communication infrastructures, and intelligent applications. In this context, Digital Twins (DTs) have emerged as a key technology for system analysis and optimization. However, existing DT solutions typically focus either on industrial processes or communication networks, while lacking an integrated and application-aware perspective. To fill this gap, this paper proposes a modular DT framework for industrial environments that jointly models physical processes, wireless communications, and application logic within a unified architecture. The feasibility of the proposed framework is experimentally validated through a real-world Proof-of-Concept (PoC) implemented in the BI-REX pilot line, involving a 5G-connected Autonomous Mobile Robot (AMR) transporting hazardous liquids and remotely controlled by an AI-driven application. The proposed DT is used to reproduce the behaviour of the real deployment and to investigate the impact of different placements of the AI application, including on-premise, edge, and remote cloud execution scenarios. Experimental results demonstrate a close agreement between DT predictions and PoC measurements in terms of both network-level metrics, such as Reference Signal Received Power (RSRP) and latency, and end- to-end application metrics, including application-level Round- Trip-Time (RTT). Moreover, the analysis shows how inaccuracies of network modeling can critically affect the feasibility of latency-sensitive industrial control loops, highlighting the potential of integrated DTs as tools for the pre-deployment design and validation of next-generation industrial systems.",
+  "published": "2026-10-08T13:28:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.756533+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:28:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11934v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.826261+00:00"
+}

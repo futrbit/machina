@@ -1,0 +1,21 @@
+{
+  "id": "d1257703dd0e47fd6157f6ffb7ac37e30321a157f3e55e8e9fc46d8964cbcb74",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Safety-Constrained Reinforcement Learning with Post-Training Reachability Verification for Robot Navigation",
+  "url": "https://arxiv.org/abs/2605.14174",
+  "summary": "arXiv:2605.14174v2 Announce Type: replace Abstract: Safe navigation for mobile robots demands policies that remain reliable under the high-consequence perception uncertainty of cluttered environments. Yet most existing safe reinforcement learning (RL) methods assess safety through average cumulative cost. Such metrics can mask dangerous tail-risk behaviors. To address this, we propose a framework that trains risk-sensitive policies through Conditional Value-at-Risk (CVaR) constrained optimization on an off-policy TD3 backbone and evaluates their safety margins post-training through neural network reachability verification. During training, the policy is optimized under CVaR constraints on cumulative costs, promoting sensitivity to high-cost tail outcomes rather than average behavior alone. After training, we compute action reachable sets under bounded observation uncertainty using Taylor Model analysis, yielding a safety rate metric that quantifies the proportion of evaluated states at which the policy's reachable action set remains within prescribed safety margins. A key finding is that policies trained with CVaR constraints maintain larger safety margins from obstacles across evaluated states. This makes them significantly more amenable to formal reachability verification. Experiments across ten navigation scenarios and six baselines show that our method achieves a 98.3\\% success rate, the highest safety verification rate among all compared methods, while revealing that average cost rankings and reachability-based safety rankings can diverge. This indicates that reachability verification captures risks which are missed by empirical cost metrics alone. We further validate our approach on a physical Clearpath Jackal robot, demonstrating successful sim-to-real transfer.",
+  "published": "2026-05-13T22:53:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.382258+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T19:27:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.14174v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.080902+00:00"
+}

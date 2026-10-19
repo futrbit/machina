@@ -1,0 +1,21 @@
+{
+  "id": "f03ca9813586f77241fc6a1824337328edcf15236ee53a55c693a3dbedccabef",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "A Physics-Informed Collision Learning Framework for Collaborative Robot Motion Generation",
+  "url": "https://arxiv.org/abs/2610.12404",
+  "summary": "arXiv:2610.12404v1 Announce Type: new Abstract: Close-proximity multi-arm manipulation requires collision models that are both geometrically accurate and differentiable enough for real-time optimization. Classical geometry checkers provide reliable distances but are difficult to use inside gradient-based model predictive control, while conservative proxy models can restrict tightly coupled motion. We present PI-UDF, a physics-informed unified differentiable framework for body-to-body collision distance prediction between articulated robots. PI-UDF combines analytical forward kinematics with learnable link-geometry embeddings and a shared residual network to predict pairwise inter-arm distances directly from robot configurations. To improve safety-critical fidelity, we combine quota-driven boundary mining with an asymmetric boundary-crossing penalty that emphasizes false-safe sign errors near the collision boundary. The learned distance field is integrated into nonlinear MPC as a differentiable inter-arm clearance term. We validate the framework on a real dual-Franka platform through high-speed close-proximity 14-DoF dual-arm swapping, sustained single-arm dynamic evasion, and dynamic-evasion planning configurations with frozen, predicted, and target-switching treatments of the moving arm. Hardware experiments and offline Drake/FCL replay show that PI-UDF provides a differentiable inter-arm clearance estimate suitable for closed-loop collision-aware collaborative robot motion generation.",
+  "published": "2026-10-08T17:45:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.749537+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:45:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12404v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.444683+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17f2586cbb41f2c62870138b9e2d724565764fa2cecbf20b5292061fe0c1aefa",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+  "url": "https://arxiv.org/abs/2610.12299",
+  "summary": "arXiv:2610.12299v1 Announce Type: new Abstract: Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored. We formulate multi-agent egocentric world modeling as synchronized ego-stream generation for multiple agents interacting through fine-grained actions in a shared world. This requires cross-view action consistency, shared-environment consistency, and consistent propagation of interaction-induced state updates. We propose Multi-agent Egocentric World Model (ME-World), which jointly denoises multiple ego streams in a shared token sequence, conditions each stream on all agents' target-view poses, and grounds generation with shared environment memory. We train and evaluate on real and synthetic multi-agent data and introduce shared-world consistency metrics for environment, update, and identity consistency. Experiments show ME-World improves shared-world consistency, action control, identity preservation, and video quality over existing methods.",
+  "published": "2026-10-08T16:50:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.759043+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:50:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12299v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.871832+00:00"
+}

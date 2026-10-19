@@ -1,0 +1,18 @@
+{
+  "id": "1e62a253ac4015b7be503388f63ba1d76fcf362d537d5073d1e91a5dc34964e2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "COMET: Decoupled Distillation, Routing, and Capacity Control for Task-Agnostic Continual Vision--Language Learning",
+  "url": "https://arxiv.org/abs/2610.22907",
+  "summary": "arXiv:2610.22907v1 Announce Type: new Abstract: Vision-language models (VLMs) such as CLIP retain zero-shot recognition ability, but their open-world use often requires task-agnostic continual learning: tasks arrive sequentially, past data are unavailable, task identity is unknown, and the backbone cannot be retrained. We argue that this setting fails VLMs through three coupled pressures beyond the stability-plasticity tradeoff: (1) modal-consistency drift, (2) representation-space interference, and (3) per-task capacity shortfall. We propose COMET (Collaborative Mixture-of-Expert Transfer) to resolve these three issues respectively as follows. A frozen teacher provides only a feature reference on a shared image-text pool; Tri-Affinity Distillation preserves image-image, text-text, and image-text geometry; and Student-Aware Cross-Expert Distillation aligns new experts with compatible prior experts so routing errors degrade gracefully. We design COMET to keep capacity and inference separate: a contextual bandit keeps or merges full per-task experts using post-training signals, while a reconstruction router selects sparse experts at test time without teacher semantics. On the X-TAIL benchmark, we show that each proposed component improves continual learning performance. COMET shows that continual vision-language adaptation can preserve multimodal geometry, coordinate accumulated experts, and allocate capacity jointly when feature reference, expert shaping, routing, and capacity control are separated by construction.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.039095+00:00"
+}

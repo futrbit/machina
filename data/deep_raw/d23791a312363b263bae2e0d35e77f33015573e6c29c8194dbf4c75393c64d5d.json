@@ -1,0 +1,22 @@
+{
+  "id": "d23791a312363b263bae2e0d35e77f33015573e6c29c8194dbf4c75393c64d5d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Two-Sample Testing via Generative Processes",
+  "url": "https://arxiv.org/abs/2610.08277",
+  "summary": "arXiv:2610.08277v1 Announce Type: cross Abstract: Deciding whether two samples come from the same distribution is a classical problem in statistics, and generative transport offers a new way to approach it. We build a stochastic interpolant directly between the two samples and observe that, for a symmetric schedule, its law is invariant under the time reflection $t \\mapsto 1-t$ whenever the two distributions coincide. We therefore test whether the marginals at times t and 1-t agree by computing their Jensen--Shannon divergence. Both marginals are explicit mixtures over all cross-pairs of observations, so nothing is learned, and permutation calibration gives an exact finite-sample level. For Gaussian noise, this divergence equals a time integral that pairs the reflection defects of the velocity field and of the score, so the test compares transport dynamics rather than endpoints alone. With a narrow-plus-broad noise design, the test attains the minimax separation rate n^{-2s/(4s+d)} over bounded, compactly supported densities whose difference has Sobolev smoothness s > 3d/4, with no lower bound on the densities. Fusing a dyadic grid of noise scales through their permutation ranks, without sample splitting, preserves exact level and adapts to unknown s at an iterated-logarithmic cost. Empirically, the test matches or outperforms state-of-the-art kernel two-sample tests.",
+  "published": "2026-10-06T12:48:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.104472+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:48:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08277v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.093894+00:00"
+}

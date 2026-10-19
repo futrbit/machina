@@ -1,0 +1,17 @@
+{
+  "id": "fa10f42f630871bf52883075c54ce1e349ee949e5fd5fe74ed8a99595e5d68fd",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PRISM: Polynomial Representations for Interaction-Structured Motor Control",
+  "url": "https://arxiv.org/abs/2607.23473",
+  "summary": "arXiv:2607.23473v3 Announce Type: replace Abstract: Robot policies map observations to actions, typically using multilayer perceptrons (MLPs). Yet robot dynamics and control objectives involve multiplicative interactions among observable physical variables. MLPs can approximate these interactions but must learn them implicitly, at a representational cost. We introduce PRISM (Polynomial Representations for Interaction Structured Motor Control), a physics-motivated yet data-driven representation that learns multiplicative interactions by recursively adding scaled bilinear features, without enumerating all polynomial terms. Replacing only the MLP's first affine layer, PRISM is plug-and-play for reinforcement and imitation learning, requiring no changes to training objectives, sensing, or controllers. Across humanoid locomotion and contact-rich manipulation, PRISM improves survival from 51.0\\% to 92.5\\%, outperforming even larger MLPs. More strikingly, its performance advantage persists under out-of-distribution changes in friction, robot mass, and payload, without retraining. PRISM also exhibits sensorless compliance-like behavior, increases failure-recovery success from 40.9\\% to 52.3\\% without explicit admittance control, improves real-robot manipulation, and learns features that better predict physical quantities. These results make PRISM a compelling alternative to standard MLPs for robot policy learning. The project page is available at https://lsh3163.github.io/prism/.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.170643+00:00"
+}

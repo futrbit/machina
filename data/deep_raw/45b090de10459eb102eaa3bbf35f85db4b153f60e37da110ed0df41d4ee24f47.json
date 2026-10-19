@@ -1,0 +1,21 @@
+{
+  "id": "45b090de10459eb102eaa3bbf35f85db4b153f60e37da110ed0df41d4ee24f47",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LTBD: Learnable Trust-Boundary Delimiters for Prompt Injection Defense",
+  "url": "https://arxiv.org/abs/2610.11634",
+  "summary": "arXiv:2610.11634v1 Announce Type: cross Abstract: Large language models (LLMs) perform remarkably well on complex tasks, yet remain highly vulnerable to prompt injection attacks, where malicious instructions embedded in external data can override user intent. Existing defenses remain limited by model fine-tuning requirements, vulnerability to adaptive attacks, or reliance on brittle handcrafted prompts. We argue that a fundamental source of this vulnerability is the lack of an explicit representation of trust provenance. To address this, we introduce Learnable Trust-Boundary Delimiters (LTBD), a lightweight defense that explicitly encodes trust boundaries in the input while keeping the LLM parameters unchanged. LTBD uses a small number of learnable delimiters to distinguish trusted user instructions from untrusted external data, enabling the model to better respect the intended trust hierarchy. Experimental results show that LTBD substantially outperforms inference-time defenses and performs competitively with training-based approaches, while preserving benign-task utility and introducing negligible inference overhead. In particular, LTBD achieves 0.00% ASR on AlpacaFarm and only 0.11-0.19% ASR on TaskTracker. LTBD also remains effective under adaptive attacks, where adversaries have full knowledge of the defense and explicitly attempt to bypass it.",
+  "published": "2026-10-08T10:13:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.394373+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:13:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11634v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.870837+00:00"
+}

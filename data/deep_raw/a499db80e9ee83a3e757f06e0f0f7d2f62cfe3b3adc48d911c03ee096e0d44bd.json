@@ -1,0 +1,21 @@
+{
+  "id": "a499db80e9ee83a3e757f06e0f0f7d2f62cfe3b3adc48d911c03ee096e0d44bd",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Same Action, Different Outcome: Variability in Dynamic Cloth Manipulation",
+  "url": "https://arxiv.org/abs/2610.10801",
+  "summary": "arXiv:2610.10801v1 Announce Type: new Abstract: Although cloth is known to exhibit different outcomes under repeated fast dynamic motions, even when the same trajectory is applied, this variability has not yet been systematically characterized. Quantifying it is essential to assess the reliability of learned manipulation policies and the extent to which simulation can reproduce real-world behavior. To study this, we execute the same trajectory ten times across four dynamic tasks, two of which are novel, each tested with three cloths of very different properties and at up to three execution speeds, with a total of 269 recorded rollouts. For all of them, we record small marker positions on the cloth and synchronized stereo camera. We then formalize different metrics to quantify variability, and our results show how it is significant in every test condition, in most cases one to three orders of magnitude above the repeatability inherent to the robot and sensing noise. Our results also show variability is driven mainly by the cloth physical properties but also grows with speed. By replaying all the rollouts in four calibrated modern cloth simulators, we show that none of them can reproduce the variability magnitude we observed in real cloth, nor its ordering. Together with our analysis, we publish the dataset with synchronized OptiTrack, vision and robot logs and their corresponding simulator twins.",
+  "published": "2026-10-07T19:00:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.732547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:00:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10801v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.284382+00:00"
+}

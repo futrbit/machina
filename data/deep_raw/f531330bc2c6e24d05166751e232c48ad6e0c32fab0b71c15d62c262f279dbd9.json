@@ -1,0 +1,22 @@
+{
+  "id": "f531330bc2c6e24d05166751e232c48ad6e0c32fab0b71c15d62c262f279dbd9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Density Ratio Estimation with Stein Displacement Fields",
+  "url": "https://arxiv.org/abs/2610.12437",
+  "summary": "arXiv:2610.12437v1 Announce Type: cross Abstract: Density ratios quantify distribution shift from a probability-mass point of view, whereas displacement fields describe, from a dynamical point of view, how one distribution is transported onto another. Although both offer complementary insights, they are usually estimated separately, and converting one into the other requires post-processing. In this paper, we estimate the density ratio between a target and a base distribution by parametrizing it through a displacement field acting on the base: the log-ratio is modeled as minus the Stein operator of the base applied to the field, up to a normalizing constant. This gives both statistical and dynamical descriptions of the distribution shift through a single convex optimization problem. Iterating this estimate-and-move step gives two inference algorithms: push-forward moves the model and corrects a pretrained sampler without retraining it, whereas pull-back moves the data closer to the base and fits a transformation model one layer at a time. Applications to distribution shift in simulation-based inference and to nonlinear independent component analysis illustrate the benefits and limitations of the approach.",
+  "published": "2026-10-08T17:57:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.119412+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:57:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12437v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.495652+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9dac3376ec36f56713456ad45e531280567ce39b576f5e737fde33bdf19a6417",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DisFace3DNet: Explainable Facial Attractiveness Prediction via 3D Component Disentanglement",
+  "url": "https://arxiv.org/abs/2610.11656",
+  "summary": "arXiv:2610.11656v1 Announce Type: new Abstract: Facial attractiveness prediction usually assigns one overall rating, leaving the roles of shape, appearance, and viewing conditions implicit. We propose DisFace3DNet, which uses 3D component disentanglement to learn seven component reference scores from overall ratings with auxiliary weak semantic supervision, without human-labeled component targets. Designated 3D representations and image cues feed jointly learned routes for identity, skin, hair, light, background, expression, and pose. A constrained fit then combines five static and two signed dynamic scores into the overall rating, exposing each component's numerical contribution and supporting component-specific comparisons across images. On SCUT-FBP5500, DisFace3DNet achieves a Pearson correlation of $0.8904\\pm0.0063$ (mean $\\pm$ standard deviation across five folds) with average human ratings; its component terms reconstruct every held-out prediction to numerical precision. Skin, hair, and facial shape account for the largest component-wise prediction variation. Human evaluation supports the score directions for facial shape, skin, and hair; expression agreement is weaker. DisFace3DNet thus connects overall prediction to quantitative analysis of the facial and contextual cues entering each estimate.",
+  "published": "2026-10-08T10:33:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.750049+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:33:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11656v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.049524+00:00"
+}

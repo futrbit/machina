@@ -1,0 +1,21 @@
+{
+  "id": "bd5f528698330c3f1a5ff96bd916a0378fa7dd534d65ca2b6f8241be4a13a30e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "More Value per Key: Asymmetric Sparse Attention for Faster LLM Decoding",
+  "url": "https://arxiv.org/abs/2610.04753",
+  "summary": "arXiv:2610.04753v2 Announce Type: replace-cross Abstract: Autoregressive generation in Large Language Models (LLMs) is constrained by the memory and computational demands of attention mechanisms. Sparse attention methods mitigate this cost by selecting only high-probability entries of the attention matrix. We observe that in many such methods, this renders the probability-value multiplication negligible, shifting the bottleneck to the query-key step. Key heads can therefore be reduced to accelerate inference, while retaining more value heads preserves capacity with limited additional decoding cost. We introduce Sparse Asymmetric Group-Query Attention (SAGA), which decouples key and value head counts to exploit this principle, and pair it with approximate top-N (Atop-N) attention, a simple sparse attention method designed to study the interaction between sparsity and head-count asymmetry. We formalize the benefits of this asymmetry theoretically and validate them empirically through latency measurements and quality evaluations on models up to 1.5B parameters. Together, SAGA and Atop-N achieve end-to-end decoding speedups exceeding $2\\times$ over our full-attention GQA baseline at long contexts. Models trained from scratch with SAGA nearly match the quality of comparable GQA variants on the evaluated benchmarks. To facilitate adoption, we introduce an efficient fine-tuning method that converts pretrained models to the SAGA architecture, enabling practitioners to benefit from our approach without costly retraining.",
+  "published": "2026-10-03T20:38:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.202782+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T03:33:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.04753v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.823057+00:00"
+}

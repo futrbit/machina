@@ -1,0 +1,18 @@
+{
+  "id": "c65ede1442f052cf31b4a72a231576658bb47d05a04661d0380b8ba51ed8b201",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "ProactGen: Learning Proactive Clarification for Video Generation",
+  "url": "https://arxiv.org/abs/2610.22608",
+  "summary": "arXiv:2610.22608v1 Announce Type: new Abstract: Recent advances in video generation let users create high-quality videos from natural language descriptions, yet obtaining results that match user intent remains time-consuming: individual generations are computationally expensive, and underspecified prompts force repeated cycles of generation, inspection, and revision. Existing video prompt optimization methods improve generation through automatic rewriting, but cannot supply the ideas and preferences that were not in the initial description. We propose ProactGen, a video generation framework that learns proactive clarification, eliciting user intent through questions grounded in generated video drafts. Specifically, we train a vision-language model as a questioning policy with reinforcement learning: observing the initial prompt and a video draft, it learns to ask the questions most valuable to downstream generation, rewarded by the alignment between the final generated video and a target reference. We further find that effective questioning does not require drafts of final-output quality, and exploit this property by generating drafts with fewer denoising steps, keeping the added cost of clarification low. Experiments show that ProactGen improves target alignment over direct generation by at least 1.8x the gain of the strongest baselines. Moreover, a single round of ProactGen already exceeds the alignment that the strongest baseline reaches after four refinement rounds, in 29% of its time.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.036097+00:00"
+}

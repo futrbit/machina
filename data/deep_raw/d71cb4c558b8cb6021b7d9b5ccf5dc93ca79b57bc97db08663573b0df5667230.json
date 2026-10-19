@@ -1,0 +1,21 @@
+{
+  "id": "d71cb4c558b8cb6021b7d9b5ccf5dc93ca79b57bc97db08663573b0df5667230",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Trajectory-Guided Fault Localization for Agent Skill Evolution",
+  "url": "https://arxiv.org/abs/2610.11858",
+  "summary": "arXiv:2610.11858v1 Announce Type: cross Abstract: Agent skills provide reusable guidance for code agents, but incomplete or unsuitable guidance can impair task execution. To reduce the manual effort of skill refinement, recent approaches use LLMs to generate revisions from execution feedback. However, grounding these revisions in explicit behavioral evidence remains challenging. To address this gap, we propose SkillMorph, a skill-evolution approach based on trajectory-guided fault localization in agent skills. Its core idea is to link execution evidence to specific skill contents before generating revisions. Specifically, SkillMorph compares failure and success evidence in abstracted trajectories across repeated runs and tasks, incorporating changes between evolution loops to identify suspicious actions. It then uses these suspicious actions to localize edit sites in the skills and generate corresponding revisions. Experiments on SWE-Skills-Bench and CannBot show that the skills evolved by SkillMorph consistently achieve higher trial-level accuracy and execution consistency than the original skills and those from four existing skill-evolution methods. We have also applied SkillMorph to automated kernel generation with an AI operator-development team, which has accepted 6 skill-revision pull requests.",
+  "published": "2026-10-08T12:38:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.396372+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:38:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11858v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.159854+00:00"
+}

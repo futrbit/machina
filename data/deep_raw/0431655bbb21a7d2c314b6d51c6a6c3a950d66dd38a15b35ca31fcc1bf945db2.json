@@ -1,0 +1,21 @@
+{
+  "id": "0431655bbb21a7d2c314b6d51c6a6c3a950d66dd38a15b35ca31fcc1bf945db2",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "CoFL-S: Spatially Queryable Sector Flow Fields for Local Language-Conditioned Navigation",
+  "url": "https://arxiv.org/abs/2607.02222",
+  "summary": "arXiv:2607.02222v2 Announce Type: replace Abstract: Vision-Language Navigation has increasingly emphasized high-level instruction reasoning, memory, global map construction, and instruction decomposition, while the low-level action representation remains comparatively underexplored. We propose CoFL-S, a low-level vision-language-action framework that predicts a language-conditioned flow field over the robot's local visible sector and generates continuous trajectories by rolling out the predicted field. To train this low-level representation, we convert each VLN-CE episode, originally a whole-episode instruction paired with an action sequence, into frame-level local supervision with aligned sub-instructions and matched action, trajectory, and dense flow-field targets. For evaluation, we introduce a continuous-time Habitat benchmark that isolates low-level action interfaces from instruction decomposition and executes all methods through a shared velocity-command controller, enabling decomposition-independent closed-loop comparison across different planner frequencies rather than fixed discrete forward-and-turn transitions in VLN-CE. Under matched encoders and training settings, CoFL-S consistently outperforms baselines across planner frequencies in the continuous-time Habitat benchmark, and zero-shot real-world closed-loop deployment further shows its advantage over the evaluated baselines beyond simulation. See the project website at https://github.com/ut-dragon-lab/CoFL",
+  "published": "2026-07-02T14:26:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.384031+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T05:32:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.02222v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.317167+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "481706576acdb9d92c0a4aba7d0076c37822cc5fc35221a32dcf9390f821c9b8",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation",
+  "url": "https://arxiv.org/abs/2608.21290",
+  "summary": "arXiv:2608.21290v3 Announce Type: replace-cross Abstract: We propose VT-MUSE, a Multimodal Unified SEquential representation learning framework for visuotactilemanipulation. Existing approaches often encode visual and tactile observations independently before fusion, limiting their ability to capture fine-grained cross-modal dependencies. Moreover, most methods focus on observations at the current time step and overlook the temporal evolution of contact. VT-MUSE addresses both limitations through a two-stage representation learning framework. In Stage I, modality specific encoders are jointly adapted via cross-modal temporal alignment and masked-view consistency. In Stage II, a conditional variational latent model processes masked visual sequences together with full tactile histories. Auxiliary decoders reconstruct the masked recent visual observations and predict tactile depth changes, encouraging the latent representation to retain both global visual context and local contact dynamics. The learned representation is subsequently integrated into a lightweight Transformer policy through gated cross-attention. On the simulation benchmark, VT-MUSE outperforms the strongest baseline evaluated on all tasks by 11 percentage points and also achieves substantial improvements in real-world experiments.",
+  "published": "2026-08-21T16:50:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.555361+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:57:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.21290v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.932799+00:00"
+}

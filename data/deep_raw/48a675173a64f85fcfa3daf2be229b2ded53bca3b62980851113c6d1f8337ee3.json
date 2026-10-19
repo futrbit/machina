@@ -1,0 +1,22 @@
+{
+  "id": "48a675173a64f85fcfa3daf2be229b2ded53bca3b62980851113c6d1f8337ee3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Grounding with Confidence: Controllable Generative Video Temporal Grounding",
+  "url": "https://arxiv.org/abs/2609.39883",
+  "summary": "arXiv:2609.39883v3 Announce Type: replace Abstract: Video temporal grounding supports applications such as video search, content review, and automated editing by localizing events described in natural language. Yet existing generative models typically output timestamps without explicit interval-level confidence scores to guide candidate selection. We separate candidate generation from acceptance by scoring individual intervals within the original decoding pass. A lightweight confidence head reads pooled decoder states, providing an explicit score trained for interval selection. Offline verifier scores supervise the head on fixed candidate sequences, and temporal-overlap labels adapt it to current rollouts during reinforcement learning. GT-anchored candidate-pool supervision and set-level optimization train the generator. The resulting scores support ranking, threshold-based selection, and rejection without invoking an external verifier at inference. On a fixed OMTG-Bench candidate pool, confidence raises query-macro Recall@0.5 from 9.95% to 14.42% over generation order at a 10% global return budget, and from 26.48% to 31.12% at a 25% budget. The continuous scores let downstream applications adjust return budgets or acceptance thresholds to match their precision-recall preferences, without regenerating candidate intervals.",
+  "published": "2026-09-30T14:55:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.790024+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:56:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.39883v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.945791+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "6306d54490f011569b01ea336de0070acce84c4b821765ea8c3e8e659929381c",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors",
+  "url": "https://arxiv.org/abs/2610.07681",
+  "summary": "arXiv:2610.07681v1 Announce Type: new Abstract: Dexterous manipulation poses a challenging high-dimensional optimization problem, as useful behaviors require coordinated motion across many hand joints. In reinforcement learning (RL) and sampling-based trajectory optimization, exploration commonly relies on independent robot joint perturbations, making coordinated behaviors difficult to discover. Prior work reduces this search space for grasp learning using low-dimensional spaces of coordinated joint motions learned from human hand data, but this restricts the expressivity required for general manipulation. Some combine learned and joint-space actions to restore expressivity, but this increases dimensionality and introduces redundancy. We study these effects across diverse manipulation settings, varying action dimensionality, exploration strategy, and the source of human data. Our experiments suggest that human-motion priors are most effective when used to structure exploration rather than change the action representation. Motivated by this finding, we propose EigenDEXplore, which induces correlated exploration by adding perturbations along human-derived eigenvectors to independent joint-space noise, leaving the action space unchanged. Across multiple dexterous hands, EigenDEXplore consistently outperforms joint-space and learned action-space baselines in grasping, in-hand reorientation, and contact-rich manipulation. These gains span unstructured and reference-guided RL, trajectory optimization, and sim-to-real deployment, and are largest in settings with less reward shaping and curriculum design.",
+  "published": "2026-10-06T03:15:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.459024+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T03:15:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07681v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.700337+00:00"
+}

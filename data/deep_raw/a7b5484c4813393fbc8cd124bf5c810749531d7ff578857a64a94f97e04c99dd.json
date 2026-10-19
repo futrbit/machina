@@ -1,0 +1,17 @@
+{
+  "id": "a7b5484c4813393fbc8cd124bf5c810749531d7ff578857a64a94f97e04c99dd",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "GR-VIP: Geometric representation conditioning for precise visuomotor policy",
+  "url": "https://arxiv.org/abs/2610.22997",
+  "summary": "arXiv:2610.22997v1 Announce Type: new Abstract: Achieving precise terminal position and heading alignment remains a significant challenge for learning-based mobile robot control. Recent vision-based learning methods have shown promise for precise target-relative control and generalization to unseen environments with pretrained visual encoders, but general-purpose visual representations are not specifically designed to capture the fine-grained spatial differences between current and goal views required for precise control, and real-world demonstrations combining millimeter-scale terminal accuracy with zero-shot transfer across environments remain limited. To address these challenges, we propose Geometric Representation Conditioning for Precise Visuomotor Policy (GR-VIP), a goal-conditioned visuomotor policy that leverages a visual encoder pretrained for relative camera pose estimation. Rather than using the final relative-pose estimate, GR-VIP conditions action prediction on the dense relational features produced before pose regression, preserving fine-grained cross-view information for learning corrective actions from demonstrations. We evaluate GR-VIP on a real-world docking task and demonstrate high docking success rates and millimeter-scale terminal accuracy in both the training and unseen environments, without additional training for transfer. Furthermore, supplementary experiments illustrate the policy's ability to align with non-docking targets and complete docking under a tested low-light condition.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.146657+00:00"
+}

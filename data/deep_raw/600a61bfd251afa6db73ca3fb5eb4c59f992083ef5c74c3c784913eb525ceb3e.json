@@ -1,0 +1,22 @@
+{
+  "id": "600a61bfd251afa6db73ca3fb5eb4c59f992083ef5c74c3c784913eb525ceb3e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "BG4Sea: Biogeochemical Seasonal Forecastability via Progressive Information Scaling",
+  "url": "https://arxiv.org/abs/2607.16731",
+  "summary": "arXiv:2607.16731v2 Announce Type: replace Abstract: Marine biogeochemical forecasting is increasingly important for managing marine ecosystems and the carbon cycle, yet global, seasonal forecast products lag far behind physical oceanography, held back by the complexity of the processes involved and by data scarcity. We introduce BG4Sea, which to our knowledge is the first global, data-driven system to produce multivariate seasonal forecasts of the marine biogeochemical state. BG4Sea is a modular architecture with a column autoencoder that compresses the vertical column into a low-dimensional latent space, a latent forecaster propagates this representation forward in time, a surface-forcing conditioner that injects physical boundary information via Feature-wise Linear Modulation (FiLM), and a horizontal-coupling module that incorporates neighboring-column context through cross-attention. The model is trained and evaluated on the global ocean reanalysis BIORYS4 (NEMO/PISCES), and produces six-month forecasts at 1/4 degree, monthly resolution for dissolved chemistry, biology, and carbon-pool variables, outperforming persistence and climatology across most variables and lead times. We position BG4Sea as an interpretable baseline for future, more expressive approaches, and discuss predictability attribution to each component, alongside the model's structural limitations.",
+  "published": "2026-07-18T09:43:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.834470+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T19:34:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.16731v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.806273+00:00"
+}

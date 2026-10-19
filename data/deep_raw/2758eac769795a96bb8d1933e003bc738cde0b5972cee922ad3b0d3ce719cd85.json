@@ -1,0 +1,22 @@
+{
+  "id": "2758eac769795a96bb8d1933e003bc738cde0b5972cee922ad3b0d3ce719cd85",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "MIND the Gap: A Geographic Implicit Neural Representation with Adjustable Spatial Scale",
+  "url": "https://arxiv.org/abs/2609.25454",
+  "summary": "arXiv:2609.25454v2 Announce Type: replace Abstract: Geographic measurements are often sparse, leaving large areas without labels for the quantities we want to map. Geographic implicit neural representations (INRs) provide coordinate-based embeddings that can be combined with sparse labels to predict at unsampled locations without satellite imagery at inference. Yet existing INRs are largely evaluated with random holdouts, leaving their ability to generalize across larger geographic gaps unclear. We introduce Matryoshka Implicit Neural Distillation (MIND), a geographic INR whose spatial granularity can be adjusted after training. MIND distills several pretrained geospatial models using nested supervision at increasing embedding dimensions, dividing the representation into contiguous chunks. Early chunks capture broad spatial patterns, while later chunks add increasingly local variation. Downstream models can retain only the leading chunks or use our Chunked Penalty to reduce reliance on later chunks without retraining the INR. We also introduce CoordBench, comprising $52$ datasets and $78$ targets with both random and regional holdouts at multiple spatial scales. Across CoordBench, fine-scale features help most when labels are nearby, while smoother representations generalize better across larger geographic gaps. MIND with the Chunked Penalty achieves the highest aggregate regression and classification performance among tested INRs and the highest overall performance under regional holdout. These results show that geographic representations should be evaluated and adapted according to the spatial separation between labeled and prediction locations.",
+  "published": "2026-09-21T22:11:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.238259+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T19:40:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.25454v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.250212+00:00"
+}

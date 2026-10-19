@@ -1,0 +1,22 @@
+{
+  "id": "83e5327b6ad4b47ff14db2fd2316703ea794bff35eb85e34d8e443b992d58c6b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DTFormer: Text-Guided Semantic Alignment for RGB-D Segmentation",
+  "url": "https://arxiv.org/abs/2610.07014",
+  "summary": "arXiv:2610.07014v1 Announce Type: new Abstract: RGB-D semantic segmentation has made notable progress by fusing RGB and Depth, yet mainstream models still learn features almost exclusively from pixel-level supervision, lacking direct high-level semantic constraints. This raises a central question-can external knowledge such as language priors inject stronger semantic discriminability into mainstream RGB-D segmentation models. We present DTFormer, a novel tri-modal (RGB-D-Text) semantic segmentation framework. At its core is Text-guided Semantic Alignment Module (TSAM) that first encodes textual cues into a set of semantic prototypes and then explicitly aligns multi-modal RGB-D features with these prototypes at multiple encoder and decoder layers. This design imposes strong semantic regularization on representation learning, guiding the network toward more discriminative features. Extensive experiments on multiple benchmarks show that DTFormer delivers consistent gains while remaining simple and efficient. Our results demonstrate that explicit semantic alignment offers an effective and practical route to improving RGB-D semantic segmentation. The code will be released upon acceptance.",
+  "published": "2026-10-04T14:06:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.510388+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T14:06:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07014v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.506850+00:00"
+}

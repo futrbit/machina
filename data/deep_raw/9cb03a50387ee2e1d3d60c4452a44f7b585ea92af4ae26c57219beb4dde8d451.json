@@ -1,0 +1,22 @@
+{
+  "id": "9cb03a50387ee2e1d3d60c4452a44f7b585ea92af4ae26c57219beb4dde8d451",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Random Recursive Models",
+  "url": "https://arxiv.org/abs/2610.00541",
+  "summary": "arXiv:2610.00541v1 Announce Type: new Abstract: Recursive models create computational depth through parameter reuse, offering a parameter-efficient alternative to increasing model size. However, most recursive models repeatedly apply one learned transformation or a prescribed sequence of transformations, restricting computation to a fixed layer order. We introduce the Random Recursive Model (RRM), which maintains a pool of $L$ learned layers and performs $T$ recursive steps by sampling one layer independently with replacement for each example and step. This enables flexible layer reuse while retaining the parameter efficiency of recurrence. We evaluate RRM on challenging reasoning tasks, where it matches or exceeds the baselines, often with 50-75 % fewer parameters. RRM can vary its depth at inference, including beyond that seen during training, without retraining or adding parameters, improving tasks that benefit from deeper iterative computation. RRM also supports Monte Carlo inference and probabilistic test-time scaling, both of which improve performance without retraining. These insights may open new directions in neural network architecture design.",
+  "published": "2026-09-30T18:23:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.775508+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T18:23:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00541v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.031534+00:00"
+}

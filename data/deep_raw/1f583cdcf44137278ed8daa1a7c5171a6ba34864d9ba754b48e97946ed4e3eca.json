@@ -1,0 +1,21 @@
+{
+  "id": "1f583cdcf44137278ed8daa1a7c5171a6ba34864d9ba754b48e97946ed4e3eca",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Post-Grasp Kinematic Repair for Robotic Insertion via Object-in-Gripper Reorientation",
+  "url": "https://arxiv.org/abs/2610.08421",
+  "summary": "arXiv:2610.08421v1 Announce Type: new Abstract: A stable grasp does not guarantee kinematically feasible robotic insertion because the object-in-gripper transform may force the robot towards singularities or joint limits along the prescribed insertion path. We study post-grasp kinematic feasibility repair through object-in-gripper reorientation. Given an achieved grasp and a fixed insertion path, we seek a small reorientation that restores kinematic feasibility. Sequential IK can miss such candidates by following an unfavorable joint-space path, while the nonsmooth feasibility landscape makes the search computationally expensive. We evaluate candidates using a branch-aware IK graph that maximizes the minimum feasibility margin over the discretized insertion path and use a learned task-conditioned prior to improve query ordering. The selected reorientation is executed through tactile-based extrinsic manipulation. In UR5e simulations, the planner without learned ranking reduces mean reorientation over successful trials by 51.5% compared with grid-based sequential IK. Adding learned ranking reduces this planner's mean planning time by an additional 51.1%. Real-robot experiments validate the complete pipeline.",
+  "published": "2026-10-06T14:23:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.467018+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:23:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08421v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.076318+00:00"
+}

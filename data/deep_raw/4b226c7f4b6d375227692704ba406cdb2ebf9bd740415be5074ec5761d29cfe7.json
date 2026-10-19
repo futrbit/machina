@@ -1,0 +1,21 @@
+{
+  "id": "4b226c7f4b6d375227692704ba406cdb2ebf9bd740415be5074ec5761d29cfe7",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "WorldBench: Evaluating LLMs on Three.js Voxel World Generation",
+  "url": "https://arxiv.org/abs/2610.10622",
+  "summary": "arXiv:2610.10622v1 Announce Type: cross Abstract: Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a language model reads the source. On worlds written by five frontier models we find that the two views disagree on 32% of required items, mostly code that no frame shows, and that fixed views miss small close-up contents. We present WorldBench, a benchmark and judge for open-ended, LLM-generated Three.js worlds. From one prompt describing a floating voxel island with ten biomes, physics, and day/night and seasonal cycles, the judge explores the running world, controlling its clock, orbiting it, and sending a navigator agent to frame each biome, and reads the code for what it sees. Neither channel is trusted on its own: a code quote counts only if it is text the source contains, and visual claims are checked against measured pixels where the property is measurable. A mutation test, in which we remove features by construction, shows that code-only judging gives full credit to four of five removed features, because their code remains in the file. Our judge cuts the points kept on removed features by a third (5.44 to 3.55 of 7.11), and what it still credits is mostly code that exists but never runs. We evaluate five frontier models: Claude Fable 5.1, GPT-6 Astra, Kimi K3, Grok 4.7 and Gemini 3.1 Pro. Code, prompt, tests and judge configuration are available at https://github.com/KrishBakshi/worldbench",
+  "published": "2026-10-07T08:52:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.381382+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T08:52:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10622v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.327562+00:00"
+}

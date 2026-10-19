@@ -1,0 +1,21 @@
+{
+  "id": "71287a864ddc9f3b3a47d0daed13b30f66ff97ef5b8218aa1f73e4a81c632512",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability",
+  "url": "https://arxiv.org/abs/2603.16017",
+  "summary": "arXiv:2603.16017v2 Announce Type: replace-cross Abstract: Large language models (LLMs) increasingly participate in morally sensitive decision-making, yet how they organize ethical frameworks across reasoning steps remains underexplored. We introduce moral reasoning trajectories, sequences of ethical framework invocations across intermediate reasoning steps, and analyze their dynamics across six models and three benchmarks. We find that moral reasoning involves systematic multi-framework deliberation: 55.4--57.7% of consecutive steps involve framework switches, and only 16.4--17.8% of trajectories remain framework-consistent. Unstable trajectories remain 1.29 times more susceptible to persuasive attacks (p=0.015). At the representation level, linear probes localize framework-specific encoding to model-specific layers (layer 63/81 for Llama-3.3-70B; layer 17/81 for Qwen2.5-72B), achieving 16.8--22.2% lower KL divergence than the step-prior baseline. Activation steering applied during generation moves the framework-consistency--accuracy relationship, widening it for Qwen2.5-72B and erasing it for Llama-3.3-70B, and a probe-space layer sweep bounds the attainable drift reduction at 6.7--8.9%. We further propose a Moral Representation Consistency (MRC) metric whose underlying framework attributions are validated by human annotators (mean cosine similarity = 0.859), and we report what an automated coherence rater does and does not establish about it.",
+  "published": "2026-03-16T23:51:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.194786+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:29:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.16017v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.112089+00:00"
+}

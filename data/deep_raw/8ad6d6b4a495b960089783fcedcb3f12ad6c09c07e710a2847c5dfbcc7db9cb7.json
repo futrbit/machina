@@ -1,0 +1,21 @@
+{
+  "id": "8ad6d6b4a495b960089783fcedcb3f12ad6c09c07e710a2847c5dfbcc7db9cb7",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "VLaRL: Augmenting Vision-Language-Action Models with Simulation-Trained Latent-Conditioned Residual RL",
+  "url": "https://arxiv.org/abs/2609.30868",
+  "summary": "arXiv:2609.30868v1 Announce Type: new Abstract: Vision-language-action (VLA) models provide broad, instruction-conditioned manipulation behaviors, but their physical execution can remain imprecise during contact-rich interaction. Residual reinforcement learning (RL) can correct such errors while keeping the VLA frozen, but real-robot RL is costly and safety-critical. We propose VLA Latent-Conditioned RL (VLaRL), which enables residual RL for frozen VLAs to be trained in simulation and deployed on real robots without real-world RL or online adaptation. The key challenge is transferring the learned residual policy despite the visual gap between simulation and reality. Rather than requiring pixel-level visual correspondence, VLaRL uses the VLA's internal vision-language latent representation to condition residual control and as the sim-to-real transfer interface, and learns a lightweight mapper that transforms simulation-derived latents toward the real latent distribution. Across four contact-rich manipulation tasks and two VLA backbones, VLaRL improves real-world success in all task-backbone combinations, while controlled ablations demonstrate the importance of both latent conditioning and latent alignment for transferring simulation-trained residual control.",
+  "published": "2026-09-25T06:18:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.375713+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T06:18:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30868v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.667753+00:00"
+}

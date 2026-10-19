@@ -1,0 +1,18 @@
+{
+  "id": "6dae5701a354fa9a8e8e18a528ec01af35ce68e0dbeef7e5544832e151382b8e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LGGS: Longitudinal MRI Reconstruction via Guided Group Sparsity",
+  "url": "https://arxiv.org/abs/2610.22643",
+  "summary": "arXiv:2610.22643v1 Announce Type: cross Abstract: Serial MRI is routinely performed in current clinical practice for disease surveillance and applications such as MR-guided radiotherapy. However, long MRI scan times increase costs and limit patient access, making accelerated image reconstruction of broad clinical importance. Previous scans of the same patient contain image information highly correlated with the current exam, yet existing reconstruction methods rarely exploit this information. Major challenges in the effective use of prior scans include inter-visit misregistration, pathological changes, and image phase variation. In this work, we propose Longitudinal Guided Group Sparsity (LGGS), an interpretable deep-learning framework for longitudinally informed MRI reconstruction derived from classical group sparsity. The prior scan is incorporated into the reconstruction regularizer through learned phase-invariant circulant attention that identifies corresponding features across exams. This formulation provides robustness to local in-plane and through-plane misregistration as well as inter-visit phase variation. Across acceleration rates, LGGS achieves state-of-the-art performance on longitudinal T1-weighted multi-coil brain MRI data, outperforming the evaluated unguided and longitudinally informed reconstruction methods, with substantially fewer learned parameters. We further evaluated the contributions of multiple guide slices and phase-invariant similarity and demonstrated that accelerated prior images can also serve as effective guides with minimal degradation in reconstruction quality.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.052087+00:00"
+}

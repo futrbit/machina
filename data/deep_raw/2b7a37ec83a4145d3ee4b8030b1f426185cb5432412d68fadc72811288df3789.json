@@ -1,0 +1,21 @@
+{
+  "id": "2b7a37ec83a4145d3ee4b8030b1f426185cb5432412d68fadc72811288df3789",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SkillContrast: Difference-Guided Text Selection for Agent Skill Reranking",
+  "url": "https://arxiv.org/abs/2610.11650",
+  "summary": "arXiv:2610.11650v1 Announce Type: cross Abstract: Similar agent skills can share instructions but differ in their conditions of use. Query-based text selection may retain shared instructions and omit these distinctions. We introduce SkillContrast, a training-free selector that compares retrieved skills and retains their differing text with local context for a pretrained reranker. On 1,235 requests from SameCapRisk-Bench, it yields 54-72 more clean hits (requests that retrieve a helpful skill without its marked risky sibling) than TF-IDF query selection at identical per-candidate input lengths, across 2 retrievers and 2 reranker sizes. Length-matched component replacements identify differing text as the main contributor in the primary setting, with smaller, mixed context effects. Relative to full skill bodies, SkillContrast uses 51.1-58.8% fewer model-input tokens, with 10-18 fewer clean hits at 0.6B and matching or higher observed clean-hit counts at 4B. Candidate-relative differences thus complement query relevance in selecting compact reranking inputs.",
+  "published": "2026-10-08T10:25:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.394373+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:25:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11650v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.309176+00:00"
+}

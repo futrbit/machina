@@ -1,0 +1,22 @@
+{
+  "id": "21d4352f2161c7da39341ec1bccfce830fb730cc5632f48933658c2795a18ba2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Flowing Faster to Coordinate: One-Step Online Multi-Agent Flow Policies",
+  "url": "https://arxiv.org/abs/2610.01882",
+  "summary": "arXiv:2610.01882v1 Announce Type: new Abstract: Multi-agent reinforcement learning (MARL) provides a powerful framework for learning coordinated behaviors through interactions with the environment. Developing MARL policies requires balancing expressive modeling of complex and multimodal action distributions with efficient training and execution. Generative policies, particularly diffusionbased policies, can faithfully capture complex and multimodal behaviors, but costly iterative sampling hinders their scalability in online multi-agent settings. We propose an Online MARL framework via one-step Flow model (OMAF) that combines expressive generative policies with efficient one-step action generation. OMAF employs a Transformer-based flow policy to capture complex coordination behaviors, while its approximate path score surrogate provides a principled route to synchronized flow policy optimization. To enable stable and sampleefficient learning, we further develop a joint optimization scheme coupling softmax Q-value estimation with a joint flow policy objective for coordinated policy learning. By eliminating iterative sampling, OMAF dramatically reduces training overhead without sacrificing policy expressiveness. Extensive experiments across 10 standard tasks from MPE and MAMuJoCo show that OMAF consistently achieves superior performance, with up to 3.4x higher returns and 10.5x sample efficiency improvement compared with baseline methods. These results validate the effectiveness of OMAF as an expressive and computationally efficient one-step flow policy paradigm for online MARL.",
+  "published": "2026-10-01T15:36:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.798493+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T15:36:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01882v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.164262+00:00"
+}

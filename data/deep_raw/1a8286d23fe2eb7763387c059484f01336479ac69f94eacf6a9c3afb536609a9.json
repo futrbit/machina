@@ -1,0 +1,22 @@
+{
+  "id": "1a8286d23fe2eb7763387c059484f01336479ac69f94eacf6a9c3afb536609a9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Coupled-cluster molecular properties across the main group that extrapolate beyond training size",
+  "url": "https://arxiv.org/abs/2608.18346",
+  "summary": "arXiv:2608.18346v2 Announce Type: replace-cross Abstract: Coupled-cluster theory defines the accuracy standard for molecular electronic-structure properties but scales too steeply for routine application, whereas density-functional theory is affordable yet systematically biased. We resolve this trade-off with a single equivariant network, HARP (Hamiltonian Read-out for Properties), that predicts an effective one-electron Hamiltonian from one inexpensive B3LYP/def2-SVP calculation and derives a broad suite of properties from it (energy, optical gap, dipole, quadrupole, polarizability, Mulliken atomic charges, and Mayer bond orders) at coupled-cluster accuracy across nine main-group elements, including the under-served phosphorus, sulfur, and chlorine chemistries. The model is trained on a new in-house dataset of multi-property labels computed at the CCSD(T) level for all nine elements. On a held-out test set, it reduces the error of every property by a factor of 3.8 to 270 relative to semi-local, hybrid, and double-hybrid DFT (referenced to composite CCSD(T)/cc-pVTZ), while adding only ~0.1 s wall time per molecule, delivering coupled-cluster-quality predictions at the cost of a single DFT calculation. Critically, deriving every property from a predicted Hamiltonian rather than pooling per-atom features builds the correct size-scaling into the model architecture: on pi-conjugated oligothiophenes it matches finite-field CCSD polarizability to ~1% and the EOM-CCSD optical gap to ~3% at the largest sizes where those references remain affordable (44 and 37 atoms, where a single CCSD field point already costs ~500x the model's entire inference) and extrapolates the corrected trends to 58-atom chains, a regime where pooling-based architectures fail by construction. Accurate extrapolation is therefore set by the model's inductive bias rather than by the training data.",
+  "published": "2026-08-18T21:57:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.846463+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T06:48:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.18346v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.933796+00:00"
+}

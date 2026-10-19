@@ -1,0 +1,22 @@
+{
+  "id": "09d7274a5f57fbdf0de3dc01a24c885efe6b1bbf8d748070fda8ce5d1959e4a9",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "UniPro: Unified Multi-Mode Medical Image Segmentation from 2D Images to 3D Volumes via Propagation",
+  "url": "https://arxiv.org/abs/2610.06938",
+  "summary": "arXiv:2610.06938v1 Announce Type: new Abstract: Medical image segmentation remains fragmented along two axes: segmentation paradigms and data dimensionality. Existing methods are typically developed separately for semantic, in-context, and interactive segmentation, and are further specialized to either native 2D images or 3D volumetric data. In clinical practice, however, segmentation workflows take many forms: a case may be initialized by semantic prediction, reference-guided segmentation, or user interaction. Regardless of how it begins, fine-grained refinement is naturally performed on 2D views; for volumetric scans, such 2D edits must propagate coherently to the rest of the volume. We present UniPro, a unified model that bridges segmentation paradigms and data dimensionality, using propagation to extend 2D segmentation to 3D volumes. Our key insight is that volumetric propagation and in-context segmentation share the same reference-conditioned prediction mechanism, differing only in whether the reference image-mask pairs come from other cases or from previously segmented neighboring slices. Building on this view, UniPro supports semantic, in-context, interactive, and propagation-based segmentation within a single slice-based framework, using class priors, reference exemplars, user clicks, and neighboring-slice predictions as mode-specific conditioning inputs. To improve propagation reliability, UniPro further incorporates bidirectional and 3D supervision to regularize slice-wise propagation beyond per-slice losses. Extensive experiments across diverse modalities and anatomies show that UniPro achieves strong performance across all segmentation settings, enabling annotation-efficient 3D segmentation from sparse 2D initialization and reducing slice-by-slice correction effort.",
+  "published": "2026-10-03T06:41:17Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.508389+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T06:41:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06938v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.456083+00:00"
+}

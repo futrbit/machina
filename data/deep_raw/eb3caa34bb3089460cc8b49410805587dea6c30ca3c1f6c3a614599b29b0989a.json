@@ -1,0 +1,22 @@
+{
+  "id": "eb3caa34bb3089460cc8b49410805587dea6c30ca3c1f6c3a614599b29b0989a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LoDEOT: Low-Dimensional and Efficient Offset Tokens for Building Footprint Extraction from Off-Nadir Imagery",
+  "url": "https://arxiv.org/abs/2610.05899",
+  "summary": "arXiv:2610.05899v2 Announce Type: replace Abstract: Instance-level roof-to-footprint offset (RFO) prediction is central to extracting building footprints from off-nadir imagery. Query-based pipelines commonly use high-dimensional instance tokens to predict signed two-dimensional RFOs. We investigate whether RFO prediction can instead use a compact offset token. Under local pinhole projection and vertical-extrusion assumptions, the idealized RFO map admits a five-parameter sufficient descriptor comprising intrinsic shape, composite amplitude, and relative geometry. This factorization provides a structural prior for a five-dimensional offset token, whose channels learn task-relevant latent representations through end-to-end training. Based on this design, we propose LoDEOT, which retains high-dimensional instance tokens for detection and segmentation but maps instance-token, concentration-gated roof, and box-mask evidence to a five-dimensional offset token followed by an independent two-dimensional readout. Known denoising-query target indices further align each supervised decoder-layer estimate with the same clean instance RFO, organizing successive predictions as target-aligned recovery under perturbed query conditions. Experiments on five real-world building datasets demonstrate the effectiveness of LoDEOT for building footprint extraction. Experiments on real-world building datasets demonstrate that a five-dimensional offset token can support accurate RFO prediction. On BONAI, LoDEOT achieves the best roof-detection bAP and bAP50 and leads all five offset-corrected footprint metrics among the evaluated end-to-end methods, with FAP50 of 54.58 and mEPE of 5.23 pixels. Its FAP50 exceeds those of the evaluated end-to-end baselines by 7.56-16.85 percentage points.",
+  "published": "2026-10-05T07:19:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.550364+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:38:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05899v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.376724+00:00"
+}

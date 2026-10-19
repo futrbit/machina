@@ -1,0 +1,22 @@
+{
+  "id": "91993528b665f40363c3cb6b1f3365a90fbda875d7a6afe348ac4f8a38d265bc",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "On Evaluating Quantum Kernel Robustness for Low-Resource Cross-Corpus Audio Deepfake Detection",
+  "url": "https://arxiv.org/abs/2610.00649",
+  "summary": "arXiv:2610.00649v1 Announce Type: cross Abstract: Synthetic speech detection is critical for audio security, but performance can degrade when labeled data are scarce and evaluation conditions differ from training. This study examines quantum kernel methods and lightweight neural models for cross-corpus audio deepfake detection under limited training data. We compare a Quantum Support Vector Machine (QSVM), a classical support vector machine (SVM), and a multilayer perceptron (MLP), all trained on frozen wav2vec 2.0 embeddings using a strict budget of 200 training samples. To match the qubit budget of near-term quantum hardware, embeddings are reduced to four dimensions using principal component analysis, and all models use the same reduced features. Experiments on ASVspoof 2019, ASVspoof 5, the ADD 2023 Challenge, and the In-the-Wild dataset show that under severe domain shift from ASVspoof 2019 to ADD 2023, the MLP degrades to near-random performance, with an area under the curve of approximately 50% and an equal error rate of 50.0%. In contrast, the QSVM maintains meaningful discrimination, achieving an area under the curve of 76.0% and an equal error rate of 27.0%. This advantage is not consistent across transfer directions. When trained on ADD 2023, the QSVM falls below chance on two of three transfers, while the MLP performs better. These results suggest that quantum kernel methods can be competitive under severe cross-corpus shifts and strict low-resource constraints, but do not provide a consistent advantage under near-domain transfer. We interpret these findings as an empirical characterization of quantum kernel inductive bias under distribution shift, rather than evidence of quantum advantage, since the four-qubit kernel can be simulated exactly on classical hardware.",
+  "published": "2026-09-30T19:51:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.811485+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T19:51:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00649v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.780685+00:00"
+}

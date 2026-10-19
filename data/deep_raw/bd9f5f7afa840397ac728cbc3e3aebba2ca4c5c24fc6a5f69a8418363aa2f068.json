@@ -1,0 +1,22 @@
+{
+  "id": "bd9f5f7afa840397ac728cbc3e3aebba2ca4c5c24fc6a5f69a8418363aa2f068",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Towards Unified Evaluation of Prompt Enhancers for Video Generation",
+  "url": "https://arxiv.org/abs/2610.11736",
+  "summary": "arXiv:2610.11736v1 Announce Type: new Abstract: Modern video generators can realize increasingly complex visual narratives, positioning the prompt enhancer (PE) as a critical bridge from concise user instructions and multimodal references to structured cinematic plans. However, existing PE evaluation relies on rendered videos, imposing substantial computational and human costs, slowing PE training and iteration, and conflating PE quality with downstream generator behavior. To address this gap, we introduce PEBench, the first unified benchmark for direct PE evaluation across text-to-video, image-to-video, and reference-to-video prompt enhancement. It comprises 1,100 expert-verified cases and 1,005 visual assets, spanning 35 fine-grained tasks with diverse temporal, cinematic, audiovisual, and multi-reference requirements. In addition, we develop PEBench evaluation, an evidence-grounded framework that combines modality-aware fact extraction with rubric-based assessment across 24 criteria. Our systematic evaluation of representative open- and closed-source PE methods reveals an emerging shift from fine-grained descriptive expansion toward intent-preserving cinematic planning, while the caption-reconstruction and forward-refinement methods show complementary strengths in cinematic coverage and semantic fidelity or internal coherence, respectively. Human validation shows that PEBench scores align closely with expert judgments of enhanced prompts and downstream videos from Wan3.0 and MiniMax-H3, indicating that prompt-level evaluation reliably reflects downstream utility.",
+  "published": "2026-10-08T11:31:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.751049+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:31:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11736v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.828054+00:00"
+}

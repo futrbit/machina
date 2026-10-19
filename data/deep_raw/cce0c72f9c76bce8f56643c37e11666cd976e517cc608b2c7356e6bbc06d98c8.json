@@ -1,0 +1,22 @@
+{
+  "id": "cce0c72f9c76bce8f56643c37e11666cd976e517cc608b2c7356e6bbc06d98c8",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "LLM-Guided Transportation Hub Capacity Planning with Textual Business Inputs",
+  "url": "https://arxiv.org/abs/2607.03651",
+  "summary": "arXiv:2607.03651v3 Announce Type: replace Abstract: While traditional hub capacity planning models optimize effectively for quantitative inputs, they often fail to digest qualitative business context. We propose a novel framework where a large language model (LLM) agent iteratively proposes hub capacity decisions guided by natural-language business context descriptions. The key mechanism is a chain-of-thought reasoning protocol: the LLM constructs a structured decision table that maps each contextual item to specific capacity adjustments based on the implied direction and magnitude of changes. The new capacity decision is then validated through a feedback loop with an optimization model, which provides routing-based performance metrics to guide the agent's selection. On a real-world 13-hub freight network in the southeastern US, our framework achieves a 2.8% optimality gap relative to the hidden ground-truth, a significant improvement over the 11.0% gap produced by the traditional optimization model without textual business inputs. This demonstrates that LLMs can serve as a contextual bridge, integrating qualitative business insights into Operations Research workflows.",
+  "published": "2026-07-04T00:26:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.833471+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T07:18:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.03651v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.023936+00:00"
+}

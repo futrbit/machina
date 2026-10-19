@@ -1,0 +1,22 @@
+{
+  "id": "2faeffb9df02da432af9790ed0eba784d26db3a808da8b9d66992792ef6baed3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding",
+  "url": "https://arxiv.org/abs/2609.30670",
+  "summary": "arXiv:2609.30670v1 Announce Type: cross Abstract: Streaming video understanding requires models to interpret evidence as it arrives, yet current evaluations often report task scores without specifying when evidence becomes valid, how visual history is maintained, or how responses are triggered. As a result, similar scores may correspond to different workloads, failure modes, and operational behavior. We introduce TRACE (Temporal Audit and Condition-aware Evaluation), a condition-aware benchmark and evaluation framework that makes these factors explicit. TRACE combines temporally audited visual tasks with evidence timing and instruction-dependent trigger annotations, a unified causal Core--Adapter protocol that controls information availability while recording actual history processing and response events, and multidimensional reporting of answer quality, timeliness, response-selection behavior, workload, completion, and reliability. On 1,240 records from 517 videos, we evaluate eight publicly available models or systems in eight configurations. We find that nearly identical QA accuracy can mask substantial differences in completion, answer validity, and generation workload, while proactive performance separates into response quality, response delay, false alarms (responses emitted while no target window is currently valid and a later one remains), and missed target windows. These results show that streaming-video performance should be interpreted as execution-conditioned system behavior rather than a single score. Our benchmark and code can be accessed at \\href{https://github.com/om-ai-lab/trace-bench}{https://github.com/om-ai-lab/trace-bench}.",
+  "published": "2026-09-25T01:21:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.229180+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T01:21:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30670v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.410114+00:00"
+}

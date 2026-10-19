@@ -1,0 +1,18 @@
+{
+  "id": "4a9ab424633342d4bcbd49fdd08300003cbe021f96e561d3d4cf06efbd5f8ba9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Paint Outside the Box: Synthesizing and Selecting Training Data for Visual Grounding",
+  "url": "https://arxiv.org/abs/2412.00684",
+  "summary": "arXiv:2412.00684v3 Announce Type: replace-cross Abstract: Visual grounding aims to localize the image regions based on a textual query. Given the difficulty of large-scale data curation, we investigate how to effectively learn visual grounding under data-scarce settings in this paper. To address the data scarcity, we propose a novel framework, POBF (Paint Outside the Box and Filter). POBF synthesizes images by inpainting outside the box, tackling a label misalignment issue encountered in previous works. Furthermore, POBF leverages an innovative filtering scheme to select the most effective training data. This scheme combines a hardness score and an overfitting score, balanced by a penalty term. Extensive experiments across four benchmark datasets demonstrate that POBF consistently improves performance, achieving an average gain of 5.83\\% over the real-data-only method and outperforming leading baselines by 2.29\\%-3.85\\% in accuracy. Additionally, we validate the robustness and generalizability of POBF across various generative models, training data sizes, and model architectures.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.277702+00:00"
+}

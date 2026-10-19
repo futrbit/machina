@@ -1,0 +1,21 @@
+{
+  "id": "d79ba0a1a3fda67304247a95a76ddddfd23188a7a89e82351e44a90f6fa69b15",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Distributed Relative Localization for Homogeneous Multi-Robot Systems through UWB Ranging and Limited Communications",
+  "url": "https://arxiv.org/abs/2610.11308",
+  "summary": "arXiv:2610.11308v1 Announce Type: new Abstract: Accurate and reliable relative localization is crucial for multi-robot applications like exploration, search, and rescue missions. LiDAR-based solutions offer high accuracy in localizing surrounding objects; however, distinguishing homogeneous robots with similar appearances remains challenging due to the lack of distinctive identification features. In this paper, we propose a fully distributed relative pose estimation approach by integrating LiDAR, UWB, and odometry measurements, allowing each robot to accurately and continuously localize its teammates without external infrastructure. Specifically, potential anonymous teammate robot clusters from LiDAR scans are tracked by a dynamic tracker. We then identify teammate robots from these tracked anonymous clusters using a joint matching strategy, ensuring reliable data association between robots and clusters. Finally, by combining the corresponding LiDAR observations, UWB ranging, and odometry measurements, each robot precisely localizes others while minimizing data exchange. The system requires only odometry data exchange through onboard UWB, eliminating the need for additional communication infrastructure like WiFi routers or mesh networks. Extensive simulation and real-world experiments demonstrate the effectiveness and reliability of the proposed relative localization approach.",
+  "published": "2026-10-08T06:13:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.736545+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:13:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11308v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.163852+00:00"
+}

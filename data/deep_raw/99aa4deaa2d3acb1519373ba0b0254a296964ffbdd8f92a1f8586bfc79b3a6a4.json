@@ -1,0 +1,22 @@
+{
+  "id": "99aa4deaa2d3acb1519373ba0b0254a296964ffbdd8f92a1f8586bfc79b3a6a4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Source-Learned Reliance for Selective Test-Time Adaptation of Multimodal Time Series",
+  "url": "https://arxiv.org/abs/2610.07499",
+  "summary": "arXiv:2610.07499v1 Announce Type: new Abstract: Multimodal wearable systems must remain reliable when sensor streams become noisy or unavailable. Existing multimodal test-time adaptation (TTA) methods often assess reliability online, but cross-modal agreement can be misleading when sensors measure different physical processes, and evaluating alternative modality configurations adds inference cost. We propose CARAT, which decouples model reliance from runtime corruption detection to guide omission or attenuation, amortizing reliance estimation through source training. An asymmetric modality-dropout curriculum prepares a missingness-resilient backbone for omission and derives a frozen, backbone-specific reliance proxy from windowed input-projection gradient norms. At deployment, a lightweight one-class detector flags suspect streams, and the proxy guides a joint choice between replacing the suspect set with the backbone's trained missingness symbol and attenuating its representations before fusion, without candidate-subset evaluation. Across four wearable datasets, five corruption types, three backbones, and eight TTA baselines, CARAT achieves the highest overall macro-F1 and best mean rank (2.42), exceeding EATA, the strongest baseline, by 1.58 F1 points across 12 equally weighted dataset-backbone settings. Across five profiled configurations, CARAT uses 9.49% fewer GFLOPs and updates 47.82% fewer parameters than EATA. A pattern also emerges across sensing regimes: multimodal TTA methods such as PTA are competitive on IMU-dominated homogeneous datasets, whereas unimodal TTA methods like TENT and EATA match or exceed it on heterogeneous datasets. These results position CARAT as a practical default to wearable TTA, offering competitive robustness with modest computational requirements and benefits that vary across backbones and dataset regimes.",
+  "published": "2026-10-05T23:02:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.062498+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:02:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07499v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.951582+00:00"
+}

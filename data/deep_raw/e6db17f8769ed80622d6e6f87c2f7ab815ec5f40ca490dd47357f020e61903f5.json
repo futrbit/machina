@@ -1,0 +1,18 @@
+{
+  "id": "e6db17f8769ed80622d6e6f87c2f7ab815ec5f40ca490dd47357f020e61903f5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Spectral Limits of Polynomial Graph Filters on the Long-Range Ising Model Benchmark",
+  "url": "https://arxiv.org/abs/2610.22713",
+  "summary": "arXiv:2610.22713v1 Announce Type: new Abstract: The Long-Range Ising Model benchmark (LRIM) guarantees long-range dependence by construction: each label is the node's spin times the spin field convolved with a power-law coupling, so any model's distance from the target is measurable. We prove that a readout whose filter is a polynomial in the adjacency, the linear core of isotropic message passing and spectral graph networks, leaves an error floor that no degree lowers, because the target varies along a level set of the spectrum on which every such filter is constant. Computed exactly, the floor and the best filter of each degree predict two spectral networks adapted from published architectures to within a tenth of a decade. A filter escapes the floor only if it weighs separately the offsets the adjacency lumps together, and must still resolve the coupling across the whole lattice. A strided filter of about fifty coefficients does both: fitted to the training labels, its test error is 52 times below the best published network's. A dilated convolutional network beats the best published result at 256 nodes, matches it at 1,024, and gives the first in-domain results at the three larger sizes, while a Fourier neural operator with its standard modes falls further behind as the lattice grows. At its standard budget the dilated network stays two to four orders of magnitude short of a larger strided filter fitted to the labels. The analysis carries over to the benchmark's second coupling.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.197751+00:00"
+}

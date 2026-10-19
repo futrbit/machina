@@ -1,0 +1,21 @@
+{
+  "id": "eb937811d0924bfcdfbb090b05792006c98b06c7e78b64f2c5c4395778437dde",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
+  "url": "https://arxiv.org/abs/2610.07787",
+  "summary": "arXiv:2610.07787v1 Announce Type: new Abstract: Multi-agent systems (MAS) powered by large language models have shown strong performance across code generation, mathematical reasoning, and question answering. However, existing methods for automating MAS design mostly operate at the task level, producing a single fixed workflow per benchmark that is applied uniformly to all queries. This assumption fails under realistic conditions. Query difficulty varies widely within a task, and real-world workloads mix heterogeneous task types. We introduce OOPMAS, a training-free framework that generates both the agent set and the coordination workflow at the granularity of individual queries. Agents are represented as object-oriented class definitions with dedicated roles, tools, and persistent state, and workflows are expressed as executable main functions over these agent objects. A dynamic skill library accumulates structured lessons from execution feedback across optimization rounds, enabling in-context improvement without any gradient updates or fine-tuning. On a mixed-task benchmark of queries spanning code, math, and QA, OOPMAS achieves 89.6% accuracy, outperforming the strongest baseline by 18.1 percentage points. A model-swap study across four LLM backbones shows consistent scaling, reaching 92.4% with the strongest model.",
+  "published": "2026-10-06T05:31:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.139821+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:31:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07787v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.382720+00:00"
+}

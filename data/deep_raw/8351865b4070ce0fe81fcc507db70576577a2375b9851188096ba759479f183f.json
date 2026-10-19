@@ -1,0 +1,22 @@
+{
+  "id": "8351865b4070ce0fe81fcc507db70576577a2375b9851188096ba759479f183f",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Event Cameras for Melt-Pool Monitoring in Additive Manufacturing: A Benchmark and a Cross-Machine Transfer Analysis",
+  "url": "https://arxiv.org/abs/2610.06973",
+  "summary": "arXiv:2610.06973v1 Announce Type: new Abstract: Melt-pool monitoring is central to qualifying metal additive manufacturing (AM), yet no public event-camera benchmark exists for this domain. Event cameras report per-pixel brightness changes with microsecond timing instead of reading full frames, giving the temporal resolution AM transients demand at a fraction of the data rate. We present SynAM-E (Synthetic AM Events), the first public multi-source simulated event-camera benchmark for metal-AM melt-pool monitoring: 85 physics-calibrated event shards from 15 sources across 8 institutions, with public baselines and fixed cross-machine evaluation splits. On a single-machine case study, event-spatial monitoring matches dense-frame accuracy (0.874 versus 0.863 macro-F1), and the absolute intensity that events discard adds only +0.006 under fusion. On the NIST Additive Manufacturing Metrology Testbed (AMMT) build, a near-sensor event-rate counter recovers a raw-frame-confirmed 528.7 Hz intensity oscillation at ~380 times less sensor readout than the frame stream requires. A compact 93 k-parameter spiking model runs at 15 times lower modeled inference energy for a 0.073 macro-F1 cost. Every cross-source task includes a built-in trust test against camera identity shortcuts: process-type classification passes while material classification remains confounded by camera band, a corpus-structural limitation the release documents and the trust test exposes.",
+  "published": "2026-10-03T23:01:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.509389+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T23:01:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06973v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.496857+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "d067779a699408afe4a6eae9164c325014452165bb3dfe516dcfd37d7a2f373e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "\"Deep lifts\": Neural networks can generalize even with the dumbest optimizer",
+  "url": "https://arxiv.org/abs/2610.23009",
+  "summary": "arXiv:2610.23009v1 Announce Type: new Abstract: Given a labeled dataset $\\{(x_i, y_i)\\}_{i = 1}^n$, consider drawing a parameter vector $\\hat{\\theta}$ uniformly at random from those that interpolate the data within a width-$W$ depth-$D$ ReLU architecture with continuous weights bounded within $[-M, M]$. We study the generalization properties of $\\hat{\\theta}$ in the case where the dataset can, in fact, be explained by a smaller $w$-by-$d$ ReLU network. Despite the obliviousness of the selection rule for $\\hat{\\theta}$, it adaptively generalizes at the rate $\\tilde O\\left(\\frac{wdWD}{n}\\right)$, rather than being governed by the VC dimension of the full $W$-by-$D$ hypothesis class. The reason is due to a particular inductive bias in ReLU networks: the $w$-by-$d$ parameter *witnesses* an exponential volume of $W$-by-$D$ interpolating parameters, which dwarfs the volume of poorly generalizing parameters (conditioned on interpolation). We explicitly construct this set of near-equivalent $W$-by-$D$ parameters by a proof technique called *deep lifting*, and then tie the achievable volume to stability properties of the $w$-by-$d$ witness. Examples show that these techniques allow us to convert approximation-theoretic results into generalization guarantees for nonparametric classes. We further show that generalization of uniform-random interpolators can survive label corruptions.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.225733+00:00"
+}

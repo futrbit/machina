@@ -1,0 +1,21 @@
+{
+  "id": "48f31648d69c95937718a5d16d0ba3e581e0623f086a6c0ec425aa91d1024c41",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Learning Modular Policy for Multi-Floor Object Navigation:A Factorized Framework for Diagnostic Study",
+  "url": "https://arxiv.org/abs/2610.06958",
+  "summary": "arXiv:2610.06958v1 Announce Type: new Abstract: Object-goal navigation (ObjectNav) in multi-floor scenarios presents a challenge due to sparse rewards caused by long-horizon decision-making. In this paper, we propose a diagnostic study based on a modular framework with an effective learnable policy to analyze failure factors in multi-floor scenarios. To achieve an effective policy for diagnosis, we design the hierarchical factorization policy that deconstructs a single global policy into an intra-floor exploration policy and an inter-floor switching policy. To providing an effective initialization for Reinforcement Learning (RL), the lightweight intra-floor policy is learned by distilling the exploration logic of Visual Language Models (VLMs). Under idealized assumptions, we show that the factorized policy is theoretically equivalent to a single global policy at the policy-representation level. Experiment results indicate that perception performance and stair climbing stability are the primary bottlenecks in multi-floor navigation.",
+  "published": "2026-10-03T15:45:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.451028+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T15:45:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06958v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.947790+00:00"
+}

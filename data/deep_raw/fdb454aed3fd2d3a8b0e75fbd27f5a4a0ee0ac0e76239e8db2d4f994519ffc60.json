@@ -1,0 +1,22 @@
+{
+  "id": "fdb454aed3fd2d3a8b0e75fbd27f5a4a0ee0ac0e76239e8db2d4f994519ffc60",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Memory Prediction Excess: A Probabilistic Quantity for Predictive Gain and Memory Length in Stochastic Processes",
+  "url": "https://arxiv.org/abs/2610.06894",
+  "summary": "arXiv:2610.06894v1 Announce Type: cross Abstract: A central question in the prediction of stochastic processes is the extent to which past information can improve the probability of correctly predicting the next state. We introduce the Memory Prediction Excess (MPE) to address this question quantitatively. The MPE measures the average improvement in prediction accuracy obtained by using the entire observed history relative to using only the static marginal distribution, in discrete-time finite-state processes. It is defined as the difference between the expected optimal conditional prediction accuracy and the optimal static prediction accuracy. Its basic properties are examined: the MPE is always non-negative; it admits an upper bound depending on the static accuracy, attained if and only if the future is almost surely a deterministic function of the past; and degenerate cases in which the MPE vanishes are characterized. A normalized version, taking values in the unit interval, is introduced as a dimensionless measure of predictive efficiency. A lower bound is derived by comparing predictions based on histories of different lengths, showing that the expected optimal prediction accuracy is monotone with respect to the history length. The framework is extended to finite-length histories, where the finite-history MPE (FH-MPE) measures the predictive gain attainable when only the most recent observations are retained. This leads to the notion of a minimal memory length required to achieve the same predictive performance as the full history. For finite-order Markov chains, this minimal memory length is shown to be bounded by the Markov order. The MPE and its variants are formulated in terms of conditional probabilities and prediction accuracies, offering a probabilistic perspective on the predictive utility of memory that is complementary to classical information-theoretic approaches.",
+  "published": "2026-09-28T08:52:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.084483+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-09-28T08:52:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06894v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.598590+00:00"
+}

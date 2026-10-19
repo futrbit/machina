@@ -1,0 +1,21 @@
+{
+  "id": "559e1960bee6cba0aa196a379dd4c95625e0fc0e404903992aa92311b127c2ca",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Enabling a Unified Cross-Domain Representation for Two-Finger Gripper Manipulation via Interaction-Centric Modeling",
+  "url": "https://arxiv.org/abs/2609.31207",
+  "summary": "arXiv:2609.31207v1 Announce Type: new Abstract: Achieving robust cross-embodiment generalization in imitation learning demands overcoming a critical representation flaw that inextricably entangles task semantics with hardware-specific visual geometry. We propose an interaction-centric framework that leverages the shared structure of two-finger grippers via a parameterized universal gripper abstraction, yielding a canonical gripper-frame representation. Given language and RGB-D observations, a VLM infers the subtask and grounds an interaction triplet (gripper, held, target), while SAM~2.1 tracks masks to reduce VLM queries. We design concise hybrid features that combine target/collision artificial potential fields for global guidance with segmented gripper-frame point clouds for local geometry, and use a Flow-Matching Transformer to predict smooth 7-DoF action chunks. Experiments in simulation and real-world tasks demonstrate that ours is the first imitation learning approach to simultaneously achieve competitive benchmark scores and extreme cross-embodiment/cross-viewpoint zero-shot sim-to-real transfer to completely distinct, heterogeneous robot platforms.",
+  "published": "2026-09-25T12:45:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.377650+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T12:45:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31207v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.382131+00:00"
+}

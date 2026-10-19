@@ -1,0 +1,22 @@
+{
+  "id": "4e69746e065db9de42681dfeeaeeb27996fca08e43c0ac7825b799f1ee1260f1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Do LLMs Act on What They Know? From Partner Representations to Cooperative Actions",
+  "url": "https://arxiv.org/abs/2610.08129",
+  "summary": "arXiv:2610.08129v1 Announce Type: new Abstract: Cooperation with unfamiliar partners requires adapting to communication conventions that are not known in advance. We study this problem in a controlled Hanabi-derived environment with scripted hint generation, LLM-controlled receiving decisions, and frozen model weights. Across eight LLMs, linear probes recover intent conventions substantially more accurately than target conventions, yet receiving choices do not consistently agree with the sender's convention. We compare probe-predicted and ground-truth conventions presented either as general rules or as externally computed action recommendations. Rule statements yield modest and model-dependent changes in cooperation, whereas action translation produces larger gains on average. In a Qwen3-8B case study, matched-state statement reversals reveal much greater sensitivity to action recommendations than to rule statements. Activation transfers from oracle-action and non-oracle hint-restatement donors improve intent accuracy on both action classes, but the tested alternatives do not reliably reproduce these benefits. Together, these results distinguish convention decodability, sensitivity to convention information, and cooperative performance, and highlight limitations in turning available partner information into receiving decisions.",
+  "published": "2026-10-06T10:44:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.072492+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:44:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08129v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.446489+00:00"
+}

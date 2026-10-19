@@ -1,0 +1,22 @@
+{
+  "id": "851d32e3a9f5ccc15cba8fc6267558483aa2d5e2f9fa3ebbe7940a201efcb17a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ASPIRE: Saddle-Point Discovery through Set Prediction and Physical Refinement",
+  "url": "https://arxiv.org/abs/2610.10969",
+  "summary": "arXiv:2610.10969v1 Announce Type: new Abstract: Predicting thermally activated diffusion and defect evolution with event-driven models requires identifying atomic rearrangement mechanisms and their activation barriers. Discovering the associated saddle points is a major computational bottleneck: multiple rearrangements may originate from one metastable state, while costly local searches can fail or repeatedly converge to the same saddle. To address this challenge, we introduce ASPIRE (Atomistic Saddle-Point Inference with Refinement for Events), a framework that predicts a set of saddle candidates from a single initial atomic environment and refines them through Dimer searches on the original interatomic potential. The framework's equivariant set predictor, Ev-Quiformer, integrates (i) geometry-conditioned scalar-vector event slots for generating multiple saddle-point proposals and (ii) a decoder that maps each slot to a full atomic displacement field by combining atom, slot, and anchor-relative vectors with invariant coefficients. We also contribute two datasets: (i) BCCFE4VACAV-4000, comprising 4,000 four-vacancy body-centered cubic iron configurations and 65,450 reference events grouped by initial state for set supervision and post-refinement evaluation; and (ii) BCCFE-1TO4VAC, comprising 5,372 configurations with one to four vacancies each. Theoretically, we establish conditions for proposal equivariance. Experimentally, ASPIRE achieves 77.20% reference-event coverage on this benchmark, compared with 75.73% for a conventional Dimer baseline, while requiring approximately half as many Dimer force evaluations. In a timing evaluation on 50 configurations, ASPIRE reduces wall time per configuration from 478.8 s to 176.3 s under the stated hardware settings.",
+  "published": "2026-10-07T22:41:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.079437+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:41:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10969v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.535833+00:00"
+}

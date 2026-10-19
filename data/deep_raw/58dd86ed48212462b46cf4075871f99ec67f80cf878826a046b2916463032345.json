@@ -1,0 +1,22 @@
+{
+  "id": "58dd86ed48212462b46cf4075871f99ec67f80cf878826a046b2916463032345",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Safe Prototype Is Not a Safety Direction: Reference Dependence and Prompt Confounds in Response-Safety Embeddings",
+  "url": "https://arxiv.org/abs/2610.01801",
+  "summary": "arXiv:2610.01801v1 Announce Type: new Abstract: Can response safety be scored by cosine similarity to the mean embedding of known-safe responses? A recent sleeper-agent detector proposes exactly this score, yet the raw positive-centroid rule is not identified: positive observations locate the safe class relative to an encoder origin, but do not determine which direction separates safe from unsafe responses. We audit the rule on two prompt-controlled, human-labeled corpora and one auxiliary jury-labeled source control, using four frozen encoders and prompt-grouped splits. On the human-labeled corpora the safe prototype reaches ROC-AUC 0.457-0.545, with two cells significantly below chance and one above, while an explicit safe-minus-unsafe reference reaches 0.588-0.738 on the same embeddings; on the jury control the prototype is inverted (0.358-0.405) and the reference reaches 0.754-0.793. At validation-calibrated 5% false-safe thresholds, the reference accepts more safe responses on PKU-SafeRLHF (0.153-0.263 versus 0.039-0.061 across encoders) and Aegis (0.189-0.291 versus 0.004-0.045), but not reliably on BeaverTails. A fully unlabeled held-out reference recovers part to most of the referenced ranking, much less when only 5% of the pool is unsafe, whereas 80-634 labeled unsafe responses recover most of it. Prompt-only ablations show that prompt-label composition can inflate uncontrolled evaluations. This is a bounded result about a raw positive centroid, not all one-class methods or safety-specialized guards. A class mean is a location, not necessarily a safety direction; a declared reference with enough unsafe mass identifies orientation.",
+  "published": "2026-10-01T14:44:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.797494+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T14:44:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01801v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.686345+00:00"
+}

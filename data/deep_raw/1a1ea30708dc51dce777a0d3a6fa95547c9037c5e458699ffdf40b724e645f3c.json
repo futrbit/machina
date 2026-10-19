@@ -1,0 +1,21 @@
+{
+  "id": "1a1ea30708dc51dce777a0d3a6fa95547c9037c5e458699ffdf40b724e645f3c",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Informationally Decoupled Trajectory Design for Sim-to-Real System Identification",
+  "url": "https://arxiv.org/abs/2610.10905",
+  "summary": "arXiv:2610.10905v1 Announce Type: new Abstract: Sampling-based system identification estimates physically meaningful parameters by tuning a simulator to reproduce the target system dynamics, providing an interpretable approach to improving sim-to-real transfer. Yet when the collected trajectories do not distinguish the effects of different parameters, multiple parameter combinations can reproduce those trajectories, leading to unreliable parameter estimates. To address this challenge, we introduce an Informationally Decoupled Trajectory Design framework (IDTD), which formulates the objective for the exploration policy built on the Schur complement score derived from the Fisher information matrix. To faithfully reflect parameter separability in the exploration objective, IDTD normalizes the score against the per-parameter information, selects the most favorable trajectory segment for each parameter, and aggregates the resulting scores logarithmically. The optimized trajectory is therefore composed of complementary intervals, each exposing a distinct subset of parameters whose contribution to the motion over that interval can be attributed unambiguously. Across diverse simulation environments, ranging from a linear-dynamics system to the Go2 quadruped, G1 humanoid, and Crazyflie quadrotor, IDTD reduces the parameter identification error by 39.6% on average relative to the strongest prior active-exploration baseline and attains improved downstream policy transfer. Furthermore, we validate the proposed trajectory design on a real K1 humanoid, demonstrating that the resulting identified parameters accurately capture the real-system dynamics.",
+  "published": "2026-10-07T21:02:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.733548+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T21:02:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10905v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.924801+00:00"
+}

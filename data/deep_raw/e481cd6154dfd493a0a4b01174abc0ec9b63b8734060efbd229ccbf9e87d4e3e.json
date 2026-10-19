@@ -1,0 +1,21 @@
+{
+  "id": "e481cd6154dfd493a0a4b01174abc0ec9b63b8734060efbd229ccbf9e87d4e3e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SWE-Game: Can Coding Agents Build the Games We Want?",
+  "url": "https://arxiv.org/abs/2609.33678",
+  "summary": "arXiv:2609.33678v2 Announce Type: replace Abstract: We introduce SWE-Game, a benchmark of 247 tasks grounded in 41 executable reference Godot games spanning 13 gameplay categories in 2D and 3D. Five task types cover development from a brief, implementation from a game design document, skeleton completion, repair of 83 injected-fault cases, and Godot-to-Unity porting. Reference materials specify the intended gameplay, while a shared instrumentation interface lets evaluator-owned drivers and probes execute actions and observe independently implemented games. Evaluation combines engine-state checks, certified reference-input replay, and agent-authored feature demonstrations to assess mechanic correctness, demonstrated playability, and behavioral restoration and preservation after repairs. Game-specific vision-language rubrics separately assess presentation. Across six models, Opus5 achieves the highest overall score in all five task types. Best overall scores remain below 60 out of 100 across the three construction tasks, with Brief-to-Game reaching 50.38. Analysis of reviewed submissions identifies requirement omissions and gameplay logic errors as predominant implementation problems. On human-labeled behaviors from 100 agent-built games, executable checks achieve 92.59% balanced accuracy, compared with 78.41% for a video-based VLM judge. Rubric-based visual scores reach a Spearman correlation of 0.829 with human ratings of 200 gameplay clips. Together, these results characterize current agent capabilities across game-development activities and support combining runtime evidence with visual assessment.",
+  "published": "2026-09-27T15:38:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.186791+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T14:37:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.33678v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.299770+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "192751c33337a631ef76605eda86d0972dd4483d77ede7a9fe48d3187f99c109",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Material and Defocus Cues for Occluded Object Localization in Single Hyperspectral Images: An Exploratory Study",
+  "url": "https://arxiv.org/abs/2610.23733",
+  "summary": "arXiv:2610.23733v1 Announce Type: new Abstract: Partial occlusion makes object detection difficult when visible regions have weak texture or similar appearance. Hyperspectral imaging provides material-dependent spectra and wavelength-dependent optical blur, which offer complementary evidence for separating objects. We investigate a pipeline that combines nonnegative-matrix-factorization-based material grouping, divergence-based optical cues, and graph Laplacian propagation. The propagated scores support region extraction and bounding-box localization without requiring a separate depth sensor at inference. A collection of 30 indoor and six outdoor hyperspectral scenes acquired using two camera systems provides qualitative examples spanning different materials, depth arrangements, and partial occlusions. The examples illustrate how material information can support separation when optical cues are weak, and how optical cues can distinguish some surfaces with similar material properties. Objects sharing both material and depth remain challenging. This exploratory study establishes the sensing rationale and mathematical formulation, while identifying the quantitative evaluation and implementation details needed to assess detection performance systematically.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.064079+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "4609f2aaa9cdfae0419f6323850de594861d4525c2bd7834cdf930b91655a7d8",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "When better traffic forecasts fail to improve signal control: a layered diagnostic study of forecast-to-decision value",
+  "url": "https://arxiv.org/abs/2610.06992",
+  "summary": "arXiv:2610.06992v1 Announce Type: new Abstract: Improved traffic forecasts do not necessarily yield better signal-control decisions. We investigate this gap through a layered diagnostic study using 29 days of reconstructed demand from Xuancheng, China, with seven dates reserved for testing. The framework evaluates point forecasts, conformal intervals, dependence-aware scenarios, and matched closed-loop controllers. Entry-level and movement-level forecasts reduce mean absolute error by 4.03% and 3.92%, respectively, relative to historical means. A nominal 90% conformal interval achieves 90.72% marginal coverage but only 75.66% on an ex-post high-demand subset. Interface audits identify decision-time leakage and reveal that only two of nine controlled intersections offer multiple effective actions. We correct the temporal interface and compare causal forecasts with a five-second event oracle using exhaustive joint-action search. A synthetic positive control demonstrates that future information can reduce the internal rollout cost by 61.5%. On the frozen test dates, however, causal forecasts and the event oracle increase queue vehicle?seconds by 6.09% and 3.39% relative to the matched no-future rollout, while the oracle reduces spillback exposure by 3.78%; paired-day bootstrap intervals cross zero. These findings indicate that forecast value depends on temporal observability, action identifiability, dynamics consistency, and objective alignment. The proposed protocol provides a practical way to diagnose where predictive improvements fail to translate into operational benefits.",
+  "published": "2026-10-04T07:39:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.121832+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T07:39:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06992v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.880831+00:00"
+}

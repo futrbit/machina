@@ -1,0 +1,18 @@
+{
+  "id": "8f208f829240e58acdedbf4ff5ebec17e46f3cb7af29d6b6c922495da490ec66",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Through the PRISm: Importance-Aware Scene Graphs for Semantic Image Retrieval",
+  "url": "https://arxiv.org/abs/2512.18407",
+  "summary": "arXiv:2512.18407v2 Announce Type: replace Abstract: Web-based visual search increasingly handles queries driven by semantic intent, focusing on what is happening in an image rather than merely what it looks like. While global embeddings from vision-language models capture overall appearance, they often blur fine-grained relational structure. Conversely, scene graphs make these relationships explicit, but generating them automatically for unannotated web images produces dense, noisy graphs that retain every detected entity and relation regardless of relevance. To address this, we introduce PRISm (Pruning-based Image Retrieval via Importance Prediction on Semantic Graphs), an image-to-image retrieval framework that learns to focus on what matters in a scene. PRISm employs an Importance Prediction Module, supervised by caption-derived relevance strictly during training, to score and prune non-essential objects and triplets. An Edge-Aware Contextual GNN then aggregates relation conditioned neighbor messages, fusing the refined graph with global visual features into a single, index-ready embedding per image. On PSG, PRISm outperforms the strongest baseline by points in MAP@1. Furthermore, on Flickr with machine-generated scene graphs and captions, PRISm remains best on top-1 metrics, while adding only 33,ms per query beyond scene graph generation.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.055085+00:00"
+}

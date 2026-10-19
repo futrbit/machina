@@ -1,0 +1,17 @@
+{
+  "id": "333d6b3a019015b65407a8bf3ae430ed4b12e1e57232c0edd7353c9a57a8cf8a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "SpikeQ: Spike-Guided Post-Training Quantization for Spiking Neural Networks",
+  "url": "https://arxiv.org/abs/2610.23046",
+  "summary": "arXiv:2610.23046v1 Announce Type: cross Abstract: On neuromorphic chips, spiking neural networks (SNNs) consume far less energy than artificial neural networks (ANNs), but the limited memory of these chips requires low-bit synaptic weights and membrane potentials. Existing post-training quantization (PTQ) methods provide them without retraining and, like those for ANNs, minimize numerical errors such as the mean squared error (MSE). In an SNN, however, a quantization error reaches later layers only through the spikes it flips. We find that errors of equal MSE can cause very different accuracy losses, whereas errors that flip the same fraction of spikes cause the same loss. We therefore propose SpikeQ, a spike-guided PTQ framework. For weights, we select the level of each weight by simulating the downstream neurons and minimizing their spike errors. For membrane potentials, most existing methods quantize the state after the reset, whereas neuromorphic chips compare the threshold with the membrane potential stored at a fixed bit width. We target this pre-fire quantization and build a reset-aware grid that places the threshold on a rounding boundary, so rounding never flips the spike at the current time step. We evaluate SpikeQ on seven benchmarks of image classification, semantic segmentation, and object detection. With 2-bit pre-fire membrane potentials, every existing grid collapses, whereas SpikeQ retains most of the full-precision accuracy. With both at 4 bits, the models stay within 2.59 points of full precision, shrink their memory footprint 7.8--7.9 times, and use 6.4--6.9 times less energy.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.196138+00:00"
+}

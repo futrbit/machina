@@ -1,0 +1,21 @@
+{
+  "id": "c30c0bf493a76623985c9f02026e57c1d92b107ba81ab6578142afc4e218aac5",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Discovering Global False Negatives On the Fly for Self-supervised Contrastive Learning",
+  "url": "https://arxiv.org/abs/2502.20612",
+  "summary": "arXiv:2502.20612v2 Announce Type: cross Abstract: In self-supervised contrastive learning, negative pairs are typically constructed using an anchor image and a sample drawn from the entire dataset, excluding the anchor. However, this approach can result in the creation of negative pairs with similar semantics, referred to as \"false negatives\", leading to their embeddings being falsely pushed apart. To address this issue, we introduce GloFND, an optimization-based approach that automatically learns on the fly the threshold for each anchor data to identify its false negatives during training. In contrast to previous methods for false negative discovery, our approach globally detects false negatives across the entire dataset rather than locally within the mini-batch. Moreover, its per-iteration computation cost remains independent of the dataset size. Experimental results on image and image-text data demonstrate the effectiveness of the proposed method. Our implementation is available at https://github.com/vibalcam/GloFND.",
+  "published": "2025-02-28T00:28:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.379383+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2025-06-25T21:11:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2502.20612v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.894015+00:00"
+}

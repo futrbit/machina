@@ -1,0 +1,17 @@
+{
+  "id": "14fda73746733ac931e6170b266dba5d1d4f5827af997eeb39f1fc52521797be",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Diverse Reasoning Paths Matter: Symbolic Equivalence Augmentation for Enhancing RL Exploration",
+  "url": "https://arxiv.org/abs/2610.22665",
+  "summary": "arXiv:2610.22665v1 Announce Type: cross Abstract: Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for improving the reasoning capabilities of LLMs. However, the role of supervised fine-tuning (SFT) data in enabling effective downstream RL remains underexplored. In this paper, we investigate a key hypothesis: the diversity of reasoning steps in chain-of-thought (CoT) during SFT is a critical enabler of RLVR performance. To test this hypothesis, we introduce EquivAug, a data augmentation framework that uses symbolic equivalence transformations to generate diverse yet provably correct reasoning paths. By converting CoT solutions into formal symbolic representations, applying equivalence transformations, and reconstructing natural-language explanations, EquivAug produces training data that differs in reasoning steps rather than surface-level lexical variation. Experiments on GSM8K and FOLIO across model scales demonstrate that EquivAug consistently achieves the highest reasoning path diversity after SFT and the strongest accuracy after GRPO. Our results establish that CoT diversity during SFT is positively correlated with downstream RLVR performance.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.192141+00:00"
+}

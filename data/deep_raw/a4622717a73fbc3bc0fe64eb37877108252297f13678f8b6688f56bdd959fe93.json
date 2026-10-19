@@ -1,0 +1,22 @@
+{
+  "id": "a4622717a73fbc3bc0fe64eb37877108252297f13678f8b6688f56bdd959fe93",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "LionMuon: Alternating Spectral and Sign Descent for Efficient Training",
+  "url": "https://arxiv.org/abs/2609.35297",
+  "summary": "arXiv:2609.35297v3 Announce Type: replace Abstract: Pretraining a language model takes enormous compute, and the right optimizer can save a good part of it. Muon's spectral step gives a stronger direction than a sign step, but it is expensive. Every step runs Newton-Schulz iterations on the full matrix and, in distributed training, an extra all-reduce. Sign steps, as in Lion and Signum, are cheap and stay local to each device. We propose LionMuon, which takes one Muon step every $P$ iterations and Lion steps in between, with a single dual-EMA momentum buffer shared by both. Muon's compute and communication are paid once per $P$ steps, and the optimizer state is half of AdamW's. A single-EMA variant, SignMuon, already improves on Muon. We prove complexity bounds under heavy-tailed noise in which the period sets an interpolation between Muon's and Lion's smoothness and noise constants, and which say when LionMuon is faster than both. On 124M and 355M models trained on FineWeb, LionMuon with $P=2$ and $P=5$ reaches a lower loss than Muon, AdamW, Lion and Signum at the same number of tokens. Under 4-GPU data-parallel training it reaches Muon's final loss with a third less wall-clock on PCIe, and it beats the communication-efficient Muon variants Dion and MuonBP on loss at no more exposed communication, while keeping the exact gradient. Code: https://github.com/brain-lab-research/lion-muon",
+  "published": "2026-09-28T14:39:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.121462+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:41:17Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.35297v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.283382+00:00"
+}

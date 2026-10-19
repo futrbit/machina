@@ -1,0 +1,22 @@
+{
+  "id": "a39da435f08dc4b015ab66f536c713b07c6763ec0ec6645c44818a36a77eb95a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Which LLM to pick? Online Active Model Selection for Large Language Models",
+  "url": "https://arxiv.org/abs/2610.01592",
+  "summary": "arXiv:2610.01592v1 Announce Type: cross Abstract: Large Language Models (LLMs) are increasingly applied to process streaming data, with practitioners relying on benchmarks to select the best model even though these signals only approximate real performance. While oracle annotations can provide reliable feedback, they are often costly and difficult to obtain at scale. To address this challenge, we propose ONLINE LLM PICKER, the first framework for active model selection for LLMs in online settings. Given an arbitrary stream of queries and a limited annotation budget, ONLINE LLM PICKER selects the most informative prompts for annotation to identify the best LLM among candidate models. Across multiple tasks including 10 datasets, for over 130 language models, we show that ONLINE LLM PICKER saves annotation cost by up to 71.67% while reliably identifying the best or near-best model for the stream. We also show that using the returned model for sequential generation on unannotated prompts across the stream reduces regret by up to a factor of 2.51x, indicating that ONLINE LLM PICKER can identify the best or near-best model well before processing all streaming prompts.",
+  "published": "2026-10-01T12:43:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.820479+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T12:43:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01592v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.255400+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cab26dc123c0841079b978e6169e99dcefeab34ad773c4ac4b62f3640140ffa1",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives",
+  "url": "https://arxiv.org/abs/2610.07891",
+  "summary": "arXiv:2610.07891v1 Announce Type: new Abstract: Humanoid whole-body teleoperation translates human motion into stable robot behavior in real time. Existing systems typically rely on online motion retargeting to bridge human--robot morphological differences, but this process adds latency and can produce physically infeasible targets. Meanwhile, diverse, noisy, and partial human-motion observations often fall outside the training distribution, potentially causing unstable robot behavior. We propose a retargeting-free policy that maps raw human motion directly to robot joint commands in a single forward pass, eliminating online kinematic adaptation. To improve robustness, we learn a codebook of full-body motion primitives that projects out-of-distribution observations onto plausible motion prototypes and recovers full-body motion from partial inputs. Experiments on a Unitree~G1 in simulation and on hardware, using virtual reality, optical mocap, text-to-motion generation, and monocular video inputs, show that our method outperforms baselines in latency and robustness.",
+  "published": "2026-10-06T07:39:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.460022+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:39:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07891v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.001949+00:00"
+}

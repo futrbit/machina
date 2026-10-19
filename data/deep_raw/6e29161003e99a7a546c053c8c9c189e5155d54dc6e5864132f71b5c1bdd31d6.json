@@ -1,0 +1,22 @@
+{
+  "id": "6e29161003e99a7a546c053c8c9c189e5155d54dc6e5864132f71b5c1bdd31d6",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "WorldWeave: Growing Persistent Geometric Worlds for Video Generation",
+  "url": "https://arxiv.org/abs/2609.34221",
+  "summary": "arXiv:2609.34221v2 Announce Type: replace Abstract: Despite rapid progress, world models still lack explicit, persistent structural memory, making it difficult to preserve consistent world structure during continual scene expansion and cross-view revisits. To address this limitation, we present WorldWeave, a world generation framework that decouples world-state maintenance from visual rendering. Specifically, WorldWeave combines continual elevation-map generation with agent-guided scene organization and stitching to build an expandable explicit 3D world that incrementally extends structural memory while preserving existing structure. First, its terrain module uses diffusion-based image outpainting to generate continuous metric elevation maps under neighborhood conditioning and boundary constraints. Next, an agent integrates user intent, terrain evidence, and cross-region connectivity constraints to construct scenes through hierarchical semantic planning, deterministic geometry compilation, and local revision. Finally, during visual generation, planned camera trajectories query world geometry through a read-only interface, producing depth sequences that guide video synthesis without writing the generated results back into the world state. As a result, structural memory remains independent of short-window video generation, enabling continual expansion without predefined map boundaries and providing a consistent geometric basis for observations across trajectories and repeated visits.",
+  "published": "2026-09-28T03:25:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.789025+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:39:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.34221v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.027140+00:00"
+}

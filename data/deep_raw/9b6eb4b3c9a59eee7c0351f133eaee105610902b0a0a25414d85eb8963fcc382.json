@@ -1,0 +1,22 @@
+{
+  "id": "9b6eb4b3c9a59eee7c0351f133eaee105610902b0a0a25414d85eb8963fcc382",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Universal Byte-Level Encoding: UTF-8/UTF-16 Routing to Reduce Cross-Script Token-Budget Disparities",
+  "url": "https://arxiv.org/abs/2610.01984",
+  "summary": "arXiv:2610.01984v1 Announce Type: cross Abstract: Byte-level byte-pair encoding (BBPE) tokenizers are attractive for multilingual large language models (LLMs) because they cover all Unicode text. In UTF-8-based BBPE, however, many scripts start from a higher fallback cost than English: when no learned merges can be applied, a multibyte character requires multiple byte-derived symbols. We call this worst-case pre-merge cost the encoding floor. A higher floor can increase token counts and per-request cost and shrink usable context. Changing the text encoding can reduce this gap, but a single global encoding can make already-efficient English spans more expensive in mixed-script text. We propose Universal Byte-Level Encoding (UBE), a dual-alphabet tokenizer that keeps 1-2-byte UTF-8 characters on the UTF-8 path while routing 3-4-byte UTF-8 characters through UTF-16. This lowers the encoding floor for 3-byte Basic Multilingual Plane (BMP) characters in scripts with high token premiums (token counts relative to English) without raising it for already-efficient spans in mixed-script text. UBE changes only the byte representation presented to byte-pair encoding (BPE); the merge rule remains standard, and exact decoding is preserved. UBE also composes with alternative boundary policies and morphology-based representations. In a Unicode 17 audit, UBE exactly round-trips all Unicode scalar values and all inputs in the official normalization, grapheme-break, and emoji test suites. Across intrinsic evaluations, UBE lowers dispersion in English-normalized token-count ratios, reducing cross-lingual token-budget disparity. In multilingual language model (LM) experiments, UBE matches BBPE's LM quality. In the main multilingual settings, UBE reduces token counts most for high-premium scripts and slightly lowers English token counts, yielding more usable context under fixed token budgets and faster prompt processing in content-matched benchmarks.",
+  "published": "2026-10-01T16:26:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.823477+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-02T15:53:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01984v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.987560+00:00"
+}

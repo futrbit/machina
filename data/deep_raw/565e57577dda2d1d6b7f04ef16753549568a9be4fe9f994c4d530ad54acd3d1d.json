@@ -1,0 +1,21 @@
+{
+  "id": "565e57577dda2d1d6b7f04ef16753549568a9be4fe9f994c4d530ad54acd3d1d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Calibrated Uncertainty for Informative Path Planning in Aquatic Environmental Monitoring",
+  "url": "https://arxiv.org/abs/2609.34577",
+  "summary": "arXiv:2609.34577v2 Announce Type: replace Abstract: Informative Path Planning for scalar field reconstruction uses predictive uncertainty to direct sensing vehicles toward maximally informative locations. Gaussian Processes provide this signal but their stationary isotropic kernels are misspecified for non-homogeneous phenomena such as oil spills, producing miscalibrated estimates that degrade planning. We investigate whether replacing the Gaussian Process with a well-calibrated Deep Ensemble improves path planning outcomes, and whether uncertainty quality interacts with the choice of planning algorithm. Five strategies ($\\epsilon$-Greedy, Value Greedy, Uncertainty Greedy, Monte Carlo Tree Search, and Receding Horizon Orienteering) share a common Deep Ensemble backbone trained on physics-based oil spill simulations. On held-out stochastic spill scenarios, the Deep Ensemble reduces normalised reconstruction error by $83\\%$ relative to the Gaussian Process baseline. Crucially, well-calibrated uncertainty amplifies the importance of the planning strategy: the performance gap between algorithms is negligible under miscalibrated models but becomes substantial under the ensemble, where multi-step lookahead planners outperform greedy selection by up to $32\\%$ in reconstruction error and achieve IoU above $0.85$. Monte Carlo Tree Search is the recommended planner, matching Orienteering in reconstruction quality at an order-of-magnitude lower computational cost.",
+  "published": "2026-09-28T08:23:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.186791+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T09:42:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.34577v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.616388+00:00"
+}

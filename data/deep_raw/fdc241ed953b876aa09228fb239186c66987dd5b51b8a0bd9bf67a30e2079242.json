@@ -1,0 +1,21 @@
+{
+  "id": "fdc241ed953b876aa09228fb239186c66987dd5b51b8a0bd9bf67a30e2079242",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Acoustic-to-Text KV Compression for Full-Duplex Speech Models",
+  "url": "https://arxiv.org/abs/2609.31224",
+  "summary": "arXiv:2609.31224v1 Announce Type: cross Abstract: Full-duplex speech language models continuously accumulate acoustic key-value (KV) states, making long-running interactions memory-intensive. During listening, the model can finish processing an audio unit before the next arrives; we term the remaining interval listening-time slack. We propose acoustic-to-text KV compression, which introduces a transcription side channel to convert incoming speech into compact textual memory within this interval. When the cache exceeds a target budget during inference, older acoustic states are evicted while transcripts and recent acoustic context remain. We train the side channel with LoRA using cross-entropy on transcription segments. To preserve listening and speaking behavior, we apply knowledge distillation to the original model's token-level output distributions at native prediction positions. On ten-minute LongSpeech sessions, our MiniCPM-o 4.5 implementation reduces peak streaming KV-cache size by 64.6% compared with the same model without eviction. The proposed method also improves transcription, temporal question answering, and summarization over the baseline. Full-Duplex-Bench evaluations further show comparable pause-handling, turn-taking, and interruption performance.",
+  "published": "2026-09-25T13:04:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.427022+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T13:04:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31224v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.599590+00:00"
+}

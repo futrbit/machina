@@ -1,0 +1,22 @@
+{
+  "id": "2f704096310ab8514e9fe449519a19af57fe7935b67740f8f734bcd370aafe1a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Initialization and Stopping Tolerance in CPU Dermoscopic Segmentation",
+  "url": "https://arxiv.org/abs/2609.25685",
+  "summary": "arXiv:2609.25685v2 Announce Type: replace Abstract: Contour initialization and numerical stopping can jointly affect the evaluation of active-contour segmentation. We examine their interaction using the open-source scikit-image Chan-Vese implementation on a resized ISIC 2017 mirror. A fixed development set of 100 images selects a common input channel; all 600 images in the repository's held-out partition are then evaluated. Otsu thresholding is compared with checkerboard-, disk-, and Otsu-initialized contours under default and tighter level-set tolerances. At the default tolerance, Otsu initialization increases mean image Dice from 0.6011 to 0.6660 relative to checkerboard initialization, a paired difference of 0.0649 (95% image-bootstrap interval [0.0452, 0.0860]). Otsu thresholding alone achieves 0.6897. The default disk initializer stops after one iteration on 471 images. Tightening the tolerance reduces the Otsu-seed advantage over checkerboard initialization to 0.0197, with most runs reaching the 500-iteration limit. The default-tolerance advantage also reverses between small- and large-lesion strata. These findings show that an improvement over a generic initializer can coexist with deterioration relative to the threshold baseline. Evaluations should retain the unrefined mask as a comparator and report the initial-field definition, stopping tolerance, and observed iteration counts together.",
+  "published": "2026-09-22T04:40:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.546367+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:54:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.25685v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.403120+00:00"
+}

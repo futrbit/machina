@@ -1,0 +1,22 @@
+{
+  "id": "e646588591bf1667e64d16a3e135fa34b577954560a97ee7eebfa4b994d7fd66",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Direct Regret Optimization in Bayesian Optimization",
+  "url": "https://arxiv.org/abs/2507.06529",
+  "summary": "arXiv:2507.06529v2 Announce Type: replace Abstract: Bayesian optimization (BO) is a powerful paradigm for optimizing expensive black-box functions. Traditional BO methods typically rely on separate hand-crafted acquisition functions and surrogate models for the underlying function, and often operate in a myopic manner. In this paper, we propose a novel direct regret optimization approach that jointly learns the optimal model and non-myopic acquisition by distilling from a set of candidate models and acquisitions, and explicitly targets minimizing the multi-step regret. Our framework leverages an ensemble of Gaussian Processes (GPs) with varying hyperparameters to generate simulated BO trajectories, each guided by an acquisition function drawn from a pool of conventional choices and terminated by a Bayesian early stop criterion. These trajectories train an end-to-end Decision Transformer that selects the next query so as to improve the ultimate objective, following a dense training sparse learning paradigm: the transformer is trained on abundant simulated data, while a limited number of real evaluations refine the GPs online. On synthetic and real-world benchmarks, our method attains the best or near-best final simple regret against standard, lookahead, trust-region and amortized BO baselines, with the largest gains in high-dimensional settings. Ablations attribute the gains jointly to region-of-interest filtering and the learned policy, and matched-budget comparisons against explicit two-step lookahead acquisitions show that the advantage is not shared by lookahead alone.",
+  "published": "2025-07-09T04:09:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.110468+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:00:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2507.06529v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.317759+00:00"
+}

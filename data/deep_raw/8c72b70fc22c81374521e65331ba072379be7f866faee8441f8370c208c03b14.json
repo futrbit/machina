@@ -1,0 +1,21 @@
+{
+  "id": "8c72b70fc22c81374521e65331ba072379be7f866faee8441f8370c208c03b14",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "FOCUS: From Privileged States to RGB-D with Controlled Modality Switching and Representation Alignment",
+  "url": "https://arxiv.org/abs/2610.11119",
+  "summary": "arXiv:2610.11119v1 Announce Type: new Abstract: Vision-based reinforcement learning for robotic manipulation is sample-inefficient because RGB-D observations are high-dimensional and noisy. Privileged state information available in simulation can accelerate training, but its absence at test time creates a train-test modality gap. We propose FOCUS, a single-stage PPO framework that trains the critic on privileged state while automatically regulating whether the actor collects rollouts from RGB-D or privileged-state latents. Regulation is driven by the KL divergence between the action distributions induced by the two modalities, while representation alignment encourages consistent action selection across them. Together, these mechanisms limit RGB-D rollouts when the actor's action distributions from RGB-D and privileged-state latents disagree. As they align, RGB-D exposure increases, shifting on-policy training toward the RGB-D inputs used at test time. Across five manipulation tasks, FOCUS raises average test success from 0.71 to 0.93 relative to the strongest RGB-D-at-test baseline on each task. When accounting for each method's complete training pipeline, budget-normalized training-success AUC increases from 0.47 to 0.65. On Pick-and-Place, test success rises from 0.47 to 0.86, while AUC increases from 0.12 to 0.61, a 5.0x improvement in learning efficiency over the fixed interaction budget.",
+  "published": "2026-10-08T02:45:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.734547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:45:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11119v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.698735+00:00"
+}

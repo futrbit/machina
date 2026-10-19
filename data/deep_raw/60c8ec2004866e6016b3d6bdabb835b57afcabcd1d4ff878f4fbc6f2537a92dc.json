@@ -1,0 +1,21 @@
+{
+  "id": "60c8ec2004866e6016b3d6bdabb835b57afcabcd1d4ff878f4fbc6f2537a92dc",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Arbiter: Detecting Interference in LLM Agent System Prompts",
+  "url": "https://arxiv.org/abs/2603.08993",
+  "summary": "arXiv:2603.08993v2 Announce Type: replace-cross Abstract: System prompts for LLM-based coding agents are software artifacts that govern agent behavior, yet lack the testing infrastructure applied to conventional software. We present Arbiter, a framework combining formal evaluation rules with multi-model LLM scouring to detect interference patterns in system prompts. Applied to three major coding agent system prompts: Claude Code (Anthropic), Codex CLI (OpenAI), and Gemini CLI (Google), we identify 152 findings across the undirected scouring phase and 21 hand-labeled interference patterns in directed analysis of one vendor. We show that prompt architecture (monolithic, flat, modular) strongly correlates with observed failure class but not with severity, and that multi-model evaluation discovers categorically different vulnerability classes than single-model analysis. One scourer finding was structural data loss in Gemini CLI's memory system was consistent with an issue filed and patched by Google, which addressed the symptom without addressing the schema-level root cause identified by the scourer. Total cost of cross-vendor analysis: \\$0.27 USD.",
+  "published": "2026-03-09T22:29:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.418358+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T23:03:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.08993v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.816266+00:00"
+}

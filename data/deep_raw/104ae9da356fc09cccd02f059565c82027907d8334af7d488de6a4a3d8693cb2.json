@@ -1,0 +1,22 @@
+{
+  "id": "104ae9da356fc09cccd02f059565c82027907d8334af7d488de6a4a3d8693cb2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "High-Dimensional Statistical Inference for Sparse Support Vector Machines",
+  "url": "https://arxiv.org/abs/2610.08345",
+  "summary": "arXiv:2610.08345v1 Announce Type: cross Abstract: Using a replica-symmetric high-dimensional characterization, we develop an inferential framework for sparse support vector machines when the sample size and number of features grow proportionally. The main challenge is the nonsmooth hinge loss, which prevents direct application of debiasing arguments developed for smooth classification losses. We overcome this difficulty by representing the $L_1$-penalized support vector machine (SVM) as a linear program and identifying the hinge-loss subgradient through its dual variables. This yields a computationally accessible debiased estimator whose coordinates are asymptotically Gaussian under the proportional asymptotic regime. The resulting distributional characterization provides confidence intervals and hypothesis tests for individual features and enables false-discovery-rate-controlled variable selection. Extensive simulations examine calibration, power, and variable-selection performance under a range of covariance structures, including strongly correlated designs. An analysis of high-dimensional breast cancer gene-expression data illustrates how the proposed inference can distinguish statistically significant features from variables selected by the original sparse SVM.",
+  "published": "2026-10-06T13:40:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.105471+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:40:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08345v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.681947+00:00"
+}

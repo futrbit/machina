@@ -1,0 +1,21 @@
+{
+  "id": "f2902cac552e069dacd0b564a8fd742daa0ffafd34fc9019bdf49e0d30abc163",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Diverse Motion Customization via Control-based Dynamic Optimization",
+  "url": "https://arxiv.org/abs/2610.07911",
+  "summary": "arXiv:2610.07911v1 Announce Type: cross Abstract: Despite recent advances in video generation, motion customization remains challenging due to content leakage, where appearance attributes from the reference video unintentionally propagate into the generated output. We identify this issue as a consequence of the generative process collapsing toward the reference video, which arises from formulating the learning objective as a direct regression on the reference. To address this, we propose Control-based Motion Customization (CMC), a principled training framework that is structurally robust to content leakage. Our key idea is to steer generative dynamics toward desired motion while avoiding collapse toward the reference video, which we formalize using Stochastic Optimal Control (SOC). Under this formulation, customized videos acquire the target motion yet remain within the pre-trained model's prompt-conditional distribution, where appearance is determined by the text prompt rather than the reference video. Furthermore, to improve efficiency, we tailor the SOC formulation to motion customization by eliminating the need for an explicit reward and introducing a timestep-adaptive motion cost that focuses only on early generative stages, accelerating training by 2.5 times. Extensive experiments demonstrate that CMC effectively mitigates content leakage and achieves competitive motion fidelity while preserving the diversity of the base model across diverse scenarios.",
+  "published": "2026-10-06T07:55:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.170802+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T03:48:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07911v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.315172+00:00"
+}

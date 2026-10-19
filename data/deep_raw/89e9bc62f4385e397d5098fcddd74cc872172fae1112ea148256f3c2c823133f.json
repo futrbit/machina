@@ -1,0 +1,22 @@
+{
+  "id": "89e9bc62f4385e397d5098fcddd74cc872172fae1112ea148256f3c2c823133f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning to Predict Distributions over Weight Updates for Test-Time Adaptation",
+  "url": "https://arxiv.org/abs/2610.01934",
+  "summary": "arXiv:2610.01934v1 Announce Type: new Abstract: Hypernetworks have recently shown success in dynamically adapting the parameters of Large Language Models (LLMs) at runtime based on signals such as task descriptions or additional demostrations. Here we ask: how much adaptation signal can be obtained using only the input query to an LLM?. To answer this, we study query-conditioned Hypernetworks for LoRA estimation. Further, we introduce distributional Hypernetworks, able to produce not only point estimates of parameter adaptors, but also a distribution over possible LoRAs. For this we propose a simple end-to-end loss using a differentiable Monte Carlo approximation and explore multiple distribution parametrizations including regression and convex combination variants. Results show that even using the mean of the learned distribution can outperform deterministic hypernetworks. Crucially, the learned distribution enables a different form of test-time scaling: instead of spending additional compute only by sampling more token sequences from a fixed model, we sample weight updates, yielding multiple adapted models for the same query. Performance improves as more weight samples are considered and remains stronger than corresponding token-sampling adaptation baselines. Finally, we find that generated updates can transfer across queries, suggesting that the hypernetwork learns reusable structure in how the model should adapt. Together, these results show that query-conditioned distributions over weight updates can support both adaptation and test-time scaling.",
+  "published": "2026-10-01T16:05:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.799492+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:05:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01934v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.647765+00:00"
+}

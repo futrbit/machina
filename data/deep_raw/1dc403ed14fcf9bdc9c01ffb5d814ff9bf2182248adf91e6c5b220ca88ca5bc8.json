@@ -1,0 +1,21 @@
+{
+  "id": "1dc403ed14fcf9bdc9c01ffb5d814ff9bf2182248adf91e6c5b220ca88ca5bc8",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Cross-Embodiment Robot Foundation World Models with Latent Actions",
+  "url": "https://arxiv.org/abs/2610.10846",
+  "summary": "arXiv:2610.10846v1 Announce Type: new Abstract: The diversity of robot embodiments and action spaces makes it challenging to build robot world models that generalize across different embodiments. We introduce the Latent Action-Conditioned Robot World Model (LAC-WM), which operates within a learned unified latent action space shared across diverse embodiments. This unified action space improves the world model's performance when adapted to previously unseen robot embodiments. We compare LAC-WM with an Explicit Action-Conditioned World Model (EAC-WM), which conditions on explicit motion labels. Our results show that explicit action conditioning leads to disjoint action representations across embodiments, limiting downstream performance when adapting to new robots. We evaluate both models on dexterous manipulation tasks and a modified LIBERO benchmark. LAC-WM improves downstream performance over EAC-WM by up to 46.7% on dexterous manipulation and 11.7% on LIBERO. Crucially, the unified latent action space allows LAC-WM's downstream performance to scale positively with the number of embodiments used during pretraining. In contrast, the disjoint action space in EAC-WM leads to decreased performance as the number of pretraining embodiments increases. These results highlight the importance of a unified action space for efficient cross-embodiment learning, addressing a key challenge in robotics. Project website: https://lacwm.github.io/",
+  "published": "2026-10-07T19:51:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.732547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:51:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10846v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.003359+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "e0743c27bfb813aae81a44f290e539eaa8d90d25961dd4610637a4e7c233c258",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "S$^3$Geo: Structure-Semantic Synergistic Learning for Cross-View Geo-Localization",
+  "url": "https://arxiv.org/abs/2610.11608",
+  "summary": "arXiv:2610.11608v1 Announce Type: new Abstract: Cross-view geo-localization (CVGL) aims to estimate geographic locations by matching images captured from different viewpoints, such as drone and satellite views. Existing methods mainly rely on visual representations, but often fail to jointly model fine-grained structural correspondences and semantic priors, making them prone to confusion between visually similar but semantically different regions, and thus limiting robustness under large viewpoint variations. To address these challenges, we propose \\textbf{S$^3$Geo}, a structure-semantic synergistic learning framework for cross-view matching. Specifically, we first introduce a Decoupled Query Pooling (DQP) module to extract a compact set of region-aware features from dense tokens, enabling explicit modeling of local structural patterns. We then design a query-level contrastive learning scheme with an optimal transport (OT)-based formulation to establish soft correspondences under cross-view spatial misalignment. Furthermore, we incorporate a Semantic Knowledge Distillation (SKD) strategy from a frozen CLIP teacher to transfer semantic priors and relational structures, thereby improving discrimination on hard negatives. By operating synergistically, the semantic priors provide robust contextual filtering, which guides the structural module to establish precise spatial alignments. Experiments on the University-1652 and SUES-200 datasets demonstrate that \\textbf{S$^3$Geo} consistently outperforms state-of-the-art approaches without increasing inference complexity, validating the effectiveness of jointly modeling structural and semantic information for CVGL.",
+  "published": "2026-10-08T09:51:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.749050+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:51:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11608v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.249800+00:00"
+}

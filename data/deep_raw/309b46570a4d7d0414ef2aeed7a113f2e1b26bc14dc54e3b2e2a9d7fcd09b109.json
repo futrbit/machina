@@ -1,0 +1,22 @@
+{
+  "id": "309b46570a4d7d0414ef2aeed7a113f2e1b26bc14dc54e3b2e2a9d7fcd09b109",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
+  "url": "https://arxiv.org/abs/2610.02191",
+  "summary": "arXiv:2610.02191v1 Announce Type: new Abstract: While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical understanding underlying their solutions. In this paper, we take a first step toward systematically studying mathematical understanding in LLMs, from diagnosing its distinct capabilities to leveraging these findings to improve post-training. First, we introduce the notion of Mathematical Primitive to probe structural mathematical understanding and propose \\hlei{}, a novel benchmark that evaluates mathematical reasoning along four distinct dimensions: Discovery, Generation, Digestion, and Execution. Second, our systematic diagnosis shows that solution accuracy masks distinct capability profiles, primitives unlock substantial latent execution capacity, and Discovery is the dominant bottleneck in mathematical reasoning. Our post-training analysis further shows that discovery-limited failures are particularly amenable to repair. Finally, building on these findings, we introduce \\abs{}, a primitive-privileged self-distillation framework that selectively transfers primitive-guided reasoning into the student model. Extensive experiments demonstrate that \\abs{} consistently improves mathematical reasoning over baselines across model scales and challenging benchmarks.",
+  "published": "2026-10-01T17:59:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.803490+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:59:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.02191v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.428103+00:00"
+}

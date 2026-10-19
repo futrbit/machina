@@ -1,0 +1,21 @@
+{
+  "id": "953e6be8ac1985502e222e8fa1d62b9c56f4e979a7637bebf1b88248db9d639d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Modeling Time-Dependent Responses of Optical Compressors with Selective State Space Models",
+  "url": "https://arxiv.org/abs/2408.12549",
+  "summary": "arXiv:2408.12549v4 Announce Type: replace-cross Abstract: This paper presents a method for modeling optical dynamic range compressors using deep neural networks with Selective State Space models. The proposed approach surpasses previous methods based on recurrent layers by employing a Selective State Space block to encode the input audio. It features a refined technique integrating Feature-wise Linear Modulation and Gated Linear Units to adjust the network dynamically, conditioning the compression's attack and release phases according to external parameters. The proposed architecture is well-suited for low-latency and real-time applications, crucial in live audio processing. The method has been validated on the analog optical compressors TubeTech CL 1B and Teletronix LA-2A, which possess distinct characteristics. Evaluation is performed using quantitative metrics and subjective listening tests, comparing the proposed method with other state-of-the-art models. Results show that our black-box modeling methods outperform all others, achieving accurate emulation of the compression process for both seen and unseen settings during training. We further show a correlation between this accuracy and the sampling density of the control parameters in the dataset and identify settings with fast attack and slow release as the most challenging to emulate.",
+  "published": "2024-08-22T17:03:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.190789+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:39:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2408.12549v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.848645+00:00"
+}

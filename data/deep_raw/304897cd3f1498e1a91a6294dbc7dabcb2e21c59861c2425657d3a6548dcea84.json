@@ -1,0 +1,22 @@
+{
+  "id": "304897cd3f1498e1a91a6294dbc7dabcb2e21c59861c2425657d3a6548dcea84",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SPLIT-RL: Staged Perception-Language Reasoning Training with Claim-Level Advantages",
+  "url": "https://arxiv.org/abs/2610.10889",
+  "summary": "arXiv:2610.10889v1 Announce Type: new Abstract: Vision-Language (VL) reasoning requires a model to both extract relevant and accurate information from an image (visual reasoning, VR), and to infer the answer from it (language reasoning, LR). Reinforcement learning with verifiable rewards typically trains both through a single chain-of-thought with a final-answer reward. This gives every CoT token the same sequence-level advantage, failing to distinguish capability specific errors. We propose SPLIT-RL, a staged post-training approach that trains VR and LR in disjoint phases. Because a group's rollouts differ along one capability at a time, the group-relative advantage isolates it, and each phase is optimized using phase-specific reward. We further introduce Claim-Level Advantage (CLA-GRPO), which decomposes VR-phase rollouts into atomic visual claims and provides a fine-grained advantage at claim level based on visual-type group formation. Although trained in two phases, trained policy is evaluated like GRPO model, with a single CoT call at inference time. Under this protocol, SPLIT-RL improves average accuracy over GRPO by 1.4-6.1 points across Qwen3-VL models from 2B to 30B-A3B and InternVL3.5-8B. Evaluating each capability using an oracle based diagnostic shows that answer-only GRPO leaves perception unchanged, whereas SPLIT-RL improves both VR and LR.",
+  "published": "2026-10-07T20:42:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.736057+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:42:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10889v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.422107+00:00"
+}

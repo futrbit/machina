@@ -1,0 +1,22 @@
+{
+  "id": "c20cfdd3b986532cb6e7581b68ea71ed6a2b6b8b57e2afe20bc97708719295fc",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Robust Evidential Learning Through Latent Consistency",
+  "url": "https://arxiv.org/abs/2610.01384",
+  "summary": "arXiv:2610.01384v1 Announce Type: new Abstract: Reliable uncertainty quantification is essential for deploying deep learning models in high-stakes settings, where out-of-distribution and adversarial inputs can induce confident but unreliable predictions. Evidential Deep Learning provides efficient uncertainty estimates in a single forward pass, but can still assign high evidential strength to inputs that are poorly supported by the learned representation, such as adversarial inputs. We introduce CLEAR, a lightweight, task-agnostic post-hoc method that improves evidential robustness without retraining or altering the base prediction. Using held-out calibration data, CLEAR characterises the group-conditioned geometry of the model's latent space. At inference, it efficiently generates perturbation views directly in the latent space and measures their conflict relative to the calibrated geometry of the predicted group. High latent conflict indicates unsupported evidence, which CLEAR uses to selectively reduce evidential strength while retaining evidence for latent-consistent inputs. On ImageNet$\\rightarrow$CUB, CLEAR improves OOD and adversarial AUROC by $+8.29$ and $+5.01$ while running 17.4$\\times$ faster than competing post-hoc methods while preserving predictive performance across classification, regression, and object detection benchmarks.",
+  "published": "2026-10-01T09:50:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.790498+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T09:50:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01384v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.885021+00:00"
+}

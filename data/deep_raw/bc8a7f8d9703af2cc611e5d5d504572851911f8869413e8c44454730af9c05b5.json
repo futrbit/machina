@@ -1,0 +1,21 @@
+{
+  "id": "bc8a7f8d9703af2cc611e5d5d504572851911f8869413e8c44454730af9c05b5",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "GeoAlign: Beyond Semantics with State-Guided Spatial Alignment in VLA Models",
+  "url": "https://arxiv.org/abs/2606.03240",
+  "summary": "arXiv:2606.03240v2 Announce Type: replace Abstract: Current Vision-Language-Action (VLA) models often optimize for semantic grounding, whereas executable manipulation requires geometry-aware spatial alignment. We introduce GeoAlign, a state-guided spatial alignment architecture for VLA policy learning. Offline robot-domain RGB-D supervision post-trains an RGB geometry branch to produce Geometry-Enhanced Post-Trained (GEP) features; the depth head is then discarded, so policy training and rollout use RGB, language, and proprioceptive state. State-generated queries attend to the GEP grid to produce eight compact geometry tokens for action prediction. GeoAlign achieves 99.0% on LIBERO, 85.3% across three SimplerEnv-Fractal task families, and 78.8% on eight real-world ALOHA tasks, with ablations supporting the combined recipe of geometry post-training and state-guided querying on Isaac-GR00T N1.6-3B. Project website: https://chenyizhi123.github.io/geoalign-project/.",
+  "published": "2026-06-02T07:01:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.483009+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:58:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.03240v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.812064+00:00"
+}

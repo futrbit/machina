@@ -1,0 +1,21 @@
+{
+  "id": "f5ed72cf79d7d1a8fdda27757d76cab5f9d27eecb34ccdaa2b05d3002d27dae2",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Multi2AV-Safety: Benchmarking Safety in Multimodal-to-Audio-Video Generation",
+  "url": "https://arxiv.org/abs/2608.26535",
+  "summary": "arXiv:2608.26535v2 Announce Type: replace Abstract: Recent audio-video generators increasingly support joint conditioning on text, images, audio, and video. These capabilities also enable attacks that exploit cross-modal interactions or obscure harmful intent to bypass safeguards and induce harmful audio-video outputs. However, existing generation-safety benchmarks have not kept pace with these advances, providing limited coverage of multimodal input combinations and obscured attack intents. To address these gaps, we introduce Multi2AV-Safety, the first full-coverage red-team benchmark for multimodal-to-audio-video generation, comprising 11,024 attack instances across all 11 non-singleton T/I/A/V conditioning configurations, 4 attack-intent categories, and 5 harm categories. Our evaluation of recent state-of-the-art models, including four multimodal-conditioned audio-video generators and eight safety guards, reveals substantial vulnerabilities in both generation and safeguarding, with multimodal compositional risk and obscured attack-intent risk emerging as two complementary challenges. Guided by these findings, we introduce PerceptGuard, an omni-modal guard integrating compositional-risk and attack-intent supervision through structured risk perception learning. By jointly training rationale generation and safety classification, it learns shared risk representations that enable a safety head to make efficient predictions at inference without rationale decoding, while retaining the ability to generate explanations on demand. Across 34 safety benchmarks, PerceptGuard combines SOTA multimodal safety detection with highly competitive unimodal performance, strengthening input-side safeguards against multimodal attacks on omni models. In particular, it improves safeguarding against the above risks, achieving an overall recall of 86.06\\% on Multi2AV-Safety and outperforming GuardReasoner-Omni by 14.56\\%.",
+  "published": "2026-08-27T02:12:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.408365+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:54:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.26535v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.508644+00:00"
+}

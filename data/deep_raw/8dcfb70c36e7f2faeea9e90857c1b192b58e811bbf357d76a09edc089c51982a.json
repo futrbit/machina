@@ -1,0 +1,22 @@
+{
+  "id": "8dcfb70c36e7f2faeea9e90857c1b192b58e811bbf357d76a09edc089c51982a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Auto-Formalizing Neuro-Symbolic Predictors",
+  "url": "https://arxiv.org/abs/2610.01519",
+  "summary": "arXiv:2610.01519v1 Announce Type: new Abstract: Neuro-Symbolic (NeSy) predictors incorporate prior knowledge into the prediction process of neural networks, ensuring that outputs satisfy specified constraints, making them particularly suitable for high-stakes applications where compliance with domain knowledge is essential. A key bottleneck in this paradigm is the acquisition of symbolic constraints: encoding domain knowledge into logical formulas remains a manual and expert-intensive process. In this work, we investigate the extent to which auto-formalization via LLMs can systematically translate textual knowledge into symbolic knowledge that can be plugged into NeSy predictors. To this end, we introduce auto-nesy-bench, a new benchmark for evaluating constraint formalization and its impact on downstream accuracy of NeSy predictors. Through an extensive evaluation across several domains, we find that LLMs can formalize constraints to a meaningful extent, generating formulas that are often similar to those provided by human experts. Moreover, when the generated formulas are syntactically valid, they can lead to high-quality downstream predictions. The code and benchmark are available at https://unitn-sml.github.io/auto-nesy-bench/.",
+  "published": "2026-10-01T11:53:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.792497+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T11:53:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01519v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.713726+00:00"
+}

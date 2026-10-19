@@ -1,0 +1,21 @@
+{
+  "id": "60d8b5cf574b2d9f6bb6b9a2060bdbb1b2ba3cc04c27feb39b97e16ea33e24fa",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Measurement and Potential Field-Based Patient Modeling for Model-Mediated Tele-ultrasound",
+  "url": "https://arxiv.org/abs/2509.15325",
+  "summary": "arXiv:2509.15325v2 Announce Type: replace Abstract: Teleoperated ultrasound can improve diagnostic medical imaging access for remote communities. Having accurate force feedback is important for enabling sonographers to apply the appropriate probe contact force to optimize ultrasound image quality. However, large time delays in communication make direct force feedback impractical. Prior work investigated using point cloud-based model-mediated teleoperation and internal potential field models to estimate contact forces and torques. We expand on this by introducing a method to update the internal potential field model of the patient with measured positions, forces and torques for more transparent model-mediated tele-ultrasound. We first generate a point cloud model of the patient's surface and transmit this to the sonographer in a compact data structure. This is converted to a static voxelized volume where each voxel contains a potential field value. These values determine the forces and torques, which are rendered based on overlap between the voxelized volume and a point shell model of the ultrasound transducer. We solve for the potential field using a convex quadratic that combines the spatial Laplace operator with measured forces and torques. This was evaluated on volunteers ($n=4$) by assessing the accuracy of rendered forces and torques. Results showed the addition of measurements to the model reduced the force magnitude RMSE by an average of 7.42~N, the force vector angle error by an average of 3.71$^{\\circ}$, and the torque vector angle error by an average of 64.0$^{\\circ}$ compared to using only Laplace's equation.",
+  "published": "2025-09-18T18:13:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.381351+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T22:44:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2509.15325v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.818265+00:00"
+}

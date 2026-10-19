@@ -1,0 +1,22 @@
+{
+  "id": "ed4c643fbe3ecade66c34418dd4374e6ca1bb6e2803dbe5a3f06882fb9c23089",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Adapting Visualization Techniques for Time-Series Anomaly Detection: From Convolutional Neural Networks to Convolutional-Recurrent Neural Networks",
+  "url": "https://arxiv.org/abs/2411.04707",
+  "summary": "arXiv:2411.04707v4 Announce Type: replace Abstract: Deep neural networks achieve strong performance on complex tasks but are often regarded as \"black boxes,\" which limits their adoption in domains where transparency is essential. This lack of interpretability raises ethical and legal concerns, particularly in sensitive applications such as security, where automated decisions can have serious consequences. The General Data Protection Regulation (GDPR) reinforces the need to justify decisions made by these systems. In this work, we investigate visualization techniques to improve the interpretability of anomaly detection models based on convolutional recurrent neural networks (CNN+RNN) with a TimeDistributed layer. Our architecture combines Visual Geometry Group 19 (VGG19) for feature extraction with a Gated Recurrent Unit (GRU) for sequential analysis of real-time video data. While this design is well suited for temporal inputs, the TimeDistributed layer complicates gradient propagation and weakens the link between spatial and temporal information, reducing the effectiveness of standard visualization methods. To address this challenge, we adapt techniques such as saliency maps and Gradient-weighted Class Activation Mapping (Grad-CAM) to models that incorporate a temporal dimension. Although dedicated visualization methods for such architectures remain limited, our study highlights both the difficulties and the potential of applying tools originally designed for static images to recurrent convolutional networks handling video sequences. This approach extends classical interpretation strategies to temporal models and provides an intermediate solution until more specialized methods are developed.",
+  "published": "2024-11-07T13:45:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.232395+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T14:02:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2411.04707v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.395712+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3444a5cf00a556a09cc3815173bb44d2ac81db20026662716cc1cd24bb6fb8d9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Kernelized Activation Steering",
+  "url": "https://arxiv.org/abs/2610.01062",
+  "summary": "arXiv:2610.01062v1 Announce Type: new Abstract: Activation steering provides a simple, training-free mechanism for controlling attributes of generative models such as sentiment, style, and helpfulness. However, standard approaches such as Difference-in-Means apply a single input-independent steering vector across all activations, limiting expressivity and ignoring the local geometry of the activation space. We propose Kernelized Activation Steering (KAS), a unifying framework that lifts activation steering into a reproducing kernel Hilbert space. KAS formulates steering as an optimization problem expressed purely via kernel evaluations, yielding an implicit, activation-dependent steering score without constructing explicit feature maps. Unlike DiM, KAS induces locally adaptive steering: each activation is modified according to its relative position with respect to source and target reference sets, producing a nonlinear steering field over the representation space. Importantly, DiM is recovered as a special case under a linear kernel, while richer kernels enable geometry-aware interventions. Across standard activation steering tasks, including jailbreaking LLMs and image style control, KAS outperforms or is on par with the existing methods.",
+  "published": "2026-10-01T05:00:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.785501+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-03T07:02:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01062v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.572017+00:00"
+}

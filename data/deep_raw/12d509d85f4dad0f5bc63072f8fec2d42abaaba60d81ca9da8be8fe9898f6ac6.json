@@ -1,0 +1,22 @@
+{
+  "id": "12d509d85f4dad0f5bc63072f8fec2d42abaaba60d81ca9da8be8fe9898f6ac6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reshape and Recur: Improving SSMs with Input Reshaping and Depth Recurrence",
+  "url": "https://arxiv.org/abs/2605.16048",
+  "summary": "arXiv:2605.16048v2 Announce Type: replace Abstract: State Space Models (SSMs) are increasingly deployed in the Edge because they offer, at comparable performance, a smaller memory/training/inference footprint, compared to Large Language Models (LLMs). These three advantages are a direct consequence of the time recurrence inherent in the SSMs architecture. Here, we further improve this recurrent architecture by positively answering two previously underexplored, orthogonal questions: (1) Can we reduce SSMs memory-footprint without any performance penalty, by also employing depth recurrence? (2) Can we increase SSMs performance by using a fixed and consistent time-granularity across all tasks? The first question is somewhat unexpected, given that SSMs are already recurrent. However, the orthogonal depth recurrence further decreases SSMs memory footprint. We show that a looped SSM with $k$ parameters adaptively iterated $M$ times, achieves a performance comparable to a standard SSM with $k \\cdot L$ independent parameters, where $M \\leq L$. The second question is also unexpected given the time-recurrent nature of the SSMs architecture. However, it makes perfect sense for the time-parallel training of SSMs on the entire input sequence. We show that concatenating time steps for lower-dimensional sequence elements, or flattening and re-chunking the joint feature-time dimension for high-dimensional ones, can improve the baseline by enhancing the way information is presented to the model. Our results for both extensions lead to consistent benefits across four representative SSM architectures: LRU, S5, LinOSS, LrcSSM.",
+  "published": "2026-05-15T15:18:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.831473+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T12:17:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.16048v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.743909+00:00"
+}

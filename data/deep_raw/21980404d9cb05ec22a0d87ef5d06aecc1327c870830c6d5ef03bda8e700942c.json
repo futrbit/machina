@@ -1,0 +1,22 @@
+{
+  "id": "21980404d9cb05ec22a0d87ef5d06aecc1327c870830c6d5ef03bda8e700942c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Detecting Multi-Agent Collusion Through Multi-Agent Interpretability",
+  "url": "https://arxiv.org/abs/2604.01151",
+  "summary": "arXiv:2604.01151v3 Announce Type: replace-cross Abstract: As LLM agents are increasingly deployed in multi-agent systems, they introduce risks of covert coordination that may evade standard forms of human oversight. While linear probes on model activations have shown promise for detecting deception in single-agent settings, collusion is inherently a multi-agent phenomenon, and the use of internal representations for detecting collusion between agents remains unexplored. We introduce NARCBench, a benchmark for evaluating collusion detection under environment distribution shift, and propose five probing techniques that aggregate per-agent deception scores to classify scenarios at the group level, evaluated across four open-weight models (Qwen3-32B, Llama-3.1-70B, DeepSeek-R1 32B, GPT-OSS-20B) and six probe architectures. We frame this as a distributed anomaly detection problem, identifying three collusion signatures that map onto distinct anomaly types and detection paradigms. Every model reaches 1.00 AUROC in-distribution; on our strongest model (Llama-3.1-70B), our five probing techniques achieve 0.73 to 0.93 AUROC when transferred zero-shot to structurally different multi-agent scenarios and 0.99 to 1.00 on a steganographic blackjack card-counting task, with detection performance scaling with model capability. We find that no single probing technique dominates across all collusion types, consistent with the framework's prediction that different anomaly types require different detection paradigms. This work takes a step toward multi-agent interpretability: extending white-box inspection from single models to multi-agent contexts, where detection requires aggregating signals across agents. These results suggest that model internals provide a complementary signal to text-level monitoring for detecting multi-agent collusion. Code and data available at https://github.com/aaronrose227/narcbench.",
+  "published": "2026-04-01T17:08:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.842466+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:58:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.01151v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.154269+00:00"
+}

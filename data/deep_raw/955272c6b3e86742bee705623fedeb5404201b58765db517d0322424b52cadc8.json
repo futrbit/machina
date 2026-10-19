@@ -1,0 +1,22 @@
+{
+  "id": "955272c6b3e86742bee705623fedeb5404201b58765db517d0322424b52cadc8",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification",
+  "url": "https://arxiv.org/abs/2604.24201",
+  "summary": "arXiv:2604.24201v2 Announce Type: replace Abstract: Motivation: Multi-omics integration can improve cancer subtyping, but modality informativeness and noise vary across cancer types and patients. Most graph methods for multi-omics data learn modality contributions within the downstream classification objective, leaving predictive reliability for each patient implicit. As a result, uninformative modalities can weaken the fused representation, while unreliable omics can introduce noisy patient relationships into graph propagation. To address these two problems, we propose CMGL, which produces a separate reliability estimate before fusion and uses consensus patient neighborhoods for graph classification. Results: CMGL estimates modality confidence for each patient through evidential deep learning, fixes these values during fusion across omics, and performs classification on an independently specified consistency graph. On four MLOmics cancer-subtype tasks and the 32-class pan-cancer task, CMGL consistently improves over the strongest baseline, surpassing it by 4.03% in average accuracy on the four single-cancer tasks. Its representations recover the PAM50 intrinsic subtypes of breast invasive carcinoma (BRCA), and the model trained on BRCA transfers without fine tuning to kidney renal clear cell carcinoma (KIRC), stratifying patients into prognostically distinct groups.",
+  "published": "2026-04-27T09:02:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.124409+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:24:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.24201v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.851642+00:00"
+}

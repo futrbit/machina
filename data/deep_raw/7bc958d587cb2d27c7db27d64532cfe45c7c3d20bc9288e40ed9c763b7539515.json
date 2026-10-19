@@ -1,0 +1,18 @@
+{
+  "id": "7bc958d587cb2d27c7db27d64532cfe45c7c3d20bc9288e40ed9c763b7539515",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "One Communicator, Three Vendors: Extending the MoA Predictive Theory to a Real NVIDIA+AMD+CPU MPI Ensemble",
+  "url": "https://arxiv.org/abs/2610.22769",
+  "summary": "arXiv:2610.22769v1 Announce Type: cross Abstract: The companion MPI-extension paper validated the first communication-bearing machine-shape ensemble: four NVIDIA A100 ranks and four CPU ranks on one NCSA Delta node under one Open MPI job, reassembled by MPI_Gatherv. This paper extends it to a multi-vendor communicator. A Slurm heterogeneous job spanning Delta's A100 and AMD MI100 partitions places A100, MI100 and CPU ranks (nine in all) under one communicator for the first time. We give the theory (a w_i proportional to 1/t_i weight split for three concurrent realizations; a het-job specification as an admissible directive) and report real results, including what the run exposed: the 1/t split assumes time linear in rows, and this fails for the MI100 rank (6 rows took 597 ms against a linear prediction of 1.6 ms). A launch-geometry model, with predictions recorded before measuring, succeeds for the A100 (time flat from 128 to 3456 rows, stepping at exactly 3520 and 6976) and places the MI100 floor in the key loop; changing its launch settings cut about 600 ms to 14.6 ms and the energy per call at 6 rows by 32x, though the MI100 remains about 95x slower than an A100 at 8192 rows. Controlled reruns show that the companion paper's 8.1x A100 result and 22 ms Gatherv were artifacts of four ranks sharing one GPU under Open MPI's default transport. A key/value-split partition whose message sizes are derived from shapes alone is then run: the ring Allreduce of the 8.5 MB message took 11.3, 16.0 and 15.3 ms against a predicted 11-12 ms, the small Allreduce missed its prediction in every run, and compute times reproduce to about 1% while communication times vary up to 4x between runs. Each idea is introduced with a figure and closed with worked examples.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.239725+00:00"
+}

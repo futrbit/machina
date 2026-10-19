@@ -1,0 +1,22 @@
+{
+  "id": "fbb9381a62dc93cb701202470baf53ac10405436e60b0ac7b0e604b9cc999886",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "AdapToPASS: Ambiguity-aware Adaptive Spherical Transformer for Panoramic Semantic Segmentation",
+  "url": "https://arxiv.org/abs/2608.29081",
+  "summary": "arXiv:2608.29081v2 Announce Type: replace Abstract: Spherical Transformers have emerged as a promising framework for panoramic semantic segmentation (PASS) by operating directly on spherical geometry and alleviating projection-induced distortions. However, existing architectures often assume canonical spherical structure and stable viewpoints, which are frequently violated in real-world imagery due to unconstrained camera motion, introducing contextual and geometric ambiguity. Consequently, they lack adaptive mechanisms to handle such ambiguity, limiting robustness to unseen spherical transformations. In contrast, biological perception is inherently ambiguity-aware, adapting to fluctuations in cue reliability caused by geometric and contextual variations to maintain stable interpretation under complex transformations. Motivated by this, we first systematically analyze existing PASS architectures under various unseen spherical transformations. We then introduce AdapToPASS, a novel bio-inspired Spherical Transformer that adaptively models contextual and geometric ambiguities for robust PASS. At its core, Adaptive Spherical Attention (AdaSpA) blocks dynamically modulate attention according to local contextual ambiguity, mimicking adaptive, context-driven biological perception. To address geometric ambiguity, AdapToPASS employs Bifocal Spherical Representation to balance field of view and spatial resolution, together with boundary supervision inspired by the boundary-sensitive nature of biological vision. Across indoor and outdoor semantic segmentation, AdapToPASS consistently outperforms prior state-of-the-art methods. Under unseen spherical transformations, it surpasses the next-best method by +13.38% relative mIoU on Stanford2D3D and +18.77% on WildPASS. We further introduce AdapToPASS-Swift, a lightweight variant with fewer than 2M parameters, which surpasses compact baselines while retaining robustness to spherical transformations.",
+  "published": "2026-08-29T06:19:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.236897+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T06:04:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.29081v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.570607+00:00"
+}

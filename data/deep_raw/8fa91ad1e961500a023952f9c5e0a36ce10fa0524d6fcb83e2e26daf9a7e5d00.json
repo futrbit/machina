@@ -1,0 +1,22 @@
+{
+  "id": "8fa91ad1e961500a023952f9c5e0a36ce10fa0524d6fcb83e2e26daf9a7e5d00",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LearnPruner: Rethinking Attention-based Token Pruning in Vision Language Models",
+  "url": "https://arxiv.org/abs/2604.23950",
+  "summary": "arXiv:2604.23950v2 Announce Type: replace Abstract: Vision-Language Models (VLMs) have recently demonstrated remarkable capabilities in visual understanding and reasoning, but they also impose significant computational burdens due to long visual sequence inputs. Recent works address this issue by pruning unimportant visual tokens, achieving substantial computational reduction while maintaining model performance. The core of token pruning lies in determining token importance, with current approaches primarily relying on attention scores from vision encoders or Large Language Models (LLMs). In this paper, we analyze the effectiveness of attention mechanisms in both vision encoders and LLMs. We find that vision encoders suffer from attention sink, leading to poor focus on informative foreground regions, while in LLMs, although prior studies have identified attention bias toward token positions, text-to-vision attention demonstrates resistance to this bias and enables effective pruning guidance in middle layers. Based on these observations, we propose LearnPruner, a two-stage token pruning framework that first removes redundant vision tokens via a learnable pruning module after the vision encoder, then retains only task-relevant tokens in the LLM's middle layer. Experimental results show that our LearnPruner can preserve approximately 95% of the original performance while using only 5.5% of vision tokens, and achieve 3.2$\\times$ inference acceleration, demonstrating a superior accuracy-efficiency trade-off.",
+  "published": "2026-04-27T01:56:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.783029+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:44:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.23950v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.745707+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "c888d7b575d63cbaae0aa7a7f02128f431a6b3ec099a645543c016bc94f90b63",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+  "url": "https://arxiv.org/abs/2610.07557",
+  "summary": "arXiv:2610.07557v1 Announce Type: cross Abstract: Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback. Existing coding-agent benchmarks focus on tasks such as patch generation or vulnerability detection and rarely assess whether an agent can develop a working checker in a repository from start to finish. We introduce CheckerBench, an executable benchmark of 300 tasks derived from 297 CVEs across 167 repositories, 85 CWEs, and five language ecosystems. Each task includes vulnerable and fixed revisions, a pinned analysis environment, and a checker scaffold. We further introduce CheckerLab, a common evaluation framework that independently rebuilds submitted checkers and measures vulnerable-fixed diagnostic contrast, patch localization, false positives, and tool use. Across 21 model-harness configurations and three independent repeats per configuration, mean Pass@1 is 32.30%, while the best reaches 45.33%. These results show that reliable, reusable checker development remains challenging for current coding agents.",
+  "published": "2026-10-06T00:42:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.163806+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:42:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07557v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.973966+00:00"
+}

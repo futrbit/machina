@@ -1,0 +1,22 @@
+{
+  "id": "6952a2e7c01ada60980f7dbc03f90bf78d8a87cf586f7e6c9da25ef3172558bc",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "HyVIC: A Metric-Driven Spatio-Spectral Hyperspectral Image Compression Architecture Based on Variational Autoencoders",
+  "url": "https://arxiv.org/abs/2603.26468",
+  "summary": "arXiv:2603.26468v4 Announce Type: replace Abstract: The rapid growth of hyperspectral data archives in remote sensing (RS) necessitates effective compression methods for storage and transmission. Recent advances in learning-based hyperspectral image (HSI) compression have significantly enhanced both reconstruction fidelity and compression efficiency. However, existing methods typically adapt variational image compression models designed for natural images, without adequately accounting for the distinct spatio-spectral redundancies inherent in HSIs. In particular, they lack explicit architectural designs to balance spatial and spectral feature learning, limiting their ability to effectively leverage the unique characteristics of hyperspectral data in RS. To address this issue, in this paper, we aim to study the effects of spatio-spectral feature learning on the rate-distortion (RD) performance of variational HSI compression as a first time in RS. To this end, we propose to use configurable spatial and spectral feature learning blocks within variational HSI compression. To achieve this, we introduce spatio-spectral variational hyperspectral image compression architecture (HyVIC), a configurable variational autoencoder (VAE) for HSI compression. Extensive experiments on two benchmark datasets demonstrate that the trade-off between spatial and spectral feature learning is crucial for the reconstruction fidelity. Motivated by this, we also present a metric-driven strategy to systematically select the hyperparameters of the proposed model. In detail, HyVIC achieves high spatial and spectral reconstruction fidelity across a wide range of compression ratios (CRs) and improves the state of the art by up to 4.66dB in terms of BD-PSNR. Our code and pre-trained model weights are publicly available at https://git.tu-berlin.de/rsim/hyvic .",
+  "published": "2026-03-27T14:33:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.783029+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:34:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.26468v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.947188+00:00"
+}

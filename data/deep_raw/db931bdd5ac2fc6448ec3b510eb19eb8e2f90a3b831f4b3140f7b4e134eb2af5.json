@@ -1,0 +1,22 @@
+{
+  "id": "db931bdd5ac2fc6448ec3b510eb19eb8e2f90a3b831f4b3140f7b4e134eb2af5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Geometric Approach to Soft Actor-Critic with Zonotopes for Locomotion Learning",
+  "url": "https://arxiv.org/abs/2610.12113",
+  "summary": "arXiv:2610.12113v1 Announce Type: new Abstract: Off-policy actor--critic methods control overestimation bias by taking the minimum of two critics. This uses the same aggregation rule everywhere, regardless of how the critics disagree. We propose \\textbf{GeZo-SAC}, which uses auxiliary geometric representations to adapt critic pessimism to the state and action. Alongside its scalar value, each critic predicts a set of generators defining a zonotope. Probing this zonotope along sampled directions provides a geometric width, \"subtracted from each critic value as a pessimistic offset, and a measure of disagreement between the two critics, aggregated with log-sum-exp. This disagreement controls how the critics are combined, moving from a width-weighted average toward the usual minimum as disagreement increases. At inference, the deployed policy is an unmodified SAC actor, since the generators are used only on the critic side during training.Across four MuJoCo-v5 locomotion benchmarks and six off-policy baselines, GeZo-SAC achieves the highest mean return on Ant-v5 and Hopper-v5 and remains competitive with other methods on the remaining tasks. Our analysis further shows that GeZo-SAC achieves the lowest average actuator work and action effort per metre among the evaluated methods, while maintaining near-zero measured overestimation frequency across all four environments.",
+  "published": "2026-10-08T15:11:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.094425+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:11:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12113v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.328355+00:00"
+}

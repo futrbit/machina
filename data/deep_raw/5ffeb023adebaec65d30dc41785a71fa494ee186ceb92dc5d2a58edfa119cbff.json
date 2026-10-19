@@ -1,0 +1,22 @@
+{
+  "id": "5ffeb023adebaec65d30dc41785a71fa494ee186ceb92dc5d2a58edfa119cbff",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Unified Bellman Operator for Safety-Critical Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2610.12420",
+  "summary": "arXiv:2610.12420v1 Announce Type: new Abstract: Reinforcement learning in safety-critical domains requires maximizing task performance while strictly adhering to safety constraints. Existing safe reinforcement learning paradigms typically force a trade-off: they either require a priori knowledge to provide strict safety guarantees (e.g., safety filters), or they enable joint learning but only satisfy safety constraints on average. In this work, we propose a novel Bellman operator that unifies performance and safety objectives into a joint value function. We show that temporal difference learning with the joint Bellman operator converges under a two-timescale stochastic approximation framework. On the fast timescale, the safety value of the learning joint policy is estimated, while the joint value is estimated on the slow timescale. Convergence is ensured by formulating the limiting dynamics as an occupation-averaged differential inclusion, and showing that it asymptotically converges to a set of limiting optimal safety-constrained task value functions. Theoretically, once converged, the resulting optimal policy maximizes task return while maintaining safety at all times. Empirical evaluations on continuous control tasks with neural approximations demonstrate stable convergence with near-zero safety violations at test time.",
+  "published": "2026-10-08T17:53:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.097424+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:53:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12420v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.803275+00:00"
+}

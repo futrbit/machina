@@ -1,0 +1,22 @@
+{
+  "id": "d3b9d76775cd62154a07c306b23070eef367f5e34aba8b7ecf41cec6c28ca076",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Cross-Modality Structural Guidance in 3D Latent Diffusion for Robust FLAIR Super-Resolution",
+  "url": "https://arxiv.org/abs/2606.25255",
+  "summary": "arXiv:2606.25255v2 Announce Type: replace Abstract: High-resolution (HR) MRI acquisition is often hampered by scan time constraints, resulting in anisotropic or low-resolution scans (e.g., thick-slice FLAIR) that limit diagnostic accuracy. While deep learning-based super-resolution (SR) methods show promise, they often hallucinate anatomical details, which can compromise brain structural integrity. To mitigate this limitation, we introduce MR-DiffuSR, a Multi-Resolution Diffusion-based Super-Resolution framework that incorporates HR T1w structural image priors to guide the restoration of thick-slice FLAIR scans and operates in the 3D latent space. Our architecture introduces cross-modality structural swin attention, which derives structural attention maps from the HR T1w and applies them to the low-resolution FLAIR latent features. This design disentangles anatomical structure from modality-specific contrast, effectively preventing hallucinations. Furthermore, we employ a mixed-scale degradation strategy, training the model on a continuum of downsampling factors to ensure robustness to varying slice thicknesses, while optimizing with a DINOv3-based perceptual loss to preserve high-frequency semantic details. Evaluated on the ADNI-4 and ADNI-2 datasets, MR-DiffuSR surpasses both CNN and 2D diffusion approaches, achieving an average PSNR of 32.46 dB, SSIM of 0.97, and LPIPS of 0.07 across all downsampling factors. In downstream white matter hyperintensity segmentation, our model demonstrates exceptional robustness. While baseline performance collapses at 10x downsampling (Dice: 0.51), MR-DiffuSR maintains a Dice score of 0.63, preserving utility even at 7 mm equivalent slice thickness.",
+  "published": "2026-06-24T00:26:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.236347+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T22:32:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.25255v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.114881+00:00"
+}

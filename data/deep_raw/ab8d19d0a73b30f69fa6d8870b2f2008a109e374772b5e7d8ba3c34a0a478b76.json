@@ -1,0 +1,21 @@
+{
+  "id": "ab8d19d0a73b30f69fa6d8870b2f2008a109e374772b5e7d8ba3c34a0a478b76",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Overcoming Prior Barriers: Supervised Fine-Tuning under Long-Tail Distribution",
+  "url": "https://arxiv.org/abs/2610.12345",
+  "summary": "arXiv:2610.12345v1 Announce Type: new Abstract: Supervised fine-tuning (SFT) adapts pretrained large language models (LLMs) to downstream tasks, but the required concepts can receive substantially different levels of pretrained support. Frequent concepts are more likely to be well learned, whereas rare concepts may remain weakly represented. We introduce a novel notion named prior barrier to quantify how strongly the pretrained model supports competing concepts over the target concept. We observe that prior barriers follow a long-tail distribution, placing head and tail concepts at different starting points for SFT: head concepts face lower prior barriers, whereas tail concepts require additional instructions to overcome their higher prior barriers. Our theoretical analysis further derives a predictive risk bound for SFT under long-tail prior barriers, explicitly characterizing how the prior barrier and accumulated SFT evidence jointly determine predictive performance. Motivated by this prior barrier-dependent demand, we propose PASS, an adaptive SFT instruction selection method that constructs reference-derived concepts and estimates the distinguishing evidence provided by each instruction, and adaptively allocates the selection budget toward concepts that remain insufficiently covered under the current selection. In this way, PASS jointly considers which instructions can provide useful evidence and where additional supervision is needed under a limited budget. Experiments show that our method consistently outperforms seven state-of-the-art instruction selection methods on four backbone-budget settings. An ablation study further shows that PASS's adaptive allocation consistently improves over uniform allocation.",
+  "published": "2026-10-08T17:16:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.377385+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:16:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12345v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.443286+00:00"
+}

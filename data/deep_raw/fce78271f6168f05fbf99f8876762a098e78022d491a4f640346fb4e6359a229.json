@@ -1,0 +1,22 @@
+{
+  "id": "fce78271f6168f05fbf99f8876762a098e78022d491a4f640346fb4e6359a229",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Conditional Flow Matching for Transport Between Markov Processes",
+  "url": "https://arxiv.org/abs/2610.07229",
+  "summary": "arXiv:2610.07229v1 Announce Type: new Abstract: Motivated by sequence-to-sequence transport in the context time-series domain adaptation, we study the problem of transportation between trajectories of Markov processes. Given a limited number of trajectories from source distribution and the target distribution, we formulate a flow matching based algorithm which learns a transport map from the source to target trajectory distribution, while preserving the Markov structure. We show that this is consistent in the population limit and derive finite-sample error bounds under mixing time assumptions, following the analysis of classical statistical problems including regression (Nagaraj et al., 2020), principal component analysis (Kumar and Sarkar, 2023), and matrix concentration (Neeman et al., 2024) in the Markov setting. We complement that with a lower-bound construction showing that a mixing-time dependent sample complexity is unavoidable even with regular Gaussian conditional transitions. We evaluate on synthetic and real-world data. For image retrieval from electroencephalography (EEG) on THINGS-EEG2 (Gifford et al., 2022), the task is to identify the viewed image from EEG signals captured from human subjects, which suffers from high inter subject variability. We augment the ENIGMA decoder (Kneeland et al., 2026) with a conditional flow before its subject-specific temporal map. This improves mean top-5 retrieval accuracy from 43.87% to 49.05%, an 11.82% relative improvement.",
+  "published": "2026-10-05T18:35:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.051504+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:35:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07229v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.590594+00:00"
+}

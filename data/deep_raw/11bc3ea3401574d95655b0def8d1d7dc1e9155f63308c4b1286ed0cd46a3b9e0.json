@@ -1,0 +1,22 @@
+{
+  "id": "11bc3ea3401574d95655b0def8d1d7dc1e9155f63308c4b1286ed0cd46a3b9e0",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Protective Perturbations Must Survive the Resize: Scale-Robust Image Immunization against Malicious Editing",
+  "url": "https://arxiv.org/abs/2610.07464",
+  "summary": "arXiv:2610.07464v1 Announce Type: new Abstract: Protective perturbations aim to stop malicious instruction-guided editing of personal photos, but they are optimized and evaluated at the editor's working resolution, whereas shared photos have 10 megapixels or more and editors first downscale them by an unknown factor. We model this resize as a frequency-selective channel. In this model, a perturbation computed at the native resolution decays with the downscaling factor and is weak even without a resize, and a perturbation computed at a fixed working resolution protects only a window of scales. The best worst-case protection over an unknown range of scales degrades only logarithmically with the width of the range, and averaging over scales does not reach it. Guided by this analysis, we propose SRIM, which samples a grid of anchor scales covering the whole range, with weights that favor the currently weakest scale, at the cost of standard expectation over transformation. On full-resolution photos of 9 to 30 megapixels and downscaling factors from 2 to 8, SRIM raises the worst-case disruption of FLUX.2-klein edits from 0.192 LPIPS, attained by the strongest published protection, to 0.463. At equal visibility, it roughly doubles the protection. The same protected photos also protect against the 9B model and against FLUX.2-dev, with worst cases of 0.450 and 0.386 against at most 0.184 for published protections, and SRIM leads on InstructPix2Pix as well.",
+  "published": "2026-10-05T22:23:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.514385+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T13:19:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07464v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.724921+00:00"
+}

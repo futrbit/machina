@@ -1,0 +1,17 @@
+{
+  "id": "c3801b93769db5603cf7d6d34c30ff7bae28c18e716eb12f40c68ea034958ac1",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Learning Cross-Coupled and Regime Dependent Dynamics for Aerial Manipulation",
+  "url": "https://arxiv.org/abs/2605.14805",
+  "summary": "arXiv:2605.14805v2 Announce Type: replace Abstract: Accurate dynamics modeling of aerial manipulators is challenging because platform--manipulator coupling, history-dependent interactions, and changing payload or manipulator configurations produce cross-coupled, temporal, and nonstationary residual dynamics. We propose a structured encoder--decoder framework in which a nonlinear history encoder captures temporal and cross-variable dependencies, while a lightweight linear latent decoder supports efficient deployment-time adaptation. Its linear-in-parameter structure enables closed-form Bayesian updates with consistency-driven covariance inflation and integration with real-time model predictive control (MPC). Experiments on a real aerial-manipulation platform demonstrate improved residual-prediction accuracy, rapid adaptation following dynamics changes, and lower MPC tracking error under changing payload conditions. The results show that combining structured history-dependent representation learning with lightweight online adaptation provides an effective predictive model for aerial manipulation under coupled and nonstationary dynamics.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.166644+00:00"
+}

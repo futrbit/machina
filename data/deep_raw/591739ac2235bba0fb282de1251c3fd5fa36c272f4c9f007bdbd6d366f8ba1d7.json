@@ -1,0 +1,22 @@
+{
+  "id": "591739ac2235bba0fb282de1251c3fd5fa36c272f4c9f007bdbd6d366f8ba1d7",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "DLC: A Metric-Guided Dynamic Loss Controller for Multi-Objective Training",
+  "url": "https://arxiv.org/abs/2610.11433",
+  "summary": "arXiv:2610.11433v1 Announce Type: new Abstract: In this paper, we introduce a metric-guided dynamic loss controller (DLC) for multi-objective image restoration. Conventional image restoration pipelines usually train with a fixed weighted combination of multiple losses, without changing the relative importance of fidelity, perceptual similarity, and no-reference quality during optimization. DLC is an architecture- and loss-term-agnostic training-time controller: it does not modify the restoration architecture or introduce new differentiable loss terms, but dynamically reweights the existing training losses. During training, DLC periodically evaluates the current model on a small fixed feedback subset and uses the resulting quality metrics to update the loss-weight vector through an LLM-based controller. Because DLC operates on existing loss terms rather than task-specific architectures, the same controller formulation can be instantiated across diverse image restoration training pipelines. We evaluate DLC on three restoration domains: low-light image enhancement, deraining, and real-world super-resolution, using both reference-based and no-reference quality metrics. Across these settings, DLC considers metric-dependent trade-offs during optimization and guides training toward balanced operating points across fidelity and perceptual quality. The results show that DLC can move models toward more favorable operating points across different restoration domains, supporting its role as a practical plug-in controller for multi-objective image restoration.",
+  "published": "2026-10-08T07:56:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.747051+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:56:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11433v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.690343+00:00"
+}

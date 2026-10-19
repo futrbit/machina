@@ -1,0 +1,21 @@
+{
+  "id": "84ea8fee232d84bc821044f4598dec8f729e5b7f6849bf2d86985734b1cfcd60",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "From Language to Motion: Task-Conditioned Focal-Stack Trajectory Integration for Microscopic Robots",
+  "url": "https://arxiv.org/abs/2610.12241",
+  "summary": "arXiv:2610.12241v1 Announce Type: new Abstract: Microscopic robots require accurate task geometry despite changes in language, parts, and focus. We present a semantic-to-physical framework that maps instructions to constrained geometric operators, reuses frozen open-vocabulary perception, and integrates locally reliable focal-plane trajectories by confidence weighting and dynamic programming. Calibrated multi-view geometry connects 2-D paths to physical execution. Prompt, unseen-part, and geometry reconfiguration tests yield 6.30-6.59-pixel RMSE. Relative to part-specific U-Net training with 20-100 labels, the proposed zero-new-label configuration takes 15 rather than 72-165 min. Across nine part-illumination conditions, trajectory-space integration reduces RMSE from 14.41 to 6.28 pixels (56.4%) and P95 error from 20.07 to 8.13 pixels (59.5%) compared with image-first multi-focus fusion. An ablation isolates the roles of confidence and path-wise selection. In representative robot experiments, target-region coverage improves from 83.5% to 92.9%. Dispensing provides a measurable physical trace, not a task-specific limitation of the method.",
+  "published": "2026-10-08T16:21:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.747540+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:21:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12241v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.530837+00:00"
+}

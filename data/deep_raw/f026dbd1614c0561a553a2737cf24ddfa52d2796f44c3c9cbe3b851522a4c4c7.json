@@ -1,0 +1,21 @@
+{
+  "id": "f026dbd1614c0561a553a2737cf24ddfa52d2796f44c3c9cbe3b851522a4c4c7",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "TRACE: A Governance Framework for Measuring Explainability Debt in Production AI Systems",
+  "url": "https://arxiv.org/abs/2610.10957",
+  "summary": "arXiv:2610.10957v1 Announce Type: cross Abstract: Production AI systems deployed in high-stakes domains accumulate a governance liability that existing monitoring frameworks fail to detect: the progressive inability to explain individual decisions when regulators, auditors, or affected individuals demand accountability. We introduce TRACE (Transparency, Risk, Accountability, Compliance, and Explainability), a seven-instrument governance framework for measuring, tracking, and remediating Explainability Debt in production AI systems. The foundational instrument, the Explainability Debt Score (EDS), quantifies the proportion of production decisions falling below a governance-defined explainability confidence threshold at any point in time. Complementary instruments include DART (Debt Accumulation Rate Tracker for breach forecasting), SHIV (Scenario Health and Integrity Validator for daily governance), FDE (Feature Drift Evaluator for causal attribution), HVE (Human Validation Engine), AIDE (Audit Intervention Decision Engine), and ZERO (Zero Explainability Risk Optimiser for remediation). Through a twelve-month longitudinal case study of a production fraud detection system processing 50,000 daily financial transactions, achieving 98.46% accuracy and ROC-AUC of 0.9990, we demonstrate that an EDS of 0.23 on audit day was statistically predictable six months in advance using DART trajectory analysis (beta = 0.008/week, R-squared = 0.94, 95% CI: [0.006, 0.010]), and that 78% of Explainability Debt was concentrated in the highest-regulatory-risk decision category (transactions above $10,000), a risk asymmetry completely invisible to system-level metrics. TRACE provides the first quantitative operational architecture for EU AI Act Article 13 compliance in production AI deployment, establishing a new subdiscipline of explanation governance distinct from explanation generation.",
+  "published": "2026-10-07T22:19:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.385380+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:19:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10957v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.010150+00:00"
+}

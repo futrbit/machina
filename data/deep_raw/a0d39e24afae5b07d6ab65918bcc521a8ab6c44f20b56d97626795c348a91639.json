@@ -1,0 +1,22 @@
+{
+  "id": "a0d39e24afae5b07d6ab65918bcc521a8ab6c44f20b56d97626795c348a91639",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "QK-Wanda: Coupling Queries and Keys for Unstructured Pruning",
+  "url": "https://arxiv.org/abs/2610.01554",
+  "summary": "arXiv:2610.01554v1 Announce Type: new Abstract: Wanda (Sun et al., 2024) prunes large language models by scoring weights independently within each linear projection, although queries and keys interact through dot products. We introduce QK-Wanda, which scores query and key weights by their individual deletion costs under an unmasked pre-RoPE reconstruction objective. It augments Wanda scores with information from the opposite projection (keys for query weights, and queries for key weights), allowing both projections to share a pruning budget. Its closed-form scores require no gradients or weight updates; full pruning takes 1.3% longer than Wanda on A100 and 3.1% longer on H200 with the calibration used in our main experiments. We evaluate QK-only pruning across 15 models from TinyLlama, Llama 2, Llama 3, and Qwen2.5, spanning 0.5B-72B parameters. Relative to Wanda, QK-Wanda reduces QK reconstruction error by an average of 60% at 50% sparsity and 45% at 80%. Downstream gains depend on the model. At 80% sparsity on Llama 2 70B, WikiText-2 and C4 perplexity decrease by 20.3% and 13.5%, while mean zero-shot accuracy rises by 5.94 percentage points. Qwen2.5-72B also improves, but Llama-3.1-70B has substantially higher perplexity despite lower reconstruction error. These results show both the promise of coupled pruning criteria and the limits of local reconstruction as a predictor of model quality.",
+  "published": "2026-10-01T12:22:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.793496+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T12:22:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01554v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.118482+00:00"
+}

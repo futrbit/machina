@@ -1,0 +1,22 @@
+{
+  "id": "ee732a9dea02155ee37a84893e0117ea15f180d9275f4644e972afa1f50dd543",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Price of Correlated Tests: How Strict Should a Model Release Gate Be?",
+  "url": "https://arxiv.org/abs/2610.00993",
+  "summary": "arXiv:2610.00993v1 Announce Type: cross Abstract: Before a machine learning model ships, it often has to pass a suite of automated tests. Requiring every test to pass looks safe, yet it can reject many models that would have served users well, and it does not say how trustworthy a passing model actually is. We treat the release gate as a design problem: choose how many tests a model must pass so that cleared models meet a stated reliability target, while keeping as many good models as possible. A two-class latent-factor model makes both costs explicit and reduces each calculation to a one-dimensional integral. We prove that when both classes share the same latent correlation, a stricter gate always raises reliability, so the gate that keeps the most good models is the most lenient one that still meets the target. Under pass-all gating, any reliability target short of perfection is attainable within the model, but the share of good models kept tends to zero as the suite grows. Correlation between tests sets the price. In one configuration, a 99 percent target needs 8 independent tests, but 74 tests at a latent correlation of 0.3 and 5,182 at 0.5, where the gate keeps fewer than one good model in ten. We also give a validation procedure, built on exact binomial bounds, that certifies a gate from labelled data even when the gate is chosen from a fixed shortlist.",
+  "published": "2026-10-01T03:27:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.815482+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:27:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00993v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.416699+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "815e8c8fb40b79577d06541933a4683d2e7c481dc32f5a8774a8eb0d993fe468",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "A Geometric Decision Procedure for STL Feasibility and Repair",
+  "url": "https://arxiv.org/abs/2610.00199",
+  "summary": "arXiv:2610.00199v2 Announce Type: replace-cross Abstract: Signal Temporal Logic control synthesis frequently encounters physical infeasibility due to actuator limits or flawed task deadlines. Standard optimization methods model time by discretizing the horizon, which leads to exponential computational growth and prevents the extraction of continuous temporal adjustments. This paper presents a geometric decision procedure that evaluates physical feasibility completely independently of the temporal horizon length. The method operates by transforming explicit temporal logic constraints into continuous spatial backward reachable sets evaluated at time zero. It analytically inverts the Bhat-Bernstein settling-time integral to map temporal windows into continuous spatial boundaries, reducing the feasibility check to a local matrix and vector inclusion evaluation. When a specification is infeasible, the procedure extracts a Farkas dual certificate to isolate conflicting constraints and identifies the maximum geometric spatial gap. It then analytically inverts the system's dynamic expansion to map this largest geometric gap into an exact, closed-form temporal delay, precisely fixing the boundary deficit to restore physical realizability. We formally prove the strict soundness, mathematically bounded completeness, and horizon-independent scalability of this procedure. Experimental evaluations on six-dimensional drone kinematics demonstrate sub-millisecond execution times, massive speedups over state-of-the-art optimization encodings, and computational immunity to deeply nested logical formulas.",
+  "published": "2026-09-19T01:46:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.490004+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:40:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00199v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.463877+00:00"
+}

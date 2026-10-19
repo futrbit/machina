@@ -1,0 +1,22 @@
+{
+  "id": "cd2729f5281f6aca76e8efd0a8c14ae30863d2edbd762a0ea742f560785a65e4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "[b] = [d] - [t] + [p]: Self-supervised Speech Models Discover Phonological Vector Arithmetic",
+  "url": "https://arxiv.org/abs/2602.18899",
+  "summary": "arXiv:2602.18899v4 Announce Type: replace-cross Abstract: Self-supervised speech models (S3Ms) are known to encode rich phonetic information, yet how this information is structured remains underexplored. We conduct a comprehensive study across 96 languages to analyze the underlying structure of S3M representations, with particular attention to phonological vectors. We first show that there exist linear directions within the model's representation space that correspond to phonological features. We further demonstrate that the scale of these phonological vectors correlate to the degree of acoustic realization of their corresponding phonological features in a continuous manner. For example, the difference between [d] and [t] yields a voicing vector: adding this vector to [p] produces [b], while scaling it results in a continuum of voicing. Together, these findings indicate that S3Ms encode speech using phonologically interpretable and compositional vectors, demonstrating phonological vector arithmetic. All code and interactive demos are available at https://github.com/juice500ml/phonetic-arithmetic .",
+  "published": "2026-02-21T16:43:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.128458+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:41:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.18899v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.027934+00:00"
+}

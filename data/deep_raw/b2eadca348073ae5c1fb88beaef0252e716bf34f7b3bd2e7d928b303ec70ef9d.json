@@ -1,0 +1,22 @@
+{
+  "id": "b2eadca348073ae5c1fb88beaef0252e716bf34f7b3bd2e7d928b303ec70ef9d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Similarity-as-Evidence: Calibrating Overconfident VLMs for Interpretable and Label-Efficient Medical Active Learning",
+  "url": "https://arxiv.org/abs/2602.18867",
+  "summary": "arXiv:2602.18867v3 Announce Type: replace Abstract: Active Learning (AL) reduces annotation costs in medical imaging by selecting only the most informative samples for labeling, but suffers from cold-start when labeled data are scarce. Vision-Language Models (VLMs) address the cold-start problem via zero-shot predictions, yet their temperature-scaled softmax outputs treat text-image similarities as deterministic scores while ignoring inherent uncertainty, leading to overconfidence. This overconfidence misleads sample selection, wasting annotation budgets on uninformative cases. To overcome these limitations, the Similarity-as-Evidence (SaE) framework calibrates text-image similarities by introducing a Similarity Evidence Head (SEH), which reinterprets the similarity vector as evidence and parameterizes a Dirichlet distribution over labels. In contrast to a standard softmax that enforces confident predictions even under weak signals, the Dirichlet formulation explicitly quantifies lack of evidence (vacuity) and conflicting evidence (dissonance), thereby mitigating overconfidence caused by rigid softmax normalization. Building on this, SaE employs a dual-factor acquisition strategy: high-vacuity samples (e.g., rare diseases) are prioritized in early rounds to ensure coverage, while high-dissonance samples (e.g., ambiguous diagnoses) are prioritized later to refine boundaries, providing clinically interpretable selection rationales. Experiments on ten public medical imaging datasets with a 20% label budget show that SaE attains state-of-the-art macro-averaged accuracy of 82.57%. On the representative BTMRI dataset, SaE also achieves superior calibration, with a negative log-likelihood (NLL) of 0.425.",
+  "published": "2026-02-21T15:21:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.782030+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:26:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.18867v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.663154+00:00"
+}

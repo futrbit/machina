@@ -1,0 +1,22 @@
+{
+  "id": "20e4bb3f488e1520b048e902df75f74b8428c7547fe2a75609e88528f7a7bba8",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "RAM-Net: Linear-Time Sequence Modeling with Sparsely Addressable State",
+  "url": "https://arxiv.org/abs/2602.11958",
+  "summary": "arXiv:2602.11958v2 Announce Type: replace Abstract: Linear attention offers an efficient alternative to full attention with a fixed-size recurrent state. However, this state is shared by all tokens, so information from distinct tokens becomes superposed within it and produces inter-token interference that degrades long-range fine-grained recall. To address this issue, we propose RAM-Net, which replaces dense access to a shared state with sparse address-based access. RAM-Net organizes the recurrent state as a fixed-size array of independent slots and uses an Address Decoder that maps each key or query into a sparse address, selecting a small subset of slots to write to or read from at each step. This design directs tokens with non-overlapping addresses to disjoint slots, suppressing inter-token interference, while keeping per-step state access dependent only on the number of selected slots rather than the total state size. Empirically, RAM-Net outperforms strong recurrent baselines on fine-grained long-range retrieval and achieves the lowest perplexity with competitive commonsense reasoning. It does so while accessing fewer state elements per step than all baselines, e.g., $8\\times$ fewer than Mamba2.",
+  "published": "2026-02-12T13:55:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.113467+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:19:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.11958v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.140277+00:00"
+}

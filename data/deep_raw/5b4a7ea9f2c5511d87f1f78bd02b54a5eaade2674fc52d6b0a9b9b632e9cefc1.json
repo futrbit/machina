@@ -1,0 +1,22 @@
+{
+  "id": "5b4a7ea9f2c5511d87f1f78bd02b54a5eaade2674fc52d6b0a9b9b632e9cefc1",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Mu-DisCoCat: A Variational Pipeline for Compositional Generalization on Quantum Processors",
+  "url": "https://arxiv.org/abs/2610.08131",
+  "summary": "arXiv:2610.08131v1 Announce Type: cross Abstract: Achieving compositional concept generalization (CoCoGen), the ability to understand novel situations by recombining learned primitives, remains a fundamental challenge in artificial intelligence. Compositional semantic models such as Compositional Distributional Semantics (DisCoCat) offer solutions by generalising vectors to tensors, but suffer from scaling bottlenecks when learning the tensors. Mapping DisCoCat onto Variational Quantum Circuits (VQCs) resolves this limitation for text, yet the methodology has not been expanded to multimodal situations such as the ones involved in CoCoGen. This paper introduces Mu-DisCoCat: a multimodal variational quantum learning framework for DisCoCat that achieves CoCoGen. The framework first learns stable object representations from single-object image-text pairs, then fixes these and uses them to learn the relations between them in multi-object situations. In classical simulations, the model used Uhlmann state fidelity to compute the overlap between the multimodal circuit representations and achieved higher relational OOD accuracy than the evaluated CLIP baseline. Its deployment was evaluated using the destructive SWAP test across noisy quantum emulators, including a range of IBM fake backends, IQM FakeAphrodite, and the IBM Marrakesh quantum processor. Despite real-world device noise, the hardware-executed models maintained a strong positive correlation with simulated fidelities, reliably distinguishing unseen similar and dissimilar pairs. Our work establishes a framework for executing CoCoGen on VQCs, demonstrating a viable use case for near-term quantum hardware.",
+  "published": "2026-10-06T10:45:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.532376+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:45:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08131v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.726321+00:00"
+}

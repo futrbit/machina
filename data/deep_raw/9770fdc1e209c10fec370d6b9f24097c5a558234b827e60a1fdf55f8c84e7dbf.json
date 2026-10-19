@@ -1,0 +1,22 @@
+{
+  "id": "9770fdc1e209c10fec370d6b9f24097c5a558234b827e60a1fdf55f8c84e7dbf",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
+  "url": "https://arxiv.org/abs/2610.08743",
+  "summary": "arXiv:2610.08743v1 Announce Type: new Abstract: Sequential recommenders typically use a fixed slate size even though the number of useful alternatives changes within a session. We propose Reinforcement Learning with Calibrated Pruning (RLCP), which adapts the retained action set using critic scores and an online threshold. The threshold is updated from binary feedback indicating whether the set contains an action in a proxy target. We prove a deterministic bound on the observed proxy miss rate along adaptive trajectories. To quantify the effect of pruning on reward, we derive an exact decomposition of value loss into filtering and selection losses. Under explicit proxy and critic approximation conditions, this decomposition yields a finite session reward bound that also accounts for imperfect selection and set truncation, without requiring the learning parameters to converge. Experiments on KuaiRand-Pure and MovieLens 1M compare two RLCP implementations with four RL baselines. In each of the 19 configurations, at least one RLCP variant achieves the highest catalog diversity, reaching $1.11\\times$ to $5.21\\times$ that of the strongest baseline, with competitive session depth and no larger retained sets.",
+  "published": "2026-10-06T17:40:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.082486+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:40:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08743v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.845848+00:00"
+}

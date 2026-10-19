@@ -1,0 +1,22 @@
+{
+  "id": "86da99fc5a5d9d6cf8dee0549a1df87996ea915051b4888a74cf8270e26704f1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SSR: Sparse Segment Reduction for Ternary GEMM Acceleration",
+  "url": "https://arxiv.org/abs/2610.08403",
+  "summary": "arXiv:2610.08403v1 Announce Type: new Abstract: Large Language Models (LLMs) require substantial computational resources, limiting their deployment on resource-constrained hardware. Ternary LLMs mitigate these demands through weight quantization via ternary values, achieving significant compression often with 50-90% sparsity. However, existing approaches have limitations: methods optimized for ternary weights, such as BitNet, redundant segment reduction (RSR), and its improved version RSR++, do not exploit sparsity structures, while conventional sparse formats neglect ternary characteristics, foregoing dual optimization opportunities. In this paper, we introduce Sparse Segment Reduction (SSR), a ternary matrix multiplication method designed to accelerate the inference of ternary LLMs and general Ternary Weight Networks (TWNs). SSR has a dedicated optimized ternary data format and an algorithm that systematically exploits sparsity patterns through computation trees that scale with the sparsity. SSR provides theoretical gains with asymptotically faster inference than RSR++ for sparsity above 50%, while practical evaluations reveal performance improvements across all sparsity levels. Evaluation results show that SSR achieves 2.1-11.3x speedup over RSR++ on ternary GEMM with 45-95% sparsity. Furthermore, SSR achieves 3.5-6.3x end-to-end speedup and 4.9% of memory saving over RSR++ on the Llama-3 1B model inference.",
+  "published": "2026-10-06T14:15:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.076489+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:15:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08403v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.580806+00:00"
+}

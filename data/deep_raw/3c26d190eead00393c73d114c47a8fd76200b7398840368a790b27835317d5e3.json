@@ -1,0 +1,18 @@
+{
+  "id": "3c26d190eead00393c73d114c47a8fd76200b7398840368a790b27835317d5e3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Cross-Person Identity Change Under Source-Coupled Multi-Human Generation: A Controlled UniPortrait Study",
+  "url": "https://arxiv.org/abs/2610.22746",
+  "summary": "arXiv:2610.22746v1 Announce Type: new Abstract: Multi-human personalization must account for identity changes in people outside the nominal target of a generative operation. We characterize this behavior in UniPortrait, without introducing a new preservation algorithm. Two sequential studies use 119 accepted two-person baseline scenes and three fixed output seeds, measuring continuous reference-based facial similarity with InsightFace \\buffalo. In Study~1, source-coupled single-ID target-only generation (A1) produces negative mean transitions for both the protected person ($-0.567904$) and target ($-0.236904$), indicating broad perturbation rather than established successful repair with collateral loss. In Study~2, native dual-ID generation (A2) yields more positive paired contrasts: protected $+0.512918$ (95\\% case-cluster CI $[0.471434,0.550259]$) and target $+0.158853$ ($[0.118903,0.197523]$), across 287 jointly measurable pairs from 111 cases. Shared baseline similarity cancels algebraically in these paired contrasts, leaving a matched POST comparison. Validation designed after the primary result freeze finds directional agreement with an independent identity evaluator and blinded human judgments; within-\\buffalo\\ nuisance models provide supportive sensitivity evidence. The findings characterize intact native regimes, whose references, routing, adapters, and token counts co-vary. They do not establish component causality, categorical identity preservation, successful localized editing, or generalization beyond the evaluated implementation and measurable cohort.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.037097+00:00"
+}

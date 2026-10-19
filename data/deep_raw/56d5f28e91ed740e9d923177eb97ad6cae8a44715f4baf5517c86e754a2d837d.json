@@ -1,0 +1,21 @@
+{
+  "id": "56d5f28e91ed740e9d923177eb97ad6cae8a44715f4baf5517c86e754a2d837d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation",
+  "url": "https://arxiv.org/abs/2610.12061",
+  "summary": "arXiv:2610.12061v1 Announce Type: new Abstract: Large language model (LLM)-based agents have demonstrated strong capabilities on complex tasks. They typically perform reasoning before each action throughout an interaction trajectory. However, reasoning may not be necessary at every turn, as reasoning produced earlier can continue to support subsequent actions. A key challenge is therefore to determine when existing reasoning remains sufficient and when a new reasoning step is needed, without relying on costly generation-based verification. We find that decreases in the likelihood of subsequent reference actions after removing additional reasoning closely track whether those actions remain recoverable given earlier reasoning, providing an effective and lightweight signal for estimating cross-turn action support. Based on this observation, we propose Reasoning Adaptation through Cross-Turn Estimation (RACE), a training approach for adaptive agent reasoning. RACE introduces a Likelihood-Guided Progressive Reasoning Cover Detection (LoGiC) procedure that progressively identifies reasoning turns whose removal has limited impact on the current and subsequent reference actions. The resulting removal signals are incorporated into both supervised fine-tuning and agentic reinforcement learning, enabling the policy to learn when to reason and when to act directly. Extensive experiments on four representative agent benchmarks show that RACE substantially reduces reasoning cost while maintaining or improving task performance.",
+  "published": "2026-10-08T14:43:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.374386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:43:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12061v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.631378+00:00"
+}

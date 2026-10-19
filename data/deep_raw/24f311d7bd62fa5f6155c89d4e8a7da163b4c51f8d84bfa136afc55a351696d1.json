@@ -1,0 +1,22 @@
+{
+  "id": "24f311d7bd62fa5f6155c89d4e8a7da163b4c51f8d84bfa136afc55a351696d1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning Commute-Time-Preserving World Models for Planning",
+  "url": "https://arxiv.org/abs/2610.01373",
+  "summary": "arXiv:2610.01373v1 Announce Type: new Abstract: World models allow agents to plan in latent space by choosing a sequence of actions that most reduces the distance to a given goal state. Thus, planning can benefit from latent representations whose distances mirror commute-times in the environment. The spectral embedding space of the graph Laplacian provides such a representation, if it obeys a specific eigenvalue-dependent scaling. Unfortunately, instantiating the graph Laplacian is intractable in large, continuous environments. Self-supervised learning offers a natural route to such commute-time-preserving embeddings at scale. However, here we show that existing methods, which commonly encourage isotropic representations to prevent representational collapse, tend to degrade the \"correct\" eigenvalue-dependent scaling, leading to an inaccurate representation of commute times. To address this problem, we introduce Commute-Time-Preserving World Models (CTWMs), combining a latent displacement predictor and a log-determinant regularizer that prevents collapse, which provably recover the correctly scaled Laplacian representation under reversible deterministic dynamics and at the predictor's fixed point. In numerical simulations, CTWM matches or outperforms LeWM, a task-agnostic baseline, on several complex, continuous goal-reaching benchmarks, while using half the parameters.",
+  "published": "2026-10-01T09:42:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.790498+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T09:42:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01373v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.216231+00:00"
+}

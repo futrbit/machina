@@ -1,0 +1,21 @@
+{
+  "id": "c8b5236715f32427018f7c7a607d6f3fae4d208b9b653bd4aaa19b85e6759ab8",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "From Sandbox to Enforcement: Confidence-Qualified Threat Intelligence for Critical Infrastructure",
+  "url": "https://arxiv.org/abs/2610.07310",
+  "summary": "arXiv:2610.07310v1 Announce Type: cross Abstract: Security operations centres and national incident-response teams defending critical infrastructure collect abundant threat data yet struggle to turn it into actionable intelligence. A malware sandbox produces detailed behavioural evidence, but as a large, unranked report whose confidence is unstated. We present CG-CTI, an operational pipeline that converts live sandbox output (CAPEv2) into STIX 2.1, correlates it in a knowledge graph with other critical-infrastructure sensors, and attaches to every intelligence object an explicit confidence status derived from provenance, cross-source corroboration, and observation durability. This status gates automated action: only corroborated intelligence is eligible for automated enforcement, while lower-confidence objects are routed to analyst review or kept as context. A grounded language-model stage then narrates the confidence-qualified evidence, where each statement either cites a supporting object or is marked unsupported, so fabricated references are removed before analyst review. We implement CG-CTI within the CYBERGUARD project, whose consortium includes Romania's national cyber-security directorate, and evaluate it against the live sandbox on a labelled malware corpus, measuring conversion validity, indicator yield, technique coverage, corroboration, enforcement eligibility, latency, and summary grounding. CG-CTI turns fragmented sandbox output into corroborated, confidence-ranked, and auditable intelligence for critical-infrastructure defence.",
+  "published": "2026-10-05T19:47:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.159809+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:47:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07310v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.975965+00:00"
+}

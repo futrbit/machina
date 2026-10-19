@@ -1,0 +1,21 @@
+{
+  "id": "9efbc05eb9e62a9c4297c81b61db306bc4043580ce1f7e73433768cbf638e562",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2609.33563",
+  "summary": "arXiv:2609.33563v2 Announce Type: replace-cross Abstract: World models improve sample efficiency by training policies on imagined trajectories, but their usefulness depends on learning representations that capture the information needed for future control. We study whether self-supervised joint-embedding prediction (JEPA) can provide this learning signal for multi-agent reinforcement learning. We introduce MA-JEPA, a stochastic world model that replaces observation reconstruction with prediction of target representations, enabling model-based multi-agent reinforcement learning with centralized training and decentralized execution. A categorical latent state and a causal Transformer are trained with posterior and action-conditioned dynamics prediction objectives and are then used for actor-critic learning from latent imagination. A training-only joint predictor conditions on all agents' local states and actions to predict each agent's next local observation embedding. These predictions are passed through the same local posterior used during real interaction with a centralized critic that is used only for value learning, with execution remaining decentralized. Our experiments show that this architecture performs strongly on SMAC, matching or exceeding the strongest reported comparator mean win rate on four of eight evaluated maps.",
+  "published": "2026-09-27T13:37:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.427353+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:57:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.33563v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.072510+00:00"
+}

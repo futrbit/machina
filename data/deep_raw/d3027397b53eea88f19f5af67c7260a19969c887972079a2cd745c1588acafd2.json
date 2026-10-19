@@ -1,0 +1,22 @@
+{
+  "id": "d3027397b53eea88f19f5af67c7260a19969c887972079a2cd745c1588acafd2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "PIE-PS: Photometric Stereo from Physical Irradiance Event Streams",
+  "url": "https://arxiv.org/abs/2610.08188",
+  "summary": "arXiv:2610.08188v1 Announce Type: new Abstract: Event cameras record asynchronous log-image-irradiance changes with microsecond latency and high dynamic range. These properties are useful for photometric stereo under moving illumination, but raw events are sparse and depend on an unknown contrast threshold. We start from the event trigger model and derive a physical relation between adjacent events, light motion, and surface normals. This relation gives a direct physics-only solver, but the solver needs the threshold, enough events at each pixel, and independent per-pixel optimization. To address these limits, we introduce PIE-PS, a learning-based framework for dense surface normal reconstruction from raw event streams and known lighting. We form Physical Irradiance Events (PIEs) by pairing two adjacent events at the same pixel with their corresponding light directions. Each PIE provides a Physical Irradiance Event Feature (PIEF), defined as the signed event rate. PIEF does not require the unknown contrast threshold. To share spatial and temporal context across nearby PIEs, we introduce PIE-GNN, which treats each PIE as a graph node and encodes it with its light-pair geometry. Since the reliability of PIE observations can vary with local appearance, illumination geometry, and sensor noise, Reliability-Grading Attention (RGA) predicts reliability weights to down-weight unreliable PIEs. Pixel aggregation then produces dense normals. Experiments on synthetic and real data show that PIE-PS outperforms prior event-based photometric stereo methods and the direct solver baseline.",
+  "published": "2026-10-06T11:41:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.521382+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:41:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08188v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.104887+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5da335cc61a7bab5983d569c6bf604dead33d34c9093656ad94a542e5c3741f9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "How Learning Governs Unlearning across the Memorization-Generalization Spectrum",
+  "url": "https://arxiv.org/abs/2610.08577",
+  "summary": "arXiv:2610.08577v1 Announce Type: new Abstract: While unlearning seeks to negate undesired capabilities acquired through learning, little research has examined how the way models learn shapes their subsequent unlearning. In this paper, we investigate this connection from the perspectives of memorization and generalization, the two most representative yet competing strategies that models employ during training. We first classify memorization- and generalization-heavy models using grokking in modular addition and compare their responses to unlearning, showing that the latter suffer greater retain damage, i.e., a larger performance drop on the retain set. Furthermore, we conduct a finer-grained analysis by introducing bucketed modular addition, in which the respective contributions of the two strategies can be explicitly controlled across the memorization-generalization spectrum. In this setup, we reaffirm that the same trend persists and is nearly monotonic. We further demonstrate that this relationship also holds in LLM unlearning across verbatim and factual recall settings. Finally, we provide two practical insights for developing better unlearning methods, highlighting the importance of accounting for learning dynamics in unlearning.",
+  "published": "2026-10-06T15:50:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.079487+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:50:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08577v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.344150+00:00"
+}

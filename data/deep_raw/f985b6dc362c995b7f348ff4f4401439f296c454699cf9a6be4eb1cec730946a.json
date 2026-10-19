@@ -1,0 +1,22 @@
+{
+  "id": "f985b6dc362c995b7f348ff4f4401439f296c454699cf9a6be4eb1cec730946a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Vision-language models for chest radiography do not always need the image",
+  "url": "https://arxiv.org/abs/2606.17710",
+  "summary": "arXiv:2606.17710v3 Announce Type: replace-cross Abstract: Vision-language models that answer questions about chest radiographs are evaluated by their accuracy on labels derived from radiology reports. High benchmark accuracy is often interpreted as evidence that the model uses the image. A model that answers from the finding named in the question can score as well as a model that uses the radiograph. Keeping the question fixed, we audit eight open-weight systems by swapping in another patient's radiograph with the same or the opposite label, occluding the radiologist-marked region or an equal region elsewhere, and removing the radiograph or replacing it with noise or a photograph. On 2,548 yes-or-no questions from MIMIC-CXR, one multimodal model answers Yes regardless of the image, another multimodal model changes its answers without following the label, and four systems use the image but keep about half of their correct answers when the radiograph is swapped for an opposite-label radiograph. A medical model that receives only the question text scores 55.3% on the pooled questions, higher than two multimodal systems. It scores 91.8% where every finding is present, and answering Yes to every question scores 100% there. Where the image is necessary, the best multimodal system exceeds this model by 10.4% in balanced accuracy. The categories are unchanged on CheXpert. Confidence is not higher when a correct answer depends on the marked region. In a reader study with three radiologists, the two radiologists who read a balanced set of 200 cases score 86.0% and 82.0%, and the systems score 50.0% to 73.0%. Accuracy does not establish image use, but an intervention on the image can test it.",
+  "published": "2026-06-16T09:22:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.845464+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T11:48:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.17710v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.544622+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "119b497125264b44cd930d9959224c06d77047de909d41506504302799f9e7a9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Flow Reconstruction from Sparse Measurements in Urban Drainage Networks: An Application and Evaluation of Data-Driven Sparse Sensing",
+  "url": "https://arxiv.org/abs/2511.04556",
+  "summary": "arXiv:2511.04556v3 Announce Type: replace Abstract: Urbanization and increasingly frequent intense storms are placing stress on urban drainage networks. While dense monitoring of urban drainage networks is desirable, practical constraints in time, budget, and technology hinder its full implementation. How to monitor and predict flow conditions across the entire network under constrained resources is a major challenge. To address this, we utilized and evaluated an established data-driven sparse sensing (DSS) workflow for sensor placement optimization and sewer flow reconstruction in a 77-node urban drainage network. A validated SWMM parameterization was used to construct a spatial basis using singular value decomposition (SVD), select rank-specific layouts using pivoted QR, and define the reconstruction decoder. Applied to 225 held-out simulations combining 25 plausible calibrated parameter sets with 9 rainfall events, a 3-node monitoring layout (4% of the network) achieved a median system-level Nash-Sutcliffe efficiency (NSE) of 0.791 and a 10th percentile of 0.719; all simulations exceeded NSE = 0.700. The pivoted QR-selected sensor sets were benchmarked against reference sensor configurations obtained from Greedy D-optimal and genetic algorithm, matching their performance without requiring iterative layout searches. We further evaluated the framework's robustness by introducing multiplicative Gaussian noise and simulating individual sensor failures, finding that performance was insensitive to noise but varied based on the location of lost monitored nodes. The reconstruction's sensitivity to monitored node loss was consistently associated with energy-weighted modal exposure with a leave-one-node-out Spearman correlation coefficient of 0.781, which was strongly correlated with the lost node's upstream drainage area, mean adjacent circular-conduit diameter, and nodal active flow fraction.",
+  "published": "2025-11-06T17:08:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.430171+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T13:49:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2511.04556v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.713928+00:00"
+}

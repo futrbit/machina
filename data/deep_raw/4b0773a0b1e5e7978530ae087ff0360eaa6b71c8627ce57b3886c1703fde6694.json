@@ -1,0 +1,21 @@
+{
+  "id": "4b0773a0b1e5e7978530ae087ff0360eaa6b71c8627ce57b3886c1703fde6694",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "DGT-Map: Directional Global Traversability Mapping Utilizing Multi-Task Learning for Heterogeneous Vehicles",
+  "url": "https://arxiv.org/abs/2609.30461",
+  "summary": "arXiv:2609.30461v1 Announce Type: new Abstract: Off-road traversability is direction-dependent and vehicle specific, yet most global maps assign a single isotropic cost to each location. Existing learned estimators are also commonly trained independently for each vehicle; this preserves vehicle-specific behavior but prevents vehicles from sharing common terrain representations. DGT-MAP addresses both limitations through a self-supervised framework that learns global, directional, and vehicle-conditioned traversability costmaps from RGB-D observations and locomotion signals. A shared multi-task backbone learns common terrain features across training vehicles while vehicle-specific prediction heads preserve platform-dependent responses. At inference, DGT-MAP produces a heading-indexed costmap that can be used by a direction-aware planner. We evaluate DGT-MAP in simulation by integrating it into a Hybrid A* navigation stack and measuring downstream task success on challenging terrains, including slopes that are traversable downhill but not uphill and a ridge obstacle that is traversable by some vehicles, but not by others. Across evaluated tasks, DGT-MAP achieves the highest or tied-highest navigation success rate when compared against geometric, binary, and learned direction-agnostic baselines.",
+  "published": "2026-09-24T18:54:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.372072+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T18:54:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30461v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.325563+00:00"
+}

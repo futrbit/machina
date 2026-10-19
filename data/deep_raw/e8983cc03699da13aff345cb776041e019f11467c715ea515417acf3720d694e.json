@@ -1,0 +1,22 @@
+{
+  "id": "e8983cc03699da13aff345cb776041e019f11467c715ea515417acf3720d694e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "On the effectiveness of reward functions in reinforcement learning for confidence calibration of large language models",
+  "url": "https://arxiv.org/abs/2607.04332",
+  "summary": "arXiv:2607.04332v2 Announce Type: replace Abstract: In this paper, we consider the setting where large language models (LLMs) are trained using reinforcement learning (RL) to simultaneously improve reasoning accuracy and verbalize their confidence. Our reward scheme uses two functions for rewarding confidence verbalized by the LLM: one for correct answers and the other for incorrect answers. If poorly designed, such a scheme may incentivize an LLM to answer incorrectly in order for its confidence to be calibrated, a phenomenon we term confidence reward hacking. We introduce the notion of non-hackable confidence reward schemes and provide methods for constructing them. We show that selective confidence reward hacking can arise in practical datasets under hackable reward schemes while non-hackable reward schemes are resistant to hacking. Finally, we place some of these schemes along an overconfidence-underconfidence spectrum for RL-based confidence calibration and demonstrate experimentally that they tend to exhibit the corresponding calibration biases relative to other schemes in the spectrum. The code of our experiments is available in https://anonymous.4open.science/r/rl-confidence-calibration-9ED4/README.md.",
+  "published": "2026-07-05T14:29:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.118463+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:46:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.04332v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.345742+00:00"
+}

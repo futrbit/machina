@@ -1,0 +1,21 @@
+{
+  "id": "faf60fbfa04320f38271aed44725cb7400198cd373313c07fad68240c224ab87",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Boosting Large Language Models with Mask Fine-Tuning",
+  "url": "https://arxiv.org/abs/2503.22764",
+  "summary": "arXiv:2503.22764v3 Announce Type: replace-cross Abstract: The large language model (LLM) is typically integrated into the mainstream optimization protocol. However, it remains underexplored whether maintaining the model integrity is \\textit{indispensable} for promising performance. In this work, we introduce Mask Fine-Tuning (MFT), a novel LLM fine-tuning paradigm demonstrating that carefully breaking the model's structural integrity can surprisingly improve performance without updating model weights. MFT learns and applies binary masks to well-optimized models, using the standard LLM fine-tuning objective as supervision. Based on fully fine-tuned models, MFT uses the same fine-tuning datasets to achieve consistent performance gains across domains and backbones (e.g., an average gain of 2.70/4.15 on IFEval with LLaMA2-7B/3.1-8B). Detailed ablation studies and analyses examine the proposed MFT from different perspectives, including the sparse ratio and the loss surface. Additionally, when deployed on well-trained models, MFT is compatible with other LLM optimization procedures to improve overall model performance. Furthermore, this study extends the masking operation beyond its conventional use in network pruning for model compression to encompass a broader range of model capabilities.",
+  "published": "2025-03-27T20:17:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.190789+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:26:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2503.22764v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.397119+00:00"
+}

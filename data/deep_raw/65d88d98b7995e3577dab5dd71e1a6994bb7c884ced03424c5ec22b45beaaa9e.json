@@ -1,0 +1,22 @@
+{
+  "id": "65d88d98b7995e3577dab5dd71e1a6994bb7c884ced03424c5ec22b45beaaa9e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Same Reward, Different Skills: When Multimodal RL Learns to Look",
+  "url": "https://arxiv.org/abs/2610.01908",
+  "summary": "arXiv:2610.01908v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) improves vision-language benchmark scores even without visual information during training. With images at test, blind-trained models recover roughly half of the real-image gain at 3B and nearly four fifths at 7B. Prolonged real-image training can erode grounding while benchmark gains persist. Both findings expose the same gap: an image in the prompt is not an image in the learning signal. Our design rule, visual resolvability, asks that visual evidence be necessary for a correct answer and that the task remain learnable. We test it on counterfactual coordinate scenes in which the question stays fixed and the target is never named, so a correct answer requires finding the target in the image. With standard GRPO and correctness-and-format rewards, a 7B model raises its accuracy at finding the target (discovery) from 0.425 to 0.875 on held-out scenes denser than any it trained on, and it improves on question types it never trained on. Two controls locate the source of the gain. Replacing test images with gray canvases drops discovery to zero; training on gray canvases instead, at matched step 30 and in each of four seeds, yields essentially none of the gain even when the model is then tested with real images. The learned skill carries over to grounding tasks built independently of the training corpus. A caption that answers the training question, added to the same images, reward and budget, cuts the gain by nearly two thirds. Changing what reward requires changes what RL learns.",
+  "published": "2026-10-01T15:53:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.799492+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T15:53:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01908v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.890222+00:00"
+}

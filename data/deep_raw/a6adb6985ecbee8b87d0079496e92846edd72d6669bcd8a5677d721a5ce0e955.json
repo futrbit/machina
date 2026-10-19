@@ -1,0 +1,21 @@
+{
+  "id": "a6adb6985ecbee8b87d0079496e92846edd72d6669bcd8a5677d721a5ce0e955",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "RobotUse: Allocating Computation, Context, and Decisions",
+  "url": "https://arxiv.org/abs/2610.04929",
+  "summary": "arXiv:2610.04929v2 Announce Type: replace Abstract: Robot agents must connect their intended actions to observed outcomes while retaining the context needed to revise their choices over repeated attempts. Existing interfaces often leave these choices inside predefined tools or require agents to manage detailed execution code and its growing history. We introduce RobotUse, a robot agent harness that organizes computation, context, and decisions around specifying and revising physical actions. Agents visually select targets and poses, while the backend handles geometry, motion planning, and control. Subagents retain detailed interactions within each subgoal and return the information needed for subsequent decisions. Continual harnessing lets agents learn from execution by updating a persistent playbook. On RoboLab, RobotUse achieves 45% task success, outperforming CaP-X by 6.7 percentage points while maintaining compact decision contexts and reducing reliance on predefined action abstractions. Furthermore, we show that RobotUse learns from real-world execution despite imperfect feedback and transfers what it learns to subsequent tasks. Project page is available at https://robotuse-team.github.io/.",
+  "published": "2026-10-04T04:15:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.488005+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:04:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.04929v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.322360+00:00"
+}

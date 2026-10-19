@@ -1,0 +1,22 @@
+{
+  "id": "a88e27f887be0d82c2a5d56a58d01177d81e347b5ae81a06bb1af16f91abc28e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "TraceRelay: Attention-Aligned Recurrence over Rolling Traces",
+  "url": "https://arxiv.org/abs/2610.11743",
+  "summary": "arXiv:2610.11743v1 Announce Type: new Abstract: We present TraceRelay, an attention-aligned recurrent architecture that distributes persistent representations over a rolling sequence of low-dimensional traces. Local right looking attention forms increments from lower-layer representations; delivery is delayed until all attended inputs are in the causal past. A fixed additive phase recurrence accumulates the delayed increments, and left-looking attention reads the resulting residual augmented stream. A stride-wise prefix sum supports parallel prefill and bounded-buffer continuation. We study 36 small-model runs on Equal Repeats, bounded Dyck closing-type prediction, and causal Most-Freq generation, using three seeds per setting. At trained length 256, Equal Repeats models with recurrent phase inheritance reach 98.81-99.69% accuracy versus 50.73-51.63% for separately trained variants without inheritance, despite the latter receiving more updates. Accuracy drops sharply at lengths beyond the training range. At the longest evaluated lengths, models with more dimensions in the middle layer's recurrent traces perform better on Dyck (76.34% versus 55.49% close accuracy at length 4096), whereas models with fewer trace dimensions perform better on five-symbol Most-Freq (70.74% versus 55.60% exact generation at length 1024). These contrasting cases motivate further study of how the size of recurrent representations should be chosen for different tasks, without establishing a general rule across tasks or model configurations.",
+  "published": "2026-10-08T11:34:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.090428+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:34:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11743v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.355340+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "36f92d4933a74b44323e0b2801d50245434e43f8142f7ba987408708b64f196a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Advertising to Agents: Measuring Description-Framing Bias in LLM Tool Selection",
+  "url": "https://arxiv.org/abs/2605.23916",
+  "summary": "arXiv:2605.23916v3 Announce Type: replace-cross Abstract: AI agents often pick tools from registries, where each provider writes its tool's description; we ask whether sales language there changes which tool an agent picks. We built pairs of listings that differ in one way (praise, a verifiable specification, or list order) and asked two OpenAI models to call one tool. In a preregistered study, stacked praise (four kinds) raised a tool's pick rate by about 43 percentage points, matching or beating a verifiable specification. Praise also pulled some picks toward tools whose numeric limit was too small. With identical listings, the first-listed tool was picked about 72 points more often. Structured fields helped agents pick the capable tool; sales text beside them reduced or erased that gain. An exploratory study of five models shows the same direction; a \"Sponsored\" label dampened it, and a system-prompt warning moved one model. Registries could list limits as fields, hide sales text from agents, and randomize order. Stacked praise replicated on held-out domains; no single kind did after correcting for multiple tests. Preregistered results are provisional until blind phrase ratings are complete, and cover two small models.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.218125+00:00"
+}

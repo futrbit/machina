@@ -1,0 +1,22 @@
+{
+  "id": "05e3ef278a2bc72038c07fd262a4bd92b12f54d38c428b2a26c59b9e748196fa",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SplitJEPA: Learning Invariant and Variant Latent Worlds without Reconstruction",
+  "url": "https://arxiv.org/abs/2610.12349",
+  "summary": "arXiv:2610.12349v1 Announce Type: new Abstract: Understanding a dynamical world calls for more than a latent state that summarizes its observations: the state should also be organized into the factors that stay shared across related observations and the factors that vary between them. For example, a robot pushing a cube to a goal should take the same action when the camera shifts or the lights dim, since nothing in the scene has moved. Existing approaches to this decomposition commonly obtain it through reconstruction, so the latent variables must first explain the entire observational world before their organization can be trusted. Joint embedding predictive architectures (JEPAs) model the latent state directly and never reconstruct, yet no existing result recovers the invariant and variant parts of the state they learn. How to learn the invariant-variant structure of the latent world without paying for its reconstruction therefore remains open. To close this gap, we introduce SplitJEPA, a JEPA that jointly recovers the latent state and its invariant and variant organization directly in representation space, without any reconstruction. We prove that, under stationary Gaussian predictive dynamics and a full-rank variation condition, SplitJEPA identifies the invariant and variant subspaces up to independent block-wise isometries, without introducing an observation decoder. Since the guarantee needs no decoder, the result extends reconstruction-free latent recovery to invariant-variant block identification. Experiments on synthetic nonlinear systems and robotic manipulation tasks support the theoretical results and show their practical value for both robustness and efficiency.",
+  "published": "2026-10-08T17:19:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.097424+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:19:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12349v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.361140+00:00"
+}

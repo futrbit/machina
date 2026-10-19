@@ -1,0 +1,21 @@
+{
+  "id": "477b760b90ce3b9dc95df1314ff8498282c41280d693b4caa0cb7e1362363478",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "When to Think Fast and Slow? AMOR: Adaptive Entropy Gate for Hybrid Models",
+  "url": "https://arxiv.org/abs/2602.13215",
+  "summary": "arXiv:2602.13215v3 Announce Type: replace Abstract: Recurrent-attention hybrids aim to combine the efficiency of recurrence with the contextual recall of attention, but existing approaches typically apply attention uniformly across all positions, even when the recurrent state alone is sufficient for accurate prediction. We introduce AMOR (Adaptive Metacognitive Output Router), a post-hoc hybrid architecture that selectively invokes attention based on predictive uncertainty. A recurrent backbone is augmented with entropy-gated attention blocks that activate only when the model's output entropy exceeds a dynamic threshold derived from a running batch median and scaled standard deviation. The resulting binary gate requires no learned routing parameters. Pretrained from scratch on FineWeb-Edu and with attention invoked on only ~40% of positions, one of the AMOR variants (Mamba2 or Gated DeltaNet backbones) achieves the highest eight-task common-sense reasoning average at each scale among pure recurrent, pure attention, and fixed-schedule hybrid models. AMOR also improves retrieval performance over pure recurrent models while remaining competitive against fixed-schedule hybrids. Additionally, AMOR retains the long-context robustness of its recurrent backbones, where the Transformer and other hybrid architectures degrade under distribution shift. These results suggest that when attention is applied matters as much as how much: selectively allocating attention based on predictive uncertainty improves accuracy, robustness, and efficiency, offering a simple alternative to uniform or fixed routing strategies.",
+  "published": "2026-01-22T17:19:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.430689+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T17:19:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.13215v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.915809+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "47dcb50d02a5856038360a29552dd32945d1fbaca0c9c7155ddff099d663ad5a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Computationally efficient goodness-of-fit tests through kernelized Stein discrepancy",
+  "url": "https://arxiv.org/abs/2512.20007",
+  "summary": "arXiv:2512.20007v3 Announce Type: replace-cross Abstract: Models with intractable normalizing constants are widely used in statistics and machine learning. Assessing the adequacy of such models poses significant challenges: obtaining samples from the fitted model often requires sophisticated sampling algorithms. Moreover, model fitting sometimes requires iterative numerical optimization, making bootstrap procedures that require repeated refitting computationally expensive. In this paper, we leverage the kernel-based testing framework to develop a general semiparametric goodness-of-fit test based on the kernelized Stein discrepancy. We establish the consistency and the asymptotic null distribution of the test statistic under general nuisance estimation. To produce a level-$\\alpha$ test, we propose a novel influence-adjusted wild bootstrap that requires neither refitting the model nor sampling from it. We prove the consistency of the proposed bootstrap test procedure under the null and the alternative, and characterize its limiting power under contiguous local alternatives. Across simulations ranging from classical normality testing to models with intractable likelihoods, the proposed test delivers competitive or superior power at a computational cost orders of magnitude lower than that of existing approaches. We illustrate the method by assessing the adequacy of a protein signaling network model for reverse-phase protein array data from lung adenocarcinoma tumors. As a complementary insight, we show that the SKSD test can be regarded as a nonparametric score test under exponentially tilted models, connecting score-based and distance-based goodness-of-fit testing.",
+  "published": "2025-12-23T03:05:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.127459+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:17:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.20007v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.925803+00:00"
+}

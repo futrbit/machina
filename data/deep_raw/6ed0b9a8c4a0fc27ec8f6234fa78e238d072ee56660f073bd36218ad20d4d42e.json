@@ -1,0 +1,22 @@
+{
+  "id": "6ed0b9a8c4a0fc27ec8f6234fa78e238d072ee56660f073bd36218ad20d4d42e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Robust Is Salient: An Informed Adversary Moves the Optimal Signal onto the Salience Pole",
+  "url": "https://arxiv.org/abs/2610.00233",
+  "summary": "arXiv:2610.00233v1 Announce Type: cross Abstract: When an informed adversary shares the audience of a constrained signalling channel, the signal that best protects the truth is the signal that best describes it. On 108 confirmatory items, the adversary-robust optimum aligns exactly with the salience pole from prior work. Across a 200,000-item pool, the two differ on only 2,748 items --- lying exactly where the prior salience-to-Bayes coordinate is undefined. Where defined, robustness is achieved by moving from Bayesian discrimination entirely to salience. We show this by introducing an adversary to a forced-choice task (abstracted from Deception: Murder in Hong Kong). The adversary knows the target, observes the signal, and argues for the strongest wrong answer using a persuasion budget, $\\beta$. As $\\beta$ grows, the optimal signal shifts from the posterior-maximizing option to the margin-maximizing one; at $\\beta = 0$, the game reproduces the original oracle model with a listener temperature of $\\tau = 1$. This effect is real: 18.2 percent of the pool has an optimum that shifts under a finite budget, and each item's critical budget is exact. This coincidence structurally limits empirical evaluation. Two adversary framings change the chosen option of seven language models on 30 to 77 of 108 items against an exact no-effect rate. Yet, no measurement can determine whether this movement is toward the adversary-aware optimum or toward salience, because the two options are identical. This is a structural limit, not a null result. The diagnostic check is cheap: before evaluating adversary-awareness, verify whether the robust target coincides with a heuristic target on the evaluation items.",
+  "published": "2026-09-23T00:52:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.806488+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-23T00:52:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00233v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.038133+00:00"
+}

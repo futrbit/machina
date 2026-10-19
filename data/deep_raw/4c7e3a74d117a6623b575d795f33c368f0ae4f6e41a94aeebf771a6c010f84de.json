@@ -1,0 +1,21 @@
+{
+  "id": "4c7e3a74d117a6623b575d795f33c368f0ae4f6e41a94aeebf771a6c010f84de",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Navigation with RF Cues: Embodied Perception Action under Multipath Uncertainty",
+  "url": "https://arxiv.org/abs/2610.08105",
+  "summary": "arXiv:2610.08105v1 Announce Type: new Abstract: Smart factory inspection requires robots to reach connected equipment without a prior map or known target coordinates. Radio frequency (RF) signals from the target can provide directional cues to complement visual observations when occlusion or poor lighting limits target detection. However, multipath propagation can distort these cues, making it difficult to infer the target's true direction from instantaneous RF measurements. To enable navigation research under these conditions, we first construct a Habitat Sionna RT benchmark that uses detailed scene geometry and assigned material properties to generate aligned visual and RF observations in response to robot actions. Building on this benchmark, we propose an uncertainty aware multimodal navigation framework that jointly estimates target direction and its uncertainty from a history of RF, visual, and pose observations. These estimates inform action selection alongside visual context. Experiments in unseen scenes show relative improvements of 18.2% in success rate (SR) and 11.5% in success weighted by path length (SPL) over the strongest evaluated baseline.",
+  "published": "2026-10-06T10:31:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.462022+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:31:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08105v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.406514+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "f9f8fdcac65e5e72fab390ed45c86b8e60077a65b88bd27896df8ba34fe2931e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Sample-Optimal Estimation of the Fr\\'echet Inception Distance",
+  "url": "https://arxiv.org/abs/2610.07114",
+  "summary": "arXiv:2610.07114v1 Announce Type: cross Abstract: The Fr\\'echet Inception Distance (FID) is widely used to evaluate generative models, but its empirical plug-in estimator suffers from finite-sample bias [BSAG18, CF20]. We study the sample complexity $n$ of estimating FID to error $\\epsilon$ between $d$-dimensional Gaussians with bounded mean distance and covariances, when one distribution is known. Our contributions are threefold. (1) We establish tight finite-sample $\\Theta(\\frac{d^2}{n})$ bias and $\\Theta(\\frac{d}{n} + \\frac {d^2} {n^2})$ variance bounds for the empirical plug-in estimator, establishing a $\\gtrsim d^2$ sample complexity. (2) To debias the empirical plug-in estimator, we generalize the ${\\rm FID}_\\infty$ estimator of [CF20] to extrapolation methods of arbitrary order $k$. We further prove tight bias and variance bounds of $\\Theta(\\frac{d^{k + 2}}{n^{k + 1}})$ and $\\Theta(\\frac d n + \\frac{d^2}{n^2})$ for any order-$k$ extrapolation under our framework. (3) We introduce Relative Taylor Debiasing (RTD), a new, computationally efficient FID estimation algorithm using debiasing techniques inspired by U-statistics. We show that RTD achieves an $O(\\frac d {\\epsilon^2})$ sample complexity, and prove that this is optimal. We provide a complementary empirical evaluation of our new estimators. Our experiments on synthetic Gaussians validate the predicted residual bias and support the tightness of our bounds. On ImageNet with Inception embeddings, RTD achieves the lowest mean estimation error at the standard 50K sample budget, while our second-order variance-aware extrapolation estimator (VALE$_2$) uses only 10K samples to achieve accuracy comparable to FID$_\\infty$ at 50K samples.",
+  "published": "2026-10-05T16:03:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.529377+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-07T03:30:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07114v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.419105+00:00"
+}

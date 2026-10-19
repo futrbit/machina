@@ -1,0 +1,22 @@
+{
+  "id": "f00e0ccee5d7fdefee340f4eb294dd3880879401c9e52d15e7eabea8b3ea7572",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Have an LLM Write Your Anomaly Detector: Autonomous Discovery of Compact, Interpretable Detectors for Time Series",
+  "url": "https://arxiv.org/abs/2610.01223",
+  "summary": "arXiv:2610.01223v1 Announce Type: new Abstract: Time-series anomaly detection trades off predictive accuracy, computational efficiency, and interpretability. We use a large language model not as the detector but as the author of one: an autonomous research loop in which the model repeatedly edits a single short NumPy program under a leakage-free objective, keeping the best-scoring detector it finds. The loop discovers two compact detectors, one for univariate and one for multivariate series, that describe short windows by their local spectral features and compare them with the training-region distribution through a covariance-aware distance. On the TSB-AD benchmark these detectors lead the field across metrics, ahead of the strongest classical, deep, and foundation-model baselines including Time-RCD, yet they train no network and use no GPU, and the multivariate detector is faster than every similarly performing baseline. LLM-driven program search is thus a practical route to accurate, efficient, and transparent detectors.",
+  "published": "2026-10-01T07:26:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.787500+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T07:26:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01223v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.438686+00:00"
+}

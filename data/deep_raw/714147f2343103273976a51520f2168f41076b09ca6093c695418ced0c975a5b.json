@@ -1,0 +1,21 @@
+{
+  "id": "714147f2343103273976a51520f2168f41076b09ca6093c695418ced0c975a5b",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Attention from Action, for Action: Emergent Visual Bottlenecks for Policy Learning",
+  "url": "https://arxiv.org/abs/2608.13422",
+  "summary": "arXiv:2608.13422v2 Announce Type: replace Abstract: Visual bottlenecks that focus policy inputs on regions of interest (ROIs) can improve data-efficient visuomotor learning by separating where to look from how to act. Many ROI interfaces rely on external spatial labels, such as gaze, object classes, or affordance annotations. Label-free alternatives often derive crops from trajectories by detecting gripper or motion events and centering a fixed crop at the projected end-effector. Such action-derived crops are useful spatial priors that require no additional labels, but they encode fixed choices about event timing, proxy points, and crop scale. When the visual evidence needed for control lies away from the end-effector or changes continuously with task progress, these crops can become misaligned. We propose Seeker, a task- and state-conditioned readout that learns attention from action. Starting from frozen DINOv3 features, Seeker iteratively updates a query with gathered visual evidence, producing progression-aware ROIs solely from action supervision. The learned ROI serves as a spatial interface for RGB cropping, mask-guided background augmentation, and point-cloud filtering. In simulation and the real world, Seeker improves data efficiency and robustness over no-crop, augmentation, and action-derived crop baselines. On real robots, Seeker raises average in-domain success from the best baseline's 48.3% to 76.7% and success under lighting/background shifts from 20.0% to 60.0%.",
+  "published": "2026-08-13T16:14:07Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.762529+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:19:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.13422v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.116087+00:00"
+}

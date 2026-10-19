@@ -1,0 +1,17 @@
+{
+  "id": "215450cced2a909cf3a90f38ee79667bbe1d0cc0c8fa86031a2c31f88a072f5f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LexPilot: Benchmarking the Proactive Interaction Ability of Legal LLMs with Laypeople in Chinese Civil Case Consultation",
+  "url": "https://arxiv.org/abs/2610.23141",
+  "summary": "arXiv:2610.23141v1 Announce Type: new Abstract: Large Language Models (LLMs) have greatly assisted legal professionals. However, our empirical studies reveal that, when faced with underspecified consultations from non-experts, current LLMs often produce irresponsible responses with limited utility despite lacking sufficient case details for definitive conclusions. To better assist laypeople, legal LLMs must identify focal points of dispute and proactively elicit crucial context from users. Unfortunately, existing data resources often focus on interaction and response quality, offering limited insight into how proactive interaction affects LLMs' downstream claim-level judgment prediction in actual civil cases. To address this gap, we introduce \\textbf{LexPilot}, a benchmark linking proactive legal interaction to claim-level verdict prediction using authentic Chinese civil judgments. Constructed from 432 real-world judgments across 36 common causes of action, LexPilot comprises expert-reviewed pairs of complete and underspecified consultation histories with corresponding court verdicts. Experiments reveal that current LLMs struggle with proactive legal interactions in underspecified consultations, with downstream judgment prediction substantially underperforming that in the fully specified consultation setup (-23.84% on average). Further analysis identifies critical bottlenecks hindering these capabilities. Our work highlights the urgent need for more user-centered legal AI to better serve the public.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.183146+00:00"
+}

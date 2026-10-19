@@ -1,0 +1,21 @@
+{
+  "id": "85245152a5760a1bd01c612f9e62cd6e42d574170ed2b66409ae16642f3d534d",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Moving Horizon Estimation for Quadrotors: An $\\mathcal{L}_1$ Adaptive Optimizer Approach",
+  "url": "https://arxiv.org/abs/2609.30777",
+  "summary": "arXiv:2609.30777v1 Announce Type: new Abstract: Moving Horizon Estimation (MHE) is a state estimation method based on finite-horizon optimization that can offer higher accuracy at the cost of increased computation compared to Kalman filter-based approaches. We present a linear smoothing MHE formulation as a dense Quadratic Program (QP), and a solver consisting of a continuous-time Newton's method augmented with the $\\mathcal{L}_1$ Adaptive Optimizer ($\\mathcal{L}_1$-AO). While MHE is inherently time-varying, conventional approaches treat it as a sequence of independent, time-invariant problems and employ iterative solvers at each time step, which can be both inaccurate and computationally burdensome. In contrast, time-varying solvers track the optimal solution with fewer iterations by exploiting the temporal evolution of the problem, thereby reducing the computational load. In this research, we enhance both the performance and efficiency of MHE through a time-varying solver with an $\\mathcal{L}_1$-AO augmentation that compensates for the prediction inaccuracy, which is common in practice due to noisy sensors and the lack of prior knowledge of the system. Simulation results on a quadrotor platform show that the $\\mathcal{L}_1$-AO-augmented approach solves the MHE optimization problem more efficiently than the baseline time-invariant solver and achieves higher estimation accuracy under challenging conditions, compared with both the Extended Kalman Filter and the standard MHE.",
+  "published": "2026-09-25T04:01:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.375098+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T04:01:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30777v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.536832+00:00"
+}

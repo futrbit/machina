@@ -1,0 +1,18 @@
+{
+  "id": "e05af9d5be2b91bdb6ec648c4ff107e5bccbdc922032fcb3a3ad8511d116d6f4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Generative molecule evolution using 3D pharmacophore for efficient Structure-Based Drug Design",
+  "url": "https://arxiv.org/abs/2507.20130",
+  "summary": "arXiv:2507.20130v2 Announce Type: replace Abstract: Recent breakthroughs in generative models have shown great promise for drug discovery, yet Structure-Based Drug Design (SBDD) faces two critical challenges: the scarcity of high-quality protein-ligand complex data and the practical synthesizability of generated molecules. While ligand-based approaches benefit from billion-scale small molecule datasets, they often lack the structural context of the target protein. To address these dual challenges of data scarcity and synthetic inaccessibility, we propose MEVO, a generative molecular evolutionary framework that operates within a synthesizable chemical space. MEVO introduces a reaction-aware generative model trained on reaction routes constructed by applying predefined reaction templates to Enamine Building Blocks. The model jointly generates molecules and corresponding synthesis sketches consistent with these templates. By integrating this generative capability into a pocket-aware evolutionary strategy, MEVO iteratively refines molecular structures within the synthesizable chemical space, guided by a hierarchical scoring function that combines fast approximation with rigorous Absolute Binding Free Energy Perturbation (ABFEP) calculations. This framework efficiently generates high-affinity, synthetically feasible binders for diverse protein targets. We validate MEVO's performance through rigorous ABFEP calculations, demonstrating its ability to design potent inhibitors for challenging targets such as KRAS$^{\\textrm{G12D}}$, achieving affinities comparable to known active inhibitors. By integrating the data richness of ligand-based learning with the precision of structure-based optimization, MEVO offers a holistic solution that ensures both high binding affinity and synthetic accessibility, paving the way for more efficient and practical structure-based drug design.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.224734+00:00"
+}

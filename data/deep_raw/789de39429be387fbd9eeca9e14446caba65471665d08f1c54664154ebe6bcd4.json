@@ -1,0 +1,22 @@
+{
+  "id": "789de39429be387fbd9eeca9e14446caba65471665d08f1c54664154ebe6bcd4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Q-MINO: A Minimal-Norm Method for Quantization-Aware Training",
+  "url": "https://arxiv.org/abs/2610.00738",
+  "summary": "arXiv:2610.00738v1 Announce Type: cross Abstract: The Straight-Through Estimator (STE) is a widely used heuristic for Quantization-Aware Training (QAT), but its surrogate gradients can exhibit substantial mismatch with the underlying quantized objective, leading to noisy updates and parameter oscillations, particularly in ultra-low-bit regimes. We propose the Quantization-Aware Minimal-Norm Optimizer (Q-MINO), a temporal bundle method that combines gradient consensus, state-drift regularization, and an alignment constraint to construct stabilized, minimum-norm update directions from recent optimization states. Q-MINO solves the resulting constrained subproblem using a warm-started Frank--Wolfe procedure with a feasible fallback initialization. Theoretically, via a stochastic Lyapunov Kurdyka--\\L ojasiewicz (KL) framework, we show that Q-MINO achieves asymptotic neighborhood convergence. Moreover, we detail numerical experiments with Q-MINO at various quantizations.",
+  "published": "2026-09-30T21:31:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.813484+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T21:31:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00738v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.293979+00:00"
+}

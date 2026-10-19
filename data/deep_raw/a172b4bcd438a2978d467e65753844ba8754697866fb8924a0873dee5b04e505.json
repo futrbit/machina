@@ -1,0 +1,22 @@
+{
+  "id": "a172b4bcd438a2978d467e65753844ba8754697866fb8924a0873dee5b04e505",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CATCH: A Controllable Analysis Testbed for Reward Hacking in Coding RL",
+  "url": "https://arxiv.org/abs/2609.39533",
+  "summary": "arXiv:2609.39533v2 Announce Type: replace-cross Abstract: During reinforcement learning with verifiable rewards (RLVR), large language models (LLMs) can exploit loopholes in their environments to obtain high rewards without improving the intended capabilities, i.e., reward hacking. Despite its risks to training efficiency and safety, monitoring and mitigating reward hacking during training remain challenging, which is limited by a lack of testbeds that reproduce hacking and reliably identify it. We introduce CATCH, a controllable testbed for studying reward hacking in coding RL. CATCH deliberately exposes environmental loopholes and provides execution-based gold labels by comparing success under a vulnerable evaluator with task correctness under an independent audit. It also can control the model's initial hacking tendency through supervised fine-tuning data mixtures and the difficulty of earning rewards through reward designing, enabling systematic comparisons of hacking dynamics and interventions. Experiments show that CATCH can produce diverse RL training trajectories with clear reward hacking, and analyses demonstrate that both initial models and reward difficulties shape the emergence of reward hacking. We further evaluate the effectiveness of different reward hacking detection and mitigation methods. A key finding is that a chain-of-thought monitor initially suppresses hacking, but this protection erodes as the policy model learn to mislead the monitor with code comments. This highlights the need to evaluate hacking mitigations throughout training with CATCH. The source code and resources are publicly released at https://github.com/THUAIS-Lab/CATCH.",
+  "published": "2026-09-30T11:36:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.849461+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-02T07:42:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.39533v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.126477+00:00"
+}

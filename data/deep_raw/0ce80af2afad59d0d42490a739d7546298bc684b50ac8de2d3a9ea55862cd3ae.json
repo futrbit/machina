@@ -1,0 +1,22 @@
+{
+  "id": "0ce80af2afad59d0d42490a739d7546298bc684b50ac8de2d3a9ea55862cd3ae",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Universal interpolation for deep residual self-attention networks",
+  "url": "https://arxiv.org/abs/2610.01981",
+  "summary": "arXiv:2610.01981v1 Announce Type: new Abstract: Universal approximation is a necessary qualitative property of learning architectures to benefit from scaling laws. While it is generically verified on a variety of neural architectures and random feature models, it typically involves infinite width limits. In this work, we focus on deep self-attention models and consider instead the `dual' regime, where approximation power is enabled entirely by depth, and featuring strong parameter sharing across layers, motivated by recent models such as the Looped Transformers. More specifically, we ask whether one can find a predefined finite set of parameters, each defining an attention block, such that the resulting finite set of transformations can map any collection of $N$ sequences of $n$ tokens to any other collection of $N$ sequences of $n$ tokens. Crucially, these transformations are \\emph{fixed independently of the input and output} collections: only the order in which the blocks are applied, their signs, and their durations depend on the particular interpolation task. Our main result establishes it for residual softmax attention using only two frozen single-head blocks with Gaussian-initialized projection matrices. The result holds at both continuous and finite depth. We also characterize the restrictions imposed by causal masking and establish corresponding universal interpolation guarantees.",
+  "published": "2026-10-01T16:25:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.800491+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:25:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01981v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.582007+00:00"
+}

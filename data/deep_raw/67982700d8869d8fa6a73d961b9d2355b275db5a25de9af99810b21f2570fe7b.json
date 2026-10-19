@@ -1,0 +1,21 @@
+{
+  "id": "67982700d8869d8fa6a73d961b9d2355b275db5a25de9af99810b21f2570fe7b",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "ProactiveVLA: Augmenting Embodied Memory through Proactive Environment Exploration",
+  "url": "https://arxiv.org/abs/2610.06999",
+  "summary": "arXiv:2610.06999v1 Announce Type: new Abstract: Rapid adaptation to a new environment requires a robot to acquire useful knowledge about local objects, states, and interactions from limited experience. Systems that combine a reasoning agent with a frozen vision-language-action model (VLA) can adapt through execution feedback and memory, making the choice of experience central to their effectiveness. Repeated practice of a target task may refine a familiar solution while leaving other interactions relevant to changed conditions untested. We introduce ProactiveVLA, which uses proactive environment exploration to acquire reusable knowledge for deployment-time adaptation. After completing an initial task, the agent allocates the remaining interaction budget to self-proposed goals covering object affordances, state-changing interactions, and compositions of interactions. It verifies execution outcomes and consolidates both task-directed and exploratory experience into memory that guides subsequent planning and control. ProactiveVLA outperforms the baselines under the same turn budget on LIBERO-Pro and RoboCasa365 Composite-Seen. On LIBERO-Pro Goal-T, with at most one VLA primitive invocation allowed during evaluation, ProactiveVLA completes 48% of instances, compared with 19% for the state-of-the-art task-refinement baseline.",
+  "published": "2026-10-04T08:47:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.452028+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T08:47:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06999v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.932198+00:00"
+}

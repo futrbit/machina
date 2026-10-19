@@ -1,0 +1,22 @@
+{
+  "id": "6f45f8b87a89b4650d2ca4d485c7f7d19951d90f1a6073a26affaf183407d7e5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Optimization Encoders: Rethinking Second-Order Meta-Learning for Neural Fields",
+  "url": "https://arxiv.org/abs/2610.08075",
+  "summary": "arXiv:2610.08075v1 Announce Type: cross Abstract: Conditional neural fields represent signals continuously, but their effectiveness depends on how the conditional latent representations are inferred from observed data. In meta-learning, this encoding occurs through gradient updates induced by the decoder, tying representation learning directly to decoder design. We formalize this connection by interpreting latent optimization as an optimization encoder, unifying the roles of second-order differentiation, latent parameterization, and task supervision. This concept enables second-order meta-learning for end-to-end training of the encoding procedure alongside the decoder, and clarifies which learning pathway first-order approximations discard. Guided by this view, we introduce Attentive Latent Fields (MetaLF), an equivariant transformer-based neural field that contextualizes a latent pointcloud through self-attention. These interactions shape both field predictions and the updates that construct their representation, allowing local observations to inform coherent non-local structure. Disentangling the inner encoding objective from outer task supervision unifies reconstruction, classification, and segmentation within an end-to-end meta-learning framework, using reconstruction-only latent adaptation at test time. Controlled experiments on polynomial fields link latent coordination to lower effective rank and stronger alignment with the underlying function space. Across image and 3D shape reconstruction, MetaLF improves fidelity within three to five gradient updates, while supporting semantic prediction across images, shapes, and volumes. Together, these findings position the optimization encoder perspective as a unified basis for designing neural fields around how representations are constructed, coordinated, and used.",
+  "published": "2026-10-06T10:05:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.532376+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:05:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08075v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.048128+00:00"
+}

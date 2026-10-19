@@ -1,0 +1,22 @@
+{
+  "id": "610b98cebb893e54493c3c2b1b7377fe3822e154e249b56f050e6520ffe32bc6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Pooling Helps, Learned Weighting Hurts In-Context: Decomposing Group Attention",
+  "url": "https://arxiv.org/abs/2610.01831",
+  "summary": "arXiv:2610.01831v1 Announce Type: new Abstract: Group attention, introduced by the time series forecasting model Chronos-2, attends over the variates of a group at a fixed patch index and serves both multivariate (MV) and in-context learning (ICL) forecasting. Rather than evaluating this cross-variate attention design as a whole, we ask which part of the mechanism earns the benefit and probe its applicability to both MV and ICL regimes. By editing the attention matrix $\\alpha$ at inference we separate the two pathways a head comprises: V/O, which projects a weighted summary of the group, and Q/K, which decides the weights. Uniform pooling (V/O without any Q/K weighting) is positive on 18 of our 20 sensor-network configurations, while the learned weighting (Q/K) splits by group type: its contribution is positive or negligible for MV, but materially degrades 8 of the 10 sensor-network ICL configurations, leaving 4 of them worse than univariate inference. By isolating the impact of different layers, we find that uniforming $\\alpha$ in the first block alone improves every ICL configuration we test.",
+  "published": "2026-10-01T15:05:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.798493+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T15:05:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01831v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.819265+00:00"
+}

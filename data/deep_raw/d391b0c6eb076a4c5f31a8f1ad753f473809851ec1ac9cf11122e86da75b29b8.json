@@ -1,0 +1,21 @@
+{
+  "id": "d391b0c6eb076a4c5f31a8f1ad753f473809851ec1ac9cf11122e86da75b29b8",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Can Semantic Geometry Teach an AI Judgement?",
+  "url": "https://arxiv.org/abs/2610.07249",
+  "summary": "arXiv:2610.07249v1 Announce Type: new Abstract: How can an AI agent determine what rules to follow? One rule permits an action. Another imposes a condition, exception, or conflicting obligation. Deterministic systems can resolve those relationships when they have been specified. When they remain implicit in language, an agent can follow one rule while missing another that should stop it. Refusing every unresolved action avoids that risk, but also blocks permissible actions. We wanted the agent to make the distinction and still act. Our initial hypothesis was that geometric measurements could supply a basis for judgment. We represented actions and policies as vectors, then tested whether their geometry could identify governing policies and interpret the action's relation to them. Across four studies, the tested approaches did not establish reliable pre-action judgment. In the final synthetic study, a lexical router recovered every governing and blocking policy while reducing median policy checks by 97.7%. The composed pipeline nevertheless escalated all 2,304 test actions, including those it should have allowed. Supplying every policy to the same downstream mechanism changed no decision. Finding the policies had not solved the problem of interpreting them. This result led us to revise our hypothesis: judgment in AI agents requires developing a consequence graph. Such a graph would connect the actor and authority to policy conditions, exceptions, and the changes an action would produce. Follow-on studies will ask whether making those relationships explicit helps the agent distinguish when to act, stop, or seek review.",
+  "published": "2026-10-05T18:49:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.125829+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:49:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07249v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.110883+00:00"
+}

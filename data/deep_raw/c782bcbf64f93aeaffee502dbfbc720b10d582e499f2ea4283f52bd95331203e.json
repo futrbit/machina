@@ -1,0 +1,22 @@
+{
+  "id": "c782bcbf64f93aeaffee502dbfbc720b10d582e499f2ea4283f52bd95331203e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Systematic Evaluation of TabPFN-TS and Chronos-2 for Zero-Shot Heat Load Forecasting in District Heating Networks",
+  "url": "https://arxiv.org/abs/2608.20024",
+  "summary": "arXiv:2608.20024v2 Announce Type: replace Abstract: District heating energy hubs require reliable heat load forecasts for efficient operational scheduling. Forecasting models trained on historical data may require retraining as networks evolve. Zero-shot time-series foundation models and in-context forecasting therefore offer a promising alternative: they can adapt at inference time from recent observations rather than by repeated retraining. This study systematically evaluates TabPFN-TS and Chronos-2 for probabilistic heat load forecasting in two German district heating networks and compares them with trained baselines. We assess whether TabPFN-TS, whose underlying model is pretrained entirely on synthetic tabular rather than time-series data, can capture complex district heating dynamics. We analyze covariate choice, context length, temporal resolution, and forecast horizon on selected operating weeks, evaluate the selected configuration over the full year, and assess cross-network transfer. The principal benchmark assumes perfect weather forecasts; a separate sensitivity analysis uses retrospective weather predictions. Hourly 24-hour forecasting with a 12-week rolling context and ambient temperature provides a parsimonious configuration; longer context windows do not improve accuracy. Both TSFMs outperform all trained baselines in deterministic accuracy in the full-year benchmarks. Chronos-2 achieves the best deterministic scores, with TabPFN-TS remaining close: their CVRMSE values on the main data set are 12.48% and 13.07%, respectively. Chronos-2 also achieves lower continuous ranked probability scores in both networks, with TabPFN-TS remaining close. a TSFM-based Multi-Resolution Residual-Correction Forecaster combines an hourly base forecast with short-term high-resolution corrections. Relative to direct high-resolution forecasting, it generally reduces errors in total heat demand over 12-hour periods and recorded prediction times.",
+  "published": "2026-08-20T13:33:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.119463+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:22:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.20024v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.956977+00:00"
+}

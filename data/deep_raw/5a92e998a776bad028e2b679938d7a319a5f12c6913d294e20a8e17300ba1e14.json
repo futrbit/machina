@@ -1,0 +1,18 @@
+{
+  "id": "5a92e998a776bad028e2b679938d7a319a5f12c6913d294e20a8e17300ba1e14",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "TriINR: Unsupervised Atmospheric Turbulence Mitigation with Triple Implicit Neural Representations",
+  "url": "https://arxiv.org/abs/2610.23454",
+  "summary": "arXiv:2610.23454v1 Announce Type: new Abstract: Atmospheric turbulence degrades image quality in long-range imaging. The degradation is generally modeled with two spatio-temporally varying components, tilt and blur. Recent unsupervised turbulence mitigation methods have demonstrated the effectiveness of representing a sharp image as an implicit neural representation (INR). However, their tilt and blur representations remain frame-dependent, and the number of optimization parameters grows with the number of input frames. To address this limitation, we propose TriINR, an unsupervised turbulence mitigation method that recovers a sharp image from multiple degraded frames. TriINR represents the sharp image, tilt, and blur as three implicit neural representations. By modeling tilt and blur as spatio-temporal INRs, TriINR achieves frame-count-independent degradation representation and memory-efficient optimization. We further incorporate physical and statistical properties of atmospheric turbulence as constraints on the INRs to improve restoration accuracy. Experiments on synthesized turbulence data with three degradation strengths show that TriINR restores images more robustly across varying turbulence strengths than prior TM methods and achieves the highest accuracy among the evaluated unsupervised methods. Our method also demonstrates robustness on real long-range scenes containing additional non-ideal motion.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.045090+00:00"
+}

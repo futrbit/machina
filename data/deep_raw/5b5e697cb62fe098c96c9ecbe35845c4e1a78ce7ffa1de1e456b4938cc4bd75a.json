@@ -1,0 +1,21 @@
+{
+  "id": "5b5e697cb62fe098c96c9ecbe35845c4e1a78ce7ffa1de1e456b4938cc4bd75a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Which and When to Admit: Gradient Admission for Data-Centric Small Language Model Finetuning",
+  "url": "https://arxiv.org/abs/2610.07553",
+  "summary": "arXiv:2610.07553v1 Announce Type: cross Abstract: LoRA fine-tuning adapts small language models (SLMs) to heterogeneous instruction data within a low-rank update subspace, making it vulnerable to three structural problems: conflicting gradients that cancel, static data selection that cannot track evolving learning dynamics, and subspace saturation that causes later updates to overwrite useful directions. We argue that effective adaptation therefore requires controlling which data-induced gradients enter the LoRA subspace and when. We propose GRADE (GRadient-Aligned Data-centric rEcipe), a data-centric framework combining two mechanisms: a state-aware selector that continually admits samples aligned with the evolving multi-task gradient field, and a self-calibrating step-level gate that rejects updates likely to cause destructive overwrite near saturation. Across three current-generation backbones and a heterogeneous seven-dataset instruction pool, GRADE outperforms strong data-selection and PEFT-stabilization baselines in accuracy and robustness. It is the only method to improve consistently over standard LoRA on every architecture, while producing more coherent gradient trajectories and less destructive overwrite. These results show that successful SLM adaptation depends not only on which data are selected, but also on which gradients are allowed to enter and persist in the constrained update subspace.",
+  "published": "2026-10-06T00:34:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.163806+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:34:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07553v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.916806+00:00"
+}

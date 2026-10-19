@@ -1,0 +1,21 @@
+{
+  "id": "cde026c9874da2c7bf33945658a191cf1121a5de37981f0c41543c8ad27930e7",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Confidence-Ordering Reversal under Contextual Priors in Neural Decoding",
+  "url": "https://arxiv.org/abs/2610.08229",
+  "summary": "arXiv:2610.08229v1 Announce Type: new Abstract: Contextual priors improve neural-to-language decoding by reshaping candidate scores. However, confidence is read from the same reshaped scores, so the errors a prior leaves behind can become more confident with no change in accuracy to reveal it. We study how a prior shapes confidence in speech retrieval on MEG-MASC and MOUS using local decoding scores, a contextual prior combined by additive shallow fusion, and the fused top-two margin as confidence. Among initially incorrect predictions, we find a confidence-ordering reversal: a larger margin makes a repair more likely when the correct candidate starts near the top of the local ranking, but less likely when it starts lower. On MEG-MASC, pooled correctness AUROC is 0.87, yet AUROC separating repairs from residual errors falls from 0.70 at initial ranks 2-3 to 0.39 at ranks 21-50. Errors starting beyond rank 20, inside the reversed region, make up 46.6% of all post-fusion errors. We propose a score-level account: a repair must first close the correct candidate's initial deficit, limiting its final margin, whereas a residual error can build a large margin between two incorrect candidates. A causal intervention that changes only the fusion weight moves the reversal to deeper ranks as predicted. Under a word-level LM prior, it keeps moving after accuracy gain peaks, so a weight chosen for accuracy does not settle confidence. Reading local and prior scores separately improves selective decoding: the decoder answers on 74.5% of windows instead of 56.7%, while 92% of output sets still contain the correct candidate. Confidence after contextual fusion should retain the local and contextual evidence behind each prediction, not just the fused scores. Project website: https://confidencereversal.github.io/; Code: https://github.com/AmadeusFake/NeuDecodingConfReversal",
+  "published": "2026-10-06T12:17:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.145815+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:17:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08229v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.037929+00:00"
+}

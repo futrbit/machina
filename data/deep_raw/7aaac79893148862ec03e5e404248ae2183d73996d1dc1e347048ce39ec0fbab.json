@@ -1,0 +1,21 @@
+{
+  "id": "7aaac79893148862ec03e5e404248ae2183d73996d1dc1e347048ce39ec0fbab",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Learning Probabilistic Logic Programs with Functional Gradient Guided Language Models",
+  "url": "https://arxiv.org/abs/2610.12303",
+  "summary": "arXiv:2610.12303v1 Announce Type: new Abstract: Declarative logic programs offer a powerful and interpretable abstraction for encoding relational structure and neurosymbolic reasoning, by expressing dependencies as weighted compositional rules. However, inducing them from data remains fundamentally hard, bottlenecked by the combinatorial explosion of symbolic search spaces. LLMs have recently emerged as powerful hypothesis generators, but when used in isolation, they lack the capacity to do systematic inductive reasoning needed to reliably synthesize valid programs that fit complex relational distributions. We introduce grasp (Gradient-boosted Synthesis of Probabilistic logic programs), a neurosymbolic framework that casts relational structure learning as functional gradient boosting in which the weak learner is a first-order rule and the intractable inner search is delegated to an LLM proposal oracle. We evaluate grasp on four relational benchmarks spanning molecular toxicity prediction (Tox21), mutagenesis, and citation matching (Cora), and show that it improves over purely symbolic, neural, and LLM-based baselines, while producing interpretable weighted rule ensembles. By replacing combinatorial search with gradient-guided LLM hypothesis generation, grasp retains boosting guarantees without sacrificing the transparency of symbolic outputs.",
+  "published": "2026-10-08T16:53:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.376386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:53:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12303v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.347947+00:00"
+}

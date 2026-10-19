@@ -1,0 +1,21 @@
+{
+  "id": "557500298c2e8f239aaf650a778d49ba852869525fa6a33f2107f0ddd9d8e978",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Trajectory-Retrieval Speculative Decoding: When Does a Model's Own History Help?",
+  "url": "https://arxiv.org/abs/2610.07350",
+  "summary": "arXiv:2610.07350v1 Announce Type: new Abstract: Long chain-of-thought reasoning increases sequential decoding cost while creating a growing history of potentially reusable continuations. We investigate when this history supplies useful drafts and complements an existing drafter. Controlled source comparisons reveal trajectory-specific reuse, motivating our method Trajectory-Local Adaptive Retrieval (TLAR). TLAR retrieves approximately matched continuations from the current trajectory and uses recent verification outcomes to adapt retrieval activation and candidate width. TLAR combines retrieved continuations with model-generated drafts in a shared candidate tree, preserving the target model's output distribution through exact verification. Across code debugging, mathematics, and open-ended writing, our evaluation connects source reuse, incremental acceptance, and execution cost. Combining TLAR with strong retrieval baselines improves token acceptance under matched verification budgets and increases end-to-end throughput over the draft-model baseline. These findings support generated trajectories as runtime memory for adaptive inference.",
+  "published": "2026-10-05T20:19:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.128827+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:19:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07350v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.594400+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "c7db9429dceb30c21a1c1fd6e15f99406f244c09679a3647d4e7367b01cefe60",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Label Noise Robust Algorithm for Graph Data using Neighborhood Label Distribution",
+  "url": "https://arxiv.org/abs/2610.22998",
+  "summary": "arXiv:2610.22998v1 Announce Type: new Abstract: Graph Convolutional Networks (GCNs) have demonstrated exceptional performance on graph-structured data. However, their success heavily relies on the availability of clean labels, an assumption that often fails in real-world scenarios. The learnability of GCNs is intrinsically linked to the neighborhood structure of nodes, making it critical to understand how this structure changes in the presence of label noise. In this work, we investigate how the neighborhood label distribution of a node changes under label noise. We mathematically derive that label noise smooths this distribution, which inherently increases its entropy and severely decreases interclass distinguishability. To address this challenge, we propose Leave-one-out Entropy Node Screening (LENS), an end-to-end framework that identifies noisy nodes by measuring the reduction in neighborhood entropy when a specific node is removed. LENS further incorporates a relabeling mechanism to recover and preserve valuable feature information instead of entirely discarding the identified noisy nodes. Crucially, the end-to-end computational overhead of LENS is remarkably low. Extensive evaluations demonstrate that our algorithm achieves state-of-the-art node classification accuracy while executing an order of magnitude faster than existing noise-robust approaches.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.225733+00:00"
+}

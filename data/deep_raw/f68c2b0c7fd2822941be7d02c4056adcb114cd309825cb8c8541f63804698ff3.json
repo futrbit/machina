@@ -1,0 +1,22 @@
+{
+  "id": "f68c2b0c7fd2822941be7d02c4056adcb114cd309825cb8c8541f63804698ff3",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Block Optimism for Nonstationary Bandits with Latent Linear Dynamics",
+  "url": "https://arxiv.org/abs/2610.00911",
+  "summary": "arXiv:2610.00911v1 Announce Type: cross Abstract: We study an endogenous nonstationary stochastic bandit problem with latent linear dynamics, where actions affect both immediate rewards and the future evolution of an unobserved latent state. Rewards are bilinear in the current action and latent state, inducing history-dependent rewards and a nontrivial long-horizon planning problem. The existing explore-then-commit approach achieves $\\tilde{O}(T^{2/3})$ regret by uniformly exploring to estimate the latent dynamics and then committing to an optimized open-loop action sequence. We show that this rate can be improved via adaptive block-level optimism. Our key step is a cyclic approximation: under stable dynamics, the infinite-memory reward process can be truncated, and the open-loop benchmark can be approximated by optimizing a finite-memory block-level proxy. Building on this reduction, we propose a UCB-based block algorithm that maintains confidence sets for the truncated dynamics parameters and selects blocks optimistically. We prove a regret bound of order $\\tilde{O}(\\sqrt T)$, significantly improving over the previous $\\tilde{O}(T^{2/3})$ guarantee for the same model. To the best of our knowledge, this is the first $\\tilde{O}(\\sqrt T)$ regret guarantee for latent linear-dynamics bandits with bilinear reward observations and an open-loop action-sequence benchmark.",
+  "published": "2026-10-01T01:43:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.814483+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T01:43:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00911v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.510642+00:00"
+}

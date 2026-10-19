@@ -1,0 +1,17 @@
+{
+  "id": "799011302c3111525a0539e785b6bbd93fce7abb59e7d5cc6ee121d1a1859577",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "F-LIVO: A Feature-Level Geometric Measurement Framework for LiDAR-Inertial-Visual Odometry",
+  "url": "https://arxiv.org/abs/2610.23595",
+  "summary": "arXiv:2610.23595v1 Announce Type: new Abstract: Measurement-level LiDAR-Inertial-Visual Odometry (LIVO) can achieve high accuracy, and its practical resource requirements depend on the adopted association and map-maintenance strategy. Persistently attaching dense photometric patches or appearance attributes to mapped LiDAR points can introduce additional storage, association, and update costs. This paper presents F-LIVO, a filter-based LIVO framework that couples a visual-inertial subsystem and a LiDAR-inertial subsystem through feature-level point-to-plane constraints between visual points and LiDAR planes. To preserve cross-modal coupling when visual triangulation is weak, we further recover visual feature depth from the LiDAR map through local plane fitting and ray-plane intersection. In the LiDAR update, the covariance of each point-to-plane residual is adaptively scaled according to local planar reliability, thereby reducing overconfident updates on poorly conditioned surfaces. Because the proposed method relies on sparse geometric features rather than persistent dense photometric map attributes, it retains a compact map representation. Experiments on multiple public datasets show competitive, sequence-dependent accuracy. Across the evaluated degradation cases, F-LIVO maintains continuous estimation with comparatively low accumulated end-to-end drift. Under the evaluated resource configuration, it achieves the lowest mean and peak central processing unit (CPU) usage, the lowest peak resident set size (RSS), and the lowest RSS growth rate among the evaluated implementations, while R2LIVE retains a lower mean RSS. The source code will be made publicly available upon acceptance to facilitate reproducible research.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.152653+00:00"
+}

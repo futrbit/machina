@@ -1,0 +1,22 @@
+{
+  "id": "c84e53c692bcda3bf9f72cbbb32bb0f895e8559919ecbc519dbcca275d501938",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Benchmarking Time Series Foundation Models for Load Forecasting Under Covariate Uncertainty",
+  "url": "https://arxiv.org/abs/2610.07232",
+  "summary": "arXiv:2610.07232v1 Announce Type: new Abstract: Accurate short-term load forecasting (STLF) is essential for the reliable and efficient operation of modern power systems. While time series foundation models (TSFMs) have recently demonstrated remarkable performance across a wide range of forecasting tasks, their effectiveness for STLF under realistic operational conditions remains largely unexplored. In this paper, we present a comprehensive benchmark of four trained-from-scratch (TFS) models and four TSFMs across three real-world load forecasting datasets under operational scenarios that differ in the availability and quality of future covariate information. Our results show that Chronos-2 consistently achieves state-of-the-art performance in both zero-shot and fine-tuned settings when future covariates are available or accurately forecast. However, its performance degrades as covariate forecasts become increasingly noisy, whereas TimesNet exhibits greater robustness under severe covariate uncertainty. These findings demonstrate the effectiveness of covariate-informed TSFMs for STLF while highlighting the critical role of robust covariate modeling in real-world forecasting applications.",
+  "published": "2026-10-05T18:37:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.052503+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:37:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07232v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.970968+00:00"
+}

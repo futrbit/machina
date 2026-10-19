@@ -1,0 +1,22 @@
+{
+  "id": "377d87cbd854e51261512d2e39ec8f7a7dde071f1ea0262231185db9fed04306",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Improving Mixup Calibration with Wasserstein Distributionally Robust Optimization",
+  "url": "https://arxiv.org/abs/2506.17874",
+  "summary": "arXiv:2506.17874v3 Announce Type: replace-cross Abstract: In many real-world applications, ensuring the robustness and stability of deep neural networks (DNNs) is crucial, particularly for image classification tasks that encounter various input perturbations. While Mixup-based data augmentation techniques have been widely adopted to enhance the resilience of trained models against such perturbations, our experiments reveal an important corruption robustness-calibration trade-off: stronger Mixup-based augmentation can improve robustness against corrupted data while substantially increasing expected calibration error (ECE). To address this challenge, we introduce DRO-Augment, a framework that integrates Wasserstein Distributionally Robust Optimization (W-DRO) with various Mixup-based data augmentation strategies to mitigate this trade-off. Our method substantially reduces ECE under strong Mixup-based augmentation while largely preserving corruption accuracy across CIFAR-10, CIFAR-100, CIFAR-10-C, and CIFAR-100-C. On the theoretical side, we establish novel generalization error bounds for neural networks trained using a variation-regularized loss function with augmented data, closely related to the W-DRO problem. Furthermore, we introduce a refined CIFAR-C benchmark that corrects inconsistencies in corruption intensities, providing a more reliable evaluation for future robustness research.",
+  "published": "2025-06-22T02:18:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.552363+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T03:25:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2506.17874v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.645969+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "be4d06baf03af577f61cee720b3ebd099668c8b915d6ac5c23976f0accb4b667",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "A Controlled Study of Self-Supervised Image and Video Pretraining under Limited Resources",
+  "url": "https://arxiv.org/abs/2608.13183",
+  "summary": "arXiv:2608.13183v2 Announce Type: replace Abstract: Visual foundation models are a cornerstone of image and video understanding but typically require large amounts of data and computation. The current scale required for pretraining visual foundation models may be unsustainable or unnecessary, and significant benefits arise when effective models can be obtained with fewer resources. To better understand how self-supervised learning (SSL) objectives behave under resource constraints, we conduct a controlled study of image and video SSL objectives under matched data, architecture, and compute budgets. We compare contrastive, reconstruction, feature-prediction, and diffusion objectives and evaluate both standalone and jointly trained image-video SSL formulations across a diverse set of image and video understanding tasks. Our results show that DINOv2-style pretraining consistently provides the strongest overall performance under limited resources. Furthermore, combining DINOv2 with video SSL objectives such as VideoMAE substantially improves image classification and segmentation performance, but degrades video tracking and camera-pose estimation performance, revealing an important tradeoff between semantic and geometric representation learning. These findings suggest that combining image and video SSL objectives can be beneficial in resource-limited settings, while highlighting the need for improved methods that better balance semantic, temporal, and geometric supervision.",
+  "published": "2026-08-13T12:47:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.236781+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T10:43:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.13183v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.840047+00:00"
+}

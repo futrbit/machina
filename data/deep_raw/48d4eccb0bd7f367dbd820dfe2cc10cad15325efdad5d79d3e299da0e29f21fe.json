@@ -1,0 +1,17 @@
+{
+  "id": "48d4eccb0bd7f367dbd820dfe2cc10cad15325efdad5d79d3e299da0e29f21fe",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "HyVGGT-VO: Hybrid Dense Visual Odometry With Classical VO and Feed-Forward Model",
+  "url": "https://arxiv.org/abs/2604.02107",
+  "summary": "arXiv:2604.02107v2 Announce Type: replace Abstract: Dense visual odometry (VO), which provides pose estimation and dense 3D reconstruction, serves as the cornerstone for applications ranging from robotics to augmented reality. Recently, feed-forward models have demonstrated remarkable capabilities in dense mapping. However, when these models are used in dense visual SLAM systems, their keyframe-based processing often leads to sparse pose outputs, limiting continuous per-frame pose estimation. In contrast, traditional sparse methods provide high-frequency pose outputs but lack the capability for dense reconstruction. To address these limitations, we propose HyVGGT-VO, a novel framework that combines the computational efficiency of sparse VO with the dense reconstruction capabilities of feed-forward model. To the best of our knowledge, this is the first work to tightly couple a traditional VO frontend with VGGT. Specifically, we design an adaptive hybrid tracking frontend that dynamically switches between traditional optical flow and the VGGT model to ensure robustness. Furthermore, we introduce a hierarchical optimization framework that jointly refines VO poses and the scale of VGGT predictions to ensure global scale consistency. Under the odometry setting, compared with VGGT-SLAM 2.0, HyVGGT-VO reduces the average ATE by approximately 91% on EuRoC MAV and 20% on TUM RGB-D, and decreases the average relative translation and rotation errors by 46% and 92% on KITTI, respectively, while achieving 16.1 Hz pose output and 3.2 Hz dense-mapping updates with 6.5 GB of memory on an 8 GB laptop GPU.Our code is available at https://geneta2580.github.io/HyVGGT-VO.io.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.166644+00:00"
+}

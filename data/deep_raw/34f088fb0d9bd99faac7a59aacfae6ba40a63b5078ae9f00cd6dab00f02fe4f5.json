@@ -1,0 +1,22 @@
+{
+  "id": "34f088fb0d9bd99faac7a59aacfae6ba40a63b5078ae9f00cd6dab00f02fe4f5",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ORBIT-FMIB: Tracking Order-Resolved Epistatic Information Through ESM-2",
+  "url": "https://arxiv.org/abs/2610.00672",
+  "summary": "arXiv:2610.00672v1 Announce Type: new Abstract: Protein foundation models support mutation-effect and structural prediction, but predictive performance alone does not reveal which forms of biological interaction information remain accessible through model depth. We ask whether ESM-2 retains higher-order epistatic information as strongly as first- and second-order information across its representation hierarchy, introducing ORBIT-FMIB, a diagnostic framework combining Walsh-based interaction decomposition with subset-conditioned neural dependence estimation. The method is validated on synthetic landscapes with known interaction structure before being applied to the dense four-site GB1 fitness landscape using frozen ESM-2 representations. An initial production run suggested ESM-2 retains higher-order epistatic information less well than lower-order information ($\\Delta_{\\mathrm{HO-LO}}=-0.107$). An independent replication of the complete measurement grid, under matched GPU hardware and identical critic seeds, substantially reduced this contrast ($\\Delta_{\\mathrm{HO-LO}}=-0.017$), and its sign was unstable across otherwise-defensible evaluation-pairing choices applied to the same trained critics ($-0.011$ to $+0.015$). We therefore do not currently have robust evidence that ESM-2 selectively loses higher-order epistatic information, nor that retention is equal across orders; the directional question remains open. The measurement protocol itself, including its documented removal of a positional-subset shortcut in pooled critics, remains validated and is unaffected by this finding. ORBIT-FMIB is offered as a diagnostic framework for probing interaction structure in protein foundation models; this study's own replication result illustrates why such probing requires adequately-powered reproducibility checks before its output is treated as a biological finding.",
+  "published": "2026-09-30T20:09:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.778505+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T20:09:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00672v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.597002+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b09cec4e6988d380e5fff535283350fe85bb9e29f6cb79a543163b53786176a2",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning PDE solution operators with variable initial conditions via Latent Dynamics Networks",
+  "url": "https://arxiv.org/abs/2610.08475",
+  "summary": "arXiv:2610.08475v1 Announce Type: new Abstract: In many-query scenarios, data-driven surrogate models provide an efficient alternative to high-fidelity solvers for simulating physical systems governed by Partial Differential Equations (PDEs). In this context, the Latent Dynamics Network (LDNet) has recently demonstrated remarkable performance in predicting the response of spatio-temporal systems, combining Neural Ordinary Differential Equations with nonlinear dimensionality reduction. However, the original formulation assumes a fixed initial condition, limiting its applicability to many real-world applications where a system evolves from varying starting states. In this work, we overcome this limitation while keeping the end-to-end training procedure of the original LDNet and its encoder-free nature, which preserves its intrinsic independence from spatial resolution and grid topology. We infer the initial latent state directly from a small set of early-time observations, treating latent-state initialization as an adaptation problem, and investigate two strategies: an auto-decoding formulation and a meta-learning approach in which the initial latent state acts as a task-specific context variable. We demonstrate the accuracy of the proposed methods across diverse physical phenomena, spanning advection-diffusion, fluid dynamics, and solid mechanics. Meta-learning markedly accelerates latent-state inference and induces smoother, better-conditioned optimization landscapes, and spontaneously organizes the latent space into a structured representation that reflects physically meaningful features of the underlying dynamics. The coordinate-based decoder enables training from spatially subsampled data while recovering high-resolution solution fields at inference. The resulting approach provides an efficient and resolution-independent surrogate modeling framework for many-query simulations of time-dependent PDEs with varying initial conditions.",
+  "published": "2026-10-06T14:55:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.077488+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:55:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08475v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.615183+00:00"
+}

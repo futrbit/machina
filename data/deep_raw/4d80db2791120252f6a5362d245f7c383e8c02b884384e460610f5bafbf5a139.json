@@ -1,0 +1,22 @@
+{
+  "id": "4d80db2791120252f6a5362d245f7c383e8c02b884384e460610f5bafbf5a139",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Large Scale Investigation of Scaling Limits in Chemical Language Models",
+  "url": "https://arxiv.org/abs/2508.13408",
+  "summary": "arXiv:2508.13408v3 Announce Type: replace Abstract: Chemical Language Models (CLMs) are increasingly used in de novo drug design, driven by recent growth in model scale, compute, and dataset size. However, the relationship between design choices, training dynamics, and downstream generation quality remains poorly understood. We present a compute-controlled scaling study of CLMs comprising more than 30,000 experiments across molecular representations (SMILES, SELFIES, SAFE), tokenizations (atom-level and byte-pair encoding), model scales (0.5M-1B parameters), leakage-controlled datasets (MOSES, ChEMBL, PubChem, ZINC-22), and architectures (decoder-only and encoder-decoder). By fitting IsoFLOP profiles, we establish clear scaling trends in pretraining loss, but find that these improvements do not translate into comparable gains in goal-directed molecular design. Layer-wise probing and sparse autoencoder analysis reveal continued development of chemical representations: chemical syntax saturates early, while semantic properties emerge more slowly and become increasingly accessible with further training and model scale. These representational gains coexist with diminishing improvements in goal-directed generation under the evaluated protocols and oracle budgets. Our resulting suite of models, NovoMolGen, achieves state-of-the-art results, outperforming prior CLMs and specialized generative models in goal-directed molecular generation across drug discovery tasks. These findings expose a disconnect between chemical representation learning and downstream molecular design, motivating the development of pretraining paradigms that more directly learn chemical semantics.",
+  "published": "2025-08-19T00:04:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.827475+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T09:36:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2508.13408v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.434497+00:00"
+}

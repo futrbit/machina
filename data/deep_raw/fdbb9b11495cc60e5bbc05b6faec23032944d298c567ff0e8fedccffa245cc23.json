@@ -1,0 +1,17 @@
+{
+  "id": "fdbb9b11495cc60e5bbc05b6faec23032944d298c567ff0e8fedccffa245cc23",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ARBOR: Locating Reasoning Failures in Long Chains of Thought through Reasoning State Tracking",
+  "url": "https://arxiv.org/abs/2610.22717",
+  "summary": "arXiv:2610.22717v1 Announce Type: cross Abstract: Large reasoning models solve complex problems through long chains of thought, in which prior work has documented failure modes such as overthinking, underthinking, and unsupported deductions. Existing methods detect these failures from local signals: textual similarity to nearby steps, switch tokens, or an LLM's judgment of a step's correctness. However, what a step contributes to the solution depends on the state that earlier steps have established, so identifying failures requires a global view that tracks that state across the trajectory. Therefore, we propose ARBOR, a reasoning-failure attribution framework that represents each trajectory as a tree of reasoning states, built as each step creates, verifies, prunes, or revisits a state, and attributes each failure to a relation between a step and the state preceding it. Using ARBOR, we refine the three failure modes into distinct subtypes that harm reasoning through different mechanisms and at different costs. We find that the tree state ARBOR maintains before a step separates failure steps from the at-risk steps at which the failure did not occur. We discuss how ARBOR integrates with existing mitigations at inference time and in training data. Code, data and interactive examples are available at https://inklab.usc.edu/ARBOR.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.193140+00:00"
+}

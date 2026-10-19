@@ -1,0 +1,22 @@
+{
+  "id": "8bbec9a048cc9411b1734e56e1b88c61a13dd028e615ce927616d389b3d21b58",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "MacJEPA: Missingness-Robust Audio-Visual Recognition from Untrimmed Egocentric Videos",
+  "url": "https://arxiv.org/abs/2610.08192",
+  "summary": "arXiv:2610.08192v1 Announce Type: new Abstract: Audio-visual models improve egocentric action recognition by exploiting complementary cues, yet typically assume that both streams remain available at inference. Existing missing-modality methods operate on trimmed, single-event clips in which a stream is entirely present or absent, whereas real sensors fail and recover within long, untrimmed observations. We redefine egocentric modality missingness as temporally localized sensor outages within untrimmed, multi-event observations, with whole-clip absence as the limiting case. We introduce \\textbf{MacJEPA}, a missing-modality-robust \\textbf{Ma}sked-\\textbf{c}ontext query \\textbf{JEPA} that recognizes visual actions and acoustic events from supplied interval queries over audio-visual context. Window-local modality dropout simulates these sensor outages during training. MacJEPA further repurposes masking in JEPA from a self-supervised pretext into a supervised robustness objective, aligning masked and clean latent representations of both multimodal content tokens and the task-conditioned queries. All objectives are optimized jointly with recognition in a single stage, requiring no test-time adaptation. Across Epic-Kitchens-100 and Epic-Sounds, a single checkpoint remains competitive under complete input and consistently surpasses published missing-modality baselines when either the dominant or auxiliary stream is removed. MacJEPA thus unifies strong full-input recognition with temporal missing-modality robustness in a single model operating on untrimmed multi-event videos.",
+  "published": "2026-10-06T11:42:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.521382+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:42:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08192v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.683743+00:00"
+}

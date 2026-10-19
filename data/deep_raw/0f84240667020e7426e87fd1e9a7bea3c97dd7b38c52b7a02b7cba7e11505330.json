@@ -1,0 +1,22 @@
+{
+  "id": "0f84240667020e7426e87fd1e9a7bea3c97dd7b38c52b7a02b7cba7e11505330",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Parametric Trajectory Distillation for Few-Step Video Generation",
+  "url": "https://arxiv.org/abs/2610.11498",
+  "summary": "arXiv:2610.11498v1 Announce Type: new Abstract: Video diffusion and flow models require many sequential evaluations, making generation computationally expensive. Few-step distillation reduces this cost but poses a capacity allocation problem: a student must match the teacher's iterative generation with far less sequential computation. Existing trajectory methods ask the student to reproduce teacher transitions that are highly curved at high noise, which can exceed its capacity and degrade fine detail. We introduce Parametric Trajectory Distillation (PTD), which lets the student parameterize teacher trajectory segments as polynomials and learn from teacher guidance along its own predicted path. PTD is designed to let the learned curvature adapt to the backbone's predictive capacity, preserving motion and diversity. The curvature head is used only in training; inference keeps the original backbone architecture. On Wan2.1-14B, four-step PTD sets a new state of the art for trajectory distillation, significantly improving dynamic quality and naturalness over PDD, the best-performing trajectory-only method on this model, under the same training setting. On the 33B audio-video MiniMax-H3, LoRA-trained PTD significantly improves diversity and naturalness over the state-of-the-art LightX2V Turbo. Blinded human votes give PTD 55.1% and 63.4% preference shares against PDD and LightX2V Turbo. Project page: https://alan-lanfeng.github.io/PTD/.",
+  "published": "2026-10-08T08:38:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.748060+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:38:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11498v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.674951+00:00"
+}

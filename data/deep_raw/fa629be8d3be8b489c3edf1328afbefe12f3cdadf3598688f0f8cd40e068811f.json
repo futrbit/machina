@@ -1,0 +1,22 @@
+{
+  "id": "fa629be8d3be8b489c3edf1328afbefe12f3cdadf3598688f0f8cd40e068811f",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Image-Space Refraction Correction for Underwater 3D Reconstruction: Warping Flat-Port Views into Pinhole Perspective",
+  "url": "https://arxiv.org/abs/2610.07788",
+  "summary": "arXiv:2610.07788v1 Announce Type: new Abstract: Consumer-grade cameras in flat-port housings are widely used for underwater exploration and mapping of coral reefs and seafloor habitats due to their low cost and accessibility. However, refraction at flat-port interfaces causes bowl-shaped deformation in reconstructed scenes and camera trajectories, compromising the metric accuracy required for mapping and navigation. To remove the dominant refractive distortion before reconstruction, we introduce a physics-based refraction correction in image space. Our method is downstream-agnostic: the refraction-corrected images can be directly used as input to existing reconstruction and SLAM algorithms. We characterize the refractive distortion through ray-tracing simulations and validate our correction on two real underwater datasets with differing scene structures. Compared with conventional and refractive Structure-from-Motion (SfM), our approach removes reconstruction deformation while registering more frames and maintaining low reprojection error. The correction further generalizes across diverse reconstruction and VSLAM backends, demonstrating its broad applicability to downstream vision pipelines.",
+  "published": "2026-10-06T05:33:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.517383+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:33:46Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07788v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.560613+00:00"
+}

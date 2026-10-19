@@ -1,0 +1,21 @@
+{
+  "id": "7b88d11958d2833161df362d2bb7cb70066d6df7477eea72d7984187a4f421ae",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Diagnosing Fine-Grained Inconsistency Classification in Financial Disclosure Text",
+  "url": "https://arxiv.org/abs/2607.26368",
+  "summary": "arXiv:2607.26368v3 Announce Type: replace-cross Abstract: Financial disclosures may contain numerical, temporal, referential, factual, and policy inconsistencies that require different evidence and reasoning to diagnose. We study fine-grained inconsistency classification: given a passage known to contain a conflict, the goal is to identify its type among 11 categories. Using a fixed snapshot of the synthetic SBID-FD benchmark, we compare frozen and fine-tuned encoders, evidence-augmented classifiers, prompted large language models, and LoRA-adapted generative models under a shared evaluation protocol. Task-specific adaptation yields large improvements over frozen representations, and a fine-tuned 300M encoder performs competitively with substantially larger prompted and adapted models. We further study whether localizing the conflicting claims improves classification through matched predicted-span, reference-span, and distractor-span conditions. The results show that automatically extracted evidence provides additional signal but recovers only part of the benefit obtained from reference spans. Per-class and confusion analyses further reveal that some inconsistency types are especially sensitive to localization quality, whereas others remain difficult even when the relevant evidence is supplied. These findings identify evidence localization and fine-grained type discrimination as distinct challenges and show that compact supervised encoders are strong baselines for this task.",
+  "published": "2026-07-29T01:03:53Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.198784+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:30:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.26368v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.369933+00:00"
+}

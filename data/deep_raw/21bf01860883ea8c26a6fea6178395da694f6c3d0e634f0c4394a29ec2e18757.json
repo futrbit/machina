@@ -1,0 +1,17 @@
+{
+  "id": "21bf01860883ea8c26a6fea6178395da694f6c3d0e634f0c4394a29ec2e18757",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Hardware-as-Regularization: Enhancing Data Consistency in Imitation Learning via an Adjustable Passive Compliant Leader Arm",
+  "url": "https://arxiv.org/abs/2610.22977",
+  "summary": "arXiv:2610.22977v1 Announce Type: new Abstract: Low-cost passive leader arms enable scalable data collection for imitation learning, but their lack of restoring forces leaves redundant joints unconstrained, yielding highly inconsistent joint-space trajectories. We address this with a low-cost passive joint module (an adjustable mechanical clutch and a 3D-printed spiral spring) that pulls each joint toward a user-defined neutral posture. This passive restoring force acts as a physical prior equivalent to joint-space $L_2$ regularization (``Hardware-as-Regularization''), improving kinematic consistency with shorter completion time than an unregularized arm and preserved movement smoothness. Experiments show substantial variance reduction over a naive passive arm, trajectory consistency on par with an active virtual spring of the same actuator class, and substantially higher downstream success rates (e.g., 73.3% vs. 36.7% on Block Stacking); a stiffness sweep shows consistency degrading monotonically as stiffness decreases, confirming that mechanical stiffness behaves like a regularization weight.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.146657+00:00"
+}

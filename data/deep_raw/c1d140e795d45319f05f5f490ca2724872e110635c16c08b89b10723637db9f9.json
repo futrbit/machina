@@ -1,0 +1,21 @@
+{
+  "id": "c1d140e795d45319f05f5f490ca2724872e110635c16c08b89b10723637db9f9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "S4oP: Operator-level Pruning of Structured State Space Models for Resource-Constrained Devices",
+  "url": "https://arxiv.org/abs/2606.18096",
+  "summary": "arXiv:2606.18096v2 Announce Type: replace-cross Abstract: Structured State Space Models (SSMs), including the S4 and S4D architectures, have recently emerged as powerful alternatives to attention-based models for capturing long-range dependencies in sequential data. Despite their strong empirical performance, deploying these models in time- and resource-constrained settings remains challenging due to their computational and memory demands. In this paper, we propose a novel incremental, operator-level pruning approach for S4- and S4D-based models that significantly reduces inference cost while preserving predictive performance. To the best of our knowledge, this is the first work to systematically investigate structured operator pruning for SSMs. Our method progressively prunes model operators by interleaving structured masking with fine-tuning, while jointly monitoring accuracy and inference latency. We implement this approach within a unified training and evaluation framework that enables systematic exploration of efficiency-accuracy trade-offs. Experiments across multiple benchmark datasets show that pruning up to 70% of the model operators preserves the performance of the original models in most cases, while substantially reducing inference latency. These results demonstrate that structured operator pruning is an effective and previously unexplored strategy for improving the efficiency of SSMs and facilitate their deployment in practical, resource-constrained scenarios.",
+  "published": "2026-06-16T15:59:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.423355+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:32:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.18096v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.883022+00:00"
+}

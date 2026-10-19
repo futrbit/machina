@@ -1,0 +1,21 @@
+{
+  "id": "b472e9a01ffaa3dd9e823616fa8a3091ecbb808404ff2bce3c86040ff3ecdc3e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Agentic-TTT: Training test-time policy for test-time training",
+  "url": "https://arxiv.org/abs/2610.12002",
+  "summary": "arXiv:2610.12002v1 Announce Type: cross Abstract: Test-time training (TTT) adapts an LLM's parameters using signals derived from test inputs, and can make striking improvements in pre-specified settings such as IMO competitions or designated open problems. By turning deployment experience into parameter updates, TTT provides a direct mechanism for model-level self-improvement. Yet TTT is not universally beneficial: each TTT algorithm works in different settings, and applying an ill-suited method could waste test-time compute or even damage model performance. Therefore, such parameter-level self-improvement requires agency: the model must decide when TTT is warranted, which algorithm to invoke, and whether an existing skill can be reused. To fill this gap, we introduce Agentic-TTT, which learns a test-time policy to govern those decisions. Agentic-TTT turns TTT procedures into callable tools, treats accumulated skills as an evolving deployment environment, and trains its policy using the observed utility gains from its decisions. On our benchmark, Agentic-TTT nearly doubles the utility over the backbone model, learns to trade off utility against compute, and generalizes to domains unseen during training. Together, these results point toward autonomous self-improvement: models that can decide how to learn from their own deployment experience.",
+  "published": "2026-10-08T14:06:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.398370+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:06:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12002v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.769295+00:00"
+}

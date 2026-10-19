@@ -1,0 +1,18 @@
+{
+  "id": "5dd95a59c96fb2d6520858a5d836921ac748c96dd8b545dae994389d42022bd1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "From User Recognition to Activity Counting: An Identity-Agnostic Approach to Multi-User WiFi Sensing",
+  "url": "https://arxiv.org/abs/2604.16572",
+  "summary": "arXiv:2604.16572v2 Announce Type: replace Abstract: WiFi Channel State Information (CSI) enables device-free human activity recognition, but multi-user methods typically assume a fixed set of known users and degrade on unseen individuals. We reformulate multi-user recognition as identity-agnostic activity counting, estimating how many users perform each activity without assigning actions to individuals. For a controlled comparison, identity-dependent predictions are converted to activity counts and evaluated with the same integer-valued metrics using a shared pipeline that differs only in output head and objective. On WiMANS, identity-agnostic counting achieves lower integer-count MAE than derived identity-dependent counts (0.0815 versus 0.0909 on a 0-5 count scale) despite using coarser supervision. This ordering holds across all eight environment-band conditions, while derived counts lead only in exact-match accuracy. Under leave-users-out evaluation, identity-dependent macro-F1 drops from 80.02% to 33.85%, its derived counts perform only slightly better than an all-zero predictor, and the exact-match advantage reverses, while identity-agnostic counting leads on all counting metrics. Silhouette analysis shows that identity-dependent embeddings cluster by user identity, whereas identity-agnostic embeddings cluster by activity composition. Activity counting therefore provides a more accurate and robust formulation for scene-level activity composition estimation without requiring a predefined user set.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.259713+00:00"
+}

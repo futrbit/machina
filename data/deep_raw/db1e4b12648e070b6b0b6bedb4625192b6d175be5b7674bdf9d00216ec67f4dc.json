@@ -1,0 +1,22 @@
+{
+  "id": "db1e4b12648e070b6b0b6bedb4625192b6d175be5b7674bdf9d00216ec67f4dc",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "ASV3D: Adapting Diffusion-Based Single-View 3D Reconstruction with Extra Imagery",
+  "url": "https://arxiv.org/abs/2608.08132",
+  "summary": "arXiv:2608.08132v2 Announce Type: replace Abstract: Reconstruction of 3D objects from a single image is a fundamental research topic in computer vision. The key challenge is the lack of information from critical viewpoints to complete 3D structures. Using an additional view may help to resolve the issue. However, there is no mechanism that can integrate the extra view into the diffusion-based single-view 3D reconstruction principle. We address this challenge by proposing ASV3D, a framework for adapting diffusion-based single-view 3D object reconstruction to test-time data with support from one additional image. We introduce two adaptation strategies: (i) a zero-shot adaptation scheme that leverages the auxiliary image to improve the reconstruction quality of an object without retraining, and (ii) an optimised adaptation scheme that further enhances visual fidelity and cross-view consistency via contrastive learning. We apply our ASV3D to improve two state-of-the-art diffusion-based single-view 3D reconstruction pipelines on both benchmark and real-world datasets. Results demonstrate that our approach consistently improves reconstruction accuracy and robustness under unconstrained multi-view inputs, outperforming the baselines in both quantitative metrics and human preference. We publish our code and the real-world object dataset on our project page at https://github.com/YNhuHuynh/ASV3D/tree/main.",
+  "published": "2026-08-08T13:39:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.788026+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:35:05Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.08132v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.200829+00:00"
+}

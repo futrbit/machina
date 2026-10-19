@@ -1,0 +1,18 @@
+{
+  "id": "e01d221398919e626edc435bc5782e5393dfcf3b72b7755ac157855189327b35",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Time-partitioning Gaussian Process Mixture Model",
+  "url": "https://arxiv.org/abs/2610.20860",
+  "summary": "arXiv:2610.20860v2 Announce Type: replace-cross Abstract: Nonstationarity and heterogeneous dynamics are common in financial and macroeconomic time series. Volatility alternates between calm and turbulent regimes, interest rates follow monetary-policy cycles, and major events trigger persistent structural shifts. We propose the Time-partitioning Gaussian Process Mixture Model (TPGPMM), a Bayesian nonparametric framework for regime identification and nonstationary prediction that infers such regimes and their within-regime dependence from data, without Markovian assumptions. It combines (i) an adaptive Pitman-Yor process prior on ordered compositions, mapped to block lengths with contiguity enforced by construction, and (ii) regime-specific Gaussian processes for temporal dependence, yielding a nonstationary predictive distribution. By inferring its discount parameter, the prior adapts to homogeneous and highly heterogeneous regime lengths. Unlike sequential or Markov-switching methods, it flags persistent structural shifts as change points rather than reacting to transient shocks. A split-merge Metropolis-within-Gibbs sampler with exact Gibbs updates of regime boundaries jointly learns change points and hyperparameters in batch, quantifying uncertainty over the partition and within-regime dynamics. With an RBF kernel and a fixed, data-informed noise level, TPGPMM produces a sparse, confident segmentation. On simulated data it recovers the true regimes, and on the CBOE Volatility Index and the 10-year US Treasury yield it identifies regimes aligned with documented market and monetary-policy events. For prediction, variants estimating the noise level fit better than change-point baselines and fit and forecast better than the main specification, at the cost of a less sparse or less event-aligned segmentation; with a regime mean, they fit better than a fitted stationary Gaussian process and have lower forecast RMSE except at the shortest horizons.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.299687+00:00"
+}

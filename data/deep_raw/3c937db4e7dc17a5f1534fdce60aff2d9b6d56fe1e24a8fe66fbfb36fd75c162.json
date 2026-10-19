@@ -1,0 +1,21 @@
+{
+  "id": "3c937db4e7dc17a5f1534fdce60aff2d9b6d56fe1e24a8fe66fbfb36fd75c162",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Entropy-Gated Belief Coordination for Decentralized Multi-Agent Search Under Intermittent Communication",
+  "url": "https://arxiv.org/abs/2610.07432",
+  "summary": "arXiv:2610.07432v1 Announce Type: new Abstract: We study decentralized multi-agent target search where homogeneous agents communicate intermittently at Poisson-distributed times. Standard unconditional belief fusion wastes communication opportunities by synchronizing agents during high-entropy exploration, when diverse independent beliefs provide better coverage than a premature consensus. We introduce \\emph{entropy-gated belief coordination}, in which agents skip fusion while their collective entropy ratio exceeds a threshold~\\(\\theta\\) and merge only during exploitation, consistent with the bifurcation structure of nonlinear opinion dynamics and the submodular structure of the per-step information gain objective. We further derive \\(\\Istep(\\alpha,\\beta)\\), the expected mutual information per observation step between two agents' binary sensors, as an interpretable, communication-free measure of sensor informativeness that motivates the gating design and guides system-level analysis. Experiments across 103{,}680 trials (nine grid sizes up to \\(100{\\times}100\\), Poisson communication timing, four target movement patterns) show that the Entropy-Gated Trust-Decay Planner (\\textsc{EG-TDP}), which adds a detection-probability planner switch in exploitation mode, achieves mean belief quality \\(\\bar{Q}=0.300\\) (mean belief mass at the true target cell, averaged across all trials and steps), a \\(58.9\\%\\) gain over arithmetic mean and a \\(37.4\\%\\) gain over visit-weighted fusion. On representative configurations, EG-TDP also outperforms a joint-Bayesian reference that uses all agents'~observations at every step, despite operating under random intermittent contact only.",
+  "published": "2026-10-05T21:39:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.455025+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T21:39:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07432v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.730921+00:00"
+}

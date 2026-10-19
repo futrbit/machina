@@ -1,0 +1,21 @@
+{
+  "id": "9c5248d36298be0e8299acf4d70b8ed815a1e21005122fa639c711a197f57aae",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Imperative Interference: Social Register Shapes Instruction Topology in Large Language Models",
+  "url": "https://arxiv.org/abs/2603.25015",
+  "summary": "arXiv:2603.25015v2 Announce Type: replace-cross Abstract: System prompt instructions that cooperate in English compete in Spanish, with the same semantic content, but opposite interaction topology. We present instruction-level ablation experiments across four languages and four models showing that this topology inversion is mediated by social register: the imperative mood carries different obligatory force across speech communities, and models trained on multilingual data have learned these conventions. Declarative rewriting of a single instruction block reduces cross-linguistic variance by 81% (p = 0.029, permutation test). Rewriting three of eleven imperative blocks shifts Spanish instruction topology from competitive to cooperative, with spillover effects on unrewritten blocks. These findings suggest that models process instructions as social acts, not technical specifications: \"NEVER do X\" is an exercise of authority whose force is language-dependent, while \"X: disabled\" is a factual description that transfers across languages. If register mediates instruction-following at inference time, it plausibly does so during training. We state this as a testable prediction: constitutional AI principles authored in imperative mood may create language-dependent alignment. Corpus: 22 hand-authored probes against a production system prompt decomposed into 56 blocks.",
+  "published": "2026-03-26T04:25:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.418358+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:16:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.25015v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.015544+00:00"
+}

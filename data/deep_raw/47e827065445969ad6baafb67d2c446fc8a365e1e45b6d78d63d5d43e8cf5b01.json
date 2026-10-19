@@ -1,0 +1,22 @@
+{
+  "id": "47e827065445969ad6baafb67d2c446fc8a365e1e45b6d78d63d5d43e8cf5b01",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "ForcingDAS: Unified and Robust Data Assimilation via Diffusion Forcing",
+  "url": "https://arxiv.org/abs/2605.14285",
+  "summary": "arXiv:2605.14285v3 Announce Type: replace-cross Abstract: Data assimilation (DA) estimates the state of an evolving dynamical system from noisy, partial observations, and is widely used in scientific simulation as well as weather and climate science. In practice, filtering methods rely on frame-to-frame transition models. However, these models are fragile when observations are non-Markovian (when they form only a partial slice of a higher-dimensional latent state as in real-world weather data): they tend to accumulate errors over long horizons. At the same time, learned DA methods typically commit to a single regime, either filtering (nowcasting, real-time forecasting) or smoothing (retrospective reanalysis), which splits what should be a shared prior across application-specific pipelines. To address both issues, we introduce ForcingDAS, a unified and robust DA framework. Built on Diffusion Forcing with an independent noise level assigned to each frame, ForcingDAS learns a joint-trajectory prior instead of frame-to-frame transitions. This allows it to capture long-horizon temporal dependencies and reduce error accumulation. In addition, the same trained model spans the full filtering to smoothing spectrum at inference time. Specifically, nowcasting, fixed-lag smoothing, and batch reanalysis are selected through the inference schedule alone, without retraining. We evaluate ForcingDAS on 2D Navier-Stokes vorticity, precipitation nowcasting, and global atmospheric state estimation. Across all settings, a single model is competitive with or outperforms both learned and classical baselines that are specialized for individual regimes, with the largest gains observed on real-world weather benchmarks.",
+  "published": "2026-05-14T02:34:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.130456+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:45:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.14285v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.926802+00:00"
+}

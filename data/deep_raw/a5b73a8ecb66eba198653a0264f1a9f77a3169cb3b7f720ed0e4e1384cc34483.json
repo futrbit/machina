@@ -1,0 +1,21 @@
+{
+  "id": "a5b73a8ecb66eba198653a0264f1a9f77a3169cb3b7f720ed0e4e1384cc34483",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
+  "url": "https://arxiv.org/abs/2610.11215",
+  "summary": "arXiv:2610.11215v1 Announce Type: cross Abstract: Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observations and inferring surfaces hidden by occlusions. We present GATOR, a generative and agentic framework that recovers textured object assets and their scene-relative pose from one or more images. Our local modality mixer couples patch-aligned RGB, target-mask, and pointmap features before cross-view reasoning, preserving scene context while distinguishing the target from its surroundings. Text-guided semantic conditioning complements these spatial cues with category names and object captions through stage-specific adapters for structure, geometry, and appearance generation. The generated asset initializes a multimodal agent, providing instance-specific geometry and pose for targeted structural and texture refinement through an observation-guided edit-render-review loop. Across synthetic objects, cluttered tabletops, and indoor scenes, GATOR achieves strong geometric and appearance fidelity while recovering scene-relative pose from sparse observations. Time-budget comparisons and scene-level simulation further demonstrate the reconstruction efficiency and simulation readiness. Project page: https://research.nvidia.com/labs/lpr/gator/",
+  "published": "2026-10-08T04:13:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.755534+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:13:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11215v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.640975+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "a3e4d357112079f3d895fa8e232cbaa7b1649c3dc347960471bad64225907095",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "TrueMuse: A Benchmark for Data Attribution in Text-to-Music Models",
+  "url": "https://arxiv.org/abs/2610.00835",
+  "summary": "arXiv:2610.00835v1 Announce Type: new Abstract: Text-to-music generation models are trained on massive music collections, creating a growing need for data attribution methods that can quantify the contribution of individual training samples. However, existing attribution methods are difficult to rigorously evaluate due to the lack of reliable ground truth, making it challenging to reliably assess their actual effectiveness. To address this gap, we introduce TrueMuse, a controlled dataset and benchmark for text-to-music data attribution. TrueMuse is constructed by fine-tuning three diffusion-based text-to-music models on carefully curated attribution samples, whose known inclusion in fine-tuning provides controlled attribution targets for evaluation. The benchmark covers four attribution settings, spanning melodic structure, timbral characteristics, artist-level stylistic signatures, and genre-level shared patterns, and includes 133 attributes, 648 fine-tuned models, and 95,456 generated samples across two prompt types. Using TrueMuse, we systematically evaluate existing black-box attribution methods along four dimensions: fine-tuning improvement, prompt-type difficulty, multi-task training, and fine-tuning data size. Our results show that attribution remains challenging, with existing methods exhibiting substantial variation across evaluation settings, highlighting the need for more reliable and generalizable attribution methods for text-to-music generation. Code and Dataset will be released upon acceptance.",
+  "published": "2026-09-30T23:48:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.781503+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-02T02:27:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00835v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.274389+00:00"
+}

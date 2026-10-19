@@ -1,0 +1,22 @@
+{
+  "id": "4ac6887504cde70ad13572c59e1d8018d205ddb5a02e7021d9fb63908e0779ed",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SyntheticHLS: Building Diverse Synthetic High-Level Synthesis Datasets using LLMs",
+  "url": "https://arxiv.org/abs/2610.00106",
+  "summary": "arXiv:2610.00106v1 Announce Type: cross Abstract: Deep learning and large language models (LLMs) are rapidly gaining adoption in semiconductor design, driving demand for training datasets. Most efforts focus on hardware description languages (HDLs) while designs for high-level synthesis (HLS), a popular approach to domain-specific accelerators, remain scarce. HLS dataset efforts emphasize manual curation or design parameterization, seldom addressing high-quality LLM-based generation or diversity in code length, hierarchy, design-space size, latency, resource utilization, and application domain, potentially limiting model generalization. We propose SyntheticHLS, a framework for generating large-scale, complex, diverse synthetic HLS datasets using LLMs. Its two key ideas are: 1) an iterative feedback-guided mutation loop that uses paired HLS source code and design-space specifications to incrementally transform seed designs into more complex, scalable designs; and 2) quantitative metrics of HLS design complexity and design-space scalability that serve as measurable objectives for LLM-guided mutation. We systematically cross-validate an HLS Quality-of-Results (QoR) deep learning model trained and tested across common HLS benchmarks, zero-shot synthetic designs, and iteratively mutated synthetic designs. Synthetic designs transfer well to common benchmark test sets while the reverse does not hold. SyntheticHLS's iteratively mutated designs provide the most generalizable training corpus among the datasets studied. Analysis of the mutation process and dataset shows that metric-guided trajectories consistently improve targeted complexity and scalability objectives without regressing non-target metrics. Mutated designs span a substantially broader, more diverse design space than zero-shot generated designs. Our framework, dataset, and evaluation are open-source: https://github.com/sharc-lab/synthetic-hls.",
+  "published": "2026-09-09T02:40:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.805489+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-09T02:40:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00106v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.319567+00:00"
+}

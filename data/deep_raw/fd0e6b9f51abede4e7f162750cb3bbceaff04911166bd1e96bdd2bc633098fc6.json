@@ -1,0 +1,22 @@
+{
+  "id": "fd0e6b9f51abede4e7f162750cb3bbceaff04911166bd1e96bdd2bc633098fc6",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "PhysTacGen: Physics-Aware Visual-Tactile Sensor Image Generation",
+  "url": "https://arxiv.org/abs/2610.08068",
+  "summary": "arXiv:2610.08068v1 Announce Type: new Abstract: Realistic physical interaction is a cornerstone of embodied intelligence, yet collecting paired visual--tactile data remains costly. Visual-to-tactile synthesis offers a promising approach to augmenting such data, but learning this mapping is complicated by the gap between visual appearance and contact-related material properties, as well as spatial misalignment in paired observations. To address these challenges, we present \\textbf{PhysTacGen}, a visual-to-optical-tactile image generation framework that integrates material-aware descriptions with geometric conditioning. First, we introduce Group Tactile Policy Optimization (GTPO), a reinforcement learning strategy that refines a vision--language model to generate structured material descriptions using task-specific rewards. Second, we combine DINOv2-based pair curation with monocular relative-depth estimation to select training pairs and provide geometric priors. Finally, an SDXL ControlNet synthesizes optical tactile images conditioned on RGB, relative depth, and GTPO-generated text. Experiments on curated SSVTP data demonstrate improved structural similarity over the compared baselines, while a blinded user study shows a preference for GTPO-generated descriptions. Generated tactile inputs also improve performance on an attribute-derived force-coefficient prediction proxy. Together, these results demonstrate the effectiveness of PhysTacGen for optical tactile image synthesis and its utility in the evaluated downstream task.The code will be available at https://github.com/VDIGPKU/PhysTacGen.",
+  "published": "2026-10-06T10:00:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.520381+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:00:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08068v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.591594+00:00"
+}

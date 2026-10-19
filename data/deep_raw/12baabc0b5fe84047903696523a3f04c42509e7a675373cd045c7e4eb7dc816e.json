@@ -1,0 +1,17 @@
+{
+  "id": "12baabc0b5fe84047903696523a3f04c42509e7a675373cd045c7e4eb7dc816e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Locating Failure in Multi-Page Visually Rich Document Understanding Systems: An Empirical Attribution",
+  "url": "https://arxiv.org/abs/2608.07943",
+  "summary": "arXiv:2608.07943v2 Announce Type: replace Abstract: Multi-page visually rich document understanding (MP-VRDU) systems can fail when evidence is not faithfully represented, not selected, or not used correctly, yet final accuracy alone does not reveal where failures occur. We present an empirical attribution framework that examines these failures through controlled interventions in a unified document question answering pipeline. Experiments on MMLongBench-Doc, with cross-dataset and cross-family checks, show that complementary modalities can reduce sensitivity to conversion errors: images mitigate parser errors, while extracted text reduces dependence on visual resolution. Adding related non-gold pages can both repair incorrect answers and break correct ones, even when all annotated evidence is present, revealing instability beneath aggregate accuracy. Abstention trades unsupported answers for false refusals, while its interaction with reasoning instructions differs across backbones. Qualitative examples and accuracy--cost comparisons connect these findings to guidance on representation, evidence selection, and reasoner choice under deployment constraints.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.205131+00:00"
+}

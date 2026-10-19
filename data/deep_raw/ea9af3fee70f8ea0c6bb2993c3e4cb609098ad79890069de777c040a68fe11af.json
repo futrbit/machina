@@ -1,0 +1,22 @@
+{
+  "id": "ea9af3fee70f8ea0c6bb2993c3e4cb609098ad79890069de777c040a68fe11af",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Anchor and Adapt: Asymmetric Prompt Adaptation for Few-Shot Industrial Anomaly Detection",
+  "url": "https://arxiv.org/abs/2610.07016",
+  "summary": "arXiv:2610.07016v1 Announce Type: new Abstract: In few-shot industrial anomaly detection, the few normal target images provide no direct defect supervision, making anomaly prompts difficult to learn from these samples alone. Some vision-language methods therefore use manually specified descriptions to supply explicit anomaly semantics. However, constructing these descriptions requires product-specific effort, and their effectiveness depends on prompt selection. We propose Anchor and Adapt, a two-stage prompt learning framework that separates the acquisition of anomaly semantics from adaptation to target normal appearance. Stage I learns transferable normal and abnormal anchors from annotated auxiliary data. Stage II keeps these anchors fixed and adapts an additional normal branch using the few target normal samples. The inherited and adapted normal branches jointly characterize target normality, with text-anchor regularization encouraging consistency with the generic normal prior and separation from the abnormal anchors. This design retains learned anomaly knowledge while reducing dependence on category-specific anomaly templates, without requiring synthetic anomaly generation. Cross-dataset experiments between MVTec-AD and VisA under 1-, 2-, and 4-shot settings demonstrate competitive detection and localization performance. Controlled ablations assess the roles of transferred anchors, asymmetric adaptation, dual-normal representations, and anchor regularization.",
+  "published": "2026-10-04T14:27:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.510388+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T14:27:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07016v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.363731+00:00"
+}

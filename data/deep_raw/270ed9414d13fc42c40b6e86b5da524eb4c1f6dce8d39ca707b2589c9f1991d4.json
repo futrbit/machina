@@ -1,0 +1,22 @@
+{
+  "id": "270ed9414d13fc42c40b6e86b5da524eb4c1f6dce8d39ca707b2589c9f1991d4",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "A Unified Score Matching Paradigm for Video Anomaly Detection and Anticipation",
+  "url": "https://arxiv.org/abs/2610.11149",
+  "summary": "arXiv:2610.11149v1 Announce Type: new Abstract: Video anomaly detection (VAD) is a fundamental and safety-critical task in computer vision. Recent generative approaches detect anomalies from a distributional perspective, but remain limited by local anomaly modes. Meanwhile, video anomaly anticipation (VAA), as a proactive extension beyond post-hoc detection, introduces additional challenges. In particular, the contrastive inference paradigm in VAD, which relies on ground-truth frames, is not applicable to VAA, hindering its development. To address these challenges, we propose a unified score-driven framework, termed Uni-DSM, based on denoising score matching (DSM), which models anomaly patterns through likelihood estimation and score functions over the learned data distribution. Within this unified framework, we adopt a shared noise-conditioned score transformer backbone with scene-dependent embeddings and motion-aware weighting for distribution-level modeling. Instead of introducing separate architectures, Uni-DSM unifies VAD and VAA through different inference and supervision paradigms built upon the same score-based formulation. For VAD, we instantiate an autoregressive denoising score matching (ADSM) mechanism, which progressively accumulates anomalous evidence via autoregressive denoising, enabling enhanced perception of local modes beyond visual cues. For VAA, we extend the same architecture by incorporating a lightweight auxiliary decoder and a novel self-distilled denoising score matching (SDSM) mechanism. By constructing supervision from output discrepancies instead of relying on unavailable future ground truth, our method achieves efficient training suitable or early anomaly anticipation. Extensive experiments on multiple benchmark datasets demonstrate state-of-the-art performance in both VAD and VAA while maintaining high efficiency, establishing a unified and scalable pipeline from anomaly detection to anticipation.",
+  "published": "2026-10-08T03:12:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.741054+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:12:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11149v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.246213+00:00"
+}

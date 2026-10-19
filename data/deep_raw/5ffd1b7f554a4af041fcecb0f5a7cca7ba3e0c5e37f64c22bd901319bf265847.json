@@ -1,0 +1,21 @@
+{
+  "id": "5ffd1b7f554a4af041fcecb0f5a7cca7ba3e0c5e37f64c22bd901319bf265847",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Reactive Exploration of Unknown Environments for Redundant Robots using Virtual Model Control",
+  "url": "https://arxiv.org/abs/2610.08110",
+  "summary": "arXiv:2610.08110v1 Announce Type: new Abstract: The exploration of confined, occluded, and partially known spaces poses significant challenges in robotic manipulation. The overall pose of the robotic arm must be carefully controlled to respect tight geometric constraints while avoiding newly discovered obstacles. We address this problem by proposing an active exploration approach for redundant robotic arms with an eye-in-hand camera configuration. Our approach navigates and acquires information in real-time based on a novel scoring method that directly selects a target voxel from the unexplored space using the robot's current state and expected information gain. To move the robot safely toward the target voxel, we utilize Virtual Model Control, which guarantees compliance and enables whole-body reactive obstacle avoidance without the need for path replanning. Simulated and real-robot experiments in both confined and open environments demonstrate the effectiveness of our approach, achieving over $90\\%$ mapping coverage across all tested environments in under $120$ seconds without colliding with obstacles.",
+  "published": "2026-10-06T10:33:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.463021+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:33:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08110v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.802275+00:00"
+}

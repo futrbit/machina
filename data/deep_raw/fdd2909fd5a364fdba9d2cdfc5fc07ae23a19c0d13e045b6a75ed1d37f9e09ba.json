@@ -1,0 +1,22 @@
+{
+  "id": "fdd2909fd5a364fdba9d2cdfc5fc07ae23a19c0d13e045b6a75ed1d37f9e09ba",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CroissantMiner: Automated Extraction and Validation of Croissant Metadata for ML Datasets",
+  "url": "https://arxiv.org/abs/2610.07132",
+  "summary": "arXiv:2610.07132v1 Announce Type: cross Abstract: Croissant has emerged as a standard for machine-readable dataset metadata, yet populating its fields remains labor-intensive and requires careful reading of accompanying dataset documentation. We present the first benchmark enabling end-to-end evaluation of metadata extraction aligned with a community-standard schema. The benchmark comprises 602 papers, including 102 with human-validated gold annotations and 500 with LLM-generated silver annotations, covering the full Croissant schema with both core and Responsible AI (RAI) fields. Using this benchmark, we evaluate a range of extraction systems spanning frontier models, open-weight models, and agentic architectures, under a two-tier evaluation framework that combines rule-based scoring with an LLM judge selected via human audit. We find that single-pass extraction consistently outperforms the four agentic architectures we evaluate: across backbones, these decomposed variants achieve lower accuracy than a single full-context pass. The largest gap appears on long-form RAI fields, which require synthesizing and interpreting information scattered across a paper rather than copying it from a single location, a setting where current systems remain far from reliable. We release the benchmark, evaluation code, judge audit, a live demo, and a leaderboard open to new systems.",
+  "published": "2026-10-05T17:59:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.089482+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T17:59:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07132v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.924201+00:00"
+}

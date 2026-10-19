@@ -1,0 +1,21 @@
+{
+  "id": "a548fedd9488f77fc07c0414c43b1e6d12e2bc7d3125865dfb8e6290440eab05",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+  "url": "https://arxiv.org/abs/2610.08778",
+  "summary": "arXiv:2610.08778v1 Announce Type: new Abstract: Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what good teaching looks like. However, these signals are often not grounded in individual student learning outcomes, where effective teaching strategies can vary substantially across learners. To address this, we introduce Sherpa, a multi-turn reinforcement learning framework that instantiates multiple student archetypes with LLMs conditioned on distinct learning preferences and trains a teacher model to adapt its instruction by directly maximizing their learning outcomes. Teacher LLMs trained with Sherpa improve instructed students' performance across all archetypes by an average of 20.5 percentage points. Under MathTutorBench's evaluation, Sherpa raises the overall pedagogy score from 52.5% to 79.2%, indicating better teaching responses. Our human studies show that the trained teacher is preferred over the base model in 79.6% of pairwise comparisons. Together, Sherpa trains LLM teachers to adapt to diverse simulated students and become better aligned with human teachers, paving the road towards AI tutors teaching real students.",
+  "published": "2026-10-06T17:58:18Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.150814+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:58:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08778v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.297375+00:00"
+}

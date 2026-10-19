@@ -1,0 +1,21 @@
+{
+  "id": "08e3f5305d5a7135cc7087543c7b082523a616e8a3d5ee4e08febeec3a5fe5e1",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MAST: Motif-Augmented Diffusion with Search Tree for Spectroscopic Molecular Structure Elucidation",
+  "url": "https://arxiv.org/abs/2610.12067",
+  "summary": "arXiv:2610.12067v1 Announce Type: cross Abstract: Elucidating molecular structures from spectra is a foundational problem in chemical and materials characterization, yet remains challenging due to spectral ambiguity and the vast molecular space. Although recent diffusion-based generators show strong promise for spectra-conditioned elucidation, existing methods struggle to learn robust spectra-structure relationships from limited paired data when relying solely on global spectral representation. Moreover, the repeated full sampling inference strategy incurs substantial computation overhead. To address these limitations, we propose \\textbf{MAST}, a \\textbf{M}otif-\\textbf{A}ugmented diffusion framework with \\textbf{S}earch \\textbf{T}ree, for joint 2D-3D spectroscopic molecular structure elucidation. MAST introduces explicit, interpretable \\emph{motif priors} as intermediate evidences throughout denoising, reducing conditional ambiguity and facilitating spectra-conditioned optimization. We further cast diffusion sampling as \\emph{reward-guided tree search} to prioritize high-reward denoising trajectories, yielding a compact set of spectra-consistent candidates under limited budgets. On the QM9S multi-spectra benchmark, MAST achieves \\textbf{94.89\\%} exact recovery and improves 3D fidelity, while preserving high chemical validity and stability. Code is available at https://github.com/Jia040223/MAST.",
+  "published": "2026-10-08T14:45:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.399370+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:45:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12067v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.441092+00:00"
+}

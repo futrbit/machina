@@ -1,0 +1,22 @@
+{
+  "id": "2cbd1c79cf9d5d6d18fad8d68c11f084b7725e710d2885f9090d5353215c6251",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "What Frame-Level Labels Can and Cannot Do for Small-UAV Point Detection in Thermal Video",
+  "url": "https://arxiv.org/abs/2610.07705",
+  "summary": "arXiv:2610.07705v1 Announce Type: new Abstract: The growing use of unmanned aerial vehicles (UAVs) has increased the importance of image-based UAV detection. Learning-based detectors are trained on imagery and annotations, with annotation type determining the information available during training. We focus on learning localization from frame-level target presence/absence labels when sensor or scene changes make spatial annotations for additional training burdensome. We analyze the detection capability, learning behavior, and potential applications of an existing architecture for point detection of small UAVs, trained with presence/absence labels and requiring no external detector. The architecture freezes spatial features learned through classification and trains a readout with the same frame labels to produce spatial score maps and point detections. On two thermal infrared datasets, CST Anti-UAV and Anti-UAV410, we evaluate localization hit rates and detection rates under false-alarm constraints, analyze the effects of training stages, label allocation, synthesis, and model configuration, and compare with bounding-box detectors. We also explore potential applications on Airborne Object Tracking (AOT) using its visible-light imagery and frame labels. Classification training strengthened target-related spatial responses, while readout training helped extract them consistently. Distributing similar label counts across more videos yielded higher localization hit rates, while synthesis effects varied by dataset and evaluation criterion. Higher localization hit rates did not always improve detection under false-alarm constraints, and failures remained when target signals were weak relative to background variation and under cross-dataset transfer. These findings provide guidance on label allocation, spatial representations and readouts, synthesis, and false-alarm control.",
+  "published": "2026-10-06T03:58:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.516384+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T03:58:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07705v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.334160+00:00"
+}

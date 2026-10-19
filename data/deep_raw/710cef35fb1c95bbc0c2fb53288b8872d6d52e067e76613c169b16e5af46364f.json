@@ -1,0 +1,22 @@
+{
+  "id": "710cef35fb1c95bbc0c2fb53288b8872d6d52e067e76613c169b16e5af46364f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Dynamic Budget Allocation for LLM Evaluation under Hard Resource Constraints",
+  "url": "https://arxiv.org/abs/2610.07362",
+  "summary": "arXiv:2610.07362v1 Announce Type: new Abstract: We evaluate large language models (LLMs) in multi-turn interactions through their time-to-event: the number of interaction steps required to produce an event of interest, such as a successful jailbreak or agentic task completion. Under limited compute, interactions may be terminated before the event occurs, so that event times are only partially observed (censored). Existing allocation methods for calibrating time-to-event bounds satisfy the budget only in expectation and can exceed the available budget on a particular evaluation run. Enforcing a hard constraint is particularly challenging as the cost of a trajectory is initially unknown. We introduce Hard-budget Allocation with Reflow for Predictive calibration (HARP), a budget allocation that satisfies hard resource constraints and adaptively reallocates unused budget. We show how to use HARP to construct lower predictive bounds (LPBs) on the time-to-event and to estimate evaluation metrics such as the jailbreak rate on a fixed benchmark. Although HARP induces dependence in acquisition decisions across different trajectories, we prove that HARP never exceeds the target budget, that its LPBs have finite-sample coverage guarantees, and that its metric estimates are unbiased. Experiments on agentic task success, LLM jailbreaks, toxic content generation, and RAG hallucinations show that HARP achieves coverage close to the nominal level with low variance, while never exceeding the given budget.",
+  "published": "2026-10-05T20:31:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.056502+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:31:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07362v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.110090+00:00"
+}

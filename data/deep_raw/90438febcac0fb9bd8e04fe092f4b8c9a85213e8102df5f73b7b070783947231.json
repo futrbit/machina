@@ -1,0 +1,22 @@
+{
+  "id": "90438febcac0fb9bd8e04fe092f4b8c9a85213e8102df5f73b7b070783947231",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "HADRec: A Hierarchy-Aware Drug Recommendation Framework by Fusing Molecular Knowledge and Electronic Health Record",
+  "url": "https://arxiv.org/abs/2610.00984",
+  "summary": "arXiv:2610.00984v1 Announce Type: new Abstract: Accurate medication recommendation is central to clinical decision-making, directly determining therapeutic efficacy and patient safety. However, existing methods suffer from two key limitations: drugs are often abstracted as discrete tokens, ignoring their molecular structures and pharmacological mechanisms, and the commonly used \"flat\" recommendation paradigm fails to leverage the hierarchical logic of the internationally standardized Anatomical Therapeutic Chemical (ATC) classification system. To address these issues, we propose HADRec, a Hierarchy-Aware Drug Recommendation framework that integrates molecular knowledge with electronic health records (EHRs). HADRec employs LLaMA-7B to encode clinical notes for rich patient representations and ChemBERTa to encode drug Simplified Molecular Input Line Entry System strings, building a global molecular knowledge base. A cross-attention mechanism then performs deep multimodal fusion between patient states and drug features. The framework further incorporates a hierarchical predictor and a novel consistency constraint loss to enforce strict adherence to ATC logical dependencies. Extensive experiments on MIMIC-III demonstrate that HADRec achieves state-of-the-art performance across Jaccard, F1, and PR-AUC. External validation on MIMIC-IV confirms strong generalization under distribution shifts, and calibration analysis shows well-calibrated predictive confidence on MIMIC-IV with ECE = 0.04, and Brier = 0.06. Counterfactual evaluation reveals clinically aligned reasoning, disentangling disease-specific treatments from general care. Together, these results establish HADRec as a high-performance, interpretable, and clinically grounded pathway toward safe and reliable AI-driven medication recommendation.",
+  "published": "2026-10-01T03:20:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.784502+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:20:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00984v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.760698+00:00"
+}

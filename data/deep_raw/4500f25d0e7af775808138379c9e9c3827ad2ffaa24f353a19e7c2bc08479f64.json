@@ -1,0 +1,18 @@
+{
+  "id": "4500f25d0e7af775808138379c9e9c3827ad2ffaa24f353a19e7c2bc08479f64",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Referring Multi-Object Tracking with Diverse Dynamic Expressions",
+  "url": "https://arxiv.org/abs/2406.05039",
+  "summary": "arXiv:2406.05039v3 Announce Type: replace Abstract: Referring understanding is a fundamental task that bridges natural language and visual content by localizing objects described in free-form expressions. However, existing works are constrained by limited language expressiveness, lacking the capacity to model object dynamics in spatial numbers and temporal states. To address these limitations, we introduce a new and general referring understanding task, termed referring multi-object tracking (RMOT). Its core idea is to employ a language expression as a semantic cue to guide the prediction of multi-object tracking, comprehensively accounting for variations in object quantity and temporal semantics. Along with RMOT, we introduce a RMOT benchmark named Refer-KITTI-V2, featuring scalable and diverse language expressions. To efficiently generate high-quality annotations covering object dynamics with minimal manual effort, we propose a semi-automatic labeling pipeline that formulates a total of 9,758 language prompts. In addition, we propose TempRMOT, an elegant end-to-end Transformer-based framework for RMOT. At its core is a query-driven Temporal Enhancement Module that represents each object as a Transformer query, enabling long-term spatial-temporal interactions with other objects and past frames to efficiently refine these queries. TempRMOT achieves state-of-the-art performance on both Refer-KITTI and Refer-KITTI-V2, demonstrating the effectiveness of our approach. The source code and dataset is available at https://github.com/zyn213/TempRMOT.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.073073+00:00"
+}

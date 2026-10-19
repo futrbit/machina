@@ -1,0 +1,21 @@
+{
+  "id": "b3e5f407163a9c20679c87c4e88d09d64fb0c5fe0c1dd7ddb5d621c9ef88a135",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "A Three-Stage Offline SDRE-Based Control Framework for Human Motion Reproduction on a Suspended Bipedal Robot",
+  "url": "https://arxiv.org/abs/2506.04680",
+  "summary": "arXiv:2506.04680v4 Announce Type: replace Abstract: This paper presents a three-stage offline command generation framework for reproducing human lower-limb motion on a suspended bipedal robot while matching torque trajectories computed from the robot dynamic model. First, State-Dependent Riccati Equation (SDRE) control derives the reference torque trajectory for the measured motion. Second, parameterized optimization converts this trajectory into trapezoidal joint velocity commands under motor speed and acceleration limits. Third, a proportional-integral-derivative linear quadratic regulator (PID-LQR) compensation scheme refines these commands using experimental tracking data. The platform executes the resulting profiles to reproduce human walking and squatting motions recorded by a Vicon system, allowing evaluation of tracking accuracy and repeatability. Results show that the average root mean square error (RMSE) and standard deviation (STD) of joint angles across repeated trials remain below 7{\\deg} and 0.33{\\deg}, respectively. Joint angle and torque trajectory comparisons show lower maximum RMSE and STD values than those for MPC and IPSO-PID in every reported case. The framework enables accurate and repeatable motion reproduction within actuator limits, providing controlled and measurable conditions that can reduce reliance on human participation and associated risks during preliminary evaluation of devices for assistive walking, gait training, and rehabilitation.",
+  "published": "2025-06-05T07:00:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.477012+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T03:57:27Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2506.04680v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.684141+00:00"
+}

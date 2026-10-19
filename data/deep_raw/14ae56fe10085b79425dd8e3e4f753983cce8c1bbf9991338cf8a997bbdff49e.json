@@ -1,0 +1,18 @@
+{
+  "id": "14ae56fe10085b79425dd8e3e4f753983cce8c1bbf9991338cf8a997bbdff49e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Beyond UV Mapping: Mesh Texture Compression via Surface-Aligned Texture Fields",
+  "url": "https://arxiv.org/abs/2609.23606",
+  "summary": "arXiv:2609.23606v2 Announce Type: replace Abstract: Mesh texture compression typically relies on 2D UV atlases, whose chart discontinuities and mapping overhead can limit coding efficiency. To tackle this challenge, we introduce TexF, a surface-aligned texture field that organizes texture attributes in sparse voxels derived from the mesh surface. This representation supports high-resolution textures while preserving local 3D correlations for compression and enabling direct surface queries. For bitstream compression, TexF reuses established 3D attribute codecs, with voxel locations reconstructed from the decoded mesh without separate transmission. For GPU-resident compression, we develop 3DNTC, which combines quantized hash features with a lightweight decoder for random-access reconstruction at surface positions. Differentiable rendering enables image-space refinement of both voxel attributes and compressed neural fields. Experiments on the MPEG and AOM mesh compression benchmarks demonstrate improved average rate-distortion performance over representative UV-based methods for both bitstream and GPU-resident compression. 3DNTC also supports real-time rendering.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.084067+00:00"
+}

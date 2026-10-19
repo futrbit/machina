@@ -1,0 +1,22 @@
+{
+  "id": "d9e4e38785f991638c0695aa373bcfef7f6e5581c9d03b2cac25b9357f0bac9d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Budgeted Multi-Source Counterfactual Annotation for Off-Policy Evaluation",
+  "url": "https://arxiv.org/abs/2610.10974",
+  "summary": "arXiv:2610.10974v1 Announce Type: new Abstract: Off-policy evaluation (OPE) estimates the value of a target policy from logged data, but limited behavior-policy coverage can force high-variance reweighting or reward-model extrapolation. Counterfactual annotations can add evidence about unobserved actions, yet practical sources, including domain experts and large language models (LLMs), may be costly, biased, or noisy. We study budgeted acquisition of such annotations for contextual-bandit OPE. Given source-specific costs and error profiles, we formulate an integer allocation problem over context-action pairs and annotation sources to minimize the component of estimator variance that depends on the annotation plan. We characterize when annotations are valuable through a first-annotation threshold and local annotation-value regimes. For the coupled multi-source problem, we develop a majorization-minimization algorithm with dynamic-programming subroutines that monotonically improves the objective. Experiments in synthetic clinical and LLM-annotated education bandits show that our allocation method reduces fixed-profile mean squared error (MSE) by 20.58% and 10.77%, respectively, relative to no annotation.",
+  "published": "2026-10-07T22:55:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.079437+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:55:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10974v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.185838+00:00"
+}

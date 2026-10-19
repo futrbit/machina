@@ -1,0 +1,22 @@
+{
+  "id": "f83858517c45607c81556282a5e289fe73147a4f34f52a0b676f5673cf415656",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "World-Ego Modeling for Embodied Video Generation in Long-Horizon Navigation-Manipulation Tasks",
+  "url": "https://arxiv.org/abs/2605.19957",
+  "summary": "arXiv:2605.19957v2 Announce Type: replace Abstract: Embodied video world models typically capture both scene evolution and the robot's behavior, which we refer to as the \\emph{world} and the \\emph{ego}, respectively. The world and the ego exhibit different underlying dynamics: world prediction relies primarily on visual history and emphasizes scene stability, whereas ego prediction relies more strongly on the current instruction and emphasizes accurate instruction following. Modeling both components within a single generation stream can entangle these different dependencies, making it difficult to specialize the prediction of either component. Consequently, it becomes difficult to simultaneously maintain scene consistency and accurate instruction following, particularly in long-horizon navigation-manipulation tasks. In this paper, we propose to decompose an embodied video into the world and the ego and disentangle their generation processes. Specifically, we define the world as the background and currently unmanipulated objects, and the ego as the robot and currently manipulated objects. Based on this definition, we develop the \\emph{World-Ego Model} (WEM), which combines a vision-language state predictor using role-conditioned attention (RCA) and asymmetric query budgets with a semantic-routed mixture-of-experts (SR-MoE) diffusion generator. To enable rigorous evaluation, we further construct HTEWorld, a dataset and benchmark for long-horizon embodied video generation with hybrid navigation-manipulation tasks, providing 125K training video clips comprising over 4.5M frames with fine-grained instructions, together with 300 multi-turn evaluation trajectories covering over 2K instructions. Extensive experiments show that WEM achieves state-of-the-art performance on HTEWorld while remaining competitive on existing manipulation-oriented evaluations.",
+  "published": "2026-05-19T15:10:27Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.786027+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:46:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.19957v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.647368+00:00"
+}

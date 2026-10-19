@@ -1,0 +1,22 @@
+{
+  "id": "cb6cd198d5e09e665d2a9769baca33359286c8ca76886e8ffe5fd2224cee8bf7",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Learning Scientific Exploration from Human Research Decision Trajectories",
+  "url": "https://arxiv.org/abs/2610.07184",
+  "summary": "arXiv:2610.07184v1 Announce Type: new Abstract: A key challenge in building AI systems for scientific research is enabling $\\textit{scientific exploration}$: the systematic process of investigating unknown phenomena or ideas to gain new knowledge through sequences of research decisions and actions. Yet this process is largely missing from existing scientific corpora; for example, research papers primarily record final outcomes rather than the trajectories that produced them. In this work, we introduce $\\textbf{ResearchTrails}$, a dataset of $\\textbf{human research trajectories constructed from Git repositories}$, where $\\textbf{commit histories}$ serve as proxies for research exploration. We develop an automated and scalable pipeline that extracts structured research trajectories from repository commits, capturing successive changes to methods, experiments, and ablations. We characterize the resulting dataset and show that these trajectories contain meaningful signals about intermediate research decisions beyond what final papers reveal. We further demonstrate utilities of ResearchTrails in multiple use cases, including retrieving human research experience as external skills at test time and training models on research trajectories to improve generalization to new research decisions. Our results suggest a path toward AI systems that learn not only from the products of science, but from the evolving process of discovery itself.",
+  "published": "2026-10-05T18:05:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.049505+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:05:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07184v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.013942+00:00"
+}

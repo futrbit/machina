@@ -1,0 +1,21 @@
+{
+  "id": "fd9434e21c70e569c3d00f2f51ace57e5adde4b48b0acc3b3cb4ceb7ff282872",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Refusal-Gated Decoding: Preserving Refusal Behavior Under High-Temperature Sampling",
+  "url": "https://arxiv.org/abs/2607.20791",
+  "summary": "arXiv:2607.20791v2 Announce Type: replace Abstract: Recent advances in truncation-based sampling have helped mitigate drawbacks of high-temperature sampling such as neural text degeneration, thereby enabling greater diversity without sacrificing coherence. However, increasing the entropy of the token probability distribution via high temperatures has also been shown to weaken the model's refusal response. Existing solutions for maintaining the refusal behavior of LLMs either replace the model's own refusal decision with a separate safety classifier or alter its output distribution for every prompt. To address this gap, we propose refusal-gated decoding (RGD): an efficient sequential decoding approach which preserves a model's greedy decoding refusal response at high temperatures and samples all other prompts from its exact direct high-temperature distribution, while incurring minimal additional latency. RGD runs a short greedy probe that reuses the prompt's KV cache and exits as soon as it becomes incompatible with a learned set of refusal prefixes; it returns the greedy response if the probe remains compatible and otherwise discards the probe and samples from the original prompt. Across seven models and three benchmark datasets at T=2.0, RGD raises greedy-refusal preservation from 91.9% under direct sampling to 98.3% on average while adding only 2.2-4.3% to the median per-request latency of non-refusals across temperatures. Unlike prompt-screening baselines which route many greedy non-refusals to greedy decoding, RGD keeps at least 98.1% of greedy non-refusals on unchanged high-temperature sampling, thereby preserving the model's natural high-temperature sampling behavior. We also propose a residual-stream variant of our method which lowers this latency overhead to at most 0.5% with comparable prompt routing accuracy. Our work shows that unlocking greater diversity via high-temperature sampling need not erode a model's refusal behavior.",
+  "published": "2026-07-22T23:33:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.184794+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:35:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.20791v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.597590+00:00"
+}

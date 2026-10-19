@@ -1,0 +1,21 @@
+{
+  "id": "0d8b69946b34b870093f3436ff70147fdbeb3042fb04f1541d5f7baa3ab0773b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "GLM-RAG: Graph Language Models for Graph-Based Retrieval-Augmented Generation",
+  "url": "https://arxiv.org/abs/2607.28397",
+  "summary": "arXiv:2607.28397v2 Announce Type: replace Abstract: Retrieval-augmented generation (RAG) over knowledge graphs requires retrievers that can effectively capture both graph structure and semantic information. Recent approaches have explored graph neural network (GNN)-based retrievers to model graph topology in multi-hop reasoning tasks. In parallel, graph language models (GLMs) have emerged as a promising paradigm that integrates graph reasoning and the semantic capabilities of language models. In this work, we introduce a GLM-based retriever and investigate the comparative strengths of GLM-based, GNN-based, and traditional vector-search-based retrievers in single- and multi-hop RAG settings, and with a particular focus on transferability to unseen domains. Our findings suggest that finetuned GLM retrievers generalize better out of domain, achieving SOTA on two multi-hop benchmarks. On in-domain multi-hop QA datasets they remain comparable to prior work, with promising scaling as parameters and subgraph coverage increase. GNN-based retrievers achieve higher graph coverage with an efficient training setup, whereas the vector-search baseline excels at single-hop datasets.",
+  "published": "2026-07-30T15:49:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.407366+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:33:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.28397v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.600995+00:00"
+}

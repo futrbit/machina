@@ -1,0 +1,21 @@
+{
+  "id": "d59e6b8e8a764fb42c333d2bffea72d940c4adcf3a2e1c8d6e6dd31b692d165c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ThinkFuse: Trajectory-Aware Test-Time Fusion for Small Reasoning Models",
+  "url": "https://arxiv.org/abs/2610.07803",
+  "summary": "arXiv:2610.07803v1 Announce Type: new Abstract: Small reasoning models (SRMs) have shown strong performance on complex reasoning tasks by generating extended chain-of-thought trajectories, but they often fail to recover once their reasoning enters an erroneous path. Existing test-time fusion methods rely on local fusion signals to determine when to trigger fusion, which can be misled by transient uncertainty fluctuations and may reinforce unstable reasoning trajectories. We propose ThinkFuse, a training-free test-time fusion framework that selectively intervenes in unreliable reasoning segments. ThinkFuse compares segment-level uncertainty shifts with trajectory-level uncertainty trends to identify unstable reasoning points and fuse auxiliary reasoning paths into the primary model's trajectory. Extensive experiments demonstrate that ThinkFuse outperforms baselines on mathematical and knowledge-intensive reasoning benchmarks, with consistent gains across model-family combinations, and remains robust with a smaller primary model. Our analysis shows that ThinkFuse requires fewer fusion triggers and generates fewer tokens, highlighting the efficiency of selective triggering. Our code is available at https://github.com/js-lee-AI/ThinkFuse.",
+  "published": "2026-10-06T05:56:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.140819+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:56:21Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07803v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.140865+00:00"
+}

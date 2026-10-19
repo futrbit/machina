@@ -1,0 +1,22 @@
+{
+  "id": "49d6faf451ccadcc99da071f2127fb17d2565c7e9cb3988f17029db502f5b523",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Efficient Multimodal Inference through Adaptive Acquisition and Sequential Fusion",
+  "url": "https://arxiv.org/abs/2610.07466",
+  "summary": "arXiv:2610.07466v1 Announce Type: new Abstract: Multimodal systems often encode every available input, even when a subset suffices for prediction. Adaptive acquisition can reduce this cost by using predictions from incrementally fused evidence to decide which modality to encode next and when to stop. However, sequential fusion makes these predictions order-dependent, so decisions based on them may need to distinguish factorially many histories of the same acquired set. We introduce SemARC, which couples a Sequential Modality Aggregator (SeMA) with an Adaptive Runtime Controller (ARC) and uses acquired evidence to select each modality before its encoder runs. SeMA executes only selected encoder and fusion branches, updates a fixed-size state, and predicts after each acquisition without recomputing earlier branches. We supervise every acquisition prefix under randomized modality subsets and orders to encourage consistent predictions across acquisition orders. ARC combines a set-dependent marginal-utility prior with residual fitted-Q learning to select the next available modality or stop, without inspecting unacquired inputs or retaining acquisition order. Across six multimodal classification datasets and eleven baselines, SemARC achieves 3.2% higher macro-F1 and 61.4% lower total inference GFLOPs on average relative to each dataset's most accurate baseline. End-to-end latency falls by 44.0% across GPU and CPU and by 47.2% on Android INT8 relative to the fastest measured baseline, on average. Under varying runtime modality missingness, SemARC still skips available modalities, matching or exceeding the best baseline macro-F1 in 21 of 24 conditions with 14.8% lower total GFLOPs on average. SemARC thus offers a practical path toward efficient multimodal inference across heterogeneous devices.",
+  "published": "2026-10-05T22:25:56Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.061498+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:25:56Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07466v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.959783+00:00"
+}

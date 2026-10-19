@@ -1,0 +1,22 @@
+{
+  "id": "e83c42d3a1b9cc2cf00b4e2f082cc6cbc56ea033be49c1ff85c411f3363999ea",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Supervise What Decides Success: Criterion-Aligned Auxiliary Losses for Latent World-Model Planning",
+  "url": "https://arxiv.org/abs/2610.01224",
+  "summary": "arXiv:2610.01224v1 Announce Type: new Abstract: Latent world models plan by scoring candidate action sequences with distances in latent space. However, task success is judged by physical quantities, which we call the success-criterion quantities. In all four latent world models we examine, the end-effector position is encoded in the latent state with an error larger than the success criterion allows. Such a latent state cannot separate successful candidates from failing ones. We propose an auxiliary loss that uses success-criterion quantities as training targets, whereas existing latent world models take them only as inputs. During training, a linear head on the encoder and predictor outputs regresses the success-criterion quantities, and the regression error is added to the training loss. The head is discarded after training, so the model, its cost, and its inputs at test time are unchanged. This loss alone improves the success rate on PushT and cube by 3.5% and 3.4% (absolute), respectively, and both improvements are statistically significant. A success criterion thus specifies what a world model must retain in its latent state, and we show that it can serve directly as a training target.",
+  "published": "2026-10-01T07:27:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.788499+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T07:27:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01224v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.341744+00:00"
+}

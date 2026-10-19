@@ -1,0 +1,21 @@
+{
+  "id": "a691daf33a2d02443ebad1af15d884f4e70fd1647ced8bbf867cd4533dedee5e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Bi-temporal Image-driven Acute Stroke Evolution Analysis",
+  "url": "https://arxiv.org/abs/2602.07535",
+  "summary": "arXiv:2602.07535v2 Announce Type: replace-cross Abstract: Acute ischemic stroke requires rapid treatment decisions that are strongly guided by emergency imaging. Admission computed tomography perfusion (CTP) is commonly used to estimate the ischemic core, representing irreversibly damaged tissue, and the penumbra, representing hypoperfused but potentially salvageable tissue. Follow-up diffusion-weighted MRI (DWI) is then used to define the final infarct. Existing imaging approaches primarily focus on core--penumbra segmentation or final-infarct prediction, but provide limited insight into how heterogeneous penumbral tissue evolves after treatment. We propose a bi-temporal tissue phenotyping framework that links admission CTP signatures with follow-up DWI-defined tissue outcome using six outcome-aware region-of-interest classes. Admission tissue signatures are characterized using statistical, radiomic, and deep-learning features extracted from mJ-Net and nnU-Net representations. On an internal cohort (SUH), salvaged and infarcted penumbra showed consistent feature-space separation ($\\tilde{\\Delta}{\\cos}=0.146$, $p<0.05$), while core tissue showed minimal separation by subsequent fate. The largest separation was observed between initially non-hypoperfused tissue that later infarcted and healthy contralateral tissue ($\\tilde{\\Delta}{\\cos}=0.460$, $p<0.05$). Cross-dataset evaluation on the publicly available ISLES'24 dataset showed similar trends, supporting the consistency of the observed feature-space patterns. These findings suggest that admission CTP contains outcome-associated tissue information beyond conventional core-penumbra delineation. The code is available at https://github.com/yokko123/bi-temporal-ctp-dwi-code.",
+  "published": "2026-02-07T13:18:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.416361+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:41:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.07535v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.091499+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "4c0932e6f7119369ffaa3c4d1f4a80f5c6d19724b028d114e8a014d3d6a9a3a0",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ATWL: A Formal Language for Representing, Comparing, and Reusing Visual Analytics Workflows",
+  "url": "https://arxiv.org/abs/2605.25489",
+  "summary": "arXiv:2605.25489v2 Announce Type: replace Abstract: Visual analytics (VA) workflows combine data transformation, feature computation, visual representation, and human interpretation, but they are usually described in prose. This hinders comparison of workflows, reuse of proven strategies, and training of novices. We present Artifact--Transform Workflow Language (ATWL), a declarative language for representing the structure and intent of VA workflows. A workflow consists of typed artifacts and of transforms, each with an analytical intent and a human, machine, or hybrid actor. We built a library of 54 workflows extracted from published VA papers with the help of LLMs under human supervision. An exploratory computational comparison of the library workflows shows regularities, such as a regular division of labour between humans and machines and cycles of refinement. We ran experiments in which LLMs designed workflows for new tasks. They show the effects of using the library, the ATWL representation, and both together, and they reveal a limitation in expressing branching that requires an extension of the ATWL syntax. The library is small and partly drawn from our own work, so the findings are preliminary.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.203133+00:00"
+}

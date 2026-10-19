@@ -1,0 +1,18 @@
+{
+  "id": "5c86bb7bbfc07a0bcec295dcccbe3dd97bec4186453119cf7710774cd601002b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A Minimal ReLU Classifier on Non-Linearly Separable Data: Convergence and Implicit Bias at and beyond the Edge of Stability",
+  "url": "https://arxiv.org/abs/2610.23007",
+  "summary": "arXiv:2610.23007v1 Announce Type: new Abstract: Gradient descent (GD) with large learning rates can successfully optimize neural networks even though classical smoothness-based learning rate conditions are violated. Yet theory for this regime largely covers linear models or linearly separable data. We analyze a minimal setting outside both regimes. Specifically, a two-neuron ReLU network trained with logistic loss on 1D non-linearly separable data. The objective is nonconvex and nonsmooth, and GD exhibits edge-of-stability (EoS) behavior. We identify an active cone in parameter space that contains every perfect classifier, where the problem becomes piecewise logistic regression with a varying effective dataset. Within this cone, we prove a finite-time loss bound for constant learning rates and show that GD converges in direction to an explicit max-margin vector, while the orthogonal component converges to the unique minimizer of a non-strongly convex potential. We further establish catapult results where exponentially small loss is reached after a single loss spike. Furthermore, we propose an adaptive schedule that lets learning rates grow to infinity without leaving the active cone. We prove that this schedule achieves a loss rate of $O(1/(T\\log{T})$, which is faster than the standard $O(1/T)$ rate. Our theoretical results extend to local convergence on more general network and are validated on MNIST dataset. Overall, we show that this setup provides a tractable neural-network model for studying large and adaptive step sizes beyond linear predictors and separable data.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.225733+00:00"
+}

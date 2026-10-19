@@ -1,0 +1,21 @@
+{
+  "id": "f3b3a812097b0ceeae280f0221a9d5b6e82f26545142d54825422597921d2362",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation",
+  "url": "https://arxiv.org/abs/2610.12003",
+  "summary": "arXiv:2610.12003v1 Announce Type: new Abstract: PDE solution discovery aims to identify explicit symbolic expressions for unknown physical fields from observations under known physical constraints. Existing methods, however, collapse data fidelity and physical consistency into a single terminal score used as the sole feedback signal, providing little information about which subexpressions are responsible for a candidate's final performance. This opaque terminal feedback severely limits the interpretability of the search process itself, offering no insight into why a candidate succeeds or fails. Consequently, reusable structures in otherwise suboptimal candidates are often discarded, whereas incidental syntax along successful search trajectories may be repeatedly reinforced. We propose SED-MCTS, a Monte Carlo tree search approach that distills structural experience from evaluated expressions and reuses it to guide subsequent symbolic solution search. Through counterfactual subtree interventions, SED-MCTS estimates local structural contributions, routes reliable evidence to the responsible construction edges, and preserves useful components in a refined structural archive. The approach naturally extends to coupled multiphysics systems. Across a diverse suite of PDE benchmarks, SED-MCTS achieves strong performance under a fixed evaluation budget and improves search efficiency and robustness under noisy or scarce observations.",
+  "published": "2026-10-08T14:07:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.374386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:07:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12003v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.477663+00:00"
+}

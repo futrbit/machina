@@ -1,0 +1,22 @@
+{
+  "id": "dd26fb03d81f6715099c629c5cc5150fbc9826a5aa5de13cf3c09344cc676c6a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Benchmarking Hyperspectral Foundation Models for Hyperspectral Unmixing",
+  "url": "https://arxiv.org/abs/2609.28283",
+  "summary": "arXiv:2609.28283v2 Announce Type: replace Abstract: Several foundation models dedicated to hyperspectral images have recently been made available. These models are trained on large unlabeled datasets and exhibit strong performance on many hyperspectral imaging tasks, such as classification or denoising. Nonetheless, their performance for hyperspectral unmixing -- the task of separating mixed spectra of overlapping materials in a hyperspectral image -- remain understudied. This might partly be due to the fact that most of them rely on vision transformer backbones, including patchification, leading to a feature resolution problem. While hyperspectral unmixing already arises from the low resolution of hyperspectral images, this patchification step potentially makes the problem even more ill-posed. Therefore, in this work, we aim to answer two questions: 1) how do foundation models perform in hyperspectral unmixing?; 2) how to tackle the feature-level loss of resolution? To answer the first question, we benchmark foundation models for unmixing, showing that they can reach state-of-the-art performance on four hyperspectral unmixing datasets. To answer the second question, we compare several feature upsampling approaches and empirically show that using a simple one can lead to high performance results. The code is available at https://gitlab.telecom-paris.fr/ring/hfm-hsu.git.",
+  "published": "2026-09-23T15:32:44Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.789025+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:06:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.28283v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.217819+00:00"
+}

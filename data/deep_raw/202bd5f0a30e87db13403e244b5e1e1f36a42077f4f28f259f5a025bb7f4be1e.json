@@ -1,0 +1,21 @@
+{
+  "id": "202bd5f0a30e87db13403e244b5e1e1f36a42077f4f28f259f5a025bb7f4be1e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "DEX: Digit-Level Early Exit for Energy-Efficient MSDF Neural Network Inference",
+  "url": "https://arxiv.org/abs/2610.11748",
+  "summary": "arXiv:2610.11748v1 Announce Type: cross Abstract: U-Net inference for brain-tumor segmentation requires billions of multiply-accumulate operations, motivating hardware that can reduce computation dynamically rather than relying only on fixed precision or static model compression. Most-significant-digit-first (MSDF) arithmetic exposes the leading digits of a result during computation, enabling output-dependent decisions before the full value is generated. This paper presents an MSDF accelerator for quantized U-Net segmentation with a two-stage grouped processing element supporting signed INT8 operands and in-stream bias accumulation. Four runtime mechanisms operate directly on the output digit stream: exact early negative detection (END) in ReLU layers, exact sign-only decision making in the segmentation head, calibrated low-order-digit skipping, and calibrated pruning. The two approximate mechanisms are selected offline under an accuracy constraint, while execution requires only lightweight control and does not modify the stored weights. On a residual U-Net trained with nnU-Net for BraTS, the proposed mechanisms reduce digit cycles by 38.38\\% while achieving a mean Dice score of 80.58\\% on 73 held-out cases, compared with 81.20\\% for the floating-point model; the exact mechanisms alone reduce cycles by 18.79\\% without altering the quantized output. Synthesized in 45~nm, the processing element operates at 500~MHz, occupies 0.858~mm$^2$, and consumes 0.726~mJ per $192\\times192$ patch under switching-activity-annotated power analysis. A projected eight-output accelerator with shared activation delivery achieves 16.6~ms latency and 1.67~mJ per patch.",
+  "published": "2026-10-08T11:39:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.395372+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:39:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11748v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.094304+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "624133bbd9555fafb3a6235081f1d373004fbf0393b618dba060b35616e4a0c1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "PageWeaver: KV-Guided Query Unions for Sparse Attention",
+  "url": "https://arxiv.org/abs/2610.11201",
+  "summary": "arXiv:2610.11201v1 Announce Type: cross Abstract: Dynamic sparse attention limits the KV pages selected by each query, but a small support does not necessarily yield efficient GPU work. Query unions share page loads and populate Tensor Core tiles; their cost depends on which queries are grouped together. We present PageWeaver, an execution design that uses selected-page affinity to assemble query groups while preserving each query's original support and complete output ownership. A bounded GPU search produces query IDs, and an ID-aware two-CTA kernel consumes them without materializing reordered Q tensors or cross-page partial outputs. A direct KV-page union implementation provides a complementary design study of nonlocal reuse and reduction cost. With FP8 KV throughout, the H200 Union8 implementation achieves a 1.70x geometric-mean complete-call speedup over the measured FlashInfer path on six captures. Online regrouping further lowers latency by 3.26-7.66% on five selected 64K-context captures. Whole-model prefill throughput is 7.88-14.36% above the tested native path; the incremental regrouping benefit is smaller, with observed median gains of 0.47-0.73% at 32K/64K and regressions at 8K. A B300 comparison identifies cases where preparation cost and a stronger native kernel remove the advantage. These results separate execution-group reuse from the complete cost of exploiting it online.",
+  "published": "2026-10-08T04:04:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.106417+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:04:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11201v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.832257+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9e9275eed94a8ce629a4f3fdf5a8bd626f5732a3faf26f8ab4518b9b3df9af09",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "WiSPER: Pose-Supervised Predictive and Residual Flow Refinement For Multi-Person 3D Pose Estimation With WiFi CSI",
+  "url": "https://arxiv.org/abs/2610.07025",
+  "summary": "arXiv:2610.07025v1 Announce Type: new Abstract: Multi-person 3D pose estimation with WiFi channel state information (CSI) is challenging because reflections from different people overlap without directly identifying individual joints. Existing masked embedding objectives capture wireless relationships without explicit pose supervision, while structured decoders can retain coordinate errors. We propose WiSPER, a two-stage framework combining pose-aware predictive pretraining with conditional residual flow refinement. Pose-Aware Masked Embedding Learning (PAMEL) couples masked latent prediction with auxiliary pose-set supervision on the same CSI context, guiding the encoder toward joint localization from partial observations. Residual Flow refinement with Transformer (ReFT) generates a set of pose candidates to accommodate a variable number of people and refines each candidate through a conditional flow guided by its coarse coordinates and per-joint decoder features. Both stages use paired CSI and pose annotations during training, while inference requires only CSI. Experiments on the PiW3D dataset show that WiSPER achieves an overall mean per-joint position error of 63.72 mm, a 40.0% reduction relative to WiFi-JEPA. For experiments with two and three people, WiSPER reduces MPJPE by 42.1% and 38.1%, respectively. Pose-supervised pretraining configurations obtain lower errors than CSI-only JEPA, and enabling the trained residual refiner reduces overall MPJPE by 13.8-15.6% across the evaluated configurations.",
+  "published": "2026-10-04T16:57:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.510388+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T16:57:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07025v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.067513+00:00"
+}

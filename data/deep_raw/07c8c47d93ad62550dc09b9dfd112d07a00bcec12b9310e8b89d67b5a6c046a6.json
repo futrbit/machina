@@ -1,0 +1,22 @@
+{
+  "id": "07c8c47d93ad62550dc09b9dfd112d07a00bcec12b9310e8b89d67b5a6c046a6",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Encoded but Disconnected: Decomposing Vision-Language Model Failures under a Patching Null",
+  "url": "https://arxiv.org/abs/2610.00024",
+  "summary": "arXiv:2610.00024v1 Announce Type: cross Abstract: Across three vision-language model architectures (LLaVA-1.5-7B, Qwen2.5-VL-7B, InternVL3-8B), we report a universal negative finding for mid-layer interpretability. On POPE -- the benchmark common to all three -- the mid layers encode the ground-truth answer in 68-91% of errors, yet this signal is not causally active for the final prediction: residual-stream patching yields 0% non-trivial flip at the layer level on all three architectures, and on two of three at the per-head level (Qwen: 0/12,600 patched forwards). The lone exception, InternVL3 layer-20 head-2, is a non-vocab, self-attending head whose effect is localized to that specific head (p < 1e-4). Despite the null, the errors separate operationally into three failure modes -- Perception Failure, Encoded-but-Disconnected, Prior-Override -- learnable above 60% on all three architectures, and the architecture's prior direction predicts which of two interventions elicits a category-specific response. We report these mitigation effects under oracle labels as evidence the categories are mechanistically real, not as a deployable method.",
+  "published": "2026-09-01T20:15:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.804489+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-01T20:15:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00024v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.412109+00:00"
+}

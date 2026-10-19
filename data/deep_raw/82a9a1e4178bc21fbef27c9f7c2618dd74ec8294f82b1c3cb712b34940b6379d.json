@@ -1,0 +1,22 @@
+{
+  "id": "82a9a1e4178bc21fbef27c9f7c2618dd74ec8294f82b1c3cb712b34940b6379d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Stable Scores, Unstable Answers: Frame Phase and Option Order in Video Multiple-Choice Evaluation",
+  "url": "https://arxiv.org/abs/2610.08649",
+  "summary": "arXiv:2610.08649v1 Announce Type: new Abstract: Video-language models are ranked by multiple-choice accuracy on frames from a uniform grid. The grid has two parameters, a rate and a phase, and benchmarks report only the rate. The phase moves answers: two deployed samplers differing only by a half-step phase offset answer 23.6% of questions differently while scoring within a point, and across four releases from two families shifting only the phase changes roughly one answer in five after controlling option order. PHASEFUSION decodes three offset grids and averages the option posteriors. The grids are the polyphase components of the dense grid. Fusion matches a 32-frame single pass in accuracy within a prespecified margin (logit-scored) and cuts the answers a half-step shift of all three grids changes from 18.2% to 10.1%. Option order, which changes only the presentation, is flagged instead by a one-pass answer margin. Report the phase convention with the budget, or marginalize it.",
+  "published": "2026-10-06T16:36:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.526378+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:36:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08649v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.488862+00:00"
+}

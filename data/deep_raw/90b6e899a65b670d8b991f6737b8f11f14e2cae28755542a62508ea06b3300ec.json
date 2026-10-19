@@ -1,0 +1,21 @@
+{
+  "id": "90b6e899a65b670d8b991f6737b8f11f14e2cae28755542a62508ea06b3300ec",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Improving Visual Sensitivity of LLMs on Multimodal Machine Translation with Metric-based Loss Weighting",
+  "url": "https://arxiv.org/abs/2609.31169",
+  "summary": "arXiv:2609.31169v1 Announce Type: cross Abstract: Multimodal Machine Translation aims to incorporate additional signal from non-textual modalities to improve translations by resolving ambiguities. While models, through multimodal fusion, are able to accept images related to the source text, they can ignore this information. Therefore, increasing their visual sensitivity remains an active research area. In this work, we introduce a training method, Metric-based Loss Weighting, that improves visual grounding of translations by increasing the loss function for tokens that benefit from the accompanying image. We identify these tokens using the Point-wise Cross-mutual Information (PCXMI) metric, which compares the model's output probabilities with and without visual context. We introduce a Congruency-based PCXMI metric and experimentally show that both metrics working in combination yield the best results. We evaluate our method by fine-tuning three pretrained Multimodal Large Language Models on the task of Image-guided Machine Translation for three language directions. Metric-based Loss Weighting outperforms other tested methods on the CoMMuTE contrastive dataset, improving accuracy by up to more than 7 percentage points compared to standard fine-tuning, while maintaining strong general translation performance.",
+  "published": "2026-09-25T11:59:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.426791+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T11:59:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31169v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.764695+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "d769cb7abc90905e15f568fe53bf52d0a6de1436226669df4bc7ef67dbfef9ea",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+  "url": "https://arxiv.org/abs/2610.07540",
+  "summary": "arXiv:2610.07540v1 Announce Type: cross Abstract: Robotic systems often exhibit unstable modes, along which small perturbations and disturbances can cause unbounded growth unless corrected through feedback. Controlling such systems from high-dimensional visual observations requires representations that preserve these modes. Joint-embedding predictive architectures (JEPAs) provide a natural framework for learning such representations and their dynamics from visual data. However, we demonstrate that next step prediction combined with anti-collapse regularization does not guarantee that controllable unstable modes are preserved: the training loss can be minimized while these modes are collapsed, making stabilization from the learned representation impossible. To address this, we augment world-model training with an action reconstruction objective (i.e., an inverse dynamics loss) that encourages control-aware representations, namely, visual representations that preserve crucial features for control. We prove that exact action reconstruction makes the encoder injective on the finite-horizon reachable subspace. Thus, the encoder cannot discard any state direction reachable by an action sequence within $H$ steps. Moreover, we show that, as $H$ grows, the dominant eigenspace of the finite-horizon controllability Gramian converges to the controllable unstable subspace. We establish our theoretical results for linear systems and demonstrate empirically that our findings extend to nonlinear visual control tasks (CartPole, Walker2D, and PointMaze), highlighting the benefits of control-aware representation learning.",
+  "published": "2026-10-06T00:08:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.474013+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T00:08:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07540v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.686943+00:00"
+}

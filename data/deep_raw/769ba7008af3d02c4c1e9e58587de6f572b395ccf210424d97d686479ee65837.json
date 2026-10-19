@@ -1,0 +1,18 @@
+{
+  "id": "769ba7008af3d02c4c1e9e58587de6f572b395ccf210424d97d686479ee65837",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Response-Informed Value Estimation for Cost-Aware Multi-Turn LLM Routing",
+  "url": "https://arxiv.org/abs/2610.23239",
+  "summary": "arXiv:2610.23239v1 Announce Type: new Abstract: Multi-turn LLM routing selects a model at every turn before its response is available, yet task success is revealed only when the interaction ends, leaving each intermediate choice without a label of its own. Logged trajectories, however, retain the response each call produced, which exposes what each turn required and how well the chosen model served it, evidence that outcomes alone hide. We introduce RIVET (Response-Informed Value Estimation for Turn-Level Routing), which exploits this post-call evidence during training while keeping routing strictly pre-call at deployment. RIVET jointly trains two value estimators over a shared state-model representation: a deployable Routing Value Estimator that scores candidate models from pre-call information, and a training-only Response-Informed Value Estimator that additionally observes the realized response. Conditioning on the response turns response-induced return variation from residual noise into an observed covariate, and we show that this reduces the leading asymptotic estimation error of the shared representation. On the MINT benchmark, RIVET solves more held-out tasks than the strongest multi-turn baseline while using 74.7% less total call cost.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.228732+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ae8c32eb73a387bac9d6950d662cb8eafc9b77063644dc2dd154aa7952d5d61d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "The Operator Mismatch Problem: Deploying BEV Perception with Portable GPU Compute",
+  "url": "https://arxiv.org/abs/2610.11504",
+  "summary": "arXiv:2610.11504v1 Announce Type: new Abstract: Modern autonomous driving systems rely on bird's-eye-view (BEV) perception models that fuse camera and LiDAR inputs to detect objects in 3D space. These models are accurate, but they cannot be deployed through standard inference runtimes. The reason is an operator mismatch between dense convolutions (which runtimes handle well), sparse 3D convolutions (which runtimes cannot represent), and geometric scatter operations (which runtimes have no vocabulary for). Today, every sparse convolution library is CUDA-only and PyTorch-coupled, locking BEV deployment to a single vendor's hardware and a single execution framework. We present BEVPIPE, a framework for deploying multimodal BEV perception pipelines using portable GPU compute APIs and integrating them with production inference runtimes. BEVPIPE partitions the model into runtime-managed dense subgraphs and three external operator extensions (voxelizer, sparse encoder, BEV projector), connected through a shared GPU memory space. BEVPIPE achieves a 19.5x end-to-end speedup over conventional deployments while retaining 98.5% of reference mAP. We also showcase that BEVPIPE is portable across different GPU backends.",
+  "published": "2026-10-08T08:42:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.369388+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:42:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11504v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.535230+00:00"
+}

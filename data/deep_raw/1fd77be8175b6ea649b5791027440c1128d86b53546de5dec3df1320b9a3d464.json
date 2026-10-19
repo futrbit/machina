@@ -1,0 +1,18 @@
+{
+  "id": "1fd77be8175b6ea649b5791027440c1128d86b53546de5dec3df1320b9a3d464",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Structuring Open-Ended NAS: Semi-Automated Design Knowledge Structuring with LLMs for Efficient Neural Architecture Search",
+  "url": "https://arxiv.org/abs/2605.19247",
+  "summary": "arXiv:2605.19247v2 Announce Type: replace Abstract: Current neural architecture search (NAS) methods are often limited by their predefined, restrictive search spaces. While recent large language model (LLM)-assisted NAS methods enable open-ended search spaces, they often suffer from inefficient exploration due to biased or low-quality design ideas. To address these issues, we propose to semi-automatically structure model design knowledge to guide the search process. Our approach first defines a high-level structural template of architectural attributes. An LLM then populates this template by analyzing papers, creating a rich and diverse search space that embodies this structured design knowledge. To efficiently explore this vast space, we introduce FairNAD, using a multi-type mutation that enables broad exploration through mutation with fair idea sampling, Pareto-aware mutation, LLM-driven iterative mutation, and a fine-grained feedback loop. We demonstrate the effectiveness of FairNAD in discovering high-performing architectures that yield 0.84, 2.17, and 2.35 points improvement on CIFAR-10, CIFAR-100, and ImageNet16-120, respectively, compared to current state-of-the-art methods.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.056084+00:00"
+}

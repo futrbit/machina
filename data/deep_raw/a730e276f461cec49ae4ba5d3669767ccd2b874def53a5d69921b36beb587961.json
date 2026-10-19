@@ -1,0 +1,21 @@
+{
+  "id": "a730e276f461cec49ae4ba5d3669767ccd2b874def53a5d69921b36beb587961",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "FFR: Forward-Forward Learning for Regression",
+  "url": "https://arxiv.org/abs/2606.03927",
+  "summary": "arXiv:2606.03927v2 Announce Type: replace-cross Abstract: The Forward-Forward (FF) algorithm offers a computationally efficient and biologically plausible alternative to backpropagation (BP) by training neural networks through purely local, layer-wise optimization. However, FF is inherently designed for classification via contrastive positive-negative sample pairs, and extending it to regression poses fundamental challenges: continuous target space lacks natural \"opposites\" for contrastive learning, and the standard goodness function carries no information about target magnitude or ordering. We propose FFR (Forward-Forward for Regression), to our knowledge, the first framework to extend FF to real-world regression and demonstrate competitive performance across diverse realworld datasets. FFR introduces three key innovations: (1) an ordinal competitive goodness function that replaces contrastive pairs with competitive learning between partitioned neuron groups under distance-aware ordinal supervision; (2) a stratified ladder architecture where shallow layers learn coarse ordinal discrimination and deeper layers refine into fine-grained regression, with multi-scale feature aggregation for inter-layer collaboration; and (3) hierarchical prediction with uncertainty estimation, where multi-scale predictors jointly provide robust predictions and a single-pass uncertainty score. Extensive experimental results show FFR recovers on average 98.5% of BP's accuracy across six real-world regression benchmarks while reducing peak training memory to only 27% of BP's at depth 8 and 8% at depth 32, with per-iteration time around 72% of BP's, and substantially outperforms all BP-free competitors.",
+  "published": "2026-06-02T17:15:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.196785+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:18:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.03927v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.277191+00:00"
+}

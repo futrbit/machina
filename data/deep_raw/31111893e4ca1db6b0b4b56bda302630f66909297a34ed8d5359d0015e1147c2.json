@@ -1,0 +1,22 @@
+{
+  "id": "31111893e4ca1db6b0b4b56bda302630f66909297a34ed8d5359d0015e1147c2",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding",
+  "url": "https://arxiv.org/abs/2610.11171",
+  "summary": "arXiv:2610.11171v1 Announce Type: new Abstract: Long-form video understanding often involves multiple questions about different aspects of the same recording. Yet existing video agents typically process each question through an isolated tool-use trajectory. This repeatedly restarts video exploration and memory construction, missing opportunities to acquire evidence jointly and progressively build a shared understanding that supports the complete question set. We introduce \\textbf{VAMR} (\\textbf{V}ideo \\textbf{A}gent for \\textbf{M}ulti-Question \\textbf{R}easoning), which coordinates all questions about a video through one shared tool-use trajectory. At each round, a persistent policy model can invoke tools for one or more unresolved questions and submit answers for questions with sufficient evidence. Question-conditioned visual perception retrieves fine-grained clues for several questions in one call, while layered multi-question memory integrates reusable context into a shared video story and preserves separate evidence for individual questions. After supervised fine-tuning initializes this interaction protocol, we propose question-horizon policy optimization (\\qhpo) to optimize shared trajectories in which questions progress and finish at different rounds. Specifically, a question-level critic estimates the value of each active question, while round alignment maps each question advantage to the rounds that directly serve it before the aligned advantages are aggregated to optimize the shared actor. Across LVBench, Video-Holmes, and LongVideoBench, VAMR achieves the highest accuracy overall and the fewest reasoning rounds among iterative methods. On LVBench, it reaches 62.1\\% accuracy, exceeding VideoARM by \\textbf{4.3} points while reducing reasoning rounds and processed frames by \\textbf{85.9\\%} and \\textbf{61.4\\%}.",
+  "published": "2026-10-08T03:26:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.742053+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:26:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11171v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.434100+00:00"
+}

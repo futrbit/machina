@@ -1,0 +1,22 @@
+{
+  "id": "4055cf9b053dcea65c57bed1d54d44c77dab33e29491a3f1084b4b3e92fc7416",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Symmetry-Aware Feature Learning: A Polynomial Separation for Multi-Index Models",
+  "url": "https://arxiv.org/abs/2610.08420",
+  "summary": "arXiv:2610.08420v1 Announce Type: new Abstract: We establish a polynomial sample complexity separation between symmetry-aware and symmetry-agnostic feature learning. We study growing-rank multi-index models with high-dimensional Gaussian covariates in $\\mathbb{R}^d$ and $r=\\Theta(d^\\delta)$ teacher directions forming a cyclic symmetry orbit, where $0<\\delta<1/2$. We compare three ways of exploiting this structure: architectural weight sharing, data augmentation over the full symmetry group, and learning without access to the symmetry. In particular, we analyze a symmetry-tied convolutional network, an untied network, and the same untied network trained with full-group data augmentation, using spherical online SGD with correlation loss. For a class of polynomial links with information exponent $p\\ge3$, we prove matching sample complexity bounds up to logarithmic factors: the tied and augmented learners achieve weak directional recovery in $\\widetilde{\\Theta}(d^{p-1})$ samples, whereas the symmetry-agnostic learner requires $\\widetilde{\\Theta}(rd^{p-1})$. For the pure quadratic Hermite link, the same separation holds for weak recovery of the teacher subspace, with sample complexities $\\widetilde{\\Theta}(d)$ and $\\widetilde{\\Theta}(rd)$, respectively. Thus, full-group data augmentation matches the sample efficiency of architectural weight sharing, and both provide a polynomial advantage over training without symmetry. For $p\\ge3$, the proof reveals a two-stage mechanism: fluctuations at initialization select one direction in the teacher orbit, after which localized growth amplifies its overlap to the weak recovery scale while competing overlaps remain near their initialization scale.",
+  "published": "2026-10-06T14:23:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.076489+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:23:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08420v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.784888+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "7ed15da0378716839ce8fbc2a678f97b4e21d6e25f2973524745e04415a9ed13",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR",
+  "url": "https://arxiv.org/abs/2609.08672",
+  "summary": "arXiv:2609.08672v3 Announce Type: replace-cross Abstract: Streaming automatic speech recognition (ASR) for real-time voice agents and full-duplex dialogue must provide accurate partial transcripts with low commit latency. Existing systems commonly use a fixed chunk size, look-ahead, or target delay, or encourage emissions near estimated acoustic boundaries. These approaches do not directly optimize how much additional context to use at each output position under a single-pass, hard-commit constraint. We propose X2Streaming-ASR, which decomposes streaming recognition into when to commit and what to commit. Its three-stage training procedure first establishes streaming recognition ability, then warm-starts the commit policy with automatically probed trajectories, and finally refines the policy using character-level, segment-assigned group-relative rewards for recognition accuracy and latency. Across ten Chinese and English test sets, X2Streaming-ASR attains the lowest mean commit latency relative to forced-aligned endpoints, 32--109ms on Chinese characters and 12--85ms on English words, while recognition accuracy remains comparable to existing systems.",
+  "published": "2026-09-08T12:39:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.426353+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:19:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.08672v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.415905+00:00"
+}

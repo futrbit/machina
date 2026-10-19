@@ -1,0 +1,22 @@
+{
+  "id": "e1845f25ba5b4e503b9465bc039b90fda72d2b0b9ec0ea7af8328712f521c4f8",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "C-LoRA: Continual Low-Rank Adaptation for Pre-trained Visual Models",
+  "url": "https://arxiv.org/abs/2502.17920",
+  "summary": "arXiv:2502.17920v2 Announce Type: replace Abstract: Pre-trained visual models have become fundamental in computer vision, but they face challenges in continual learning scenarios where data and tasks evolve over time. Low-Rank Adaptation (LoRA) offers efficient fine-tuning capabilities but remains limited for such dynamic environments. Standard LoRA cannot distinguish important subspaces, causing critical knowledge to be overwritten in sequential training. Existing approaches address this by dynamically expanding the set of LoRA adapters, either maintaining a growing pool of task-specific modules or merging new adapters into prior ones, at the cost of unbounded parameter growth or increasing inference complexity. We propose Continual Low-Rank Adaptation (C-LoRA), a method that enables a single, shared LoRA adapter to handle sequential tasks without catastrophic forgetting, without requiring any module selection or fusion at inference. The core of C-LoRA is a learnable routing matrix R that explicitly controls how each rank-one subspace contributes to the weight update. This matrix is decomposed into a stability component (R_base), which preserves knowledge from prior tasks, and a plasticity component (R_delta), which drives adaptation to the current task, providing direct control over the stability-plasticity trade-off. We analyze how R governs gradient flow during sequential training, and demonstrate competitive performance across multiple benchmarks.",
+  "published": "2025-02-25T07:35:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.120411+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:28:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2502.17920v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.264791+00:00"
+}

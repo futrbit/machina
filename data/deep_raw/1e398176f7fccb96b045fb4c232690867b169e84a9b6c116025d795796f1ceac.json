@@ -1,0 +1,18 @@
+{
+  "id": "1e398176f7fccb96b045fb4c232690867b169e84a9b6c116025d795796f1ceac",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Unit-level aggregation breaks coverage in causal foundation models",
+  "url": "https://arxiv.org/abs/2610.22770",
+  "summary": "arXiv:2610.22770v1 Announce Type: cross Abstract: Causal foundation models (CFMs) show promising results for treatment-effect estimation, with unit-level estimates that are competitive on standard benchmarks. Many causal analyses, however, inform decisions through effects averaged over groups of units, such as the full sample, the treated units, or a subgroup, and for such decisions a CFM is useful only if its credible intervals are calibrated. We examine these intervals and find that their coverage degrades, both in simple synthetic settings and on standard benchmarks. On ACIC 2016, for example, temperature-calibrated 95% intervals from CausalPFN fall below nominal coverage beyond groups of 30 out of 4802 units, and intervals for the full-sample average contain the true value in only 20% of datasets. We trace this problem to how these models are trained and how their intervals are formed. They output a predictive distribution for one unit at a time and, at inference time, combine the unit-level variances as if the errors on different units were independent. We show formally that posterior uncertainty over the data-generating process makes these errors correlated. As a result, the combined variance is too small by a factor that grows with the size of the group. Empirically, this factor predicts where coverage fails and by how much. We then show that two neural process models, which make joint predictions for a group of units, account for this correlation and substantially improve coverage on synthetic tasks and, as heads on a frozen CausalPFN, on all six benchmarks.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.240724+00:00"
+}

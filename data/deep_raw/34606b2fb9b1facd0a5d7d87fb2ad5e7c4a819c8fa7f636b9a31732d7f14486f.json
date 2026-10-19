@@ -1,0 +1,22 @@
+{
+  "id": "34606b2fb9b1facd0a5d7d87fb2ad5e7c4a819c8fa7f636b9a31732d7f14486f",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "OpenVAM: Open-World Visual Attention Modeling with VLMs",
+  "url": "https://arxiv.org/abs/2609.31364",
+  "summary": "arXiv:2609.31364v1 Announce Type: new Abstract: Predicting human gaze is a core capability for applications ranging from web/UI design analysis to robotics and human-computer interaction. Yet, most visual attention modeling methods output only a dense saliency map, which is often insufficient for action: practitioners need to connect attention peaks to discrete elements in the scene (what) and understand the drivers of those peaks in context (why), while remaining robust to domain shift across natural images, commercial content, and UI/web layouts. We, therefore, introduce OpenVAM (Open-world Visual Attention Modeling with VLMs), a unified framework that jointly addresses universality and explainability across heterogeneous domains (natural scenes, commercial imagery, and UI/web layouts) and supervision modalities. OpenVAM adopts a decoupled-but-aligned design: a dedicated dense visual pathway provides stable, spatially precise localization, while an instruction-following vision--language semantic head generates grounded what/why explanations conditioned on the same image and data-type prompts. A three-stage training strategy preserves strong localization priors while progressively introducing language grounding and improving explanation alignment via parameter-efficient adaptation without perturbing the saliency branch. We further propose a scalable pipeline to generate multi-domain saliency-reason annotations for training and systematic evaluation. Experiments across diverse datasets show that OpenVAM improves robustness under domain shift while producing image-grounded explanations that make saliency predictions more interpretable.",
+  "published": "2026-09-25T14:59:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.226906+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T14:59:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31364v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.581012+00:00"
+}

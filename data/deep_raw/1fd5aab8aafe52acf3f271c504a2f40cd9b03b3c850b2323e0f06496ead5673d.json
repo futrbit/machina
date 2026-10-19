@@ -1,0 +1,22 @@
+{
+  "id": "1fd5aab8aafe52acf3f271c504a2f40cd9b03b3c850b2323e0f06496ead5673d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "EP-Flow: Disordered Crystal Structure Prediction without Site-Level Annotations",
+  "url": "https://arxiv.org/abs/2610.01315",
+  "summary": "arXiv:2610.01315v1 Announce Type: new Abstract: Generative models have made rapid progress in ordered crystal structure prediction, yet many functional materials are intrinsically disordered, with substitutional mixing, vacancies, or interstitial species controlling their properties. Existing crystal generators either assume deterministic site occupations or require site-level disorder annotations, which are often unavailable when the chemical formula is the primary input. We formulate disordered crystal structure prediction through an Occupancy Distribution Matrix (ODM), a continuous site-by-species representation that unifies ordered crystals, solid solutions, vacancy disorder, and interstitial occupancy. A valid ODM must satisfy coupled site-wise occupancy, mass-conservation, and non-negativity constraints, placing each sample on a formula-dependent transportation polytope. We propose Entropic Polytope Flow (EP-Flow), a marginal-constrained flow matching framework that canonicalizes heterogeneous polytopes into a shared double-centered space, learns a marginal-preserving flow, and recovers feasible occupancies through a Sinkhorn inverse map. By jointly generating occupancies, fractional coordinates, and lattice parameters, EP-Flow achieves state-of-the-art performance on formula-conditioned disordered CSP benchmarks derived from COD and MPDS, substantially outperforming adapted ordered-crystal generators. Analyses further show that EP-Flow recovers sparse and chemically meaningful local disorder patterns rather than merely matching global composition statistics.",
+  "published": "2026-10-01T08:47:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.789498+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T08:47:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01315v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.082312+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "19fd27e9f006008bdf9cdebdb237a068e2371f5a5bb18a1a7543d1c2ab62c382",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Emoception: Selective Affective Layer Fine-Tuning of Video Vision Transformers for Player Arousal Change Recognition From Gameplay Footage",
+  "url": "https://arxiv.org/abs/2610.07603",
+  "summary": "arXiv:2610.07603v1 Announce Type: cross Abstract: This article proposes Selective Affective Layer Fine-Tuning (SALFT), an efficient adaptation framework for Video Vision Transformers in player arousal recognition from gameplay. To bypass computationally expensive full fine-tuning, SALFT introduces a selection criterion based on the L2-norm change in layer parameters after brief adaptation, directly measuring representational shifts and providing a more stable basis than gradient-based alternatives. Evaluated via five-fold cross-validation on the Arousal Video Game AnnotatIoN dataset, SALFT achieves performance comparable to full fine-tuning across all games without statistically significant degradation ($p>0.05$), while updating only $\\approx$8% of parameters (over 92% reduction). Notably, in one game, SALFT consistently outperforms both full fine-tuning and the best baseline across all metrics and folds, reaching the theoretical minimum p-value (p=0.0625, exact two-sided Wilcoxon signed-rank test). In addition, we introduce an interpretability method to trace attention patterns, enhancing model transparency. These results establish SALFT as an effective and efficient approach for affective game computing.",
+  "published": "2026-10-06T01:45:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.164806+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:45:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07603v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.919804+00:00"
+}

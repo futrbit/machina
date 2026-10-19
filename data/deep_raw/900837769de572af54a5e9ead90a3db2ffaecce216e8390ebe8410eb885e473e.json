@@ -1,0 +1,21 @@
+{
+  "id": "900837769de572af54a5e9ead90a3db2ffaecce216e8390ebe8410eb885e473e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MemoWM: How World Models Change What Agents Need to Remember",
+  "url": "https://arxiv.org/abs/2610.10778",
+  "summary": "arXiv:2610.10778v1 Announce Type: cross Abstract: Long-term agents face growing storage demands as they accumulate experience. World models capture reusable regularities that can reduce the information stored for each experience. We formulate the problem of memory allocation conditioned on a world model and introduce MemoWM, a framework that uses shared predictions to compress retained information and reconstruct omitted content. Its task-aware allocation rule balances the expected impact of reconstruction errors against storage cost, retaining information with downstream value beyond the predictive prior. Across five long-term agent-memory benchmarks, MemoWM achieves 42.42\\% average answer accuracy, exceeding the strongest baseline by 2.62 percentage points, while reducing average experience-specific storage by 53.9\\% relative to MIRIX, the most storage-efficient baseline. Further analysis shows that stronger world models reduce per-experience storage at comparable task quality. Accounting for model parameters reveals a trade-off between shared model capacity and recurring storage costs, with the capacity that minimizes total storage increasing as more interactions are retained. Our code is available at https://github.com/Feld-maxiu/MemoWM.",
+  "published": "2026-10-07T18:33:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.383382+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:33:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10778v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.753702+00:00"
+}

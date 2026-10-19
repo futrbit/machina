@@ -1,0 +1,22 @@
+{
+  "id": "e57186d328e2e58ef2f780fc22fbe092e02e1a56bf487091de3cbb2ceec4439d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "How Bregman Divergences Shape Shampoo",
+  "url": "https://arxiv.org/abs/2610.08534",
+  "summary": "arXiv:2610.08534v1 Announce Type: new Abstract: Understanding the principles behind Shampoo has recently guided the development of more effective neural network optimizers. These methods learn a preconditioner by optimizing the Frobenius or Kullback-Leibler (KL) divergence against the gradient second moment. In this work, we investigate how the choice of divergence shapes preconditioning, which remains unclear and blocks further improvements. To do so, we develop a unified Bregman divergence framework that connects all popular divergences, allowing us to study them jointly. Through empirical spectral analysis of gradient second moments, we examine how divergence choice shapes Kronecker approximation and interacts with finite-sample error in preconditioning. We find that some divergences can better compensate for finite-sample underestimation of the empirical second moment, helping explain the differing behavior of their corresponding Shampoo variants. We further validate this explanation through GPT-2 pretraining experiments. By connecting divergence choice to practical training behavior, we believe our framework provides principled guidance for understanding the foundations of, and further improving, Shampoo.",
+  "published": "2026-10-06T15:25:57Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.078488+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:25:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08534v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.310763+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "143aba7e37700b56dd63de9f4082064dbac45222c7205e52828ac184af660ede",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "LAST: Looped Audio Spectrogram Transformer",
+  "url": "https://arxiv.org/abs/2610.01926",
+  "summary": "arXiv:2610.01926v1 Announce Type: cross Abstract: Increasing depth of transformer models improves recognition, but it comes at a substantial cost. Each additional layer requires more parameters, which makes the process computationally inefficient. We ask whether additional processing can focus on integrating features already computed. Looped Audio Spectrogram Transformer (LAST) first processes all tokens, then reuses the same blocks to refine only the class token over fixed audio features, thereby making later passes inexpensive. On AudioSet, ten-pass LAST achieves 0.345 mean average precision, exceeding a twelve-layer sequential transformer by 2.1% relative with 49.4% fewer parameters, 42% fewer multiply-accumulate operations, and 9.8% higher measured throughput. Across separately trained models, increasing the pass count from two to ten improves accuracy while adding only 1.2% computation. Further evaluations show improved robustness to temporal masking and various other auditory augmentations, with better generalization on classification tasks with music, environmental, and event sounds.",
+  "published": "2026-10-01T15:59:09Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.822478+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T15:59:09Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01926v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.792880+00:00"
+}

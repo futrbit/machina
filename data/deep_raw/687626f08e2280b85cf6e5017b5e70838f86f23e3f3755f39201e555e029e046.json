@@ -1,0 +1,22 @@
+{
+  "id": "687626f08e2280b85cf6e5017b5e70838f86f23e3f3755f39201e555e029e046",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SparkDiffusion: Mitigating the High-Sparsity Trap --- A Unified Framework for up to $265\\times$ Single-GPU Acceleration of Visual Generation",
+  "url": "https://arxiv.org/abs/2609.23153",
+  "summary": "arXiv:2609.23153v2 Announce Type: replace Abstract: Video diffusion transformers are expensive because attention dominates long spatiotemporal token sequences. We identify the \\emph{high-sparsity trap}: at extreme attention sparsity, step-local training losses keep decreasing while terminal generation quality stagnates or degrades. The trap is one of supervision: the dominant terminal errors originate in the high-noise structure-generation stage, and terminal-aligned training corrects terminal errors that substantially extended step-local training cannot. This yields a simple staging principle: \\emph{first adapt the sparse architecture into a coarse prior, then correct the terminal distribution}. We instantiate the principle as \\method, a unified acceleration framework for visual generation that combines a short sparse warm-up, few-step trajectory-mixed distillation, and FP8 quantization with fused kernels. \\method sustains $97\\%$ attention sparsity with strong visual quality on long-sequence 720P generation across Wan2.1/Wan2.2 backbones and T2V/I2V tasks, and $90\\%$ sparsity on Wan2.1-T2V-1.3B-480P. With 3-step CFG-free inference, \\method achieves a $265\\times$ end-to-end speedup over the 50-step CFG dense baseline for Wan2.1-T2V-14B-720P on a single RTX~5090 ($220\\times$ on H100), and denoises a Wan2.1-T2V-1.3B-480P video in $1.3$s.",
+  "published": "2026-09-19T17:45:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.789025+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:48:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.23153v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.941192+00:00"
+}

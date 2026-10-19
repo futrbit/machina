@@ -1,0 +1,21 @@
+{
+  "id": "9385ddd4aab3f809bca93397a8262ccb9db7ffb237a750b3dcf57cbb2d095ab9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MetaOPD: Meta-Learned Token Weighting for On-Policy Distillation",
+  "url": "https://arxiv.org/abs/2610.11989",
+  "summary": "arXiv:2610.11989v1 Announce Type: new Abstract: On-policy distillation (OPD) trains a student on its own generated responses using token-level teacher supervision. However, uniform weighting overlooks differences in token learning value, while existing weighting methods rely on predefined mappings from prediction signals to token weights. These mappings are not learned from the effectiveness of the resulting student updates, limiting their ability to adapt to evolving learning needs. In this paper, we propose MetaOPD, a bilevel optimization framework that jointly learns the student model and a lightweight token-weighting network. The inner objective updates the student through weighted OPD, while the outer objective optimizes the weighting network using validation loss on reference solutions after a virtual student update. Differentiating through this update connects weighting decisions to their effects on post-update performance, allowing the mapping from prediction signals to token weights to evolve alongside the student. Experiments on six mathematical reasoning and three out-of-domain datasets, covering two student scales and seven baselines, demonstrate the effectiveness of MetaOPD, with Avg@8/Pass@8 gains over OPD of 1.99/5.97 percentage points for the 0.6B student and 2.25/6.41 points for the 1.7B student.",
+  "published": "2026-10-08T13:58:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.374386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:58:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11989v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.803671+00:00"
+}

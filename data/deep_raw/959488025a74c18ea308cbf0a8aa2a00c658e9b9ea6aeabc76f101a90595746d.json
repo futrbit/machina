@@ -1,0 +1,21 @@
+{
+  "id": "959488025a74c18ea308cbf0a8aa2a00c658e9b9ea6aeabc76f101a90595746d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Mechanistic Interpretability of Atmospheric Rivers in GraphCast",
+  "url": "https://arxiv.org/abs/2610.07583",
+  "summary": "arXiv:2610.07583v1 Announce Type: cross Abstract: While AI weather models now rival operational forecasts, how they represent the atmosphere internally remains an open question: feature attribution reveals which input patterns matter, not what the model computes or how it combines information internally. We train sparse autoencoders (SAEs) on GraphCast to uncover its learned concepts, using atmospheric rivers as our phenomenon of focus. Both standard and Matryoshka SAEs show GraphCast computes atmospheric river intensity, measured by integrated vapor transport (IVT), as a stable internal variable, despite IVT being neither an input nor a target. In contrast to the unstructured concept retrieval of the standard SAE, the Matryoshka SAE orders concepts by importance and exposes their relations. Atmospheric river concepts persist across depth and direct interventions confirm causality. This method offers a way to find internal variables and determine which of them the model actually relies on, which is a prerequisite for asking whether those variables remain meaningful as the phenomenon changes under a warming climate.",
+  "published": "2026-10-06T01:22:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.164806+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:22:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07583v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.859637+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5ca9345a56f2466aac6b849e1a6698a0a1051fb5c277dd69c8504f8b4bec503a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Dino Forcing Flow Models: Do not denoise what you can predict",
+  "url": "https://arxiv.org/abs/2610.11751",
+  "summary": "arXiv:2610.11751v1 Announce Type: new Abstract: Co-denoising pretrained representations such as DINO can substantially improve the training speed and quality of flow matching models, but it introduces a second denoising trajectory and requires carefully designed schedules. We propose a simpler alternative: predict the pretrained representation directly, then condition the model on its own prediction. This removes the need for a second ODE and any representation-specific denoising schedules, while retaining the benefits of representation guidance. Our approach converges substantially faster and achieves better generation quality as measured by FID score. On ImageNet, it outperforms the state of the art in latent space at 2x fewer epochs than prior methods; in pixel space, it improves FID over comparable prior methods by more than 20%. These results support a simple principle: do not denoise what you can predict. Our code is openly available at https://github.com/arijit-hub/dino_forcing.",
+  "published": "2026-10-08T11:41:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.751049+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:41:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11751v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.749307+00:00"
+}

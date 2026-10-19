@@ -1,0 +1,18 @@
+{
+  "id": "93ba17869221a63d0c44b781b881612d2b053bc9abfd8a91e46979f6c80334b1",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Can We Use Saliency Maps for the Evaluation of Generative Image Models?",
+  "url": "https://arxiv.org/abs/2610.23411",
+  "summary": "arXiv:2610.23411v1 Announce Type: new Abstract: Evaluating generative image models remains challenging, as commonly used metrics depend on fixed pretrained feature extractors optimized for different tasks that do not always align with human realism perception across datasets and model families. To address this limitation, we investigate a human-inspired evaluation framework that avoids representations learned for unrelated tasks. Specifically, we train a generator-specific classifier to distinguish real images from samples produced by a given model and analyze its decisions using saliency maps. Across diverse benchmarks, we observe that these classifiers learn generator-specific artifacts rather than a universal notion of \"fakeness\", exhibiting strong accuracy and limited cross-generator transfer. This makes saliency analysis particularly informative: the resulting attribution maps highlight visual cues and structural irregularities characteristic of each model's outputs. By combining classification accuracy and saliency information, we obtain a composite score aligned with human judgments, without relying on large pretrained backbones and using only real and generated samples from the evaluated model.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.059083+00:00"
+}

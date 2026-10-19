@@ -1,0 +1,21 @@
+{
+  "id": "345072834cff28a47096d14467e7dc0a9ec6db5e05a88d31386e9ab8b40fc75b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Scalable AI Uncertainty Quantification via Generalized Laplace Active Subspaces",
+  "url": "https://arxiv.org/abs/2610.11738",
+  "summary": "arXiv:2610.11738v1 Announce Type: new Abstract: Reliable uncertainty quantification (UQ) is essential for deploying neural networks in scientific and high-stakes applications, but full Bayesian inference over the network parameters is computationally infeasible. We propose a low-rank generalized Laplace approximation for neural-network UQ based on a small number of data-informed curvature directions. Starting from a generalized Bayesian posterior defined through an empirical loss, we construct a local Gaussian approximation around a pretrained set of weights in this active curvature subspace. The posterior variances in the retained subspace are available in closed form, and the prior variance is calibrated by an empirical Bayes procedure. The generalized Bayesian formulation allows us to compare two posterior scalings: the standard Bayesian scaling associated with the summed negative log likelihood, and a mean-loss scaling in which the empirical loss is normalized by the number of data. A central finding is that the standard scaling induces a data-size dependent contraction of the posterior variance in the leading active directions. In regression problems, this can force the low-rank framework to retain additional weak-curvature directions in order to achieve nominal coverage of calibration data. When posterior samples are propagated through the non-linear network, these additional directions can degrade the coherence of the predictive intervals and shift the posterior predictive mean away from the pretrained model. In contrast, the generalized mean-loss scaling yields a more stable, lower dimensional active subspace and produces calibrated, coherent predictive confidence intervals. These results indicate that generalized Laplace active subspaces provide a practical and scalable route to calibrated uncertainty quantification in neural networks.",
+  "published": "2026-10-08T11:31:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.372387+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:31:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11738v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.575015+00:00"
+}

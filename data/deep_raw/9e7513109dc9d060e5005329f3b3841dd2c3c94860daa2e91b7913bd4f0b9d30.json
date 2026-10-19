@@ -1,0 +1,22 @@
+{
+  "id": "9e7513109dc9d060e5005329f3b3841dd2c3c94860daa2e91b7913bd4f0b9d30",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Low-Rank and Structured Sparse Tensor Decomposition for Anomaly Detection in Multivariate Functional Data",
+  "url": "https://arxiv.org/abs/2610.06930",
+  "summary": "arXiv:2610.06930v1 Announce Type: cross Abstract: Multivariate functional data arise in many modern manufacturing systems, where multiple sensors record densely sampled process trajectories. Monitoring such data is challenging because nominal variation is strongly correlated across samples, sensors, and time, while faults may appear either as isolated deviations or as structured departures concentrated within a limited number of sensor-specific temporal trajectories. We propose two unsupervised sparse tensor decomposition methods that preserve this multimode structure. Entrywise Sparse CP Decomposition (ES-CP) uses an entrywise \\(\\ell_1\\) penalty to identify localized anomalies, whereas Fiberwise Sparse-Group Lasso CP Decomposition (FG-Lasso) combines entrywise and fiberwise penalties to detect both localized deviations and anomalies concentrated within temporal fibers. Both methods represent nominal process behavior through a low-rank CP decomposition and are estimated using alternating optimization with closed-form sparse-component updates. Two simulation studies evaluate performance under different fault structures, signal severities, noise levels, and missing observations. FG-Lasso attains or ties the highest macro F$_1$ score in almost all settings in the first study and achieves the highest macro F$_1$ score. In a multichannel forging-process case study, FG-Lasso and ES-CP obtain macro F$_1$ scores of 0.85 and 0.82, respectively, compared with 0.69 or lower for TRPCA and PCA-based anomaly detectors. The results demonstrate that explicitly matching the sparse penalty to the anticipated fault structure improves both anomaly detection and fault localization in high-dimensional functional processes.",
+  "published": "2026-10-03T01:19:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.085482+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T01:19:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06930v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.064514+00:00"
+}

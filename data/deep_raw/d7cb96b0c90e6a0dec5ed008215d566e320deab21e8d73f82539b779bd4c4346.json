@@ -1,0 +1,22 @@
+{
+  "id": "d7cb96b0c90e6a0dec5ed008215d566e320deab21e8d73f82539b779bd4c4346",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "V-CoLA: Vision Token Compression with Linear Attention",
+  "url": "https://arxiv.org/abs/2610.11251",
+  "summary": "arXiv:2610.11251v1 Announce Type: new Abstract: Vision-language models (VLMs) have demonstrated impressive capabilities but suffer from substantial computational overhead, as vision tokens dominate the input sequence. This motivates vision token compression as a key direction to alleviate the burden. However, with the emergence of hybrid architectures incorporating linear attention (\\eg, Qwen3.5), prior methods designed for softmax attention struggle to generalize. Our analysis reveals that both attention- and similarity-based approaches suffer notable performance degradation, underscoring the urgent need for compression methods tailored to this regime. To this end, we propose \\textbf{V-CoLA}, an efficient training-free token compression framework specifically designed for linear attention. V-CoLA introduces a novel \\textit{uniqueness-aware importance criterion} for identifying critical vision tokens, coupled with an \\textit{adaptive token merging strategy} that performs compression. All components are optimized at the implementation level to remain compatible with the chunk-wise parallelism of linear attention, ensuring strong practical value. Extensive experiments across multiple benchmarks demonstrate the superiority of V-CoLA: it achieves 99.5\\% of the original performance with only 50.0\\% of vision tokens, and over 88.0\\% with as few as 12.5\\%, while delivering a 1.86$\\times$ to 6.15$\\times$ prefill speedup.",
+  "published": "2026-10-08T04:55:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.744054+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:55:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11251v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.434096+00:00"
+}

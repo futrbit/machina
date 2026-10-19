@@ -1,0 +1,22 @@
+{
+  "id": "2d0d8132071e9a8f408992238a5c8346d69a96f9d0721f7676f877b820cab582",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models",
+  "url": "https://arxiv.org/abs/2609.05533",
+  "summary": "arXiv:2609.05533v2 Announce Type: replace Abstract: Long-horizon manipulation is partially observable: the information needed to choose the next action may appear only in observations from minutes earlier. Existing memory mechanisms for VLAs, such as retrieval banks, learned compressors and recurrent states, must decide what to keep from the past before knowing what a future decision will require. They were motivated by the assumption that minute-scale history is too large to process directly, which no longer holds for modern VLM backbones. We propose SimpleMemVLA, a VLA without a dedicated memory module that uses the backbone's native video context directly as memory. It keeps the sampled history intact in the timestamped video format the backbone was pretrained to process, routes the evidence it finds to a standard flow-matching action head through the hidden states of a generated sub-task, and prefills the history shared by consecutive decisions during action execution, keeping latency close to that of a single-frame VLA. SimpleMemVLA achieves state-of-the-art results on four memory benchmarks without loss on general-purpose control, and with the same backbone and training setup it outperforms retrieval, compression and recurrent-state methods by a wide margin. History interventions show that the policy reads specific evidence from its past and follows edited histories without parameter updates, a visual form of in-context learning. On a physical dual-arm robot, it completes two tasks whose decisive evidence disappears before the robot acts. Code available at https://github.com/OpenBMB/SimpleMemVLA",
+  "published": "2026-09-02T02:23:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.237190+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T02:16:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.05533v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.343155+00:00"
+}

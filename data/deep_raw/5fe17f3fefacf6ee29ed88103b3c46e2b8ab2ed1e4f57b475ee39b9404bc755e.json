@@ -1,0 +1,22 @@
+{
+  "id": "5fe17f3fefacf6ee29ed88103b3c46e2b8ab2ed1e4f57b475ee39b9404bc755e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "From Laboratory to Road: Evaluating Wearable Gaze Accuracy for Driving",
+  "url": "https://arxiv.org/abs/2610.07783",
+  "summary": "arXiv:2610.07783v1 Announce Type: new Abstract: Bird's-eye-view (BEV) representations have become a widely used interface between perception and planning in autonomous driving, but they encode what is in a scene, not what is behaviorally relevant to a human driver. Gaze offers a compelling behavioral signal for this gap, yet wearable eye trackers are routinely deployed as if their spatial output were ground truth, despite known sensitivity to head motion, illumination, and calibration drift. We present, to our knowledge, the first unified framework for quantifying wearable gaze accuracy under real driving conditions. Our on-road study contains 41 validated scenes in which one driver fixated a vehicle's license plate. Gaze error is measured as the angular difference between the plate center and the gaze direction estimated by the glasses. Separate indoor studies with the same driver and device systematically analyze how distance, illumination, head motion, target motion, and gaze eccentricity affect both systematic bias and gaze precision. The mean on-road error was 4.58 degrees. Applying an offset estimated from the indoor recordings reduced it to 1.10 degrees and improved all 41 scenes. Because this offset varied between sessions, reliable BEV supervision may require online recalibration and condition-dependent estimates of gaze uncertainty.",
+  "published": "2026-10-06T05:19:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.517383+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T05:19:10Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07783v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.800276+00:00"
+}

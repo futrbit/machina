@@ -1,0 +1,22 @@
+{
+  "id": "6320eb6efbf9f88ac5367ea0bd5f6df8b06f70f1925d55b3fcf2cbb663c18f1d",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Foveated Compression: Selective High-Resolution Preservation for Token-Efficient VLMs",
+  "url": "https://arxiv.org/abs/2610.07729",
+  "summary": "arXiv:2610.07729v1 Announce Type: new Abstract: Visual tokens are a major source of inference cost in vision-language models, yet simple image downsampling remains a surprisingly strong compression baseline. This raises a complementary question: under a fixed token budget, where should visual fidelity be preserved? We introduce Foveated Compression, which encodes a full-resolution image once and represents it with a mixture of native- and compressed-resolution visual tokens. A behaviorally self-distilled Foveated Merger compresses local visual tokens while preserving compatibility with their native counterparts, and a lightweight Foveated Selector chooses one of nine spatial cells to retain at native resolution using exhaustive budget-matched intervention supervision. At 11.11% visual tokens, uniform Foveated Compression shows no significant paired difference from iso-token downsampling. At 20.99%, the learned selector significantly outperforms random and fixed allocation, but remains below strong whole-image resizing, showing that localized fidelity is not universally preferable. A budget-matched region-choice oracle reaches 82.73 macro accuracy versus 69.61 for the learned selector, revealing substantial headroom within the same spatial action space. Matched probing further shows that signals predicting when compression breaks the answer are substantially more accessible after language-model computation than to the lightweight prefill-free selector. These results expose complementary bottlenecks in region selection and compressed-region fidelity.",
+  "published": "2026-10-06T04:28:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.517383+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:28:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07729v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.845249+00:00"
+}

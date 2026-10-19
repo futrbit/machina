@@ -1,0 +1,18 @@
+{
+  "id": "79ab18dbcc9f97cd5184422d8e9135d709b2b7fc5b950aaa743582d43766f3b7",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "BenthicDINO: Physics-Informed Self-Distillation for View-Invariant Side-Scan Sonar Representations",
+  "url": "https://arxiv.org/abs/2608.23215",
+  "summary": "arXiv:2608.23215v2 Announce Type: replace Abstract: Automated interpretation of side-scan sonar (SSS) imagery is traditionally hindered by view-dependence, as recorded intensities inextricably conflate intrinsic seabed reflectivity with transient acquisition geometries and acoustic artifacts. To address this, we introduce BenthicDINO, a physics-informed self-supervised learning framework that decouples acquisition dynamics from seabed representations. Utilizing a ConvNeXt-v2 backbone, physics-guided augmentations, and an HSIC penalty, BenthicDINO explicitly enforces feature invariance to physical viewing parameters like slant range and incidence angle. Evaluations demonstrate exceptional data efficiency - achieving near-peak performance in benthic habitat mapping with only 10% of available labels - and strong cross-domain generalization, outperforming fully supervised baselines on the AI4Shipwrecks benchmark using frozen representations.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.082067+00:00"
+}

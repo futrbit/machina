@@ -1,0 +1,22 @@
+{
+  "id": "b4d72cd2869df7f799222c403dafdbbd1b9307cfb10932c877e60f8c1283c86e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Multi-Bandwidth Distribution Matching Distillation: On the Equivalence of Distribution Matching Distillation and Drifting Models",
+  "url": "https://arxiv.org/abs/2610.10989",
+  "summary": "arXiv:2610.10989v1 Announce Type: new Abstract: Researchers are exploring effective one-step generative model continuously, and, Drifting Models (Deng et al., 2026), demonstrate great potential in one-step generation recently. There are works that reveal the connection between Diffusion & Flow Style Generative Models (DFSGMs) (Ho et al., 2020; Song et al., 2020a;b; Lipman et al., 2022; Liu et al., 2022) and Drifting Models (Li & Zhu, 2026; Lai et al., 2026; Turan et al., 2026). But no one has yet established a precise correspondence between the Drifting Model and the widely used distillation method- Distribution Matching Distillation (DMD/DMD2) (Yin et al., 2024b;a) to the best of our knowledge, even though their optimization objective formulas are virtually identical. In this paper, we prove that by converting the velocity-field / noise-field from the pre-trained DFSGMs into the attraction force field in Drifting Models and estimating the repulsion force field from the generative distribution, training the Drifting Model is naturally equivalent to the Distribution Matching Distillation. With this equivalent concept, we propose an improved method based on DMD from the Drifting Model's perspective- Multi-Bandwidth Distribution Matching Distillation (MBDMD).",
+  "published": "2026-10-07T23:21:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.080436+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T23:21:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10989v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.273389+00:00"
+}

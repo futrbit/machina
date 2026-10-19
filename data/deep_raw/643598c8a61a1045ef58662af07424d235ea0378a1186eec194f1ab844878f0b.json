@@ -1,0 +1,21 @@
+{
+  "id": "643598c8a61a1045ef58662af07424d235ea0378a1186eec194f1ab844878f0b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LFHE: Local-First Heuristic Evolution for Bounded Local Topology Search in Decentralized Learning with Non-IID Data",
+  "url": "https://arxiv.org/abs/2610.08176",
+  "summary": "arXiv:2610.08176v1 Announce Type: new Abstract: Decentralized learning is highly sensitive to communication topology under non-IID data. Adaptive peer-selection methods can exploit local model information, but broader peer discovery may require increasingly large control state, whereas direct spectral optimization typically relies on graph-wide information. We study the intermediate setting of bounded local topology search and propose Local-First Heuristic Evolution (LFHE), a representation-driven rewiring framework whose candidate discovery and scoring use only ego-neighborhood and friend-of-a-friend (FoF) information. The structural score admits an exact interpretation through graph Dirichlet energy: its sum across clients equals twice the representation Dirichlet energy, which under standard linear consensus dynamics governs the instantaneous dissipation of representation disagreement. LFHE combines this state-dependent structural signal with early exploration and degree control, while algebraic connectivity remains an offline graph diagnostic. Under bounded sparse degree, its FoF candidate state remains local rather than expanding toward population-wide peer tracking. Across four image, speech, and text benchmarks, LFHE achieves competitive decentralized learning performance. Matched-protocol controls identify the structural term as the principal empirical topology-selection signal, while comparison with broader peer discovery exposes a trade-off between predictive performance and discovery-state locality. Together, these results motivate state-aware bounded local topology search between pairwise peer selection and globally informed topology optimization.",
+  "published": "2026-10-06T11:29:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.144816+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:29:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08176v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.787883+00:00"
+}

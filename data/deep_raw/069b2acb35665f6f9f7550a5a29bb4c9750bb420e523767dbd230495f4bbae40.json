@@ -1,0 +1,22 @@
+{
+  "id": "069b2acb35665f6f9f7550a5a29bb4c9750bb420e523767dbd230495f4bbae40",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Joint Architecture-Token-Bitwidth Multi-Axis Optimization of Vision Transformers for Semiconductor IC Packaging",
+  "url": "https://arxiv.org/abs/2605.01742",
+  "summary": "arXiv:2605.01742v3 Announce Type: replace Abstract: Vision Transformers (ViTs) have achieved strong performance in visual recognition, yet their deployment in resource-constrained industrial environments remains limited. The main challenges are their high computational cost, memory requirements, and energy consumption. While individual efficiency techniques such as neural architecture search (NAS), token compression, and low-precision inference have been extensively studied, most prior work targets only a single optimization axis, limiting overall deployment gains while preserving accuracy. In this paper, we present one of the first holistic frameworks that jointly optimizes three complementary axes: architecture, token, and bit-width. Specifically, the framework identifies compact backbones via Neural Architecture Search (AutoFormer), reduces information processing via token merging (ToMe), and accelerates per-operation execution via fp16 mixed-precision inference. In our study, we analyze accuracy-efficiency trade-offs on ImageNet-1K under aggressive compression. We then apply the selected configaturions to a real-world in-house 3D X-ray semiconductor defect classification dataset for IC chip packaging inspection. Results show that the proposed multi-axis framework achieves more than $10\\times$ improvement in throughput along with over $10\\times$ reductions in parameter count, FLOPs, and energy consumption, while maintaining the required accuracy on the downstream industrial task. To the best of our knowledge, this is among the earliest works to jointly optimize architecture, token, and bit-width dimensions in ViTs and the first such resource-efficient, deployment-focused study tailored to semiconductor manufacturing.",
+  "published": "2026-05-03T06:45:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.784028+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:35:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.01742v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.386125+00:00"
+}

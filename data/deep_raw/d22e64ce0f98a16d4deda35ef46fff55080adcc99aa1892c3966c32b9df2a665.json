@@ -1,0 +1,22 @@
+{
+  "id": "d22e64ce0f98a16d4deda35ef46fff55080adcc99aa1892c3966c32b9df2a665",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Do Neural PDE Solvers Learn the Right Dynamics?",
+  "url": "https://arxiv.org/abs/2610.06952",
+  "summary": "arXiv:2610.06952v1 Announce Type: new Abstract: Neural PDE solvers can achieve low prediction errors, but do they reproduce the dynamics of the systems they model? Prediction scores alone offer an incomplete answer: they measure agreement with reference solutions but provide limited insight into how errors accumulate, nearby states diverge, or extreme events arise. We propose an evaluation framework that directly examines these behaviors in deterministic and stochastic neural solvers. By evolving ensembles of nearby initial states and comparing them with direct numerical simulation, we assess three complementary aspects of learned dynamics: error formation, ensemble geometry, and extreme events. Experiments on two-dimensional Kolmogorov flow reveal limitations that conventional scores can obscure. Smaller trajectory errors can reflect weaker error amplification despite less accurate local updates. Models can match an ensemble's overall spread and effective dimension while failing to capture the spatial directions where nearby states diverge. Similarly, matching overall event frequencies can conceal failures to predict persistent extreme events. These findings show that improved prediction accuracy does not necessarily imply greater dynamical fidelity. Our framework makes this distinction measurable, providing concrete criteria for evaluating whether advances in neural PDE solvers better capture the underlying dynamics.",
+  "published": "2026-10-03T13:10:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.040510+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-03T13:10:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06952v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.092894+00:00"
+}

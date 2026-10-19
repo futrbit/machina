@@ -1,0 +1,22 @@
+{
+  "id": "4a2f7442b461dfea2e18695ea9361fc22eba8825ffc24bd1e780969e44825498",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Perturbation Magnitude: Direction-Dependent Responses in Multimodal Geometric Representations",
+  "url": "https://arxiv.org/abs/2610.08533",
+  "summary": "arXiv:2610.08533v1 Announce Type: cross Abstract: Geometric alignment scores based on Gram determinants provide a compact way to model higher-order consistency among modalities, yet how such scores respond to modality degradation is poorly understood. This paper asks whether the response of a multimodal geometric score is determined primarily by the magnitude of the perturbation-induced displacement. Using frozen cohorts from MSR-VTT (N=878) and DiDeMo (N=980), we apply controlled video blur and audio noise and analyze the response in the relational geometry on which the score is defined. Displacement magnitude explains at most 15% of the out-of-sample variance in the absolute response, and magnitude-matched pairs respond systematically differently, so scalar magnitude does not organize the response. The closed-form first-order expansion of the Gramian volume yields the Directional Geometric Response (DGR): the projection of the displacement onto the local volume gradient, which jointly captures the clean operating point, displacement magnitude, and displacement direction. The absolute first-order DGR term explains the observed response with out-of-sample R^2 of 0.838-0.969, matched-magnitude ranking accuracies of 0.864-0.963, and response-sign accuracies of 0.909-0.989, whereas the tested direction-free alternatives remain weak or unstable under the corresponding evaluation protocols. A pre-specified gain-normalization candidate, V/(g_V+eps), fails its predictability and clean-order gates. DGR uses the observed degraded-state displacement and is therefore an explanatory quantity, not a deployment-time predictor: geometric response depends on where the representation operates, how far degradation moves the relational geometry, and in which direction it moves.",
+  "published": "2026-10-06T15:25:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.106471+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:25:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08533v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.960782+00:00"
+}

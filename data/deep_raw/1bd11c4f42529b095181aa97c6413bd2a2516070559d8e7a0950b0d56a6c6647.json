@@ -1,0 +1,21 @@
+{
+  "id": "1bd11c4f42529b095181aa97c6413bd2a2516070559d8e7a0950b0d56a6c6647",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "AX is the New AEO",
+  "url": "https://arxiv.org/abs/2609.34951",
+  "summary": "arXiv:2609.34951v3 Announce Type: replace Abstract: In 2023, AI models answered from training data and hallucinated when it ran out, and businesses were told to seed that knowledge. Models' training knowledge has since given way to live web search, and the advice followed it there: answer-engine optimization, or AEO, now tells businesses to scatter breadcrumbs across forum threads, listicles, and off-site citations, so AI engines are likelier to surface and recommend them. But being surfaced is no longer enough: an agent opens the results and reads them before deciding, and one buyer question sends it through several rounds of search and fetch. What decides the outcome at this drill-down step is whether the agent can fetch and read the business's own site: agent experience (AX). We argue that AX is the new AEO. We run 37,927 agent journeys, each a buyer question about a business, across four independent harnesses over 1,056 real businesses, matched on fame, prior model knowledge, and two AEO proxies, then split based on their AX level. Only 7-10% of the finished answer comes from the model's training knowledge, whether or not the site is readable. Agent-ready businesses have answers built from their own pages 78% of the time against 56% and are clearly recommended 1.9x more often, while a grounded answer about a not-agent-ready business costs the agent 64% more on average. Holding business, harness, and question fixed, answers built from the site are 41% more accurate on average. The dominant failure is not fabrication but omission: web-built answers are 3.7x more likely to contain none of the facts the buyer asked for. Baselines differ sharply across the four harnesses, with clear-recommendation rates varying sevenfold from stack to stack, yet the recommendation gap holds in every one. In the agentic web era, being readable beats being talked about, and improving a site's AX is the strongest lever a business has.",
+  "published": "2026-09-28T11:41:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.186791+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:43:16Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.34951v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.966775+00:00"
+}

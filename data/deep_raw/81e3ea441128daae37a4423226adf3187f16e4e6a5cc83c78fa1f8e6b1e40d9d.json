@@ -1,0 +1,21 @@
+{
+  "id": "81e3ea441128daae37a4423226adf3187f16e4e6a5cc83c78fa1f8e6b1e40d9d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "MoF: Preference-Aware Mixture Modeling for Black-Box LLM Personalization",
+  "url": "https://arxiv.org/abs/2610.08330",
+  "summary": "arXiv:2610.08330v1 Announce Type: new Abstract: Proprietary Large Language Models (LLMs) have demonstrated remarkable capabilities across a wide range of tasks, yet aligning their outputs with diverse user preferences remains challenging. Existing personalization approaches for black-box LLMs often rely on user-specific scoring heads, causing the number of personalized parameters to grow linearly with the number of users and requiring additional adaptation for unseen users. To address these limitations, we propose Mixture-of-Facets (MoF), a scalable personalization framework for black-box LLMs that models user preferences as compositions of shared latent preference facets rather than dedicated user-specific parameters. MoF performs personalization through history-conditioned routing over shared facet heads, enabling personalization for users unseen during training without additional parameter updates. Across diverse personalization tasks, MoF delivers stronger personalization performance while maintaining a more scalable and parameter-efficient design than prior approaches. Additional analysis indicates strong generalization to unseen users.",
+  "published": "2026-10-06T13:29:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.146815+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:29:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08330v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.480866+00:00"
+}

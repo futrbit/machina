@@ -1,0 +1,22 @@
+{
+  "id": "ee58a555644534e0263f54fb8f78f7d4e8420f2ff497bd81d91e009ef0ac9080",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Do Vision Transformers Need All-to-All Attention? Global Communication Through Elastic Learned Cores",
+  "url": "https://arxiv.org/abs/2605.12491",
+  "summary": "arXiv:2605.12491v2 Announce Type: replace-cross Abstract: Vision Transformers (ViTs) learn rich visual-semantic representations through all-to-all self-attention among patch tokens. However, this design implicitly assumes that direct pairwise patch interactions are necessary for effective representation learning. In this work, we challenge this assumption and show that representations supporting both global recognition and dense prediction can be learned without direct patch-to-patch interaction. We propose VECA (Visual Elastic-Core Attention), a vision transformer with core-periphery structured attention mediated by a small set of learned cores. Patch tokens exchange global information exclusively through these cores, while the full set of dense patches are preserved and iteratively updated across layers. This reduces attention complexity from $O(N^2)$ to $O(N)$, linear in the number of patches $N$ for a fixed core budget $C$. Unlike prior latent-token cross-attention architectures, VECA facilitates sparse global communication without compressing the spatial representation itself. Nested training along the core axis further enables a single model to elastically trade off computation and accuracy at inference time without retraining. Across image classification and dense prediction tasks, VECA remains competitive with full-attention backbones and outperforms the evaluated linear-complexity alternatives on most benchmarks. Moreover, without explicit supervision, these cores develop semantically organized structures that support object-label transfer across video frames. These results show that effective visual representations can be learned without direct all-to-all patch interaction.",
+  "published": "2026-05-12T17:59:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.844465+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T19:03:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.12491v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.415700+00:00"
+}

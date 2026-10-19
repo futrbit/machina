@@ -1,0 +1,21 @@
+{
+  "id": "448c27b7f06e8a1b40d018a5e726ac34235b7785eb8c2b47153352129d9f533b",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Does a Learned Corrector Beat a Simple Retreat? Evidence from a Frozen VLA",
+  "url": "https://arxiv.org/abs/2610.06921",
+  "summary": "arXiv:2610.06921v1 Announce Type: new Abstract: Before deploying runtime recovery for a frozen vision-language-action (VLA) policy, one must establish that an intervention improves success beyond ordinary run-to-run variation and that its complexity adds value over a simple action. We evaluate these questions on frozen $\\pi_{0.5}$ across four RoboTwin tasks. For each test seed, we pair rollouts with and without correction and include a same-seed base-policy re-run as a placebo. Seed-cluster intervals and prespecified comparison rules assess net gains against stochastic outcome changes. Across 3,888 paired episodes, the full pipeline raises success on beat_allowbreak block_allowbreak hammer by $+13.5$\\,pp (95\\% interval $[+9.4,+17.7]$), with no detectable gain on the other three tasks at the deployed weight. Among failed base episodes on the responsive task, $43.2\\%$ succeed on a plain re-run, compared with $63.5\\%$ after correction; many nominal rescues therefore reflect the base policy's own variability. A fixed-time trigger and scripted return to an earlier joint configuration produce a net gain with no detected difference from the learned pipeline across two rounds, although our prespecified equivalence criterion is not met consistently. Pausing and a constant-action control do not yield comparable gains. On this benchmark, the decision to intervene depends strongly on the task, and a paired placebo plus a simple retreat baseline are needed to establish what learned correction contributes.",
+  "published": "2026-10-02T21:57:32Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.451028+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-02T21:57:32Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06921v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.852847+00:00"
+}

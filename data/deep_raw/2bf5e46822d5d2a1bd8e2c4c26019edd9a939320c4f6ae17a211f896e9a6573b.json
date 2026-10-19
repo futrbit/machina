@@ -1,0 +1,22 @@
+{
+  "id": "2bf5e46822d5d2a1bd8e2c4c26019edd9a939320c4f6ae17a211f896e9a6573b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation",
+  "url": "https://arxiv.org/abs/2610.12451",
+  "summary": "arXiv:2610.12451v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models have emerged as powerful foundations for robotic manipulation, but their reliance on fixed camera configurations during training makes them brittle to changes in camera count or pose during deployment. To overcome these limitations, we propose VersaCamVLA, a camera-configurable framework that decouples camera-set representation from action learning. VersaCamVLA learns a unified scene-token interface that maps an arbitrary, variable set of posed RGB views into fixed-size latent scene tokens. This is achieved via multi-signal target-view prediction and Wrist-Augmented Pose Sampling (WAPS), which leverages natural wrist-camera motion for free pose diversity. At deployment, a lightweight spatial encoder injects these compact scene tokens into a pretrained base VLA as a supplementary visual condition, requiring no explicit 3D sensing or novel-view rendering. Experiments on RoboTwin, LIBERO, and a real-robot platform demonstrate that VersaCamVLA consistently outperforms prior VLA methods and direct multi-view baselines, maintaining robust performance across varying camera counts and unseen camera poses.",
+  "published": "2026-10-08T17:58:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.765039+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:58:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12451v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.322167+00:00"
+}

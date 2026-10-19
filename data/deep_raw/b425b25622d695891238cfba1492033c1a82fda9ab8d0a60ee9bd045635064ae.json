@@ -1,0 +1,21 @@
+{
+  "id": "b425b25622d695891238cfba1492033c1a82fda9ab8d0a60ee9bd045635064ae",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "CSF: Contextual Safety Filtering for Motion Generators",
+  "url": "https://arxiv.org/abs/2610.12467",
+  "summary": "arXiv:2610.12467v1 Announce Type: new Abstract: Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning. We introduce contextual safety filtering (CSF), a training-free filter that grounds natural-language safety rules in safe and unsafe reference trajectories produced by the generator. For each active rule, safe and unsafe reference trajectories define an affine safety value that a safe reference tracking CBF-QP enforces. Across four pretrained generators with different architectures, CSF activates the intended rules in all explicit and scene-triggered unsafe cases and reduces the danger-event rate by up to 90%, while preserving 88-100% of benign motions. We demonstrate the complete system on a real-world Unitree G1, where it successfully prevents unsafe motions in a variety of scenarios, including interactions with humans and objects.",
+  "published": "2026-10-08T17:59:50Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.753534+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:59:50Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12467v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.243214+00:00"
+}

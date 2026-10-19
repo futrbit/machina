@@ -1,0 +1,21 @@
+{
+  "id": "89e77079b6e8063c78b0d594f5849aa8d7820d6651a3223b6bf7f68e65b37189",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Instance-anchored interaction evidence: Grounding robot plans in human pointing and handling",
+  "url": "https://arxiv.org/abs/2610.12157",
+  "summary": "arXiv:2610.12157v1 Announce Type: new Abstract: A robot that assists people must often act on what a person has shown rather than said: which of several identical cartons was pointed at, or which box was handled. The plan is executed from the final scene, whereas the evidence occurs earlier, possibly on objects that have since moved. We propose instance-anchored interaction evidence (IAE), which registers every object of the final scene to its public identifier, keeps each identity through the video by backward mask propagation, and describes every frame by the geometry between hands, forearms and these instances. An evidence network trained only from task outcomes scores the instances. For pointing tasks, a grammar-constrained dynamic program trained with a structured loss decodes object-destination programs; symbolic programs handle reference disambiguation and, without learning, episodic tasks. On 1,255 WatchAct benchmark requests, scored by symbolic execution, IAE reaches 64.2% plan success on implicit-intent tasks against 27.5% for a 32B vision-language model (strict success 49.7% against 15.4%), and 46.4% against 27.0% on restoration, reversal and imitation without task-specific training. Controls with the same perception overlays, the same 32 frames, forward tracking, or a relation model trained on the same labels do not explain the gain. Given IAE's evidence as text with its meaning explained, the same language model reaches 57.4%: most of the gain comes from the instance-anchored evidence, and the explicit programs add 6.8 points at a fraction of the cost. Pointing remains the hardest case, with 16.9% strict success. The code is available at https://github.com/WeiZhou96/iae-watchact.",
+  "published": "2026-10-08T15:37:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.746538+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:37:43Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12157v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.646766+00:00"
+}

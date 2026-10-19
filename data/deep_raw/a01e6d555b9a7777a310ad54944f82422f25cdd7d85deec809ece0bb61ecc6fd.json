@@ -1,0 +1,21 @@
+{
+  "id": "a01e6d555b9a7777a310ad54944f82422f25cdd7d85deec809ece0bb61ecc6fd",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Fast, Interpretable, and Deterministic Time Series Classification With a Bag-of-Receptive-Fields",
+  "url": "https://arxiv.org/abs/2311.18029",
+  "summary": "arXiv:2311.18029v2 Announce Type: replace-cross Abstract: The current trend in the literature on Time Series Classification is to develop increasingly accurate algorithms by combining multiple models in ensemble hybrids, representing time series in complex and expressive feature spaces, and extracting features from different representations of the same time series. As a consequence of this focus on predictive performance, the best time series classifiers are black-box models, which are not understandable from a human standpoint. Even the approaches that are regarded as interpretable, such as shapelet-based ones, rely on randomization to maintain computational efficiency. This poses challenges for interpretability, as the explanation can change from run to run. Given these limitations, we propose the Bag-Of-Receptive-Field (BORF), a fast, interpretable, and deterministic time series transform. Building upon the classical Bag-Of-Patterns, we bridge the gap between convolutional operators and discretization, enhancing the Symbolic Aggregate Approximation (SAX) with dilation and stride, which can more effectively capture temporal patterns at multiple scales. We propose an algorithmic speedup that reduces the time complexity associated with SAX-based classifiers, allowing the extension of the Bag-Of-Patterns to the more flexible Bag-Of-Receptive-Fields, represented as a sparse multivariate tensor. The empirical results from testing our proposal on more than 150 univariate and multivariate classification datasets demonstrate good accuracy and great computational efficiency compared to traditional SAX-based methods and state-of-the-art time series classifiers, while providing easy-to-understand explanations.",
+  "published": "2023-11-29T19:13:10Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.189793+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T17:41:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2311.18029v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.101492+00:00"
+}

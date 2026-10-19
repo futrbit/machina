@@ -1,0 +1,22 @@
+{
+  "id": "b30777fde959dc49d4ffec05f5a2704d3ff0b1372df07a9940459380071a8bef",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Spectral Weight Decay: Inducing Low-Rank Structure in Neural Network Weights",
+  "url": "https://arxiv.org/abs/2610.11730",
+  "summary": "arXiv:2610.11730v1 Announce Type: new Abstract: Standard weight decay treats each weight matrix as a vector and ignores its spectral structure. We introduce spectral weight decay, a post-step decoupled nuclear-norm update that applies additive rather than multiplicative spectral shrinkage. We connect the update to approximate proximal descent and show that its sensitivity to update order can exceed that of conventional $\\ell_2$ weight decay near rank deficiency. Across LLaMA models with $124$M to $500$M parameters, spectral weight decay lowers effective rank and improves SVD-LLM compression at matched validation loss. At $500$M and a $4\\%$ distortion budget, it reaches $1.89\\times$ compression and $1.18\\times$ GPU inference speedup, compared with $1.14\\times$ and $1.01\\times$ after standard weight decay. Under fixed-horizon training with $60\\%$ label noise, it also improves final mean clean-test accuracy over matched $\\ell_2$ regularization by up to $17.8$ points on MNIST and $4.6$ points across four BERT-base tasks. Code is available at https://github.com/brain-lab-research/SpectralWD.",
+  "published": "2026-10-08T11:26:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.089428+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:26:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11730v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.667151+00:00"
+}

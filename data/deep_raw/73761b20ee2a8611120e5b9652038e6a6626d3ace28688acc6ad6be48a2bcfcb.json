@@ -1,0 +1,21 @@
+{
+  "id": "73761b20ee2a8611120e5b9652038e6a6626d3ace28688acc6ad6be48a2bcfcb",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "How High Is 0.6? Floors, Ceilings, and Headroom in Interpretability Probing",
+  "url": "https://arxiv.org/abs/2610.08544",
+  "summary": "arXiv:2610.08544v1 Announce Type: cross Abstract: Probes are the workhorse of interpretability. If a model's hidden states predict a variable, the model is said to represent it. But a probe score has no fixed meaning. An $R^2$ of 0.6 may only reflect what the input already gives away, and the same score can mean different things on different data. We propose reading every probe score against two reference points: a floor, what a declared set of simple inputs already predicts, and a ceiling, what the full input can predict. The gap between them, the headroom, is the range in which a probe can show that a model computes something beyond the simple inputs. We prove that headroom vanishes in two ways: the target stops depending on a hidden variable the model must infer, or the input stops revealing it. We test this on transformers trained for in-context meta-analysis, which must infer the hidden heterogeneity between studies to weight them correctly, and where both reference points are known. Under distribution shift, probe scores fall and prediction error rises $12$--$15\\times$, yet the model recovers a similar share of the headroom, indicating that the data lost information, not the representation. We then analyze the real models. The single-cell foundation model scGPT encodes biological variability only partially. We also revisit four influential LLM probing studies, which claim that models represent geography, the state of an Othello board, truth, and the demographics of their users. Against a floor computed from the input text alone, some of these claims hold, while others are largely explained by the text itself.",
+  "published": "2026-10-06T15:32:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.177798+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:32:25Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08544v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.202034+00:00"
+}

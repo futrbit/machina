@@ -1,0 +1,22 @@
+{
+  "id": "1dc28e7280c11e2aed96b5d989b00143b926a9db535cf4a4530170a31d8c599b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Rethinking Fine-Tuning: Unlocking Hidden Capabilities in Vision-Language Models",
+  "url": "https://arxiv.org/abs/2512.23073",
+  "summary": "arXiv:2512.23073v2 Announce Type: replace Abstract: Fine-tuning has become the dominant paradigm for adapting Vision-Language Models (VLMs), yet most approaches rely on explicit weight updates that introduce a fundamental trade-off. Full Fine-Tuning (FFT) may perturb pretrained representations due to cross-modal gradient interference, whereas Parameter-Efficient Fine-Tuning (PEFT) methods rely on additive modules, such as low-rank adapters, which may limit adaptation capacity. In this paper, we rethink VLM adaptation from a structural selection framework that adapts VLMs without modifying backbone weights, and we propose Mask Fine-Tuning (MFT). MFT learns masks that selectively route information through existing pretrained connections, dynamically uncovering subnetworks that better align pretrained representations with downstream objectives. Extensive experiments show that MFT provides an effective structural alternative to both FFT and PEFT, consistently achieving superior performance across multiple vision-language benchmarks without adding knowledge or altering the deployment architecture. Moreover, our analysis with MFT provides new insights into how pretrained VLMs reorganize their internal representational pathways during adaptation.",
+  "published": "2025-12-28T20:41:22Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.112467+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:16:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.23073v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.000899+00:00"
+}

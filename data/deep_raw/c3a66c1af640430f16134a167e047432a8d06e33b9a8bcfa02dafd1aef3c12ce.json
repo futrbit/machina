@@ -1,0 +1,22 @@
+{
+  "id": "c3a66c1af640430f16134a167e047432a8d06e33b9a8bcfa02dafd1aef3c12ce",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Joint Workflow and Prompt Optimization for User Behavior Simulation",
+  "url": "https://arxiv.org/abs/2610.07663",
+  "summary": "arXiv:2610.07663v1 Announce Type: cross Abstract: User behavior simulation is the computational modeling of user interactions within information systems through the use of simulated agents in place of live users. It supports system testing and evaluation, decision-making and forecasting, and user experience design. Existing simulators rely on hand-crafted rules or domain expertise that transfers poorly across tasks. SWORD (Simulation-driven Workflow and Prompt Optimization with Role-based Design) is introduced as a framework that jointly optimizes multi-agent workflow topology and natural-language prompts. It is guided solely by a scalar task metric, without domain initialization or task-specific engineering. The experimental results demonstrate that SWORD achieves statistically significant gains over prompt-only, workflow-only, and staged-optimization baselines under a controlled, identical-backbone comparison. Against the strongest published domain-specific baseline, SWORD further improves accuracy while using a smaller backbone model, substantially less training data, and a very reasonable API cost (\\$4--\\$6 for each dataset). Beyond predictive performance, SWORD autonomously discovers domain-relevant signals, review-sentiment mapping rules and epidemiological decay priors, purely from scalar error feedback, establishing textual gradients as a mechanism for unsupervised feature-importance discovery in user behavior modeling.",
+  "published": "2026-10-06T02:59:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.096477+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:59:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07663v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.629981+00:00"
+}

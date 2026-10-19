@@ -1,0 +1,22 @@
+{
+  "id": "d1a62b122b0ea72f730454c2fc4ddf2c75865e9635cb2b157a26e223d698824e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Conditional Predictive Sufficient Statistics for Visual Representation Learning",
+  "url": "https://arxiv.org/abs/2609.30647",
+  "summary": "arXiv:2609.30647v1 Announce Type: new Abstract: A useful visual representation is a statistic of the observed past that retains the latent factors shared with the future and discards patch-private noise. We formalize this requirement as a conditional predictive sufficient statistic (CPSS). Under a shared-factor model of image patches, the mutual information between the past and the next patch equals the information the past carries about the shared factor, up to a remainder that the next patch itself fails to reveal. Predicting the next patch embedding with a cosine loss is maximum likelihood for a von Mises-Fisher model of that embedding's direction, and is therefore a tractable surrogate for the predictive information. The same population loss is also minimized by a constant embedding, so stop-gradient does not by itself select the sufficient statistic; it only blocks the symmetric gradient that implements the constant solution in one step. The regression target is a shallow embedding, which forces the network output back into that shallow range and leaves the sufficient statistic in intermediate blocks. Small causal Transformers on MNIST and CIFAR-10 are used as diagnostics, not as a leaderboard. On MNIST the future shift and the stop-gradient move probe accuracy by tens of points, and the CPSS readout peaks before the output. On CIFAR-10, with the same short budget and no augmentation, every objective lands near a linear classifier on pixels. What still matches the derivation is the geometry: the CPSS output is a worse readout than its best intermediate block, next-pixel regression does not pay that penalty, and removing the stop-gradient collapses the effective rank of the embedding even when the pretext loss looks perfect.",
+  "published": "2026-09-25T00:36:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.219243+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-28T10:24:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30647v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.088897+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e64d643c1db06d4d8a39a63db83dd4faa866dc5986354947be7da2de16c7bbeb",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Null Controls Are Necessary but Not Sufficient: Evaluating Acceptance Guards for Scientific Discovery and Interpretability",
+  "url": "https://arxiv.org/abs/2610.22445",
+  "summary": "arXiv:2610.22445v1 Announce Type: new Abstract: Automated discovery systems propose scientific explanations and test which to accept. Does passing a test establish the intended claim? We develop four executable operations for changing physical descriptions: identifying redundancies (L1), coarse-graining dynamics (L2), transferring structure (L3), and inferring missing quantities from conservation imbalances (L4). We evaluate these operations and three interpretability settings through null acceptance (NAR), positive acceptance (PAR), and consequence agreement (CAR). A reduction mapping every state to zero predicts its own future perfectly. It passes closure on 96% of 129 public chaotic systems despite retaining no dynamical variation. An independent observable-preservation test rejects it throughout. On controlled benchmarks, the combined criteria accept 24/24 genuine reductions and reject 72/72 nulls. The other operations distinguish symmetries from redundancies, validate transfers, and reject spurious conservation imbalances. In language and ESM-2 protein models, linear CKA remains unchanged when a proposed correspondence is randomly rotated, whereas localized interventions distinguish genuine mappings from tested nulls. In sparse autoencoders, enrichment rejects all 16 tested nulls, yet independent ablation supports 45% of evaluable enriched features, compared with 0.5% of matched controls. These results reveal two acceptance gaps: descriptive tests can accept scientifically empty candidates, and accepted candidates can lack independently verified consequences. Reliable automated discovery requires evaluating both what a test accepts and the scientific consequences it establishes. Code and data: https://real-project-aether.github.io/project-aether/.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.176151+00:00"
+}

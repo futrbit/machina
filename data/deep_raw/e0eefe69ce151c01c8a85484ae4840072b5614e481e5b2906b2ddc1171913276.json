@@ -1,0 +1,22 @@
+{
+  "id": "e0eefe69ce151c01c8a85484ae4840072b5614e481e5b2906b2ddc1171913276",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "The Sample Complexity of Membership Inference and Privacy Auditing",
+  "url": "https://arxiv.org/abs/2508.19458",
+  "summary": "arXiv:2508.19458v2 Announce Type: replace Abstract: A membership-inference attack gets the output of a learning algorithm, and a target individual, and tries to determine whether this individual is a member of the training data or an independent sample from the same distribution. A successful membership-inference attack typically requires the attacker to have some knowledge about the distribution that the training data was sampled from, and this knowledge is often captured through a set of independent reference samples from that distribution. In this work we study how much information the attacker needs for membership inference by investigating the sample complexity-the minimum number of reference samples required-for a successful attack. We study this question in the fundamental setting of Gaussian mean estimation where the learning algorithm is given $n$ samples from a Gaussian distribution $\\mathcal{N}(\\mu,\\Sigma)$ in $d$ dimensions, and tries to estimate $\\hat\\mu$ up to some error $\\mathbb{E}[\\|\\hat \\mu - \\mu\\|^2_{\\Sigma}]\\leq \\rho^2 d$. Our result shows that for membership inference in this setting, $\\Omega(n + n^2 \\rho^2)$ samples can be necessary to carry out any attack that competes with a fully informed attacker. Our result is the first to show that the attacker sometimes needs many more samples than the training algorithm uses to train the model. This result has significant implications for practice, as all attacks used in practice have a restricted form that uses $O(n)$ samples and cannot benefit from $\\omega(n)$ samples. Thus, these attacks may be underestimating the possibility of membership inference, and better attacks may be possible when information about the distribution is easy to obtain.",
+  "published": "2025-08-26T22:19:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.120411+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:21:20Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2508.19458v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.256796+00:00"
+}

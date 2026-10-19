@@ -1,0 +1,22 @@
+{
+  "id": "529ae32ee468f77a3d0981b89601a634a51c8deb37b50830b00620e1b9d46ae5",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Attributing HOW, Not Just WHICH: Counterfactual Response Trajectories for Diffusion Models",
+  "url": "https://arxiv.org/abs/2610.11238",
+  "summary": "arXiv:2610.11238v1 Announce Type: new Abstract: Diffusion models have achieved remarkable success in image generation, yet tracing their outputs to individual training examples remains challenging. Existing attribution methods often compress factor-specific effects into scalar responses, making distinct internal changes indistinguishable. This is particularly limiting for diffusion models, where semantic factors emerge through evolving representation dynamics during denoising. We therefore reformulate diffusion data attribution as attributing factor-induced internal response trajectories. In this paper, we propose a novel Concept Attribution method through Dynamic Trajectories(CADT). We argue that attribution should therefore ask not only \\emph{which} examples matter, but also \\emph{how} their influence unfolds during generation. Specifically, we construct matched counterfactual pairs at identical noisy states to isolate factor-specific representation displacements, and model their directional and magnitude evolution across denoising as dynamic attribution signatures. For each training example and generated query, CADT extracts stage-wise feature vectors and integrates them along the denoising process to form a trajectory descriptor. Applying the same construction across the training set yields a bank of factor-specific trajectory descriptors. The covariance statistics of this bank are then used to construct . CADT uses this covariance-aware positive-semidefinite kernel to calibrate the query and training representations, and compares the calibrated query trajectory with each training trajectory to produce the final training-sample attribution scores. Experiments on multiple public datasets show consistent improvements over existing diffusion attribution baselines across hierarchical, compositional, and style attribution.",
+  "published": "2026-10-08T04:40:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.744054+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:40:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11238v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.538434+00:00"
+}

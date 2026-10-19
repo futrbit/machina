@@ -1,0 +1,22 @@
+{
+  "id": "d5ee312d925a7c290732228fd5497035504747e812839e1909fcc1717d3e3cb1",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering",
+  "url": "https://arxiv.org/abs/2603.18166",
+  "summary": "arXiv:2603.18166v2 Announce Type: replace-cross Abstract: Crowd trajectory prediction plays a crucial role in public safety and management, where it can help prevent disasters such as stampedes. Recent works address the problem by predicting individual trajectories and considering surrounding objects based on manually annotated data. However, these approaches tend to overlook dense crowd scenarios, where the challenges of automation become more pronounced due to the massiveness, noisiness, and inaccuracy of the tracking outputs, resulting in high computational costs. To address these challenges, we propose and extensively evaluate a novel cluster-based approach that groups individuals based on similar attributes over time, enabling faster execution through accurate group summarisation. Our plug-and-play method can be combined with existing trajectory predictors by using our output centroid in place of their pedestrian input. We evaluate our proposed method on several challenging dense crowd scenes. We demonstrated that our approach leads to faster processing and lower memory usage when compared with state-of-the-art methods, while maintaining the accuracy",
+  "published": "2026-03-18T18:04:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.795021+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:21:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.18166v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.665358+00:00"
+}

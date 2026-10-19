@@ -1,0 +1,22 @@
+{
+  "id": "16d62f794e8fc69e1411c5f6df2799369741d8560b3f58c414b32f3d4d2a3082",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Does Dynamic-Point Filtering Help When Texture Is Scarce? A Controlled Study of ORB-SLAM2 Front-Ends in Synthetic Indoor Scenes",
+  "url": "https://arxiv.org/abs/2610.10564",
+  "summary": "arXiv:2610.10564v1 Announce Type: cross Abstract: Dynamic-point filters are routinely added to feature-based visual SLAM, and several recent systems argue that removing dynamic features can leave too few static features in low-texture regions. So far, these systems have been evaluated only on texture-rich benchmark sequences. We present a controlled study that isolates this interaction. We render synthetic indoor sequences in which surface texture (four levels, quantified by FAST-corner density and image-gradient entropy) and scene dynamics (three levels) are varied factorially along identical camera trajectories, with stereo, RGB-D, ground-truth poses and dynamic masks. On this grid we compare ORB-SLAM2 without filtering, with an optical-flow and epipolar-residual filter (FLOW), and with a multi-view depth-consistency filter (GEOM), and report trajectory error, tracking completeness and surviving static features over five runs. Because the masks give per-keypoint ground truth, we also measure each filter's dynamic-point precision and recall and its static-feature false-removal rate, so that mechanistic explanations can be tested directly. We do not propose a new filter. On 720 runs over 24 sequences, filtering helped mainly in the most dynamic cells; the benefit did not decline monotonically with texture, but at the lowest level filtering reduced tracking completeness, and ORB-SLAM2 never initialised in static L3 scenes. Contrary to our hypothesis, GEOM discarded more static keypoints than FLOW (median FRR 6.8% vs. 1.5% for RGB-D, 19.6% vs. 1.5% for stereo); its RGB-D advantage tracked dynamic-point recall and vanished in stereo mode. Data and code are available at https://github.com/felixxxue/texture-dynamics-slam.",
+  "published": "2026-10-02T10:46:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.766038+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-02T10:46:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10564v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.852843+00:00"
+}

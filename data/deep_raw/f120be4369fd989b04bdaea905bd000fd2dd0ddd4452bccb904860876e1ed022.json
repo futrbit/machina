@@ -1,0 +1,21 @@
+{
+  "id": "f120be4369fd989b04bdaea905bd000fd2dd0ddd4452bccb904860876e1ed022",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Will the Judge Flip? Predicting Position-Sensitive LLM Judgments from Residual Stream Activations",
+  "url": "https://arxiv.org/abs/2610.07115",
+  "summary": "arXiv:2610.07115v1 Announce Type: cross Abstract: The order in which candidate responses are presented can change an LLM judge's verdict. Detecting such a position flip ordinarily requires judging each pair in both orders, which doubles the number of judgments. We investigate whether residual stream activations recorded immediately before the initial verdict can predict a flip. We use nested grouped cross-validation to evaluate regularized linear probes on 534 JudgeBench pairs for three Qwen3 judges and Llama-3.1-8B. The linear probes achieve AUROCs of .621-.850 and outperform a combined baseline that uses verbalized confidence, verdict-label logits, response lengths, and the judge's initial choice by .062-.113 AUROC. Linear probes trained on JudgeBench and then frozen achieve AUROCs of .685-.853 on 1,802 MT-Bench comparisons without MT-Bench fitting or recalibration. These results show that pre-verdict activations support prediction of susceptibility to candidate order and outperform the non-activation predictors evaluated here.",
+  "published": "2026-10-05T16:10:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.157810+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T16:10:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07115v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.451678+00:00"
+}

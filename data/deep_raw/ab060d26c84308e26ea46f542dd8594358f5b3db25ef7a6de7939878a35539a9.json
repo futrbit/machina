@@ -1,0 +1,17 @@
+{
+  "id": "ab060d26c84308e26ea46f542dd8594358f5b3db25ef7a6de7939878a35539a9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "NutriVision: Ingredient-Conditioned Fusion and Prediction for Single-Image Food Nutrition Estimation",
+  "url": "https://arxiv.org/abs/2609.33076",
+  "summary": "arXiv:2609.33076v2 Announce Type: replace-cross Abstract: Nutrition estimation is a fundamental task in consumer diet tracking, clinical dietetics, chronic disease management, sports and hospital nutrition, and broader food computing systems. The existing approaches have progressed along two largely separate axes, vision models that rely on calibrated RGB-depth captures and ingredient-aware methods that use textual cues but use limited multimodal fusion. We introduce NutriVision, an end-to-end framework that leverages visual geometry and ingredient semantics to estimate calories, mass, fat content, carbohydrates, and protein from a single RGB image and an optional ingredient list. It obtains the unavailable depth modality using DepthAnything-V3 and encodes ingredient descriptions using CLIP. It integrates three complementary mechanisms: (1) an \\emph{Ingredient-Conditioned Frequency-Aligned Fusion Module (IC-FAFM)}, which uses textual guidance to reweight and align RGB-depth frequency components; (2) an \\emph{Ingredient-Aware Mask-based Prediction Head (IA-MPH)}, whose gating and channel masks are conditioned on food identity; and (3) modality-specific \\emph{Internal Semantic Modeling (ISM)} blocks. On the Nutrition5k dataset, NutriVision achieves a mean PMAE of $\\mathbf{13.60\\pm0.10\\%}$, outperforming our IGSMNet implementation by $0.89$ percentage points and OmniFood8k by $2.90$ percentage points (both $p<0.001$). The module-level ablations identify the ingredient-aware prediction head as the primary architectural contributor, improving mean PMAE by $1.50\\pm0.17$ percentage points ($p<0.001$). These results demonstrate that ingredient-conditioned prediction and frequency-aware RGB-depth fusion provide measurable gains for single-image nutrient estimation. More broadly, NutriVision offers a practical route toward nutrition-assessment systems that exploit geometric and semantic cues without requiring specialized depth-sensing hardware",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.223121+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ce8a44c2bd901bee08a51302e2bf19d1bb3a9150b67ab41c1eccdbf34b8b763a",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Porimon: An LLM-Based Pok\\'emon Battle Agent Enhanced by Long/Short-Term Knowledge Augmented Generation",
+  "url": "https://arxiv.org/abs/2609.32544",
+  "summary": "arXiv:2609.32544v2 Announce Type: replace Abstract: In this paper, we use Pok\\'emon Battles as a case study to investigate how to improve the performance of LLM-based agents in tasks that require opponent-aware planning without additional fine-tuning. We propose Long/Short-Term Knowledge Augmented Generation (LSTKAG), a mechanism that enables LLM-based agents to leverage past states of the current task and retrieve experience summaries from similar previous task instances based on the current state. Based on LSTKAG, we design Porimon, an LLM-based agent structure for Pok\\'emon Battles. For optimization, we introduce an external API for precise damage calculation and more detailed information about the game. We conduct tournament-like evaluation experiments comprising 15,000 battles for hyperparameter optimization, ablation studies, and performance evaluation. The results indicate that Porimon-based players with hyperparameter optimization significantly outperform players based on Pok\\'eLLMon, an LLM-based agent structure proposed in previous research, and the rule-based heuristic player. Furthermore, our ablation study shows that Porimon variants outperform the one without extension in game information retrieval, which shows the contribution of that extension. However, the current experiment results are inconclusive regarding the contribution of Long-Term KAG. These results suggest that introducing external resources, information from previous states of the current task, and experience summaries from similar previous task instances could elevate the performance of LLM-based agents designed for tasks requiring opponent-aware planning.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.206131+00:00"
+}

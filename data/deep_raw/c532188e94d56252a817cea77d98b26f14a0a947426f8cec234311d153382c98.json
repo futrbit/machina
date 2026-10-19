@@ -1,0 +1,22 @@
+{
+  "id": "c532188e94d56252a817cea77d98b26f14a0a947426f8cec234311d153382c98",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Convergent Plug-and-Play Image Restoration with Annealed Noise Levels",
+  "url": "https://arxiv.org/abs/2609.32393",
+  "summary": "arXiv:2609.32393v2 Announce Type: replace-cross Abstract: Plug-and-Play (PnP) methods solve imaging inverse problems by incorporating deep denoisers into iterative optimization algorithms. Although practical implementations often decrease the denoiser noise level $\\sigma$ along iterations, most existing convergence analyses assume a fixed denoiser. In this work, we establish convergence guarantees for a broad family of Plug-and-Play algorithms with annealed noise level, spanning deterministic methods (RED--GD and PnP--PGD) and stochastic methods (SNORE, equivariant RED, and a variant of PnP--Flow). For each method, we identify an explicit, nonconvex objective associated with the terminal denoising level and prove asymptotic stationarity of the iterates with respect to this objective. Our analysis does not prescribe any decay rate for the noise schedule, and our assumptions cover both learned gradient-step denoisers and exact MMSE denoisers. Overall, our theoretical results bridge the gap between existing PnP convergence theory and the decreasing-denoising practices used by state-of-the-art image restoration methods. We empirically demonstrate the benefits of such schedules and illustrate the predicted convergence behavior on several imaging inverse problems, including inpainting, super-resolution, demosaicing and tomography.",
+  "published": "2026-09-26T09:12:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.848462+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:00:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.32393v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.921998+00:00"
+}

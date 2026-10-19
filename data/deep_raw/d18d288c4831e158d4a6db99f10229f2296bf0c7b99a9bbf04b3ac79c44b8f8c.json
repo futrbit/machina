@@ -1,0 +1,22 @@
+{
+  "id": "d18d288c4831e158d4a6db99f10229f2296bf0c7b99a9bbf04b3ac79c44b8f8c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Learning to Curate What You Generate for Generalizable Few-Shot Class-Incremental Learning",
+  "url": "https://arxiv.org/abs/2610.07008",
+  "summary": "arXiv:2610.07008v1 Announce Type: new Abstract: Few-shot class-incremental learning (FSCIL) aims to learn novel classes from limited annotations while preserving prior knowledge. Existing methods typically assume a sufficiently large base session, but this assumption fails when both base and incremental data are scarce, leading to weak initial representations, semantic drift, and unstable boundaries. We study this underexplored yet realistic setting, termed Generalizable FSCIL (G-FSCIL), where the base session itself contains only a few classes. Although synthetic data can alleviate supervision scarcity, naively mixing generated samples often introduces semantic noise and exacerbates old-new boundary conflicts. To address this, we propose a framework that curates trustworthy synthetic knowledge for stable G-FSCIL. Specifically, we first construct class-specific synthetic candidate pools using a frozen latent diffusion model, where class inversion is performed at the first observation and the resulting condition embeddings are reused for on-demand generation. Building on these candidates, we learn a knowledge curation strategy that selects samples with both semantic consistency and visual diversity, and distill this process into a transferable selection policy during the base session, which is then reused without further optimization. Leveraging the curated synthetic data, we further design a boundary-stable incremental adaptation scheme, including synthetic-informed prototype initialization and bidirectional boundary calibration to mitigate old-new conflicts. Extensive experiments demonstrate that our method consistently outperforms existing FSCIL baselines, with reduced forgetting and improved balance between old and new classes. Code is available at https://github.com/NiHaoWoJiaoYYC/G-FSCIL.",
+  "published": "2026-10-04T13:15:36Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.509389+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-04T13:15:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07008v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.086898+00:00"
+}

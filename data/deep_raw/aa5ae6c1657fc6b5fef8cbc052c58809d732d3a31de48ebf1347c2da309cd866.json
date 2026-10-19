@@ -1,0 +1,22 @@
+{
+  "id": "aa5ae6c1657fc6b5fef8cbc052c58809d732d3a31de48ebf1347c2da309cd866",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
+  "url": "https://arxiv.org/abs/2610.06889",
+  "summary": "arXiv:2610.06889v1 Announce Type: cross Abstract: We study the application of large language models (LLMs) to the visual exploration of textual corpora. We introduce zero-shot visualization (ZSV), a task in which users specify concepts in natural language and documents are mapped onto the corresponding concept axes for visualization. Building a ZSV system of practical value is non-trivial, as it requires choices at the intersection of feature functions, efficient implementation tradeoffs, and pre/post-processing decisions affecting visualization quality. To that end, we establish a benchmark that compares methods spanning embedding similarity, direct semantic judgments, and conditional likelihood estimation in this setting. Across multiple datasets and use cases we evaluate the properties of different scoring methods and design choices in terms of semantic faithfulness, score fidelity, and computational cost. Our results identify that scoring based on next-token probabilities offers the strongest practical trade-off among the evaluated methods. We further apply this approach to unlabeled corpora to examine its behavior in realistic exploratory settings. These experiments highlight additional design considerations, including the use of graded axes together with binary relevance filtering, and reveal a compositional sentiment bias in off-topic documents. Based on these findings, we provide practical guidelines for constructing end-to-end ZSV baselines.",
+  "published": "2026-09-23T16:56:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.084483+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-09-23T16:56:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06889v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.701939+00:00"
+}

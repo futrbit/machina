@@ -1,0 +1,22 @@
+{
+  "id": "ca3916198552524677d7e784fae37eb6262759c5eb8fd0e4f61bbd75d4e5cf86",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "MOVE: Multimodal Open-world Verification and Expansion for Graph Learning",
+  "url": "https://arxiv.org/abs/2610.00268",
+  "summary": "arXiv:2610.00268v1 Announce Type: new Abstract: Multimodal graph learning faces a fundamental challenge: new classes may emerge after deployment, while models are trained with a fixed label space. Existing approaches typically detect unknown nodes and use LLMs to generate candidate class descriptions, but they do not determine whether existing classes are insufficient to cover these nodes or whether a generated class is reliable enough to expand the class space. Our empirical study reveals three challenges: multimodal information beyond individual modalities is required for unknown-node identification, LLM-generated class descriptions may not fully capture multimodal class characteristics, and directly adding candidate classes can introduce redundant categories. Based on these observations, we propose MOVE, a multimodal open-world class verification and expansion framework. MOVE identifies nodes that cannot be assigned to existing classes by jointly considering visual tokens, textual attributes, and graph context, leverages a multimodal LLM to generate candidate classes, and selectively expands the class space only when candidates are consistently supported by multimodal evidence without introducing unnecessary categories. Experiments demonstrate that MOVE achieves an average improvement of 11.87\\% across unknown recognition, open-domain annotation, and downstream graph learning tasks.",
+  "published": "2026-09-24T10:42:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.768513+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-24T10:42:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00268v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.993954+00:00"
+}

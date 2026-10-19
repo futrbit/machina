@@ -1,0 +1,22 @@
+{
+  "id": "11b63acd7418a4ed852cdbca054b2cfae6205cfac55fb8729d03c95472631f69",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "An Investigation of Robustness of LLMs in Mathematical Reasoning: Benchmarking with Mathematically-Equivalent Transformation of Advanced Mathematical Problems",
+  "url": "https://arxiv.org/abs/2508.08833",
+  "summary": "arXiv:2508.08833v4 Announce Type: replace-cross Abstract: Frontier large language models (LLMs) now reach near-ceiling accuracy on standard mathematical-reasoning benchmarks and gold-medal-level performance at the International Mathematical Olympiad. As these benchmarks saturate and their items leak into training data, a high score no longer shows whether a model reasons robustly or which component of its reasoning fails. To evaluate reasoning while keeping results informative and failures diagnosable, we propose GAP (Generalisation-and-Perturbation), a methodology that automatically generates mathematically equivalent variants of existing mathematics problems at scale using two disjoint, interpretable transformations: (1) surface renames, probing the binding between identifiers and latent variable roles, and (2) kernel rewrites, probing whether a high-level proof plan survives a change of mathematical setting. Compared with existing benchmarks, GAP has two key benefits: (1) novel, likely unseen variants mitigate data leakage, and (2) performance across transformation families enables failure diagnosis, each transformation testing a hypothesis about the cause of failure. We instantiate GAP on all 1,051 William Lowell Putnam Competition problems from 1938 to 2024, adding 5,255 unseen variants to form PutnamGAP, a 6,306-item competition-level mathematics corpus and the first public machine-readable dataset from the full Putnam archive. Using PutnamGAP, we evaluated 18 commercial and open-source models spanning sizes and providers. Accuracy drops across all models and variant families, most severely under kernel rewrites. This gap does not close with model strength, suggesting that even the strongest models' dominant weakness is transferring a proof plan to a changed mathematical setting, rather than handling surface changes. Further analysis provides finer failure diagnoses and potentially useful insights for improving LLM reasoning.",
+  "published": "2025-08-12T10:40:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.135399+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T22:06:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2508.08833v4",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.721924+00:00"
+}

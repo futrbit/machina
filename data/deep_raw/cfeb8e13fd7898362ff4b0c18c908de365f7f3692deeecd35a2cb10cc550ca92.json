@@ -1,0 +1,21 @@
+{
+  "id": "cfeb8e13fd7898362ff4b0c18c908de365f7f3692deeecd35a2cb10cc550ca92",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "One Step at a Time: Trading LLM Autonomy for Process Predictability",
+  "url": "https://arxiv.org/abs/2610.07817",
+  "summary": "arXiv:2610.07817v1 Announce Type: cross Abstract: Organizations automating operational processes need more than a correct outcome: they need to predict how a process will run, know which one actually ran, and inspect it step by step. When an agent is the executor that predictability is normally lost: the prescribed procedure goes into the system prompt, and only a final answer comes back. We deliver the procedure step by step over the Model Context Protocol (MCP) instead: a server releases one step at a time, the agent executes it, and each step returns a structured step_output. This trades autonomy for predictability, and two properties then follow by construction, independent of the executor. The execution path is prescribed before the run, so the process is predictable in advance rather than reconstructed afterwards; and the completed step records form a machine-readable execution log that downstream tooling can audit and optimize step by step. Evaluating 15,475 trials across 13 SOP-Bench domains and four open-weight executors from frontier (Kimi K2.5) to lightweight (Ministral 3 8B), we find step-level delivery makes the executed process predictable and inspectable for every executor, and additionally raises accuracy when the executor is small. Across all four, process adherence rises significantly (76-95% to 95-99%) and ungrounded answers (correct outputs produced without executing the SOP) near-vanish, falling from 2.1-4.5% to 0.2-0.3% of trials (all 95% CIs exclude zero); under prompt-based delivery, 31-49% of correct answers on know_your_business bypass the SOP entirely, even for the frontier executor. Accuracy is where the executor's capability enters: the lightweight executor gains +6.5pp grounded accuracy because supplying the process externally removes a reconstruction burden it cannot carry, while capable ones trade a small raw-accuracy decrement for a predictable, auditable process.",
+  "published": "2026-10-06T06:10:42Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.168803+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:10:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07817v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.058915+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dc1176974d2f0925d018d4dad102532eefd478ad8cfea26992f090b518be3f95",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Conditional Flow Matching for Visually-Guided Acoustic Highlighting",
+  "url": "https://arxiv.org/abs/2602.03762",
+  "summary": "arXiv:2602.03762v5 Announce Type: replace-cross Abstract: Visually-guided acoustic highlighting seeks to rebalance audio in alignment with the accompanying video, creating a coherent audio-visual experience. While visual saliency and enhancement have been widely studied, acoustic highlighting remains underexplored, often leading to misalignment between visual and auditory focus. Existing approaches use discriminative models, which struggle with the inherent ambiguity in audio remixing, where no natural one-to-one mapping exists between poorly-balanced and well-balanced audio mixes. To address this limitation, we reframe this task as a generative problem and introduce a Conditional Flow Matching (CFM) framework. A key challenge in iterative flow-based generation is that early prediction errors -- in selecting the correct source to enhance -- compound over steps and push trajectories off-manifold. To address this, we introduce a rollout loss that penalizes drift at the final step, encouraging self-correcting trajectories and stabilizing long-range flow integration. We further propose a conditioning module that fuses audio and visual cues before vector field regression, enabling explicit cross-modal source selection. Extensive quantitative and qualitative evaluations show that our method consistently surpasses the previous state-of-the-art discriminative approach, establishing that visually-guided audio remixing is best addressed through generative modeling.",
+  "published": "2026-02-03T17:24:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.136399+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T20:31:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.03762v5",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.207825+00:00"
+}

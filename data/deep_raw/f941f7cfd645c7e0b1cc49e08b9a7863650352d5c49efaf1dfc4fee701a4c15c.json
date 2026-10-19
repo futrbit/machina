@@ -1,0 +1,22 @@
+{
+  "id": "f941f7cfd645c7e0b1cc49e08b9a7863650352d5c49efaf1dfc4fee701a4c15c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction",
+  "url": "https://arxiv.org/abs/2610.07825",
+  "summary": "arXiv:2610.07825v1 Announce Type: cross Abstract: Time series forecasting models are typically compared on pointwise error, which scores a prediction in isolation from the decision it is produced for, and a lower forecast error does not imply a better decision downstream. A parallel debate asks whether modern transformer architectures forecast better than recurrent and other lightweight models. We compare linear, fixed recurrent, transformer, and mixing based architectures against recurrent networks evolved by neuroevolutionary architecture search, evaluating each on forecast accuracy and on the net return of a daily long/short strategy. All models are fit on a pooled panel, one network trained across the whole universe. Across four mid-cap portfolios and three trading years, the evolved networks rank first on both forecast accuracy and net trading performance, while the second most accurate model loses money once positions are formed and costs are charged. The advantage tracks a horizon match, since rank IC for the evolved networks rises from a one-day to a ten-day scoring horizon while every model above 300 parameters declines. They are also the cheapest end to end: a CPU-only search of 16 minutes yields 66-weight networks that predict in 10.8~$\\mu$s on a Raspberry Pi Zero, against transformer baselines of up to 817,153 parameters that require GPU training.",
+  "published": "2026-10-06T06:20:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.099475+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:20:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07825v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.540625+00:00"
+}

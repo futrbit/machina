@@ -1,0 +1,21 @@
+{
+  "id": "d9f70f2ed1cd9c1ebc6611b6581457dfc550147344a247def98cfd99554d9dc3",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting",
+  "url": "https://arxiv.org/abs/2501.19065",
+  "summary": "arXiv:2501.19065v3 Announce Type: replace-cross Abstract: Long-term time-series forecasting supports a wide range of applications, including weather prediction and electricity demand planning. Frequency-domain methods address this task by decomposing observations into components that describe temporal variations at different scales. However, separate representations do not by themselves provide an explicit mechanism for adjusting the training emphasis across components. Under a shared forecasting objective, the frequency-specific networks can retain different levels of coefficient prediction error, motivating an error-dependent adjustment to their gradients. To this end, we propose BEAT (Balanced frEquency Adaptive Tuning), a framework that combines frequency-specific error monitoring with adaptive gradient modulation. We design a Frequency-Specific Monitor that compares predicted and target wavelet coefficients in a common normalized space and expresses each discrepancy relative to a reference error computed from the detail components. We further introduce a Dynamical Gradient Balancer that converts these ratios into positive, bounded coefficients. Components with higher relative errors receive larger gradient weights, whereas those with lower relative errors receive smaller weights. A shared modulation-strength parameter controls the departure from unmodulated training, and the monitoring and balancing operations are used only during training. Experiments on seven real-world datasets show that BEAT achieves competitive performance against state-of-the-art forecasting methods.",
+  "published": "2025-01-31T11:52:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.414361+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:19:36Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2501.19065v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.643768+00:00"
+}

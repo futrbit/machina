@@ -1,0 +1,22 @@
+{
+  "id": "cf05c14f6835c0f733f315d45c62a51499ca5e42b8d7ba311f4722f07e2756d4",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Probabilistic Truly Unordered Rule Sets",
+  "url": "https://arxiv.org/abs/2401.09918",
+  "summary": "arXiv:2401.09918v2 Announce Type: replace Abstract: Rule set learning has recently been frequently revisited because of its interpretability. Existing methods have several shortcomings though. First, most existing methods impose orders among rules, either explicitly or implicitly, which makes the models less comprehensible. Second, due to the difficulty of handling conflicts caused by overlaps (i.e., instances covered by multiple rules), existing methods often do not consider probabilistic rules. Third, learning classification rules for multi-class target is understudied, as most existing methods focus on binary classification or multi-class classification via the ``one-versus-rest\" approach. To address these shortcomings, we propose TURS, for Truly Unordered Rule Sets. To resolve conflicts caused by overlapping rules, we propose a novel model that exploits the probabilistic properties of our rule sets, with the intuition of only allowing rules to overlap if they have similar probabilistic outputs. We next formalize the problem of learning a TURS model based on the MDL principle and develop a carefully designed heuristic algorithm. We benchmark against a wide range of rule-based methods and demonstrate that our method learns rule sets that have lower model complexity and highly competitive predictive performance. In addition, we empirically show that rules in our model are empirically ``independent\" and hence truly unordered.",
+  "published": "2024-01-18T12:03:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.109469+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:38:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2401.09918v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.052918+00:00"
+}

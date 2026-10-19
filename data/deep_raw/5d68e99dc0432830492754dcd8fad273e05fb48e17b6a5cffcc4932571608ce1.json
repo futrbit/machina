@@ -1,0 +1,21 @@
+{
+  "id": "5d68e99dc0432830492754dcd8fad273e05fb48e17b6a5cffcc4932571608ce1",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LSC-DPO: Learning-Signal-Controlled Direct Preference Optimization",
+  "url": "https://arxiv.org/abs/2610.07592",
+  "summary": "arXiv:2610.07592v1 Announce Type: new Abstract: Direct Preference Optimization (DPO) has become a standard reward-model-free approach for aligning language models with preference data. However, as the scaled preference margin grows during training, the logistic DPO loss becomes progressively less sensitive to further changes. We study DPO from a loss-level geometric perspective and identify the sigmoid factor as a learning signal that characterizes the local sensitivity of the objective. Based on this view, we propose Learning-Signal-Controlled Direct Preference Optimization (LSC-DPO), which dynamically regulates the learning signal near a target regime. A log-space analysis establishes conditions for stable tracking of the target learning-signal regime. Experiments on AlpacaEval 2, MT-Bench, and Anthropic-HH show that LSC-DPO consistently improves over DPO and strong preference-optimization baselines. We further find that different coefficient initializations induce distinct transient learning-signal trajectories even when their later signal levels become similar. Based on this observation, we derive a signal-budget compensation rule that adjusts the target learning signal to compensate for these transient differences. The resulting compensation substantially reduces performance variation across coefficient initializations.",
+  "published": "2026-10-06T01:32:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.133824+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:32:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07592v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.761300+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "98fe9951d5301ba30853da64ac2990c9cda6dcb3c6f97018e6fb902ad578e8d7",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Comparing a gradient boosting algorithm to the GOES FDC for wildfire detection",
+  "url": "https://arxiv.org/abs/2610.01994",
+  "summary": "arXiv:2610.01994v1 Announce Type: cross Abstract: Wildfires pose severe risks to human life, ecosystems, and property. This study presents a machine learning approach for wildfire detection from GOES ABI imagery. A CatBoost model was trained on a large dataset with thousands of ABI images and over 300,000 matching VIIRS fire detections. An evaluation on a separate dataset across five regions showed that the learned CatBoost model outperformed the operational GOES Fire Detection and Characterization (FDC) product. It achieved higher precision, recall, and F1 scores both within and outside the training area. The CatBoost model achieved F1 scores that were 0.16 to 0.38 higher than the GOES FDC in all regions. In addition, out of 51 historical fire events, the CatBoost detected 26 fires before both VIIRS and GOES FDC, compared to only six earlier detections by the GOES FDC. Importantly, the CatBoost model achieved accurate wildfire detection also during nighttime, whereas the GOES FDC obtained very low recall values, around 0.03. This study demonstrates that machine learning models may offer significant improvements over existing geostationary fire products, including higher accuracy, fewer false alarms, and earlier detection.",
+  "published": "2026-10-01T16:29:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.823477+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:29:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01994v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.934593+00:00"
+}

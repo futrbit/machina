@@ -1,0 +1,18 @@
+{
+  "id": "e717a9be43771fb5f817472e4dcf57de355c4ec0d966c870673e03781ea93338",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Large Diffusion Models Need More Than EMA",
+  "url": "https://arxiv.org/abs/2610.22945",
+  "summary": "arXiv:2610.22945v1 Announce Type: new Abstract: Large-scale diffusion models are commonly trained with a constant learning rate (LR) and exponential moving average (EMA), despite the strong performance of LR decay and Schedule-Free optimization in training large language models. We study whether EMA is uniquely suited to diffusion training, or whether stronger alternatives have been underexplored. Our theory shows that averaging a constant-step trajectory has an inherent optimization limitation, whereas LR decay and Schedule-Free optimization admit vanishing stationarity guarantees under standard nonconvex assumptions. Empirically, LR decay and EMA provide complementary benefits: combining decay with EMA further improves the standard baseline at most tested starting points, although the gain remains sensitive to when decay begins. Schedule-Free avoids this timing requirement and consistently outperforms EMA with a constant LR across training stages, achieving both lower fixed-evaluation objectives and better generation quality. Our analysis further shows that all three strategies substantially reduce parameter variability, yet stronger stabilization is not always better: EMA with a constant LR retains comparatively higher parameter variability, while aggressive decay combined with EMA achieves the lowest checkpoint variability but also weakens continued optimization. Schedule-Free substantially reduces parameter variability while preserving more late-stage progress, providing a better balance between parameter stability and continued optimization. Finally, the benefits of Schedule-Free extend beyond pretraining to ReFL and generator-side DMD, demonstrating its transferability across distinct diffusion optimization settings. Overall, our results suggest that large diffusion models need more than parameter averaging alone: effective optimization requires balancing variance reduction with continued optimization.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.199750+00:00"
+}

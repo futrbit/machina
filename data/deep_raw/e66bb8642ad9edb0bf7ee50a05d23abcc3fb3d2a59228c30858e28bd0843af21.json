@@ -1,0 +1,22 @@
+{
+  "id": "e66bb8642ad9edb0bf7ee50a05d23abcc3fb3d2a59228c30858e28bd0843af21",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits",
+  "url": "https://arxiv.org/abs/2604.14908",
+  "summary": "arXiv:2604.14908v2 Announce Type: replace Abstract: We study downlink beam and rate adaptation in a multi-user mmWave MISO system where multiple base stations (BSs), each using analog beamforming from finite codebooks, serve multiple single-antenna user equipments (UEs) with a unique beam per UE and discrete data transmission rates. BSs learn about transmission success based on ACK/NACK feedback. To encode service goals, we introduce a satisficing throughput threshold $\\tau_r$ and cast joint beam and rate adaptation as a combinatorial semi-bandit over beam-rate tuples. Within this framework, we propose SAT-CTS, a lightweight, threshold-aware policy that blends conservative confidence estimates with posterior sampling, steering learning toward meeting $\\tau_r$ rather than merely maximizing. Our main theoretical contribution provides the first finite-time regret bounds for combinatorial semi-bandits with satisficing objective: when $\\tau_r$ is realizable, we upper bound the cumulative satisficing regret to the target with a time-independent constant, and when $\\tau_r$ is non-realizable, we show that SAT-CTS incurs only a finite expected transient outside committed CTS rounds, after which its regret is governed by the sum of the regret contributions of restarted CTS rounds, yielding an $O((\\log T)^2)$ standard regret bound. On the practical side, we evaluate the performance via cumulative satisficing regret to $\\tau_r$ alongside standard regret and fairness. Experiments with time-varying sparse multipath channels show that SAT-CTS consistently reduces satisficing regret and maintains competitive standard regret, while achieving favorable average throughput and fairness across users, indicating that feedback-efficient learning can equitably allocate beams and rates to meet QoS targets without channel state knowledge.",
+  "published": "2026-04-16T11:49:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.829474+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T15:16:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.14908v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.318758+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "655f40d112deb6f2c1cbfe5b301a6e4f451c219b627cbd86699c4dbc3bfee95b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Retrieval from Within: An Intrinsic Capability of Attention-Based Models",
+  "url": "https://arxiv.org/abs/2605.05806",
+  "summary": "arXiv:2605.05806v3 Announce Type: replace Abstract: Retrieval-augmented generation (RAG) typically treats retrieval and generation as separate systems. We ask whether an attention-based encoder-decoder can instead retrieve directly from its own internal representations. We introduce INTRA (INTrinsic Retrieval via Attention), a framework where decoder attention queries score pre-encoded evidence chunks that are then directly reused as context for generation. By construction, INTRA unifies retrieval and generation, eliminating the retriever-generator mismatch typical of RAG pipelines. This design also amortizes context encoding by reusing precomputed encoder states across queries. On question-answering benchmarks, INTRA outperforms strong engineered retrieval pipelines on both evidence recall and end-to-end answer quality. Our results demonstrate that attention-based models already possess a retrieval mechanism that can be elicited, rather than added as an external module.",
+  "published": "2026-05-07T07:42:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.830478+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T23:13:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.05806v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.877230+00:00"
+}

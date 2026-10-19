@@ -1,0 +1,18 @@
+{
+  "id": "319f6e4060031196d53471f3b956ca2ccbd8999dabaa5b7301ee5036b2a6d7be",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CastClaw: A Human-in-the-Loop Autonomous Agent for Interactive Time Series Forecasting",
+  "url": "https://arxiv.org/abs/2608.30976",
+  "summary": "arXiv:2608.30976v2 Announce Type: replace Abstract: Practical time-series forecasting requires domain knowledge, constraints, plausibility checks, and human intervention. We present CastClaw, an interactive forecasting system centered on an autonomous forecasting loop and supported by a forecasting-oriented harness. Users create and refine tasks in natural language through command-line and Web interfaces. An internal large language model (LLM) agent reads the task and evidence, selects a permitted tool action or request for human feedback, and uses checked results to decide whether to continue, revisit an analysis, switch a candidate, or stop. The harness supplies tool integration, controlled execution, state management, historical validation, and execution limits. npm distribution connects installation and configuration to interactive execution and forecast and report export. Across five public electricity-price datasets, CastClaw achieves the lowest point-estimate MSE and MAE among 16 baselines. A Nord Pool case study illustrates its inspectable decision process, while provincial electricity-load data from North China (January--June 2026) demonstrate offline task execution.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.266708+00:00"
+}

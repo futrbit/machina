@@ -1,0 +1,21 @@
+{
+  "id": "c224be8040758e9e9aa341257c93d290e8715f5dd9bbccd69900e7e7960dd65e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Unifying Policy Learning and State Prediction through Spatial Language Modeling",
+  "url": "https://arxiv.org/abs/2610.12172",
+  "summary": "arXiv:2610.12172v1 Announce Type: new Abstract: Learning how actions change scene geometry can provide complementary supervision for goal-directed manipulation. We introduce Spatial Language Modeling, which represents scene contours, goals, action targets, and future states with a shared vocabulary of discrete coordinates and semantic tokens. A task-specific grammar organizes these elements into spatial sequences, allowing one autoregressive Transformer to learn action generation and action-conditioned state prediction through a common next-token objective. We train the model from scratch using random-play transition pretraining followed by joint action and state training on expert demonstrations. During pretraining, recorded action coordinates condition subsequent state predictions and are excluded from the prediction loss. During control, the model decodes only executable action targets and updates its history with newly observed states. We evaluate the approach on Push-T in simulation and on a real robot. The model achieves competitive simulation performance and higher task success and target coverage than the evaluated real-robot policy baselines. Training ablations show improved control with joint action and state sequences, with further gains from random-play pretraining. Given supplied action trajectories, the same model also predicts successive scene states, capturing the geometric effects of pushing.",
+  "published": "2026-10-08T15:43:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.746538+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:43:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12172v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.535436+00:00"
+}

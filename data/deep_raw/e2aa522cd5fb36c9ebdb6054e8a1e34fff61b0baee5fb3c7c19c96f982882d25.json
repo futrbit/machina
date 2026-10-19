@@ -1,0 +1,21 @@
+{
+  "id": "e2aa522cd5fb36c9ebdb6054e8a1e34fff61b0baee5fb3c7c19c96f982882d25",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Model-Based Diffusion Optimal Control for Multi-Robot Motion Planning",
+  "url": "https://arxiv.org/abs/2607.12423",
+  "summary": "arXiv:2607.12423v2 Announce Type: replace Abstract: Multi-Robot Motion Planning in continuous environments, where robots must generate dynamically feasible, collision-free trajectories, is challenging due to the combinatorial growth of the joint trajectory space and the difficulty of enforcing dynamic feasibility and hard safety constraints. Recent approaches recast trajectory planning as probabilistic inference, sampling from a posterior over trajectories using diffusion models whose score functions are learned from demonstration data. While showing promising performance, these approaches are limited: they often rely on sizable demonstration datasets and struggle to rigorously enforce dynamics and hard safety constraints during sampling. To this end, we introduce Model-Based Diffusion Optimal Control (MDOC), a model-based diffusion planner that efficiently produces dynamically feasible trajectories without relying on data. Crucially, we show that MDOC's safety mechanism -- combining known dynamics models with Control Barrier Function-constrained projections -- naturally scales to multi-robot planning settings through Conflict-Based Search. Across simulation experiments, this integrated method consistently outperforms representative baseline planners in sample efficiency, geometric smoothness, and success rate, while reducing computation time and producing collision-free trajectories.",
+  "published": "2026-07-14T06:54:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.485007+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:12:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2607.12423v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.277783+00:00"
+}

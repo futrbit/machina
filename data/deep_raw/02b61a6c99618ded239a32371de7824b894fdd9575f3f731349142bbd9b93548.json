@@ -1,0 +1,22 @@
+{
+  "id": "02b61a6c99618ded239a32371de7824b894fdd9575f3f731349142bbd9b93548",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "FlatClip: A Geometry-Aware Surface-Level Baseline for fMRI Representation Learning",
+  "url": "https://arxiv.org/abs/2609.31204",
+  "summary": "arXiv:2609.31204v1 Announce Type: cross Abstract: Recent fMRI foundation models differ substantially in the spatial scale at which they represent brain activity. ROI- and connectivity-based models are efficient but coarse, whereas voxel-level models preserve fine-grained spatial structure but require specialized 3D/4D architectures and costly fMRI-specific pretraining. We ask how effectively an image-pretrained encoder can reuse the spatial organization of cortical activity. Motivated by evidence that macroscale brain activity is strongly constrained by brain geometry, we introduce FlatClip, a frozen-encoder surface-level baseline that renders cortical activity as geometry-aware flatmap sequences and reuses a frozen SigLIP2 image encoder with only a lightweight downstream probe. Across resting-state benchmarks, FlatClip serves as a competitive middle-ground representation, outperforming ROI-level baselines on HCP and ADNI tasks while remaining weaker on PPMI and below the strongest voxel-level models overall. On visual-fMRI decoding, restricting the input to visual or NSD-provided task-active cortex improves performance, highlighting the value of task-relevant cortical coverage. Spatial perturbation controls reduce the predictive performance of flatmap features under both retrained and fixed readouts, and anatomy-linked arrangements consistently outperform vertex permutations across three colormaps. Together, these results position surface-level flatmap sequences as a practical middle-ground baseline between ROI and voxel models, and support the utility of anatomy-linked spatial organization for reusing image-pretrained features. Code is available at https://github.com/OneMore1/FlatClip.",
+  "published": "2026-09-25T12:42:40Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.230424+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T12:42:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31204v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.294180+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b326d157a4bb3593fdc56b48a4c8e940c62cd95f90cbe3604e36a7962f9638ad",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Does Target Alignment Mean Target Recovery? An Evidence-Ladder Study of Adversarial Claims on Contrastive Encoders",
+  "url": "https://arxiv.org/abs/2610.11938",
+  "summary": "arXiv:2610.11938v1 Announce Type: new Abstract: Adversarial attacks on vision-language models optimize an image toward a text target, then cite the attacked model's similarity score as evidence of success. We ask whether that score - victim-space target alignment (VTS) - predicts recovery of the target by an independent model. We first build a measurement instrument: supervised judges outside the attacked geometry, real-target blend controls, shuffled-target negatives, and a reference level derived from a 50% target-image blend. Two preregistered studies then compare six contrastive encoders under a matched attack at three perturbation budgets. Robustly trained encoders (FARE, TeCoA, PMG, TRADES) transfer substantially more independent evidence than vanilla CLIP or SigLIP; all eight contrasts reject at the bootstrap floor. However, no cell reaches the blend-derived reference level. The three best cells fall within its replication band, leaving practical recovery undecided. Within robust encoders, per-sample alignment gain correlates with evidence gain ($\\rho = 0.24-0.51$); within vanilla CLIP the correlation is consistent with zero. Across encoders we find no monotone alignment-evidence relation. VTS is therefore informative only within a fixed robust encoder, and we provide a reporting protocol in its place.",
+  "published": "2026-10-08T13:30:52Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.753054+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:30:52Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11938v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.674147+00:00"
+}

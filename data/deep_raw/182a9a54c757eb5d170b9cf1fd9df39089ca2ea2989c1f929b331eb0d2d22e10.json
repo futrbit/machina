@@ -1,0 +1,22 @@
+{
+  "id": "182a9a54c757eb5d170b9cf1fd9df39089ca2ea2989c1f929b331eb0d2d22e10",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "FastJEV: Understanding Redundancy for Compact JEV Inference",
+  "url": "https://arxiv.org/abs/2610.11379",
+  "summary": "arXiv:2610.11379v1 Announce Type: new Abstract: JEV models make multimodal decisions by directly scoring candidates. Although the common context is encoded once, candidate evaluation can still repeat matching token histories, duplicate inference states, and execute the full backbone. In this paper, we study these sources of redundancy and present FastJEV for compact candidate evaluation. We jointly organize history reuse and state storage, since sharing computation requires preserving states for later branches. We first introduce shared context anchoring to reuse recurrent initial states and omit unused final recurrent caches. We extend this reuse through candidate prefix sharing, retaining the intermediate states needed by subsequent branches. To further reduce the depth of these paths, we apply decision guided pruning based on relative score changes measured on a small unlabeled set. Our method retains full context encoding and all candidates without additional training. We evaluate FastJEV across three OmniJev model sizes on five public benchmarks and reconstructed LIBERO-10 offline questions. At the selected pruning budgets, the complete method reduces candidate depth by 43.75% to 45.83%, while retaining 93.66% to 97.52% of the original task scores on average across the six evaluation sets. Through controlled experiments, we show how candidate overlap and branching structure affect the execution cost of history reuse. In our implementation, candidate prefix sharing can reduce repeated computation while increasing latency. These findings motivate designing sharing granularity and execution schedules together for efficient JEV inference.",
+  "published": "2026-10-08T07:11:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.746052+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:11:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11379v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.878829+00:00"
+}

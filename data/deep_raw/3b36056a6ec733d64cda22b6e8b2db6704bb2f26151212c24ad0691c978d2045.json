@@ -1,0 +1,22 @@
+{
+  "id": "3b36056a6ec733d64cda22b6e8b2db6704bb2f26151212c24ad0691c978d2045",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "BabelFake: A Multilingual Audio-Visual DeepFake Benchmark",
+  "url": "https://arxiv.org/abs/2610.06339",
+  "summary": "arXiv:2610.06339v2 Announce Type: replace Abstract: Reliable and practical audio-visual DeepFake detection requires benchmarks that reflect diverse linguistic contexts and modern data synthesis pipelines for visual as well as audio manipulations. However, existing datasets predominantly contain footage of English-speakers, often include outdated manipulation types, or overlook the audio modality. Further, many datasets feature individuals who did not consent to be used in DeepFake creation. We introduce BabelFake, a multilingual audio-visual DeepFake benchmark recorded with consenting participants. BabelFake contains 399k clips (1,323 hours) from 496 individuals spanning five languages (English, German, Italian, French, Spanish). Our modular data generation pipeline pairs 11 modern video manipulation methods with 4 voice cloning engines, distinguishing visual-only (face swapping) and joint audio-visual manipulations (lip synchronization and portrait animation). By benchmarking state-of-the-art detectors, we show that detection difficulty depends on the audio-visual generation pairing, with substantial performance degradation when authentic audio is preserved. Cross-language/demographic evaluation reveals sensitivity varying across detector architectures and training data, while human evaluation reveals that perceived realism and machine-detection difficulty do not necessarily align.",
+  "published": "2026-10-05T13:42:34Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.792024+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T09:04:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06339v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.710934+00:00"
+}

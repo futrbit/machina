@@ -1,0 +1,22 @@
+{
+  "id": "5ea0f47f643d309ec6c6788c5f20adf2145908548e10d4b043c4168e15daeabe",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Same Scene, Different Task: Skill Alignment for Compositional Generalization in VLAs",
+  "url": "https://arxiv.org/abs/2610.00524",
+  "summary": "arXiv:2610.00524v1 Announce Type: cross Abstract: Vision-language-action (VLA) models often struggle to generalize to skill combinations absent from their fine-tuning demonstrations, even when every constituent skill has been demonstrated. We focus on a vision shortcut as one failure mode: during fine-tuning, visual observations can serve as a proxy for the instruction, so a policy may execute a demonstrated combination associated with similar observations rather than the instructed combination. This motivates training with counterfactual pairs formed by holding a demonstration observation fixed while changing the instruction to specify an undemonstrated combination. These pairs, however, lack corresponding demonstrated action targets. Crucially, the currently required skill has already been demonstrated, but actions from those executions cannot serve as direct targets because the same skill can require different actions across observations. We propose CRAFT, which transfers supervision from demonstrated executions of the required skill to counterfactual pairs using skill representations that can be reused across executions of the same skill. Across three VLA models and two simulation benchmarks, CRAFT improves success on undemonstrated combinations while maintaining high success on demonstrated ones; it also improves compositional generalization on a real robot. Project website: https://taegeunyang.github.io/craft/",
+  "published": "2026-09-30T18:13:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.809486+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T18:13:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00524v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.783286+00:00"
+}

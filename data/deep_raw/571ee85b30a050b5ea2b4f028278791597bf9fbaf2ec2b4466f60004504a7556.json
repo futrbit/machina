@@ -1,0 +1,21 @@
+{
+  "id": "571ee85b30a050b5ea2b4f028278791597bf9fbaf2ec2b4466f60004504a7556",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Beyond Direct Access: Resource Hijacking in LLM Agents",
+  "url": "https://arxiv.org/abs/2608.15108",
+  "summary": "arXiv:2608.15108v2 Announce Type: replace-cross Abstract: Large language model agents are increasingly connected to high-value resources, including external APIs, GPUs and servers, and workflows such as deployment and approval. Existing agent security research mainly focuses on attacks against information and agent behavior, while high-value resources have received less attention as attack targets themselves. To our knowledge, we are the first to identify and systematically study agent resource hijacking, in which attackers induce agents to use high-value resources for their own goals without directly obtaining those resources or their credentials. We introduce ResourceHijackBench, an executable benchmark and automated case-generation pipeline that covers six categories of high-value resources. It contains 300 attack scenarios and 900 attack prompts, and each case runs in an isolated local environment that records actual resource use. Resource hijacking remains effective across four model backends, with average attack success rates of 70.0% to 89.6%, and it also appears across two agent harnesses, with average ASRs of 84.1% on OpenClaw and 72.3% on Codex. In paired comparisons, resource hijacking achieves ASRs 62.4 to 84.0 percentage points higher than direct resource acquisition across the four model backends. Real-world experiments also demonstrate the practical effectiveness of resource hijacking. Among the three existing defenses we evaluate, the lowest average ASR is still 55.1%. We further propose ResGate, a pre-execution resource authorization defense that combines model-based resource-use extraction with deterministic policy enforcement based on trusted requester identity metadata, reducing the average ASR on OpenClaw to 23.6%. These results show that preventing direct access alone is not enough to protect resources that agents can still use on an attacker's behalf, and that explicit resource authorization can help reduce this risk.",
+  "published": "2026-08-15T08:16:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.425354+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:05:57Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.15108v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.641372+00:00"
+}

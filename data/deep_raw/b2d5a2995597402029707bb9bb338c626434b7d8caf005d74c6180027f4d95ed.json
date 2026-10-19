@@ -1,0 +1,21 @@
+{
+  "id": "b2d5a2995597402029707bb9bb338c626434b7d8caf005d74c6180027f4d95ed",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
+  "url": "https://arxiv.org/abs/2608.21031",
+  "summary": "arXiv:2608.21031v2 Announce Type: replace Abstract: We present PhysCaP, a Physics-Informed Code-as-Policy agent system for active perception in robotic manipulation. While vision-language-action policies excel at imitating demonstrations, they rely on passive observation and fail to infer latent physical properties critical for manipulation. PhysCaP augments code-as-policy frameworks with a physics-informed exploration layer that enables explicit information-seeking through interaction. Our method introduces training-free physical property extraction modules that estimate object mass and stiffness from robot proprioception without additional sensors. To balance exploration costs and the efficiency of information obtained, PhysCaP employs a multi-agent design: a Planner that decides when to explore and when to stop, and a Prioritizer that filters implausible interactions and ranks the remainder using a heuristic priority score, enabling efficient, targeted exploration. We evaluate PhysCaP on three real-world tabletop manipulation tasks and a simulated task in LIBERO. The results show that existing passive and naive interactive baselines either fail when physical properties are hidden or over-explore, whereas PhysCaP achieves comparable performance with fewer interactions and reduced execution time. Ablation studies further validate the effectiveness of the proposed physical property extraction modules. Project page: https://physcap.github.io",
+  "published": "2026-08-21T12:28:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.486006+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T14:07:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.21031v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.662155+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "8712457e8c6a4a07eb84cbfc3de1ee560d8c2a2404db700a19cff8ddcdc7d364",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Training-Free Diffusion Planning with Analytical Local Scores",
+  "url": "https://arxiv.org/abs/2610.01959",
+  "summary": "arXiv:2610.01959v1 Announce Type: cross Abstract: Path finding and multi-robot motion planning require trajectories that are smooth, goal-directed, and collision-free in environments with complex geometric constraints. Recent diffusion-based planners have shown that trajectory generation can be cast as iterative denoising which has opened the doors to learning-based approaches that can handle multi-modal trajectory distributions and refine entire trajectories. However, a key limitation is that diffusion planners require training on large collections of feasible trajectories, rendering them map-specific, and difficult to deploy when high-quality demonstrations are unavailable. This paper introduces a training-free diffusion-based motion planner that replaces learned global trajectory scores with analytical local scores derived from obstacle, smoothness, velocity, and inter-agent feasibility terms. The proposed idea relies on a key observation: the score of a trajectory can be reconstructed by considering only local interactions between neighboring waypoints and nearby constraints. This structure exploitation yields a decomposed denoising procedure that retains the optimization structure of classical trajectory methods while inheriting the iterative refinement behavior of diffusion models. Experiments on a large collection of complex environments and large multi-agent planning tasks show that the proposed analytical score produces smooth and feasible trajectories within limited computational costs, for example in generating feasible paths for 300+ agents in environments containing 100+ obstacles in under 6 seconds on a GPU, outperforming strong learning-based and optimization baselines, while avoiding the data requirements of learned diffusion planners.",
+  "published": "2026-10-01T16:15:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.823477+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:15:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01959v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.587802+00:00"
+}

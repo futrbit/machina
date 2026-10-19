@@ -1,0 +1,21 @@
+{
+  "id": "c246a476913a7e512fc24a4e9680dfe7b0b066f2e8281a56c12072d7dbcf1064",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Task diversity produces systematic transfer but inhibits continual reinforcement learning",
+  "url": "https://arxiv.org/abs/2606.00880",
+  "summary": "arXiv:2606.00880v2 Announce Type: replace-cross Abstract: Continual reinforcement learning (RL) aims to produce agents that never stop adapting to new tasks. A key question is how this interacts with the diversity of tasks an agent experiences. Prior work has shown that training on many diverse tasks leads to agents with strong zero-shot and in-context adaptation. However, this work evaluated agents after they'd stopped learning, i.e. with frozen weights. How task diversity affects an agent's ability to continue learning over a sequence of distribution shifts remains unclear. We introduce Banyan, a GPU-accelerated continual RL domain where one can parametrically control three independent axes that define a task: the map layouts an agent must navigate, the objects it must interact with, and the hierarchical structures of sub-goal dependencies. We find that increasing diversity along each axis induces systematic transfer -- that is, agents begin training on a new task distribution near the performance attained on the previous one, even when the shift changes the structure of the optimal policy. While increasing diversity improves systematic transfer, we find that too much diversity inhibits a learner's ability to continue adapting to new task distributions. As diversity increases, learners plateau in the success rate they achieve on new tasks, yet continue improving on old tasks -- even without further exposure to them. We find this phenomenon manifests across continual learning algorithms, memory architectures, architecture sizes, and in Kinetix -- a physics-based control domain. We release Banyan as a domain for running controlled experiments that study continual RL in the many-tasks regime. Code is available at https://github.com/nhshah15/banyan.",
+  "published": "2026-05-30T20:31:25Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.196785+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T14:06:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.00880v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.842648+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "132f2ce622c88296d70cb4b5942e1977c6ab5cbb9cf26491c9e6a6215c0ada58",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Evidence Before Sampling: Interpretable Implicit Negative Candidate Discovery for Recommendation",
+  "url": "https://arxiv.org/abs/2610.07708",
+  "summary": "arXiv:2610.07708v1 Announce Type: new Abstract: Recommender systems learn from observed user-item interactions, but explicit negative feedback is often unavailable. Since deep learning models require negative signals for training, negative sampling methods typically treat selected unobserved interactions as negatives. However, a missing interaction does not explain why a user is uninterested in an item or whether there is sufficient evidence to label it negative. This is especially important in business recommendation, where negative signals should be interpretable and aligned with business objectives. We formulate implicit negative candidate discovery to identify unobserved interactions supported by observed customer behavior. We encode these patterns as symbolic rules, score them based on support, informativeness, and product relevance, and rank the retained rules by evidence. An LLM then interprets the retained rules using business objectives and domain knowledge; the interpretations are combined with the statistical evidence in the final report. We evaluate our method in an industrial B2B setting and across five public recommendation datasets. Candidate-quality evaluations in the industrial setting and three public datasets show higher precision than the evaluated baselines, while symbolic selection improves downstream test PR-AUC by 12.5% over random selection with four negatives per positive example in the industrial task. Our results show that negative candidate validity can be evaluated separately from downstream recommendation performance. This distinction enables evidence-based, business-aligned, and explainable negative selection, improving both interpretability and model training in sparse, skewed, real-world recommendation settings.",
+  "published": "2026-10-06T04:02:47Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.137822+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:02:47Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07708v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.756902+00:00"
+}

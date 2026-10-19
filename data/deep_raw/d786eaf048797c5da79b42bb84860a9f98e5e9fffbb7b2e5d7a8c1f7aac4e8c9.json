@@ -1,0 +1,21 @@
+{
+  "id": "d786eaf048797c5da79b42bb84860a9f98e5e9fffbb7b2e5d7a8c1f7aac4e8c9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Looking Inside LLMs: Small-World Connectivity as a Signature of Reasoning Performance",
+  "url": "https://arxiv.org/abs/2610.12304",
+  "summary": "arXiv:2610.12304v1 Announce Type: new Abstract: Understanding large language model (LLM) reasoning requires looking beyond behavioral performance to examine how reasoning ability is reflected in internal organization. Inspired by neuroscience findings linking higher intelligence to stronger small-world organization in functional brain networks, we investigate small-world connectivity as a structural signature of LLM reasoning. We construct functional graphs from attention-head activation similarities and find that a higher small-world index (SWI), capturing local clustering and short global paths, consistently correlates with better fluid reasoning performance across models and training checkpoints. Since local clustering is central to small-world organization, we further examine how heads important for model performance connect within and across communities. We find that these heads tend to have a larger share of connection weight within their own communities (high core scores) and a more concentrated weight distribution across communities (low bridge scores). These observations motivate the hypothesis that high core and low bridge scores serve as structural indicators of head importance for reasoning capability. We validate this hypothesis through pruning, introducing Small-World Allocation (SWA), a hierarchical sparsity allocation method guided by these scores. Across six LLMs, SWA better preserves small-world organization and model performance than competing allocation strategies, reducing WikiText perplexity by up to 20%. Together, these findings identify small-world functional connectivity as a measurable signature of LLM reasoning performance, offering a structural perspective that complements behavioral evaluation.",
+  "published": "2026-10-08T16:53:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.376386+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:53:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12304v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.161853+00:00"
+}

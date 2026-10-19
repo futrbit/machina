@@ -1,0 +1,21 @@
+{
+  "id": "24cd4ceef67d015dd088140d6c735f33d3af4841e014106068f5feaa7881a22b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Does Muon Need Fine-Grained Spectral Shaping?",
+  "url": "https://arxiv.org/abs/2610.07497",
+  "summary": "arXiv:2610.07497v1 Announce Type: new Abstract: Muon combines current and past gradients into matrix momentum. For $M=U\\Sigma V^\\top$, the idealized polar update $Q=UV^\\top$ gives every singular direction the same weight. We refer to this as the flat profile. Several recent optimizers replace this flat profile with fine-grained spectral maps that give each direction its own gain. We ask how much of this spectral detail a Muon update needs. Our spectral diagnostics show that approximately $94$--$97\\%$ of measured singular modes lie below an estimated noise edge, yet collectively align positively with a reference gradient. We introduce BulkBoost, a two-band spectral reweighting framework with fixed-rank and noise-calibrated variants. The latter uses split-minibatch gradient differences to calibrate a Marchenko--Pastur reference edge for Muon's Nesterov input, separating the bulk below the edge from the spikes above it. Both variants increase the bulk's relative weight through one shared gain while preserving the Frobenius norm of each matrix's unreweighted direction. For a fixed partition, our theory gives the first-order condition under which moving weight toward the bulk lowers the loss. It also quantifies the fraction of the maximal first-order improvement rate, over all per-mode reallocations, that two bands can capture. Across 30 continued-pretraining settings spanning Pythia-14M to 410M and six corpora, two-band reweighting is competitive with the fine-grained power-law profile of Freon and outperforms Spectra. Measured against Muon's flat profile, Freon reduces final loss by $0.022\\%$ of the pre-adaptation loss on average, whereas the two-band variants achieve reductions of $0.073$--$0.147\\%$. These observations suggest that useful departures from the flat profile are surprisingly low-dimensional: a single bulk-to-spike gain captures at least as much benefit as the fine-grained spectral profiles.",
+  "published": "2026-10-05T23:02:41Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.131825+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T23:02:41Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07497v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.212234+00:00"
+}

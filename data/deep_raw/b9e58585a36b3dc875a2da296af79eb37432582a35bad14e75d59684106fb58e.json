@@ -1,0 +1,21 @@
+{
+  "id": "b9e58585a36b3dc875a2da296af79eb37432582a35bad14e75d59684106fb58e",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "FRAGMENTA: Efficient End-to-end Fragmentation-based Generative Model with Agentic Tuning for Drug Lead Optimization in Small Data Regime",
+  "url": "https://arxiv.org/abs/2511.20510",
+  "summary": "arXiv:2511.20510v3 Announce Type: replace Abstract: Molecule generation from extremely limited training data is a key challenge in drug discovery. Existing fragment-based methods are more suitable than atom-based approaches in this regime, but typically optimize fragment selection separately from downstream generation. Expert feedback is also especially valuable with limited data, yet translating such feedback into model objectives usually requires AI engineering expertise. We introduce FRAGMENTA, an end-to-end framework for small-data drug lead optimization with two components: (1) LVSEF, a fragment-based generator that jointly optimizes fragmentation and generation through a tabular reward-update mechanism, and (2) an agentic system that converts conversational expert feedback into updated generative objectives. Across three small-data datasets (11--104 molecules), LVSEF outperforms state-of-the-art methods in the smallest-data settings, matches them at larger scales, and trains ${\\sim}16\\times$ faster. On three public protein targets, iterative closed-loop optimization improves final-round discovery yield by up to ${\\sim}16%$ over one-shot LVSEF-only on kinase, with gains depending on how well feedback matches target chemistry. In a real-world cancer drug-discovery deployment, Human-Agent FRAGMENTA identified nearly twice as many molecules with favorable docking scores ($< -6$) as baseline methods.",
+  "published": "2025-11-25T17:17:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.181795+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T15:35:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2511.20510v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.771089+00:00"
+}

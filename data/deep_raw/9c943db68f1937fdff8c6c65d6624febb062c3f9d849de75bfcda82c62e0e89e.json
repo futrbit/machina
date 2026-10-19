@@ -1,0 +1,22 @@
+{
+  "id": "9c943db68f1937fdff8c6c65d6624febb062c3f9d849de75bfcda82c62e0e89e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "To Learn is to Wander: Learning Across Graphs and Tasks with Random Walks",
+  "url": "https://arxiv.org/abs/2610.06694",
+  "summary": "arXiv:2610.06694v2 Announce Type: replace Abstract: Graph foundation models aim to transfer across graphs, feature spaces, relational schemas, and prediction tasks, yet existing approaches typically generalize only within particular graph modalities or tasks. We propose Wander, a graph foundation model designed to operate across these settings within a single pretrained checkpoint. Following the prior-predictive perspective, we formulate graph learning as completion of a partially observed graph. We realize this task-general view through a common interface based on random walks, allowing the same model to operate across homogeneous and multi-relational graphs with varying features, labels, and relational schemas. Wander can increase its structural context at inference time without changing its learned parameters and, under suitable assumptions, universally approximates the corresponding Bayes-optimal predictor on bounded connected graphs. Empirically, a single pretrained checkpoint achieves state-of-the-art or highly competitive results across node classification, homogeneous link prediction, and knowledge-graph link prediction. Moreover, joint pretraining across graph modalities and tasks preserves performance in specialized settings while enabling positive transfer and the composition of separately learned capabilities at inference time.",
+  "published": "2026-10-05T16:55:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.124460+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T11:52:34Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06694v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.029536+00:00"
+}

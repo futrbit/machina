@@ -1,0 +1,22 @@
+{
+  "id": "4f9d03846997dfb765dff760b07a75a8ad10a5069de625efe08185e2b9c99a5b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "LEGO-OPD: Factorized Teacher Composition for Multimodal On-Policy Distillation",
+  "url": "https://arxiv.org/abs/2610.00333",
+  "summary": "arXiv:2610.00333v1 Announce Type: cross Abstract: Multimodal on-policy distillation (OPD) aims to improve visual grounding while preserving the strong reasoning capabilities of language models. Recent multi-teacher approaches combine LLM and VLM teachers to provide complementary supervision. However, directly using a VLM's full predictive distribution entangles its visual grounding signal with its own language prior, preventing the grounding information from being transferred independently. Conversely, increasing the strength of visual supervision can improve perception but may overemphasize visual evidence and degrade language reasoning. To address this trade-off, we introduce LEGO-OPD, which selectively composes factors from a Language Expert and a Grounding expert into One teacher distribution for multimodal OPD. Under a generalized Bayesian formulation, the language expert provides a prior over candidate tokens, while the grounding expert contributes a visual likelihood that updates this prior, rather than transferring its complete predictive distribution. This factorized composition allows language reasoning and visual grounding to be controlled independently. We further introduce adaptive calibration to determine how strongly the visual likelihood should update the language prior at each decoding prefix. Specifically, LEGO-OPD uses the grounding expert's image-induced prediction shift as a prefix-dependent reference, preventing both insufficient and excessive visual supervision. Experiments with Qwen3 models show that LEGO-OPD consistently outperforms the evaluated single- and multi-teacher OPD baselines on both multimodal and text-only reasoning tasks. Moreover, it improves the initial student's visual perception while preserving text-only reasoning.",
+  "published": "2026-09-29T13:57:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.808487+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-29T13:57:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00333v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.482468+00:00"
+}

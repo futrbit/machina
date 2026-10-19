@@ -1,0 +1,21 @@
+{
+  "id": "34e5eacf23e693a73fb908029b3f3d601c3adff6ff8508f1eea838b7198ceb09",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Learning-Accelerated Narrow-Phase Collision Detection via Check Ordering for Sampling-Based Motion Planning",
+  "url": "https://arxiv.org/abs/2609.30599",
+  "summary": "arXiv:2609.30599v1 Announce Type: new Abstract: Collision detection is critical for ensuring the safety of planned paths. However, it imposes a non-negligible computational burden on motion planners, motivating extensive studies on collision-detection acceleration. In commonly used phase-based collision-detection methods, the broad phase employs hierarchical structures to rapidly discard object pairs that are clearly collision-free, while the subsequent narrow phase performs detailed collision checks on the remaining object pairs whose collision status cannot be determined by the broad phase. Although these methods effectively reduce the number of detailed checks through broad-phase pruning, the narrow phase is usually executed in the default order returned by the broad phase, with little explicit optimization of the check order. This leaves room for further acceleration, especially in cluttered environments where many object pairs may remain after the broad phase and the narrow phase can account for a significant portion of the total detection time. In this work, we propose a learning-based method to accelerate phase-based collision detection by optimizing the check order in the narrow phase. We first formulate the expected time cost of the narrow phase and derive an optimal check-ordering criterion that minimizes this expectation. Since the priors required by this criterion are difficult to obtain in advance, we design a hypernetwork-based model to predict collision probabilities, which are then used to approximate the optimal check order. The resulting order guides the execution of exact mesh checks in the narrow phase, thereby reducing detection time without replacing the underlying geometric collision checker. Simulation results show that our method effectively accelerates phase-based collision detection and improves the efficiency and success rate of sampling-based motion planning, especially in cluttered environments.",
+  "published": "2026-09-24T22:28:08Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.373498+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T22:28:08Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30599v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.595003+00:00"
+}

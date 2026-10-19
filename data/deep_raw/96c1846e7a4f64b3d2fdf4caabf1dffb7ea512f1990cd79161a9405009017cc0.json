@@ -1,0 +1,22 @@
+{
+  "id": "96c1846e7a4f64b3d2fdf4caabf1dffb7ea512f1990cd79161a9405009017cc0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation",
+  "url": "https://arxiv.org/abs/2610.07383",
+  "summary": "arXiv:2610.07383v1 Announce Type: cross Abstract: Synthetic patient data generation is a promising solution to the dual challenge of data scarcity and privacy constraints in healthcare machine learning. Realistic synthesis of patient-level clinical data requires jointly modeling heterogeneous static covariates, irregularly sampled longitudinal trajectories, and informative observation times - three tightly coupled components in practice yet rarely addressed together. We propose HyperNSDE, a continuous-time generative model that conditions a latent Neural SDE on static patient representations through a hypernetwork, allowing baseline characteristics to shape trajectory evolution beyond the initial condition without requiring a trajectory encoder, while stochastic latent dynamics capture realistic variability in generated paths. Observation times are modeled jointly through a latent-state-dependent intensity process, and training on irregular stochastic paths is stabilized via a deterministic-stochastic path decomposition with a non-adversarial signature-kernel objective. Experiments on simulated and real clinical datasets show improved observation-time fidelity and competitive performance, while matched-grid analyses reveal that forecasting and correlation metrics are affected by observation-grid regularity and trajectory smoothness.",
+  "published": "2026-10-05T20:54:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.091480+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:54:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07383v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.895617+00:00"
+}

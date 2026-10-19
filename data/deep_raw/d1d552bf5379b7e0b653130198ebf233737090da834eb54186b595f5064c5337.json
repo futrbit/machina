@@ -1,0 +1,22 @@
+{
+  "id": "d1d552bf5379b7e0b653130198ebf233737090da834eb54186b595f5064c5337",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Unsupervised Long-Tailed Adaptation of Vision-Language Models",
+  "url": "https://arxiv.org/abs/2610.07903",
+  "summary": "arXiv:2610.07903v1 Announce Type: new Abstract: Adapting vision-language models to downstream tasks has achieved remarkable success by leveraging pseudo-labels generated from unlabeled data. Existing methods typically assume a uniform unlabeled data distribution, and thus the resulting pseudo-label distribution is likewise uniform. However, real-world data distributions are often long-tailed. To tackle this, we formalize a new scenario termed Unsupervised Long-Tailed Adaptation (ULTA). Under this scenario, existing methods exhibit a contrasting phenomenon: head-class performance drops sharply, which is distinct from supervised long-tailed learning where tail classes suffer the most. In particular, we uncover that the distributional mismatch not only erodes head-class boundaries, but also pushes head samples into confusable classes, reinforcing the model's inherent bias. To address these issues, we propose a novel model called Margin-Aware Refinement with Structural alignment (MARS). Specifically, we mitigate head-class boundary erosion via Boundary-Preserving Alignment, which takes the zero-shot VLM as a fixed visual reference to suppress probability increases that lack visual support in the training targets. Building upon this, we introduce Margin-aware Self-Refinement, which employs a dynamic adjustment strategy to refine tail and confusable classes while preventing prediction bias. Extensive experiments on nine benchmark datasets demonstrate that MARS outperforms state-of-the-art methods, achieving an average accuracy improvement of 4.71 percentage points.",
+  "published": "2026-10-06T07:49:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.518383+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T07:49:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07903v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.089896+00:00"
+}

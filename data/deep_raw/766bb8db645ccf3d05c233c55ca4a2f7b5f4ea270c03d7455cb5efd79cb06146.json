@@ -1,0 +1,22 @@
+{
+  "id": "766bb8db645ccf3d05c233c55ca4a2f7b5f4ea270c03d7455cb5efd79cb06146",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Feature Encoding in VAE-based Audio Decoders: Effects of Input, Depth and Distribution",
+  "url": "https://arxiv.org/abs/2610.07966",
+  "summary": "arXiv:2610.07966v1 Announce Type: cross Abstract: Neural audio synthesis models like the Realtime Audio Variational autoEncoder (RAVE) achieve impressive genera tion quality, yet how their internal representations encode musical features remains poorly understood. We present a systematic layer-wise and cross-layer cluster analysis of RAVE decoder activations across three models trained on different musical domains, tested with four stimulus types. We then evaluate architectural generalization with a general purpose EnCodec model. For RAVE, we find that synthetic stimuli are encoded well across models and audio features (pitch |\\r{ho}|=0.45, 5.1x the null, BPM |\\r{ho}| = 0.76, 8.6x the null). These results are reduced but still substantively apparent when using natural audio (mean across features |\\r{ho}|=0.25, 2.8x the null). Natural audio sees a stronger encoding when nonlinear probes are used (mean across features R2=0.56, 18x the null, +0.152 nonlinear gain over the linear probe R2). Encoding strength varies throughout the layers of the decoder and an increased ability to joint-encode in the middle layers is seen across all audio features (\\b{eta}2 all negative, p < 0.05). The general purpose EnCodec decoder also sees similar strong synthetic responses across audio features, similar nonlinear gains for natural audio joint encoding and similar depth profiles. We find the best cross-layer cluster improves the strength (r = 0.65, p = 0.006) and prevalence (r = 0.75, p = 0.001) of BPM encoding when compared against the best whole layers within the same section, with no effect for joint encoding. These findings advance the interpretability of neural audio models and inform targeted control strategies for neural synthesis.",
+  "published": "2026-10-06T08:32:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.101474+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:32:02Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07966v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.257001+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10db1d30e6c70a29d3c276bd312290388576368391942d9fd9c919b8f026ce76",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ENAS: An Efficient Hardware-Aware Neural Architecture Search Framework for TinyML on Resource-Constrained Microcontrollers",
+  "url": "https://arxiv.org/abs/2609.30272",
+  "summary": "arXiv:2609.30272v1 Announce Type: cross Abstract: We present \\textbf{ENAS}, a hardware-aware Neural Architecture Search (NAS) framework that combines a static feasibility check, a cell-based search space supporting standard, depthwise-separable, and bottleneck blocks with optional skip connections, and a three-stage hybrid search strategy (random $\\rightarrow$ top-$K$ $\\rightarrow$ mutation) with persistent cross-run caching. Unlike many existing NAS frameworks that rely on GPU acceleration, ENAS is designed to operate efficiently without requiring GPUs, making it suitable for resource-constrained development environments. We evaluate ENAS on two TinyML benchmarks, Visual Wake Words and Melanoma Cancer, across eight microcontrollers with memory footprints ranging from 20\\,KB to 1\\,MB SRAM and nine input image resolutions. Our experimental results show that ENAS achieves mean search-time speedups of $2.41{\\times}$ and $1.70{\\times}$ on the Visual Wake Words and Melanoma Cancer datasets, respectively, while maintaining competitive test accuracy compared with the recent NanoNAS framework. A measured resource analysis further shows that ENAS-selected models use substantially lower peak activation RAM, the binding constraint for microcontroller deployment at matched accuracy. Additionally, ENAS achieves $79.4\\%$ test accuracy on an STM32H743-based microcontroller, outperforming the greedy CPU-only baseline by $2.6$ percentage points. We release the ENAS framework as open-source at: https://github.com/EdgeIntelligenceLab/ENAS",
+  "published": "2026-08-10T14:13:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.419624+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-08-10T14:13:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30272v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.694939+00:00"
+}

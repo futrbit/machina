@@ -1,0 +1,22 @@
+{
+  "id": "e44496333f08fdccadb82c8f9afb819461ce417b19aec489300a86d7af37772c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
+  "url": "https://arxiv.org/abs/2610.12423",
+  "summary": "arXiv:2610.12423v1 Announce Type: new Abstract: We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors. In contrast to previous approaches that normally evaluate depth and camera intrinsics separately or evaluate point-clouds with geometric similarity metrics, which cannot directly reflect models' point-to-point distance estimation capability, Pumpire directly assesses point-to-point distances from the reconstructed geometry. To this end, we collect a large-scale and diverse dataset (pumpire-6k) comprising 100 real-world scenes, each annotated with physically measured point-pair distances and containing 64 frames, for a total of 6,400 frames. Building on this dataset, we establish a holistic evaluation protocol that covers both image- and video-level 3D foundation models and enables direct assessment of point-pair distance errors and cross-setting comparison. We conduct extensive experiments across 29 baseline configurations of representative 3D foundation models and provide a comprehensive analysis of the results. By offering this benchmark, we target the more fundamental ability to perceive and estimate physical scale in the reconstructed 3D space, which prior evaluation protocols have largely overlooked. The project page can be found at https://pumpire.github.io/",
+  "published": "2026-10-08T17:55:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.764040+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:55:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12423v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.297771+00:00"
+}

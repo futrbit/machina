@@ -1,0 +1,17 @@
+{
+  "id": "34eedda6939e8a1382f089be30c046e2dc49a22a56d0e9874fede95c7f0b8144",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Demystifying When and Why VLAs Fail in Contact-Rich Tasks and How to Fix Them",
+  "url": "https://arxiv.org/abs/2608.01402",
+  "summary": "arXiv:2608.01402v2 Announce Type: replace Abstract: We address the problem of understanding when and why Vision-Language-Action models struggle with contact-rich manipulation tasks that require precise physical interaction. Prior work has primarily focused on addressing contact failures through force-augmented architectures and training-time regularizers, yet the factors contributing to these failures remain underexplored. We identify two distinct failure modes underlying this gap. Precision failures occur when policies struggle to produce the small, accurate corrective actions required during contact and force failures occur when policies fail to respond to contact forces. To address these failures, we propose FACT. During post-training, FACT increases low noise sampling to improve fine action prediction and incorporates structured force conditioning to guide action generation using contact state and force history. FACT achieves an average success rate of 66% across five contact-rich tasks against 41% for the best prior baseline, in an evaluation spanning almost 2,500 real-world rollouts.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.159648+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "da109eee8a11000bfe41a1394a6be3f94197d46ac00d1a14d57789ea5a44db43",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Distributed Relative Localization Based on Ultra-WideBand and LiDAR for Multi-robot with Limited Communication",
+  "url": "https://arxiv.org/abs/2610.11141",
+  "summary": "arXiv:2610.11141v1 Announce Type: new Abstract: Relative localization is crucial for a multi-robot system to collaboratively perform tasks, such as exploration and formation. However, this is highly challenging for homogeneous robots with similar appearance in GPS-denied and communication-limited environments. In this paper, we propose a fully distributed relative position estimation approach for a team of robots based on onboard UWB and LiDAR sensors, in which LiDAR is utilized to obtain the position of anonymous objects in Line-of-Sight (LOS), and UWB is used for ranging between robots. We construct two graphs, namely UWB connection graph and LiDAR connection graph, to represent the spatial relationship among objects (robots and obstacles) based on UWB and LiDAR measurements. Identification and relative position estimation are formulated as a common subgraph matching problem. A falsely-matched robot identification approach is designed to recognize the falsely-matched results caused by obstacle blockage in LiDAR field of view. These robots are then localized by leveraging the well-matched robots and the UWB ranging measurements in the UWB connection graph. We conducted experiments to evaluate the performance of our approach. The results show that the proposed approach is capable of achieving satisfactory positioning accuracy for a team of robots in a distributed manner with only exchanging limited information.",
+  "published": "2026-10-08T03:06:13Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.734547+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:06:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11141v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.189836+00:00"
+}

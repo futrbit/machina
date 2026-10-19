@@ -1,0 +1,21 @@
+{
+  "id": "02bbd0e4fd11e12c43bbe49afd04c4778a0844c93941217a907867468e136375",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "ReCast: Attribution-Oriented Step Representation Learning for LLM-Based Agent Systems",
+  "url": "https://arxiv.org/abs/2610.11334",
+  "summary": "arXiv:2610.11334v1 Announce Type: new Abstract: In LLM-based agent systems, failures can originate from early steps whose effects propagate through subsequent interactions, making their origins difficult to identify. To trace such failures back to their origin, failure attribution has been formulated as the task of identifying the earliest step responsible for the failure. Recent methods leverage LLM internal signals for failure attribution, typically using hidden states as step representations. We therefore conduct an empirical study to evaluate how effectively these representations distinguish root-cause steps from other steps and find limited separation. Motivated by this observation, we propose ReCast, a step representation learning method that transforms hidden states from a frozen LLM into attribution-oriented step representations. ReCast first selects attribution-relevant layers, then constructs complementary pattern and deviation features, and finally learns contextualized step representations through an encoder trained with contrastive and ranking objectives. We also introduce ReCast-2K, a training dataset for failure attribution. ReCast achieves the best Hit@1 across four benchmarks, surpassing the strongest baseline by 5.65 and 9.19 pp on Who&amp;When Algorithm and Handcrafted, respectively. Code is available at https://anonymous.4open.science/r/ReCast-5FB6 .",
+  "published": "2026-10-08T06:31:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.366390+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:31:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11334v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.295180+00:00"
+}

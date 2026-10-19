@@ -1,0 +1,22 @@
+{
+  "id": "7efa0f9e438e654c880c75f029236fdedb297c754efd9a46ae679c24b62cf46a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "SteerCast: Retrieval-Based Latent Steering for Decoder-Only Time Series Forecasting",
+  "url": "https://arxiv.org/abs/2610.11229",
+  "summary": "arXiv:2610.11229v1 Announce Type: new Abstract: Time series forecasting aims to predict future values from historical observations and auxiliary features. We propose \\textbf{SteerCast}, a retrieval-based latent steering method that improves decoder-only forecaster at inference time, without updating its parameters. SteerCast constructs a database from the training set by storing a representation of each history window together with a \\emph{steering vector} computed in the forecaster's latent space, defined as the difference between representations induced by the ground-truth continuation and by the model's own prediction. At test time, SteerCast retrieves nearest neighbors for a query history, aggregates their steering vectors, and injects the resulting signal into the forecaster's hidden states at every step of autoregressive generation, guiding predictions toward trajectories consistent with similar training cases. Experiments across diverse multivariate benchmarks and multiple horizons show that SteerCast consistently improves forecasting accuracy over the fine-tuned backbone and retrieval-based baselines, while requiring no additional training beyond the original fine-tuning and using only the training set as a retrieval corpus.",
+  "published": "2026-10-08T04:30:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.083434+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T04:30:54Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11229v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.416905+00:00"
+}

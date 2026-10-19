@@ -1,0 +1,22 @@
+{
+  "id": "216471aa47c4fd54b5de9fa5e31246320ce317efa211c0c4164c078055a86350",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "QUILT: Rethinking Sparse-Attention Prefill through Shared Query Execution",
+  "url": "https://arxiv.org/abs/2610.11134",
+  "summary": "arXiv:2610.11134v1 Announce Type: new Abstract: Sparse attention reduces the cost of long-context attention, but existing kernels typically process queries independently, repeatedly loading and dequantizing KV entries shared across queries. We observe substantial overlap in the KV entries selected by neighboring queries, creating opportunities for cross-query reuse. We present QUILT, a workload-aware sparse-attention execution mechanism that jointly processes neighboring queries and reuses shared KV entries to reduce redundant memory traffic and computation. QUILT introduces Shift-and-Compare Set Decomposition (SCSD), which transforms irregular set operations into regular data-parallel primitives suitable for modern accelerators, and pipelines SCSD with attention computation to hide its overhead. Cascaded sharing captures reuse hierarchically at multiple granularities. A tile-aware execution strategy balances sharing granularity with hardware tile utilization and selectively removes low-importance query-specific tails to eliminate underutilized tiles. We evaluate QUILT on LongBench using GLM-5.3 and DeepSeek-3.2 under both tensor and sequence parallelism. Compared with the state-of-the-art sparse-attention kernel, QUILT reduces average kernel latency by up to 55.1% and processed KV data by up to 55.9%, while reducing time-to-first-token (TTFT) latency by up to 36.8% with negligible accuracy degradation.",
+  "published": "2026-10-08T02:58:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.081435+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T02:58:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11134v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.147274+00:00"
+}

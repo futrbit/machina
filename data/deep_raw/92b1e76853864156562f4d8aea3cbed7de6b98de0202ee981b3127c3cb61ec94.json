@@ -1,0 +1,21 @@
+{
+  "id": "92b1e76853864156562f4d8aea3cbed7de6b98de0202ee981b3127c3cb61ec94",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Distribution-Transfer Safe-Horizon MPC under Mode Uncertainty",
+  "url": "https://arxiv.org/abs/2610.07277",
+  "summary": "arXiv:2610.07277v1 Announce Type: new Abstract: Scenario-based MPC is an attractive strategy for chance-constrained motion planning that approximates uncertainty via a finite set of sampled scenarios. As a sampling-based method, scenario-based MPC is sensitive to distribution mismatch. We address this problem in the context of Safe-Horizon Model Predictive Control (SH-MPC) with obstacles governed by switching dynamic modes. From finite mode observations, we construct a confidence set for the unknown categorical mode law and derive a multiplicative domination bound that transfers a Safe-Horizon collision-risk certificate from a selected scenario-sampling distribution to every law in the confidence set. Wasserstein geometry is used to regularize probability reallocation among modes according to the similarity of their induced trajectory predictions, while a collision-risk surrogate biases sampling toward dangerous modes. The resulting certificate explicitly quantifies the additional tightening required under distribution mismatch and exposes the multiplicative conservatism that arises when several obstacle-wise transfer factors are combined",
+  "published": "2026-10-05T19:16:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.453026+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:16:37Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07277v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.794677+00:00"
+}

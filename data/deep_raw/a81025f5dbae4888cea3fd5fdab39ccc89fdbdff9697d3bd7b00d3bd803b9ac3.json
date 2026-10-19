@@ -1,0 +1,22 @@
+{
+  "id": "a81025f5dbae4888cea3fd5fdab39ccc89fdbdff9697d3bd7b00d3bd803b9ac3",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse",
+  "url": "https://arxiv.org/abs/2609.28870",
+  "summary": "arXiv:2609.28870v2 Announce Type: replace-cross Abstract: Long-running LLM applications repeatedly send growing context, making prefix caching critical for reducing prefill cost. Yet prefix-cache behavior under agentic workloads remains poorly understood. We study production traces from two companies and evaluate 14 eviction algorithms across HBM-constrained and large memory-pool settings. Despite a large gap to Belady, sophisticated policies designed for traditional caches provide little benefit over LRU. The reason is structural: prefix reuse is dominated by the regular pacing of active sessions, making recency unusually predictive. Prefix caching nevertheless introduces new challenges, including heavy-tailed session footprints and highly variable miss costs as attention computation grows with sequence length. We introduce the compute-savings ratio and two offline oracles to quantify these effects. Our results show that effective prefix-cache management should retain recency as its foundation while selectively adding quick demotion for one-hit prefixes, compute-aware partial eviction for expensive misses, and capacity-dependent eviction granularity. We will release the traces and simulator to support future research.",
+  "published": "2026-09-24T00:28:20Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.847463+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T17:56:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.28870v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.349342+00:00"
+}

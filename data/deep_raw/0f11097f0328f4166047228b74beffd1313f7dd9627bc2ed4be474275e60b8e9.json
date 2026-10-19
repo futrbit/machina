@@ -1,0 +1,22 @@
+{
+  "id": "0f11097f0328f4166047228b74beffd1313f7dd9627bc2ed4be474275e60b8e9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "AnyJev Technical Report",
+  "url": "https://arxiv.org/abs/2610.00831",
+  "summary": "arXiv:2610.00831v1 Announce Type: new Abstract: A typed decision is a choice among a fixed set of options, returned as a probability rather than as text. Systems that need typed decisions today use models trained for that purpose. This report describes AnyJev, which reads a typed decision from one prefill of a pretrained instruction-tuned language model. The readout restricts the next-token distribution at the answer position to the option tokens. It has two defects: the model assigns higher probability to some labels whatever the input, and to some positions in the option list. AnyJev corrects both with no gradient steps and no parameter changes: it divides out a label prior estimated from unlabelled inputs, and it averages log-probabilities over the K cyclic rotations of the option list. On two 20-option tasks the rotations lower the order-flip rate from 0.33 to 0.14 and from 0.33 to 0.18, and raise accuracy on 11 of 11 models on both. Reading every rotation requires K prefills. A stopping rule selected against the full-rotation decision on unlabelled states cuts that. Selecting the threshold on one unlabelled split and bounding its disagreement on a second, it reads 10.6 rotations of 18 at a verified 0.008 bound on two of four cells; selected and bounded on one split, as our serving run did, it reads 7.3 and serves 2.2 times as many decisions per second on vLLM. The code is open source.",
+  "published": "2026-09-30T23:43:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.781503+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T23:43:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00831v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.650966+00:00"
+}

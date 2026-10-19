@@ -1,0 +1,18 @@
+{
+  "id": "b7fbdb57cab0ece6024a62190d5f455f0632d873c37419ddf1c7ebd4dec92060",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "IMPLICIT-Bench: Stereotyped Defaults and Prompt Following in Text-to-Image Generation",
+  "url": "https://arxiv.org/abs/2609.24228",
+  "summary": "arXiv:2609.24228v2 Announce Type: replace Abstract: Text-to-image (T2I) models often produce stereotypical images when stereotype-relevant attributes are left unspecified. We ask whether explicit requests can overcome these defaults, especially when the requested attribute contradicts the stereotype. We introduce \\mbox{IMPLICIT-Bench}, a challenge benchmark of 1,831 prompt triplets built on a bias knowledge graph (KG) of stereotypes recorded in StereoSet and CrowS-Pairs. Each triplet describes one scene with a neutral prompt, a stereotype prompt, and an anti-stereotype prompt. The neutral prompt measures the model's default, and the two explicit prompts measure whether the model can follow a request on either side of the stereotype. On this benchmark, Qwen-Image depicts the stereotype in 52\\% of neutral images and the anti-stereotype in 5\\%. On both Qwen-Image and Stable Diffusion~3, explicit requests that contradict this default succeed far less often than requests that agree with it. Where Qwen-Image's default is strongest, explicitly requesting the stereotype succeeds in 97\\% of cases, whereas requesting the anti-stereotype succeeds in only 54\\%. In these scenes, 31\\% of the images for anti-stereotype requests show the stereotypical attribute instead. We further test whether prompt rewriting and embedding steering can reduce the default on neutral prompts. With the prompt's own KG unit, the best configurations improve a combined bias and alignment score by up to 9.5 points, and with a unit retrieved from the bias KG, by at most 2.9. Debiasing thus depends on knowing which stereotype a prompt evokes.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.084067+00:00"
+}

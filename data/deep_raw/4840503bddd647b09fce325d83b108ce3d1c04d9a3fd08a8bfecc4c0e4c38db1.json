@@ -1,0 +1,22 @@
+{
+  "id": "4840503bddd647b09fce325d83b108ce3d1c04d9a3fd08a8bfecc4c0e4c38db1",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Multi-Task Anti-Causal Learning for Reconstructing Urban Events from Residents' Reports",
+  "url": "https://arxiv.org/abs/2603.11546",
+  "summary": "arXiv:2603.11546v2 Announce Type: replace Abstract: Many real-world machine learning tasks are anti-causal: they require inferring latent causes from observed effects. In practice, we often face multiple related tasks where the structural dependencies are a hybrid of task-invariant and task-specific mechanisms. We propose Multi-Task Anti-Causal learning (MTAC), a framework for estimating causes from outcomes and confounders by explicitly exploiting such cross-task invariances. MTAC learns a structural equation model (SEM) that factorizes the outcome-generation process into (i) a task-invariant mechanism and (ii) task-specific mechanisms via a shared backbone with task-specific deviations. Building on the learned forward model, MTAC performs maximum A posteriori (MAP) based inference to reconstruct causes by jointly optimizing latent mechanism variables and cause magnitudes under the learned structural model. We evaluate MTAC on the application of urban event reconstruction from resident reports, spanning three tasks: parking violations, abandoned properties, and unsanitary conditions. On real-world data collected from Manhattan and Newark, MTAC consistently improves reconstruction accuracy over strong baselines, achieving up to 33.04\\% MAE reduction and demonstrating the benefits of learning transferable mechanisms across tasks.",
+  "published": "2026-03-12T05:03:49Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.829474+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:20:13Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.11546v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.938796+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "da555c48ba96d43e1ee2781ec5448b74fc72d9faaaaa56f81219e06fdc1c8f3c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "CRC-Router: Risk-Constrained Routing for Medical Agentic AI Systems",
+  "url": "https://arxiv.org/abs/2609.30714",
+  "summary": "arXiv:2609.30714v1 Announce Type: new Abstract: Agentic AI systems are increasingly being explored in medical imaging to improve throughput and reduce clinician workload; however, safe deployment remains challenging because autonomous errors may propagate into downstream clinical decisions. A central requirement is therefore not only strong predictive performance, but also a reliable routing mechanism that determines when the system should proceed autonomously and when a case should be escalated for further review. To address this gap, we propose CRC-Router, a risk-constrained, uncertainty-aware routing module that is applicable to both conventional medical prediction models and agentic medical AI systems. CRC-Router combines multiple complementary uncertainty signals with the predictive score to construct a per-finding routing feature vector, maps this vector to an estimated wrong-accept risk using a lightweight per-finding risk model, and then applies Conformal Risk Control (CRC) to calibrate acceptance thresholds under a user-specified risk target. Instantiated on chest X-ray multi-finding triage using the NIH ChestX-ray14 dataset, CRC-Router achieves the strongest empirical risk--coverage trade-off among the evaluated baselines, both as a standalone routing layer and as a plug-in module integrated with the state-of-the-art MedRAX agent. These results demonstrate both the effectiveness of CRC-Router in selective medical automation and its modular, model-agnostic compatibility with existing predictive and agentic medical pipelines. Code is publicly available at https://github.com/XLIAaron/CRC-Router",
+  "published": "2026-09-25T02:42:15Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.413562+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T02:42:15Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30714v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.195833+00:00"
+}

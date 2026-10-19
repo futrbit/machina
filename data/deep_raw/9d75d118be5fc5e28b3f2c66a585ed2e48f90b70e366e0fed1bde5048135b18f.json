@@ -1,0 +1,21 @@
+{
+  "id": "9d75d118be5fc5e28b3f2c66a585ed2e48f90b70e366e0fed1bde5048135b18f",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "The Price of Thought: Does Test-Time Reasoning Pay in LLM Trading?",
+  "url": "https://arxiv.org/abs/2609.30705",
+  "summary": "arXiv:2609.30705v1 Announce Type: new Abstract: While inference-time reasoning in large language models (LLMs) promises better decision making, its higher computational cost may not yield better economic outcomes. Yet reasoning controls are rarely evaluated as economic interventions, where changes in model outputs must translate into better portfolios after trading costs. We conduct a controlled study of representative LLMs from the DeepSeek, GPT, and Gemini families. We vary reasoning effort while holding information available at each formation date, prompts, output formats, and portfolio construction fixed. Our evaluation covers a full year of U.S. equities under three input conditions: numerical, identifiable news, and masked news. It includes more than 800,000 asset predictions and repeated model generations. Across all three model families, additional reasoning does not produce a reliable improvement in net portfolio returns. For DeepSeek, where we examine the full progression from no reasoning to maximum reasoning, performance is nonmonotonic. Repeated generations also produce unstable treatment effects and portfolio selections, even when overall scores remain similar. These findings show that additional reasoning can change financial decisions without reliably improving their economic value, motivating validation for each task before deployment.",
+  "published": "2026-09-25T02:28:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:18.413242+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T02:28:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30705v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.047525+00:00"
+}

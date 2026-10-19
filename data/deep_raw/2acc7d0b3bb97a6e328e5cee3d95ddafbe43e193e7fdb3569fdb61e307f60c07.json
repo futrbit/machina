@@ -1,0 +1,22 @@
+{
+  "id": "2acc7d0b3bb97a6e328e5cee3d95ddafbe43e193e7fdb3569fdb61e307f60c07",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Knowing When to Trust a Prior: Reliability-Gated Cue Fusion for Video Gaze Prediction",
+  "url": "https://arxiv.org/abs/2610.08663",
+  "summary": "arXiv:2610.08663v1 Announce Type: new Abstract: Video gaze prediction is led by gaze-trained models, yet gaze-free priors carry signal those models have not absorbed, if one knows when to trust them. We propose FocusGate, a gated ensemble of gaze-free priors whose members may abstain. A per-frame gate reads three shape statistics of a defocus map and selects the frames on which the estimator is above chance on average, so rejected frames reduce to the base exactly, while midrank normalisation lets an all-zero prior abstain at zero parameters. Gated fusion is significantly positive on film, sports and web video, whereas unconditional fusion is harmful on sports and null on web. Added to four supervised predictors, the NTIRE 2026 champion among them, FocusGate improves all sixteen model-domain cells in shuffled AUC, fifteen significantly, one domain pre-registered and scored once, while adding only 1% to the champion's latency. Alone, it surpasses TASED-Net and UNISAL in shuffled AUC on film with a 16-frame causal mean.",
+  "published": "2026-10-06T16:46:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.526378+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T16:46:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08663v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.295184+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ae78a4afa2362221973e28e8fdbfbc5e39f3ac64e54093c7a3614b1173f7337c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Exploring the Trade-Off Between Structured Pruning and Fault Tolerance in Deep Neural Networks for Space Applications",
+  "url": "https://arxiv.org/abs/2610.03117",
+  "summary": "arXiv:2610.03117v2 Announce Type: replace Abstract: Deep Neural Networks (DNNs) inherently exhibit a degree of robustness to bit-level faults due to their distributed representation of information. As a model increases in width, this information becomes more dispersed, theoretically reducing the impact of any single bit fault. In this paper, we empirically investigate the relationship between model width and robustness to Single Event Upsets (SEUs). We conduct a comprehensive experiment in which baseline models undergo iterative structured pruning to reduce their width while preserving task performance as much as possible. At each pruning stage, we run a targeted fault-injection campaign to evaluate the model's performance under simulated bit-flip scenarios. Our results show that, although structured pruning increases per-inference sensitivity to faults by reducing redundancy, this effect is effectively counterbalanced by shorter execution time, which lowers the probability of encountering an SEU. These findings suggest that structured pruning can yield significant energy and latency savings without compromising overall reliability, providing useful guidance for designing robust AI systems for space applications.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.231730+00:00"
+}

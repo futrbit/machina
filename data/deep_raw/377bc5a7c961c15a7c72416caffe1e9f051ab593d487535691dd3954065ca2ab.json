@@ -1,0 +1,22 @@
+{
+  "id": "377bc5a7c961c15a7c72416caffe1e9f051ab593d487535691dd3954065ca2ab",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Constructing Structured Decision Sources for Consensus-Based Pseudo-Label Learning",
+  "url": "https://arxiv.org/abs/2610.11621",
+  "summary": "arXiv:2610.11621v1 Announce Type: new Abstract: Consensus can make pseudo-label learning more reliable, but only when its predictors contribute genuinely different evidence. Multiple models that repeat the same boundary provide additional votes without additional information. We address this problem by con structing decision sources through controlled changes to within-class structure. Starting from a shared graph representation, we vary center granularity and neighborhood mixing, reproduce each resulting source to test its stability, and select a complementary subset using node pair coassignment. Unanimous predictions from the selected sources are then ranked for student training. On the public fixed splits of Cora, CiteSeer, and PubMed, evaluated with five random seeds, the constructed sources improve fixed-budget training pseudo-label precision by 1.19 to 4.39 percentage points over three conventionally initialized GCN sources. Under matched structural filters, three-source consensus is more precise than each constituent source in all 45 dataset slot eed comparisons. The gains are strongest in pseudo-label quality: downstream accuracy remains competitive but does not lead on every dataset. These results identify source construction rather than model count alone as an important design problem for consensus-based pseudo-label learning.",
+  "published": "2026-10-08T10:00:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.088429+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T10:00:26Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11621v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.648972+00:00"
+}

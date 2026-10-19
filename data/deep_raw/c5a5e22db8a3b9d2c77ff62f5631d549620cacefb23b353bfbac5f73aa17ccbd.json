@@ -1,0 +1,21 @@
+{
+  "id": "c5a5e22db8a3b9d2c77ff62f5631d549620cacefb23b353bfbac5f73aa17ccbd",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Massive Activation Gating Channel in Large Language Models",
+  "url": "https://arxiv.org/abs/2610.07661",
+  "summary": "arXiv:2610.07661v1 Announce Type: new Abstract: Massive activations, a phenomenon in which a small number of hidden channels exhibit exceptionally large magnitudes, are pervasive in large language models (LLMs). However, the mechanism by which a token develops massive activations as it propagates through a pretrained LLM remains poorly understood. In this paper, we find that the emergence of massive activations is controlled by a single channel in the input embedding to a spike feed-forward network (FFN). The position of this channel is fixed for a particular LLM. We name this channel the massive activation gating channel (MAGC). When the value of the MAGC is sufficiently large (or small, depending on the LLM), the output of the spike FFN exhibits massive activations. Examining six LLMs across four model families and different model sizes, we verify the existence and effect of MAGC. We further provide a theoretical explanation of the mechanism by which MAGC induces massive activations. When the value of MAGC is sufficiently large (or small), the output of a spike FFN asymptotically reduces to a quadratic form that mixes a few columns of the down-projection matrix of the FFN. Since these columns exhibit the shape of massive activations, the output therefore exhibits massive activations.",
+  "published": "2026-10-06T02:55:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.136822+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:55:48Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07661v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.924995+00:00"
+}

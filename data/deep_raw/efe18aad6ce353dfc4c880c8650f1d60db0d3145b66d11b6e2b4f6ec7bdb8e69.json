@@ -1,0 +1,18 @@
+{
+  "id": "efe18aad6ce353dfc4c880c8650f1d60db0d3145b66d11b6e2b4f6ec7bdb8e69",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Online Inference for Quantile Distributional Reinforcement Learning",
+  "url": "https://arxiv.org/abs/2608.12973",
+  "summary": "arXiv:2608.12973v3 Announce Type: replace-cross Abstract: In this paper, we study online statistical inference for quantile-based distributional policy evaluation, which aims to characterize the distribution of discounted cumulative rewards under a given policy. To obtain a finite-dimensional representation of the return distribution, we consider the fixed point $\\bm\\eta_m$ of the quantile-projected distributional Bellman equation, parameterized by the quantile vector $\\bm\\theta_m$. We develop two online inference procedures for $\\bm\\theta_m$, covering synchronous and asynchronous sampling from a generative model as well as Markovian data. The first method uses the trajectory of quantile temporal-difference learning (QTD). We establish functional central limit theorems for the partial sums of QTD iterates and construct a recursively computable random-scaling statistic. The resulting confidence intervals have asymptotically exact coverage at deterministic horizons, with length of order $T^{-1/2}$ in probability. The second method constructs anytime-valid confidence intervals directly from samples. Exploiting the monotonicity of the quantile Bellman map, we develop a computationally explicit coordinate-shaving algorithm with finite-sample simultaneous coverage. Under positive limiting state-visit frequencies, the resulting confidence intervals have lengths of order $\\sqrt{\\log\\log T/T}$, which we establish as classwise optimal through a matching lower bound. Together, these results provide complementary guarantees for online inference in quantile distributional reinforcement learning, combining asymptotically exact fixed-horizon inference with finite-sample anytime validity.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.240724+00:00"
+}

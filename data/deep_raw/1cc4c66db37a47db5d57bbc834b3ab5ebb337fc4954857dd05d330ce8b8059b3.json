@@ -1,0 +1,22 @@
+{
+  "id": "1cc4c66db37a47db5d57bbc834b3ab5ebb337fc4954857dd05d330ce8b8059b3",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Back into Plato's Cave: Examining Cross-modal Representational Convergence at Scale",
+  "url": "https://arxiv.org/abs/2604.18572",
+  "summary": "arXiv:2604.18572v3 Announce Type: replace-cross Abstract: The Platonic Representation Hypothesis posits that neural networks trained on different modalities (e.g., text and images) converge toward a shared representation of reality. If true, this has significant implications for whether modality choice matters at all. In this paper, we show that the evidence for this claim is substantially weaker than subsequent work suggests. The mutual $k$-nearest-neighbor metric used on 1024 text-image pairs in the original study captures only coarse structure. To keep the alignment from collapsing as one scales up the data, $k$ has to grow proportionally, undercutting the argument for fine-grained representational convergence. The reported increase in alignment with language model strength saturates for recent models. Moreover, the one-to-one text-image pairing favors alignment, while alignment decreases with non-bijective data. We further find that image and text representations indeed share coarse semantic structure, but neither stronger language models nor richer captions yield fine-grained alignment. Thus, multimodal representations share coarse structure without evidence of convergence to a shared representation -- arguably, full representational convergence would require fine-grained alignment.",
+  "published": "2026-04-20T17:56:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.843465+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T05:16:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2604.18572v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.989761+00:00"
+}

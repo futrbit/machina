@@ -1,0 +1,22 @@
+{
+  "id": "efb301ece76a44dc23c0c8099ed8c9440236a573fae16563c9c961379090560c",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "A Multi-Stage Framework for Kuzushiji Character Recognition in Japanese Historical Documents",
+  "url": "https://arxiv.org/abs/2602.19086",
+  "summary": "arXiv:2602.19086v3 Announce Type: replace Abstract: Kuzushiji was a widely used cursive writing system in pre-modern Japan. Due to simplification and glyph variation, most modern Japanese readers cannot read Kuzushiji characters. Consequently, recent studies have developed optical character recognition (OCR) systems for Kuzushiji. Despite recent progress, Kuzushiji character recognition (KCR) in Japanese historical documents remains challenging because of seal-character overlap and complex layouts, which interfere with character recognition and hinder accurate reconstruction of the reading order. To address these challenges, we propose a multi-stage KCR framework comprising character detection, cropping, classification, ordering, and large language model (LLM)-based post-OCR correction. Specifically, we employ a synthetic data augmentation strategy to improve character detection robustness against seal interference and introduce an adaptive column clustering algorithm to reconstruct the reading order. Finally, we leverage the contextual capabilities of the LLM to correct OCR errors. In addition, we correct annotation omissions, reconstruct the benchmark dataset, and introduce a synthetic test set with simulated seal interference and an out-of-domain (OOD) test set for evaluation. Compared with the conventional character-level OCR baseline, our framework achieves relative CER reductions of 43.48%, 46.02%, and 39.11% on the real, synthetic, and OOD test sets, respectively.",
+  "published": "2026-02-22T07:58:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.234939+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T07:50:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.19086v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.434690+00:00"
+}

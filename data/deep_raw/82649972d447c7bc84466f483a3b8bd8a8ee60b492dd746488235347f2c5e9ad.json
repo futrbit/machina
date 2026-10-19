@@ -1,0 +1,21 @@
+{
+  "id": "82649972d447c7bc84466f483a3b8bd8a8ee60b492dd746488235347f2c5e9ad",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "iGPC: Generative Motion Priors for Object-Aware Humanoid Interaction",
+  "url": "https://arxiv.org/abs/2610.08120",
+  "summary": "arXiv:2610.08120v1 Announce Type: new Abstract: Humanoid robots operating in unstructured environments must combine robust whole-body control with the ability to perceive and physically interact with surrounding objects. While large-scale human motion data provides powerful priors for natural and versatile humanoid control, effectively transferring such priors to perception-driven object interaction remains challenging. To address this bottleneck, we propose a framework that extends the recently proposed Generative Pretrained Controller (GPC) from general human motion to full-body humanoid-environment interaction. First, we adapt GPC into interaction experts conditioned on scene affordance cues and privileged state information. These experts leverage the pretrained human motion prior while learning task-specific contact behaviors, including reaching toward objects, grasping environmental supports for stabilization, and pushing movable objects. Second, we introduce a perception-driven student that retains the pretrained GPC policy and distills interaction skills from the experts using onboard sensory observations. To bridge the gap between privileged expert observations and sensory inputs, we propose two complementary training objectives that enable effective adaptation of the pretrained motion prior during distillation. Notably, our experiments across multiple whole-body interaction tasks demonstrate that large-scale generative human motion priors provide an effective foundation for learning deployable policies for humanoid interactions in contact-rich real-world environments.",
+  "published": "2026-10-06T10:41:31Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.463021+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T10:41:31Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08120v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.484864+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ae27dca265e059906c0aa784a3c7d1f3363a5e4cfcbfe5c25de72d3be9d46439",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Same Goal, Different Words: Spatial Instruction Sensitivity in World-Action Models",
+  "url": "https://arxiv.org/abs/2610.16242",
+  "summary": "arXiv:2610.16242v3 Announce Type: replace Abstract: World-action models should preserve the intended manipulation across equivalent descriptions of a spatial goal. We evaluate this consistency in 864 rollouts from three models across four RoboLab scenes, holding initial states and task goals fixed. Describing relations through the reference object rather than the object-to-move lowers the rate of reaching a stable placement by 12.2 percentage points on average. The effect of instruction rephrasing varies across spatial relations, so aggregate scores can hide sensitivity to wording. Standalone tests of the policies' language understanding identify relation reversals and show that adding images can disrupt otherwise correct text-only interpretations. Rollout analysis also distinguishes spatial placement from instruction following: moving the wrong object can satisfy the requested relation, and rates of stable placement fall from 43.2% at any time to 21.8% at episode end. These findings motivate a more thorough evaluation of world-action models' steerability, language understanding, and grounding. Evaluations should test consistency across equivalent instructions, verify that the intended object moved, and check whether the requested arrangement persists to the end of the rollout.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.161647+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "fb9bf1451d4b68d63783e5f23fcd28347a33e13caa76dbbeb7d7d5bb41042af0",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Generation of High-Level Concepts in 3D Scene Graphs via Autoregressive Diffusion",
+  "url": "https://arxiv.org/abs/2608.28733",
+  "summary": "arXiv:2608.28733v2 Announce Type: replace Abstract: Indoor 3D Scene Graphs (3DSGs) represent environments as multi-layer hierarchies that connect observed geometric primitives (e.g., planes) to higher-level metric-semantic concepts (e.g., rooms, floors, buildings), enabling incremental spatial reasoning for robotic perception and SLAM. However, classical high-level concept generation approaches rely on hand-crafted rules for specific concept classes, while learning-based methods require separate models for graph structure and spatial node features (e.g., centroids), which limits scalability to novel classes and more complex hierarchies. We propose a unified autoregressive diffusion-based graph generative model that jointly learns structure and features, constructing complete 3DSGs bottom-up from observed vertical planes across arbitrary hierarchy depths. Our method consistently surpasses all learning-based and random baselines across 3DSG datasets spanning synthetic scenes, real architectural floor plans, and robotic sensor data, with varying layout complexity and hierarchy depth, and surpasses a one-shot model with oracle access to the target graph size on the largest hierarchy and on real single-floor data. Finally, we propose an adaptation of the Fused Gromov--Wasserstein distance for principled graph-level evaluation of generated 3DSGs against ground truth.",
+  "published": "2026-08-28T17:41:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.487006+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:54:53Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2608.28733v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.720722+00:00"
+}

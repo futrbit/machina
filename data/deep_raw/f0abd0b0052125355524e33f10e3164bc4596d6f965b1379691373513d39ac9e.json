@@ -1,0 +1,22 @@
+{
+  "id": "f0abd0b0052125355524e33f10e3164bc4596d6f965b1379691373513d39ac9e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Training-Free Bottleneck Width Planning for Convolutional Autoencoders",
+  "url": "https://arxiv.org/abs/2609.30755",
+  "summary": "arXiv:2609.30755v1 Announce Type: new Abstract: Multiscale Spectral Rate-Distortion (MS-SRD) estimates the bottleneck channels required at user-supplied spatial cuts from training images and a normalized mean-squared error (NMSE) bound, without fitting a neural network. Its covariance-tail rule is exact for shared linear block-convolutional autoencoders under squared error. A nested-scale dominance result motivates reporting the activation-parameter Pareto frontier alongside the minimum-latent candidate. At NMSE <= 0.01 on thirteen grayscale datasets, its latent-size prediction has 0.84% mean absolute percentage error against nonlinear patch-autoencoder boundaries; ten predictions are exact and the remaining three differ by one channel. In a four-dataset deployable comparison, MS-SRD matches all retrospective external widths and all four selected models pass, without training a selector; a 46-fit validation grid and four Least-Volume fits each pass on two datasets. In a skip-closed U-shaped autoencoder at the same bound, five predictions are exact, nine are within one channel, and every failing prediction is one channel short. Experiments at looser bounds show progressively larger nonlinear savings.",
+  "published": "2026-09-25T03:30:00Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.220567+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T03:30:00Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30755v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.446682+00:00"
+}

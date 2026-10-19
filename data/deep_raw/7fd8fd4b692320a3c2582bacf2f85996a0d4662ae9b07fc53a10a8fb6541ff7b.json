@@ -1,0 +1,17 @@
+{
+  "id": "7fd8fd4b692320a3c2582bacf2f85996a0d4662ae9b07fc53a10a8fb6541ff7b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Between Spoilers and Guesswork: Avoiding Over-Specification in Coding Benchmarks",
+  "url": "https://arxiv.org/abs/2610.22760",
+  "summary": "arXiv:2610.22760v1 Announce Type: new Abstract: Benchmarks drive AI progress, but are hampered by task under-specification and over-specification. Task under-specification causes guesswork, where solutions have to make things up, or worse, resort to contamination or reward hacking. Task over-specification causes spoilers, where solutions can bypass some of the harder steps the benchmark was supposed to measure. Since future-looking benchmarks should be difficult, over-specification reduces a benchmark's shelflife of community adoption. Repository-level coding benchmarks have helped the field progress but experience unnecessary churn due to both over- and under-specification. For instance, SWE-bench Pro, FEA-bench, Doc2Feat-bench, and Multi-SWE-bench all tackle under-specification by augmenting task statements with hints derived from ground truth. We show that leaking ground-truth information into the task statement causes over-specification in some of these benchmarks. We experiment with various specification levels, trying to thread the needle between spoilers and guesswork. Based on these results, we recommend techniques for deriving parsimonious hints. We will release our hints so the community can obtain more reliable signals from popular benchmarks.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:36.179149+00:00"
+}

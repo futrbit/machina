@@ -1,0 +1,22 @@
+{
+  "id": "bfe2fad9576ca94548c67341ed8b4fbb57a148c95f8f72fd9d92c2b4b6a48de7",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Learning Projection-Aware 360-Degree Image Rectification via Dual-Projection Fusion",
+  "url": "https://arxiv.org/abs/2512.00911",
+  "summary": "arXiv:2512.00911v2 Announce Type: replace Abstract: Panoramic cameras provide a 360{\\deg} field of view and are widely used in panoramic vision, immersive visual computing, and robotic perception. However, changes in camera orientation can produce non-upright panoramas, introducing geometric variations that can complicate downstream visual analysis. Existing vision-based rectification methods usually operate within a single projection domain, limiting their ability to jointly exploit local geometric structures and global contextual information. To address this, we formulate 360{\\deg} image rectification as a projection-aware representation learning problem and propose a dual-projection framework for upright panoramic rectification. A convolutional neural network branch captures local geometric structures from equirectangular projection (ERP) inputs, while a vision transformer branch models global contextual cues from cubemap projections. Cross-projection feature transformation and multi-level feature fusion enable effective interaction between these complementary representations. The learned representation supports collaborative inclination estimation and upright panorama generation, with the two tasks providing complementary geometric and appearance supervision. Experiments on SUN360 and M3D show consistent improvements over existing methods, achieving accuracies within a 1{\\deg} error threshold of 65.9% and 85.2% and Fr\\'echet Inception Distance scores of 5.87 and 3.26, respectively. Ablation studies verify the contributions of dual-projection representation, cross-projection feature transformation and fusion, and collaborative multi-task learning. The proposed framework provides a projection-aware visual computing approach for panoramic rectification. Code, pretrained models, and training/testing scripts are available at https://github.com/YuhaoShine/DualProjectionFusion.",
+  "published": "2025-11-30T14:28:21Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.781030+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:56:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2512.00911v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.862034+00:00"
+}

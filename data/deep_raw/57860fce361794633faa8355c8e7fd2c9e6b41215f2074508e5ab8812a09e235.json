@@ -1,0 +1,21 @@
+{
+  "id": "57860fce361794633faa8355c8e7fd2c9e6b41215f2074508e5ab8812a09e235",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Cooperating with Future Collaborators: Multi-Agent RL under Staggered Participation",
+  "url": "https://arxiv.org/abs/2610.07578",
+  "summary": "arXiv:2610.07578v1 Announce Type: new Abstract: In cooperative Multi-Agent Reinforcement Learning (MARL), agents are often trained under concurrent participation, while in many tasks some agents act earlier and leave task-relevant information that becomes useful to agents participating later. We study this setting as staggered participation (SP), which introduces a cross-time, cross-agent learning dependency because an early action may affect the return through the information it provides and the later policy that uses it. Learning under SP therefore requires both identifying what information is useful for future decisions and learning how later agents should use it. We propose Staggered Participation Learning (SPL), a training-time augmentation that addresses these two parts with prospective acquisition supervision for earlier agents and outcome-supervised receiver learning for later agents. We evaluate SPL across multiple policy-based MARL backbones, environments, and staggered-participation patterns. Across 60 MPE/RWARE backbone setting comparisons, SPL achieves higher observed mean task completion in every case, with an average difference of 14.1%. The gains also extend to eight-agent teams and a physics-based UAV-UGV environment in Isaac Lab, providing evidence across algorithmic, temporal, and embodied settings.",
+  "published": "2026-10-06T01:13:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.133824+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T01:13:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07578v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.649367+00:00"
+}

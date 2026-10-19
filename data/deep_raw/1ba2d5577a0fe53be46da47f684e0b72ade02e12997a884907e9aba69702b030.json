@@ -1,0 +1,22 @@
+{
+  "id": "1ba2d5577a0fe53be46da47f684e0b72ade02e12997a884907e9aba69702b030",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "High-dimensional online calibration from harmonic weights",
+  "url": "https://arxiv.org/abs/2610.07740",
+  "summary": "arXiv:2610.07740v1 Announce Type: cross Abstract: We study the online calibration of multidimensional forecasts over an arbitrary convex set $Y\\subseteq\\mathbb{R}^d$ relative to an arbitrary error norm $\\|\\cdot\\|_{L}$. For forecasting $d$ binary outcomes simultaneously ($Y=[0,1]^d$), we give the first algorithm that achieves $\\varepsilon$-calibration in a number of rounds that is polynomial in $d$ for every fixed accuracy. It requires $d^{O(1/\\varepsilon)}$ rounds, exponentially improving the dimension dependence of previous bounds. For multi-class forecasting ($Y=\\Delta_d$), we obtain the same $d^{O(1/\\varepsilon)}$ rate, improving the $d^{\\widetilde{O}(1/\\varepsilon^2)}$ bounds of Peng and Fishelson et al. Our algorithm is simple: on each round, it outputs a harmonically weighted distribution over harmonically smoothed past outcomes. The same algorithm works for every forecast set and norm. More generally, it achieves $\\varepsilon$-calibration after $\\exp(O(\\gamma(Y,L)/\\varepsilon))$ rounds, where $\\gamma(Y,L)$ is a geometric parameter defined by a matrix discrepancy problem. The harmonic weights are motivated by the fact that the discrete Hilbert transform matrix achieves the optimal discrepancy up to a universal constant, simultaneously for every $L$. This optimality result may be of independent interest.",
+  "published": "2026-10-06T04:36:12Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.098475+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:36:12Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07740v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.957780+00:00"
+}

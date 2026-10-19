@@ -1,0 +1,21 @@
+{
+  "id": "4c853df2b9b41ab82f975dbd32838f212746f4bd22c2a482585bcba9db2a08bf",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "STEAM: Self-Supervised Temporal Ensemble Advantage Modeling for Real-World Robot Learning",
+  "url": "https://arxiv.org/abs/2606.29834",
+  "summary": "arXiv:2606.29834v2 Announce Type: replace Abstract: Real-world robot learning increasingly relies on heterogeneous data, but demonstrations and rollouts often mix useful progress with stalls, corrections, and suboptimal behavior. Effective policy learning therefore requires frame-level advantages that distinguish reliable local progress from failures and regressions. We propose \\textbf{S}elf-supervised \\textbf{T}emporal \\textbf{E}nsemble \\textbf{A}dvantage \\textbf{M}odeling (\\textbf{STEAM}), a label-free method that learns such advantages from expert demonstrations. STEAM trains an ensemble of temporal-offset predictors on frame pairs within expert trajectories, using the normalized temporal offset between two frames as a self-supervised signal. Each predictor maps a frame pair to a distribution over temporal offsets, which is converted into a scalar advantage. STEAM then takes the minimum advantage across the ensemble to score mixed-quality rollout data conservatively. Across real-world bimanual towel folding, chip checkout, table clearing, and cola restocking tasks, STEAM identifies stalls, failures, and recoveries. When combined with CFGRL, STEAM achieves the highest policy success rate on all four tasks, averaging $83.5\\%$ against $58.8\\%$ for the best baseline. Project page: https://rlinf.github.io/steam/.",
+  "published": "2026-06-29T06:19:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.761530+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T06:06:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2606.29834v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.407513+00:00"
+}

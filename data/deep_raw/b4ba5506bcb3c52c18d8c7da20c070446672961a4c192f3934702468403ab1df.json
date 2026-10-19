@@ -1,0 +1,22 @@
+{
+  "id": "b4ba5506bcb3c52c18d8c7da20c070446672961a4c192f3934702468403ab1df",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Whose Face Is It Anyway? A Multi-Model Audit of Facial Affect Recognition on Children, and Why the Gap Is the Head, Not the Features",
+  "url": "https://arxiv.org/abs/2610.08279",
+  "summary": "arXiv:2610.08279v1 Announce Type: new Abstract: Facial affect models are trained almost entirely on adults, yet are increasingly applied to children in education, health, and developmental research. We present a controlled, multi-model audit of five AffectNet-pretrained expression models (EmoNet, EmotiEffLib, DDAMFN++, OpenFace 3.0, LibreFace) on children, across four child image datasets, the AffectNet-8 validation set, and two spontaneous child video datasets, through one shared harness. Three findings emerge. First, the child gap is model-agnostic: every architecture degrades from posed to naturalistic faces and shares the fear$\\rightarrow$surprise confusion. Second, it is concentrated and corroborated across all five models: open-mouth faces (read as surprise, correlating with the AU26 jaw drop) and South-Asian children degrade systematically, with a smaller averted-gaze penalty, while closed-mouth faces, White and Black children, and direct gaze do not; the bias tracks expression morphology and specific populations, not skin tone. Third, the gap is diagnosable: a linear probe on frozen features reaches 0.75-0.91 on unseen children versus 0.48-0.66 zero-shot, so it lies largely in the classifier head, not the representation, whereas dimensional valence/arousal regression degrades sharply under domain shift. Building on this, recalibrating only the head on a little target data recovers $+0.13$ to $+0.28$ on the two largest child sets across all five models at negligible adult cost, though the gain is in-distribution and does not transfer across child collections. We will release the harness, per-sample predictions, and analysis code; the child face data stays license-locked and is never redistributed.",
+  "published": "2026-10-06T12:51:59Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.522380+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:51:59Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.08279v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.692136+00:00"
+}

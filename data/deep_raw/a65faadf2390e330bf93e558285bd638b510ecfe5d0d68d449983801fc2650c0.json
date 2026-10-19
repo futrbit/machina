@@ -1,0 +1,18 @@
+{
+  "id": "a65faadf2390e330bf93e558285bd638b510ecfe5d0d68d449983801fc2650c0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "PowerAtlas: Feasibility-Aware Language Models for Electricity-Computing Co-Scheduling",
+  "url": "https://arxiv.org/abs/2607.26710",
+  "summary": "arXiv:2607.26710v2 Announce Type: replace Abstract: Electricity-computing co-scheduling (ECCS) decides where and when computing tasks run together with how generators are dispatched, because task placement changes nodal demand while power availability determines whether tasks can be served. Prior work addresses such coupled problems with optimization or learned controllers, and large language models (LLMs) are increasingly used to generate structured decisions for scheduling and power systems. Solver runtimes vary across instances, and LLM outputs that parse correctly can still violate grid and service constraints. We formalize ECCS as a structured decision task and release ECBench, 2,000 instances with Gurobi-optimal reference schedules and executable checks for grid limits, task service, cost, and latency. We propose PowerAtlas, which trains an LLM with supervised initialization and Feasibility-Aware GRPO on deterministic scorer feedback, and generates the joint schedule in a single response without solver calls or retrieval. On 10-40 paired instances per backbone, selected PowerAtlas checkpoints lower violations by 89-98% and penalized cost by up to 26x relative to base models, with residual supply deficits. Code and data are available at https://github.com/JAVA-Jiang/PowerAtlas.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.265710+00:00"
+}

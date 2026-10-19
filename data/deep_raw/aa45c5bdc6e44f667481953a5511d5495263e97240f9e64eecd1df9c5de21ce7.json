@@ -1,0 +1,18 @@
+{
+  "id": "aa45c5bdc6e44f667481953a5511d5495263e97240f9e64eecd1df9c5de21ce7",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "GRIT: Out-of-Distribution Robustness from Finite and Noisy Invariant Pairs",
+  "url": "https://arxiv.org/abs/2505.24843",
+  "summary": "arXiv:2505.24843v3 Announce Type: replace Abstract: Predictors often exploit spurious correlations that fail under distribution shift, undermining out-of-distribution (OOD) robustness. Invariant pairs, such as the same object photographed against different backgrounds, directly indicate which variation should not affect prediction. Yet real pair collections are finite and noisy, so they can miss relevant variation or lead a learner to discard predictive information. To learn from such collections, we propose Geometric Robustness Invariant Training (GRIT), which estimates an unstable subspace from the covariance of pair differences in fixed pretrained features and projects it out before fitting a predictor. Because pair processing is separate from predictor fitting, the same projection can accompany ERM or other robustness objectives. Unlike quadratic prediction consistency, which penalizes variation along every direction with nonzero pair covariance, including variation introduced by pair noise, GRIT enforces exact invariance only to the estimated subspace. We bound GRIT's target risk in terms of pair count, noise relative to the weakest clean signal, and selected rank, assuming that the label distribution given a linear projection of the features is invariant across environments. Empirically, GRIT improves the mean OOD accuracy of each of eight learning objectives on ColoredMNIST-INV and Waterbirds-INV and has higher mean accuracy than a prediction-consistency penalty using the same pairs in 15 of 16 settings. On UrbanCars, combining pairs that vary the background with pairs that vary a co-occurring object raises worst-group accuracy above that of either pair type alone.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.224734+00:00"
+}

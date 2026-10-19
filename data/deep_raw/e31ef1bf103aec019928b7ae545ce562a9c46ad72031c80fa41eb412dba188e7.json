@@ -1,0 +1,22 @@
+{
+  "id": "e31ef1bf103aec019928b7ae545ce562a9c46ad72031c80fa41eb412dba188e7",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Neural scaling laws and evolution of learnable activation functions of Kolmogorov-Arnold networks",
+  "url": "https://arxiv.org/abs/2610.00985",
+  "summary": "arXiv:2610.00985v1 Announce Type: new Abstract: Kolmogorov-Arnold Networks (KANs) represent a compelling alternative to traditional Multi-Layer Perceptron (MLP)-based neural networks. By employing activation functions as learnable elements, KANs offer superior interpretability, making them suited for scientific domains. In this work, we investigate the neural scaling laws of KANs and the structural evolution of their learnable activation functions under dataset expansion. Specifically, we evaluate the scaling behavior of three KAN variants---BSRBF-KAN, Gottlieb-KAN, and Faster-KAN---across standard image classification benchmarks (MNIST and Fashion-MNIST) and a specialized scientific regression task (magnetic parameter estimation from domain images of moir\\'e magnetic textures). Our results demonstrate that the test loss ${\\cal L}$ exhibits a broken neural scaling law (BNSL) behavior as a function of the dataset size $N_D$. After passing through a random-guess regime, the loss follows architecture- and task-dependent scaling behavior. The loss crosses from a faster- to a slower-scaling branch, ${\\cal L}\\propto N_D^{-\\alpha}$ and ${\\cal L}\\propto N_D^{-\\beta}$ with $\\alpha>\\beta$ for image classification tasks. The exponents $\\alpha$ and $\\beta$ depend strongly on both the specific network architecture and the dataset-size regime, ranging from 0.4 to 1.5 and from 0.06 to 0.6, respectively. For the magnetic parameter-regression task, the loss follows a single scaling law with its exponent ranging from 1.28 to 2.59. Additionally, we provide a structural analysis of how activation functions refine their complexity as data volume increases, finding that dataset expansion drives a transition from simple linear-like approximations toward stable, interpretable symbolic forms. These findings provide a quantitative roadmap for the efficient application of KANs while managing the trade-off between model expressivity and computational overhead.",
+  "published": "2026-10-01T03:22:11Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.784502+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T03:22:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00985v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.281780+00:00"
+}

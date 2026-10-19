@@ -1,0 +1,22 @@
+{
+  "id": "86f126916610def9c2511e0f1efcefde826c8dd8698762d3a9088d36fe9aef78",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Shared Geometry As A Rosetta Stone: Cross-Modal Alignment Without Paired Data",
+  "url": "https://arxiv.org/abs/2610.09411",
+  "summary": "arXiv:2610.09411v2 Announce Type: replace Abstract: Multimodal representations enable zero-shot classification and retrieval, but aligning independently trained models usually requires large amounts of paired data. Yet, the Platonic Representation Hypothesis suggests that models trained on different modalities may converge spontaneously toward a shared representation geometry. But then, do we even need paired examples for cross-modal alignment? Remarkably, we show that paired examples are unnecessary for coarse cross-modal alignment. Our simple Wasserstein Procrustes method with a coarse geometric initialization aligns two disjoint embedding sets by estimating a single orthogonal map without seeing any pairs. Across datasets, modalities, and unimodal models, we show that we can consistently align independently trained representations without pairs, and standard geometric alignment metrics accurately predict when this is possible. Nevertheless, we can naturally benefit from paired examples. In the very few-pair regime, our method substantially outperforms existing ones, while staying competitive with pair-based methods with more added examples. Finally, we demonstrate that the resulting alignments can enable text-to-image generation without paired examples. These results show that independently trained models often share enough geometry to establish cross-modal correspondence with little or no paired data.",
+  "published": "2026-10-07T04:12:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.133401+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T13:12:22Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.09411v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.766896+00:00"
+}

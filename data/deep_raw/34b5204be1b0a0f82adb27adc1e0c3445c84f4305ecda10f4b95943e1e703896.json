@@ -1,0 +1,22 @@
+{
+  "id": "34b5204be1b0a0f82adb27adc1e0c3445c84f4305ecda10f4b95943e1e703896",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Brain foundation model-guided source-selective domain adaptation for cross-subject EEG decoding",
+  "url": "https://arxiv.org/abs/2507.21037",
+  "summary": "arXiv:2507.21037v3 Announce Type: replace Abstract: Cross-subject motor-imagery electroencephalography (MI-EEG) decoding remains challenging because substantial inter-subject variability can cause both negative transfer from poorly matched source subjects and persistent distribution discrepancies between source and target domains. Existing multi-source domain adaptation methods often incorporate all available source domains or estimate source relevance using signal-level or task-specific representations, while distribution alignment is frequently performed only at the feature level. These limitations may introduce irrelevant source knowledge and fail to preserve class-discriminative structures across subjects. In this study, we propose a brain foundation model-guided multi-source domain adaptation framework (BFM-MSDA) for cross-subject MI-EEG decoding. The method first utilizes representations learned by a pretrained brain foundation model to estimate source--target compatibility and retrieve target-relevant sources. Subsequently, a relevance-weighted dual alignment strategy is applied to the selected sources and the unlabeled target domain. Specifically, Cauchy--Schwarz (CS) divergence is used to reduce discrepancies in marginal feature distributions, while conditional Cauchy--Schwarz (CCS) divergence further aligns class-dependent decision distributions. Source relevance is incorporated into both alignment terms so that more transferable source subjects contribute more strongly to adaptation. Experiments on two public MI-EEG benchmarks achieve average accuracies of 86.16% and 78.41%, outperforming representative cross-subject decoding and domain adaptation methods. Additional experiments with a large source pool further demonstrate that target-aware source retrieval improves scalability while mitigating negative transfer. These results highlight the importance of informed source selection under cross-subject distribution shift.",
+  "published": "2025-07-28T17:55:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.120411+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T18:12:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2507.21037v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.590006+00:00"
+}

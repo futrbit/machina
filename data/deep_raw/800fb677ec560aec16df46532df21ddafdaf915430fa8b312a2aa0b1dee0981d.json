@@ -1,0 +1,21 @@
+{
+  "id": "800fb677ec560aec16df46532df21ddafdaf915430fa8b312a2aa0b1dee0981d",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Qubit-centric Transformer for Surface Code Decoding",
+  "url": "https://arxiv.org/abs/2510.11593",
+  "summary": "arXiv:2510.11593v3 Announce Type: replace-cross Abstract: For reliable large-scale quantum computation, quantum error correction (QEC) is essential to protect logical information distributed across multiple physical qubits. Taking advantage of recent advances in deep learning, neural network-based decoders have emerged as a promising approach to improve the reliability of QEC. We propose the qubit-centric transformer (QCT), a novel and universal QEC decoder based on a transformer architecture with a qubit-centric attention mechanism. Our decoder transforms input syndromes from the stabilizer domain into qubit-centric tokens via a specialized embedding strategy. These qubit-centric tokens are processed through attention layers to effectively identify the underlying logical error. Furthermore, we introduce a graph-based masking method that incorporates the topological structure of quantum codes, enforcing attention toward relevant qubit interactions. Across various code distances for surface codes, QCT achieves state-of-the-art decoding performance, significantly outperforming existing neural decoders and the belief propagation (BP) with ordered statistics decoding (OSD) baseline. Notably, QCT achieves a high threshold of 18.1% under depolarizing noise, which closely approaches the theoretical bound of 18.9% and surpasses both the BP+OSD and the minimum-weight perfect matching (MWPM) thresholds. This qubit-centric approach provides a scalable and robust framework for surface code decoding, advancing the path toward fault-tolerant quantum computing.",
+  "published": "2025-10-13T16:31:46Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.191788+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T06:10:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2510.11593v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.759301+00:00"
+}

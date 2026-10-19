@@ -1,0 +1,22 @@
+{
+  "id": "f0dbd9f1102735c82d6cbf71ad58a6a9f8dfa3b40ae9b7b9214c5e29bdc61839",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "CausalBind: Causal Modeling and Learning for Protein-Molecule Virtual Screening",
+  "url": "https://arxiv.org/abs/2610.07340",
+  "summary": "arXiv:2610.07340v1 Announce Type: new Abstract: Protein-molecule virtual screening is increasingly cast as a problem of representation learning in a shared embedding space. Existing methods rely on dense holistic alignment, entangling invariant binding determinants with nuisance correlations and limiting transfer to new targets. It has been noted that binding in protein-molecule systems involves sparse cross-modality interactions: binding is governed by a small contact interface and a few decisive local interactions (e.g., hydrogen bonds, hydrophobic contacts, and salt bridges) rather than the global structures of the protein and molecule. We hypothesize that uncovering and leveraging sparse interaction patterns is critical for generalization beyond the training data, as these patterns are reusable and expected to improve performance across different scenarios. In this paper, we aim to identify and leverage sparse interaction patterns, and verify our hypothesis. Since the training data contain only observed binding pairs, we formalize this prior via a V-structure causal model under Heckman-style selection, and establish three theoretical results: (i) the latent concepts of interacting proteins and molecules are not identifiable without appropriate sparsity constraints; (ii) these concepts and their sparse interactions are component-wise identifiable under structural sparsity conditions; and (iii) a low-rank relaxation of these conditions yields subspace identifiability of the concepts and interactions. Inspired by these principles, we propose CausalBind with three implementation variants. Extensive experiments on DUD-E and LIT-PCBA benchmarks show that all variants consistently outperform strong retrieval baselines, with the largest gains on LIT-PCBA early enrichment, and further generalize to target- and scaffold-level out-of-distribution splits. Code is available at https://github.com/lokali/CausalBind.",
+  "published": "2026-10-05T20:14:51Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.055502+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T20:14:51Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07340v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.507453+00:00"
+}

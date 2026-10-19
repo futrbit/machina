@@ -1,0 +1,18 @@
+{
+  "id": "eb2bd77c24d52cb2e348955c733440c6954813cd3cb35db047df0fdd91e0677a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "A New Family of Poisson Non-negative Matrix Factorization Methods Using the Shifted Log Link",
+  "url": "https://arxiv.org/abs/2601.05845",
+  "summary": "arXiv:2601.05845v2 Announce Type: replace Abstract: Poisson non-negative matrix factorization (NMF) is a widely used method to find interpretable \"parts-based\" decompositions of count data. While many variants of Poisson NMF exist, existing methods assume that the \"parts\" in the decomposition combine additively. This assumption may be natural in some settings, but not in others. Here we introduce Poisson NMF with the shifted-log link function to relax this assumption. The shifted-log link function has a single tuning parameter, and as this parameter varies the model changes from assuming that parts combine additively (i.e., standard Poisson NMF) to assuming that parts combine more multiplicatively. We provide an algorithm to fit this model by maximum likelihood, and also an approximation that substantially reduces computation time for large, sparse datasets (computations scale with the number of non-zero entries in the data matrix). We illustrate these new methods on a variety of real datasets. Our examples show how the choice of link function in Poisson NMF can substantively impact the results, and how in some settings the use of a shifted-log link function may improve interpretability compared with the standard, additive link.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.257714+00:00"
+}

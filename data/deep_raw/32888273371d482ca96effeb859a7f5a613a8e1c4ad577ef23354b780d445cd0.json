@@ -1,0 +1,21 @@
+{
+  "id": "32888273371d482ca96effeb859a7f5a613a8e1c4ad577ef23354b780d445cd0",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Sim-to-Real RL for ASVs using SysID",
+  "url": "https://arxiv.org/abs/2610.12202",
+  "summary": "arXiv:2610.12202v1 Announce Type: new Abstract: Autonomous Surface Vehicles (ASVs) operating in dynamic marine environments require robust control policies for tasks such as path following and station keeping, making reinforcement learning (RL) a promising alternative to classical controllers. However, existing ASV simulators rarely support parallel environments for RL training. Such existing simulators require accurate hydrodynamic modeling from computational fluid dynamics solvers or towing tank tests for setting hydrodynamic parameters to address the sim-to-real gap. To address these challenges, we present an ASV simulator and accompanying pipeline that enables training policies starting from unknown vehicle dynamics. Our framework uses only a CAD model and brief set of open-water field trajectories for approximating and refining both hydrodynamic and thruster parameters. Real-world deployments on a BlueBoat ASV demonstrate successful zero-shot sim-to-real transfer in path following and station-keeping tasks without prior hydrodynamic and propeller information.",
+  "published": "2026-10-08T15:56:38Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:46.746538+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:56:38Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12202v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.470078+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b060c00d7d7ec3f06fc21943a0d82b21cb910eca276a75581f7375f39ba9301b",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Decide Before You Look: Learning Which Retrieved Memories Deserve Pixels",
+  "url": "https://arxiv.org/abs/2610.07984",
+  "summary": "arXiv:2610.07984v1 Announce Type: new Abstract: Multimodal assistants answer questions from long-term memories that contain images. After retrieval, each retrieved image reaches the answering model either as pixels, at about a thousand visual tokens per image, or as a stored text proxy that often misses the detail the question asks about. We find that the benefit of pixels usually comes from one or two retrieved memories, and that it can be predicted before the answering model runs, without reading any full-resolution image. In PixelTriage, a plug-in placed after retrieval, a small model that does not generate text reads the dialogue, a short note and a thumbnail of each retrieved memory and predicts how much its pixels would add. It is trained on synthetic memory episodes labeled by a frozen 27B model that answers each question with and without each memory's pixels. With a 7B answering model, PixelTriage lies on the accuracy--cost frontier of M$^3$Exam, DMV and MemEye and uses 11--23\\% of the visual tokens without a significant loss of accuracy. On DMV it answers 2.9 times faster than opening all images. It outperforms retrieval order and uniform down-sizing at equal budgets and transfers to other memory systems and to a 397B answering model.",
+  "published": "2026-10-06T08:47:45Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:03.520381+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T08:47:45Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07984v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.607187+00:00"
+}

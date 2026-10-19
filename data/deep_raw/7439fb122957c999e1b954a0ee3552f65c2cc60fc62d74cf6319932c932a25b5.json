@@ -1,0 +1,21 @@
+{
+  "id": "7439fb122957c999e1b954a0ee3552f65c2cc60fc62d74cf6319932c932a25b5",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "DataVista: Diagnosing Multimodal LLMs on Data Video Understanding",
+  "url": "https://arxiv.org/abs/2610.11993",
+  "summary": "arXiv:2610.11993v1 Announce Type: cross Abstract: Data video is a media form that integrates data visualization with video narrative, widely adopted in news reporting and business analysis. Compared with general video understanding, data video understanding places greater emphasis on accurately reading data from animated charts, integrating evidence across charts and time, and understanding how narrative organization and visual design communicate information. Yet existing benchmarks target either general videos or static charts, and data video understanding has not been systematically evaluated. We present DataVista, the first benchmark for data video understanding, containing 961 real-world data videos and 6,775 evaluation questions organized under a three-level progressive capability framework (data perception, temporal reasoning, narrative understanding) with 10 fine-grained question types across five topic domains. Systematic evaluation of 19 mainstream MLLMs shows that the best-performing model, Gemini-3.1-Pro, achieves 70.0% overall accuracy, still far below human expert performance, with models performing worst on Causal Reasoning and Narrative Structure. Increasing frame counts and adding subtitles mainly benefit data perception and temporal reasoning, with limited gains in narrative understanding. Further analysis of model responses identifies typical failure modes in chart reading, evidence judgment, and instruction understanding. The benchmark is available at https://github.com/HKUSTDial/DataVista.",
+  "published": "2026-10-08T14:02:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.397371+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:02:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11993v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.224021+00:00"
+}

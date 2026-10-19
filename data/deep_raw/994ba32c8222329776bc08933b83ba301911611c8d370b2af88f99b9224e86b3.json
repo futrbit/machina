@@ -1,0 +1,22 @@
+{
+  "id": "994ba32c8222329776bc08933b83ba301911611c8d370b2af88f99b9224e86b3",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Track2Art: Articulated Object Model Recovery with Visual-Geometric Track Representations",
+  "url": "https://arxiv.org/abs/2609.27675",
+  "summary": "arXiv:2609.27675v2 Announce Type: replace Abstract: Understanding articulated objects is fundamental for robotic interaction, requiring accurate rigid-part discovery and the recovery of their kinematic relations. Existing approaches often treat articulation as a by-product of reconstructed geometry or recover it through per-instance optimization. We instead build on the hypothesis that articulation is directly observable from persistent motion: points on the same rigid part move coherently, while relative motion between parts reveals their kinematic constraints. We present Track2Art, a motion-centric framework for recovering structured articulated objects from RGB-D interaction videos. Track2Art lifts tracked image points into persistent 3D trajectories and combines pretrained tracking features, visual descriptors, and explicit trajectory geometry. These representations are grouped into a variable number of rigid-part hypotheses and subsequently used to recover directed kinematic relations, joint types, and joint geometry through rotation-equivariant learned--analytic reasoning. On the aligned 20-object PartNet-Mobility suite, Track2Art achieves 0.695 Point IoU and 0.410 end-to-end J@20, while requiring neither ground-truth part counts nor test-time optimization.",
+  "published": "2026-09-23T10:47:02Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.238457+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-24T19:21:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.27675v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.944587+00:00"
+}

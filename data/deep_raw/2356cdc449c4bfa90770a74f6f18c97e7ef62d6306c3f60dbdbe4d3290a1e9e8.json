@@ -1,0 +1,21 @@
+{
+  "id": "2356cdc449c4bfa90770a74f6f18c97e7ef62d6306c3f60dbdbe4d3290a1e9e8",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Test-Time Scaling with Diffusion Language Models via Reward-Guided Stitching",
+  "url": "https://arxiv.org/abs/2602.22871",
+  "summary": "arXiv:2602.22871v2 Announce Type: replace-cross Abstract: Reasoning with large language models often benefits from generating multiple chains-of-thought, but existing aggregation strategies are typically trajectory-level (e.g., selecting the best trace or voting on the final answer), discarding useful intermediate work from partial or \"nearly correct\" attempts. We propose Stitching Noisy Diffusion Thoughts, a self-consistency framework that turns cheap diffusion-sampled reasoning into a reusable pool of step-level candidates. Given a problem, we (i) sample many diverse, low-cost reasoning trajectories using a masked diffusion language model, (ii) score every intermediate step with an off-the-shelf process reward model (PRM), and (iii) stitch these highest-quality steps across trajectories into a composite rationale. This rationale is then used to recompute only the final answer. This modular pipeline separates exploration (diffusion) from evaluation and solution synthesis, avoiding monolithic unified hybrids while preserving broad search. Across math reasoning benchmarks, we find that step-level recombination is most beneficial on harder problems, and ablations highlight the importance of the final solver in converting stitched but imperfect rationales into accurate answers. Using low-confidence diffusion sampling with parallel, independent rollouts, our training-free framework improves average accuracy by up to 23.8% across six math and coding tasks. At the same time, it achieves up to a 1.8x latency reduction relative to both traditional diffusion models (e.g., Dream, LLaDA) and unified architectures (e.g., TiDAR). The code is available https://github.com/roymiles/diffusion-stitching",
+  "published": "2026-02-26T11:08:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.417360+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:44:44Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2602.22871v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.185250+00:00"
+}

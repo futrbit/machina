@@ -1,0 +1,21 @@
+{
+  "id": "0f404cdbc06c4ee90c050605c4db13b2c5bed4575fcdee7b3631d0e936476448",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
+  "url": "https://arxiv.org/abs/2610.12407",
+  "summary": "arXiv:2610.12407v1 Announce Type: cross Abstract: World action models (WAMs) predict actions and future observations, typically from a reconstruction-based representation that carries noisy, redundant information which can complicate downstream predictions. We introduce LeWAM, a bidirectional transformer for forward, backward, inverse dynamics and policy prediction, on a decoder-free JEPA latent trained end-to-end through all four modes. We see the following benefits: 1) Alignment: linear probes read robot and object state from LeWAM's latent better than from a regular Le World Model (a forward-only JEPA world model), while the latent ignores visual distractors as well as LeWM does and far better than a reconstruction-based WAM. 2) Acting: Closed-loop evaluations of LeWAM match a regular flow-matching policy trained on the same encoder at matched size, while also providing a world model. 3) Planning: Sampling raw actions when planning with WAMs lets MPC exploit dynamics-model inaccuracies; planning in the noise space of the policy head instead improves the closed-loop performance of these WAMs.",
+  "published": "2026-10-08T17:46:03Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.403369+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T17:46:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12407v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.662958+00:00"
+}

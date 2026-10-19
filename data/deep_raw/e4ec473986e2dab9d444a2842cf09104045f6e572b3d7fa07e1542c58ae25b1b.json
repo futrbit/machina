@@ -1,0 +1,21 @@
+{
+  "id": "e4ec473986e2dab9d444a2842cf09104045f6e572b3d7fa07e1542c58ae25b1b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "From Prompting to Composing: A Spatial Canvas Interface for Poster Generation",
+  "url": "https://arxiv.org/abs/2610.12230",
+  "summary": "arXiv:2610.12230v1 Announce Type: cross Abstract: Text prompting is an indirect interface for poster generation, requiring users to encode inherently two-dimensional composition intent into a one-dimensional sequence of words. We introduce a Spatial Canvas Interface that enables users to directly compose generation intent in space through four complementary binding types: semantic, identity, text, and pixel, together with Text Specifications for individual elements and global appearance. Based on this interface, we develop Compo, a poster generation model adapted from a pretrained image editing model to understand Spatial Canvas inputs and Text Specifications. Compo supports both direct inference, where users explicitly construct the canvas, and agentic mode, where a high-level request is automatically translated into a planned Spatial Canvas. To train Compo, we develop a scalable pipeline that automatically constructs supervision data for different binding types and their combinations, enabling efficient adaptation without training a specialized poster generator from scratch. We further introduce a benchmark that evaluates adherence to individual binding types and their joint composition. Experiments show that Compo achieves stronger compositional controllability than both general-purpose image generation models and dedicated poster generation systems while maintaining high visual quality. By decoupling intent specification from visual generation, our work shifts poster generation from prompting toward composing.",
+  "published": "2026-10-08T16:16:06Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.400369+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T16:16:06Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12230v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.895818+00:00"
+}

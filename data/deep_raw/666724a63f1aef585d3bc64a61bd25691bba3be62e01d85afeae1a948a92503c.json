@@ -1,0 +1,22 @@
+{
+  "id": "666724a63f1aef585d3bc64a61bd25691bba3be62e01d85afeae1a948a92503c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Schedule optimization for tau-leaping in masked discrete diffusion",
+  "url": "https://arxiv.org/abs/2609.21960",
+  "summary": "arXiv:2609.21960v2 Announce Type: replace-cross Abstract: Masked diffusions are popular generative models for discrete distributions. Unlike standard autoregressive sampling, they reveal several coordinates in parallel, approximating each block's joint conditional law by a product of one-coordinate conditionals. The resulting procedure, usually called tau-leaping, reduces computational cost but introduces a factorization error ($\\varepsilon_\\text{fact}$), even with perfectly learned predictors. We study the resulting tradeoff between generative accuracy and computational cost, focusing on how to choose a denoising schedule to minimize $\\varepsilon_\\text{fact}$ for a fixed sampling budget. To do so, we establish an exact integral representation of $\\varepsilon_\\text{fact}$ separating the schedule from the target's dependence structure, summarized by a dependence density $\\rho$. This representation yields recursive stationarity equations for optimal schedules and allows us to quantify how estimation errors in $\\rho$ affect schedule selection. As the dimension $N$ and sampling budget grow, we characterize the optimal schedule and quantify the cost of random block sizes relative to a deterministic planner. We highlight a fundamental dichotomy: if $\\rho$ converges uniformly to a strictly positive continuous profile as $N\\to\\infty$, schedule optimization can only improve the leading constant of $\\varepsilon_\\text{fact}$, while if $\\rho$ degenerates, schedule optimization can improve the asymptotic order. Examples based on stationary processes and exchangeable mixtures illustrate these regimes.",
+  "published": "2026-09-18T16:18:26Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.133455+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T19:58:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.21960v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.903214+00:00"
+}

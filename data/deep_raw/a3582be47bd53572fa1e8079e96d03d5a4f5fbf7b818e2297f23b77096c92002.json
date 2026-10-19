@@ -1,0 +1,21 @@
+{
+  "id": "a3582be47bd53572fa1e8079e96d03d5a4f5fbf7b818e2297f23b77096c92002",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Population Scaling or Data Dilution? Dynamics of Local Topology Evolution in Decentralized Learning",
+  "url": "https://arxiv.org/abs/2610.05476",
+  "summary": "arXiv:2610.05476v2 Announce Type: replace-cross Abstract: Scaling decentralized learning changes not only the number of clients $N$, but also the dynamics of information propagation and consensus. We argue that the effect of increasing $N$ cannot be understood in isolation, because data allocation, topology-dependent mixing, and communication capacity may change simultaneously. We study these coupled effects on CIFAR-10 with $N\\in\\{10,50,100,200\\}$, comparing a degree-two Ring, a Static Random graph, and Local-First Heuristic Evolution (LFHE), a locally adaptive topology process based on friend-of-friend discovery. The Ring provides an analytically transparent failure mode: its Metropolis spectral gap decays as $\\Theta(N^{-2})$, implying progressively slower contraction of model disagreement as the population grows. Experiments show that holding the nominal local dataset size fixed substantially reduces the apparent population penalty observed when a fixed total dataset is divided among more clients. The remaining degradation depends strongly on communication structure: Ring enters a high-disagreement regime, whereas Static Random and LFHE remain close to consensus. Increasing LFHE's degree threshold further improves accuracy and consensus, but at a substantially higher model-transmission cost. These results show that decentralized scaling is governed by coupled learning and communication dynamics, rather than by the number of clients alone.",
+  "published": "2026-10-04T19:34:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.428352+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T11:36:03Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.05476v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.877832+00:00"
+}

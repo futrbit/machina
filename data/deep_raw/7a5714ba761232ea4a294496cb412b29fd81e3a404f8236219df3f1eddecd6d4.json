@@ -1,0 +1,22 @@
+{
+  "id": "7a5714ba761232ea4a294496cb412b29fd81e3a404f8236219df3f1eddecd6d4",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Seek-and-View Reasoning for Multi-View Spatial Understanding",
+  "url": "https://arxiv.org/abs/2610.11810",
+  "summary": "arXiv:2610.11810v1 Announce Type: new Abstract: Existing approaches to multi-view spatial reasoning operate largely on sparse input views. Vision-language models (VLMs) are thus restricted to understand a scene and infer spatial relations within these fixed views, leading to fragile cross-view alignment and geometry-to-language bottleneck. To address these issues, we formulate a novel Seek-and-View reasoning approach to find implicit cross-view spatial evidence by locating a question-relevant view to support the spatial reasoning. To realize this approach, we propose Vantage, a training-free model-agnostic reasoning framework that pairs a VLM with a 3D foundation model: a viewpoint-grounded reasoning stage for question analysis and view planning, followed by a geometry-grounded evidence augmentation stage to effectively synthesize and incorporate visual evidence into the final reasoning. Comprehensive experiments on six VLMs demonstrate consistent improvements on five benchmarks without fine-tuning. Overall, by revealing spatial evidence through view-grounded reasoning, Vantage can largely reduce reliance on language-based cross-view alignment and improve multi-view spatial understanding. Our code is available at https://github.com/q1xiangchen/Vantage.",
+  "published": "2026-10-08T12:18:01Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.752048+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T12:18:01Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11810v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.336953+00:00"
+}

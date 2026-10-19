@@ -1,0 +1,22 @@
+{
+  "id": "b89aaae256a8b1abf853e1dfce59d503f29d102bd957f81b54d654f63dcd85fe",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Smoother Flow Matching via Contrastive Trajectory Repulsion",
+  "url": "https://arxiv.org/abs/2610.01408",
+  "summary": "arXiv:2610.01408v1 Announce Type: cross Abstract: Trajectory crossing remains a critical bottleneck in Flow Matching (FM), and previous works typically view these crossings from a theoretical optimization perspective causing velocity averaging. They attempt to address it indirectly by post-hoc distillation or endpoint coupling, without explicitly regulating the intermediate trajectories. In this paper, we introduce a new network learning perspective: crossing points inherently induce large local Lipschitz constants in the target velocity field, leading to two drawbacks. First, high Lipschitz constants correspond to high-frequency signals in the velocity field that neural networks struggle to fit due to spectral bias. Second, they also imply drastic velocity variations, leading to severe numerical integration errors in few-step inference. To alleviate this, we propose CoFlow, a framework that introduces the contrastive learning paradigm into FM to explicitly repel trajectories during training, thereby lowering the local Lipschitz constants of the velocity field. Specifically, we formulate CoFlow from a Stochastic Differential Equation (SDE) perspective by injecting a repulsive drift term. This drift actively guides the forward process of positive samples away from negative trajectories, effectively reducing the local Lipschitz constant. Furthermore, we derive an equivalent stochastic interpolant formulation from this SDE, providing a simple and tractable design space to control the influence of negative samples. Extensive experiments on ImageNet 256x256 demonstrate that CoFlow significantly reduces FID compared to standard FM in few-step inference (e.g., 20 steps), with no added training overhead. The code can be accessed at: https://github.com/HKUST-LongGroup/CoFlow",
+  "published": "2026-10-01T10:11:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.818481+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T10:11:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01408v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.753099+00:00"
+}

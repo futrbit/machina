@@ -1,0 +1,22 @@
+{
+  "id": "4fd76fb2e5eac5a6893d89495002dbaf368b322dd82b6bdcc6dd53655617a3ee",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Nonparametric Distribution Matching for Self-Supervised Whole-Slide Image Condensation",
+  "url": "https://arxiv.org/abs/2610.00678",
+  "summary": "arXiv:2610.00678v1 Announce Type: cross Abstract: Histological whole-slide images (WSIs) are central to computational pathology but pose severe computational challenges due to their extremely high resolution, often spanning several gigabytes per slide. To enable scalable learning, existing methods apply self-supervised data condensation to reduce computational cost, but typically rely on heuristic prototype learning and do not explicitly preserve learning-relevant feature distributions for downstream tasks. In response, we introduce a principled reformulation of WSI condensation as a distribution-matching problem under a fixed representational lens, and develop NICER, a tractable approximation framework based on a nonparametric prior with slide-adaptive capacity. Experiments on five histopathology datasets, together with clinical evaluation from a board-certified pathologist, show that NICER consistently outperforms prior methods, achieving an average accuracy improvement of 7.44% while offering improved efficiency-accuracy trade-offs, highlighting the benefits of principled, distribution-aware condensation for scalable histological representation learning. Source codes are available in https://github.com/nmduonggg/NICER.",
+  "published": "2026-09-30T20:15:54Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.811485+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-07T16:47:18Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00678v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.484467+00:00"
+}

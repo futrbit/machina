@@ -1,0 +1,22 @@
+{
+  "id": "bc838351e6253e44ddf5daa1d81cfa40dd048e7fcbdf4dbbc7fc9bbbd7890744",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Amadeus: When Models of People Meet",
+  "url": "https://arxiv.org/abs/2609.35835",
+  "summary": "arXiv:2609.35835v2 Announce Type: replace-cross Abstract: With the constant advancements in AI, one possibility is to model agents after humans and, in turn, use these agents to carry out synthetic interactions. Such models could be used to predict interactions between their real counterparts, or potentially interactions at larger scales. In this paper, we test a more controlled version of this question through chess. We use 8 elite chess players, seal their direct pairwise games, learn each player independently using different methods, and then compose the resulting models on the withheld dyads. To evaluate the generated interactions, we use two measurements: opening-family total variation distance and win-draw-loss (WDL) total variation distance. M1 primarily improves WDL fidelity while producing smaller opening-family improvements, whereas M2 produces much larger opening-family improvements while having little effect on WDL-TV. For opening-family behaviour under M2, the correct assignment of the eight learned player identities also gives the closest match among all $8! = 40{,}320$ possible assignments. These results show that at least some properties of previously unseen interactions can be recovered from independently learned individuals. The partial recovery observed here may reflect limitations of the current individual modelling methods rather than a fundamental limit on compositional interaction recovery. An additional post-hoc method that combines the two mechanisms improves both measurements, suggesting that recovery across these behavioural properties is not necessarily mutually exclusive.",
+  "published": "2026-09-24T01:38:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.848462+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T12:06:11Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.35835v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.811065+00:00"
+}

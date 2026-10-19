@@ -1,0 +1,18 @@
+{
+  "id": "84a0b51bd71823c4823b2a0edf951d477e3694695d81cfacede907787a6aabbe",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "FlexPainter: Flexible and Multi-View Consistent Texture Generation",
+  "url": "https://arxiv.org/abs/2506.02620",
+  "summary": "arXiv:2506.02620v2 Announce Type: replace-cross Abstract: Texture map production is an important part of 3D modeling and determines the rendering quality. Recently, diffusion-based methods have opened a new way for texture generation. However, restricted control flexibility and limited prompt modalities may prevent creators from producing desired results. Furthermore, inconsistencies between generated multi-view images often lead to poor texture generation quality. To address these issues, we introduce \\textbf{FlexPainter}, a novel texture generation pipeline that enables flexible multi-modal conditional guidance and achieves highly consistent texture generation. A shared conditional embedding space is constructed to perform flexible aggregation between different input modalities. Utilizing such embedding space, we present an image-based CFG method to decompose structural and style information, achieving reference image-based stylization. Leveraging the 3D knowledge within the image diffusion prior, we first generate multi-view images simultaneously using a grid representation to enhance global understanding. Meanwhile, we propose a view synchronization and adaptive weighting module during diffusion sampling to further ensure local consistency. Finally, a 3D-aware texture completion model combined with a texture enhancement model is used to generate seamless, high-resolution texture maps. Comprehensive experiments demonstrate that our framework significantly outperforms state-of-the-art methods in both flexibility and generation quality.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:38.091061+00:00"
+}

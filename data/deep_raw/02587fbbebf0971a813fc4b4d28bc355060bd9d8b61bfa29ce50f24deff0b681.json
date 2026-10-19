@@ -1,0 +1,22 @@
+{
+  "id": "02587fbbebf0971a813fc4b4d28bc355060bd9d8b61bfa29ce50f24deff0b681",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Parameter-Free Zeroth-Order Optimization with Ellipsoidal Sampling",
+  "url": "https://arxiv.org/abs/2609.38561",
+  "summary": "arXiv:2609.38561v2 Announce Type: replace-cross Abstract: Zeroth-order optimization methods are essential for solving black-box problems where gradient information is unavailable or expensive to compute. This paper presents POEM-ES, a novel parameter-free stochastic zeroth-order algorithm that extends the recent POEM method by integrating subspace preconditioning with ellipsoidal randomized sampling. In contrast to traditional zeroth-order approaches that rely on isotropic random directions, POEM-ES performs anisotropic sampling guided by a fixed structural symmetric positive semi-definite (SPSD) preconditioner $\\hat{\\Sigma}$ that encodes the underlying low-dimensional geometry. Under a standard structural spectral normalization where $\\lambda_{\\max}(\\hat{\\Sigma}) = 1$, we introduce the use of the empirical effective dimension $d^* = \\operatorname{tr}(\\hat{\\Sigma})$, which reflects the intrinsic dimensionality of the problem and guides both the sampling and randomized smoothing parameter schedules. In practice, such a preconditioner can be effectively obtained via pilot sampling, historical trajectories, or domain-specific expert knowledge. We prove that POEM-ES achieves a dimension-reduced convergence rate under low-rank structural assumptions, requiring only $\\tilde{\\mathcal{O}}\\left( \\frac{\\left( r^2 \\kappa(\\hat{\\Sigma}) + d^* \\right) L^2 D_{\\mathcal{X}}^2}{\\varepsilon^2} \\right)$ stochastic zeroth-order oracle queries. The method remains fully parameter-free and demonstrates significant improvements over the original POEM in problems with low-rank structure where $d^* \\ll d$. Numerical experiments on hinge-loss binary classification tasks using LibSVM datasets confirm the practical superiority of the proposed approach.",
+  "published": "2026-09-29T21:22:43Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.140396+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T14:17:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.38561v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.287184+00:00"
+}

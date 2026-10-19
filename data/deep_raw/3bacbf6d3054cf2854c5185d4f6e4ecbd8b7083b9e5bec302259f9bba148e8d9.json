@@ -1,0 +1,21 @@
+{
+  "id": "3bacbf6d3054cf2854c5185d4f6e4ecbd8b7083b9e5bec302259f9bba148e8d9",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Grammar Concept Annotation at Scale: Deployed Fine-Tuned Small Language Models Outperform Prompted Frontier Models",
+  "url": "https://arxiv.org/abs/2610.10827",
+  "summary": "arXiv:2610.10827v1 Announce Type: cross Abstract: Corrective feedback is among the best-evidenced drivers of second-language acquisition, yet corrections delivered during lessons rarely accumulate into an actionable view of grammar mastery. Prompted frontier models can provide such a view from learner--tutor lesson transcripts, but they are costly at scale. We close this gap by fine-tuning Qwen3.5 small language models (SLMs) on filtered and rebalanced teacher-generated supervision, then deploying an efficient 0.8B model in an end-to-end grammar mastery tracker for all English learners on our platform. Internalizing the annotation contract into adapter weights enables pairing the 0.8B model with a compact matched prompt rather than verbose instructions. On two human-curated benchmarks, both the deployed 0.8B model and a 4B reference comparator outperform prompted GPT-5.4 and GPT-5.6 Sol in precision and recall under nested matching criteria of increasing strictness: concept, evidence span, and correctness. The deployed 0.8B SLM reduces serving cost by approximately 16$\\times$. A feature-level online experiment shows significant gains in learner engagement ($+15.8\\%$) and key business metrics, including scheduled hours ($+2.1\\%$) and GMV from new lessons ($+13.2\\%$).",
+  "published": "2026-10-07T19:31:24Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.384381+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-07T19:31:24Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.10827v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.717928+00:00"
+}

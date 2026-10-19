@@ -1,0 +1,21 @@
+{
+  "id": "98a378e1fb0121fde22fe5f42714fd16bc1e9691d6947977711eaa189a00dad4",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "From Evidence to Action: How Tool-Using Agents Fail",
+  "url": "https://arxiv.org/abs/2610.07753",
+  "summary": "arXiv:2610.07753v1 Announce Type: cross Abstract: Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and dependent workflows. Across ten model-harness configurations, strong static action assessment can coexist with much weaker interactive execution. Failures often begin before execution: agents stop with incomplete investigation or act before required evidence is established. Once required evidence is obtained, single-action execution is usually reliable, while multi-action workflows additionally expose unresolved prerequisites and incomplete execution. For this analysis, we introduce SafeActBench, comprising 656 cases across six operational domains and five protocols that progress from static action judgment and investigated non-action to single- and multi-action workflows. A provenance-bound Evidence Ledger and deterministic trajectory evaluator track what information was established, when actions occurred, and whether downstream dependencies were satisfied. These results show that failures arise not only from missing information, but also from how agents use established evidence when deciding and executing actions.",
+  "published": "2026-10-06T04:50:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.167804+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T04:50:29Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07753v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.930595+00:00"
+}

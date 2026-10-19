@@ -1,0 +1,22 @@
+{
+  "id": "56439bf05e853c7cf1eb3181e0f5305e0baa76ca823ff40f5a9e20fbdbf1cee6",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "Exploring the Benefits of Vision Foundation Models for Unsupervised Domain Adaptation",
+  "url": "https://arxiv.org/abs/2406.09896",
+  "summary": "arXiv:2406.09896v3 Announce Type: replace Abstract: Achieving robust generalization across diverse data domains remains a significant challenge in computer vision. This challenge is important in safety-critical applications, where deep-neural-network-based systems must perform reliably under various environmental conditions not seen during training. Our study investigates whether the generalization capabilities of Vision Foundation Models (VFMs) and Unsupervised Domain Adaptation (UDA) methods for the semantic segmentation task are complementary. Results show that combining VFMs with UDA has two main benefits: (a) it allows for better UDA performance while maintaining the out-of-distribution performance of VFMs, and (b) it makes certain time-consuming UDA components redundant, thus enabling significant inference speedups. Specifically, with equivalent model sizes, the resulting VFM-UDA method achieves an 8.4$\\times$ speed increase over the prior non-VFM state of the art, while also improving performance by +1.2 mIoU in the UDA setting and by +6.1 mIoU in terms of out-of-distribution generalization. Moreover, when we use a VFM with 3.6$\\times$ more parameters, the VFM-UDA approach maintains a 3.3$\\times$ speed up, while improving the UDA performance by +3.1 mIoU and the out-of-distribution performance by +10.3 mIoU. These results underscore the significant benefits of combining VFMs with UDA, setting new standards and baselines for Unsupervised Domain Adaptation in semantic segmentation.",
+  "published": "2024-06-14T10:13:37Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.232258+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T10:34:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2406.09896v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.613389+00:00"
+}

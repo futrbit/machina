@@ -1,0 +1,22 @@
+{
+  "id": "11e387e72ea977d6055ee82f0f6be8cf1dfee629cd81f096057000c33228ba52",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Deep Defence on Wheels: A Dual Intrusion Detection System Architecture for Comprehensive In-Vehicle Network Security",
+  "url": "https://arxiv.org/abs/2610.07489",
+  "summary": "arXiv:2610.07489v1 Announce Type: cross Abstract: Increasing connectivity to the outside world and the lack of inbuilt security mechanisms have made legacy intra-vehicular networks vulnerable to cyberattacks. Initial research focused on maximising detection accuracy for known and unknown attacks, often using large, full-precision machine learning models. However, embedding IDSs into vehicular electronic systems also requires low detection latency, energy efficiency and minimal electronic control unit (ECU) resource overhead to process about 2,000 CAN frames/s. Lightweight models must balance accuracy with these deployment constraints. We propose a dual IDS framework comprising supervised and unsupervised learning-based solutions, each optimised for real-time, resource-constrained automotive platforms. A quantised LSTM-based IDS (QLSTM-IDS) achieves over 99.9% detection accuracy for DoS/Flooding, Fuzzing and Spoofing/Malfunction attacks using a single model architecture evaluated on two widely used datasets. The model is trained using the Brevitas quantisation-aware training library, transformed into a dataflow accelerator with custom blocks compatible with AMD's FINN toolchain, and synthesised using Vitis HLS. Complementing this, an 8-bit quantised convolutional autoencoder-based IDS (QCAE-IDS), quantised using AMD's Vitis-AI toolchain, detects previously unseen anomalies that alter CAN-ID sequence patterns with over 99% accuracy. An integration architecture enables both models to operate on a single FPGA, bridging the network interface IP and processing system to minimise software overhead. QLSTM-IDS achieves 0.25 ms inference latency and 0.8 mJ energy consumption per message, while QCAE-IDS achieves 0.42 ms and 1.1 mJ per block. Both solutions are deployed and evaluated on the ZCU104 SoC (XCZU7EV FPGA), demonstrating a flexible hardware/software co-design for real-time detection of known and unknown attacks on high-speed CAN buses.",
+  "published": "2026-10-05T22:52:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.092480+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T22:52:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07489v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.726920+00:00"
+}

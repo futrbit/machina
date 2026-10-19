@@ -1,0 +1,21 @@
+{
+  "id": "e6ca0b83c1319effde3caa78e3e7088ed17ea8ce1a0f359d6a044f8d9cbb50ec",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "HARL-A: An Extensible Benchmark Framework for Heterogeneous Multi-Agent Adversarial Reinforcement Learning in IsaacLab",
+  "url": "https://arxiv.org/abs/2510.01264",
+  "summary": "arXiv:2510.01264v2 Announce Type: replace-cross Abstract: Progress in adversarial multi-agent reinforcement learning (MARL) for robotics has been hampered by a lack of shared, extensible infrastructure that supports heterogeneous agent morphologies in high-fidelity physics simulation. Existing frameworks either focus on cooperative tasks, rely on simplified physics engines, or provide isolated implementations that are difficult to extend. We present HARL-A, an open-source, actively maintained framework built on IsaacLab that enables scalable training and benchmarking of adversarial policies across morphologically diverse robot teams with any number of teams and any mix of robot morphologies per team. HARL-A extends the HARL algorithm library and IsaacLab with adversarial multi-agent support and contributes three components: (1) a modular software architecture that reduces the engineering overhead of defining new heterogeneous adversarial environments, (2) a suite of three benchmark environments---Sumo, Soccer, and 3D Galaga---spanning contact-rich pushing, ball-skill competition, and pursuit/evasion, (3) over ten pretrained policies spanning homogeneous and heterogeneous team configurations, released publicly on Hugging Face to enable immediate exploration of adversarial learning dynamics without retraining from scratch. We demonstrate the framework across multiple competitive scenarios, showing that it reliably produces learned adversarial policies and emergent role specialization. All code environments, trained policies, and documentation are openly available at https://github.com/DIRECTLab/IsaacLab-HARL.",
+  "published": "2025-09-26T03:16:48Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:02.489005+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T18:10:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2510.01264v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.730716+00:00"
+}

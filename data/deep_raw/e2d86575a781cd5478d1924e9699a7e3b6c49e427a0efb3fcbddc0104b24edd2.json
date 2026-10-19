@@ -1,0 +1,17 @@
+{
+  "id": "e2d86575a781cd5478d1924e9699a7e3b6c49e427a0efb3fcbddc0104b24edd2",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Simultaneous Force and Motion Control in Generalised Coordinates",
+  "url": "https://arxiv.org/abs/2610.22813",
+  "summary": "arXiv:2610.22813v1 Announce Type: new Abstract: Robot manipulators often come into contact with rigid objects when performing work. This imposes physical constraints on their motion. Simultaneous force & motion control was developed to regulate contact forces commensurate with these constraints, whilst projecting motion control in to the orthogonal, unconstrained directions. This is typically formulated in the task coordinates, i.e. operational space, then mapped to joint torques to command the robot. However, most constraints on the robot control, such as joint limits, collision avoidance, singularity avoidance, etc. are naturally expressed in generalised coordinates (joint space). Thus, formulating the control problem in task space makes it difficult to guarantee control feasibility. In this paper Gauss' principle of least constraint is used to solve the control as a quadratic programming (QP) problem in generalised coordinates. It is shown that the theoretical solution to this problem produces the correct constrained dynamics for accurate contact force control. Moreover, inequality constraints may be appended to ensure feasibility and safety. Simulation results were conducted in MuJoCo and compared to the operational space formulation. The proposed method is able to simultaneously maintain a desired contact force, minimise trajectory tracking error, and adhere to practical inequality constraints.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:37.144658+00:00"
+}

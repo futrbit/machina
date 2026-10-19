@@ -1,0 +1,22 @@
+{
+  "id": "545599ed42d42baec22e345cfde708e79b6a21fa3f4624d186488b9079bf2c0e",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LVS: Local View Synthesis from Relative Camera Pose by Reusing Previous Views",
+  "url": "https://arxiv.org/abs/2610.12127",
+  "summary": "arXiv:2610.12127v1 Announce Type: new Abstract: Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an alternative. Geometric warping alone cannot recover newly exposed content and remains sensitive to depth errors. We propose a per-scene framework that replaces repeated scene rendering for nearby views with relative-pose-guided RGB-D image reuse. Geometric warping uses depth and relative pose to transport source content, while a lightweight multiscale network predicts RGB residuals to correct artifacts and infer missing appearance. Cached source features further reduce repeated computation. On GS-render, residual refinement improves PSNR by 0.72~dB over pure warping; evaluations on captured and rendered scenes demonstrate low query latency. This separation of scene rendering from local view updates supports responsive scene exploration, with potential applications in augmented and virtual reality.",
+  "published": "2026-10-08T15:19:58Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.757044+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T15:19:58Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.12127v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.729921+00:00"
+}

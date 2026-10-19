@@ -1,0 +1,21 @@
+{
+  "id": "40d589f1a5ff69d2cad72351cdc33535ea4ca825dde225ffd1640bef25bd012e",
+  "source_id": "arxiv-robotics",
+  "source_name": "arXiv cs.RO",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.RO",
+  "sectors": [
+    "robotics",
+    "research"
+  ],
+  "title": "Causeway: Restoring Task Accessibility for Instruction Switching in VLA Policies",
+  "url": "https://arxiv.org/abs/2609.30913",
+  "summary": "arXiv:2609.30913v1 Announce Type: new Abstract: Vision-language-action (VLA) policies can execute many tasks from standard initial states, yet a new instruction may fail after another task has altered the robot's physical state. We study instruction switching, where a new task is issued during or after the execution of a different one. We observe that a target task that is reliably completed from its standard initial states can become inaccessible from states produced by a preceding task. We call such states task islands. We propose Causeway, a training-free inference-time intervention. Given the current state and a re-entry pose for the target task, Causeway back-propagates through the frozen decoding computation and applies a state-directed write within the action-stream representation. The VLA decodes the return motion itself, without parameter updates, a new action head, or external action generation. Across 71 cross-object pairs, three switch timings, and three VLA architectures on LIBERO-Goal, Causeway raises bare-switch success from 3-26% to 47-65% and increases the rate of reaching the handoff neighborhood by 42-72 percentage points across models. Additional experiments on LIBERO-Object and a real xArm platform show that the recovery extends beyond the main LIBERO-Goal setting, both in simulation and on a robot.",
+  "published": "2026-09-25T07:25:19Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:19.375996+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T07:25:19Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.30913v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.798880+00:00"
+}

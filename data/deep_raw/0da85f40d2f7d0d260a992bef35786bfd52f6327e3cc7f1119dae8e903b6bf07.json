@@ -1,0 +1,18 @@
+{
+  "id": "0da85f40d2f7d0d260a992bef35786bfd52f6327e3cc7f1119dae8e903b6bf07",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Graph Transductive Sharpening: Leveraging Unlabeled Predictions in Node Classification",
+  "url": "https://arxiv.org/abs/2605.20248",
+  "summary": "arXiv:2605.20248v2 Announce Type: replace Abstract: In the transductive setting, where the full graph is observed but node labels are only partially available, progress in semi-supervised node classification has largely focused on architectural innovation. In this paper, we revisit an orthogonal axis: the training objective. We start from a simple observation: transductive models produce predictions for every node during training, including nodes without labels. These unlabeled-node predictions may contain useful training signal, but standard supervised objectives discard them because no ground-truth labels are available. Inspired by the decomposition of cross-entropy into a label-dependent alignment term and a label-independent entropy term, we propose prediction confidence as a natural way to extract this signal in the absence of labels. This motivates Transductive Sharpening (TS): a loss-level modification that minimizes prediction entropy on unlabeled nodes while counterbalancing this effect on labeled nodes. We evaluate Transductive Sharpening across a wide range of node-classification benchmarks and observe consistent performance improvements without requiring any changes to the backbone architecture. Code is available at https://github.com/transductive-sharpening/tunedGNN.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.263711+00:00"
+}

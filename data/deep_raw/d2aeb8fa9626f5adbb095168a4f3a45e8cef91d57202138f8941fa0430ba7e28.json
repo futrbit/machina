@@ -1,0 +1,22 @@
+{
+  "id": "d2aeb8fa9626f5adbb095168a4f3a45e8cef91d57202138f8941fa0430ba7e28",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Quantum data loading from the learned shared structure of real signals",
+  "url": "https://arxiv.org/abs/2610.06076",
+  "summary": "arXiv:2610.06076v2 Announce Type: replace-cross Abstract: Preparing quantum states from classical data can cost more than the computation they serve; most loaders tailor a circuit to each input. Here we show that the signals of a real dataset share structure that can be learned once and reused. Our quantum-native loader learns a low-dimensional description of a dataset and prepares every signal with one fixed circuit set by a few numbers. Across seven views of five public datasets it meets the targets of the strongest structured loader at equal gate cost with several times fewer numbers per signal. These numbers can be inferred from a random subset: in a preregistered blind replication the subset needed to come within ten per cent of full-signal accuracy stayed constant within a prespecified margin as signals grew sixteenfold, whereas the structured loader needed ever more. It declines what it cannot represent, covering fewer cases than that baseline and no electrocardiogram.",
+  "published": "2026-10-05T10:08:05Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.135454+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T12:28:42Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06076v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.102888+00:00"
+}

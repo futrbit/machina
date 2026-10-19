@@ -1,0 +1,21 @@
+{
+  "id": "a5d7dfde1bb8294dca72714aa96635edac2916fe8b81f7b0042a9b73e5c647dc",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "CRISP: Fixing Flying Pixels in Latent LiDAR Generation via Diffusion Decoding",
+  "url": "https://arxiv.org/abs/2610.11376",
+  "summary": "arXiv:2610.11376v1 Announce Type: cross Abstract: Latent LiDAR pipelines suffer from flying pixels: convolutional VAEs blur sharp radial depth discontinuities, yielding edge depths that back-project to points floating between surfaces. We identify this as a major, directly correctable decoder bottleneck and introduce CRISP: a pixel-space diffusion decoder with a backbone-agnostic latent adapter, DiT-based denoiser, and support mask predictor. CRISP replaces video-VAE and LiDAR-native decoders alike while keeping the encoder and latent generator fixed. Across KITTI-360, SemanticKITTI, and nuScenes, replacing only the decoder reduces FSVD/FPVD by 50.5% on average across frozen backbones; for generic video VAEs, the reductions reach 71%/74%. On the LiDAR-native LiDM backbone, FRID drops by 71%, with the largest gains at depth discontinuities. In a pretrained LiDM world model, the same zero-shot replacement improves FSVD by 15.5%, narrowing the sim-to-real gap.",
+  "published": "2026-10-08T07:07:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.390375+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T07:07:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11376v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.306369+00:00"
+}

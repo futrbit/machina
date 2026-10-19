@@ -1,0 +1,18 @@
+{
+  "id": "9b91742fc5e9bbc897379d7585eb10e9d46b8461a41280404c29ed5391b9cb7b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Residual Stochastic Concept Bottleneck Models",
+  "url": "https://arxiv.org/abs/2610.23421",
+  "summary": "arXiv:2610.23421v1 Announce Type: new Abstract: Concept-based models (CMs) learn human-interpretable intermediate representations that enable users to understand the model's reasoning and steer its predictions through test-time concept interventions. However, in realistic settings, their performance can be limited by concept incompleteness, where the training concepts fail to capture all task-relevant information. Adding an unconstrained residual pathway to the model's predictive process can overcome the consequences of incompleteness. However, this introduces an inscrutable, leak-prone prediction pathway that may weaken concept interventions, as these often leave residual variables unchanged. To address this limitation, we introduce Residual Stochastic Concept Bottleneck Models (Res-SCBMs), a family of concept-based models that jointly model concept and residual variables through a multivariate Gaussian distribution. Res-SCBMs learn a covariance structure that explicitly captures dependencies between the known concepts and learnt residual variables, allowing interventions to propagate to statistically dependent residual variables through Gaussian conditioning. This extends the intervention capabilities of previous CMs without requiring concept completeness during training. Our results show that, across multiple concept-incomplete benchmarks, Res-SCBMs improve predictive performance over competing baselines while retaining effective test-time concept interventions.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.205746+00:00"
+}

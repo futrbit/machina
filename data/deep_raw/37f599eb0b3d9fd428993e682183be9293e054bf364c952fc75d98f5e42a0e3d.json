@@ -1,0 +1,18 @@
+{
+  "id": "37f599eb0b3d9fd428993e682183be9293e054bf364c952fc75d98f5e42a0e3d",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "PE-MHL: Physics-Encoded Modular Hybrid Layers for Scalable Learning of Complex Systems",
+  "url": "https://arxiv.org/abs/2606.04290",
+  "summary": "arXiv:2606.04290v2 Announce Type: replace Abstract: Hybrid models that combine physics-based and data-driven components have shown strong potential for achieving accuracy and interpretability in control applications. While recent methods have made progress in incorporating physical consistency, challenges remain in scalability, robustness to noise, and control of model complexity. This paper proposes a Physics-Encoded Modular Hybrid Layer (PE-MHL) framework, in which a baseline physics-based model is incrementally refined through the addition of new sub-models, where each new component adds complexity while preserving what previous components have already learned. We establish a theoretical guarantee for this construction: with a least-squares initialization of each new sub-model, the training error is monotonically non-increasing in the number of sub-models and provably converges. Empirical evaluations on a nonlinear NARX benchmark and the Quanser Aero 2 platform demonstrate that PE-MHL matches or outperforms its fully connected monolithic relaxation (over five times more parameters) in accuracy and generalization, while also providing more stable training dynamics and better preservation of underlying data structures.",
+  "published": "2026-10-19T04:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-10-19T16:03:39.228732+00:00"
+}

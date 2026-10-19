@@ -1,0 +1,22 @@
+{
+  "id": "8e8e1f1c2771aa6bc790a12f0d17b465c9b336fc2ded2f14b32deda17f67956a",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "HyperErase: Scale-Calibrated Hypernetwork for Multi-Concept Erasure in Text-to-Image Models",
+  "url": "https://arxiv.org/abs/2609.31154",
+  "summary": "arXiv:2609.31154v1 Announce Type: new Abstract: Recent advances in text-to-image (T2I) generation have substantially improved visual synthesis, but have also raised increasing safety concerns due to their potential to generate harmful or undesirable content. Existing concept erasure methods predominantly follow a static weight paradigm, producing a single frozen adapter that struggles to adapt to diverse prompt variations and suffers from parameter interference when scaling to multiple concepts. We propose \\textbf{HyperErase}, a framework for concept erasure based on hypernetwork-driven prompt-conditioned parameter synthesis. Our approach first reframes concept erasure as prompt-conditioned parameter amortization and trains a hypernetwork to map textual descriptions to prompt-specific LoRA updates, eliminating the need for per-prompt gradient optimization or manual LoRA merging. To further improve the stability and precision of synthesized adapters, we develop a decoupled rectification strategy, which disentangles LoRA tokens into pattern and scale subspaces, applies a square-root transform to curb multiplicative over-scaling, and leverages teacher-derived canonical priors for inference-time correction. Extensive experiments across major concept categories demonstrate that HyperErase consistently improves the trade-off between erasure effectiveness, image quality, and semantic alignment, achieving performance comparable to gold-standard single-concept baselines. Furthermore, the resulting models can provide specialized LoRAs for each input prompt variation in a single forward pass without requiring gradient updates during inference. These principled and flexible framework offers a new paradigm for concept erasure in T2I models.",
+  "published": "2026-09-25T11:47:39Z",
+  "audio_url": "",
+  "fetched_at": "2026-09-28T19:36:20.224777+00:00",
+  "published_before_arxiv_repair": "2026-09-28T04:00:00+00:00",
+  "updated": "2026-09-25T11:47:39Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.31154v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.726718+00:00"
+}

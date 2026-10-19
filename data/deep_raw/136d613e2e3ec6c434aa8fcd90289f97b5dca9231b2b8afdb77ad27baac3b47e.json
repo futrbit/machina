@@ -1,0 +1,22 @@
+{
+  "id": "136d613e2e3ec6c434aa8fcd90289f97b5dca9231b2b8afdb77ad27baac3b47e",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Fixing a Model That Learned Worse Cancer Means Lower Risk: Monotonic Constraints in Bladder Cancer Recurrence Prediction",
+  "url": "https://arxiv.org/abs/2610.00858",
+  "summary": "arXiv:2610.00858v1 Announce Type: new Abstract: Background and Objective: Clinicians expect recurrence risk to climb with cancer severity. In a UK multicentre trial, an unconstrained XGBoost model learnt that higher tumour stage and carcinoma in situ predicted lower recurrence risk, and discrimination, calibration, and SHAP were all blind to it. We developed a counterfactual testing framework to detect this inversion and a monotonic-constraint framework to remove it without hurting performance. Methods: BOXIT enrolled 472 patients with protocol-mandated cystoscopy across 51 UK sites (2007-2012); 435 had at least two years' follow-up (153 recurrences, 35.2%). We developed a counterfactual direction test and a monotonic-constraint correction, with constraint directions drawn from the EORTC and EAU risk systems, and evaluated both against unconstrained XGBoost and logistic regression on 18 predictors (seven directed) over 50 cross-validation folds. The test worsened each patient on one directed feature at a time to check whether risk fell; SHAP direction and calibration were also assessed. Key Findings and Limitations: Tumour stage and carcinoma in situ were associated with lower recurrence, opposite to medical intuition; the unconstrained model reversed carcinoma in situ counterfactuals in 90.2% of cases and stage in 74.3%. Discrimination ($\\Delta$AUC 0.005, p=0.47), calibration, and SHAP magnitude were all blind to the inversion. Monotonic constraints eliminated every violation at no cost to discrimination (0.723 vs 0.718) and outperformed EORTC (p=8.9e-16). Limitations: single trial, internal-external validation only. Conclusions and Clinical Implications: A model that had learned this inversion passed every conventional check. A counterfactual direction test, run as a single refit with pre-specified monotonic constraints, catches this failure at no cost to performance and should be routine before clinical deployment.",
+  "published": "2026-10-01T00:21:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.782503+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T00:21:33Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00858v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.760900+00:00"
+}

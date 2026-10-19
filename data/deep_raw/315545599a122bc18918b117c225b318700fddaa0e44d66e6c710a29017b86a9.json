@@ -1,0 +1,22 @@
+{
+  "id": "315545599a122bc18918b117c225b318700fddaa0e44d66e6c710a29017b86a9",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "FineART: Fine-Grained Annotated Robotic Trajectory Dataset and Vision-Language-Action Model for Bimanual Manipulation",
+  "url": "https://arxiv.org/abs/2609.36416",
+  "summary": "arXiv:2609.36416v2 Announce Type: replace-cross Abstract: Robots operating in real-world environments must often execute complex, multi-step bimanual tasks over long horizons rather than single, isolated actions. Current manipulation datasets struggle to support this capability: although single-arm datasets reach hundreds of thousands of trajectories, they typically provide only one high-level instruction per episode, while existing bimanual datasets with subtask labels annotate only part of their recorded hours. We present FineART, a densely annotated bimanual manipulation dataset comprising 40,543 episodes (1,718 hours) and 533,913 subtasks across 151 tasks. We also introduce FineART-VLA, a vision-language-action policy that predicts its own next subtask to guide its actions. Mid-training on FineART's subtask annotations raises FineART-VLA's success at following spatial instructions from 32.0% to 100.0%. With step-by-step human subtask guidance, it also raises success on unseen long-horizon tasks from 16.0% to 76.0%. Furthermore, after minimal fine-tuning on a new robot, the policy requires only one-tenth of the data needed by baselines without this mid-training and generalizes zero-shot to tasks unseen on the new hardware. We open-source the full dataset, model weights, and training code.",
+  "published": "2026-09-29T00:13:29Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.848462+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-05T22:13:07Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.36416v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.437098+00:00"
+}

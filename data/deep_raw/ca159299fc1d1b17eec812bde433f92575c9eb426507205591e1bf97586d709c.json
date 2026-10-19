@@ -1,0 +1,21 @@
+{
+  "id": "ca159299fc1d1b17eec812bde433f92575c9eb426507205591e1bf97586d709c",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Pretext: Defeating Malicious Skill Detection Frameworks for AI Agents",
+  "url": "https://arxiv.org/abs/2609.39607",
+  "summary": "arXiv:2609.39607v2 Announce Type: replace-cross Abstract: Skills extend an agent's capabilities by injecting instructions and information into the context, and are widely used by agents such as OpenClaw and Claude Code. Prior work shows third-party marketplaces host malicious skills that give attackers direct influence over the victim's agent. The emerging defense scans skills before installation, pairing deterministic static checks with an LLM-based semantic judge, as in NVIDIA's SkillSpector. We show that such defenses fall to an attacker who knows the detector. Our white-box LLM attacker, Pretext, iteratively crafts skills that evade detection while still delivering the payload and performing the benign task: moving the payload from code into natural language leaves static analysis inert, while framing it as the skill's legitimate purpose and splitting instructions across files keeps the LLM stage below its blocking threshold. Across three open-source models, Pretext achieves up to 97\\% and 77\\% against a frozen detector and a co-adaptive one, respectively, revealing major gaps in current skill scanners.",
+  "published": "2026-09-30T12:26:33Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:45.427353+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T08:23:49Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2609.39607v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.991955+00:00"
+}

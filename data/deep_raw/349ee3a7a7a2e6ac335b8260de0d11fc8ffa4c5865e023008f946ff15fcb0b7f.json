@@ -1,0 +1,22 @@
+{
+  "id": "349ee3a7a7a2e6ac335b8260de0d11fc8ffa4c5865e023008f946ff15fcb0b7f",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Detect, Explain, Interpret: An End-to-End Benchmark for Time Series Anomaly Detection, Explainability and Interpretability",
+  "url": "https://arxiv.org/abs/2610.01168",
+  "summary": "arXiv:2610.01168v1 Announce Type: new Abstract: Time Series Anomaly Detection has received increasing attention, driven by the growing availability of complex time series data. This surge has led to the development of numerous detection methods, as well as a variety of benchmarks aimed at thoroughly evaluating their performance. However, most existing detectors remain largely agnostic to domain context, overlooking explainability and interpretability. One of the main reasons for this gap is that current benchmarks primarily focus on detection accuracy, and only few of them evaluate spatial explainability. Moreover, no benchmark currently provides sufficiently rich semantic annotations to support the generation of human-understandable interpretations of anomalies. To address these limitations, we introduce SHAD (Scality High-dimensional Anomaly Detection benchmark), a fully annotated benchmark composed of 215 multivariate, high-dimensional time series collected from real-world distributed cloud storage systems operated by Scality. The proposed dataset includes rich contextual information, covering three families of anomalies with varying degrees of severity. As further contribution, we provide a foundation for future work by evaluating baseline methods for Detection, Explainability, and Interpretability, covering all stages of a TSAD pipeline. For Detection, we benchmark a wide range of existing anomaly detectors, testing their effectiveness on the proposed real-world dataset. Then, we consider explainability by evaluating whether measuring the contribution of each dimension in the generated anomaly score can provide accurate anomaly attributions. Finally, for interpretability, we investigate the effectiveness of frozen LLM baselines in localizing and interpreting anomalies.",
+  "published": "2026-10-01T06:44:55Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.786501+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T06:44:55Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01168v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.585009+00:00"
+}

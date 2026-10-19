@@ -1,0 +1,22 @@
+{
+  "id": "0bfd7b796d931cddf76ccb42a82eae8ab540b2afc9bdd0bbc17837971bb33411",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Nonlocal Hamiltonian Dynamics on Sparse L\\'evy Graphs: Spectral Analysis and Multimodal Sampling",
+  "url": "https://arxiv.org/abs/2610.06904",
+  "summary": "arXiv:2610.06904v1 Announce Type: cross Abstract: We develop a sparse graph method for transporting probability mass toward multimodal target distributions through damped nonlocal Hamiltonian dynamics. The formulation combines logarithmic-mean mobility with symmetric L\\'evy-type interaction weights, coupling the evolving density to an edge momentum field. A graph constructed from nearest-neighbor connections and sampled long-range edges provides direct mass exchange between spatially separated regions. Once the graph is constructed, the density evolution is deterministic, and each update costs linear in the number of nodes and the long-range sampling budget. Linearization around the target distribution yields a damped oscillator governed by a weighted graph Laplacian. Its spectrum characterizes the interaction between nonlocal connectivity and inertia, with the L\\'evy exponent alpha tuning the nonlocal connectivity: the spectral gap determines the optimal asymptotic damping, while the largest eigenvalue governs the time-step stability. Experiments on synthetic multimodal distributions demonstrate improved mode balance and more stable mode coverage relative to first-order and MCMC baselines. The resulting framework provides a sparse implementation of nonlocal inertial density transport for sampling problems with low-dimensional spatial structure.",
+  "published": "2026-10-01T03:45:28Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.084483+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-01T03:45:28Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.06904v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:56.537035+00:00"
+}

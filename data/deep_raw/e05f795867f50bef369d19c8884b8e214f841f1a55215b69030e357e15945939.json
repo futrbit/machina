@@ -1,0 +1,22 @@
+{
+  "id": "e05f795867f50bef369d19c8884b8e214f841f1a55215b69030e357e15945939",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Explicit Asymptotic Bounds for Sequential Calibration Beyond $T^{2/3}$",
+  "url": "https://arxiv.org/abs/2610.07623",
+  "summary": "arXiv:2610.07623v1 Announce Type: cross Abstract: Probability forecasts are calibrated when predicted probabilities match empirical outcome frequencies: among events assigned a probability $p$, we'd hope that the fraction of positive outcomes is close to $p$. We study the problem of sequential forecasting of binary outcomes. The classical $O(T^{2/3})$ bound on expected cumulative $\\ell_1$-calibration error established by Foster and Vohra stood for over two decades until Dagan et al. reduced the exponent $2/3$ by an unspecified constant. We establish a new two-phase recursive labeling strategy for the sign-preservation-with-reuse game that yields the bound $O(n^{\\alpha}t^\\beta)$ for all choices of space and time. We then sharpen the reduction from upper bounds on sign preservation to calibration by modifying the equivalence of Dagan et al. to use only $O(\\log T)$ instances of the sign-preservation-with-reuse game. This lets us establish an explicit bound of $O(T^{0.662942288})$, the first explicit exponent below $2/3$ for sequential calibration, by combining both improvements and choosing explicit feasible parameters.",
+  "published": "2026-10-06T02:17:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.095478+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T02:17:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07623v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.248801+00:00"
+}

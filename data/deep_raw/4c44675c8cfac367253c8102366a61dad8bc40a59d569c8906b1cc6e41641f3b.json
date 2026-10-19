@@ -1,0 +1,21 @@
+{
+  "id": "4c44675c8cfac367253c8102366a61dad8bc40a59d569c8906b1cc6e41641f3b",
+  "source_id": "arxiv-ai",
+  "source_name": "arXiv cs.AI",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.AI",
+  "sectors": [
+    "ai",
+    "research"
+  ],
+  "title": "Real-Time Generation of Game Video Commentary with Multimodal LLMs: Pause-Aware Decoding Approaches",
+  "url": "https://arxiv.org/abs/2603.02655",
+  "summary": "arXiv:2603.02655v2 Announce Type: replace-cross Abstract: Real-time video commentary generation provides textual descriptions of ongoing events in videos. It supports accessibility and engagement in domains such as sports, esports, and livestreaming. Commentary generation involves two essential decisions: what to say and when to say it. While recent prompting-based approaches using multimodal large language models (MLLMs) have shown strong performance in content generation, they largely ignore the timing aspect. We investigate whether in-context prompting alone can support real-time commentary generation that is both semantically relevant and well-timed. We propose two prompting-based decoding strategies: 1) a fixed-interval approach, and 2) a novel dynamic interval-based decoding approach that adjusts the next prediction timing based on the estimated duration of the previous utterance. Both methods enable pause-aware generation without any fine-tuning. Experiments on Japanese and English datasets of racing and fighting games show that the dynamic interval-based decoding can generate commentary more closely aligned with human utterance timing and content using prompting alone. We release a multilingual benchmark dataset, trained models, and implementations to support future research on real-time video commentary generation.",
+  "published": "2026-03-03T06:39:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:01.193787+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-06T13:18:40Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2603.02655v2",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:58.401517+00:00"
+}

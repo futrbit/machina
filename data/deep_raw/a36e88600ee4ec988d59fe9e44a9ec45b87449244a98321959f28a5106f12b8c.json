@@ -1,0 +1,22 @@
+{
+  "id": "a36e88600ee4ec988d59fe9e44a9ec45b87449244a98321959f28a5106f12b8c",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks",
+  "url": "https://arxiv.org/abs/2610.01967",
+  "summary": "arXiv:2610.01967v1 Announce Type: new Abstract: As large language models (LLMs) keep growing in size and complexity, their training frameworks evolve at a rapid pace as well. Therefore, continuous integration (CI) is critical for maintaining the quality and stability of these frameworks. However, unlike traditional software, CI for LLM training frameworks relies on GPU-intensive tests, which usually involve complete model training or evaluation. This leads CI itself to become a new bottleneck for fast-paced development. In this paper, we introduce FastCI, a framework that improves the efficiency of CI for LLM training frameworks. FastCI leverages runtime evidence to select affected tests and prune tests that execute changed code in equivalent contexts. Then FastCI prioritizes high-risk tests to expose potential failures earlier, and optimizes test workloads along dimensions outside the intended validation scope of each test. Evaluated on the CI workload of our LLM training framework, FastCI reduces the CI latency by 77.5% and the GPU resource usage by 63.9%, while improving the modified code coverage retention by 3.2%, compared with the currently deployed CI pipelines. FastCI has now been integrated into the CI pipelines of our LLM training framework at ByteDance.",
+  "published": "2026-10-01T16:18:14Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.800491+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-10-01T16:18:14Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.01967v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:00.249403+00:00"
+}

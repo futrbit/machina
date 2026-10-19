@@ -1,0 +1,22 @@
+{
+  "id": "33401eebc68f8507f40c9113fec44b997672212849fba5ec6716054b499d57d0",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Initialization Improves LLM-Driven Discovery",
+  "url": "https://arxiv.org/abs/2610.00707",
+  "summary": "arXiv:2610.00707v1 Announce Type: new Abstract: Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through the use of harnesses that prompt an LLM to iteratively optimize an objective. In this work, we study the relationship between the population of previous iterates and eventual discovery success. We generalize past work on harness design to develop a suite of 12 harnesses called 'Modular' and characterize their performance across 5 diverse discovery tasks, finding that discovery success is brittle and sensitive to harness design. We uncover mode collapse, characterized by a dramatic drop in the diversity of iterates, as a common failure mode. We find that popular state-of-the-art harnesses and diversity-inducing harness interventions, which aim to prolong this collapse, yield inconsistent gains. Our results instead uncover that the performance of early discoveries is predictive of eventual success. We therefore propose a universally applicable intervention that performs an initial stage of parallel exploration in order to initialize subsequent iterative optimization. Our method provides consistent gains across many harnesses and target applications, confirming the importance of initialization in LLM-driven discovery.",
+  "published": "2026-09-30T20:55:04Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-03T23:05:09.779505+00:00",
+  "published_before_arxiv_repair": "2026-10-03T04:00:00+00:00",
+  "updated": "2026-09-30T20:55:04Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.00707v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.491066+00:00"
+}

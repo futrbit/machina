@@ -1,0 +1,22 @@
+{
+  "id": "d6192c5bcbf38cdd6aee99680355dc8e30dcde2db40a0837bc90afc786bbb54a",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "sHAIL-Causal: A Sequential Staircase Procedure for Invariant Causal Predictor Discovery",
+  "url": "https://arxiv.org/abs/2610.07057",
+  "summary": "arXiv:2610.07057v1 Announce Type: cross Abstract: We introduce sHAIL-Causal, the causal specialization of the Saturated Hierarchical Atomic Incremental Learning (sHAIL) paradigm: a sequential staircase procedure that ascends a nested hierarchy of hypothesis classes H_0 < H_1 < ... < H_K once a saturation signal indicates that mastery of the current stage has plateaued. Where general sHAIL leaves the saturation criterion open, sHAIL-Causal instantiates it with a joint criterion of goodness-of-fit saturation and cross-environment invariance, replacing the complexity control of Structural Risk Minimization. We show, theoretically and by simulation, that complexity-only staircases are seduced by confounded predictors that lower empirical risk without reflecting stable causal structure, whereas an invariance-gated staircase provably halts at the true causal predictor set under a per-variable Richness condition. We show that naive greedy search fails to recover the causal set even under Richness, trace the failure to non-monotonicity of the invariance statistic along single-variable paths, and validate a fix combining bounded-exhaustive block-seeding with a calibrated acceptance threshold. We then extend the guarantee to environments arriving sequentially, yielding a confidence guarantee that stays valid at every arrival, which one-shot exhaustive search cannot offer without repeating its full combinatorial search. We close by formalizing the intervention of a wise teacher who lifts a saturated learner off a plateau of boredom.",
+  "published": "2026-10-05T04:36:23Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-07T15:11:05.087482+00:00",
+  "published_before_arxiv_repair": "2026-10-07T04:00:00+00:00",
+  "updated": "2026-10-05T04:36:23Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.07057v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:03:01.147862+00:00"
+}

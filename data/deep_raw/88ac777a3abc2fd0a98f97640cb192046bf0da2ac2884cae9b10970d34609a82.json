@@ -1,0 +1,22 @@
+{
+  "id": "88ac777a3abc2fd0a98f97640cb192046bf0da2ac2884cae9b10970d34609a82",
+  "source_id": "arxiv-computer-vision",
+  "source_name": "arXiv cs.CV",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.CV",
+  "sectors": [
+    "computer-vision",
+    "ai",
+    "research"
+  ],
+  "title": "LadderEdit: Edit-Level Residual Compression for Memory-Efficient Lifelong Editing of LLMs",
+  "url": "https://arxiv.org/abs/2610.11160",
+  "summary": "arXiv:2610.11160v1 Announce Type: cross Abstract: Lifelong editing of LLMs requires storing thousands of edits after acquisition. A widely used family of approaches attaches one LoRA adapter per edit, which preserves behavior but grows linearly in storage. To address this challenge, we propose LadderEdit, a method that compresses each LoRA adapter after it is acquired. Each edit is first stored at low rank as a cheap sketch. We then check whether this sketch still satisfies the rewrite, generalization, and locality contract on probe prompts. Edits that pass keep the sketch; those that fail are promoted to a higher rank along a ladder until the contract is met. Because every edit retains some representation, coverage is maintained, and only hard edits consume more rank. Across ZsRE, CounterFact, and WikiBigEdit benchmarks on LLaMA-3-8B, Mistral-7B, and Qwen2.5-7B, LadderEdit tracks exact LoRA storage at 5.2x less memory and remains effective at 50,000 sequential edits.",
+  "published": "2026-10-08T03:20:35Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:47.768037+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T03:20:35Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2610.11160v1",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:59.627777+00:00"
+}

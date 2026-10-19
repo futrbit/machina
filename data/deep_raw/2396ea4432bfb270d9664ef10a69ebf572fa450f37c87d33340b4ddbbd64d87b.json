@@ -1,0 +1,22 @@
+{
+  "id": "2396ea4432bfb270d9664ef10a69ebf572fa450f37c87d33340b4ddbbd64d87b",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Keeping Score: Adaptive, Tuning-Free Loss Weighting for Score-Augmented Neural Ratio Estimation",
+  "url": "https://arxiv.org/abs/2605.12118",
+  "summary": "arXiv:2605.12118v3 Announce Type: replace-cross Abstract: Neural likelihood surrogates (e.g., Neural Ratio Estimation) for stochastic process models are commonly trained via probabilistic classification on simulated data, which forces a tradeoff between surrogate quality and training costs. For structured models where the exact score $\\nabla_\\theta \\log p(x \\mid \\theta)$ is available, this information can be incorporated into training by augmenting the cross-entropy loss with a score-matching term. However, the optimal weighting of the two losses is not known a priori, and selecting it by hand requires expensive tuning that undercuts the computational savings. We propose an adaptive, tuning-free algorithm that sets the score loss weights during training based on loss gradients, adding minimal overhead to standard classifier training. We evaluate our approach on case studies involving network dynamics and spatial processes, demonstrating that it improves surrogate quality at a drastically lower computational cost than generating more training data. Notably, in some cases, our approach achieves downstream inference performance equivalent to a 10x increase in training data with less than a 1.1x increase in training time.",
+  "published": "2026-05-12T13:34:30Z",
+  "audio_url": "",
+  "fetched_at": "2026-10-09T12:49:49.138398+00:00",
+  "published_before_arxiv_repair": "2026-10-09T04:00:00+00:00",
+  "updated": "2026-10-08T00:07:30Z",
+  "arxiv_metadata_id": "http://arxiv.org/abs/2605.12118v3",
+  "arxiv_metadata_checked_at": "2026-10-09T15:02:57.188248+00:00"
+}
