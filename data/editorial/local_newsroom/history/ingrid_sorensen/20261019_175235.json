@@ -1,0 +1,83 @@
+{
+  "journalist": "Ingrid SÃ¸rensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-19T17:52:35.357306+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Closing the Horizon Gap in Policy Optimization for Adversarial MDPs\" government regulation",
+      "title": "[2610.12362] Closing the Horizon Gap in Policy Optimization ...",
+      "url": "https://arxiv.org/abs/2610.12362",
+      "snippet": "Oct 9, 2026 · We consider policy optimization for online episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback.",
+      "page_text": "[2610.12362] Closing the Horizon Gap in Policy Optimization for Adversarial MDPs Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Machine Learning arXiv:2610.12362 (cs) [Submitted on 8 Oct 2026] Title: Closing the Horizon Gap in Policy Optimization for Adversarial MDPs Authors: Mingyi Li , Taira Tsuchiya View a PDF of the paper titled Closing the Horizon Gap in Policy Optimization for Adversarial MDPs, by Mingyi Li and 1 other authors View PDF HTML (experimental) Abstract: We consider policy optimization for online episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback. Policy optimization updates the policy locally at each state and avoids optimization over the occupancy-measure polytope, but its existing regret bounds are larger by a factor of the horizon $H$ than those of occupancy-measure-based algorithms. We close this gap by using regularized $Q$-functions, which allow us to control the stability of the local updates jointly over all state-action pairs rather than separately at each state. The resulting algorithm attains high-probability regret bounds of $\\widetilde O(\\sqrt{HS(H+A)T})$ for known transitions and $\\widetilde O(HS\\sqrt{AT})$ for unknown transitions, where $S$ is the number of states, $A$ the number of actions, and $T$ the number of episodes. Both bounds improve the horizon dependence of existing policy optimization bounds, and the latter matches the best-known bound. We further extend the algorithm to adversarial linear-mixture MDPs and obtain the same improvement in the horizon dependence. Comments: 17 pages, 2 tables Subjects: Machine Learning (cs.LG) ; Machine Learning (stat.ML) Cite as: arXiv:2610.12362 [cs.LG] (or arXiv:2610.12362v1 [cs.LG] for this version) https://doi.org/10.48550/arXiv.2610.12362 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Mingyi Li [ view email ] [v1] Thu, 8 Oct 2026 17:26:55 UTC (18 KB) Full-text links: Access Paper: View a PDF of the paper titled Closing the Horizon Gap in Policy Optimization for Adversarial MDPs, by Mingyi Li and 1 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.LG < prev | next > new | recent | 2026-10 Change to browse by: cs stat stat.ML References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) IArxiv recommender toggle IArxiv Recommender ( What is IArxiv? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4301
+    },
+    {
+      "query": "\"Closing the Horizon Gap in Policy Optimization for Adversarial MDPs\" government regulation",
+      "title": "Closing the Horizon Gap in Policy Optimization for ...",
+      "url": "https://arxiv.org/pdf/2610.12362",
+      "snippet": "1 Introduction We study policy optimization for online learning in episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback. Policy optimization is widely used in reinforcement learning and has achieved empirical success (e.g., Schulman et al., 2015, 2017). In each of T episodes, the environment chooses a loss function, and the learner chooses and executes ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Closing the Horizon Gap in Policy Optimization for Adversarial MDPs\" government regulation",
+      "title": "Closing the Horizon Gap in Policy Optimization for ...",
+      "url": "https://worldneural.com/research/arxiv-2610-12362",
+      "snippet": "Oct 8, 2026 · The paper addresses policy optimization in online episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback, improving the r",
+      "page_text": "Skip to content Preprint arXiv: 2610.12362 2026-10-08 Closing the Horizon Gap in Policy Optimization for Adversarial MDPs Read on arXiv ↗ Explore more research ↓ RESEARCH BRIEF At a glance The paper addresses policy optimization in online episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback, improving the regret bounds that were previously larger by a factor of the horizon $H$. By employing regularized $Q$-functions, the authors achieve high-probability regret bounds of $\\widetilde O(\\sqrt{HS(H+A)T})$ for known transitions and $\\widetilde O(HS\\sqrt{AT})$ for unknown transitions, which enhance the horizon dependence of existing policy optimization methods. The algorithm is also extended to adversarial linear-mixture MDPs, achieving similar improvements in horizon dependence. A plain-language summary by WorldNeural. It is not the full paper. FROM THE AUTHORS Abstract We consider policy optimization for online episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback. Policy optimization updates the policy locally at each state and avoids optimization over the occupancy-measure polytope, but its existing regret bounds are larger by a factor of the horizon $H$ than those of occupancy-measure-based algorithms. We close this gap by using regularized $Q$-functions, which allow us to control the stability of the local updates jointly over all state-action pairs rather than separately at each state. The resulting algorithm attains high-probability regret bounds of $\\widetilde O(\\sqrt{HS(H+A)T})$ for known transitions and $\\widetilde O(HS\\sqrt{AT})$ for unknown transitions, where $S$ is the number of states, $A$ the number of actions, and $T$ the number of episodes. Both bounds improve the horizon dependence of existing policy optimization bounds, and the latter matches the best-known bound. We further extend the algorithm to adversarial linear-mixture MDPs and obtain the same improvement in the horizon dependence. Read with context Continue to the source paper to check its methods, evaluation setting and limitations. Continue on arXiv ↗ PAPER DETAILS Identifier arXiv:2610.12362 Published 2026-10-08 Date on WN 2026-10-09 Explore topic Not tagged yet Authors / affiliations Not listed Last updated 2026-10-17 BEYOND THE PAPER Connect research to practice. Explore AI models → Explore benchmarks → Read AI news → CONTINUE EXPLORING More new research All research → Preprint 2026-10-15 Beyond Downstream QA: Rethinking How We Evaluate Agent Memory The paper critiques current agent memory benchmarks, arguing they inadequately separate memory correctness from retrieval and generation quality, leading to misleading evaluations. The authors introduce FEB-30, a new benchmark consisting of 30 fact-evolution trajectories across 6 diagnostic categories and 3 difficulty levels, which allows for a more accurate assessment of memory systems. When applied to a memory system, FEB-30 revealed a divergence of 16 percentage points between intrinsic and extrinsic evaluations, with the system only correctly classifying memory operations 20% of the time, a failure not captured by traditional evaluations. arXiv: 2610.22209 Explore paper → Preprint 2026-10-15 Generalization Guarantees of Randomized Block Coordinate Descent for Nonconvex Learning This paper establishes high-probability generalization guarantees for randomized block coordinate descent (RBCD) when applied to nonconvex objectives in machine learning. It derives bounds on the gradients of empirical and population risks under standard smoothness assumptions and shows that with polynomially decaying step sizes, tuning the iteration number can optimize convergence rates for population gradients. Additionally, it provides dimension-independent bounds for specific loss functions, enhancing the applicability of these guarantees to high-dimensional problems. arXiv: 2610.22213 Explore paper → Preprint 2026-10-15 FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting FutureLift is a new motion forecasting refiner that utilizes a heterogeneous future graph to improve the accuracy of multimodal trajectory proposals by allowing bidirectional updates. It consistently enhances frozen proposals and outperforms existing refiners on the Argoverse2 and Waymo Open Motion Dataset, achieving first place in minADE (0.5049m) and minFDE (0.9942m) on the WOMD leaderboard, while also obtaining a competitive Soft mAP of 0.4874. The method requires only proposals, scores, and scene context, making it adaptable to various forecasting backbones. arXiv: 2610.22215 Explore paper → WORLDNEURAL WEEKLY A week of AI. A clearer picture. A weekly digest of AI news, research, models, and jobs. Subscribe ← Back to the research library Back to top ↑ Closing the Horizon Gap in Policy Optimization for Adversarial MDPs",
+      "page_text_length": 4906
+    },
+    {
+      "query": "\"Closing the Horizon Gap in Policy Optimization for Adversarial MDPs\" government regulation",
+      "title": "Closing the Horizon Gap in Policy Optimization for ...",
+      "url": "https://www.one9founders.com/research/2610.12362",
+      "snippet": "Oct 8, 2026 · We consider policy optimization for online episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback. Policy optimizati",
+      "page_text": "Back to papers October 8, 2026 cs.LG stat.ML Closing the Horizon Gap in Policy Optimization for Adversarial MDPs Mingyi Li , Taira Tsuchiya Original Abstract Read on arXiv Download PDF Categories cs.LG, stat.ML Closing the Horizon Gap in Policy Optimization for Adversarial MDPs - AI Research | One9Founders",
+      "page_text_length": 307
+    },
+    {
+      "query": "\"Closing the Horizon Gap in Policy Optimization for Adversarial MDPs\" government regulation",
+      "title": "Closing the Horizon Gap in Policy Optimization for ...",
+      "url": "https://arxiv.deeppaper.ai/papers/2610.12362v1",
+      "snippet": "Key Contributions Proposed a novel regularized Q-function approach that improves the horizon dependence of regret bounds in policy optimization for adversarial MDPs, matching the best-known theoretical results.",
+      "page_text": "Closing the Horizon Gap in Policy Optimization for Adversarial MDPs | Arxiv - DeepPaper Closing the Horizon Gap in Policy Optimization for Adversarial MDPs PDF DeepRead Key Contributions Proposed a novel regularized Q-function approach that improves the horizon dependence of regret bounds in policy optimization for adversarial MDPs, matching the best-known theoretical results. Abstract We consider policy optimization for online episodic tabular Markov decision processes (MDPs) with adversarial losses and bandit feedback. Policy optimization updates the policy locally at each state and avoids optimization over the occupancy-measure polytope, but its existing regret bounds are larger by a factor of the horizon $H$ than those of occupancy-measure-based algorithms. We close this gap by using regularized $Q$-functions, which allow us to control the stability of the local updates jointly over all state-action pairs rather than separately at each state. The resulting algorithm attains high-probability regret bounds of $\\widetilde O(\\sqrt{HS(H+A)T})$ for known transitions and $\\widetilde O(HS\\sqrt{AT})$ for unknown transitions, where $S$ is the number of states, $A$ the number of actions, and $T$ the number of episodes. Both bounds improve the horizon dependence of existing policy optimization bounds, and the latter matches the best-known bound. We further extend the algorithm to adversarial linear-mixture MDPs and obtain the same improvement in the horizon dependence. Summary This paper introduces a regularized Q-function approach to close the horizon gap in policy optimization for adversarial MDPs, achieving optimal regret bounds. Subjects cs.LG stat.ML arXiv 2610.12362v1 Paper Type Theory Method Domain AI ML Reinforcement Learning Authors Mingyi Li, Taira Tsuchiya Submitted Oct 08, 2026 Similar Papers 0 papers View More",
+      "page_text_length": 1846
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "8a8213c9ed044cef9deca9fa410510a4ab7ad3565950153a3ff8f83487dd38a5",
+      "title": "Closing the Horizon Gap in Policy Optimization for Adversarial MDPs",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2610.12362",
+      "date": "2026-10-08T17:26:55Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "**ArXiv preprint reports improved bounds for adversarial MDP policy optimisation**\n\nMingyi Li and Taira Tsuchiya submitted a paper to arXiv on 8 October proposing a policy-optimisation algorithm for online episodic tabular Markov decision processes with adversarial losses and bandit feedback. Using regularised Q-functions, it reports improved regret bounds for known and unknown transitions. This is a research result, not a government policy, contract or fielded capability: the evidence establishes theoretical bounds, not operational use or deployment. It identifies no agency, military service or other adopting organisation.",
+    "source_record_ids": [
+      "8a8213c9ed044cef9deca9fa410510a4ab7ad3565950153a3ff8f83487dd38a5"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

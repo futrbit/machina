@@ -1,0 +1,83 @@
+{
+  "journalist": "Kenji Nakamura",
+  "role": "Autonomous Vehicles Correspondent",
+  "journalist_id": "kenji_nakamura",
+  "generated_at": "2026-10-19T19:06:05.014527+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"On the estimation and validity of AI time horizons---a statistical look at the METR plot\" autonomous vehicle",
+      "title": "GitHub - Tavish9/awesome-daily-AI-arxiv: Daily AI Research Digest ...",
+      "url": "https://github.com/Tavish9/awesome-daily-AI-arxiv",
+      "snippet": "Click to Collapse On the estimation and validity of AI time horizons---a statistical look at the METR plot arXiv:2610.12466 Drew T. Nguyen, William Fithian Abstract METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time ...",
+      "page_text": "GitHub - Tavish9/awesome-daily-AI-arxiv: 🚀 Daily AI Research Digest: Tracking breakthroughs in AI/NLP/CV/Robotics with dynamic updates and paper navigation. · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} main Branches Tags Go to file Code Open more actions menu Latest commit History 581 Commits 581 Commits Folders and files Name Name Last commit message Last commit date .github/ workflows .github/ workflows hot_topic hot_topic LICENSE LICENSE README.md README.md config.yml config.yml scrape.py scrape.py View all files Repository files navigation Loading About 🚀 Daily AI Research Digest: Tracking breakthroughs in AI/NLP/CV/Robotics with dynamic updates and paper navigation. Topics academic-paper artificial-intelligence arxiv arxiv-papers paper-digest research-tools Resources Readme License Activity Stars 122 stars Watchers 8 watching Forks 7 forks Report repository Releases Packages Used by Contributors Languages You can’t perform that action at this time.",
+      "page_text_length": 1202
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "ca0defb928fab5d1763f0239087fd623201641def614d6c8403f5198fdcb237a",
+      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.12466",
+      "date": "2026-10-08T17:59:50Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "METR paper assesses AI task-time estimates, not vehicle deployment\n\nAn arXiv paper titled “On the estimation and validity of AI time horizons—a statistical look at the METR plot” examines estimates of AI capability on software tasks. Its available abstract snippet defines METR’s “50% time horizon” as the human completion time of tasks an AI solves with 50% probability, and says the analysis covers 228 tasks and 26 AIs.\n\nThe supplied material gives no result details and identifies no vehicle, autonomy stack, operating domain, safety record, deployment or regulatory approval. It therefore provides no evidence of an autonomous-vehicle development.",
+    "source_record_ids": [
+      "ca0defb928fab5d1763f0239087fd623201641def614d6c8403f5198fdcb237a"
+    ],
+    "format": "autonomous_vehicle_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": true,
+    "original_article": "METR paper assesses AI task-time estimates, not vehicle deployment\n\nAn arXiv paper titled “On the estimation and validity of AI time horizons—a statistical look at the METR plot” examines estimates of AI capability on software tasks. Its available abstract snippet defines METR’s “50% time horizon” as the human completion time of tasks an AI solves with 50% probability, and says the analysis covers 228 tasks and 26 AIs.\n\nThe supplied material gives no result details and identifies no vehicle, autonomy stack, operating domain, safety record, deployment or regulatory approval. It therefore provides no evidence of an autonomous-vehicle development.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "FAIL",
+      "issues": [
+        "The article does not discuss the correct assigned story. The article is about an AI paper that assesses AI task-time estimates, not vehicle deployment, while the assigned story is about the estimation and validity of AI time horizons in the context of autonomous vehicles."
+      ],
+      "verified_claims": []
+    },
+    "repair_validation": {
+      "status": "FAIL",
+      "issues": [
+        "Correction generation failed: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)"
+      ]
+    },
+    "final_verification": {
+      "status": "FAIL",
+      "issues": [
+        "Correction was not produced or did not pass validation."
+      ],
+      "verified_claims": []
+    }
+  },
+  "maren_verification": {
+    "status": "FAIL",
+    "issues": [
+      "Correction was not produced or did not pass validation."
+    ],
+    "verified_claims": []
+  }
+}

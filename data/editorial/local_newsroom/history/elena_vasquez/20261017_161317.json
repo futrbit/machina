@@ -1,0 +1,83 @@
+{
+  "journalist": "Elena Vasquez",
+  "role": "Drones & Uncrewed Systems Correspondent",
+  "journalist_id": "elena_vasquez",
+  "generated_at": "2026-10-17T16:13:17.794630+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library\" drone uncrewed",
+      "title": "[2610.07111] LiLib: Lifelong Air-to-Ground Path-Loss ...",
+      "url": "https://arxiv.org/abs/2610.07111",
+      "snippet": "Oct 5, 2026 · We propose LiLib, a lightweight continual-learning scheme in which a UAV maintains a small library of recursive-least-squares experts. A windowed residual test detects drift; a short probe phase then either reuses the best stored expert or creates a new one.",
+      "page_text": "[2610.07111] LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Machine Learning arXiv:2610.07111 (cs) [Submitted on 5 Oct 2026] Title: LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library Authors: Minh Tran View a PDF of the paper titled LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library, by Minh Tran View PDF HTML (experimental) Abstract: UAVs that act as relays or base stations need accurate air-to-ground path-loss predictions for rate adaptation and placement, but propagation conditions change as a UAV moves between suburban, urban and high-rise areas, and the same areas are often revisited. Online regressors that adapt by forgetting must relearn each environment from scratch, whereas a single model trained on all data averages incompatible regimes. We propose LiLib, a lightweight continual-learning scheme in which a UAV maintains a small library of recursive-least-squares experts. A windowed residual test detects drift; a short probe phase then either reuses the best stored expert or creates a new one. In simulations based on four standard urbanization profiles, LiLib reduces prediction RMSE from 5.89 dB (best sliding-window baseline) to 4.03 dB (p < 0.001), lowers the error shortly after a return to a known environment from 12.3 dB to 5.7 dB, and recovers 99% of the throughput of a regime-aware oracle in rate adaptation. The library stores four experts in under 0.5 KB, and identifies regimes with 92% purity without labels. When a second UAV is initialized with the library of a peer, its error after environment changes halves. LiLib does not reach the oracle, and similar regimes may be merged when shadowing is strong. The results indicate that, for recurring drift, remembering is more effective than re-adapting. Subjects: Machine Learning (cs.LG) ; Artificial Intelligence (cs.AI) Cite as: arXiv:2610.07111 [cs.LG] (or arXiv:2610.07111v1 [cs.LG] for this version) https://doi.org/10.48550/arXiv.2610.07111 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Minh Tran Binh [ view email ] [v1] Mon, 5 Oct 2026 15:53:19 UTC (124 KB) Full-text links: Access Paper: View a PDF of the paper titled LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library, by Minh Tran View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.LG < prev | next > new | recent | 2026-10 Change to browse by: cs cs.AI References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) IArxiv recommender toggle IArxiv Recommender ( What is IArxiv? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4634
+    },
+    {
+      "query": "\"LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library\" drone uncrewed",
+      "title": "LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs ...",
+      "url": "https://arxiv.org/pdf/2610.07111",
+      "snippet": "We propose LiLib, a lightweight continual-learning scheme in which a UAV maintains a small library of recursive-least-squares experts. A windowed residual test detects drift; a short probe phase then either reuses the best stored expert or creates a new one.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library\" drone uncrewed",
+      "title": "(PDF) Path loss prediction for air-to-ground communication ...",
+      "url": "https://www.researchgate.net/publication/384474461_Path_loss_prediction_for_air-to-ground_communication_links_via_scenario_transfer_technology",
+      "snippet": "Sep 30, 2024 · This study introduces an innovative neural network model to estimate PL for air-to-ground communication links. Utilizing the geometric characteristics of varied physical environments, the...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library\" drone uncrewed",
+      "title": "A Survey of Path Loss Prediction and Channel Models for ...",
+      "url": "https://www.mdpi.com/1424-8220/23/10/4775",
+      "snippet": "May 14, 2023 · The first scenario involved the two drones hovering at 35 m above the ground, and the fading properties were examined as a function of their separation. The results verified that the free-space-loss model accurately described the signal attenuation caused by the distance.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library\" drone uncrewed",
+      "title": "Air-to-ground path loss prediction using ray tracing and ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0140366422003954",
+      "snippet": "Dec 1, 2022 · With the wide application of unmanned aerial vehicle (UAV), air-to-ground (A2G) channel characterization is important for efficient and stable UAV-related communications. In this paper, a novel deep neural network (DNN) based path loss (PL) prediction model is presented for A2G communications.",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "c1cff6caeddbd3856b8a710ffba82fce35644475f55bcebbe1b82f7bc6b98ba4",
+      "title": "LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2610.07111",
+      "date": "2026-10-05T15:53:19Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "**LiLib evaluates UAV path-loss prediction in simulation**\n\nA paper on LiLib proposes a continual-learning method for air-to-ground path-loss prediction on UAVs acting as relays or base stations. It stores recursive-least-squares experts and uses a residual test and short probe to reuse a model or create one when conditions drift.\n\nNo flight test or autonomous UAV operation is reported. In simulations using four urbanisation profiles, LiLib reduced prediction RMSE to 4.03 dB from 5.89 dB for the best sliding-window baseline. The paper reports recovery of 99% of a regime-aware oracle’s throughput in rate adaptation.\n\nSensors and other onboard payload are unspecified. The work is a proposed method evaluated in simulation, not a demonstrated or deployed UAV capability.",
+    "source_record_ids": [
+      "c1cff6caeddbd3856b8a710ffba82fce35644475f55bcebbe1b82f7bc6b98ba4"
+    ],
+    "format": "drone_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "journalist": "Ravi Chatterjee",
+  "role": "Explainer",
+  "journalist_id": "ravi_chatterjee",
+  "generated_at": "2026-10-19T21:07:59.066998+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "0e74bb133f65910c70940cc02ee50a1d3db9089c14fcb5297ab8608b9edc93d5",
+      "title": "HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.22895",
+      "date": "2026-10-19T04:00:00+00:00",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "HAPACT paper targets physical-impact localization in movies\n\nAn arXiv paper titled “HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies” concerns evaluating systems that localize human-centric physical impacts in film. The available record provides no benchmark design, dataset, task definition, baseline, metric or experimental results. Its performance and the evidence supporting it therefore cannot be assessed from the supplied information.",
+    "source_record_ids": [
+      "0e74bb133f65910c70940cc02ee50a1d3db9089c14fcb5297ab8608b9edc93d5"
+    ],
+    "format": "explainer_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "HAPACT paper targets physical-impact localization in movies\n\nAn arXiv paper titled “HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies” concerns evaluating systems that localize human-centric physical impacts in film. The available record provides no benchmark design, dataset, task definition, baseline, metric or experimental results. Its performance and the evidence supporting it therefore cannot be assessed from the supplied information.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: 'HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies'",
+        "The article's headline and body match that story",
+        "The central factual claim that 'An arXiv paper titled “HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies” concerns evaluating systems that localize human-centric physical impacts in film' is supported by the supplied evidence"
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: 'HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies'",
+        "The article's headline and body match that story",
+        "The central factual claim that 'An arXiv paper titled “HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies” concerns evaluating systems that localize human-centric physical impacts in film' is supported by the supplied evidence"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article concerns the correct assigned story: 'HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies'",
+      "The article's headline and body match that story",
+      "The central factual claim that 'An arXiv paper titled “HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies” concerns evaluating systems that localize human-centric physical impacts in film' is supported by the supplied evidence"
+    ]
+  }
+}

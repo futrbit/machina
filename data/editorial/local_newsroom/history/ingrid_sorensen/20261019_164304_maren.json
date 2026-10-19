@@ -1,0 +1,72 @@
+{
+  "journalist": "Ingrid SÃ¸rensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-19T16:19:57.633674+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "443eef0a23756f578a5e3032660f2534e35e32aa0df01d1a23607c327d0cafd2",
+      "title": "New Kyiv Business Centre opens in Ukraine",
+      "source": "UK Ministry of Defence",
+      "url": "https://www.gov.uk/government/news/new-kyiv-business-centre-opens-in-ukraine",
+      "date": "2026-10-08T18:09:00+00:00",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "New Kyiv Business Centre Opens in Ukraine - Operator and Remit Unconfirmed\n\nThe UK Ministry of Defence has announced the opening of a New Kyiv Business Centre in Ukraine. However, the available information does not specify the operator, remit, or services provided by the centre. The announcement does not yet establish whether the centre delivers any defence or public-sector capability. The affected organisation remains unidentified.",
+    "source_record_ids": [
+      "443eef0a23756f578a5e3032660f2534e35e32aa0df01d1a23607c327d0cafd2"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": true,
+    "original_article": "New Kyiv Business Centre opening reported; remit unconfirmed\n\nThe UK Ministry of Defence reports that a new Kyiv Business Centre has opened in Ukraine. The available information does not identify its operator, remit or services, or name any organisation affected. The opening is reported, but the evidence does not establish what the centre can provide or whether it delivers any defence or public-sector capability.",
+    "corrected_article": "New Kyiv Business Centre Opens in Ukraine - Operator and Remit Unconfirmed\n\nThe UK Ministry of Defence has announced the opening of a New Kyiv Business Centre in Ukraine. However, the available information does not specify the operator, remit, or services provided by the centre. The announcement does not yet establish whether the centre delivers any defence or public-sector capability. The affected organisation remains unidentified.",
+    "initial_verification": {
+      "status": "FAIL",
+      "issues": [
+        "The article does not provide evidence to support the central claim that the New Kyiv Business Centre has opened in Ukraine, and the article does not specify its operator, remit, or services."
+      ],
+      "verified_claims": []
+    },
+    "repair_validation": {
+      "status": "PASS",
+      "issues": []
+    },
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The UK Ministry of Defence has announced the opening of a New Kyiv Business Centre in Ukraine."
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The UK Ministry of Defence has announced the opening of a New Kyiv Business Centre in Ukraine."
+    ]
+  }
+}

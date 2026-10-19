@@ -1,0 +1,76 @@
+{
+  "journalist": "Callum Reyes",
+  "role": "Wire Desk",
+  "journalist_id": "callum_reyes",
+  "generated_at": "2026-10-19T17:52:07.050416+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "a966322eb212024ec6e4e400e7d416d28e9689295580460259ed8dad9d87bb3e",
+      "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.11155",
+      "date": "2026-10-08T03:16:45Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Title: ArXiv Paper Lists Study on Social Pain and Adolescent Brain-State Dynamics, but No Evidence Presented\n\nAn arXiv cs.AI record dated October 8, 2026, lists a paper titled \"Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury.\" However, the available record provides no authors, abstract, methods, or study results. As such, it does not establish what evidence the paper presents or how its title's claim was assessed.\n\nThe paper's title suggests it investigates the impact of social pain on the brain dynamics of adolescents who engage in non-suicidal self-injury. However, the arXiv record does not provide any details about the research methods used, the participants involved, or the results obtained. Therefore, it is unclear whether the paper supports its title's claim that social pain disrupts emotion-action brain-state dynamics in this specific population.\n\nThe arXiv record can be found at this link: [https://arxiv.org/abs/2610.11155](https://arxiv.org/abs/2610.11155)\n\nThis report is based on the provided intelligence record and does not speculate on the paper's findings or implications. Further research may be needed to determine whether the paper presents evidence to support its title's claim.",
+    "source_record_ids": [
+      "a966322eb212024ec6e4e400e7d416d28e9689295580460259ed8dad9d87bb3e"
+    ],
+    "format": "wire_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": true,
+    "original_article": "ArXiv record lists paper on social pain and brain-state dynamics in adolescents\n\nAn arXiv cs.AI record dated Oct. 8, 2026, lists a paper titled “Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury.”\n\nThe available record provides no authors, abstract, methods or study results. It therefore does not establish what evidence the paper presents or how its title’s claim was assessed.",
+    "corrected_article": "Title: ArXiv Paper Lists Study on Social Pain and Adolescent Brain-State Dynamics, but No Evidence Presented\n\nAn arXiv cs.AI record dated October 8, 2026, lists a paper titled \"Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury.\" However, the available record provides no authors, abstract, methods, or study results. As such, it does not establish what evidence the paper presents or how its title's claim was assessed.\n\nThe paper's title suggests it investigates the impact of social pain on the brain dynamics of adolescents who engage in non-suicidal self-injury. However, the arXiv record does not provide any details about the research methods used, the participants involved, or the results obtained. Therefore, it is unclear whether the paper supports its title's claim that social pain disrupts emotion-action brain-state dynamics in this specific population.\n\nThe arXiv record can be found at this link: [https://arxiv.org/abs/2610.11155](https://arxiv.org/abs/2610.11155)\n\nThis report is based on the provided intelligence record and does not speculate on the paper's findings or implications. Further research may be needed to determine whether the paper presents evidence to support its title's claim.",
+    "initial_verification": {
+      "status": "FAIL",
+      "issues": [
+        "The article does not provide evidence to support the claim that the paper titled ‘Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury’ presents any evidence or assesses its title’s claim."
+      ],
+      "verified_claims": []
+    },
+    "repair_validation": {
+      "status": "PASS",
+      "issues": []
+    },
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury",
+        "The article's headline and body match that story",
+        "The central factual claim that the arXiv record lists a paper titled 'Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury' is supported by the supplied evidence"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article concerns the correct assigned story: Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury",
+      "The article's headline and body match that story",
+      "The central factual claim that the arXiv record lists a paper titled 'Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury' is supported by the supplied evidence"
+    ]
+  }
+}

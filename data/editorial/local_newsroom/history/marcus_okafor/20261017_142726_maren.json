@@ -1,0 +1,119 @@
+{
+  "journalist": "Marcus Okafor",
+  "role": "Robotics Correspondent",
+  "journalist_id": "marcus_okafor",
+  "generated_at": "2026-10-17T14:14:46.096967+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation\" robotics",
+      "title": "[2610.08220] VOMMI: Collecting and Leveraging Portable ...",
+      "url": "https://arxiv.org/abs/2610.08220",
+      "snippet": "Oct 7, 2026 · Portable mobile-manipulation demonstrations can help alleviate data scarcity for embodied intelligence, but obtaining reliable, low-cost, and robot-free motion supervision from RGB observations remains challenging.",
+      "page_text": "[2610.08220] VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Robotics arXiv:2610.08220 (cs) [Submitted on 6 Oct 2026] Title: VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation Authors: Yutian Zhang , Xingrui Xiong , Siyuan Ma , Yang Li , Jiawen Wen , Jiaqi Zhai , Liwen Yang , Ce Hao , Haozhen Chi , Yangkun Zhu , Yifan Zhu , Xiaowen Chu , Dong Wei , Qiaojun Yu , Dibo Hou View a PDF of the paper titled VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation, by Yutian Zhang and 14 other authors View PDF HTML (experimental) Abstract: Portable mobile-manipulation demonstrations can help alleviate data scarcity for embodied intelligence, but obtaining reliable, low-cost, and robot-free motion supervision from RGB observations remains challenging. Existing approaches often rely on teleoperation or specialized devices equipped with additional sensing hardware, while directly using estimated visual odometry (VO) trajectories can introduce inconsistencies due to accumulated drift and imperfect motion supervision. We present the Visual-Odometry-Conditioned Mobile Manipulation Interface (VOMMI), a portable demonstration collection and learning framework that connects portable RGB demonstrations to vision-language-action (VLA) post-training through offline trajectory reconstruction and online visual-motion conditioning. VOMMI synchronizes body and hand views to capture navigation context and local object interactions without requiring human-robot kinematic correspondence calibration. R2-VO refines offline demonstration trajectories using sparse geometric anchors and produces causal local-motion tokens over multiple prediction horizons for online policy conditioning. An action-group residual adapter incorporates these tokens only into the base branch. Experiments use a 500-trajectory portable for each task, with 75 trajectories held out for RGB-VO evaluation, and 200 robot demonstrations as references. Our policy, post-trained only on portable demonstrations, achieves 18.2% lower base-velocity error than a policy trained with robot-collected demonstrations, while maintaining comparable end-effector translation accuracy. Offline reconstruction reduces absolute trajectory errors for the body and hand streams by 24.6% on average relative to the best evaluated baseline for each stream. The complete system improves the mean success rate by 8.3 percentage points over OpenPI 0.5 across three real-robot tasks. Comments: 9 pages, 6 figures Subjects: Robotics (cs.RO) ; Artificial Intelligence (cs.AI) Cite as: arXiv:2610.08220 [cs.RO] (or arXiv:2610.08220v1 [cs.RO] for this version) https://doi.org/10.48550/arXiv.2610.08220 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Yutian Zhang [ view email ] [v1] Tue, 6 Oct 2026 12:10:48 UTC (4,724 KB) Full-text links: Access Paper: View a PDF of the paper titled VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation, by Yutian Zhang and 14 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.RO < prev | next > new | recent | 2026-10 Change to browse by: cs cs.AI References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 5244
+    },
+    {
+      "query": "\"VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation\" robotics",
+      "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for ...",
+      "url": "https://arxiv.org/pdf/2610.08220",
+      "snippet": "We propose a portable data-collection protocol for mo-bile manipulation with separate body and hand views, requiring no access to the target robot or human–robot kinematic correspondence calibration.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation\" robotics",
+      "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for ...",
+      "url": "https://www.catalyzex.com/paper/vommi-collecting-and-leveraging-portable",
+      "snippet": "Abstract: Portable mobile-manipulation demonstrations can help alleviate data scarcity for embodied intelligence, but obtaining reliable, low-cost, and robot-free motion supervision from RGB observations remains challenging.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation\" robotics",
+      "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for ...",
+      "url": "https://arxiv.deeppaper.ai/papers/2610.08220v1",
+      "snippet": "Introduced VOMMI, a framework that enables robot-free demonstration collection using portable RGB cameras, and R2-VO, a trajectory refinement method that improves policy performance in mobile manipulation tasks.",
+      "page_text": "VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation | Arxiv - DeepPaper VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation PDF DeepRead Key Contributions Introduced VOMMI, a framework that enables robot-free demonstration collection using portable RGB cameras, and R2-VO, a trajectory refinement method that improves policy performance in mobile manipulation tasks. Abstract Portable mobile-manipulation demonstrations can help alleviate data scarcity for embodied intelligence, but obtaining reliable, low-cost, and robot-free motion supervision from RGB observations remains challenging. Existing approaches often rely on teleoperation or specialized devices equipped with additional sensing hardware, while directly using estimated visual odometry (VO) trajectories can introduce inconsistencies due to accumulated drift and imperfect motion supervision. We present the Visual-Odometry-Conditioned Mobile Manipulation Interface (VOMMI), a portable demonstration collection and learning framework that connects portable RGB demonstrations to vision-language-action (VLA) post-training through offline trajectory reconstruction and online visual-motion conditioning. VOMMI synchronizes body and hand views to capture navigation context and local object interactions without requiring human-robot kinematic correspondence calibration. R2-VO refines offline demonstration trajectories using sparse geometric anchors and produces causal local-motion tokens over multiple prediction horizons for online policy conditioning. An action-group residual adapter incorporates these tokens only into the base branch. Experiments use a 500-trajectory portable for each task, with 75 trajectories held out for RGB-VO evaluation, and 200 robot demonstrations as references. Our policy, post-trained only on portable demonstrations, achieves 18.2% lower base-velocity error than a policy trained with robot-collected demonstrations, while maintaining comparable end-effector translation accuracy. Offline reconstruction reduces absolute trajectory errors for the body and hand streams by 24.6% on average relative to the best evaluated baseline for each stream. The complete system improves the mean success rate by 8.3 percentage points over OpenPI 0.5 across three real-robot tasks. Summary VOMMI is a framework that enables efficient mobile manipulation learning by leveraging portable RGB demonstrations through offline trajectory reconstruction and visual-motion conditioning. Subjects cs.RO cs.AI arXiv 2610.08220v1 Paper Type framework Method Domain Robotics Computer Vision embodied AI Authors Yutian Zhang, Xingrui Xiong, Siyuan Ma, Yang Li, Jiawen Wen, Jiaqi Zhai, Liwen Yang, Ce Hao, Haozhen Chi, Yangkun Zhu, Yifan Zhu, Xiaowen Chu, Dong Wei, Qiaojun Yu, Dibo Hou Submitted Oct 06, 2026 Similar Papers 0 papers View More",
+      "page_text_length": 2877
+    },
+    {
+      "query": "\"VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation\" robotics",
+      "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for ...",
+      "url": "https://www.aimodels.fyi/papers/arxiv/vommi-collecting-leveraging-portable-demonstrations-mobile-manipulation",
+      "snippet": "Oct 6, 2026 · It summarizes the paper’s central claim that mobile-manipulation demonstrations can be collected and leveraged without robot-side sensing during collection. The central result is concrete: across three real-robot tasks, VOMMI reaches a mean success rate of 58.3%, compared with 50.0% for OpenPI 0.5.",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "518fe71cdf1c14d2ef9c9f6c21b0db8864f94c727b474dabf2d6150dbaedf0ed",
+      "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2610.08220",
+      "date": "2026-10-06T12:10:48Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "VOMMI uses portable camera demonstrations to train mobile-manipulation policies\n\nVOMMI is a demonstration-collection and learning framework, not a named robot. Its paper abstract does not identify the test robot, body or gripper, payload, or the three manipulation tasks. It describes synchronized body and hand RGB views, with 500 portable demonstration trajectories per task; policies were post-trained only on these demonstrations. The abstract does not specify operator involvement during robot trials.\n\nTests on real robots across three tasks produced an 8.3-percentage-point higher mean success rate than OpenPI 0.5. The reported result establishes performance in those trials, not sustained operation or capability in unstructured settings; the test environment and task details are not given in the abstract.",
+    "source_record_ids": [
+      "518fe71cdf1c14d2ef9c9f6c21b0db8864f94c727b474dabf2d6150dbaedf0ed"
+    ],
+    "format": "robotics_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "VOMMI uses portable camera demonstrations to train mobile-manipulation policies\n\nVOMMI is a demonstration-collection and learning framework, not a named robot. Its paper abstract does not identify the test robot, body or gripper, payload, or the three manipulation tasks. It describes synchronized body and hand RGB views, with 500 portable demonstration trajectories per task; policies were post-trained only on these demonstrations. The abstract does not specify operator involvement during robot trials.\n\nTests on real robots across three tasks produced an 8.3-percentage-point higher mean success rate than OpenPI 0.5. The reported result establishes performance in those trials, not sustained operation or capability in unstructured settings; the test environment and task details are not given in the abstract.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "VOMMI is a demonstration-collection and learning framework, not a named robot.",
+        "Its paper abstract does not identify the test robot, body or gripper, payload, or the three manipulation tasks.",
+        "The abstract does not specify operator involvement during robot trials.",
+        "Tests on real robots across three tasks produced an 8.3-percentage-point higher mean success rate than OpenPI 0.5."
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "VOMMI is a demonstration-collection and learning framework, not a named robot.",
+        "Its paper abstract does not identify the test robot, body or gripper, payload, or the three manipulation tasks.",
+        "The abstract does not specify operator involvement during robot trials.",
+        "Tests on real robots across three tasks produced an 8.3-percentage-point higher mean success rate than OpenPI 0.5."
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "VOMMI is a demonstration-collection and learning framework, not a named robot.",
+      "Its paper abstract does not identify the test robot, body or gripper, payload, or the three manipulation tasks.",
+      "The abstract does not specify operator involvement during robot trials.",
+      "Tests on real robots across three tasks produced an 8.3-percentage-point higher mean success rate than OpenPI 0.5."
+    ]
+  }
+}

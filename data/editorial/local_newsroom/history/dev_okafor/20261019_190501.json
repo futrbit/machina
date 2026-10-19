@@ -1,0 +1,83 @@
+{
+  "journalist": "Dev Okafor",
+  "role": "Product Correspondent",
+  "journalist_id": "dev_okafor",
+  "generated_at": "2026-10-19T19:05:01.477669+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory\" product technology",
+      "title": "[2610.07707] AgentMemGate: Addressing Speculation Contamination in ...",
+      "url": "https://arxiv.org/abs/2610.07707",
+      "snippet": "Abstract page for arXiv paper 2610.07707: AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory",
+      "page_text": "[2610.07707] AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Artificial Intelligence arXiv:2610.07707 (cs) [Submitted on 6 Oct 2026] Title: AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory Authors: Chirag Sharma , Benjamin Fowlersmith , Karime Maamari View a PDF of the paper titled AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory, by Chirag Sharma and 2 other authors View PDF HTML (experimental) Abstract: Conversational AI assistants with long-term memory extract facts from user messages into a store consulted in later conversations. A stated plan can enter that store as fact: a user who might move to Seattle may be recorded as already living there. We call this speculation contamination. Final-state memory benchmarks miss this error because they do not probe intermediate state and include few unresolved speculations. We present AgentMemGate, a write-time gate for profile-store memory that classifies extracted statements as speculation, completed event, correction, or other. Speculations remain outside memory, with conditions governing later promotion or deletion. We also contribute a dataset of multi-session conversations in which plans are confirmed, abandoned, or left unresolved. On our 147-conversation held-out set, Mem0 and Graphiti assert unresolved plans as current state for 35.2% and 27.3% of pending plans. On the core benchmark, AgentMemGate eliminates all observed contamination relative to the identical ungated pipeline (87.5% to zero for the most exposed extraction style) and raises task accuracy from 65% to 95%. On the harder held-out set, gated contamination is 3.4% to 5.7% and task accuracy rises by 9 to 13 percentage points. Our analysis identifies field matching as the main remaining bottleneck: realistic speculations often match no profile field and never reach the gate. We release our datasets, prompts, and evaluation code. Comments: Accepted at the PALM Workshop at NeurIPS 2026. 15 pages, 4 figures Subjects: Artificial Intelligence (cs.AI) Cite as: arXiv:2610.07707 [cs.AI] (or arXiv:2610.07707v1 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2610.07707 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Chirag Sharma [ view email ] [v1] Tue, 6 Oct 2026 03:59:41 UTC (29 KB) Full-text links: Access Paper: View a PDF of the paper titled AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory, by Chirag Sharma and 2 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.AI < prev | next > new | recent | 2026-10 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4735
+    },
+    {
+      "query": "\"AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory\" product technology",
+      "title": "NeurIPS AgentMemGate: Addressing Speculation Contamination in ...",
+      "url": "https://neurips.cc/virtual/2026/169554",
+      "snippet": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory",
+      "page_text": "NeurIPS AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory NeurIPS 2026 CSP Test --> Sydney Atlanta Paris Oral in Workshop: Personalized, Aligned, Long-Term Memory for AI Systems (PALM) Workshop AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory Chirag Sharma ⋅ Benjamin Fowlersmith ⋅ Karime Maamari Project Page [ OpenReview ] Abstract Conversational AI assistants with long-term memory extract facts from user messages into a store consulted in later conversations. A stated plan can enter that store as fact: a user who might move to Seattle may be recorded as already living there. We call this $\\textit{speculation contamination}$. Final-state memory benchmarks miss this error because they do not probe intermediate state and include few unresolved speculations. We present AgentMemGate, a write-time gate for profile-store memory that classifies extracted statements as speculation, completed event, correction, or other. Speculations remain outside memory, with conditions governing later promotion or deletion. We also contribute a dataset of multi-session conversations in which plans are confirmed, abandoned, or left unresolved. On our 147-conversation held-out set, Mem0 and Graphiti assert unresolved plans as current state for 35.2\\% and 27.3\\% of pending plans. On the core benchmark, AgentMemGate eliminates all observed contamination relative to the identical ungated pipeline (87.5\\% to zero for the most exposed extraction style) and raises task accuracy from 65\\% to 95\\%. On the harder held-out set, gated contamination is 3.4-5.7% and task accuracy rises by 9-13 percentage points. Our analysis identifies field matching as the main remaining bottleneck: realistic speculations often match no profile field and never reach the gate. We release our datasets, prompts, and evaluation code. Show more Chat is not available. Successful Page Load NeurIPS uses cookies for essential functions only. We do not sell your personal information. Our Privacy Policy &raquo; Accept",
+      "page_text_length": 2061
+    },
+    {
+      "query": "\"AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory\" product technology",
+      "title": "AgentMemGate: Addressing Speculation Contamination in Conversational ...",
+      "url": "https://www.catalyzex.com/paper/agentmemgate-addressing-speculation",
+      "snippet": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory: Paper and Code. Conversational AI assistants with long-term memory extract facts from user messages into a store consulted in later conversations. A stated plan can enter that store as fact: a user who might move to Seattle may be recorded as already living there. We call this speculation contamination ...",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory\" product technology",
+      "title": "AgentMemGate: Addressing Speculation Contamination in Conversational ...",
+      "url": "https://chatpaper.com/paper/357634",
+      "snippet": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory cs.AI07 Oct 2026 Chirag Sharma, Benjamin Fowlersmith, Karime Maamari Distyl AI",
+      "page_text": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory AI-Powered Library for Researchers Track research interests, scroll daily paper feeds with AI summary , and chat with bulk of files. 1. AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory cs.AI 07 Oct 2026 Chirag Sharma, Benjamin Fowlersmith, Karime Maamari Distyl AI Conversational AI assistants with long-term memory extract facts from user messages into a store consulted in later conversations. A stated plan can enter that store as fact: a user who might move to Seattle may be recorded as already living there. We call this speculation contamination. Final-state memory benchmarks miss this error because they do not probe intermediate state and include few unresolved speculations. We present AgentMemGate, a write-time gate for profile-store memory that classifies extracted statements as speculation, completed event, correction, or other. Speculations remain outside memory, with conditions governing later promotion or deletion. We also contribute a dataset of multi-session conversations in which plans are confirmed, abandoned, or left unresolved. On our 147-conversation held-out set, Mem0 and Graphiti assert unresolved plans as current state for 35.2% and 27.3% of pending plans. On the core benchmark, AgentMemGate eliminates all observed contamination relative to the identical ungated pipeline (87.5% to zero for the most exposed extraction style) and raises task accuracy from 65% to 95%. On the harder held-out set, gated contamination is 3.4% to 5.7% and task accuracy rises by 9 to 13 percentage points. Our analysis identifies field matching as the main remaining bottleneck: realistic speculations often match no profile field and never reach the gate. We release our datasets, prompts, and evaluation code. AI Summary Paper AI Summary Sign in for summary - key paper insights organized by academic models. Plus, track and collect interested papers, enjoy your one-stop research experience! Why ChatPaper Interest-Driven Paper Curation Describe your interests as you like, be it keywords or sentence, you’ll get relevant papers every day via AI semantic matching. Top Conferences, One-Stop IJCAI, ICML, CVPR, KDD... Access papers from top AI conferences, all in one tool, for free. Paper Management Made Easy Keep your research organized with our bookmarking feature. Build a well-structured knowledge hub at your fingertips. Chat With Any Paper Got questions? Ask in ChatDOC with one single click. Use AI to pull data, clarify terms, and verify facts with our precise word-level tracing feature. See how it works Watch now 1 min Get Started",
+      "page_text_length": 2686
+    },
+    {
+      "query": "\"AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory\" official announcement",
+      "title": "Artificial Intelligence Papers on X: \"AgentMemGate: Addressing ...",
+      "url": "https://x.com/SciFi/status/2108447923541266581",
+      "snippet": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory Chirag Sharma, Benjamin Fowlersmith, Karime Maamari https://t.co/8WrBwkPd71 [𝚌𝚜.𝙰𝙸] 💬Accepted at the PALM Workshop at NeurIPS 2026",
+      "page_text": "Artificial Intelligence Papers on X: \"AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory Chirag Sharma, Benjamin Fowlersmith, Karime Maamari https://t.co/8WrBwkPd71 [𝚌𝚜.𝙰𝙸] 💬Accepted at the PALM Workshop at NeurIPS 2026\" / X Post Log in Sign up Post Log in Sign up Artificial Intelligence Papers on X: \"AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory Chirag Sharma, Benjamin Fowlersmith, Karime Maamari https://t.co/8WrBwkPd71 [𝚌𝚜.𝙰𝙸] 💬Accepted at the PALM Workshop at NeurIPS 2026\" Artificial Intelligence Papers @SciFi AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory Chirag Sharma, Benjamin Fowlersmith, Karime Maamari arxiv.org/abs/2610.07707 [𝚌𝚜.𝙰𝙸] 💬Accepted at the PALM Workshop at NeurIPS 2026 6:42 AM · Oct 9, 2026 · 201 Views 3 3 2 Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Relevant people Artificial Intelligence Papers @ SciFi Follow New Artificial Intelligence papers from arxiv.org : expert systems, theorem proving. Thank you to arXiv for use of its open access interoperability. Trending now Artificial Intelligence Papers @SciFi AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory Chirag Sharma, Benjamin Fowlersmith, Karime Maamari arxiv.org/abs/2610.07707 [𝚌𝚜.𝙰𝙸] 💬Accepted at the PALM Workshop at NeurIPS 2026 6:42 AM · Oct 9, 2026 · 201 Views 3 3 2 Project Aglaya @ProjectAglaya Oct 12 Speculation that gets written as memory later gets treated as evidence. The gate has to sit before the write, not after the next answer. Otherwise the assistant is just building a cleaner version of its own guesses",
+      "page_text_length": 1788
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "960d4be34bf115f5d0460bdac15b7bad321d4b326dd83aef4ed619651475cae9",
+      "title": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.07707",
+      "date": "2026-10-06T03:59:41Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "AgentMemGate filters speculation before it enters assistant memory\n\nAgentMemGate is a write-time gate for profile-store memory in conversational AI systems. It targets pipelines that extract user statements for later conversations. The gate classifies statements as speculation, completed event, correction or other; speculative statements stay out of memory, with conditions for later promotion or deletion.\n\nIn the paper’s core benchmark, the gated pipeline reduced observed contamination from 87.5% to zero for the most exposed extraction style, compared with the same pipeline without the gate. On a harder held-out set, contamination remained at 3.4%–5.7%; field matching often prevented speculations from reaching the gate. This is a research result, not evidence of a deployed product. The paper reports releasing datasets, prompts and evaluation code. Product availability not specified.",
+    "source_record_ids": [
+      "960d4be34bf115f5d0460bdac15b7bad321d4b326dd83aef4ed619651475cae9"
+    ],
+    "format": "product_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

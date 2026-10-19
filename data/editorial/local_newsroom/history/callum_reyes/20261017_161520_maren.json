@@ -1,0 +1,75 @@
+{
+  "journalist": "Callum Reyes",
+  "role": "Wire Desk",
+  "journalist_id": "callum_reyes",
+  "generated_at": "2026-10-17T16:12:03.816963+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "2b7a6e00a24a9cf40a812f16fc396d8e8811af28fc38ef4b973396eed2d68311",
+      "title": "Onboard Marine Anomaly Detection on $\\Phi$sat-2: From Simulation-Based Development to In-Orbit Demonstration",
+      "source": "arXiv cs.CV",
+      "url": "https://arxiv.org/abs/2610.11735",
+      "date": "2026-10-08T11:31:06Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "# arXiv paper focuses on marine anomaly detection aboard Φsat-2\n\nA paper listed in arXiv’s cs.CV category on Oct. 8, 2026, is titled “Onboard Marine Anomaly Detection on Φsat-2: From Simulation-Based Development to In-Orbit Demonstration.”\n\nThe title identifies the work as addressing marine anomaly detection onboard Φsat-2 and a development path from simulation to an in-orbit demonstration. The available record does not provide the authors, the anomaly-detection method, details of the demonstration or any results.\n\nThe paper is listed at arXiv under identifier 2610.11735.",
+    "source_record_ids": [
+      "2b7a6e00a24a9cf40a812f16fc396d8e8811af28fc38ef4b973396eed2d68311"
+    ],
+    "format": "wire_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "# arXiv paper focuses on marine anomaly detection aboard Φsat-2\n\nA paper listed in arXiv’s cs.CV category on Oct. 8, 2026, is titled “Onboard Marine Anomaly Detection on Φsat-2: From Simulation-Based Development to In-Orbit Demonstration.”\n\nThe title identifies the work as addressing marine anomaly detection onboard Φsat-2 and a development path from simulation to an in-orbit demonstration. The available record does not provide the authors, the anomaly-detection method, details of the demonstration or any results.\n\nThe paper is listed at arXiv under identifier 2610.11735.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: Onboard Marine Anomaly Detection on $\\Phi$sat-2",
+        "The article's headline and body match that story",
+        "The central factual claims are supported by supplied evidence"
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: Onboard Marine Anomaly Detection on $\\Phi$sat-2",
+        "The article's headline and body match that story",
+        "The central factual claims are supported by supplied evidence"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article concerns the correct assigned story: Onboard Marine Anomaly Detection on $\\Phi$sat-2",
+      "The article's headline and body match that story",
+      "The central factual claims are supported by supplied evidence"
+    ]
+  }
+}

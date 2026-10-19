@@ -1,0 +1,51 @@
+{
+  "journalist": "TomÃ¡s Vega",
+  "role": "Markets Desk",
+  "journalist_id": "tomas_vega",
+  "generated_at": "2026-10-19T21:07:21.413758+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Anytime Contracts for AI Services\" company business",
+      "title": "Anytime Contracts for AI Services - arXiv.org",
+      "url": "https://arxiv.org/pdf/2610.22781",
+      "snippet": "Due to their generality, AI systems are increasingly viewed as tools, used for indefinite durations within organizational processes. Accordingly, payment for such services typically takes the form of auto-renewing contracts or pay-as-you-go APIs, which are arrangements without a predetermined end.",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "709a9c7b8ec1c0d4a7ed1c51468cfb968efe7f03001aa78f6f34fc44bf912476",
+      "title": "Anytime Contracts for AI Services",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2610.22781",
+      "date": "2026-10-19T04:00:00+00:00",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "AI service payments often have no fixed end\n\nAI services are typically paid for through auto-renewing contracts or pay-as-you-go APIs, arrangements without a predetermined end, according to “Anytime Contracts for AI Services.” The available account identifies no buyer, provider or contract value, so it establishes no specific transaction or changed customer relationship.",
+    "source_record_ids": [
+      "709a9c7b8ec1c0d4a7ed1c51468cfb968efe7f03001aa78f6f34fc44bf912476"
+    ],
+    "format": "market_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

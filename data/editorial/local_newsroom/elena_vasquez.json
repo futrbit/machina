@@ -2,59 +2,18 @@
   "journalist": "Elena Vasquez",
   "role": "Drones & Uncrewed Systems Correspondent",
   "journalist_id": "elena_vasquez",
-  "generated_at": "2026-10-11T19:47:57.213618+00:00",
+  "generated_at": "2026-10-19T21:08:12.459437+00:00",
   "model": "mistral:latest",
   "source": "machina_intelligence_briefs.json",
-  "live_web_research": [
-    {
-      "query": "\"SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image\" drone uncrewed",
-      "title": "[2610.11049] SatFix: Absolute Visual Localization of UAVs in ...",
-      "url": "https://arxiv.org/abs/2610.11049",
-      "snippet": "3 days ago · Abstract page for arXiv paper 2610.11049: SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image",
-      "page_text": "[2610.11049] SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Computer Vision and Pattern Recognition arXiv:2610.11049 (cs) [Submitted on 8 Oct 2026] Title: SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image Authors: Jiarui Zeng , Kun Shi , Chiman Vong , Zhedong Zheng View a PDF of the paper titled SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image, by Jiarui Zeng and 2 other authors View PDF HTML (experimental) Abstract: We study absolute metric UAV localization within a provided geo-referenced satellite region, recovering continuous map position and viewing heading from a single oblique image or a short multi-view clip. Existing cross-view geo-localization methods retrieve the most similar satellite tile from a gallery and report Recall@K, but retrieval depends on gallery sampling, provides no heading estimate, and returns a tile index rather than a continuous coordinate. We propose SatFix, a feed-forward UAV--satellite localization framework built on VGGT-$\\Omega$. Satellite-grid features act as queries that aggregate UAV visual evidence, and two lightweight heads regress a 3-DoF pose in the satellite-map frame: continuous 2D position and heading. SatFix requires no explicit 3D map, rendered bird's-eye image, auxiliary sensor, or test-time pose alignment. A single model supports both single- and multi-view inputs, with trajectory constraints used during multi-view training. For metric evaluation, we introduce University-Metric, where satellite imagery is re-collected over a region up to 10.7$\\times$ longer on a side (about 114$\\times$ the ground area) than the original University-1652 tiles, with continuous position and heading labels for the original UAV tours. With one UAV view, SatFix localizes 52.08% of test frames within 50 m and 17.34% within 10 m, with median position and heading errors of 45.66 m and $20.81^\\circ$, respectively. Inference takes under 0.1 s per single-view query on an NVIDIA RTX 4090. With nine UAV views, the median position error falls to 21.96 m and the median heading error to $8.73^\\circ$. Compared with a fine-tuned VGGT-$\\Omega$ baseline, SatFix reduces median position error by 34.0% and nine-view median heading error from $25.43^\\circ$ to $8.73^\\circ$. Subjects: Computer Vision and Pattern Recognition (cs.CV) Cite as: arXiv:2610.11049 [cs.CV] (or arXiv:2610.11049v1 [cs.CV] for this version) https://doi.org/10.48550/arXiv.2610.11049 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Jiarui Zeng [ view email ] [v1] Thu, 8 Oct 2026 01:01:46 UTC (1,471 KB) Full-text links: Access Paper: View a PDF of the paper titled SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image, by Jiarui Zeng and 2 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.CV < prev | next > new | recent | 2026-10 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
-      "page_text_length": 5037
-    },
-    {
-      "query": "\"SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image\" drone uncrewed",
-      "title": "SatFix: Absolute Visual Localization of UAVs in Satellite ...",
-      "url": "https://arxiv.org/pdf/2610.11049v1",
-      "snippet": "SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image Jiarui Zeng1,2, Kun Shi1,2, Chiman Vong1,2 and Zhedong Zheng1,2 Abstract—We study absolute metric UAV localization within",
-      "page_text": "",
-      "page_text_length": 0
-    },
-    {
-      "query": "\"SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image\" drone uncrewed",
-      "title": "SatFix: Absolute Visual Localization of UAVs in Satellite ...",
-      "url": "https://www.catalyzex.com/paper/satfix-absolute-visual-localization-of-uavs",
-      "snippet": "SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image: Paper and Code. We study absolute metric UAV localization within a provided geo-referenced satellite region, recovering continuous map position and viewing heading from a single oblique image or a short multi-view clip. Existing cross-view geo-localization methods retrieve the most similar satellite ...",
-      "page_text": "",
-      "page_text_length": 0
-    },
-    {
-      "query": "\"SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image\" drone uncrewed",
-      "title": "SatFix: Absolute Visual Localization of UAVs in Satellite ...",
-      "url": "https://www.aimodels.fyi/papers/arxiv/satfix-absolute-visual-localization-uavs-satellite-maps",
-      "snippet": "2 days ago · SatFix predicts a continuous UAV pose in a satellite map SatFix uses a pretrained VGGT-Ω backbone to estimate a UAV camera’s continuous map position and viewing heading from one oblique image or a short clip. Its output is a 3-DoF pose—two map coordinates plus heading—within a provided geo-referenced satellite region, rather than a ranked satellite-tile identity.",
-      "page_text": "",
-      "page_text_length": 0
-    },
-    {
-      "query": "\"SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image\" drone uncrewed",
-      "title": "SatFix: Absolute Visual Localization of UAVs in Satellite ...",
-      "url": "https://ai-deep-signal.com/article/ae5efec4-8409-4465-9ed0-34a2d18c6ece",
-      "snippet": "2 days ago · SatFix introduces a novel UAV localization framework that accurately determines position and heading from a single oblique image.",
-      "page_text": "All Featured Latest Guides Daily Weekly Saved Subscribe Sources About Feedback Sign in Light EN / 中 SatFix: Absolute Visual Localization of UAVs in Satellite Maps… | AI Deep Signal Back Quick Answer SatFix introduces a novel UAV localization framework that accurately determines position and heading from a single oblique image, achieving 52.08% localization within 50 m and reducing median position error by 34% compared to VGGT-$ ext{Ω}$. Quick Take The model operates efficiently on NVIDIA RTX 4090, processing queries in under 0.1 seconds. Key Points SatFix uses satellite-grid features to aggregate UAV visual evidence for localization. Achieves median position error of 21.96 m with nine UAV views. No explicit 3D map or auxiliary sensors are required for localization. Introduces University-Metric for comprehensive evaluation of localization accuracy. Median heading error improved from 25.43° to 8.73° with multiple views. Paper Resources Read Paper arxiv.org View PDF arxiv.org 📖 Reader Mode ~ 2 min read [Submitted on 8 Oct 2026] View PDF HTML (experimental) Abstract: We study absolute metric UAV localization within a provided geo-referenced satellite region, recovering continuous map position and viewing heading from a single oblique image or a short multi-view clip. Existing cross-view geo-localization methods retrieve the most similar satellite tile from a gallery and report Recall@K, but retrieval depends on gallery sampling, provides no heading estimate, and returns a tile index rather than a continuous coordinate. We propose SatFix, a feed-forward UAV--satellite localization framework built on VGGT-$\\Omega$. Satellite-grid features act as queries that aggregate UAV visual evidence, and two lightweight heads regress a 3-DoF pose in the satellite-map frame: continuous 2D position and heading. SatFix requires no explicit 3D map, rendered bird's-eye image, auxiliary sensor, or test-time pose alignment. A single model supports both single- and multi-view inputs, with trajectory constraints used during multi-view training. For metric evaluation, we introduce University-Metric, where satellite imagery is re-collected over a region up to 10.7$\\times$ longer on a side (about 114$\\times$ the ground area) than the original University-1652 tiles, with continuous position and heading labels for the original UAV tours. With one UAV view, SatFix localizes 52.08% of test frames within 50 m and 17.34% within 10 m, with median position and heading errors of 45.66 m and $20.81^\\circ$, respectively. Inference takes under 0.1 s per single-view query on an NVIDIA RTX 4090. With nine UAV views, the median position error falls to 21.96 m and the median heading error to $8.73^\\circ$. Compared with a fine-tuned VGGT-$\\Omega$ baseline, SatFix reduces median position error by 34.0% and nine-view median heading error from $25.43^\\circ$ to $8.73^\\circ$. Subjects: Computer Vision and Pattern Recognition (cs.CV) Cite as: arXiv:2610.11049 [cs.CV] (or arXiv:2610.11049v1 [cs.CV] for this version) https://doi.org/10.48550/arXiv.2610.11049 arXiv-issued DOI via DataCite (pending registration) Submission history From: Jiarui Zeng [ view email ] [v1] Thu, 8 Oct 2026 01:01:46 UTC (1,471 KB) — Originally published at arxiv.org View original source on arxiv.org Want this in your inbox every morning? Daily brief at your local 8am — bilingual EN/中文, free. Subscribe — it&#x27;s free More from arXiv cs.CV See more → arXiv cs.CV · Aavash Chhetri, Bibek Niroula, Eduard Vazquez, Yash Raj Shrestha, Prashnna Gyawali, Loris Bazzani, Binod Bhattarai 7/9/2026 Featured Original 85 signal ProMoE-FL: Prototype-conditioned Mixture of Experts for Multimodal Federated Learning with Missing Modalities AI Summary ProMoE-FL introduces a Prototype-conditioned Mixture-of-Experts framework for multimodal federated learning, effectively addressing missing modalities. It outperforms existing methods on four chest X-ray datasets, demonstrating superior feature synthesis capabilities in both homogeneous and heterogeneous settings. # LLM # AI Coding # AI Startup # Enterprise AI 6 0 0 0 📰 Read Original 70 signal Signal Score High signal — credible source, broad relevance. Weight Score Source authority 20 % 78 Community heat 20 % 0 Technical impact 30 % 📰 Read Original 0 0 0 Share arXiv cs.CV · Shahrzad Esmat, Chaunte W. Lacewell, Sameh Gobriel, Nilesh Jain, Ali Jannesari 6/5/2026 Featured Original 85 signal LLM -Guided ANN Index Optimization for Human-Object Interaction Retrieval AI Summary A phase-aware LLM agent optimizes human-object interaction retrieval, outperforming Optuna TPE by 33.3% and VDTuner by 34.2% on the HICO-DET benchmark. This method enhances throughput by 15.3x over UniIR and demonstrates strong transferability across vector database management systems. # LLM # Agent # Inference # AI Startup 7 0 0 0 arXiv cs.CV · Seemandhar Jain, Keshav Gupta, Manmohan Chandraker 3d ago Featured Original 80 signal SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code AI Summary SPLATIFY is a multi-agent framework that transforms 3D Gaussian Splatting papers into trainable implementations, reducing development time from weeks to minutes. It features innovations like a context-free grammar for gsplat, fork-aware citation recovery, and interdisciplinary method discovery, achieving up to 2.4 dB PSNR improvement on original results. SPLATIFY-Bench evaluates across 30 diverse 3DGS papers, demonstrating novel methods for volumetric nebula rendering. # Agent # AI Coding # Robotics # AI Startup 1 0 0 0 67 Business impact 20 % 0 Novelty (recency) 10 % 99 ≥75 high · 50–74 medium · <50 low Why Featured The development of SatFix, which enables UAV localization from a single oblique image with significant accuracy improvements, is crucial for builders and PMs in the drone industry as it enhances operational efficiency and reduces costs. Investors should note the potential for this technology to streamline aerial mapping and surveillance applications, positioning it as a competitive advantage in the market. Tags # Robotics # GPU Reactions 0 0 0 Share",
-      "page_text_length": 6113
-    }
-  ],
+  "live_web_research": [],
   "records_considered": 1,
   "selected_records": [
     {
-      "record_id": "670e78abae3e9f57fe14c8d7352334f6a416c5f2f1114d1feaa17d6694cb025d",
-      "title": "SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image",
-      "source": "arXiv cs.CV",
-      "url": "https://arxiv.org/abs/2610.11049",
-      "date": "2026-10-08T01:01:46Z",
+      "record_id": "cb0f210f6aad3e4036cc51033bbd82d4dea868a272d58dc0de137c8311b29df8",
+      "title": "Pentagon CIO gets new strategic technical advisor",
+      "source": "CTRL + ALT + DEFENSE",
+      "url": "https://defensescoop.com/2026/10/19/pentagon-cio-gets-new-strategic-technical-advisor",
+      "date": "2026-10-19T15:58:53+00:00",
       "source_type": null,
       "development_type": null,
       "entities": [],
@@ -70,9 +29,9 @@
     }
   ],
   "article": {
-    "body": "SatFix reports UAV localization from oblique images\n\nSatFix is a UAV–satellite localization framework that estimates continuous map position and heading from a single oblique image or short multi-view clip. It does not demonstrate autonomous flight; aircraft control and operator involvement are not reported.\n\nThe system uses image input and requires no auxiliary sensor, according to the paper; other onboard equipment is unspecified. Evaluation used University-Metric, a benchmark with newly collected satellite imagery and labels from original UAV tours, not a reported operational field test.\n\nThe authors report that one-view tests placed 52.08% of frames within 50 metres, with median position error of 45.66 metres. With nine views, median position error was 21.96 metres. These are benchmark results, not evidence of deployed performance. SatFix is presented as a research framework; production or operational deployment is not reported.",
+    "body": "Pentagon CIO gets strategic technical advisor; no UAS details established\n\nThe available record says the Pentagon CIO has a new strategic technical advisor but does not identify the advisor or describe any drone, UAS or other uncrewed-systems capability. It provides no evidence of autonomy, sensors, payloads, testing, production or deployment. No capability demonstration or operational status can be established from the record.",
     "source_record_ids": [
-      "670e78abae3e9f57fe14c8d7352334f6a416c5f2f1114d1feaa17d6694cb025d"
+      "cb0f210f6aad3e4036cc51033bbd82d4dea868a272d58dc0de137c8311b29df8"
     ],
     "format": "drone_bulletin"
   },
@@ -82,18 +41,13 @@
   },
   "maren_repair": {
     "attempted": false,
-    "original_article": "SatFix reports UAV localization from oblique images\n\nSatFix is a UAV–satellite localization framework that estimates continuous map position and heading from a single oblique image or short multi-view clip. It does not demonstrate autonomous flight; aircraft control and operator involvement are not reported.\n\nThe system uses image input and requires no auxiliary sensor, according to the paper; other onboard equipment is unspecified. Evaluation used University-Metric, a benchmark with newly collected satellite imagery and labels from original UAV tours, not a reported operational field test.\n\nThe authors report that one-view tests placed 52.08% of frames within 50 metres, with median position error of 45.66 metres. With nine views, median position error was 21.96 metres. These are benchmark results, not evidence of deployed performance. SatFix is presented as a research framework; production or operational deployment is not reported.",
+    "original_article": "Pentagon CIO gets strategic technical advisor; no UAS details established\n\nThe available record says the Pentagon CIO has a new strategic technical advisor but does not identify the advisor or describe any drone, UAS or other uncrewed-systems capability. It provides no evidence of autonomy, sensors, payloads, testing, production or deployment. No capability demonstration or operational status can be established from the record.",
     "corrected_article": null,
     "initial_verification": {
       "status": "PASS",
       "issues": [],
       "verified_claims": [
-        "The article is about the correct assigned story: SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image",
-        "The article correctly reports that SatFix is a UAV–satellite localization framework that estimates continuous map position and heading from a single oblique image or short multi-view clip",
-        "The article correctly reports that the system uses image input and requires no auxiliary sensor, according to the paper",
-        "The article correctly reports that evaluation used University-Metric, a benchmark with newly collected satellite imagery and labels from original UAV tours",
-        "The article correctly reports that the authors report one-view tests placed 52.08% of frames within 50 metres, with median position error of 45.66 metres",
-        "The article correctly reports that with nine views, median position error was 21.96 metres"
+        "The Pentagon CIO has a new strategic technical advisor"
       ]
     },
     "repair_validation": null,
@@ -101,12 +55,7 @@
       "status": "PASS",
       "issues": [],
       "verified_claims": [
-        "The article is about the correct assigned story: SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image",
-        "The article correctly reports that SatFix is a UAV–satellite localization framework that estimates continuous map position and heading from a single oblique image or short multi-view clip",
-        "The article correctly reports that the system uses image input and requires no auxiliary sensor, according to the paper",
-        "The article correctly reports that evaluation used University-Metric, a benchmark with newly collected satellite imagery and labels from original UAV tours",
-        "The article correctly reports that the authors report one-view tests placed 52.08% of frames within 50 metres, with median position error of 45.66 metres",
-        "The article correctly reports that with nine views, median position error was 21.96 metres"
+        "The Pentagon CIO has a new strategic technical advisor"
       ]
     }
   },
@@ -114,12 +63,7 @@
     "status": "PASS",
     "issues": [],
     "verified_claims": [
-      "The article is about the correct assigned story: SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image",
-      "The article correctly reports that SatFix is a UAV–satellite localization framework that estimates continuous map position and heading from a single oblique image or short multi-view clip",
-      "The article correctly reports that the system uses image input and requires no auxiliary sensor, according to the paper",
-      "The article correctly reports that evaluation used University-Metric, a benchmark with newly collected satellite imagery and labels from original UAV tours",
-      "The article correctly reports that the authors report one-view tests placed 52.08% of frames within 50 metres, with median position error of 45.66 metres",
-      "The article correctly reports that with nine views, median position error was 21.96 metres"
+      "The Pentagon CIO has a new strategic technical advisor"
     ]
   }
 }

@@ -1,0 +1,122 @@
+{
+  "journalist": "Dev Okafor",
+  "role": "Product Correspondent",
+  "journalist_id": "dev_okafor",
+  "generated_at": "2026-10-17T16:12:50.777372+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion\" product technology",
+      "title": "[2610.08764] Rapid Fredholm stabilization of the Kuramoto ...",
+      "url": "https://arxiv.org/abs/2610.08764",
+      "snippet": "Oct 7, 2026 · For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability. We overcome this obstruction by introducing a second boundary input and assigning the two inputs distinct roles.",
+      "page_text": "[2610.08764] Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Electrical Engineering and Systems Science > Systems and Control arXiv:2610.08764 (eess) [Submitted on 6 Oct 2026] Title: Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion Authors: Luke Bhan , Miroslav Krstic , Yuanyuan Shi View a PDF of the paper titled Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion, by Luke Bhan and Miroslav Krstic and Yuanyuan Shi View PDF HTML (experimental) Abstract: We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability. We overcome this obstruction by introducing a second boundary input and assigning the two inputs distinct roles. The key idea, inspired by Heymann's Lemma, is to use the boundary value $u(0,t)$ entirely for a pre-feedback that renders the modified plant controllable through the curvature input $u_{xx}(0,t)$. The latter input then stabilizes the plant through a Fredholm backstepping transformation. We show that two inputs suffice for controllability and are necessary when the plant has an unstable double eigenvalue. However, the Fredholm kernel still must be approximated for implementation. Hence, to enable kernel and gain approximation, we prove continuity of the coefficient-to-gain design map on compact admissible design classes. Unlike Volterra-based continuity proofs using successive approximations, our proof uses the modal representation to control the spectral data, the inverse coefficient system, and the tails of the kernel and gain series. This yields a single neural operator approximation of the gain to any prescribed $L^2$ accuracy across the class. Finally, we establish rapid local stabilization of the nonlinear closed-loop system under both the exact gains and sufficiently accurate approximations. We conclude with numerical results that illustrate prescribed decay rates and the computational cost of the approximations. In particular, we train a Fourier neural operator that achieves typical relative gain errors of approximately $0.1\\%$ and stabilizes all held-out cases tested, including a plant with an unstable double eigenvalue. Comments: 46 pages Subjects: Systems and Control (eess.SY) ; Machine Learning (cs.LG); Analysis of PDEs (math.AP); Optimization and Control (math.OC) Cite as: arXiv:2610.08764 [eess.SY] (or arXiv:2610.08764v1 [eess.SY] for this version) https://doi.org/10.48550/arXiv.2610.08764 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Luke Bhan [ view email ] [v1] Tue, 6 Oct 2026 17:50:54 UTC (412 KB) Full-text links: Access Paper: View a PDF of the paper titled Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion, by Luke Bhan and Miroslav Krstic and Yuanyuan Shi View PDF HTML (experimental) TeX Source view license Current browse context: eess.SY < prev | next > new | recent | 2026-10 Change to browse by: cs cs.LG cs.SY eess math math.AP math.OC References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 5386
+    },
+    {
+      "query": "\"Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion\" product technology",
+      "title": "Rapid Fredholm stabilization of the Kuramoto Sivashinsky ...",
+      "url": "https://arxiv.org/pdf/2610.08764v1",
+      "snippet": "RAPID FREDHOLM STABILIZATION OF THE KURAMOTO–SIVASHINSKY EQUATION WITH UNRESTRICTED, SPATIALLY-VARYING ANTI-DIFFUSION.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion\" product technology",
+      "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky ...",
+      "url": "https://worldneural.com/research/arxiv-2610-08764",
+      "snippet": "Oct 6, 2026 · This research presents a feedback design for rapidly stabilizing the Kuramoto–Sivashinsky equation using two boundary inputs, which is necessary for controllabi",
+      "page_text": "Skip to content Preprint arXiv: 2610.08764 2026-10-06 Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion Read on arXiv ↗ Explore more research ↓ RESEARCH BRIEF At a glance This research presents a feedback design for rapidly stabilizing the Kuramoto–Sivashinsky equation using two boundary inputs, which is necessary for controllability when facing unstable double eigenvalues. The authors demonstrate that their approach allows for a single neural operator approximation of the gain to any prescribed \\(L^2\\) accuracy, achieving typical relative gain errors of approximately 0.1% while stabilizing all tested cases, including those with unstable double eigenvalues. The results indicate that the method can effectively manage the complexities of the system while maintaining computational efficiency. A plain-language summary by WorldNeural. It is not the full paper. FROM THE AUTHORS Abstract We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability. We overcome this obstruction by introducing a second boundary input and assigning the two inputs distinct roles. The key idea, inspired by Heymann&#x27;s Lemma, is to use the boundary value $u(0,t)$ entirely for a pre-feedback that renders the modified plant controllable through the curvature input $u_{xx}(0,t)$. The latter input then stabilizes the plant through a Fredholm backstepping transformation. We show that two inputs suffice for controllability and are necessary when the plant has an unstable double eigenvalue. However, the Fredholm kernel still must be approximated for implementation. Hence, to enable kernel and gain approximation, we prove continuity of the coefficient-to-gain design map on compact admissible design classes. Unlike Volterra-based continuity proofs using successive approximations, our proof uses the modal representation to control the spectral data, the inverse coefficient system, and the tails of the kernel and gain series. This yields a single neural operator approximation of the gain to any prescribed $L^2$ accuracy across the class. Finally, we establish rapid local stabilization of the nonlinear closed-loop system under both the exact gains and sufficiently accurate approximations. We conclude with numerical results that illustrate prescribed decay rates and the computational cost of the approximations. In particular, we train a Fourier neural operator that achieves typical relative gain errors of approximately $0.1\\%$ and stabilizes all held-out cases tested, including a plant with an unstable double eigenvalue. Read with context Continue to the source paper to check its methods, evaluation setting and limitations. Continue on arXiv ↗ PAPER DETAILS Identifier arXiv:2610.08764 Published 2026-10-06 Date on WN 2026-10-07 Explore topic Not tagged yet Authors / affiliations Not listed Last updated 2026-10-13 BEYOND THE PAPER Connect research to practice. Explore AI models → Explore benchmarks → Read AI news → CONTINUE EXPLORING More new research All research → Preprint 2026-10-15 Beyond Downstream QA: Rethinking How We Evaluate Agent Memory The paper critiques current agent memory benchmarks, arguing they inadequately separate memory correctness from retrieval and generation quality, leading to misleading evaluations. The authors introduce FEB-30, a new benchmark consisting of 30 fact-evolution trajectories across 6 diagnostic categories and 3 difficulty levels, which allows for a more accurate assessment of memory systems. When applied to a memory system, FEB-30 revealed a divergence of 16 percentage points between intrinsic and extrinsic evaluations, with the system only correctly classifying memory operations 20% of the time, a failure not captured by traditional evaluations. arXiv: 2610.22209 Explore paper → Preprint 2026-10-15 Generalization Guarantees of Randomized Block Coordinate Descent for Nonconvex Learning This paper establishes high-probability generalization guarantees for randomized block coordinate descent (RBCD) when applied to nonconvex objectives in machine learning. It derives bounds on the gradients of empirical and population risks under standard smoothness assumptions and shows that with polynomially decaying step sizes, tuning the iteration number can optimize convergence rates for population gradients. Additionally, it provides dimension-independent bounds for specific loss functions, enhancing the applicability of these guarantees to high-dimensional problems. arXiv: 2610.22213 Explore paper → Preprint 2026-10-15 FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting FutureLift is a new motion forecasting refiner that utilizes a heterogeneous future graph to improve the accuracy of multimodal trajectory proposals by allowing bidirectional updates. It consistently enhances frozen proposals and outperforms existing refiners on the Argoverse2 and Waymo Open Motion Dataset, achieving first place in minADE (0.5049m) and minFDE (0.9942m) on the WOMD leaderboard, while also obtaining a competitive Soft mAP of 0.4874. The method requires only proposals, scores, and scene context, making it adaptable to various forecasting backbones. arXiv: 2610.22215 Explore paper → WORLDNEURAL WEEKLY A week of AI. A clearer picture. A weekly digest of AI news, research, models, and jobs. Subscribe ← Back to the research library Back to top ↑ Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+      "page_text_length": 5816
+    },
+    {
+      "query": "\"Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion\" product technology",
+      "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky ...",
+      "url": "https://www.catalyzex.com/paper/rapid-fredholm-stabilization-of-the-kuramoto",
+      "snippet": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion: Paper and Code. We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion\" product technology",
+      "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky ...",
+      "url": "https://papers.cool/arxiv/2610.08764",
+      "snippet": "We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability.",
+      "page_text": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion | Cool Papers - Immersive Paper Discovery 2610.08764 Total: 1 #1 Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion [PDF ] [Copy] [Kimi ] [REL] Authors : Luke Bhan , Miroslav Krstic , Yuanyuan Shi We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability. We overcome this obstruction by introducing a second boundary input and assigning the two inputs distinct roles. The key idea, inspired by Heymann&#039;s Lemma, is to use the boundary value $u(0,t)$ entirely for a pre-feedback that renders the modified plant controllable through the curvature input $u_{xx}(0,t)$. The latter input then stabilizes the plant through a Fredholm backstepping transformation. We show that two inputs suffice for controllability and are necessary when the plant has an unstable double eigenvalue. However, the Fredholm kernel still must be approximated for implementation. Hence, to enable kernel and gain approximation, we prove continuity of the coefficient-to-gain design map on compact admissible design classes. Unlike Volterra-based continuity proofs using successive approximations, our proof uses the modal representation to control the spectral data, the inverse coefficient system, and the tails of the kernel and gain series. This yields a single neural operator approximation of the gain to any prescribed $L^2$ accuracy across the class. Finally, we establish rapid local stabilization of the nonlinear closed-loop system under both the exact gains and sufficiently accurate approximations. We conclude with numerical results that illustrate prescribed decay rates and the computational cost of the approximations. In particular, we train a Fourier neural operator that achieves typical relative gain errors of approximately $0.1\\%$ and stabilizes all held-out cases tested, including a plant with an unstable double eigenvalue. Subjects : Systems and Control , Machine Learning , Analysis of PDEs , Optimization and Control Publish : 2026-10-06 17:50:54 UTC Designed by kexue.fm | Powered by kimi.ai Include( OR ): Exclude: Search Filter Highlight Stared Paper(s): #1 Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion Export Magic Token: Kimi Language: 中文 English Desc Language: 中文 English Save Bug report? Issue submit? Please visit: Github: https://github.com/bojone/papers.cool Please read our Disclaimer before proceeding. For more interesting features, please visit kexue.fm and kimi.ai .",
+      "page_text_length": 2930
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "2d9d45d5b3b868e8f2ff91c6cc4ed31f4b2e817330dd9d42480f9bfb854f9c0a",
+      "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2610.08764",
+      "date": "2026-10-06T17:50:54Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Two-input feedback design targets spatially varying Kuramoto–Sivashinsky systems\n\nThe arXiv preprint presents a feedback-control design for stabilizing the Kuramoto–Sivashinsky equation with spatially varying anti-diffusion; it names no specific intended user group. The authors describe it as the first rapid-stabilization design for this setting. It uses two boundary inputs: u(0,t) provides pre-feedback to make the plant controllable through curvature input uₓₓ(0,t), which stabilizes it via a Fredholm backstepping transformation. A Fourier neural operator approximates the gain for implementation. Numerical results report typical relative gain errors of about 0.1% and stabilization in all tested held-out cases, including one with an unstable double eigenvalue. This is a research method, not a released product. Availability: arXiv preprint, submitted 6 October 2026; product access not specified.",
+    "source_record_ids": [
+      "2d9d45d5b3b868e8f2ff91c6cc4ed31f4b2e817330dd9d42480f9bfb854f9c0a"
+    ],
+    "format": "product_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "Two-input feedback design targets spatially varying Kuramoto–Sivashinsky systems\n\nThe arXiv preprint presents a feedback-control design for stabilizing the Kuramoto–Sivashinsky equation with spatially varying anti-diffusion; it names no specific intended user group. The authors describe it as the first rapid-stabilization design for this setting. It uses two boundary inputs: u(0,t) provides pre-feedback to make the plant controllable through curvature input uₓₓ(0,t), which stabilizes it via a Fredholm backstepping transformation. A Fourier neural operator approximates the gain for implementation. Numerical results report typical relative gain errors of about 0.1% and stabilization in all tested held-out cases, including one with an unstable double eigenvalue. This is a research method, not a released product. Availability: arXiv preprint, submitted 6 October 2026; product access not specified.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article is about the correct assigned story: Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+        "The article's headline and body match the assigned story",
+        "The central factual claims are supported by supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article is about the correct assigned story: Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+        "The article's headline and body match the assigned story",
+        "The central factual claims are supported by supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article is about the correct assigned story: Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+      "The article's headline and body match the assigned story",
+      "The central factual claims are supported by supplied evidence",
+      "No material invented event, transaction, amount, date, quotation, organization, person, capability, or relationship is presented as fact",
+      "Analysis is distinguishable from reported fact"
+    ]
+  }
+}

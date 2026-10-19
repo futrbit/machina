@@ -1,0 +1,83 @@
+{
+  "journalist": "Sofia Lindqvist",
+  "role": "Industrial Systems & Infrastructure Correspondent",
+  "journalist_id": "sofia_lindqvist",
+  "generated_at": "2026-10-19T16:21:08.600927+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories\" manufacturing production",
+      "title": "[2610.07857] A Decision-Focused Neural Optimization Framework ...",
+      "url": "https://arxiv.org/abs/2610.07857",
+      "snippet": "Oct 7, 2026 · We propose a neural pipeline that includes a perception model that embeds context covariates, which comprises individual characteristics, trip-specific attributes, and network-level traffic states, into the personalized link costs.",
+      "page_text": "[2610.07857] A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Machine Learning arXiv:2610.07857 (cs) [Submitted on 6 Oct 2026] Title: A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories Authors: Gyeongjun Kim , Yeseul Kang , Keemin Sohn View a PDF of the paper titled A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories, by Gyeongjun Kim and 2 other authors View PDF Abstract: This study formulates individual route reproduction as a shortest-path problem over learned driver-specific latent link costs. The central idea is that, once such latent costs are inferred from contextual information, observed routes can be reproduced without enumerating alternative route sets. We propose a neural pipeline that includes a perception model that embeds context covariates, which comprises individual characteristics, trip-specific attributes, and network-level traffic states, into the personalized link costs. A constrained optimization (CO) layer, which determines the shortest path (SP) based on these estimated costs, follows the perception encoder. To enable end-to-end training, we employ decision-focused learning to align the predicted shortest paths with observed routes. The implicit maximum likelihood estimation (iMLE) provides an approximate gradient of the loss function that contains the non-differentiable CO layer. Furthermore, a regularization term anchors the latent cost distribution to the empirical scale of observed link travel times, mitigating the scale ambiguity inherent in shortest-path supervision. Empirical evaluations demonstrate that the proposed framework outperforms baseline route choice models in path reproduction. The learned latent costs, interpreted as proxies for perceived travel costs, provide plausible explanations for heterogeneous route choices. Subjects: Machine Learning (cs.LG) Cite as: arXiv:2610.07857 [cs.LG] (or arXiv:2610.07857v1 [cs.LG] for this version) https://doi.org/10.48550/arXiv.2610.07857 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Keemin Sohn [ view email ] [v1] Tue, 6 Oct 2026 07:00:49 UTC (2,436 KB) Full-text links: Access Paper: View a PDF of the paper titled A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories, by Gyeongjun Kim and 2 other authors View PDF view license Additional Features Audio Summary Current browse context: cs.LG < prev | next > new | recent | 2026-10 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) IArxiv recommender toggle IArxiv Recommender ( What is IArxiv? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4693
+    },
+    {
+      "query": "\"A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories\" manufacturing production",
+      "title": "A Decision-Focused Neural Optimization Framework for ...",
+      "url": "https://www.catalyzex.com/paper/a-decision-focused-neural-optimization",
+      "snippet": "A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories: Paper and Code. This study formulates individual route reproduction as a shortest-path problem over learned driver-specific latent link costs.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories\" manufacturing production",
+      "title": "A Decision-Focused Neural Optimization Framework for ...",
+      "url": "https://chatpaper.com/paper/357288",
+      "snippet": "A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories cs.LG07 Oct 2026 Gyeongjun Kim, Yeseul Kang, Keemin Sohn Chung-Ang University",
+      "page_text": "A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories AI-Powered Library for Researchers Track research interests, scroll daily paper feeds with AI summary , and chat with bulk of files. 1. A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories cs.LG 07 Oct 2026 Gyeongjun Kim, Yeseul Kang, Keemin Sohn Chung-Ang University This study formulates individual route reproduction as a shortest-path problem over learned driver-specific latent link costs. The central idea is that, once such latent costs are inferred from contextual information, observed routes can be reproduced without enumerating alternative route sets. We propose a neural pipeline that includes a perception model that embeds context covariates, which comprises individual characteristics, trip-specific attributes, and network-level traffic states, into the personalized link costs. A constrained optimization (CO) layer, which determines the shortest path (SP) based on these estimated costs, follows the perception encoder. To enable end-to-end training, we employ decision-focused learning to align the predicted shortest paths with observed routes. The implicit maximum likelihood estimation (iMLE) provides an approximate gradient of the loss function that contains the non-differentiable CO layer. Furthermore, a regularization term anchors the latent cost distribution to the empirical scale of observed link travel times, mitigating the scale ambiguity inherent in shortest-path supervision. Empirical evaluations demonstrate that the proposed framework outperforms baseline route choice models in path reproduction. The learned latent costs, interpreted as proxies for perceived travel costs, provide plausible explanations for heterogeneous route choices. AI Summary Paper AI Summary Sign in for summary - key paper insights organized by academic models. Plus, track and collect interested papers, enjoy your one-stop research experience! Why ChatPaper Interest-Driven Paper Curation Describe your interests as you like, be it keywords or sentence, you’ll get relevant papers every day via AI semantic matching. Top Conferences, One-Stop IJCAI, ICML, CVPR, KDD... Access papers from top AI conferences, all in one tool, for free. Paper Management Made Easy Keep your research organized with our bookmarking feature. Build a well-structured knowledge hub at your fingertips. Chat With Any Paper Got questions? Ask in ChatDOC with one single click. Use AI to pull data, clarify terms, and verify facts with our precise word-level tracing feature. See how it works Watch now 1 min Get Started",
+      "page_text_length": 2681
+    },
+    {
+      "query": "\"A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories\" manufacturing production",
+      "title": "A Decision-Focused Neural Optimization Framework for ...",
+      "url": "https://www.aimodels.fyi/papers/arxiv/decision-focused-neural-optimization-framework-personalized-route",
+      "snippet": "Oct 7, 2026 · A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories\" manufacturing production",
+      "title": "Machine Learning (ML) Papers on X: \"A Decision-Focused Neural ...",
+      "url": "https://x.com/Memoirs/status/2108798130560921739",
+      "snippet": "A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories Gyeongjun Kim, Yeseul Kang, Keemin Sohn https://t.co/EWOUtc9tAJ [𝚌𝚜.𝙻𝙶]",
+      "page_text": "Machine Learning (ML) Papers on X: \"A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories Gyeongjun Kim, Yeseul Kang, Keemin Sohn https://t.co/EWOUtc9tAJ [𝚌𝚜.𝙻𝙶]\" / X Post Log in Sign up Post Log in Sign up Machine Learning (ML) Papers on X: \"A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories Gyeongjun Kim, Yeseul Kang, Keemin Sohn https://t.co/EWOUtc9tAJ [𝚌𝚜.𝙻𝙶]\" Machine Learning (ML) Papers @Memoirs A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories Gyeongjun Kim, Yeseul Kang, Keemin Sohn arxiv.org/abs/2610.07857 [𝚌𝚜.𝙻𝙶] 5:53 AM · Oct 10, 2026 · 92 Views Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Relevant people Machine Learning (ML) Papers @ Memoirs Follow New Machine Learning (ML) papers from arxiv.org : supervised, unsupervised. Thank you to arXiv for use of its open access interoperability. Trending now Machine Learning (ML) Papers @Memoirs A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories Gyeongjun Kim, Yeseul Kang, Keemin Sohn arxiv.org/abs/2610.07857 [𝚌𝚜.𝙻𝙶] 5:53 AM · Oct 10, 2026 · 92 Views",
+      "page_text_length": 1375
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "2ea047e5b32ef99db91b92812501c627db21a5148b7313bdc52b4e4399ad4423",
+      "title": "A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2610.07857",
+      "date": "2026-10-06T07:00:49Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Neural route-reproduction framework remains a research proposal\n\nA paper proposes a neural framework that reconstructs individual vehicle routes by predicting driver-specific link costs from personal, trip and traffic context, then selecting a shortest path through a constrained-optimization layer. Decision-focused learning aligns predicted paths with observed routes; the authors report better path reproduction than baseline models, without quantified performance figures.\n\nThe work identifies no factory, infrastructure deployment or production capacity. It provides no evidence of sustained operational use, and specifies no physical bottleneck. No supply-chain customer, supplier or dependency is identified.",
+    "source_record_ids": [
+      "2ea047e5b32ef99db91b92812501c627db21a5148b7313bdc52b4e4399ad4423"
+    ],
+    "format": "industrial_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

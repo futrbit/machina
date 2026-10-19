@@ -1,0 +1,42 @@
+{
+  "journalist": "Marcus Okafor",
+  "role": "Robotics Correspondent",
+  "journalist_id": "marcus_okafor",
+  "generated_at": "2026-10-17T14:32:33.778769+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "099f598319503a569ae64b30d30311f2c031860a43698b6d4d7bc9e0ab2f3eaa",
+      "title": "MRPilot: Supervising and Intervening LLM-Based Multi-Robot Teams through Mixed Reality",
+      "source": "arXiv cs.RO",
+      "url": "https://arxiv.org/abs/2610.07477",
+      "date": "2026-10-05T22:40:55Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "MRPilot Paper Targets Mixed-Reality Oversight of LLM-Based Robot Teams\n\nAn arXiv paper titled “MRPilot: Supervising and Intervening LLM-Based Multi-Robot Teams through Mixed Reality” concerns human supervision and intervention in teams controlled by large language models. The available record gives no details of the robots’ embodiment, manipulation tasks, training data, autonomy or test environment. It therefore does not establish what the system did, whether it was tested on physical robots, or what capability it demonstrated beyond the paper’s stated subject.",
+    "source_record_ids": [
+      "099f598319503a569ae64b30d30311f2c031860a43698b6d4d7bc9e0ab2f3eaa"
+    ],
+    "format": "robotics_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

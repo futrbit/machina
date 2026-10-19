@@ -1,0 +1,83 @@
+{
+  "journalist": "Ravi Chatterjee",
+  "role": "Explainer",
+  "journalist_id": "ravi_chatterjee",
+  "generated_at": "2026-10-19T19:05:18.740613+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [
+    {
+      "query": "\"An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation\" research paper",
+      "title": "[2610.12003] An Interpretable Approach to PDE Solution ...",
+      "url": "https://arxiv.org/abs/2610.12003",
+      "snippet": "Oct 9, 2026 · We propose SED-MCTS, a Monte Carlo tree search approach that distills structural experience from evaluated expressions and reuses it to guide subsequent symbolic solution search.",
+      "page_text": "[2610.12003] An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation Skip to main content Search arXiv Press Enter to search &middot; Advanced search --> Computer Science > Artificial Intelligence arXiv:2610.12003 (cs) [Submitted on 8 Oct 2026] Title: An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation Authors: Yunpeng Gong , Huolong Wu , Can Yang , Min Jiang View a PDF of the paper titled An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation, by Yunpeng Gong and 3 other authors View PDF HTML (experimental) Abstract: PDE solution discovery aims to identify explicit symbolic expressions for unknown physical fields from observations under known physical constraints. Existing methods, however, collapse data fidelity and physical consistency into a single terminal score used as the sole feedback signal, providing little information about which subexpressions are responsible for a candidate's final performance. This opaque terminal feedback severely limits the interpretability of the search process itself, offering no insight into why a candidate succeeds or fails. Consequently, reusable structures in otherwise suboptimal candidates are often discarded, whereas incidental syntax along successful search trajectories may be repeatedly reinforced. We propose SED-MCTS, a Monte Carlo tree search approach that distills structural experience from evaluated expressions and reuses it to guide subsequent symbolic solution search. Through counterfactual subtree interventions, SED-MCTS estimates local structural contributions, routes reliable evidence to the responsible construction edges, and preserves useful components in a refined structural archive. The approach naturally extends to coupled multiphysics systems. Across a diverse suite of PDE benchmarks, SED-MCTS achieves strong performance under a fixed evaluation budget and improves search efficiency and robustness under noisy or scarce observations. Comments: Submitted for review Subjects: Artificial Intelligence (cs.AI) Cite as: arXiv:2610.12003 [cs.AI] (or arXiv:2610.12003v1 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2610.12003 Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Yunpeng Gong [ view email ] [v1] Thu, 8 Oct 2026 14:07:20 UTC (1,538 KB) Full-text links: Access Paper: View a PDF of the paper titled An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation, by Yunpeng Gong and 3 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.AI < prev | next > new | recent | 2026-10 Change to browse by: cs References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation &times; loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )",
+      "page_text_length": 4638
+    },
+    {
+      "query": "\"An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation\" research paper",
+      "title": "An Interpretable Approach to PDE Solution Discovery via ...",
+      "url": "https://arxiv.org/pdf/2610.12003",
+      "snippet": "We propose SED-MCTS, a Monte Carlo tree search approach that distills structural experience from evaluated expressions and reuses it to guide subsequent symbolic solution search.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation\" research paper",
+      "title": "An Interpretable Approach to PDE Solution Discovery via ...",
+      "url": "https://arxiv.deeppaper.ai/papers/2610.12003v1",
+      "snippet": "An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation",
+      "page_text": "An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation | Arxiv - DeepPaper An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation PDF DeepRead Key Contributions Proposed SED-MCTS, a novel symbolic regression framework that uses counterfactual subtree interventions to distill and reuse structural knowledge, significantly improving search efficiency and interpretability in PDE discovery. Abstract PDE solution discovery aims to identify explicit symbolic expressions for unknown physical fields from observations under known physical constraints. Existing methods, however, collapse data fidelity and physical consistency into a single terminal score used as the sole feedback signal, providing little information about which subexpressions are responsible for a candidate's final performance. This opaque terminal feedback severely limits the interpretability of the search process itself, offering no insight into why a candidate succeeds or fails. Consequently, reusable structures in otherwise suboptimal candidates are often discarded, whereas incidental syntax along successful search trajectories may be repeatedly reinforced. We propose SED-MCTS, a Monte Carlo tree search approach that distills structural experience from evaluated expressions and reuses it to guide subsequent symbolic solution search. Through counterfactual subtree interventions, SED-MCTS estimates local structural contributions, routes reliable evidence to the responsible construction edges, and preserves useful components in a refined structural archive. The approach naturally extends to coupled multiphysics systems. Across a diverse suite of PDE benchmarks, SED-MCTS achieves strong performance under a fixed evaluation budget and improves search efficiency and robustness under noisy or scarce observations. Summary SED-MCTS introduces a structural experience distillation mechanism into MCTS for symbolic PDE discovery, enhancing interpretability and search efficiency by evaluating local subexpression contributions. Subjects cs.AI arXiv 2610.12003v1 Paper Type framework Method Domain Symbolic Regression AI for Science PDE Discovery Authors Yunpeng Gong, Huolong Wu, Can Yang, Min Jiang Submitted Oct 08, 2026 Similar Papers 0 papers View More",
+      "page_text_length": 2308
+    },
+    {
+      "query": "\"An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation\" research paper",
+      "title": "An Interpretable Approach to PDE Solution Discovery via ...",
+      "url": "https://www.catalyzex.com/paper/an-interpretable-approach-to-pde-solution",
+      "snippet": "An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation: Paper and Code. PDE solution discovery aims to identify explicit symbolic expressions for unknown physical fields from observations under known physical constraints.",
+      "page_text": "",
+      "page_text_length": 0
+    },
+    {
+      "query": "\"An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation\" research paper",
+      "title": "An Interpretable Approach to PDE Solution Discovery via ...",
+      "url": "https://www.aimodels.fyi/papers/arxiv/interpretable-approach-pde-solution-discovery-via-structural",
+      "snippet": "Oct 9, 2026 · The paper’s strongest technical claim is that local counterfactual evidence can improve both MCTS selection and component reuse under a fixed terminal-expression budget.",
+      "page_text": "",
+      "page_text_length": 0
+    }
+  ],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "f3b3a812097b0ceeae280f0221a9d5b6e82f26545142d54825422597921d2362",
+      "title": "An Interpretable Approach to PDE Solution Discovery via Structural Experience Distillation",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.12003",
+      "date": "2026-10-08T14:07:20Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "SED-MCTS uses counterfactual subtrees to guide PDE solution search\n\nSED-MCTS applies Monte Carlo tree search to discover symbolic expressions for physical fields from observations and known physical constraints. It addresses a limitation of terminal-score feedback: a single score for data fidelity and physical consistency does not reveal which subexpressions help or hurt a candidate.\n\nThe method uses counterfactual subtree interventions to estimate local structural contributions, routes reliable evidence to construction edges and stores useful components in a structural archive for later searches.\n\nThe authors report results across a suite of PDE benchmarks, with improved search efficiency and robustness under noisy or scarce observations at a fixed evaluation budget. The available abstract gives no benchmark names, metrics, numerical gains or detailed baseline comparisons, limiting assessment of the reported improvements.",
+    "source_record_ids": [
+      "f3b3a812097b0ceeae280f0221a9d5b6e82f26545142d54825422597921d2362"
+    ],
+    "format": "explainer_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  }
+}

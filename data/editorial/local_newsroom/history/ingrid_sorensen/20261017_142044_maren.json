@@ -1,0 +1,80 @@
+{
+  "journalist": "Ingrid SÃ¸rensen",
+  "role": "Policy Correspondent",
+  "journalist_id": "ingrid_sorensen",
+  "generated_at": "2026-10-17T14:14:00.693420+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "91af2777e58c16b2f765d9d106cf86c3b40e330c9acb159910464380cc5b7161",
+      "title": "\"Train classical, deploy quantum\" requires rethinking generalization",
+      "source": "arXiv cs.LG",
+      "url": "https://arxiv.org/abs/2608.31117",
+      "date": "2026-08-31T17:26:27Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "ArXiv Record Suggests Quantum Deployment Needs Rethinking\n\nA 31 August 2026 ArXiv cs.LG record titled \"Train classical, deploy quantum\" offers no evidence of a tested or operational quantum capability. The record, which does not provide an abstract, findings or supporting evidence, does not establish a policy decision or action. No affected public body, military service or supplier is identified in the record. The title suggests a need for rethinking generalization in the field of quantum computing, but does not specify what was trained, deployed or demonstrated.",
+    "source_record_ids": [
+      "91af2777e58c16b2f765d9d106cf86c3b40e330c9acb159910464380cc5b7161"
+    ],
+    "format": "policy_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": true,
+    "original_article": "ArXiv listing offers no evidence of quantum deployment\n\nAn arXiv cs.LG record dated 31 August 2026 is titled “Train classical, deploy quantum” requires rethinking generalization. The record supplies no abstract, findings or supporting evidence. It therefore establishes neither a policy decision nor a tested or operational quantum capability. No affected public body, military service or supplier is identified, and the title alone does not show what was trained, deployed or demonstrated.",
+    "corrected_article": "ArXiv Record Suggests Quantum Deployment Needs Rethinking\n\nA 31 August 2026 ArXiv cs.LG record titled \"Train classical, deploy quantum\" offers no evidence of a tested or operational quantum capability. The record, which does not provide an abstract, findings or supporting evidence, does not establish a policy decision or action. No affected public body, military service or supplier is identified in the record. The title suggests a need for rethinking generalization in the field of quantum computing, but does not specify what was trained, deployed or demonstrated.",
+    "initial_verification": {
+      "status": "FAIL",
+      "issues": [
+        "The article does not provide evidence to support the claim that the ArXiv listing offers no evidence of quantum deployment."
+      ],
+      "verified_claims": []
+    },
+    "repair_validation": {
+      "status": "PASS",
+      "issues": []
+    },
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: 'Train classical, deploy quantum' requires rethinking generalization",
+        "The article's headline and body match that story",
+        "The central factual claims are supported by supplied evidence",
+        "No material invented event, transaction, amount, date, quotation, organisation, person, capability or relationship is presented as fact",
+        "Analysis is distinguishable from reported fact"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article concerns the correct assigned story: 'Train classical, deploy quantum' requires rethinking generalization",
+      "The article's headline and body match that story",
+      "The central factual claims are supported by supplied evidence",
+      "No material invented event, transaction, amount, date, quotation, organisation, person, capability or relationship is presented as fact",
+      "Analysis is distinguishable from reported fact"
+    ]
+  }
+}

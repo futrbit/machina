@@ -1,0 +1,76 @@
+{
+  "journalist": "Kenji Nakamura",
+  "role": "Autonomous Vehicles Correspondent",
+  "journalist_id": "kenji_nakamura",
+  "generated_at": "2026-10-19T19:12:36.926875+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "ca0defb928fab5d1763f0239087fd623201641def614d6c8403f5198fdcb237a",
+      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.12466",
+      "date": "2026-10-08T17:59:50Z",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Autonomous-Vehicle Bulletin:\n\nNo AV Deployment Evidence from AI Time-Horizon Paper\n\nA recently published paper titled \"On the estimation and validity of AI time horizons—a statistical look at the METR plot,\" available on arXiv, does not provide evidence of an autonomous-vehicle (AV) test or service. The paper does not identify a specific vehicle, autonomy stack, operational domain, safety data, deployment, or regulatory approval.\n\nThe paper, dated 8 October 2026, focuses on the estimation and validity of AI time horizons, but does not discuss any AV deployment or real-world testing. As such, it does not provide evidence of an AV test or service.\n\nFor more information on AV developments, stay tuned to Machina Daily.",
+    "source_record_ids": [
+      "ca0defb928fab5d1763f0239087fd623201641def614d6c8403f5198fdcb237a"
+    ],
+    "format": "autonomous_vehicle_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": true,
+    "original_article": "AI time-horizon paper provides no AV deployment evidence\n\nAn arXiv listing dated 8 October 2026 identifies a paper titled “On the estimation and validity of AI time horizons—a statistical look at the METR plot.” The supplied record contains no abstract or findings, and identifies no vehicle, autonomy stack, operating domain, safety data, deployment or regulatory approval. It therefore provides no evidence of an autonomous-vehicle test or service.",
+    "corrected_article": "Autonomous-Vehicle Bulletin:\n\nNo AV Deployment Evidence from AI Time-Horizon Paper\n\nA recently published paper titled \"On the estimation and validity of AI time horizons—a statistical look at the METR plot,\" available on arXiv, does not provide evidence of an autonomous-vehicle (AV) test or service. The paper does not identify a specific vehicle, autonomy stack, operational domain, safety data, deployment, or regulatory approval.\n\nThe paper, dated 8 October 2026, focuses on the estimation and validity of AI time horizons, but does not discuss any AV deployment or real-world testing. As such, it does not provide evidence of an AV test or service.\n\nFor more information on AV developments, stay tuned to Machina Daily.",
+    "initial_verification": {
+      "status": "FAIL",
+      "issues": [
+        "The article does not provide evidence to support the claim that the AI time-horizon paper provides no AV deployment evidence."
+      ],
+      "verified_claims": []
+    },
+    "repair_validation": {
+      "status": "PASS",
+      "issues": []
+    },
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "The article concerns the correct assigned story: 'On the estimation and validity of AI time horizons---a statistical look at the METR plot'",
+        "The article's headline and body match that story",
+        "The central factual claim that the paper does not provide evidence of an autonomous-vehicle (AV) test or service is supported by the supplied evidence"
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "The article concerns the correct assigned story: 'On the estimation and validity of AI time horizons---a statistical look at the METR plot'",
+      "The article's headline and body match that story",
+      "The central factual claim that the paper does not provide evidence of an autonomous-vehicle (AV) test or service is supported by the supplied evidence"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "journalist": "Kenji Nakamura",
+  "role": "Autonomous Vehicles Correspondent",
+  "journalist_id": "kenji_nakamura",
+  "generated_at": "2026-10-19T17:53:38.994865+00:00",
+  "model": "mistral:latest",
+  "source": "machina_intelligence_briefs.json",
+  "live_web_research": [],
+  "records_considered": 1,
+  "selected_records": [
+    {
+      "record_id": "4ad0d1ae4ab5ee50a087030137edb9f40e305b89de1eb6180cd74646d5a53afa",
+      "title": "Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models",
+      "source": "CTRL + ALT + DEFENSE",
+      "url": "https://defensescoop.com/2026/10/08/senate-bill-expand-dod-oversight-commercial-frontier-ai-models",
+      "date": "2026-10-08T22:20:50+00:00",
+      "source_type": null,
+      "development_type": null,
+      "entities": [],
+      "specialist_routing": [],
+      "claims": [],
+      "quantitative_signals": [],
+      "evidence": [],
+      "intelligence_state": "",
+      "open_questions": [],
+      "evidence_available": false,
+      "facts_from_source": false,
+      "independent_verification_performed": false
+    }
+  ],
+  "article": {
+    "body": "Bipartisan Senate bill would expand DOD oversight of commercial frontier AI\n\nA bipartisan Senate bill would push the Department of Defense to expand oversight of commercial frontier AI models already in use, according to the assigned report. The available information does not establish the bill’s provisions, legislative status, or the specific oversight powers it would add.",
+    "source_record_ids": [
+      "4ad0d1ae4ab5ee50a087030137edb9f40e305b89de1eb6180cd74646d5a53afa"
+    ],
+    "format": "autonomous_vehicle_bulletin"
+  },
+  "persona_validation": {
+    "status": "PASS",
+    "issues": []
+  },
+  "maren_repair": {
+    "attempted": false,
+    "original_article": "Bipartisan Senate bill would expand DOD oversight of commercial frontier AI\n\nA bipartisan Senate bill would push the Department of Defense to expand oversight of commercial frontier AI models already in use, according to the assigned report. The available information does not establish the bill’s provisions, legislative status, or the specific oversight powers it would add.",
+    "corrected_article": null,
+    "initial_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "A bipartisan Senate bill would push the Department of Defense to expand oversight of commercial frontier AI models already in use."
+      ]
+    },
+    "repair_validation": null,
+    "final_verification": {
+      "status": "PASS",
+      "issues": [],
+      "verified_claims": [
+        "A bipartisan Senate bill would push the Department of Defense to expand oversight of commercial frontier AI models already in use."
+      ]
+    }
+  },
+  "maren_verification": {
+    "status": "PASS",
+    "issues": [],
+    "verified_claims": [
+      "A bipartisan Senate bill would push the Department of Defense to expand oversight of commercial frontier AI models already in use."
+    ]
+  }
+}
