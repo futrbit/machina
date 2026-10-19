@@ -4,8 +4,18 @@ from datetime import datetime, timezone
 import json, re, email.utils as eutils
 
 app = Flask(__name__)
+
+
+from company_data import company_data_bp
+app.register_blueprint(company_data_bp)
+from signals_observatory import signals_bp
+app.register_blueprint(signals_bp)
 from dashboard_control import dashboard_bp
 app.register_blueprint(dashboard_bp)
+from intelligence_layer import intelligence_bp
+from market_data import market_bp
+app.register_blueprint(market_bp)
+app.register_blueprint(intelligence_bp)
 REWRITTEN_DIR = Path(__file__).parent / "data" / "rewritten"
 RAW_DIR       = Path(__file__).parent / "data" / "raw"
 INTELLIGENCE_FILE = Path(__file__).parent / "data" / "intelligence" / "article_analysis_v2.json"
@@ -34,7 +44,7 @@ def format_date(dt: datetime | str | None) -> str:
         dt = parse_dt(dt)
     if not isinstance(dt, datetime):
         return str(dt)
-    return dt.astimezone(timezone.utc).strftime("%b %d, %Y Ã¢â‚¬Â¢ %I:%M %p UTC")
+    return dt.astimezone(timezone.utc).strftime("%b %d, %Y ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ %I:%M %p UTC")
 
 def parse_dt(raw: str | None) -> datetime | None:
     if not raw:
@@ -197,10 +207,69 @@ def frontend_files(f): return send_from_directory("frontend", f)
 @app.route("/articles")
 def newest():         return jsonify(newest_balanced())
 
+_ARCHIVE_CACHE = {"loaded_at": 0.0, "items": []}
+
 @app.route("/archive.json")
 def archive_json():
-    # Combine rewritten + raw (but exclude duplicates)
-    return jsonify(load_all_articles_from(REWRITTEN_DIR, RAW_DIR))
+    import time
+
+    now = time.monotonic()
+
+    if now - _ARCHIVE_CACHE["loaded_at"] >= 60 or not _ARCHIVE_CACHE["items"]:
+        _ARCHIVE_CACHE["items"] = load_all_articles_from(REWRITTEN_DIR, RAW_DIR)
+        _ARCHIVE_CACHE["loaded_at"] = now
+
+    items = _ARCHIVE_CACHE["items"]
+
+    categories = sorted({
+        str(item.get("category"))
+        for item in items
+        if item.get("category")
+    })
+
+    selected_category = request.args.get("category", "all")
+    query = request.args.get("q", "").strip().lower()
+
+    if selected_category != "all":
+        items = [
+            item for item in items
+            if str(item.get("category") or "") == selected_category
+        ]
+
+    if query:
+        def searchable_text(item):
+            authors = item.get("authors") or []
+            if isinstance(authors, str):
+                authors = [authors]
+
+            return " ".join([
+                str(item.get("title") or ""),
+                str(item.get("category") or ""),
+                " ".join(str(author) for author in authors),
+            ]).lower()
+
+        items = [item for item in items if query in searchable_text(item)]
+
+    total = len(items)
+    per_page = 25
+    total_pages = max(1, (total + per_page - 1) // per_page)
+
+    try:
+        page = max(1, int(request.args.get("page", "1")))
+    except (TypeError, ValueError):
+        page = 1
+
+    page = min(page, total_pages)
+    start = (page - 1) * per_page
+
+    return jsonify({
+        "articles": items[start:start + per_page],
+        "total": total,
+        "page": page,
+        "per_page": per_page,
+        "total_pages": total_pages,
+        "categories": categories,
+    })
 
 @app.route("/intelligence/signals")
 def intelligence_signals():
@@ -568,7 +637,7 @@ def load_five_more_journalists_newsroom():
 
                 data["desk"] = "five_more_journalists"
                 data["desk_label"] = (
-                    "MACHINA DAILY — INVESTIGATIVE DESK"
+                    "MACHINA DAILY â€” INVESTIGATIVE DESK"
                 )
 
                 stories.append(data)
@@ -649,7 +718,7 @@ def load_combined_newsroom():
 
             story.setdefault(
                 "desk_label",
-                "MACHINA DAILY — ORIGINAL DESK"
+                "MACHINA DAILY â€” ORIGINAL DESK"
             )
 
             combined.append(story)
@@ -667,7 +736,7 @@ def load_combined_newsroom():
 
             story.setdefault(
                 "desk_label",
-                "MACHINA DAILY — INVESTIGATIVE DESK"
+                "MACHINA DAILY â€” INVESTIGATIVE DESK"
             )
 
             combined.append(story)
@@ -802,7 +871,7 @@ def daily_desk_data(journalist_id):
     model = newsroom.get("model")
 
     # ------------------------------------------------------------
-    # YUKI — EDITORIAL RANKING
+    # YUKI â€” EDITORIAL RANKING
     # ------------------------------------------------------------
 
     if journalist_id == "yuki_tanaka":
@@ -1197,6 +1266,8 @@ def weekly_data():
 # ---------- main ---------------------------------------------
 if __name__ == "__main__":
     app.run(debug=True)
+
+
 
 
 
