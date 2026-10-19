@@ -2288,3 +2288,806 @@ section {
   }
 }
 
+
+
+/* =========================================================
+   MACHINA DAILY — LIGHT EDITORIAL THEME
+   Added as an override; original styling preserved.
+========================================================= */
+
+:root {
+  --black: #ffffff;
+  --black-2: #f8fafc;
+  --panel: #f3f6f9;
+  --panel-2: #eaf0f5;
+  --white: #172033;
+  --grey: #536273;
+  --muted: #718096;
+  --line: #dce4ec;
+  --accent: #1769aa;
+}
+
+body {
+  background: #ffffff;
+  color: #172033;
+}
+
+.site-header,
+.system-bar,
+.hero-section,
+.trending-section,
+.signals-section,
+.advertising-section,
+.site-footer {
+  background-color: #ffffff;
+  color: #172033;
+}
+
+.site-header,
+.system-bar,
+.main-navigation {
+  border-color: #dce4ec;
+}
+
+.trend-item,
+.signal-card {
+  border-color: #dce4ec;
+}
+
+.trend-item:hover {
+  background: #f3f7fb;
+}
+
+.signal-image,
+.hero-image {
+  background-color: #edf2f7;
+}
+
+.card-number {
+  background: rgba(255, 255, 255, 0.94);
+  color: #1769aa;
+}
+
+.analysis-section {
+  background: #eaf3fb;
+  color: #172033;
+}
+
+.analysis-index,
+.analysis-side {
+  border-color: #cbd9e6;
+}
+
+.analysis-content h2 span {
+  -webkit-text-stroke-color: #1769aa;
+}
+
+.analysis-button {
+  background: #1769aa;
+  color: #ffffff;
+}
+
+.analysis-button:hover {
+  background: #105487;
+}
+
+.analysis-rule {
+  background: #b8c9d9;
+}
+
+.analysis-stat {
+  border-color: #cbd9e6;
+}
+
+.newsletter-section {
+  background: #f3f6f9;
+  color: #172033;
+}
+
+.newsletter-index {
+  color: #1769aa;
+  border-color: #dce4ec;
+}
+
+.newsletter-kicker,
+.newsletter-main p {
+  color: #536273;
+}
+
+.newsletter-main h2 span,
+.footer-brand span {
+  color: #1769aa;
+}
+
+.newsletter-button {
+  background: #1769aa;
+  color: #ffffff;
+}
+
+.advertising-box {
+  border-color: #cbd5e1;
+  color: #64748b;
+}
+
+.footer-navigation a,
+.footer-navigation button {
+  color: #536273;
+}
+
+.footer-navigation a:hover,
+.footer-navigation button:hover {
+  color: #1769aa;
+}
+
+.newsletter-dialog {
+  background: #ffffff;
+  color: #172033;
+}
+
+.newsletter-close {
+  background: #172033;
+  color: #ffffff;
+}
+
+.modal-left {
+  background: #eaf3fb;
+  color: #172033;
+}
+
+.email-row button {
+  background: #1769aa;
+  color: #ffffff;
+}
+
+.article-reader {
+  background: #ffffff;
+  color: #172033;
+}
+
+.reader-topbar {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: #dce4ec;
+  color: #172033;
+}
+
+.reader-topbar button,
+.reader-meta,
+.reader-label,
+.reader-source a {
+  color: #1769aa;
+}
+
+.reader-topbar span:nth-child(2),
+.reader-topbar span:last-child,
+.reader-author,
+.reader-source span {
+  color: #64748b;
+}
+
+.reader-body {
+  color: #263548;
+}
+
+.reader-source {
+  border-color: #dce4ec;
+}
+
+.loading-state,
+.error-state,
+.empty-state {
+  color: #536273;
+}
+
+@media (max-width: 768px) {
+  .main-navigation {
+    background: #ffffff;
+    border-color: #dce4ec;
+    box-shadow: 0 12px 35px rgba(15, 35, 55, 0.10);
+  }
+}
+
+
+
+/* =========================================================
+   MACHINADAILY HOMEPAGE REDESIGN — OCTOBER 2026
+   Compact front page + data-backed editorial sections
+========================================================= */
+
+.frontpage-lead-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(280px, 0.8fr);
+  gap: 28px;
+  align-items: start;
+  padding: 0 0 42px;
+}
+
+.frontpage-lead-grid > section {
+  min-width: 0;
+}
+
+.frontpage-lead-grid .hero-story {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  min-height: 420px;
+}
+
+.frontpage-lead-grid .hero-image img {
+  min-height: 420px;
+}
+
+.frontpage-lead-grid .hero-copy h1 {
+  font-size: clamp(28px, 3vw, 48px);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.frontpage-lead-grid .hero-copy {
+  min-width: 0;
+  padding: 26px;
+  gap: 18px;
+}
+
+.frontpage-lead-grid .section-header {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.frontpage-lead-grid .section-header h2 {
+  font-size: clamp(20px, 2vw, 28px);
+}
+
+.frontpage-lead-grid .section-description {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.frontpage-lead-grid .trend-item {
+  grid-template-columns: 34px minmax(0, 1fr) 20px;
+  gap: 10px;
+  min-height: 84px;
+  padding: 12px 8px;
+}
+
+.frontpage-lead-grid .trend-title {
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.homepage-data-section {
+  padding: 64px clamp(20px, 5vw, 76px);
+  border-top: 1px solid var(--line);
+}
+
+.homepage-data-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.homepage-eyebrow,
+.homepage-card-meta,
+.homepage-card-byline,
+.homepage-company-status {
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.homepage-eyebrow {
+  color: var(--accent);
+}
+
+.homepage-data-heading h2 {
+  margin: 12px 0;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: .98;
+  letter-spacing: -.05em;
+}
+
+.homepage-data-heading p {
+  max-width: 640px;
+  margin: 0;
+  color: var(--grey);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.homepage-view-link {
+  flex-shrink: 0;
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: .07em;
+  text-decoration: none;
+  color: var(--black);
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 8px;
+}
+
+.homepage-view-link:hover {
+  color: var(--accent);
+}
+
+.homepage-briefing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.homepage-briefing-card {
+  min-width: 0;
+  padding: 24px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.homepage-card-meta {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--grey);
+  line-height: 1.5;
+}
+
+.homepage-status {
+  display: inline-block;
+  padding: 5px 7px;
+  font-size: 9px;
+  line-height: 1.3;
+  text-align: right;
+}
+
+.status-pass {
+  background: rgba(45, 130, 85, .12);
+  color: #216b43;
+}
+
+.status-review {
+  background: rgba(180, 110, 20, .12);
+  color: #88530b;
+}
+
+.homepage-briefing-card h3 {
+  margin: 22px 0 12px;
+  font-size: clamp(19px, 2vw, 27px);
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+
+.homepage-briefing-card h3 a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.homepage-briefing-card h3 a:hover {
+  color: var(--accent);
+}
+
+.homepage-briefing-card p {
+  color: var(--grey);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.homepage-card-byline {
+  margin-top: 22px;
+  color: var(--grey);
+}
+
+.newsroom-strip-section {
+  background: var(--panel);
+}
+
+.homepage-newsroom-list {
+  border-top: 1px solid var(--line);
+}
+
+.homepage-newsroom-item {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) 24px;
+  align-items: center;
+  gap: 16px;
+  padding: 19px 8px;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--black);
+}
+
+.homepage-newsroom-item:hover {
+  background: rgba(100, 120, 130, .06);
+}
+
+.homepage-newsroom-number {
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  color: var(--accent);
+}
+
+.homepage-newsroom-copy {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.homepage-newsroom-copy strong {
+  font-size: clamp(15px, 1.8vw, 21px);
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.homepage-newsroom-copy small {
+  color: var(--grey);
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.homepage-newsroom-arrow {
+  color: var(--accent);
+  text-align: right;
+}
+
+.homepage-data-loading {
+  padding: 24px;
+  color: var(--grey);
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.company-intelligence-section {
+  grid-template-columns: 70px minmax(0, 1fr) 280px;
+  min-height: 0;
+  background: var(--accent);
+}
+
+.company-intelligence-section .analysis-content {
+  padding: 54px clamp(22px, 4vw, 60px);
+}
+
+.company-intelligence-section .analysis-content h2 {
+  font-size: clamp(40px, 5vw, 72px);
+  line-height: .92;
+}
+
+.company-intelligence-section .analysis-content p {
+  max-width: 760px;
+  line-height: 1.65;
+}
+
+.company-intelligence-section .analysis-label {
+  margin-bottom: 24px;
+}
+
+.company-observatory-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 28px 0;
+  padding: 18px 0;
+  border-top: 1px solid rgba(0,0,0,.25);
+  border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+.company-observatory-stats > div {
+  display: grid;
+  gap: 7px;
+}
+
+.company-observatory-stats strong {
+  font-size: clamp(22px, 2.8vw, 34px);
+  letter-spacing: -.04em;
+}
+
+.company-observatory-stats span {
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  line-height: 1.5;
+  letter-spacing: .04em;
+}
+
+.homepage-company-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.homepage-company-card {
+  min-width: 0;
+  padding: 18px;
+  background: rgba(255,255,255,.32);
+  border: 1px solid rgba(0,0,0,.16);
+}
+
+.homepage-company-status {
+  color: rgba(0,0,0,.7);
+  overflow-wrap: anywhere;
+}
+
+.homepage-company-card h3 {
+  margin: 13px 0 7px;
+  font-size: 19px;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.homepage-company-sector {
+  font-size: 11px;
+  opacity: .8;
+}
+
+.homepage-company-mentions {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.homepage-company-mentions strong {
+  font-size: 23px;
+}
+
+.homepage-company-mentions span,
+.homepage-company-card p,
+.company-data-caveat {
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.homepage-company-card p {
+  margin-bottom: 0;
+}
+
+.company-data-caveat {
+  margin-top: 18px;
+  opacity: .8;
+}
+
+.company-intelligence-section #machinaSignalsHome {
+  display: none !important;
+}
+
+@media (max-width: 1000px) {
+  .frontpage-lead-grid {
+    grid-template-columns: minmax(0, 1.25fr) minmax(250px, .85fr);
+    gap: 18px;
+  }
+
+  .frontpage-lead-grid .hero-story {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .frontpage-lead-grid .hero-image img {
+    height: 260px;
+    min-height: 260px;
+  }
+
+  .frontpage-lead-grid .hero-copy h1 {
+    font-size: clamp(27px, 4vw, 42px);
+  }
+
+  .company-intelligence-section {
+    grid-template-columns: 54px minmax(0, 1fr);
+  }
+
+  .company-intelligence-section .analysis-side {
+    grid-column: 2;
+    padding: 0 28px 32px;
+  }
+}
+
+@media (max-width: 700px) {
+  .frontpage-lead-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  .frontpage-lead-grid .hero-image img {
+    height: 240px;
+    min-height: 240px;
+  }
+
+  .frontpage-lead-grid .hero-copy {
+    padding: 22px;
+  }
+
+  .frontpage-lead-grid .hero-copy h1 {
+    font-size: clamp(30px, 8vw, 44px);
+  }
+
+  .frontpage-lead-grid .trend-item {
+    grid-template-columns: 32px minmax(0, 1fr) 20px;
+  }
+
+  .homepage-data-section {
+    padding: 42px 20px;
+  }
+
+  .homepage-data-heading {
+    align-items: start;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .homepage-briefing-grid,
+  .homepage-company-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .homepage-briefing-card {
+    padding: 20px;
+  }
+
+  .homepage-card-meta {
+    flex-direction: column;
+  }
+
+  .company-intelligence-section {
+    grid-template-columns: 42px minmax(0, 1fr);
+  }
+
+  .company-intelligence-section .analysis-content {
+    padding: 38px 18px;
+  }
+
+  .company-intelligence-section .analysis-content h2 {
+    font-size: clamp(36px, 10vw, 56px);
+  }
+
+  .company-observatory-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .company-intelligence-section .analysis-side {
+    padding: 0 18px 28px;
+  }
+
+  .homepage-newsroom-item {
+    grid-template-columns: 28px minmax(0, 1fr) 18px;
+    gap: 10px;
+    padding: 16px 2px;
+  }
+}
+
+/* COMPANY OBSERVATORY COMPACT WHITE OVERRIDE */
+#analysis.company-intelligence-section {
+  background: #fff !important;
+  color: #17212b !important;
+  min-height: 0 !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+#analysis.company-intelligence-section .analysis-content {
+  padding: 24px 30px !important;
+  gap: 8px !important;
+}
+#analysis.company-intelligence-section .analysis-index {
+  color: #536879 !important;
+}
+#analysis.company-intelligence-section .analysis-label {
+  color: #536879 !important;
+  font-size: 10px !important;
+  margin-bottom: 4px !important;
+}
+#analysis.company-intelligence-section .analysis-content h2 {
+  color: #17212b !important;
+  font-size: clamp(28px, 3.5vw, 44px) !important;
+  line-height: 1.05 !important;
+  margin: 0 0 8px !important;
+}
+#analysis.company-intelligence-section .analysis-content h2 span {
+  color: #536879 !important;
+  -webkit-text-stroke: 0 !important;
+}
+#analysis.company-intelligence-section .analysis-content > p {
+  color: #53616d !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  margin: 0 0 8px !important;
+}
+#analysis.company-intelligence-section .company-observatory-stats {
+  gap: 8px !important;
+  margin: 8px 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+#analysis.company-intelligence-section .company-observatory-stats > div {
+  background: #263746 !important;
+  color: #fff !important;
+  padding: 10px !important;
+  border-radius: 6px !important;
+  gap: 4px !important;
+}
+#analysis.company-intelligence-section .company-observatory-stats strong {
+  color: #fff !important;
+  font-size: clamp(18px, 2vw, 26px) !important;
+}
+#analysis.company-intelligence-section .company-observatory-stats span {
+  color: #e0e8ee !important;
+  font-size: 9px !important;
+}
+#analysis.company-intelligence-section .homepage-company-grid {
+  gap: 8px !important;
+}
+#analysis.company-intelligence-section .homepage-company-card {
+  background: #263746 !important;
+  color: #fff !important;
+  border: 1px solid #344b5d !important;
+  border-radius: 7px !important;
+  padding: 12px !important;
+}
+#analysis.company-intelligence-section .homepage-company-card h3 {
+  color: #fff !important;
+  font-size: 15px !important;
+  margin: 7px 0 !important;
+}
+#analysis.company-intelligence-section .homepage-company-card p,
+#analysis.company-intelligence-section .homepage-company-card span,
+#analysis.company-intelligence-section .homepage-company-card strong,
+#analysis.company-intelligence-section .homepage-company-card .homepage-company-sector,
+#analysis.company-intelligence-section .homepage-company-card .homepage-company-mentions,
+#analysis.company-intelligence-section .homepage-company-status {
+  color: #fff !important;
+}
+#analysis.company-intelligence-section .homepage-company-card p,
+#analysis.company-intelligence-section .company-data-caveat {
+  font-size: 10px !important;
+  line-height: 1.45 !important;
+}
+#analysis.company-intelligence-section .company-data-caveat {
+  color: #687783 !important;
+  margin-top: 8px !important;
+}
+#analysis.company-intelligence-section .analysis-side {
+  padding: 24px 20px !important;
+  border-color: #e0e6eb !important;
+}
+#analysis.company-intelligence-section .analysis-side .analysis-stat strong {
+  color: #263746 !important;
+}
+#analysis.company-intelligence-section .analysis-side .analysis-stat span {
+  color: #687783 !important;
+}
+@media (max-width: 700px) {
+  #analysis.company-intelligence-section .analysis-content {
+    padding: 22px 16px !important;
+  }
+  #analysis.company-intelligence-section .company-observatory-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  #analysis.company-intelligence-section .company-observatory-stats > div {
+    padding: 8px 5px !important;
+  }
+  #analysis.company-intelligence-section .company-observatory-stats span {
+    font-size: 8px !important;
+  }
+  #analysis.company-intelligence-section .homepage-company-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  #analysis.company-intelligence-section .homepage-company-card {
+    padding: 9px !important;
+  }
+  #analysis.company-intelligence-section .analysis-side {
+    display: none !important;
+  }
+}
+/* END COMPANY OBSERVATORY COMPACT WHITE OVERRIDE */
+
+
+/* COMPANY OBSERVATORY — SKY BLUE FIELDS */
+#analysis.company-intelligence-section .company-observatory-stats > *,
+#analysis.company-intelligence-section .homepage-company-card {
+    background: #65e1ff !important;
+    color: #ffffff !important;
+    border-color: rgba(20, 50, 65, 0.18) !important;
+}
+
+#analysis.company-intelligence-section .company-observatory-stats *,
+#analysis.company-intelligence-section .homepage-company-card *,
+#analysis.company-intelligence-section .homepage-company-card a {
+    color: #ffffff !important;
+}
