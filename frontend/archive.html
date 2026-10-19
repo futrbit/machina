@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Archive — MACHINA DAILY</title>
-  <meta name="description" content="The Machina Daily archive — technology, autonomous systems, robotics and emerging intelligence.">
+  <title>Archive â€” MACHINA DAILY</title>
+  <meta name="description" content="The Machina Daily archive â€” technology, autonomous systems, robotics and emerging intelligence.">
 
   <link rel="stylesheet" href="/frontend/style.css">
 
@@ -406,7 +406,150 @@
         display: none;
       }
     }
-  </style>
+  
+/* MACHINADAILY ARCHIVE - WHITE AND SOFT GREY THEME */
+:root {
+    color-scheme: light !important;
+    --bg: #ffffff !important;
+    --background: #ffffff !important;
+    --panel: #f1f4f7 !important;
+    --panel2: #f7f9fb !important;
+    --line: #d6dfe7 !important;
+    --border: #d6dfe7 !important;
+    --text: #172536 !important;
+    --white: #172536 !important;
+    --muted: #627589 !important;
+    --cyan: #168fc2 !important;
+    --green: #168b68 !important;
+}
+
+html, body {
+    color-scheme: light !important;
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    background-image: none !important;
+    color: #172536 !important;
+}
+
+header, nav, main, section, article, aside,
+.container, .content, .archive, .archive-list,
+.archive-grid, .article-list, .history-list {
+    color: #172536 !important;
+}
+
+.panel, .card, .widget, .module, .archive-card,
+.article-card, .story-card, .history-card,
+.archive-item, .article-item, .story-item,
+.result, .results, .empty-state, .pagination {
+    background: #f1f4f7 !important;
+    background-color: #f1f4f7 !important;
+    background-image: none !important;
+    color: #172536 !important;
+    border-color: #d6dfe7 !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, li, label, strong, b, th, td {
+    color: #172536 !important;
+}
+
+small, .muted, .subtitle, .description,
+.meta, .timestamp, .secondary, .date {
+    color: #627589 !important;
+}
+
+a {
+    color: #168fc2 !important;
+}
+
+a:hover {
+    color: #087eae !important;
+}
+
+button, input, select, textarea {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #172536 !important;
+    border-color: #cbd7e2 !important;
+}
+
+button:hover {
+    border-color: #65bfe8 !important;
+}
+
+.tag, .badge, .pill {
+    background: #e2f4fc !important;
+    color: #087eae !important;
+    border-color: #c5e9f8 !important;
+}
+
+hr {
+    border-color: #d6dfe7 !important;
+}
+
+/* END MACHINADAILY ARCHIVE LIGHT THEME */
+
+/* MACHINADAILY OUTER PAGE BACKGROUND FIX */
+html,
+body {
+    background: #f1f4f7 !important;
+    background-color: #f1f4f7 !important;
+    color: #172b3a !important;
+    min-height: 100%;
+}
+
+body::before,
+body::after {
+    background-color: transparent !important;
+}
+/* END OUTER PAGE BACKGROUND FIX */
+
+/* MACHINADAILY ARCHIVE HERO LIGHT FIX */
+.archive-page {
+    background: #f1f4f7 !important;
+    background-color: #f1f4f7 !important;
+    background-image: none !important;
+    color: #172536 !important;
+}
+
+.archive-page .archive-kicker,
+.archive-page .archive-title,
+.archive-page .archive-description,
+.archive-page .archive-count {
+    color: #172536 !important;
+}
+
+.archive-page .archive-filter {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #172536 !important;
+    border: 1px solid #cbd7e2 !important;
+}
+
+.archive-page .archive-filter option {
+    background: #ffffff !important;
+    color: #172536 !important;
+}
+
+.archive-page header,
+.archive-page .archive-header,
+.archive-page .archive-hero,
+.archive-page .archive-topbar,
+.archive-page .archive-toolbar {
+    background: #f1f4f7 !important;
+    background-color: #f1f4f7 !important;
+    background-image: none !important;
+    color: #172536 !important;
+    border-color: #d6dfe7 !important;
+}
+
+.archive-page input,
+.archive-page select,
+.archive-page button {
+    color: #172536 !important;
+}
+/* END MACHINADAILY ARCHIVE HERO LIGHT FIX */
+</style>
 </head>
 
 <body>
@@ -415,7 +558,7 @@
 
   <header class="archive-top">
     <a href="/frontend/index.html" class="archive-brand">MACHINA DAILY</a>
-    <a href="/frontend/index.html" class="archive-back">← Current Edition</a>
+    <a href="/frontend/index.html" class="archive-back">â† Current Edition</a>
   </header>
 
   <section class="archive-intro">
@@ -448,7 +591,7 @@
   </section>
 
   <main id="root" class="archive-content">
-    <div class="archive-loading">Loading archive…</div>
+    <div class="archive-loading">Loading archiveâ€¦</div>
   </main>
 
 </div>
@@ -461,7 +604,7 @@
     <span class="archive-brand">MACHINA / READER</span>
 
     <button id="closeReader" class="reader-close">
-      Close ×
+      Close Ã—
     </button>
   </div>
 
@@ -686,13 +829,13 @@ function renderList(list) {
 
             <div class="archive-meta">
               ${(article.authors || []).map(escapeHTML).join(", ")}
-              ${article.published ? " · " + escapeHTML(article.published) : ""}
+              ${article.published ? " Â· " + escapeHTML(article.published) : ""}
             </div>
 
           </div>
 
           <div class="archive-arrow">
-            →
+            â†’
           </div>
 
         `;
@@ -729,7 +872,7 @@ async function showArticle(id) {
 
   readerBody.innerHTML = `
     <div class="archive-loading">
-      Loading story…
+      Loading storyâ€¦
     </div>
   `;
 
@@ -777,7 +920,7 @@ async function showArticle(id) {
 
       <div class="reader-meta">
         ${(article.authors || []).map(escapeHTML).join(", ")}
-        ${article.published ? " · " + escapeHTML(article.published) : ""}
+        ${article.published ? " Â· " + escapeHTML(article.published) : ""}
       </div>
 
       ${
@@ -813,7 +956,7 @@ async function showArticle(id) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Read original source ↗
+              Read original source â†—
             </a>
           </div>
         `
@@ -863,143 +1006,162 @@ document.addEventListener("keydown", event => {
 
 
 /* ---------------------------------------------------------
-   SEARCH + FILTER
+   SEARCH, FILTER + PAGINATION
 --------------------------------------------------------- */
 
-function applyFilters() {
+let archiveCurrentPage = 1;
+let archiveRequestNumber = 0;
+let archiveTotalPages = 1;
 
-  const query =
-    search.value.trim().toLowerCase();
+const archivePager = document.createElement("div");
+archivePager.id = "archivePager";
+archivePager.style.cssText =
+  "display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;padding:22px 10px;";
 
-  const selected =
-    category.value;
+root.insertAdjacentElement("afterend", archivePager);
 
+function drawArchivePager() {
+  archivePager.replaceChildren();
 
-  const filtered =
-    all.filter(article => {
+  function makeButton(label, disabled, action) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = label;
+    button.disabled = disabled;
+    button.style.cssText =
+      "padding:10px 16px;border:1px solid #65e1ff;background:#171b20;color:#65e1ff;cursor:pointer;border-radius:4px;";
 
-      const text = [
-
-        article.title,
-        article.category,
-        ...(article.authors || [])
-
-      ]
-        .join(" ")
-        .toLowerCase();
-
-
-      const matchesSearch =
-        !query ||
-        text.includes(query);
-
-
-      const matchesCategory =
-        selected === "all" ||
-        article.category === selected;
-
-
-      return matchesSearch &&
-             matchesCategory;
-
-    });
-
-
-  renderList(filtered);
-
-}
-
-
-search.addEventListener(
-  "input",
-  applyFilters
-);
-
-
-category.addEventListener(
-  "change",
-  applyFilters
-);
-
-
-/* ---------------------------------------------------------
-   LOAD ARCHIVE
---------------------------------------------------------- */
-
-async function loadArchive() {
-
-  try {
-
-    const response =
-      await fetch("/archive.json");
-
-    if (!response.ok) {
-      throw new Error("Archive unavailable");
+    if (disabled) {
+      button.style.opacity = "0.45";
+      button.style.cursor = "not-allowed";
     }
 
+    button.addEventListener("click", action);
+    return button;
+  }
 
-    all =
-      await response.json();
+  archivePager.appendChild(
+    makeButton("Previous", archiveCurrentPage <= 1, () => {
+      if (archiveCurrentPage > 1) loadArchive(archiveCurrentPage - 1);
+    })
+  );
 
+  const pageLabel = document.createElement("span");
+  pageLabel.textContent =
+    "Page " + archiveCurrentPage + " of " + archiveTotalPages;
+  pageLabel.style.cssText = "color:inherit;font-size:14px;";
+  archivePager.appendChild(pageLabel);
 
-    all.sort((a, b) => {
+  archivePager.appendChild(
+    makeButton("Next", archiveCurrentPage >= archiveTotalPages, () => {
+      if (archiveCurrentPage < archiveTotalPages) {
+        loadArchive(archiveCurrentPage + 1);
+      }
+    })
+  );
+}
 
-      const da =
-        new Date(a.sort_dt || a.published || 0);
+async function loadArchive(page = 1) {
+  const thisRequest = ++archiveRequestNumber;
+  archiveCurrentPage = Math.max(1, page);
 
-      const db =
-        new Date(b.sort_dt || b.published || 0);
+  root.innerHTML =
+    '<div class="archive-loading">Loading archive...</div>';
+  count.textContent = "Loading...";
 
-      return db - da;
-
+  try {
+    const params = new URLSearchParams({
+      page: String(archiveCurrentPage),
+      per_page: "25",
+      q: search.value.trim(),
+      category: category.value
     });
 
+    const response = await fetch("/archive.json?" + params.toString());
 
-    const categories =
-      [...new Set(
-        all
-          .map(a => a.category)
-          .filter(Boolean)
-      )]
-      .sort();
+    if (!response.ok) {
+      throw new Error("Archive request failed: HTTP " + response.status);
+    }
 
+    const payload = await response.json();
+
+    if (thisRequest !== archiveRequestNumber) return;
+
+    if (!payload || !Array.isArray(payload.articles)) {
+      throw new Error("The archive API returned an unexpected response.");
+    }
+
+    const previousCategory = category.value;
+    const categories = Array.isArray(payload.categories)
+      ? payload.categories
+      : [];
+
+    category.replaceChildren();
+
+    const allOption = document.createElement("option");
+    allOption.value = "all";
+    allOption.textContent = "All signals";
+    category.appendChild(allOption);
 
     categories.forEach(cat => {
-
-      const option =
-        document.createElement("option");
-
+      const option = document.createElement("option");
       option.value = cat;
-      option.textContent =
-        cat.toUpperCase();
-
+      option.textContent = cat.toUpperCase();
       category.appendChild(option);
-
     });
 
+    category.value =
+      [...category.options].some(option => option.value === previousCategory)
+        ? previousCategory
+        : "all";
+
+    all = payload.articles;
+    archiveCurrentPage = payload.page || 1;
+    archiveTotalPages = payload.total_pages || 1;
 
     renderList(all);
 
+    count.textContent =
+      (payload.total || 0) + " stories ? Page " +
+      archiveCurrentPage + " of " + archiveTotalPages;
+
+    drawArchivePager();
+
+    if (!all.length) {
+      root.innerHTML =
+        '<div class="archive-empty">No stories match your search.</div>';
+    }
+
   } catch (error) {
+    if (thisRequest !== archiveRequestNumber) return;
 
-    console.error(error);
+    console.error("Archive loading failed:", error);
 
-    root.innerHTML = `
-      <div class="archive-empty">
-        Archive unavailable.
-      </div>
-    `;
+    root.innerHTML =
+      '<div class="archive-empty">Archive unavailable. Please try again.</div>';
 
     count.textContent = "ERROR";
+    archivePager.replaceChildren();
 
+    const retry = document.createElement("button");
+    retry.type = "button";
+    retry.textContent = "Retry";
+    retry.style.cssText =
+      "padding:10px 16px;border:1px solid #65e1ff;background:#171b20;color:#65e1ff;cursor:pointer;";
+    retry.addEventListener("click", () => loadArchive(archiveCurrentPage));
+    archivePager.appendChild(retry);
   }
-
 }
 
+search.addEventListener("input", () => loadArchive(1));
+category.addEventListener("change", () => loadArchive(1));
 
 loadArchive();
+
 
 </script>
 
 </body>
 </html>
+
+

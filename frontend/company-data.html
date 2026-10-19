@@ -1,0 +1,1040 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Company Data Observatory â€” MachinaDaily</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #080c12;
+  --panel: #101722;
+  --panel2: #141e2b;
+  --border: #263447;
+  --text: #edf4ff;
+  --muted: #91a2b8;
+  --cyan: #65e1ff;
+  --blue: #619dff;
+  --orange: #ff9c52;
+  --red: #ff536b;
+  --green: #69e4bd;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 10% 0%, #142638 0, transparent 42%),
+    radial-gradient(ellipse at 95% 20%, #191a2d 0, transparent 35%),
+    var(--bg);
+  color: var(--text);
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+  font-size: 14px;
+}
+button, input, select { font: inherit; }
+button, select, input {
+  color: var(--text);
+  background: #111c29;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+button { cursor: pointer; }
+button:hover { border-color: var(--cyan); }
+button:focus-visible, select:focus-visible, input:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+}
+a { color: var(--cyan); overflow-wrap: anywhere; }
+.topbar {
+  min-height: 68px;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  background: #080d14dd;
+}
+.brand { font-size: 17px; font-weight: 800; letter-spacing: 1.5px; }
+.brand span { color: var(--cyan); }
+.topmeta { color: var(--muted); font-size: 11px; letter-spacing: 1.5px; }
+.status { color: var(--green); }
+main { padding: 24px; max-width: 1800px; margin: auto; }
+.eyebrow {
+  color: var(--cyan); font-size: 10px; font-weight: 800;
+  letter-spacing: 2.5px; text-transform: uppercase;
+}
+h1 { font-size: clamp(26px, 3vw, 40px); margin: 8px 0; letter-spacing: -1.2px; }
+.intro { color: var(--muted); max-width: 760px; line-height: 1.65; }
+.stats {
+  display: grid; grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: 12px; margin: 24px 0;
+}
+.stat {
+  background: linear-gradient(145deg, #131e2b, #0c131d);
+  border: 1px solid var(--border); border-radius: 12px; padding: 17px;
+  min-width: 0;
+}
+.stat-label { color: var(--muted); font-size: 10px; letter-spacing: 1.5px; }
+.stat-value { font-size: clamp(23px, 3vw, 34px); font-weight: 750; margin: 9px 0 5px; }
+.stat-note { color: var(--muted); font-size: 11px; line-height: 1.5; }
+.filters {
+  display: grid;
+  grid-template-columns: minmax(180px,2fr) repeat(4,minmax(135px,1fr)) auto;
+  gap: 10px; margin: 18px 0;
+}
+.filters input, .filters select { width: 100%; min-width: 0; }
+.workspace {
+  display: grid; grid-template-columns: minmax(0,1fr) 330px;
+  gap: 14px; align-items: stretch;
+}
+.panel {
+  background: #0d141eeb; border: 1px solid var(--border);
+  border-radius: 13px; overflow: hidden; min-width: 0;
+}
+.panel-head {
+  padding: 16px 18px; display: flex; justify-content: space-between;
+  align-items: center; gap: 12px; flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+}
+.panel-head h2 { margin: 0; font-size: 14px; }
+.panel-head p { margin: 5px 0 0; color: var(--muted); font-size: 11px; }
+.modes { display: flex; gap: 6px; flex-wrap: wrap; }
+.modes button { font-size: 11px; padding: 8px 10px; }
+.modes button.active {
+  color: #07131a; background: var(--cyan); border-color: var(--cyan);
+  font-weight: 800;
+}
+.canvas-wrap { position: relative; height: 590px; min-height: 400px; }
+#map { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+#map.dragging { cursor: grabbing; }
+.map-overlay {
+  position: absolute; top: 12px; left: 12px; pointer-events: none;
+  background: #08111ddd; border: 1px solid #26394d; border-radius: 8px;
+  padding: 10px 12px; font-size: 10px; color: var(--muted); line-height: 1.7;
+}
+.map-bottom {
+  position: absolute; bottom: 12px; left: 12px; right: 12px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; pointer-events: none;
+}
+.legend {
+  background: #08111ddd; border: 1px solid var(--border);
+  border-radius: 8px; padding: 9px 11px; color: var(--muted); font-size: 10px;
+}
+.legend-dots { display: flex; gap: 12px; flex-wrap: wrap; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; }
+.zoom-buttons { display: flex; gap: 5px; pointer-events: auto; }
+.zoom-buttons button { padding: 7px 10px; }
+.map-footer {
+  padding: 11px 15px; border-top: 1px solid var(--border);
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+  gap: 8px; color: var(--muted); font-size: 10px;
+}
+.profile { padding: 18px; min-height: 100%; }
+.profile-empty {
+  min-height: 420px; display: flex; flex-direction: column;
+  justify-content: center; align-items: center; text-align: center;
+  color: var(--muted); padding: 24px;
+}
+.profile-empty .symbol { color: var(--cyan); font-size: 36px; margin-bottom: 14px; }
+.profile h2 { margin: 10px 0; font-size: 23px; line-height: 1.25; overflow-wrap: anywhere; }
+.profile-desc { color: #b2c1d3; line-height: 1.65; font-size: 12px; }
+.tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0; }
+.tag {
+  font-size: 10px; color: var(--cyan); border: 1px solid #315066;
+  background: #122634; border-radius: 5px; padding: 5px 7px;
+}
+.tag.warn { color: #ffbc81; border-color: #65452e; background: #291d16; }
+.section { border-top: 1px solid var(--border); margin-top: 16px; padding-top: 14px; }
+.section h3 {
+  color: var(--muted); font-size: 10px; letter-spacing: 1.5px;
+  text-transform: uppercase; margin: 0 0 10px;
+}
+.section p, .section li { color: #b7c6d8; font-size: 12px; line-height: 1.6; }
+.section ul { padding-left: 17px; margin: 0; }
+.section li { margin-bottom: 7px; }
+.kv { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.kv > div { padding: 10px; background: #111b28; border-radius: 7px; min-width: 0; }
+.kv small { display: block; color: var(--muted); font-size: 10px; margin-bottom: 6px; }
+.kv strong { font-size: 12px; overflow-wrap: anywhere; }
+.source-link { display: block; font-size: 11px; margin-bottom: 8px; }
+.hidden { display: none !important; }
+.notice {
+  padding: 12px 14px; border: 1px solid #344256; border-radius: 9px;
+  background: #101a26; color: var(--muted); line-height: 1.6;
+  font-size: 11px; margin-top: 14px;
+}
+.error { color: #ff9ba8; }
+.loading { color: var(--cyan); }
+@media (max-width: 1100px) {
+  .filters { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .workspace { grid-template-columns: minmax(0,1fr) 290px; }
+}
+@media (max-width: 800px) {
+  main { padding: 16px; }
+  .stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .workspace { grid-template-columns: 1fr; }
+  .profile-empty { min-height: 200px; }
+  .canvas-wrap { height: 520px; }
+  .filters { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .filters input { grid-column: 1 / -1; }
+}
+@media (max-width: 440px) {
+  .topbar { padding: 14px; }
+  .filters { grid-template-columns: 1fr; }
+  .filters input { grid-column: auto; }
+  .canvas-wrap { height: 440px; }
+}
+/* MACHINADAILY LIGHT THEME OVERRIDE */
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --panel: #ffffff;
+  --panel2: #f4f9fc;
+  --border: #dce6ed;
+  --text: #172b3a;
+  --muted: #607586;
+  --cyan: #159fc4;
+  --blue: #347ac7;
+}
+body {
+  background: #ffffff !important;
+  color: #172b3a !important;
+}
+.topbar {
+  background: #ffffff !important;
+  color: #172b3a !important;
+  border-color: #dce6ed !important;
+}
+.panel, .stat {
+  background: #ffffff !important;
+  color: #172b3a !important;
+  border-color: #dce6ed !important;
+}
+.panel-head, .section {
+  border-color: #dce6ed !important;
+}
+button, input, select {
+  background: #f4f9fc !important;
+  color: #172b3a !important;
+  border-color: #d0dfe8 !important;
+}
+button:hover, button:focus-visible, input:focus-visible,
+select:focus-visible {
+  border-color: #159fc4 !important;
+}
+a, .brand span, .eyebrow, .profile-empty .symbol,
+.loading {
+  color: #159fc4 !important;
+}
+.topmeta, .intro, .stat-label, .stat-note, .panel-head p,
+.map-footer, .profile-empty, .profile-desc, .section h3,
+.section p, .section li, .kv small, .notice {
+  color: #607586 !important;
+}
+.map-overlay, .legend, .kv > div, .notice {
+  background: #f4f9fc !important;
+  color: #344b5b !important;
+  border-color: #dce6ed !important;
+}
+.profile h2, .kv strong {
+  color: #172b3a !important;
+}
+.tag {
+  color: #087f9f !important;
+  background: #e9f9ff !important;
+  border-color: #b7e9f6 !important;
+}
+.tag.warn {
+  color: #98501a !important;
+  background: #fff4e9 !important;
+  border-color: #f1d0b2 !important;
+}
+.modes button.active {
+  background: #65e1ff !important;
+  color: #102b38 !important;
+  border-color: #65e1ff !important;
+}
+.error {
+  color: #bd3148 !important;
+}
+.canvas-wrap {
+  background: #f4f9fc;
+}
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: light; }
+}
+/* END MACHINADAILY LIGHT THEME OVERRIDE */
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">MACHINA<span>DAILY</span> <span style="color:#71849b">/</span> COMPANY DATA</div>
+  <div class="topmeta"><span class="status">â— LOCAL SYSTEM</span> &nbsp; / &nbsp; RESEARCH OBSERVATORY</div>
+</header>
+
+<main>
+  <div class="eyebrow">Intelligence layer / entity observatory</div>
+  <h1>Company Data Observatory</h1>
+  <p class="intro">
+    Explore organisations identified across MachinaDaily's research evidence.
+    Inspect mention volumes, dated source activity, analyst assessments and
+    shared-evidence connections. Every view is built from the local research files.
+  </p>
+
+  <section class="stats">
+    <div class="stat">
+      <div class="stat-label">ATLAS RECORDS</div>
+      <div class="stat-value" id="statCompanies">â€”</div>
+      <div class="stat-note">Company atlas records loaded</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">EVIDENCE MENTIONS</div>
+      <div class="stat-value" id="statMentions">â€”</div>
+      <div class="stat-note">Recorded evidence counts, not unique articles</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">ANALYST ASSESSMENTS</div>
+      <div class="stat-value" id="statAnalyses">â€”</div>
+      <div class="stat-note">Assessment records available in the data files</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">DATED ENTITIES</div>
+      <div class="stat-value" id="statDated">â€”</div>
+      <div class="stat-note">Entities with parseable publication dates</div>
+    </div>
+  </section>
+
+  <section class="filters" aria-label="Company filters">
+    <input id="search" type="search" placeholder="Search company or descriptionâ€¦" aria-label="Search companies">
+    <select id="sectorFilter" aria-label="Filter by sector">
+      <option value="">All sectors</option>
+    </select>
+    <select id="typeFilter" aria-label="Filter by entity type">
+      <option value="">All entity types</option>
+      <option value="unclassified">Unclassified</option>
+      <option value="product_or_division">Product / division / subsidiary</option>
+      <option value="other_or_organisation">Other organisation type</option>
+    </select>
+    <select id="statusFilter" aria-label="Filter by assessment status">
+      <option value="">All evidence statuses</option>
+      <option value="probable">Probable (heuristic)</option>
+      <option value="needs_review">Needs review</option>
+      <option value="unassessed">Unassessed</option>
+    </select>
+    <select id="momentumFilter" aria-label="Filter by recent activity">
+      <option value="">All activity</option>
+      <option value="recent">Dated evidence in last 30 days</option>
+      <option value="high">High mention count (100+)</option>
+    </select>
+    <button id="resetFilters" type="button">Reset filters</button>
+  </section>
+
+  <section class="workspace">
+    <div class="panel">
+      <div class="panel-head">
+        <div>
+          <h2 id="viewTitle">Research mention heatmap</h2>
+          <p id="viewDescription">Each node represents an atlas record. Select a node to inspect its evidence.</p>
+        </div>
+        <div class="modes" role="group" aria-label="Visualisation mode">
+          <button type="button" data-mode="heat" class="active">Heatmap</button>
+          <button type="button" data-mode="network">Network</button>
+          <button type="button" data-mode="sector">Sectors</button>
+          <button type="button" data-mode="timeline">Timeline</button>
+        </div>
+      </div>
+
+      <div class="canvas-wrap">
+        <canvas id="map" aria-label="Interactive company data visualisation"></canvas>
+        <div class="map-overlay" id="mapOverlay">
+          <strong style="color:#eaf5ff">ATLAS VIEW</strong><br>
+          <span id="overlayCount">Loading research recordsâ€¦</span><br>
+          Drag to pan Â· Scroll to zoom<br>
+          Click a node for its profile
+        </div>
+        <div class="map-bottom">
+          <div class="legend">
+            <div class="legend-dots">
+              <span><i class="dot" style="background:#ff536b"></i>High mentions</span>
+              <span><i class="dot" style="background:#ff9c52"></i>Medium</span>
+              <span><i class="dot" style="background:#65e1ff"></i>Lower</span>
+            </div>
+          </div>
+          <div class="zoom-buttons">
+            <button id="zoomOut" type="button" aria-label="Zoom out">âˆ’</button>
+            <button id="zoomIn" type="button" aria-label="Zoom in">+</button>
+            <button id="zoomReset" type="button">Reset view</button>
+          </div>
+        </div>
+      </div>
+      <div class="map-footer">
+        <span id="visibleCount">Waiting for dataâ€¦</span>
+        <span id="dataStamp">Loading atlas metadataâ€¦</span>
+      </div>
+    </div>
+
+    <aside class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>Entity intelligence</h2>
+          <p>Evidence-led profile / source context</p>
+        </div>
+      </div>
+      <div class="profile" id="profile">
+        <div class="profile-empty">
+          <div class="symbol">â—Ž</div>
+          <strong>Select a company node</strong>
+          <p>Choose any visible node to inspect its recorded evidence, analyst assessment, source links and known gaps.</p>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <div class="notice">
+    <strong>Methodology and limitations.</strong>
+    Node size and colour represent recorded evidence counts, not company value,
+    performance or importance. Recent activity uses publication dates found in
+    the raw evidence files. Lines indicate two atlas records sharing evidence
+    files; they do not prove a partnership, ownership or commercial relationship.
+    â€œProbableâ€ is a heuristic profile status, not independent verification.
+    Public/private status and sector are shown only when explicit fields exist;
+    unknown values remain unknown. Missing data is not proof that a fact does not exist.
+  </div>
+  <div id="pageError" class="notice error hidden"></div>
+</main>
+
+<script>
+(() => {
+  "use strict";
+
+  const $ = id => document.getElementById(id);
+  const canvas = $("map");
+  const ctx = canvas.getContext("2d");
+
+  let allCompanies = [];
+  let links = [];
+  let meta = {};
+  let filtered = [];
+  let positions = [];
+  let selectedId = null;
+  let mode = "heat";
+  let scale = 1;
+  let panX = 0;
+  let panY = 0;
+  let dragging = false;
+  let dragMoved = false;
+  let pointerStart = null;
+  let lastPointer = null;
+  let dpr = 1;
+
+  const viewText = {
+    heat: ["Research mention heatmap", "Node size represents recorded evidence mentions; colour moves from cooler to hotter with mention volume."],
+    network: ["Shared-evidence network", "Lines connect records that reference the same evidence files. These are co-mentions, not confirmed business relationships."],
+    sector: ["Sector landscape", "Records are grouped using explicit sector fields. Records without a sector are kept in Unclassified."],
+    timeline: ["Signal timeline", "Dated evidence is grouped by publication day. Records without parseable publication dates are excluded."]
+  };
+
+  const fmt = n => Number(n || 0).toLocaleString("en-GB");
+  const safe = v => String(v == null ? "" : v);
+  const escapeHTML = v => safe(v).replace(/[&<>"']/g, c => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+  })[c]);
+
+  function setError(message) {
+    $("pageError").textContent = message;
+    $("pageError").classList.remove("hidden");
+  }
+
+  function hideError() {
+    $("pageError").classList.add("hidden");
+  }
+
+  function resizeCanvas() {
+    const rect = canvas.getBoundingClientRect();
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.max(1, Math.floor(rect.width * dpr));
+    canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    draw();
+  }
+
+  function getFilters() {
+    return {
+      query: $("search").value.trim().toLowerCase(),
+      sector: $("sectorFilter").value,
+      type: $("typeFilter").value,
+      status: $("statusFilter").value,
+      momentum: $("momentumFilter").value
+    };
+  }
+
+  function applyFilters() {
+    const f = getFilters();
+
+    filtered = allCompanies.filter(c => {
+      if (f.query &&
+          !(safe(c.name).toLowerCase().includes(f.query) ||
+            safe(c.description).toLowerCase().includes(f.query))) return false;
+      if (f.sector && safe(c.sector || "Unclassified") !== f.sector) return false;
+      if (f.type && safe(c.entity_type) !== f.type) return false;
+      if (f.status && safe(c.verification_status) !== f.status) return false;
+      if (f.momentum === "recent" && !(Number(c.recent_mentions) > 0)) return false;
+      if (f.momentum === "high" && !(Number(c.mentions) >= 100)) return false;
+      return true;
+    });
+
+    if (selectedId && !filtered.some(c => c.id === selectedId)) {
+      selectedId = null;
+      showEmptyProfile();
+    }
+
+    buildPositions();
+    updateCounts();
+    draw();
+  }
+
+  function updateCounts() {
+    $("visibleCount").textContent =
+      `${fmt(filtered.length)} visible records / ${fmt(allCompanies.length)} total`;
+    $("overlayCount").textContent = `${fmt(filtered.length)} visible entities`;
+  }
+
+  function heat(c) {
+    const n = Math.max(0, Number(c.mentions) || 0);
+    const max = Math.max(1, ...allCompanies.map(x => Number(x.mentions) || 0));
+    const t = Math.min(1, Math.log1p(n) / Math.log1p(max));
+    if (t > 0.76) return "#ff536b";
+    if (t > 0.43) return "#ff9c52";
+    if (t > 0.2) return "#6eb9ff";
+    return "#65e1ff";
+  }
+
+  function nodeRadius(c) {
+    const n = Math.max(0, Number(c.mentions) || 0);
+    const max = Math.max(1, ...allCompanies.map(x => Number(x.mentions) || 0));
+    return 3.5 + 10 * Math.sqrt(Math.log1p(n) / Math.log1p(max));
+  }
+
+  function buildPositions() {
+    const w = canvas.clientWidth || 900;
+    const h = canvas.clientHeight || 590;
+    positions = [];
+
+    if (mode === "timeline") {
+      filtered.forEach((c, i) => {
+        const dated = Array.isArray(c.timeline) ? c.timeline : [];
+        const count = dated.reduce((sum, item) => sum + (Number(item.mentions) || 0), 0);
+        positions.push({
+          id: c.id, x: 45 + (i % 6) * ((w - 90) / 6),
+          y: 50 + Math.min(h - 100, i * 17 % Math.max(100, h - 100)),
+          r: Math.min(13, 4 + Math.sqrt(count)), company: c
+        });
+      });
+      return;
+    }
+
+    if (mode === "sector") {
+      const groups = new Map();
+      filtered.forEach(c => {
+        const key = c.sector || "Unclassified";
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(c);
+      });
+      const entries = [...groups.entries()].sort((a,b) => b[1].length - a[1].length);
+      const cols = Math.max(1, Math.ceil(Math.sqrt(entries.length * w / Math.max(h,1))));
+      entries.forEach(([sector, companies], gi) => {
+        const gx = w * ((gi % cols) + 0.5) / cols;
+        const rows = Math.ceil(entries.length / cols);
+        const gy = h * (Math.floor(gi / cols) + 0.5) / rows;
+        const radius = Math.min(w / cols, h / rows) * 0.32;
+        companies.forEach((c, i) => {
+          const angle = i * 2.399963;
+          const ring = radius * Math.sqrt((i + 0.5) / Math.max(1, companies.length));
+          positions.push({
+            id: c.id, x: gx + Math.cos(angle) * ring,
+            y: gy + Math.sin(angle) * ring,
+            r: nodeRadius(c), company: c, group: sector
+          });
+        });
+      });
+      return;
+    }
+
+    // Brain-like two-hemisphere layout for Network mode.
+    const ordered = [...filtered].sort((a,b) => (Number(b.mentions)||0) - (Number(a.mentions)||0));
+    const cx = w / 2, cy = h / 2;
+    const maxR = Math.min(w, h) * (mode === "network" ? 0.43 : 0.47);
+    ordered.forEach((c, i) => {
+      const fraction = (i + 0.5) / Math.max(1, ordered.length);
+      const radius = maxR * Math.sqrt(fraction);
+      const angle = i * 2.3999632297;
+      let x, y;
+      if (mode === "network") {
+        const organic = 1 + 0.045 * Math.sin(angle * 3 + i * 0.11);
+        const cleft = 1 - 0.12 * Math.exp(-Math.pow(Math.sin(angle) * 4, 2));
+        x = cx + Math.cos(angle) * radius * 1.08 * cleft * organic;
+        y = cy + Math.sin(angle) * radius * 0.80 * organic;
+      } else {
+        x = cx + Math.cos(angle) * radius;
+        y = cy + Math.sin(angle) * radius;
+      }
+      positions.push({ id: c.id, x, y, r: nodeRadius(c), company: c });
+    });
+  }
+
+  let networkTime = 0;
+  let networkAnimationPending = false;
+
+  function screenPos(p) {
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    let dx = 0, dy = 0;
+    if (mode === "network") {
+      const seed = Number(String(p.id).replace(/[^0-9]/g, "").slice(-6)) || 0;
+      dx = Math.sin(networkTime * 0.62 + seed * 0.071) * 1.35;
+      dy = Math.cos(networkTime * 0.48 + seed * 0.053) * 1.05;
+    }
+    return {
+      x: w / 2 + (p.x - w / 2) * scale + panX + dx,
+      y: h / 2 + (p.y - h / 2) * scale + panY + dy
+    };
+  }
+
+  function drawGrid(w, h) {
+    ctx.save();
+    ctx.strokeStyle = "rgba(91,132,170,.09)";
+    ctx.lineWidth = 1;
+    const step = 32;
+    for (let x = 0; x < w; x += step) {
+      ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,h); ctx.stroke();
+    }
+    for (let y = 0; y < h; y += step) {
+      ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(w,y); ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  function draw() {
+    if (!ctx || !canvas.clientWidth) return;
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    ctx.clearRect(0,0,w,h);
+    drawGrid(w,h);
+
+    if (!allCompanies.length) {
+      ctx.fillStyle = "#91a2b8";
+      ctx.font = "13px Segoe UI, Arial";
+      ctx.textAlign = "center";
+      ctx.fillText("Waiting for research dataâ€¦", w/2, h/2);
+      return;
+    }
+
+    if (mode === "timeline") {
+      drawTimeline(w,h);
+      return;
+    }
+
+    if (mode === "sector") drawSectorLabels();
+
+    const byId = new Map(positions.map(p => [p.id,p]));
+
+    if (mode === "network") {
+      ctx.save();
+      ctx.lineCap = "round";
+      links.forEach((link, i) => {
+        const a = byId.get(link.source), b = byId.get(link.target);
+        if (!a || !b) return;
+        const pa = screenPos(a), pb = screenPos(b);
+        const dx = pb.x - pa.x, dy = pb.y - pa.y;
+        const distance = Math.sqrt(dx*dx + dy*dy) || 1;
+        const bend = Math.min(52, Math.max(10, distance * 0.13)) * (i % 2 ? 1 : -1);
+        const cx = (pa.x + pb.x) / 2 - (dy / distance) * bend;
+        const cy = (pa.y + pb.y) / 2 + (dx / distance) * bend;
+        const weight = Number(link.weight) || 1;
+        const alpha = Math.min(0.42, 0.09 + weight * 0.035);
+
+        // Curved strand: links remain the real evidence-backed connections.
+        ctx.beginPath();
+        ctx.moveTo(pa.x, pa.y);
+        ctx.quadraticCurveTo(cx, cy, pb.x, pb.y);
+        ctx.strokeStyle = `rgba(64,174,255,${alpha * 0.42})`;
+        ctx.lineWidth = Math.min(2, 0.65 + weight * 0.12);
+        ctx.shadowColor = "rgba(76,205,255,0.72)";
+        ctx.shadowBlur = 5;
+        ctx.stroke();
+
+        // Animated light moving along the same strand.
+        const t = ((networkTime * (0.19 + Math.min(weight, 5) * 0.025) + i * 0.173) % 1 + 1) % 1;
+        const u = 1 - t;
+        const px = u*u*pa.x + 2*u*t*cx + t*t*pb.x;
+        const py = u*u*pa.y + 2*u*t*cy + t*t*pb.y;
+        ctx.beginPath();
+        ctx.arc(px, py, 1.1 + Math.min(weight, 4) * 0.18, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(183,246,255,0.9)";
+        ctx.shadowColor = "rgba(101,225,255,0.95)";
+        ctx.shadowBlur = 9;
+        ctx.fill();
+      });
+      ctx.shadowBlur = 0;
+      ctx.restore();
+    }
+
+    positions.forEach(p => {
+      const q = screenPos(p);
+      if (q.x < -30 || q.x > w+30 || q.y < -30 || q.y > h+30) return;
+
+      const c = p.company;
+      const r = p.r * Math.min(1.5, Math.max(.7,scale));
+      const isSelected = c.id === selectedId;
+      const recent = Number(c.recent_mentions) > 0;
+
+      if (recent) {
+        ctx.beginPath();
+        ctx.arc(q.x,q.y,r+5,0,Math.PI*2);
+        ctx.strokeStyle = "rgba(105,228,189,.65)";
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+
+      const gradient = ctx.createRadialGradient(q.x-r*.25,q.y-r*.25,1,q.x,q.y,r*1.5);
+      gradient.addColorStop(0, heat(c));
+      gradient.addColorStop(1, "rgba(20,40,60,.2)");
+      ctx.beginPath();
+      ctx.arc(q.x,q.y,r,0,Math.PI*2);
+      ctx.fillStyle = gradient;
+      ctx.fill();
+      ctx.strokeStyle = isSelected ? "#ffffff" : heat(c);
+      ctx.lineWidth = isSelected ? 2 : 0.8;
+      ctx.stroke();
+
+      if (r > 7 || isSelected) {
+        ctx.font = `${isSelected ? "bold " : ""}${Math.max(9,Math.min(12,r))}px Segoe UI, Arial`;
+        ctx.textAlign = "left";
+        ctx.fillStyle = isSelected ? "#ffffff" : "#b8c9dc";
+        ctx.fillText(c.name, q.x+r+4, q.y+3, 140);
+      }
+    });
+
+    if (mode === "sector") drawSectorLabels();
+
+    if (mode === "network" && !networkAnimationPending && !document.hidden) {
+      networkAnimationPending = true;
+      requestAnimationFrame(() => {
+        networkAnimationPending = false;
+        if (mode === "network" && !document.hidden) {
+          networkTime = performance.now() / 1000;
+          draw();
+        }
+      });
+    }
+  }
+
+  function drawSectorLabels() {
+    const groups = new Map();
+    positions.forEach(p => {
+      const key = p.group || p.company.sector || "Unclassified";
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(p);
+    });
+    ctx.save();
+    ctx.font = "10px Segoe UI, Arial";
+    ctx.fillStyle = "rgba(101,225,255,.85)";
+    ctx.textAlign = "center";
+    groups.forEach((items, name) => {
+      const x = items.reduce((s,p)=>s+p.x,0)/items.length;
+      const y = items.reduce((s,p)=>s+p.y,0)/items.length;
+      ctx.fillText(name, x, y - 22);
+    });
+    ctx.restore();
+  }
+
+  function drawTimeline(w,h) {
+    const dated = filtered.filter(c => Array.isArray(c.timeline) && c.timeline.length);
+    const totals = new Map();
+
+    dated.forEach(c => c.timeline.forEach(item => {
+      if (!item.date) return;
+      totals.set(item.date, (totals.get(item.date)||0) + (Number(item.mentions)||0));
+    }));
+
+    const days = [...totals.keys()].sort();
+    const left = 48, right = w-20, top = 48, bottom = h-48;
+
+    ctx.fillStyle = "#91a2b8";
+    ctx.font = "10px Segoe UI, Arial";
+    ctx.textAlign = "left";
+    ctx.fillText("PUBLICATION-DATED EVIDENCE", left, 23);
+
+    if (!days.length) {
+      ctx.textAlign = "center";
+      ctx.fillText("No parseable publication dates in the selected records.",w/2,h/2);
+      return;
+    }
+
+    const max = Math.max(1,...days.map(d=>totals.get(d)));
+    ctx.strokeStyle = "#27384a";
+    ctx.beginPath(); ctx.moveTo(left,top); ctx.lineTo(left,bottom); ctx.lineTo(right,bottom); ctx.stroke();
+
+    const points = days.map((day,i) => ({
+      day,
+      x: days.length === 1 ? (left+right)/2 : left+i*(right-left)/(days.length-1),
+      y: bottom-(totals.get(day)/max)*(bottom-top)
+    }));
+
+    ctx.strokeStyle = "#65e1ff";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    points.forEach((p,i)=>i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y));
+    ctx.stroke();
+
+    points.forEach(p=>{
+      ctx.beginPath(); ctx.arc(p.x,p.y,3.5,0,Math.PI*2);
+      ctx.fillStyle = "#ff9c52"; ctx.fill();
+    });
+
+    const labels = [days[0],days[Math.floor((days.length-1)/2)],days[days.length-1]];
+    [...new Set(labels)].forEach(day=>{
+      const p=points.find(x=>x.day===day);
+      if(!p)return;
+      ctx.fillStyle="#91a2b8"; ctx.textAlign="center";
+      ctx.fillText(day,p.x,bottom+19);
+    });
+
+    ctx.fillStyle="#edf4ff"; ctx.textAlign="left";
+    ctx.fillText(`Peak daily mentions: ${fmt(max)}`,left,top-12);
+  }
+
+  function showEmptyProfile() {
+    $("profile").innerHTML = `
+      <div class="profile-empty">
+        <div class="symbol">â—Ž</div>
+        <strong>Select a company node</strong>
+        <p>Choose a node to inspect the available research evidence and assessment gaps.</p>
+      </div>`;
+  }
+
+  function listSection(title, values) {
+    if (!Array.isArray(values) || !values.length) return "";
+    const items = values.slice(0,12).map(value => {
+      let text;
+      if (typeof value === "string") text = value;
+      else if (value && typeof value === "object") text =
+        value.text || value.description || value.claim || JSON.stringify(value);
+      else text = String(value);
+      return `<li>${escapeHTML(text)}</li>`;
+    }).join("");
+    return `<div class="section"><h3>${escapeHTML(title)}</h3><ul>${items}</ul></div>`;
+  }
+
+  function showProfile(c) {
+    selectedId = c.id;
+    const status = safe(c.verification_status || "unassessed");
+    const statusLabel = status.replaceAll("_"," ");
+    const impact = c.impact;
+    let impactText = "";
+
+    if (typeof impact === "string") impactText = impact;
+    else if (impact && typeof impact === "object") {
+      impactText = impact.summary || impact.potential_world_impact || "";
+    }
+
+    const confidence = c.confidence == null ? "Unknown" : `${c.confidence}%`;
+    const urls = (Array.isArray(c.urls) ? c.urls : []).slice(0,10)
+      .map(url => `<a class="source-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(url)}</a>`)
+      .join("");
+
+    $("profile").innerHTML = `
+      <div class="eyebrow">Atlas entity profile</div>
+      <h2>${escapeHTML(c.name)}</h2>
+      <p class="profile-desc">${escapeHTML(c.description || "No description recorded.")}</p>
+      <div class="tag-row">
+        <span class="tag ${status==="needs_review"?"warn":""}">${escapeHTML(statusLabel)}</span>
+        <span class="tag">${escapeHTML(c.sector || "Unclassified sector")}</span>
+        <span class="tag">${escapeHTML(safe(c.entity_type).replaceAll("_"," ") || "unclassified")}</span>
+      </div>
+      <div class="kv">
+        <div><small>Evidence mentions</small><strong>${fmt(c.mentions)}</strong></div>
+        <div><small>Evidence files</small><strong>${fmt(c.evidence_files_count)}</strong></div>
+        <div><small>Analyst confidence</small><strong>${escapeHTML(confidence)}</strong></div>
+        <div><small>Public / private</small><strong>Unknown</strong></div>
+        <div><small>Recent dated mentions</small><strong>${fmt(c.recent_mentions)}</strong></div>
+        <div><small>Dated timeline</small><strong>${c.has_dated_evidence ? "Available" : "Unavailable"}</strong></div>
+      </div>
+      <div class="section">
+        <h3>Identity assessment</h3>
+        <p>${escapeHTML(c.identity_assessment || "No separate analyst identity assessment is available.")}</p>
+      </div>
+      ${listSection("Evidence-based facts",c.facts)}
+      ${listSection("Technology and capabilities",c.technology)}
+      ${impactText ? `<div class="section"><h3>Potential world impact</h3><p>${escapeHTML(impactText)}</p></div>` : ""}
+      ${listSection("Evidence gaps",c.gaps)}
+      ${c.verification_reason ? `<div class="section"><h3>Verification status reason</h3><p>${escapeHTML(c.verification_reason)}</p></div>` : ""}
+      ${c.verification_limits ? `<div class="section"><h3>Verification limits</h3><p>${escapeHTML(c.verification_limits)}</p></div>` : ""}
+      <div class="section">
+        <h3>Source links</h3>
+        ${urls || '<p>No source URLs recorded for this profile.</p>'}
+      </div>
+      <div class="section">
+        <h3>Interpretation</h3>
+        <p>These figures describe the current research corpus, not the organisation's market share, financial value or business performance. An unknown field is not a negative finding.</p>
+      </div>
+    `;
+
+    draw();
+  }
+
+  function selectAt(x,y) {
+    let nearest = null;
+    let distance = Infinity;
+
+    for (const p of positions) {
+      const q = screenPos(p);
+      const d = Math.hypot(q.x-x,q.y-y);
+      if (d < p.r+8 && d < distance) {
+        nearest = p;
+        distance = d;
+      }
+    }
+
+    if (nearest) showProfile(nearest.company);
+  }
+
+  function setMode(next) {
+    mode = next;
+    document.querySelectorAll("[data-mode]").forEach(button => {
+      button.classList.toggle("active",button.dataset.mode===mode);
+    });
+    $("viewTitle").textContent = viewText[mode][0];
+    $("viewDescription").textContent = viewText[mode][1];
+    scale = 1; panX = 0; panY = 0;
+    buildPositions();
+    draw();
+  }
+
+  function populateSectors() {
+    const sectors = [...new Set(allCompanies.map(c=>c.sector || "Unclassified"))].sort();
+    const select = $("sectorFilter");
+    select.innerHTML = '<option value="">All sectors</option>' +
+      sectors.map(s=>`<option value="${escapeHTML(s)}">${escapeHTML(s)}</option>`).join("");
+  }
+
+  async function init() {
+    try {
+      const response = await fetch("/company-data/api/map", {cache:"no-store"});
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.detail || data.error || `API returned HTTP ${response.status}`);
+      }
+
+      if (!Array.isArray(data.companies)) {
+        throw new Error("The API response did not contain a companies list.");
+      }
+
+      allCompanies = data.companies;
+      links = Array.isArray(data.links) ? data.links : [];
+      meta = data.meta || {};
+
+      $("statCompanies").textContent = fmt(allCompanies.length);
+      $("statMentions").textContent = fmt(allCompanies.reduce((sum,c)=>sum+(Number(c.mentions)||0),0));
+      $("statAnalyses").textContent = fmt(meta.analyst_assessments || 0);
+      $("statDated").textContent = fmt(allCompanies.filter(c=>c.has_dated_evidence).length);
+      $("dataStamp").textContent = meta.atlas_generated_at
+        ? `Atlas generated: ${meta.atlas_generated_at}`
+        : "Atlas generation date not available";
+
+      populateSectors();
+      applyFilters();
+      hideError();
+
+      if (!allCompanies.length) {
+        setError("The atlas loaded, but it contains no company records.");
+      }
+    } catch (error) {
+      setError(`Could not load Company Data: ${error.message}. Check that the Flask app is running and the API route is registered.`);
+      $("visibleCount").textContent = "Data could not be loaded";
+      $("overlayCount").textContent = "API unavailable";
+      draw();
+    }
+  }
+
+  document.querySelectorAll("[data-mode]").forEach(button => {
+    button.addEventListener("click",()=>setMode(button.dataset.mode));
+  });
+
+  ["search","sectorFilter","typeFilter","statusFilter","momentumFilter"].forEach(id=>{
+    $(id).addEventListener(id==="search"?"input":"change",applyFilters);
+  });
+
+  $("resetFilters").addEventListener("click",()=>{
+    $("search").value = "";
+    $("sectorFilter").value = "";
+    $("typeFilter").value = "";
+    $("statusFilter").value = "";
+    $("momentumFilter").value = "";
+    applyFilters();
+  });
+
+  $("zoomIn").addEventListener("click",()=>{scale=Math.min(4,scale*1.2);draw();});
+  $("zoomOut").addEventListener("click",()=>{scale=Math.max(.35,scale/1.2);draw();});
+  $("zoomReset").addEventListener("click",()=>{scale=1;panX=0;panY=0;draw();});
+
+  canvas.addEventListener("pointerdown",event=>{
+    dragging = true;
+    dragMoved = false;
+    pointerStart = {x:event.clientX,y:event.clientY};
+    lastPointer = {x:event.clientX,y:event.clientY};
+    canvas.classList.add("dragging");
+    canvas.setPointerCapture(event.pointerId);
+  });
+
+  canvas.addEventListener("pointermove",event=>{
+    if (!dragging || !lastPointer) return;
+    const dx = event.clientX-lastPointer.x;
+    const dy = event.clientY-lastPointer.y;
+    if (pointerStart && Math.hypot(event.clientX-pointerStart.x,event.clientY-pointerStart.y)>4) {
+      dragMoved = true;
+    }
+    if (dragMoved) {
+      panX += dx;
+      panY += dy;
+      draw();
+    }
+    lastPointer = {x:event.clientX,y:event.clientY};
+  });
+
+  canvas.addEventListener("pointerup",event=>{
+    if (dragging && !dragMoved) {
+      const rect = canvas.getBoundingClientRect();
+      selectAt(event.clientX-rect.left,event.clientY-rect.top);
+    }
+    dragging = false;
+    pointerStart = null;
+    lastPointer = null;
+    canvas.classList.remove("dragging");
+  });
+
+  canvas.addEventListener("pointercancel",()=>{
+    dragging = false;
+    pointerStart = null;
+    lastPointer = null;
+    canvas.classList.remove("dragging");
+  });
+
+  canvas.addEventListener("wheel",event=>{
+    event.preventDefault();
+    scale = Math.max(.35,Math.min(4,scale*(event.deltaY<0?1.1:.9)));
+    draw();
+  },{passive:false});
+
+  window.addEventListener("resize",resizeCanvas);
+
+  resizeCanvas();
+  init();
+})();
+</script>
+</body>
+</html>
+

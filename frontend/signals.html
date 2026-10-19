@@ -1,0 +1,702 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MachinaDaily â€” Neural Observatory</title>
+<style>
+:root{color-scheme:dark;--bg:#070b12;--panel:#0c1420;--line:#1b3042;--cyan:#65e1ff;--muted:#8ba1b4;--white:#eaf5ff;--green:#7df0c2}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% -15%,#10283b 0,transparent 50%),var(--bg);color:var(--white);font:14px/1.5 Inter,Segoe UI,Arial,sans-serif}
+a{color:var(--cyan);overflow-wrap:anywhere}
+button,input,select{font:inherit}
+button,select,input{background:#09111b;color:var(--white);border:1px solid var(--line);border-radius:8px;padding:10px}
+button{cursor:pointer}
+button:hover{border-color:var(--cyan);color:var(--cyan)}
+button:disabled{opacity:.35;cursor:not-allowed}
+header{padding:22px clamp(16px,4vw,52px);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{font-weight:850;letter-spacing:.12em}.brand span{color:var(--cyan)}
+.kicker{font-size:10px;color:var(--green);letter-spacing:.2em;text-transform:uppercase}
+header a{text-decoration:none}
+main{max-width:1600px;margin:auto;padding:26px clamp(12px,3vw,40px) 60px}
+.hero{display:flex;justify-content:space-between;gap:22px;align-items:end;flex-wrap:wrap;margin-bottom:24px}
+h1{font-size:clamp(30px,4vw,54px);line-height:1.02;letter-spacing:-.045em;margin:8px 0 12px}
+.sub{color:var(--muted);max-width:700px;margin:0}
+.status{border:1px solid #205143;border-radius:10px;padding:12px 16px;color:var(--green);min-width:170px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:24px 0}
+.stat,.panel{background:linear-gradient(145deg,rgba(15,28,42,.96),rgba(8,15,25,.97));border:1px solid var(--line);border-radius:14px}
+.stat{padding:17px}.stat small{display:block;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;font-size:10px}.stat strong{display:block;font-size:clamp(22px,3vw,32px);margin-top:5px;overflow-wrap:anywhere}
+.layout{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:16px;align-items:start}
+.panel{overflow:hidden;min-width:0}.panel-head{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+.panel-head h2{font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0}
+.panel-head p{color:var(--muted);font-size:12px;margin:4px 0 0}
+.map-wrap{height:430px;position:relative;background:radial-gradient(ellipse at center,#102234 0,rgba(7,12,19,.6) 65%)}
+canvas{width:100%;height:100%;display:block;cursor:crosshair}
+.map-legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px;padding:10px 16px;border-top:1px solid var(--line)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+.controls{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:8px;padding:14px;border-bottom:1px solid var(--line)}
+.controls input{min-width:0;width:100%}.controls select{min-width:0;width:100%}
+.results-top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 16px;color:var(--muted);font-size:12px}
+.list{display:flex;flex-direction:column}
+.story{padding:15px 16px;border-top:1px solid rgba(27,48,66,.8);cursor:pointer}
+.story:hover,.story.active{background:rgba(101,225,255,.055)}
+.story.active{box-shadow:inset 3px 0 var(--cyan)}
+.story h3{font-size:15px;line-height:1.35;margin:6px 0 8px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:11px}
+.pill{display:inline-block;border:1px solid #254359;color:#b9d4e7;padding:2px 7px;border-radius:20px;font-size:10px}
+.story p{margin:8px 0 0;color:#a9bdcd;font-size:12px}
+.pagination{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:14px;border-top:1px solid var(--line)}
+.detail{margin-top:16px}
+.detail-body{padding:18px}
+.detail h2{font-size:clamp(20px,2.6vw,29px);line-height:1.2;margin:0 0 12px}
+.detail h3{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);margin:22px 0 8px}
+.detail p{color:#bfd0dd;white-space:pre-wrap;overflow-wrap:anywhere}
+.article-text{max-height:320px;overflow:auto;padding:13px;background:#080f18;border:1px solid var(--line);border-radius:9px}
+.source-link{display:inline-block;margin-top:10px}
+.briefing-controls{margin:16px 0}
+.briefing-controls button{background:#65e1ff;color:#07111b;border:0;border-radius:8px;padding:11px 15px;font-weight:700;cursor:pointer}
+.briefing-controls button:disabled{opacity:.65;cursor:wait}
+.briefing-result{margin:14px 0;padding:15px;background:#0b1722;border:1px solid var(--line);border-radius:10px;overflow-wrap:anywhere}
+.briefing-copy{display:grid;gap:12px;line-height:1.75}
+.briefing-section{padding:14px;background:#080f18;border:1px solid var(--line);border-radius:9px}
+.briefing-section h4{margin:0 0 8px;color:var(--cyan);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.briefing-body p{margin:0 0 9px;color:#d2dfeb;overflow-wrap:anywhere}
+.briefing-body p:last-child{margin-bottom:0}
+.briefing-body strong{color:#f1f7ff}
+.briefing-body em{color:#dcecff}
+.briefing-body ol,.briefing-body ul{margin:7px 0 10px;padding-left:22px;color:#d2dfeb}
+.briefing-body li{margin:5px 0;overflow-wrap:anywhere}
+.briefing-section p{margin:0;color:#d2dfeb;white-space:pre-wrap;overflow-wrap:anywhere}
+.briefing-section ul{margin:8px 0 0;padding-left:20px;color:#d2dfeb}
+.briefing-section li{margin:5px 0}
+.briefing-result{margin:14px 0;padding:15px;background:#0b1722;border:1px solid var(--line);border-radius:10px;overflow-wrap:anywhere}
+
+
+.empty{padding:28px 16px;color:var(--muted);text-align:center}
+.note{font-size:11px;color:var(--muted);padding:0 16px 14px}
+footer{padding:26px 0 0;color:#657e91;font-size:11px}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.map-wrap{height:360px}}
+@media(max-width:560px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.controls{grid-template-columns:1fr}.map-wrap{height:310px}header{align-items:flex-start}.status{width:100%}}
+/* MACHINADAILY LIGHT THEME OVERRIDE */
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --panel: #ffffff;
+  --panel2: #f4f9fc;
+  --line: #dce6ed;
+  --border: #dce6ed;
+  --white: #172b3a;
+  --text: #172b3a;
+  --muted: #607586;
+  --cyan: #159fc4;
+}
+body {
+  background: #ffffff !important;
+  color: #172b3a !important;
+}
+header, .topbar {
+  background: #ffffff !important;
+  color: #172b3a !important;
+  border-color: #dce6ed !important;
+}
+.stat, .panel, .profile, .briefing-result, .briefing-section {
+  background: #ffffff !important;
+  color: #172b3a !important;
+  border-color: #dce6ed !important;
+}
+.panel-head, .controls, .results-top, .pagination, .map-legend,
+.map-footer, .section {
+  border-color: #dce6ed !important;
+}
+button, input, select {
+  background: #f4f9fc !important;
+  color: #172b3a !important;
+  border-color: #d0dfe8 !important;
+}
+button:hover, button:focus-visible {
+  border-color: #159fc4 !important;
+}
+a, .brand span, .detail h3, .briefing-section h4,
+.eyebrow, .loading {
+  color: #159fc4 !important;
+}
+.kicker, .status, .topmeta, .sub, .intro, .meta,
+.stat small, .stat-label, .stat-note, .panel-head p,
+.map-legend, .map-footer, .profile-empty, .profile-desc,
+.section h3, .section p, .section li, .kv small,
+.note, footer, .empty, .results-top, .topmeta {
+  color: #607586 !important;
+}
+.story {
+  border-color: #e3ebf0 !important;
+}
+.story p, .detail p, .briefing-body p,
+.briefing-body ol, .briefing-body ul,
+.briefing-section p, .briefing-section ul {
+  color: #344b5b !important;
+}
+.briefing-body strong, .briefing-body em {
+  color: #172b3a !important;
+}
+.pill, .tag {
+  color: #087f9f !important;
+  background: #e9f9ff !important;
+  border-color: #b7e9f6 !important;
+}
+.tag.warn {
+  color: #98501a !important;
+  background: #fff4e9 !important;
+  border-color: #f1d0b2 !important;
+}
+.article-text, .map-overlay, .legend, .kv > div, .notice {
+  background: #f4f9fc !important;
+  color: #344b5b !important;
+  border-color: #dce6ed !important;
+}
+.map-wrap {
+  background: #f4f9fc !important;
+}
+.modes button.active, .briefing-controls button {
+  background: #65e1ff !important;
+  color: #102b38 !important;
+  border-color: #65e1ff !important;
+}
+.error {
+  color: #bd3148 !important;
+}
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: light; }
+}
+/* END MACHINADAILY LIGHT THEME OVERRIDE */
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="brand">MACHINA<span>DAILY</span></div>
+    <div class="kicker">Intelligence systems / observatory</div>
+  </div>
+  <a href="/">â† Return to MachinaDaily</a>
+</header>
+<main>
+  <section class="hero">
+    <div>
+      <div class="kicker">Neural operations / 01</div>
+      <h1>Neural Observatory</h1>
+      <p class="sub">Explore the intelligence archive. Search emerging developments, compare sectors, inspect publisher sources and follow every story back to its origin.</p>
+    </div>
+    <div class="status"><span id="liveDot">â—</span> ARCHIVE CONNECTION<br><strong id="connection">CONNECTING</strong></div>
+  </section>
+
+  <section class="stats">
+    <div class="stat"><small>Indexed records</small><strong id="totalStat">â€”</strong></div>
+    <div class="stat"><small>Sources</small><strong id="sourcesStat">â€”</strong></div>
+    <div class="stat"><small>Categories</small><strong id="categoriesStat">â€”</strong></div>
+    <div class="stat"><small>Matching records</small><strong id="matchingStat">â€”</strong></div>
+  </section>
+
+  <section class="layout">
+    <div>
+      <section class="panel">
+        <div class="panel-head">
+          <div><h2>Intelligence network</h2><p>Choose a node to inspect a record or shared archive group.</p></div>
+          <button id="refreshBtn" type="button">â†» Refresh</button>
+        </div>
+        <div class="map-wrap"><canvas id="network" aria-label="Interactive intelligence network"></canvas></div>
+        <div class="map-legend">
+          <span><i class="dot" style="background:#65e1ff"></i>Story</span>
+          <span><i class="dot" style="background:#7df0c2"></i>Category</span>
+          <span><i class="dot" style="background:#f6bd60"></i>Source</span>
+          <span>Connections indicate shared source/category only.</span>
+        </div>
+      </section>
+
+      <section class="panel detail" id="detailPanel">
+        <div class="panel-head"><div><h2>Record intelligence</h2><p>Original and rewritten text where available</p></div></div>
+        <div class="detail-body" id="detail">
+          <div class="empty">Select a story from the list or the network to open its record.</div>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div><h2>Archive search</h2><p>Search titles, sources and article text.</p></div>
+      </div>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search intelligenceâ€¦" aria-label="Search records">
+        <select id="categoryFilter" aria-label="Filter by category"><option value="">All categories</option></select>
+        <select id="sourceFilter" aria-label="Filter by source"><option value="">All sources</option></select>
+      </div>
+      <div class="results-top"><span id="resultLabel">Loading recordsâ€¦</span><span id="pageLabel">Page â€”</span></div>
+      <div class="list" id="storyList"><div class="empty">Loading the intelligence archiveâ€¦</div></div>
+      <div class="pagination">
+        <button id="prevBtn" disabled>â† Previous</button>
+        <button id="nextBtn" disabled>Next â†’</button>
+      </div>
+      <div class="note">Records are loaded from <code>data/deep_raw</code> and <code>data/rewritten</code>. Matching stories are deduplicated where possible.</div>
+    </section>
+  </section>
+  <footer>MachinaDaily Neural Observatory Â· Archive connections are navigational associations, not claims of causation or influence.</footer>
+</main>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const canvas = $("network"), ctx = canvas.getContext("2d");
+  let state = {items:[],nodes:[],edges:[],page:1,pages:1,total:0,filters:{categories:[],sources:[]}};
+  let positions = [], selectedRecord = null, queryTimer = null, lastQuery = "";
+  const fmt = n => Number(n || 0).toLocaleString();
+  const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[ch]));
+  const safeUrl = value => {
+    try { const u = new URL(value); return ["http:","https:"].includes(u.protocol) ? u.href : ""; }
+    catch { return ""; }
+  };
+  const dateText = value => {
+    if (!value) return "Date unavailable";
+    const d = new Date(value);
+    return Number.isNaN(d.getTime()) ? value : d.toLocaleString();
+  };
+
+  function updateSelect(id, values, label) {
+    const el = $(id), old = el.value;
+    el.innerHTML = `<option value="">All ${label}</option>` +
+      values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+    if (values.includes(old)) el.value = old;
+  }
+
+  function renderList() {
+    $("resultLabel").textContent = `${fmt(state.total)} matching records`;
+    $("pageLabel").textContent = `Page ${state.page} / ${state.pages}`;
+
+    $("storyList").innerHTML = state.items.map((r, i) => `
+      <article class="story" data-index="${i}" tabindex="0" role="button">
+        <div class="meta">
+          <span class="pill">${esc(r.category || "Uncategorised")}</span>
+          <span>${esc(r.source || "Unknown publisher")}</span>
+        </div>
+        <h3>${esc(r.title || "Untitled intelligence record")}</h3>
+        <div class="meta">${esc(dateText(r.published))}</div>
+        <p>${esc(r.summary || "No summary is available for this record.")}</p>
+      </article>`).join("");
+
+    $("storyList").querySelectorAll(".story").forEach(el => {
+      const open = () => showRecord(state.items[Number(el.dataset.index)]);
+      el.addEventListener("click", open);
+      el.addEventListener("keydown", event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          open();
+        }
+      });
+    });
+  }
+
+  function showRecord(r) {
+    if (!r) return;
+    selectedRecord = r;
+
+    const url = safeUrl(r.url);
+    const sectors = String(r.category || "Uncategorised")
+      .split(",").map(x => x.trim()).filter(Boolean);
+    const summary = r.summary || r.original_text || r.rewritten ||
+      "No source summary is available yet.";
+
+    $("detail").innerHTML = `
+      <div class="meta">
+        ${sectors.map(sector => `<span class="pill">${esc(sector)}</span>`).join(" ")}
+      </div>
+      <h2>${esc(r.title || "Untitled intelligence record")}</h2>
+      <div class="meta">
+        <span>Publisher: ${esc(r.source || "Unknown publisher")}</span>
+        <span>${esc(dateText(r.published))}</span>
+      </div>
+      <h3>Story overview</h3>
+      <div class="article-text"><p>${esc(summary)}</p></div>
+      ${r.rewritten ? `
+        <h3>MachinaDaily newsroom article</h3>
+        <div class="article-text"><p>${esc(r.rewritten)}</p></div>` : ""}
+      <div class="briefing-controls">
+        <button type="button" id="generateBriefing">Generate intelligence briefing</button>
+        <p class="meta">Analysed locally using Ollama and the stored story evidence.</p>
+      </div>
+      <div id="briefingOutput" aria-live="polite"></div>
+      ${url ? `<a class="source-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Verify original source â†—</a>` : ""}
+      ${r.authors ? `<p class="meta">By ${esc(r.authors)}</p>` : ""}
+      <p class="meta">Record ID: ${esc(r.id || "Unavailable")}</p>`;
+
+    $("generateBriefing").addEventListener("click", () => generateStoryBriefing(r.id));
+    renderList();
+  }
+
+
+  function cleanBriefingText(text) {
+    return String(text || "")
+      .replace(/&#x20;|&nbsp;/gi, " ")
+      .replace(/\\([*_.#-])/g, "$1")
+      .replace(/[ \t]+\n/g, "\n")
+      .trim();
+  }
+
+  function parseBriefingSections(text) {
+    const aliases = {
+      "THE STORY": "The Story",
+      "WHY IT MATTERS": "Why It Matters",
+      "WHAT TO WATCH": "What to Watch",
+      "EVIDENCE LIMITS": "Evidence & Confidence",
+      "EVIDENCE & CONFIDENCE": "Evidence & Confidence",
+      "EVIDENCE AND CONFIDENCE": "Evidence & Confidence"
+    };
+
+    const source = cleanBriefingText(text);
+    const pattern = /(?:^|\n)\s{0,3}(?:#{1,4}\s*)?(THE STORY|WHY IT MATTERS|WHAT TO WATCH|EVIDENCE LIMITS|EVIDENCE\s*&\s*CONFIDENCE|EVIDENCE\s+AND\s+CONFIDENCE)\s*:?\s*/gim;
+    const matches = [];
+    let match;
+
+    while ((match = pattern.exec(source)) !== null) {
+      matches.push({
+        heading: match[1].toUpperCase().replace(/\s+/g, " ").replace(/\s*&\s*/g, " & "),
+        start: match.index,
+        contentStart: pattern.lastIndex
+      });
+    }
+
+    if (!matches.length) {
+      return [{ title: "Intelligence Analysis", body: source }];
+    }
+
+    const sections = [];
+    const intro = source.slice(0, matches[0].start).trim();
+    if (intro) sections.push({ title: "Analyst Summary", body: intro });
+
+    for (let i = 0; i < matches.length; i++) {
+      const item = matches[i];
+      const end = i + 1 < matches.length ? matches[i + 1].start : source.length;
+      const body = source.slice(item.contentStart, end).trim();
+      if (body) sections.push({
+        title: aliases[item.heading] || item.heading,
+        body
+      });
+    }
+
+    return sections.length ? sections : [
+      { title: "Intelligence Analysis", body: source }
+    ];
+  }
+
+  function renderBriefingBody(text) {
+    const lines = cleanBriefingText(text).split(/\r?\n/);
+    const html = [];
+    let paragraph = [];
+    let listType = null;
+
+    function inline(line) {
+      let safe = esc(line);
+      safe = safe.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+      safe = safe.replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<em>$2</em>");
+      return safe;
+    }
+
+    function flushParagraph() {
+      if (paragraph.length) {
+        html.push(`<p>${paragraph.map(inline).join(" ")}</p>`);
+        paragraph = [];
+      }
+    }
+
+    function closeList() {
+      if (listType) {
+        html.push(listType === "ol" ? "</ol>" : "</ul>");
+        listType = null;
+      }
+    }
+
+    for (const raw of lines) {
+      const line = raw.trim();
+      if (!line) {
+        flushParagraph();
+        closeList();
+        continue;
+      }
+
+      const numbered = line.match(/^(?:\\)?\d+[.)](?:\\)?\s+(.+)$/);
+      const bullet = line.match(/^(?:[-*â€¢]|\\-)\s+(.+)$/);
+      const kind = numbered ? "ol" : bullet ? "ul" : null;
+
+      if (kind) {
+        flushParagraph();
+        if (listType !== kind) {
+          closeList();
+          html.push(kind === "ol" ? "<ol>" : "<ul>");
+          listType = kind;
+        }
+        html.push(`<li>${inline((numbered || bullet)[1])}</li>`);
+      } else {
+        closeList();
+        paragraph.push(line);
+      }
+    }
+
+    flushParagraph();
+    closeList();
+    return html.join("\n");
+  }
+
+  function renderBriefingSections(text) {
+    return parseBriefingSections(text).map(section => `
+      <section class="briefing-section">
+        <h4>${esc(section.title)}</h4>
+        <div class="briefing-body">${renderBriefingBody(section.body)}</div>
+      </section>
+    `).join("");
+  }
+
+  async function generateStoryBriefing(recordId) {
+    const output = $("briefingOutput");
+    const button = $("generateBriefing");
+    if (!output || !button || !recordId) return;
+
+    button.disabled = true;
+    button.textContent = "Analysing source material...";
+    output.innerHTML = '<div class="briefing-result"><p>Ollama is analysing the available evidence. This may take a little while.</p></div>';
+
+    try {
+      const response = await fetch("/signals/api/briefing", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({id: recordId})
+      });
+      const data = await response.json();
+
+      if (!response.ok || !data.ok) {
+        throw new Error(data.error || "The briefing could not be generated.");
+      }
+
+      output.innerHTML = `
+        <div class="briefing-result">
+          <p class="meta">LOCAL MODEL: ${esc(data.model || "Ollama")}</p>
+          <h3>MachinaDaily intelligence briefing</h3>
+          <div class="briefing-copy">${renderBriefingSections(data.briefing || "")}</div>
+          <p class="meta">Evidence used: ${esc(data.evidence_basis || "Stored story record")}</p>
+        </div>`;
+    } catch (error) {
+      output.innerHTML = `<div class="briefing-result"><p>Briefing unavailable: ${esc(error.message || "Unknown error")}</p><p class="meta">Check that Ollama is running, then try again.</p></div>`;
+    } finally {
+      button.disabled = false;
+      button.textContent = "Generate intelligence briefing";
+    }
+  }
+
+  function resizeCanvas() {
+    const rect = canvas.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.max(1, Math.floor(rect.width*dpr));
+    canvas.height = Math.max(1, Math.floor(rect.height*dpr));
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    drawNetwork();
+  }
+
+  let networkAnimationFrame = null;
+  let networkMotionStart = performance.now();
+
+  function drawNetwork(now = performance.now()) {
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    if (!w || !h) return;
+
+    const elapsed = (now - networkMotionStart) / 1000;
+    ctx.clearRect(0, 0, w, h);
+
+    // Existing observatory grid.
+    ctx.save();
+    ctx.strokeStyle = "rgba(101,225,255,.055)";
+    ctx.lineWidth = 1;
+    for (let x = 0; x < w; x += 28) {
+      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, h); ctx.stroke();
+    }
+    for (let y = 0; y < h; y += 28) {
+      ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke();
+    }
+    ctx.restore();
+
+    const nodes = state.nodes || [];
+    if (!nodes.length) {
+      positions = [];
+      ctx.fillStyle = "#8ba1b4";
+      ctx.textAlign = "center";
+      ctx.font = "12px Segoe UI, Arial";
+      ctx.fillText("No network data for this search", w / 2, h / 2);
+      return;
+    }
+
+    const cx = w / 2, cy = h / 2;
+    const rx = Math.max(40, w * .39), ry = Math.max(40, h * .39);
+    const groups = { category: [], source: [], story: [] };
+    nodes.forEach(n => (groups[n.type] || groups.story).push(n));
+
+    positions = [];
+
+    function arrange(list, ring, offset) {
+      list.forEach((n, i) => {
+        const angle = (i / Math.max(1, list.length)) * Math.PI * 2 + offset;
+
+        // Small deterministic motion: nodes drift without losing their identity.
+        const phase = i * 1.73 + (n.type === "source" ? 2 : n.type === "category" ? 4 : 0);
+        const driftX = Math.sin(elapsed * .48 + phase) * (n.type === "story" ? 3.5 : 2);
+        const driftY = Math.cos(elapsed * .39 + phase) * (n.type === "story" ? 3.5 : 2);
+
+        positions.push({
+          ...n,
+          x: cx + Math.cos(angle) * rx * ring + driftX,
+          y: cy + Math.sin(angle) * ry * ring + driftY,
+          radius: n.type === "story" ? 3.2 : Math.min(10, 5 + Math.log2((n.count || 1) + 1))
+        });
+      });
+    }
+
+    arrange(groups.category, .26, -Math.PI / 2);
+    arrange(groups.source, .58, -Math.PI / 3);
+    arrange(groups.story, .91, 0);
+
+    const byId = new Map(positions.map(p => [p.id, p]));
+    const linked = new Set();
+
+    // Draw existing connections, with a brighter travelling pulse on each edge.
+    for (const edge of (state.edges || [])) {
+      const a = byId.get(edge.source), b = byId.get(edge.target);
+      if (!a || !b) continue;
+
+      linked.add(a.id);
+      linked.add(b.id);
+
+      const dx = b.x - a.x, dy = b.y - a.y;
+      const length = Math.hypot(dx, dy);
+      if (!length) continue;
+
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.lineWidth = 0.85;
+      ctx.strokeStyle = "rgba(101,225,255,.23)";
+      ctx.stroke();
+
+      // Soft highlight travelling along the connection.
+      const progress = ((elapsed * .24 + ((String(edge.source).length * 7 + String(edge.target).length * 3) % 100) / 100) % 1);
+      const px = a.x + dx * progress;
+      const py = a.y + dy * progress;
+
+      ctx.beginPath();
+      ctx.arc(px, py, 2.2, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(101,225,255,.95)";
+      ctx.shadowColor = "#65e1ff";
+      ctx.shadowBlur = 9;
+      ctx.fill();
+      ctx.shadowBlur = 0;
+    }
+
+    // Draw nodes over the links so they remain easy to see and click.
+    for (const p of positions) {
+      const color = p.type === "category" ? "#7df0c2"
+        : p.type === "source" ? "#f6bd60" : "#65e1ff";
+      const connected = linked.has(p.id);
+      const pulse = .5 + .5 * Math.sin(elapsed * 2.2 + (String(p.id).length * .7));
+      const glow = p.type === "story" ? 5 + pulse * 5 : 10 + pulse * 6;
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.radius + (connected ? pulse * .7 : 0), 0, Math.PI * 2);
+      ctx.fillStyle = color;
+      ctx.shadowColor = color;
+      ctx.shadowBlur = connected ? glow : 4;
+      ctx.fill();
+      ctx.shadowBlur = 0;
+
+      if (p.type !== "story") {
+        ctx.font = "10px Segoe UI, Arial";
+        ctx.fillStyle = "#c7d8e5";
+        ctx.textAlign = p.x < cx ? "right" : "left";
+        ctx.fillText(String(p.label || "").slice(0, 25), p.x + (p.x < cx ? -10 : 10), p.y + 3);
+      }
+    }
+  }
+
+  function animateNetwork(now) {
+    drawNetwork(now);
+    networkAnimationFrame = requestAnimationFrame(animateNetwork);
+  }
+
+  function startNetworkAnimation() {
+    if (networkAnimationFrame !== null) cancelAnimationFrame(networkAnimationFrame);
+    networkAnimationFrame = requestAnimationFrame(animateNetwork);
+  }
+
+  function fetchData(resetPage=false) {
+    if (resetPage) state.page=1;
+    const params = new URLSearchParams({
+      q:$("search").value.trim(), category:$("categoryFilter").value,
+      source:$("sourceFilter").value, page:String(state.page), per_page:"20"
+    });
+    lastQuery=params.toString();
+    $("connection").textContent="SYNCING";
+    fetch("/signals/api?"+params.toString(),{cache:"no-store"})
+      .then(r => {if(!r.ok) throw new Error("API returned HTTP "+r.status);return r.json();})
+      .then(data => {
+        if(!data.ok) throw new Error(data.error || "API error");
+        if(lastQuery!==params.toString()) return;
+        state={...state,...data};
+        $("connection").textContent="ONLINE";
+        $("liveDot").style.color="var(--green)";
+        $("totalStat").textContent=fmt(data.stats.records);
+        $("sourcesStat").textContent=fmt(data.stats.sources);
+        $("categoriesStat").textContent=fmt(data.stats.categories);
+        $("matchingStat").textContent=fmt(data.total);
+        updateSelect("categoryFilter",data.filters.categories,"categories");
+        updateSelect("sourceFilter",data.filters.sources,"sources");
+        renderList();drawNetwork();
+        if(selectedRecord) {
+          const fresh=state.items.find(x=>x.id===selectedRecord.id);
+          if(fresh) selectedRecord=fresh;
+        }
+      })
+      .catch(err => {
+        $("connection").textContent="API ERROR";
+        $("liveDot").style.color="#ff7b87";
+        $("storyList").innerHTML=`<div class="empty">Could not load the archive: ${esc(err.message)}<br>Check the Flask server and /signals/api route.</div>`;
+      });
+  }
+
+  $("search").addEventListener("input",()=> {
+    clearTimeout(queryTimer);queryTimer=setTimeout(()=>fetchData(true),300);
+  });
+  $("categoryFilter").addEventListener("change",()=>fetchData(true));
+  $("sourceFilter").addEventListener("change",()=>fetchData(true));
+  $("prevBtn").addEventListener("click",()=>{if(state.page>1){state.page--;fetchData();}});
+  $("nextBtn").addEventListener("click",()=>{if(state.page<state.pages){state.page++;fetchData();}});
+  $("refreshBtn").addEventListener("click",()=>fetchData());
+  canvas.addEventListener("click",e=>{
+    const rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top;
+    let nearest=null,distance=Infinity;
+    for(const p of positions){const d=Math.hypot(x-p.x,y-p.y);if(d<Math.max(13,p.radius+7)&&d<distance){nearest=p;distance=d;}}
+    if(!nearest)return;
+    if(nearest.type==="story"){
+      const record=state.items.find(r=>r.id===nearest.record_id);
+      if(record)showRecord(record);
+      else {
+        const nodeTitle=nearest.label;
+        $("search").value=nodeTitle;fetchData(true);
+      }
+    } else {
+      const filter=nearest.type==="category"?"categoryFilter":"sourceFilter";
+      const value=nearest.id.slice(4);
+      $(filter).value=value;fetchData(true);
+    }
+  });
+  window.addEventListener("resize",resizeCanvas);
+  startNetworkAnimation();
+  resizeCanvas();
+  fetchData();
+  // Poll periodically so newly arrived or updated records appear automatically.
+  setInterval(()=>fetchData(),45000);
+})();
+</script>
+</body>
+</html>
+

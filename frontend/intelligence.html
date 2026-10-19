@@ -1,0 +1,550 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MachinaDaily â€” Future Intelligence Observatory</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<style>
+:root{color-scheme:dark;--bg:#070b12;--panel:#0d1522;--line:#223247;--muted:#8da2b9;--text:#e7f0fa;--cyan:#65e1ff;--green:#7cf0c1;--amber:#ffc777}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 15% 0%,#102238 0,transparent 38%),var(--bg);color:var(--text);font:14px/1.5 Inter,Segoe UI,Arial,sans-serif}
+header{padding:28px 4vw 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center}
+.brand,.eyebrow{font-size:10px;letter-spacing:2px;color:var(--cyan);font-weight:800}
+h1{font-size:clamp(25px,4vw,42px);line-height:1.08;margin:9px 0}
+.sub{color:var(--muted);max-width:780px}
+.status{color:var(--amber);font-size:11px;white-space:nowrap}
+main{max-width:1600px;margin:auto;padding:24px 4vw 50px}
+.section-title{margin:27px 0 12px;color:var(--cyan);font-size:11px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}
+.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.metric,.panel{background:linear-gradient(145deg,#101b2a,#0b121d);border:1px solid var(--line);border-radius:13px}
+.metric{padding:17px}.metric-label{color:var(--muted);font-size:11px}.metric-value{font-size:clamp(23px,3vw,34px);font-weight:750;margin:7px 0}.metric-note{font-size:10px;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.panel{padding:18px;min-width:0;overflow:hidden}
+.panel h2{font-size:15px;margin:0 0 5px}.desc{color:var(--muted);font-size:12px;margin:0 0 13px}
+.chart{width:100%;height:300px}.chart.short{height:270px}
+#network{height:480px;background:#09111c;border:1px solid var(--line);border-radius:9px}
+input,select,button{background:#09111c;color:var(--text);border:1px solid #33465e;border-radius:8px;padding:11px 12px;font:inherit;min-width:0}
+input{flex:1}button{cursor:pointer}button:hover{border-color:var(--cyan);color:var(--cyan)}button:disabled{opacity:.35;cursor:not-allowed}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.controls input{min-width:180px}
+.trend-list{display:grid;gap:8px}.trend{padding:12px 0;border-bottom:1px solid var(--line)}.trend:last-child{border:0}
+.trend-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.trend-name{font-weight:750;text-transform:capitalize}
+.pill{font-size:10px;color:var(--cyan);border:1px solid #24516a;border-radius:30px;padding:3px 8px;white-space:nowrap}
+.meta{font-size:11px;color:var(--muted)}.evidence{margin-top:6px}.evidence a,.record a{color:#b9eaff;text-decoration:none}.evidence a:hover,.record a:hover{text-decoration:underline}
+.record{padding:14px 0;border-bottom:1px solid var(--line)}.record h3{font-size:14px;margin:0 0 5px}.record p{font-size:12px;color:#b2c2d4;line-height:1.6;margin:7px 0}
+.tag{display:inline-block;color:var(--cyan);background:#12283a;padding:3px 7px;border-radius:4px;margin:4px 4px 0 0;font-size:10px}
+.notice{padding:11px 13px;border:1px solid #4a3b23;background:#1d1912;border-radius:8px;color:#f4d5a3;font-size:12px;margin-top:12px}
+.good{color:var(--green)}.error{color:var(--amber);white-space:pre-wrap}.smallbtn{padding:7px 9px;font-size:11px}
+.foot{color:var(--muted);font-size:11px;margin-top:25px;border-top:1px solid var(--line);padding-top:15px}
+@media(max-width:900px){.grid2,.grid3{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}header{align-items:flex-start;flex-direction:column}#network{height:380px}}
+@media(max-width:480px){main{padding:15px 12px 35px}.panel{padding:13px}.metric{padding:12px}.chart{height:250px}.controls input{min-width:100%}}
+  .market-subpanel{margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+  .market-quote{margin-top:14px;padding:16px;background:#09111c;border:1px solid var(--line);border-radius:10px}
+  .market-price{font-size:clamp(28px,5vw,42px);font-weight:750;letter-spacing:-1px;color:var(--cyan);overflow-wrap:anywhere}
+  .market-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:14px}
+  .market-stat{padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:8px;min-width:0}
+  .market-stat-label{font-size:11px;color:var(--muted);margin-bottom:6px}
+  .market-stat-value{font-size:14px;font-weight:650;overflow-wrap:anywhere}
+  .market-positive{color:var(--green)}.market-negative{color:var(--amber)}
+  .market-warning{font-size:12px;line-height:1.6;color:var(--muted);margin-top:12px}
+  @media(max-width:600px){.market-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.market-quote{padding:12px}}
+/* MACHINADAILY LIGHT THEME */
+:root {
+    color-scheme: light !important;
+    --bg: #ffffff !important;
+    --background: #ffffff !important;
+    --panel: #ffffff !important;
+    --panel2: #f7fbff !important;
+    --line: #dce8f1 !important;
+    --border: #dce8f1 !important;
+    --text: #172536 !important;
+    --white: #172536 !important;
+    --muted: #627589 !important;
+    --cyan: #65bfe8 !important;
+    --green: #168b68 !important;
+}
+
+html, body {
+    background: #ffffff !important;
+    color: #172536 !important;
+    color-scheme: light !important;
+}
+
+body {
+    background-color: #ffffff !important;
+}
+
+header, nav, main, section, article, aside,
+.panel, .card, .widget, .module, .container,
+.content, .dashboard, .metric, .stat-card,
+.chart-card, .data-card, .feed, .feed-item,
+.result, .results, .table-wrap, .chart-container {
+    color: #172536;
+}
+
+header, nav, .panel, .card, .widget, .module,
+.metric, .stat-card, .chart-card, .data-card,
+.feed-item, .result, .results, .table-wrap {
+    background-color: #ffffff;
+    border-color: #dce8f1;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, label,
+th, td, strong, b, .title, .heading {
+    color: #172536;
+}
+
+small, .muted, .subtitle, .description,
+.meta, .timestamp, .secondary {
+    color: #627589;
+}
+
+a {
+    color: #168fc2;
+}
+
+a:hover {
+    color: #087eae;
+}
+
+button, input, select, textarea {
+    color: #172536;
+    background-color: #ffffff;
+    border-color: #cbdbe8;
+}
+
+button {
+    border-radius: 6px;
+}
+
+button:hover {
+    border-color: #65bfe8;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #8798a8;
+}
+
+pre, code {
+    color: #263b50;
+}
+
+table {
+    background-color: #ffffff;
+    border-color: #dce8f1;
+}
+
+th {
+    background-color: #f1f8fc;
+}
+
+tr, td, th {
+    border-color: #dce8f1;
+}
+
+.badge, .tag, .pill, .status {
+    border-color: #dce8f1;
+}
+
+hr {
+    border-color: #dce8f1;
+}
+
+/* Keep chart and canvas visualisations intact. */
+/* END MACHINADAILY LIGHT THEME OVERRIDE */
+
+/* MACHINADAILY SOFT GREY BACKGROUNDS */
+html, body {
+    background: #f1f4f7 !important;
+    color: #172536 !important;
+    color-scheme: light !important;
+}
+
+header, nav, main, section, article, aside,
+.panel, .card, .widget, .module, .container,
+.content, .dashboard, .metric, .stat-card,
+.chart-card, .data-card, .feed, .feed-item,
+.result, .results, .table-wrap, .chart-container {
+    background-color: #f1f4f7 !important;
+    color: #172536 !important;
+    border-color: #d6dfe7 !important;
+}
+
+input, select, textarea, button {
+    background-color: #ffffff !important;
+    color: #172536 !important;
+    border-color: #cbd7e2 !important;
+}
+
+th {
+    background-color: #e7edf2 !important;
+    color: #172536 !important;
+}
+
+td, tr {
+    border-color: #d6dfe7 !important;
+    color: #172536 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, label,
+strong, b, .title, .heading {
+    color: #172536 !important;
+}
+
+small, .muted, .subtitle, .description,
+.meta, .timestamp, .secondary {
+    color: #627589 !important;
+}
+
+a {
+    color: #168fc2 !important;
+}
+
+/* END MACHINADAILY SOFT GREY BACKGROUNDS */
+
+/* INTELLIGENCE PAGE - FORCE LIGHT GREY SURFACES */
+:root {
+    color-scheme: light !important;
+    --bg: #f1f4f7 !important;
+    --panel: #f8fafc !important;
+    --line: #d6dfe7 !important;
+    --muted: #627589 !important;
+    --text: #172536 !important;
+}
+
+html, body, body::before {
+    background: #f1f4f7 !important;
+    background-color: #f1f4f7 !important;
+    background-image: none !important;
+    color: #172536 !important;
+}
+
+header, main, section, article, aside,
+.metric, .panel, .market-quote, .market-stat,
+.chart-card, .data-card, .feed, .feed-item,
+.result, .results, .notice, .network-panel,
+#network, #app, #main, .main, .content,
+.dashboard, .dashboard-panel, .stat-card {
+    background: #eef2f6 !important;
+    background-color: #eef2f6 !important;
+    background-image: none !important;
+    color: #172536 !important;
+    border-color: #d6dfe7 !important;
+}
+
+.metric, .panel, .market-quote, .market-stat {
+    box-shadow: 0 2px 8px rgba(25, 50, 75, 0.05) !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, label, li, strong, b, th, td,
+.metric *, .panel *, .market-quote *,
+.market-stat * {
+    color: #172536;
+}
+
+small, .muted, .subtitle, .description,
+.meta, .timestamp, .secondary {
+    color: #627589 !important;
+}
+
+input, select, textarea, button {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    background-image: none !important;
+    color: #172536 !important;
+    border-color: #cbd7e2 !important;
+}
+
+.tag {
+    background: #e2f4fc !important;
+    color: #087eae !important;
+}
+
+.notice {
+    background: #f2f5f8 !important;
+    color: #46596b !important;
+    border-color: #d6dfe7 !important;
+}
+
+a {
+    color: #168fc2 !important;
+}
+
+/* END MACHINADAILY INTELLIGENCE GREY FIX 2 */
+</style>
+</head>
+<body>
+<header>
+<div>
+<div class="brand">MACHINADAILY / RESEARCH SYSTEMS</div>
+<h1>Future Intelligence Observatory</h1>
+<div class="sub">Explore research signals, source coverage, emerging topics and evidence. Forecasts are exploratory indicators, not certainties or investment advice.</div>
+</div>
+<div class="status" id="status">â— CONNECTING TO RESEARCH API</div>
+</header>
+<main>
+<div class="section-title">01 / Collection overview</div>
+<div class="metrics">
+<div class="metric"><div class="metric-label">Research records</div><div class="metric-value" id="records">â€”</div><div class="metric-note">Items in the indexed collection</div></div>
+<div class="metric"><div class="metric-label">Distinct sources</div><div class="metric-value" id="sources">â€”</div><div class="metric-note">Source names / IDs</div></div>
+<div class="metric"><div class="metric-label">Sectors mapped</div><div class="metric-value" id="sectorsCount">â€”</div><div class="metric-note">Observed sector labels</div></div>
+<div class="metric"><div class="metric-label">Dated records</div><div class="metric-value" id="dated">â€”</div><div class="metric-note">Records usable for timeline analysis</div></div>
+</div>
+
+<div class="section-title">02 / Temporal intelligence</div>
+<div class="grid2">
+<section class="panel"><h2>Research activity timeline</h2><p class="desc">Daily indexed records. Activity is not necessarily the same as real-world adoption.</p><div id="timeline" class="chart">Loading chartâ€¦</div></section>
+<section class="panel"><h2>Emerging topic signals</h2><p class="desc">Ranked using the existing backend momentum score, recent mentions and source coverage.</p><div id="trends" class="trend-list">Loading signalsâ€¦</div></section>
+</div>
+
+<div class="section-title">03 / Sector and source landscape</div>
+<div class="grid2">
+<section class="panel"><h2>Sector footprint</h2><p class="desc">Records tagged to each sector. One record can have multiple tags.</p><div id="sectorChart" class="chart short"></div></section>
+<section class="panel"><h2>Source collection sizes</h2><p class="desc">Source volume is not proof of independent corroboration.</p><div id="sourceChart" class="chart short"></div></section>
+</div>
+
+<div class="section-title">04 / Connected research map</div>
+<section class="panel">
+<h2>Topic-to-evidence network</h2>
+<p class="desc">Select a node to inspect it. Connections are derived from the backend's trend evidence and source names; they do not establish causation.</p>
+<div id="network"></div>
+<div id="networkInfo" class="meta" style="margin-top:10px">Select a topic or source node to explore its evidence.</div>
+<div class="controls"><button id="fitNetwork">Fit network</button><button id="physicsToggle">Toggle movement</button></div>
+<div id="networkFallback" class="meta"></div>
+</section>
+
+<div class="section-title">05 / Company and market research</div>
+<section class="panel">
+<h2>Company mention explorer</h2>
+<p class="desc">Search the underlying research collection for a company, product or ticker. Results and totals reflect the backend search response, not verified market data.</p>
+<div class="controls"><input id="companyQuery" placeholder="e.g. NVIDIA, AMD, Microsoft, NVDA" aria-label="Search company mentions"><button id="companySearch">Search mentions</button></div>
+<div id="companyResults" class="meta">Enter a company or ticker to inspect related research.</div>
+<div class="market-subpanel">
+  <h2>Market Intelligence</h2>
+  <p class="desc">Look up a stock quote from Alpha Vantage without leaving the Observatory.</p>
+  <div class="controls">
+    <input id="marketSymbol" maxlength="20" placeholder="Enter ticker, e.g. IBM" aria-label="Stock ticker symbol" autocomplete="off" spellcheck="false">
+    <button id="marketSearch" type="button">Fetch quote</button>
+  </div>
+  <div id="marketQuote" aria-live="polite" class="meta">Enter a ticker and select Fetch quote to retrieve market data.</div>
+  <p class="market-warning">DATA LIMITATION: This provider's free quote endpoint supplies end-of-day data, not live intraday prices. The displayed trading date identifies the quote's date. Quotes are cached for up to six hours. This panel does not provide investment advice or buy/sell recommendations.</p>
+</div>
+</section>
+
+<div class="section-title">06 / Evidence explorer</div>
+<section class="panel">
+<h2>Search the research collection</h2><p class="desc">Inspect original titles, summaries, timestamps, sector tags and source links.</p>
+<div class="controls"><input id="query" placeholder="Search titles, topics, summaries or sourcesâ€¦" aria-label="Search research records"><select id="sectorFilter"><option value="">All sectors</option></select><button id="searchBtn">Search records</button></div>
+<div id="recordCount" class="meta"></div><div id="results">Loading recordsâ€¦</div>
+<div class="controls"><button id="prev">â† Previous</button><button id="next">Next â†’</button></div>
+</section>
+
+<div class="section-title">07 / Intelligence briefing</div>
+<section class="panel">
+<h2>Generate an evidence-linked snapshot</h2>
+<p class="desc">Creates a local report from the API's current summary and leading signals. It is a descriptive briefing, not an independently validated forecast.</p>
+<div class="controls"><input id="reportTitle" value="MachinaDaily â€” Future Intelligence Briefing" aria-label="Report title"><button id="generateReport">Generate report</button><button id="downloadReport" disabled>Download .txt report</button></div>
+<div id="reportPreview" class="meta">Generate a report to preview the findings and evidence links.</div>
+</section>
+<div class="foot" id="footnote">Waiting for API responseâ€¦</div>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+let overview=null,page=1,total=0,reportText="",networkInstance=null,physicsOn=true;
+const fmt=n=>Number(n||0).toLocaleString();
+function safe(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function safeUrl(s){try{const u=new URL(String(s));return ["https:","http:"].includes(u.protocol)?u.href:"";}catch{return "";}}
+async function api(url){const r=await fetch(url);if(!r.ok)throw new Error("HTTP "+r.status+" from "+url);return r.json();}
+function plot(id,data,layout){if(!window.Plotly){$(id).textContent="Interactive charts require an internet connection to load the chart library.";return;}Plotly.newPlot(id,data,layout,{responsive:true,displaylogo:false,modeBarButtonsToRemove:["lasso2d","select2d"]});}
+const baseLayout={paper_bgcolor:"rgba(0,0,0,0)",plot_bgcolor:"rgba(0,0,0,0)",font:{color:"#b9c9dc",size:11},margin:{l:45,r:15,t:18,b:45},xaxis:{gridcolor:"#223247",zerolinecolor:"#223247"},yaxis:{gridcolor:"#223247",zerolinecolor:"#223247"},showlegend:false};
+function drawTimeline(points){
+const sorted=[...points].sort((a,b)=>a.date.localeCompare(b.date));
+plot("timeline",[{x:sorted.map(p=>p.date),y:sorted.map(p=>p.count),type:"scatter",mode:"lines",fill:"tozeroy",line:{color:"#65e1ff",width:2},fillcolor:"rgba(101,225,255,.10)",hovertemplate:"%{x}<br>%{y} records<extra></extra>"}],{...baseLayout,xaxis:{...baseLayout.xaxis,title:"Date"},yaxis:{...baseLayout.yaxis,title:"Records",rangemode:"tozero"}});
+}
+function drawBars(id,items){
+const sorted=[...items].sort((a,b)=>a.count-b.count).slice(-15);
+plot(id,[{x:sorted.map(x=>x.count),y:sorted.map(x=>x.name),type:"bar",orientation:"h",marker:{color:"#318db9"},hovertemplate:"%{y}<br>%{x} records<extra></extra>"}],{...baseLayout,margin:{l:120,r:15,t:8,b:35},xaxis:{...baseLayout.xaxis,title:"Records",rangemode:"tozero"},yaxis:{...baseLayout.yaxis,automargin:true}});
+}
+function renderTrends(items){
+$("trends").innerHTML=items.length?items.slice(0,12).map(t=>{
+const change=t.growth_pct===null?"No baseline":`${t.growth_pct>0?"+":""}${t.growth_pct}% vs prior period`;
+const evidence=(t.evidence||[]).slice(0,2).map(e=>{const u=safeUrl(e.url);return `<div class="evidence meta">â†³ ${u?`<a href="${safe(u)}" target="_blank" rel="noopener">${safe(e.title)}</a>`:safe(e.title)} Â· ${safe(e.source||"Unknown source")}</div>`}).join("");
+return `<div class="trend"><div class="trend-top"><span class="trend-name">${safe(t.topic)}</span><span class="pill">${safe(t.status||"signal")}</span></div><div class="meta">${fmt(t.recent_mentions)} recent mentions Â· ${fmt(t.source_count)} sources Â· ${safe(change)}</div><div class="meta">Indicator score: ${fmt(t.score)}/100 Â· ${safe(t.topic_type||"topic")}</div>${evidence}</div>`;
+}).join(""):"No ranked signals returned by the API.";
+}
+function renderNetwork(payload){
+if(!window.vis){
+$("network").innerHTML="<p class='meta'>Network library unavailable. The evidence explorer remains usable.</p>";
+return;
+}
+const rawNodes=payload.nodes||[],rawEdges=payload.edges||[];
+if(!rawNodes.length){
+$("networkInfo").textContent="No matching topic relationships were found in the latest dated research window.";
+$("networkFallback").textContent="Try refreshing after more research records have been indexed.";
+return;
+}
+const nodes=new vis.DataSet(rawNodes.map(n=>({...n,title:safe(n.title||n.label)})));
+const edges=new vis.DataSet(rawEdges.map(e=>({...e,title:safe(e.title||"Observed relationship")})));
+const data={nodes,edges};
+networkInstance=new vis.Network($("network"),data,{
+autoResize:true,
+interaction:{hover:true,navigationButtons:true,keyboard:true},
+physics:{enabled:true,stabilization:{iterations:120},barnesHut:{gravitationalConstant:-2600,springLength:135,springConstant:.035}},
+nodes:{shape:"dot",borderWidth:1,font:{color:"#dceafa",size:12,face:"Arial"},scaling:{min:10,max:30}},
+groups:{
+topic_phrase:{color:{background:"#167d78",border:"#7cf0c1"},size:23},
+topic_word:{color:{background:"#1d78a0",border:"#65e1ff"},size:17},
+sector:{color:{background:"#80612d",border:"#ffc777"},shape:"diamond",size:18},
+source:{color:{background:"#263c57",border:"#83a6ca"},shape:"box",size:13}
+},
+edges:{color:{color:"#34526c",highlight:"#65e1ff"},smooth:{type:"dynamic"},scaling:{min:1,max:5}}
+});
+$("networkInfo").textContent="Select a node or connection to inspect its observed relationship. Shared records indicate association, not causation.";
+$("networkFallback").textContent=
+`${rawNodes.length} nodes ? ${rawEdges.length} connections ? `+
+`${fmt(payload.record_count)} dated records in the 30-day analysis window.`;
+networkInstance.on("selectNode",params=>{
+const n=data.nodes.get(params.nodes[0]);
+if(n)$("networkInfo").textContent=n.description||n.title||n.label;
+});
+networkInstance.on("selectEdge",params=>{
+const e=data.edges.get(params.edges[0]);
+if(e)$("networkInfo").textContent=e.title||"Observed relationship";
+});
+$("fitNetwork").onclick=()=>networkInstance.fit({animation:true});
+$("physicsToggle").onclick=()=>{
+physicsOn=!physicsOn;
+networkInstance.setOptions({physics:{enabled:physicsOn}});
+$("physicsToggle").textContent=physicsOn?"Pause movement":"Resume movement";
+};
+}
+async function loadRecords(){
+$("results").textContent="Searching collectionâ€¦";
+try{
+const p=new URLSearchParams({q:$("query").value,sector:$("sectorFilter").value,page:String(page)});
+const data=await api("/intelligence/api/records?"+p.toString());total=data.total||0;
+$("recordCount").textContent=`${fmt(total)} matching records Â· page ${page}`;
+$("results").innerHTML=(data.records||[]).length?data.records.map(r=>{
+const u=safeUrl(r.url);
+return `<article class="record"><h3>${u?`<a href="${safe(u)}" target="_blank" rel="noopener">${safe(r.title)}</a>`:safe(r.title)}</h3><div class="meta">${safe(r.source)} Â· ${safe(r.published||"Date unavailable")} Â· ${safe(r.source_type)}</div><p>${safe(r.summary||"No summary stored.")}</p>${(r.sectors||[]).map(s=>`<span class="tag">${safe(s)}</span>`).join("")}</article>`;
+}).join(""):"No matching records found.";
+$("prev").disabled=page<=1;$("next").disabled=page*25>=total;
+}catch(e){$("results").innerHTML=`<div class="error">${safe(e.message)}</div>`;}
+}
+async function searchCompany(){
+const q=$("companyQuery").value.trim();if(!q)return;
+$("companyResults").textContent="Searching indexed researchâ€¦";
+try{
+const data=await api("/intelligence/api/records?"+new URLSearchParams({q,page:"1"}));
+$("companyResults").innerHTML=`<p><strong>${fmt(data.total)} matching records</strong> for â€œ${safe(q)}â€. This is a search-result count, not a measure of market share or company performance.</p>`+
+(data.records||[]).slice(0,10).map(r=>{const u=safeUrl(r.url);return `<article class="record"><h3>${u?`<a href="${safe(u)}" target="_blank" rel="noopener">${safe(r.title)}</a>`:safe(r.title)}</h3><div class="meta">${safe(r.source)} Â· ${safe(r.published||"Date unavailable")}</div><p>${safe(r.summary||"No summary stored.")}</p></article>`}).join("")+
+(data.records||[]).length===0?"<p>No matching records found.</p>":"";
+}catch(e){$("companyResults").innerHTML=`<div class="error">${safe(e.message)}</div>`;}
+}
+function buildReport(){
+if(!overview)return;
+const lines=[$("reportTitle").value.trim()||"MachinaDaily Intelligence Briefing","Generated: "+new Date().toISOString(),"","COLLECTION OVERVIEW",`Records: ${fmt(overview.record_count)}`,`Sources: ${fmt(overview.source_count)}`,`Sectors: ${fmt(overview.sector_count)}`,`Dated records: ${fmt(overview.dated_count)}`,`Latest effective date: ${overview.effective_latest_date||"Unavailable"}`,"","TOPIC SIGNALS"];
+(overview.trends||[]).slice(0,15).forEach((t,i)=>{lines.push("",`${i+1}. ${t.topic}`,`Recent mentions: ${t.recent_mentions}; previous: ${t.previous_mentions}; sources: ${t.source_count}; indicator score: ${t.score}/100; status: ${t.status||"unspecified"}`,`Change: ${t.growth_pct===null?"No baseline":t.growth_pct+"%"}`,`Topic classification: ${t.topic_type||"unspecified"}`);(t.evidence||[]).slice(0,3).forEach(e=>lines.push(`Evidence: ${e.title} | ${e.source||"Unknown source"} | ${e.url||"No URL"}`));});
+lines.push("","LIMITATIONS","This is a descriptive snapshot of the indexed research collection, not a validated prediction.","Mention growth can be affected by collection volume, source mix, repeated coverage, and small baselines.","Scores are not probabilities. Company mentions do not imply future share-price direction.","No live stock-price data is included in this report.");
+reportText=lines.join("\n");
+$("reportPreview").innerHTML=`<p class="good">Report generated: ${lines.length} lines, including evidence links and limitations.</p><pre style="white-space:pre-wrap;overflow-wrap:anywhere;color:#c4d5e8;font:11px/1.6 Consolas,monospace">${safe(reportText.slice(0,6500))}${reportText.length>6500?"\nâ€¦ Preview shortened; the download contains the full report.":""}</pre>`;
+$("downloadReport").disabled=false;
+}
+$("searchBtn").onclick=()=>{page=1;loadRecords();};
+$("query").addEventListener("keydown",e=>{if(e.key==="Enter"){page=1;loadRecords();}});
+$("sectorFilter").addEventListener("change",()=>{page=1;loadRecords();});
+$("prev").onclick=()=>{if(page>1){page--;loadRecords();}};
+$("next").onclick=()=>{if(page*25<total){page++;loadRecords();}};
+$("companySearch").onclick=searchCompany;
+$("companyQuery").addEventListener("keydown",e=>{if(e.key==="Enter")searchCompany();});
+$("generateReport").onclick=buildReport;
+$("downloadReport").onclick=()=>{if(!reportText)return;const blob=new Blob([reportText],{type:"text/plain;charset=utf-8"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="machinadaily-intelligence-briefing.txt";a.click();URL.revokeObjectURL(url);};
+async function loadMarketQuote(){
+  const symbol=$("marketSymbol").value.trim().toUpperCase();
+  if(!symbol){
+    $("marketQuote").innerHTML='<div class="error">Enter a ticker symbol first, for example IBM.</div>';
+    $("marketSymbol").focus();
+    return;
+  }
+
+  const button=$("marketSearch");
+  button.disabled=true;
+  button.textContent="Fetchingâ€¦";
+  $("marketQuote").textContent="Requesting quote from Alpha Vantageâ€¦";
+
+  try{
+    const response=await fetch("/intelligence/api/market/quote?symbol="+encodeURIComponent(symbol),{
+      headers:{"Accept":"application/json"}
+    });
+    const data=await response.json();
+
+    if(!response.ok||data.ok===false){
+      throw new Error(data.error||data.message||("Quote request failed (HTTP "+response.status+")."));
+    }
+
+    const price=Number(data.price);
+    const change=Number(data.change);
+    const validPrice=data.price!==undefined&&data.price!==null&&data.price!==""&&Number.isFinite(price);
+    const movementClass=Number.isFinite(change)&&change<0?"market-negative":"market-positive";
+    const movementSign=Number.isFinite(change)&&change>0?"+":"";
+    const fetched=data.fetched_at_utc?new Date(data.fetched_at_utc).toLocaleString():"Unavailable";
+
+    $("marketQuote").innerHTML=`
+      <div class="market-quote">
+        <div class="meta">${safe(data.symbol||symbol)} Â· ${safe(data.provider||"Market data provider")}</div>
+        <div class="market-price">${validPrice?safe(data.price):"Price unavailable"}</div>
+        <div class="${movementClass}" style="font-weight:650;margin-top:5px">
+          ${Number.isFinite(change)?movementSign+safe(data.change):"Change unavailable"}
+          ${data.change_percent?" ("+safe(data.change_percent)+")":""}
+        </div>
+        <div class="market-stats">
+          <div class="market-stat"><div class="market-stat-label">Previous close</div><div class="market-stat-value">${safe(data.previous_close??"Unavailable")}</div></div>
+          <div class="market-stat"><div class="market-stat-label">Day high</div><div class="market-stat-value">${safe(data.high??"Unavailable")}</div></div>
+          <div class="market-stat"><div class="market-stat-label">Day low</div><div class="market-stat-value">${safe(data.low??"Unavailable")}</div></div>
+          <div class="market-stat"><div class="market-stat-label">Opening price</div><div class="market-stat-value">${safe(data.open??"Unavailable")}</div></div>
+          <div class="market-stat"><div class="market-stat-label">Volume</div><div class="market-stat-value">${safe(data.volume??"Unavailable")}</div></div>
+          <div class="market-stat"><div class="market-stat-label">Trading date</div><div class="market-stat-value">${safe(data.latest_trading_day??"Unavailable")}</div></div>
+        </div>
+        <p class="market-warning">Quote type: ${safe(data.quote_type||"End-of-day quote; not live intraday pricing")}<br>Retrieved: ${safe(fetched)} Â· ${data.cached?"Served from cache":"Fresh provider response"}</p>
+      </div>`;
+  }catch(e){
+    $("marketQuote").innerHTML='<div class="error">'+safe(e.message||"Unable to retrieve this quote.")+'</div><p class="market-warning">Check the ticker, the Flask server, your provider quota, and the market API health endpoint.</p>';
+  }finally{
+    button.disabled=false;
+    button.textContent="Fetch quote";
+  }
+}
+
+$("marketSearch").addEventListener("click",loadMarketQuote);
+$("marketSymbol").addEventListener("keydown",e=>{
+  if(e.key==="Enter")loadMarketQuote();
+});
+async function loadOverview(){
+try{
+overview=await api("/intelligence/api/overview");
+$("records").textContent=fmt(overview.record_count);$("sources").textContent=fmt(overview.source_count);$("sectorsCount").textContent=fmt(overview.sector_count);$("dated").textContent=fmt(overview.dated_count);
+$("status").textContent="â— RESEARCH API ONLINE";$("status").style.color="#7cf0c1";
+drawTimeline(overview.timeline||[]);renderTrends(overview.trends||[]);
+drawBars("sectorChart",overview.sectors||[]);drawBars("sourceChart",overview.sources||[]);
+try{
+const networkData=await api("/intelligence/api/network");
+renderNetwork(networkData);
+}catch(networkError){
+$("networkInfo").textContent="Network API unavailable: "+networkError.message;
+$("networkFallback").textContent="The rest of the dashboard remains available.";
+}
+const select=$("sectorFilter");(overview.sectors||[]).forEach(s=>{const o=document.createElement("option");o.value=s.name;o.textContent=s.name;select.appendChild(o);});
+$("footnote").textContent=`Analysis refreshed ${new Date(overview.generated_at).toLocaleString()}. Latest effective record date: ${overview.effective_latest_date||"unavailable"}. ${fmt(overview.undated_count)} records lack a usable date and are excluded from period comparisons. Momentum scores are indicators, not probabilities.`;
+await loadRecords();
+}catch(e){$("status").textContent="â— API ERROR";$("status").style.color="#ffc777";$("footnote").textContent="Could not load intelligence overview: "+e.message;$("trends").textContent="Check that the Flask server is running and the API route is available.";}
+}
+loadOverview();
+</script>
+</body>
+</html>
+
+
+

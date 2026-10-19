@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="description"
-        content="Machina Daily — technology, artificial intelligence, robotics, autonomous systems, drones and the forces shaping tomorrow.">
+        content="Machina Daily &#8212; technology, artificial intelligence, robotics, autonomous systems, drones and the forces shaping tomorrow.">
 
   <meta name="theme-color" content="#050505">
   <!-- Search & Social Metadata -->
@@ -26,7 +26,7 @@
   <meta name="twitter:image" content="https://machinadaily.xyz/frontend/logo.png">
 
 
-  <title>Machina Daily — The Machine World</title>
+  <title>Machina Daily &#8212; The Machine World</title>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZS9SDTXF6"></script>
@@ -96,6 +96,583 @@
   }
   </script>
 
+
+<!-- HOME INVESTIGATIVE SKY BLUE CARDS -->
+<style>
+.homepage-newsroom-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 22px;
+    margin-bottom: 12px;
+    background: #87CEEB;
+    color: #102A43;
+    border: 1px solid rgba(16, 42, 67, 0.12);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.homepage-newsroom-item:hover {
+    background: #63BDE4;
+    color: #102A43;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 18px rgba(16, 42, 67, 0.12);
+}
+
+.homepage-newsroom-copy {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+
+.homepage-newsroom-copy strong {
+    color: #102A43;
+    font-size: 1rem;
+    line-height: 1.45;
+}
+
+.homepage-newsroom-copy small {
+    color: #234A65;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+}
+
+.homepage-newsroom-number {
+    color: #102A43;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.homepage-newsroom-arrow {
+    color: #102A43;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .homepage-newsroom-item {
+        gap: 12px;
+        padding: 15px;
+    }
+}
+</style>
+
+<!-- DAILY BRIEFING SKY BLUE HEADLINES -->
+<style>
+#homepage-briefing-cards article h3 a {
+    color: #87CEEB;
+}
+
+#homepage-briefing-cards article h3 a:hover {
+    color: #63BDE4;
+}
+</style>
+<!-- MACHINA HERO AUTOPLAY ANIMATION -->
+<style>
+.hero-story {
+    animation: machinaHeroSlideIn 650ms ease both;
+}
+
+@keyframes machinaHeroSlideIn {
+    from {
+        opacity: 0.35;
+        transform: translateX(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-story {
+        animation: none;
+    }
+}
+</style>
+<!-- MACHINADAILY NEURAL BRAIN -->
+<style>
+.homepage-neural-brain .nb-intro {
+  margin: 10px 0 0;
+  color: #9caec1;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.homepage-neural-brain .nb-panel {
+  position: relative;
+  min-height: 145px;
+  margin: 18px 0 22px;
+  padding: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(101,225,255,.22);
+  background: radial-gradient(ellipse at 22% 45%,rgba(37,115,153,.19),transparent 55%),#080e17;
+}
+.homepage-neural-brain .nb-network {
+  position: absolute;
+  inset: 0 0 0 25%;
+  overflow: hidden;
+  opacity: .9;
+}
+.homepage-neural-brain .nb-edge {
+  position: absolute;
+  left: 48%;
+  top: 50%;
+  width: 35%;
+  height: 1px;
+  background: linear-gradient(90deg,rgba(101,225,255,.75),rgba(101,225,255,.04));
+  transform-origin: left center;
+}
+.homepage-neural-brain .nb-edge-a { transform: rotate(-30deg); }
+.homepage-neural-brain .nb-edge-b { transform: rotate(25deg); }
+.homepage-neural-brain .nb-edge-c { transform: rotate(165deg); width: 28%; }
+.homepage-neural-brain .nb-node,
+.homepage-neural-brain .nb-core {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  background: #65e1ff;
+  box-shadow: 0 0 14px rgba(101,225,255,.45);
+  animation: nbPulse 3s ease-in-out infinite;
+}
+.homepage-neural-brain .nb-core {
+  left: 46%;
+  top: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background: #d4f8ff;
+}
+.homepage-neural-brain .nb-node { width: 7px; height: 7px; }
+.homepage-neural-brain .nb-node-a { left: 22%; top: 25%; }
+.homepage-neural-brain .nb-node-b { left: 76%; top: 18%; animation-delay: .5s; }
+.homepage-neural-brain .nb-node-c { left: 80%; top: 75%; animation-delay: 1s; }
+.homepage-neural-brain .nb-node-d { left: 15%; top: 73%; animation-delay: 1.5s; }
+.homepage-neural-brain .nb-status {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #b6c9d7;
+  font: 600 10px/1.5 monospace;
+  letter-spacing: 1.5px;
+}
+.homepage-neural-brain .nb-status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #65e1ff;
+  box-shadow: 0 0 9px rgba(101,225,255,.8);
+}
+.homepage-neural-brain .nb-status-divider { color: #526b80; }
+.homepage-neural-brain .nb-caption {
+  position: relative;
+  max-width: 340px;
+  margin: 12px 0 0;
+  color: #a6b6c5;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.homepage-neural-brain .nb-stories {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 12px;
+}
+.homepage-neural-brain .nb-story {
+  min-width: 0;
+  padding: 17px;
+  border: 1px solid rgba(150,180,205,.16);
+  background: rgba(13,23,35,.68);
+  transition: border-color .2s ease, transform .2s ease;
+}
+.homepage-neural-brain .nb-story:hover {
+  border-color: rgba(101,225,255,.55);
+  transform: translateY(-2px);
+}
+.homepage-neural-brain .nb-story-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 12px;
+  margin-bottom: 10px;
+  color: #8ea9bd;
+  font: 10px/1.5 monospace;
+  text-transform: uppercase;
+  letter-spacing: .7px;
+}
+.homepage-neural-brain .nb-story h3 {
+  margin: 0 0 9px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.homepage-neural-brain .nb-story h3 a {
+  color: #e4f2fa;
+  text-decoration: none;
+}
+.homepage-neural-brain .nb-story h3 a:hover { color: #65e1ff; }
+.homepage-neural-brain .nb-story p {
+  margin: 0;
+  color: #9eafbe;
+  font-size: 12px;
+  line-height: 1.65;
+}
+.homepage-neural-brain .nb-story-source {
+  display: block;
+  margin-top: 12px;
+  color: #65cce8;
+  font: 10px/1.5 monospace;
+  overflow-wrap: anywhere;
+}
+.homepage-neural-brain .nb-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+  color: #8ea3b5;
+  font: 10px/1.5 monospace;
+  letter-spacing: 1px;
+}
+.homepage-neural-brain .nb-footer a { color: #65e1ff; text-decoration: none; }
+@keyframes nbPulse {
+  0%,100% { opacity: .55; }
+  50% { opacity: 1; }
+}
+@media(max-width:650px) {
+  .homepage-neural-brain .nb-stories { grid-template-columns: 1fr; }
+  .homepage-neural-brain .nb-panel { min-height: 125px; padding: 19px; }
+  .homepage-neural-brain .nb-network { left: 15%; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .homepage-neural-brain .nb-node,
+  .homepage-neural-brain .nb-core { animation: none; }
+  .homepage-neural-brain .nb-story { transition: none; }
+}
+
+/* Transparent Neural Brain banner */
+.homepage-neural-brain .nb-panel {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Neural Brain &#8212; LIGHT cards with dark readable text */
+.homepage-neural-brain .nb-story {
+  background: #edf2f6 !important;
+  border: 1px solid #c5d1dc !important;
+  box-shadow: 0 2px 8px rgba(20, 40, 60, 0.08) !important;
+}
+.homepage-neural-brain .nb-story h3 a {
+  color: #172b3a !important;
+}
+.homepage-neural-brain .nb-story p {
+  color: #405364 !important;
+}
+.homepage-neural-brain .nb-story-meta {
+  color: #526779 !important;
+}
+.homepage-neural-brain .nb-story-source {
+  color: #087f9f !important;
+}
+</style>
+<style>
+/* MACHINADAILY SECTION BUTTONS */
+.homepage-view-link {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 18px !important;
+    background: #111827 !important;
+    color: #ffffff !important;
+    border: 1px solid #111827 !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-decoration: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.homepage-view-link:hover,
+.homepage-view-link:focus-visible {
+    background: #e8faff !important;
+    color: #087c96 !important;
+    border-color: #65e1ff !important;
+}
+
+@media (max-width: 600px) {
+    .homepage-view-link {
+        padding: 11px 13px !important;
+        font-size: 11px !important;
+        letter-spacing: 0.5px;
+    }
+}
+/* END MACHINADAILY SECTION BUTTONS */
+</style>
+<style>/* MACHINADAILY NEWSROOM CARD SPACING */ .homepage-newsroom-item{display:flex;align-items:center;gap:18px;padding:20px 24px}.homepage-newsroom-number{flex:0 0 32px;text-align:center}.homepage-newsroom-copy{display:flex;flex:1 1 auto;flex-direction:column;gap:7px;min-width:0}.homepage-newsroom-copy strong,.homepage-newsroom-copy small{display:block;line-height:1.5}.homepage-newsroom-arrow{flex:0 0 24px;text-align:center}@media(max-width:600px){.homepage-newsroom-item{gap:12px;padding:16px 14px}.homepage-newsroom-number{flex-basis:26px}.homepage-newsroom-arrow{flex-basis:18px}}</style>
+<style id="homepage-emerging-topics-style">
+.homepage-emerging-topics{padding:76px clamp(20px,6vw,90px);background:#ffffff;color:#17212b;border-top:1px solid #243342;border-bottom:1px solid #243342}
+.het-header{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin:0 auto 28px;max-width:1400px}
+.het-kicker{font-size:11px;letter-spacing:2px;color:#65e1ff;font-weight:700}
+.het-header h2{font-size:clamp(25px,3vw,38px);line-height:1.15;margin:12px 0;color:#f3f8fc}
+.het-header p{color:#9caebf;line-height:1.65;max-width:650px;margin:0}
+.het-all,.het-bottom a{color:#65e1ff;text-decoration:none;font-size:12px;font-weight:700;letter-spacing:.6px}
+.het-all{white-space:nowrap;padding-bottom:5px}
+.het-topic-grid{max-width:1400px;margin:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.het-card{min-width:0;border:1px solid #293b4b;background:#101a25;padding:22px;border-radius:8px;display:flex;flex-direction:column;gap:15px}
+.het-card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.het-card h3{font-size:21px;margin:0;overflow-wrap:anywhere;text-transform:capitalize}
+.het-status{font-size:10px;letter-spacing:.8px;text-transform:uppercase;color:#65e1ff;border:1px solid #315768;border-radius:20px;padding:6px 8px;white-space:nowrap}
+.het-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.het-stat{border-top:1px solid #293b4b;padding-top:10px}
+.het-stat strong{display:block;font-size:23px;color:#f3f8fc;font-variant-numeric:tabular-nums}
+.het-stat span,.het-score-label{font-size:10px;letter-spacing:.8px;color:#91a5b8;text-transform:uppercase}
+.het-score-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.het-score-track{height:5px;background:#263746;border-radius:8px;overflow:hidden;margin-top:8px}
+.het-score-fill{height:100%;background:#65e1ff;border-radius:8px}
+.het-type{font-size:11px;color:#a9b8c6}
+.het-evidence{border-top:1px solid #293b4b;padding-top:12px;display:flex;flex-direction:column;gap:9px}
+.het-evidence a{font-size:12px;line-height:1.5;color:#d3e6f5;text-decoration:none}
+.het-evidence a:hover{color:#65e1ff}
+.het-bottom{max-width:1400px;margin:26px auto 0;padding-top:18px;border-top:1px solid #293b4b;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.het-bottom span,.het-loading,.het-error{font-size:11px;color:#91a5b8;letter-spacing:.5px}
+@media(max-width:900px){.het-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.het-header{align-items:flex-start;flex-direction:column}}
+@media(max-width:600px){.homepage-emerging-topics{padding:48px 18px}.het-topic-grid{grid-template-columns:1fr}.het-card{padding:18px}.het-header h2{font-size:27px}}
+</style>
+<style>
+/* Emerging Topic Signals: light grey cards and sky-blue heading */
+.homepage-emerging-topics h2,
+.homepage-emerging-topics .het-heading {
+    color: #65e1ff !important;
+}
+
+.homepage-emerging-topics .het-card {
+    background: #f1f3f5 !important;
+    border-color: #d5dbe2 !important;
+    color: #17212b !important;
+}
+
+.homepage-emerging-topics .het-card h3,
+.homepage-emerging-topics .het-card strong {
+    color: #17212b !important;
+}
+
+.homepage-emerging-topics .het-card span,
+.homepage-emerging-topics .het-card p {
+    color: #4b5968;
+}
+
+.homepage-emerging-topics .het-card .het-score-track {
+    background: #dce2e8;
+}</style>
+<style>
+/* Compact Emerging Topic Signals cards */
+.homepage-emerging-topics .het-card {
+    padding: 12px !important;
+    margin-bottom: 10px !important;
+    border-radius: 8px !important;
+}
+
+.homepage-emerging-topics .het-card-top {
+    gap: 6px !important;
+    margin-bottom: 8px !important;
+}
+
+.homepage-emerging-topics .het-card h3 {
+    font-size: 15px !important;
+    line-height: 1.35 !important;
+    margin: 0 !important;
+}
+
+.homepage-emerging-topics .het-stats {
+    gap: 8px !important;
+    margin: 6px 0 !important;
+}
+
+.homepage-emerging-topics .het-stat {
+    padding: 5px !important;
+}
+
+.homepage-emerging-topics .het-stat strong {
+    font-size: 15px !important;
+}
+
+.homepage-emerging-topics .het-stat span {
+    font-size: 11px !important;
+}
+
+.homepage-emerging-topics .het-evidence a {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+.homepage-emerging-topics .het-evidence a::after {
+    content: none !important;
+}</style>
+<style>
+/* MACHINADAILY — animated emerging topic intelligence */
+.homepage-emerging-topics .het-card {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    background: linear-gradient(135deg, #f5f7fa, #e9eef4, #f7f9fc) !important;
+    background-size: 200% 200% !important;
+    border: 1px solid #d5e0ea !important;
+    border-radius: 12px !important;
+    padding: 12px !important;
+    margin-bottom: 10px !important;
+    box-shadow: 0 3px 12px rgba(35, 75, 110, 0.06);
+    animation:
+        hetCardAppear 0.65s ease both,
+        hetSurfaceFlow 9s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.homepage-emerging-topics .het-card:nth-child(2) {
+    animation-delay: 0.12s, 0s;
+}
+.homepage-emerging-topics .het-card:nth-child(3) {
+    animation-delay: 0.24s, 0s;
+}
+.homepage-emerging-topics .het-card:nth-child(4) {
+    animation-delay: 0.36s, 0s;
+}
+.homepage-emerging-topics .het-card:nth-child(5) {
+    animation-delay: 0.48s, 0s;
+}
+.homepage-emerging-topics .het-card:nth-child(6) {
+    animation-delay: 0.60s, 0s;
+}
+
+.homepage-emerging-topics .het-card::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -60%;
+    left: -70%;
+    width: 55%;
+    height: 220%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(101, 225, 255, 0.17),
+        rgba(101, 225, 255, 0.04),
+        transparent
+    );
+    transform: rotate(20deg);
+    animation: hetLightSweep 8s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.homepage-emerging-topics .het-card:hover {
+    transform: translateY(-4px) scale(1.008);
+    border-color: #65e1ff !important;
+    box-shadow: 0 10px 28px rgba(43, 151, 190, 0.16);
+}
+
+.homepage-emerging-topics h2,
+.homepage-emerging-topics .het-heading {
+    color: #65e1ff !important;
+    text-shadow: 0 0 16px rgba(101, 225, 255, 0.24);
+}
+
+.homepage-emerging-topics .het-card h3 {
+    color: #17212b !important;
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+}
+
+.homepage-emerging-topics .het-card-top {
+    gap: 6px !important;
+    margin-bottom: 8px !important;
+}
+
+.homepage-emerging-topics .het-stats {
+    gap: 8px !important;
+    margin: 6px 0 !important;
+}
+
+.homepage-emerging-topics .het-stat {
+    padding: 5px !important;
+}
+
+.homepage-emerging-topics .het-stat strong {
+    display: inline-block;
+    color: #17212b !important;
+    animation: hetNumberGlow 4s ease-in-out infinite;
+}
+
+.homepage-emerging-topics .het-stat span,
+.homepage-emerging-topics .het-card p {
+    color: #4b5968 !important;
+}
+
+.homepage-emerging-topics .het-score-track {
+    height: 5px !important;
+    overflow: hidden;
+    background: #dce2e8 !important;
+    border-radius: 99px;
+}
+
+.homepage-emerging-topics .het-score-fill {
+    position: relative;
+    border-radius: 99px;
+    background: linear-gradient(90deg, #65e1ff, #399de8, #65e1ff) !important;
+    background-size: 200% 100% !important;
+    animation: hetScoreFlow 3s linear infinite;
+    box-shadow: 0 0 10px rgba(101, 225, 255, 0.35);
+}
+
+.homepage-emerging-topics .het-evidence a {
+    color: #263b4e !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+@keyframes hetCardAppear {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes hetSurfaceFlow {
+    0%, 100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+}
+
+@keyframes hetLightSweep {
+    0%, 65% { left: -70%; opacity: 0; }
+    72%     { opacity: 1; }
+    92%, 100% { left: 130%; opacity: 0; }
+}
+
+@keyframes hetScoreFlow {
+    from { background-position: 100% 0; }
+    to   { background-position: -100% 0; }
+}
+
+@keyframes hetNumberGlow {
+    0%, 100% { text-shadow: 0 0 0 rgba(57, 157, 232, 0); }
+    50%      { text-shadow: 0 0 10px rgba(57, 157, 232, 0.22); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .homepage-emerging-topics .het-card,
+    .homepage-emerging-topics .het-card::before,
+    .homepage-emerging-topics .het-score-fill,
+    .homepage-emerging-topics .het-stat strong {
+        animation: none !important;
+        transition: none !important;
+    }
+}</style>
 </head>
 
 
@@ -131,7 +708,7 @@
     </span>
 
     <span class="system-status">
-      ● LIVE
+      â— LIVE
     </span>
 
   </div>
@@ -185,16 +762,14 @@
     </a>
 
     <a href="/newsroom">
-      NEWSROOM
+      INVESTIGATE
     </a>
 
     <a href="/editorial">
       EDITORIAL
     </a>
 
-    <a href="/weekly">
-      WEEKLY
-    </a>
+    
 
     <button
       class="nav-newsletter newsletter-open">
@@ -232,6 +807,7 @@
      HERO
 ========================================================= -->
 
+<div class="frontpage-lead-grid">
 <section class="hero-section">
 
 
@@ -320,52 +896,77 @@
      SIGNALS
 ========================================================= -->
 
-<section
-  id="signals"
-  class="signals-section">
+</div>
 
-
-  <div class="section-header">
-
-
+<!-- DAILY BRIEFING -->
+<section id="daily-briefing-home" class="homepage-data-section daily-briefing-section">
+  <div class="homepage-data-heading">
     <div>
-
-      <span class="section-number">
-        02
-      </span>
-
-      <h2>
-        LATEST SIGNALS
-      </h2>
-
+      <span class="homepage-eyebrow">MACHINADAILY / ORIGINAL DESK</span>
+      <h2>DAILY BRIEFING</h2>
+      <p>Original reporting from MachinaDaily's local editorial pipeline. Verification status is shown for each item.</p>
     </div>
+    <a class="homepage-view-link" href="/daily-briefing">FULL BRIEFING &#8599;</a>
+  </div>
+  <div id="homepage-briefing-cards" class="homepage-briefing-grid">
+    <div class="homepage-data-loading">Loading briefing dataâ€¦</div>
+  </div>
+</section>
 
-
-    <a
-      href="/frontend/archive.html"
-      class="view-all">
-
-      VIEW ARCHIVE
-      <span>↗</span>
-
+<!-- LATEST NEWSROOM -->
+<section id="newsroom-home" class="homepage-data-section newsroom-strip-section">
+  <div class="homepage-data-heading">
+    <div>
+      <span class="homepage-eyebrow">MACHINADAILY / NEWSROOM</span>
+      <h2>INVESTIGATIVE DESK &#8212; FIVE REPORTS</h2>
+      <p>Five investigations from the MachinaDaily Investigative Desk.</p>
+    </div>
+    <a class="homepage-view-link" href="/newsroom">OPEN NEWSROOM &#8599;</a>
+  </div>
+  <div id="homepage-newsroom-cards" class="homepage-newsroom-list">
+    <div class="homepage-data-loading">Loading newsroom headlinesâ€¦</div>
+  </div>
+</section>
+<section id="signals" class="signals-section homepage-neural-brain">
+  <div class="section-header">
+    <div>
+      <span class="section-number">02</span>
+      <h2>NEURAL BRAIN</h2>
+      <p class="nb-intro">20 latest signals from the MachinaDaily intelligence network.</p>
+    </div>
+    <a href="/signals" class="view-all">
+      MORE SIGNALS <span>&#8599;</span>
     </a>
-
-
   </div>
 
-
-
-  <div id="root">
-
-    <div class="loading-state">
-
-      LOADING SIGNALS...
-
+  <div class="nb-panel">
+    <div class="nb-network" aria-hidden="true">
+      <span class="nb-edge nb-edge-a"></span>
+      <span class="nb-edge nb-edge-b"></span>
+      <span class="nb-edge nb-edge-c"></span>
+      <span class="nb-node nb-node-a"></span>
+      <span class="nb-node nb-node-b"></span>
+      <span class="nb-node nb-node-c"></span>
+      <span class="nb-node nb-node-d"></span>
+      <span class="nb-core"></span>
     </div>
-
+    <div class="nb-status">
+      <span class="nb-status-dot"></span>
+      <span>NEURAL NETWORK</span>
+      <span class="nb-status-divider">/</span>
+      <span id="nb-record-count">CONNECTING</span>
+    </div>
+    <p class="nb-caption">Stories, sources and emerging technology signals.</p>
   </div>
 
+  <div id="root" class="nb-stories">
+    <div class="loading-state">CONNECTING TO THE NEURAL NETWORKâ€¦</div>
+  </div>
 
+  <div class="nb-footer">
+    <span>LIVE INTELLIGENCE INDEX</span>
+    <a href="/signals">EXPLORE ALL SIGNALS &#8599;</a>
+  </div>
 </section>
 
 
@@ -378,67 +979,82 @@
      MACHINA ANALYSIS
 ========================================================= -->
 
-<section id="analysis" class="analysis-section">
-
-  <div class="analysis-index">
-    03
+<section id="homepage-emerging-topics" class="homepage-emerging-topics">
+  <div class="het-header">
+    <div>
+      <span class="het-kicker">LIVE INTELLIGENCE / TOPIC MOMENTUM</span>
+      <h2>EMERGING TOPIC SIGNALS</h2>
+      <p>Ranked using the existing backend momentum score, recent mentions and source coverage.</p>
+    </div>
+    <a class="het-all" href="/intelligence/dashboard">VIEW ALL INTELLIGENCE &#8599;</a>
   </div>
+  <div id="het-topic-list" class="het-topic-grid" aria-live="polite">
+    <p class="het-loading">Connecting to topic intelligence...</p>
+  </div>
+  <div class="het-bottom">
+    <span id="het-updated">LIVE BACKEND DATA</span>
+    <a href="/intelligence/dashboard">OPEN FUTURE INTELLIGENCE OBSERVATORY &#8599;</a>
+  </div>
+</section>
+<section id="analysis" class="analysis-section company-intelligence-section">
+  <div class="analysis-index">03</div>
 
   <div class="analysis-content">
-
-    <div class="analysis-label">
-      MACHINA ANALYSIS
-    </div>
-
-    <h2>
-      WHAT IS THE<br>
-      <span>MACHINE SEEING?</span>
-    </h2>
-
+    <div class="analysis-label">COMPANY DATA OBSERVATORY</div>
+    <h2>WHO IS<br><span>IN THE DATA?</span></h2>
     <p>
-      Machina maps the stories it monitors,
-      looking for signals, movement and
-      connected developments.
+      A map of named organisations and technology entities found in MachinaDaily's
+      evidence collection. Records have different levels of assessment; mentions
+      alone do not establish a business relationship or verify a claim.
     </p>
 
-    <div id="machinaSignalsHome" class="machina-home-signals">
-
-      <div class="machina-home-loading">
-        SCANNING INTELLIGENCE...
+    <div class="company-observatory-stats">
+      <div>
+        <strong id="homepage-company-count">&#8212;</strong>
+        <span>COMPANY RECORDS</span>
       </div>
-
+      <div>
+        <strong id="homepage-company-sources">&#8212;</strong>
+        <span>EVIDENCE SOURCES READ</span>
+      </div>
+      <div>
+        <strong id="homepage-company-verified">&#8212;</strong>
+        <span>VERIFIED PROFILES</span>
+      </div>
     </div>
 
+    <div id="homepage-company-cards" class="homepage-company-grid">
+      <div class="homepage-data-loading">Loading company intelligenceâ€¦</div>
+    </div>
+
+    <p class="company-data-caveat">
+      Data coverage and assessment status vary by record. A mention count is not
+      a measure of company performance. Shared-source links do not prove a
+      business relationship.
+    </p>
+
+    <!-- Retain the old target for compatibility with existing scripts. -->
+    <div id="machinaSignalsHome" hidden></div>
   </div>
 
   <div class="analysis-side">
-
     <div class="analysis-rule"></div>
-
     <div class="analysis-stat">
-      <span>CURRENT MODE</span>
-      <strong>SIGNAL DETECTION</strong>
+      <span>DATASET</span>
+      <strong>COMPANY RECORDS</strong>
     </div>
-
     <div class="analysis-stat">
-      <span>COVERAGE</span>
-      <strong>MACHINA MONITORED ARCHIVE</strong>
+      <span>ASSESSMENT</span>
+      <strong>MULTIPLE STATUS LEVELS</strong>
     </div>
-
     <div class="analysis-stat">
-      <span>OUTPUT</span>
-      <strong>LIVE INTELLIGENCE</strong>
+      <span>INTERPRETATION</span>
+      <strong>EVIDENCE, NOT ASSUMPTIONS</strong>
     </div>
-
-    <a href="/archive"
-       class="analysis-button"
-       style="display:inline-block;text-decoration:none;">
-      VIEW FULL INTELLIGENCE
-      <span>â†—</span>
+    <a href="/company-data" class="analysis-button" style="display:inline-block;text-decoration:none;">
+      EXPLORE COMPANY DATA &#8599;
     </a>
-
   </div>
-
 </section>
 
 
@@ -488,7 +1104,7 @@
 
       JOIN MACHINA
 
-      <span>→</span>
+      <span>â†’</span>
 
     </button>
 
@@ -584,7 +1200,7 @@
 
 
     <span>
-      © 2026 MACHINA DAILY
+      Â© 2026 MACHINA DAILY
     </span>
 
 
@@ -625,7 +1241,7 @@
       class="newsletter-close"
       aria-label="Close newsletter">
 
-      ×
+      Ã—
 
     </button>
 
@@ -697,7 +1313,7 @@
 
             <button type="submit">
 
-              JOIN →
+              JOIN â†’
 
             </button>
 
@@ -744,7 +1360,7 @@
     <button
       id="reader-back">
 
-      ← BACK
+      â† BACK
 
     </button>
 
@@ -904,7 +1520,7 @@ function heroHTML(article) {
             ${escapeHTML(article.category)}
           </span>
 
-          <span>•</span>
+          <span>â€¢</span>
 
           <span>
             ${escapeHTML(article.published)}
@@ -938,7 +1554,7 @@ function heroHTML(article) {
             href="#"
             data-id="${escapeHTML(article.id)}">
 
-            READ STORY ↗
+            READ STORY &#8599;
 
           </a>
 
@@ -1031,7 +1647,7 @@ function cardHTML(article, index) {
           data-id="${escapeHTML(article.id)}"
           class="read-small">
 
-          READ →
+          READ â†’
 
         </a>
 
@@ -1149,7 +1765,7 @@ function machinaAnalysisHTML(article) {
               "tracked"
             )}
 
-            ·
+            &#183;
 
             ${escapeHTML(
               dev.evidence_type ||
@@ -1407,7 +2023,7 @@ function articleHTML(article) {
               target="_blank"
               rel="noopener noreferrer">
 
-              READ ORIGINAL ↗
+              READ ORIGINAL &#8599;
 
             </a>
 
@@ -1433,6 +2049,71 @@ function articleHTML(article) {
    LOAD ARTICLES
 --------------------------------------------------------- */
 
+async function loadNeuralBrain() {
+  const container = document.getElementById("root");
+  const countNode = document.getElementById("nb-record-count");
+  if (!container) return;
+
+  const safeText = value => String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;",
+    '"': "&quot;", "'": "&#39;"
+  })[char]);
+
+  const safeUrl = value => {
+    try {
+      const parsed = new URL(String(value || ""));
+      return parsed.protocol === "https:" || parsed.protocol === "http:"
+        ? parsed.href : "";
+    } catch (_) {
+      return "";
+    }
+  };
+
+  try {
+    const response = await fetch("/signals/api?page=1&per_page=10", {
+      headers: { "Accept": "application/json" }
+    });
+    if (!response.ok) throw new Error("Neural API returned " + response.status);
+
+    const data = await response.json();
+    if (!data.ok || !Array.isArray(data.items)) {
+      throw new Error("Unexpected Neural API response");
+    }
+
+    if (countNode) {
+      countNode.textContent = Number(data.total || data.items.length).toLocaleString() + " RECORDS";
+    }
+
+    if (!data.items.length) {
+      container.innerHTML = '<p class="loading-state">NO SIGNALS AVAILABLE RIGHT NOW.</p>';
+      return;
+    }
+
+    container.innerHTML = data.items.slice(0, 10).map((story, index) => {
+      const title = safeText(story.title || "Untitled signal");
+      const category = safeText(story.category || "Unclassified");
+      const source = safeText(story.source || "Unknown source");
+      const summary = safeText(story.summary || story.original_text || "Open the source to read more.")
+        .replace(/\s+/g, " ");
+      const published = safeText(story.published || "");
+      const titleMarkup = '<a href="/signals">' + title + '</a>';
+
+      return '<article class="nb-story">' +
+        '<div class="nb-story-meta"><span>' + category + '</span>' +
+        (published ? '<span>' + published + '</span>' : '') + '</div>' +
+        '<h3><span class="nb-story-number">' + String(index + 1).padStart(2, "0") +
+        ' / </span>' + titleMarkup + '</h3>' +
+        '<p>' + summary.slice(0, 340) + '</p>' +
+        '<span class="nb-story-source">SOURCE / ' + source + '</span>' +
+        '</article>';
+    }).join("");
+  } catch (error) {
+    if (countNode) countNode.textContent = "TEMPORARILY OFFLINE";
+    container.innerHTML = '<div class="loading-state">THE NEURAL NETWORK IS TEMPORARILY UNAVAILABLE. ' +
+      '<a href="/signals">OPEN THE SIGNALS PAGE &#8599;</a></div>';
+    console.error("MachinaDaily Neural Brain:", error);
+  }
+}
 async function loadList() {
 
 
@@ -1470,30 +2151,29 @@ async function loadList() {
     }
 
 
-    /* HERO */
+    /* HERO AUTOPLAY SLIDER &#8212; uses the same articles as LATEST SIGNALS */
 
-    hero.innerHTML =
-      heroHTML(list[0]);
+    let heroIndex = 0;
+
+    if (window.machinaHeroSliderTimer) {
+      clearInterval(window.machinaHeroSliderTimer);
+    }
+
+    const renderHeroSlide = () => {
+      hero.innerHTML = heroHTML(list[heroIndex]);
+      heroIndex = (heroIndex + 1) % list.length;
+    };
+
+    renderHeroSlide();
+
+    if (list.length > 1) {
+      window.machinaHeroSliderTimer = setInterval(renderHeroSlide, 7000);
+    }
 
 
-    /* SIGNALS */
+    /* NEURAL BRAIN */
 
-    root.innerHTML =
-      `<div class="signal-grid">
-        ${
-          list
-            .slice(1)
-            .map(
-              (article, index) =>
-                cardHTML(
-                  article,
-                  index
-                )
-            )
-            .join("")
-        }
-      </div>`;
-
+    loadNeuralBrain();
 
     /* TRENDING */
 
@@ -1528,7 +2208,7 @@ async function loadList() {
 
 
               <span class="trend-arrow">
-                ↗
+                &#8599;
               </span>
 
 
@@ -1960,7 +2640,7 @@ document
           return;
         }
 
-        alert("YOU'RE IN — welcome to Machina.");
+        alert("YOU'RE IN &#8212; welcome to Machina.");
         document.getElementById("newsletterEmail").value = "";
         closeNewsletter();
       })
@@ -2152,5 +2832,292 @@ loadMachinaSignals();
 })();
 </script>
 
+<script>
+(() => {
+  "use strict";
+
+  const escapeText = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
+
+  const compactNumber = (value) => {
+    const number = Number(value);
+    return Number.isFinite(number) ? number.toLocaleString("en-GB") : "&#8212;";
+  };
+
+  const setLoadingError = (id, message) => {
+    const node = document.getElementById(id);
+    if (node) node.innerHTML = `<div class="homepage-data-loading">${escapeText(message)}</div>`;
+  };
+
+  async function loadHomepageBriefing() {
+    const container = document.getElementById("homepage-briefing-cards");
+    if (!container) return;
+
+    try {
+      const response = await fetch("/daily-briefing/data?refresh=" + Date.now(), { cache: "no-store" });
+      if (!response.ok) throw new Error("Briefing request failed");
+
+      const data = await response.json();
+      const results = Array.isArray(data.results) ? data.results.slice() : [];
+
+      results.sort((a, b) => {
+        const score = (item) =>
+          String(item?.maren_verification?.status || "").toUpperCase() === "PASS" ? 0 : 1;
+        return score(a) - score(b);
+      });
+
+      const items = results.slice(0, 4);
+
+      if (!items.length) {
+        setLoadingError("homepage-briefing-cards", "No briefing items are available.");
+        return;
+      }
+
+      container.innerHTML = items.map((item, index) => {
+        const articleText = String(item?.maren_repair?.original_article || "");
+        const articleObject = item?.article || {};
+        const titleFromObject =
+          typeof articleObject === "string"
+            ? articleObject.split(/\r?\n/).find(line => line.trim()) || ""
+            : articleObject?.headline || articleObject?.title || "";
+
+        const firstLine = articleText.split(/\r?\n/).find(line => line.trim()) || "";
+        const title = String(titleFromObject || firstLine || item?.journalist || "Briefing item")
+          .replace(/^\s*#+\s*/, "")
+          .replace(/^\s*\*\*/, "")
+          .replace(/\*\*\s*$/, "")
+          .trim();
+
+        const status = String(item?.maren_verification?.status || "PENDING").toUpperCase();
+        const passed = status === "PASS";
+        const summaryLines = articleText.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+        const summary = summaryLines
+          .filter(line => !/^#+\s/.test(line))
+          .find(line => line !== firstLine) || "Open the full briefing to review the report and its evidence.";
+
+        return `
+          <article class="homepage-briefing-card">
+            <div class="homepage-card-meta">
+              <span>${String(index + 1).padStart(2, "0")} / ORIGINAL DESK</span>
+              <span class="homepage-status ${passed ? "status-pass" : "status-review"}">
+                ${passed ? "VERIFICATION PASS" : "NEEDS VERIFICATION"}
+              </span>
+            </div>
+            <h3><a href="/daily-briefing">${escapeText(title)}</a></h3>
+            <p>${escapeText(summary.slice(0, 210))}${summary.length > 210 ? "â€¦" : ""}</p>
+            <div class="homepage-card-byline">${escapeText(item?.journalist || "MachinaDaily desk")}</div>
+          </article>`;
+      }).join("");
+    } catch (error) {
+      setLoadingError("homepage-briefing-cards", "Briefing data is temporarily unavailable.");
+      console.error("Homepage briefing:", error);
+    }
+  }
+
+  async function loadHomepageNewsroom() {
+    const container = document.getElementById("homepage-newsroom-cards");
+    if (!container) return;
+
+    try {
+      const response = await fetch("/newsroom/data");
+      if (!response.ok) throw new Error("Newsroom request failed");
+
+      const data = await response.json();
+
+      const stories = Array.isArray(data.stories)
+        ? data.stories.filter(story =>
+            story && story.desk === "five_more_journalists"
+          ).slice(0, 5)
+        : [];
+
+      if (!stories.length) {
+        setLoadingError(
+          "homepage-newsroom-cards",
+          "No investigative reports are currently available."
+        );
+        return;
+      }
+
+      container.innerHTML = stories.map((story, index) => {
+        const storyId = story.archive_id;
+        const headline = story.title || story.source_title || story.headline || story.story_title || story.name || "Untitled investigation";
+        const storyUrl = storyId
+          ? "/newsroom?story=" + encodeURIComponent(storyId)
+          : "/newsroom";
+
+        return `
+          <a class="homepage-newsroom-item" href="${storyUrl}">
+            <span class="homepage-newsroom-number">${String(index + 1).padStart(2, "0")}</span>
+            <span class="homepage-newsroom-copy">
+              <strong>${escapeText(headline)}</strong>
+              <small>INVESTIGATIVE DESK &#183; Report ${String(index + 1).padStart(2, "0")}</small>
+            </span>
+            <span class="homepage-newsroom-arrow">&#8599;</span>
+          </a>
+        `;
+      }).join("");
+    } catch (error) {
+      setLoadingError(
+        "homepage-newsroom-cards",
+        "Investigative reports are temporarily unavailable."
+      );
+      console.error("Homepage investigative desk:", error);
+    }
+  }
+  async function loadHomepageCompanies() {
+    const container = document.getElementById("homepage-company-cards");
+    if (!container) return;
+
+    try {
+      const response = await fetch("/company-data/api/map");
+      if (!response.ok) throw new Error("Company data request failed");
+
+      const data = await response.json();
+      const meta = data.meta || {};
+      const companies = Array.isArray(data.companies) ? data.companies : [];
+
+      const setStat = (id, value) => {
+        const node = document.getElementById(id);
+        if (node) node.textContent = compactNumber(value);
+      };
+
+      setStat("homepage-company-count", meta.company_records ?? companies.length);
+      setStat("homepage-company-sources", meta.evidence_sources_read);
+      setStat("homepage-company-verified", meta.verified_profiles);
+
+      const genericName = /^(the|how|as|why|what|when|where|which|who)\s+ai\b/i;
+      const excludedName = /^(and|or|but|if|when|why|how)\s/i;
+
+      const statusRank = (status) => {
+        const value = String(status || "").toLowerCase();
+        if (value === "verified") return 0;
+        if (value === "probable") return 1;
+        if (value === "needs_review") return 2;
+        return 3;
+      };
+
+      const selected = companies
+        .filter(company => {
+          const name = String(company?.name || "").trim();
+          if (name.length < 3 || name.length > 90) return false;
+          if (genericName.test(name) || excludedName.test(name)) return false;
+          if (/^(generative ai|agentic ai|artificial intelligence)$/i.test(name)) return false;
+          return true;
+        })
+        .sort((a, b) => {
+          const rankDifference = statusRank(a.verification_status) - statusRank(b.verification_status);
+          if (rankDifference !== 0) return rankDifference;
+          return (Number(b.mentions) || 0) - (Number(a.mentions) || 0);
+        })
+        .slice(0, 4);
+
+      if (!selected.length) {
+        setLoadingError("homepage-company-cards", "No suitable company records are available.");
+        return;
+      }
+
+      container.innerHTML = selected.map(company => {
+        const status = String(company.verification_status || "unassessed").replace(/_/g, " ");
+        return `
+          <article class="homepage-company-card">
+            <div class="homepage-company-status">${escapeText(status)}</div>
+            <h3>${escapeText(company.name)}</h3>
+            <div class="homepage-company-sector">${escapeText(company.sector || "Sector unclassified")}</div>
+            <div class="homepage-company-mentions">
+              <strong>${compactNumber(company.mentions)}</strong>
+              <span>recorded mentions</span>
+            </div>
+            <p>Assessment status: ${escapeText(company.assessment_status || "not assessed")}.</p>
+          </article>`;
+      }).join("");
+    } catch (error) {
+      setLoadingError("homepage-company-cards", "Company data is temporarily unavailable.");
+      console.error("Homepage company data:", error);
+    }
+  }
+
+  loadHomepageBriefing();
+  loadHomepageNewsroom();
+  loadHomepageCompanies();
+})();
+</script>
+<script id="homepage-emerging-topics-script">
+(function () {
+  const list = document.getElementById("het-topic-list");
+  const updated = document.getElementById("het-updated");
+  if (!list) return;
+
+  const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, ch => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  })[ch]);
+
+  const number = value => Number(value || 0).toLocaleString();
+  const growth = value => {
+    const n = Number(value);
+    if (!Number.isFinite(n)) return "—";
+    return (n > 0 ? "+" : "") + n.toLocaleString(undefined, {maximumFractionDigits: 1}) + "%";
+  };
+
+  async function loadEmergingTopics() {
+    try {
+      const response = await fetch("/intelligence/api/overview", {cache: "no-store"});
+      if (!response.ok) throw new Error("Topic API returned " + response.status);
+      const data = await response.json();
+      const trends = Array.isArray(data.trends) ? data.trends.slice(0, 6) : [];
+      if (!trends.length) {
+        list.innerHTML = '<p class="het-error">No topic trend data is currently available.</p>';
+        return;
+      }
+
+      list.innerHTML = trends.map(topic => {
+        const score = Math.max(0, Math.min(100, Number(topic.score) || 0));
+        const evidence = (Array.isArray(topic.evidence) ? topic.evidence : [])
+          .filter(item => item && /^https?:\/\//i.test(item.url || ""))
+          .slice(0, 2);
+        const evidenceHTML = evidence.length
+          ? evidence.map(item => '<a href="' + escapeHTML(item.url) + '" target="_blank" rel="noopener noreferrer">' +
+              escapeHTML(item.title || item.source || "Read evidence") + ' &#8599;</a>').join("")
+          : '<span class="het-type">No evidence links available for this topic.</span>';
+
+        return '<article class="het-card">' +
+          '<div class="het-card-top"><h3>' + escapeHTML(topic.topic || "Untitled topic") + '</h3>' +
+          '<span class="het-status">' + escapeHTML(topic.status || "tracking") + '</span></div>' +
+          '<div class="het-stats">' +
+            '<div class="het-stat"><strong>' + number(topic.recent_mentions) + '</strong><span>Recent mentions</span></div>' +
+            '<div class="het-stat"><strong>' + number(topic.source_count) + '</strong><span>Sources</span></div>' +
+            '<div class="het-stat"><strong>' + growth(topic.growth_pct) + '</strong><span>Growth vs prior period</span></div>' +
+            '<div class="het-stat"><strong>' + score + '/100</strong><span>Indicator score</span></div>' +
+          '</div>' +
+          '<div><div class="het-score-row"><span class="het-score-label">Momentum indicator</span><span class="het-type">' +
+            escapeHTML(topic.topic_type || "topic") + '</span></div>' +
+            '<div class="het-score-track"><div class="het-score-fill" style="width:' + score + '%"></div></div></div>' +
+          '<div class="het-evidence">' + evidenceHTML + '</div>' +
+          '</article>';
+      }).join("");
+
+      if (updated) updated.textContent = "LIVE BACKEND DATA · " + trends.length + " TOPICS LOADED";
+    } catch (error) {
+      list.innerHTML = '<p class="het-error">Topic signals are temporarily unavailable. The full observatory may still be accessible.</p>';
+      if (updated) updated.textContent = "TOPIC DATA TEMPORARILY UNAVAILABLE";
+      console.error("Emerging topic signals:", error);
+    }
+  }
+
+  loadEmergingTopics();
+})();
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
