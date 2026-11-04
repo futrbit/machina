@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MachinaDaily â€” Neural Observatory</title>
+<title>MachinaDaily — Neural Observatory</title>
 <style>
 :root{color-scheme:dark;--bg:#070b12;--panel:#0c1420;--line:#1b3042;--cyan:#65e1ff;--muted:#8ba1b4;--white:#eaf5ff;--green:#7df0c2}
 *{box-sizing:border-box}
@@ -176,7 +176,7 @@ a, .brand span, .detail h3, .briefing-section h4,
     <div class="brand">MACHINA<span>DAILY</span></div>
     <div class="kicker">Intelligence systems / observatory</div>
   </div>
-  <a href="/">â† Return to MachinaDaily</a>
+  <a href="/">← Return to MachinaDaily</a>
 </header>
 <main>
   <section class="hero">
@@ -185,14 +185,14 @@ a, .brand span, .detail h3, .briefing-section h4,
       <h1>Neural Observatory</h1>
       <p class="sub">Explore the intelligence archive. Search emerging developments, compare sectors, inspect publisher sources and follow every story back to its origin.</p>
     </div>
-    <div class="status"><span id="liveDot">â—</span> ARCHIVE CONNECTION<br><strong id="connection">CONNECTING</strong></div>
+    <div class="status"><span id="liveDot">●</span> ARCHIVE CONNECTION<br><strong id="connection">CONNECTING</strong></div>
   </section>
 
   <section class="stats">
-    <div class="stat"><small>Indexed records</small><strong id="totalStat">â€”</strong></div>
-    <div class="stat"><small>Sources</small><strong id="sourcesStat">â€”</strong></div>
-    <div class="stat"><small>Categories</small><strong id="categoriesStat">â€”</strong></div>
-    <div class="stat"><small>Matching records</small><strong id="matchingStat">â€”</strong></div>
+    <div class="stat"><small>Indexed records</small><strong id="totalStat">—</strong></div>
+    <div class="stat"><small>Sources</small><strong id="sourcesStat">—</strong></div>
+    <div class="stat"><small>Categories</small><strong id="categoriesStat">—</strong></div>
+    <div class="stat"><small>Matching records</small><strong id="matchingStat">—</strong></div>
   </section>
 
   <section class="layout">
@@ -200,7 +200,7 @@ a, .brand span, .detail h3, .briefing-section h4,
       <section class="panel">
         <div class="panel-head">
           <div><h2>Intelligence network</h2><p>Choose a node to inspect a record or shared archive group.</p></div>
-          <button id="refreshBtn" type="button">â†» Refresh</button>
+          <button id="refreshBtn" type="button">↻ Refresh</button>
         </div>
         <div class="map-wrap"><canvas id="network" aria-label="Interactive intelligence network"></canvas></div>
         <div class="map-legend">
@@ -224,20 +224,20 @@ a, .brand span, .detail h3, .briefing-section h4,
         <div><h2>Archive search</h2><p>Search titles, sources and article text.</p></div>
       </div>
       <div class="controls">
-        <input id="search" type="search" placeholder="Search intelligenceâ€¦" aria-label="Search records">
+        <input id="search" type="search" placeholder="Search intelligence…" aria-label="Search records">
         <select id="categoryFilter" aria-label="Filter by category"><option value="">All categories</option></select>
         <select id="sourceFilter" aria-label="Filter by source"><option value="">All sources</option></select>
       </div>
-      <div class="results-top"><span id="resultLabel">Loading recordsâ€¦</span><span id="pageLabel">Page â€”</span></div>
-      <div class="list" id="storyList"><div class="empty">Loading the intelligence archiveâ€¦</div></div>
+      <div class="results-top"><span id="resultLabel">Loading records…</span><span id="pageLabel">Page —</span></div>
+      <div class="list" id="storyList"><div class="empty">Loading the intelligence archive…</div></div>
       <div class="pagination">
-        <button id="prevBtn" disabled>â† Previous</button>
-        <button id="nextBtn" disabled>Next â†’</button>
+        <button id="prevBtn" disabled>← Previous</button>
+        <button id="nextBtn" disabled>Next →</button>
       </div>
       <div class="note">Records are loaded from <code>data/deep_raw</code> and <code>data/rewritten</code>. Matching stories are deduplicated where possible.</div>
     </section>
   </section>
-  <footer>MachinaDaily Neural Observatory Â· Archive connections are navigational associations, not claims of causation or influence.</footer>
+  <footer>MachinaDaily Neural Observatory · Archive connections are navigational associations, not claims of causation or influence.</footer>
 </main>
 <script>
 (() => {
@@ -246,7 +246,7 @@ a, .brand span, .detail h3, .briefing-section h4,
   let state = {items:[],nodes:[],edges:[],page:1,pages:1,total:0,filters:{categories:[],sources:[]}};
   let positions = [], selectedRecord = null, queryTimer = null, lastQuery = "";
   const fmt = n => Number(n || 0).toLocaleString();
-  const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({
+  const esc = value => String(value ? "").replace(/[&<>"']/g, ch => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
   }[ch]));
   const safeUrl = value => {
@@ -322,7 +322,7 @@ a, .brand span, .detail h3, .briefing-section h4,
         <p class="meta">Analysed locally using Ollama and the stored story evidence.</p>
       </div>
       <div id="briefingOutput" aria-live="polite"></div>
-      ${url ? `<a class="source-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Verify original source â†—</a>` : ""}
+      ${url ? `<a class="source-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Verify original source ↗</a>` : ""}
       ${r.authors ? `<p class="meta">By ${esc(r.authors)}</p>` : ""}
       <p class="meta">Record ID: ${esc(r.id || "Unavailable")}</p>`;
 
@@ -421,7 +421,7 @@ a, .brand span, .detail h3, .briefing-section h4,
       }
 
       const numbered = line.match(/^(?:\\)?\d+[.)](?:\\)?\s+(.+)$/);
-      const bullet = line.match(/^(?:[-*â€¢]|\\-)\s+(.+)$/);
+      const bullet = line.match(/^(?:[-*•]|\\-)\s+(.+)$/);
       const kind = numbered ? "ol" : bullet ? "ul" : null;
 
       if (kind) {

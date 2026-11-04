@@ -708,7 +708,7 @@
     </span>
 
     <span class="system-status">
-      â— LIVE
+      &#9679; LIVE
     </span>
 
   </div>
@@ -909,7 +909,7 @@
     <a class="homepage-view-link" href="/daily-briefing">FULL BRIEFING &#8599;</a>
   </div>
   <div id="homepage-briefing-cards" class="homepage-briefing-grid">
-    <div class="homepage-data-loading">Loading briefing dataâ€¦</div>
+    <div class="homepage-data-loading">Loading briefing data&hellip;</div>
   </div>
 </section>
 
@@ -924,7 +924,7 @@
     <a class="homepage-view-link" href="/newsroom">OPEN NEWSROOM &#8599;</a>
   </div>
   <div id="homepage-newsroom-cards" class="homepage-newsroom-list">
-    <div class="homepage-data-loading">Loading newsroom headlinesâ€¦</div>
+    <div class="homepage-data-loading">Loading newsroom headlines&hellip;</div>
   </div>
 </section>
 <section id="signals" class="signals-section homepage-neural-brain">
@@ -960,7 +960,7 @@
   </div>
 
   <div id="root" class="nb-stories">
-    <div class="loading-state">CONNECTING TO THE NEURAL NETWORKâ€¦</div>
+    <div class="loading-state">CONNECTING TO THE NEURAL NETWORK&hellip;</div>
   </div>
 
   <div class="nb-footer">
@@ -1024,7 +1024,7 @@
     </div>
 
     <div id="homepage-company-cards" class="homepage-company-grid">
-      <div class="homepage-data-loading">Loading company intelligenceâ€¦</div>
+      <div class="homepage-data-loading">Loading company intelligence&hellip;</div>
     </div>
 
     <p class="company-data-caveat">
@@ -1104,7 +1104,7 @@
 
       JOIN MACHINA
 
-      <span>â†’</span>
+      <span>&rarr;</span>
 
     </button>
 
@@ -1200,7 +1200,7 @@
 
 
     <span>
-      Â© 2026 MACHINA DAILY
+      &copy; 2026 MACHINA DAILY
     </span>
 
 
@@ -1241,7 +1241,7 @@
       class="newsletter-close"
       aria-label="Close newsletter">
 
-      Ã—
+      &times;
 
     </button>
 
@@ -1313,7 +1313,7 @@
 
             <button type="submit">
 
-              JOIN â†’
+              JOIN &rarr;
 
             </button>
 
@@ -1360,7 +1360,7 @@
     <button
       id="reader-back">
 
-      â† BACK
+      &larr; BACK
 
     </button>
 
@@ -1520,7 +1520,7 @@ function heroHTML(article) {
             ${escapeHTML(article.category)}
           </span>
 
-          <span>â€¢</span>
+          <span>&bull;</span>
 
           <span>
             ${escapeHTML(article.published)}
@@ -1647,7 +1647,7 @@ function cardHTML(article, index) {
           data-id="${escapeHTML(article.id)}"
           class="read-small">
 
-          READ â†’
+          READ &rarr;
 
         </a>
 
@@ -2522,76 +2522,8 @@ document
 
 /* ---------------------------------------------------------
    NEWSLETTER TRIGGER
+   Automatic popups disabled. Manual newsletter links remain.
 --------------------------------------------------------- */
-
-setTimeout(
-  () => {
-
-
-    if (
-      !sessionStorage.getItem(
-        "machinaNewsletterSeen"
-      )
-    ) {
-
-
-      openNewsletter();
-
-
-      sessionStorage.setItem(
-        "machinaNewsletterSeen",
-        "true"
-      );
-
-    }
-
-  },
-  5000
-);
-
-
-
-window.addEventListener(
-  "scroll",
-  () => {
-
-
-    const position =
-      window.scrollY +
-      window.innerHeight;
-
-
-    const height =
-      document.documentElement
-        .scrollHeight;
-
-
-    const percentage =
-      position / height;
-
-
-    if (
-      percentage >= 0.30 &&
-      !sessionStorage.getItem(
-        "machinaNewsletterSeen"
-      )
-    ) {
-
-
-      openNewsletter();
-
-
-      sessionStorage.setItem(
-        "machinaNewsletterSeen",
-        "true"
-      );
-
-    }
-
-  }
-);
-
-
 
 /* ---------------------------------------------------------
    NEWSLETTER FORM
@@ -2909,7 +2841,7 @@ loadMachinaSignals();
               </span>
             </div>
             <h3><a href="/daily-briefing">${escapeText(title)}</a></h3>
-            <p>${escapeText(summary.slice(0, 210))}${summary.length > 210 ? "â€¦" : ""}</p>
+            <p>${escapeText(summary.slice(0, 210))}${summary.length > 210 ? "&hellip;" : ""}</p>
             <div class="homepage-card-byline">${escapeText(item?.journalist || "MachinaDaily desk")}</div>
           </article>`;
       }).join("");

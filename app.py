@@ -48,7 +48,7 @@ def format_date(dt: datetime | str | None) -> str:
         dt = parse_dt(dt)
     if not isinstance(dt, datetime):
         return str(dt)
-    return dt.astimezone(timezone.utc).strftime("%b %d, %Y ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ %I:%M %p UTC")
+    return dt.astimezone(timezone.utc).strftime("%b %d, %Y - %I:%M %p UTC")
 
 def parse_dt(raw: str | None) -> datetime | None:
     if not raw:
@@ -662,7 +662,7 @@ def load_five_more_journalists_newsroom():
 
                 data["desk"] = "five_more_journalists"
                 data["desk_label"] = (
-                    "MACHINA DAILY â€” INVESTIGATIVE DESK"
+                    "MACHINA DAILY — INVESTIGATIVE DESK"
                 )
 
                 stories.append(data)
@@ -743,7 +743,7 @@ def load_combined_newsroom():
 
             story.setdefault(
                 "desk_label",
-                "MACHINA DAILY â€” ORIGINAL DESK"
+                "MACHINA DAILY — ORIGINAL DESK"
             )
 
             combined.append(story)
@@ -761,7 +761,7 @@ def load_combined_newsroom():
 
             story.setdefault(
                 "desk_label",
-                "MACHINA DAILY â€” INVESTIGATIVE DESK"
+                "MACHINA DAILY — INVESTIGATIVE DESK"
             )
 
             combined.append(story)
@@ -896,7 +896,7 @@ def daily_desk_data(journalist_id):
     model = newsroom.get("model")
 
     # ------------------------------------------------------------
-    # YUKI â€” EDITORIAL RANKING
+    # YUKI — EDITORIAL RANKING
     # ------------------------------------------------------------
 
     if journalist_id == "yuki_tanaka":
