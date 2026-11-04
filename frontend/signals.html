@@ -269,6 +269,8 @@ a, .brand span, .detail h3, .briefing-section h4,
   function renderList() {
     $("resultLabel").textContent = `${fmt(state.total)} matching records`;
     $("pageLabel").textContent = `Page ${state.page} / ${state.pages}`;
+    $("prevBtn").disabled = state.page <= 1;
+    $("nextBtn").disabled = state.page >= state.pages;
 
     $("storyList").innerHTML = state.items.map((r, i) => `
       <article class="story" data-index="${i}" tabindex="0" role="button">
