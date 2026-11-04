@@ -246,7 +246,7 @@ a, .brand span, .detail h3, .briefing-section h4,
   let state = {items:[],nodes:[],edges:[],page:1,pages:1,total:0,filters:{categories:[],sources:[]}};
   let positions = [], selectedRecord = null, queryTimer = null, lastQuery = "";
   const fmt = n => Number(n || 0).toLocaleString();
-  const esc = value => String(value ? "").replace(/[&<>"']/g, ch => ({
+  const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
   }[ch]));
   const safeUrl = value => {
