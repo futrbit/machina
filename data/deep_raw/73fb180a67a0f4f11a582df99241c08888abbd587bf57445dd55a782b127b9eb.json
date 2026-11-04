@@ -1,0 +1,18 @@
+{
+  "id": "73fb180a67a0f4f11a582df99241c08888abbd587bf57445dd55a782b127b9eb",
+  "source_id": "arxiv-machine-learning",
+  "source_name": "arXiv cs.LG",
+  "source_type": "research",
+  "source_url": "https://arxiv.org/list/cs.LG",
+  "sectors": [
+    "machine-learning",
+    "ai",
+    "research"
+  ],
+  "title": "Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering",
+  "url": "https://arxiv.org/abs/2303.12212",
+  "summary": "arXiv:2303.12212v3 Announce Type: replace-cross Abstract: Community detection is a significant challenge in analysing real graphs, including social, citation, biological, and many other networks. This article proposes three new, general, hierarchical frameworks to deal with this task. The introduced approach supports various linkage-based clustering algorithms, vertex proximity matrices, and graph representation learning models. We compare 364 module combinations on Stochastic Block Model graphs and real-life datasets. We observe that our best pipelines (Wasserman-Faust and the mutual information-based PPMI proximity, as well as the deep learning-based DNGR representations) perform competitively with the state-of-the-art Leiden and Louvain algorithms. At the same time, unlike the latter, they remain hierarchical. Thus, they output a series of nested partitions of all possible cardinalities which are compatible with each other. This feature is crucial when the number of correct partitions is unknown in advance, and we show that it is obtained at near-zero practical cost in terms of partition quality. On graphs composed of many small communities, our pipelines are more accurate than the reference solutions. Nevertheless, the downside of our approach is its time complexity, which confines the framework to networks of some 10000 vertices on personal machines.",
+  "published": "2026-11-04T05:00:00+00:00",
+  "audio_url": "",
+  "fetched_at": "2026-11-04T13:32:43.112948+00:00"
+}
