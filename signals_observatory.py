@@ -1,7 +1,8 @@
 from flask import Blueprint, jsonify, request, send_from_directory
 from pathlib import Path
 from urllib.parse import urlparse
-from datetime import datetime
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 import json
 import os
 import re
@@ -98,6 +99,26 @@ def date_value(obj):
                  "publication_date", "date", "timestamp", "created_at",
                  "fetched_at", "scraped_at")
     return value[:80]
+
+
+def sort_timestamp(value):
+    """Convert ISO and RFC-style dates into comparable UTC timestamps."""
+    value = clean(value)
+    if not value:
+        return 0.0
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        try:
+            parsed = parsedate_to_datetime(value)
+        except (TypeError, ValueError, OverflowError):
+            return 0.0
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    try:
+        return parsed.timestamp()
+    except (ValueError, OverflowError, OSError):
+        return 0.0
 
 
 def collect_objects(value):
@@ -246,7 +267,7 @@ def load_records(force=False):
                         old["original_text"] = record["original_text"]
 
         records = list(unique.values())
-        records.sort(key=lambda r: r["published"], reverse=True)
+        records.sort(key=lambda r: sort_timestamp(r.get("published")), reverse=True)
         _cache.update({"time": now, "signature": signature, "records": records})
         return records
 
