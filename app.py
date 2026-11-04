@@ -12,6 +12,10 @@ from signals_observatory import signals_bp
 app.register_blueprint(signals_bp)
 from dashboard_control import dashboard_bp
 app.register_blueprint(dashboard_bp)
+from research_portal import research_bp
+app.register_blueprint(research_bp)
+from research_publishing import publishing_bp, published_sitemap_urls
+app.register_blueprint(publishing_bp)
 from intelligence_layer import intelligence_bp
 from market_data import market_bp
 app.register_blueprint(market_bp)
@@ -159,6 +163,7 @@ def sitemap():
                 f'  <url><loc>https://machinadaily.xyz/article/{article_id}</loc></url>'
             )
 
+    urls.extend(published_sitemap_urls())
     xml = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 %s
@@ -204,6 +209,26 @@ def archive_page():   return send_from_directory("frontend", "archive.html")
 @app.route("/frontend/<path:f>")
 def frontend_files(f): return send_from_directory("frontend", f)
 
+# ---------- Specialist Intelligence pages -------------------
+@app.route("/drones")
+def drones_page():
+    return send_from_directory("frontend", "drones.html")
+
+@app.route("/autonomy")
+def autonomy_page():
+    return send_from_directory("frontend", "autonomy.html")
+
+@app.route("/technology")
+def technology_page():
+    return send_from_directory("frontend", "technology.html")
+
+@app.route("/ai")
+def ai_page():
+    return send_from_directory("frontend", "ai.html")
+
+@app.route("/robotics")
+def robotics_page():
+    return send_from_directory("frontend", "robotics.html")
 @app.route("/articles")
 def newest():         return jsonify(newest_balanced())
 

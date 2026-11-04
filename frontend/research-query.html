@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b12">
+<title>Research Query | MachinaDaily</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #080b12;
+  --panel: #101722;
+  --panel2: #0b111b;
+  --line: #243348;
+  --text: #eef5ff;
+  --muted: #8b9bb1;
+  --cyan: #65e1ff;
+  --lime: #c6ff6b;
+  --amber: #ffc66d;
+  --red: #ff7185;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 85% 0%, #10344966, transparent 38%),
+    var(--bg);
+  color: var(--text);
+  font: 14px/1.65 "Segoe UI", Arial, sans-serif;
+}
+main { max-width: 1200px; margin: auto; padding: 26px 22px 60px; }
+a { color: var(--cyan); overflow-wrap: anywhere; }
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 14px; padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-size: 12px; font-weight: 800; letter-spacing: .17em; }
+.nav { display: flex; flex-wrap: wrap; gap: 15px; }
+.nav a { text-decoration: none; color: var(--muted); }
+.nav a:hover { color: var(--cyan); }
+.eyebrow {
+  color: var(--cyan); text-transform: uppercase;
+  letter-spacing: .18em; font-size: 10px; font-weight: 800;
+}
+.hero { padding: 38px 0 25px; }
+h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.08; letter-spacing: -.045em; margin: 10px 0; }
+h2 { font-size: 19px; margin: 0 0 14px; }
+.subtitle { color: var(--muted); max-width: 740px; }
+.panel {
+  background: linear-gradient(145deg, #121c2a, #0c121d);
+  border: 1px solid var(--line); border-radius: 15px;
+  padding: 22px; margin: 16px 0;
+}
+label { display: block; color: var(--muted); font-size: 12px; margin-bottom: 7px; }
+textarea, select {
+  width: 100%; color: var(--text); background: var(--panel2);
+  border: 1px solid #30445d; border-radius: 9px;
+  padding: 12px; font: inherit;
+}
+textarea { min-height: 125px; resize: vertical; }
+select { min-height: 44px; }
+textarea:focus, select:focus { outline: 1px solid var(--cyan); border-color: var(--cyan); }
+.controls {
+  display: grid; grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 15px; margin-top: 15px; align-items: end;
+}
+button {
+  border: 1px solid var(--cyan); background: var(--cyan); color: #071018;
+  border-radius: 9px; padding: 12px 17px; font: inherit;
+  font-weight: 800; cursor: pointer;
+}
+button:disabled { opacity: .5; cursor: wait; }
+.secondary { background: transparent; color: var(--cyan); }
+.status { color: var(--muted); min-height: 24px; margin-top: 12px; }
+.status.error { color: var(--red); }
+.answer { white-space: pre-wrap; overflow-wrap: anywhere; }
+.sources { display: grid; gap: 12px; }
+.source {
+  padding: 16px; border: 1px solid var(--line);
+  border-radius: 11px; background: #0b111b;
+}
+.source h3 { font-size: 15px; margin: 0 0 7px; }
+.meta { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+.summary { white-space: pre-wrap; overflow-wrap: anywhere; color: #d1dbea; }
+.pill {
+  display: inline-block; color: var(--cyan); border: 1px solid #294858;
+  background: #0c2028; border-radius: 99px; padding: 3px 9px;
+  font-size: 10px; letter-spacing: .07em;
+}
+.hidden { display: none; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 25px; }
+@media (max-width: 650px) {
+  main { padding: 18px 14px 40px; }
+  .controls { grid-template-columns: 1fr; }
+  .panel { padding: 16px; }
+}
+.sector-dashboard { margin: 22px 0; }
+.sector-tabs { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0; }
+.sector-tabs button { border:1px solid var(--line); background:var(--panel2); color:var(--text); }
+.sector-tabs button.active { background:var(--cyan); color:#071018; border-color:var(--cyan); }
+.sector-summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; }
+.sector-stat { padding:15px; border:1px solid var(--line); border-radius:11px; background:#0b111b; }
+.sector-stat strong { display:block; font-size:24px; color:var(--cyan); }
+.metric-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px; }
+.metric-card { padding:16px; border:1px solid var(--line); border-radius:11px; background:#0b111b; min-width:0; }
+.metric-card h3 { margin:0 0 8px; font-size:15px; }
+.metric-count { font-size:25px; color:var(--lime); font-weight:800; }
+.metric-status { font-size:10px; letter-spacing:.08em; color:var(--amber); font-weight:800; }
+.metric-evidence { border-top:1px solid var(--line); padding-top:10px; margin-top:10px; }
+.metric-evidence p { color:var(--muted); font-size:12px; }
+.dashboard-note { color:var(--muted); font-size:12px; }
+
+.metric-facts-panel { margin-top:22px; padding-top:18px; border-top:1px solid var(--line); }
+.metric-facts-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:12px; margin-top:14px; }
+.metric-fact-card { min-width:0; border:1px solid var(--line); background:var(--panel2); border-radius:11px; padding:15px; }
+.metric-fact-value { font-size:25px; font-weight:800; color:var(--lime); overflow-wrap:anywhere; margin:8px 0; }
+.metric-fact-status { font-size:10px; font-weight:800; letter-spacing:.06em; color:var(--amber); }
+.metric-fact-context { color:var(--muted); font-size:12px; line-height:1.55; margin-top:10px; overflow-wrap:anywhere; }
+.metric-fact-source { font-size:12px; margin-top:10px; overflow-wrap:anywhere; }
+
+.research-answer-dashboard{margin:24px 0}
+.research-answer-area{margin:22px 0}
+.research-answer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.research-answer-card{border:1px solid var(--line);background:var(--panel2);border-radius:12px;padding:16px;min-width:0}
+.research-answer-card h4{margin:0 0 10px;font-size:15px;line-height:1.4}
+.research-answer-value{font-size:23px;font-weight:750;color:var(--cyan);margin:8px 0}
+.research-answer-note{font-size:13px;line-height:1.55;color:var(--muted)}
+.research-answer-tag{display:inline-block;font-size:11px;letter-spacing:.06em;font-weight:700;border:1px solid var(--line);border-radius:5px;padding:4px 7px;margin-bottom:8px}
+
+.research-answer-collapse{margin-top:12px}
+.research-answer-collapse>summary{cursor:pointer;list-style:none;display:flex;flex-direction:column;gap:8px;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--panel2)}
+.research-answer-collapse>summary::-webkit-details-marker{display:none}
+.research-answer-collapse>summary:after{content:"＋ Click to expand";font-size:12px;color:var(--cyan)}
+.research-answer-collapse[open]>summary:after{content:"− Click to collapse"}
+.research-answer-collapse>summary strong{font-size:19px}
+.research-answer-toggle-hint{font-size:13px;color:var(--muted)}
+.research-answer-collapse[open]>summary{margin-bottom:18px}
+
+.sector-dashboard-collapse>summary{cursor:pointer;list-style:none;display:flex;flex-direction:column;gap:8px;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--panel2)}
+.sector-dashboard-collapse>summary::-webkit-details-marker{display:none}
+.sector-dashboard-collapse>summary:after{content:"＋ Click to expand";font-size:12px;color:var(--cyan)}
+.sector-dashboard-collapse[open]>summary:after{content:"− Click to collapse"}
+.sector-dashboard-collapse>summary strong{font-size:19px}
+.sector-dashboard-hint{font-size:13px;color:var(--muted)}
+.sector-dashboard-collapse[open]>summary{margin-bottom:18px}
+.sector-dashboard-inner{margin-top:10px}
+</style>
+</head>
+<body>
+<main>
+  <header class="topbar">
+    <div class="brand">MACHINADAILY <span style="color:var(--cyan)">/ RESEARCH LAB</span></div>
+    <nav class="nav">
+      <a href="/dashboard">Neural Operations</a>
+      <a href="/dashboard/research">Research Query</a>
+      <a href="/dashboard/story-builder">Story Builder</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">Local intelligence · Evidence first</div>
+    <h1>Research Query</h1>
+    <p class="subtitle">
+      Search the local research index and ask your Ollama model to analyse
+      the retrieved evidence. Results and source links are shown separately
+      so you can check the underlying records.
+    </p>
+  </section>
+
+  <section class="panel sector-dashboard">
+    <details id="sectorDashboardCollapse" class="sector-dashboard-collapse">
+      <summary>
+        <span class="eyebrow">SECTOR INTELLIGENCE / LOCAL RESEARCH INDEX</span>
+        <strong>Technology sector dashboard</strong>
+        <span class="sector-dashboard-hint">Click to show or hide sector tabs, extracted values and evidence</span>
+      </summary>
+      <div id="sectorDashboard" class="sector-dashboard-inner">
+    <div class="eyebrow">SECTOR INTELLIGENCE / LOCAL RESEARCH INDEX</div>
+    <h2 style="margin-top:8px">Technology sector dashboard</h2>
+    <p class="subtitle">Research coverage across four technology sectors. Counts represent indexed records, not verified performance measurements.</p>
+
+    <div id="sectorTabs" class="sector-tabs" role="tablist" aria-label="Technology sectors">
+      <button type="button" data-sector="drones" class="active">Drones</button>
+      <button type="button" data-sector="robotics">Robotics</button>
+      <button type="button" data-sector="autonomous">Autonomous systems</button>
+      <button type="button" data-sector="ai">AI</button>
+    </div>
+
+    <div id="sectorStatus" role="status">Loading indexed evidence...</div>
+    <section id="metricFactsPanel" class="metric-facts-panel">
+      <h3>Extracted technical values</h3>
+      <p id="metricFactsStatus" class="dashboard-note">Loading extracted values...</p>
+      <div id="metricFactsContent" class="metric-facts-grid"></div>
+      <p class="dashboard-note">Values are extracted from source text and are unverified. Read the cited source for test setup, units, model/version and publication context.</p>
+    </section>
+    <div id="sectorContent"></div>
+    <p class="dashboard-note">Coverage counts show records matching sector and metric keywords. They are not verified specifications, test results, or commercial claims. Check the original sources before relying on any figure.</p>
+  </div>
+    </details>
+  </section>
+  <section id="research-answer-dashboard" class="panel research-answer-dashboard">
+    <details class="research-answer-collapse">
+      <summary>
+        <span class="eyebrow">RESEARCH ANSWERS / EVIDENCE STATUS</span>
+        <strong>Research answer cards</strong>
+        <span class="research-answer-toggle-hint">Click to show or hide all 16 cards</span>
+      </summary>
+
+    <section class="research-answer-area">
+      <h3>Drones</h3>
+      <div class="research-answer-grid">
+        <article class="research-answer-card"><span class="research-answer-tag">SPECIFICATION</span><h4>Maximum stated flight endurance</h4><div class="research-answer-value">Up to 120 min</div><p class="research-answer-note">Autel Dragonfish manufacturer claim. Aircraft configuration and test conditions matter.</p><a href="https://shop.autelrobotics.com/pages/dragonfish-specification" target="_blank" rel="noopener noreferrer">Manufacturer specification</a></article>
+        <article class="research-answer-card"><span class="research-answer-tag">SPECIFICATION</span><h4>Maximum stated payload</h4><div class="research-answer-value">1.5 kg</div><p class="research-answer-note">Autel Dragonfish stated maximum payload; do not assume this payload preserves maximum endurance.</p><a href="https://shop.autelrobotics.com/pages/dragonfish-specification" target="_blank" rel="noopener noreferrer">Manufacturer specification</a></article>
+        <article class="research-answer-card"><span class="research-answer-tag">SPECIFICATION</span><h4>Maximum stated speed</h4><div class="research-answer-value">108 km/h</div><p class="research-answer-note">Autel Dragonfish published maximum speed, not a typical operating speed.</p><a href="https://shop.autelrobotics.com/pages/dragonfish-specification" target="_blank" rel="noopener noreferrer">Manufacturer specification</a></article>
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Battery cost per flight hour</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">Requires battery replacement cost, cycle life, usable flight time and energy costs for a specified setup.</p></article>
+      </div>
+    </section>
+
+    <section class="research-answer-area">
+      <h3>Robotics &amp; Humanoids</h3>
+      <div class="research-answer-grid">
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Manipulation success rate</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">No directly comparable verified result selected. Task, object set and test protocol must be specified.</p></article>
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Payload at full reach</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">Requires a named robot and manufacturer-rated payload at the stated arm extension.</p></article>
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Useful runtime per charge</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">Runtime depends on model, workload, speed, payload and battery configuration.</p></article>
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Cost per productive hour</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">Requires purchase price, maintenance, utilisation, downtime and demonstrated task throughput.</p></article>
+      </div>
+    </section>
+
+    <section class="research-answer-area">
+      <h3>Autonomous Systems</h3>
+      <div class="research-answer-grid">
+        <article class="research-answer-card"><span class="research-answer-tag">SAFETY EVIDENCE</span><h4>Driverless miles reported by Waymo</h4><div class="research-answer-value">271.3 million</div><p class="research-answer-note">Waymo-reported cumulative rider-only miles through June 2026. This is not miles between human interventions.</p><a href="https://waymo.com/safety/impact/" target="_blank" rel="noopener noreferrer">Waymo safety information</a></article>
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Onboard AI compute</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">A comparable TOPS figure requires a named vehicle and its disclosed hardware configuration.</p></article>
+        <article class="research-answer-card"><span class="research-answer-tag">CONTEXT REQUIRED</span><h4>Operating speed in poor weather</h4><div class="research-answer-value">Varies</div><p class="research-answer-note">Depends on the system, operational design domain, local rules and weather conditions.</p></article>
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Verified active deployments</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">Needs a dated, consistent register distinguishing active service from announced or planned deployments.</p></article>
+      </div>
+    </section>
+
+    <section class="research-answer-area">
+      <h3>Physical AI &amp; Models</h3>
+      <div class="research-answer-grid">
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Best coding model per API cost</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">No universal winner: results depend on benchmark version, task mix, pricing and evaluation harness.</p></article>
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Vision-language-action performance</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">Requires a comparable benchmark and matched robot, tasks and evaluation conditions.</p></article>
+        <article class="research-answer-card"><span class="research-answer-tag">CONTEXT REQUIRED</span><h4>Inference latency at the edge</h4><div class="research-answer-value">Hardware-specific</div><p class="research-answer-note">Model, quantisation, accelerator, input size and workload determine latency and throughput.</p></article>
+        <article class="research-answer-card"><span class="research-answer-tag">DATA GAP</span><h4>Top open-weight models this week</h4><div class="research-answer-value">N/A</div><p class="research-answer-note">Needs a current, dated download source and a defined ranking metric. Weekly growth is not total downloads.</p></article>
+      </div>
+    </section>
+  </details>
+    </section>
+  <section class="panel">
+    <h2>Ask the research engine</h2>
+    <form id="researchForm">
+      <label for="question">Research question</label>
+      <textarea id="question" maxlength="2000" required
+        placeholder="Example: What techniques are improving robust vision-language-action models?"></textarea>
+      <div class="controls">
+        <div>
+          <label for="model">Local AI model</label>
+          <select id="model">
+            <option value="llama3.2:latest">llama3.2:latest</option>
+          </select>
+        </div>
+        <button id="submitButton" type="submit">Analyse evidence</button>
+      </div>
+      <div id="status" class="status" role="status" aria-live="polite">Checking local AI availability…</div>
+    </form>
+  </section>
+
+  <section id="answerPanel" class="panel hidden">
+    <div class="eyebrow">Local model response</div>
+    <h2 style="margin-top:8px">Research analysis</h2>
+    <div id="answer" class="answer"></div>
+    <div id="answerMeta" class="footer"></div>
+    <div style="margin-top:15px">
+      <button id="copyAnswer" class="secondary" type="button">Copy analysis</button>
+      <button id="sendToStory" type="button">Continue to Story Builder</button>
+    </div>
+  </section>
+
+  <section id="sourcesPanel" class="panel hidden">
+    <h2>Retrieved source records</h2>
+    <p class="subtitle">Check the original records before relying on claims or creating a story.</p>
+    <div id="sources" class="sources"></div>
+  </section>
+
+  <p class="footer">
+    Local research tool. AI responses may contain errors. Verify important claims
+    against the linked source records. This page does not publish articles.
+  </p>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let lastQuestion = "";
+let lastAnswer = "";
+let busy = false;
+
+async function api(url, options = {}) {
+  const response = await fetch(url, {
+    ...options,
+    headers: { "Content-Type": "application/json", ...(options.headers || {}) }
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || `Request failed (${response.status})`);
+  return data;
+}
+
+function setStatus(message, isError = false) {
+  $("status").textContent = message;
+  $("status").classList.toggle("error", isError);
+}
+
+function renderSources(items) {
+  const container = $("sources");
+  container.replaceChildren();
+
+  for (const item of items || []) {
+    const card = document.createElement("article");
+    card.className = "source";
+
+    const heading = document.createElement("h3");
+    heading.textContent = item.title || "Untitled record";
+    card.appendChild(heading);
+
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    meta.textContent = [
+      item.source_name || "Unknown source",
+      item.published || "Publication date unavailable",
+      item.sectors || ""
+    ].filter(Boolean).join(" · ");
+    card.appendChild(meta);
+
+    const summary = document.createElement("p");
+    summary.className = "summary";
+    summary.textContent = (item.summary || "No summary available").slice(0, 1800);
+    card.appendChild(summary);
+
+    if (item.url) {
+      const link = document.createElement("a");
+      link.href = item.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "Open original source";
+      card.appendChild(link);
+    }
+
+    container.appendChild(card);
+  }
+
+  $("sourcesPanel").classList.toggle("hidden", !items || items.length === 0);
+}
+
+async function loadModels() {
+  try {
+    const data = await api("/dashboard/api/research/models");
+    const select = $("model");
+    select.replaceChildren();
+
+    for (const model of data.models || []) {
+      const option = document.createElement("option");
+      option.value = model;
+      option.textContent = model;
+      select.appendChild(option);
+    }
+
+    if (data.default && (data.models || []).includes(data.default)) {
+      select.value = data.default;
+    }
+
+    if (!data.models || data.models.length === 0) {
+      const option = document.createElement("option");
+      option.value = "llama3.2:latest";
+      option.textContent = "llama3.2:latest (fallback)";
+      select.appendChild(option);
+      setStatus(data.error || "No local models were detected. Check Ollama.", true);
+      return;
+    }
+
+    setStatus(`Ollama connected · ${data.models.length} model(s) available`);
+  } catch (error) {
+    setStatus(`${error.message}. Check that Ollama is running locally.`, true);
+  }
+}
+
+$("researchForm").addEventListener("submit", async event => {
+  event.preventDefault();
+  if (busy) return;
+
+  const question = $("question").value.trim();
+  if (!question) {
+    setStatus("Enter a research question first.", true);
+    return;
+  }
+
+  busy = true;
+  $("submitButton").disabled = true;
+  $("submitButton").textContent = "Researching…";
+  $("answerPanel").classList.add("hidden");
+  $("sourcesPanel").classList.add("hidden");
+  setStatus("Searching indexed records and waiting for the local model…");
+
+  try {
+    const data = await api("/dashboard/api/research", {
+      method: "POST",
+      body: JSON.stringify({
+        question,
+        model: $("model").value,
+        limit: 6
+      })
+    });
+
+    lastQuestion = question;
+    lastAnswer = data.answer || "";
+    $("answer").textContent = lastAnswer;
+    $("answerMeta").textContent = `Model: ${data.model || $("model").value} · Retrieved sources: ${(data.sources || []).length}`;
+    $("answerPanel").classList.remove("hidden");
+    renderSources(data.sources || []);
+    setStatus("Analysis complete. Review the cited claims and original sources.");
+  } catch (error) {
+    setStatus(error.message, true);
+  } finally {
+    busy = false;
+    $("submitButton").disabled = false;
+    $("submitButton").textContent = "Analyse evidence";
+  }
+});
+
+$("copyAnswer").addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(lastAnswer);
+    setStatus("Analysis copied to clipboard.");
+  } catch {
+    setStatus("Clipboard access was blocked by the browser.", true);
+  }
+});
+
+$("sendToStory").addEventListener("click", () => {
+  const url = "/dashboard/story-builder?topic=" + encodeURIComponent(lastQuestion);
+  window.location.href = url;
+});
+
+
+const sectorContent = document.getElementById("sectorContent");
+const sectorStatus = document.getElementById("sectorStatus");
+let sectorData = null;
+let activeSector = "drones";
+
+function renderSector(key) {
+  if (!sectorData || !sectorData.sectors || !sectorData.sectors[key]) return;
+  activeSector = key;
+  document.querySelectorAll("#sectorTabs button").forEach(button => {
+    const active = button.dataset.sector === key;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-selected", String(active));
+  });
+
+  const sector = sectorData.sectors[key];
+  sectorContent.replaceChildren();
+  const summary = document.createElement("div");
+  summary.className = "sector-summary";
+  const stat = document.createElement("div");
+  stat.className = "sector-stat";
+  stat.innerHTML = "<span class='dashboard-note'>Matching sector records</span>";
+  const count = document.createElement("strong");
+  count.textContent = Number(sector.sector_record_matches || 0).toLocaleString();
+  stat.appendChild(count);
+  summary.appendChild(stat);
+  const stat2 = document.createElement("div");
+  stat2.className = "sector-stat";
+  stat2.innerHTML = "<span class='dashboard-note'>Metric categories</span>";
+  const count2 = document.createElement("strong");
+  count2.textContent = String((sector.metrics || []).length);
+  stat2.appendChild(count2);
+  summary.appendChild(stat2);
+  sectorContent.appendChild(summary);
+
+  const grid = document.createElement("div");
+  grid.className = "metric-grid";
+  for (const metric of sector.metrics || []) {
+    const card = document.createElement("article");
+    card.className = "metric-card";
+    const heading = document.createElement("h3");
+    heading.textContent = metric.name;
+    card.appendChild(heading);
+    const number = document.createElement("div");
+    number.className = "metric-count";
+    number.textContent = Number(metric.record_matches || 0).toLocaleString();
+    card.appendChild(number);
+    const status = document.createElement("div");
+    status.className = "metric-status";
+    status.textContent = metric.status || "COVERAGE UNKNOWN";
+    card.appendChild(status);
+
+    for (const evidence of (metric.evidence || [])) {
+      const wrap = document.createElement("div");
+      wrap.className = "metric-evidence";
+      const title = document.createElement("strong");
+      title.textContent = evidence.title || "Untitled source record";
+      wrap.appendChild(title);
+      const meta = document.createElement("p");
+      meta.textContent = [evidence.source_name, evidence.published].filter(Boolean).join(" · ") || "Source metadata unavailable";
+      wrap.appendChild(meta);
+      if (evidence.url) {
+        const link = document.createElement("a");
+        link.href = evidence.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "Open source";
+        wrap.appendChild(link);
+      }
+      card.appendChild(wrap);
+    }
+    if (!metric.evidence || metric.evidence.length === 0) {
+      const note = document.createElement("p");
+      note.className = "dashboard-note";
+      note.textContent = "No matching records found in the current index. This does not prove the metric is unavailable in the real world.";
+      card.appendChild(note);
+    }
+    const researchButton = document.createElement("button");
+    researchButton.type = "button";
+    researchButton.className = "secondary";
+    researchButton.style.marginTop = "12px";
+    researchButton.textContent = "Investigate this metric";
+    researchButton.addEventListener("click", () => {
+      const question = `${sector.label}: find sourced evidence for ${metric.name}. Extract numeric values only when the original source states them, including units, test conditions, model or product, and publication date. Clearly mark missing or unverified data.`;
+      document.getElementById("question").value = question;
+      document.getElementById("question").focus();
+      document.getElementById("question").scrollIntoView({behavior:"smooth", block:"center"});
+    });
+    card.appendChild(researchButton);
+    grid.appendChild(card);
+  }
+  sectorContent.appendChild(grid);
+}
+
+document.querySelectorAll("#sectorTabs button").forEach(button => {
+  button.addEventListener("click", () => {
+    const sectorKey = button.dataset.sector;
+    loadMetricFacts(sectorKey);
+    renderSector(sectorKey);
+  });
+});
+
+
+async function loadMetricFacts(sectorKey) {
+  const status = document.getElementById("metricFactsStatus");
+  const content = document.getElementById("metricFactsContent");
+  if (!status || !content) return;
+
+  status.textContent = "Loading extracted values...";
+  content.replaceChildren();
+
+  try {
+    const response = await fetch(
+      "/dashboard/api/research/metric-facts?sector=" + encodeURIComponent(sectorKey)
+    );
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || `Request failed (${response.status})`);
+
+    status.textContent = data.count
+      ? `${data.count} extracted source-linked value(s) · review before use`
+      : "No structured values extracted for this sector yet. That does not mean no measurements exist in the literature.";
+
+    for (const fact of (data.facts || [])) {
+      const card = document.createElement("article");
+      card.className = "metric-fact-card";
+
+      const metric = document.createElement("strong");
+      metric.textContent = fact.metric_name || "Technical metric";
+      card.appendChild(metric);
+
+      const value = document.createElement("div");
+      value.className = "metric-fact-value";
+      value.textContent = [fact.value, fact.unit].filter(Boolean).join(" ");
+      card.appendChild(value);
+
+      const badge = document.createElement("div");
+      badge.className = "metric-fact-status";
+      badge.textContent = "SOURCE-REPORTED · UNVERIFIED";
+      card.appendChild(badge);
+
+      const title = document.createElement("p");
+      title.className = "metric-fact-context";
+      title.textContent = fact.title || "Untitled source";
+      card.appendChild(title);
+
+      const evidence = document.createElement("p");
+      evidence.className = "metric-fact-context";
+      evidence.textContent = fact.evidence_sentence || "No supporting sentence stored.";
+      card.appendChild(evidence);
+
+      const metadata = document.createElement("p");
+      metadata.className = "dashboard-note";
+      metadata.textContent = [fact.source_name, fact.published].filter(Boolean).join(" · ");
+      card.appendChild(metadata);
+
+      if (fact.source_url) {
+        const link = document.createElement("a");
+        link.href = fact.source_url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "Open original source";
+        card.appendChild(link);
+      }
+      content.appendChild(card);
+    }
+  } catch (error) {
+    status.textContent = "Could not load extracted values: " + error.message;
+  }
+}
+async function loadSectorDashboard() {
+  try {
+    const response = await fetch("/dashboard/api/research/sector-intelligence");
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || `Dashboard request failed (${response.status})`);
+    sectorData = data;
+    renderSector(activeSector);
+    sectorStatus.textContent = `Index loaded · ${Number(data.record_count || 0).toLocaleString()} records scanned`;
+  } catch (error) {
+    sectorStatus.textContent = `Dashboard could not load: ${error.message}`;
+    sectorStatus.classList.add("error");
+  }
+}
+// Load metrics independently so they render even if another dashboard
+// component encounters an error.
+loadMetricFacts(activeSector);
+loadSectorDashboard();
+loadModels();
+</script>
+</body>
+</html>
+
+
+

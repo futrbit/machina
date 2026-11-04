@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b12">
+<title>Story Studio | MachinaDaily</title>
+<style>
+:root{color-scheme:dark;--bg:#080b12;--panel:#101722;--line:#26364b;--text:#eef5ff;--muted:#91a1b6;--cyan:#65e1ff;--green:#70e0b0;--amber:#ffc66d;--red:#ff7185}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 80% 0%,#10344966,transparent 38%),var(--bg);color:var(--text);font:14px/1.65 "Segoe UI",Arial,sans-serif}
+main{max-width:1450px;margin:auto;padding:22px 24px 60px}
+a{color:var(--cyan);overflow-wrap:anywhere}
+.topbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;padding:0 0 18px;border-bottom:1px solid var(--line)}
+.brand{font-size:12px;font-weight:900;letter-spacing:.15em}
+nav{display:flex;gap:16px;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--cyan)}
+.hero{padding:34px 0 24px}
+.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.18em;font-weight:850;color:var(--cyan)}
+h1{font-size:clamp(34px,5vw,56px);line-height:1.08;letter-spacing:-.045em;margin:9px 0}
+h2{font-size:19px;margin:0 0 14px}
+h3{font-size:15px;margin:0 0 8px}
+p{margin:8px 0}
+.muted,.subtitle{color:var(--muted)}
+.subtitle{max-width:760px}
+.statusbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border:1px solid var(--line);border-radius:10px;padding:11px 14px;margin:12px 0 22px;background:#0d1420}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--amber);flex:none}
+.dot.online{background:var(--green);box-shadow:0 0 10px #70e0b055}
+.status{color:var(--muted);overflow-wrap:anywhere}
+.status.error{color:var(--red)}
+.layout{display:grid;grid-template-columns:minmax(290px,.82fr) minmax(0,1.45fr);gap:18px;align-items:start}
+.stack{display:grid;gap:18px;min-width:0}
+.panel{background:linear-gradient(145deg,#121c2a,#0c121d);border:1px solid var(--line);border-radius:15px;padding:21px;min-width:0}
+.panel-head{display:flex;align-items:center;gap:11px;margin-bottom:16px}
+.number{display:grid;place-items:center;width:31px;height:31px;border:1px solid #32617a;border-radius:9px;color:var(--cyan);font-weight:900;flex:none}
+label{display:block;color:var(--muted);font-size:12px;margin:13px 0 6px}
+input,textarea,select{width:100%;color:var(--text);background:#0a111b;border:1px solid #30445d;border-radius:9px;padding:12px;font:inherit}
+textarea{resize:vertical;min-height:105px}
+input:focus,textarea:focus,select:focus{outline:1px solid var(--cyan);border-color:var(--cyan)}
+#draft{min-height:470px;line-height:1.8}
+#topic{min-height:150px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+button{border:1px solid var(--cyan);background:var(--cyan);color:#071018;border-radius:9px;padding:12px 16px;font:inherit;font-weight:850;cursor:pointer}
+button:hover:not(:disabled){filter:brightness(1.08);transform:translateY(-1px)}
+button:disabled{opacity:.45;cursor:not-allowed}
+.secondary{background:transparent;color:var(--cyan)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px}
+.generate{width:100%;margin-top:17px;min-height:46px}
+.publish{width:100%;margin-top:18px;min-height:48px}
+.notice{padding:12px 14px;border:1px solid #72532c;background:#251d11;color:var(--amber);border-radius:10px;margin-top:14px}
+.success{border-color:#287e72;background:#10241f;color:#d7fff4}
+.source{border:1px solid var(--line);border-radius:10px;padding:13px;margin-top:10px;background:#0b111b}
+.source h3{overflow-wrap:anywhere}
+.meta{font-size:11px;color:var(--muted);margin-bottom:7px}
+.summary{white-space:pre-wrap;overflow-wrap:anywhere}
+.badge{display:inline-block;padding:3px 9px;border:1px solid #72532c;color:var(--amber);border-radius:30px;font-size:10px;letter-spacing:.08em}
+.sector-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}
+.sector-links a{padding:7px 10px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:12px}
+.sector-links a:hover{border-color:var(--cyan)}
+.footer{font-size:12px;color:var(--muted);margin-top:18px}
+.rule{border:0;border-top:1px solid var(--line);margin:20px 0}
+.result-link{display:inline-block;margin-top:7px;font-weight:800}
+@media(max-width:850px){.layout{grid-template-columns:1fr}#draft{min-height:350px}}
+@media(max-width:560px){main{padding:16px 12px 40px}.panel{padding:15px}.grid2{grid-template-columns:1fr}nav{gap:10px}}
+</style>
+</head>
+<body>
+<main>
+<header class="topbar">
+  <div class="brand">MACHINADAILY <span style="color:var(--cyan)">/ STORY STUDIO</span></div>
+  <nav>
+    <a href="/dashboard">Operations</a>
+    <a href="/dashboard/research">Research</a>
+    <a href="/ai">AI</a>
+    <a href="/drones">Drones</a>
+    <a href="/robotics">Robotics</a>
+    <a href="/autonomy">Autonomy</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">Research intelligence / editorial publishing</div>
+  <h1>Story Studio</h1>
+  <p class="subtitle">Turn research into a reviewed, source-linked MachinaDaily article. Generate a draft, edit the story and its metadata, then publish only when you're satisfied.</p>
+  <div class="sector-links">
+    <a href="/ai">AI newsroom ↗</a>
+    <a href="/drones">Drone desk ↗</a>
+    <a href="/robotics">Robotics desk ↗</a>
+    <a href="/autonomy">Autonomy desk ↗</a>
+  </div>
+</section>
+
+<div class="statusbar">
+  <span id="modelDot" class="dot"></span>
+  <strong>LOCAL AI</strong>
+  <span id="status" class="status" role="status" aria-live="polite">Connecting to Ollama…</span>
+</div>
+
+<div class="layout">
+  <div class="stack">
+    <section class="panel">
+      <div class="panel-head"><span class="number">01</span><div><h2>Research brief</h2><div class="muted">Choose what the newsroom should investigate.</div></div></div>
+      <label for="topic">Research topic or editorial question</label>
+      <textarea id="topic" maxlength="2000" placeholder="Example: What do recent studies reveal about drone battery endurance?" required></textarea>
+
+      <label for="model">Local Ollama model</label>
+      <select id="model"><option value="llama3.2:latest">Loading available models…</option></select>
+
+      <label for="sector">Publication sector</label>
+      <select id="sector">
+        <option value="ai">Artificial intelligence</option>
+        <option value="drones">Drones</option>
+        <option value="robotics">Robotics</option>
+        <option value="autonomy">Autonomy</option>
+      </select>
+
+      <button id="generateButton" class="generate" type="button">Generate research draft</button>
+      <p class="footer">Draft generation does not publish an article. The local model may take a few minutes.</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><span class="number">02</span><div><h2>Publication details</h2><div class="muted">Visible and editable before and after generation.</div></div></div>
+      <label for="headline">Article headline</label>
+      <input id="headline" maxlength="240" placeholder="Suggested from your topic; edit before publishing">
+
+      <label for="standfirst">Standfirst / short introduction</label>
+      <textarea id="standfirst" maxlength="500" placeholder="A concise introduction shown beneath the headline."></textarea>
+
+      <label for="description">SEO description</label>
+      <textarea id="description" maxlength="300" style="min-height:76px" placeholder="A concise search-result description. If blank, the standfirst is used."></textarea>
+
+      <label for="featuredSlot">Optional Featured slot</label>
+      <select id="featuredSlot">
+        <option value="">No Featured slot — add to latest arrivals only</option>
+        <option value="1">Featured slot 1</option><option value="2">Featured slot 2</option>
+        <option value="3">Featured slot 3</option><option value="4">Featured slot 4</option>
+        <option value="5">Featured slot 5</option><option value="6">Featured slot 6</option>
+        <option value="7">Featured slot 7</option><option value="8">Featured slot 8</option>
+        <option value="9">Featured slot 9</option><option value="10">Featured slot 10</option>
+      </select>
+      <p class="footer">Replacing a Featured slot changes its assignment only. The older article remains in the archive.</p>
+    </section>
+  </div>
+
+  <div class="stack">
+    <section class="panel">
+      <div class="panel-head"><span class="number">03</span><div><h2>Editorial workspace</h2><div class="muted">Your draft stays editable. Check claims against the source records.</div></div></div>
+      <p><span class="badge">UNPUBLISHED / REVIEW REQUIRED</span></p>
+      <label for="draft">Article body</label>
+      <textarea id="draft" spellcheck="true" placeholder="Your generated article will appear here. You can also paste or edit a draft manually."></textarea>
+      <div class="actions">
+        <button id="copyButton" class="secondary" type="button">Copy article text</button>
+        <button id="downloadButton" class="secondary" type="button">Download .txt</button>
+      </div>
+      <hr class="rule">
+      <button id="publishButton" class="publish" type="button" disabled>Publish reviewed article</button>
+      <div id="publishStatus" class="status" role="status" aria-live="polite"></div>
+      <div id="publishResult" class="notice success" hidden></div>
+      <p class="footer">Publishing writes the permanent HTML article and updates the sector archive and sitemap. It requires your explicit confirmation.</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><span class="number">04</span><div><h2>Evidence desk</h2><div class="muted">Original research records returned by the backend.</div></div></div>
+      <div id="sources"><p class="muted">Sources will appear here after a draft is generated.</p></div>
+    </section>
+  </div>
+</div>
+
+<p class="footer">MachinaDaily Story Studio · Local model generation · Human review · No automatic publication.</p>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let busy = false;
+let publishing = false;
+let latestSources = [];
+let latestTopic = "";
+
+async function api(url, options = {}) {
+  const response = await fetch(url, {
+    ...options,
+    headers: { ...(options.body ? {"Content-Type":"application/json"} : {}), ...(options.headers || {}) }
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || `Request failed (${response.status})`);
+  return data;
+}
+
+function setStatus(message, isError = false) {
+  $("status").textContent = message;
+  $("status").classList.toggle("error", isError);
+}
+
+function suggestedHeadline(topic) {
+  let text = topic.trim().replace(/\s+/g, " ").replace(/[?.!]+$/, "");
+  if (!text) return "";
+  if (text.length > 115) text = text.slice(0, 112).replace(/\s+\S*$/, "") + "…";
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function updatePublishButton() {
+  const ready = Boolean($("headline").value.trim() && $("draft").value.trim());
+  $("publishButton").disabled = !ready || publishing;
+}
+
+function renderSources(items) {
+  const container = $("sources");
+  container.replaceChildren();
+
+  if (!Array.isArray(items) || items.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "muted";
+    empty.textContent = "No source records were returned. Verify claims independently before publishing.";
+    container.appendChild(empty);
+    return;
+  }
+
+  for (const item of items) {
+    const card = document.createElement("article");
+    card.className = "source";
+    const title = document.createElement("h3");
+    title.textContent = item.title || "Untitled research record";
+    card.appendChild(title);
+
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    meta.textContent = [
+      item.source_name || "Research source",
+      item.published || "Date unavailable",
+      item.sectors || ""
+    ].filter(Boolean).join(" · ");
+    card.appendChild(meta);
+
+    const summary = document.createElement("p");
+    summary.className = "summary";
+    summary.textContent = (item.summary || "No summary available").slice(0, 1800);
+    card.appendChild(summary);
+
+    if (typeof item.url === "string" && /^https?:\/\//i.test(item.url)) {
+      const link = document.createElement("a");
+      link.href = item.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "Open original source ↗";
+      card.appendChild(link);
+    }
+    container.appendChild(card);
+  }
+}
+
+async function loadModels() {
+  try {
+    const data = await api("/dashboard/api/research/models");
+    const select = $("model");
+    select.replaceChildren();
+
+    for (const name of data.models || []) {
+      const option = document.createElement("option");
+      option.value = name;
+      option.textContent = name;
+      select.appendChild(option);
+    }
+
+    if (!select.options.length) {
+      const option = document.createElement("option");
+      option.value = "llama3.2:latest";
+      option.textContent = "llama3.2:latest (fallback)";
+      select.appendChild(option);
+      $("modelDot").classList.remove("online");
+      setStatus(data.error || "No models returned by Ollama. Check the local service.", true);
+      return;
+    }
+
+    if (data.default && (data.models || []).includes(data.default)) select.value = data.default;
+    $("modelDot").classList.add("online");
+    setStatus(`Ollama connected · ${data.models.length} model(s) available`);
+  } catch (error) {
+    $("modelDot").classList.remove("online");
+    setStatus(`${error.message}. Check that Ollama is running locally.`, true);
+  }
+}
+
+async function generateDraft() {
+  if (busy) return;
+  const topic = $("topic").value.trim();
+  if (!topic) {
+    setStatus("Enter a research topic first.", true);
+    $("topic").focus();
+    return;
+  }
+  if (!$("model").value) {
+    setStatus("Select an available local model first.", true);
+    return;
+  }
+
+  busy = true;
+  latestTopic = topic;
+  latestSources = [];
+  $("generateButton").disabled = true;
+  $("generateButton").textContent = "Researching and drafting…";
+  $("publishStatus").textContent = "";
+  $("publishResult").hidden = true;
+  $("draft").value = "";
+  $("sources").replaceChildren();
+  updatePublishButton();
+  setStatus("Retrieving evidence and asking the local model to draft. This may take a few minutes…");
+
+  try {
+    const data = await api("/dashboard/api/story-draft", {
+      method: "POST",
+      body: JSON.stringify({question:topic, model:$("model").value, limit:6})
+    });
+
+    if (data.published === true || data.status !== "draft_for_review") {
+      throw new Error("Unexpected response. The draft was not accepted into the review workspace.");
+    }
+
+    $("draft").value = data.draft || "";
+    latestSources = Array.isArray(data.sources) ? data.sources : [];
+
+    // Offer an editable headline from the topic only when the field is empty.
+    if (!$("headline").value.trim()) $("headline").value = suggestedHeadline(topic);
+
+    // Suggest a short intro from the generated copy if the user has not written one.
+    if (!$("standfirst").value.trim() && data.draft) {
+      const firstParagraph = data.draft.trim().split(/\n\s*\n/)[0] || "";
+      $("standfirst").value = firstParagraph.slice(0, 450);
+    }
+    if (!$("description").value.trim()) {
+      $("description").value = $("standfirst").value.slice(0, 290);
+    }
+
+    renderSources(latestSources);
+    updatePublishButton();
+    setStatus(`Draft ready for review · ${latestSources.length} source record(s) returned. Nothing has been published.`);
+    $("draft").focus();
+  } catch (error) {
+    setStatus(`Draft generation failed: ${error.message}`, true);
+  } finally {
+    busy = false;
+    $("generateButton").disabled = false;
+    $("generateButton").textContent = "Generate research draft";
+  }
+}
+
+$("generateButton").addEventListener("click", generateDraft);
+$("headline").addEventListener("input", updatePublishButton);
+$("draft").addEventListener("input", updatePublishButton);
+$("topic").addEventListener("input", () => {
+  if (!$("headline").value.trim()) $("headline").placeholder = "Suggested headline: " + suggestedHeadline($("topic").value);
+});
+
+$("publishButton").addEventListener("click", async () => {
+  if (publishing) return;
+  const title = $("headline").value.trim();
+  const draft = $("draft").value.trim();
+  if (!title || !draft) {
+    $("publishStatus").textContent = "Add a headline and article body before publishing.";
+    return;
+  }
+
+  const sector = $("sector").value;
+  const confirmed = window.confirm(
+    "Publish this article permanently to MachinaDaily?\n\nSector: " + sector +
+    "\nHeadline: " + title + "\n\nOnly continue after checking the article and sources."
+  );
+  if (!confirmed) return;
+
+  publishing = true;
+  $("publishButton").disabled = true;
+  $("publishButton").textContent = "Publishing…";
+  $("publishStatus").textContent = "Saving article HTML, metadata and source links…";
+  $("publishResult").hidden = true;
+
+  try {
+    const result = await api("/dashboard/api/published-stories/publish", {
+      method: "POST",
+      body: JSON.stringify({
+        title,
+        sector,
+        standfirst: $("standfirst").value.trim(),
+        description: $("description").value.trim() || $("standfirst").value.trim(),
+        draft,
+        sources: latestSources,
+        featured_slot: $("featuredSlot").value || null
+      })
+    });
+
+    if (result.status !== "published" || !result.article) {
+      throw new Error("The server did not confirm publication.");
+    }
+
+    const articleUrl = result.article.url;
+    if (typeof articleUrl !== "string" ||
+        !/^\/(ai|drones|robotics|autonomy)\/[a-z0-9]+(?:-[a-z0-9]+)*$/.test(articleUrl)) {
+      throw new Error("The server response did not contain a valid article URL. Check the server before retrying.");
+    }
+
+    const box = $("publishResult");
+    box.replaceChildren();
+    const heading = document.createElement("strong");
+    heading.textContent = "Article published successfully";
+    box.appendChild(heading);
+
+    const paragraph = document.createElement("p");
+    paragraph.textContent = result.article.title || title;
+    box.appendChild(paragraph);
+
+    const link = document.createElement("a");
+    link.href = articleUrl;
+    link.className = "result-link";
+    link.textContent = "Open published article ↗";
+    box.appendChild(link);
+
+    const sectorLink = document.createElement("p");
+    const feed = document.createElement("a");
+    feed.href = "/" + sector;
+    feed.textContent = "Open " + sector + " sector page ↗";
+    sectorLink.appendChild(feed);
+    box.appendChild(sectorLink);
+
+    box.hidden = false;
+    $("publishStatus").textContent = "Permanent article saved. The sector feed and sitemap should now include it.";
+  } catch (error) {
+    $("publishStatus").textContent = "Publication failed: " + error.message;
+  } finally {
+    publishing = false;
+    $("publishButton").textContent = "Publish reviewed article";
+    updatePublishButton();
+  }
+});
+
+$("copyButton").addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText($("draft").value);
+    setStatus("Article text copied.");
+  } catch {
+    setStatus("Clipboard access was blocked. Select the article text and copy it manually.", true);
+  }
+});
+
+$("downloadButton").addEventListener("click", () => {
+  const content = [
+    "UNPUBLISHED DRAFT — REVIEW REQUIRED",
+    "Topic: " + latestTopic,
+    "Headline: " + $("headline").value.trim(),
+    "Sector: " + $("sector").value,
+    "",
+    $("draft").value
+  ].join("\n");
+  const blob = new Blob([content], {type:"text/plain;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "machinadaily-draft.txt";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+});
+
+const params = new URLSearchParams(window.location.search);
+const initialTopic = params.get("topic");
+if (initialTopic) {
+  $("topic").value = initialTopic.slice(0, 2000);
+  $("headline").value = suggestedHeadline(initialTopic);
+}
+
+loadModels();
+updatePublishButton();
+</script>
+</body>
+</html>

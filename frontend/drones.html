@@ -1,0 +1,504 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Reporting and explainers on drone platforms, flight systems, navigation, sensors, applications and the companies building them.">
+<title>Drones | Machina Daily</title>
+<style>
+:root{--ink:#17242c;--muted:#5f6e77;--line:#e2e8eb;--cyan:#00a9c7;--pale:#effbfc;--soft:#f7f9fa}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1120px,calc(100% - 40px));margin:0 auto}
+.top{border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.top .wrap{padding:10px 0;display:flex;justify-content:space-between;gap:12px}
+header{border-bottom:1px solid var(--line)}
+.head{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:20px 0}
+.brand{font-size:22px;letter-spacing:-.06em;font-weight:900;white-space:nowrap}
+.brand span{color:var(--cyan)}
+.brand small{display:block;font-size:9px;letter-spacing:.2em;color:var(--muted);font-weight:700}
+nav{display:flex;flex-wrap:wrap;gap:18px;font-size:13px;font-weight:700}
+nav a:hover,nav a.active{color:#008ba4}
+.hero{background:linear-gradient(115deg,#fff 35%,var(--pale));border-bottom:1px solid var(--line);padding:66px 0 54px}
+.kicker{color:#008ba4;font-size:11px;letter-spacing:.16em;font-weight:800;text-transform:uppercase}
+h1{font-size:clamp(42px,7vw,74px);line-height:1.02;letter-spacing:-.065em;max-width:800px;margin:18px 0}
+.intro{font-size:18px;color:#50616a;max-width:720px;margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}
+.tag{border:1px solid #cce8ed;background:#fff;padding:6px 10px;border-radius:30px;font-size:12px;font-weight:700}
+main{padding:42px 0 68px}
+.section-head{margin-bottom:18px}
+h2{font-size:25px;letter-spacing:-.04em;margin:0}
+.sub{color:var(--muted);font-size:14px;margin:5px 0 0}
+.topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.topic{padding:15px 16px;border:1px solid var(--line);border-radius:10px;font-weight:700;font-size:14px;background:#fff}
+.topic:before{content:"";display:inline-block;width:7px;height:7px;border-radius:2px;background:var(--cyan);margin:0 10px 1px 0}
+.panels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.panel{border:1px solid var(--line);border-radius:13px;padding:21px;background:#fff;min-height:165px}
+.panel .index{font-size:10px;color:#008ba4;font-weight:800;letter-spacing:.13em}
+.panel h3{font-size:18px;letter-spacing:-.025em;margin:13px 0 7px}
+.panel p{font-size:14px;color:var(--muted);margin:0}
+.note{margin-top:40px;padding:20px 22px;background:var(--soft);border-left:3px solid var(--cyan);border-radius:0 10px 10px 0}
+.note h2{font-size:19px}.note p{font-size:14px;color:var(--muted);margin:7px 0 0}
+footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:12px}
+.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.head{align-items:flex-start;flex-direction:column}.hero{padding:45px 0 38px}.topics{grid-template-columns:repeat(2,minmax(0,1fr))}.panels{grid-template-columns:1fr}.wrap{width:calc(100% - 28px)}nav{gap:12px}.top .wrap{flex-wrap:wrap}}
+/* MACHINA DAILY — SOURCE-LINKED METRIC FACTS */
+.md-metrics{margin:0 0 42px;padding:25px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(135deg,#fff,#f2fbfc)}
+.md-metrics *{box-sizing:border-box}
+.md-metrics-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.md-metrics-kicker{font-size:10px;letter-spacing:.15em;font-weight:800;color:#008ba4;text-transform:uppercase}
+.md-metrics h2{margin:7px 0}
+.md-metrics-intro{max-width:720px;color:var(--muted);font-size:14px;margin:7px 0 0}
+.md-metrics-status{font-size:12px;color:var(--muted);margin:17px 0}
+.md-metrics-count{display:inline-block;padding:5px 9px;border:1px solid #cce8ed;border-radius:20px;background:#fff;font-size:11px;font-weight:700}
+.md-metrics-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+.md-metric-card{min-width:0;padding:17px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.md-metric-name{font-size:13px;font-weight:800;margin:0 0 10px;overflow-wrap:anywhere}
+.md-metric-value{font-size:clamp(24px,3vw,34px);font-weight:900;letter-spacing:-.05em;color:#008ba4;overflow-wrap:anywhere}
+.md-metric-unit{font-size:12px;font-weight:700;letter-spacing:0;color:var(--muted)}
+.md-metric-evidence{font-size:13px;color:#42545d;margin:12px 0;overflow-wrap:anywhere}
+.md-metric-source{font-size:12px;color:var(--muted);margin:0;overflow-wrap:anywhere}
+.md-metric-source a{color:#007f97;text-decoration:underline;text-underline-offset:3px}
+.md-metric-meta{font-size:11px;color:var(--muted);margin-top:8px}
+.md-metric-badge{display:inline-block;margin-top:10px;padding:4px 7px;border-radius:5px;background:#fff4d9;color:#77530b;font-size:10px;font-weight:800}
+.md-metrics-note{font-size:12px;color:var(--muted);margin:17px 0 0;padding-top:13px;border-top:1px solid var(--line)}
+.md-metrics-empty{padding:18px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);font-size:13px}
+@media(max-width:760px){.md-metrics{padding:18px}.md-metrics-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.md-metrics-grid{grid-template-columns:1fr}}
+
+/* Compact single-row source-linked metrics */
+#md-metrics-widget.md-metrics {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1400px;
+    margin: 8px auto 18px !important;
+    padding: 0 16px !important;
+}
+
+#md-metrics-widget .md-metrics-grid {
+    display: grid !important;
+    grid-auto-flow: column !important;
+    grid-auto-columns: minmax(220px, 1fr) !important;
+    grid-template-columns: none !important;
+    gap: 10px !important;
+    overflow-x: auto !important;
+    overscroll-behavior-x: contain;
+    padding: 2px 2px 10px !important;
+    align-items: stretch;
+}
+
+#md-metrics-widget .md-metric-card {
+    box-sizing: border-box;
+    min-width: 0;
+    padding: 12px !important;
+    border-radius: 10px;
+}
+
+#md-metrics-widget .md-metric-name {
+    font-size: 11px !important;
+    line-height: 1.35 !important;
+    margin-bottom: 5px !important;
+}
+
+#md-metrics-widget .md-metric-value {
+    font-size: 21px !important;
+    line-height: 1.2 !important;
+    margin: 4px 0 !important;
+    overflow-wrap: anywhere;
+}
+
+#md-metrics-widget .md-metric-unit {
+    font-size: 11px !important;
+}
+
+#md-metrics-widget .md-metric-evidence {
+    font-size: 11px !important;
+    line-height: 1.4 !important;
+    margin-top: 6px !important;
+}
+
+#md-metrics-widget .md-metric-source {
+    font-size: 11px !important;
+    margin-top: 7px !important;
+    overflow-wrap: anywhere;
+}
+
+#md-metrics-widget a {
+    overflow-wrap: anywhere;
+}
+
+@media (min-width: 960px) {
+    #md-metrics-widget .md-metrics-grid {
+        grid-auto-columns: minmax(0, 1fr) !important;
+    }
+}
+
+/* Published research desk */
+.published-desk{margin-top:42px;padding-top:8px}
+.published-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.published-card{min-width:0;padding:20px;border:1px solid #dce2e7;border-radius:14px;background:#fff}
+.published-card .published-index{font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:#65727e;margin-bottom:10px}
+.published-card h3{font-size:1.12rem;line-height:1.35;margin:0 0 10px}
+.published-card p{line-height:1.6;color:#52606b;margin:8px 0}
+.published-card a,.published-archive-link{color:#087eaa;font-weight:650;overflow-wrap:anywhere}
+.published-meta{font-size:.82rem;color:#687782}
+.published-empty,.published-feed-status{padding:16px;border:1px dashed #cbd4db;border-radius:12px;color:#596875;line-height:1.55}
+.published-archive-row{margin-top:20px}
+@media(max-width:680px){.published-grid{grid-template-columns:minmax(0,1fr)}}
+
+</style>
+</head>
+<body>
+
+
+<div class="top"><div class="wrap"><span>Machina Daily / Specialist desks</span><span>Reporting Â· Context Â· Evidence</span></div></div>
+<header><div class="wrap head">
+<a class="brand" href="/">MACHINA<span>DAILY</span><small>THE MACHINE WORLD</small></a>
+<nav aria-label="Specialist sections"><a class="active" href="/drones">Drones</a>
+<a class="" href="/autonomy">Autonomy</a>
+<a class="" href="/technology">Technology</a>
+<a class="" href="/ai">AI</a>
+<a class="" href="/robotics">Robotics</a><a href="/dashboard/story-builder">Story Builder</a></nav>
+</div></header>
+<section id="md-metrics-widget" class="md-metrics" data-sector="drones" aria-labelledby="md-metrics-title">
+  <div class="md-metrics-head">
+    <div>
+      <div class="md-metrics-kicker">Machina Daily / Research data</div>
+      <h2 id="md-metrics-title">Source-linked metric facts</h2>
+      <p class="md-metrics-intro">Extracted numerical claims from indexed research. Each result links back to its source where a valid source URL is available.</p>
+    </div>
+    <span id="md-metrics-count" class="md-metrics-count">Loading metrics</span>
+  </div>
+  <p id="md-metrics-status" class="md-metrics-status" role="status" aria-live="polite">Connecting to the research index…</p>
+  <div id="md-metrics-grid" class="md-metrics-grid"></div>
+  <p class="md-metrics-note">Evidence status: source-reported and unverified. Extracted figures may lack context or comparable measurement conditions. Check the original source before relying on any claim.</p>
+</section>
+
+<section class="hero"><div class="wrap">
+<div class="kicker">SPECIALIST DESK / 01</div>
+<h1>Drones, without the noise.</h1>
+<p class="intro">Reporting and explainers on drone platforms, flight systems, navigation, sensors, applications and the companies building them.</p>
+<div class="tags"><span class="tag">Specialist coverage</span><span class="tag">Evidence-led</span><span class="tag">Editorially reviewed</span></div>
+</div></section>
+<main class="wrap">
+<section aria-labelledby="topics-title">
+<div class="section-head"><h2 id="topics-title">Topics we cover</h2><p class="sub">The main themes for this specialist desk.</p></div>
+<div class="topics"><div class="topic">Commercial drones</div>
+<div class="topic">Industrial applications</div>
+<div class="topic">Flight systems</div>
+<div class="topic">Navigation & sensors</div>
+<div class="topic">Drone shows</div>
+<div class="topic">Safety & regulation</div></div>
+</section>
+
+
+<section class="published-desk" data-published-sector="drones" aria-labelledby="featured-title-drones">
+  <div class="section-head">
+    <h2 id="featured-title-drones">Featured stories</h2>
+    <p class="sub">Ten editorially selected stories. Replacing a featured slot does not remove the original article from the archive.</p>
+  </div>
+  <div class="published-grid" data-featured-list>
+    <div class="published-empty">Loading featured stories…</div>
+  </div>
+
+  <div class="section-head" style="margin-top:34px">
+    <h2 id="incoming-title-drones">Latest arrivals</h2>
+    <p class="sub">The ten newest published articles in this sector.</p>
+  </div>
+  <div class="published-grid" data-incoming-list>
+    <div class="published-empty">Loading latest articles…</div>
+  </div>
+
+  <p class="published-feed-status" data-feed-status role="status" aria-live="polite">Connecting to the publishing archive…</p>
+  <div class="published-archive-row">
+    <a class="published-archive-link" data-archive-link href="/research-articles/drones">View All Articles →</a>
+  </div>
+</section>
+<section class="note" aria-labelledby="editorial-note">
+  <h2 id="editorial-note">Our approach</h2>
+  <p>Stories are published only after editorial review. Article pages preserve source links and search metadata; extracted research metrics remain source-reported and should be checked against the original evidence.</p>
+</section>
+
+</main>
+<footer><div class="wrap foot"><span>Â© Machina Daily Â· The Machine World</span><span>Specialist page prototype</span></div></footer>
+
+<script>
+(function () {
+  "use strict";
+
+  const root = document.getElementById("md-metrics-widget");
+  if (!root) return;
+
+  const sector = root.dataset.sector;
+  const status = document.getElementById("md-metrics-status");
+  const count = document.getElementById("md-metrics-count");
+  const grid = document.getElementById("md-metrics-grid");
+
+  function element(tag, className, value) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (value !== undefined && value !== null) node.textContent = String(value);
+    return node;
+  }
+
+  function safeSourceUrl(value) {
+    if (!value) return null;
+    try {
+      const parsed = new URL(value, window.location.href);
+      if (parsed.protocol === "https:" || parsed.protocol === "http:") {
+        return parsed.href;
+      }
+    } catch (_) {}
+    return null;
+  }
+
+  function renderFact(fact) {
+    const card = element("article", "md-metric-card");
+    card.appendChild(element("h3", "md-metric-name", fact.metric_name || "Unnamed metric"));
+
+    const value = element("div", "md-metric-value");
+    const rawValue = fact.value === null || fact.value === undefined || fact.value === ""
+      ? "Value not recorded"
+      : String(fact.value);
+    value.appendChild(document.createTextNode(rawValue + " "));
+    if (fact.unit) value.appendChild(element("span", "md-metric-unit", fact.unit));
+    card.appendChild(value);
+
+    card.appendChild(element(
+      "p",
+      "md-metric-evidence",
+      fact.evidence_sentence || "No supporting sentence stored."
+    ));
+
+    const source = element("p", "md-metric-source");
+    const sourceUrl = safeSourceUrl(fact.source_url);
+    if (sourceUrl) {
+      const link = element("a", "", fact.source_name || "Read original source");
+      link.href = sourceUrl;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      source.appendChild(link);
+    } else {
+      source.appendChild(document.createTextNode(fact.source_name || "Source link unavailable"));
+    }
+    card.appendChild(source);
+
+    if (fact.title) {
+      card.appendChild(element("p", "md-metric-meta", "Research: " + fact.title));
+    }
+    if (fact.published) {
+      card.appendChild(element("p", "md-metric-meta", "Published: " + fact.published));
+    }
+
+    card.appendChild(element(
+      "span",
+      "md-metric-badge",
+      fact.status || "SOURCE_REPORTED_UNVERIFIED"
+    ));
+    return card;
+  }
+
+  async function loadMetrics() {
+    status.textContent = "Loading extracted research metrics…";
+    count.textContent = "Loading";
+    grid.replaceChildren();
+
+    try {
+      const response = await fetch(
+        "/dashboard/api/research/metric-facts?sector=" + encodeURIComponent(sector),
+        { headers: { "Accept": "application/json" } }
+      );
+
+      let data;
+      try {
+        data = await response.json();
+      } catch (_) {
+        throw new Error("The research API returned an unreadable response.");
+      }
+
+      if (!response.ok) {
+        throw new Error(data.error || ("Research API returned HTTP " + response.status));
+      }
+
+      const facts = Array.isArray(data.facts) ? data.facts : [];
+      count.textContent = facts.length + " metric" + (facts.length === 1 ? "" : "s");
+
+      if (!facts.length) {
+        status.textContent = "No extracted metric facts are currently available for this desk.";
+        grid.appendChild(element(
+          "div",
+          "md-metrics-empty",
+          "The widget is connected, but the index has no metric records for this sector yet."
+        ));
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+      facts.slice(0, 24).forEach(function (fact) {
+        fragment.appendChild(renderFact(fact));
+      });
+      grid.appendChild(fragment);
+
+      status.textContent =
+        "Showing " + Math.min(facts.length, 24) + " of " + facts.length +
+        " extracted records for " + sector + ". These claims have not been independently verified.";
+
+      if (facts.length > 24) {
+        const more = element(
+          "p",
+          "md-metrics-meta",
+          "Showing the 24 most recent records on this page. The API returned " +
+            facts.length + " records."
+        );
+        grid.after(more);
+      }
+    } catch (error) {
+      count.textContent = "Unavailable";
+      status.textContent = "Could not load research metrics: " +
+        (error && error.message ? error.message : "Unknown error") +
+        ". Check that the Machina Daily research API is running.";
+      grid.appendChild(element(
+        "div",
+        "md-metrics-empty",
+        "The rest of this specialist page remains available. Refresh the page to try again."
+      ));
+    }
+  }
+
+  loadMetrics();
+})();
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  document.querySelectorAll("[data-published-sector]").forEach(function (root) {
+    const sector = root.dataset.publishedSector;
+    const featuredList = root.querySelector("[data-featured-list]");
+    const incomingList = root.querySelector("[data-incoming-list]");
+    const status = root.querySelector("[data-feed-status]");
+    const archiveLink = root.querySelector("[data-archive-link]");
+
+    function node(tag, className, value) {
+      const item = document.createElement(tag);
+      if (className) item.className = className;
+      if (value !== undefined && value !== null) {
+        item.textContent = String(value);
+      }
+      return item;
+    }
+
+    function safeArticleUrl(value) {
+      if (typeof value !== "string") return null;
+      if (!/^\/(ai|drones|robotics|autonomy)\/[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value)) {
+        return null;
+      }
+      return value;
+    }
+
+    function makeCard(article, label) {
+      const card = node("article", "published-card");
+      card.appendChild(node("div", "published-index", label));
+
+      if (!article) {
+        card.appendChild(node("h3", "", "No story assigned"));
+        card.appendChild(node("p", "", "This featured slot is available for an approved article."));
+        return card;
+      }
+
+      card.appendChild(node("h3", "", article.title || "Untitled article"));
+
+      const summary = article.standfirst || article.description || "";
+      if (summary) card.appendChild(node("p", "", summary));
+
+      if (article.published_at) {
+        const date = new Date(article.published_at);
+        if (!Number.isNaN(date.getTime())) {
+          card.appendChild(node("div", "published-meta",
+            "Published " + date.toLocaleDateString(undefined, {
+              year: "numeric", month: "short", day: "numeric"
+            })
+          ));
+        }
+      }
+
+      const url = safeArticleUrl(article.url);
+      if (url) {
+        const link = node("a", "", "Read article");
+        link.href = url;
+        card.appendChild(link);
+      }
+      return card;
+    }
+
+    function showEmpty(container, message) {
+      container.replaceChildren(node("div", "published-empty", message));
+    }
+
+    async function loadPublishedStories() {
+      try {
+        const response = await fetch(
+          "/dashboard/api/published-stories?sector=" + encodeURIComponent(sector),
+          { headers: { "Accept": "application/json" } }
+        );
+        if (!response.ok) throw new Error("Feed returned HTTP " + response.status);
+
+        const data = await response.json();
+        if (data.sector !== sector) throw new Error("The returned sector did not match.");
+
+        const featured = Array.isArray(data.featured) ? data.featured : [];
+        const incoming = Array.isArray(data.incoming) ? data.incoming : [];
+
+        featuredList.replaceChildren();
+        for (let slot = 1; slot <= 10; slot++) {
+          const entry = featured.find(function (item) {
+            return Number(item.slot) === slot;
+          });
+          featuredList.appendChild(
+            makeCard(entry && entry.article ? entry.article : null,
+              "Featured / " + String(slot).padStart(2, "0"))
+          );
+        }
+
+        incomingList.replaceChildren();
+        if (incoming.length) {
+          incoming.slice(0, 10).forEach(function (article, index) {
+            incomingList.appendChild(
+              makeCard(article, "Latest / " + String(index + 1).padStart(2, "0"))
+            );
+          });
+        } else {
+          showEmpty(incomingList, "No articles have been published in this sector yet.");
+        }
+
+        const archive = typeof data.archive_url === "string" &&
+          data.archive_url === "/research-articles/" + sector
+          ? data.archive_url : "/research-articles/" + sector;
+        archiveLink.href = archive;
+        status.textContent =
+          "Showing " + incoming.length + " latest articles. " +
+          Number(data.total || 0) + " published in this sector overall.";
+      } catch (error) {
+        showEmpty(featuredList, "Featured stories could not be loaded. Please refresh to try again.");
+        showEmpty(incomingList, "Latest stories could not be loaded. Please refresh to try again.");
+        status.textContent = "Publishing feed unavailable: " +
+          (error && error.message ? error.message : "unknown error");
+      }
+    }
+
+    loadPublishedStories();
+  });
+})();
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
